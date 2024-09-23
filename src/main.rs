@@ -1,12 +1,15 @@
 use std::{collections::BTreeMap, fs, path::Path, sync::OnceLock};
 
+use clap::Parser;
 use reqwest::{
     blocking::{Client, ClientBuilder},
     header::REFERER,
 };
 use serde::{Deserialize, Serialize};
+use webp::{Encoder, WebPMemory};
 
-static CARD_MAPPING_PATH: &str = "assets/card_mapping.json";
+static CARD_MAPPING_FILE: &str = "assets/cards_info.json";
+static IMAGES_PATH: &str = "assets/img";
 
 fn http_client() -> &'static Client {
     static HTTP_CLIENT: OnceLock<Client> = OnceLock::new();
@@ -38,14 +41,40 @@ struct CardEntry {
     deck_type: String,
 }
 
+/// Scrap hOCG information from Deck Log
+#[derive(Parser, Debug)]
+#[command(version, about, long_about = None)]
+struct Args {
+    /// The card number to retrieve e.g. hSD01-001, hBP01 (default to all)
+    #[arg(short, long)]
+    filter: Option<String>,
+
+    /// Number of times to greet
+    #[arg(short, long)]
+    download_images: bool,
+}
+
 fn main() {
-    let set = "hYS01";
+    let args = Args::parse();
 
-    let mut all_cards = BTreeMap::new();
+    let cards = retrieve_card_info(&args);
+    merge_card_info(&cards);
 
-    if let Ok(s) = fs::read_to_string(CARD_MAPPING_PATH) {
-        all_cards = serde_json::from_str(&s).unwrap();
+    if args.download_images {
+        download_images(&cards);
     }
+
+    println!("done");
+}
+
+fn retrieve_card_info(args: &Args) -> Vec<CardEntry> {
+    if let Some(filter_number) = &args.filter {
+        println!("Retrieve cards info for filter: {filter_number}");
+    } else {
+        println!("Retrieve ALL cards info");
+    }
+
+    let mut all_cards = Vec::new();
 
     for deck_type in ["N", "OSHI", "YELL"] {
         for page in 1.. {
@@ -54,7 +83,7 @@ fn main() {
             let req = ApiSearchRequest {
                 param: ApiSearchParam {
                     deck_type: deck_type.into(),
-                    keyword: set.into(),
+                    keyword: args.filter.clone().unwrap_or_default(),
                     keyword_type: vec!["no".into()],
                 },
                 page,
@@ -85,17 +114,70 @@ fn main() {
                 card.img = card.img.replace(".png", ".webp");
             }
 
-            all_cards.extend(
-                cards
-                    .into_iter()
-                    .map(|e| (e.manage_id.parse::<u32>().unwrap(), e)),
-            );
+            all_cards.extend(cards);
         }
     }
 
-    if let Some(parent) = Path::new(CARD_MAPPING_PATH).parent() {
+    all_cards
+}
+
+fn merge_card_info(cards: &[CardEntry]) {
+    let mut all_cards = BTreeMap::new();
+
+    if let Ok(s) = fs::read_to_string(CARD_MAPPING_FILE) {
+        all_cards = serde_json::from_str(&s).unwrap();
+    }
+
+    all_cards.extend(
+        cards
+            .iter()
+            .cloned()
+            .map(|e| (e.manage_id.parse::<u32>().unwrap(), e)),
+    );
+
+    if let Some(parent) = Path::new(CARD_MAPPING_FILE).parent() {
         fs::create_dir_all(parent).unwrap();
     }
     let json = serde_json::to_string_pretty(&all_cards).unwrap();
-    fs::write(CARD_MAPPING_PATH, json).unwrap();
+    fs::write(CARD_MAPPING_FILE, json).unwrap();
+}
+
+fn download_images(cards: &[CardEntry]) {
+    println!("Downloading {} images...", cards.len());
+
+    let mut image_count = 0;
+
+    for card in cards {
+        image_count += 1;
+        if image_count % 10 == 0 {
+            println!("{image_count} images downloaded");
+        }
+
+        // https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-006_RR.png
+
+        let resp = http_client()
+            .get(format!(
+                "https://hololive-official-cardgame.com/wp-content/images/cardlist/{}",
+                card.img.replace(".webp", ".png")
+            ))
+            .header(REFERER, "https://decklog-en.bushiroad.com/")
+            .send()
+            .unwrap();
+
+        // Using `image` crate, open the included .jpg file
+        let img = image::load_from_memory(&resp.bytes().unwrap()).unwrap();
+
+        // Create the WebP encoder for the above image
+        let encoder: Encoder = Encoder::from_image(&img).unwrap();
+        // Encode the image at a specified quality 0-100
+        let webp: WebPMemory = encoder.encode(80.0);
+        // Define and write the WebP-encoded file to a given path
+        let path = format!("{IMAGES_PATH}/{}", card.img);
+        if let Some(parent) = Path::new(&path).parent() {
+            fs::create_dir_all(parent).unwrap();
+        }
+        std::fs::write(&path, &*webp).unwrap();
+    }
+
+    println!("{image_count} images downloaded");
 }
