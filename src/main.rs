@@ -19,12 +19,13 @@ fn http_client() -> &'static Client {
 #[derive(Debug, Serialize)]
 #[serde(rename_all = "snake_case")]
 struct ApiSearchRequest {
-    param: ApiSearchParam,
     page: u32,
+    param: ApiSearchParam,
 }
 #[derive(Debug, Serialize)]
 #[serde(rename_all = "snake_case")]
 struct ApiSearchParam {
+    deck_param1: String,
     deck_type: String,
     keyword: String,
     keyword_type: Vec<String>,
@@ -36,9 +37,16 @@ struct CardEntry {
     manage_id: String,
     card_number: String,
     img: String,
-    max: u32,
+    max: StringOrNumber,
     #[serde(default)]
     deck_type: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(untagged)]
+enum StringOrNumber {
+    String(String),
+    Number(u32),
 }
 
 /// Scrap hOCG information from Deck Log
@@ -82,6 +90,7 @@ fn retrieve_card_info(args: &Args) -> Vec<CardEntry> {
 
             let req = ApiSearchRequest {
                 param: ApiSearchParam {
+                    deck_param1: "S".into(),
                     deck_type: deck_type.into(),
                     keyword: args.filter.clone().unwrap_or_default(),
                     keyword_type: vec!["no".into()],
@@ -90,13 +99,14 @@ fn retrieve_card_info(args: &Args) -> Vec<CardEntry> {
             };
 
             let resp = http_client()
-                .post("https://decklog-en.bushiroad.com/system/app-ja/api/search/108")
-                .header(REFERER, "https://decklog-en.bushiroad.com/")
+                .post("https://decklog.bushiroad.com/system/app/api/search/9")
+                .header(REFERER, "https://decklog.bushiroad.com/")
                 .json(&req)
                 .send()
                 .unwrap();
 
             let content = resp.text().unwrap();
+            println!("{content}");
             let cards = serde_json::from_str(&content);
             let Ok(mut cards): Result<Vec<CardEntry>, _> = cards else {
                 eprintln!("didn't like response: {content}");
@@ -112,6 +122,10 @@ fn retrieve_card_info(args: &Args) -> Vec<CardEntry> {
             for card in &mut cards {
                 card.deck_type = deck_type.into();
                 card.img = card.img.replace(".png", ".webp");
+                card.max = StringOrNumber::Number(match &card.max {
+                    StringOrNumber::String(s) => s.parse().expect("should be a number"),
+                    StringOrNumber::Number(n) => *n,
+                });
             }
 
             all_cards.extend(cards);
@@ -160,7 +174,7 @@ fn download_images(cards: &[CardEntry]) {
                 "https://hololive-official-cardgame.com/wp-content/images/cardlist/{}",
                 card.img.replace(".webp", ".png")
             ))
-            .header(REFERER, "https://decklog-en.bushiroad.com/")
+            .header(REFERER, "https://decklog.bushiroad.com/")
             .send()
             .unwrap();
 
