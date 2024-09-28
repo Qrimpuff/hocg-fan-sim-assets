@@ -276,7 +276,7 @@
     "manage_id": "40",
     "card_number": "hBP01-009",
     "img": "hBP01/hBP01-009_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "41": {
@@ -325,7 +325,7 @@
     "manage_id": "47",
     "card_number": "hBP01-015",
     "img": "hBP01/hBP01-015_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "48": {
@@ -367,7 +367,7 @@
     "manage_id": "53",
     "card_number": "hBP01-021",
     "img": "hBP01/hBP01-021_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "54": {
@@ -395,7 +395,7 @@
     "manage_id": "57",
     "card_number": "hBP01-024",
     "img": "hBP01/hBP01-024_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "58": {
@@ -430,7 +430,7 @@
     "manage_id": "62",
     "card_number": "hBP01-028",
     "img": "hBP01/hBP01-028_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "63": {
@@ -458,7 +458,7 @@
     "manage_id": "66",
     "card_number": "hBP01-032",
     "img": "hBP01/hBP01-032_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "67": {
@@ -500,7 +500,7 @@
     "manage_id": "72",
     "card_number": "hBP01-038",
     "img": "hBP01/hBP01-038_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "73": {
@@ -549,7 +549,7 @@
     "manage_id": "79",
     "card_number": "hBP01-044",
     "img": "hBP01/hBP01-044_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "80": {
@@ -584,7 +584,7 @@
     "manage_id": "84",
     "card_number": "hBP01-048",
     "img": "hBP01/hBP01-048_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "85": {
@@ -619,7 +619,7 @@
     "manage_id": "89",
     "card_number": "hBP01-052",
     "img": "hBP01/hBP01-052_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "90": {
@@ -647,7 +647,7 @@
     "manage_id": "93",
     "card_number": "hBP01-056",
     "img": "hBP01/hBP01-056_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "94": {
@@ -689,7 +689,7 @@
     "manage_id": "99",
     "card_number": "hBP01-062",
     "img": "hBP01/hBP01-062_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "100": {
@@ -738,7 +738,7 @@
     "manage_id": "106",
     "card_number": "hBP01-068",
     "img": "hBP01/hBP01-068_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "107": {
@@ -773,7 +773,7 @@
     "manage_id": "111",
     "card_number": "hBP01-072",
     "img": "hBP01/hBP01-072_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "112": {
@@ -801,7 +801,7 @@
     "manage_id": "115",
     "card_number": "hBP01-076",
     "img": "hBP01/hBP01-076_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "116": {
@@ -850,7 +850,7 @@
     "manage_id": "122",
     "card_number": "hBP01-082",
     "img": "hBP01/hBP01-082_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "123": {
@@ -892,7 +892,7 @@
     "manage_id": "128",
     "card_number": "hBP01-088",
     "img": "hBP01/hBP01-088_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "129": {
@@ -927,7 +927,7 @@
     "manage_id": "133",
     "card_number": "hBP01-092",
     "img": "hBP01/hBP01-092_C.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "134": {
@@ -1249,56 +1249,56 @@
     "manage_id": "179",
     "card_number": "hBP01-015",
     "img": "hPR/hBP01-015_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "180": {
     "manage_id": "180",
     "card_number": "hBP01-024",
     "img": "hPR/hBP01-024_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "181": {
     "manage_id": "181",
     "card_number": "hBP01-032",
     "img": "hPR/hBP01-032_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "182": {
     "manage_id": "182",
     "card_number": "hBP01-048",
     "img": "hPR/hBP01-048_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "183": {
     "manage_id": "183",
     "card_number": "hBP01-068",
     "img": "hPR/hBP01-068_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "184": {
     "manage_id": "184",
     "card_number": "hBP01-072",
     "img": "hPR/hBP01-072_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "185": {
     "manage_id": "185",
     "card_number": "hBP01-076",
     "img": "hPR/hBP01-076_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "186": {
     "manage_id": "186",
     "card_number": "hBP01-092",
     "img": "hPR/hBP01-092_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "187": {
@@ -1333,56 +1333,56 @@
     "manage_id": "191",
     "card_number": "hBP01-009",
     "img": "hPR/hBP01-009_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "192": {
     "manage_id": "192",
     "card_number": "hBP01-021",
     "img": "hPR/hBP01-021_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "193": {
     "manage_id": "193",
     "card_number": "hBP01-044",
     "img": "hPR/hBP01-044_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "194": {
     "manage_id": "194",
     "card_number": "hBP01-038",
     "img": "hPR/hBP01-038_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "195": {
     "manage_id": "195",
     "card_number": "hBP01-056",
     "img": "hPR/hBP01-056_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "196": {
     "manage_id": "196",
     "card_number": "hBP01-062",
     "img": "hPR/hBP01-062_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "197": {
     "manage_id": "197",
     "card_number": "hBP01-082",
     "img": "hPR/hBP01-082_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   },
   "198": {
     "manage_id": "198",
     "card_number": "hBP01-088",
     "img": "hPR/hBP01-088_P.webp",
-    "max": 4,
+    "max": 50,
     "deck_type": "N"
   }
 }
