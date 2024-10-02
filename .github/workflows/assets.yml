@@ -1,0 +1,38 @@
+name: Generate assets
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Run at 04:00 utc 
+  schedule:
+    - cron: '0 4 * * *'
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      
+      - name: Copy cards info
+        run: |
+          mkdir assets --parents
+          git fetch origin gh-pages:gh-pages --force
+          git show gh-pages:cards_info.json > assets/cards_info.json
+        
+      - name: Run
+        run: cargo run --release -- --download-images
+        
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: assets # The folder the action should deploy.
+          clean: false
+          commit-message: 'Update assets'
