@@ -1606,5 +1606,13 @@
     "max": 50,
     "deck_type": "N",
     "img_last_modified": "Tue, 01 Oct 2024 11:53:49 GMT"
+  },
+  "202": {
+    "manage_id": "202",
+    "card_number": "hBD24-001",
+    "img": "hPR/hBD24-001_P.webp",
+    "max": 4,
+    "deck_type": "OSHI",
+    "img_last_modified": "Fri, 04 Oct 2024 07:48:34 GMT"
   }
 }
