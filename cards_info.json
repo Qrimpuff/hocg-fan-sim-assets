@@ -1816,5 +1816,23 @@
     "deck_type": "OSHI",
     "img_last_modified": "Fri, 04 Oct 2024 07:48:34 GMT",
     "img_proxy_en": null
+  },
+  "203": {
+    "manage_id": "203",
+    "card_number": "hBD24-006",
+    "img": "hPR/hBD24-006_P.webp",
+    "max": 4,
+    "deck_type": "OSHI",
+    "img_last_modified": "Thu, 17 Oct 2024 10:42:19 GMT",
+    "img_proxy_en": null
+  },
+  "204": {
+    "manage_id": "204",
+    "card_number": "hBP02-028",
+    "img": "hPR/hBP02-028_P.webp",
+    "max": 4,
+    "deck_type": "N",
+    "img_last_modified": "Thu, 17 Oct 2024 10:54:36 GMT",
+    "img_proxy_en": null
   }
 }
