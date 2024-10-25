@@ -4,9 +4,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Run at 04:00 utc 
+  # Run at 15:00 utc / 00:00 jst
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 15 * * *'
 env:
   CARGO_TERM_COLOR: always
 

@@ -1,11 +1,13 @@
 use std::{
     collections::{BTreeMap, HashMap},
-    fs,
+    fs::{self, File},
+    io::{Read, Write},
     path::{Path, PathBuf},
     sync::{atomic::AtomicU32, Arc, OnceLock},
 };
 
 use clap::Parser;
+use oxipng::{InFile, Options, OutFile};
 use parking_lot::{Mutex, RwLock, RwLockReadGuard, RwLockWriteGuard};
 use rayon::iter::{
     IntoParallelIterator, IntoParallelRefIterator, ParallelBridge, ParallelIterator,
@@ -15,12 +17,11 @@ use reqwest::{
     header::{LAST_MODIFIED, REFERER},
 };
 use serde::{Deserialize, Serialize};
+use tempfile::TempDir;
 use walkdir::WalkDir;
 use webp::{Encoder, WebPMemory};
+use zip::write::SimpleFileOptions;
 
-static CARD_MAPPING_FILE: &str = "assets/cards_info.json";
-static IMAGES_PATH: &str = "assets/img";
-static IMAGES_PROXY_PATH: &str = "assets/img_proxy_en";
 static WEBP_QUALITY: f32 = 80.0;
 
 fn http_client() -> &'static Client {
@@ -78,13 +79,21 @@ struct Args {
     #[arg(short = 'x', long)]
     expansion: Option<String>,
 
-    /// Download card images as webp
+    /// Download card images as WebP
     #[arg(short = 'i', long)]
     download_images: bool,
 
-    /// Always download card images as webp
+    /// Always download card images as WebP
     #[arg(short = 'f', long)]
     force_download: bool,
+
+    /// Download the original PNG images instead of converting to WebP
+    #[arg(short = 'o', long)]
+    optimized_original_images: bool,
+
+    /// Package the image into a zip file
+    #[arg(short = 'z', long)]
+    zip_images: bool,
 
     /// Don't read existing file
     #[arg(short = 'c', long)]
@@ -93,35 +102,74 @@ struct Args {
     /// The path to the english proxy folder
     #[arg(short = 'p', long)]
     proxy_path: Option<PathBuf>,
+
+    /// The folder that contains the assets i.e. card info, images, proxies
+    #[arg(long, default_value = "assets")]
+    assets_path: PathBuf,
 }
 
 fn main() {
     let args = Args::parse();
 
     let mut all_cards: BTreeMap<u32, CardEntry> = BTreeMap::new();
+
+    // create a temporary folder for the zip file content
+    let temp = args.zip_images.then_some(TempDir::new().unwrap());
+    let assets_path = if let Some(temp) = &temp {
+        temp.path()
+    } else {
+        args.assets_path.as_path()
+    };
+
+    let card_mapping_file = assets_path.join("cards_info.json");
+    let images_path = assets_path.join("img");
+    let images_proxy_path = assets_path.join("img_proxy_en");
+
     // load file
     if !args.clean {
-        if let Ok(s) = fs::read_to_string(CARD_MAPPING_FILE) {
+        if let Ok(s) = fs::read_to_string(&card_mapping_file) {
             all_cards = serde_json::from_str(&s).unwrap();
         }
     }
 
-    let filtered_cards = retrieve_card_info(&mut all_cards, &args.number_filter, &args.expansion);
+    let filtered_cards = retrieve_card_info(
+        &mut all_cards,
+        &args.number_filter,
+        &args.expansion,
+        args.optimized_original_images,
+    );
 
     if args.download_images {
-        download_images(&filtered_cards, &mut all_cards, args.force_download);
+        download_images(
+            &filtered_cards,
+            &images_path,
+            &mut all_cards,
+            args.force_download,
+            args.optimized_original_images,
+        );
     }
 
     if let Some(path) = args.proxy_path {
-        prepare_proxy_images(&filtered_cards, &mut all_cards, path);
+        prepare_proxy_images(&filtered_cards, &images_proxy_path, &mut all_cards, path);
     }
 
     // save file
-    if let Some(parent) = Path::new(CARD_MAPPING_FILE).parent() {
+    if let Some(parent) = Path::new(&card_mapping_file).parent() {
         fs::create_dir_all(parent).unwrap();
     }
     let json = serde_json::to_string_pretty(&all_cards).unwrap();
-    fs::write(CARD_MAPPING_FILE, json).unwrap();
+    fs::write(card_mapping_file, json).unwrap();
+
+    if args.zip_images {
+        zip_images(
+            &format!(
+                "{}-images",
+                args.expansion.as_deref().unwrap_or("hocg").to_lowercase()
+            ),
+            &args.assets_path,
+            &images_path,
+        );
+    }
 
     println!("done");
 }
@@ -130,6 +178,7 @@ fn retrieve_card_info(
     all_cards: &mut BTreeMap<u32, CardEntry>,
     number_filter: &Option<String>,
     expansion: &Option<String>,
+    optimized_original_images: bool,
 ) -> Vec<u32> {
     if number_filter.is_none() && expansion.is_none() {
         println!("Retrieve ALL cards info");
@@ -192,7 +241,9 @@ fn retrieve_card_info(
                             // update records with deck type and webp images
                             for mut card in cards {
                                 card.deck_type = deck_type.into();
-                                card.img = card.img.replace(".png", ".webp");
+                                if !optimized_original_images {
+                                    card.img = card.img.replace(".png", ".webp");
+                                }
                                 card.max = StringOrNumber::Number(match &card.max {
                                     StringOrNumber::String(s) => {
                                         s.parse().expect("should be a number")
@@ -232,8 +283,10 @@ fn retrieve_card_info(
 
 fn download_images(
     filtered_cards: &[u32],
+    images_path: &Path,
     all_cards: &mut BTreeMap<u32, CardEntry>,
     force_download: bool,
+    optimized_original_images: bool,
 ) {
     println!("Downloading {} images...", filtered_cards.len());
 
@@ -301,16 +354,32 @@ fn download_images(
                 // Using `image` crate, open the included .jpg file
                 let img = image::load_from_memory(&resp.bytes().unwrap()).unwrap();
 
-                // Create the WebP encoder for the above image
-                let encoder: Encoder = Encoder::from_image(&img).unwrap();
-                // Encode the image at a specified quality 0-100
-                let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
-                // Define and write the WebP-encoded file to a given path
-                let path = format!("{IMAGES_PATH}/{}", card.img);
-                if let Some(parent) = Path::new(&path).parent() {
-                    fs::create_dir_all(parent).unwrap();
+                if optimized_original_images {
+                    let path = images_path.join(&card.img);
+                    if let Some(parent) = Path::new(&path).parent() {
+                        fs::create_dir_all(parent).unwrap();
+                    }
+                    img.save(&path).unwrap();
+
+                    // optimize the image
+                    oxipng::optimize(
+                        &InFile::from(&path),
+                        &OutFile::from_path(path),
+                        &Options::default(),
+                    )
+                    .unwrap();
+                } else {
+                    // Create the WebP encoder for the above image
+                    let encoder: Encoder = Encoder::from_image(&img).unwrap();
+                    // Encode the image at a specified quality 0-100
+                    let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
+                    // Define and write the WebP-encoded file to a given path
+                    let path = images_path.join(card.img.replace(".png", ".webp"));
+                    if let Some(parent) = Path::new(&path).parent() {
+                        fs::create_dir_all(parent).unwrap();
+                    }
+                    std::fs::write(&path, &*webp).unwrap();
                 }
-                std::fs::write(&path, &*webp).unwrap();
 
                 image_count.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                 let image_count = image_count.load(std::sync::atomic::Ordering::Relaxed);
@@ -333,6 +402,7 @@ fn download_images(
 
 fn prepare_proxy_images(
     filtered_cards: &[u32],
+    images_proxy_path: &Path,
     all_cards: &mut BTreeMap<u32, CardEntry>,
     proxy_path: PathBuf,
 ) {
@@ -387,13 +457,13 @@ fn prepare_proxy_images(
                 // Encode the image at a specified quality 0-100
                 let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
                 // Define and write the WebP-encoded file to a given path
-                let path = format!("{IMAGES_PROXY_PATH}/{}", card.img);
+                let path = images_proxy_path.join(card.img.replace(".png", ".webp"));
                 if let Some(parent) = Path::new(&path).parent() {
                     fs::create_dir_all(parent).unwrap();
                 }
                 std::fs::write(&path, &*webp).unwrap();
 
-                img_proxy_en = Some(card.img.clone());
+                img_proxy_en = Some(card.img.replace(".png", ".webp"));
 
                 image_count.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                 let image_count = image_count.load(std::sync::atomic::Ordering::Relaxed);
@@ -412,4 +482,37 @@ fn prepare_proxy_images(
     let image_count = image_count.load(std::sync::atomic::Ordering::Relaxed);
     let image_skipped = image_skipped.load(std::sync::atomic::Ordering::Relaxed);
     println!("{image_count} images copied ({image_skipped} not found)");
+}
+
+fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
+    let file_path = assets_path.join(file_name).with_extension("zip");
+    let file = File::create(&file_path).unwrap();
+
+    let mut zip = zip::ZipWriter::new(file);
+    let options = SimpleFileOptions::default();
+
+    let prefix = images_path;
+    let mut buffer = Vec::new();
+    for entry in WalkDir::new(images_path).into_iter().filter_map(|e| e.ok()) {
+        let path = entry.path();
+        let name = path.strip_prefix(prefix).unwrap();
+
+        // Write file or directory explicitly
+        // Some unzip tools unzip files with directory paths correctly, some do not!
+        if path.is_file() {
+            zip.start_file_from_path(name, options).unwrap();
+            let mut f = File::open(path).unwrap();
+
+            f.read_to_end(&mut buffer).unwrap();
+            zip.write_all(&buffer).unwrap();
+            buffer.clear();
+        } else if !name.as_os_str().is_empty() {
+            // Only if not root! Avoids path spec / warning
+            // and mapname conversion failed error on unzip
+            zip.add_directory_from_path(name, options).unwrap();
+        }
+    }
+    zip.finish().unwrap();
+
+    println!("Created {}", file_path.to_str().unwrap());
 }
