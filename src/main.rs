@@ -7,6 +7,7 @@ use std::{
 };
 
 use clap::Parser;
+use indexmap::IndexMap;
 use oxipng::{InFile, Options, OutFile};
 use parking_lot::{Mutex, RwLock, RwLockReadGuard, RwLockWriteGuard};
 use rayon::iter::{
@@ -16,6 +17,7 @@ use reqwest::{
     blocking::{Client, ClientBuilder},
     header::{LAST_MODIFIED, REFERER},
 };
+use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use tempfile::TempDir;
 use walkdir::WalkDir;
@@ -50,6 +52,7 @@ struct ApiSearchParam {
 struct CardEntry {
     manage_id: String,
     card_number: String,
+    rare: String,
     img: String,
     max: StringOrNumber,
     #[serde(default)]
@@ -58,6 +61,8 @@ struct CardEntry {
     img_last_modified: Option<String>,
     #[serde(default)]
     img_proxy_en: Option<String>,
+    #[serde(default)]
+    yuyutei_sell_url: Option<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -106,6 +111,14 @@ struct Args {
     /// The folder that contains the assets i.e. card info, images, proxies
     #[arg(long, default_value = "assets")]
     assets_path: PathBuf,
+
+    /// Don't update the cards info
+    #[arg(long)]
+    skip_update: bool,
+
+    /// Update the yuyu-tei.jp urls for the cards. can only be use when all cards are searched
+    #[arg(long)]
+    yuyutei_urls: bool,
 }
 
 fn main() {
@@ -132,12 +145,16 @@ fn main() {
         }
     }
 
-    let filtered_cards = retrieve_card_info(
-        &mut all_cards,
-        &args.number_filter,
-        &args.expansion,
-        args.optimized_original_images,
-    );
+    let filtered_cards = if args.skip_update {
+        all_cards.keys().copied().collect()
+    } else {
+        retrieve_card_info(
+            &mut all_cards,
+            &args.number_filter,
+            &args.expansion,
+            args.optimized_original_images,
+        )
+    };
 
     if args.download_images {
         download_images(
@@ -151,6 +168,14 @@ fn main() {
 
     if let Some(path) = args.proxy_path {
         prepare_proxy_images(&filtered_cards, &images_proxy_path, &mut all_cards, path);
+    }
+
+    if args.yuyutei_urls {
+        if args.number_filter.is_some() || args.expansion.is_some() {
+            eprintln!("WARNING: SKIPPING YUYUTEI. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
+        } else {
+            yuyutei(&mut all_cards);
+        }
     }
 
     // save file
@@ -261,6 +286,7 @@ fn retrieve_card_info(
                                         |c| {
                                             // only these fields are retrieved
                                             c.card_number = card.card_number;
+                                            c.rare = card.rare;
                                             c.img = card.img;
                                             c.max = card.max;
                                             c.deck_type = card.deck_type;
@@ -515,4 +541,107 @@ fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
     zip.finish().unwrap();
 
     println!("Created {}", file_path.to_str().unwrap());
+}
+
+fn yuyutei(all_cards: &mut BTreeMap<u32, CardEntry>) {
+    let mut urls = IndexMap::new();
+
+    // handle multiple pages (one page is 600 cards)
+    for page in 1..=(all_cards.len() as f32 / 600.0).ceil() as u32 {
+        let resp = http_client()
+            .get("https://yuyu-tei.jp/sell/hocg/s/search")
+            .query(&[("search_word", ""), ("page", page.to_string().as_str())])
+            .send()
+            .unwrap();
+
+        let content = resp.text().unwrap();
+        // println!("{content}");
+
+        let document = Html::parse_document(&content);
+        let card_lists = Selector::parse("#card-list3").unwrap();
+        let rarity_select = Selector::parse("h3 span").unwrap();
+        let cards_select = Selector::parse(".card-product").unwrap();
+        let number_select = Selector::parse("span").unwrap();
+        let url_select = Selector::parse("a").unwrap();
+
+        for card_list in document.select(&card_lists) {
+            let rarity: String = card_list
+                .select(&rarity_select)
+                .next()
+                .unwrap()
+                .text()
+                .collect();
+            for card in card_list.select(&cards_select) {
+                let number: String = card.select(&number_select).next().unwrap().text().collect();
+                let url = card.select(&url_select).next().unwrap().attr("href");
+                if let Some(url) = url {
+                    // group them by url
+                    urls.entry(url.to_owned())
+                        .or_insert((number, rarity.clone()));
+                }
+            }
+        }
+    }
+    println!("Found {} Yuyutei urls...", urls.len());
+
+    let mut url_count = 0;
+    let mut url_skipped = 0;
+
+    // println!("BEFORE: {urls:#?}");
+    // remove existing urls
+    let mut existing_urls = HashMap::new();
+    for card in all_cards
+        .values_mut()
+        .filter(|c| c.yuyutei_sell_url.is_some())
+    {
+        if let Some(yuyutei_sell_url) = &card.yuyutei_sell_url {
+            if urls.shift_remove(yuyutei_sell_url).is_some() {
+                url_skipped += 1;
+            }
+            // group by image, some entries are duplicated, like hSD01-016
+            existing_urls
+                .entry(card.img.clone())
+                .or_insert(yuyutei_sell_url.clone());
+        }
+    }
+
+    // swap keys and values
+    let mut urls: HashMap<_, Vec<_>> = urls.into_iter().fold(HashMap::new(), |mut map, (k, v)| {
+        map.entry(v).or_default().push(k);
+        map
+    });
+
+    // println!("BETWEEN: {urls:#?}");
+    // add the remaining urls
+    for card in all_cards
+        .values_mut()
+        .filter(|c| c.yuyutei_sell_url.is_none())
+    {
+        // look some same image first
+        if let Some(yuyutei_sell_url) = existing_urls.get(&card.img) {
+            card.yuyutei_sell_url = Some(yuyutei_sell_url.clone());
+        } else if let Some(urls) = urls.get_mut(&(card.card_number.clone(), card.rare.clone())) {
+            if !urls.is_empty() {
+                // take the first url (should be in chronological order, with some exceptions)
+                let yuyutei_sell_url = urls.remove(0);
+                card.yuyutei_sell_url = Some(yuyutei_sell_url.clone());
+                // group by image, some entries are duplicated
+                existing_urls
+                    .entry(card.img.clone())
+                    .or_insert(yuyutei_sell_url);
+                url_count += 1;
+            }
+        }
+    }
+
+    // remove empty urls
+    urls.retain(|_, urls| !urls.is_empty());
+    // println!("AFTER: {urls:#?}");
+
+    println!("{url_count} Yuyutei urls updated ({url_skipped} skipped)");
+    for ((number, rare), urls) in urls {
+        for url in urls {
+            println!("MISSING: [{number}, {rare}] - {url}");
+        }
+    }
 }

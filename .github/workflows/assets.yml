@@ -27,7 +27,7 @@ jobs:
           git show gh-pages:cards_info.json > assets/cards_info.json
         
       - name: Run
-        run: cargo run --release -- --download-images
+        run: cargo run --release -- --download-images --yuyutei-urls
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
