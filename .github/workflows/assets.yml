@@ -27,6 +27,8 @@ jobs:
           git show gh-pages:cards_info.json > assets/cards_info.json
         
       - name: Run
+        env:
+          SCRAPERAPI_API_KEY: ${{ secrets.SCRAPERAPI_API_KEY }}
         run: cargo run --release -- --download-images --yuyutei-urls
         
       - name: Deploy

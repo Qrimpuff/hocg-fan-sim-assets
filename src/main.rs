@@ -16,6 +16,7 @@ use rayon::iter::{
 use reqwest::{
     blocking::{Client, ClientBuilder},
     header::{LAST_MODIFIED, REFERER},
+    Url,
 };
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
@@ -546,13 +547,30 @@ fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
 fn yuyutei(all_cards: &mut BTreeMap<u32, CardEntry>) {
     let mut urls = IndexMap::new();
 
+    let scraperapi_key = std::env::var("SCRAPERAPI_API_KEY").ok();
+    if scraperapi_key.is_some() {
+        println!("using scraperapi.com");
+    }
+
     // handle multiple pages (one page is 600 cards)
     for page in 1..=(all_cards.len() as f32 / 600.0).ceil() as u32 {
-        let resp = http_client()
-            .get("https://yuyu-tei.jp/sell/hocg/s/search")
-            .query(&[("search_word", ""), ("page", page.to_string().as_str())])
-            .send()
-            .unwrap();
+        let mut url = Url::parse("https://yuyu-tei.jp/sell/hocg/s/search").unwrap();
+        url.query_pairs_mut()
+            .append_pair("search_word", "")
+            .append_pair("page", page.to_string().as_str());
+        let resp = if let Some(scraperapi_key) = &scraperapi_key {
+            http_client()
+                .get("https://api.scraperapi.com/")
+                .query(&[
+                    ("api_key", scraperapi_key.as_str()),
+                    ("url", url.as_str()),
+                    ("session_number", "1"),
+                ])
+                .send()
+                .unwrap()
+        } else {
+            http_client().get(url.clone()).send().unwrap()
+        };
 
         let content = resp.text().unwrap();
         // println!("{content}");
