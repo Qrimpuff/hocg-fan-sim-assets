@@ -4,6 +4,7 @@ use std::{
     io::{Read, Write},
     path::{Path, PathBuf},
     sync::{atomic::AtomicU32, Arc, OnceLock},
+    time::Duration,
 };
 
 use clap::Parser;
@@ -564,8 +565,9 @@ fn yuyutei(all_cards: &mut BTreeMap<u32, CardEntry>) {
                 .query(&[
                     ("api_key", scraperapi_key.as_str()),
                     ("url", url.as_str()),
-                    ("session_number", "1"),
+                    ("session_number", "123"),
                 ])
+                .timeout(Duration::from_secs(70))
                 .send()
                 .unwrap()
         } else {
