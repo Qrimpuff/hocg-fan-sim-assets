@@ -1,5 +1,5 @@
 use std::{
-    collections::{BTreeMap, HashMap},
+    collections::HashMap,
     fs::{self, File},
     io::{Read, Write},
     path::{Path, PathBuf},
@@ -8,6 +8,7 @@ use std::{
 };
 
 use clap::Parser;
+use hocg_fan_sim_assets_model::{CardEntry, CardsInfoMap};
 use indexmap::IndexMap;
 use oxipng::{InFile, Options, OutFile};
 use parking_lot::{Mutex, RwLock, RwLockReadGuard, RwLockWriteGuard};
@@ -20,7 +21,7 @@ use reqwest::{
     Url,
 };
 use scraper::{Html, Selector};
-use serde::{Deserialize, Serialize};
+use serde::Serialize;
 use tempfile::TempDir;
 use walkdir::WalkDir;
 use webp::{Encoder, WebPMemory};
@@ -31,47 +32,6 @@ static WEBP_QUALITY: f32 = 80.0;
 fn http_client() -> &'static Client {
     static HTTP_CLIENT: OnceLock<Client> = OnceLock::new();
     HTTP_CLIENT.get_or_init(|| ClientBuilder::new().cookie_store(true).build().unwrap())
-}
-
-#[derive(Debug, Serialize)]
-#[serde(rename_all = "snake_case")]
-struct ApiSearchRequest {
-    page: u32,
-    param: ApiSearchParam,
-}
-#[derive(Debug, Serialize)]
-#[serde(rename_all = "snake_case")]
-struct ApiSearchParam {
-    deck_param1: String,
-    deck_type: String,
-    keyword: String,
-    keyword_type: Vec<String>,
-    expansion: String,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
-struct CardEntry {
-    manage_id: String,
-    card_number: String,
-    rare: String,
-    img: String,
-    max: StringOrNumber,
-    #[serde(default)]
-    deck_type: String,
-    #[serde(default)]
-    img_last_modified: Option<String>,
-    #[serde(default)]
-    img_proxy_en: Option<String>,
-    #[serde(default)]
-    yuyutei_sell_url: Option<String>,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(untagged)]
-enum StringOrNumber {
-    String(String),
-    Number(u32),
 }
 
 /// Scrap hOCG information from Deck Log
@@ -121,12 +81,16 @@ struct Args {
     /// Update the yuyu-tei.jp urls for the cards. can only be use when all cards are searched
     #[arg(long)]
     yuyutei_urls: bool,
+
+    /// Use holoDelta to import missing/unreleased cards data
+    #[arg(long)]
+    import_holodelta: bool,
 }
 
 fn main() {
     let args = Args::parse();
 
-    let mut all_cards: BTreeMap<u32, CardEntry> = BTreeMap::new();
+    let mut all_cards: CardsInfoMap = CardsInfoMap::new();
 
     // create a temporary folder for the zip file content
     let temp = args.zip_images.then_some(TempDir::new().unwrap());
@@ -148,8 +112,10 @@ fn main() {
     }
 
     let filtered_cards = if args.skip_update {
-        all_cards.keys().copied().collect()
+        // don't include unreleased cards
+        all_cards.keys().filter(|k| **k > 0).copied().collect()
     } else {
+        // import cards info from Deck Log
         retrieve_card_info(
             &mut all_cards,
             &args.number_filter,
@@ -158,6 +124,7 @@ fn main() {
         )
     };
 
+    // add official images
     if args.download_images {
         download_images(
             &filtered_cards,
@@ -168,16 +135,23 @@ fn main() {
         );
     }
 
+    // add proxy images
     if let Some(path) = args.proxy_path {
         prepare_proxy_images(&filtered_cards, &images_proxy_path, &mut all_cards, path);
     }
 
+    // update yuyutei price
     if args.yuyutei_urls {
         if args.number_filter.is_some() || args.expansion.is_some() {
             eprintln!("WARNING: SKIPPING YUYUTEI. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
         } else {
             yuyutei(&mut all_cards);
         }
+    }
+
+    // import from holoDelta
+    if args.import_holodelta {
+        import_holodelta(&mut all_cards);
     }
 
     // save file
@@ -202,7 +176,7 @@ fn main() {
 }
 
 fn retrieve_card_info(
-    all_cards: &mut BTreeMap<u32, CardEntry>,
+    all_cards: &mut CardsInfoMap,
     number_filter: &Option<String>,
     expansion: &Option<String>,
     optimized_original_images: bool,
@@ -233,6 +207,22 @@ fn retrieve_card_info(
                         let all_cards = all_cards.clone();
                         move |page| {
                             println!("deck type: {deck_type}, page: {page}");
+
+                            #[derive(Debug, Serialize)]
+                            #[serde(rename_all = "snake_case")]
+                            struct ApiSearchRequest {
+                                page: u32,
+                                param: ApiSearchParam,
+                            }
+                            #[derive(Debug, Serialize)]
+                            #[serde(rename_all = "snake_case")]
+                            struct ApiSearchParam {
+                                deck_param1: String,
+                                deck_type: String,
+                                keyword: String,
+                                keyword_type: Vec<String>,
+                                expansion: String,
+                            }
 
                             let req = ApiSearchRequest {
                                 param: ApiSearchParam {
@@ -271,12 +261,6 @@ fn retrieve_card_info(
                                 if !optimized_original_images {
                                     card.img = card.img.replace(".png", ".webp");
                                 }
-                                card.max = StringOrNumber::Number(match &card.max {
-                                    StringOrNumber::String(s) => {
-                                        s.parse().expect("should be a number")
-                                    }
-                                    StringOrNumber::Number(n) => *n,
-                                });
 
                                 let key = card.manage_id.parse::<u32>().unwrap();
                                 filtered_cards.lock().push(key);
@@ -285,7 +269,7 @@ fn retrieve_card_info(
                                     .entry(key)
                                     .and_modify({
                                         let card = card.clone();
-                                        |c| {
+                                        move |c| {
                                             // only these fields are retrieved
                                             c.card_number = card.card_number;
                                             c.rare = card.rare;
@@ -312,7 +296,7 @@ fn retrieve_card_info(
 fn download_images(
     filtered_cards: &[u32],
     images_path: &Path,
-    all_cards: &mut BTreeMap<u32, CardEntry>,
+    all_cards: &mut CardsInfoMap,
     force_download: bool,
     optimized_original_images: bool,
 ) {
@@ -431,7 +415,7 @@ fn download_images(
 fn prepare_proxy_images(
     filtered_cards: &[u32],
     images_proxy_path: &Path,
-    all_cards: &mut BTreeMap<u32, CardEntry>,
+    all_cards: &mut CardsInfoMap,
     proxy_path: PathBuf,
 ) {
     if !proxy_path.is_dir() {
@@ -545,7 +529,7 @@ fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
     println!("Created {}", file_path.to_str().unwrap());
 }
 
-fn yuyutei(all_cards: &mut BTreeMap<u32, CardEntry>) {
+fn yuyutei(all_cards: &mut CardsInfoMap) {
     let mut urls = IndexMap::new();
 
     let scraperapi_key = std::env::var("SCRAPERAPI_API_KEY").ok();
@@ -609,7 +593,7 @@ fn yuyutei(all_cards: &mut BTreeMap<u32, CardEntry>) {
 
     // println!("BEFORE: {urls:#?}");
     // remove existing urls
-    let mut existing_urls = HashMap::new();
+    let mut existing_urls: HashMap<String, String> = HashMap::new();
     for card in all_cards
         .values_mut()
         .filter(|c| c.yuyutei_sell_url.is_some())
@@ -664,4 +648,29 @@ fn yuyutei(all_cards: &mut BTreeMap<u32, CardEntry>) {
             println!("MISSING: [{number}, {rare}] - {url}");
         }
     }
+}
+
+fn import_holodelta(_all_cards: &mut CardsInfoMap) {
+    // let conn = Connection::open("./cardData.db").unwrap();
+
+    // let mut stmt = conn
+    //     .prepare("SELECT cardID, art_index, lang, art FROM 'cardHasArt' WHERE lang = 'ja' ORDER BY cardID, art_index")
+    //     .unwrap();
+    // let person_iter = stmt
+    //     .query_map([], |row| {
+    //         Ok((
+    //             row.get::<usize, String>(0).unwrap(),
+    //             row.get::<usize, u32>(1).unwrap(),
+    //             row.get::<usize, String>(2).unwrap(),
+    //             // row.get::<usize, Vec<u8>>(3).unwrap(),
+    //         ))
+    //     })
+    //     .unwrap();
+
+    // for person in person_iter {
+    //     println!("Found person {:?}", person.unwrap());
+    // }
+
+    // // TODO be careful of order, art_index = 0 should be the most negative
+    // // probably swap if an earlier art is found
 }

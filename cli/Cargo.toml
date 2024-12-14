@@ -1,0 +1,24 @@
+[package]
+name = "hocg-fan-sim-assets-cli"
+edition = "2021"
+version.workspace = true
+
+[dependencies]
+hocg-fan-sim-assets-model = { workspace = true }
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+reqwest = { workspace = true }
+clap = { workspace = true }
+image = { workspace = true }
+webp = { workspace = true }
+httpdate = { workspace = true }
+rayon = { workspace = true }
+walkdir = { workspace = true }
+parking_lot = { workspace = true }
+tempfile = { workspace = true }
+zip = { workspace = true }
+oxipng = { workspace = true }
+scraper = { workspace = true }
+indexmap = { workspace = true }
+rusqlite = { workspace = true }
