@@ -2,7 +2,9 @@ use std::{collections::BTreeMap, fmt::Display, str::FromStr};
 
 use serde::{Deserialize, Deserializer, Serialize};
 
-pub type CardsInfoMap = BTreeMap<u32, CardEntry>;
+// need to keep the order to know which card image to use
+// (holoDelta is using a zero-based index)
+pub type CardsInfo = BTreeMap<u32, CardEntry>;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]

@@ -8,7 +8,7 @@ use std::{
 };
 
 use clap::Parser;
-use hocg_fan_sim_assets_model::{CardEntry, CardsInfoMap};
+use hocg_fan_sim_assets_model::{CardEntry, CardsInfo};
 use indexmap::IndexMap;
 use oxipng::{InFile, Options, OutFile};
 use parking_lot::{Mutex, RwLock, RwLockReadGuard, RwLockWriteGuard};
@@ -90,7 +90,7 @@ struct Args {
 fn main() {
     let args = Args::parse();
 
-    let mut all_cards: CardsInfoMap = CardsInfoMap::new();
+    let mut all_cards: CardsInfo = CardsInfo::new();
 
     // create a temporary folder for the zip file content
     let temp = args.zip_images.then_some(TempDir::new().unwrap());
@@ -176,7 +176,7 @@ fn main() {
 }
 
 fn retrieve_card_info(
-    all_cards: &mut CardsInfoMap,
+    all_cards: &mut CardsInfo,
     number_filter: &Option<String>,
     expansion: &Option<String>,
     optimized_original_images: bool,
@@ -296,7 +296,7 @@ fn retrieve_card_info(
 fn download_images(
     filtered_cards: &[u32],
     images_path: &Path,
-    all_cards: &mut CardsInfoMap,
+    all_cards: &mut CardsInfo,
     force_download: bool,
     optimized_original_images: bool,
 ) {
@@ -415,7 +415,7 @@ fn download_images(
 fn prepare_proxy_images(
     filtered_cards: &[u32],
     images_proxy_path: &Path,
-    all_cards: &mut CardsInfoMap,
+    all_cards: &mut CardsInfo,
     proxy_path: PathBuf,
 ) {
     if !proxy_path.is_dir() {
@@ -529,7 +529,7 @@ fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
     println!("Created {}", file_path.to_str().unwrap());
 }
 
-fn yuyutei(all_cards: &mut CardsInfoMap) {
+fn yuyutei(all_cards: &mut CardsInfo) {
     let mut urls = IndexMap::new();
 
     let scraperapi_key = std::env::var("SCRAPERAPI_API_KEY").ok();
@@ -650,7 +650,7 @@ fn yuyutei(all_cards: &mut CardsInfoMap) {
     }
 }
 
-fn import_holodelta(_all_cards: &mut CardsInfoMap) {
+fn import_holodelta(_all_cards: &mut CardsInfo) {
     // let conn = Connection::open("./cardData.db").unwrap();
 
     // let mut stmt = conn
