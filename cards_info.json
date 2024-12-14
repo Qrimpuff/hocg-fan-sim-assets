@@ -1844,8 +1844,8 @@
     "max": 20,
     "deck_type": "YELL",
     "img_last_modified": "Tue, 17 Sep 2024 09:32:07 GMT",
-    "img_proxy_en": "hSD01/hSD01-016_C.webp",
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd01/10016"
+    "img_proxy_en": "COMMON/hY01-001_C.webp",
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10001"
   },
   "169": {
     "manage_id": "169",
@@ -1855,8 +1855,8 @@
     "max": 20,
     "deck_type": "YELL",
     "img_last_modified": "Tue, 17 Sep 2024 09:32:08 GMT",
-    "img_proxy_en": "hSD01/hSD01-019_C.webp",
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd01/10019"
+    "img_proxy_en": "COMMON/hY02-001_C.webp",
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10002"
   },
   "170": {
     "manage_id": "170",
@@ -1866,8 +1866,8 @@
     "max": 20,
     "deck_type": "YELL",
     "img_last_modified": "Tue, 17 Sep 2024 09:32:09 GMT",
-    "img_proxy_en": "hSD01/hSD01-020_C.webp",
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd01/10020"
+    "img_proxy_en": "COMMON/hY03-001_C.webp",
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10003"
   },
   "171": {
     "manage_id": "171",
@@ -1877,8 +1877,8 @@
     "max": 20,
     "deck_type": "YELL",
     "img_last_modified": "Tue, 17 Sep 2024 09:32:09 GMT",
-    "img_proxy_en": "COMMON/hY01-001_C.webp",
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10001"
+    "img_proxy_en": "COMMON/hY04-001_C.webp",
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10004"
   },
   "172": {
     "manage_id": "172",
@@ -1888,8 +1888,8 @@
     "max": 4,
     "deck_type": "OSHI",
     "img_last_modified": "Tue, 17 Sep 2024 09:32:08 GMT",
-    "img_proxy_en": "COMMON/hY02-001_C.webp",
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10002"
+    "img_proxy_en": null,
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10001"
   },
   "173": {
     "manage_id": "173",
@@ -1899,8 +1899,8 @@
     "max": 4,
     "deck_type": "OSHI",
     "img_last_modified": "Tue, 17 Sep 2024 09:32:09 GMT",
-    "img_proxy_en": "COMMON/hY03-001_C.webp",
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10003"
+    "img_proxy_en": null,
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10002"
   },
   "174": {
     "manage_id": "174",
@@ -1910,8 +1910,8 @@
     "max": 4,
     "deck_type": "OSHI",
     "img_last_modified": "Tue, 17 Sep 2024 09:32:09 GMT",
-    "img_proxy_en": "COMMON/hY04-001_C.webp",
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10004"
+    "img_proxy_en": null,
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10003"
   },
   "175": {
     "manage_id": "175",
@@ -1922,7 +1922,7 @@
     "deck_type": "OSHI",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:37 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10001"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10004"
   },
   "176": {
     "manage_id": "176",
@@ -1933,7 +1933,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:38 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10002"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10010"
   },
   "177": {
     "manage_id": "177",
@@ -1944,7 +1944,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:40 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10003"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10011"
   },
   "178": {
     "manage_id": "178",
@@ -1955,7 +1955,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:40 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10004"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10012"
   },
   "179": {
     "manage_id": "179",
@@ -1966,7 +1966,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:42 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10010"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10013"
   },
   "180": {
     "manage_id": "180",
@@ -1977,7 +1977,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:44 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10011"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10014"
   },
   "181": {
     "manage_id": "181",
@@ -1988,7 +1988,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:44 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10012"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10015"
   },
   "182": {
     "manage_id": "182",
@@ -1999,7 +1999,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:45 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10013"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10016"
   },
   "183": {
     "manage_id": "183",
@@ -2010,7 +2010,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:46 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10014"
+    "yuyutei_sell_url": null
   },
   "184": {
     "manage_id": "184",
@@ -2021,7 +2021,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:47 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10015"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10017"
   },
   "185": {
     "manage_id": "185",
@@ -2032,7 +2032,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:48 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10016"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10003"
   },
   "186": {
     "manage_id": "186",
@@ -2043,7 +2043,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:47 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": null
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10001"
   },
   "187": {
     "manage_id": "187",
@@ -2054,7 +2054,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:48 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10017"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10002"
   },
   "188": {
     "manage_id": "188",
@@ -2065,7 +2065,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:48 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10003"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10001"
   },
   "189": {
     "manage_id": "189",
@@ -2076,7 +2076,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:47 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10001"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10002"
   },
   "190": {
     "manage_id": "190",
@@ -2087,7 +2087,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:48 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10002"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10004"
   },
   "191": {
     "manage_id": "191",
@@ -2098,7 +2098,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:41 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10001"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10003"
   },
   "192": {
     "manage_id": "192",
@@ -2109,7 +2109,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:42 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10002"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10005"
   },
   "193": {
     "manage_id": "193",
@@ -2120,7 +2120,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:43 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10004"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10006"
   },
   "194": {
     "manage_id": "194",
@@ -2131,7 +2131,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:45 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10003"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10007"
   },
   "195": {
     "manage_id": "195",
@@ -2142,7 +2142,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 17 Sep 2024 09:30:46 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10005"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10008"
   },
   "196": {
     "manage_id": "196",
@@ -2153,7 +2153,7 @@
     "deck_type": "YELL",
     "img_last_modified": "Tue, 01 Oct 2024 11:53:49 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10006"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10005"
   },
   "197": {
     "manage_id": "197",
@@ -2164,7 +2164,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 01 Oct 2024 11:53:49 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10007"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-100/10001"
   },
   "198": {
     "manage_id": "198",
@@ -2175,7 +2175,7 @@
     "deck_type": "N",
     "img_last_modified": "Tue, 01 Oct 2024 11:53:49 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10008"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10009"
   },
   "199": {
     "manage_id": "199",
@@ -2186,7 +2186,7 @@
     "deck_type": "OSHI",
     "img_last_modified": "Thu, 17 Oct 2024 10:42:19 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10005"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10001"
   },
   "200": {
     "manage_id": "200",
@@ -2197,7 +2197,7 @@
     "deck_type": "OSHI",
     "img_last_modified": "Thu, 17 Oct 2024 10:42:19 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-100/10001"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10006"
   },
   "201": {
     "manage_id": "201",
@@ -2208,7 +2208,7 @@
     "deck_type": "N",
     "img_last_modified": "Thu, 17 Oct 2024 10:54:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10009"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10019"
   },
   "202": {
     "manage_id": "202",
@@ -2219,7 +2219,7 @@
     "deck_type": "N",
     "img_last_modified": "Wed, 06 Nov 2024 07:11:53 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10001"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-100/10002"
   },
   "203": {
     "manage_id": "203",
@@ -2230,7 +2230,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10006"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10028"
   },
   "204": {
     "manage_id": "204",
@@ -2241,7 +2241,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10019"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10021"
   },
   "205": {
     "manage_id": "205",
@@ -2252,7 +2252,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-100/10002"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10020"
   },
   "206": {
     "manage_id": "206",
@@ -2263,7 +2263,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10028"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10029"
   },
   "207": {
     "manage_id": "207",
@@ -2274,7 +2274,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10021"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10030"
   },
   "208": {
     "manage_id": "208",
@@ -2285,7 +2285,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10020"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10022"
   },
   "209": {
     "manage_id": "209",
@@ -2296,7 +2296,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10029"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10031"
   },
   "210": {
     "manage_id": "210",
@@ -2307,7 +2307,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10030"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10023"
   },
   "211": {
     "manage_id": "211",
@@ -2318,7 +2318,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10022"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10032"
   },
   "212": {
     "manage_id": "212",
@@ -2329,7 +2329,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10031"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10033"
   },
   "213": {
     "manage_id": "213",
@@ -2340,7 +2340,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10023"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10024"
   },
   "214": {
     "manage_id": "214",
@@ -2351,7 +2351,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10032"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10035"
   },
   "215": {
     "manage_id": "215",
@@ -2362,7 +2362,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10033"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10034"
   },
   "216": {
     "manage_id": "216",
@@ -2373,7 +2373,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10024"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10025"
   },
   "217": {
     "manage_id": "217",
@@ -2384,7 +2384,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10035"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10026"
   },
   "218": {
     "manage_id": "218",
@@ -2395,7 +2395,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10034"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10027"
   },
   "219": {
     "manage_id": "219",
@@ -2406,7 +2406,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10025"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10036"
   },
   "220": {
     "manage_id": "220",
@@ -2417,7 +2417,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10026"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10037"
   },
   "221": {
     "manage_id": "221",
@@ -2428,7 +2428,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10027"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10038"
   },
   "222": {
     "manage_id": "222",
@@ -2439,7 +2439,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10036"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10039"
   },
   "223": {
     "manage_id": "223",
@@ -2450,7 +2450,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10037"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10004"
   },
   "224": {
     "manage_id": "224",
@@ -2461,7 +2461,7 @@
     "deck_type": "N",
     "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10038"
+    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10005"
   },
   "225": {
     "manage_id": "225",
@@ -2472,7 +2472,7 @@
     "deck_type": "OSHI",
     "img_last_modified": "Thu, 12 Dec 2024 00:45:05 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10039"
+    "yuyutei_sell_url": null
   },
   "226": {
     "manage_id": "226",
@@ -2483,7 +2483,7 @@
     "deck_type": "N",
     "img_last_modified": "Thu, 12 Dec 2024 00:45:05 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10004"
+    "yuyutei_sell_url": null
   },
   "227": {
     "manage_id": "227",
@@ -2494,7 +2494,7 @@
     "deck_type": "N",
     "img_last_modified": "Thu, 12 Dec 2024 00:45:05 GMT",
     "img_proxy_en": null,
-    "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10005"
+    "yuyutei_sell_url": null
   },
   "228": {
     "manage_id": "228",
