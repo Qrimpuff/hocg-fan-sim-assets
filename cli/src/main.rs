@@ -111,9 +111,14 @@ fn main() {
         }
     }
 
-    let filtered_cards = if args.skip_update {
-        // don't include unreleased cards
-        all_cards.keys().filter(|k| **k > 0).copied().collect()
+    let filtered_cards: Vec<(String, usize)> = if args.skip_update {
+        all_cards
+            .values()
+            .flat_map(|cs| cs.iter().enumerate())
+            // don't include unreleased cards
+            .filter(|c| c.1.manage_id.is_some())
+            .map(|c| (c.1.card_number.clone(), c.0))
+            .collect()
     } else {
         // import cards info from Deck Log
         retrieve_card_info(
@@ -180,7 +185,7 @@ fn retrieve_card_info(
     number_filter: &Option<String>,
     expansion: &Option<String>,
     optimized_original_images: bool,
-) -> Vec<u32> {
+) -> Vec<(String, usize)> {
     if number_filter.is_none() && expansion.is_none() {
         println!("Retrieve ALL cards info");
     } else {
@@ -262,23 +267,50 @@ fn retrieve_card_info(
                                     card.img = card.img.replace(".png", ".webp");
                                 }
 
-                                let key = card.manage_id.parse::<u32>().unwrap();
-                                filtered_cards.lock().push(key);
+                                // remove the old manage_id if it exists
                                 all_cards
                                     .write()
-                                    .entry(key)
-                                    .and_modify({
-                                        let card = card.clone();
-                                        move |c| {
-                                            // only these fields are retrieved
-                                            c.card_number = card.card_number;
-                                            c.rare = card.rare;
-                                            c.img = card.img;
-                                            c.max = card.max;
-                                            c.deck_type = card.deck_type;
-                                        }
+                                    .values_mut()
+                                    .flatten()
+                                    .filter(|c| {
+                                        c.manage_id == card.manage_id
+                                            && c.card_number != card.card_number
                                     })
-                                    .or_insert(card);
+                                    .for_each(|c| c.manage_id = None);
+
+                                // add the card the list
+                                let mut all_cards = all_cards.write();
+                                let list = all_cards.entry(card.card_number.clone()).or_default();
+                                // find the card, first by manage_id, then by image, then overwrite delta, otherwise just add
+                                if let Some(c) = {
+                                    if let Some(c) =
+                                        list.iter_mut().find(|c| c.manage_id == card.manage_id)
+                                    {
+                                        Some(c)
+                                    } else if let Some(c) =
+                                        list.iter_mut().find(|c| c.img == card.img)
+                                    {
+                                        Some(c)
+                                    } else {
+                                        list.iter_mut().find(|c| c.manage_id.is_none())
+                                    }
+                                } {
+                                    // only these fields are retrieved
+                                    c.card_number = card.card_number;
+                                    c.manage_id = card.manage_id;
+                                    c.rare = card.rare;
+                                    c.img = card.img;
+                                    c.max = card.max;
+                                    c.deck_type = card.deck_type;
+                                } else {
+                                    list.push(card.clone());
+                                }
+
+                                // sort the list, by oldest to latest
+                                list.sort_by_key(|c| c.manage_id);
+
+                                // add to filtered cards
+                                filtered_cards.lock().push(card.manage_id);
                             }
 
                             Some(())
@@ -289,12 +321,18 @@ fn retrieve_card_info(
         })
         .max(); // need this to drive the iterator
 
+    let all_cards = all_cards.read();
     let filtered_cards = filtered_cards.lock();
-    filtered_cards.clone()
+    all_cards
+        .values()
+        .flat_map(|cs| cs.iter().enumerate())
+        .filter(|c| filtered_cards.contains(&c.1.manage_id))
+        .map(|c| (c.1.card_number.clone(), c.0))
+        .collect()
 }
 
 fn download_images(
-    filtered_cards: &[u32],
+    filtered_cards: &[(String, usize)],
     images_path: &Path,
     all_cards: &mut CardsInfo,
     force_download: bool,
@@ -310,13 +348,15 @@ fn download_images(
         let all_cards = all_cards.clone();
         let image_count = &image_count;
         let image_skipped = &image_skipped;
-        move |card| {
+        move |(card_number, card_idx)| {
             // https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-006_RR.png
 
             let img_last_modified;
             // scope for the read guard
             {
-                let card = RwLockReadGuard::map(all_cards.read(), |ac| ac.get(card).unwrap());
+                let card = RwLockReadGuard::map(all_cards.read(), |ac| {
+                    ac.get(card_number).unwrap().get(*card_idx).unwrap()
+                });
 
                 // check if it's a new image
                 let resp = http_client()
@@ -402,7 +442,9 @@ fn download_images(
             }
 
             // scope for write guard
-            let mut card = RwLockWriteGuard::map(all_cards.write(), |ac| ac.get_mut(card).unwrap());
+            let mut card = RwLockWriteGuard::map(all_cards.write(), |ac| {
+                ac.get_mut(card_number).unwrap().get_mut(*card_idx).unwrap()
+            });
             card.img_last_modified = img_last_modified;
         }
     });
@@ -413,7 +455,7 @@ fn download_images(
 }
 
 fn prepare_proxy_images(
-    filtered_cards: &[u32],
+    filtered_cards: &[(String, usize)],
     images_proxy_path: &Path,
     all_cards: &mut CardsInfo,
     proxy_path: PathBuf,
@@ -449,11 +491,13 @@ fn prepare_proxy_images(
         let all_cards = all_cards.clone();
         let image_count = &image_count;
         let image_skipped = &image_skipped;
-        move |card| {
+        move |(card_number, card_idx)| {
             let img_proxy_en;
             // scope for the read guard
             {
-                let card = RwLockReadGuard::map(all_cards.read(), |ac| ac.get(card).unwrap());
+                let card = RwLockReadGuard::map(all_cards.read(), |ac| {
+                    ac.get(card_number).unwrap().get(*card_idx).unwrap()
+                });
 
                 let Some(path) = map.get(Path::new(&card.img).file_stem().unwrap_or_default())
                 else {
@@ -486,7 +530,9 @@ fn prepare_proxy_images(
             }
 
             // scope for write guard
-            let mut card = RwLockWriteGuard::map(all_cards.write(), |ac| ac.get_mut(card).unwrap());
+            let mut card = RwLockWriteGuard::map(all_cards.write(), |ac| {
+                ac.get_mut(card_number).unwrap().get_mut(*card_idx).unwrap()
+            });
             card.img_proxy_en = img_proxy_en;
         }
     });
@@ -596,6 +642,7 @@ fn yuyutei(all_cards: &mut CardsInfo) {
     let mut existing_urls: HashMap<String, String> = HashMap::new();
     for card in all_cards
         .values_mut()
+        .flatten()
         .filter(|c| c.yuyutei_sell_url.is_some())
     {
         if let Some(yuyutei_sell_url) = &card.yuyutei_sell_url {
@@ -619,6 +666,7 @@ fn yuyutei(all_cards: &mut CardsInfo) {
     // add the remaining urls
     for card in all_cards
         .values_mut()
+        .flatten()
         .filter(|c| c.yuyutei_sell_url.is_none())
     {
         // look some same image first
