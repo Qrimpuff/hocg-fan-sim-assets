@@ -474,11 +474,17 @@ fn prepare_proxy_images(
 
     for entry in WalkDir::new(proxy_path).into_iter().flatten() {
         // ignore blanks
-        if !entry.path().ancestors().any(|p| {
-            p.file_name()
-                .unwrap_or_default()
-                .eq_ignore_ascii_case("blanks")
-        }) && entry.path().is_file()
+        if !entry
+            .path()
+            .ancestors()
+            .filter_map(|p| p.file_name())
+            .any(|p| {
+                matches!(
+                    p.to_ascii_lowercase().to_str(),
+                    Some("blanks") | Some("blank")
+                )
+            })
+            && entry.path().is_file()
         {
             if let Some(file_stem) = entry.path().file_stem() {
                 map.entry(file_stem.to_owned())
