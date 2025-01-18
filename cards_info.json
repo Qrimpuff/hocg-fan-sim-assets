@@ -2717,6 +2717,18 @@
       "img_proxy_en": "hBP02/hBP02-008_C.webp",
       "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10018",
       "delta_art_index": null
+    },
+    {
+      "card_number": "hBP02-008",
+      "manage_id": 483,
+      "rare": "P",
+      "img": "hPR/hBP02-008_P.webp",
+      "max": 50,
+      "deck_type": "N",
+      "img_last_modified": "Fri, 17 Jan 2025 10:54:27 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
     }
   ],
   "hBP02-009": [
