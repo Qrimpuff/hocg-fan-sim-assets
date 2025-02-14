@@ -27,6 +27,20 @@
       "delta_art_index": null
     }
   ],
+  "hBD24-007": [
+    {
+      "card_number": "hBD24-007",
+      "manage_id": 563,
+      "rare": "P",
+      "img": "hPR/hBD24-007_P.webp",
+      "max": 4,
+      "deck_type": "OSHI",
+      "img_last_modified": "Wed, 22 Jan 2025 03:35:16 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
   "hBP01-001": [
     {
       "card_number": "hBP01-001",
@@ -1129,6 +1143,18 @@
       "img_proxy_en": null,
       "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10013",
       "delta_art_index": null
+    },
+    {
+      "card_number": "hBP01-048",
+      "manage_id": 533,
+      "rare": "C",
+      "img": "hSD06/hBP01-048_C_2.webp",
+      "max": 50,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:26 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
     }
   ],
   "hBP01-049": [
@@ -1168,6 +1194,18 @@
       "img_last_modified": "Mon, 09 Dec 2024 08:10:36 GMT",
       "img_proxy_en": null,
       "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10032",
+      "delta_art_index": null
+    },
+    {
+      "card_number": "hBP01-050",
+      "manage_id": 538,
+      "rare": "U",
+      "img": "hSD06/hBP01-050_U_2.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:26 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
       "delta_art_index": null
     }
   ],
@@ -5537,6 +5575,18 @@
       "img_proxy_en": null,
       "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-100/10003",
       "delta_art_index": null
+    },
+    {
+      "card_number": "hPR-002",
+      "manage_id": 530,
+      "rare": "U",
+      "img": "hSD05/hPR-002_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:07 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
     }
   ],
   "hSD01-001": [
@@ -6201,6 +6251,18 @@
       "img_proxy_en": "hSD03/hSD03-003_C.webp",
       "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd03/10003",
       "delta_art_index": null
+    },
+    {
+      "card_number": "hSD03-003",
+      "manage_id": 562,
+      "rare": "P",
+      "img": "hPR/hSD03-003_P.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 22 Jan 2025 03:35:15 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
     }
   ],
   "hSD03-004": [
@@ -6601,6 +6663,578 @@
       "delta_art_index": null
     }
   ],
+  "hSD05-001": [
+    {
+      "card_number": "hSD05-001",
+      "manage_id": 517,
+      "rare": "OC",
+      "img": "hSD05/hSD05-001_OC.webp",
+      "max": 4,
+      "deck_type": "OSHI",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:07 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    },
+    {
+      "card_number": "hSD05-001",
+      "manage_id": 532,
+      "rare": "OC",
+      "img": "hSD06/hSD06-001_OC.webp",
+      "max": 4,
+      "deck_type": "OSHI",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:26 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-002": [
+    {
+      "card_number": "hSD05-002",
+      "manage_id": 518,
+      "rare": "C",
+      "img": "hSD05/hSD05-002_C.webp",
+      "max": 50,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:07 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-003": [
+    {
+      "card_number": "hSD05-003",
+      "manage_id": 519,
+      "rare": "C",
+      "img": "hSD05/hSD05-003_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:08 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-004": [
+    {
+      "card_number": "hSD05-004",
+      "manage_id": 520,
+      "rare": "U",
+      "img": "hSD05/hSD05-004_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:08 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-005": [
+    {
+      "card_number": "hSD05-005",
+      "manage_id": 521,
+      "rare": "C",
+      "img": "hSD05/hSD05-005_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:08 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-006": [
+    {
+      "card_number": "hSD05-006",
+      "manage_id": 522,
+      "rare": "C",
+      "img": "hSD05/hSD05-006_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:05 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-007": [
+    {
+      "card_number": "hSD05-007",
+      "manage_id": 523,
+      "rare": "U",
+      "img": "hSD05/hSD05-007_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:05 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-008": [
+    {
+      "card_number": "hSD05-008",
+      "manage_id": 524,
+      "rare": "R",
+      "img": "hSD05/hSD05-008_R.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:06 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-009": [
+    {
+      "card_number": "hSD05-009",
+      "manage_id": 525,
+      "rare": "RR",
+      "img": "hSD05/hSD05-009_RR.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:06 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-010": [
+    {
+      "card_number": "hSD05-010",
+      "manage_id": 526,
+      "rare": "U",
+      "img": "hSD05/hSD05-010_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:06 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-011": [
+    {
+      "card_number": "hSD05-011",
+      "manage_id": 527,
+      "rare": "U",
+      "img": "hSD05/hSD05-011_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:06 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-012": [
+    {
+      "card_number": "hSD05-012",
+      "manage_id": 528,
+      "rare": "U",
+      "img": "hSD05/hSD05-012_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:06 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-013": [
+    {
+      "card_number": "hSD05-013",
+      "manage_id": 529,
+      "rare": "U",
+      "img": "hSD05/hSD05-013_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:07 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD05-014": [
+    {
+      "card_number": "hSD05-014",
+      "manage_id": 531,
+      "rare": "C",
+      "img": "hSD05/hSD05-014_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:07 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-002": [
+    {
+      "card_number": "hSD06-002",
+      "manage_id": 534,
+      "rare": "C",
+      "img": "hSD06/hSD06-002_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:27 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-003": [
+    {
+      "card_number": "hSD06-003",
+      "manage_id": 535,
+      "rare": "U",
+      "img": "hSD06/hSD06-003_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:27 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-004": [
+    {
+      "card_number": "hSD06-004",
+      "manage_id": 536,
+      "rare": "C",
+      "img": "hSD06/hSD06-004_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:27 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-005": [
+    {
+      "card_number": "hSD06-005",
+      "manage_id": 537,
+      "rare": "C",
+      "img": "hSD06/hSD06-005_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:27 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-006": [
+    {
+      "card_number": "hSD06-006",
+      "manage_id": 539,
+      "rare": "R",
+      "img": "hSD06/hSD06-006_R.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:25 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-007": [
+    {
+      "card_number": "hSD06-007",
+      "manage_id": 540,
+      "rare": "RR",
+      "img": "hSD06/hSD06-007_RR.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:25 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-008": [
+    {
+      "card_number": "hSD06-008",
+      "manage_id": 541,
+      "rare": "U",
+      "img": "hSD06/hSD06-008_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:25 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-009": [
+    {
+      "card_number": "hSD06-009",
+      "manage_id": 542,
+      "rare": "U",
+      "img": "hSD06/hSD06-009_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:25 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-010": [
+    {
+      "card_number": "hSD06-010",
+      "manage_id": 543,
+      "rare": "U",
+      "img": "hSD06/hSD06-010_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:25 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-011": [
+    {
+      "card_number": "hSD06-011",
+      "manage_id": 544,
+      "rare": "C",
+      "img": "hSD06/hSD06-011_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:26 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD06-012": [
+    {
+      "card_number": "hSD06-012",
+      "manage_id": 545,
+      "rare": "C",
+      "img": "hSD06/hSD06-012_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:26 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-001": [
+    {
+      "card_number": "hSD07-001",
+      "manage_id": 546,
+      "rare": "OC",
+      "img": "hSD07/hSD07-001_OC.webp",
+      "max": 4,
+      "deck_type": "OSHI",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:52 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-002": [
+    {
+      "card_number": "hSD07-002",
+      "manage_id": 547,
+      "rare": "C",
+      "img": "hSD07/hSD07-002_C.webp",
+      "max": 50,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:52 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-003": [
+    {
+      "card_number": "hSD07-003",
+      "manage_id": 548,
+      "rare": "C",
+      "img": "hSD07/hSD07-003_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:52 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-004": [
+    {
+      "card_number": "hSD07-004",
+      "manage_id": 549,
+      "rare": "U",
+      "img": "hSD07/hSD07-004_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:53 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-005": [
+    {
+      "card_number": "hSD07-005",
+      "manage_id": 550,
+      "rare": "C",
+      "img": "hSD07/hSD07-005_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:53 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-006": [
+    {
+      "card_number": "hSD07-006",
+      "manage_id": 551,
+      "rare": "C",
+      "img": "hSD07/hSD07-006_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:53 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-007": [
+    {
+      "card_number": "hSD07-007",
+      "manage_id": 552,
+      "rare": "U",
+      "img": "hSD07/hSD07-007_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:50 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-008": [
+    {
+      "card_number": "hSD07-008",
+      "manage_id": 553,
+      "rare": "R",
+      "img": "hSD07/hSD07-008_R.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:51 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-009": [
+    {
+      "card_number": "hSD07-009",
+      "manage_id": 554,
+      "rare": "RR",
+      "img": "hSD07/hSD07-009_RR.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:51 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-010": [
+    {
+      "card_number": "hSD07-010",
+      "manage_id": 555,
+      "rare": "U",
+      "img": "hSD07/hSD07-010_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:51 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-011": [
+    {
+      "card_number": "hSD07-011",
+      "manage_id": 556,
+      "rare": "U",
+      "img": "hSD07/hSD07-011_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:51 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-012": [
+    {
+      "card_number": "hSD07-012",
+      "manage_id": 557,
+      "rare": "U",
+      "img": "hSD07/hSD07-012_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:51 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-013": [
+    {
+      "card_number": "hSD07-013",
+      "manage_id": 558,
+      "rare": "U",
+      "img": "hSD07/hSD07-013_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:51 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-014": [
+    {
+      "card_number": "hSD07-014",
+      "manage_id": 559,
+      "rare": "U",
+      "img": "hSD07/hSD07-014_U.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:52 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hSD07-015": [
+    {
+      "card_number": "hSD07-015",
+      "manage_id": 560,
+      "rare": "C",
+      "img": "hSD07/hSD07-015_C.webp",
+      "max": 4,
+      "deck_type": "N",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:52 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
   "hY01-001": [
     {
       "card_number": "hY01-001",
@@ -6752,6 +7386,20 @@
       "img_last_modified": "Wed, 18 Dec 2024 12:07:37 GMT",
       "img_proxy_en": null,
       "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10011",
+      "delta_art_index": null
+    }
+  ],
+  "hY06-001": [
+    {
+      "card_number": "hY06-001",
+      "manage_id": 561,
+      "rare": "C",
+      "img": "hSD07/hY06-001_C.webp",
+      "max": 20,
+      "deck_type": "YELL",
+      "img_last_modified": "Wed, 12 Feb 2025 01:36:52 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
       "delta_art_index": null
     }
   ],
