@@ -23,6 +23,7 @@ reqwest = { version = "0.12", features = [
 ] }
 clap = { version = "4.5.23", features = ["derive"] }
 image = "0.25.2"
+imageproc = "0.25.0"
 webp = "0.3.0"
 httpdate = "1.0.3"
 rayon = "1.10.0"
@@ -31,6 +32,7 @@ parking_lot = "0.12.3"
 tempfile = "3.13.0"
 zip = "2.2.0"
 oxipng = "9.1.2"
-scraper = "0.22.0"
+scraper = "0.23.1"
 indexmap = "2.6.0"
-rusqlite = { version = "0.32.1", features = ["bundled"] }
+rusqlite = { version = "0.34.0", features = ["bundled"] }
+itertools = "0.14.0"

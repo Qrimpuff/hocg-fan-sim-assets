@@ -11,6 +11,7 @@ serde_json = { workspace = true }
 reqwest = { workspace = true }
 clap = { workspace = true }
 image = { workspace = true }
+imageproc = { workspace = true }
 webp = { workspace = true }
 httpdate = { workspace = true }
 rayon = { workspace = true }
@@ -22,3 +23,4 @@ oxipng = { workspace = true }
 scraper = { workspace = true }
 indexmap = { workspace = true }
 rusqlite = { workspace = true }
+itertools = { workspace = true }
