@@ -1,5 +1,5 @@
 use std::{
-    collections::HashMap,
+    collections::{BTreeMap, HashMap},
     fs::{self, File},
     io::{BufReader, Read, Write},
     path::{Path, PathBuf},
@@ -937,7 +937,7 @@ fn import_holodelta(all_cards: &mut CardsInfo, images_path: &Path, holodelta_pat
             // println!("2 WORST DIFF - {:>05.2}% - {}", worst_diff, card_number);
 
             // modify the cards here, to avoid borrowing issue
-            let mut already_set = vec![];
+            let mut already_set = BTreeMap::new();
             for (delta_art_index, card, diff) in diffs {
                 // the image is too different
                 if diff > 50.0 {
@@ -945,9 +945,12 @@ fn import_holodelta(all_cards: &mut CardsInfo, images_path: &Path, holodelta_pat
                 }
 
                 let mut card = card.lock();
-                if card.delta_art_index.is_none() && !already_set.contains(&delta_art_index) {
+                if card.delta_art_index.is_none()
+                    // to handle multiple cards with the same image
+                    && *already_set.get(&delta_art_index).unwrap_or(&100.0) >= diff
+                {
                     card.delta_art_index = Some(delta_art_index);
-                    already_set.push(delta_art_index);
+                    already_set.insert(delta_art_index, diff);
                     updated_count += 1;
 
                     if DEBUG {
