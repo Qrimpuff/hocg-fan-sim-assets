@@ -723,6 +723,7 @@ fn import_holodelta(all_cards: &mut CardsInfo, images_path: &Path, holodelta_pat
     const CORNER: u32 = 20 / SHRINK_FACTOR;
     const IMAGE_WIDTH_CROP: u32 = IMAGE_WIDTH - CORNER - CORNER;
     const IMAGE_HEIGHT_CROP: u32 = IMAGE_HEIGHT - CORNER - CORNER;
+    const DIFF_TOLERANCE: f64 = 6.0 / (IMAGE_WIDTH_CROP * IMAGE_HEIGHT_CROP * 3) as f64 * 100.0; // accept 2 pixels (rgb) difference
 
     fn prepare_image(image: &mut GrayImage) {
         let mut img = resize(
@@ -945,12 +946,11 @@ fn import_holodelta(all_cards: &mut CardsInfo, images_path: &Path, holodelta_pat
                 }
 
                 let mut card = card.lock();
-                if card.delta_art_index.is_none()
-                    // to handle multiple cards with the same image
-                    && *already_set.get(&delta_art_index).unwrap_or(&100.0) >= diff
-                {
+                // to handle multiple cards with the same image
+                let min_diff = *already_set.get(&delta_art_index).unwrap_or(&100.0);
+                if card.delta_art_index.is_none() && min_diff + DIFF_TOLERANCE >= diff {
                     card.delta_art_index = Some(delta_art_index);
-                    already_set.insert(delta_art_index, diff);
+                    already_set.insert(delta_art_index, diff.min(min_diff));
                     updated_count += 1;
 
                     if DEBUG {
