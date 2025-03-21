@@ -600,7 +600,10 @@ fn yuyutei(all_cards: &mut CardsInfo) {
     }
 
     // handle multiple pages (one page is 600 cards)
-    for page in 1..=(all_cards.len() as f32 / 600.0).ceil() as u32 {
+    // could be slow when there are multiple pages
+    let mut page = 1;
+    let mut max_page = 1;
+    while page <= max_page {
         let mut url = Url::parse("https://yuyu-tei.jp/sell/hocg/s/search").unwrap();
         url.query_pairs_mut()
             .append_pair("search_word", "")
@@ -629,6 +632,7 @@ fn yuyutei(all_cards: &mut CardsInfo) {
         let cards_select = Selector::parse(".card-product").unwrap();
         let number_select = Selector::parse("span").unwrap();
         let url_select = Selector::parse("a").unwrap();
+        let max_page_select = Selector::parse(".pagination li:nth-last-child(2) a").unwrap();
 
         for card_list in document.select(&card_lists) {
             let rarity: String = card_list
@@ -647,6 +651,13 @@ fn yuyutei(all_cards: &mut CardsInfo) {
                 }
             }
         }
+
+        if let Some(max) = document.select(&max_page_select).next() {
+            max_page = max.text().collect::<String>().parse().unwrap();
+            // println!("price_check: max_page: {max_page}");
+        }
+
+        page += 1;
     }
     println!("Found {} Yuyutei urls...", urls.len());
 
