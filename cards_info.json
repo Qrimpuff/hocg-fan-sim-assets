@@ -13,6 +13,48 @@
       "delta_art_index": 0
     }
   ],
+  "hBD24-002": [
+    {
+      "card_number": "hBD24-002",
+      "manage_id": 564,
+      "rare": "P",
+      "img": "hPR/hBD24-002_P.webp",
+      "max": 4,
+      "deck_type": "OSHI",
+      "img_last_modified": "Wed, 22 Jan 2025 03:35:15 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hBD24-003": [
+    {
+      "card_number": "hBD24-003",
+      "manage_id": 809,
+      "rare": "P",
+      "img": "hPR/hBD24-003_P.webp",
+      "max": 4,
+      "deck_type": "OSHI",
+      "img_last_modified": "Wed, 22 Jan 2025 03:35:16 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
+  "hBD24-004": [
+    {
+      "card_number": "hBD24-004",
+      "manage_id": 810,
+      "rare": "P",
+      "img": "hPR/hBD24-004_P.webp",
+      "max": 4,
+      "deck_type": "OSHI",
+      "img_last_modified": "Wed, 22 Jan 2025 03:35:16 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
+    }
+  ],
   "hBD24-006": [
     {
       "card_number": "hBD24-006",
@@ -9235,6 +9277,18 @@
       "img_proxy_en": "hSD03/hSD03-002_C.webp",
       "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd03/10002",
       "delta_art_index": 0
+    },
+    {
+      "card_number": "hSD03-002",
+      "manage_id": 811,
+      "rare": "P",
+      "img": "hPR/hSD03-002_P_2.webp",
+      "max": 50,
+      "deck_type": "N",
+      "img_last_modified": "Fri, 21 Mar 2025 08:17:20 GMT",
+      "img_proxy_en": null,
+      "yuyutei_sell_url": null,
+      "delta_art_index": null
     }
   ],
   "hSD03-003": [
@@ -10484,7 +10538,7 @@
   "hY04-004": [
     {
       "card_number": "hY04-004",
-      "manage_id": 808,
+      "manage_id": 807,
       "rare": "P",
       "img": "hPR/hY04-004_P.webp",
       "max": 20,
@@ -10568,7 +10622,7 @@
   "hY06-003": [
     {
       "card_number": "hY06-003",
-      "manage_id": 810,
+      "manage_id": 808,
       "rare": "P",
       "img": "hPR/hY06-003_P.webp",
       "max": 20,
