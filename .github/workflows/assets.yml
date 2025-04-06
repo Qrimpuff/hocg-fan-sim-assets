@@ -29,6 +29,7 @@ jobs:
       - name: Run
         env:
           SCRAPERAPI_API_KEY: ${{ secrets.SCRAPERAPI_API_KEY }}
+          GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
         run: cargo run --release -- --download-images --yuyutei-urls --ogbajoj-sheet --official-hololive
         
       - name: Deploy
