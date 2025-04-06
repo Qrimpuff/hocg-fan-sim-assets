@@ -936,7 +936,7 @@ pub mod hololive_official {
                     *updated_count.lock() += page_updated_count;
 
                     println!("Page {page} done: updated {page_updated_count} cards");
-                    
+
                     Some(())
                 }
             })
