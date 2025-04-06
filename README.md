@@ -116,9 +116,9 @@ Options:
    cargo run --release -- --download-images --optimized-original-images --ogbajoj-sheet --proxy-path ./en_proxies
    ```
 
-4. Create a complete dataset with pricing information and packaging:
+4. Create a complete dataset with pricing information:
    ```
-   cargo run --release -- --clean --download-images --yuyutei-urls --proxy-path ./en_proxies --holodelta-db-path ./cardData.db --ogbajoj-sheet --official-hololive --zip-images
+   cargo run --release -- --clean --download-images --yuyutei-urls --proxy-path ./en_proxies --holodelta-db-path ./cardData.db --ogbajoj-sheet --official-hololive
    ```
 
 5. Package images for specific card sets (from package-images.cmd):
