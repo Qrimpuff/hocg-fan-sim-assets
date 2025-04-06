@@ -1,13 +1,13 @@
 use std::{collections::HashMap, time::Duration};
 
-use hocg_fan_sim_assets_model::CardsInfo2;
+use hocg_fan_sim_assets_model::CardsDatabase;
 use indexmap::IndexMap;
 use reqwest::Url;
 use scraper::{Html, Selector};
 
 use crate::http_client;
 
-pub fn yuyutei(all_cards: &mut CardsInfo2) {
+pub fn yuyutei(all_cards: &mut CardsDatabase) {
     println!("Scraping Yuyutei urls...");
 
     let mut urls = IndexMap::new();

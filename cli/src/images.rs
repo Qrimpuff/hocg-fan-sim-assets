@@ -6,7 +6,7 @@ use std::{
     sync::{Arc, atomic::AtomicU32},
 };
 
-use hocg_fan_sim_assets_model::CardsInfo2;
+use hocg_fan_sim_assets_model::CardsDatabase;
 use oxipng::{InFile, Options, OutFile};
 use parking_lot::{RwLock, RwLockReadGuard, RwLockWriteGuard};
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
@@ -22,7 +22,7 @@ static WEBP_QUALITY: f32 = 80.0;
 pub fn download_images(
     filtered_cards: &[(String, usize)],
     images_jp_path: &Path,
-    all_cards: &mut CardsInfo2,
+    all_cards: &mut CardsDatabase,
     force_download: bool,
     optimized_original_images: bool,
 ) {
@@ -153,7 +153,7 @@ pub fn download_images(
 pub fn prepare_en_proxy_images(
     filtered_cards: &[(String, usize)],
     images_en_path: &Path,
-    all_cards: &mut CardsInfo2,
+    all_cards: &mut CardsDatabase,
     proxy_path: PathBuf,
 ) {
     const PROXIES_FOLDER: &str = "proxies";

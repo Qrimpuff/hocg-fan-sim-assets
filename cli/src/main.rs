@@ -11,9 +11,10 @@ use std::{
 
 use clap::Parser;
 use data::{
-    decklog::retrieve_card_info_from_decklog, ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
+    decklog::retrieve_card_info_from_decklog, hololive_official::retrieve_card_info_from_hololive,
+    ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
 };
-use hocg_fan_sim_assets_model::CardsInfo2;
+use hocg_fan_sim_assets_model::CardsDatabase;
 use holodelta::import_holodelta;
 use images::{download_images, prepare_en_proxy_images, zip_images};
 use json_pretty_compact::PrettyCompactFormatter;
@@ -80,6 +81,10 @@ struct Args {
     #[arg(long)]
     holodelta_db_path: Option<PathBuf>,
 
+    // Use the official holoLive website to import missing/unreleased cards data
+    #[arg(long)]
+    official_hololive: bool,
+
     /// Use ogbajoj's sheet to import english translations
     #[arg(long)]
     ogbajoj_sheet: bool,
@@ -89,7 +94,7 @@ fn main() {
     dotenvy::dotenv().ok();
     let args = Args::parse();
 
-    let mut all_cards: CardsInfo2 = CardsInfo2::new();
+    let mut all_cards: CardsDatabase = CardsDatabase::new();
 
     // create a temporary folder for the zip file content
     let temp = args.zip_images.then_some(TempDir::new().unwrap());
@@ -99,7 +104,7 @@ fn main() {
         args.assets_path.as_path()
     };
 
-    let card_mapping_file = assets_path.join("cards_info.json");
+    let card_mapping_file = assets_path.join("hocg_cards.json");
     let images_jp_path = assets_path.join("img");
     let images_en_path = assets_path.join("img_en");
 
@@ -157,6 +162,11 @@ fn main() {
     // import from holoDelta
     if let Some(holodelta_db_path) = args.holodelta_db_path {
         import_holodelta(&mut all_cards, &images_jp_path, &holodelta_db_path);
+    }
+
+    // import from official holoLive
+    if args.official_hololive {
+        retrieve_card_info_from_hololive(&mut all_cards);
     }
 
     // import from ogbajoj

@@ -24,12 +24,12 @@ jobs:
         run: |
           mkdir assets --parents
           git fetch origin gh-pages:gh-pages --force
-          git show gh-pages:cards_info.json > assets/cards_info.json
+          git show gh-pages:hocg_cards.json > assets/hocg_cards.json
         
       - name: Run
         env:
           SCRAPERAPI_API_KEY: ${{ secrets.SCRAPERAPI_API_KEY }}
-        run: cargo run --release -- --download-images --yuyutei-urls
+        run: cargo run --release -- --download-images --yuyutei-urls --ogbajoj-sheet --official-hololive
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

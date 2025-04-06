@@ -6,7 +6,7 @@ use std::{
     sync::Arc,
 };
 
-use hocg_fan_sim_assets_model::CardsInfo2;
+use hocg_fan_sim_assets_model::CardsDatabase;
 use image::{
     GrayImage,
     imageops::{crop, resize},
@@ -14,11 +14,13 @@ use image::{
 use imageproc::map::{blue_channel, green_channel, red_channel};
 use itertools::Itertools;
 use parking_lot::Mutex;
-use rayon::iter::{
-    IntoParallelIterator, IntoParallelRefMutIterator, ParallelIterator,
-};
+use rayon::iter::{IntoParallelIterator, IntoParallelRefMutIterator, ParallelIterator};
 
-pub fn import_holodelta(all_cards: &mut CardsInfo2, images_jp_path: &Path, holodelta_path: &Path) {
+pub fn import_holodelta(
+    all_cards: &mut CardsDatabase,
+    images_jp_path: &Path,
+    holodelta_path: &Path,
+) {
     const DEBUG: bool = false;
 
     println!("Importing holoDelta images...");
