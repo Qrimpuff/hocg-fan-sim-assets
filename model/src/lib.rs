@@ -120,6 +120,8 @@ fn is_default<T: Default + Eq>(value: &T) -> bool {
 }
 
 fn holomem_order(text: &str) -> usize {
+    // folloing the order of the official website
+    // https://hololive.hololivepro.com/en/talents
     let names = [
         // Gen 0
         "ときのそら",   // Tokino Sora
@@ -228,33 +230,63 @@ impl Ord for Card {
         // Priority 1: Card type
         let type_ordering = self.card_type.cmp(&other.card_type);
         if type_ordering != Ordering::Equal {
+            // println!(
+            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+            //     self.card_number, self.card_type, other.card_number, other.card_type, type_ordering
+            // );
             return type_ordering;
         }
 
         // Priority 2: Colors
         let color_ordering = self.colors.cmp(&other.colors);
         if color_ordering != Ordering::Equal {
+            // println!(
+            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+            //     self.card_number, self.colors, other.card_number, other.colors, color_ordering
+            // );
             return color_ordering;
         }
 
         // Priority 3: Members
-        let self_member_order = holomem_order(&self.name.japanese);
-        let other_member_order = holomem_order(&other.name.japanese);
-        let member_ordering = self_member_order.cmp(&other_member_order);
-        if member_ordering != Ordering::Equal {
-            return member_ordering;
-        }
+        if self.card_type == CardType::OshiHoloMember || self.card_type == CardType::HoloMember {
+            let self_member_order = holomem_order(&self.name.japanese);
+            let other_member_order = holomem_order(&other.name.japanese);
+            let member_ordering = self_member_order.cmp(&other_member_order);
+            if member_ordering != Ordering::Equal {
+                // println!(
+                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                //     self.card_number,
+                //     self.name.japanese,
+                //     other.card_number,
+                //     other.name.japanese,
+                //     member_ordering
+                // );
+                return member_ordering;
+            }
 
-        // Priority 4: Bloom Level
-        let bloom_ordering = self.bloom_level.cmp(&other.bloom_level);
-        if bloom_ordering != Ordering::Equal {
-            return bloom_ordering;
-        }
+            // Priority 4: Bloom Level
+            let bloom_ordering = self.bloom_level.cmp(&other.bloom_level);
+            if bloom_ordering != Ordering::Equal {
+                // println!(
+                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                //     self.card_number,
+                //     self.bloom_level,
+                //     other.card_number,
+                //     other.bloom_level,
+                //     bloom_ordering
+                // );
+                return bloom_ordering;
+            }
 
-        // Priority 5: Buzz
-        let buzz_ordering = self.buzz.cmp(&other.buzz);
-        if buzz_ordering != Ordering::Equal {
-            return buzz_ordering;
+            // Priority 5: Buzz
+            let buzz_ordering = self.buzz.cmp(&other.buzz);
+            if buzz_ordering != Ordering::Equal {
+                // println!(
+                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                //     self.card_number, self.buzz, other.card_number, other.buzz, buzz_ordering
+                // );
+                return buzz_ordering;
+            }
         }
 
         // Priority 6: Tool/Mascot/Fan members
@@ -266,6 +298,14 @@ impl Ord for Card {
             let other_order = holomem_order(&other.text.japanese);
             let ordering = self_order.cmp(&other_order);
             if ordering != Ordering::Equal {
+                // println!(
+                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                //     self.card_number,
+                //     self.text.japanese,
+                //     other.card_number,
+                //     other.text.japanese,
+                //     ordering
+                // );
                 return ordering;
             }
         }
