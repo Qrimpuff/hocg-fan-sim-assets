@@ -8760,7 +8760,7 @@
     "buzz": true,
     "text": {
       "jp": "キーワード [ギフト] 異国の世界の姿　 \n[センターポジション・コラボポジション限定]相手のパフォーマンスステップが開始する時に使える：このターンの間、自分のライフは相手の能力で減らない。\n\nアーツ [緑] [緑] 情熱のベリーダンサー　50 \n自分の推しホロメンが〈アキ・ローゼンタール〉の時、自分のツールが付いているホロメン全員のHP10回復。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Gift: \"Appearance of another world\"\n[Center or Collab Position only] Can be used at the start of your opponent's Performance Step: until the end of this turn, your LIFE cannot be directly reduced by your opponent's abilities.\n\nArts: \"Passionate belly dancer\"\nCost: 2 Green\nPower: 50\nIf your oshi holomem is Aki Rosenthal, all of your holomems with a Tool equipped recover 10 HP.\n\nExtra: When this holomem is Downed, lose 2 LIFE."
+      "en": "Gift: \"Appearance of another world\"\n[Center or Collab Position only] Can be used at the start of your opponent's Performance Step: until the end of this turn, your LIFE cannot be directly reduced by your opponent's abilities.\n\nArts: \"Passionate belly dancer\"\nCost: 2 Green\nPower: 50\nIf your oshi holomem is Aki Rosenthal, restore 10 HP to all of your holomems with a Tool equipped.\n\nExtra: When this holomem is Downed, lose 2 LIFE."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -14216,7 +14216,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] ダンスでこの世界に彩を！　 \n自分のデッキから、#ReGLOSSを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [白] [白] [◇] 滅紫の雷　80+ [紫+50] \n自分のステージに〈轟はじめ〉以外の#ReGLOSSを持つホロメンがいる時、このアーツ+30。",
-      "en": "Bloom Effect: \"Add color to the world with dance!\"\nReveal a Debut or 1st Bloom holomem with #ReGLOSS from your Deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Purple Lightning\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nIf there is a holomem with #ReGLOSS on your Stage not named Todoroki Hajime, this Art gains +30 power."
+      "en": "Bloom Effect: \"Add color to the world with dance!\"\nReveal a Debut or 1st Bloom holomem with #ReGLOSS from your Deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Purple Lightning\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nIf there is a holomem with #ReGLOSS on your Stage not named Todoroki Hajime, this Art gains +30 power.\n\n[SR version available in hBP03 Elite Spark]"
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -14550,7 +14550,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 元気をお届け　 \n自分の#秘密結社holoXを持つホロメン1人のHP30回復。\n\nアーツ [緑] [◇] [◇] 天才では？　70+ [青+50] \n自分のステージにエールが5枚以上ある時、このアーツ+50。",
-      "en": "Bloom Effect: \"Bringing you energy\"\nRestore 30 HP to one of your holomems with #SecretSocietyholoX.\n\nArts: \"Am I a genius?\"\nCost: 1 Green, 2 any color\nPower: 70+, +50 vs Blue\nIf there are at least 5 Cheers on your stage, this Art gains +50 power."
+      "en": "Bloom Effect: \"Bringing you energy\"\nRestore 30 HP to one of your holomems with #SecretSocietyholoX.\n\nArts: \"Am I a genius?\"\nCost: 1 Green, 2 any color\nPower: 70+, +50 vs Blue\nIf there are at least 5 Cheers on your stage, this Art gains +50 power.\n\n[SR version available in hBP03 Elite Spark]"
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -14952,7 +14952,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] 疲れ知らず　 \n[センターポジション限定]このホロメンが受けるダメージ-10。\n\nアーツ [黄] [◇] [◇] 情熱ステージ　70+ [赤+50] \n自分のライフが3以下の時、このアーツ+70。",
-      "en": "Gift: \"Tireless\"\n[Center position only] Whenever this holomem takes damage, it takes -10 damage.\n\nArts: \"Passion Stage\"\nCost: 1 Yellow, 2 any color\nPower: 70+, +50 vs Red\nIf you have 3 or less LIFE, this Art gains +70 power."
+      "en": "Gift: \"Tireless\"\n[Center position only] Whenever this holomem takes damage, it takes -10 damage.\n\nArts: \"Passion Stage\"\nCost: 1 Yellow, 2 any color\nPower: 70+, +50 vs Red\nIf you have 3 or less LIFE, this Art gains +70 power.\n\n[SR version available in hBP03 Elite Spark]"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
