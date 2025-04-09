@@ -314,7 +314,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] フェニックステール [ターンに１回]自分のアーカイブのホロメン１枚を手札に戻す。\n\nSP推しスキル [ホロパワー：-2] Rise from the ashes [ゲームに１回]相手のターンで、自分の赤ホロメンがダウンした時に使える：自分の減るライフ-１。さらに、ダウンした１人を選び、そのホロメンを含め重なっているホロメンすべてを手札に戻す。",
-      "en": "Oshi Skill holo power -2: \"Phoenix Tail\"\n(Once per turn) Return 1 holomem from your Archive to your hand.\n\nSP Oshi Skill holo power -2: \"Rise from the ashes\"\n(Once per game) Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -2: \"Phoenix Tail\"\n(Once per turn) Return 1 holomem from your Archive to your hand.\n\nSP Oshi Skill holo power -2: \"Rise from the ashes\"\n(Once per game) Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand."
     },
     "max_amount": 4,
     "illustrations": [
@@ -355,7 +355,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] ほうき星 [ターンに１回]この推しホロメンか自分の青ホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン１人に特殊ダメージ50を与える。\n\nSP推しスキル [ホロパワー：-2] シューティングスター [ゲームに１回]自分の青ホロメンが相手のセンターホロメンかコラボホロメンにダメージを与えた時に使える：相手のバックホロメン１人にそれと同じ数値の特殊ダメージを与える。",
-      "en": "Oshi Skill holo power -2: \"comet\"\n(Once per turn) Can be used when any of your Blue holomems, or this Oshi holomem, deal damage to one of your opponent's Back holomems: deal 50 special damage to that Back holomem.\n\nSP Oshi Skill holo power -2: \"Shooting Star\"\n(Once per game) Can be used when any of your Blue holomems deal damage to your opponent's Center or Collab holomem: deal an equal amount of special damage to one of your opponent's Back holomems.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -2: \"comet\"\n(Once per turn) Can be used when any of your Blue holomems, or this Oshi holomem, deal damage to one of your opponent's Back holomems: deal 50 special damage to that Back holomem.\n\nSP Oshi Skill holo power -2: \"Shooting Star\"\n(Once per game) Can be used when any of your Blue holomems deal damage to your opponent's Center or Collab holomem: deal an equal amount of special damage to one of your opponent's Back holomems."
     },
     "max_amount": 4,
     "illustrations": [
@@ -4091,7 +4091,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：2消費] マスコット創造 [ターンに1回]自分のデッキから、マスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：2消費] フブキングダム [ゲームに1回]自分の白ホロメンが相手のホロメンをダウンさせた時、自分のステージのマスコット2枚につき、サイコロを1回振れる：奇数が1回以上出たなら、相手のライフ-1。",
-      "en": "Oshi Skill holo power -2: \"Mascot creation\"\n(Once per turn) Reveal 1 Mascot from your Deck and put it into your hand. Then shuffle your Deck.\n\nSP Oshi Skill holo power -2: \"Fubukingdom\"\n(Once per game) Can be used when any of your White holomems Downs an opponent's holomem: you may roll one dice for each 2 Mascots attached to your holomems: if you roll one or more odd numbers, your opponent loses 1 LIFE.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -2: \"Mascot creation\"\n(Once per turn) Reveal 1 Mascot from your Deck and put it into your hand. Then shuffle your Deck.\n\nSP Oshi Skill holo power -2: \"Fubukingdom\"\n(Once per game) Can be used when any of your White holomems Downs an opponent's holomem: you may roll one dice for each 2 Mascots attached to your holomems: if you roll one or more odd numbers, your opponent loses 1 LIFE."
     },
     "max_amount": 4,
     "illustrations": [
@@ -4164,7 +4164,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：3消費] Ahoy! [ターンに1回]自分のこのターンにBloomした#3期生を持つホロメン1人を、自分の手札のホロメンを使ってもう1回Bloomさせる。\n\nSP推しスキル [ホロパワー：2消費] 出航～！ [ゲームに1回]相手のセンターホロメンかコラボホロメンどちらかに、自分のセンターホロメンの〈宝鐘マリン〉に重なっているホロメン1枚につき、特殊ダメージ50を与える。",
-      "en": "Oshi Skill holo power -3: \"Ahoy!\"\n(Once per turn) Make one of your holomems with #Gen3 who has Bloomed this turn, Bloom again using a holomem in your hand.\n\nSP Oshi Skill holo power -2: \"Shukkou!\"\n(Once per game) If your Center holomem is Houshou Marine, deal 50 special damage for each holomem stacked under that holomem to your opponent's Center or Collab holomem.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -3: \"Ahoy!\"\n(Once per turn) Make one of your holomems with #Gen3 who has Bloomed this turn, Bloom again using a holomem in your hand.\n\nSP Oshi Skill holo power -2: \"Shukkou!\"\n(Once per game) If your Center holomem is Houshou Marine, deal 50 special damage for each holomem stacked under that holomem to your opponent's Center or Collab holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -4205,7 +4205,7 @@
     "life": 6,
     "text": {
       "jp": "推しスキル [ホロパワー：1消費] ぽえぽえぽえ～ [ターンに1回]自分のセンターホロメンが〈沙花叉クロヱ〉の時に使える：自分のデッキの上から3枚を見る。そのカードすべてを、アーカイブするか、好きな順でデッキの上に戻す。\n\nSP推しスキル [ホロパワー：3消費] 人生リセットボタン [ゲームに1回]自分の手札を数えて、自分の[手札すべてとアーカイブのホロメンすべて]をデッキに戻してシャッフルする。そして手札からデッキに戻したカード1枚につき、自分のデッキを1枚引く。",
-      "en": "Oshi Skill holo power -1: \"poepoepoe~\"\n(Once per turn) Can be used if your Center holomem is Sakamata Chloe: look at the top 3 cards of your Deck. You may Archive all 3 cards, or return them to the top of your Deck in any order.\n\nSP Oshi Skill holo power -3: \"Life Reset Button\"\n(Once per game) Count the number of cards in your hand, then shuffle all cards in your hand and all holomems in your Archive into your Deck. Then, for each card you returned from your hand to your Deck, draw one card from your Deck.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -1: \"poepoepoe~\"\n(Once per turn) Can be used if your Center holomem is Sakamata Chloe: look at the top 3 cards of your Deck. You may Archive all 3 cards, or return them to the top of your Deck in any order.\n\nSP Oshi Skill holo power -3: \"Life Reset Button\"\n(Once per game) Count the number of cards in your hand, then shuffle all cards in your hand and all holomems in your Archive into your Deck. Then, for each card you returned from your hand to your Deck, draw one card from your Deck."
     },
     "max_amount": 4,
     "illustrations": [
@@ -7976,7 +7976,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] poi [ターンに1回]自分のアーカイブのエール1枚を、自分のバックホロメンの〈獅白ぼたん〉に送る。\n\nSP推しスキル [ホロパワー：-2] 狙撃 [ゲームに1回]自分のセンターホロメンの色が緑の時に使える：相手のDebut以外のセンターホロメンに特殊ダメージ100を与える。",
-      "en": "Oshi Skill holo power -2: \"poi\"\n(Once per turn) Send 1 Cheer from your Archive to one of your Back holomems named Shishiro Botan.\n\nSP Oshi Skill holo power -2: \"Aiming\"\n(Once per game) Can be used if your Center holomem is Green: deal 100 special damage to your opponent's Center holomem if it is not a Debut holomem.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -2: \"poi\"\n(Once per turn) Send 1 Cheer from your Archive to one of your Back holomems named Shishiro Botan.\n\nSP Oshi Skill holo power -2: \"Aiming\"\n(Once per game) Can be used if your Center holomem is Green: deal 100 special damage to your opponent's Center holomem if it is not a Debut holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8017,7 +8017,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] 35P帰ってくるのかッ！？って！ [ターンに1回]サイコロを1回振れる：1か2か4か6の時、自分のアーカイブの〈35P〉1枚を手札に戻す。3か5の時、自分のアーカイブの〈35P〉2枚を手札に戻す。\n\nSP推しスキル [ホロパワー：-2] あきらめない心にぇ [ゲームに1回]自分のセンターホロメンの色が赤の時に使える：自分の手札を好きな枚数選んで好きな順でデッキの下に戻す。そして手札が5枚になるまで、自分のデッキを引く。",
-      "en": "Oshi Skill holo power -2: \"Is 35P coming back?!\"\n(Once per turn) You may roll a dice. If the result is 1, 2, 4, or 6, return a 35P from your Archive to your hand. If the result is 3 or 5, return 2 35Ps from your Archive to your hand.\n\nSP Oshi Skill holo power -2: \"A heart that doesn't give up\"\n(Once per game) Can be used if your Center holomem is Red: Choose any number of cards from your hand and place them on the bottom of your Deck in any order. Then draw from your Deck until you have 5 cards in your hand.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -2: \"Is 35P coming back?!\"\n(Once per turn) You may roll a dice. If the result is 1, 2, 4, or 6, return a 35P from your Archive to your hand. If the result is 3 or 5, return 2 35Ps from your Archive to your hand.\n\nSP Oshi Skill holo power -2: \"A heart that doesn't give up\"\n(Once per game) Can be used if your Center holomem is Red: Choose any number of cards from your hand and place them on the bottom of your Deck in any order. Then draw from your Deck until you have 5 cards in your hand."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8090,7 +8090,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] デビルズヴォイス [ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] 悪魔的所業 [ゲームに1回]相手のターンで、自分の〈常闇トワ〉がダウンした時に使える：相手のセンターホロメンとコラボホロメンのエール2枚ずつを好きな順でエールデッキの下に戻す。",
-      "en": "Oshi Skill holo power -2: \"Devil's Voice\"\n(Once per turn) The Arts of your Center and Collab holomems with #Song gain +20 power until the end of the turn.\n\nSP Oshi Skill holo power -2: \"Devilish Deeds\"\n(Once per game) Can be used during your opponent's turn when your Tokoyami Towa is Downed: return 2 Cheers from your opponent's Center holomem and 2 Cheers from their Collab holomem to the bottom of their Cheer Deck in any order.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -2: \"Devil's Voice\"\n(Once per turn) The Arts of your Center and Collab holomems with #Song gain +20 power until the end of the turn.\n\nSP Oshi Skill holo power -2: \"Devilish Deeds\"\n(Once per game) Can be used during your opponent's turn when your Tokoyami Towa is Downed: return 2 Cheers from your opponent's Center holomem and 2 Cheers from their Collab holomem to the bottom of their Cheer Deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8163,7 +8163,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] Member sheep いらっしゃい！ [ターンに1回]自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：-2] わためは悪くないよねぇ？ [ゲームに1回]自分のエールデッキの上から2枚を、自分の〈角巻わため〉1人に送る。",
-      "en": "Oshi Skill holo power -2: \"Membersheep welcome!\"\n(Once per turn) Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.\n\nSP Oshi Skill holo power -2: \"Watame did nothing wrong\"\n(Once per game) Send the top 2 cards of your Cheer Deck to one of your holomems named Tsunomaki Watame.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+      "en": "Oshi Skill holo power -2: \"Membersheep welcome!\"\n(Once per turn) Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.\n\nSP Oshi Skill holo power -2: \"Watame did nothing wrong\"\n(Once per game) Send the top 2 cards of your Cheer Deck to one of your holomems named Tsunomaki Watame."
     },
     "max_amount": 4,
     "illustrations": [
@@ -12984,7 +12984,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "アーツ [赤] あやふぶみの「あや」担当　60 [黄+50]\n\nアーツ [赤] [赤] [◇] 余ーだ余　40 [黄+50] \n自分の手札1～3枚をアーカイブできる：相手のセンターホロメンに、アーカイブしたカード1枚につき、特殊ダメージ40を与える。",
-      "en": "Arts: \"The 'Aya' in AyaFubuMi\"\nCost: 1 Red\nPower: 60, +50 vs Yellow\n\nArts: \"Yo~ da yo\"\nCost: 2 Red, 1 any color\nPower: 40, +50 vs Yellow\nYou may Archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card Archived to your opponent's Center holomem.\n\n[SR version available in hBP02 Quintet Spectrum]"
+      "en": "Arts: \"The 'Aya' in AyaFubuMi\"\nCost: 1 Red\nPower: 60, +50 vs Yellow\n\nArts: \"Yo~ da yo\"\nCost: 2 Red, 1 any color\nPower: 40, +50 vs Yellow\nYou may Archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card Archived to your opponent's Center holomem."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13422,7 +13422,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "アーツ [青] [◇] MOGMOG　60 [白+50]\n\nアーツ [青] [青] [◇] [◇] おかゆ～　100 [白+50] \nこのホロメンの青エール2枚をアーカイブできる：相手のセンターホロメンとバックホロメン1人に特殊ダメージ30を与える。",
-      "en": "Arts: \"MOGMOG\"\nCost: 1 Blue, 1 any color\nPower: 60, +50 vs White\n\nArts: \"Okayu~\"\nCost: 2 Blue, 2 any color\nPower: 100, +50 vs White\nYou may Archive 2 Blue Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems.\n\n[SR version available in hBP02 Quintet Spectrum]"
+      "en": "Arts: \"MOGMOG\"\nCost: 1 Blue, 1 any color\nPower: 60, +50 vs White\n\nArts: \"Okayu~\"\nCost: 2 Blue, 2 any color\nPower: 100, +50 vs White\nYou may Archive 2 Blue Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13826,7 +13826,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "アーツ [紫] [◇] 33… 22… 11…　50 [緑+50]\n\nアーツ [紫] [紫] [◇] あくとっ　60+ [緑+50] \nこのターンに自分が使っていたイベント1枚につき、このアーツ+40。",
-      "en": "Arts: \"33... 22... 11...\"\nCost: 1 Purple, 1 any color\nPower: 50, +50 vs Green\n\nArts: \"Go!\"\nCost: 2 Purple, 1 any color\nPower: 60+, +50 vs Green\nFor each Event card you've played during this turn, this Art gains +40 power.\n\n[SR version available in hBP02 Quintet Spectrum]"
+      "en": "Arts: \"33... 22... 11...\"\nCost: 1 Purple, 1 any color\nPower: 50, +50 vs Green\n\nArts: \"Go!\"\nCost: 2 Purple, 1 any color\nPower: 60+, +50 vs Green\nFor each Event card you've played during this turn, this Art gains +40 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -14216,7 +14216,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] ダンスでこの世界に彩を！　 \n自分のデッキから、#ReGLOSSを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [白] [白] [◇] 滅紫の雷　80+ [紫+50] \n自分のステージに〈轟はじめ〉以外の#ReGLOSSを持つホロメンがいる時、このアーツ+30。",
-      "en": "Bloom Effect: \"Add color to the world with dance!\"\nReveal a Debut or 1st Bloom holomem with #ReGLOSS from your Deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Purple Lightning\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nIf there is a holomem with #ReGLOSS on your Stage not named Todoroki Hajime, this Art gains +30 power.\n\n[SR version available in hBP03 Elite Spark]"
+      "en": "Bloom Effect: \"Add color to the world with dance!\"\nReveal a Debut or 1st Bloom holomem with #ReGLOSS from your Deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Purple Lightning\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nIf there is a holomem with #ReGLOSS on your Stage not named Todoroki Hajime, this Art gains +30 power."
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -14550,7 +14550,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 元気をお届け　 \n自分の#秘密結社holoXを持つホロメン1人のHP30回復。\n\nアーツ [緑] [◇] [◇] 天才では？　70+ [青+50] \n自分のステージにエールが5枚以上ある時、このアーツ+50。",
-      "en": "Bloom Effect: \"Bringing you energy\"\nRestore 30 HP to one of your holomems with #SecretSocietyholoX.\n\nArts: \"Am I a genius?\"\nCost: 1 Green, 2 any color\nPower: 70+, +50 vs Blue\nIf there are at least 5 Cheers on your stage, this Art gains +50 power.\n\n[SR version available in hBP03 Elite Spark]"
+      "en": "Bloom Effect: \"Bringing you energy\"\nRestore 30 HP to one of your holomems with #SecretSocietyholoX.\n\nArts: \"Am I a genius?\"\nCost: 1 Green, 2 any color\nPower: 70+, +50 vs Blue\nIf there are at least 5 Cheers on your stage, this Art gains +50 power."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -14952,7 +14952,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] 疲れ知らず　 \n[センターポジション限定]このホロメンが受けるダメージ-10。\n\nアーツ [黄] [◇] [◇] 情熱ステージ　70+ [赤+50] \n自分のライフが3以下の時、このアーツ+70。",
-      "en": "Gift: \"Tireless\"\n[Center position only] Whenever this holomem takes damage, it takes -10 damage.\n\nArts: \"Passion Stage\"\nCost: 1 Yellow, 2 any color\nPower: 70+, +50 vs Red\nIf you have 3 or less LIFE, this Art gains +70 power.\n\n[SR version available in hBP03 Elite Spark]"
+      "en": "Gift: \"Tireless\"\n[Center position only] Whenever this holomem takes damage, it takes -10 damage.\n\nArts: \"Passion Stage\"\nCost: 1 Yellow, 2 any color\nPower: 70+, +50 vs Red\nIf you have 3 or less LIFE, this Art gains +70 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
