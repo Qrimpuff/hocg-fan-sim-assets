@@ -529,11 +529,17 @@ pub mod ogbajoj {
         }
 
         fn text(&self) -> String {
-            // should remove the limited line
             self.text
                 .lines()
                 .map(|l| l.trim())
+                // should remove the "LIMITED: Only one can be used per turn." line
                 .filter(|l| !l.to_lowercase().starts_with("limited:"))
+                // should remove the "[SR version available in hBP03 Elite Spark]" line
+                .filter(|l| {
+                    !(l.starts_with('[')
+                        && l.to_lowercase().contains("version available")
+                        && l.ends_with(']'))
+                })
                 .collect::<Vec<_>>()
                 .join("\n")
                 .trim()
