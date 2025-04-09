@@ -11,11 +11,13 @@ csv = { workspace = true }
 dotenvy = { workspace = true }
 httpdate = { workspace = true }
 image = { workspace = true }
+image_hasher = { workspace = true }
 imageproc = { workspace = true }
 indexmap = { workspace = true }
 itertools = { workspace = true }
 json-pretty-compact = { workspace = true }
 oxipng = { workspace = true }
+palette = { workspace = true }
 parking_lot = { workspace = true }
 rayon = { workspace = true }
 reqwest = { workspace = true }

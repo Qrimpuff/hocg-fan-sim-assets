@@ -80,8 +80,12 @@ Options:
       --skip-update
           Don't update the cards info
   
-      --yuyutei-urls
+      --yuyutei [<YUYUTEI_MODE>]
           Update the yuyu-tei.jp urls for the cards. can only be use when all cards are searched
+          
+          Possible values:
+          - quick: Use the first urls found
+          - images: Compare images to find the best match
   
       --holodelta-db-path <HOLODELTA_DB_PATH>
           Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
@@ -118,7 +122,7 @@ Options:
 
 4. Create a complete dataset with pricing information:
    ```
-   cargo run --release -- --clean --download-images --yuyutei-urls --proxy-path ./en_proxies --holodelta-db-path ./cardData.db --ogbajoj-sheet --official-hololive
+   cargo run --release -- --clean --download-images --yuyutei=images --proxy-path ./en_proxies --holodelta-db-path ./cardData.db --ogbajoj-sheet --official-hololive
    ```
 
 5. Package images for specific card sets (from package-images.cmd):
@@ -132,7 +136,7 @@ Options:
 
 6. Automated asset generation (from GitHub Actions):
    ```
-   cargo run --release -- --download-images --yuyutei-urls --ogbajoj-sheet --official-hololive
+   cargo run --release -- --download-images --yuyutei --ogbajoj-sheet --official-hololive
    ```
    This example demonstrates daily automated asset generation (runs at 00:00 JST/15:00 UTC). It preserves existing 
    data from gh-pages branch before updating with fresh card information from all sources, then deploys to GitHub Pages.

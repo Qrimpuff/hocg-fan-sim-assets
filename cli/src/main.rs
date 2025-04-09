@@ -10,6 +10,7 @@ use std::{
 };
 
 use clap::Parser;
+use clap::ValueEnum;
 use data::{
     decklog::retrieve_card_info_from_decklog, hololive_official::retrieve_card_info_from_hololive,
     ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
@@ -23,6 +24,8 @@ use reqwest::blocking::{Client, ClientBuilder};
 use serde::Serialize;
 use serde_json::Serializer;
 use tempfile::TempDir;
+
+pub const DEBUG: bool = false;
 
 fn http_client() -> &'static Client {
     static HTTP_CLIENT: OnceLock<Client> = OnceLock::new();
@@ -75,7 +78,7 @@ struct Args {
 
     /// Update the yuyu-tei.jp urls for the cards. can only be use when all cards are searched
     #[arg(long)]
-    yuyutei_urls: bool,
+    yuyutei: Option<Option<YuyuteiMode>>,
 
     /// Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
     #[arg(long)]
@@ -88,6 +91,14 @@ struct Args {
     /// Use ogbajoj's sheet to import english translations
     #[arg(long)]
     ogbajoj_sheet: bool,
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
+enum YuyuteiMode {
+    /// Use the first urls found
+    Quick,
+    /// Compare images to find the best match
+    Images,
 }
 
 fn main() {
@@ -151,11 +162,15 @@ fn main() {
     }
 
     // update yuyutei price
-    if args.yuyutei_urls {
+    if let Some(mode) = args.yuyutei {
         if args.number_filter.is_some() || args.expansion.is_some() {
             eprintln!("WARNING: SKIPPING YUYUTEI. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
         } else {
-            yuyutei(&mut all_cards);
+            yuyutei(
+                &mut all_cards,
+                mode.unwrap_or(YuyuteiMode::Quick),
+                &images_jp_path,
+            );
         }
     }
 

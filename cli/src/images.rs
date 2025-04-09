@@ -297,3 +297,99 @@ pub fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
 
     println!("Created {}", file_path.to_str().unwrap());
 }
+
+pub mod utils {
+
+    use image::{GrayImage, RgbImage};
+    use image_hasher::{HasherConfig, ImageHash};
+    use imageproc::map::{blue_channel, green_channel, red_channel};
+
+    use itertools::Itertools;
+    use palette::{Hsv, IntoColor, Srgb};
+
+    use crate::DEBUG;
+
+    pub fn to_image_hash(img: &RgbImage) -> String {
+        let hasher = HasherConfig::new()
+            .preproc_dct()
+            .hash_alg(image_hasher::HashAlg::DoubleGradient)
+            .to_hasher();
+
+        let mut hashes = vec![];
+
+        let red = red_channel(img);
+        let green = green_channel(img);
+        let blue = blue_channel(img);
+
+        let rh = hasher.hash_image(&red);
+        let gh = hasher.hash_image(&green);
+        let bh = hasher.hash_image(&blue);
+        hashes.push(rh.to_base64());
+        hashes.push(gh.to_base64());
+        hashes.push(bh.to_base64());
+
+        let sat = sat_gray_image(img);
+        let sh = hasher.hash_image(&sat);
+        hashes.push(sh.to_base64());
+
+        let hash = hashes.join("|");
+
+        if DEBUG {
+            println!("{}", hash);
+        }
+
+        hash
+    }
+
+    pub fn dist_hash(h1: &str, h2: &str) -> u64 {
+        let h1 = h1.split('|').collect_vec();
+        let h2 = h2.split('|').collect_vec();
+
+        let a_dist_h = h1
+            .iter()
+            .zip(h2.iter())
+            .filter_map(|(h1, h2)| {
+                Some(
+                    ImageHash::<Box<[u8]>>::from_base64(h1)
+                        .ok()?
+                        .dist(&ImageHash::from_base64(h2).ok()?) as u64,
+                )
+            })
+            .collect_vec();
+        if h1.len() != a_dist_h.len() || h2.len() != a_dist_h.len() {
+            return u64::MAX;
+        }
+        let dist_h: u64 = a_dist_h
+            .iter()
+            .map(|d| if *d <= 2 { 1 } else { *d })
+            .product();
+
+        if DEBUG {
+            println!("{:?} = {}", a_dist_h, dist_h);
+        }
+        dist_h
+    }
+
+    fn sat_gray_image(img: &RgbImage) -> GrayImage {
+        GrayImage::from_raw(
+            img.width(),
+            img.height(),
+            img.pixels()
+                .flat_map(|p| {
+                    let s = hsv(p.0).1;
+                    [((1.0 - s) * 255.0) as u8]
+                })
+                .collect(),
+        )
+        .unwrap()
+    }
+
+    fn hsv(ps: [u8; 3]) -> (f32, f32, f32) {
+        let rgb = Srgb::from(ps).into_format();
+        let hsv: Hsv = rgb.into_color();
+        let h = hsv.hue.into_positive_degrees();
+        let s = hsv.saturation;
+        let v = hsv.value;
+        (h, s, v)
+    }
+}
