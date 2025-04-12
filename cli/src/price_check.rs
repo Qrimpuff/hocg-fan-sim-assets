@@ -42,7 +42,11 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
                 if page > 1 {
                     let mut max_page_lock = max_page.0.lock();
                     if *max_page_lock == 0 {
-                        max_page.1.wait(&mut max_page_lock);
+                        max_page
+                            .1
+                            .wait_for(&mut max_page_lock, Duration::from_secs(600));
+                    } else {
+                        max_page.1.notify_all();
                     }
 
                     if page > *max_page_lock {
@@ -84,10 +88,9 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
 
                 if let Some(max) = document.select(&max_page_select).next() {
                     let max_page_num = max.text().collect::<String>().parse().unwrap();
-
                     *max_page.0.lock() = max_page_num;
-                    max_page.1.notify_all();
                 }
+                max_page.1.notify_all();
 
                 for card_list in document.select(&card_lists) {
                     let rarity: String = card_list
