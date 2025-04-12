@@ -11,7 +11,7 @@ use crate::{
 };
 
 // one image can map to multiple illustrations, if they are similar enough
-const DIST_TOLERANCE: u64 = 2 * 2 * 2 * 2; // a distance of 2 in each channel
+pub const DIST_TOLERANCE: u64 = 2 * 2 * 2 * 2; // a distance of 2 in each channel
 
 pub fn import_holodelta(
     all_cards: &mut CardsDatabase,
@@ -110,7 +110,7 @@ pub fn import_holodelta(
             // modify the cards here, to avoid borrowing issue
             let mut already_set = BTreeMap::new();
             for (delta_art_index, card, dist) in dists {
-                println!("dist: {:?}", (delta_art_index, card, dist));
+                // println!("dist: {:?}", (delta_art_index, card, dist));
 
                 let mut card = card.lock();
                 // to handle multiple cards with the same image

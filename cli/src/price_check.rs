@@ -1,14 +1,25 @@
-use std::{collections::HashMap, path::Path, sync::Arc, time::Duration};
+use std::{
+    collections::{BTreeMap, HashMap},
+    path::Path,
+    sync::Arc,
+    time::Duration,
+};
 
 use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase};
+use image::DynamicImage;
 use indexmap::IndexMap;
+use itertools::Itertools;
 use parking_lot::{Condvar, Mutex, RwLock};
-use rayon::iter::{ParallelBridge, ParallelIterator};
+use rayon::iter::{
+    IntoParallelIterator, IntoParallelRefIterator, ParallelBridge, ParallelIterator,
+};
 use reqwest::Url;
 use scraper::{Html, Selector};
 
 use crate::{
-    DEBUG, YuyuteiMode, http_client,
+    DEBUG, YuyuteiMode,
+    holodelta::DIST_TOLERANCE,
+    http_client,
     images::utils::{dist_hash, to_image_hash},
 };
 
@@ -169,39 +180,126 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
     let existing_urls = Arc::new(RwLock::new(existing_urls));
     let urls = Arc::new(RwLock::new(urls));
     let url_count = Arc::new(Mutex::new(0));
-    all_cards
-        .values_mut()
-        .flat_map(|cs| cs.illustrations.iter_mut())
-        .filter(|c| mode == YuyuteiMode::Images || c.yuyutei_sell_url.is_none())
-        .par_bridge()
-        .for_each(|card| {
-            // look for same image first
-            if let Some(yuyutei_sell_url) = existing_urls.read().get(&card.img_path.japanese) {
-                card.yuyutei_sell_url = Some(yuyutei_sell_url.clone());
-            } else if let Some(urls) = urls
-                .write()
-                .get_mut(&(card.card_number.clone(), card.rarity.clone()))
-            {
-                if mode == YuyuteiMode::Images {
-                    // get the url of the best matching image
-                    urls.sort_by_cached_key(|(_, img_path)| {
-                        dist_yuyutei_image(card, img_path, images_jp_path)
-                    });
-                }
+    all_cards.values_mut().par_bridge().for_each(|card| {
+        // in quick mode: first come first served. ideal for updating new cards as they are added to the database
+        if mode == YuyuteiMode::Quick {
+            let illustrations = card
+                .illustrations
+                .iter_mut()
+                .filter(|c| c.yuyutei_sell_url.is_none())
+                .collect_vec();
 
-                // use the url of the best match (first entry)
-                if !urls.is_empty() {
-                    let (url, _) = urls.swap_remove(0);
-                    card.yuyutei_sell_url = Some(url.clone());
-                    // group by image, some entries are duplicated
-                    existing_urls
-                        .write()
-                        .entry(card.img_path.japanese.clone())
-                        .or_insert(url.clone());
-                    *url_count.lock() += 1;
+            for illustration in illustrations {
+                // first, look for same image
+                if let Some(yuyutei_sell_url) =
+                    existing_urls.read().get(&illustration.img_path.japanese)
+                {
+                    illustration.yuyutei_sell_url = Some(yuyutei_sell_url.clone());
+                } else if let Some(urls) = urls.write().get_mut(&(
+                    illustration.card_number.clone(),
+                    illustration.rarity.clone(),
+                )) {
+                    // use the first url
+                    if !urls.is_empty() {
+                        let (url, _) = urls.swap_remove(0);
+                        illustration.yuyutei_sell_url = Some(url.clone());
+                        // group by image, some entries are duplicated
+                        existing_urls
+                            .write()
+                            .entry(illustration.img_path.japanese.clone())
+                            .or_insert(url.clone());
+                        *url_count.lock() += 1;
+                    }
                 }
             }
-        });
+        // in images mode: find the best match. ideal to fix any issues from quick mode
+        } else if mode == YuyuteiMode::Images {
+            let rarities = card
+                .illustrations
+                .iter_mut()
+                .map(|c| {
+                    // clear any existing url
+                    c.yuyutei_sell_url = None;
+                    Arc::new(Mutex::new(c))
+                })
+                .into_group_map_by(|c| c.lock().rarity.clone());
+
+            rarities
+                .into_par_iter()
+                .for_each(|(rarity, mut illustrations)| {
+                    if let Some(urls) = urls.write().get_mut(&(card.card_number.clone(), rarity)) {
+                        // nothing to match
+                        if urls.is_empty() || illustrations.is_empty() {
+                            return;
+                        }
+
+                        // only one possible match
+                        if urls.len() == 1 && illustrations.len() == 1 {
+                            let (url, _) = urls.swap_remove(0);
+                            let illust = illustrations.swap_remove(0);
+                            illust.lock().yuyutei_sell_url = Some(url.clone());
+                            *url_count.lock() += 1;
+                            return;
+                        }
+
+                        // find the best match, otherwise
+                        println!();
+                        let urls: Vec<_> = urls
+                            .par_iter()
+                            .map(|(url, img_path)| {
+                                // download the image
+                                println!("Checking Yuyutei image: {img_path}");
+                                let resp = http_client().get(img_path).send().unwrap();
+                                let yuyutei_img =
+                                    image::load_from_memory(&resp.bytes().unwrap()).unwrap();
+                                (url, yuyutei_img)
+                            })
+                            .collect();
+
+                        let mut dists: Vec<_> = urls
+                            .into_iter()
+                            .cartesian_product(illustrations.iter())
+                            .map(|((url, yuyutei_img), illust)| {
+                                let dist =
+                                    dist_yuyutei_image(&illust.lock(), yuyutei_img, images_jp_path);
+
+                                (url, illust, dist)
+                            })
+                            .collect();
+
+                        // sort by best dist, then update the url
+                        dists.sort_by_key(|d| d.2);
+
+                        // modify the cards here, to avoid borrowing issue
+                        let mut already_set = BTreeMap::new();
+                        for (url, illust, dist) in dists {
+                            let mut illust = illust.lock();
+                            // to handle multiple cards with the same image
+                            let min_dist = *already_set
+                                .get(&url)
+                                .unwrap_or(&(u64::MAX - DIST_TOLERANCE));
+                            if illust.yuyutei_sell_url.is_none()
+                                && min_dist + DIST_TOLERANCE >= dist
+                            {
+                                illust.yuyutei_sell_url = Some(url.clone());
+                                already_set.insert(url, dist.min(min_dist));
+                                *url_count.lock() += 1;
+
+                                if DEBUG {
+                                    // println!(
+                                    //     "Updated card {:?} -> manage_id: {}, yuyutei url: {} ({})",
+                                    //     illust.card_number,
+                                    //     illust.manage_id.unwrap(),
+                                    //     illust.yuyutei_sell_url.as_ref().unwrap(),
+                                    //     dist
+                                    // );
+                                }
+                            }
+                        }
+                    }
+                });
+        }
+    });
 
     // remove empty urls
     let mut urls = Arc::try_unwrap(urls).unwrap().into_inner();
@@ -218,12 +316,11 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
     }
 }
 
-fn dist_yuyutei_image(card: &CardIllustration, img_path: &str, images_jp_path: &Path) -> u64 {
-    // download the image
-    println!("\nChecking Yuyutei image: {img_path}");
-    let resp = http_client().get(img_path).send().unwrap();
-    let yuyutei_img = image::load_from_memory(&resp.bytes().unwrap()).unwrap();
-
+fn dist_yuyutei_image(
+    card: &CardIllustration,
+    yuyutei_img: DynamicImage,
+    images_jp_path: &Path,
+) -> u64 {
     // compare the image to the card
     println!("Checking Card image: {}", card.img_path.japanese);
     let path = images_jp_path.join(&card.img_path.japanese);
