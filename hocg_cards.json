@@ -12789,6 +12789,15 @@
         "img_last_modified": "Tue, 17 Sep 2024 09:30:48 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10003",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD01-016",
+        "manage_id": 829,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hSD01-016_P_02.webp", "en": null },
+        "img_last_modified": "Sat, 19 Apr 2025 00:34:58 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
