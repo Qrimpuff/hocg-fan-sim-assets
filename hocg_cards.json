@@ -672,7 +672,7 @@
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#4期生", "en": "#Gen4" }, { "jp": "#歌", "en": "#Song" } ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-014",
@@ -845,7 +845,7 @@
       { "jp": "#絵", "en": "#Art" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": 1,
+    "max_amount": 4,
     "illustrations": [
       {
         "card_number": "hBP01-019",
@@ -7774,7 +7774,7 @@
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈パヴォリア・レイネ〉に付いていたら能力追加\nこのマスコットが付いているホロメンのHP+30。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The Arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Pavolia Reine, it gains the following effect: the holomem with this Mascot attached has +30 HP.\n\nYou may only attach 1 Mascot to a holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-094",
@@ -12868,7 +12868,7 @@
     "card_type": { "support": "item" },
     "limited": true,
     "text": {
-      "jp": "このカードは、自分のエール１枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[１stホロメンか２ndホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+      "jp": "このカードは、自分のステージのエール１枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[１stホロメンか２ndホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "To play this card, you must Archive one of your Cheers in play.\n\nReveal a 1st Bloom or 2nd Bloom holomem from your Deck (excluding Buzz holomem) and put it into your hand. Then shuffle your deck."
     },
     "max_amount": 4,
