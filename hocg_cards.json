@@ -12171,7 +12171,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンが付いているホロメンのバトンタッチに必要な無色エール-1。\n\nこのファンは、自分の〈戌神ころね〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "The Baton Pass Cheer cost of the holomem this is attached to is reduced by 1 colorless Cheer.\n\nThis Fan may only be attached to your Inugami Korone, and you may attach any number of this Fan to one holomem."
+      "en": "The holomem this is attached to has the Cheer cost of their Baton Pass reduced by 1 colorless Cheer.\n\nThis Fan may only be attached to your Inugami Korone, and you may attach any number of this Fan to one holomem."
     },
     "max_amount": 4,
     "illustrations": [
