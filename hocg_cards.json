@@ -3764,6 +3764,15 @@
         "img_last_modified": "Tue, 17 Sep 2024 09:30:47 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10017",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-104",
+        "manage_id": 841,
+        "rarity": "SR",
+        "img_path": { "jp": "hPR/hBP01-104_SR.webp", "en": null },
+        "img_last_modified": "Fri, 25 Apr 2025 01:29:36 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -7307,6 +7316,15 @@
         "img_last_modified": "Thu, 12 Dec 2024 00:42:58 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10153",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-076",
+        "manage_id": 844,
+        "rarity": "SR",
+        "img_path": { "jp": "hPR/hBP02-076_SR.webp", "en": null },
+        "img_last_modified": "Fri, 25 Apr 2025 01:29:36 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -7338,6 +7356,15 @@
         "img_last_modified": "Thu, 12 Dec 2024 00:42:58 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10155",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-077",
+        "manage_id": 845,
+        "rarity": "SR",
+        "img_path": { "jp": "hPR/hBP02-077_SR.webp", "en": null },
+        "img_last_modified": "Fri, 25 Apr 2025 01:29:36 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -12964,6 +12991,15 @@
         "img_last_modified": "Wed, 22 Jan 2025 03:35:15 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10009",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD01-018",
+        "manage_id": 842,
+        "rarity": "SR",
+        "img_path": { "jp": "hPR/hSD01-018_SR.webp", "en": null },
+        "img_last_modified": "Fri, 25 Apr 2025 01:29:37 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -12986,6 +13022,15 @@
         "img_last_modified": "Tue, 17 Sep 2024 09:30:34 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd01/10019",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD01-019",
+        "manage_id": 843,
+        "rarity": "SR",
+        "img_path": { "jp": "hPR/hSD01-019_SR.webp", "en": null },
+        "img_last_modified": "Fri, 25 Apr 2025 01:29:37 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
