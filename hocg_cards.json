@@ -338,7 +338,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] 文明の守護者 [ターンに１回]相手のターンで、自分の#Promiseを持つホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-50。\n\nSP推しスキル [ホロパワー：-2] アメイジング・ドローイング [ゲームに１回]自分のデッキから、イベント１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "Oshi Skill holo Power -2: \"Guardian of Civilization\"\n[1/Turn] Usable if your holomem with #Promise is about to take damage during your opponent's turn: Reduce that damage by 50.\n\nSP Oshi Skill holo Power -2: \"Amazing Drawing\"\n[1/Game] Reveal 1 Event card from your deck and put it into your hand. Then shuffle your deck."
+      "en": "Oshi Skill holo Power -2: \"Guardian of Civilization\"\n[1/Turn] Usable if your holomem with #Promise is about to take damage during your opponent's turn: Reduce that damage by 50.\n\nSP Oshi Skill holo Power -2: \"Amazing Drawing\"\n[1/Game] Reveal 1 Event from your deck and put it into your hand. Then shuffle your deck."
     },
     "max_amount": 4,
     "illustrations": [
@@ -370,7 +370,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] サバイバルパワー [ターンに１回]自分のデッキから、〈石の斧〉１枚を公開し、自分の緑ホロメンに付ける。そしてデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：-2] 大地の唄 [ゲームに１回]自分の緑センターホロメンのHPすべて回復。",
-      "en": "Oshi Skill holo Power -2: \"Survival Power\"\n[1/Turn] Reveal 1 Stone Axe from your deck and attach it to one of your green holomem. Then shuffle your deck.\n\nSP Oshi Skill holo Power -2: \"Song of the Earth\"\n[1/Game] If your Center holomem is green, restore all of their HP."
+      "en": "Oshi Skill holo Power -2: \"Survival Power\"\n[1/Turn] Reveal 1 Stone Axe from your deck and attach it to one of your green holomem. Then shuffle your deck.\n\nSP Oshi Skill holo Power -2: \"Song of the Earth\"\n[1/Game] If your center holomem is green, restore all of their HP."
     },
     "max_amount": 4,
     "illustrations": [
@@ -772,7 +772,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "アーツ [白] Oh,Hi　10+ \nこのターンに自分がサポートカードを使っていた時、このアーツ+20。\n\nエクストラ このホロメンはデッキに何枚でも入れられる",
-      "en": "Arts: \"Oh,Hi\"\nCost: 1 White\nPower: 10+\nIf you have played a Support card this turn, this art gains +20 power.\n\nExtra: You may put any number of copies of this holomem in your deck."
+      "en": "Arts: \"Oh,Hi\"\nCost: 1 White\nPower: 10+\nIf you have played any Support cards during this turn, this art gains +20 power.\n\nExtra: You may put any number of copies of this holomem in your deck."
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -874,7 +874,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "アーツ [白] 思い出の欠片　20+ \n自分のデッキの上から１枚を公開できる：公開したカードが#Promiseを持つ時、このアーツ+20。そして公開したカードを手札に加える。",
-      "en": "Arts: \"Pieces of Memories\"\nCost: 1 White\nPower: 20+\nYou may reveal one card from the top of your deck. If that card has #Promise, this Art gains +20 power. Then put that card into your hand."
+      "en": "Arts: \"Pieces of Memories\"\nCost: 1 White\nPower: 20+\nYou may reveal the top card of your deck. If that card has #Promise, this Art gains +20 power. Then put that card into your hand."
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -905,7 +905,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] みんなと歌って踊りたい！　 \nDebutからBloomした時、自分のデッキから、#Promiseを持つBuzz以外の[Debutホロメンか１stホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] いつも応援してくれてありがとう！　30",
-      "en": "Bloom Effect: \"I want to sing and dance with everyone!\"\nIf this has bloomed from a Debut holomem, reveal a Debut or 1st Bloom holomem (excluding Buzz holomem) with #Promise from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Thank you for your continued support!\"\nCost: 1 any color\nPower: 30"
+      "en": "Bloom Effect: \"I want to sing and dance with everyone!\"\nIf this has bloomed from a Debut holomem, reveal 1 Debut or 1st Bloom holomem (excluding Buzz holomem) with #Promise from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Thank you for your continued support!\"\nCost: 1 any color\nPower: 30"
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -1151,7 +1151,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 新たな運命　 \nDebutからBloomした時、自分のデッキから、#ID３期生を持つBuzz以外の[Debutホロメンか１stホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] ステージみんな「私のもの」　30",
-      "en": "Bloom Effect: \"New Destiny\"\nIf this has bloomed from a Debut holomem, reveal a Debut or 1st Bloom holomem (excluding Buzz holomem) with #IDGen3 from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The whole stage is \"mine\"\"\nCost: 1 any color\nPower: 30"
+      "en": "Bloom Effect: \"New Destiny\"\nIf this has bloomed from a Debut holomem, reveal 1 Debut or 1st Bloom holomem (excluding Buzz holomem) with #IDGen3 from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The whole stage is \"mine\"\"\nCost: 1 any color\nPower: 30"
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
     "baton_pass": [ "colorless" ],
@@ -1187,7 +1187,7 @@
     "buzz": true,
     "text": {
       "jp": "キーワード [ギフト] V.7　 \n[ターンに１回][コラボポジション限定]自分のホロメンが相手からダメージを受ける時、サイコロを１回振れる：奇数の時、そのダメージを受けない。\n\nアーツ [白] [◇] [◇] アクセスコード：ID　70+ \n自分のセンターホロメンが#IDを持つ時、このアーツ+50。\n\nエクストラ このホロメンがダウンした時、自分のライフ-２",
-      "en": "Gift: \"V.7\"\n[1/Turn] (Collab position only) When your holomem is about to take damage from your opponent, you may roll a dice: If the result is odd, do not take the damage.\n\nArts: \"Access Code: ID\"\nCost: 1 White, 2 any color\nPower: 70+\nIf your center holomem has #ID, this art gains +50 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Gift: \"V.7\"\n[1/Turn] [Collab position only] When your holomem is about to take damage from your opponent, you may roll a dice: If the result is odd, do not take the damage.\n\nArts: \"Access Code: ID\"\nCost: 1 White, 2 any color\nPower: 70+\nIf your center holomem has #ID, this art gains +50 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -1974,7 +1974,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ギフト] 用心棒　 \n[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない（特殊ダメージは除く）。\n\nアーツ [緑] [◇] 元気を全力でお届けします！　20 \n自分のエールデッキの上から１枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。",
-      "en": "Gift effect: \"Bodyguard\"\n(Collab position only) Your opponent's holomem's arts can only target your collab holomem (except special damage).\n\nArts: \"I'll give you all my energy!\"\nCost: 1 Green, 1 any color\nPower: 20\nSend the top card of your cheer deck to one of your holomems with #SecretSocietyholoX that is not named Kazama Iroha."
+      "en": "Gift effect: \"Bodyguard\"\n[Collab position only] Your opponent's holomem's arts can only target your collab holomem (except special damage).\n\nArts: \"I'll give you all my energy!\"\nCost: 1 Green, 1 any color\nPower: 20\nSend the top card of your cheer deck to one of your holomems with #SecretSocietyholoX that is not named Kazama Iroha."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" } ],
     "baton_pass": [ "colorless" ],
@@ -2019,7 +2019,7 @@
     "buzz": true,
     "text": {
       "jp": "アーツ [緑] [◇] エールを束ねて　50+ \n[コラボポジション限定]このホロメンのエール１枚につき、このアーツ+20（エールは最大５枚まで）。\n\nアーツ [緑] [◇] [◇] 風華の輝き　70\n\nエクストラ このホロメンがダウンした時、自分のライフ-２",
-      "en": "Arts: \"Bundle up your cheers\"\nCost: 1 Green, 1 any color\nPower: 50+\n(Collab position only) For each cheer attached to this holomem, this art gains +20 power (up to a maximum of 5 cheers).\n\nArts: \"Brilliance of the Wind\"\nCost: 1 Green, 2 any color\nPower: 70\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Arts: \"Bundle up your cheers\"\nCost: 1 Green, 1 any color\nPower: 50+\n[Collab position only] For each cheer attached to this holomem, this art gains +20 power (up to a maximum of 5 cheers).\n\nArts: \"Brilliance of the Wind\"\nCost: 1 Green, 2 any color\nPower: 70\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -2287,7 +2287,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "アーツ [赤] パーティーへようこそ　30\n\nアーツ [赤] [赤] Lui’s Party　50 \n自分の手札１枚をアーカイブできる：自分のデッキから、Buzz以外の１stホロメン１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "Arts: \"Welcome to the Party\"\nCost: 1 Red\nPower: 30\n\nArts: \"Lui's Party\"\nCost: 2 Red\nPower: 50\nYou may archive 1 card from your hand for the following effect: Reveal a 1st Bloom holomem (excluding Buzz holomem) from your deck and put it into your hand. Then shuffle your deck."
+      "en": "Arts: \"Welcome to the Party\"\nCost: 1 Red\nPower: 30\n\nArts: \"Lui's Party\"\nCost: 2 Red\nPower: 50\nYou may archive 1 card from your hand for the following effect: Reveal one 1st Bloom holomem (excluding Buzz holomem) from your deck and put it into your hand. Then shuffle your deck."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -3222,7 +3222,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "アーツ [青] [◇] 雨のマントラ　40 [紫+50] \nこのホロメンのエール１枚をアーカイブできる：相手のバックホロメン全員に特殊ダメージ20を与える（ダウンしても相手のライフは減らない）。\n\nアーツ [青] [青] [◇] 波のマントラ　40 [紫+50] \nこのホロメンのエール２枚をアーカイブできる：相手のセンターホロメンに、相手のバックホロメン全員が受けているダメージの合計数と同じ数値の特殊ダメージを与える。",
-      "en": "Arts: \"Rain Mantra\"\nCost: 1 Blue, 1 any color\nPower: 40, +50 vs Purple\nYou may archive one cheer from this holomem for the following effect: Deal 20 special damage to all of your opponent's back holomem. (holomem downed with this effect do not reduce Life)\n\nArts: \"Wave Mantra\"\nCost: 2 Blue, 1 any color\nPower: 40, +50 vs Purple\nYou may archive two cheers from this holomem for the following effect: Deal special damage to your opponent's center holomem equal to the total amount of damage currently on their back holomem."
+      "en": "Arts: \"Rain Mantra\"\nCost: 1 Blue, 1 any color\nPower: 40, +50 vs Purple\nYou may archive 1 cheer from this holomem for the following effect: Deal 20 special damage to all of your opponent's back holomem. (holomem downed with this effect do not reduce Life)\n\nArts: \"Wave Mantra\"\nCost: 2 Blue, 1 any color\nPower: 40, +50 vs Purple\nYou may archive 2 cheers from this holomem for the following effect: Deal special damage to your opponent's center holomem equal to the total amount of damage currently on their back holomem."
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -3318,7 +3318,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] ラピスラズリ　 \n自分のエールデッキから、[緑エールか青エール]１枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。\n\nアーツ [◇] 楽しみにしてて！！　20",
-      "en": "Bloom Effect: \"Lapis Lazuli\"\nReveal a green cheer or blue cheer from your cheer deck and send it to any of your holomem. Then shuffle your cheer deck.\n\nArts: \"Look forward to it!!\"\nCost: 1 any color\nPower: 20"
+      "en": "Bloom Effect: \"Lapis Lazuli\"\nReveal 1 green cheer or blue cheer from your cheer deck and send it to any of your holomem. Then shuffle your cheer deck.\n\nArts: \"Look forward to it!!\"\nCost: 1 any color\nPower: 20"
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#IDGen1" }, { "jp": "#歌", "en": "#Song" } ],
     "baton_pass": [ "colorless" ],
@@ -3354,7 +3354,7 @@
     "buzz": true,
     "text": {
       "jp": "アーツ [◇] [◇] 月は夜に。　50\n\nアーツ [青] [◇] [◇] ムーンナイトディーバ　80 \nこのホロメンの[緑エールか青エール]１枚をアーカイブできる：相手のバックホロメン１人に特殊ダメージ30を与える。\n\nエクストラ このホロメンがダウンした時、自分のライフ-２",
-      "en": "Arts: \"Midnight Moon\"\nCost: 2 any color\nPower: 50\n\nArts: \"Moon Night Diva\"\nCost: 1 Blue, 2 any color\nPower: 80\nYou may archive a green cheer or blue cheer from this holomem for the following effect: Deal 30 special damage to one of your opponent's back holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Arts: \"Midnight Moon\"\nCost: 2 any color\nPower: 50\n\nArts: \"Moon Night Diva\"\nCost: 1 Blue, 2 any color\nPower: 80\nYou may archive 1 green cheer or blue cheer from this holomem for the following effect: Deal 30 special damage to one of your opponent's back holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#IDGen1" }, { "jp": "#歌", "en": "#Song" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -3520,7 +3520,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] それは「冒険」　 \nサイコロを１回振れる：偶数の時、自分のデッキから、Buzzホロメン１枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] ぺこら～扉の向こう側へ～　10\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"It's 'Adventure'\"\nYou may roll a dice: If the result is even, reveal a Buzz holomem from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Pekora ~Beyond the Door~\"\nCost: 1 any color\nPower: 10\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"It's 'Adventure'\"\nYou may roll a dice: If the result is even, reveal 1 Buzz holomem from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Pekora ~Beyond the Door~\"\nCost: 1 any color\nPower: 10\n\nExtra: This holomem cannot bloom."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -3722,7 +3722,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のホロパワー1枚をアーカイブしなければ使えない。\n\n自分のデッキから、自分の推しホロメンと同色のBuzz以外の[Debutホロメンか１stホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "To play this card, you must archive one holo Power.\n\nReveal a Debut or 1st Bloom holomem from your deck (excluding Buzz holomem) that is the same color as your Oshi holomem, and put it into your hand. Then shuffle your deck."
+      "en": "To play this card, you must archive 1 holo Power.\n\nReveal 1 Debut or 1st Bloom holomem from your deck (excluding Buzz holomem) that is the same color as your Oshi holomem, and put it into your hand. Then shuffle your deck."
     },
     "max_amount": 4,
     "illustrations": [
@@ -3783,7 +3783,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のホロパワー１枚をアーカイブしなければ使えない。\n\n自分のエールデッキから、自分のホロメン１人と同色のエール１枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。",
-      "en": "To play this card, you must archive one holo Power.\n\nReveal 1 cheer from your cheer deck that is the same color as one of your holomem, and send that cheer to any of your holomem. Then shuffle your cheer deck."
+      "en": "To play this card, you must archive 1 holo Power.\n\nReveal 1 cheer from your cheer deck that is the same color as one of your holomem, and send that cheer to any of your holomem. Then shuffle your cheer deck."
     },
     "max_amount": 4,
     "illustrations": [
@@ -3900,7 +3900,7 @@
     "limited": true,
     "text": {
       "jp": "サイコロを１回振る：３以下の時、相手のホロメンのエール１枚をアーカイブする。\n\n◆自分の推しホロメンが〈七詩ムメイ〉の時、能力変更可能\n[ゲームに１回]相手のセンターホロメンのエール２枚をアーカイブする。",
-      "en": "Roll a dice: If the result is 3 or less, archive one of your opponent's holomem's cheers.\n\nIf your Oshi holomem is Nanashi Mumei, you may instead perform the following effect: [1/Game] Archive 2 of your opponent's center holomem's cheers."
+      "en": "Roll a dice: If the result is 3 or less, archive 1 cheer attached to any of your opponent's holomem.\n\nIf your Oshi holomem is Nanashi Mumei, you may instead perform the following effect: [1/Game] Archive 2 cheer attached to your opponent's center holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -4320,7 +4320,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：2消費] HALU [ターンに1回]自分のホロメンの緑エール1枚をアーカイブすることで、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：2消費] 極彩色の宴 [ゲームに1回]このターンの間、自分のステージの#ID2期生を持つホロメン全員は、そのホロメンのエール1色につき、アーツ+20。",
-      "en": "Oshi Skill holo Power -2: \"HALU\"\n[1/Turn] Archive a green cheer from any of your holomem, then reveal a cheer from your cheer deck and send it to any of your holomem. Then shuffle your cheer deck.\n\nSP Oshi Skill holo Power -2: \"A Colorful Feast\"\n[1/Game] The arts of each of your holomem with #IDGen2 gain +20 power for each color of cheer attached to that holomem, until the end of this turn."
+      "en": "Oshi Skill holo Power -2: \"HALU\"\n[1/Turn] Archive 1 green cheer from any of your holomem, then reveal 1 cheer from your cheer deck and send it to any of your holomem. Then shuffle your cheer deck.\n\nSP Oshi Skill holo Power -2: \"A Colorful Feast\"\n[1/Game] The arts of each of your holomem with #IDGen2 gain +20 power for each color of cheer attached to that holomem, until the end of this turn."
     },
     "max_amount": 4,
     "illustrations": [
@@ -4393,7 +4393,7 @@
     "life": 6,
     "text": {
       "jp": "推しスキル [ホロパワー：1消費] ぽえぽえぽえ～ [ターンに1回]自分のセンターホロメンが〈沙花叉クロヱ〉の時に使える：自分のデッキの上から3枚を見る。そのカードすべてを、アーカイブするか、好きな順でデッキの上に戻す。\n\nSP推しスキル [ホロパワー：3消費] 人生リセットボタン [ゲームに1回]自分の手札を数えて、自分の[手札すべてとアーカイブのホロメンすべて]をデッキに戻してシャッフルする。そして手札からデッキに戻したカード1枚につき、自分のデッキを1枚引く。",
-      "en": "Oshi Skill holo Power -1: \"poepoepoe~\"\n[1/Turn] Usable if your center holomem is Sakamata Chloe: Look at the top 3 cards of your deck. You may archive all 3 cards, or return them to the top of your deck in any order.\n\nSP Oshi Skill holo Power -3: \"Life Reset Button\"\n[1/Game] Count the number of cards in your hand, then shuffle all cards in your hand and all holomem in your archive into your deck. Then, for each card you returned from your hand to your deck, draw 1 card."
+      "en": "Oshi Skill holo Power -1: \"poepoepoe~\"\n[1/Turn] Usable if your center holomem is Sakamata Chloe: Look at the top three cards of your deck. You may archive all 3 cards, or return them to the top of your deck in any order.\n\nSP Oshi Skill holo Power -3: \"Life Reset Button\"\n[1/Game] Count the number of cards in your hand, then shuffle all cards in your hand and all holomem in your archive into your deck. Then, for each card you returned from your hand to your deck, draw 1 card."
     },
     "max_amount": 4,
     "illustrations": [
@@ -4581,7 +4581,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [ギフト] おはこんきーつね！　 \n[コラボポジション限定]自分のマスコットが付いているホロメン全員のアーツ+10。\n\nアーツ [白] おつこーんでしたー　20",
-      "en": "Gift: \"Oha-kon kitsune!\"\n(Collab position only) The arts of all of your holomems with a Mascot attached gain +10 power.\n\nArts: \"Otsu-kon-deshita\"\nCost: 1 White\nPower: 20"
+      "en": "Gift: \"Oha-kon kitsune!\"\n[Collab position only] The arts of all of your holomems with a Mascot attached gain +10 power.\n\nArts: \"Otsu-kon-deshita\"\nCost: 1 White\nPower: 20"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -4663,7 +4663,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 白上から目をそらしちゃ　 \n自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] ダメですよっ！　40",
-      "en": "Bloom Effect: \"I can't look away from the truth.\"\nReveal a card with #ShirakamiCharacter from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Damedesu yo!\"\nCost: 1 any color\nPower: 40"
+      "en": "Bloom Effect: \"I can't look away from the truth.\"\nReveal 1 card with #ShirakamiCharacter from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Damedesu yo!\"\nCost: 1 any color\nPower: 40"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -4745,7 +4745,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] みんなと一緒！　 \nこのホロメンは、異なるカード名のマスコットを2枚まで付けられる。\n\nアーツ [白] [白] [◇] マスコットたちの饗宴　80+ [紫+50] \n自分のステージのマスコット1枚につき、このアーツ+20。",
-      "en": "Gift: \"Together, everyone!\"\nThis holomem may have two Mascots with different names attached.\n\nArts: \"A cornucopia of mascots\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nFor each Mascot attached to your holomem, this Art gains +20 power."
+      "en": "Gift: \"Together, everyone!\"\nThis holomem may have 2 Mascots with different names attached.\n\nArts: \"A cornucopia of mascots\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nFor each Mascot attached to your holomem, this Art gains +20 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -4873,7 +4873,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] ノエちゃんの勇姿……　 \nDebutからBloomした時、自分のデッキから、#3期生を持つ[Debutホロメンか1stホロメンかSpotホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] [◇] 目に焼き付けるんだゾ♡　30",
-      "en": "Bloom Effect: \"Noe-chan's brave figure......\"\nIf this has bloomed from a Debut holomem, reveal a Debut, 1st Bloom, or Spot holomem with #Gen3 from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Burn it into your memory❤️\"\nCost: 2 any color\nPower: 30"
+      "en": "Bloom Effect: \"Noe-chan's brave figure......\"\nIf this has bloomed from a Debut holomem, reveal 1 Debut, 1st Bloom, or Spot holomem with #Gen3 from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Burn it into your memory❤️\"\nCost: 2 any color\nPower: 30"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -4913,7 +4913,7 @@
     "buzz": true,
     "text": {
       "jp": "アーツ [◇] [◇] ゆるふわ脳筋女騎士　50\n\nアーツ [白] [◇] [◇] ３期生ぱわー　60+ \n[コラボポジション限定]自分のステージのこのホロメン以外の#3期生を持つホロメン1人につき、このアーツ+20。ただし、数える人数は4人まで。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Arts: \"A fluffy, meatheaded knight\"\nCost: 2 any color\nPower: 50\n\nArts: \"3rd Generation Power\"\nCost: 1 White, 2 any color\nPower: 60+\n(Collab position only) For each of your holomem with #Gen3 other than this holomem, this art gains +20 power. The maximum number of holomem counted for this effect is 4.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Arts: \"A fluffy, meatheaded knight\"\nCost: 2 any color\nPower: 50\n\nArts: \"3rd Generation Power\"\nCost: 1 White, 2 any color\nPower: 60+\n[Collab position only] For each of your holomem with #Gen3 other than this holomem, this art gains +20 power. The maximum number of holomem counted for this effect is 4.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -5081,7 +5081,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 心を込めて歌って、踊ります。　 \n自分のステージのエール1色につき、自分のホロメン1人のHP10回復。\n\nアーツ [◇] だから見ててね！大好き！　20 \n自分のアーカイブのエール1枚を自分のホロメンに送れる。",
-      "en": "Bloom Effect: \"Sing and dance with all your heart\"\nFor each color of cheer on your stage, restore 10 HP to any of your holomem.\n\nArts: \"So keep watching! I love you!\"\nCost: 1 any color\nPower: 20\nYou may send 1 dheer from your archive to any of your holomem."
+      "en": "Bloom Effect: \"Sing and dance with all your heart\"\nFor each color of cheer on your stage, restore 10 HP to any of your holomem.\n\nArts: \"So keep watching! I love you!\"\nCost: 1 any color\nPower: 20\nYou may send 1 cheer from your archive to any of your holomem."
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -5121,7 +5121,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] What AreYou Waiting For?　 \n自分のデッキから、〈Tatang〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [緑] [◇] Spicy Night　40+ \n自分のステージにエールが2色以上ある時、このアーツ+20。",
-      "en": "Bloom Effect: \"What Are You Waiting For?\"\nReveal a Tatang from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Spicy Night\"\nCost: 1 Green, 1 any color\nPower: 40+\nIf there are at least two colors of cheer on your stage, this art gains +20 power."
+      "en": "Bloom Effect: \"What Are You Waiting For?\"\nReveal 1 Tatang from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Spicy Night\"\nCost: 1 Green, 1 any color\nPower: 40+\nIf there are at least 2 colors of cheer on your stage, this art gains +20 power."
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -5161,7 +5161,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] Kanjeng　 \n自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。\n\nアーツ [緑] [◇] [◇] [◇] 孔雀の舞　100+ [白+50] \n自分のステージのエール1色につき、このアーツ+20。",
-      "en": "Bloom Effect: \"Kanjeng\"\nReveal a cheer from your cheer deck and send it to any of your holomem. Then shuffle your cheer deck.\n\nArts: \"Peafowl Dance\"\nCost: 1 Green, 3 any color\nPower: 100+, +50 vs White\nFor each color of cheer on your stage, this art gains +20 power."
+      "en": "Bloom Effect: \"Kanjeng\"\nReveal 1 cheer from your cheer deck and send it to any of your holomem. Then shuffle your cheer deck.\n\nArts: \"Peafowl Dance\"\nCost: 1 Green, 3 any color\nPower: 100+, +50 vs White\nFor each color of cheer on your stage, this art gains +20 power."
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -5550,7 +5550,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 宝鐘の海賊団　 \n自分のデッキから、〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。\n\nアーツ [◇] [◇] ヨーソロー　50",
-      "en": "Bloom Effect: \"Houshou Pirates\"\nReveal a Houshou Marine from your deck and put it into your hand. Then shuffle your deck. You may only use the Bloom Effect \"Houshou Pirates\" once per turn.\n\nArts: \"Yosoro~\"\nCost: 2 any color\nPower: 50"
+      "en": "Bloom Effect: \"Houshou Pirates\"\nReveal 1 Houshou Marine from your deck and put it into your hand. Then shuffle your deck. You may only use the Bloom Effect \"Houshou Pirates\" once per turn.\n\nArts: \"Yosoro~\"\nCost: 2 any color\nPower: 50"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -5640,7 +5640,7 @@
     "buzz": true,
     "text": {
       "jp": "アーツ [赤] [◇] 余は草　50\n\nアーツ [赤] [◇] [◇] オーガニックショット　80 \nこのホロメンにツールかマスコットが付いている時、相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Arts: \"I'm grass\"\nCost: 1 Red, 1 any color\nPower: 50\n\nArts: \"Organic Shot\"\nCost: 1 Red, 2 any color\nPower: 80\nIf this holomem has a Tool or Mascot attached, deal 30 special damage to your opponent's center or collab holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Arts: \"I'm grass\"\nCost: 1 Red, 1 any color\nPower: 50\n\nArts: \"Organic Shot\"\nCost: 1 Red, 2 any color\nPower: 80\nIf this holomem has a Tool or a Mascot attached, deal 30 special damage to your opponent's center or collab holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -5805,7 +5805,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 君の心をばっくばっくばく～んしちゃうぞ♡　 \n自分のエールデッキの上から3枚を見る。その中から、エール1枚を公開し、自分のホロメンに送る。そして残ったエールを好きな順でエールデッキの下に戻す。\n\nアーツ [◇] （ここ喜ぶ所です）　30",
-      "en": "Bloom Effect: \"I'll bakku bakku baku~n your heart❤️\"\nLook at the top 3 cards of your cheer deck. Reveal 1 cheer from among them and send it to any of your holomem. Then put the remaining cards on the bottom of your cheer deck in any order.\n\nArts: \"(This is where I enjoy it)\"\nCost: 1 any color\nPower: 30"
+      "en": "Bloom Effect: \"I'll bakku bakku baku~n your heart❤️\"\nLook at the top three cards of your cheer deck. Reveal 1 cheer from among them and send it to any of your holomem. Then put the remaining cards on the bottom of your cheer deck in any order.\n\nArts: \"(This is where I enjoy it)\"\nCost: 1 any color\nPower: 30"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -5844,7 +5844,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ギフト] ぷいぷいぷい～　 \n[ターンに1回]このホロメンのアーツ「ホロックスロット」でカードを公開した時、公開したサポートカード1枚を、アーカイブするかわりに手札に加えられる。\n\nアーツ [青] [◇] ホロックスロット　20+ \n自分のデッキの上から3枚を公開できる：公開したホロメン1枚につき、このアーツ+20。そして公開したカードをアーカイブする。",
-      "en": "Gift: \"puipuipui~\"\n[1/Turn] When you reveal cards with this holomem's art \"holoX Slots\", you may put 1 of them that is a Support card into your hand instead of archiving it.\n\nArts: \"holoX Slots\"\nCost: 1 Blue, 1 any color\nPower: 20+\nYou may reveal the top 3 cards of your deck. For each holomem revealed, this art gains +20 power. Then archive the revealed cards."
+      "en": "Gift: \"puipuipui~\"\n[1/Turn] When you reveal cards with this holomem's art \"holoX Slots\", you may put 1 of them that is a Support card into your hand instead of archiving it.\n\nArts: \"holoX Slots\"\nCost: 1 Blue, 1 any color\nPower: 20+\nYou may reveal the top three cards of your deck. For each holomem revealed, this art gains +20 power. Then archive the revealed cards."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -5883,7 +5883,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] 最高に激アツ～　 \n[ターンに1回]このホロメンのアーツ「ホロックスロット」でカードを公開した時、公開したカード3枚が同じBloomレベルのホロメンなら、相手のライフ-1。\n\nアーツ [青] [青] [◇] ホロックスロット　100+ [白+50] \n自分のデッキの上から3枚を公開できる：公開したホロメン1枚につき、このアーツ+20。そして公開したカードをアーカイブする。",
-      "en": "Gift: \"Hot streak\"\n[1/Turn] When you reveal cards with this holomem's art \"holoX Slots\", if the three revealed cards are all holomems with the same Bloom level, your opponent takes 1 Life Damage.\n\nArts: \"holoX Slots\"\nCost: 2 Blue, 1 any color\nPower: 100+, +50 vs White\nYou may reveal the top 3 cards of your deck. For each holomem revealed, this art gains +20 power. Then archive the revealed cards."
+      "en": "Gift: \"Hot streak\"\n[1/Turn] When you reveal cards with this holomem's art \"holoX Slots\", if the three revealed cards are all holomems with the same Bloom level, your opponent takes 1 Life Damage.\n\nArts: \"holoX Slots\"\nCost: 2 Blue, 1 any color\nPower: 100+, +50 vs White\nYou may reveal the top three cards of your deck. For each holomem revealed, this art gains +20 power. Then archive the revealed cards."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -5932,7 +5932,7 @@
     "buzz": true,
     "text": {
       "jp": "キーワード [ギフト] 毒の愛　 \n[センターポジション限定]自分のステージの〈猫又おかゆ〉全員が相手のセンターホロメンに与える特殊ダメージ+20。\n\nアーツ [青] [◇] [◇] ぽいずん猫　50 \nこのホロメンの青エール1枚をアーカイブできる：相手のセンターホロメンとバックホロメン1人に特殊ダメージ20を与える。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Gift: \"Poisonous Love\"\n(Center position only) All holomems named Nekomata Okayu on your stage deal +20 damage when they deal special damage to your opponent's center holomem.\n\nArts: \"Poison Neko\"\nCost: 1 Blue, 2 any color\nPower: 50\nYou may archive 1 blue cheer from this holomem for the following effect: Deal 20 special damage to your opponent's center holomem and one of their back holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Gift: \"Poisonous Love\"\n[Center position only] All holomem named Nekomata Okayu on your stage deal +20 damage when they deal special damage to your opponent's center holomem.\n\nArts: \"Poison Neko\"\nCost: 1 Blue, 2 any color\nPower: 50\nYou may archive 1 blue cheer from this holomem for the following effect: Deal 20 special damage to your opponent's center holomem and one of their back holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -6125,7 +6125,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 入れ替えの魔法　 \n自分の手札1枚をアーカイブできる：自分のアーカイブの#魔法を持つカード1枚を手札に戻す。\n\nアーツ [紫] [紫] チェンジ・ザ・エール　30 \nサイコロを1回振れる：5以上の時、相手のステージのエール1枚を、相手のホロメンに付け替える。",
-      "en": "Bloom Effect: \"Replacement Magic\"\nYou may archive a card from your hand for the following effect: Return a card with #Magic from your archive to hand.\n\nArts: \"Change the Cheer\"\nCost: 2 Purple\nPower: 30\nYou may roll a dice: If the result is 5 or more, move 1 cheer from any of your opponent's holomem to another of their holomem."
+      "en": "Bloom Effect: \"Replacement Magic\"\nYou may archive 1 card from your hand for the following effect: Return 1 card with #Magic from your archive to hand.\n\nArts: \"Change the Cheer\"\nCost: 2 Purple\nPower: 30\nYou may roll a dice: If the result is 5 or more, move 1 cheer from any of your opponent's holomem to another of their holomem."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" } ],
     "baton_pass": [ "colorless" ],
@@ -6252,7 +6252,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [コラボエフェクト] オリーがいつも見てるよ　 \n自分のデッキを1枚引いた後、手札1枚をアーカイブする。\n\nアーツ [◇] おつクレイジー！　20",
-      "en": "Collab Effect: \"Ollie is always watching you\"\nDraw a card, then archive 1 card from your hand.\n\nArts: \"Otsu-kureiji!\"\nCost: 1 any color\nPower: 20"
+      "en": "Collab Effect: \"Ollie is always watching you\"\nDraw 1 card, then archive 1 card from your hand.\n\nArts: \"Otsu-kureiji!\"\nCost: 1 any color\nPower: 20"
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -6369,7 +6369,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 真実一路　 \n自分のデッキを1枚引く。\n\nアーツ [◇] [◇] 正義の名の下に、儂は　40+ \nこのホロメンに紫以外のエールが付いている時、このアーツ+20。",
-      "en": "Bloom Effect: \"Path of Sincerity\"\nDraw a card.\n\nArts: \"In the name of justice, I...\"\nCost: 2 any color\nPower: 40+\nIf there are any non-purple cheers attached to this holomem, this art gains +20 Power."
+      "en": "Bloom Effect: \"Path of Sincerity\"\nDraw 1 card.\n\nArts: \"In the name of justice, I...\"\nCost: 2 any color\nPower: 40+\nIf there are any non-purple cheers attached to this holomem, this art gains +20 Power."
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -6628,7 +6628,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] Soul Voice　 \n自分のデッキから、カード1枚を公開し、アーカイブする。そしてデッキをシャッフルする。\n\nアーツ [紫] [紫] [◇] Featuring Myth　80+ [青+50] \n自分のアーカイブに#Mythを持つホロメンが、4枚以上ある時、このアーツ+40。8枚以上ある時、さらに、このアーツ+40。",
-      "en": "Bloom Effect: \"Soul Voice\"\nReveal any card from your deck and archive it. Then shuffle your deck.\n\nArts: \"Featuring Myth\"\nCost: 2 Purple, 1 any color\nPower: 80+, +50 vs Blue\nIf there are 4 or more holomem with #Myth in your archive, this art gains +40 power. If rthere are 8 or more, this art gains another +40 power."
+      "en": "Bloom Effect: \"Soul Voice\"\nReveal 1 card from your deck and archive it. Then shuffle your deck.\n\nArts: \"Featuring Myth\"\nCost: 2 Purple, 1 any color\nPower: 80+, +50 vs Blue\nIf there are 4 or more holomem with #Myth in your archive, this art gains +40 power. If there are 8 or more, this art gains another +40 power."
     },
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Song" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -6882,7 +6882,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "アーツ [◇] Hiya darlings!　30+ \nこのホロメンに赤エールが付いている時、このアーツ+10。\n\nエクストラ このホロメンはデッキに何枚でも入れられる",
-      "en": "Arts: \"Hiya darlings!\"\nCost: 1 any color\nPower: 30+\nIf this holomem has any red cheer attached, this art gains +10 power.\n\nExtra: You may put any number of copies of this holomem in your deck."
+      "en": "Arts: \"Hiya darlings!\"\nCost: 1 any color\nPower: 30+\nIf this holomem has any red cheers attached, this art gains +10 power.\n\nExtra: You may put any number of copies of this holomem in your deck."
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -7033,7 +7033,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] みんなの願いを咲かせる祈り！　 \nサイコロを1回振れる：奇数の時、自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。\n\nアーツ [◇] 『巫女』の『ホロ』！　20\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"A prayer to make everyone's wishes come true!\"\nYou may roll a dice: If the result is odd, reveal a red cheer or blue cheer from your cheer deck and send it to one of your back holomem. Then shuffle your cheer deck.\n\nArts: \"The 'Shrine Maiden' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"A prayer to make everyone's wishes come true!\"\nYou may roll a dice: If the result is odd, reveal 1 red cheer or blue cheer from your cheer deck and send it to one of your back holomem. Then shuffle your cheer deck.\n\nArts: \"The 'Shrine Maiden' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
     },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
@@ -7072,7 +7072,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] この手を差し伸べ、つかんで握る！　 \nサイコロを1回振れる：奇数の時、自分のエールデッキから、[白エールか緑エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。\n\nアーツ [◇] 『天使』の『ホロ』！　20\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"Reach out your hand, and hold on!\"\nYou may roll a dice: If the result is odd, reveal a white cheer or green cheer from your cheer deck and send it to one of your back holomem. Then shuffle your cheer deck.\n\nArts: \"The 'Angel' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"Reach out your hand, and hold on!\"\nYou may roll a dice: If the result is odd, reveal 1 white cheer or green cheer from your cheer deck and send it to one of your back holomem. Then shuffle your cheer deck.\n\nArts: \"The 'Angel' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
     },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
@@ -7111,7 +7111,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] 甘～い幸せ、おすそわけ！　 \nサイコロを1回振れる：奇数の時、自分のエールデッキから、[紫エールか黄エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。\n\nアーツ [◇] 『姫』の『ホロ』！　20\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"Sweet happiness, share it with me!\"\nYou may roll a dice: If the result is odd, reveal a purple cheer or yellow cheer from your cheer deck and send it to one of your back holomem. Then shuffle your cheer deck.\n\nArts: \"The 'Princess' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"Sweet happiness, share it with me!\"\nYou may roll a dice: If the result is odd, reveal 1 purple cheer or yellow cheer from your cheer deck and send it to one of your back holomem. Then shuffle your cheer deck.\n\nArts: \"The 'Princess' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
     },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
@@ -7150,7 +7150,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] 眠れる神秘を我が物に！　 \nサイコロを1回振れる：偶数の時、自分のデッキから、イベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] 『魔女』の『ホロ』！　20\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"Make the sleeping mystery yours!\"\nYou may roll a dice: If the result is even, reveal an Event card from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The 'Witch' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"Make the sleeping mystery yours!\"\nYou may roll a dice: If the result is even, reveal 1 Event from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The 'Witch' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
     },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
@@ -7189,7 +7189,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] きらめくお宝、ロックオン！　 \nサイコロを1回振れる：偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] 『海賊』の『ホロ』！　20\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"Lock on to sparkling treasure!\"\nYou may roll a dice: If the result is even, reveal a Fan card from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The 'Pirate' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"Lock on to sparkling treasure!\"\nYou may roll a dice: If the result is even, reveal 1 Fan from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The 'Pirate' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
     },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
@@ -7228,7 +7228,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] 荒波をゆく奔放の牙！　 \nサイコロを1回振れる：偶数の時、自分のデッキから、ツール1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] 『シャチ』の『ホロ』！　20\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"Unrestrained fangs sailing through rough seas!\"\nYou may roll a dice: If the result is even, reveal a Tool card from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The 'Orca' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"Unrestrained fangs sailing through rough seas!\"\nYou may roll a dice: If the result is even, reveal 1 Tool from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"The 'Orca' of 'Holo'\"\nCost: 1 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
     },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
@@ -7529,7 +7529,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "このカードは、自分のホロパワー1枚をアーカイブしなければ使えない。\n\n自分のアーカイブの紫エール1枚を、自分の〈紫咲シオン〉に送る。自分の#魔法を持つイベントはターンに1回しか使えない。",
-      "en": "To play this card, you must Archive one holo Power.\n\nSend one purple cheer from your archive to one of your holomem named Murasaki Shion.\nYou may only play one Event with #Magic per turn."
+      "en": "To play this card, you must Archive 1 holo Power.\n\nSend 1 purple cheer from your archive to one of your holomem named Murasaki Shion.\nYou may only play one Event with #Magic per turn."
     },
     "tags": [ { "jp": "#魔法", "en": "#Magic" } ],
     "max_amount": 4,
@@ -7561,7 +7561,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキを2枚引き、サイコロを1回振る：3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。",
-      "en": "Draw 2 cards, then roll a dice: if the result is 3, 5, or 6, reveal a Debut holomem from your deck and put into your hand, then shuffle your deck. If the result is 2 or 4, draw a card."
+      "en": "Draw 2 cards, then roll a dice: If the result is 3, 5, or 6, reveal 1 Debut holomem from your deck and put into your hand, then shuffle your deck. If the result is 2 or 4, draw 1 card."
     },
     "max_amount": 4,
     "illustrations": [
@@ -7784,7 +7784,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈白上フブキ〉に付いていたら能力追加\nこのマスコットが付いているホロメンがコラボした時、自分のアーカイブのマスコット1枚を手札に戻せる。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: When the holomem with this Mascot attached collabs, you may return one Mascot from your archive to hand.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: When the holomem with this Mascot attached collabs, you may return 1 Mascot from your archive to hand.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": 4,
@@ -7846,7 +7846,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈白上フブキ〉に付いていたら能力追加\n[バックポジション限定]このマスコットが付いているホロメンは相手からダメージを受けない。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: (Back position only) The holomem with this mascot attached does not take any damage.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": 4,
@@ -7907,7 +7907,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈宝鐘マリン〉に付いていたら能力追加\n[センターポジション限定]このマスコットが付いているホロメンがBloomした時、自分のデッキを1枚引く。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Houshou Marine, it gains the following effect: (Center position only) When the holomem that this Mascot is attached to blooms, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Houshou Marine, it gains the following effect: [Center position only] When the holomem that this Mascot is attached to blooms, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -7937,7 +7937,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈沙花叉クロヱ〉に付いていたら能力追加\nこのマスコットが付いているホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのエール1枚を、自分の#秘密結社holoXを持つホロメンに送れる。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Sakamata Chloe, it gains the following effect: When the holomem with this Mascot attached downs one of your opponent's holomem, send a cheer from your archive to one of your holomem with #SecretSocietyholoX.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Sakamata Chloe, it gains the following effect: When the holomem with this Mascot attached downs one of your opponent's holomem, send 1 cheer from your archive to one of your holomem with #SecretSocietyholoX.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8088,7 +8088,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "相手のターンで、このファンが付いているホロメンがダウンした時、自分のデッキを1枚引く。\n\nこのファンは、自分の〈大神ミオ〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "If the holomem with this Fan attached is downed during your opponent's turn, draw a card.\n\nThis Fan may only be attached to your Ookami Mio, and you may attach any number of this Fan to one holomem."
+      "en": "If the holomem with this Fan attached is downed during your opponent's turn, draw 1 card.\n\nThis Fan may only be attached to your Ookami Mio, and you may attach any number of this Fan to one holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8223,7 +8223,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] 35P帰ってくるのかッ！？って！ [ターンに1回]サイコロを1回振れる：1か2か4か6の時、自分のアーカイブの〈35P〉1枚を手札に戻す。3か5の時、自分のアーカイブの〈35P〉2枚を手札に戻す。\n\nSP推しスキル [ホロパワー：-2] あきらめない心にぇ [ゲームに1回]自分のセンターホロメンの色が赤の時に使える：自分の手札を好きな枚数選んで好きな順でデッキの下に戻す。そして手札が5枚になるまで、自分のデッキを引く。",
-      "en": "Oshi Skill holo Power -2: \"Is 35P coming back?!\"\n[1/Turn] You may roll a dice: If the result is 1, 2, 4, or 6, return a 35P from your archive to your hand. If the result is 3 or 5, return 2 35Ps from your archive to hand.\n\nSP Oshi Skill holo Power -2: \"A heart that doesn't give up\"\n[1/Game] Usable if your center holomem is red: Choose any number of cards from your hand and put them on the bottom of your deck in any order. Then draw until you have 5 cards in your hand."
+      "en": "Oshi Skill holo Power -2: \"Is 35P coming back?!\"\n[1/Turn] You may roll a dice: If the result is 1, 2, 4, or 6, return one 35P from your archive to hand. If the result is 3 or 5, return two 35Ps from your archive to hand.\n\nSP Oshi Skill holo Power -2: \"A heart that doesn't give up\"\n[1/Game] Usable if your center holomem is red: Choose any number of cards from your hand and put them on the bottom of your deck in any order. Then draw until you have 5 cards in your hand."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8264,7 +8264,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-3] モコちゃん！ [ターンに1回]自分のエールデッキの上から1枚を、自分の1stホロメンの〈モココ・アビスガード〉に送る。\n\nSP推しスキル [ホロパワー：-2] BAU BAU! [ゲームに1回]自分の#Adventを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、相手のバックホロメンも対象にできる。",
-      "en": "Oshi Skill holo Power -3: \"Moco-chan!\"\n[1/Turn] Send the top card of your cheer deck to one of your 1st Bloom holomems named Mococo Abyssgard.\n\nSP Oshi Skill holo Power -2: \"BAU BAU!\"\n[1/Game] Choose one of your holomems with #Advent. That holomem's arts may target your opponent's back holomem until the end of this turn."
+      "en": "Oshi Skill holo Power -3: \"Moco-chan!\"\n[1/Turn] Send the top card of your cheer deck to one of your 1st Bloom holomem named Mococo Abyssgard.\n\nSP Oshi Skill holo Power -2: \"BAU BAU!\"\n[1/Game] Choose one of your holomem with #Advent. That holomem's arts may target your opponent's back holomem until the end of this turn."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8296,7 +8296,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] デビルズヴォイス [ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] 悪魔的所業 [ゲームに1回]相手のターンで、自分の〈常闇トワ〉がダウンした時に使える：相手のセンターホロメンとコラボホロメンのエール2枚ずつを好きな順でエールデッキの下に戻す。",
-      "en": "Oshi Skill holo Power -2: \"Devil's Voice\"\n[1/Turn] The arts of your center and collab holomems with #Song gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Devilish Deeds\"\n[1/Game] Usable if your Tokoyami Towa is downed during your opponent's turn: Return 2 cheers from your opponent's center holomem and 2 cheers from their collab holomem to the bottom of their cheer deck in any order."
+      "en": "Oshi Skill holo Power -2: \"Devil's Voice\"\n[1/Turn] The arts of your center and collab holomems with #Song gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Devilish Deeds\"\n[1/Game] Usable if your Tokoyami Towa is downed during your opponent's turn: Return 2 cheers attached to your opponent's center holomem and 2 cheers attached to their collab holomem to the bottom of their cheer deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8419,7 +8419,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] ホロライブID一家 [ターンに1回]自分の#ID1期生を持つホロメンがダウンした時に使える：自分のデッキを1枚引く。\n\nSP推しスキル [ホロパワー：-2] がんばり～リス！ [ゲームに1回]このターンの間、自分のステージの〈アユンダ・リス〉全員のアーツ+50。",
-      "en": "Oshi Skill holo Power -2: \"hololive ID family\"\n[1/Turn] Usable if one of your holomem with #IDGen1 is downed: Draw a card.\n\nSP Oshi Skill holo Power -2: \"Ganbari-risu!\"\n[1/Game] The arts of all of your holomem named Ayunda Risu gain +50 power until the end of this turn."
+      "en": "Oshi Skill holo Power -2: \"hololive ID family\"\n[1/Turn] Usable if your holomem with #IDGen1 is downed: Draw 1 card.\n\nSP Oshi Skill holo Power -2: \"Ganbari-risu!\"\n[1/Game] The arts of all of your holomem named Ayunda Risu gain +50 power until the end of this turn."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8452,7 +8452,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "アーツ [◇] みんな～、おりゅ～？　10 \n自分の〈ルーナイト〉が付いているホロメンがいない時、自分のデッキから、〈ルーナイト〉1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。\n\nエクストラ このホロメンはデッキに何枚でも入れられる",
-      "en": "Arts: \"Everyone, is that okay~?\"\nCost: 1 any color\nPower: 10\nIf there are no Luknights attached to any holomem on your Stage, reveal a Luknight from your deck and attach it to any of your holomem. Then shuffle your deck.\n\nExtra: You may put any number of copies of this holomem in your deck."
+      "en": "Arts: \"Everyone, is that okay~?\"\nCost: 1 any color\nPower: 10\nIf there are no Luknights attached to any holomem on your stage, reveal 1 Luknight from your deck and attach it to any of your holomem. Then shuffle your deck.\n\nExtra: You may put any number of copies of this holomem in your deck."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -8569,7 +8569,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 一緒に最高のライブにしようね　 \nこのターンの間、自分のファンが付いているホロメン1人のアーツ+20。\n\nアーツ [白] [◇] 約束なのら！　40",
-      "en": "Bloom Effect: \"Let's have the best live together\"\nThe arts of one of your holomem with a Fan attached gain +20 power until the end of this turn.\n\nArts: \"It's a promise!\"\nCost: 1 White, 1 any color\nPower: 40"
+      "en": "Bloom Effect: \"Let's have the best live together\"\nThe arts of one of your holomem with any Fans attached gain +20 power until the end of this turn.\n\nArts: \"It's a promise!\"\nCost: 1 White, 1 any color\nPower: 40"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -8608,7 +8608,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ギフト] んなたんと一緒に、宇宙に行くのら～！　 \n[コラボポジション限定]自分のファンが付いているセンターホロメンの〈姫森ルーナ〉のアーツ+20。\n\nアーツ [白] ムーンギャラクシー　20 \n自分のアーカイブの〈ルーナイト〉1枚を自分の〈姫森ルーナ〉に付けられる。",
-      "en": "Gift: \"Going to space together with Nna-tan\"\n[Collab position only] If your center holomem is Himemori Luna and has a Fan attached, that holomem's arts have +20 power.\n\nArts: \"Moon Galaxy\"\nCost: 1 White\nPower: 20\nYou may attach 1 Luknight from your archive to one of your holomem named Himemori Luna."
+      "en": "Gift: \"Going to space together with Nna-tan\"\n[Collab position only] If your center holomem is Himemori Luna and has any Fans attached, that holomem's arts have +20 power.\n\nArts: \"Moon Galaxy\"\nCost: 1 White\nPower: 20\nYou may attach 1 Luknight from your archive to one of your holomem named Himemori Luna."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -8704,7 +8704,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] メランコリャック　 \n[センターポジション限定]自分の#ReGLOSSを持つコラボホロメンが受けるダメージ-20。\n\nアーツ [白] [◇] [◇] これが番長の実力ってやつよ　110+ [赤+50] \n自分の#ReGLOSSを持つバックホロメンが4人以上いる時、このホロメンのアーツ+40。",
-      "en": "Gift: \"Melancholic\"\n[Center Position only] If your collab holomem has #ReGLOSS, whenever they take damage they take -20 damage.\n\nArts: \"This is the power of a Banchou!\"\nCost: 1 White, 2 any color\nPower: 110+, +50 vs Red\nIf you have 4 or more back holomem with #ReGLOSS, this Art gains +40 power."
+      "en": "Gift: \"Melancholic\"\n[Center position only] If your collab holomem has #ReGLOSS, whenever they take damage they take -20 damage.\n\nArts: \"This is the power of a Banchou!\"\nCost: 1 White, 2 any color\nPower: 110+, +50 vs Red\nIf you have 4 or more back holomem with #ReGLOSS, this Art gains +40 power."
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -8863,7 +8863,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 歌う事は楽しい事　 \n自分のバックホロメンのエール1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。自分のブルームエフェクト「歌う事は楽しい事」はターンに1回しか使えない。\n\nアーツ [◇] じゅるり　30 \n自分の手札の〈角巻わため〉1枚を公開し、デッキの下に戻せる：このホロメンのHP20回復。",
-      "en": "Bloom Effect: \"Singing is fun\"\nYou may archive 1 cheer from one of your back holomem for the following effect: Deal 30 special damage to your opponent's center or collab holomem. You may only use the Bloom Effect \"Singing is fun\" once per turn.\n\nArts: \"Slurp\"\nCost: 1 any color\nPower: 30\nYou may reveal 1 Tsunomaki Watame from your hand and put it on the bottom of your deck. If you do, this holomem recovers 20 HP."
+      "en": "Bloom Effect: \"Singing is fun\"\nYou may archive 1 cheer from one of your back holomem for the following effect: Deal 30 special damage to your opponent's center or collab holomem. You may only use the Bloom Effect \"Singing is fun\" once per turn.\n\nArts: \"Slurp\"\nCost: 1 any color\nPower: 30\nYou may reveal 1 Tsunomaki Watame from your hand and put it on the bottom of your deck. If you do, restore 20 HP to this holomem."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -8943,7 +8943,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] なんとかしてくれる獅白ぼたん　 \n自分のアーカイブの緑エール1枚ずつを、自分の#シューターを持つバックホロメン1～2人に送れる。\n\nアーツ [緑] [◇] [◇] 神エイム　110 [青+50] \n自分の推しホロメンが〈獅白ぼたん〉の時、自分のバックホロメンのエール1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ40を与える。",
-      "en": "Bloom Effect: \"Shishiro Botan will do something about it\"\nYou may choose 1-2 of your back holomem with #Shooter. Send 1 cheer from your archive to each of them.\n\nArts: \"God Aim\"\nCost: 1 Green, 2 any color\nPower: 110, +50 vs Blue\nIf your Oshi holomem is Shishiro Botan, you may archive 1 cheer from one of your back holomems for the following effect: Deal 40 special damage to your opponent's center or collab holomem."
+      "en": "Bloom Effect: \"Shishiro Botan will do something about it\"\nYou may choose 1-2 of your back holomem with #Shooter. Send 1 cheer from your archive to each of them.\n\nArts: \"God Aim\"\nCost: 1 Green, 2 any color\nPower: 110, +50 vs Blue\nIf your Oshi holomem is Shishiro Botan, you may archive 1 cheer from one of your back holomem for the following effect: Deal 40 special damage to your opponent's center or collab holomem."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -9073,7 +9073,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 風真が護る　 \n自分のアーカイブのエール1枚ずつを、自分の[〈風真いろは〉と〈星街すいせい〉]1人ずつに送れる。\n\nアーツ [緑] [◇] [◇] [◇] 風真が斬る　100+ [白+50] \nこのホロメンに緑以外のエールが2枚以上付いている時、このアーツ+50。",
-      "en": "Bloom Effect: \"Kazama Protects\"\nYou may choose up to 1 of your holomem named Kazama Iroha and up to 1 named Hoshimachi Suisei. Send 1 cheer from your archive to each chosen holomem.\n\nArts: \"Kazama Attacks\"\nCost: 1 Green, 3 any color\nPower: 100+, +50 vs White\nIf this holomem has at least 2 non-Green Cheers attached, this Art gains +50 power."
+      "en": "Bloom Effect: \"Kazama Protects\"\nYou may choose up to 1 of your holomem named Kazama Iroha and up to 1 named Hoshimachi Suisei. Send 1 cheer from your archive to each chosen holomem.\n\nArts: \"Kazama Attacks\"\nCost: 1 Green, 3 any color\nPower: 100+, +50 vs White\nIf this holomem has at least 2 non-green cheers attached, this Art gains +50 power."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -9271,7 +9271,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] にぇ　 \n自分のデッキから、〈35P〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [赤] [◇] 35Pと記念写真　30+ \nこのホロメンに〈35P〉が付いている時、このアーツ+30。",
-      "en": "Bloom Effect: \"Nye\"\nReveal 1 35P from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Commemorative photo with 35P\"\nCost: 1 Red, 1 any color\nPower: 30+\nIf this holomem has any 35Ps attached, this art gains +30 power."
+      "en": "Bloom Effect: \"Nye\"\nReveal one 35P from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Commemorative photo with 35P\"\nCost: 1 Red, 1 any color\nPower: 30+\nIf this holomem has any 35Ps attached, this art gains +30 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -9309,7 +9309,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] エリートギャンブル　 \n[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる：3か5の時、このターンの間、このホロメンのアーツ+50。\n\nアーツ [赤] [◇] [◇] エリート巫女　120+ [緑+50] \nこのホロメンに付いている〈35P〉1枚につき、このアーツ+20。",
-      "en": "Gift: \"Elite Gambling\"\n[Center position only] [1/Turn] During your Main Step, if this holomem has any 35Ps attached, you may roll a dice: If the result is 3 or 5, this holomem's arts gain +50 power until the end of this turn.\n\nArts: \"Elite Shrine Maiden\"\nCost: 1 Red, 2 any color\nPower: 120+, +50 vs Green\nFor each 35P attached to this holomem, this Art gains +20 power."
+      "en": "Gift: \"Elite Gambling\"\n[Center position only] [1/Turn] During your Main Step, if this holomem has any 35Ps attached, you may roll a dice: If the result is 3 or 5, this holomem's arts gain +50 power until the end of this turn.\n\nArts: \"Elite Shrine Maiden\"\nCost: 1 Red, 2 any color\nPower: 120+, +50 vs Green\nFor each 35P attached to this holomem, this art gains +20 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -9474,7 +9474,7 @@
     "buzz": true,
     "text": {
       "jp": "キーワード [ブルームエフェクト] もう1人のはあと　 \n自分のアーカイブの#1期生を持つBuzz以外の[1stホロメンか2ndホロメン]1枚を手札に戻せる。\n\nアーツ [赤] [◇] レッド オア ルージュ　40+ \nサイコロを1回振れる：奇数の時、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。偶数の時、このアーツ+40。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Bloom Effect: \"There's another Haato\"\nYou may return a 1st or 2nd Bloom holomem (excluding Buzz holomems) with #Gen1 from your archive to hand.\n\nArts: \"Red or Rouge\"\nCost: 1 Red, 1 any color\nPower: 40+\nYou may roll a dice: If the result is odd, deal 20 special damage to your opponent's center and collab holomem. If the result is even, this art gains +40 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Bloom Effect: \"There's another Haato\"\nYou may return one 1st or 2nd Bloom holomem (excluding Buzz holomems) with #Gen1 from your archive to hand.\n\nArts: \"Red or Rouge\"\nCost: 1 Red, 1 any color\nPower: 40+\nYou may roll a dice: If the result is odd, deal 20 special damage to your opponent's center and collab holomem. If the result is even, this art gains +40 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -9627,7 +9627,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 遊びの時間だー！　 \nDebutからBloomした時、自分のデッキから、1stホロメンの〈フワワ・アビスガード〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] モココとドーナツクッキング　30",
-      "en": "Bloom Effect: \"It's play time!\"\nIf this has bloomed from a Debut holomem, you may reveal a 1st Bloom Fuwawa Abyssgard from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Cooking donuts with Mococo\"\nCost: 1 any color\nPower: 30"
+      "en": "Bloom Effect: \"It's play time!\"\nIf this has bloomed from a Debut holomem, you may reveal one 1st Bloom Fuwawa Abyssgard from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Cooking donuts with Mococo\"\nCost: 1 any color\nPower: 30"
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -9897,7 +9897,7 @@
     "buzz": true,
     "text": {
       "jp": "キーワード [ブルームエフェクト] ブルーレイン　 \n自分の#IDを持つホロメンのエール1枚をアーカイブできる：相手のバックホロメンに特殊ダメージ30を10ずつ割り振って与える。ただし、ダウンしても相手のライフは減らない。\n\nアーツ [青] [◇] 元気いっぱい！　40+ \n相手のHPが減っているバックホロメン1人につき、このアーツ+10。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Bloom Effect: \"Blue Rain\"\nYou may archive 1 cheer from one of your holomem with #ID for the following effect: Deal 30 damage among your opponent's back holomem, split into units of 10 damage placed however you like. holomem downed with this effect do not reduce Life.\n\nArts: \"Full of energy!\"\nCost: 1 Blue, 1 any color\nPower: 40+\nFor each of your opponent's Back holomems that has taken damage, this Art gains +10 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Bloom Effect: \"Blue Rain\"\nYou may archive 1 cheer from one of your holomem with #ID for the following effect: Deal 30 damage among your opponent's back holomem, split into units of 10 damage placed however you like. holomem downed with this effect do not reduce Life.\n\nArts: \"Full of energy!\"\nCost: 1 Blue, 1 any color\nPower: 40+\nFor each of your opponent's back holomem that has taken damage, this art gains +10 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -10001,7 +10001,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "アーツ [◇] 僕、カッコいいでしょ？　30\n\nアーツ [◇] [◇] ReGLOSSのボーイッシュ担当　40 \nこのホロメンのエール1枚を、自分の#ReGLOSSを持つバックホロメンに付け替えられる。",
-      "en": "Arts: \"I'm cool, right?\"\nCost: 1 any color\nPower: 30\n\nArts: \"ReGLOSS's resident tomboy\"\nCost: 2 any color\nPower: 40\nYou may move 1 cheer from this holomem to one of your back holomem with #ReGLOSS."
+      "en": "Arts: \"I'm cool, right?\"\nCost: 1 any color\nPower: 30\n\nArts: \"ReGLOSS's resident tomboy\"\nCost: 2 any color\nPower: 40\nYou may move 1 cheer from this holomem to another of your back holomem with #ReGLOSS."
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -10239,7 +10239,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [コラボエフェクト] トワにしか出せない色　 \n相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。\n\nアーツ [◇] 大爆発させちゃうぜ！　30 \nこのホロメンの紫エール4枚をアーカイブできる：相手のステージのエール1枚をエールデッキの下に戻す。",
-      "en": "Collab Effect: \"A color that only Towa can make\"\nDeal 20 special damage to your Opponent's center or collab holomem.\n\nArts: \"It's going to be a big explosion!\"\nCost: 1 any color\nPower: 30\nYou may archive 4 purple cheers from this holomem for the following effect: return 1 cheer from your opponent's stage to the bottom of their cheer deck."
+      "en": "Collab Effect: \"A color that only Towa can make\"\nDeal 20 special damage to your opponent's center or collab holomem.\n\nArts: \"It's going to be a big explosion!\"\nCost: 1 any color\nPower: 30\nYou may archive 4 purple cheers from this holomem for the following effect: Return 1 cheer attached to any of your opponent's holomem to the bottom of their cheer deck."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10279,7 +10279,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "アーツ [紫] トワとお家デートしたっていい　40\n\nアーツ [紫] [◇] てんQ　50 \n自分の#歌を持つバックホロメンがいる時、相手のコラボホロメンに特殊ダメージ20を与える。",
-      "en": "Arts: \"A home date with Towa is okay too\"\nCost: 1 Purple\nPower: 40\n\nArts: \"10Q\"\nCost: 1 Purple, 1 any color\nPower: 50\nIf you have any back holomem with #Song, deal 20 special damage to your opponent's collab holomem."
+      "en": "Arts: \"A home date with Towa is okay too\"\nCost: 1 Purple\nPower: 40\n\nArts: \"10Q\"\nCost: 1 Purple, 1 any color\nPower: 50\nIf any of your back holomem have #Song, deal 20 special damage to your opponent's collab holomem."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10476,7 +10476,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "アーツ [◇] 自称【高性能】　70+ [緑+50] \n相手のステージにエールが7枚以上ある時、このアーツ+70。",
-      "en": "Arts: \"Self proclaimed [High Spec]\"\nCost: 1 any color\nPower: 70+, +50 vs Green\nIf your opponent has at least 7 cheers on their Stage, this art gains +70 power."
+      "en": "Arts: \"Self proclaimed [High Spec]\"\nCost: 1 any color\nPower: 70+, +50 vs Green\nIf your opponent has at least 7 cheers on their stage, this art gains +70 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10545,7 +10545,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [コラボエフェクト] ころねダイナー　 \nこのホロメンのエール1枚をアーカイブできる：自分のデッキから、#ゲーマーズを持つDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [黄] ご注文はこれだでな　30",
-      "en": "Collab Effect: \"Korone Diner\"\nYou may archive 1 cheer from this holomem for the following effect: Reveal a Debut holomem with #Gamers from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Here is your order\"\nCost: 1 Yellow\nPower: 30"
+      "en": "Collab Effect: \"Korone Diner\"\nYou may archive 1 cheer from this holomem for the following effect: Reveal 1 Debut holomem with #Gamers from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Here is your order\"\nCost: 1 Yellow\nPower: 30"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10659,7 +10659,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ギフト] ボクシングスタイル　 \n[コラボポジション限定]相手のメインステップの間、自分のセンターホロメンの〈戌神ころね〉のHPは相手の能力で減らず、変動しない。\n\nアーツ [◇] [◇] ほらよ～　30 \n自分のエールデッキの上から1枚を、自分の#ゲーマーズを持つホロメンに送る。",
-      "en": "Gift: \"Boxing Style\"\n[Collab position only] During your opponent's Main Step, if your center holomem is Inugami Korone, that holomem's HP cannot be changed or reduced by your opponent's abilities or effects.\n\nArts: \"Orayo!\"\nCost: 2 any color\nPower: 30\nSend the top card of your cheer deck to one of your holomems with #Gamers."
+      "en": "Gift: \"Boxing Style\"\n[Collab position only] During your opponent's Main Step, if your center holomem is Inugami Korone, that holomem's HP cannot be changed or reduced by your opponent's abilities or effects.\n\nArts: \"Orayo!\"\nCost: 2 any color\nPower: 30\nSend the top card of your cheer deck to one of your holomem with #Gamers."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10698,7 +10698,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] わんだふぉ～♡　 \nこのホロメンがダウンした時、自分のエールデッキの上から1枚を自分の〈戌神ころね〉に送る。\n\nアーツ [黄] [黄] [◇] 最凶天災　120+ [白+50] \nこのアーツの対象が相手の2ndホロメンの時、このホロメンに重なっている1stホロメン1枚をアーカイブできる：このアーツ+50。",
-      "en": "Gift: \"Wan-derful ❤️\"\nIf this holomem is downed, send the top card of your cheer deck to one of your holomem named Inugami Korone.\n\nArts: \"The worst natural disaster\"\nCost: 2 Yellow, 1 any color\nPower: 120+, +50 vs White\nIf the target of this art is an opposing 2nd Bloom holomem, you may archive a 1st Bloom holomem stacked under this one for the following effect: This Art gains +50 power."
+      "en": "Gift: \"Wan-derful ❤️\"\nIf this holomem is downed, send the top card of your cheer deck to one of your holomem named Inugami Korone.\n\nArts: \"The worst natural disaster\"\nCost: 2 Yellow, 1 any color\nPower: 120+, +50 vs White\nIf the target of this art is an opposing 2nd Bloom holomem, you may archive one 1st Bloom holomem stacked under this one for the following effect: This art gains +50 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10866,7 +10866,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] めいっぱい歌って踊ります！　 \n自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの〈角巻わため〉1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。\n\nアーツ [◇] [◇] 最後まで見ててね、わためいと！　30 \n自分のエールデッキの上から1枚を、自分のバックホロメンの〈角巻わため〉に送る。",
-      "en": "Bloom Effect: \"I'll sing and dance to my heart's content!\"\nIf there are 5 or fewer holomem on your stage, you may reveal a Debut Tsunomaki Watame from your deck and put it onto your stage. Then shuffle your deck.\n\nArts: \"Watch until the end, Watamates!\"\nCost: 2 any color\nPower: 30\nSend the top card of your cheer deck to one of your back holomem named Tsunomaki Watame."
+      "en": "Bloom Effect: \"I'll sing and dance to my heart's content!\"\nIf there are 5 or fewer holomem on your stage, you may reveal 1 Debut Tsunomaki Watame from your deck and put it onto your stage. Then shuffle your deck.\n\nArts: \"Watch until the end, Watamates!\"\nCost: 2 any color\nPower: 30\nSend the top card of your cheer deck to one of your back holomem named Tsunomaki Watame."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10906,7 +10906,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] Member sheep おかえり～　 \n自分のアーカイブの〈わためいと〉1枚を手札に戻せる。\n\nアーツ [黄] [◇] つのまきじゃんけん　50 \n相手と勝敗が決まるまでじゃんけんできる：自分が勝った時、このターンの間、このホロメンは赤特攻+30を得る。",
-      "en": "Bloom Effect: \"Welcome to membersheep\"\nYou may return a Watamate from your archive to hand.\n\nArts: \"Tsunomaki Janken\"\nCost: 1 Yellow, 1 any color\nPower: 50\nYou may play Rock Paper Scissors with your opponent until a winner is decided: If you win, this art gains +30 damage vs red."
+      "en": "Bloom Effect: \"Welcome to membersheep\"\nYou may return 1 Watamate from your archive to hand.\n\nArts: \"Tsunomaki Janken\"\nCost: 1 Yellow, 1 any color\nPower: 50\nYou may play Rock Paper Scissors with your opponent until a winner is decided. If you win, this art gains +30 damage vs red."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -10946,7 +10946,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] まだまだいくよー！　 \nこのホロメンがダウンした時、このホロメンのエール1枚を、自分の他の〈角巻わため〉に付け替えられる。\n\nアーツ [黄] [◇] [◇] わためぇ Night Fever!!　80+ [青+50] \n[センターポジション限定]このホロメンにエールが6枚以上付いている時、このターンの間、このホロメンと自分のコラボホロメンのアーツ+100。",
-      "en": "Gift: \"We're not done yet!\"\nIf this holomem is downed, you may move 1 cheer from this holomem to one of your holomem named Tsunomaki Watame.\n\nArts: \"Watame Night Fever!!\"\nCost: 1 Yellow, 2 any color\nPower: 80+, +50 vs Blue\n[Center position only] If this holomem has 6 or more cheers attached, your center and collab holomem's arts gain +100 power until the end of this turn."
+      "en": "Gift: \"We're not done yet!\"\nIf this holomem is downed, you may move 1 cheer from this holomem to another of your holomem named Tsunomaki Watame.\n\nArts: \"Watame Night Fever!!\"\nCost: 1 Yellow, 2 any color\nPower: 80+, +50 vs Blue\n[Center position only] If this holomem has 6 or more cheers attached, your center and collab holomem's arts gain +100 power until the end of this turn."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -11146,7 +11146,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 同期の絆　 \n自分のステージのホロメンが5人以下の時、自分のデッキから、#ID1期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。\n\nアーツ [黄] [◇] ナッツ　40",
-      "en": "Bloom Effect: \"Bond of Synchronization\"\nIf there are 5 or fewer holomem on your stage, you may reveal a Debut holomem with #IDGen1 from your deck and put it onto your stage. Then shuffle your deck.\n\nArts: \"Nuts\"\nCost: 1 Yellow, 1 any color\nPower: 40"
+      "en": "Bloom Effect: \"Bond of Synchronization\"\nIf there are 5 or fewer holomem on your stage, you may reveal 1 Debut holomem with #IDGen1 from your deck and put it onto your stage. Then shuffle your deck.\n\nArts: \"Nuts\"\nCost: 1 Yellow, 1 any color\nPower: 40"
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -11439,7 +11439,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のホロパワー1枚をアーカイブしなければ使えない。\n\n自分のデッキから、自分の推しホロメンと同色の1stホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "To play this card, you must archive one holo Power.\n\nReveal a 1st Bloom holomem that is the same color as your Oshi holomem from your deck and put it into your hand. Then shuffle your deck."
+      "en": "To play this card, you must archive 1 holo Power.\n\nReveal one 1st Bloom holomem that is the same color as your Oshi holomem from your deck and put it into your hand. Then shuffle your deck."
     },
     "max_amount": 4,
     "illustrations": [
@@ -11470,7 +11470,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキの上から4枚を見る。その中から、[Debutホロメンと1stホロメン]1枚ずつを公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "Look at the top four cards of your deck. Reveal up to 1 Debut holomem and up to 1 1st Bloom holomem from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "Look at the top four cards of your deck. Reveal up to one Debut holomem and up to one 1st Bloom holomem from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -11501,7 +11501,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
-      "en": "Reveal 1-2 Debut holomems with the Extra text \"You may put any number of copies of this holomem in your deck\" from your deck and put them on your stage. Then shuffle your deck."
+      "en": "Reveal 1-2 Debut holomems with the Extra text \"You may put any number of copies of this holomem in your deck\" from your deck and put them onto your stage. Then shuffle your deck."
     },
     "max_amount": 4,
     "illustrations": [
@@ -11834,7 +11834,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆#シューターを持つ1st以上のホロメンに付いていたら能力追加\nこのツールが付いているホロメンが、相手のホロメン1人に与える特殊ダメージ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The arts of the holomem with this Tool attached gain +10 power.\n\nIf this is attached to a 1st Bloom or later holomem with #Shooter, it gains the following effect: Special damage done by this holomem to a single opposing holomem is increased by +10.\n\nYou may only attach 1 Tool to a holomem."
+      "en": "The arts of the holomem with this Tool attached gain +10 power.\n\nIf this is attached to a 1st Bloom or later holomem with #Shooter, it gains the following effect: Special damage done by the holomem with this Tool attached to a single opposing holomem is increased by +10.\n\nYou may only attach 1 Tool to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -11924,7 +11924,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈さくらみこ〉に付いていたら能力追加\nこのマスコットが付いているホロメンがコラボした時、このターンの間、自分のセンターホロメンの〈さくらみこ〉のアーツ+10。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Sakura Miko, it gains the following effect: When the holomem with this Mascot attached collabs, if your center holomem is Sakura Miko, the arts of the holomem with this Mascot attached gain +10 power until the end of this turn.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Sakura Miko, it gains the following effect: When the holomem with this Mascot attached collabs, if your center holomem is Sakura Miko their arts gain +10 power until the end of this turn.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -11984,7 +11984,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈常闇トワ〉に付いていたら能力追加\nこのマスコットが付いているホロメンが、相手のホロメン1人に与える特殊ダメージ+10。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Tokoyami Towa, it gains the following effect: Special damage done by this holomem to a single opposing holomem is increased by +10.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Tokoyami Towa, it gains the following effect: Special damage done by the holomem with this Mascot attached to a single opposing holomem is increased by +10.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -12044,7 +12044,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈戌神ころね〉に付いていたら能力追加\nこのマスコットが付いているホロメンがダウンした時、自分のホロパワー1枚をアーカイブできる：このマスコットを手札に戻す。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Inugami Korone, it gains the following effect: If the holomem with this Mascot attached is downed, you may archive one holo Power to return this Mascot to your hand.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Inugami Korone, it gains the following effect: If the holomem with this Mascot attached is downed, you may archive 1 holo Power to return this Mascot to hand.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -12779,7 +12779,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [コラボエフェクト] 一緒にお絵かき！　 \n自分のアーカイブの[白エールか緑エール]１枚を自分のセンターホロメンに送れる。\n\nアーツ [緑] お絵かきたのしー！　20",
-      "en": "Collab Effect: \"Drawing together!\"\nSend 1 white cheer or 1 green cheer from your archive to your center holomem.\n\nArts: \"I had fun drawing!\"\nCost: 1 Green\nPower: 20"
+      "en": "Collab Effect: \"Drawing together!\"\nSend 1 white cheer or green cheer from your archive to your center holomem.\n\nArts: \"I had fun drawing!\"\nCost: 1 Green\nPower: 20"
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#IDGen1" }, { "jp": "#絵", "en": "#Art" } ],
     "baton_pass": [ "colorless" ],
@@ -13040,7 +13040,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "サイコロを１回振る：３以上の時、自分のアーカイブのエール１枚を自分のホロメンに送る。",
-      "en": "Roll a dice: If the result is 3 or more, send a cheer from your archive to any of your holomem."
+      "en": "Roll a dice: If the result is 3 or more, send 1 cheer from your archive to any of your holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -13176,7 +13176,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [コラボエフェクト] あやめのひととせ　 \nこのホロメンに〈ぽよ余〉が付いている時、このターンの間、自分のセンターホロメンのアーツ+20。\n\nアーツ [赤] おだんごおいしい余　30",
-      "en": "Collab Effect: \"Ayame's first anniversary\"\nIf this holomem has a Poyoyo attached, your center holomem's Arts gain +20 power this turn.\n\nArts: \"Delicious dangos\"\nCost: 1 Red\nPower: 30"
+      "en": "Collab Effect: \"Ayame's first anniversary\"\nIf this holomem has a Poyoyo attached, your center holomem's arts gain +20 power this turn.\n\nArts: \"Delicious dangos\"\nCost: 1 Red\nPower: 30"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13264,7 +13264,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] どーっちどっち♪　 \nDebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。\n\nアーツ [◇] 輝いた余を見逃さないでね～～！！　30",
-      "en": "Bloom Effect: \"Docchi docchi🎵\"\nIf this has bloomed from a Debut holomem, look at the top 2 cards of your deck. Reveal 1 and put it into your hand and archive the other.\n\nArts: \"Don't miss the shining me!!\"\nCost: 1 any color\nPower: 30"
+      "en": "Bloom Effect: \"Docchi docchi🎵\"\nIf this has bloomed from a Debut holomem, look at the top two cards of your deck. Reveal one and put it into your hand, then archive the other.\n\nArts: \"Don't miss the shining me!!\"\nCost: 1 any color\nPower: 30"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13304,7 +13304,7 @@
     "buzz": true,
     "text": {
       "jp": "アーツ [赤] [◇] ファンシーバースデー　40\n\nアーツ [赤] [赤] [◇] プレゼント何かな？　50 \n自分の手札1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ50を与える。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Arts: \"Fancy birthday\"\nCost: 1 Red, 1 any color\nPower: 40\n\nArts: \"What's in the present?\"\nCost: 2 Red, 1 any color\nPower: 50\nYou may archive one card from your hand for the following effect: Deal 50 special damage to your opponent's center or collab holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Arts: \"Fancy birthday\"\nCost: 1 Red, 1 any color\nPower: 40\n\nArts: \"What's in the present?\"\nCost: 2 Red, 1 any color\nPower: 50\nYou may archive 1 card from your hand for the following effect: Deal 50 special damage to your opponent's center or collab holomem.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13464,7 +13464,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆1st以上の〈百鬼あやめ〉に付いていたら能力追加\nこのツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The Arts of the holomem with this Tool attached gain +10 power.\n\nIf this is attached to a 1st Bloom or later Nakiri Ayame, it gains the following effect: The arts of the holomem with this Tool attached gain an additional +10 power.\n\nYou may only attach 1 Tool to a holomem."
+      "en": "The arts of the holomem with this Tool attached gain +10 power.\n\nIf this is attached to a 1st Bloom or later Nakiri Ayame, it gains the following effect: The arts of the holomem with this Tool attached gain an additional +10 power.\n\nYou may only attach 1 Tool to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -13509,7 +13509,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：2消費] ブルーマイク [ターンに1回]このターンの間、自分の青センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] バックショット [ゲームに1回]自分のステージのホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン1人に特殊ダメージ50を与える。",
-      "en": "Oshi Skill holo Power -2: \"Blue Mic\"\n[1/Turn] If your center holomem is blue, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Back Shot\"\n[1/Game] Usable if one of your holomem deals damage to one of your opponent's back holomem: Deal 50 special damage to that back holomem."
+      "en": "Oshi Skill holo Power -2: \"Blue Mic\"\n[1/Turn] If your center holomem is blue, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Back Shot\"\n[1/Game] Usable if one of your holomem deals damage to one of your opponent's back holomem: Deal 50 special damage to the same holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -13620,7 +13620,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [コラボエフェクト] 僕と登校しよう…？　 \n自分のデッキの上から1枚を公開できる：公開したカードがDebutホロメンかSpotホロメンの時、自分のエールデッキの上から1枚をこのホロメンに送る。そして公開したカードをデッキの下に戻す。\n\nアーツ [◇] 学生猫　20",
-      "en": "Collab Effect: \"Would you like to go to school with me...?\"\nYou may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your cheer deck to this holomem. Then put that card on the bottom of your deck.\n\nArts: \"Student Cat\"\nCost: 1 any color\nPower: 20"
+      "en": "Collab Effect: \"Would you like to go to school with me...?\"\nYou may reveal the top card of your deck. If that card is a Debut or Spot holomem, send the top card of your cheer deck to this holomem. Then put the revealed card on the bottom of your deck.\n\nArts: \"Student Cat\"\nCost: 1 any color\nPower: 20"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13711,7 +13711,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] また、たくさん笑ってよね！　 \n自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送れる。\n\nアーツ [◇] 全力で僕なりの歌、お届けします！　20",
-      "en": "Bloom Effect: \"Laugh lots more!\"\nSend a cheer from your archive to one of your holomem with #Gamers.\n\nArts: \"Sending my own song with all my might!\"\nCost: 1 any color\nPower: 20"
+      "en": "Bloom Effect: \"Laugh lots more!\"\nSend 1 cheer from your archive to one of your holomem with #Gamers.\n\nArts: \"Sending my own song with all my might!\"\nCost: 1 any color\nPower: 20"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13751,7 +13751,7 @@
     "buzz": true,
     "text": {
       "jp": "キーワード [ギフト] 泥棒建設代表取締役 CEO　 \n[センターポジション限定]自分のステージの[〈鷹嶺ルイ〉と〈大神ミオ〉と〈白上フブキ〉と〈ラプラス・ダークネス〉と〈戌神ころね〉]全員のアーツ+20。\n\nアーツ [青] [◇] いちばんえらい猫又おかゆ～　60\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Gift: \"Dorobo Construction CEO\"\n(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's arts gain +20 power.\n\nArts: \"The Most Noble Nekomata Okayu\"\nCost: 1 Blue, 1 any color\nPower: 60\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Gift: \"Dorobo Construction CEO\"\n[Center position only] Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's arts gain +20 power.\n\nArts: \"The Most Noble Nekomata Okayu\"\nCost: 1 Blue, 1 any color\nPower: 60\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -14095,7 +14095,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "アーツ [紫] [◇] 禁断のキッス　30 \nこのアーツで相手のホロメンにダメージを与えた時、与えたダメージ10につき、このホロメンのHP10回復。",
-      "en": "Arts: \"Forbidden Kiss\"\nCost: 1 Purple, 1 any color\nPower: 30\nWhen this art deals damage to one of your opponent's holomem, for each 10 damage dealt this holomem recovers 10 HP."
+      "en": "Arts: \"Forbidden Kiss\"\nCost: 1 Purple, 1 any color\nPower: 30\nWhen this art deals damage to your opponent's holomem, restore 10 HP to this holomem for each 10 damage dealt."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -14124,7 +14124,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] ちょっこーん！　 \n自分のアーカイブのLIMITED以外のイベント1枚を手札に戻せる。\n\nアーツ [◇] [◇] 大好き！ちゅっ♡　30 \n自分のバックホロメン1人のHP20回復。",
-      "en": "Bloom Effect: \"Choco~n!\"\nYou may return a non-LIMITED Event card from your archive to hand.\n\nArts: \"Daisuki! Chu❤️\"\nCost: 2 any color\nPower: 30\nRestore 20 HP to one of your back holomem."
+      "en": "Bloom Effect: \"Choco~n!\"\nYou may return 1 non-LIMITED Event from your archive to hand.\n\nArts: \"Daisuki! Chu❤️\"\nCost: 2 any color\nPower: 30\nRestore 20 HP to one of your back holomem."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -14164,7 +14164,7 @@
     "buzz": true,
     "text": {
       "jp": "アーツ [紫] [◇] がんばってつくったよ　40\n\nアーツ [紫] [紫] [◇] 召し上がれ　60+ \n自分のアーカイブの#食べ物を持つイベント1枚を手札に戻せる：このアーツ+20。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Arts: \"Did my best making this\"\nCost: 1 Purple, 1 any color\nPower: 40\n\nArts: \"Enjoy the meal\"\nCost: 2 Purple, 1 any color\nPower: 60+\nYou may return one Event card with #Food from your archive to hand. If you do, this art gains +20 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Arts: \"Did my best making this\"\nCost: 1 Purple, 1 any color\nPower: 40\n\nArts: \"Enjoy the meal\"\nCost: 2 Purple, 1 any color\nPower: 60+\nYou may return 1 Event with #Food from your archive to hand. If you do, this art gains +20 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -14194,7 +14194,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "アーツ [紫] [◇] 33… 22… 11…　50 [緑+50]\n\nアーツ [紫] [紫] [◇] あくとっ　60+ [緑+50] \nこのターンに自分が使っていたイベント1枚につき、このアーツ+40。",
-      "en": "Arts: \"33... 22... 11...\"\nCost: 1 Purple, 1 any color\nPower: 50, +50 vs Green\n\nArts: \"Go!\"\nCost: 2 Purple, 1 any color\nPower: 60+, +50 vs Green\nFor each Event card you've played during this turn, this art gains +40 power."
+      "en": "Arts: \"33... 22... 11...\"\nCost: 1 Purple, 1 any color\nPower: 50, +50 vs Green\n\nArts: \"Go!\"\nCost: 2 Purple, 1 any color\nPower: 60+, +50 vs Green\nFor each Event you've played during this turn, this art gains +40 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -14233,7 +14233,7 @@
     "bloom_level": "spot",
     "text": {
       "jp": "キーワード [コラボエフェクト] ちよこーーッ！！　 \n自分のセンターホロメンが〈癒月ちょこ〉の時、自分のアーカイブのエール1枚を自分のホロメンに送れる。\n\nアーツ [◇] [◇] 地獄くじ引き、引かせるぞっ　20\n\nエクストラ このホロメンはBloomできない",
-      "en": "Collab Effect: \"Chiyocooo\"\nIf your center holomem is Yuzuki Choco, you may send one cheer from your archive to any of your holomem.\n\nArts: \"I'll make you draw the hell lotto!\"\nCost: 2 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
+      "en": "Collab Effect: \"Chiyocooo\"\nIf your center holomem is Yuzuki Choco, you may send 1 cheer from your archive to any of your holomem.\n\nArts: \"I'll make you draw the hell lotto!\"\nCost: 2 any color\nPower: 20\n\nExtra: This holomem cannot bloom."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" } ],
     "baton_pass": [ "colorless" ],
@@ -14304,7 +14304,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のホロメン1人を選ぶ。選んだホロメンのHP20回復。自分のステージに#料理を持つホロメンがいる時、さらに、このターンの間、選んだホロメンのアーツ+20。",
-      "en": "Choose one of your holomems. That holomem recovers 20 HP. If there are any holomem with #Cooking on your stage, the chosen holomem's arts gain +20 power until the end of this turn."
+      "en": "Choose one of your holomem. Restore 20 HP to that holomem. If there are any holomem with #Cooking on your stage, the chosen holomem's arts gain +20 power until the end of this turn."
     },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
     "max_amount": 4,
@@ -14584,7 +14584,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ブルームエフェクト] ダンスでこの世界に彩を！　 \n自分のデッキから、#ReGLOSSを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [白] [白] [◇] 滅紫の雷　80+ [紫+50] \n自分のステージに〈轟はじめ〉以外の#ReGLOSSを持つホロメンがいる時、このアーツ+30。",
-      "en": "Bloom Effect: \"Add color to the world with dance!\"\nReveal a Debut or 1st Bloom holomem with #ReGLOSS from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Purple Lightning\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nIf there are any holomem with #ReGLOSS on your stage not named Todoroki Hajime, this art gains +30 power."
+      "en": "Bloom Effect: \"Add color to the world with dance!\"\nReveal 1 Debut or 1st Bloom holomem with #ReGLOSS from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Purple Lightning\"\nCost: 2 White, 1 any color\nPower: 80+, +50 vs Purple\nIf there are any holomem with #ReGLOSS on your stage that are not named Todoroki Hajime, this art gains +30 power."
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -14865,7 +14865,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] かざまとおでかけ　 \n自分のエールデッキの上から1枚を、自分の#秘密結社holoXを持つホロメンに送る。\n\nアーツ [緑] かざまといっしょ！　30",
-      "en": "Bloom Effect: \"Going out with Kazama\"\nSend the top card of your cheer deck to one of your holomem with #SecretSocietyholoX\n\nArts: \"Together with Kazama!\"\nCost: 1 Green\nPower: 30"
+      "en": "Bloom Effect: \"Going out with Kazama\"\nSend the top card of your cheer deck to one of your holomem with #SecretSocietyholoX.\n\nArts: \"Together with Kazama!\"\nCost: 1 Green\nPower: 30"
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" } ],
     "baton_pass": [ "colorless" ],
@@ -15139,7 +15139,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [コラボエフェクト] 大切な仲間たちと　 \n自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの[〈尾丸ポルカ〉か〈さくらみこ〉か〈星街すいせい〉か〈白銀ノエル〉]1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。\n\nアーツ [黄] キミといっしょにお出かけ　20",
-      "en": "Collab Effect: \"With my precious friends\"\nIf there are 5 or fewer holomem on your stage, you may reveal a Debut Omaru Polka, Sakura Miko, Hoshimachi Suisei, or Shirogane Noel from your deck and put it onto your stage. Then shuffle your deck.\n\nArts: \"Going out with you\"\nCost: 1 Yellow\nPower: 20"
+      "en": "Collab Effect: \"With my precious friends\"\nIf there are 5 or fewer holomem on your stage, you may reveal 1 Debut Omaru Polka, Sakura Miko, Hoshimachi Suisei, or Shirogane Noel from your deck and put it onto your stage. Then shuffle your deck.\n\nArts: \"Going out with you\"\nCost: 1 Yellow\nPower: 20"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -16157,7 +16157,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：2消費] ブルーバトン [ターンに１回]このターンの間、自分の青コラボホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] バックショット [ゲームに１回]自分のホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン１人に特殊ダメージ50を与える。",
-      "en": "Oshi Skill holo Power -2: \"Blue Baton\"\n[1/Turn] If your collab holomem is blue, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Back Shot\"\n[1/Game] Usable if one of your holomem deals damage to one of your opponent's back holomem: Deal 50 special damage to that back holomem."
+      "en": "Oshi Skill holo Power -2: \"Blue Baton\"\n[1/Turn] If your collab holomem is blue, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Back Shot\"\n[1/Game] Usable if one of your holomem deals damage to one of your opponent's back holomem: Deal 50 special damage to the same holomem."
     },
     "max_amount": 4,
     "illustrations": [
