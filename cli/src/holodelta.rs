@@ -4,6 +4,8 @@ use hocg_fan_sim_assets_model::CardsDatabase;
 use itertools::Itertools;
 use parking_lot::Mutex;
 use rayon::iter::{IntoParallelIterator, IntoParallelRefMutIterator, ParallelIterator};
+use serde::{Deserialize, Serialize};
+use std::collections::HashMap;
 
 use crate::{
     DEBUG,
@@ -13,12 +15,12 @@ use crate::{
 // one image can map to multiple illustrations, if they are similar enough
 pub const DIST_TOLERANCE: u64 = 2 * 2 * 2 * 2; // a distance of 2 in each channel
 
-pub fn import_holodelta(
+pub fn import_holodelta_db(
     all_cards: &mut CardsDatabase,
     images_jp_path: &Path,
     holodelta_path: &Path,
 ) {
-    println!("Importing holoDelta images...");
+    println!("Importing holoDelta db images...");
 
     let conn = rusqlite::Connection::open(holodelta_path).unwrap();
 
@@ -138,4 +140,205 @@ pub fn import_holodelta(
 
     println!("Processed {} holoDelta cards", total_count);
     println!("Updated {} hOCG cards", updated_count);
+}
+
+pub fn import_holodelta(
+    all_cards: &mut CardsDatabase,
+    images_jp_path: &Path,
+    holodelta_path: &Path,
+) {
+    println!("Importing holoDelta repository images...");
+
+    let card_data_path = holodelta_path.join("cardData.json");
+    let file = File::open(&card_data_path).expect("Failed to open cardData.json");
+    let file = BufReader::new(file);
+    let delta_cards: HashMap<String, Card> = serde_json::from_reader(file).unwrap();
+
+    // for every card number, find the best match
+    let mut total_count = 0;
+    let mut updated_count = 0;
+    for (delta_card_number, delta_cards) in delta_cards {
+        total_count += delta_cards
+            .card_art
+            .as_ref()
+            .map(|arts| arts.len())
+            .unwrap_or(0);
+        let card_number = delta_card_number;
+
+        if DEBUG {
+            println!("\nProcessing card {:?}", card_number);
+        }
+
+        // update holoDelta art indexes, based on card image
+        if let Some(card) = all_cards.get_mut(&card_number) {
+            let delta_cards: Vec<_> = delta_cards
+                .card_art
+                .into_par_iter()
+                .flatten()
+                .filter(|(_, card_art)| card_art.ja.is_some())
+                .map(|(delta_art_index, _)| {
+                    let (set, num) = card_number
+                        .split_once('-')
+                        .expect("should always have a '-'");
+                    let img_path = format!(r"cardFronts\{set}\ja\{num}\{delta_art_index}.webp");
+                    let file = File::open(holodelta_path.join(&img_path))
+                        .map_err(|e| {
+                            eprintln!("Error opening file {}: {}", img_path, e);
+                            e
+                        })
+                        .unwrap();
+                    let file = BufReader::new(file);
+                    let delta_img = image::load(file, image::ImageFormat::WebP).unwrap();
+                    let delta_img = delta_img.into_rgb8();
+                    (delta_art_index, delta_img)
+                })
+                .collect();
+
+            let cards: Vec<_> = card
+                .illustrations
+                .par_iter_mut()
+                .map(|illust| {
+                    let path = images_jp_path.join(&illust.img_path.japanese);
+                    let f = File::open(&path).unwrap();
+                    let f = BufReader::new(f);
+                    let card_img = image::load(f, image::ImageFormat::WebP).unwrap();
+                    let card_img = card_img.into_rgb8();
+
+                    // clear the delta art index, will be set later
+                    illust.delta_art_index = None;
+
+                    (Arc::new(Mutex::new(illust)), card_img)
+                })
+                .collect();
+
+            let mut dists = delta_cards
+                .iter()
+                .cartesian_product(cards.iter())
+                .map(|((delta_art_index, delta_img), (card, card_img))| {
+                    let h1 = to_image_hash(delta_img);
+                    let h2 = to_image_hash(card_img);
+
+                    let dist = dist_hash(&h1, &h2);
+
+                    if DEBUG {
+                        let card = card.lock();
+                        println!("holoDelta hash: {} = {}", delta_art_index, h1);
+                        println!(
+                            "Card hash: {} {} = {}",
+                            card.card_number,
+                            card.manage_id.unwrap(),
+                            h2
+                        );
+                        println!("Distance: {}", dist);
+                    }
+
+                    (delta_art_index, card, dist)
+                })
+                .collect_vec();
+
+            // sort by best dist, then update the art index
+            dists.sort_by_key(|d| d.2);
+
+            // modify the cards here, to avoid borrowing issue
+            let mut already_set = BTreeMap::new();
+            for (delta_art_index, card, dist) in dists {
+                // println!("dist: {:?}", (delta_art_index, card, dist));
+
+                let mut card = card.lock();
+                // to handle multiple cards with the same image
+                let min_dist = *already_set
+                    .get(&delta_art_index)
+                    .unwrap_or(&(u64::MAX - DIST_TOLERANCE));
+                if card.delta_art_index.is_none() && min_dist + DIST_TOLERANCE >= dist {
+                    card.delta_art_index = Some(delta_art_index.parse().unwrap());
+                    already_set.insert(delta_art_index, dist.min(min_dist));
+                    updated_count += 1;
+
+                    if DEBUG {
+                        println!(
+                            "Updated card {:?} -> manage_id: {}, delta_art_index: {} ({})",
+                            card.card_number,
+                            card.manage_id.unwrap(),
+                            card.delta_art_index.unwrap(),
+                            dist
+                        );
+                    }
+                }
+            }
+        }
+    }
+
+    println!("Processed {} holoDelta cards", total_count);
+    println!("Updated {} hOCG cards", updated_count);
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Card {
+    #[serde(default)]
+    pub arts: Option<Vec<Art>>,
+    #[serde(default, rename = "batonPassCost")]
+    pub baton_pass_cost: Option<u32>,
+    #[serde(default)]
+    pub buzz: Option<bool>,
+    #[serde(default, rename = "cardArt")]
+    pub card_art: Option<HashMap<String, CardArtLangs>>,
+    #[serde(default, rename = "cardLimit")]
+    pub card_limit: Option<i32>,
+    #[serde(default, rename = "cardType")]
+    pub card_type: Option<String>,
+    #[serde(default)]
+    pub color: Option<CardColor>,
+    #[serde(default)]
+    pub effect: Option<String>,
+    #[serde(default)]
+    pub hp: Option<u32>,
+    #[serde(default)]
+    pub level: Option<i32>,
+    #[serde(default)]
+    pub name: Option<Vec<String>>,
+    #[serde(default)]
+    pub tags: Option<Vec<String>>,
+    #[serde(default)]
+    pub skills: Option<Vec<Skill>>,
+    #[serde(default, rename = "supportType")]
+    pub support_type: Option<String>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Art {
+    #[serde(rename = "artIndex")]
+    pub art_index: u32,
+    pub cost: String,
+    pub damage: u32,
+    #[serde(rename = "hasEffect")]
+    pub has_effect: bool,
+    #[serde(rename = "hasPlus")]
+    pub has_plus: bool,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct CardArtLangs {
+    #[serde(default)]
+    pub en: Option<CardArtInfo>,
+    #[serde(default)]
+    pub ja: Option<CardArtInfo>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct CardArtInfo {
+    pub proxy: bool,
+    pub unrevealed: bool,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(untagged)]
+pub enum CardColor {
+    Single(String),
+    Multiple(Vec<String>),
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Skill {
+    pub cost: i32,
+    pub sp: bool,
 }

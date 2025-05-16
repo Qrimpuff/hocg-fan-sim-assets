@@ -88,7 +88,10 @@ Options:
           - images: Compare images to find the best match
   
       --holodelta-db-path <HOLODELTA_DB_PATH>
-          Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
+          [deprecated] Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
+  
+      --holodelta-path <HOLODELTA_PATH>
+          Use holoDelta to import missing/unreleased cards data. The folder that contains the source code for holoDelta
   
       --official-hololive
           Use the official holoLive website to import missing/unreleased cards data
@@ -122,7 +125,7 @@ Options:
 
 4. Create a complete dataset with pricing information:
    ```
-   cargo run --release -- --clean --download-images --yuyutei=images --proxy-path ./en_proxies --holodelta-db-path ./cardData.db --ogbajoj-sheet --official-hololive
+   cargo run --release -- --clean --download-images --yuyutei=images --proxy-path ./en_proxies --holodelta-path ./holoDelta --ogbajoj-sheet --official-hololive
    ```
 
 5. Package images for specific card sets (from package-images.cmd):

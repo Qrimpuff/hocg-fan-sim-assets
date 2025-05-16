@@ -16,7 +16,7 @@ use data::{
     ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
 };
 use hocg_fan_sim_assets_model::CardsDatabase;
-use holodelta::import_holodelta;
+use holodelta::{import_holodelta, import_holodelta_db};
 use images::{download_images, prepare_en_proxy_images, zip_images};
 use json_pretty_compact::PrettyCompactFormatter;
 use price_check::yuyutei;
@@ -80,9 +80,13 @@ struct Args {
     #[arg(long)]
     yuyutei: Option<Option<YuyuteiMode>>,
 
-    /// Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
+    /// [deprecated] Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
     #[arg(long)]
     holodelta_db_path: Option<PathBuf>,
+
+    /// Use holoDelta to import missing/unreleased cards data. The folder that contains the source code for holoDelta
+    #[arg(long)]
+    holodelta_path: Option<PathBuf>,
 
     // Use the official holoLive website to import missing/unreleased cards data
     #[arg(long)]
@@ -176,7 +180,9 @@ fn main() {
 
     // import from holoDelta
     if let Some(holodelta_db_path) = args.holodelta_db_path {
-        import_holodelta(&mut all_cards, &images_jp_path, &holodelta_db_path);
+        import_holodelta_db(&mut all_cards, &images_jp_path, &holodelta_db_path);
+    } else if let Some(holodelta_path) = args.holodelta_path {
+        import_holodelta(&mut all_cards, &images_jp_path, &holodelta_path);
     }
 
     // import from official holoLive
