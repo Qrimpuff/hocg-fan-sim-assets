@@ -1974,7 +1974,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ギフト] 用心棒　 \n[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない（特殊ダメージは除く）。\n\nアーツ [緑] [◇] 元気を全力でお届けします！　20 \n自分のエールデッキの上から１枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。",
-      "en": "Gift effect: \"Bodyguard\"\n[Collab position only] Your opponent's holomem's arts can only target your collab holomem (except special damage).\n\nArts: \"I'll give you all my energy!\"\nCost: 1 Green, 1 any color\nPower: 20\nSend the top card of your cheer deck to one of your holomems with #SecretSocietyholoX that is not named Kazama Iroha."
+      "en": "Gift effect: \"Bodyguard\"\n[Collab position only] Your opponent's holomem's arts can only target your collab holomem (except special damage).\n\nArts: \"I'll give you all my energy!\"\nCost: 1 Green, 1 any color\nPower: 20\nSend the top card of your cheer deck to one of your holomem with #SecretSocietyholoX that is not named Kazama Iroha."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" } ],
     "baton_pass": [ "colorless" ],
@@ -4498,7 +4498,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：2消費] サンプリング [ターンに1回]自分の手札2枚をアーカイブすることで、アーカイブの#ENを持つホロメン2枚を手札に戻す。\n\nSP推しスキル [ホロパワー：2消費] 死神ラップ [ゲームに1回]自分のセンターホロメンが〈森カリオペ〉の時に使える：このターンの間、自分の〈森カリオペ〉1人は、アーツを使った後、同じアーツをもう1回使う。",
-      "en": "Oshi Skill holo Power -2: \"Sampling\"\n[1/Turn] Archive 2 cards from your hand to return 2 holomems with #EN from your archive to hand.\n\nSP Oshi Skill holo Power -2: \"Shinigami Rap\"\n[1/Game] Usable if your center holomem is Mori Calliope: During this turn, after using an art, one of your holomems named Mori Calliope repeats that art once."
+      "en": "Oshi Skill holo Power -2: \"Sampling\"\n[1/Turn] Archive 2 cards from your hand to return 2 holomem with #EN from your archive to hand.\n\nSP Oshi Skill holo Power -2: \"Shinigami Rap\"\n[1/Game] Usable if your center holomem is Mori Calliope: During this turn, after using an art, one of your holomem named Mori Calliope repeats that art once."
     },
     "max_amount": 4,
     "illustrations": [
@@ -4581,7 +4581,7 @@
     "bloom_level": "debut",
     "text": {
       "jp": "キーワード [ギフト] おはこんきーつね！　 \n[コラボポジション限定]自分のマスコットが付いているホロメン全員のアーツ+10。\n\nアーツ [白] おつこーんでしたー　20",
-      "en": "Gift: \"Oha-kon kitsune!\"\n[Collab position only] The arts of all of your holomems with a Mascot attached gain +10 power.\n\nArts: \"Otsu-kon-deshita\"\nCost: 1 White\nPower: 20"
+      "en": "Gift: \"Oha-kon kitsune!\"\n[Collab position only] The arts of all of your holomem with a Mascot attached gain +10 power.\n\nArts: \"Otsu-kon-deshita\"\nCost: 1 White\nPower: 20"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -5883,7 +5883,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] 最高に激アツ～　 \n[ターンに1回]このホロメンのアーツ「ホロックスロット」でカードを公開した時、公開したカード3枚が同じBloomレベルのホロメンなら、相手のライフ-1。\n\nアーツ [青] [青] [◇] ホロックスロット　100+ [白+50] \n自分のデッキの上から3枚を公開できる：公開したホロメン1枚につき、このアーツ+20。そして公開したカードをアーカイブする。",
-      "en": "Gift: \"Hot streak\"\n[1/Turn] When you reveal cards with this holomem's art \"holoX Slots\", if the three revealed cards are all holomems with the same Bloom level, your opponent takes 1 Life Damage.\n\nArts: \"holoX Slots\"\nCost: 2 Blue, 1 any color\nPower: 100+, +50 vs White\nYou may reveal the top three cards of your deck. For each holomem revealed, this art gains +20 power. Then archive the revealed cards."
+      "en": "Gift: \"Hot streak\"\n[1/Turn] When you reveal cards with this holomem's art \"holoX Slots\", if the three revealed cards are all holomem with the same Bloom level, your opponent takes 1 Life Damage.\n\nArts: \"holoX Slots\"\nCost: 2 Blue, 1 any color\nPower: 100+, +50 vs White\nYou may reveal the top three cards of your deck. For each holomem revealed, this art gains +20 power. Then archive the revealed cards."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -6330,7 +6330,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 限界化！！　 \n自分の#ID2期生を持つDebutホロメン1人を、自分のアーカイブのホロメンを使ってBloomできる。自分のブルームエフェクト「限界化！！」はターンに1回しか使えない。\n\nアーツ [◇] 推しを見て叫びまくるぞ！！　20",
-      "en": "Bloom Effect: \"Max simping!!\"\nYou may bloom one of your Debut holomems with #IDGen2 using a holomem from your archive. You may only use the Bloom Effect \"Max simping!!\" once per turn.\n\nArts: \"I'm going to see my oshi and scream at the top of my lungs!!\"\nCost: 1 any color\nPower: 20"
+      "en": "Bloom Effect: \"Max simping!!\"\nYou may bloom one of your Debut holomem with #IDGen2 using a holomem from your archive. You may only use the Bloom Effect \"Max simping!!\" once per turn.\n\nArts: \"I'm going to see my oshi and scream at the top of my lungs!!\"\nCost: 1 any color\nPower: 20"
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -8296,7 +8296,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] デビルズヴォイス [ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] 悪魔的所業 [ゲームに1回]相手のターンで、自分の〈常闇トワ〉がダウンした時に使える：相手のセンターホロメンとコラボホロメンのエール2枚ずつを好きな順でエールデッキの下に戻す。",
-      "en": "Oshi Skill holo Power -2: \"Devil's Voice\"\n[1/Turn] The arts of your center and collab holomems with #Song gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Devilish Deeds\"\n[1/Game] Usable if your Tokoyami Towa is downed during your opponent's turn: Return 2 cheers attached to your opponent's center holomem and 2 cheers attached to their collab holomem to the bottom of their cheer deck in any order."
+      "en": "Oshi Skill holo Power -2: \"Devil's Voice\"\n[1/Turn] The arts of your center and collab holomem with #Song gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Devilish Deeds\"\n[1/Game] Usable if your Tokoyami Towa is downed during your opponent's turn: Return 2 cheers attached to your opponent's center holomem and 2 cheers attached to their collab holomem to the bottom of their cheer deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -8337,7 +8337,7 @@
     "life": 6,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] 無限の体力 [ターンに1回]自分のお休みしている〈戌神ころね〉1人をアクティブにする。\n\nSP推しスキル [ホロパワー：-3] ウォウウォウウォウウォウ [ゲームに1回]自分の黄ホロメンがダウンした時に使える：そのホロメンのエール1枚を自分の他のホロメンに付け替え、そのダウンしたホロメンを含め重なっているホロメンの中から1枚を手札に戻す。",
-      "en": "Oshi Skill holo Power -2: \"Infinite strength\"\n[1/Turn] Unrest one of your resting holomems named Inugami Korone.\n\nSP Oshi Skill holo Power -3: \"Wowowowow\"\n[1/Game] Usable if one of your yellow holomems is downed: Move one of that holomem's cheers to another of your holomems, then return one of that holomem's stacked holomem (including the top holomem) to hand."
+      "en": "Oshi Skill holo Power -2: \"Infinite strength\"\n[1/Turn] Unrest one of your resting holomem named Inugami Korone.\n\nSP Oshi Skill holo Power -3: \"Wowowowow\"\n[1/Game] Usable if one of your yellow holomem is downed: Move one of that holomem's cheers to another of your holomem, then return one of that holomem's stacked holomem (including the top holomem) to hand."
     },
     "max_amount": 4,
     "illustrations": [
@@ -9474,7 +9474,7 @@
     "buzz": true,
     "text": {
       "jp": "キーワード [ブルームエフェクト] もう1人のはあと　 \n自分のアーカイブの#1期生を持つBuzz以外の[1stホロメンか2ndホロメン]1枚を手札に戻せる。\n\nアーツ [赤] [◇] レッド オア ルージュ　40+ \nサイコロを1回振れる：奇数の時、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。偶数の時、このアーツ+40。\n\nエクストラ このホロメンがダウンした時、自分のライフ-2",
-      "en": "Bloom Effect: \"There's another Haato\"\nYou may return one 1st or 2nd Bloom holomem (excluding Buzz holomems) with #Gen1 from your archive to hand.\n\nArts: \"Red or Rouge\"\nCost: 1 Red, 1 any color\nPower: 40+\nYou may roll a dice: If the result is odd, deal 20 special damage to your opponent's center and collab holomem. If the result is even, this art gains +40 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
+      "en": "Bloom Effect: \"There's another Haato\"\nYou may return one 1st or 2nd Bloom holomem (excluding Buzz holomem) with #Gen1 from your archive to hand.\n\nArts: \"Red or Rouge\"\nCost: 1 Red, 1 any color\nPower: 40+\nYou may roll a dice: If the result is odd, deal 20 special damage to your opponent's center and collab holomem. If the result is even, this art gains +40 power.\n\nExtra: When this holomem is downed, take 2 Life Damage."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -11501,7 +11501,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
-      "en": "Reveal 1-2 Debut holomems with the Extra text \"You may put any number of copies of this holomem in your deck\" from your deck and put them onto your stage. Then shuffle your deck."
+      "en": "Reveal 1-2 Debut holomem with the Extra text \"You may put any number of copies of this holomem in your deck\" from your deck and put them onto your stage. Then shuffle your deck."
     },
     "max_amount": 4,
     "illustrations": [
@@ -11562,7 +11562,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のライフが相手より少ない時にしか使えない。\n\n相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。",
-      "en": "This card can only be played if you have less Life than your opponent.\n\nIf your opponent has no collab holomem, they choose one of their back holomems and move it to the collab position (this is not treated as collabing)."
+      "en": "This card can only be played if you have less Life than your opponent.\n\nIf your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not treated as collabing)."
     },
     "max_amount": 4,
     "illustrations": [
@@ -14349,7 +14349,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：-2] ホワイトマイク [ターンに1回]このターンの間、自分の白センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：-1] クイックガード [ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン1人が受けるダメージ-20。",
-      "en": "Oshi Skill holo Power -2: \"White Mic\"\n[1/Turn] If your center holomem is white, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Quick Guard\"\n[1/Game] Usable if one of your white holomems is about to take damage during your opponent's turn: Reduce that damage by 20."
+      "en": "Oshi Skill holo Power -2: \"White Mic\"\n[1/Turn] If your center holomem is white, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Quick Guard\"\n[1/Game] Usable if one of your white holomem is about to take damage during your opponent's turn: Reduce that damage by 20."
     },
     "max_amount": 4,
     "illustrations": [
@@ -16088,7 +16088,7 @@
     "life": 5,
     "text": {
       "jp": "推しスキル [ホロパワー：2消費] ホワイトバトン [ターンに１回]このターンの間、自分の白コラボホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] クイックガード [ゲームに１回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-20。",
-      "en": "Oshi Skill holo Power -2: \"White Baton\"\n[1/Turn] If your collab holomem is white, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Quick Guard\"\n[1/Game] Usable if one of your white holomems is about to take damage during your opponent's turn: Reduce that damage by 20."
+      "en": "Oshi Skill holo Power -2: \"White Baton\"\n[1/Turn] If your collab holomem is white, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Quick Guard\"\n[1/Game] Usable if one of your white holomem is about to take damage during your opponent's turn: Reduce that damage by 20."
     },
     "max_amount": 4,
     "illustrations": [
