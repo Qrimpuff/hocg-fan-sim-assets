@@ -214,8 +214,12 @@ pub mod decklog {
                                         all_cards.entry(dl_card.card_number.clone()).or_default();
                                     card.card_number = dl_card.card_number.clone();
                                     card.name.japanese = dl_card.name.clone();
-                                    card.max_amount = dl_card.max;
                                     card.card_type = dl_card.card_type();
+                                    if let CardType::OshiHoloMember = card.card_type {
+                                        card.max_amount = dl_card.max.min(1)
+                                    } else {
+                                        card.max_amount = dl_card.max
+                                    }
                                     card.bloom_level = dl_card.bloom_level();
                                     card.buzz = dl_card.buzz();
                                     card.limited = dl_card.limited();
@@ -540,7 +544,7 @@ pub mod ogbajoj {
                         && l.to_lowercase().contains("version available")
                         && l.ends_with(']'))
                 })
-                .collect::<Vec<_>>()
+                .collect_vec()
                 .join("\n")
                 .trim()
                 .to_string()

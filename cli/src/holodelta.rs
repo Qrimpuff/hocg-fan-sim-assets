@@ -1,6 +1,6 @@
 use std::{collections::BTreeMap, fs::File, io::BufReader, path::Path, sync::Arc};
 
-use hocg_fan_sim_assets_model::CardsDatabase;
+use hocg_fan_sim_assets_model::{BloomLevel, CardType, CardsDatabase, Color, SupportType};
 use itertools::Itertools;
 use parking_lot::Mutex;
 use rayon::iter::{IntoParallelIterator, IntoParallelRefMutIterator, ParallelIterator};
@@ -154,6 +154,11 @@ pub fn import_holodelta(
     let file = BufReader::new(file);
     let delta_cards: HashMap<String, Card> = serde_json::from_reader(file).unwrap();
 
+    let banlist_path = holodelta_path.join("ServerStuff/banlists/current.json");
+    let file = File::open(&banlist_path).expect("Failed to open ServerStuff/banlists/current.json");
+    let file = BufReader::new(file);
+    let banlist: HashMap<String, i32> = serde_json::from_reader(file).unwrap();
+
     // for every card number, find the best match
     let mut total_count = 0;
     let mut updated_count = 0;
@@ -171,6 +176,9 @@ pub fn import_holodelta(
 
         // update holoDelta art indexes, based on card image
         if let Some(card) = all_cards.get_mut(&card_number) {
+            // warn if holoDelta has different card data
+            delta_cards.verify_card(&card_number, card, &banlist);
+
             let delta_cards: Vec<_> = delta_cards
                 .card_art
                 .into_par_iter()
@@ -341,4 +349,158 @@ pub enum CardColor {
 pub struct Skill {
     pub cost: i32,
     pub sp: bool,
+}
+
+impl Card {
+    fn verify_card(
+        &self,
+        card_number: &str,
+        card: &hocg_fan_sim_assets_model::Card,
+        banlist: &HashMap<String, i32>,
+    ) {
+        // warn if the card number is different
+        if card.card_number != card_number {
+            eprintln!(
+                "Warning: {card_number} number mismatch: {} should be {}",
+                card_number, card.card_number
+            );
+        }
+
+        // warn if the baton pass is different
+        if card.baton_pass.len() as u32 != self.baton_pass_cost.unwrap_or_default() {
+            eprintln!(
+                "Warning: {card_number} baton pass mismatch: {:?} should be {:?}",
+                self.baton_pass_cost,
+                card.baton_pass.len()
+            );
+        }
+
+        // warn if buzz is different
+        if card.buzz != self.buzz.unwrap_or_default() {
+            eprintln!(
+                "Warning: {card_number} buzz mismatch: {:?} should be {:?}",
+                self.buzz, card.buzz
+            );
+        }
+
+        // warn if card limit is different
+        if match card.card_type {
+            CardType::OshiHoloMember => {
+                card.max_amount as i32 != self.card_limit.unwrap_or_default().min(1)
+            }
+            CardType::Cheer => {
+                card.max_amount as i32
+                    != self
+                        .card_limit
+                        .map(|l| if l == -1 { 20 } else { l })
+                        .unwrap_or_default()
+            }
+            _ => {
+                card.max_amount as i32
+                    != self
+                        .card_limit
+                        .map(|l| if l == -1 { 50 } else { l })
+                        .unwrap_or_default()
+                    && card.max_amount as i32
+                        != banlist.get(card_number).copied().unwrap_or_default()
+            }
+        } {
+            eprintln!(
+                "Warning: {card_number} card limit mismatch: {:?} should be {:?}",
+                self.card_limit, card.max_amount
+            );
+        }
+
+        // warn if card type is different
+        if match card.card_type {
+            CardType::OshiHoloMember => (Some("Oshi".into()), None),
+            CardType::HoloMember => (Some("Holomem".into()), None),
+            CardType::Support(SupportType::Staff) => (Some("Support".into()), Some("Staff".into())),
+            CardType::Support(SupportType::Item) => (Some("Support".into()), Some("Item".into())),
+            CardType::Support(SupportType::Event) => (Some("Support".into()), Some("Event".into())),
+            CardType::Support(SupportType::Tool) => (Some("Support".into()), Some("Tool".into())),
+            CardType::Support(SupportType::Mascot) => {
+                (Some("Support".into()), Some("Mascot".into()))
+            }
+            CardType::Support(SupportType::Fan) => (Some("Support".into()), Some("Fan".into())),
+            CardType::Cheer => (Some("Cheer".into()), None),
+            CardType::Other => (Some("Other".into()), None),
+        } != (self.card_type.clone(), self.support_type.clone())
+        {
+            eprintln!(
+                "Warning: {card_number} card type mismatch: {:?} should be {:?}",
+                self.card_type, card.card_type
+            );
+        }
+
+        // warn if color is different
+        if card
+            .colors
+            .iter()
+            .filter(|c| *c != &Color::Colorless)
+            .map(|c| format!("{:?}", c))
+            .collect_vec()
+            != match &self.color {
+                Some(CardColor::Single(c)) => vec![c.clone()],
+                Some(CardColor::Multiple(c)) => c.clone(),
+                None => vec![],
+            }
+        {
+            eprintln!(
+                "Warning: {card_number} color mismatch: {:?} should be {:?}",
+                self.color, card.colors
+            );
+        }
+
+        // warn if hp is different
+        if card.hp != self.hp.unwrap_or_default() {
+            eprintln!(
+                "Warning: {card_number} hp mismatch: {:?} should be {:?}",
+                self.hp, card.hp
+            );
+        }
+
+        // warn if level is different
+        if card.bloom_level.as_ref().map(|l| match l {
+            BloomLevel::Debut => 0,
+            BloomLevel::First => 1,
+            BloomLevel::Second => 2,
+            BloomLevel::Spot => -1,
+        }) != self.level
+        {
+            eprintln!(
+                "Warning: {card_number} level mismatch: {:?} should be {:?}",
+                self.level, card.bloom_level
+            );
+        }
+
+        // warn if tags is different
+        if card
+            .tags
+            .iter()
+            .map(|t| {
+                t.english
+                    .clone()
+                    .unwrap_or_default()
+                    .to_uppercase()
+                    .trim_start_matches('#')
+                    .to_string()
+            })
+            .sorted()
+            .collect_vec()
+            != self
+                .tags
+                .clone()
+                .unwrap_or_default()
+                .into_iter()
+                .map(|t| t.to_uppercase())
+                .sorted()
+                .collect_vec()
+        {
+            eprintln!(
+                "Warning: {card_number} tags mismatch: {:?} should be {:?}",
+                self.tags, card.tags
+            );
+        }
+    }
 }

@@ -178,13 +178,6 @@ fn main() {
         }
     }
 
-    // import from holoDelta
-    if let Some(holodelta_db_path) = args.holodelta_db_path {
-        import_holodelta_db(&mut all_cards, &images_jp_path, &holodelta_db_path);
-    } else if let Some(holodelta_path) = args.holodelta_path {
-        import_holodelta(&mut all_cards, &images_jp_path, &holodelta_path);
-    }
-
     // import from official holoLive
     if args.official_hololive {
         retrieve_card_info_from_hololive(&mut all_cards);
@@ -193,6 +186,13 @@ fn main() {
     // import from ogbajoj
     if args.ogbajoj_sheet {
         retrieve_card_info_from_ogbajoj_sheet(&mut all_cards);
+    }
+
+    // import from holoDelta
+    if let Some(holodelta_db_path) = args.holodelta_db_path {
+        import_holodelta_db(&mut all_cards, &images_jp_path, &holodelta_db_path);
+    } else if let Some(holodelta_path) = args.holodelta_path {
+        import_holodelta(&mut all_cards, &images_jp_path, &holodelta_path);
     }
 
     // save file
