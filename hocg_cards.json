@@ -9,7 +9,7 @@
       "jp": "推しスキル [ホロパワー：-2] グリーンエンハンス [ターンに１回]このターンの間、自分の緑ホロメン１人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Green～ [ゲームに１回]自分のデッキから、緑ホロメン１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Green Enhance\"\n[1/Turn] One of your green holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Green~\"\n[1/Game] Reveal 1 green holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-001",
@@ -32,7 +32,7 @@
       "jp": "推しスキル [ホロパワー：-2] グリーンエンハンス [ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Green～ [ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Green Enhance\"\n[1/Turn] One of your green holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Green~\"\n[1/Game] Reveal 1 green holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-002",
@@ -55,7 +55,7 @@
       "jp": "推しスキル [ホロパワー：-2] イエローエンハンス [ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Yellow～ [ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Yellow Enhance\"\n[1/Turn] One of your yellow holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Yellow~\"\n[1/Game] Reveal 1 yellow holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-003",
@@ -78,7 +78,7 @@
       "jp": "推しスキル [ホロパワー：-2] ホワイトエンハンス [ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～White～ [ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"White Enhance\"\n[1/Turn] One of your white holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~White~\"\n[1/Game] Reveal 1 white holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-004",
@@ -101,7 +101,7 @@
       "jp": "推しスキル [ホロパワー：-2] ホワイトエンハンス [ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～White～ [ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"White Enhance\"\n[1/Turn] One of your white holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~White~\"\n[1/Game] Reveal 1 white holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-005",
@@ -124,7 +124,7 @@
       "jp": "推しスキル [ホロパワー：-2] パープルエンハンス [ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Purple～ [ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Purple Enhance\"\n[1/Turn] One of your purple holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Purple~\"\n[1/Game] Reveal 1 purple holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-006",
@@ -147,7 +147,7 @@
       "jp": "推しスキル [ホロパワー：-2] イエローエンハンス [ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Yellow～ [ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Yellow Enhance\"\n[1/Turn] One of your yellow holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Yellow~\"\n[1/Game] Reveal 1 yellow holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-007",
@@ -170,7 +170,7 @@
       "jp": "推しスキル [ホロパワー：-2] ホワイトエンハンス [ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～White～ [ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"White Enhance\"\n[1/Turn] One of your white holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~White~\"\n[1/Game] Reveal 1 white holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-008",
@@ -193,7 +193,7 @@
       "jp": "推しスキル [ホロパワー：-2] グリーンエンハンス [ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Green～ [ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Green Enhance\"\n[1/Turn] One of your green holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Green~\"\n[1/Game] Reveal 1 green holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-009",
@@ -216,7 +216,7 @@
       "jp": "推しスキル [ホロパワー：-2] ブルーエンハンス [ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Blue～ [ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Blue Enhance\"\n[1/Turn] One of your blue holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Blue~\"\n[1/Game] Reveal 1 blue holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-010",
@@ -239,7 +239,7 @@
       "jp": "推しスキル [ホロパワー：-2] パープルエンハンス [ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Purple～ [ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Purple Enhance\"\n[1/Turn] One of your purple holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Purple~\"\n[1/Game] Reveal 1 purple holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-011",
@@ -262,7 +262,7 @@
       "jp": "推しスキル [ホロパワー：-2] パープルエンハンス [ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Purple～ [ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Purple Enhance\"\n[1/Turn] One of your purple holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Purple~\"\n[1/Game] Reveal 1 purple holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-013",
@@ -285,7 +285,7 @@
       "jp": "推しスキル [ホロパワー：-2] ブルーエンハンス [ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Blue～ [ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Blue Enhance\"\n[1/Turn] One of your blue holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Blue~\"\n[1/Game] Reveal 1 blue holomem from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBD24-014",
@@ -308,7 +308,7 @@
       "jp": "推しスキル [ホロパワー：-3] ぎゅっぎゅっ [ターンに１回]相手のセンターホロメンの残りHPを50にする。\n\nSP推しスキル [ホロパワー：-2] 握りつぶしちゃうぞ [ゲームに１回]このターンの間、自分のホロメン１人のアーツ+50。そのホロメンの色が白の時、さらに、そのアーツ+50。",
       "en": "Oshi Skill holo Power -3: \"Squeeze squeeze\"\n[1/Turn] Change the remaining HP of your opponent's center holomem to 50.\n\nSP Oshi Skill holo Power -2: \"I'll crush you\"\n[1/Game] One of your holomem's arts gain +50 power until the end of this turn. If it's a white holomem, their arts gain an additional +50 power until the end of this turn."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-001",
@@ -340,7 +340,7 @@
       "jp": "推しスキル [ホロパワー：-2] 文明の守護者 [ターンに１回]相手のターンで、自分の#Promiseを持つホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-50。\n\nSP推しスキル [ホロパワー：-2] アメイジング・ドローイング [ゲームに１回]自分のデッキから、イベント１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"Guardian of Civilization\"\n[1/Turn] Usable if your holomem with #Promise is about to take damage during your opponent's turn: Reduce that damage by 50.\n\nSP Oshi Skill holo Power -2: \"Amazing Drawing\"\n[1/Game] Reveal 1 Event from your deck and put it into your hand. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-002",
@@ -372,7 +372,7 @@
       "jp": "推しスキル [ホロパワー：-2] サバイバルパワー [ターンに１回]自分のデッキから、〈石の斧〉１枚を公開し、自分の緑ホロメンに付ける。そしてデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：-2] 大地の唄 [ゲームに１回]自分の緑センターホロメンのHPすべて回復。",
       "en": "Oshi Skill holo Power -2: \"Survival Power\"\n[1/Turn] Reveal 1 Stone Axe from your deck and attach it to one of your green holomem. Then shuffle your deck.\n\nSP Oshi Skill holo Power -2: \"Song of the Earth\"\n[1/Game] If your center holomem is green, restore all of their HP."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-003",
@@ -404,7 +404,7 @@
       "jp": "推しスキル [ホロパワー：-2] 野兎たち～ [ターンに１回]相手のターンで、自分のホロメンがダウンした時に使える：自分のダウンしたホロメン１人の緑エールすべてを、自分の他のホロメンに割り振って付け替える。\n\nSP推しスキル [ホロパワー：-3] 幸運兎 [ゲームに１回]このターンの間、自分のサイコロの目の数すべてを６として扱う。",
       "en": "Oshi Skill holo Power -2: \"Nousagis~\"\n[1/Turn] Usable if your holomem is downed during your opponent's turn: Move all green cheers from that holomem between your other holomem in any way you like.\n\nSP Oshi Skill holo Power -3: \"Lucky Rabbit\"\n[1/Game] During this turn, treat all dice rolls as if the result was 6."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-004",
@@ -445,7 +445,7 @@
       "jp": "推しスキル [ホロパワー：-X] 女幹部の采配 [ターンに１回]自分の赤ホロメンの能力で手札をアーカイブする時に使える：アーカイブする手札1枚につき自分のホロパワー1枚を、かわりにアーカイブできる。\n\nSP推しスキル [ホロパワー：-2] ホークアイ [ゲームに１回]次の相手のターンの間、相手のセンターホロメンとコラボホロメンは、バトンタッチ、移動、交代できない。",
       "en": "Oshi Skill holo Power -X: \"Executive's Orders\"\n[1/Turn] Usable if you use a red holomem's ability or arts that archives cards from your hand: You may choose to archive any number of them from your holo Power instead of your hand.\n\nSP Oshi Skill holo Power -2: \"Hawkeye\"\n[1/Game] During your opponent's next turn their center and collab holomem cannot move, Baton Pass, or switch."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-005",
@@ -477,7 +477,7 @@
       "jp": "推しスキル [ホロパワー：-2] フェニックステール [ターンに１回]自分のアーカイブのホロメン１枚を手札に戻す。\n\nSP推しスキル [ホロパワー：-2] Rise from the ashes [ゲームに１回]相手のターンで、自分の赤ホロメンがダウンした時に使える：自分の減るライフ-１。さらに、ダウンした１人を選び、そのホロメンを含め重なっているホロメンすべてを手札に戻す。",
       "en": "Oshi Skill holo Power -2: \"Phoenix Tail\"\n[1/Turn] Return 1 holomem from your archive to hand.\n\nSP Oshi Skill holo Power -2: \"Rise from the Ashes\"\n[1/Game] Usable if your red holomem is downed during your opponent's turn: You take -1 Life Damage. Then, choose 1 downed card, and return all of the stacked holomem including that holomem to hand."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-006",
@@ -518,7 +518,7 @@
       "jp": "推しスキル [ホロパワー：-2] ほうき星 [ターンに１回]この推しホロメンか自分の青ホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン１人に特殊ダメージ50を与える。\n\nSP推しスキル [ホロパワー：-2] シューティングスター [ゲームに１回]自分の青ホロメンが相手のセンターホロメンかコラボホロメンにダメージを与えた時に使える：相手のバックホロメン１人にそれと同じ数値の特殊ダメージを与える。",
       "en": "Oshi Skill holo Power -2: \"comet\"\n[1/Turn] Usable if your blue holomem, or this Oshi holomem, deals damage to your opponent's back holomem: Deal 50 special damage to the same holomem.\n\nSP Oshi Skill holo Power -2: \"Shooting Star\"\n[1/Game] Usable if your blue holomem deals damage to your opponent's center or collab holomem: Deal an equal amount of special damage to one of your opponent's back holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-007",
@@ -559,7 +559,7 @@
       "jp": "推しスキル [ホロパワー：-1] レイン・シャーマニズム [ターンに１回]自分の青ホロメンの能力でエールをアーカイブした時に使える：相手のホロメン１人に特殊ダメージ20を与える。\n\nSP推しスキル [ホロパワー：-3] 雨乞い [ゲームに１回]自分のアーカイブのエール１～５枚を、自分の#IDを持つホロメンに割り振って送る。",
       "en": "Oshi Skill holo Power -1: \"Rain Shamanism\"\n[1/Turn] Usable if you archive cheer using your blue holomem's abilities or arts: Deal 20 special damage to any of your opponent's holomem.\n\nSP Oshi Skill holo Power -3: \"Praying for rain\"\n[1/Game] Send 1-5 cheers from your archive between your holomem with #ID in any way you like."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP01-008",
@@ -4281,7 +4281,7 @@
       "jp": "推しスキル [ホロパワー：2消費] マスコット創造 [ターンに1回]自分のデッキから、マスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：2消費] フブキングダム [ゲームに1回]自分の白ホロメンが相手のホロメンをダウンさせた時、自分のステージのマスコット2枚につき、サイコロを1回振れる：奇数が1回以上出たなら、相手のライフ-1。",
       "en": "Oshi Skill holo Power -2: \"Mascot creation\"\n[1/Turn] Reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck.\n\nSP Oshi Skill holo Power -2: \"Fubukingdom\"\n[1/Game] Usable if your white holomem downs an opponent's holomem: You may roll one dice for each 2 Mascots attached to your holomem: If you roll one or more odd numbers, your opponent takes 1 Life Damage."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-001",
@@ -4322,7 +4322,7 @@
       "jp": "推しスキル [ホロパワー：2消費] HALU [ターンに1回]自分のホロメンの緑エール1枚をアーカイブすることで、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：2消費] 極彩色の宴 [ゲームに1回]このターンの間、自分のステージの#ID2期生を持つホロメン全員は、そのホロメンのエール1色につき、アーツ+20。",
       "en": "Oshi Skill holo Power -2: \"HALU\"\n[1/Turn] Archive 1 green cheer from any of your holomem, then reveal 1 cheer from your cheer deck and send it to any of your holomem. Then shuffle your cheer deck.\n\nSP Oshi Skill holo Power -2: \"A Colorful Feast\"\n[1/Game] The arts of each of your holomem with #IDGen2 gain +20 power for each color of cheer attached to that holomem, until the end of this turn."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-002",
@@ -4354,7 +4354,7 @@
       "jp": "推しスキル [ホロパワー：3消費] Ahoy! [ターンに1回]自分のこのターンにBloomした#3期生を持つホロメン1人を、自分の手札のホロメンを使ってもう1回Bloomさせる。\n\nSP推しスキル [ホロパワー：2消費] 出航～！ [ゲームに1回]相手のセンターホロメンかコラボホロメンどちらかに、自分のセンターホロメンの〈宝鐘マリン〉に重なっているホロメン1枚につき、特殊ダメージ50を与える。",
       "en": "Oshi Skill holo Power -3: \"Ahoy!\"\n[1/Turn] Make one of your holomem with #Gen3 who has bloomed this turn, bloom again using a holomem in your hand.\n\nSP Oshi Skill holo Power -2: \"Shukkou!\"\n[1/Game] If your center holomem is Houshou Marine, deal 50 special damage for each holomem stacked under that holomem to your opponent's center or collab holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-003",
@@ -4395,7 +4395,7 @@
       "jp": "推しスキル [ホロパワー：1消費] ぽえぽえぽえ～ [ターンに1回]自分のセンターホロメンが〈沙花叉クロヱ〉の時に使える：自分のデッキの上から3枚を見る。そのカードすべてを、アーカイブするか、好きな順でデッキの上に戻す。\n\nSP推しスキル [ホロパワー：3消費] 人生リセットボタン [ゲームに1回]自分の手札を数えて、自分の[手札すべてとアーカイブのホロメンすべて]をデッキに戻してシャッフルする。そして手札からデッキに戻したカード1枚につき、自分のデッキを1枚引く。",
       "en": "Oshi Skill holo Power -1: \"poepoepoe~\"\n[1/Turn] Usable if your center holomem is Sakamata Chloe: Look at the top three cards of your deck. You may archive all 3 cards, or return them to the top of your deck in any order.\n\nSP Oshi Skill holo Power -3: \"Life Reset Button\"\n[1/Game] Count the number of cards in your hand, then shuffle all cards in your hand and all holomem in your archive into your deck. Then, for each card you returned from your hand to your deck, draw 1 card."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-004",
@@ -4436,7 +4436,7 @@
       "jp": "推しスキル [ホロパワー：1消費] ねえ゛え゛え゛え゛え゛え゛え゛ [ターンに1回]自分の〈紫咲シオン〉の能力でサイコロを振った時に使える：サイコロを1回振り直す。\n\nSP推しスキル [ホロパワー：2消費] シオンのすごい魔法 [ゲームに1回]自分の紫センターホロメンがアーツを使った時に使える：相手のセンターホロメンに、相手のセンターホロメンのエール1枚につき、特殊ダメージ50を与える。",
       "en": "Oshi Skill holo Power -1: \"Neeeeeee\"\n[1/Turn] Usable if you roll dice as part of the ability or arts of your Murasaki Shion: Re-roll all dice rolled as part of that ability.\n\nSP Oshi Skill holo Power -2: \"Shion's Amazing Magic\"\n[1/Game] Usable if your purple center holomem uses an art: For each cheer attached to your opponent's center holomem, deal 50 special damage to your opponent's center holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-005",
@@ -4468,7 +4468,7 @@
       "jp": "推しスキル [ホロパワー：2消費] ゾンビ戦術 [ターンに1回]自分の#ID2期生を持つホロメン1人を、自分のアーカイブのホロメンを使ってBloomさせる。\n\nSP推しスキル [ホロパワー：2消費] 蘇るオリー [ゲームに1回]自分のデッキを4枚引いた後、手札2枚をアーカイブする。その後、自分のホロメン1人を、自分のアーカイブのホロメンを使ってBloomできる。",
       "en": "Oshi Skill holo Power -2: \"Zombie Tactics\"\n[1/Turn] Bloom one of your holomem with #IDGen2 using a holomem from your archive.\n\nSP Oshi Skill holo Power -2: \"Ollie resurrection\"\n[1/Game] Draw 4 cards, then archive 2 cards from your hand. Then, you may bloom any of your holomem using a holomem from your archive."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-006",
@@ -4500,7 +4500,7 @@
       "jp": "推しスキル [ホロパワー：2消費] サンプリング [ターンに1回]自分の手札2枚をアーカイブすることで、アーカイブの#ENを持つホロメン2枚を手札に戻す。\n\nSP推しスキル [ホロパワー：2消費] 死神ラップ [ゲームに1回]自分のセンターホロメンが〈森カリオペ〉の時に使える：このターンの間、自分の〈森カリオペ〉1人は、アーツを使った後、同じアーツをもう1回使う。",
       "en": "Oshi Skill holo Power -2: \"Sampling\"\n[1/Turn] Archive 2 cards from your hand to return 2 holomem with #EN from your archive to hand.\n\nSP Oshi Skill holo Power -2: \"Shinigami Rap\"\n[1/Game] Usable if your center holomem is Mori Calliope: During this turn, after using an art, one of your holomem named Mori Calliope repeats that art once."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP02-007",
@@ -8152,7 +8152,7 @@
       "jp": "推しスキル [ホロパワー：-2] パソコンならわかるのら [ターンに1回]自分のデッキから、カード名に「パソコン」を含むアイテム1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：-2] ルーナイト集合 [ゲームに1回]自分のセンターホロメンが〈姫森ルーナ〉の時に使える：自分のデッキから、〈ルーナイト〉1～4枚を公開し、自分のホロメンに割り振って付ける。そしてデッキをシャッフルする。",
       "en": "Oshi Skill holo Power -2: \"If you had a PC, you'd understand\"\n[1/Turn] Reveal 1 Item with \"PC\" in its name from your deck and put it into your hand. Then shuffle your deck.\n\nSP Oshi Skill holo Power -2: \"Luknight gathering\"\n[1/Game] Usable if your center holomem is Himemori Luna: Reveal 1-4 Luknights from your deck and attach them to your holomem in any way you like. Then shuffle your deck."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-001",
@@ -8184,7 +8184,7 @@
       "jp": "推しスキル [ホロパワー：-2] poi [ターンに1回]自分のアーカイブのエール1枚を、自分のバックホロメンの〈獅白ぼたん〉に送る。\n\nSP推しスキル [ホロパワー：-2] 狙撃 [ゲームに1回]自分のセンターホロメンの色が緑の時に使える：相手のDebut以外のセンターホロメンに特殊ダメージ100を与える。",
       "en": "Oshi Skill holo Power -2: \"poi\"\n[1/Turn] Send 1 cheer from your archive to one of your back holomem named Shishiro Botan.\n\nSP Oshi Skill holo Power -2: \"Aiming\"\n[1/Game] Usable if your center holomem is green: Deal 100 special damage to your opponent's center holomem if it is not a Debut holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-002",
@@ -8225,7 +8225,7 @@
       "jp": "推しスキル [ホロパワー：-2] 35P帰ってくるのかッ！？って！ [ターンに1回]サイコロを1回振れる：1か2か4か6の時、自分のアーカイブの〈35P〉1枚を手札に戻す。3か5の時、自分のアーカイブの〈35P〉2枚を手札に戻す。\n\nSP推しスキル [ホロパワー：-2] あきらめない心にぇ [ゲームに1回]自分のセンターホロメンの色が赤の時に使える：自分の手札を好きな枚数選んで好きな順でデッキの下に戻す。そして手札が5枚になるまで、自分のデッキを引く。",
       "en": "Oshi Skill holo Power -2: \"Is 35P coming back?!\"\n[1/Turn] You may roll a dice: If the result is 1, 2, 4, or 6, return one 35P from your archive to hand. If the result is 3 or 5, return two 35Ps from your archive to hand.\n\nSP Oshi Skill holo Power -2: \"A heart that doesn't give up\"\n[1/Game] Usable if your center holomem is red: Choose any number of cards from your hand and put them on the bottom of your deck in any order. Then draw until you have 5 cards in your hand."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-003",
@@ -8266,7 +8266,7 @@
       "jp": "推しスキル [ホロパワー：-3] モコちゃん！ [ターンに1回]自分のエールデッキの上から1枚を、自分の1stホロメンの〈モココ・アビスガード〉に送る。\n\nSP推しスキル [ホロパワー：-2] BAU BAU! [ゲームに1回]自分の#Adventを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、相手のバックホロメンも対象にできる。",
       "en": "Oshi Skill holo Power -3: \"Moco-chan!\"\n[1/Turn] Send the top card of your cheer deck to one of your 1st Bloom holomem named Mococo Abyssgard.\n\nSP Oshi Skill holo Power -2: \"BAU BAU!\"\n[1/Game] Choose one of your holomem with #Advent. That holomem's arts may target your opponent's back holomem until the end of this turn."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-004",
@@ -8298,7 +8298,7 @@
       "jp": "推しスキル [ホロパワー：-2] デビルズヴォイス [ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] 悪魔的所業 [ゲームに1回]相手のターンで、自分の〈常闇トワ〉がダウンした時に使える：相手のセンターホロメンとコラボホロメンのエール2枚ずつを好きな順でエールデッキの下に戻す。",
       "en": "Oshi Skill holo Power -2: \"Devil's Voice\"\n[1/Turn] The arts of your center and collab holomem with #Song gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Devilish Deeds\"\n[1/Game] Usable if your Tokoyami Towa is downed during your opponent's turn: Return 2 cheers attached to your opponent's center holomem and 2 cheers attached to their collab holomem to the bottom of their cheer deck in any order."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-005",
@@ -8339,7 +8339,7 @@
       "jp": "推しスキル [ホロパワー：-2] 無限の体力 [ターンに1回]自分のお休みしている〈戌神ころね〉1人をアクティブにする。\n\nSP推しスキル [ホロパワー：-3] ウォウウォウウォウウォウ [ゲームに1回]自分の黄ホロメンがダウンした時に使える：そのホロメンのエール1枚を自分の他のホロメンに付け替え、そのダウンしたホロメンを含め重なっているホロメンの中から1枚を手札に戻す。",
       "en": "Oshi Skill holo Power -2: \"Infinite strength\"\n[1/Turn] Unrest one of your resting holomem named Inugami Korone.\n\nSP Oshi Skill holo Power -3: \"Wowowowow\"\n[1/Game] Usable if one of your yellow holomem is downed: Move one of that holomem's cheers to another of your holomem, then return one of that holomem's stacked holomem (including the top holomem) to hand."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-006",
@@ -8380,7 +8380,7 @@
       "jp": "推しスキル [ホロパワー：-2] Member sheep いらっしゃい！ [ターンに1回]自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nSP推しスキル [ホロパワー：-2] わためは悪くないよねぇ？ [ゲームに1回]自分のエールデッキの上から2枚を、自分の〈角巻わため〉1人に送る。",
       "en": "Oshi Skill holo Power -2: \"Membersheep welcome!\"\n[1/Turn] Reveal 1 Fan from your deck and put it into your hand. Then shuffle your deck.\n\nSP Oshi Skill holo Power -2: \"Watame did nothing wrong\"\n[1/Game] Send the top 2 cards of your cheer deck to one of your holomem named Tsunomaki Watame."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-007",
@@ -8421,7 +8421,7 @@
       "jp": "推しスキル [ホロパワー：-2] ホロライブID一家 [ターンに1回]自分の#ID1期生を持つホロメンがダウンした時に使える：自分のデッキを1枚引く。\n\nSP推しスキル [ホロパワー：-2] がんばり～リス！ [ゲームに1回]このターンの間、自分のステージの〈アユンダ・リス〉全員のアーツ+50。",
       "en": "Oshi Skill holo Power -2: \"hololive ID family\"\n[1/Turn] Usable if your holomem with #IDGen1 is downed: Draw 1 card.\n\nSP Oshi Skill holo Power -2: \"Ganbari-risu!\"\n[1/Game] The arts of all of your holomem named Ayunda Risu gain +50 power until the end of this turn."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hBP03-008",
@@ -12454,7 +12454,7 @@
       "jp": "推しスキル [ホロパワー：-1] リプレイスメント [ターンに１回]自分のステージのエール１枚を、自分のホロメンに付け替える。\n\nSP推しスキル [ホロパワー：-2] じゃあ敵だね？ [ゲームに１回]相手のセンターホロメンとバックホロメン１人を交代させる。その後、このターンの間、自分の白センターホロメンのアーツ+50。",
       "en": "Oshi Skill holo Power -1: \"Replacement\"\n[1/Turn] Move 1 Cheer from one of your holomem to another of your holomem.\n\nSP Oshi Skill holo Power -2: \"So, you're the enemy?\"\n[1/Game] Switch your opponent's center holomem with one of their back holomem. If your center holomem is white, their arts gain +50 power until the end of this turn."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD01-001",
@@ -12477,7 +12477,7 @@
       "jp": "推しスキル [ホロパワー：-3] 左手に地図 [ターンに１回]自分のホロメンの能力でサイコロを振る時に使える：サイコロの目の数１つを宣言し、次に出る目の数を宣言した目として扱う。\n\nSP推しスキル [ホロパワー：-3] 右手にマイク [ゲームに１回]自分のアーカイブのエールを自分の緑ホロメン１人に好きな枚数送る。",
       "en": "Oshi Skill holo Power -3: \"Map in the left hand\"\n[1/Turn] Usable if you are about to roll a dice as part of a holomem's ability or arts: Declare a number that is on the dice, and treat the next dice roll as if the result was that number.\n\nSP Oshi Skill holo Power -3: \"Mic in the right hand\"\n[1/Game] Send any number of cheers from your archive to one of your green holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD01-002",
@@ -13087,7 +13087,7 @@
       "jp": "推しスキル [ホロパワー：2消費] レッドマイク [ターンに1回]このターンの間、自分の赤センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] さあ！もう一度！ [ゲームに1回]自分のアーカイブの赤ホロメン1枚を手札に戻す。",
       "en": "Oshi Skill holo Power -2: \"Red Mic\"\n[1/Turn] If your center holomem is red, their Arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Come on! Again!\"\n[1/Game] Return 1 red holomem from your archive to hand."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD02-001",
@@ -13511,7 +13511,7 @@
       "jp": "推しスキル [ホロパワー：2消費] ブルーマイク [ターンに1回]このターンの間、自分の青センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] バックショット [ゲームに1回]自分のステージのホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン1人に特殊ダメージ50を与える。",
       "en": "Oshi Skill holo Power -2: \"Blue Mic\"\n[1/Turn] If your center holomem is blue, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Back Shot\"\n[1/Game] Usable if one of your holomem deals damage to one of your opponent's back holomem: Deal 50 special damage to the same holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD03-001",
@@ -13945,7 +13945,7 @@
       "jp": "推しスキル [ホロパワー：2消費] パープルマイク [ターンに1回]このターンの間、自分の紫センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] カードチェンジ [ゲームに1回]自分のデッキを2枚引いた後、手札1枚をアーカイブする。",
       "en": "Oshi Skill holo Power -2: \"Purple Mic\"\n[1/Turn] If your center holomem is purple, their Arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Card Change\"\n[1/Game] Draw 2 cards, then archive 1 card from your hand."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD04-001",
@@ -14351,7 +14351,7 @@
       "jp": "推しスキル [ホロパワー：-2] ホワイトマイク [ターンに1回]このターンの間、自分の白センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：-1] クイックガード [ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン1人が受けるダメージ-20。",
       "en": "Oshi Skill holo Power -2: \"White Mic\"\n[1/Turn] If your center holomem is white, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Quick Guard\"\n[1/Game] Usable if one of your white holomem is about to take damage during your opponent's turn: Reduce that damage by 20."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD05-001",
@@ -14765,7 +14765,7 @@
       "jp": "推しスキル [ホロパワー：-2] グリーンマイク [ターンに1回]このターンの間、自分の緑センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：-1] みんな頑張ろー！ [ゲームに1回]自分の緑ホロメン全員のHP20回復。",
       "en": "Oshi Skill holo Power -2: \"Green Mic\"\n[1/Turn] If your center holomem is green, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Let's do our best everyone!\"\n[1/Game] Restore 20 HP to all of your green holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD06-001",
@@ -15087,7 +15087,7 @@
       "jp": "推しスキル [ホロパワー：-2] イエローマイク [ターンに1回]このターンの間、自分の黄センターホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：-1] 後は引き受けた！ [ゲームに1回]自分のセンターホロメンとお休みしていないバックホロメン1人を交代させる。さらに、バックポジションに移動したホロメンのHP30回復。",
       "en": "Oshi Skill holo Power -2: \"Yellow Mic\"\n[1/Turn] If your center holomem is yellow, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"I'll take care of the rest!\"\n[1/Game] Switch your center holomem with one of your back holomem who is not resting. Then restore 30 HP to the holomem that moved to the back position."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hSD07-001",
@@ -16090,7 +16090,7 @@
       "jp": "推しスキル [ホロパワー：2消費] ホワイトバトン [ターンに１回]このターンの間、自分の白コラボホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] クイックガード [ゲームに１回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-20。",
       "en": "Oshi Skill holo Power -2: \"White Baton\"\n[1/Turn] If your collab holomem is white, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Quick Guard\"\n[1/Game] Usable if one of your white holomem is about to take damage during your opponent's turn: Reduce that damage by 20."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hYS01-001",
@@ -16113,7 +16113,7 @@
       "jp": "推しスキル [ホロパワー：2消費] グリーンバトン [ターンに１回]このターンの間、自分の緑コラボホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] みんな頑張ろー！ [ゲームに１回]自分の緑ホロメン全員のHP20回復。",
       "en": "Oshi Skill holo Power -2: \"Green Baton\"\n[1/Turn] If your collab holomem is green, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Let's do our best everyone!\"\n[1/Game] Restore 20 HP to all of your green holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hYS01-002",
@@ -16136,7 +16136,7 @@
       "jp": "推しスキル [ホロパワー：2消費] レッドバトン [ターンに１回]このターンの間、自分の赤コラボホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] さあ！もう一度！ [ゲームに１回]自分のアーカイブの赤ホロメン１枚を手札に戻す。",
       "en": "Oshi Skill holo Power -2: \"Red Baton\"\n[1/Turn] If your collab holomem is red, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Come on! Again!\"\n[1/Game] Return 1 red holomem from your archive to hand."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hYS01-003",
@@ -16159,7 +16159,7 @@
       "jp": "推しスキル [ホロパワー：2消費] ブルーバトン [ターンに１回]このターンの間、自分の青コラボホロメンのアーツ+20。\n\nSP推しスキル [ホロパワー：1消費] バックショット [ゲームに１回]自分のホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン１人に特殊ダメージ50を与える。",
       "en": "Oshi Skill holo Power -2: \"Blue Baton\"\n[1/Turn] If your collab holomem is blue, their arts gain +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -1: \"Back Shot\"\n[1/Game] Usable if one of your holomem deals damage to one of your opponent's back holomem: Deal 50 special damage to the same holomem."
     },
-    "max_amount": 4,
+    "max_amount": 1,
     "illustrations": [
       {
         "card_number": "hYS01-004",
