@@ -4151,7 +4151,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンがセンターポジションかコラボポジションで受けるダメージ-10。\n\n◆〈小鳥遊キアラ〉に付いていたら能力追加\nこのマスコットが付いているホロメンのBloomレベルが上がった時、自分のデッキを１枚引く。\n\nマスコットは、自分のホロメン１人につき１枚だけ付けられる。",
-      "en": "Whenever the holomem with this Mascot attached takes damage while in the center or collab position, it takes -10 damage.\n\nIf this is attached to Takanashi Kiara, it gains the following effect: When the bloom level of the holomem that this Mascot is attached to increases, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "Whenever the holomem with this Mascot attached takes damage while in the center or collab position, it takes -10 damage.\n\nIf this is attached to Takanashi Kiara, it gains the following effect: When the bloom level of the holomem with this Mascot attached increases, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -7907,7 +7907,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈宝鐘マリン〉に付いていたら能力追加\n[センターポジション限定]このマスコットが付いているホロメンがBloomした時、自分のデッキを1枚引く。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Houshou Marine, it gains the following effect: [Center position only] When the holomem that this Mascot is attached to blooms, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Houshou Marine, it gains the following effect: [Center position only] When the holomem with this Mascot attached blooms, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -7967,7 +7967,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈クレイジー・オリー〉に付いていたら能力追加\nこのマスコットが付いているホロメンがBloomした時、自分のデッキを1枚引いた後、手札1枚をアーカイブする。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Kureiji Ollie, it gains the following effect: When the holomem that this Mascot is attached to blooms, draw 1 card then archive 1 card from your hand.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Kureiji Ollie, it gains the following effect: When the holomem with this Mascot attached blooms, draw 1 card then archive 1 card from your hand.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -13485,7 +13485,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈百鬼あやめ〉に付いていたら能力追加\nこのマスコットが付いているホロメンがBloomした時、自分のデッキを1枚引く。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Nakiri Ayame, it gains the following effect: When the holomem that this Mascot is attached to blooms, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Nakiri Ayame, it gains the following effect: When the holomem with this Mascot attached blooms, draw 1 card.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": 4,
@@ -14326,7 +14326,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈癒月ちょこ〉に付いていたら能力追加\nこのマスコットが付いているホロメンがBloomした時、このホロメンのHP20回復。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Yuzuki Choco, it gains the following effect: When the holomem that this Mascot is attached to blooms, restore 20 HP to that holomem.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Yuzuki Choco, it gains the following effect: When the holomem with this Mascot attached blooms, restore 20 HP to that holomem.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
