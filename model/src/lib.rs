@@ -1,5 +1,5 @@
-use std::cmp::Ordering;
 use std::collections::BTreeMap;
+use std::{cmp::Ordering, num::ParseIntError};
 
 use serde::{Deserialize, Serialize};
 
@@ -93,7 +93,17 @@ pub struct Card {
     pub buzz: bool, // holomem
     #[serde(skip_serializing_if = "is_default")]
     pub limited: bool, // support
-    pub text: Localized<String>,
+    #[serde(skip_serializing_if = "is_default")]
+    pub oshi_skills: Vec<OshiSkill>, // oshi
+    #[serde(skip_serializing_if = "is_default")]
+    pub keywords: Vec<Keyword>, // holomem
+    #[serde(skip_serializing_if = "is_default")]
+    pub arts: Vec<Art>, // holomem
+    #[serde(skip_serializing_if = "is_default")]
+    #[serde(rename = "text")]
+    pub ability_text: AbilityText, // support, cheer
+    #[serde(skip_serializing_if = "is_default")]
+    pub extras: Extras, // holomem
     #[serde(skip_serializing_if = "is_default")]
     pub tags: Vec<Localized<String>>, // holomem, support
     #[serde(skip_serializing_if = "is_default")]
@@ -102,12 +112,158 @@ pub struct Card {
     pub illustrations: Vec<CardIllustration>,
 }
 
+// Oshi skills
+// - special
+// - holo power
+// - name
+// - ability text
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
+#[serde(default)]
+pub struct OshiSkill {
+    #[serde(skip_serializing_if = "is_default")]
+    pub special: bool,
+    pub holo_power: HoloPower,
+    pub name: Localized<String>,
+    #[serde(rename = "text")]
+    pub ability_text: Localized<String>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[serde(rename_all = "snake_case")]
+pub enum HoloPower {
+    #[default]
+    X,
+    #[serde(untagged)]
+    Basic(u32),
+}
+
+impl TryFrom<String> for HoloPower {
+    type Error = ParseIntError;
+
+    fn try_from(value: String) -> std::result::Result<Self, Self::Error> {
+        if value.eq_ignore_ascii_case("x") {
+            Ok(Self::X)
+        } else {
+            Ok(Self::Basic(value.parse()?))
+        }
+    }
+}
+
+impl From<HoloPower> for String {
+    fn from(value: HoloPower) -> Self {
+        match value {
+            HoloPower::Basic(dmg) => format!("{dmg}"),
+            HoloPower::X => "x".into(),
+        }
+    }
+}
+
+// Keywords
+// - collab effect
+// - bloom effect
+// - gift
+// - name
+// - ability text
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[serde(rename_all = "snake_case")]
+#[serde(default)]
+pub struct Keyword {
+    #[serde(rename = "type")]
+    pub effect: KeywordEffect,
+    pub name: Localized<String>,
+    #[serde(rename = "text")]
+    pub ability_text: Localized<String>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[serde(rename_all = "snake_case")]
+pub enum KeywordEffect {
+    Collab,
+    Bloom,
+    Gift,
+    #[default]
+    Other,
+}
+
+// Arts
+// - cheers
+// - name
+// - basic power
+// - advantage
+// - ability text
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[serde(rename_all = "snake_case")]
+#[serde(default)]
+pub struct Art {
+    pub cheers: Vec<Color>,
+    pub name: Localized<String>,
+    #[serde(skip_serializing_if = "is_default")]
+    pub power: ArtPower,
+    #[serde(skip_serializing_if = "is_default")]
+    pub advantage: Option<(Color, u32)>,
+    #[serde(skip_serializing_if = "is_default")]
+    #[serde(rename = "text")]
+    pub ability_text: Option<Localized<String>>,
+}
+
+#[derive(Serialize, Deserialize, Debug, Copy, Clone, PartialEq, Eq, Default)]
+#[serde(rename_all = "snake_case")]
+#[serde(into = "String")]
+#[serde(try_from = "String")]
+pub enum ArtPower {
+    Basic(u32),
+    Plus(u32),
+    Minus(u32),
+    Multiple(u32),
+    #[default]
+    Uncertain,
+}
+
+impl TryFrom<String> for ArtPower {
+    type Error = ParseIntError;
+
+    fn try_from(value: String) -> std::result::Result<Self, Self::Error> {
+        if value == "?" {
+            Ok(Self::Uncertain)
+        } else if value.ends_with('+') {
+            Ok(Self::Plus(value.trim_end_matches('+').parse()?))
+        } else if value.ends_with('-') {
+            Ok(Self::Minus(value.trim_end_matches('-').parse()?))
+        } else if value.ends_with('x') {
+            Ok(Self::Multiple(value.trim_end_matches('x').parse()?))
+        } else {
+            Ok(Self::Basic(value.parse()?))
+        }
+    }
+}
+
+impl From<ArtPower> for String {
+    fn from(value: ArtPower) -> Self {
+        match value {
+            ArtPower::Basic(dmg) => format!("{dmg}"),
+            ArtPower::Plus(dmg) => format!("{dmg}+"),
+            ArtPower::Minus(dmg) => format!("{dmg}-"),
+            ArtPower::Multiple(dmg) => format!("{dmg}x"),
+            ArtPower::Uncertain => "?".into(),
+        }
+    }
+}
+
+// Ability text
+pub type AbilityText = Localized<String>;
+
+// Extras
+pub type Extras = Localized<String>;
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[serde(rename_all = "snake_case")]
+#[serde(default)]
 pub struct CardIllustration {
     pub card_number: String,
     pub manage_id: Option<u32>, // unique id in Deck Log
     pub rarity: String,
+    pub illustrator: Option<String>,
     pub img_path: Localized<String>,
     #[serde(skip_serializing_if = "is_default")]
     pub img_last_modified: Option<String>,
@@ -120,7 +276,7 @@ fn is_default<T: Default + Eq>(value: &T) -> bool {
 }
 
 fn holomem_order(text: &str) -> usize {
-    // folloing the order of the official website
+    // following the order of the official website
     // https://hololive.hololivepro.com/en/talents
     let names = [
         // Gen 0
@@ -249,8 +405,21 @@ impl Ord for Card {
 
         // Priority 3: Members
         if self.card_type == CardType::OshiHoloMember || self.card_type == CardType::HoloMember {
-            let self_member_order = holomem_order(&self.name.japanese);
-            let other_member_order = holomem_order(&other.name.japanese);
+            let self_name: String = Some(&self.name.japanese)
+                .into_iter()
+                // unit cards have names in extras
+                .chain(Some(&self.extras.japanese))
+                .cloned()
+                .collect();
+            let other_name: String = Some(&other.name.japanese)
+                .into_iter()
+                // unit cards have names in extras
+                .chain(Some(&other.extras.japanese))
+                .cloned()
+                .collect();
+
+            let self_member_order = holomem_order(&self_name);
+            let other_member_order = holomem_order(&other_name);
             let member_ordering = self_member_order.cmp(&other_member_order);
             if member_ordering != Ordering::Equal {
                 // println!(
@@ -294,8 +463,45 @@ impl Ord for Card {
             || self.card_type == CardType::Support(SupportType::Mascot)
             || self.card_type == CardType::Support(SupportType::Fan)
         {
-            let self_order = holomem_order(&self.text.japanese);
-            let other_order = holomem_order(&other.text.japanese);
+            let self_text: String = self
+                .oshi_skills
+                .iter()
+                .map(|skill| &skill.ability_text.japanese)
+                .chain(
+                    self.keywords
+                        .iter()
+                        .map(|keyword| &keyword.ability_text.japanese),
+                )
+                .chain(
+                    self.arts
+                        .iter()
+                        .filter_map(|art| art.ability_text.as_ref().map(|t| &t.japanese)),
+                )
+                .chain(Some(&self.ability_text.japanese))
+                .cloned()
+                .collect();
+            let other_text: String = other
+                .oshi_skills
+                .iter()
+                .map(|skill| &skill.ability_text.japanese)
+                .chain(
+                    other
+                        .keywords
+                        .iter()
+                        .map(|keyword| &keyword.ability_text.japanese),
+                )
+                .chain(
+                    other
+                        .arts
+                        .iter()
+                        .filter_map(|art| art.ability_text.as_ref().map(|t| &t.japanese)),
+                )
+                .chain(Some(&other.ability_text.japanese))
+                .cloned()
+                .collect();
+
+            let self_order = holomem_order(&self_text);
+            let other_order = holomem_order(&other_text);
             let ordering = self_order.cmp(&other_order);
             if ordering != Ordering::Equal {
                 // println!(

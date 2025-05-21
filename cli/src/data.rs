@@ -452,7 +452,7 @@ pub mod ogbajoj {
                     );
                 }
             }
-            card.text.english = Some(self.text()).filter(|t| !t.is_empty());
+            // card.text.english = Some(self.text()).filter(|t| !t.is_empty()); // FIXME
             // there is no japanese text in the sheet
             // update existing tags (tags consistency check)
             card.tags.iter_mut().zip(self.tags()).for_each(|(t, s)| {
@@ -679,13 +679,17 @@ pub mod ogbajoj {
 }
 
 pub mod hololive_official {
-    use std::ops::Deref;
     use std::sync::Arc;
+    use std::{ops::Deref, sync::OnceLock};
 
-    use hocg_fan_sim_assets_model::{BloomLevel, CardType, CardsDatabase, Color, Localized};
+    use hocg_fan_sim_assets_model::{
+        Art, BloomLevel, Card, CardType, CardsDatabase, Color, Keyword, KeywordEffect, Localized,
+        OshiSkill,
+    };
     use itertools::Itertools;
     use parking_lot::{Mutex, RwLock};
     use rayon::iter::{ParallelBridge, ParallelIterator};
+    use reqwest::Url;
     use scraper::{Html, Node, Selector};
 
     use crate::http_client;
@@ -764,6 +768,323 @@ pub mod hololive_official {
         colors_from_str(baton_pass)
     }
 
+    fn update_card_info(card: &mut Card, hololive_card: &scraper::ElementRef) {
+        static CARD_NAME: OnceLock<Selector> = OnceLock::new();
+        let card_name = CARD_NAME.get_or_init(|| Selector::parse(".name").unwrap());
+
+        // Card name
+        let card_name = hololive_card
+            .select(card_name)
+            .next()
+            .map(|c| c.text().collect::<String>());
+        // from Deck Log
+        if card.name.japanese.is_empty() {
+            card.name.japanese = card_name.unwrap_or_default();
+        }
+
+        static INFO: OnceLock<Selector> = OnceLock::new();
+        let info = INFO.get_or_init(|| Selector::parse(".info dl :is(dt, dd)").unwrap());
+
+        // Card info
+        for (key, value) in hololive_card.select(info).tuples() {
+            let key = key.text().collect::<String>();
+            let img_alts = value
+                .children()
+                .filter_map(|c| c.value().as_element().and_then(|c| c.attr("alt")))
+                .join(" ");
+            let value = value.text().collect::<String>();
+            let value = if !img_alts.is_empty() {
+                img_alts.trim()
+            } else {
+                value.trim()
+            };
+
+            match key.to_lowercase().as_str() {
+                "カードタイプ" => {
+                    // from Deck Log
+                    if card.card_type == Default::default() {
+                        card.card_type = card_type_from_str(value);
+                        card.buzz = buzz(value);
+                        card.limited = limited(value);
+                    } else {
+                        // warn if the type is different
+                        let card_type = card_type_from_str(value);
+                        if card.card_type != card_type {
+                            eprintln!(
+                                "Warning: {} type mismatch: {:?} should be {:?}",
+                                card.card_number, card_type, card.card_type
+                            );
+                        }
+                        let buzz = buzz(value);
+                        if card.buzz != buzz {
+                            eprintln!(
+                                "Warning: {} buzz mismatch: {} should be {}",
+                                card.card_number, buzz, card.buzz
+                            );
+                        }
+                        let limited = limited(value);
+                        if card.limited != limited {
+                            eprintln!(
+                                "Warning: {} limited mismatch: {} should be {}",
+                                card.card_number, limited, card.limited
+                            );
+                        }
+                    }
+                }
+                "タグ" => card.tags = tags_from_str(value), // replace existing tags. will need to import english tags later
+                "色" => card.colors = colors_from_str(value),
+                "life" => card.life = value.parse().unwrap_or_default(),
+                "hp" => card.hp = value.parse().unwrap_or_default(),
+                "bloomレベル" => {
+                    // from Deck Log
+                    if card.bloom_level == Default::default() {
+                        card.bloom_level = bloom_level_from_str(value);
+                    } else {
+                        // warn if the level is different
+                        let bloom_level = bloom_level_from_str(value);
+                        if card.bloom_level != bloom_level {
+                            eprintln!(
+                                "Warning: {} bloom level mismatch: {:?} should be {:?}",
+                                card.card_number, bloom_level, card.bloom_level
+                            );
+                        }
+                    }
+                }
+                "バトンタッチ" => card.baton_pass = baton_pass_from_str(value),
+                "能力テキスト" => {
+                    card.ability_text.japanese = value
+                        .trim_end_matches("LIMITED：ターンに１枚しか使えない。") // remove the limited line
+                        .trim()
+                        .to_string()
+                }
+                _ => { /* nothing else */ }
+            }
+        }
+
+        static EXTRA: OnceLock<Selector> = OnceLock::new();
+        let extra = EXTRA.get_or_init(|| Selector::parse(".extra p:nth-child(2)").unwrap());
+
+        // Extra
+        // replace existing extras. will need to import english extras later
+        card.extras = hololive_card
+            .select(extra)
+            .next()
+            .map(|c| Localized::jp(c.text().collect::<String>()))
+            .unwrap_or_default();
+    }
+
+    fn update_card_oshi_skills(card: &mut Card, hololive_card: &scraper::ElementRef) {
+        static OSHI_SKILL: OnceLock<Selector> = OnceLock::new();
+        let oshi_skill =
+            OSHI_SKILL.get_or_init(|| Selector::parse(".oshi.skill p:nth-child(2)").unwrap());
+        static SP_SKILL: OnceLock<Selector> = OnceLock::new();
+        let sp_skill =
+            SP_SKILL.get_or_init(|| Selector::parse(".sp.skill p:nth-child(2)").unwrap());
+
+        let card_number = &card.card_number;
+
+        let mut oshi_skills = vec![];
+        for (special, oshi_skill) in hololive_card
+            .select(oshi_skill)
+            .map(|s| (false, s))
+            .chain(hololive_card.select(sp_skill).map(|s| (true, s)))
+        {
+            let Some((holo_power, name, text)) = oshi_skill.text().collect_tuple() else {
+                println!("Oshi skill not found for {card_number:?}");
+                continue;
+            };
+
+            let oshi_skill = OshiSkill {
+                special,
+                holo_power: holo_power
+                    .trim_start_matches("[ホロパワー：")
+                    .trim_start_matches("-")
+                    .trim_end_matches("]")
+                    .trim_end_matches("消費")
+                    .to_string()
+                    .try_into()
+                    .unwrap_or_default(),
+                name: Localized::jp(name.trim().to_string()),
+                ability_text: Localized::jp(text.trim().to_string()),
+            };
+            oshi_skills.push(oshi_skill);
+        }
+        // replace existing keywords. will need to import english keywords later
+        card.oshi_skills = oshi_skills;
+    }
+
+    fn update_card_keywords(card: &mut Card, hololive_card: &scraper::ElementRef) {
+        static KEYWORD: OnceLock<Selector> = OnceLock::new();
+        let keyword = KEYWORD.get_or_init(|| Selector::parse(".keyword p:nth-child(2)").unwrap());
+
+        let card_number = &card.card_number;
+        // Keywords
+        let mut keywords = vec![];
+        for keyword in hololive_card.select(keyword) {
+            let mut keyword_text = String::new();
+            for node in keyword.descendants() {
+                // add card text
+                if let Node::Text(text) = node.value() {
+                    keyword_text.push_str(text.deref());
+                    keyword_text.push('\n');
+
+                // include alt text for images e.g. cheers, color advantages, etc
+                } else if let Node::Element(el) = node.value() {
+                    if let Some(alt) = el.attr("alt") {
+                        keyword_text.push_str(alt.to_string().as_str());
+                        keyword_text.push('\n');
+                    }
+                }
+            }
+
+            // dbg!(&keyword_text);
+
+            let mut keyword_text = keyword_text
+                .lines()
+                .map(|l| l.trim())
+                .filter(|l| !l.is_empty());
+            let Some(effect) = keyword_text.next() else {
+                println!("Keyword effect not found for {card_number:?}");
+                continue;
+            };
+            let Some(name) = keyword_text.next() else {
+                println!("Keyword name not found for {card_number:?}");
+                continue;
+            };
+            let text = keyword_text.collect_vec().join("\n");
+            if text.trim().is_empty() {
+                println!("Keyword text not found for {card_number:?}");
+                continue;
+            };
+
+            let keyword = Keyword {
+                effect: match effect.trim() {
+                    "コラボエフェクト" => KeywordEffect::Collab,
+                    "ブルームエフェクト" => KeywordEffect::Bloom,
+                    "ギフト" => KeywordEffect::Gift,
+                    _ => KeywordEffect::Other,
+                },
+                name: Localized::jp(name.trim().to_string()),
+                ability_text: Localized::jp(text.trim().to_string()),
+            };
+            keywords.push(keyword);
+        }
+        // replace existing keywords. will need to import english keywords later
+        card.keywords = keywords;
+    }
+
+    fn update_card_arts(card: &mut Card, hololive_card: &scraper::ElementRef) {
+        static ART: OnceLock<Selector> = OnceLock::new();
+        let art = ART.get_or_init(|| Selector::parse(".sp.arts p:nth-child(2)").unwrap());
+
+        let card_number = &card.card_number;
+
+        // Arts
+        let mut arts = vec![];
+        for art in hololive_card.select(art) {
+            let mut art_text = String::new();
+            for node in art.descendants() {
+                // add card text
+                if let Node::Text(text) = node.value() {
+                    art_text.push_str(text.deref());
+                    art_text.push('\n');
+
+                // include alt text for images e.g. cheers, color advantages, etc
+                } else if let Node::Element(el) = node.value() {
+                    if let Some(alt) = el.attr("alt") {
+                        art_text.push_str(alt.to_string().as_str());
+                        art_text.push('\n');
+                    }
+                }
+            }
+
+            // dbg!(&art_text);
+
+            let mut cheers = vec![];
+            let mut art_text = art_text.lines().filter_map(|l| {
+                let l = l.trim();
+                let c = colors_from_str(l);
+                if c.is_empty() || l.chars().count() > 1 {
+                    Some(l)
+                } else {
+                    cheers.extend(c);
+                    None
+                }
+            });
+
+            let Some(name) = art_text.next() else {
+                println!("Art name not found for {card_number:?}");
+                continue;
+            };
+            let advantage = art_text
+                .next()
+                .and_then(|a| a.split_once('+'))
+                .map(|(a, p)| {
+                    art_text.next();
+                    (colors_from_str(a)[0], p.parse().unwrap_or_default())
+                });
+            let text = art_text.filter(|l| !l.is_empty()).collect_vec().join("\n");
+            let text = if text.trim().is_empty() {
+                None
+            } else {
+                Some(text)
+            };
+
+            let (name, power) = name.rsplit_once('　').unwrap_or((name, ""));
+
+            let art = Art {
+                cheers,
+                name: Localized::jp(name.trim().to_string()),
+                power: power.to_string().try_into().unwrap_or_default(),
+                advantage,
+                ability_text: text.map(|text| Localized::jp(text.trim().to_string())),
+            };
+            arts.push(art);
+        }
+        // replace existing arts. will need to import english arts later
+        card.arts = arts;
+    }
+
+    fn update_card_illustrations(card: &mut Card, hololive_card: &scraper::ElementRef, url: &str) {
+        static ILLUSTRATOR: OnceLock<Selector> = OnceLock::new();
+        let illustrator = ILLUSTRATOR.get_or_init(|| Selector::parse(".ill-name span").unwrap());
+
+        let card_number = &card.card_number;
+
+        // need to go to the detailed page
+        let Some(card_url) = hololive_card.attr("href") else {
+            println!("Card url not found for {card_number:?}");
+            return;
+        };
+
+        let card_url = Url::parse(url).unwrap().join(card_url).unwrap();
+
+        let Some((_, id)) = card_url.query_pairs().into_owned().find(|(k, _)| k == "id") else {
+            println!("Card id not found for {card_number:?}");
+            return;
+        };
+        if let Some(illust) = card
+            .illustrations
+            .iter_mut()
+            .find(|i| i.manage_id == id.parse().ok() && i.illustrator.is_none())
+        {
+            let resp = http_client().get(card_url).send().unwrap();
+            let content = resp.text().unwrap();
+
+            // parse the content and update cards
+            let document = Html::parse_document(&content);
+
+            // get the illustrator from the card
+            illust.illustrator = Some(
+                document
+                    .select(illustrator)
+                    .next()
+                    .map(|c| c.text().collect::<String>())
+                    .unwrap_or_default(),
+            );
+        }
+    }
+
     // Retrieve the following fields from Hololive official site:
     // - Card number
     // - Card name "JP"
@@ -797,27 +1118,25 @@ pub mod hololive_official {
                     let content = resp.text().unwrap();
 
                     // no more card in this page
-                    if content
-                        .contains("<title>hololive OFFICIAL CARD GAME｜ホロライブプロダクション</title>")
-                    {
+                    if content.contains(
+                        "<title>hololive OFFICIAL CARD GAME｜ホロライブプロダクション</title>",
+                    ) {
                         return None;
                     }
 
                     // parse the content and update cards
                     let document = Html::parse_document(&content);
-                    let cards = Selector::parse("li a").unwrap();
-                    let card_number = Selector::parse(".number").unwrap();
-                    let card_name = Selector::parse(".name").unwrap();
-                    let info = Selector::parse(".info dl :is(dt, dd)").unwrap();
-                    let any_text = Selector::parse(
-                        ":is(.oshi.skill, .sp.skill, .keyword, .sp.arts, .extra)",
-                    ).unwrap();
+                    static CARDS: OnceLock<Selector> = OnceLock::new();
+                    let cards = CARDS.get_or_init(|| Selector::parse("li a").unwrap());
+                    static CARD_NUMBER: OnceLock<Selector> = OnceLock::new();
+                    let card_number =
+                        CARD_NUMBER.get_or_init(|| Selector::parse(".number").unwrap());
 
                     let mut page_updated_count = 0;
 
-                    for hololive_card in document.select(&cards) {
+                    for hololive_card in document.select(cards) {
                         let Some(card_number) = hololive_card
-                            .select(&card_number)
+                            .select(card_number)
                             .next()
                             .map(|c| c.text().collect::<String>())
                         else {
@@ -825,119 +1144,22 @@ pub mod hololive_official {
                             continue;
                         };
 
+                        // // TODO for testing
+                        // if card_number != "hBP01-005" {
+                        //     continue;
+                        // }
+
                         let mut all_cards = all_cards.write();
                         let Some(card) = all_cards.get_mut(&card_number) else {
                             println!("Card {card_number:?} not found");
                             continue;
                         };
 
-                        let card_name = hololive_card
-                            .select(&card_name)
-                            .next()
-                            .map(|c| c.text().collect::<String>());
-                        // from Deck Log
-                        if card.name.japanese.is_empty() {
-                            card.name.japanese = card_name.unwrap_or_default();
-                        }
-
-                        for (key, value) in hololive_card.select(&info).tuples() {
-                            let key = key.text().collect::<String>();
-                            let img_alts = value
-                                .children()
-                                .filter_map(|c| c.value().as_element().and_then(|c| c.attr("alt")))
-                                .join(" ");
-                            let value = value.text().collect::<String>();
-                            let value = if !img_alts.is_empty() {
-                                img_alts.trim()
-                            } else {
-                                value.trim()
-                            };
-
-                            match key.to_lowercase().as_str() {
-                                "カードタイプ" => {
-                                    // from Deck Log
-                                    if card.card_type == Default::default() {
-                                        card.card_type = card_type_from_str(value);
-                                        card.buzz = buzz(value);
-                                        card.limited = limited(value);
-                                    } else {
-                                        // warn if the type is different
-                                        let card_type = card_type_from_str(value);
-                                        if card.card_type != card_type {
-                                            eprintln!(
-                                                "Warning: {} type mismatch: {:?} should be {:?}",
-                                                card.card_number, card_type, card.card_type
-                                            );
-                                        }
-                                        let buzz = buzz(value);
-                                        if card.buzz != buzz {
-                                            eprintln!(
-                                                "Warning: {} buzz mismatch: {} should be {}",
-                                                card.card_number, buzz, card.buzz
-                                            );
-                                        }
-                                        let limited = limited(value);
-                                        if card.limited != limited {
-                                            eprintln!(
-                                                "Warning: {} limited mismatch: {} should be {}",
-                                                card.card_number, limited, card.limited
-                                            );
-                                        }
-                                    }
-                                }
-                                "タグ" => card.tags = tags_from_str(value), // replace existing tags. will need to import english tags later
-                                "色" => card.colors = colors_from_str(value),
-                                "life" => card.life = value.parse().unwrap_or_default(),
-                                "hp" => card.hp = value.parse().unwrap_or_default(),
-                                "bloomレベル" => {
-                                    // from Deck Log
-                                    if card.bloom_level == Default::default() {
-                                        card.bloom_level = bloom_level_from_str(value);
-                                    } else {
-                                        // warn if the level is different
-                                        let bloom_level = bloom_level_from_str(value);
-                                        if card.bloom_level != bloom_level {
-                                            eprintln!(
-                                                "Warning: {} bloom level mismatch: {:?} should be {:?}",
-                                                card.card_number, bloom_level, card.bloom_level
-                                            );
-                                        }
-                                    }
-                                }
-                                "バトンタッチ" => card.baton_pass = baton_pass_from_str(value),
-                                "能力テキスト" => {
-                                    card.text.japanese = value
-                                        .trim_end_matches("LIMITED：ターンに１枚しか使えない。") // remove the limited line
-                                        .trim()
-                                        .to_string()
-                                }
-                                _ => { /* nothing else */ }
-                            }
-                        }
-
-                        let mut card_text = String::new();
-                        for any_text in hololive_card.select(&any_text) {
-                            for node in any_text.descendants() {
-                                // add card text
-                                if let Node::Text(text) = node.value() {
-                                    card_text.push_str(text.deref());
-                                    card_text.push(' ');
-
-                                // include alt text for images e.g. cheers, color advantages, etc
-                                } else if let Node::Element(el) = node.value() {
-                                    if let Some(alt) = el.attr("alt") {
-                                        card_text.push_str(format!("[{alt}]").as_str());
-                                        card_text.push(' ');
-                                    }
-                                }
-                            }
-                            card_text = card_text.trim().to_string();
-                            card_text.push_str("\n\n");
-                        }
-                        card_text = card_text.trim().to_string();
-                        if !card_text.is_empty() {
-                            card.text.japanese = card_text;
-                        }
+                        update_card_info(card, &hololive_card);
+                        update_card_oshi_skills(card, &hololive_card);
+                        update_card_keywords(card, &hololive_card);
+                        update_card_arts(card, &hololive_card);
+                        update_card_illustrations(card, &hololive_card, url);
 
                         page_updated_count += 1;
                     }
