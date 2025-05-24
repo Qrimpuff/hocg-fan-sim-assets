@@ -252,6 +252,29 @@
       }
     ]
   },
+  "hBD24-012": {
+    "card_number": "hBD24-012",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "text": {
+      "jp": "推しスキル [ホロパワー：-2] ホワイトエンハンス [ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～White～ [ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+      "en": "Oshi Skill holo Power -2: \"White Enhance\"\n[1/Turn] One of your white holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~White~\"\n[1/Game] Reveal 1 white holomem from your deck and put it into your hand. Then shuffle your deck."
+    },
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBD24-012",
+        "manage_id": 846,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBD24-012_P.webp", "en": null },
+        "img_last_modified": "Wed, 22 Jan 2025 03:35:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBD24-013": {
     "card_number": "hBD24-013",
     "name": { "jp": "紫咲シオン", "en": "Murasaki Shion" },
@@ -295,6 +318,52 @@
         "img_last_modified": "Wed, 22 Jan 2025 03:35:17 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10014",
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBD24-015": {
+    "card_number": "hBD24-015",
+    "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "text": {
+      "jp": "推しスキル [ホロパワー：-2] レッドエンハンス [ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Birthday Gift ～Red～ [ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+      "en": "Oshi Skill holo Power -2: \"Red Enhance\"\n[1/Turn] One of your red holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Birthday Gift ~Red~\"\n[1/Game] Reveal 1 red holomem from your deck and put it into your hand. Then shuffle your deck."
+    },
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBD24-015",
+        "manage_id": 847,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBD24-015_P.webp", "en": null },
+        "img_last_modified": "Wed, 22 Jan 2025 03:35:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-016": {
+    "card_number": "hBD24-016",
+    "name": { "jp": "沙花叉クロヱ", "en": "Sakamata Chloe" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "text": {
+      "jp": "推しスキル [ホロパワー：-2] ブルーエンハンス [ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。\n\nSP推しスキル [ホロパワー：-2] Anniversary Gift ～Blue～ [ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+      "en": "Oshi Skill holo Power -2: \"Blue Enhance\"\n[1/Turn] One of your blue holomem's arts gains +20 power until the end of this turn.\n\nSP Oshi Skill holo Power -2: \"Anniversary Gift ~Blue~\"\n[1/Game] Reveal 1 blue holomem from your deck and put it into your hand. Then shuffle your deck."
+    },
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBD24-016",
+        "manage_id": 848,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBD24-016_P.webp", "en": null },
+        "img_last_modified": "Wed, 22 Jan 2025 03:35:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -4268,6 +4337,15 @@
         "img_last_modified": "Tue, 17 Sep 2024 09:31:05 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10146",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-126",
+        "manage_id": 857,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP01-126_P_02.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:35 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -8771,6 +8849,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:43 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10036",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-016",
+        "manage_id": 849,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-016_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:35 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -9135,6 +9222,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:44 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10055",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-025",
+        "manage_id": 850,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-025_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:37 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -9723,6 +9819,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:45 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10084",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-040",
+        "manage_id": 851,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-040_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:34 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -9950,6 +10055,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:45 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10096",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-046",
+        "manage_id": 852,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-046_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:34 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -10386,6 +10500,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:46 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10117",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-057",
+        "manage_id": 853,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-057_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:35 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -11014,6 +11137,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:47 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10148",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-073",
+        "manage_id": 854,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-073_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:35 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -12125,6 +12257,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:48 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10213",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-105",
+        "manage_id": 855,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-105_P_02.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:35 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -12345,6 +12486,15 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:49 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10227",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-112",
+        "manage_id": 856,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hBP03-112_P_02.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:36 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -14391,6 +14541,15 @@
         "img_last_modified": "Tue, 11 Mar 2025 08:06:01 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd05/10002",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD05-002",
+        "manage_id": 858,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hSD05-002_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:36 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -15127,6 +15286,15 @@
         "img_last_modified": "Tue, 11 Mar 2025 08:15:40 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd07/10002",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD07-002",
+        "manage_id": 859,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hSD07-002_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:36 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -15484,6 +15652,15 @@
         "img_last_modified": "Tue, 11 Mar 2025 08:15:41 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd07/10014",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD07-014",
+        "manage_id": 860,
+        "rarity": "P",
+        "img_path": { "jp": "hPR/hSD07-014_P.webp", "en": null },
+        "img_last_modified": "Fri, 23 May 2025 06:38:36 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
