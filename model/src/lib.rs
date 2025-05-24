@@ -103,7 +103,7 @@ pub struct Card {
     #[serde(rename = "text")]
     pub ability_text: AbilityText, // support, cheer
     #[serde(skip_serializing_if = "is_default")]
-    pub extras: Extras, // holomem
+    pub extra: Option<Extra>, // holomem
     #[serde(skip_serializing_if = "is_default")]
     pub tags: Vec<Localized<String>>, // holomem, support
     #[serde(skip_serializing_if = "is_default")]
@@ -126,10 +126,10 @@ pub struct OshiSkill {
     pub holo_power: HoloPower,
     pub name: Localized<String>,
     #[serde(rename = "text")]
-    pub ability_text: Localized<String>,
+    pub ability_text: AbilityText,
 }
 
-#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
 pub enum HoloPower {
     #[default]
@@ -173,10 +173,10 @@ pub struct Keyword {
     pub effect: KeywordEffect,
     pub name: Localized<String>,
     #[serde(rename = "text")]
-    pub ability_text: Localized<String>,
+    pub ability_text: AbilityText,
 }
 
-#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
 pub enum KeywordEffect {
     Collab,
@@ -204,7 +204,7 @@ pub struct Art {
     pub advantage: Option<(Color, u32)>,
     #[serde(skip_serializing_if = "is_default")]
     #[serde(rename = "text")]
-    pub ability_text: Option<Localized<String>>,
+    pub ability_text: Option<AbilityText>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Copy, Clone, PartialEq, Eq, Default)]
@@ -254,7 +254,7 @@ impl From<ArtPower> for String {
 pub type AbilityText = Localized<String>;
 
 // Extras
-pub type Extras = Localized<String>;
+pub type Extra = Localized<String>;
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
@@ -408,13 +408,13 @@ impl Ord for Card {
             let self_name: String = Some(&self.name.japanese)
                 .into_iter()
                 // unit cards have names in extras
-                .chain(Some(&self.extras.japanese))
+                .chain(self.extra.as_ref().map(|e| &e.japanese))
                 .cloned()
                 .collect();
             let other_name: String = Some(&other.name.japanese)
                 .into_iter()
                 // unit cards have names in extras
-                .chain(Some(&other.extras.japanese))
+                .chain(other.extra.as_ref().map(|e| &e.japanese))
                 .cloned()
                 .collect();
 
