@@ -4741,7 +4741,7 @@
     "bloom_level": "first",
     "text": {
       "jp": "キーワード [ブルームエフェクト] 白上から目をそらしちゃ　 \n自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nアーツ [◇] ダメですよっ！　40",
-      "en": "Bloom Effect: \"I can't look away from the truth.\"\nReveal 1 card with #ShirakamiCharacter from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Damedesu yo!\"\nCost: 1 any color\nPower: 40\n\n[art has only been given without any card elements so far]"
+      "en": "Bloom Effect: \"I can't look away from the truth.\"\nReveal 1 card with #ShirakamiCharacter from your deck and put it into your hand. Then shuffle your deck.\n\nArts: \"Damedesu yo!\"\nCost: 1 any color\nPower: 40"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -9405,7 +9405,7 @@
     "bloom_level": "second",
     "text": {
       "jp": "キーワード [ギフト] エリートギャンブル　 \n[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる：3か5の時、このターンの間、このホロメンのアーツ+50。\n\nアーツ [赤] [◇] [◇] エリート巫女　120+ [緑+50] \nこのホロメンに付いている〈35P〉1枚につき、このアーツ+20。",
-      "en": "Gift: \"Elite Gambling\"\n[Center position only] [1/Turn] During your Main Step, if this holomem has any 35Ps attached, you may roll a dice: If the result is 3 or 5, this holomem's arts gain +50 power until the end of this turn.\n\nArts: \"Elite Shrine Maiden\"\nCost: 1 Red, 2 any color\nPower: 120+, +50 vs Green\nFor each 35P attached to this holomem, this art gains +20 power.\n\n[art has only been given without any card elements so far]"
+      "en": "Gift: \"Elite Gambling\"\n[Center position only] [1/Turn] During your Main Step, if this holomem has any 35Ps attached, you may roll a dice: If the result is 3 or 5, this holomem's arts gain +50 power until the end of this turn.\n\nArts: \"Elite Shrine Maiden\"\nCost: 1 Red, 2 any color\nPower: 120+, +50 vs Green\nFor each 35P attached to this holomem, this art gains +20 power."
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
