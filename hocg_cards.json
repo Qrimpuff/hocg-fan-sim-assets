@@ -7924,7 +7924,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈白上フブキ〉に付いていたら能力追加\n[バックポジション限定]このマスコットが付いているホロメンは相手からダメージを受けない。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage from your opponent.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": 4,
