@@ -1434,6 +1434,7 @@ pub mod hololive_official {
             let document = Html::parse_document(&content);
 
             // get the illustrator from the card
+            // save empty string to indicate that we know there is no illustrator. no need for request
             illust.illustrator = Some(
                 document
                     .select(illustrator)
