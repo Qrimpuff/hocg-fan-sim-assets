@@ -67,8 +67,8 @@ pub fn import_holodelta_db(
             let cards: Vec<_> = card
                 .illustrations
                 .par_iter_mut()
-                .map(|illust| {
-                    let path = images_jp_path.join(&illust.img_path.japanese);
+                .filter_map(|illust| {
+                    let path = images_jp_path.join(illust.img_path.japanese.as_ref()?);
                     let f = File::open(&path).unwrap();
                     let f = BufReader::new(f);
                     let card_img = image::load(f, image::ImageFormat::WebP).unwrap();
@@ -77,7 +77,7 @@ pub fn import_holodelta_db(
                     // clear the delta art index, will be set later
                     illust.delta_art_index = None;
 
-                    (Arc::new(Mutex::new(illust)), card_img)
+                    Some((Arc::new(Mutex::new(illust)), card_img))
                 })
                 .collect();
 
@@ -205,8 +205,8 @@ pub fn import_holodelta(
             let cards: Vec<_> = card
                 .illustrations
                 .par_iter_mut()
-                .map(|illust| {
-                    let path = images_jp_path.join(&illust.img_path.japanese);
+                .flat_map(|illust| {
+                    let path = images_jp_path.join(illust.img_path.japanese.as_ref()?);
                     let f = File::open(&path).unwrap();
                     let f = BufReader::new(f);
                     let card_img = image::load(f, image::ImageFormat::WebP).unwrap();
@@ -215,7 +215,7 @@ pub fn import_holodelta(
                     // clear the delta art index, will be set later
                     illust.delta_art_index = None;
 
-                    (Arc::new(Mutex::new(illust)), card_img)
+                    Some((Arc::new(Mutex::new(illust)), card_img))
                 })
                 .collect();
 

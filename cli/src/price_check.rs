@@ -156,7 +156,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
                 }
                 // group by image, some entries are duplicated, like hSD01-016
                 existing_urls
-                    .entry(card.img_path.japanese.clone())
+                    .entry(card.img_path.japanese.as_deref().unwrap_or_default().into())
                     .or_insert(yuyutei_sell_url.clone());
             }
         }
@@ -191,9 +191,13 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
 
             for illustration in illustrations {
                 // first, look for same image
-                if let Some(yuyutei_sell_url) =
-                    existing_urls.read().get(&illustration.img_path.japanese)
-                {
+                if let Some(yuyutei_sell_url) = existing_urls.read().get(
+                    illustration
+                        .img_path
+                        .japanese
+                        .as_deref()
+                        .unwrap_or_default(),
+                ) {
                     illustration.yuyutei_sell_url = Some(yuyutei_sell_url.clone());
                 } else if let Some(urls) = urls.write().get_mut(&(
                     illustration.card_number.clone(),
@@ -206,7 +210,14 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
                         // group by image, some entries are duplicated
                         existing_urls
                             .write()
-                            .entry(illustration.img_path.japanese.clone())
+                            .entry(
+                                illustration
+                                    .img_path
+                                    .japanese
+                                    .as_deref()
+                                    .unwrap_or_default()
+                                    .into(),
+                            )
                             .or_insert(url.clone());
                         *url_count.lock() += 1;
                     }
@@ -322,8 +333,11 @@ fn dist_yuyutei_image(
     images_jp_path: &Path,
 ) -> u64 {
     // compare the image to the card
-    println!("Checking Card image: {}", card.img_path.japanese);
-    let path = images_jp_path.join(&card.img_path.japanese);
+    println!(
+        "Checking Card image: {}",
+        card.img_path.japanese.as_deref().unwrap_or_default()
+    );
+    let path = images_jp_path.join(card.img_path.japanese.as_deref().unwrap_or_default());
     let card_img = image::open(path).unwrap();
 
     let h1 = to_image_hash(&yuyutei_img.into_rgb8());

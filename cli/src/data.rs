@@ -213,7 +213,7 @@ pub mod decklog {
                                     let card =
                                         all_cards.entry(dl_card.card_number.clone()).or_default();
                                     card.card_number = dl_card.card_number.clone();
-                                    card.name.japanese = dl_card.name.clone();
+                                    card.name.japanese = Some(dl_card.name.clone());
                                     card.card_type = dl_card.card_type();
                                     if let CardType::OshiHoloMember = card.card_type {
                                         card.max_amount = dl_card.max.min(1)
@@ -232,10 +232,9 @@ pub mod decklog {
                                             .find(|i| i.manage_id == dl_card.manage_id)
                                         {
                                             Some(i)
-                                        } else if let Some(i) = illustrations
-                                            .iter_mut()
-                                            .find(|i| i.img_path.japanese == dl_card.img)
-                                        {
+                                        } else if let Some(i) = illustrations.iter_mut().find(|i| {
+                                            i.img_path.japanese.as_ref() == Some(&dl_card.img)
+                                        }) {
                                             Some(i)
                                         } else {
                                             illustrations.iter_mut().find(|c| c.manage_id.is_none())
@@ -245,7 +244,7 @@ pub mod decklog {
                                         illust.card_number = dl_card.card_number;
                                         illust.manage_id = dl_card.manage_id;
                                         illust.rarity = dl_card.rare;
-                                        illust.img_path.japanese = dl_card.img;
+                                        illust.img_path.japanese = Some(dl_card.img);
                                     } else {
                                         let illust = CardIllustration {
                                             card_number: dl_card.card_number.clone(),
@@ -357,13 +356,13 @@ pub mod ogbajoj {
                 }
             }
             let name = self.name();
-            if card.name.japanese.is_empty() {
+            if card.name.japanese.is_none() {
                 card.name.japanese = name.japanese.clone();
             } else {
                 // warn if the name is different
                 if card.name.japanese != name.japanese {
                     eprintln!(
-                        "Warning: {card_number} name mismatch: {} should be {}",
+                        "Warning: {card_number} name mismatch: {:?} should be {:?}",
                         name.japanese, card.name.japanese
                     );
                 }
@@ -575,8 +574,8 @@ pub mod ogbajoj {
             Some(OshiSkill {
                 special,
                 holo_power: holo_power.to_string().try_into().unwrap_or_default(),
-                name: Localized::new("".into(), name.into()),
-                ability_text: Localized::new("".into(), lines.join("\n").trim().to_string()),
+                name: Localized::en(name.into()),
+                ability_text: Localized::en(lines.join("\n").trim().to_string()),
             })
         }
 
@@ -635,8 +634,8 @@ pub mod ogbajoj {
 
             Some(Keyword {
                 effect,
-                name: Localized::new("".into(), name.into()),
-                ability_text: Localized::new("".into(), lines.join("\n").trim().to_string()),
+                name: Localized::en(name.into()),
+                ability_text: Localized::en(lines.join("\n").trim().to_string()),
             })
         }
 
@@ -740,13 +739,13 @@ pub mod ogbajoj {
 
             Some(Art {
                 cheers,
-                name: Localized::new("".into(), name.into()),
+                name: Localized::en(name.into()),
                 power,
                 advantage,
                 ability_text: lines
                     .is_empty()
                     .not()
-                    .then(|| Localized::new("".into(), lines.join("\n").trim().to_string())),
+                    .then(|| Localized::en(lines.join("\n").trim().to_string())),
             })
         }
 
@@ -1032,7 +1031,7 @@ pub mod ogbajoj {
             .into_group_map_by(|t| t.0);
         for (tag, names) in tags_mapping {
             if names.len() > 1 {
-                println!("Tag {tag} has multiple names: {names:#?}");
+                println!("Tag {tag:?} has multiple names: {names:#?}");
             }
         }
     }
@@ -1138,8 +1137,8 @@ pub mod hololive_official {
             .next()
             .map(|c| c.text().collect::<String>());
         // from Deck Log
-        if card.name.japanese.is_empty() {
-            card.name.japanese = card_name.unwrap_or_default();
+        if card.name.japanese.is_none() {
+            card.name.japanese = card_name;
         }
 
         static INFO: OnceLock<Selector> = OnceLock::new();
@@ -1212,10 +1211,12 @@ pub mod hololive_official {
                 }
                 "バトンタッチ" => card.baton_pass = baton_pass_from_str(value),
                 "能力テキスト" => {
-                    card.ability_text.japanese = value
-                        .trim_end_matches("LIMITED：ターンに１枚しか使えない。") // remove the limited line
-                        .trim()
-                        .to_string()
+                    card.ability_text.japanese = Some(
+                        value
+                            .trim_end_matches("LIMITED：ターンに１枚しか使えない。") // remove the limited line
+                            .trim()
+                            .to_string(),
+                    )
                 }
                 _ => { /* nothing else */ }
             }

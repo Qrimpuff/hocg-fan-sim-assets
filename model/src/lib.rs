@@ -8,7 +8,7 @@ pub type CardsDatabase = BTreeMap<String, Card>;
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize, Default)]
 pub struct Localized<T> {
     #[serde(rename = "jp")]
-    pub japanese: T,
+    pub japanese: Option<T>,
     #[serde(rename = "en")]
     pub english: Option<T>,
 }
@@ -16,15 +16,22 @@ pub struct Localized<T> {
 impl<T> Localized<T> {
     pub fn new(jp: T, en: T) -> Self {
         Self {
-            japanese: jp,
+            japanese: Some(jp),
             english: Some(en),
         }
     }
 
     pub fn jp(jp: T) -> Self {
         Self {
-            japanese: jp,
+            japanese: Some(jp),
             english: None,
+        }
+    }
+
+    pub fn en(en: T) -> Self {
+        Self {
+            japanese: None,
+            english: Some(en),
         }
     }
 }
@@ -405,16 +412,22 @@ impl Ord for Card {
 
         // Priority 3: Members
         if self.card_type == CardType::OshiHoloMember || self.card_type == CardType::HoloMember {
-            let self_name: String = Some(&self.name.japanese)
+            let self_name: String = self
+                .name
+                .japanese
+                .as_ref()
                 .into_iter()
                 // unit cards have names in extras
-                .chain(self.extra.as_ref().map(|e| &e.japanese))
+                .chain(self.extra.as_ref().and_then(|e| e.japanese.as_ref()))
                 .cloned()
                 .collect();
-            let other_name: String = Some(&other.name.japanese)
+            let other_name: String = other
+                .name
+                .japanese
+                .as_ref()
                 .into_iter()
                 // unit cards have names in extras
-                .chain(other.extra.as_ref().map(|e| &e.japanese))
+                .chain(other.extra.as_ref().and_then(|e| e.japanese.as_ref()))
                 .cloned()
                 .collect();
 
@@ -463,42 +476,38 @@ impl Ord for Card {
             || self.card_type == CardType::Support(SupportType::Mascot)
             || self.card_type == CardType::Support(SupportType::Fan)
         {
-            let self_text: String = self
-                .oshi_skills
-                .iter()
-                .map(|skill| &skill.ability_text.japanese)
-                .chain(
-                    self.keywords
-                        .iter()
-                        .map(|keyword| &keyword.ability_text.japanese),
-                )
-                .chain(
-                    self.arts
-                        .iter()
-                        .filter_map(|art| art.ability_text.as_ref().map(|t| &t.japanese)),
-                )
-                .chain(Some(&self.ability_text.japanese))
-                .cloned()
-                .collect();
-            let other_text: String = other
-                .oshi_skills
-                .iter()
-                .map(|skill| &skill.ability_text.japanese)
-                .chain(
-                    other
-                        .keywords
-                        .iter()
-                        .map(|keyword| &keyword.ability_text.japanese),
-                )
-                .chain(
-                    other
-                        .arts
-                        .iter()
-                        .filter_map(|art| art.ability_text.as_ref().map(|t| &t.japanese)),
-                )
-                .chain(Some(&other.ability_text.japanese))
-                .cloned()
-                .collect();
+            let self_text: String =
+                self.oshi_skills
+                    .iter()
+                    .flat_map(|skill| &skill.ability_text.japanese)
+                    .chain(
+                        self.keywords
+                            .iter()
+                            .flat_map(|keyword| &keyword.ability_text.japanese),
+                    )
+                    .chain(self.arts.iter().filter_map(|art| {
+                        art.ability_text.as_ref().and_then(|t| t.japanese.as_ref())
+                    }))
+                    .chain(&self.ability_text.japanese)
+                    .cloned()
+                    .collect();
+            let other_text: String =
+                other
+                    .oshi_skills
+                    .iter()
+                    .flat_map(|skill| &skill.ability_text.japanese)
+                    .chain(
+                        other
+                            .keywords
+                            .iter()
+                            .flat_map(|keyword| &keyword.ability_text.japanese),
+                    )
+                    .chain(other.arts.iter().filter_map(|art| {
+                        art.ability_text.as_ref().and_then(|t| t.japanese.as_ref())
+                    }))
+                    .chain(&other.ability_text.japanese)
+                    .cloned()
+                    .collect();
 
             let self_order = holomem_order(&self_text);
             let other_order = holomem_order(&other_text);

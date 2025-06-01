@@ -54,7 +54,11 @@ pub fn download_images(
                 let resp = http_client()
                     .head(format!(
                         "https://hololive-official-cardgame.com/wp-content/images/cardlist/{}",
-                        card.img_path.japanese.replace(".webp", ".png")
+                        card.img_path
+                            .japanese
+                            .as_deref()
+                            .unwrap_or_default()
+                            .replace(".webp", ".png")
                     ))
                     .header(REFERER, "https://decklog.bushiroad.com/")
                     .send()
@@ -89,7 +93,11 @@ pub fn download_images(
                 let resp = http_client()
                     .get(format!(
                         "https://hololive-official-cardgame.com/wp-content/images/cardlist/{}",
-                        card.img_path.japanese.replace(".webp", ".png")
+                        card.img_path
+                            .japanese
+                            .as_deref()
+                            .unwrap_or_default()
+                            .replace(".webp", ".png")
                     ))
                     .header(REFERER, "https://decklog.bushiroad.com/")
                     .send()
@@ -99,7 +107,8 @@ pub fn download_images(
                 let img = image::load_from_memory(&resp.bytes().unwrap()).unwrap();
 
                 if optimized_original_images {
-                    let path = images_jp_path.join(&card.img_path.japanese);
+                    let path =
+                        images_jp_path.join(card.img_path.japanese.as_deref().unwrap_or_default());
                     if let Some(parent) = Path::new(&path).parent() {
                         fs::create_dir_all(parent).unwrap();
                     }
@@ -118,7 +127,13 @@ pub fn download_images(
                     // Encode the image at a specified quality 0-100
                     let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
                     // Define and write the WebP-encoded file to a given path
-                    let path = images_jp_path.join(card.img_path.japanese.replace(".png", ".webp"));
+                    let path = images_jp_path.join(
+                        card.img_path
+                            .japanese
+                            .as_deref()
+                            .unwrap_or_default()
+                            .replace(".png", ".webp"),
+                    );
                     if let Some(parent) = Path::new(&path).parent() {
                         fs::create_dir_all(parent).unwrap();
                     }
@@ -208,7 +223,7 @@ pub fn prepare_en_proxy_images(
                 });
 
                 let Some(path) = map.get(
-                    Path::new(&card.img_path.japanese)
+                    Path::new(&card.img_path.japanese.as_deref().unwrap_or_default())
                         .file_stem()
                         .unwrap_or_default(),
                 ) else {
@@ -224,8 +239,13 @@ pub fn prepare_en_proxy_images(
                 // Encode the image at a specified quality 0-100
                 let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
                 // Define and write the WebP-encoded file to a given path
-                let img_en_proxy =
-                    Path::new(PROXIES_FOLDER).join(card.img_path.japanese.replace(".png", ".webp"));
+                let img_en_proxy = Path::new(PROXIES_FOLDER).join(
+                    card.img_path
+                        .japanese
+                        .as_deref()
+                        .unwrap_or_default()
+                        .replace(".png", ".webp"),
+                );
                 let path = images_en_path.join(&img_en_proxy);
                 if let Some(parent) = Path::new(&path).parent() {
                     fs::create_dir_all(parent).unwrap();
