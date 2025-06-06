@@ -5823,7 +5823,7 @@
     "name": { "jp": "野うさぎ同盟", "en": "Nousagi Alliance" },
     "card_type": { "support": "fan" },
     "text": {
-      "jp": "このファンが付いているホロメンが能力でサイコロを振った時、このファンをアーカイブできる：サイコロを１回振り直す。\n\nこのファンは、自分の〈兎田ぺこら〉だけに付けられ、１人につき何枚でも付けられる。",
+      "jp": "このファンが付いているホロメンが能力でサイコロを振った時、このファンをアーカイブできる：そのサイコロの結果をすべて無くし、はじめからサイコロを振り直す。\n\nこのファンは、自分の〈兎田ぺこら〉だけに付けられ、1人につき何枚でも付けられる。",
       "en": "When you roll dice as part of the abilities or arts of the holomem with this Fan attached, you may archive this Fan for the following effect: Re-roll all dice rolled as part of that ability.\n\nThis Fan may only be attached to your Usada Pekora, and you may attach any number of this Fan to one holomem."
     },
     "max_amount": 4,
