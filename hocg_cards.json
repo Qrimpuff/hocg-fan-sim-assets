@@ -10290,6 +10290,26 @@
         "img_last_modified": "Thu, 12 Dec 2024 00:42:58 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10170",
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP02-084",
+        "manage_id": 959,
+        "rarity": "U",
+        "illustrator": "成田タメゾウ",
+        "img_path": { "jp": "hBP04/hBP02-084_02_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP02-084",
+        "manage_id": 1066,
+        "rarity": "SR",
+        "illustrator": "成田タメゾウ",
+        "img_path": { "jp": "hBP04/hBP02-084_02_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -16440,6 +16460,5174 @@
       }
     ]
   },
+  "hBP04-001": {
+    "card_number": "hBP04-001",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "こより実験中", "en": "Koyori Experiment" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の#こよラボを持つサポートカードが付いている〈博衣こより〉1人のアーツ+30。",
+          "en": "[1/Turn] The arts of one of your holomem named Hakui Koyori which has a card with #KoyoLabo attached gain +30 power until the end of this turn."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "助手くん、んーまっ！", "en": "Assisant-kun, mwah!" },
+        "text": {
+          "jp": "[ゲームに1回]相手のターンで、自分の〈こよりの助手くん〉が付いている〈博衣こより〉が相手からダメージを受ける時に使える：そのホロメン1人が受けるダメージ-100。",
+          "en": "[1/Game] Usable if your holomem named Hakui Koyori with a Koyori's Assistant-kun attached is about to take damage during your opponent's turn: Reduce that damage by 100."
+        }
+      }
+    ],
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBP04-001",
+        "manage_id": 861,
+        "rarity": "OSR",
+        "illustrator": "砂利さや(か)",
+        "img_path": { "jp": "hBP04/hBP04-001_OSR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-001",
+        "manage_id": 971,
+        "rarity": "OUR",
+        "illustrator": "砂利さや(か)",
+        "img_path": { "jp": "hBP04/hBP04-001_OUR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-001",
+        "manage_id": 1078,
+        "rarity": "SEC",
+        "illustrator": "砂利さや(か)",
+        "img_path": { "jp": "hBP04/hBP04-001_SEC.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-002": {
+    "card_number": "hBP04-002",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 6,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "ReGLOSSの風流人", "en": "The elegant one of ReGLOSS" },
+        "text": {
+          "jp": "[ターンに1回]自分のアーカイブのエール1枚を、自分の#ReGLOSSを持つホロメンに送る。",
+          "en": "[1/Turn] Send 1 cheer from your archive to one of your holomem with #ReGLOSS."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "余った時間でぐるぐる", "en": "Spinning around in my spare time" },
+        "text": {
+          "jp": "[ゲームに1回]自分のアーカイブの#きのこを持つイベント1～4枚を手札に戻す。そして手札に戻したカード2枚につき、自分のデッキを1枚引く。",
+          "en": "[1/Game] Return 1-4 Events with #Mushroom from your archive to hand. Then, for each 2 cards returned to your hand, draw 1 card."
+        }
+      }
+    ],
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBP04-002",
+        "manage_id": 862,
+        "rarity": "OSR",
+        "illustrator": "yuki",
+        "img_path": { "jp": "hBP04/hBP04-002_OSR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-002",
+        "manage_id": 972,
+        "rarity": "OUR",
+        "illustrator": "yuki",
+        "img_path": { "jp": "hBP04/hBP04-002_OUR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-003": {
+    "card_number": "hBP04-003",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 3,
+        "name": { "jp": "Reach the top！", "en": "Reach the top!" },
+        "text": {
+          "jp": "[ターンに1回]自分のセンターホロメンが#ReGLOSSを持つ時、相手のコラボホロメンに特殊ダメージ50を与える。",
+          "en": "[1/Turn] If your center holomem has #ReGLOSS, deal 50 special damage to your opponent's collab holomem."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 1,
+        "name": { "jp": "かわいい！ ポジティブ！ ジーニアス！", "en": "Kawaii! Positive! Genius!" },
+        "text": {
+          "jp": "[ゲームに1回]相手のターンで、自分の〈一条莉々華〉がダウンした時に使える：自分のデッキから、[〈一条莉々華〉と〈限界飯〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game] Usable if your holomem named Ichijou Ririka is downed during your opponent's turn: reveal 1 Ichijou Ririka and 1 Struggle Meal from your deck and put them into your hand. Then shuffle your deck."
+        }
+      }
+    ],
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBP04-003",
+        "manage_id": 863,
+        "rarity": "OSR",
+        "illustrator": "ゆぅ",
+        "img_path": { "jp": "hBP04/hBP04-003_OSR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-003",
+        "manage_id": 973,
+        "rarity": "OUR",
+        "illustrator": "ゆぅ",
+        "img_path": { "jp": "hBP04/hBP04-003_OUR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-004": {
+    "card_number": "hBP04-004",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": "愛してる", "en": "Love you" },
+        "text": {
+          "jp": "[ターンに1回]相手のターンで、自分のホロメンがダウンした時に使える：そのホロメンに付いているファン1枚を手札に戻す。",
+          "en": "[1/Turn] Usable if your holomem is downed during your opponent's turn: Return 1 Fan attached to that holomem to hand."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 3,
+        "name": { "jp": "ぶーん、バリバリバリバリ", "en": "Vrooooom! Baribaribaribari" },
+        "text": {
+          "jp": "[ゲームに1回]自分の〈雪花ラミィ〉1人を選ぶ。このターンの間、選んだホロメンが、相手のホロメン1人に与える特殊ダメージ+100し、選んだホロメンが相手のホロメンをダウンさせた時、自分のデッキを2枚引く。",
+          "en": "[1/Game] Choose one of your holomem named Yukihana Lamy. Until the end of this turn, whenever that holomem deals special damage to a single opposing holomem, that damage is increased by +100. When the chosen holomem downs one of your opponent's holomem during this turn, draw 2 cards."
+        }
+      }
+    ],
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBP04-004",
+        "manage_id": 864,
+        "rarity": "OSR",
+        "illustrator": "がり",
+        "img_path": { "jp": "hBP04/hBP04-004_OSR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-004",
+        "manage_id": 974,
+        "rarity": "OUR",
+        "illustrator": "がり",
+        "img_path": { "jp": "hBP04/hBP04-004_OUR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-004",
+        "manage_id": 1079,
+        "rarity": "SEC",
+        "illustrator": "がり",
+        "img_path": { "jp": "hBP04/hBP04-004_SEC.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-005": {
+    "card_number": "hBP04-005",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "総帥のお仕事", "en": "Leader's work" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分のホロメンの能力でサイコロを1度に3回振る時、そのサイコロの目の数すべてを5として扱う。",
+          "en": "[1/Turn] During this turn, whenever you roll a dice 3 times as part of an ability or arts, treat all dice rolls as if the result was 5."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 3,
+        "name": { "jp": "我ら秘密結社holoX！", "en": "We are Secret Society holoX!" },
+        "text": {
+          "jp": "[ゲームに1回]自分の#秘密結社holoXを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、エールを必要とせずに使える。",
+          "en": "[1/Game] The arts of one of your holomem with #SecretSocietyholoX can be used without fulfilling their cheer requirement until the end of this turn."
+        }
+      }
+    ],
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBP04-005",
+        "manage_id": 865,
+        "rarity": "OSR",
+        "illustrator": "茶ちえ",
+        "img_path": { "jp": "hBP04/hBP04-005_OSR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-005",
+        "manage_id": 975,
+        "rarity": "OUR",
+        "illustrator": "茶ちえ",
+        "img_path": { "jp": "hBP04/hBP04-005_OUR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-005",
+        "manage_id": 1080,
+        "rarity": "SEC",
+        "illustrator": "茶ちえ",
+        "img_path": { "jp": "hBP04/hBP04-005_SEC.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-006": {
+    "card_number": "hBP04-006",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "メンタル！ フィジカル！ パッション！", "en": "Mental! Physical! Passion!" },
+        "text": {
+          "jp": "[ターンに1回]相手のターンで、自分の〈大空スバル〉が相手からダメージを受ける時に使える：自分の〈大空スバル〉全員が受けるダメージ-30。",
+          "en": "[1/Turn] Usable if your holomem named Oozora Subaru is about to take damage during your opponent's turn: Reduce the damage taken by all of your holomem named Oozora Subaru from that effect by 30."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "リアクション芸", "en": "Reaction Arts" },
+        "text": {
+          "jp": "[ゲームに1回]自分のライフが3以下の時に使える：このターンの間、自分のセンターホロメンの〈大空スバル〉のアーツ+100。",
+          "en": "[1/Game] Usable if you have 3 or less Life: If your center holomem is Oozora Subaru, that holomem's arts gain +100 power until the end of this turn."
+        }
+      }
+    ],
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBP04-006",
+        "manage_id": 866,
+        "rarity": "OSR",
+        "illustrator": "ふじさわ犬一",
+        "img_path": { "jp": "hBP04/hBP04-006_OSR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-006",
+        "manage_id": 976,
+        "rarity": "OUR",
+        "illustrator": "ふじさわ犬一",
+        "img_path": { "jp": "hBP04/hBP04-006_OUR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-006",
+        "manage_id": 1081,
+        "rarity": "SEC",
+        "illustrator": "ふじさわ犬一",
+        "img_path": { "jp": "hBP04/hBP04-006_SEC.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-007": {
+    "card_number": "hBP04-007",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "神秘の儀式", "en": "Mystical Ritual" },
+        "text": {
+          "jp": "[ターンに1回]自分のデッキから、〈古代武器〉1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。",
+          "en": "[1/Turn] Reveal 1 Ancient Weapon from your deck and attach it to any of your holomem. Then shuffle your deck."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "人生のこと考えていた方が勝てる", "en": "Those who think about life will win" },
+        "text": {
+          "jp": "[ゲームに1回]自分のアーカイブのエールを、自分の〈古代武器〉が付いているホロメン全員に1枚ずつ送る。",
+          "en": "[1/Game] Send 1 cheer from your archive to each of your holomem that have an Ancient Weapon attached."
+        }
+      }
+    ],
+    "max_amount": 1,
+    "illustrations": [
+      {
+        "card_number": "hBP04-007",
+        "manage_id": 867,
+        "rarity": "OSR",
+        "illustrator": "81",
+        "img_path": { "jp": "hBP04/hBP04-007_OSR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-007",
+        "manage_id": 977,
+        "rarity": "OUR",
+        "illustrator": "81",
+        "img_path": { "jp": "hBP04/hBP04-007_OUR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-008": {
+    "card_number": "hBP04-008",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんこよ～", "en": "Konkoyo" }, "power": "30" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-008",
+        "manage_id": 870,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-008_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-009": {
+    "card_number": "hBP04-009",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": {
+          "jp": "終わりなき輪廻に迷いし子らよ",
+          "en": "Oh, you poor souls lost within an eternal cycle"
+        },
+        "power": "20",
+        "text": {
+          "jp": "自分のデッキの上から3枚を見る。その中から、[#秘密結社holoXを持つDebutホロメンか#こよラボを持つサポートカード]1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+          "en": "Look at the top 3 cards of your deck. From among them, you may reveal a Debut holomem with #SecretSocietyholoX or a Support card with #KoyoLabo and put the revealed card into your hand. Then put the remaining cards on the bottom of your deck in any order."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-009",
+        "manage_id": 871,
+        "rarity": "U",
+        "illustrator": "TAiGA",
+        "img_path": { "jp": "hBP04/hBP04-009_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-009",
+        "manage_id": 978,
+        "rarity": "S",
+        "illustrator": "TAiGA",
+        "img_path": { "jp": "hBP04/hBP04-009_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-010": {
+    "card_number": "hBP04-010",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "助手く～ん、なんかお疲れっぽい？", "en": "Assistant-kun, you seem tired?" },
+        "power": "40"
+      },
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": "こよに添い寝される？", "en": "Will you sleep with me?" },
+        "power": "60"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-010",
+        "manage_id": 872,
+        "rarity": "C",
+        "illustrator": "ももこ",
+        "img_path": { "jp": "hBP04/hBP04-010_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-010",
+        "manage_id": 979,
+        "rarity": "S",
+        "illustrator": "ももこ",
+        "img_path": { "jp": "hBP04/hBP04-010_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-011": {
+    "card_number": "hBP04-011",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "助手くんっ見ててね！", "en": "Assistant-kun, watch out!" },
+        "power": "30",
+        "text": {
+          "jp": "自分のアーカイブの〈こよりの助手くん〉1枚を、自分の他の〈博衣こより〉に付けられる。",
+          "en": "You may attach a Koyori's Assistant-kun from your archive to one of your other holomem named Hakui Koyori."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-011",
+        "manage_id": 873,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-011_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-011",
+        "manage_id": 980,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-011_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-012": {
+    "card_number": "hBP04-012",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "はい！ はい！ はい！ はい！", "en": "Hai! Hai! Hai! Hai!" },
+        "text": {
+          "jp": "自分のデッキから、#こよラボを持つサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "Reveal 1 Support card with #KoyoLabo from your deck and put it into your hand. Then shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": {
+          "jp": "助手くんとこよはずっと一緒だよ！",
+          "en": "Assistant-kun and Koyo will always be together!"
+        },
+        "power": "30",
+        "text": {
+          "jp": "このホロメンに〈こよりの助手くん〉が付いている時、自分のデッキを1枚引く。",
+          "en": "If this holomem has a Koyori's Assistant-kun attached, draw 1 card."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-012",
+        "manage_id": 874,
+        "rarity": "R",
+        "illustrator": "北田 藻",
+        "img_path": { "jp": "hBP04/hBP04-012_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-012",
+        "manage_id": 981,
+        "rarity": "SR",
+        "illustrator": "北田 藻",
+        "img_path": { "jp": "hBP04/hBP04-012_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-013": {
+    "card_number": "hBP04-013",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "絶対諦めない！", "en": "Never give up!" },
+        "text": {
+          "jp": "このホロメンが相手のホロメンをダウンさせた時、自分のデッキの上から1枚をホロパワーにする。その後、自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そしてホロパワーをシャッフルする。",
+          "en": "When this holomem downs an opponent's holomem, put the top card of your deck into your holo Power. Then look at your holo Power cards, reveal 1, and put it into your hand. Then shuffle your holo Power."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": "かくせいのこより", "en": "Life of Koyori" },
+        "power": "160",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "jp": "このホロメンに#こよラボを持つサポートカードが付いている時、自分のデッキから、#こよラボを持つサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "If this holomem has a Support card with #KoyoLabo attached, reveal 1 Support card with #KoyoLabo from your deck and put it into your hand. Then shuffle your deck."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-013",
+        "manage_id": 875,
+        "rarity": "RR",
+        "illustrator": "望田とうり",
+        "img_path": { "jp": "hBP04/hBP04-013_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-013",
+        "manage_id": 982,
+        "rarity": "SR",
+        "illustrator": "望田とうり",
+        "img_path": { "jp": "hBP04/hBP04-013_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-013",
+        "manage_id": 983,
+        "rarity": "UR",
+        "illustrator": "望田とうり",
+        "img_path": { "jp": "hBP04/hBP04-013_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-014": {
+    "card_number": "hBP04-014",
+    "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "戻っておいで", "en": "Please come back" },
+        "text": {
+          "jp": "自分のアーカイブの#白上'sキャラクターを持つカード1～2枚を手札に戻せる。",
+          "en": "You may return 1-2 cards with #ShirakamiCharacter from your archive to hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": "私の大切な人", "en": "My special someone" },
+        "power": "100+",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "jp": "自分のステージに〈白上フブキ〉以外の#ゲーマーズを持つホロメンがいる時、このアーツ+50。",
+          "en": "If there are any holomem with #Gamers that are not named Shirakami Fubuki on your stage, this art gains +50 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#1期生", "en": "#Gen1" },
+      { "jp": "#ゲーマーズ", "en": "#Gamers" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-014",
+        "manage_id": 876,
+        "rarity": "R",
+        "illustrator": "藤ちょこ",
+        "img_path": { "jp": "hBP04/hBP04-014_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-014",
+        "manage_id": 984,
+        "rarity": "SR",
+        "illustrator": "藤ちょこ",
+        "img_path": { "jp": "hBP04/hBP04-014_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-015": {
+    "card_number": "hBP04-015",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 230,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": "The Race Queen", "en": "The Race Queen" },
+        "power": "30+",
+        "text": {
+          "jp": "自分のステージの#Promiseを持つホロメン1人につき、このアーツ+10。ただし、数える人数は4人まで。",
+          "en": "For each of your holomem with #Promise, this art gains +10 Power. The maximum number of holomem counted for this effect is 4."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンがダウンした時、自分のライフ-2",
+      "en": "When this holomem is downed, take 2 Life Damage."
+    },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Promise", "en": "#Promise" }, { "jp": "#歌", "en": "#Song" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-015",
+        "manage_id": 877,
+        "rarity": "R",
+        "illustrator": "ぴ助",
+        "img_path": { "jp": "hBP04/hBP04-015_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-015",
+        "manage_id": 985,
+        "rarity": "SR",
+        "illustrator": "ぴ助",
+        "img_path": { "jp": "hBP04/hBP04-015_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-016": {
+    "card_number": "hBP04-016",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "チアオーラ", "en": "Ciaora" },
+        "power": "10",
+        "text": {
+          "jp": "自分のステージのホロメンが5人以下の時、自分のデッキから、#Justiceを持つSpotホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。",
+          "en": "If there are 5 or fewer holomem on your stage, you may reveal 1 Spot holomem with #Justice from your deck and put it onto your stage. Then shuffle your deck."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-016",
+        "manage_id": 878,
+        "rarity": "C",
+        "illustrator": "Nekojira",
+        "img_path": { "jp": "hBP04/hBP04-016_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-017": {
+    "card_number": "hBP04-017",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "正義のピンクパンサー", "en": "Pink panther of Justice" },
+        "power": "40"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-017",
+        "manage_id": 879,
+        "rarity": "C",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hBP04/hBP04-017_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-017",
+        "manage_id": 986,
+        "rarity": "S",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hBP04/hBP04-017_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-018": {
+    "card_number": "hBP04-018",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "神眼の描き手", "en": "The Artist with the God Eyes" },
+        "text": {
+          "jp": "このターンの間、自分のステージの#絵を持つホロメン1人のアーツ+20。",
+          "en": "The arts of one of your holomem with #Art gain +20 power until the end of this turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": "情報収集はお手の物", "en": "Information gathering is a breeze" },
+        "power": "50"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-018",
+        "manage_id": 880,
+        "rarity": "U",
+        "illustrator": "すなれ",
+        "img_path": { "jp": "hBP04/hBP04-018_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:43 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-018",
+        "manage_id": 987,
+        "rarity": "S",
+        "illustrator": "すなれ",
+        "img_path": { "jp": "hBP04/hBP04-018_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-019": {
+    "card_number": "hBP04-019",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "只今、情報収集中", "en": "Currently gathering information." },
+        "text": {
+          "jp": "自分のデッキの上から3枚を見る。その中から、#絵を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+          "en": "Look at the top three cards of your deck. Reveal one that is a holomem with #Art and put it into your hand. Then put the remaining cards on the bottom of your deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": "Art Streamer", "en": "Art Streamer" },
+        "power": "70+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "jp": "[コラボポジション限定]自分のセンターホロメンが#絵を持つ時、このアーツ+80。",
+          "en": "[Collab position only] If your center holomem has #Art, this art gains +80 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-019",
+        "manage_id": 881,
+        "rarity": "R",
+        "illustrator": "玉子鼠",
+        "img_path": { "jp": "hBP04/hBP04-019_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:43 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-019",
+        "manage_id": 988,
+        "rarity": "SR",
+        "illustrator": "玉子鼠",
+        "img_path": { "jp": "hBP04/hBP04-019_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-020": {
+    "card_number": "hBP04-020",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": {
+          "jp": "儒烏風亭一門は前座見習い！",
+          "en": "The Juufuutei Group's curtain raiser and apprentice!"
+        },
+        "power": "20"
+      },
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": "儒烏風亭らでんでございます！", "en": "I am Juufuutei Raden!" },
+        "power": "40"
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-020",
+        "manage_id": 882,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-020_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:43 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-021": {
+    "card_number": "hBP04-021",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "あなたに学びと面白いをお届け", "en": "Bringing you learning and fun" },
+        "text": {
+          "jp": "このターンに自分が#きのこを持つイベントを使っていた時、自分の#ReGLOSSを持つホロメン1人のHP20回復。",
+          "en": "If you have played an Event with #Mushroom this turn, restore 20 HP to one of your holomem with #ReGLOSS."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "らでんスタンバイ", "en": "Raden on standby" },
+        "power": "30"
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-021",
+        "manage_id": 883,
+        "rarity": "U",
+        "illustrator": "hitokoto",
+        "img_path": { "jp": "hBP04/hBP04-021_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-021",
+        "manage_id": 989,
+        "rarity": "S",
+        "illustrator": "hitokoto",
+        "img_path": { "jp": "hBP04/hBP04-021_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-022": {
+    "card_number": "hBP04-022",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "green" ], "name": { "jp": "博識ツッコミ", "en": "Knowledgeable Tsukkomi" }, "power": "30" },
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": "まぁそんなとこですな", "en": "Well, that's about it" },
+        "power": "50"
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-022",
+        "manage_id": 884,
+        "rarity": "C",
+        "illustrator": "詰め木",
+        "img_path": { "jp": "hBP04/hBP04-022_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-022",
+        "manage_id": 990,
+        "rarity": "S",
+        "illustrator": "詰め木",
+        "img_path": { "jp": "hBP04/hBP04-022_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-023": {
+    "card_number": "hBP04-023",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "ReGLOSSの賑やかし", "en": "ReGLOSS's hype squad and jokester" },
+        "text": {
+          "jp": "相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他の#ReGLOSSを持つホロメンに付け替えられる。",
+          "en": "If this holomem is downed during your opponent's turn, you may move 1 cheer from this holomem to one of your other holomem with #ReGLOSS."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "ネタ枠担当", "en": "Chief of story time" }, "power": "40" }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-023",
+        "manage_id": 885,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-023_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-023",
+        "manage_id": 991,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-023_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-024": {
+    "card_number": "hBP04-024",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "冷静沈着", "en": "Calm and collected" },
+        "text": {
+          "jp": "[センターポジション限定]相手のメインステップの間、このホロメンのHPは相手の能力で減らず、変動しない。",
+          "en": "[Center position only] During your opponent's Main Step, this holomem's HP cannot be changed or reduced by your opponent's abilities or effects."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green" ],
+        "name": { "jp": "喝采反芻", "en": "Cheers Rumination" },
+        "power": "30",
+        "text": {
+          "jp": "自分のアーカイブのエール1枚をこのホロメンに送れる。",
+          "en": "You may send 1 cheer from your archive to this holomem."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-024",
+        "manage_id": 886,
+        "rarity": "R",
+        "illustrator": "カオミン",
+        "img_path": { "jp": "hBP04/hBP04-024_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-024",
+        "manage_id": 992,
+        "rarity": "SR",
+        "illustrator": "カオミン",
+        "img_path": { "jp": "hBP04/hBP04-024_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-025": {
+    "card_number": "hBP04-025",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "伝統と革新", "en": "Tradition and innovation" },
+        "text": {
+          "jp": "自分のデッキから、#きのこを持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "Reveal 1 Event card with #Mushroom from your deck and put it into your hand. Then shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "green", "colorless", "colorless" ],
+        "name": { "jp": "御後がよろしいようで", "en": "And now for the next act" },
+        "power": "140+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "jp": "自分の推しホロメンが〈儒烏風亭らでん〉の時、このホロメンのエール2枚を、自分のバックホロメン2人に1枚ずつ付け替えられる：このアーツ+30。",
+          "en": "If your oshi holomem is Juufuutei Raden, you may choose 2 of your back holomem and move 1 cheer from this holomem to each of them. If you do, this art gains +30 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-025",
+        "manage_id": 887,
+        "rarity": "RR",
+        "illustrator": "RR,SR：Fajyobore\nUR：yuki",
+        "img_path": { "jp": "hBP04/hBP04-025_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-025",
+        "manage_id": 993,
+        "rarity": "SR",
+        "illustrator": "RR,SR：Fajyobore\nUR：yuki",
+        "img_path": { "jp": "hBP04/hBP04-025_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-025",
+        "manage_id": 994,
+        "rarity": "UR",
+        "illustrator": "RR,SR：Fajyobore\nUR：yuki",
+        "img_path": { "jp": "hBP04/hBP04-025_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-026": {
+    "card_number": "hBP04-026",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "フブキは特別な存在", "en": "Fubuki is a special someone" },
+        "text": {
+          "jp": "自分の推しホロメンが〈白上フブキ〉の時、自分のエールデッキから、白エール1枚を公開し、自分の〈白上フブキ〉に送る。そしてエールデッキをシャッフルする。",
+          "en": "If your Oshi holomem is Shirakami Fubuki, reveal 1 white cheer from your cheer deck and send it to one of your holomem named Shirakami Fubuki. Then shuffle your cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": "うちってフブキのものだったの？", "en": "Did our house belong to Fubuki?" },
+        "power": "100+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "jp": "自分のステージに〈大神ミオ〉以外の#ゲーマーズを持つホロメンがいる時、このアーツ+50。",
+          "en": "If there are any holomem with #Gamers that are not named Ookami Mio on your stage, this art gains +50 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#ゲーマーズ", "en": "#Gamers" },
+      { "jp": "#ケモミミ", "en": "#AnimalEars" },
+      { "jp": "#料理", "en": "#Cooking" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-026",
+        "manage_id": 888,
+        "rarity": "R",
+        "illustrator": "藤ちょこ",
+        "img_path": { "jp": "hBP04/hBP04-026_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-026",
+        "manage_id": 995,
+        "rarity": "SR",
+        "illustrator": "藤ちょこ",
+        "img_path": { "jp": "hBP04/hBP04-026_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-027": {
+    "card_number": "hBP04-027",
+    "name": { "jp": "パヴォリア・レイネ", "en": "Pavolia Reine" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "HOLORO", "en": "HOLORO" },
+        "text": {
+          "jp": "自分のエールデッキの上から1枚を、自分の〈クレイジー・オリー〉か〈アーニャ・メルフィッサ〉に送る。",
+          "en": "Send the top card of your Cheer deck to one of your holomem named Kureiji Ollie or Anya Melfissa."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "green" ], "name": { "jp": "Terima Kasih", "en": "Terima Kasih" }, "power": "30" } ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#トリ", "en": "#Bird" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-027",
+        "manage_id": 889,
+        "rarity": "R",
+        "illustrator": "きな",
+        "img_path": { "jp": "hBP04/hBP04-027_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-027",
+        "manage_id": 996,
+        "rarity": "SR",
+        "illustrator": "きな",
+        "img_path": { "jp": "hBP04/hBP04-027_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-028": {
+    "card_number": "hBP04-028",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "正義の調べ", "en": "The Melody of Justice" }, "power": "30" }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-028",
+        "manage_id": 890,
+        "rarity": "C",
+        "illustrator": "DSマイル",
+        "img_path": { "jp": "hBP04/hBP04-028_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-029": {
+    "card_number": "hBP04-029",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": "『古代自動人形』", "en": "Ancient Automaton" },
+        "power": "60"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-029",
+        "manage_id": 891,
+        "rarity": "C",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hBP04/hBP04-029_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-029",
+        "manage_id": 997,
+        "rarity": "S",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hBP04/hBP04-029_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-030": {
+    "card_number": "hBP04-030",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "こんな旋律思いついたの", "en": "I came up with a new melody" },
+        "text": {
+          "jp": "自分のステージのエール1～2枚を選び、自分のホロメンに割り振って付け替えられる。",
+          "en": "You may choose any 1-2 cheers on your stage, and move them between your holomem in any way you like."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": "聞いてくれる？", "en": "Would you like to listen?" },
+        "power": "50"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-030",
+        "manage_id": 892,
+        "rarity": "U",
+        "illustrator": "しちがつ",
+        "img_path": { "jp": "hBP04/hBP04-030_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-030",
+        "manage_id": 998,
+        "rarity": "S",
+        "illustrator": "しちがつ",
+        "img_path": { "jp": "hBP04/hBP04-030_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-031": {
+    "card_number": "hBP04-031",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "海を越えたお茶会", "en": "Tea across the sea" },
+        "text": {
+          "jp": "相手のステージに[#JPか#ID]を持つホロメンがいる間、このホロメンのアーツ+30。",
+          "en": "If there are any holomem on your opponent's stage with #JP or #ID, this holomem's arts gain +30 power."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": "マルチリンガル", "en": "Multilingual" },
+        "power": "80",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "jp": "自分の#語学を持つバックホロメン1人を選ぶ。自分のエールデッキから、選んだホロメンと同色のエール1枚を公開し、選んだホロメンに送る。そしてエールデッキをシャッフルする。",
+          "en": "Reveal 1 cheer from your cheer deck of the same color as one of your back holomem with #Languages, and send it to that holomem. Then shuffle your cheer deck."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-031",
+        "manage_id": 893,
+        "rarity": "R",
+        "illustrator": "moguta",
+        "img_path": { "jp": "hBP04/hBP04-031_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-031",
+        "manage_id": 999,
+        "rarity": "SR",
+        "illustrator": "moguta",
+        "img_path": { "jp": "hBP04/hBP04-031_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-032": {
+    "card_number": "hBP04-032",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんりり", "en": "Kon-riri" }, "power": "30" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#料理", "en": "#Cooking" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-032",
+        "manage_id": 894,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-032_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-033": {
+    "card_number": "hBP04-033",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "arts": [
+      { "cheers": [ "red" ], "name": { "jp": "莉々華スタンバイ", "en": "Ririka on standby" }, "power": "20" },
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": "リミットオーバー", "en": "Limit Over" },
+        "power": "30",
+        "text": {
+          "jp": "このターンに自分が〈限界飯〉を使っていた時、相手のコラボホロメンに特殊ダメージ20を与える。",
+          "en": "If you have played a Struggle Meal during this turn, deal 20 special damage to your opponent's collab holomem."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#料理", "en": "#Cooking" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-033",
+        "manage_id": 895,
+        "rarity": "U",
+        "illustrator": "hitokoto",
+        "img_path": { "jp": "hBP04/hBP04-033_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-033",
+        "manage_id": 1000,
+        "rarity": "S",
+        "illustrator": "hitokoto",
+        "img_path": { "jp": "hBP04/hBP04-033_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-034": {
+    "card_number": "hBP04-034",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "red" ], "name": { "jp": "Let's Dance", "en": "Let's Dance" }, "power": "40" },
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": "Subscribe or Die!", "en": "Subscribe or Die!" },
+        "power": "60"
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#料理", "en": "#Cooking" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-034",
+        "manage_id": 896,
+        "rarity": "C",
+        "illustrator": "詰め木",
+        "img_path": { "jp": "hBP04/hBP04-034_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-034",
+        "manage_id": 1001,
+        "rarity": "S",
+        "illustrator": "詰め木",
+        "img_path": { "jp": "hBP04/hBP04-034_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-035": {
+    "card_number": "hBP04-035",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "限界飯料理人", "en": "Struggle Meal Chef" },
+        "text": {
+          "jp": "自分のアーカイブの〈限界飯〉1枚を手札に戻せる。",
+          "en": "You may return 1 Struggle Meal from your archive to hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": "社長パンチ", "en": "Presidential Punch" },
+        "power": "50",
+        "text": {
+          "jp": "相手のコラボホロメンに特殊ダメージ20を与える。",
+          "en": "Deal 20 special damage to your opponent's collab holomem."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#料理", "en": "#Cooking" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-035",
+        "manage_id": 897,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-035_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-035",
+        "manage_id": 1002,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-035_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-036": {
+    "card_number": "hBP04-036",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "おいしいもの独り占め", "en": "Delicious food all to myself" },
+        "text": {
+          "jp": "相手のコラボホロメンに特殊ダメージ20を与える。",
+          "en": "Deal 20 special damage to your opponent's collab holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "いひひっ", "en": "eheheh" },
+        "power": "30",
+        "text": {
+          "jp": "このアーツの対象が相手のコラボホロメンの時、自分のデッキを1枚引く。",
+          "en": "If this art is targeting your opponent's collab holomem, draw 1 card."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#料理", "en": "#Cooking" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-036",
+        "manage_id": 898,
+        "rarity": "R",
+        "illustrator": "千種みのり",
+        "img_path": { "jp": "hBP04/hBP04-036_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-036",
+        "manage_id": 1003,
+        "rarity": "SR",
+        "illustrator": "千種みのり",
+        "img_path": { "jp": "hBP04/hBP04-036_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-037": {
+    "card_number": "hBP04-037",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "KPG", "en": "KPG" },
+        "text": {
+          "jp": "サイコロを1回振れる：4以上の時、相手のコラボホロメンがいないなら、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。",
+          "en": "You may roll a dice: If the result is 4 or more, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not treated as collabing)."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": "お？　喧嘩する？", "en": "Oh? You want a fight?" },
+        "power": "80",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "jp": "相手のセンターホロメンに特殊ダメージ50を与える。その後、このターンに自分が〈限界飯〉を使っていた時、相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。",
+          "en": "Deal 50 special damage to your opponent's center holomem. Then, if you have played a Struggle Meal during this turn, deal 30 special damage to your opponent's center or collab holomem."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#DEV_IS", "en": "#DEV_IS" },
+      { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
+      { "jp": "#料理", "en": "#Cooking" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-037",
+        "manage_id": 899,
+        "rarity": "RR",
+        "illustrator": "RR,SR：Fajyobore\nUR：江田藤",
+        "img_path": { "jp": "hBP04/hBP04-037_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-037",
+        "manage_id": 1004,
+        "rarity": "SR",
+        "illustrator": "RR,SR：Fajyobore\nUR：江田藤",
+        "img_path": { "jp": "hBP04/hBP04-037_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-037",
+        "manage_id": 1005,
+        "rarity": "UR",
+        "illustrator": "RR,SR：Fajyobore\nUR：江田藤",
+        "img_path": { "jp": "hBP04/hBP04-037_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-038": {
+    "card_number": "hBP04-038",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": {
+          "jp": "どこ見ちゃってるのかな～！！♥♡",
+          "en": "I wonder if they saw that!!❤️❤️"
+        },
+        "text": {
+          "jp": "相手のセンターホロメンとコラボホロメンに特殊ダメージ10を与える。",
+          "en": "Deal 10 damage to your opponent's center and collab holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": "えっち♥♥", "en": "Risqué❤️❤️" },
+        "power": "50+",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "jp": "このホロメンに重なっているホロメン1枚につき、このアーツ+20。",
+          "en": "For each holomem stacked under this one, this art gains +20 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#3期生", "en": "#Gen3" },
+      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#海", "en": "#Sea" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-038",
+        "manage_id": 900,
+        "rarity": "R",
+        "illustrator": "　あかさあい",
+        "img_path": { "jp": "hBP04/hBP04-038_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-038",
+        "manage_id": 1006,
+        "rarity": "SR",
+        "illustrator": "　あかさあい",
+        "img_path": { "jp": "hBP04/hBP04-038_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-039": {
+    "card_number": "hBP04-039",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "おはエラ", "en": "Ohaela" }, "power": "20" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-039",
+        "manage_id": 901,
+        "rarity": "C",
+        "illustrator": "81",
+        "img_path": { "jp": "hBP04/hBP04-039_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-040": {
+    "card_number": "hBP04-040",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "When Life is Hard", "en": "When Life is Hard" }, "power": "30" },
+      { "cheers": [ "red", "colorless" ], "name": { "jp": "DAHLAH", "en": "DAHLAH" }, "power": "50" }
+    ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-040",
+        "manage_id": 902,
+        "rarity": "C",
+        "illustrator": "ああもんど",
+        "img_path": { "jp": "hBP04/hBP04-040_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-040",
+        "manage_id": 1007,
+        "rarity": "S",
+        "illustrator": "ああもんど",
+        "img_path": { "jp": "hBP04/hBP04-040_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-041": {
+    "card_number": "hBP04-041",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "JDON my soul", "en": "JDON my soul" },
+        "text": {
+          "jp": "自分のアーカイブのツール1枚を手札に戻せる。",
+          "en": "You may return 1 Tool from your archive to hand."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "サイレント笑い", "en": "Silent laughter" }, "power": "20" }
+    ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-041",
+        "manage_id": 903,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-041_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-041",
+        "manage_id": 1008,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-041_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-042": {
+    "card_number": "hBP04-042",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": "holoh3ro", "en": "holoh3ro" },
+        "power": "30",
+        "text": {
+          "jp": "自分のステージにこのホロメン以外の#ID3期生を持つホロメンがいる時、自分のデッキを1枚引く。",
+          "en": "If there are any holomem with #IDGen3 on your stage other than this holomem, draw 1 card."
+        }
+      },
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": "お墨付きの一品", "en": "Seal of approval" },
+        "power": "90",
+        "text": {
+          "jp": "自分の#カエラ'sアームズを持つツールが付いているホロメンがいる時、相手のコラボホロメンに特殊ダメージ30を与える。",
+          "en": "If any of your holomem have a Tool with #Kaela'sArms attached, deal 30 special damage to your opponent's collab holomem."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンがダウンした時、自分のライフ-2",
+      "en": "When this holomem is downed, take 2 Life Damage."
+    },
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen3" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-042",
+        "manage_id": 904,
+        "rarity": "RR",
+        "illustrator": "びび",
+        "img_path": { "jp": "hBP04/hBP04-042_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-042",
+        "manage_id": 1009,
+        "rarity": "SR",
+        "illustrator": "びび",
+        "img_path": { "jp": "hBP04/hBP04-042_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-042",
+        "manage_id": 1010,
+        "rarity": "UR",
+        "illustrator": "びび",
+        "img_path": { "jp": "hBP04/hBP04-042_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-043": {
+    "card_number": "hBP04-043",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "こんらみ～", "en": "Kon-Lamy" },
+        "power": "20",
+        "text": {
+          "jp": "相手のホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。",
+          "en": "Deal 10 damage any of your opponent's holomem. holomem downed with this effect do not reduce Life."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#ハーフエルフ", "en": "#HalfElf" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-043",
+        "manage_id": 905,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-043_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-044": {
+    "card_number": "hBP04-044",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 80,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "Snow flower", "en": "Snow flower" },
+        "text": {
+          "jp": "自分の〈雪民〉が付いている〈雪花ラミィ〉がいない時、自分のデッキから、〈雪民〉1枚を公開し、自分の〈雪花ラミィ〉に付ける。そしてデッキをシャッフルする。",
+          "en": "If there are no Yukimin attached to any Yukihana Lamy on your stage, reveal 1 Yukimin from your deck and attach it to any of your Yukihana Lamy. Then shuffle your deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "うぅ…", "en": "uu..." }, "power": "30" } ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#ハーフエルフ", "en": "#HalfElf" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-044",
+        "manage_id": 906,
+        "rarity": "U",
+        "illustrator": "リン☆ユウ",
+        "img_path": { "jp": "hBP04/hBP04-044_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-044",
+        "manage_id": 1011,
+        "rarity": "S",
+        "illustrator": "リン☆ユウ",
+        "img_path": { "jp": "hBP04/hBP04-044_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-045": {
+    "card_number": "hBP04-045",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "blue" ], "name": { "jp": "おつらみ", "en": "Otsu-Lamy" }, "power": "30" },
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": "ボスが攻略できな～い", "en": "I can't beat the boss!" },
+        "power": "50"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#ハーフエルフ", "en": "#HalfElf" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-045",
+        "manage_id": 907,
+        "rarity": "C",
+        "illustrator": "リン☆ユウ",
+        "img_path": { "jp": "hBP04/hBP04-045_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-045",
+        "manage_id": 1012,
+        "rarity": "S",
+        "illustrator": "リン☆ユウ",
+        "img_path": { "jp": "hBP04/hBP04-045_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-046": {
+    "card_number": "hBP04-046",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "いっぱい頑張るよ！", "en": "I'll do my best!" },
+        "power": "30",
+        "text": {
+          "jp": "自分のファンが付いているホロメンがいる時、相手のホロメン1人に特殊ダメージ10を与える。",
+          "en": "If there are any holomem on your stage with a Fan attached, deal 10 special damage to any of your opponent's holomem."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#ハーフエルフ", "en": "#HalfElf" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-046",
+        "manage_id": 908,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-046_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-046",
+        "manage_id": 1013,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-046_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-047": {
+    "card_number": "hBP04-047",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 120,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "fleur", "en": "fleur" },
+        "text": {
+          "jp": "自分の〈雪民〉が付いている〈雪花ラミィ〉がいる時、相手のホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。",
+          "en": "If there is a Yukihana Lamy on your stage with a Yukimin attached, deal 20 special damage to any of your opponent's holomem. holomem downed with this effect do not reduce Life."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": "雪が煌く花束", "en": "Sparkling Snow Bouquet" },
+        "power": "50"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#ハーフエルフ", "en": "#HalfElf" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-047",
+        "manage_id": 909,
+        "rarity": "R",
+        "illustrator": "藤ちょこ",
+        "img_path": { "jp": "hBP04/hBP04-047_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-047",
+        "manage_id": 1014,
+        "rarity": "SR",
+        "illustrator": "藤ちょこ",
+        "img_path": { "jp": "hBP04/hBP04-047_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-048": {
+    "card_number": "hBP04-048",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "ユニーリアの令嬢", "en": "Daughter of Unylia" },
+        "text": {
+          "jp": "自分のエールデッキの上から1枚を、自分の〈雪民〉が付いている〈雪花ラミィ〉に送る。",
+          "en": "Send the top card of your cheer deck to one of your Yukihana Lamy with a Yukimin attached."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless", "colorless" ],
+        "name": { "jp": "今日も祝福がありますように", "en": "May you be blessed today too" },
+        "power": "130",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "jp": "このホロメンのエール1枚をアーカイブできる：相手のセンターホロメンかバックホロメン1人に特殊ダメージ30を与える。",
+          "en": "You may archive 1 cheer from this holomem for the following effect: deal 30 special damage to your opponent's center holomem or one of their back holomem."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#ハーフエルフ", "en": "#HalfElf" },
+      { "jp": "#お酒", "en": "#Alcohol" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-048",
+        "manage_id": 910,
+        "rarity": "RR",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-048_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-048",
+        "manage_id": 1015,
+        "rarity": "SR",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-048_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-048",
+        "manage_id": 1016,
+        "rarity": "UR",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-048_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-049": {
+    "card_number": "hBP04-049",
+    "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "月と星のステージ", "en": "Moon and star stage" },
+        "power": "50",
+        "advantage": [ "white", 50 ]
+      },
+      {
+        "cheers": [ "blue", "colorless", "colorless" ],
+        "name": { "jp": "Shining Moon", "en": "Shining Moon" },
+        "power": "80+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "jp": "相手のバックホロメン1人に特殊ダメージ20を与える。その後、自分のステージにこのホロメンと異なる色のホロメンがいる時、このアーツ+50。",
+          "en": "Deal 20 special damage to one of your opponent's back holomem. Then, if you have any holomem with a color that is not this holomem's color, this art gains +50 power."
+        }
+      }
+    ],
+    "text": {
+      "jp": null,
+      "en": "NOTE: This has been clarified in the Q&A and this text has been updated to reflect the actual effect of this card. I was wrong before, my apologies."
+    },
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#IDGen1" }, { "jp": "#歌", "en": "#Song" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-049",
+        "manage_id": 911,
+        "rarity": "R",
+        "illustrator": "により",
+        "img_path": { "jp": "hBP04/hBP04-049_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-049",
+        "manage_id": 1017,
+        "rarity": "SR",
+        "illustrator": "により",
+        "img_path": { "jp": "hBP04/hBP04-049_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-050": {
+    "card_number": "hBP04-050",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "しおり～ん！", "en": "Shiori~n!" }, "power": "30" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-050",
+        "manage_id": 912,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-050_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-051": {
+    "card_number": "hBP04-051",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "blue" ],
+        "name": {
+          "jp": "それって素敵な物語だと思わない？",
+          "en": "Don't you think that's a wonderful story?"
+        },
+        "power": "30"
+      },
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": "尽きない知識欲", "en": "Endless thirst for knowledge" },
+        "power": "50"
+      }
+    ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-051",
+        "manage_id": 913,
+        "rarity": "C",
+        "illustrator": "marumoru",
+        "img_path": { "jp": "hBP04/hBP04-051_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-051",
+        "manage_id": 1018,
+        "rarity": "S",
+        "illustrator": "marumoru",
+        "img_path": { "jp": "hBP04/hBP04-051_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-052": {
+    "card_number": "hBP04-052",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 120,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "脱獄計画", "en": "Prison break plan" },
+        "text": {
+          "jp": "相手のバックホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。",
+          "en": "Deal 20 special damage to one of your opponent's back holomem. holomem downed with this effect do not reduce Life."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "魅力的な物語", "en": "Fascinating Story" }, "power": "20" }
+    ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-052",
+        "manage_id": 914,
+        "rarity": "U",
+        "illustrator": "久坂んむり",
+        "img_path": { "jp": "hBP04/hBP04-052_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-052",
+        "manage_id": 1019,
+        "rarity": "S",
+        "illustrator": "久坂んむり",
+        "img_path": { "jp": "hBP04/hBP04-052_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-053": {
+    "card_number": "hBP04-053",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 230,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "禁断の知識", "en": "Forbidden Knowledge" },
+        "text": {
+          "jp": "自分のエールデッキの上から1枚を、自分の#ENを持つホロメンに送る。",
+          "en": "Send the top card of your cheer deck to one of your holomem with #EN."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless", "colorless" ],
+        "name": { "jp": "思い出の栞", "en": "Memory Bookmark" },
+        "power": "70",
+        "text": {
+          "jp": "自分のホロパワーの上から1枚を公開できる：公開したカードが#ENを持つホロメンの時、相手のホロメン1人に特殊ダメージ20を与える。そして公開したカードを裏向きにしてホロパワーの下に戻す。",
+          "en": "You may reveal the top card of your holo Power. If the revealed card is a holomem with #EN, deal 20 special damage to any of your opponent's holomem. Then put the revealed card face down at the bottom of your holo Power."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンがダウンした時、自分のライフ-2",
+      "en": "When this holomem is downed, take 2 Life Damage."
+    },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-053",
+        "manage_id": 915,
+        "rarity": "RR",
+        "illustrator": "∀ir",
+        "img_path": { "jp": "hBP04/hBP04-053_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-053",
+        "manage_id": 1020,
+        "rarity": "SR",
+        "illustrator": "∀ir",
+        "img_path": { "jp": "hBP04/hBP04-053_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-053",
+        "manage_id": 1021,
+        "rarity": "UR",
+        "illustrator": "∀ir",
+        "img_path": { "jp": "hBP04/hBP04-053_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-054": {
+    "card_number": "hBP04-054",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "貴様ら、刮目せよ！！", "en": "Heed my call!" },
+        "power": "30"
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-054",
+        "manage_id": 916,
+        "rarity": "C",
+        "illustrator": "ノーマル：（記載なし）\n パラレル：ラプラス・ダークネス",
+        "img_path": { "jp": "hBP04/hBP04-054_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-054",
+        "manage_id": 1022,
+        "rarity": "S",
+        "illustrator": "ノーマル：（記載なし）\n パラレル：ラプラス・ダークネス",
+        "img_path": { "jp": "hBP04/hBP04-054_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-055": {
+    "card_number": "hBP04-055",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "そこに跪け！", "en": "Kneel before me!" },
+        "text": {
+          "jp": "サイコロを1回振れる：3以上の時、相手のバックホロメン1人をお休みさせる。",
+          "en": "You may roll a dice. If the result is 3 or more, rest one of your opponent's back holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": "我ら、エデンの星を統べる者！", "en": "We are the ones who rule planet Eden!" },
+        "power": "30+",
+        "text": {
+          "jp": "相手のお休みしているホロメン1人につき、このアーツ+10。",
+          "en": "This art gains +10 power for each of your opponent's holomem who are resting."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-055",
+        "manage_id": 917,
+        "rarity": "U",
+        "illustrator": "TAiGA",
+        "img_path": { "jp": "hBP04/hBP04-055_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-055",
+        "manage_id": 1023,
+        "rarity": "S",
+        "illustrator": "TAiGA",
+        "img_path": { "jp": "hBP04/hBP04-055_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-056": {
+    "card_number": "hBP04-056",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": "いちごだいすき！", "en": "I love strawberries!" },
+        "power": "40"
+      },
+      {
+        "cheers": [ "purple", "purple" ],
+        "name": { "jp": "ぷらすめいと諸君いつもありがとう", "en": "Thank you as always, Plusmates" },
+        "power": "70"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-056",
+        "manage_id": 918,
+        "rarity": "C",
+        "illustrator": "三嶋くろね",
+        "img_path": { "jp": "hBP04/hBP04-056_C_02.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-056",
+        "manage_id": 1024,
+        "rarity": "S",
+        "illustrator": "三嶋くろね",
+        "img_path": { "jp": "hBP04/hBP04-056_S_02.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-057": {
+    "card_number": "hBP04-057",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "holoX集合", "en": "holoX Meeting" },
+        "text": {
+          "jp": "サイコロを1回振れる：奇数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚を手札に戻す。偶数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚をデッキの上に戻す。",
+          "en": "You may roll a dice. If the result is odd, return one holomem with #SecretSocietyholoX from your archive to hand. If the result is even, return one holomem with #SecretSocietyholoX from your archive to the top of your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": {
+          "jp": "最高のステージ魅せてやるからな！！",
+          "en": "I'll show you the best performance!!"
+        },
+        "power": "40"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-057",
+        "manage_id": 919,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-057_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-057",
+        "manage_id": 1025,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-057_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-058": {
+    "card_number": "hBP04-058",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "貴様の運命試してみるか？", "en": "Would you like to test your fate?" },
+        "text": {
+          "jp": "サイコロを3回振れる：相手のセンターホロメンに、奇数が出た回数1回につき、特殊ダメージ10を与える。",
+          "en": "You may roll a dice 3 times. Your opponent's center holomem takes 10 special damage for each odd result."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": "吾輩に勝つつもりか？", "en": "You think you can defeat me?" },
+        "power": "30"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-058",
+        "manage_id": 920,
+        "rarity": "R",
+        "illustrator": "儀式",
+        "img_path": { "jp": "hBP04/hBP04-058_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-058",
+        "manage_id": 1026,
+        "rarity": "SR",
+        "illustrator": "儀式",
+        "img_path": { "jp": "hBP04/hBP04-058_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-059": {
+    "card_number": "hBP04-059",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "Yes My Dark！", "en": "Yes My Dark!" },
+        "text": {
+          "jp": "自分の手札1枚をアーカイブすることで、サイコロを3回振れる：奇数が出た回数1回につき、自分のデッキを1枚引く。自分のブルームエフェクト「Yes My Dark！」はターンに1回しか使えない。",
+          "en": "You may archive a card from your hand to roll a dice 3 times. Draw 1 card for each odd result. You may only use the Bloom Effect \"Yes My Dark!\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless", "colorless" ],
+        "name": { "jp": "吾輩最強伝説", "en": "The strongest legend" },
+        "power": "120",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "jp": "相手のセンターホロメンに、このターンに自分が能力でサイコロを振った回数1回につき、特殊ダメージ10を与える。",
+          "en": "Deal 10 special damage to your opponent's center holomem for each time you rolled a dice as part of your effects during this turn."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#秘密結社holoX", "en": "#SecretSocietyholoX" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-059",
+        "manage_id": 921,
+        "rarity": "RR",
+        "illustrator": "絢芽",
+        "img_path": { "jp": "hBP04/hBP04-059_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-059",
+        "manage_id": 1027,
+        "rarity": "SR",
+        "illustrator": "絢芽",
+        "img_path": { "jp": "hBP04/hBP04-059_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-059",
+        "manage_id": 1028,
+        "rarity": "UR",
+        "illustrator": "絢芽",
+        "img_path": { "jp": "hBP04/hBP04-059_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-060": {
+    "card_number": "hBP04-060",
+    "name": { "jp": "紫咲シオン", "en": "Murasaki Shion" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "エールリバース", "en": "Cheer Reverse" },
+        "text": {
+          "jp": "相手のアーカイブのエール1枚を、相手のセンターホロメンに送れる。",
+          "en": "You may send 1 cheer from your opponent's archive to their center holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": "ゲーム配信中", "en": "Streaming games today" },
+        "power": "40",
+        "text": {
+          "jp": "相手のセンターホロメンとコラボホロメンに、相手のセンターホロメンのエール1枚につき、特殊ダメージ10を与える。",
+          "en": "For each cheer attached to your opponent's center holomem, deal 10 special damage to your opponent's center and collab holomem."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンがダウンした時、自分のライフ-2",
+      "en": "When this holomem is downed, take 2 Life Damage."
+    },
+    "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-060",
+        "manage_id": 922,
+        "rarity": "R",
+        "illustrator": "Ameもち",
+        "img_path": { "jp": "hBP04/hBP04-060_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-060",
+        "manage_id": 1029,
+        "rarity": "SR",
+        "illustrator": "Ameもち",
+        "img_path": { "jp": "hBP04/hBP04-060_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-061": {
+    "card_number": "hBP04-061",
+    "name": { "jp": "クレイジー・オリー", "en": "Kureiji Ollie" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "オリーを見てください！", "en": "Look at Ollie!" },
+        "text": {
+          "jp": "自分のSP推しスキル「蘇るオリー」でBloomした時、自分の〈クレイジー・オリー〉1人のHPすべて回復。",
+          "en": "If you bloomed this holomem using your SP Oshi Skill \"Ollie resurrection\", restore all of the HP of one of your holomem named Kureiji Ollie."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": "HOLOROの魂", "en": "Soul of HOLORO" },
+        "power": "80+",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "jp": "自分のステージのこのホロメン以外の#ID2期生を持つ2ndホロメン1人につき、このアーツ+20。",
+          "en": "For each of your 2nd Bloom holomem with #IDGen2 other than this holomem, this art gains +20 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-061",
+        "manage_id": 923,
+        "rarity": "R",
+        "illustrator": "S.M.S",
+        "img_path": { "jp": "hBP04/hBP04-061_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-061",
+        "manage_id": 1030,
+        "rarity": "SR",
+        "illustrator": "S.M.S",
+        "img_path": { "jp": "hBP04/hBP04-061_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-062": {
+    "card_number": "hBP04-062",
+    "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "永遠の休息", "en": "Eternal Rest" },
+        "text": {
+          "jp": "[センターポジション・コラボポジション限定]このホロメンに〈森カリオペの鎌〉か〈Death-sensei〉が付いている間、自分の#Mythを持つセンターホロメンのアーツ+30。",
+          "en": "[Center or collab position only] If this holomem has a Mori Calliope's Scythe or Death-sensei attached, the arts of your center holomem with #Myth gain +30 power."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": "最期の一杯", "en": "Last drink" },
+        "power": "50",
+        "text": {
+          "jp": "自分のデッキの上から2枚を見る。その中から、1枚をアーカイブする。そして残ったカードをデッキの上に戻す。",
+          "en": "Look at the top 2 cards of your deck. Archive one of them and return the other to the top of your deck."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンがダウンした時、自分のライフ-2",
+      "en": "When this holomem is downed, take 2 Life Damage."
+    },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Song" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-062",
+        "manage_id": 924,
+        "rarity": "R",
+        "illustrator": "久保田 正輝",
+        "img_path": { "jp": "hBP04/hBP04-062_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-062",
+        "manage_id": 1031,
+        "rarity": "SR",
+        "illustrator": "久保田 正輝",
+        "img_path": { "jp": "hBP04/hBP04-062_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-063": {
+    "card_number": "hBP04-063",
+    "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "キラキラ コセキ！", "en": "Kira kira Koseki!" },
+        "text": {
+          "jp": "相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。",
+          "en": "If this holomem is downed during your opponent's turn, draw 1 card."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "ボンビジュー！", "en": "Bon Bijou!" }, "power": "20" }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-063",
+        "manage_id": 925,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-063_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-064": {
+    "card_number": "hBP04-064",
+    "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "煌く宝石", "en": "Sparkling Gem" }, "power": "30" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-064",
+        "manage_id": 926,
+        "rarity": "C",
+        "illustrator": "北田 藻",
+        "img_path": { "jp": "hBP04/hBP04-064_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-064",
+        "manage_id": 1032,
+        "rarity": "S",
+        "illustrator": "北田 藻",
+        "img_path": { "jp": "hBP04/hBP04-064_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-065": {
+    "card_number": "hBP04-065",
+    "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "絶世の輝き", "en": "Unparalleled Brilliance" },
+        "text": {
+          "jp": "自分のホロメンの赤エール1枚をアーカイブできる：自分のデッキを2枚引く。",
+          "en": "You may archive a red cheer from any of your holomem for the following effect: draw 2 cards."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": "鉱石と採掘者", "en": "Ore and miner" },
+        "power": "30+",
+        "text": {
+          "jp": "自分のアーカイブに赤エールがある時、このアーツ+20。",
+          "en": "If there are any red cheers in your archive, this art gains +20 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-065",
+        "manage_id": 927,
+        "rarity": "U",
+        "illustrator": "久坂んむり",
+        "img_path": { "jp": "hBP04/hBP04-065_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-065",
+        "manage_id": 1033,
+        "rarity": "S",
+        "illustrator": "久坂んむり",
+        "img_path": { "jp": "hBP04/hBP04-065_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-066": {
+    "card_number": "hBP04-066",
+    "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "『感情結晶体』", "en": "Jewel of Emotion" },
+        "text": {
+          "jp": "自分の手札を数えて、自分の手札すべてをアーカイブできる：アーカイブしたカード1枚につき、自分のデッキを1枚引く。自分のブルームエフェクト「『感情結晶体』」はターンに1回しか使えない。",
+          "en": "You may archive all cards in your hand for the following effect: draw as many cards as you archived. You may only use the Bloom Effect \"Jewel of Emotion\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": "この輝きが、伝わればいいな", "en": "I hope you'll feel my radiance!" },
+        "power": "80+",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "jp": "相手のアーカイブのエール1枚につき、このアーツ+10。",
+          "en": "For each cheer in your opponent's archive, this art gains +10 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-066",
+        "manage_id": 928,
+        "rarity": "RR",
+        "illustrator": "蓮深ふみ",
+        "img_path": { "jp": "hBP04/hBP04-066_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-066",
+        "manage_id": 1034,
+        "rarity": "SR",
+        "illustrator": "蓮深ふみ",
+        "img_path": { "jp": "hBP04/hBP04-066_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-066",
+        "manage_id": 1035,
+        "rarity": "UR",
+        "illustrator": "蓮深ふみ",
+        "img_path": { "jp": "hBP04/hBP04-066_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-067": {
+    "card_number": "hBP04-067",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": "あじまる！ あじまる！", "en": "Ajimaru! Ajimaru!" },
+        "power": "20"
+      },
+      {
+        "cheers": [ "yellow", "colorless", "colorless" ],
+        "name": {
+          "jp": "ちわーす！ ホロライブ2期生 大空スバルっス!!",
+          "en": "Sup! I'm Oozora Subaru from hololive 2nd Generation!"
+        },
+        "power": "60"
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" }, { "jp": "#トリ", "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-067",
+        "manage_id": 929,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-067_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-068": {
+    "card_number": "hBP04-068",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "大空スバル盛り合わせセット", "en": "Oozora Subaru Assorted Set" },
+        "text": {
+          "jp": "[センターポジション・コラボポジション限定]このホロメンが相手の1stホロメンから受けるダメージ-20。",
+          "en": "[Center or collab position only] This holomem takes -20 damage from your opponent's 1st Bloom holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "スバルからきみへ！", "en": "From Subaru to you!" },
+        "power": "20"
+      }
+    ],
+    "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" }, { "jp": "#トリ", "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-068",
+        "manage_id": 930,
+        "rarity": "U",
+        "illustrator": "しぐれうい",
+        "img_path": { "jp": "hBP04/hBP04-068_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-068",
+        "manage_id": 1036,
+        "rarity": "S",
+        "illustrator": "しぐれうい",
+        "img_path": { "jp": "hBP04/hBP04-068_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-069": {
+    "card_number": "hBP04-069",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "yellow" ], "name": { "jp": "おはようスバル", "en": "Good morning Subaru" }, "power": "30" },
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": "眠いんデスケド", "en": "I'm sleepy tho" },
+        "power": "50"
+      }
+    ],
+    "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" }, { "jp": "#トリ", "en": "#Bird" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-069",
+        "manage_id": 931,
+        "rarity": "C",
+        "illustrator": "しぐれうい",
+        "img_path": { "jp": "hBP04/hBP04-069_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-069",
+        "manage_id": 1037,
+        "rarity": "S",
+        "illustrator": "しぐれうい",
+        "img_path": { "jp": "hBP04/hBP04-069_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-070": {
+    "card_number": "hBP04-070",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "全力で頑張るから", "en": "I'll do my best" },
+        "text": {
+          "jp": "自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+10。ただし、数える枚数は3枚まで。",
+          "en": "Choose one of your holomem. Until the end of this turn, that holomem's arts gain +10 power for each cheer attached to it. The maximum number of cheers counted for this effect is 3."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "いっぱい応援して、楽しんでね！", "en": "Please support us and have fun!" },
+        "power": "20"
+      }
+    ],
+    "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" }, { "jp": "#トリ", "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-070",
+        "manage_id": 932,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-070_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-070",
+        "manage_id": 1038,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-070_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-071": {
+    "card_number": "hBP04-071",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": "しゅばっ！", "en": "Shuba!" },
+        "power": "20",
+        "text": {
+          "jp": "自分のエールデッキの上から1枚を、このホロメンに送る。",
+          "en": "Send the top card of your cheer deck to this holomem."
+        }
+      },
+      {
+        "cheers": [ "yellow", "colorless", "colorless" ],
+        "name": { "jp": "最強で楽しい毎日", "en": "The best and most fun day" },
+        "power": "90"
+      }
+    ],
+    "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen2" }, { "jp": "#トリ", "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-071",
+        "manage_id": 933,
+        "rarity": "R",
+        "illustrator": "しぐれうい",
+        "img_path": { "jp": "hBP04/hBP04-071_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-071",
+        "manage_id": 1039,
+        "rarity": "SR",
+        "illustrator": "しぐれうい",
+        "img_path": { "jp": "hBP04/hBP04-071_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-072": {
+    "card_number": "hBP04-072",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "サンライトステージ", "en": "Sunlight Stage" },
+        "text": {
+          "jp": "自分のアーカイブの黄エール1枚を自分のホロメンに送れる。",
+          "en": "You may send 1 yellow cheer from your archive to any of your holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow", "colorless" ],
+        "name": { "jp": "太陽少女", "en": "Sun Girl" },
+        "power": "100+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "jp": "お互いのステージのエール1枚につき、このアーツ+10。ただし、数える枚数は8枚まで。",
+          "en": "For each cheer in play between both players, this art gains +10 power. The maximum number of cheers counted for this effect is 8."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#2期生", "en": "#Gen2" },
+      { "jp": "#歌", "en": "#Song" },
+      { "jp": "#トリ", "en": "#Bird" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-072",
+        "manage_id": 934,
+        "rarity": "RR",
+        "illustrator": "那桜",
+        "img_path": { "jp": "hBP04/hBP04-072_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-072",
+        "manage_id": 1040,
+        "rarity": "SR",
+        "illustrator": "那桜",
+        "img_path": { "jp": "hBP04/hBP04-072_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-072",
+        "manage_id": 1041,
+        "rarity": "UR",
+        "illustrator": "那桜",
+        "img_path": { "jp": "hBP04/hBP04-072_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-073": {
+    "card_number": "hBP04-073",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "おはよー！", "en": "Ohayo!" }, "power": "30" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-073",
+        "manage_id": 935,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-073_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-074": {
+    "card_number": "hBP04-074",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "A Day at the Café", "en": "A Day at the Café" },
+        "text": {
+          "jp": "[センターポジション限定]このホロメンと自分のコラボホロメンが受けるダメージ-10。",
+          "en": "[Center position only] Whenever this holomem or your collab holomem take damage, they take -10 damage."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": "隣座りますか？", "en": "Do you want to sit next to me?" },
+        "power": "20"
+      }
+    ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-074",
+        "manage_id": 936,
+        "rarity": "U",
+        "illustrator": "野崎つばた",
+        "img_path": { "jp": "hBP04/hBP04-074_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-074",
+        "manage_id": 1042,
+        "rarity": "S",
+        "illustrator": "野崎つばた",
+        "img_path": { "jp": "hBP04/hBP04-074_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-075": {
+    "card_number": "hBP04-075",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "yellow" ], "name": { "jp": "悪魔の招待", "en": "Devil's invitation" }, "power": "30" },
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": "悪魔の囁き", "en": "Devil's whisper" },
+        "power": "50"
+      }
+    ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-075",
+        "manage_id": 937,
+        "rarity": "C",
+        "illustrator": "Lowro",
+        "img_path": { "jp": "hBP04/hBP04-075_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-075",
+        "manage_id": 1043,
+        "rarity": "S",
+        "illustrator": "Lowro",
+        "img_path": { "jp": "hBP04/hBP04-075_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-076": {
+    "card_number": "hBP04-076",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": "私から皆さんへの歌", "en": "A song from me to everyone" },
+        "text": {
+          "jp": "自分のアーカイブの〈古代武器〉1枚を自分の〈アーニャ・メルフィッサ〉に付けられる。",
+          "en": "You may attach 1 Ancient Weapon from your archive to one of your holomem named Anya Melfissa."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "応援、よろしくね！", "en": "Thank you for your support!" },
+        "power": "30"
+      }
+    ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-076",
+        "manage_id": 938,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-076_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-076",
+        "manage_id": 1044,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-076_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-077": {
+    "card_number": "hBP04-077",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "ガラス越しの庭園", "en": "Garden behind the glass" },
+        "text": {
+          "jp": "相手のターンで、このホロメンがダウンした時、このホロメンを含め重なっているホロメンの中から1枚を手札に戻す。",
+          "en": "If this holomem is downed during your opponent's turn, return one of this holomem's stacked holomem to hand (you may choose the top holomem)."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "yellow", "colorless" ], "name": { "jp": "黄色い薔薇", "en": "Yellow Rose" }, "power": "50" }
+    ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-077",
+        "manage_id": 939,
+        "rarity": "R",
+        "illustrator": "おゆゆ",
+        "img_path": { "jp": "hBP04/hBP04-077_R.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-077",
+        "manage_id": 1045,
+        "rarity": "SR",
+        "illustrator": "おゆゆ",
+        "img_path": { "jp": "hBP04/hBP04-077_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-078": {
+    "card_number": "hBP04-078",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "宝物みつけた", "en": "I found a treasure" },
+        "text": {
+          "jp": "[センターポジション・コラボポジション限定]自分の〈古代武器〉が付いているセンターホロメンの〈アーニャ・メルフィッサ〉のアーツに必要な黄-1。",
+          "en": "[Center or collab position only] If your center holomem is named Anya Melfissa and has an Ancient Weapon attached, the cheer cost of their arts is reduced by 1 yellow cheer."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow", "colorless", "colorless" ],
+        "name": { "jp": "ダンジョンアドベンチャー", "en": "Dungeon adventure" },
+        "power": "160",
+        "advantage": [ "red", 50 ]
+      }
+    ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID2期生", "en": "#IDGen2" },
+      { "jp": "#語学", "en": "#Languages" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-078",
+        "manage_id": 940,
+        "rarity": "RR",
+        "illustrator": "gaha",
+        "img_path": { "jp": "hBP04/hBP04-078_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-078",
+        "manage_id": 1046,
+        "rarity": "SR",
+        "illustrator": "gaha",
+        "img_path": { "jp": "hBP04/hBP04-078_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-078",
+        "manage_id": 1047,
+        "rarity": "UR",
+        "illustrator": "gaha",
+        "img_path": { "jp": "hBP04/hBP04-078_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-079": {
+    "card_number": "hBP04-079",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "わっしょ～い！", "en": "Wasshoi!" },
+        "text": {
+          "jp": "相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他のホロメンに付け替えられる。",
+          "en": "If this holomem is downed during your opponent's turn, you may move 1 cheer from this holomem to one of your other holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "ホロライブの清楚担当", "en": "Hololive's seiso representative" },
+        "power": "10"
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#1期生", "en": "#Gen1" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-079",
+        "manage_id": 941,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-079_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-080": {
+    "card_number": "hBP04-080",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "夏色応援団", "en": "Natsuiro Cheer Squad" }, "power": "30" },
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": "戦え！ 血を血で洗え！", "en": "Fight! Wash away blood with blood!" },
+        "power": "50"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#1期生", "en": "#Gen1" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-080",
+        "manage_id": 942,
+        "rarity": "C",
+        "illustrator": "沢城あやほ",
+        "img_path": { "jp": "hBP04/hBP04-080_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-080",
+        "manage_id": 1048,
+        "rarity": "S",
+        "illustrator": "沢城あやほ",
+        "img_path": { "jp": "hBP04/hBP04-080_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-081": {
+    "card_number": "hBP04-081",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 120,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "大好きな君に届くように", "en": "So that I can reach you who I love" },
+        "text": {
+          "jp": "自分のエールデッキから、黄エール1枚を公開し、このホロメンに送る。そしてエールデッキをシャッフルする。",
+          "en": "Reveal 1 yellow cheer from your cheer deck and send it to this holomem. Then shuffle your cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": "全力で歌うよッ！！", "en": "I'll sing with all my might!!" },
+        "power": "20"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#1期生", "en": "#Gen1" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-081",
+        "manage_id": 943,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-081_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-081",
+        "manage_id": 1049,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-081_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-082": {
+    "card_number": "hBP04-082",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "レッツ ショッピング", "en": "Let's go shopping!" },
+        "text": {
+          "jp": "自分のステージの異なるカード名の#1期生を持つホロメン1人につき、サイコロを1回振れる：4以上が出た回数1回につき、自分のエールデッキの上から1枚をこのホロメンに送る。",
+          "en": "You may roll a dice once for each of your differently-named holomem with #Gen1. For each time the result is 4 or higher, send the top card of your cheer deck to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": "お気に入りみつけた", "en": "I found my favorite" },
+        "power": "60+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "jp": "このホロメンのエール1枚につき、このアーツ+20。",
+          "en": "For each cheer attached to this holomem, this art gains +20 power."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#1期生", "en": "#Gen1" },
+      { "jp": "#シューター", "en": "#Shooter" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-082",
+        "manage_id": 944,
+        "rarity": "RR",
+        "illustrator": "ふくよかなクマ",
+        "img_path": { "jp": "hBP04/hBP04-082_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-082",
+        "manage_id": 1050,
+        "rarity": "SR",
+        "illustrator": "ふくよかなクマ",
+        "img_path": { "jp": "hBP04/hBP04-082_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-082",
+        "manage_id": 1051,
+        "rarity": "UR",
+        "illustrator": "ふくよかなクマ",
+        "img_path": { "jp": "hBP04/hBP04-082_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-083": {
+    "card_number": "hBP04-083",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "こんねね～", "en": "Kon-Nene" },
+        "power": "10",
+        "text": {
+          "jp": "自分のステージのホロメンが5人以下の時、自分のデッキから、#5期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。",
+          "en": "If there are 5 or fewer holomem on your stage, you may reveal 1 Debut holomem with #Gen5 from your deck and put it onto your stage. Then shuffle your deck."
+        }
+      }
+    ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may put any number of copies of this holomem in your deck."
+    },
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#歌", "en": "#Song" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 50,
+    "illustrations": [
+      {
+        "card_number": "hBP04-083",
+        "manage_id": 945,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-083_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-084": {
+    "card_number": "hBP04-084",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "はぁ～ん", "en": "haaan~" }, "power": "30" },
+      { "cheers": [ "yellow", "colorless" ], "name": { "jp": "またねね", "en": "Mata-Nene" }, "power": "50" }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#歌", "en": "#Song" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-084",
+        "manage_id": 946,
+        "rarity": "C",
+        "illustrator": "西沢5㍉",
+        "img_path": { "jp": "hBP04/hBP04-084_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-084",
+        "manage_id": 1052,
+        "rarity": "S",
+        "illustrator": "西沢5㍉",
+        "img_path": { "jp": "hBP04/hBP04-084_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-085": {
+    "card_number": "hBP04-085",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": "最高の気分!!!!!!!!!!!!!!", "en": "Feeling great!!!!!!!!!!!!!!" },
+        "text": {
+          "jp": "自分のエールデッキから、自分のステージの#5期生を持つホロメン1人と同色のエール1枚を公開し、自分の#5期生を持つホロメンに送る。そしてエールデッキをシャッフルする。",
+          "en": "Reveal 1 cheer from your cheer deck of the same color as one of your holomem with #Gen5, and send that cheer to any of your holomem with #Gen5. Then shuffle your cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "いっぱいがんばるぞい!!!!!", "en": "I'll do my best!!!!!" },
+        "power": "20"
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#歌", "en": "#Song" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-085",
+        "manage_id": 947,
+        "rarity": "U",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-085_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-085",
+        "manage_id": 1053,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-085_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-086": {
+    "card_number": "hBP04-086",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "ハズバンドいっぱい", "en": "Everyone is husband" },
+        "power": "50",
+        "advantage": [ "white", 50 ]
+      },
+      {
+        "cheers": [ "blue", "yellow" ],
+        "name": { "jp": "ギラギラパワー", "en": "Gira Gira Power" },
+        "power": "50+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "jp": "自分のアーカイブのエール1枚につき、このアーツ+20。ただし、数える枚数は5枚まで。",
+          "en": "For each cheer in your archive, this art gains +20 power. The maximum number of cheers counted for this effect is 5."
+        }
+      }
+    ],
+    "tags": [
+      { "jp": "#JP", "en": "#JP" },
+      { "jp": "#5期生", "en": "#Gen5" },
+      { "jp": "#歌", "en": "#Song" },
+      { "jp": "#絵", "en": "#Art" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-086",
+        "manage_id": 948,
+        "rarity": "RR",
+        "illustrator": "むっちりしいたけ",
+        "img_path": { "jp": "hBP04/hBP04-086_RR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-086",
+        "manage_id": 1054,
+        "rarity": "SR",
+        "illustrator": "むっちりしいたけ",
+        "img_path": { "jp": "hBP04/hBP04-086_SR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-086",
+        "manage_id": 1055,
+        "rarity": "UR",
+        "illustrator": "むっちりしいたけ",
+        "img_path": { "jp": "hBP04/hBP04-086_UR.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-087": {
+    "card_number": "hBP04-087",
+    "name": {
+      "jp": "エリザベス・ローズ・ブラッドフレイム",
+      "en": "エリザベス・ローズ\nブラッドフレイム\n(Elizabeth Rose Bloodflame)"
+    },
+    "card_type": "holomem",
+    "colors": [ "colorless" ],
+    "hp": 140,
+    "bloom_level": "spot",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "『緋色の女王』", "en": "The Scarlet Queen" },
+        "text": {
+          "jp": "[コラボポジション限定]自分のDebutホロメンがセンターポジションで受けるダメージ-20。",
+          "en": "[Collab position only] Whenever your Debut holomem takes damage while in the center position, it takes -20 damage."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless", "colorless" ], "name": { "jp": "ERB", "en": "ERB" }, "power": "20" } ],
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" }, { "jp": "#歌", "en": "#Song" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-087",
+        "manage_id": 949,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-087_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-087",
+        "manage_id": 1056,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-087_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-088": {
+    "card_number": "hBP04-088",
+    "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
+    "card_type": "holomem",
+    "colors": [ "colorless" ],
+    "hp": 130,
+    "bloom_level": "spot",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": "え？ でも面白かったじゃん！", "en": "Eh? But it was fun!" },
+        "text": {
+          "jp": "相手のターンで、このホロメンがダウンした時、自分のエールデッキの上から1枚を自分のホロメンに送る。",
+          "en": "If this holomem is downed during your opponent's turn, send the top card of your cheer deck to any of your holomem."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "怒らないでよ！", "en": "Stop fighting!" }, "power": "10" }
+    ],
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-088",
+        "manage_id": 950,
+        "rarity": "C",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-088_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-088",
+        "manage_id": 1057,
+        "rarity": "S",
+        "illustrator": "",
+        "img_path": { "jp": "hBP04/hBP04-088_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-089": {
+    "card_number": "hBP04-089",
+    "name": { "jp": "ツートンカラーパソコン", "en": "Two-tone PC" },
+    "card_type": { "support": "item" },
+    "limited": true,
+    "text": {
+      "jp": "このカードは、自分のステージに色が1色で異なる色のホロメンが2人以上いなければ使えない。\n\n自分のステージの色が1色で異なる色のホロメン2人を選ぶ。自分のデッキから、Buzz以外のそれぞれ選んだホロメンと同色の1stホロメン1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
+      "en": "This card can only be played if you have at least 2 holomem with different single colors on your stage.\n\nChoose two of your single colored holomem with different colors. Reveal one 1st Bloom holomem from your deck (excluding Buzz holomem) of each of those colors, and put them into your hand. Then shuffle your deck."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-089",
+        "manage_id": 952,
+        "rarity": "U",
+        "illustrator": "住咲ゆづな",
+        "img_path": { "jp": "hBP04/hBP04-089_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-089",
+        "manage_id": 1059,
+        "rarity": "S",
+        "illustrator": "住咲ゆづな",
+        "img_path": { "jp": "hBP04/hBP04-089_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-090": {
+    "card_number": "hBP04-090",
+    "name": { "jp": "作業用パソコン", "en": "Work PC" },
+    "card_type": { "support": "item" },
+    "limited": true,
+    "text": {
+      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、ホロメン1枚と[ツールかマスコットかファン]1枚を公開し、公開したカードを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top four cards of your deck. Reveal up to one holomem and up to one Tool, Mascot, or Fan from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-090",
+        "manage_id": 953,
+        "rarity": "U",
+        "illustrator": "六九導イツキ",
+        "img_path": { "jp": "hBP04/hBP04-090_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-090",
+        "manage_id": 1060,
+        "rarity": "S",
+        "illustrator": "六九導イツキ",
+        "img_path": { "jp": "hBP04/hBP04-090_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-091": {
+    "card_number": "hBP04-091",
+    "name": { "jp": "限界飯", "en": "Struggle Meal" },
+    "card_type": { "support": "event" },
+    "text": {
+      "jp": "このターンの間、自分の〈一条莉々華〉1人のアーツに必要な◇-1。自分の〈限界飯〉はターンに1回しか使えない。",
+      "en": "During this turn, one of your holomem named Ichijou Ririka has the cheer cost of their arts reduced by 1 colourless cheer. You may only use the card \"Struggle Meal\" once per turn."
+    },
+    "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-091",
+        "manage_id": 954,
+        "rarity": "U",
+        "illustrator": "紅緒",
+        "img_path": { "jp": "hBP04/hBP04-091_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-091",
+        "manage_id": 1061,
+        "rarity": "S",
+        "illustrator": "紅緒",
+        "img_path": { "jp": "hBP04/hBP04-091_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-092": {
+    "card_number": "hBP04-092",
+    "name": { "jp": "ねぽらぼ", "en": "NePoLaBo" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#5期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top four cards of your deck. Reveal any number of them that are holomem with #Gen5 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-092",
+        "manage_id": 955,
+        "rarity": "U",
+        "illustrator": "あやせりん",
+        "img_path": { "jp": "hBP04/hBP04-092_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-092",
+        "manage_id": 1062,
+        "rarity": "S",
+        "illustrator": "あやせりん",
+        "img_path": { "jp": "hBP04/hBP04-092_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-093": {
+    "card_number": "hBP04-093",
+    "name": { "jp": "ホロライブ2期生", "en": "hololive 2nd Generation" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#2期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top four cards of your deck. Reveal any number of them that are holomem with #Gen2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-093",
+        "manage_id": 956,
+        "rarity": "U",
+        "illustrator": "成海七海",
+        "img_path": { "jp": "hBP04/hBP04-093_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-093",
+        "manage_id": 1063,
+        "rarity": "S",
+        "illustrator": "成海七海",
+        "img_path": { "jp": "hBP04/hBP04-093_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-094": {
+    "card_number": "hBP04-094",
+    "name": { "jp": "まいたけダンス", "en": "Maitake Dance" },
+    "card_type": { "support": "event" },
+    "text": {
+      "jp": "自分の〈儒烏風亭らでん〉1人を選ぶ。自分のステージのエール1～2枚を、選んだホロメンに付け替えられる。その後、選んだホロメンにエールが3枚以上付いている時、このターンの間、選んだホロメンのアーツ+10。",
+      "en": "Choose one of your holomem named Juufuutei Raden. You may move any 1-2 cheers on your stage to the chosen holomem. Then, if that holomem has at least 3 cheers attached, their arts gain +10 power until the end of this turn."
+    },
+    "tags": [ { "jp": "#きのこ", "en": "#Mushroom" } ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-094",
+        "manage_id": 957,
+        "rarity": "U",
+        "illustrator": "ばかくん三世",
+        "img_path": { "jp": "hBP04/hBP04-094_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-094",
+        "manage_id": 1064,
+        "rarity": "S",
+        "illustrator": "ばかくん三世",
+        "img_path": { "jp": "hBP04/hBP04-094_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-095": {
+    "card_number": "hBP04-095",
+    "name": { "jp": "マスコットキャッチャー", "en": "Mascot Catcher" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "jp": "自分のデッキから、マスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+      "en": "Reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-095",
+        "manage_id": 958,
+        "rarity": "U",
+        "illustrator": "さかなへん",
+        "img_path": { "jp": "hBP04/hBP04-095_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-095",
+        "manage_id": 1065,
+        "rarity": "S",
+        "illustrator": "さかなへん",
+        "img_path": { "jp": "hBP04/hBP04-095_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-096": {
+    "card_number": "hBP04-096",
+    "name": { "jp": "Advent", "en": "Advent" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#Adventを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top four cards of your deck. Reveal any number of them that are holomem with #Advent and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-096",
+        "manage_id": 960,
+        "rarity": "U",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hBP04/hBP04-096_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-096",
+        "manage_id": 1067,
+        "rarity": "S",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hBP04/hBP04-096_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-097": {
+    "card_number": "hBP04-097",
+    "name": { "jp": "緑の試験管", "en": "Green Test Tube" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆1st以上の〈博衣こより〉に付いていたら能力追加\n自分のメインステップで、このツールが付いているホロメンのエール1枚をアーカイブできる：自分のお休みしている#秘密結社holoXを持つホロメン1人をアクティブにする。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "The arts of the holomem with this Tool attached gain +10 power.\n\nIf this is attached to a 1st Bloom or later Hakui Koyori, it gains the following effect: During your Main Step, you may archive 1 Cheer from the holomem with this Tool attached to unrest one of your resting holomem with #SecretSocietyholoX.\n\nYou may only attach 1 Tool to a holomem."
+    },
+    "tags": [ { "jp": "#こよラボ", "en": "#KoyoLabo" } ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-097",
+        "manage_id": 961,
+        "rarity": "U",
+        "illustrator": "古弥月",
+        "img_path": { "jp": "hBP04/hBP04-097_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-097",
+        "manage_id": 1068,
+        "rarity": "S",
+        "illustrator": "古弥月",
+        "img_path": { "jp": "hBP04/hBP04-097_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-098": {
+    "card_number": "hBP04-098",
+    "name": { "jp": "鍛冶ハンマー", "en": "Blacksmith's Hammer" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆#ID3期生を持つ1st以上のホロメンに付いていたら能力追加\nこのツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "The arts of the holomem with this Tool attached gain +10 power.\n\nIf this is attached to a 1st Bloom or later holomem with #ID3, it gains the following effect: The arts of the holomem with this Tool attached gain another +10 power.\n\nYou may only attach 1 Tool to a holomem."
+    },
+    "tags": [ { "jp": "#カエラ'sアームズ", "en": "#Kaela'sArms" } ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-098",
+        "manage_id": 962,
+        "rarity": "U",
+        "illustrator": "わにたろー。",
+        "img_path": { "jp": "hBP04/hBP04-098_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-098",
+        "manage_id": 1069,
+        "rarity": "S",
+        "illustrator": "わにたろー。",
+        "img_path": { "jp": "hBP04/hBP04-098_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-099": {
+    "card_number": "hBP04-099",
+    "name": { "jp": "古代武器", "en": "Ancient Weapon" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "jp": "相手のターンで、このツールが付いているホロメンがダウンした時、自分の手札1枚をアーカイブできる：このツールを手札に戻す。\n\n◆1st以上の〈アーニャ・メルフィッサ〉に付いていたら能力追加\n自分のステージの〈古代武器〉1枚につき、このツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "If the holomem with this Tool attached is downed during your opponent's turn, you may archive 1 card from your hand for the following effect: Put this card into your hand.\n\nIf this is attached to a 1st Bloom or higher Anya Melfissa, it gains the following effect: For each Ancient Weapon attached to holomems on your stage, the arts of the holomem with this Tool attached gain +10 power.\n\nYou may only attach 1 Tool to a holomem."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-099",
+        "manage_id": 963,
+        "rarity": "U",
+        "illustrator": "BISAI",
+        "img_path": { "jp": "hBP04/hBP04-099_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-099",
+        "manage_id": 1070,
+        "rarity": "S",
+        "illustrator": "BISAI",
+        "img_path": { "jp": "hBP04/hBP04-099_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-100": {
+    "card_number": "hBP04-100",
+    "name": { "jp": "ココロ", "en": "Kokoro" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈博衣こより〉に付いていたら能力追加\nこのマスコットが付いているホロメンがコラボした時、このターンの間、このホロメンのアーツ+10。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to a 1st Bloom or higher Hakui Koyori, it gains the following effect: When the holomem with this Mascot attached collabs, their Arts gain +10 power until the end of this turn.\n\nYou may only attach 1 Mascot to a holomem."
+    },
+    "tags": [ { "jp": "#こよラボ", "en": "#KoyoLabo" } ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-100",
+        "manage_id": 964,
+        "rarity": "C",
+        "illustrator": "はずき",
+        "img_path": { "jp": "hBP04/hBP04-100_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-100",
+        "manage_id": 1071,
+        "rarity": "S",
+        "illustrator": "はずき",
+        "img_path": { "jp": "hBP04/hBP04-100_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-101": {
+    "card_number": "hBP04-101",
+    "name": { "jp": "だいふく", "en": "Daifuku" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈雪花ラミィ〉に付いていたら能力追加\nこのマスコットが付いているホロメンのHP+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Yukihana Lamy, it gains the following effect: The holomem with this Mascot attached has +20 HP.\n\nYou may only attach 1 Mascot to a holomem."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-101",
+        "manage_id": 965,
+        "rarity": "C",
+        "illustrator": "JinArt いじゅういん",
+        "img_path": { "jp": "hBP04/hBP04-101_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-101",
+        "manage_id": 1072,
+        "rarity": "S",
+        "illustrator": "JinArt いじゅういん",
+        "img_path": { "jp": "hBP04/hBP04-101_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-102": {
+    "card_number": "hBP04-102",
+    "name": { "jp": "やめなー", "en": "Yamena" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆#5期生を持つ1st以上のホロメンに付いていたら能力追加\n[バックポジション限定]このマスコットが付いているホロメンは相手からダメージを受けない。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to a 1st Bloom or higher holomem with #Gen5, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage from your opponent.\n\nYou may only attach 1 Mascot to a holomem."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-102",
+        "manage_id": 966,
+        "rarity": "C",
+        "illustrator": "JinArt すぎもと",
+        "img_path": { "jp": "hBP04/hBP04-102_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-102",
+        "manage_id": 1073,
+        "rarity": "S",
+        "illustrator": "JinArt すぎもと",
+        "img_path": { "jp": "hBP04/hBP04-102_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-103": {
+    "card_number": "hBP04-103",
+    "name": { "jp": "カラス", "en": "Crow" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈ラプラス・ダークネス〉に付いていたら能力追加\n[コラボポジション限定][ターンに1回]自分のメインステップで、サイコロを1回振れる：奇数の時、このマスコットが付いているホロメンをバックポジションに移動する。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to La+ Darknesss, it gains the following effect: [Collab position only] [Once per turn] During your main step, you may roll a dice. If the result is odd, move the holomem with this Mascot attached to the back position.\n\nYou may only attach 1 Mascot to a holomem."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-103",
+        "manage_id": 967,
+        "rarity": "C",
+        "illustrator": "はずき",
+        "img_path": { "jp": "hBP04/hBP04-103_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-103",
+        "manage_id": 1074,
+        "rarity": "S",
+        "illustrator": "はずき",
+        "img_path": { "jp": "hBP04/hBP04-103_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-104": {
+    "card_number": "hBP04-104",
+    "name": { "jp": "スバルドダック", "en": "Subarudo Duck" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈大空スバル〉に付いていたら能力追加\nお互いのステージのエールが合計10枚以上ある間、このマスコットが付いているホロメンのアーツ+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Oozora Subaru, it gains the following effect: If there is a total of 10 or more cheers in play between both players, the arts of holomem with this Mascot attached gain +20 power.\n\nYou may only attach 1 Mascot to a holomem."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-104",
+        "manage_id": 968,
+        "rarity": "C",
+        "illustrator": "JinArt かばくら",
+        "img_path": { "jp": "hBP04/hBP04-104_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-104",
+        "manage_id": 1075,
+        "rarity": "S",
+        "illustrator": "JinArt かばくら",
+        "img_path": { "jp": "hBP04/hBP04-104_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-105": {
+    "card_number": "hBP04-105",
+    "name": { "jp": "こよりの助手くん", "en": "Koyori's Assistant-kun" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "jp": "このファンをホロメンに手札かアーカイブから付けた時、自分のステージのエール1枚を、このファンが付いているホロメンに付け替えられる。\n\nこのファンは、自分の〈博衣こより〉だけに付けられ、1人につき何枚でも付けられる。",
+      "en": "When you attach this Fan to one of your holomem from hand or from archive, you may move 1 cheer on your stage to the holomem this Fan was attached to.\n\nThis Fan may only be attached to your Hakui Koyori, and you may attach any number of this Fan to one holomem."
+    },
+    "tags": [ { "jp": "#こよラボ", "en": "#KoyoLabo" } ],
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-105",
+        "manage_id": 969,
+        "rarity": "U",
+        "illustrator": "はずき",
+        "img_path": { "jp": "hBP04/hBP04-105_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-105",
+        "manage_id": 1076,
+        "rarity": "S",
+        "illustrator": "はずき",
+        "img_path": { "jp": "hBP04/hBP04-105_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP04-106": {
+    "card_number": "hBP04-106",
+    "name": { "jp": "雪民", "en": "Yukimin" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "jp": "このファンが付いているホロメンが、相手のセンターホロメンに与える特殊ダメージ+10。\n\nこのファンは、自分の〈雪花ラミィ〉だけに付けられ、1人につき何枚でも付けられる。",
+      "en": "Special damage done by the holomem with this Fan attached to your opponent's center holomem is increased by +10.\n\nThis Fan may only be attached to your Yukihana Lamy, and you may attach any number of this Fan to one holomem."
+    },
+    "max_amount": 4,
+    "illustrations": [
+      {
+        "card_number": "hBP04-106",
+        "manage_id": 970,
+        "rarity": "U",
+        "illustrator": "JinArt こばやかわやまと",
+        "img_path": { "jp": "hBP04/hBP04-106_U.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-106",
+        "manage_id": 1077,
+        "rarity": "S",
+        "illustrator": "JinArt こばやかわやまと",
+        "img_path": { "jp": "hBP04/hBP04-106_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hPR-001": {
     "card_number": "hPR-001",
     "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
@@ -17208,6 +22396,26 @@
         "img_last_modified": "Wed, 22 Jan 2025 03:35:14 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10008",
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD01-017",
+        "manage_id": 951,
+        "rarity": "C",
+        "illustrator": "こまいぬ",
+        "img_path": { "jp": "hBP04/hSD01-017_02_C.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD01-017",
+        "manage_id": 1058,
+        "rarity": "S",
+        "illustrator": "こまいぬ",
+        "img_path": { "jp": "hBP04/hSD01-017_02_S.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -20773,6 +25981,29 @@
       }
     ]
   },
+  "hY01-006": {
+    "card_number": "hY01-006",
+    "name": { "jp": "白エール", "en": "White Cheer" },
+    "card_type": "cheer",
+    "colors": [ "white" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": null
+    },
+    "max_amount": 20,
+    "illustrations": [
+      {
+        "card_number": "hY01-006",
+        "manage_id": 1082,
+        "rarity": "SY",
+        "illustrator": "リズ",
+        "img_path": { "jp": "hBP04/hY01-006_SY.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY02-001": {
     "card_number": "hY02-001",
     "name": { "jp": "緑エール", "en": "Green Cheer" },
@@ -20865,6 +26096,29 @@
       }
     ]
   },
+  "hY02-005": {
+    "card_number": "hY02-005",
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
+    "card_type": "cheer",
+    "colors": [ "green" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": null
+    },
+    "max_amount": 20,
+    "illustrations": [
+      {
+        "card_number": "hY02-005",
+        "manage_id": 1083,
+        "rarity": "SY",
+        "illustrator": "リズ",
+        "img_path": { "jp": "hBP04/hY02-005_SY.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY03-001": {
     "card_number": "hY03-001",
     "name": { "jp": "赤エール", "en": "Red Cheer" },
@@ -20931,6 +26185,29 @@
         "img_last_modified": "Mon, 10 Mar 2025 12:01:49 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10019",
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hY03-004": {
+    "card_number": "hY03-004",
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
+    "card_type": "cheer",
+    "colors": [ "red" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": null
+    },
+    "max_amount": 20,
+    "illustrations": [
+      {
+        "card_number": "hY03-004",
+        "manage_id": 1084,
+        "rarity": "SY",
+        "illustrator": "リズ",
+        "img_path": { "jp": "hBP04/hY03-004_SY.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -21118,6 +26395,29 @@
       }
     ]
   },
+  "hY04-005": {
+    "card_number": "hY04-005",
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
+    "card_type": "cheer",
+    "colors": [ "blue" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": null
+    },
+    "max_amount": 20,
+    "illustrations": [
+      {
+        "card_number": "hY04-005",
+        "manage_id": 1085,
+        "rarity": "SY",
+        "illustrator": "リズ",
+        "img_path": { "jp": "hBP04/hY04-005_SY.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY05-001": {
     "card_number": "hY05-001",
     "name": { "jp": "紫エール", "en": "Purple Cheer" },
@@ -21187,6 +26487,29 @@
       }
     ]
   },
+  "hY05-004": {
+    "card_number": "hY05-004",
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
+    "card_type": "cheer",
+    "colors": [ "purple" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": null
+    },
+    "max_amount": 20,
+    "illustrations": [
+      {
+        "card_number": "hY05-004",
+        "manage_id": 1086,
+        "rarity": "SY",
+        "illustrator": "リズ",
+        "img_path": { "jp": "hBP04/hY05-004_SY.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY06-001": {
     "card_number": "hY06-001",
     "name": { "jp": "黄エール", "en": "Yellow Cheer" },
@@ -21253,6 +26576,29 @@
         "img_last_modified": "Wed, 19 Mar 2025 07:53:06 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10016",
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hY06-004": {
+    "card_number": "hY06-004",
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
+    "card_type": "cheer",
+    "colors": [ "yellow" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": null
+    },
+    "max_amount": 20,
+    "illustrations": [
+      {
+        "card_number": "hY06-004",
+        "manage_id": 1087,
+        "rarity": "SY",
+        "illustrator": "リズ",
+        "img_path": { "jp": "hBP04/hY06-004_SY.webp", "en": null },
+        "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
+        "yuyutei_sell_url": null,
+        "delta_art_index": null
       }
     ]
   },
