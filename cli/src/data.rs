@@ -357,10 +357,12 @@ pub mod ogbajoj {
             }
             let name = self.name();
             if card.name.japanese.is_none() {
-                card.name.japanese = name.japanese.clone();
+                card.name.japanese = name.japanese.as_ref().map(|n| n.replace("\n", " "));
             } else {
-                // warn if the name is different
-                if card.name.japanese != name.japanese {
+                // warn if the name is different (ignore names that are split)
+                if card.name.japanese != name.japanese
+                    && name.japanese.as_ref().is_some_and(|n| !n.contains("\n"))
+                {
                     eprintln!(
                         "Warning: {card_number} name mismatch: {:?} should be {:?}",
                         name.japanese, card.name.japanese
@@ -826,7 +828,7 @@ pub mod ogbajoj {
         }
 
         fn name(&self) -> Localized<String> {
-            if let Some((jp, en)) = self.card_name_jp_en.lines().collect_tuple() {
+            if let Some((jp, en)) = self.card_name_jp_en.split_once("\n(") {
                 Localized::new(
                     jp.trim().into(),
                     en.trim_start_matches('(')
