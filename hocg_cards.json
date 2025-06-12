@@ -2962,7 +2962,7 @@
         "manage_id": 86,
         "rarity": "U",
         "illustrator": "",
-        "img_path": { "jp": "hBP01/hBP01-050_U_02.webp", "en": "proxies/hBP01/hBP01-050_U.webp" },
+        "img_path": { "jp": "hBP01/hBP01-050_U_02.webp", "en": "proxies/hBP01/hBP01-050_U_02.webp" },
         "img_last_modified": "Fri, 23 May 2025 06:42:48 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10065",
         "delta_art_index": 0
@@ -4410,7 +4410,7 @@
         "manage_id": 120,
         "rarity": "RR",
         "illustrator": "でいりー",
-        "img_path": { "jp": "hBP01/hBP01-081_RR_02.webp", "en": "proxies/hBP01/hBP01-081_RR.webp" },
+        "img_path": { "jp": "hBP01/hBP01-081_RR_02.webp", "en": "proxies/hBP01/hBP01-081_RR_02.webp" },
         "img_last_modified": "Fri, 23 May 2025 06:42:47 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10147",
         "delta_art_index": 0
@@ -4420,7 +4420,7 @@
         "manage_id": 121,
         "rarity": "UR",
         "illustrator": "",
-        "img_path": { "jp": "hBP01/hBP01-081_UR_02.webp", "en": "proxies/hBP01/hBP01-081_UR.webp" },
+        "img_path": { "jp": "hBP01/hBP01-081_UR_02.webp", "en": "proxies/hBP01/hBP01-081_UR_02.webp" },
         "img_last_modified": "Fri, 23 May 2025 06:42:48 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10100",
         "delta_art_index": 1
@@ -5833,7 +5833,7 @@
         "manage_id": 164,
         "rarity": "C",
         "illustrator": "JinArt こばやかわやまと",
-        "img_path": { "jp": "hBP01/hBP01-123_C_02.webp", "en": "proxies/hBP01/hBP01-123_C.webp" },
+        "img_path": { "jp": "hBP01/hBP01-123_C_02.webp", "en": "proxies/hBP01/hBP01-123_C_02.webp" },
         "img_last_modified": "Fri, 23 May 2025 06:42:48 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10143",
         "delta_art_index": 0
@@ -7429,7 +7429,7 @@
         "manage_id": 201,
         "rarity": "P",
         "illustrator": "あかさあい",
-        "img_path": { "jp": "hPR/hBP02-028_P_2.webp", "en": null },
+        "img_path": { "jp": "hPR/hBP02-028_P_2.webp", "en": "proxies/hPR/hBP02-028_P_2.webp" },
         "img_last_modified": "Thu, 06 Feb 2025 10:17:15 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10019",
         "delta_art_index": 1
@@ -7449,7 +7449,7 @@
         "manage_id": 502,
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP02-028_P.webp", "en": "proxies/hPR/hBP02-028_P.webp" },
+        "img_path": { "jp": "hPR/hBP02-028_P.webp", "en": null },
         "img_last_modified": "Wed, 22 Jan 2025 03:35:13 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10060",
         "delta_art_index": 0
@@ -12405,7 +12405,7 @@
         "manage_id": 591,
         "rarity": "C",
         "illustrator": "おるだん",
-        "img_path": { "jp": "hBP03/hBP03-027_C_2.webp", "en": null },
+        "img_path": { "jp": "hBP03/hBP03-027_C_2.webp", "en": "proxies/hBP03/hBP03-027_C_2.webp" },
         "img_last_modified": "Fri, 21 Mar 2025 08:20:00 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10058",
         "delta_art_index": 0
@@ -19344,7 +19344,7 @@
         "img_path": { "jp": "hBP04/hBP04-056_C_02.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
         "yuyutei_sell_url": null,
-        "delta_art_index": 0
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP04-056",
@@ -19354,7 +19354,7 @@
         "img_path": { "jp": "hBP04/hBP04-056_S_02.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
         "yuyutei_sell_url": null,
-        "delta_art_index": 0
+        "delta_art_index": 1
       }
     ]
   },
@@ -22474,7 +22474,7 @@
         "manage_id": 19,
         "rarity": "C",
         "illustrator": "JinArt KABAKURA",
-        "img_path": { "jp": "hSD01/hSD01-019_C_02.webp", "en": "proxies/hSD01/hSD01-019_C.webp" },
+        "img_path": { "jp": "hSD01/hSD01-019_C_02.webp", "en": "proxies/hSD01/hSD01-019_C_02.webp" },
         "img_last_modified": "Fri, 23 May 2025 06:43:53 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd01/10019",
         "delta_art_index": 0
