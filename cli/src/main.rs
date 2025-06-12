@@ -11,19 +11,23 @@ use std::{
 
 use clap::Parser;
 use clap::ValueEnum;
-use data::{
-    decklog::retrieve_card_info_from_decklog, hololive_official::retrieve_card_info_from_hololive,
-    ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
-};
 use hocg_fan_sim_assets_model::CardsDatabase;
-use holodelta::{import_holodelta, import_holodelta_db};
-use images::{download_images, prepare_en_proxy_images, zip_images};
 use json_pretty_compact::PrettyCompactFormatter;
-use price_check::yuyutei;
 use reqwest::blocking::{Client, ClientBuilder};
 use serde::Serialize;
 use serde_json::Serializer;
 use tempfile::TempDir;
+
+use crate::{
+    data::{
+        decklog::retrieve_card_info_from_decklog,
+        hololive_official::retrieve_card_info_from_hololive,
+        ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
+    },
+    holodelta::{import_holodelta, import_holodelta_db},
+    images::{download_images, prepare_en_proxy_images, zip_images},
+    price_check::yuyutei,
+};
 
 pub const DEBUG: bool = false;
 
@@ -161,8 +165,14 @@ fn main() {
     }
 
     // add proxy images
-    if let Some(path) = args.proxy_path {
-        prepare_en_proxy_images(&filtered_cards, &images_en_path, &mut all_cards, path);
+    if let Some(proxy_path) = args.proxy_path {
+        prepare_en_proxy_images(
+            &filtered_cards,
+            &images_en_path,
+            &mut all_cards,
+            &proxy_path,
+            &images_jp_path,
+        );
     }
 
     // update yuyutei price

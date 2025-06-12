@@ -1215,7 +1215,12 @@ pub mod hololive_official {
                 "能力テキスト" => {
                     card.ability_text.japanese = Some(
                         value
-                            .trim_end_matches("LIMITED：ターンに１枚しか使えない。") // remove the limited line
+                            .lines()
+                            .map(|l| l.trim())
+                            // should remove the "LIMITED：ターンに１枚しか使えない。" line
+                            .filter(|l| !l.to_lowercase().starts_with("limited"))
+                            .collect_vec()
+                            .join("\n")
                             .trim()
                             .to_string(),
                     )

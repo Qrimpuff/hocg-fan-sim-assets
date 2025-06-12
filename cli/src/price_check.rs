@@ -255,7 +255,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
 
                         // find the best match, otherwise
                         println!();
-                        let urls: Vec<_> = urls
+                        let images: Vec<_> = urls
                             .par_iter()
                             .map(|(url, img_path)| {
                                 // download the image
@@ -263,11 +263,11 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
                                 let resp = http_client().get(img_path).send().unwrap();
                                 let yuyutei_img =
                                     image::load_from_memory(&resp.bytes().unwrap()).unwrap();
-                                (url, yuyutei_img)
+                                (url.clone(), yuyutei_img)
                             })
                             .collect();
 
-                        let mut dists: Vec<_> = urls
+                        let mut dists: Vec<_> = images
                             .into_iter()
                             .cartesian_product(illustrations.iter())
                             .map(|((url, yuyutei_img), illust)| {
@@ -293,6 +293,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
                                 && min_dist + DIST_TOLERANCE >= dist
                             {
                                 illust.yuyutei_sell_url = Some(url.clone());
+                                urls.retain(|(u, _)| *u != url);
                                 already_set.insert(url, dist.min(min_dist));
                                 *url_count.lock() += 1;
 
@@ -322,7 +323,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
     for ((number, rare), urls) in urls {
         for url in urls {
             let url = url.0;
-            println!("MISSING: [{number}, {rare}] - {url}");
+            println!("NO MATCH: [{number}, {rare}] - {url}");
         }
     }
 }
