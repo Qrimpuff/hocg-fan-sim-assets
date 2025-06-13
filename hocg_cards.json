@@ -22464,7 +22464,7 @@
     "card_type": { "support": "item" },
     "limited": true,
     "text": {
-      "jp": "このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。\n\nLIMITED：ターンに1枚しか使えない。",
+      "jp": "このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "To play this card, you must archive one of your cheers in play.\n\nReveal a 1st Bloom or 2nd Bloom holomem from your deck (excluding Buzz holomem) and put it into your hand. Then shuffle your deck."
     },
     "max_amount": 4,
