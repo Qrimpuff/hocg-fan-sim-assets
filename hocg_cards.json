@@ -4183,7 +4183,7 @@
         "card_number": "hBP01-076",
         "manage_id": 182,
         "rarity": "P",
-        "illustrator": "",
+        "illustrator": null,
         "img_path": { "jp": "hPR/hBP01-076_P.webp", "en": null },
         "img_last_modified": "Tue, 17 Sep 2024 09:30:45 GMT",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10016",
@@ -21576,7 +21576,7 @@
         "manage_id": 969,
         "rarity": "U",
         "illustrator": "はずき",
-        "img_path": { "jp": "hBP04/hBP04-105_U.webp", "en": null },
+        "img_path": { "jp": "hBP04/hBP04-105_U.webp", "en": "proxies/hBP04/hBP04-105_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
         "yuyutei_sell_url": null,
         "delta_art_index": 0
@@ -21608,7 +21608,7 @@
         "manage_id": 970,
         "rarity": "U",
         "illustrator": "JinArt こばやかわやまと",
-        "img_path": { "jp": "hBP04/hBP04-106_U.webp", "en": null },
+        "img_path": { "jp": "hBP04/hBP04-106_U.webp", "en": "proxies/hBP04/hBP04-106_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
         "yuyutei_sell_url": null,
         "delta_art_index": 0
