@@ -112,7 +112,7 @@ pub fn import_holodelta_db(
                 .collect_vec();
 
             // sort by best dist, then update the art index
-            dists.sort_by_key(|d| d.2);
+            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id));
 
             // modify the cards here, to avoid borrowing issue
             let mut already_set = BTreeMap::new();
@@ -250,7 +250,7 @@ pub fn import_holodelta(
                 .collect_vec();
 
             // sort by best dist, then update the art index
-            dists.sort_by_key(|d| d.2);
+            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id));
 
             // modify the cards here, to avoid borrowing issue
             let mut already_set = BTreeMap::new();

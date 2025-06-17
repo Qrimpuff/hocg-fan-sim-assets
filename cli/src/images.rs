@@ -217,16 +217,18 @@ pub fn prepare_en_proxy_images(
                     part
                 };
 
-                let paths = files
-                    .entry((card_number.to_owned(), rarity.to_owned()))
-                    .or_default();
-                if paths.iter().any(|(f, _)| *f == file_stem) {
+                let paths = files.entry(card_number.to_owned()).or_default();
+                if paths.iter().any(|(f, _, _)| *f == file_stem) {
                     if DEBUG {
                         println!("Skipping duplicate proxy image: {}", entry.path().display());
                     }
                 } else {
                     // add the file name and path
-                    paths.push((file_stem.to_owned(), entry.path().to_owned()));
+                    paths.push((
+                        file_stem.to_owned(),
+                        rarity.to_owned(),
+                        entry.path().to_owned(),
+                    ));
                 }
             }
         }
@@ -252,16 +254,13 @@ pub fn prepare_en_proxy_images(
         })
         .into_group_map_by(|c| {
             let c = c.lock();
-            (c.card_number.clone(), c.rarity.clone())
+            c.card_number.clone()
         });
 
     rarities
         .into_par_iter()
-        .for_each(|((card_number, rarity), mut illustrations)| {
-            if let Some(img_paths) = proxies
-                .write()
-                .get_mut(&(card_number.clone(), rarity.clone()))
-            {
+        .for_each(|(card_number, mut illustrations)| {
+            if let Some(img_paths) = proxies.write().get_mut(&(card_number.clone())) {
                 // nothing to match
                 if illustrations.is_empty() {
                     return;
@@ -274,7 +273,7 @@ pub fn prepare_en_proxy_images(
 
                 // only one possible match
                 if img_paths.len() == 1 && illustrations.len() == 1 {
-                    let (_file_name, img_path) = img_paths.swap_remove(0);
+                    let (_file_name, _rarity, img_path) = img_paths.swap_remove(0);
                     let illust = illustrations.swap_remove(0);
                     let mut illust = illust.lock();
                     illust.img_path.english =
@@ -284,44 +283,63 @@ pub fn prepare_en_proxy_images(
                 }
 
                 // find the best match, otherwise
-                println!();
+                if DEBUG {
+                    println!();
+                }
                 let proxies: Vec<_> = img_paths
                     .par_iter()
-                    .map(|(_, img_path)| {
+                    .map(|(_, rarity, img_path)| {
                         // download the image
                         println!("Checking proxy image: {}", img_path.display());
                         let proxy_img =
                             image::load_from_memory(&fs::read(img_path).unwrap()).unwrap();
-                        (img_path.to_owned(), proxy_img)
+                        (rarity.to_owned(), img_path.to_owned(), proxy_img)
                     })
                     .collect();
 
                 let mut dists: Vec<_> = proxies
                     .into_iter()
                     .cartesian_product(illustrations.iter())
-                    .map(|((img_path, proxy_img), illust)| {
+                    .map(|((rarity, img_path, proxy_img), illust)| {
                         let dist = dist_proxy_image(&illust.lock(), proxy_img, images_jp_path);
 
-                        (img_path, illust, dist)
+                        (rarity, img_path, illust, dist)
                     })
                     .collect();
 
-                // sort by best dist, then update the proxy
-                dists.sort_by_key(|d| d.2);
+                // sort by best dist, then update the proxy (maybe need adjusting)
+                dists.sort_by_cached_key(|d| {
+                    let rarity = &d.0;
+                    let dist = d.3;
+                    let illust = d.2.lock();
+                    // have rarity and release date influence the matching
+                    let rarity_rank = if *rarity != illust.rarity {
+                        DIST_TOLERANCE
+                    } else {
+                        0
+                    };
+                    let id_rank = illust.manage_id.unwrap_or(u32::MAX) as u64;
+                    let dist_rank = dist.saturating_div(DIST_TOLERANCE);
+                    rarity_rank
+                        .saturating_add(id_rank)
+                        .saturating_add(dist_rank)
+                });
 
                 // modify the cards here, to avoid borrowing issue
                 let mut already_set = BTreeMap::new();
-                for (img_path, illust, dist) in dists {
+                for (_rarity, img_path, illust, dist) in dists {
                     let mut illust = illust.lock();
-                    // to handle multiple cards with the same image
-                    let min_dist = *already_set
-                        .get(&img_path)
-                        .unwrap_or(&(u64::MAX - DIST_TOLERANCE));
-                    if illust.img_path.english.is_none() && min_dist + DIST_TOLERANCE >= dist {
+
+                    // only one card has the proxy, no DIST_TOLERANCE
+                    if already_set.contains_key(&img_path) {
+                        continue;
+                    }
+
+                    if illust.img_path.english.is_none() {
                         illust.img_path.english =
                             Some(save_proxy_image(&illust, &img_path, images_en_path));
-                        img_paths.retain(|(_, p)| *p != img_path);
-                        already_set.insert(img_path, dist.min(min_dist));
+                        img_paths.retain(|(_, _, p)| *p != img_path);
+                        already_set.insert(img_path, dist);
                         proxies_count.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
 
                         if DEBUG {
@@ -346,8 +364,9 @@ pub fn prepare_en_proxy_images(
     let proxies_count = proxies_count.load(std::sync::atomic::Ordering::Relaxed);
     let proxies_skipped = proxies_skipped.load(std::sync::atomic::Ordering::Relaxed);
     println!("{proxies_count} Proxies updated ({proxies_skipped} skipped)");
-    for ((number, rare), proxies) in proxies {
+    for (number, proxies) in proxies {
         for proxy in proxies {
+            let rare = proxy.1;
             let proxy = proxy.0;
             println!("NO MATCH: [{number}, {rare}] - {}", proxy.display());
         }
@@ -391,10 +410,12 @@ fn dist_proxy_image(
     images_jp_path: &Path,
 ) -> u64 {
     // compare the image to the card
-    println!(
-        "Checking Card image: {}",
-        card.img_path.japanese.as_deref().unwrap_or_default()
-    );
+    if DEBUG {
+        println!(
+            "Checking Card image: {}",
+            card.img_path.japanese.as_deref().unwrap_or_default()
+        );
+    }
     let path = images_jp_path.join(card.img_path.japanese.as_deref().unwrap_or_default());
     let card_img = image::open(path).unwrap();
 

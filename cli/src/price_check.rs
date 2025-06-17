@@ -17,9 +17,7 @@ use reqwest::Url;
 use scraper::{Html, Selector};
 
 use crate::{
-    DEBUG, YuyuteiMode,
-    holodelta::DIST_TOLERANCE,
-    http_client,
+    DEBUG, YuyuteiMode, http_client,
     images::utils::{dist_hash, to_image_hash},
 };
 
@@ -279,19 +277,16 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
                             .collect();
 
                         // sort by best dist, then update the url
-                        dists.sort_by_key(|d| d.2);
+                        dists.sort_by_key(|d| (d.2, d.1.lock().manage_id));
 
                         // modify the cards here, to avoid borrowing issue
                         let mut already_set = BTreeMap::new();
                         for (url, illust, dist) in dists {
                             let mut illust = illust.lock();
                             // to handle multiple cards with the same image
-                            let min_dist = *already_set
-                                .get(&url)
-                                .unwrap_or(&(u64::MAX - DIST_TOLERANCE));
-                            if illust.yuyutei_sell_url.is_none()
-                                && min_dist + DIST_TOLERANCE >= dist
-                            {
+                            let min_dist = *already_set.get(&url).unwrap_or(&(u64::MAX));
+                            // only one card has the url, no DIST_TOLERANCE
+                            if illust.yuyutei_sell_url.is_none() && min_dist >= dist {
                                 illust.yuyutei_sell_url = Some(url.clone());
                                 urls.retain(|(u, _)| *u != url);
                                 already_set.insert(url, dist.min(min_dist));

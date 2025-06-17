@@ -1512,17 +1512,22 @@ pub mod hololive_official {
                             continue;
                         };
 
-                        let mut all_cards = all_cards.write();
-                        let Some(card) = all_cards.get_mut(&card_number) else {
+                        let _all_cards = all_cards.read();
+                        let Some(card) = _all_cards.get(&card_number) else {
                             println!("Card {card_number:?} not found");
                             continue;
                         };
+                        let mut card = card.clone();
+                        drop(_all_cards);
 
-                        update_card_info(card, &hololive_card);
-                        update_card_oshi_skills(card, &hololive_card);
-                        update_card_keywords(card, &hololive_card);
-                        update_card_arts(card, &hololive_card);
-                        update_card_illustrations(card, &hololive_card, url);
+                        update_card_info(&mut card, &hololive_card);
+                        update_card_oshi_skills(&mut card, &hololive_card);
+                        update_card_keywords(&mut card, &hololive_card);
+                        update_card_arts(&mut card, &hololive_card);
+                        update_card_illustrations(&mut card, &hololive_card, url);
+
+                        let mut _all_cards = all_cards.write();
+                        _all_cards.insert(card_number, card);
 
                         page_updated_count += 1;
                     }
