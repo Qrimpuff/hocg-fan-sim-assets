@@ -4,6 +4,7 @@ mod images;
 mod price_check;
 
 use std::{
+    collections::HashSet,
     fs::{self},
     path::{Path, PathBuf},
     sync::OnceLock,
@@ -17,6 +18,7 @@ use reqwest::blocking::{Client, ClientBuilder};
 use serde::Serialize;
 use serde_json::Serializer;
 use tempfile::TempDir;
+use walkdir::WalkDir;
 
 use crate::{
     data::{
@@ -99,6 +101,10 @@ struct Args {
     /// Use ogbajoj's sheet to import english translations
     #[arg(long)]
     ogbajoj_sheet: bool,
+
+    /// Remove unused assets
+    #[arg(long)]
+    gc: bool,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
@@ -213,7 +219,18 @@ fn main() {
     let formatter = PrettyCompactFormatter::new();
     let mut ser = Serializer::with_formatter(&mut json, formatter);
     all_cards.serialize(&mut ser).unwrap();
-    fs::write(card_mapping_file, json).unwrap();
+    fs::write(&card_mapping_file, json).unwrap();
+
+    // garbage collection
+    if args.gc {
+        garbage_collection(
+            &all_cards,
+            &args.assets_path,
+            &card_mapping_file,
+            &images_jp_path,
+            &images_en_path,
+        );
+    }
 
     if args.zip_images {
         zip_images(
@@ -227,4 +244,71 @@ fn main() {
     }
 
     println!("done");
+}
+
+fn garbage_collection(
+    all_cards: &CardsDatabase,
+    assets_path: &Path,
+    card_mapping_file: &Path,
+    images_jp_path: &Path,
+    images_en_path: &Path,
+) {
+    println!("Running garbage collection...");
+
+    let mut required_paths = HashSet::from([card_mapping_file.to_owned()]);
+    required_paths.extend(
+        all_cards
+            .values()
+            .flat_map(|cs| cs.illustrations.iter())
+            .filter_map(|c| c.img_path.japanese.as_deref())
+            .map(|p| images_jp_path.join(p)),
+    );
+    required_paths.extend(
+        all_cards
+            .values()
+            .flat_map(|cs| cs.illustrations.iter())
+            .filter_map(|c| c.img_path.english.as_deref())
+            .map(|p| images_en_path.join(p)),
+    );
+
+    // don't delete the assets folder
+    for entry in WalkDir::new(images_jp_path)
+        .contents_first(true)
+        .into_iter()
+        .flatten()
+        .chain(
+            WalkDir::new(images_en_path)
+                .contents_first(true)
+                .into_iter()
+                .flatten(),
+        )
+    {
+        // skip git directories
+        if entry.path().components().any(|c| c.as_os_str() == ".git") {
+            continue;
+        }
+
+        // keep referenced assets
+        if required_paths.contains(entry.path()) {
+            continue;
+        }
+
+        if entry.file_type().is_file() {
+            // remove file
+            println!(
+                "Removing file: {}",
+                entry.path().strip_prefix(assets_path).unwrap().display()
+            );
+            fs::remove_file(entry.path()).unwrap();
+        } else if entry.file_type().is_dir() {
+            // remove folder, if it's empty
+            if entry.path().read_dir().unwrap().next().is_none() {
+                println!(
+                    "Removing empty folder: {}",
+                    entry.path().strip_prefix(assets_path).unwrap().display()
+                );
+                fs::remove_dir(entry.path()).unwrap();
+            }
+        }
+    }
 }

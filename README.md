@@ -21,9 +21,11 @@ A CLI utility for collecting and processing assets for the Hololive Official Car
 
 ## Prerequisites
 
-- Rust toolchain
+- Rust toolchain (2024 edition)
 - For Google Sheets API access (optional):
   - Google Sheets API key (set as `GOOGLE_SHEETS_API_KEY` environment variable)
+- For ScraperAPI access (optional):
+  - ScraperAPI key (set as `SCRAPERAPI_API_KEY` environment variable)
 
 ## Installation
 
@@ -99,6 +101,9 @@ Options:
       --ogbajoj-sheet
           Use ogbajoj's sheet to import English translations
   
+      --gc
+          Remove unused assets
+  
   -h, --help
           Print help
   
@@ -125,10 +130,10 @@ Options:
 
 4. Create a complete dataset with pricing information:
    ```
-   cargo run --release -- --clean --download-images --yuyutei=images --proxy-path ./en_proxies --holodelta-path ./holoDelta --ogbajoj-sheet --official-hololive
+   cargo run --release -- --clean --download-images --yuyutei=images --proxy-path ./en_proxies --holodelta-path ./holoDelta --ogbajoj-sheet --official-hololive --gc
    ```
 
-5. Package images for specific card sets (from package-images.cmd):
+5. Package images for specific card sets:
    ```
    cargo run --release -- -ziofx hsd05
    cargo run --release -- -ziofx hsd06
@@ -139,9 +144,9 @@ Options:
 
 6. Automated asset generation (from GitHub Actions):
    ```
-   cargo run --release -- --download-images --yuyutei --ogbajoj-sheet --official-hololive
+   cargo run --release -- --download-images --yuyutei --ogbajoj-sheet --official-hololive --gc
    ```
-   This example demonstrates daily automated asset generation (runs at 00:00 JST/15:00 UTC). It preserves existing 
+   This example demonstrates daily automated asset generation (runs at 15:00 UTC/00:00 JST). It preserves existing 
    data from gh-pages branch before updating with fresh card information from all sources, then deploys to GitHub Pages.
 
 ## Directory Structure
