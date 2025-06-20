@@ -4384,7 +4384,7 @@
         "type": "collab",
         "name": { "jp": "空を駆ける光", "en": "Light running through the sky" },
         "text": {
-          "jp": "自分のエールデッキの上から１枚を、自分の青ホロメンに送る。",
+          "jp": "自分のエールデッキの上から1枚を、自分の青ホロメンに送る。",
           "en": "Send the top card of your cheer deck to one of your blue holomem."
         }
       }
@@ -4396,7 +4396,7 @@
         "power": "60+",
         "advantage": [ "red", 50 ],
         "text": {
-          "jp": "このホロメンの青エール２枚をアーカイブできる：このホロメンに重なっているホロメン１枚につき、このアーツ+60（このアーツは相手のバックホロメンも対象にできる）。",
+          "jp": "このホロメンの青エール2枚をアーカイブできる：このホロメンに重なっているホロメン1枚につき、このアーツ+60（このアーツは相手のバックホロメンも対象にできる）。",
           "en": "You may archive 2 blue cheers from this holomem for the following effect: For each holomem stacked under this one, this art gains +60 power (This art may target your opponent's back holomem)."
         }
       }
@@ -7862,7 +7862,7 @@
         "type": "collab",
         "name": { "jp": "掃除屋でインターン", "en": "Cleaner (Intern)" },
         "text": {
-          "jp": "自分のデッキの上から3枚を見る。その中から、#秘密結社holoXを持つ2ndホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+          "jp": "自分のデッキの上から3枚を見る。その中から、#秘密結社holoxを持つ2ndホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
           "en": "Look at the top three cards of your deck. Reveal one that is a 2nd Bloom holomem with #SecretSocietyholoX and put it into your hand. Then put the remaining cards on the bottom of your deck in any order."
         }
       }
@@ -10124,7 +10124,7 @@
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
-      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#秘密結社holoXを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
+      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#秘密結社holoxを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
       "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top four cards of your deck. Reveal any number of them that are holomem with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
@@ -10298,7 +10298,7 @@
         "illustrator": "成田タメゾウ",
         "img_path": { "jp": "hBP04/hBP02-084_02_U.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10216",
         "delta_art_index": 2
       },
       {
@@ -10308,7 +10308,7 @@
         "illustrator": "成田タメゾウ",
         "img_path": { "jp": "hBP04/hBP02-084_02_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10217",
         "delta_art_index": 3
       }
     ]
@@ -10677,7 +10677,7 @@
     "name": { "jp": "イヌ", "en": "Inu" },
     "card_type": { "support": "mascot" },
     "text": {
-      "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈沙花叉クロヱ〉に付いていたら能力追加\nこのマスコットが付いているホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのエール1枚を、自分の#秘密結社holoXを持つホロメンに送れる。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈沙花叉クロヱ〉に付いていたら能力追加\nこのマスコットが付いているホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのエール1枚を、自分の#秘密結社holoxを持つホロメンに送れる。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The arts of the holomem with this Mascot attached gain +10 power.\n\nIf this is attached to Sakamata Chloe, it gains the following effect: When the holomem with this Mascot attached downs one of your opponent's holomem, send 1 cheer from your archive to one of your holomem with #SecretSocietyholoX.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
@@ -10741,7 +10741,7 @@
     "name": { "jp": "Death-sensei", "en": "Death-sensei" },
     "card_type": { "support": "mascot" },
     "text": {
-      "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈森カリオペ〉に付いていたら能力追加\nこのマスコットが付いているホロメンのアーツに必要なエールの色すべてを無色エールにする。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈森カリオペ〉に付いていたら能力追加\nこのマスコットが付いているホロメンのアーツに必要なエールの色すべてを無色にする。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The holomem with this Mascot attached has +20 HP.\n\nIf this is attached to Mori Calliope, it gains the following effect: The cheer requirements of all arts of the holomem this is attached to become colorless.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "max_amount": 4,
@@ -16494,7 +16494,7 @@
         "illustrator": "砂利さや(か)",
         "img_path": { "jp": "hBP04/hBP04-001_OSR.webp", "en": "proxies/hBP04/hBP04-001_OSR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10001",
         "delta_art_index": 0
       },
       {
@@ -16504,7 +16504,7 @@
         "illustrator": "砂利さや(か)",
         "img_path": { "jp": "hBP04/hBP04-001_OUR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10002",
         "delta_art_index": 1
       },
       {
@@ -16514,7 +16514,7 @@
         "illustrator": "砂利さや(か)",
         "img_path": { "jp": "hBP04/hBP04-001_SEC.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10003",
         "delta_art_index": 2
       }
     ]
@@ -16553,7 +16553,7 @@
         "illustrator": "yuki",
         "img_path": { "jp": "hBP04/hBP04-002_OSR.webp", "en": "proxies/hBP04/hBP04-002_OSR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10004",
         "delta_art_index": 0
       },
       {
@@ -16563,7 +16563,7 @@
         "illustrator": "yuki",
         "img_path": { "jp": "hBP04/hBP04-002_OUR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10005",
         "delta_art_index": 1
       }
     ]
@@ -16602,7 +16602,7 @@
         "illustrator": "ゆぅ",
         "img_path": { "jp": "hBP04/hBP04-003_OSR.webp", "en": "proxies/hBP04/hBP04-003_OSR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10006",
         "delta_art_index": 0
       },
       {
@@ -16612,7 +16612,7 @@
         "illustrator": "ゆぅ",
         "img_path": { "jp": "hBP04/hBP04-003_OUR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10007",
         "delta_art_index": 1
       }
     ]
@@ -16651,7 +16651,7 @@
         "illustrator": "がり",
         "img_path": { "jp": "hBP04/hBP04-004_OSR.webp", "en": "proxies/hBP04/hBP04-004_OSR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10008",
         "delta_art_index": 0
       },
       {
@@ -16661,7 +16661,7 @@
         "illustrator": "がり",
         "img_path": { "jp": "hBP04/hBP04-004_OUR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10009",
         "delta_art_index": 1
       },
       {
@@ -16671,7 +16671,7 @@
         "illustrator": "がり",
         "img_path": { "jp": "hBP04/hBP04-004_SEC.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10010",
         "delta_art_index": 2
       }
     ]
@@ -16710,7 +16710,7 @@
         "illustrator": "茶ちえ",
         "img_path": { "jp": "hBP04/hBP04-005_OSR.webp", "en": "proxies/hBP04/hBP04-005_OSR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10011",
         "delta_art_index": 0
       },
       {
@@ -16720,7 +16720,7 @@
         "illustrator": "茶ちえ",
         "img_path": { "jp": "hBP04/hBP04-005_OUR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10012",
         "delta_art_index": 1
       },
       {
@@ -16730,7 +16730,7 @@
         "illustrator": "茶ちえ",
         "img_path": { "jp": "hBP04/hBP04-005_SEC.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10013",
         "delta_art_index": 2
       }
     ]
@@ -16769,7 +16769,7 @@
         "illustrator": "ふじさわ犬一",
         "img_path": { "jp": "hBP04/hBP04-006_OSR.webp", "en": "proxies/hBP04/hBP04-006_OSR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10014",
         "delta_art_index": 0
       },
       {
@@ -16779,7 +16779,7 @@
         "illustrator": "ふじさわ犬一",
         "img_path": { "jp": "hBP04/hBP04-006_OUR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10015",
         "delta_art_index": 1
       },
       {
@@ -16789,7 +16789,7 @@
         "illustrator": "ふじさわ犬一",
         "img_path": { "jp": "hBP04/hBP04-006_SEC.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10016",
         "delta_art_index": 2
       }
     ]
@@ -16828,7 +16828,7 @@
         "illustrator": "81",
         "img_path": { "jp": "hBP04/hBP04-007_OSR.webp", "en": "proxies/hBP04/hBP04-007_OSR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:46 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10017",
         "delta_art_index": 0
       },
       {
@@ -16838,7 +16838,7 @@
         "illustrator": "81",
         "img_path": { "jp": "hBP04/hBP04-007_OUR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10018",
         "delta_art_index": 1
       }
     ]
@@ -16870,7 +16870,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-008_C.webp", "en": "proxies/hBP04/hBP04-008_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10019",
         "delta_art_index": 0
       }
     ]
@@ -16911,7 +16911,7 @@
         "illustrator": "TAiGA",
         "img_path": { "jp": "hBP04/hBP04-009_U.webp", "en": "proxies/hBP04/hBP04-009_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10020",
         "delta_art_index": 0
       },
       {
@@ -16921,7 +16921,7 @@
         "illustrator": "TAiGA",
         "img_path": { "jp": "hBP04/hBP04-009_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10021",
         "delta_art_index": 0
       }
     ]
@@ -16960,7 +16960,7 @@
         "illustrator": "ももこ",
         "img_path": { "jp": "hBP04/hBP04-010_C.webp", "en": "proxies/hBP04/hBP04-010_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10022",
         "delta_art_index": 0
       },
       {
@@ -16970,7 +16970,7 @@
         "illustrator": "ももこ",
         "img_path": { "jp": "hBP04/hBP04-010_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:07 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10023",
         "delta_art_index": 0
       }
     ]
@@ -17008,7 +17008,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-011_U.webp", "en": "proxies/hBP04/hBP04-011_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10024",
         "delta_art_index": 0
       },
       {
@@ -17018,7 +17018,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-011_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10025",
         "delta_art_index": 0
       }
     ]
@@ -17069,7 +17069,7 @@
         "illustrator": "北田 藻",
         "img_path": { "jp": "hBP04/hBP04-012_R.webp", "en": "proxies/hBP04/hBP04-012_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10026",
         "delta_art_index": 0
       },
       {
@@ -17079,7 +17079,7 @@
         "illustrator": "北田 藻",
         "img_path": { "jp": "hBP04/hBP04-012_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10027",
         "delta_art_index": 1
       }
     ]
@@ -17128,7 +17128,7 @@
         "illustrator": "望田とうり",
         "img_path": { "jp": "hBP04/hBP04-013_RR.webp", "en": "proxies/hBP04/hBP04-013_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:45 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10028",
         "delta_art_index": 0
       },
       {
@@ -17138,7 +17138,7 @@
         "illustrator": "望田とうり",
         "img_path": { "jp": "hBP04/hBP04-013_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10029",
         "delta_art_index": 1
       },
       {
@@ -17148,7 +17148,7 @@
         "illustrator": "望田とうり",
         "img_path": { "jp": "hBP04/hBP04-013_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10030",
         "delta_art_index": 2
       }
     ]
@@ -17199,7 +17199,7 @@
         "illustrator": "藤ちょこ",
         "img_path": { "jp": "hBP04/hBP04-014_R.webp", "en": "proxies/hBP04/hBP04-014_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10031",
         "delta_art_index": 0
       },
       {
@@ -17209,7 +17209,7 @@
         "illustrator": "藤ちょこ",
         "img_path": { "jp": "hBP04/hBP04-014_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10032",
         "delta_art_index": 1
       }
     ]
@@ -17248,7 +17248,7 @@
         "illustrator": "ぴ助",
         "img_path": { "jp": "hBP04/hBP04-015_R.webp", "en": "proxies/hBP04/hBP04-015_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10033",
         "delta_art_index": 0
       },
       {
@@ -17258,7 +17258,7 @@
         "illustrator": "ぴ助",
         "img_path": { "jp": "hBP04/hBP04-015_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10034",
         "delta_art_index": 1
       }
     ]
@@ -17301,7 +17301,7 @@
         "illustrator": "Nekojira",
         "img_path": { "jp": "hBP04/hBP04-016_C.webp", "en": "proxies/hBP04/hBP04-016_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10035",
         "delta_art_index": 0
       }
     ]
@@ -17336,7 +17336,7 @@
         "illustrator": "chyan",
         "img_path": { "jp": "hBP04/hBP04-017_C.webp", "en": "proxies/hBP04/hBP04-017_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:44 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10036",
         "delta_art_index": 0
       },
       {
@@ -17346,7 +17346,7 @@
         "illustrator": "chyan",
         "img_path": { "jp": "hBP04/hBP04-017_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10037",
         "delta_art_index": 0
       }
     ]
@@ -17391,7 +17391,7 @@
         "illustrator": "すなれ",
         "img_path": { "jp": "hBP04/hBP04-018_U.webp", "en": "proxies/hBP04/hBP04-018_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:43 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10038",
         "delta_art_index": 0
       },
       {
@@ -17401,7 +17401,7 @@
         "illustrator": "すなれ",
         "img_path": { "jp": "hBP04/hBP04-018_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10039",
         "delta_art_index": 0
       }
     ]
@@ -17451,7 +17451,7 @@
         "illustrator": "玉子鼠",
         "img_path": { "jp": "hBP04/hBP04-019_R.webp", "en": "proxies/hBP04/hBP04-019_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:43 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10040",
         "delta_art_index": 0
       },
       {
@@ -17461,7 +17461,7 @@
         "illustrator": "玉子鼠",
         "img_path": { "jp": "hBP04/hBP04-019_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10041",
         "delta_art_index": 1
       }
     ]
@@ -17507,7 +17507,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-020_C.webp", "en": "proxies/hBP04/hBP04-020_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:43 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10042",
         "delta_art_index": 0
       }
     ]
@@ -17551,7 +17551,7 @@
         "illustrator": "hitokoto",
         "img_path": { "jp": "hBP04/hBP04-021_U.webp", "en": "proxies/hBP04/hBP04-021_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10043",
         "delta_art_index": 0
       },
       {
@@ -17561,7 +17561,7 @@
         "illustrator": "hitokoto",
         "img_path": { "jp": "hBP04/hBP04-021_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10044",
         "delta_art_index": 0
       }
     ]
@@ -17596,7 +17596,7 @@
         "illustrator": "詰め木",
         "img_path": { "jp": "hBP04/hBP04-022_C.webp", "en": "proxies/hBP04/hBP04-022_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10045",
         "delta_art_index": 0
       },
       {
@@ -17606,7 +17606,7 @@
         "illustrator": "詰め木",
         "img_path": { "jp": "hBP04/hBP04-022_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10046",
         "delta_art_index": 0
       }
     ]
@@ -17646,7 +17646,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-023_U.webp", "en": "proxies/hBP04/hBP04-023_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10047",
         "delta_art_index": 0
       },
       {
@@ -17656,7 +17656,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-023_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10048",
         "delta_art_index": 0
       }
     ]
@@ -17704,7 +17704,7 @@
         "illustrator": "カオミン",
         "img_path": { "jp": "hBP04/hBP04-024_R.webp", "en": "proxies/hBP04/hBP04-024_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10049",
         "delta_art_index": 0
       },
       {
@@ -17714,7 +17714,7 @@
         "illustrator": "カオミン",
         "img_path": { "jp": "hBP04/hBP04-024_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10050",
         "delta_art_index": 1
       }
     ]
@@ -17763,7 +17763,7 @@
         "illustrator": "Fajyobore",
         "img_path": { "jp": "hBP04/hBP04-025_RR.webp", "en": "proxies/hBP04/hBP04-025_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10051",
         "delta_art_index": 0
       },
       {
@@ -17773,7 +17773,7 @@
         "illustrator": "Fajyobore",
         "img_path": { "jp": "hBP04/hBP04-025_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10052",
         "delta_art_index": 1
       },
       {
@@ -17783,7 +17783,7 @@
         "illustrator": "yuki",
         "img_path": { "jp": "hBP04/hBP04-025_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10053",
         "delta_art_index": 2
       }
     ]
@@ -17833,7 +17833,7 @@
         "illustrator": "藤ちょこ",
         "img_path": { "jp": "hBP04/hBP04-026_R.webp", "en": "proxies/hBP04/hBP04-026_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10054",
         "delta_art_index": 0
       },
       {
@@ -17843,7 +17843,7 @@
         "illustrator": "藤ちょこ",
         "img_path": { "jp": "hBP04/hBP04-026_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:02 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10055",
         "delta_art_index": 1
       }
     ]
@@ -17882,7 +17882,7 @@
         "illustrator": "きな",
         "img_path": { "jp": "hBP04/hBP04-027_R.webp", "en": "proxies/hBP04/hBP04-027_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10056",
         "delta_art_index": 0
       },
       {
@@ -17892,7 +17892,7 @@
         "illustrator": "きな",
         "img_path": { "jp": "hBP04/hBP04-027_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10057",
         "delta_art_index": 1
       }
     ]
@@ -17926,7 +17926,7 @@
         "illustrator": "DSマイル",
         "img_path": { "jp": "hBP04/hBP04-028_C.webp", "en": "proxies/hBP04/hBP04-028_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10058",
         "delta_art_index": 0
       }
     ]
@@ -17960,7 +17960,7 @@
         "illustrator": "chyan",
         "img_path": { "jp": "hBP04/hBP04-029_C.webp", "en": "proxies/hBP04/hBP04-029_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:51 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10059",
         "delta_art_index": 0
       },
       {
@@ -17970,7 +17970,7 @@
         "illustrator": "chyan",
         "img_path": { "jp": "hBP04/hBP04-029_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10060",
         "delta_art_index": 0
       }
     ]
@@ -18014,7 +18014,7 @@
         "illustrator": "しちがつ",
         "img_path": { "jp": "hBP04/hBP04-030_U.webp", "en": "proxies/hBP04/hBP04-030_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10061",
         "delta_art_index": 0
       },
       {
@@ -18024,7 +18024,7 @@
         "illustrator": "しちがつ",
         "img_path": { "jp": "hBP04/hBP04-030_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10062",
         "delta_art_index": 0
       }
     ]
@@ -18073,7 +18073,7 @@
         "illustrator": "moguta",
         "img_path": { "jp": "hBP04/hBP04-031_R.webp", "en": "proxies/hBP04/hBP04-031_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10063",
         "delta_art_index": 0
       },
       {
@@ -18083,7 +18083,7 @@
         "illustrator": "moguta",
         "img_path": { "jp": "hBP04/hBP04-031_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10064",
         "delta_art_index": 1
       }
     ]
@@ -18116,7 +18116,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-032_C.webp", "en": "proxies/hBP04/hBP04-032_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10065",
         "delta_art_index": 0
       }
     ]
@@ -18156,7 +18156,7 @@
         "illustrator": "hitokoto",
         "img_path": { "jp": "hBP04/hBP04-033_U.webp", "en": "proxies/hBP04/hBP04-033_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10066",
         "delta_art_index": 0
       },
       {
@@ -18166,7 +18166,7 @@
         "illustrator": "hitokoto",
         "img_path": { "jp": "hBP04/hBP04-033_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10067",
         "delta_art_index": 0
       }
     ]
@@ -18202,7 +18202,7 @@
         "illustrator": "詰め木",
         "img_path": { "jp": "hBP04/hBP04-034_C.webp", "en": "proxies/hBP04/hBP04-034_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10068",
         "delta_art_index": 0
       },
       {
@@ -18212,7 +18212,7 @@
         "illustrator": "詰め木",
         "img_path": { "jp": "hBP04/hBP04-034_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10069",
         "delta_art_index": 0
       }
     ]
@@ -18261,7 +18261,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-035_U.webp", "en": "proxies/hBP04/hBP04-035_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:50 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10070",
         "delta_art_index": 0
       },
       {
@@ -18271,7 +18271,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-035_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10071",
         "delta_art_index": 0
       }
     ]
@@ -18320,7 +18320,7 @@
         "illustrator": "千種みのり",
         "img_path": { "jp": "hBP04/hBP04-036_R.webp", "en": "proxies/hBP04/hBP04-036_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10072",
         "delta_art_index": 0
       },
       {
@@ -18330,7 +18330,7 @@
         "illustrator": "千種みのり",
         "img_path": { "jp": "hBP04/hBP04-036_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10073",
         "delta_art_index": 1
       }
     ]
@@ -18380,7 +18380,7 @@
         "illustrator": "Fajyobore",
         "img_path": { "jp": "hBP04/hBP04-037_RR.webp", "en": "proxies/hBP04/hBP04-037_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10074",
         "delta_art_index": 0
       },
       {
@@ -18390,7 +18390,7 @@
         "illustrator": "Fajyobore",
         "img_path": { "jp": "hBP04/hBP04-037_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10075",
         "delta_art_index": 1
       },
       {
@@ -18400,7 +18400,7 @@
         "illustrator": "江田藤",
         "img_path": { "jp": "hBP04/hBP04-037_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10076",
         "delta_art_index": 2
       }
     ]
@@ -18453,7 +18453,7 @@
         "illustrator": "　あかさあい",
         "img_path": { "jp": "hBP04/hBP04-038_R.webp", "en": "proxies/hBP04/hBP04-038_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10077",
         "delta_art_index": 0
       },
       {
@@ -18463,7 +18463,7 @@
         "illustrator": "　あかさあい",
         "img_path": { "jp": "hBP04/hBP04-038_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10078",
         "delta_art_index": 1
       }
     ]
@@ -18491,7 +18491,7 @@
         "illustrator": "81",
         "img_path": { "jp": "hBP04/hBP04-039_C.webp", "en": "proxies/hBP04/hBP04-039_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10079",
         "delta_art_index": 0
       }
     ]
@@ -18518,7 +18518,7 @@
         "illustrator": "ああもんど",
         "img_path": { "jp": "hBP04/hBP04-040_C.webp", "en": "proxies/hBP04/hBP04-040_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:49 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10080",
         "delta_art_index": 0
       },
       {
@@ -18528,7 +18528,7 @@
         "illustrator": "ああもんど",
         "img_path": { "jp": "hBP04/hBP04-040_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10081",
         "delta_art_index": 0
       }
     ]
@@ -18564,7 +18564,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-041_U.webp", "en": "proxies/hBP04/hBP04-041_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10082",
         "delta_art_index": 0
       },
       {
@@ -18574,7 +18574,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-041_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10083",
         "delta_art_index": 0
       }
     ]
@@ -18622,7 +18622,7 @@
         "illustrator": "びび",
         "img_path": { "jp": "hBP04/hBP04-042_RR.webp", "en": "proxies/hBP04/hBP04-042_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10084",
         "delta_art_index": 0
       },
       {
@@ -18632,7 +18632,7 @@
         "illustrator": "びび",
         "img_path": { "jp": "hBP04/hBP04-042_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10085",
         "delta_art_index": 1
       },
       {
@@ -18642,7 +18642,7 @@
         "illustrator": "びび",
         "img_path": { "jp": "hBP04/hBP04-042_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10086",
         "delta_art_index": 2
       }
     ]
@@ -18685,7 +18685,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-043_C.webp", "en": "proxies/hBP04/hBP04-043_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10087",
         "delta_art_index": 0
       }
     ]
@@ -18724,7 +18724,7 @@
         "illustrator": "リン☆ユウ",
         "img_path": { "jp": "hBP04/hBP04-044_U.webp", "en": "proxies/hBP04/hBP04-044_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10088",
         "delta_art_index": 0
       },
       {
@@ -18734,7 +18734,7 @@
         "illustrator": "リン☆ユウ",
         "img_path": { "jp": "hBP04/hBP04-044_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10089",
         "delta_art_index": 0
       }
     ]
@@ -18770,7 +18770,7 @@
         "illustrator": "リン☆ユウ",
         "img_path": { "jp": "hBP04/hBP04-045_C.webp", "en": "proxies/hBP04/hBP04-045_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10090",
         "delta_art_index": 0
       },
       {
@@ -18780,7 +18780,7 @@
         "illustrator": "リン☆ユウ",
         "img_path": { "jp": "hBP04/hBP04-045_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10091",
         "delta_art_index": 0
       }
     ]
@@ -18819,7 +18819,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-046_U.webp", "en": "proxies/hBP04/hBP04-046_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10092",
         "delta_art_index": 0
       },
       {
@@ -18829,7 +18829,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-046_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10093",
         "delta_art_index": 0
       }
     ]
@@ -18874,7 +18874,7 @@
         "illustrator": "藤ちょこ",
         "img_path": { "jp": "hBP04/hBP04-047_R.webp", "en": "proxies/hBP04/hBP04-047_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10094",
         "delta_art_index": 0
       },
       {
@@ -18884,7 +18884,7 @@
         "illustrator": "藤ちょこ",
         "img_path": { "jp": "hBP04/hBP04-047_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:06 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10095",
         "delta_art_index": 1
       }
     ]
@@ -18934,7 +18934,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-048_RR.webp", "en": "proxies/hBP04/hBP04-048_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10096",
         "delta_art_index": 0
       },
       {
@@ -18944,7 +18944,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-048_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:05 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10097",
         "delta_art_index": 1
       },
       {
@@ -18954,7 +18954,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-048_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10098",
         "delta_art_index": 2
       }
     ]
@@ -18999,7 +18999,7 @@
         "illustrator": "により",
         "img_path": { "jp": "hBP04/hBP04-049_R.webp", "en": "proxies/hBP04/hBP04-049_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10099",
         "delta_art_index": 0
       },
       {
@@ -19009,7 +19009,7 @@
         "illustrator": "により",
         "img_path": { "jp": "hBP04/hBP04-049_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10100",
         "delta_art_index": 1
       }
     ]
@@ -19037,7 +19037,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-050_C.webp", "en": "proxies/hBP04/hBP04-050_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10101",
         "delta_art_index": 0
       }
     ]
@@ -19075,7 +19075,7 @@
         "illustrator": "marumoru",
         "img_path": { "jp": "hBP04/hBP04-051_C.webp", "en": "proxies/hBP04/hBP04-051_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:56 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10102",
         "delta_art_index": 0
       },
       {
@@ -19085,7 +19085,7 @@
         "illustrator": "marumoru",
         "img_path": { "jp": "hBP04/hBP04-051_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10103",
         "delta_art_index": 0
       }
     ]
@@ -19121,7 +19121,7 @@
         "illustrator": "久坂んむり",
         "img_path": { "jp": "hBP04/hBP04-052_U.webp", "en": "proxies/hBP04/hBP04-052_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10104",
         "delta_art_index": 0
       },
       {
@@ -19131,7 +19131,7 @@
         "illustrator": "久坂んむり",
         "img_path": { "jp": "hBP04/hBP04-052_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10105",
         "delta_art_index": 0
       }
     ]
@@ -19180,7 +19180,7 @@
         "illustrator": "∀ir",
         "img_path": { "jp": "hBP04/hBP04-053_RR.webp", "en": "proxies/hBP04/hBP04-053_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10106",
         "delta_art_index": 0
       },
       {
@@ -19190,7 +19190,7 @@
         "illustrator": "∀ir",
         "img_path": { "jp": "hBP04/hBP04-053_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10107",
         "delta_art_index": 1
       },
       {
@@ -19200,7 +19200,7 @@
         "illustrator": "∀ir",
         "img_path": { "jp": "hBP04/hBP04-053_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10108",
         "delta_art_index": 2
       }
     ]
@@ -19237,7 +19237,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-054_C.webp", "en": "proxies/hBP04/hBP04-054_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10109",
         "delta_art_index": 0
       },
       {
@@ -19247,7 +19247,7 @@
         "illustrator": "ラプラス・ダークネス",
         "img_path": { "jp": "hBP04/hBP04-054_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10110",
         "delta_art_index": 1
       }
     ]
@@ -19294,7 +19294,7 @@
         "illustrator": "TAiGA",
         "img_path": { "jp": "hBP04/hBP04-055_U.webp", "en": "proxies/hBP04/hBP04-055_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10111",
         "delta_art_index": 0
       },
       {
@@ -19304,7 +19304,7 @@
         "illustrator": "TAiGA",
         "img_path": { "jp": "hBP04/hBP04-055_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10112",
         "delta_art_index": 0
       }
     ]
@@ -19343,7 +19343,7 @@
         "illustrator": "三嶋くろね",
         "img_path": { "jp": "hBP04/hBP04-056_C_02.webp", "en": "proxies/hBP04/hBP04-056_C_02.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10113",
         "delta_art_index": 0
       },
       {
@@ -19353,7 +19353,7 @@
         "illustrator": "三嶋くろね",
         "img_path": { "jp": "hBP04/hBP04-056_S_02.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10114",
         "delta_art_index": 0
       }
     ]
@@ -19399,7 +19399,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-057_U.webp", "en": "proxies/hBP04/hBP04-057_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:55 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10115",
         "delta_art_index": 0
       },
       {
@@ -19409,7 +19409,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-057_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10116",
         "delta_art_index": 0
       }
     ]
@@ -19452,7 +19452,7 @@
         "illustrator": "儀式",
         "img_path": { "jp": "hBP04/hBP04-058_R.webp", "en": "proxies/hBP04/hBP04-058_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10117",
         "delta_art_index": 0
       },
       {
@@ -19462,7 +19462,7 @@
         "illustrator": "儀式",
         "img_path": { "jp": "hBP04/hBP04-058_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:08 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10118",
         "delta_art_index": 1
       }
     ]
@@ -19511,7 +19511,7 @@
         "illustrator": "絢芽",
         "img_path": { "jp": "hBP04/hBP04-059_RR.webp", "en": "proxies/hBP04/hBP04-059_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10119",
         "delta_art_index": 0
       },
       {
@@ -19521,7 +19521,7 @@
         "illustrator": "絢芽",
         "img_path": { "jp": "hBP04/hBP04-059_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10120",
         "delta_art_index": 1
       },
       {
@@ -19531,7 +19531,7 @@
         "illustrator": "絢芽",
         "img_path": { "jp": "hBP04/hBP04-059_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10121",
         "delta_art_index": 2
       }
     ]
@@ -19580,7 +19580,7 @@
         "illustrator": "Ameもち",
         "img_path": { "jp": "hBP04/hBP04-060_R.webp", "en": "proxies/hBP04/hBP04-060_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10122",
         "delta_art_index": 0
       },
       {
@@ -19590,7 +19590,7 @@
         "illustrator": "Ameもち",
         "img_path": { "jp": "hBP04/hBP04-060_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10123",
         "delta_art_index": 1
       }
     ]
@@ -19639,7 +19639,7 @@
         "illustrator": "S.M.S",
         "img_path": { "jp": "hBP04/hBP04-061_R.webp", "en": "proxies/hBP04/hBP04-061_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10124",
         "delta_art_index": 0
       },
       {
@@ -19649,7 +19649,7 @@
         "illustrator": "S.M.S",
         "img_path": { "jp": "hBP04/hBP04-061_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10125",
         "delta_art_index": 1
       }
     ]
@@ -19698,7 +19698,7 @@
         "illustrator": "久保田 正輝",
         "img_path": { "jp": "hBP04/hBP04-062_R.webp", "en": "proxies/hBP04/hBP04-062_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10126",
         "delta_art_index": 0
       },
       {
@@ -19708,7 +19708,7 @@
         "illustrator": "久保田 正輝",
         "img_path": { "jp": "hBP04/hBP04-062_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10127",
         "delta_art_index": 1
       }
     ]
@@ -19752,7 +19752,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-063_C.webp", "en": "proxies/hBP04/hBP04-063_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:54 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10128",
         "delta_art_index": 0
       }
     ]
@@ -19780,7 +19780,7 @@
         "illustrator": "北田 藻",
         "img_path": { "jp": "hBP04/hBP04-064_C.webp", "en": "proxies/hBP04/hBP04-064_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10129",
         "delta_art_index": 0
       },
       {
@@ -19790,7 +19790,7 @@
         "illustrator": "北田 藻",
         "img_path": { "jp": "hBP04/hBP04-064_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10130",
         "delta_art_index": 0
       }
     ]
@@ -19838,7 +19838,7 @@
         "illustrator": "久坂んむり",
         "img_path": { "jp": "hBP04/hBP04-065_U.webp", "en": "proxies/hBP04/hBP04-065_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10131",
         "delta_art_index": 0
       },
       {
@@ -19848,7 +19848,7 @@
         "illustrator": "久坂んむり",
         "img_path": { "jp": "hBP04/hBP04-065_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10132",
         "delta_art_index": 0
       }
     ]
@@ -19897,7 +19897,7 @@
         "illustrator": "蓮深ふみ",
         "img_path": { "jp": "hBP04/hBP04-066_RR.webp", "en": "proxies/hBP04/hBP04-066_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10133",
         "delta_art_index": 0
       },
       {
@@ -19907,7 +19907,7 @@
         "illustrator": "蓮深ふみ",
         "img_path": { "jp": "hBP04/hBP04-066_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:09 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10134",
         "delta_art_index": 1
       },
       {
@@ -19917,7 +19917,7 @@
         "illustrator": "蓮深ふみ",
         "img_path": { "jp": "hBP04/hBP04-066_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:10 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10135",
         "delta_art_index": 2
       }
     ]
@@ -19959,7 +19959,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-067_C.webp", "en": "proxies/hBP04/hBP04-067_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10136",
         "delta_art_index": 0
       }
     ]
@@ -19999,7 +19999,7 @@
         "illustrator": "しぐれうい",
         "img_path": { "jp": "hBP04/hBP04-068_U.webp", "en": "proxies/hBP04/hBP04-068_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10137",
         "delta_art_index": 0
       },
       {
@@ -20009,7 +20009,7 @@
         "illustrator": "しぐれうい",
         "img_path": { "jp": "hBP04/hBP04-068_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10138",
         "delta_art_index": 0
       }
     ]
@@ -20040,7 +20040,7 @@
         "illustrator": "しぐれうい",
         "img_path": { "jp": "hBP04/hBP04-069_C.webp", "en": "proxies/hBP04/hBP04-069_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:53 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10139",
         "delta_art_index": 0
       },
       {
@@ -20050,7 +20050,7 @@
         "illustrator": "しぐれうい",
         "img_path": { "jp": "hBP04/hBP04-069_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10140",
         "delta_art_index": 0
       }
     ]
@@ -20090,7 +20090,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-070_U.webp", "en": "proxies/hBP04/hBP04-070_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10141",
         "delta_art_index": 0
       },
       {
@@ -20100,7 +20100,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-070_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10142",
         "delta_art_index": 0
       }
     ]
@@ -20139,7 +20139,7 @@
         "illustrator": "しぐれうい",
         "img_path": { "jp": "hBP04/hBP04-071_R.webp", "en": "proxies/hBP04/hBP04-071_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:52 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10143",
         "delta_art_index": 0
       },
       {
@@ -20149,7 +20149,7 @@
         "illustrator": "しぐれうい",
         "img_path": { "jp": "hBP04/hBP04-071_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10144",
         "delta_art_index": 1
       }
     ]
@@ -20199,7 +20199,7 @@
         "illustrator": "那桜",
         "img_path": { "jp": "hBP04/hBP04-072_RR.webp", "en": "proxies/hBP04/hBP04-072_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10145",
         "delta_art_index": 0
       },
       {
@@ -20209,7 +20209,7 @@
         "illustrator": "那桜",
         "img_path": { "jp": "hBP04/hBP04-072_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10146",
         "delta_art_index": 1
       },
       {
@@ -20219,7 +20219,7 @@
         "illustrator": "那桜",
         "img_path": { "jp": "hBP04/hBP04-072_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10147",
         "delta_art_index": 2
       }
     ]
@@ -20251,7 +20251,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-073_C.webp", "en": "proxies/hBP04/hBP04-073_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10148",
         "delta_art_index": 0
       }
     ]
@@ -20295,7 +20295,7 @@
         "illustrator": "野崎つばた",
         "img_path": { "jp": "hBP04/hBP04-074_U.webp", "en": "proxies/hBP04/hBP04-074_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:01 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10149",
         "delta_art_index": 0
       },
       {
@@ -20305,7 +20305,7 @@
         "illustrator": "野崎つばた",
         "img_path": { "jp": "hBP04/hBP04-074_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10150",
         "delta_art_index": 0
       }
     ]
@@ -20340,7 +20340,7 @@
         "illustrator": "Lowro",
         "img_path": { "jp": "hBP04/hBP04-075_C.webp", "en": "proxies/hBP04/hBP04-075_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10151",
         "delta_art_index": 0
       },
       {
@@ -20350,7 +20350,7 @@
         "illustrator": "Lowro",
         "img_path": { "jp": "hBP04/hBP04-075_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10152",
         "delta_art_index": 0
       }
     ]
@@ -20394,7 +20394,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-076_U.webp", "en": "proxies/hBP04/hBP04-076_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10153",
         "delta_art_index": 0
       },
       {
@@ -20404,7 +20404,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-076_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:14 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10154",
         "delta_art_index": 0
       }
     ]
@@ -20444,7 +20444,7 @@
         "illustrator": "おゆゆ",
         "img_path": { "jp": "hBP04/hBP04-077_R.webp", "en": "proxies/hBP04/hBP04-077_R.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10155",
         "delta_art_index": 0
       },
       {
@@ -20454,7 +20454,7 @@
         "illustrator": "おゆゆ",
         "img_path": { "jp": "hBP04/hBP04-077_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10156",
         "delta_art_index": 1
       }
     ]
@@ -20499,7 +20499,7 @@
         "illustrator": "gaha",
         "img_path": { "jp": "hBP04/hBP04-078_RR.webp", "en": "proxies/hBP04/hBP04-078_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:00 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10157",
         "delta_art_index": 0
       },
       {
@@ -20509,7 +20509,7 @@
         "illustrator": "gaha",
         "img_path": { "jp": "hBP04/hBP04-078_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:11 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10158",
         "delta_art_index": 1
       },
       {
@@ -20519,7 +20519,7 @@
         "illustrator": "gaha",
         "img_path": { "jp": "hBP04/hBP04-078_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10159",
         "delta_art_index": 2
       }
     ]
@@ -20567,7 +20567,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-079_C.webp", "en": "proxies/hBP04/hBP04-079_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10160",
         "delta_art_index": 0
       }
     ]
@@ -20602,7 +20602,7 @@
         "illustrator": "沢城あやほ",
         "img_path": { "jp": "hBP04/hBP04-080_C.webp", "en": "proxies/hBP04/hBP04-080_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10161",
         "delta_art_index": 0
       },
       {
@@ -20612,7 +20612,7 @@
         "illustrator": "沢城あやほ",
         "img_path": { "jp": "hBP04/hBP04-080_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10162",
         "delta_art_index": 0
       }
     ]
@@ -20656,7 +20656,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-081_U.webp", "en": "proxies/hBP04/hBP04-081_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10163",
         "delta_art_index": 0
       },
       {
@@ -20666,7 +20666,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-081_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10164",
         "delta_art_index": 0
       }
     ]
@@ -20715,7 +20715,7 @@
         "illustrator": "ふくよかなクマ",
         "img_path": { "jp": "hBP04/hBP04-082_RR.webp", "en": "proxies/hBP04/hBP04-082_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10165",
         "delta_art_index": 0
       },
       {
@@ -20725,7 +20725,7 @@
         "illustrator": "ふくよかなクマ",
         "img_path": { "jp": "hBP04/hBP04-082_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:12 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10166",
         "delta_art_index": 1
       },
       {
@@ -20735,7 +20735,7 @@
         "illustrator": "ふくよかなクマ",
         "img_path": { "jp": "hBP04/hBP04-082_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10167",
         "delta_art_index": 2
       }
     ]
@@ -20778,7 +20778,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-083_C.webp", "en": "proxies/hBP04/hBP04-083_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10168",
         "delta_art_index": 0
       }
     ]
@@ -20810,7 +20810,7 @@
         "illustrator": "西沢5㍉",
         "img_path": { "jp": "hBP04/hBP04-084_C.webp", "en": "proxies/hBP04/hBP04-084_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:59 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10169",
         "delta_art_index": 0
       },
       {
@@ -20820,7 +20820,7 @@
         "illustrator": "西沢5㍉",
         "img_path": { "jp": "hBP04/hBP04-084_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10170",
         "delta_art_index": 0
       }
     ]
@@ -20865,7 +20865,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-085_U.webp", "en": "proxies/hBP04/hBP04-085_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10171",
         "delta_art_index": 0
       },
       {
@@ -20875,7 +20875,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-085_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10172",
         "delta_art_index": 0
       }
     ]
@@ -20921,7 +20921,7 @@
         "illustrator": "むっちりしいたけ",
         "img_path": { "jp": "hBP04/hBP04-086_RR.webp", "en": "proxies/hBP04/hBP04-086_RR.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10173",
         "delta_art_index": 0
       },
       {
@@ -20931,7 +20931,7 @@
         "illustrator": "むっちりしいたけ",
         "img_path": { "jp": "hBP04/hBP04-086_SR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10174",
         "delta_art_index": 1
       },
       {
@@ -20941,7 +20941,7 @@
         "illustrator": "むっちりしいたけ",
         "img_path": { "jp": "hBP04/hBP04-086_UR.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:13 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10175",
         "delta_art_index": 2
       }
     ]
@@ -20976,7 +20976,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-087_C.webp", "en": "proxies/hBP04/hBP04-087_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10176",
         "delta_art_index": 0
       },
       {
@@ -20986,7 +20986,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-087_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10177",
         "delta_art_index": 0
       }
     ]
@@ -21022,7 +21022,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-088_C.webp", "en": "proxies/hBP04/hBP04-088_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10178",
         "delta_art_index": 0
       },
       {
@@ -21032,7 +21032,7 @@
         "illustrator": "",
         "img_path": { "jp": "hBP04/hBP04-088_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10179",
         "delta_art_index": 0
       }
     ]
@@ -21055,7 +21055,7 @@
         "illustrator": "住咲ゆづな",
         "img_path": { "jp": "hBP04/hBP04-089_U.webp", "en": "proxies/hBP04/hBP04-089_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10180",
         "delta_art_index": 0
       },
       {
@@ -21065,7 +21065,7 @@
         "illustrator": "住咲ゆづな",
         "img_path": { "jp": "hBP04/hBP04-089_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10181",
         "delta_art_index": 0
       }
     ]
@@ -21088,7 +21088,7 @@
         "illustrator": "六九導イツキ",
         "img_path": { "jp": "hBP04/hBP04-090_U.webp", "en": "proxies/hBP04/hBP04-090_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:58 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10182",
         "delta_art_index": 0
       },
       {
@@ -21098,7 +21098,7 @@
         "illustrator": "六九導イツキ",
         "img_path": { "jp": "hBP04/hBP04-090_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10183",
         "delta_art_index": 0
       }
     ]
@@ -21121,7 +21121,7 @@
         "illustrator": "紅緒",
         "img_path": { "jp": "hBP04/hBP04-091_U.webp", "en": "proxies/hBP04/hBP04-091_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10184",
         "delta_art_index": 0
       },
       {
@@ -21131,7 +21131,7 @@
         "illustrator": "Photo by 一条莉々華",
         "img_path": { "jp": "hBP04/hBP04-091_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10185",
         "delta_art_index": 1
       }
     ]
@@ -21154,7 +21154,7 @@
         "illustrator": "あやせりん",
         "img_path": { "jp": "hBP04/hBP04-092_U.webp", "en": "proxies/hBP04/hBP04-092_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10186",
         "delta_art_index": 0
       },
       {
@@ -21164,7 +21164,7 @@
         "illustrator": "あやせりん",
         "img_path": { "jp": "hBP04/hBP04-092_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10187",
         "delta_art_index": 0
       }
     ]
@@ -21187,7 +21187,7 @@
         "illustrator": "成海七海",
         "img_path": { "jp": "hBP04/hBP04-093_U.webp", "en": "proxies/hBP04/hBP04-093_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10188",
         "delta_art_index": 0
       },
       {
@@ -21197,7 +21197,7 @@
         "illustrator": "成海七海",
         "img_path": { "jp": "hBP04/hBP04-093_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10189",
         "delta_art_index": 0
       }
     ]
@@ -21220,7 +21220,7 @@
         "illustrator": "ばかくん三世",
         "img_path": { "jp": "hBP04/hBP04-094_U.webp", "en": "proxies/hBP04/hBP04-094_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10190",
         "delta_art_index": 0
       },
       {
@@ -21230,7 +21230,7 @@
         "illustrator": "ばかくん三世",
         "img_path": { "jp": "hBP04/hBP04-094_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10191",
         "delta_art_index": 0
       }
     ]
@@ -21253,7 +21253,7 @@
         "illustrator": "さかなへん",
         "img_path": { "jp": "hBP04/hBP04-095_U.webp", "en": "proxies/hBP04/hBP04-095_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10192",
         "delta_art_index": 0
       },
       {
@@ -21263,7 +21263,7 @@
         "illustrator": "さかなへん",
         "img_path": { "jp": "hBP04/hBP04-095_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10193",
         "delta_art_index": 0
       }
     ]
@@ -21286,7 +21286,7 @@
         "illustrator": "chyan",
         "img_path": { "jp": "hBP04/hBP04-096_U.webp", "en": "proxies/hBP04/hBP04-096_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:57 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10194",
         "delta_art_index": 0
       },
       {
@@ -21296,7 +21296,7 @@
         "illustrator": "chyan",
         "img_path": { "jp": "hBP04/hBP04-096_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:47 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10195",
         "delta_art_index": 0
       }
     ]
@@ -21319,7 +21319,7 @@
         "illustrator": "古弥月",
         "img_path": { "jp": "hBP04/hBP04-097_U.webp", "en": "proxies/hBP04/hBP04-097_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10196",
         "delta_art_index": 0
       },
       {
@@ -21329,7 +21329,7 @@
         "illustrator": "古弥月",
         "img_path": { "jp": "hBP04/hBP04-097_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:33:48 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10197",
         "delta_art_index": 0
       }
     ]
@@ -21352,7 +21352,7 @@
         "illustrator": "わにたろー。",
         "img_path": { "jp": "hBP04/hBP04-098_U.webp", "en": "proxies/hBP04/hBP04-098_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10198",
         "delta_art_index": 0
       },
       {
@@ -21362,7 +21362,7 @@
         "illustrator": "わにたろー。",
         "img_path": { "jp": "hBP04/hBP04-098_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10199",
         "delta_art_index": 0
       }
     ]
@@ -21384,7 +21384,7 @@
         "illustrator": "BISAI",
         "img_path": { "jp": "hBP04/hBP04-099_U.webp", "en": "proxies/hBP04/hBP04-099_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10200",
         "delta_art_index": 0
       },
       {
@@ -21394,7 +21394,7 @@
         "illustrator": "BISAI",
         "img_path": { "jp": "hBP04/hBP04-099_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10201",
         "delta_art_index": 0
       }
     ]
@@ -21417,7 +21417,7 @@
         "illustrator": "はずき",
         "img_path": { "jp": "hBP04/hBP04-100_C.webp", "en": "proxies/hBP04/hBP04-100_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10202",
         "delta_art_index": 0
       },
       {
@@ -21427,7 +21427,7 @@
         "illustrator": "はずき",
         "img_path": { "jp": "hBP04/hBP04-100_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10203",
         "delta_art_index": 0
       }
     ]
@@ -21449,7 +21449,7 @@
         "illustrator": "JinArt いじゅういん",
         "img_path": { "jp": "hBP04/hBP04-101_C.webp", "en": "proxies/hBP04/hBP04-101_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10204",
         "delta_art_index": 0
       },
       {
@@ -21459,7 +21459,7 @@
         "illustrator": "JinArt いじゅういん",
         "img_path": { "jp": "hBP04/hBP04-101_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10205",
         "delta_art_index": 0
       }
     ]
@@ -21481,7 +21481,7 @@
         "illustrator": "JinArt すぎもと",
         "img_path": { "jp": "hBP04/hBP04-102_C.webp", "en": "proxies/hBP04/hBP04-102_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:04 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10206",
         "delta_art_index": 0
       },
       {
@@ -21491,7 +21491,7 @@
         "illustrator": "JinArt すぎもと",
         "img_path": { "jp": "hBP04/hBP04-102_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:15 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10207",
         "delta_art_index": 0
       }
     ]
@@ -21513,7 +21513,7 @@
         "illustrator": "はずき",
         "img_path": { "jp": "hBP04/hBP04-103_C.webp", "en": "proxies/hBP04/hBP04-103_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10208",
         "delta_art_index": 0
       },
       {
@@ -21523,7 +21523,7 @@
         "illustrator": "はずき",
         "img_path": { "jp": "hBP04/hBP04-103_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10209",
         "delta_art_index": 0
       }
     ]
@@ -21545,7 +21545,7 @@
         "illustrator": "JinArt かばくら",
         "img_path": { "jp": "hBP04/hBP04-104_C.webp", "en": "proxies/hBP04/hBP04-104_C.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10210",
         "delta_art_index": 0
       },
       {
@@ -21555,7 +21555,7 @@
         "illustrator": "JinArt かばくら",
         "img_path": { "jp": "hBP04/hBP04-104_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10211",
         "delta_art_index": 0
       }
     ]
@@ -21578,7 +21578,7 @@
         "illustrator": "はずき",
         "img_path": { "jp": "hBP04/hBP04-105_U.webp", "en": "proxies/hBP04/hBP04-105_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10212",
         "delta_art_index": 0
       },
       {
@@ -21588,7 +21588,7 @@
         "illustrator": "茶椿",
         "img_path": { "jp": "hBP04/hBP04-105_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10213",
         "delta_art_index": 1
       }
     ]
@@ -21610,7 +21610,7 @@
         "illustrator": "JinArt こばやかわやまと",
         "img_path": { "jp": "hBP04/hBP04-106_U.webp", "en": "proxies/hBP04/hBP04-106_U.webp" },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10214",
         "delta_art_index": 0
       },
       {
@@ -21620,7 +21620,7 @@
         "illustrator": "JinArt こばやかわやまと",
         "img_path": { "jp": "hBP04/hBP04-106_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10215",
         "delta_art_index": 0
       }
     ]
@@ -22401,7 +22401,7 @@
         "illustrator": "こまいぬ",
         "img_path": { "jp": "hBP04/hSD01-017_02_C.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:03 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10218",
         "delta_art_index": 1
       },
       {
@@ -22411,7 +22411,7 @@
         "illustrator": "こまいぬ",
         "img_path": { "jp": "hBP04/hSD01-017_02_S.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10219",
         "delta_art_index": 1
       }
     ]
@@ -22464,7 +22464,7 @@
     "card_type": { "support": "item" },
     "limited": true,
     "text": {
-      "jp": "このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+      "jp": "このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "To play this card, you must archive one of your cheers in play.\n\nReveal a 1st Bloom or 2nd Bloom holomem from your deck (excluding Buzz holomem) and put it into your hand. Then shuffle your deck."
     },
     "max_amount": 4,
@@ -25335,7 +25335,7 @@
         "type": "collab",
         "name": { "jp": "大切な仲間たちと", "en": "With my precious friends" },
         "text": {
-          "jp": "自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの[〈尾丸ポルカ〉か〈さくらみこ〉か〈星街すいせい〉か〈白銀ノエル〉]1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。",
+          "jp": "自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの[〈尾丸ポルカ〉か〈さくらみこ〉か〈星街すいせい〉か〈白銀ノエル〉]1枚を公開できる：公開したホロメンをステージに出す。そしてデッキをシャッフルする。",
           "en": "If there are 5 or fewer holomem on your stage, you may reveal 1 Debut Omaru Polka, Sakura Miko, Hoshimachi Suisei, or Shirogane Noel from your deck and put it onto your stage. Then shuffle your deck."
         }
       }
@@ -25996,7 +25996,7 @@
         "illustrator": "リズ",
         "img_path": { "jp": "hBP04/hY01-006_SY.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:16 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10027",
         "delta_art_index": 0
       }
     ]
@@ -26111,7 +26111,7 @@
         "illustrator": "リズ",
         "img_path": { "jp": "hBP04/hY02-005_SY.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10028",
         "delta_art_index": 0
       }
     ]
@@ -26203,7 +26203,7 @@
         "illustrator": "リズ",
         "img_path": { "jp": "hBP04/hY03-004_SY.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10029",
         "delta_art_index": 0
       }
     ]
@@ -26410,7 +26410,7 @@
         "illustrator": "リズ",
         "img_path": { "jp": "hBP04/hY04-005_SY.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10030",
         "delta_art_index": 0
       }
     ]
@@ -26502,7 +26502,7 @@
         "illustrator": "リズ",
         "img_path": { "jp": "hBP04/hY05-004_SY.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10031",
         "delta_art_index": 0
       }
     ]
@@ -26594,7 +26594,7 @@
         "illustrator": "リズ",
         "img_path": { "jp": "hBP04/hY06-004_SY.webp", "en": null },
         "img_last_modified": "Tue, 10 Jun 2025 06:34:17 GMT",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10032",
         "delta_art_index": 0
       }
     ]
