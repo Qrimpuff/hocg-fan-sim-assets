@@ -24234,23 +24234,23 @@
     "card_number": "hSD05-001",
     "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
     "card_type": "oshi_holomem",
-    "colors": [ "white" ],
+    "colors": [ "green" ],
     "life": 5,
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": "ホワイトマイク", "en": "White Mic" },
+        "name": { "jp": "グリーンマイク", "en": "White Mic" },
         "text": {
-          "jp": "[ターンに1回]このターンの間、自分の白センターホロメンのアーツ+20。",
+          "jp": "[ターンに1回]このターンの間、自分の緑センターホロメンのアーツ+20。",
           "en": "[1/Turn] If your center holomem is white, their arts gain +20 power until the end of this turn."
         }
       },
       {
         "special": true,
         "holo_power": 1,
-        "name": { "jp": "クイックガード", "en": "Quick Guard" },
+        "name": { "jp": "みんな頑張ろー！", "en": "Quick Guard" },
         "text": {
-          "jp": "[ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン1人が受けるダメージ-20。",
+          "jp": "[ゲームに1回]自分の緑ホロメン全員のHP20回復。",
           "en": "[1/Game] Usable if one of your white holomem is about to take damage during your opponent's turn: Reduce that damage by 20."
         }
       }
