@@ -197,6 +197,18 @@ pub mod decklog {
                                         dl_card.img = dl_card.img.replace(".png", ".webp");
                                     }
 
+                                    // if the card number is empty, skip it
+                                    if dl_card.card_number.is_empty()
+                                        || dl_card.card_number == "null"
+                                    {
+                                        continue;
+                                    }
+
+                                    // fix Kazama Iroha oshi card number (deck log has a bug)
+                                    if dl_card.manage_id == Some(532) {
+                                        dl_card.card_number = "hSD06-001".into();
+                                    }
+
                                     // remove the old manage_id if it exists
                                     all_cards
                                         .write()
@@ -913,8 +925,10 @@ pub mod ogbajoj {
 
         fn tags(&self) -> Vec<String> {
             self.tags
-                .split_whitespace()
-                .map(|s| s.trim().to_string())
+                .split('#')
+                .map(|s| s.trim())
+                .filter(|s| !s.is_empty())
+                .map(|s| format!("#{s}"))
                 .collect()
         }
     }
@@ -1412,28 +1426,14 @@ pub mod hololive_official {
         card.arts = arts;
     }
 
-    fn update_card_illustrations(card: &mut Card, hololive_card: &scraper::ElementRef, url: &str) {
+    fn update_card_illustrations(card: &mut Card, card_url: Url, card_id: &str) {
         static ILLUSTRATOR: OnceLock<Selector> = OnceLock::new();
         let illustrator = ILLUSTRATOR.get_or_init(|| Selector::parse(".ill-name span").unwrap());
 
-        let card_number = &card.card_number;
-
-        // need to go to the detailed page
-        let Some(card_url) = hololive_card.attr("href") else {
-            eprintln!("Card url not found for {card_number:?}");
-            return;
-        };
-
-        let card_url = Url::parse(url).unwrap().join(card_url).unwrap();
-
-        let Some((_, id)) = card_url.query_pairs().into_owned().find(|(k, _)| k == "id") else {
-            eprintln!("Card id not found for {card_number:?}");
-            return;
-        };
         if let Some(illust) = card
             .illustrations
             .iter_mut()
-            .find(|i| i.manage_id == id.parse().ok() && i.illustrator.is_none())
+            .find(|i| i.manage_id == card_id.parse().ok() && i.illustrator.is_none())
         {
             let resp = http_client().get(card_url).send().unwrap();
             let content = resp.text().unwrap();
@@ -1503,7 +1503,7 @@ pub mod hololive_official {
                     let mut page_updated_count = 0;
 
                     for hololive_card in document.select(cards) {
-                        let Some(card_number) = hololive_card
+                        let Some(mut card_number) = hololive_card
                             .select(card_number)
                             .next()
                             .map(|c| c.text().collect::<String>())
@@ -1511,6 +1511,24 @@ pub mod hololive_official {
                             println!("Card number not found");
                             continue;
                         };
+
+                        // need to go to the detailed page
+                        let Some(card_url) = hololive_card.attr("href") else {
+                            eprintln!("Card url not found for {card_number:?}");
+                            continue;
+                        };
+                        let card_url = Url::parse(url).unwrap().join(card_url).unwrap();
+                        let Some((_, card_id)) =
+                            card_url.query_pairs().into_owned().find(|(k, _)| k == "id")
+                        else {
+                            eprintln!("Card id not found for {card_number:?}");
+                            continue;
+                        };
+
+                        // fix Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
+                        if &card_id == "532" {
+                            card_number = "hSD06-001".into();
+                        }
 
                         let _all_cards = all_cards.read();
                         let Some(card) = _all_cards.get(&card_number) else {
@@ -1524,7 +1542,7 @@ pub mod hololive_official {
                         update_card_oshi_skills(&mut card, &hololive_card);
                         update_card_keywords(&mut card, &hololive_card);
                         update_card_arts(&mut card, &hololive_card);
-                        update_card_illustrations(&mut card, &hololive_card, url);
+                        update_card_illustrations(&mut card, card_url, &card_id);
 
                         let mut _all_cards = all_cards.write();
                         _all_cards.insert(card_number, card);
