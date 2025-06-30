@@ -1273,7 +1273,7 @@
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "このアーツで相手のホロメンをダウンさせた時、与えたダメージが残りHPを50以上オーバーしていれば、相手のライフ-１。",
-          "en": "If this art downs a holomem, and if this art dealt at least 50 more damage than that holomem's remaining HP, your opponent takes 1 additional Life Damage."
+          "en": "If this Arts downs a holomem, and if this Arts dealt at least 50 more damage than that holomem's remaining HP, your opponent takes 1 additional Life Damage."
         }
       }
     ],
@@ -1703,7 +1703,7 @@
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "サイコロを１回振れる：奇数の時、同じホロメンに、このアーツをもう１回使う（このアーツはそのホロメンがダウンするまで繰り返せる）。",
-          "en": "You may roll a dice once:If it is odd, repeat this art targeting the same holomem. (This art may repeat until that holomem is downed)"
+          "en": "You may roll a dice once:If it is odd, repeat this Arts targeting the same holomem. (This Arts may repeat until that holomem is downed)"
         }
       }
     ],
