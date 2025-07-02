@@ -684,7 +684,7 @@
         "name": { "jp": "文明の守護者", "en": "Guardian of Civilization" },
         "text": {
           "jp": "[ターンに１回]相手のターンで、自分の#Promiseを持つホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-50。",
-          "en": "[1/Turn] Usable if your holomem with #Promise is about to take damage during your opponent's turn: Reduce that damage by 50."
+          "en": "[1/Turn] Usable if your holomem with #Promise is about to take damage during your opponent's turn:Reduce that damage by 50."
         }
       },
       {
@@ -782,7 +782,7 @@
         "name": { "jp": "野兎たち～", "en": "Nousagis~" },
         "text": {
           "jp": "[ターンに１回]相手のターンで、自分のホロメンがダウンした時に使える：自分のダウンしたホロメン１人の緑エールすべてを、自分の他のホロメンに割り振って付け替える。",
-          "en": "[1/Turn] Usable if your holomem is downed during your opponent's turn: Move all green cheers from that holomem between your other holomem in any way you like."
+          "en": "[1/Turn] Usable if your holomem is downed during your opponent's turn:Move all Green cheers from that holomem between your other holomem in any way you like."
         }
       },
       {
@@ -841,7 +841,7 @@
         "name": { "jp": "女幹部の采配", "en": "Executive's Orders" },
         "text": {
           "jp": "[ターンに１回]自分の赤ホロメンの能力で手札をアーカイブする時に使える：アーカイブする手札1枚につき自分のホロパワー1枚を、かわりにアーカイブできる。",
-          "en": "[1/Turn] Usable if you use a red holomem's ability or arts that archives cards from your hand: You may choose to archive any number of them from your holo Power instead of your hand."
+          "en": "[1/Turn] Usable if you use a red holomem's ability or arts that archives cards from your hand:You may choose to archive any number of them from your holo Power instead of your hand."
         }
       },
       {
@@ -899,7 +899,7 @@
         "name": { "jp": "Rise from the ashes", "en": "Rise from the Ashes" },
         "text": {
           "jp": "[ゲームに１回]相手のターンで、自分の赤ホロメンがダウンした時に使える：自分の減るライフ-１。さらに、ダウンした１人を選び、そのホロメンを含め重なっているホロメンすべてを手札に戻す。",
-          "en": "[1/Game] Usable if your red holomem is downed during your opponent's turn: You take -1 Life Damage. Then, choose 1 downed card, and return all of the stacked holomem including that holomem to hand."
+          "en": "[1/Game] Usable if your red holomem is downed during your opponent's turn:You take -1 Life Damage. Then, choose 1 downed card, and return all of the stacked holomem including that holomem to hand."
         }
       }
     ],
@@ -949,7 +949,7 @@
         "name": { "jp": "ほうき星", "en": "comet" },
         "text": {
           "jp": "[ターンに１回]この推しホロメンか自分の青ホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン１人に特殊ダメージ50を与える。",
-          "en": "[1/Turn] Usable if your blue holomem, or this Oshi holomem, deals damage to your opponent's back holomem: Deal 50 Special Damage to the same holomem."
+          "en": "[1/Turn] Usable if your blue holomem, or this Oshi holomem, deals damage to your opponent's back holomem:Deal 50 Special Damage to the same holomem."
         }
       },
       {
@@ -958,7 +958,7 @@
         "name": { "jp": "シューティングスター", "en": "Shooting Star" },
         "text": {
           "jp": "[ゲームに１回]自分の青ホロメンが相手のセンターホロメンかコラボホロメンにダメージを与えた時に使える：相手のバックホロメン１人にそれと同じ数値の特殊ダメージを与える。",
-          "en": "[1/Game] Usable if your blue holomem deals damage to your opponent's center or collab holomem: Deal an equal amount of Special Damage to 1 of your opponent's back holomem."
+          "en": "[1/Game] Usable if your blue holomem deals damage to your opponent's center or collab holomem:Deal an equal amount of Special Damage to 1 of your opponent's back holomem."
         }
       }
     ],
@@ -1008,7 +1008,7 @@
         "name": { "jp": "レイン・シャーマニズム", "en": "Rain Shamanism" },
         "text": {
           "jp": "[ターンに１回]自分の青ホロメンの能力でエールをアーカイブした時に使える：相手のホロメン１人に特殊ダメージ20を与える。",
-          "en": "[1/Turn] Usable if you archive cheer using your blue holomem's abilities or arts: Deal 20 Special Damage to 1 of your opponent's holomem."
+          "en": "[1/Turn] Usable if you archive cheer using your blue holomem's abilities or arts:Deal 20 Special Damage to 1 of your opponent's holomem."
         }
       },
       {
@@ -1447,7 +1447,7 @@
         "power": "20+",
         "text": {
           "jp": "自分のデッキの上から１枚を公開できる：公開したカードが#Promiseを持つ時、このアーツ+20。そして公開したカードを手札に加える。",
-          "en": "You may reveal the top card of your deck. If that card has #Promise, this Arts gets +20. Then put that card into your hand."
+          "en": "You may reveal the top card of your deck:If it has #Promise, this Arts gets +20. Then put that card into your hand."
         }
       }
     ],
@@ -3388,7 +3388,7 @@
         "power": "50",
         "text": {
           "jp": "自分の手札１枚をアーカイブできる：自分のデッキから、Buzz以外の１stホロメン１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may archive 1 card from your hand: Reveal one 1st Bloom holomem (excluding Buzz holomem) from your deck and put it into your hand. Then shuffle your deck."
+          "en": "You may archive 1 card from your hand:Reveal one 1st Bloom holomem (excluding Buzz holomem) from your deck and put it into your hand. Then shuffle your deck."
         }
       }
     ],
@@ -3426,7 +3426,7 @@
         "name": { "jp": "本当にみんなのおかげ！！", "en": "It's all thanks to everyone!" },
         "text": {
           "jp": "DebutからBloomした時、自分の手札１枚をアーカイブできる：自分のデッキを２枚引く。",
-          "en": "If this has Bloomed from a Debut holomem, you may archive 1 card from your hand: Draw 2 cards from your deck."
+          "en": "If this has Bloomed from a Debut holomem, you may archive 1 card from your hand:Draw 2 cards from your deck."
         }
       }
     ],
@@ -3493,7 +3493,7 @@
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "自分の手札１～５枚をアーカイブできる：相手のセンターホロメンかコラボホロメンどちらかに、アーカイブしたカード１枚につき特殊ダメージ20を与える。",
-          "en": "You may archive 1-5 cards from your hand: Deal 20 Special Damage for each card archived to your opponent's center or collab holomem."
+          "en": "You may archive 1-5 cards from your hand:Deal 20 Special Damage for each card archived to your opponent's center or collab holomem."
         }
       }
     ],
@@ -3542,7 +3542,7 @@
         "power": "20+",
         "text": {
           "jp": "自分の手札１枚をアーカイブできる：このアーツ+20。",
-          "en": "You may archive 1 card from your hand: This Arts gets +20."
+          "en": "You may archive 1 card from your hand:This Arts gets +20."
         }
       }
     ],
@@ -3589,7 +3589,7 @@
         "name": { "jp": "きわわの魔法", "en": "Kiwawa Magic" },
         "text": {
           "jp": "自分のセンターホロメンが#トリを持つ時、自分の手札１枚をアーカイブできる：自分のデッキから、マスコット１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If your center holomem has #Bird, you may archive 1 card from your hand: Reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck."
+          "en": "If your center holomem has #Bird, you may archive 1 card from your hand:Reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck."
         }
       }
     ],
@@ -3700,7 +3700,7 @@
         "power": "40",
         "text": {
           "jp": "このホロメンに重なっているホロメン１枚をアーカイブできる：相手のコラボホロメンに特殊ダメージ40を与える。",
-          "en": "You may archive 1 holomem stacked under this one: Deal 40 Special Damage to your opponent's collab holomem."
+          "en": "You may archive 1 holomem stacked under this one:Deal 40 Special Damage to your opponent's collab holomem."
         }
       }
     ],
@@ -3872,7 +3872,7 @@
         "power": "70",
         "text": {
           "jp": "このアーツは、このホロメンに〈座員〉が付いていないと使えない。",
-          "en": "This art cannot be used unless at least one Zain is attached to this holomem."
+          "en": "This Arts cannot be used unless at least one Zain is attached to this holomem."
         }
       }
     ],
@@ -4064,7 +4064,7 @@
         "name": { "jp": "ネズミアイドルがいよいよ登場！", "en": "Rat Idol is finally here!" },
         "text": {
           "jp": "DebutからBloomした時、自分のアーカイブの[Debutホロメンか1stホロメン]１枚を手札に戻せる：戻したカードが#ENを持つ時、相手のコラボホロメンに特殊ダメージ20を与える。",
-          "en": "If this has Bloomed from a Debut holomem, you may return 1 Debut or 1st Bloom holomem from your archive to hand. If that holomem has #EN, deal 20 Special Damage to your opponent's collab holomem."
+          "en": "If this has Bloomed from a Debut holomem, you may return 1 Debut or 1st Bloom holomem from your archive to hand:If it has #EN, deal 20 Special Damage to your opponent's collab holomem."
         }
       }
     ],
@@ -4231,7 +4231,7 @@
         "name": { "jp": "煌きのワードローブ", "en": "Dazzling wardrobe" },
         "text": {
           "jp": "自分の推しホロメンが〈星街すいせい〉の時、このホロメンの青エール１枚をアーカイブできる：自分のデッキを２枚引く。",
-          "en": "If your Oshi holomem is Hoshimachi Suisei, you may archive 1 blue cheer from this holomem: Draw 2 cards from your deck."
+          "en": "If your Oshi holomem is Hoshimachi Suisei, you may archive 1 blue cheer from this holomem:Draw 2 cards from your deck."
         }
       }
     ],
@@ -4414,7 +4414,7 @@
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "このホロメンの青エール2枚をアーカイブできる：このホロメンに重なっているホロメン1枚につき、このアーツ+60（このアーツは相手のバックホロメンも対象にできる）。",
-          "en": "You may archive 2 blue cheers from this holomem: For each holomem stacked under this one, this Arts gets +60, and this art may target your opponent's back holomem."
+          "en": "You may archive 2 blue cheers from this holomem:For each holomem stacked under this one, this Arts gets +60, and this Arts may target your opponent's back holomem."
         }
       }
     ],
@@ -4598,7 +4598,7 @@
         "name": { "jp": "バーチャルマーケティング", "en": "Virtual Marketing" },
         "text": {
           "jp": "自分の#IDを持つホロメンのエール１枚をアーカイブできる：相手のバックホロメン全員に特殊ダメージ10を与える（ダウンしても相手のライフは減らない）。",
-          "en": "You may archive 1 cheer from 1 of your holomem with #ID: Deal 10 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
+          "en": "You may archive 1 cheer from 1 of your holomem with #ID:Deal 10 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
         }
       }
     ],
@@ -4644,7 +4644,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このホロメンのエール１枚をアーカイブできる：相手のバックホロメン全員に特殊ダメージ20を与える（ダウンしても相手のライフは減らない）。",
-          "en": "You may archive 1 cheer from this holomem: Deal 20 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
+          "en": "You may archive 1 cheer from this holomem:Deal 20 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
         }
       },
       {
@@ -4654,7 +4654,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このホロメンのエール２枚をアーカイブできる：相手のセンターホロメンに、相手のバックホロメン全員が受けているダメージの合計数と同じ数値の特殊ダメージを与える。",
-          "en": "You may archive 2 cheers from this holomem: Deal Special Damage to your opponent's center holomem equal to the total amount of damage currently on their back holomem."
+          "en": "You may archive 2 cheers from this holomem:Deal Special Damage to your opponent's center holomem equal to the total amount of damage currently on their back holomem."
         }
       }
     ],
@@ -4840,7 +4840,7 @@
         "power": "80",
         "text": {
           "jp": "このホロメンの[緑エールか青エール]１枚をアーカイブできる：相手のバックホロメン１人に特殊ダメージ30を与える。",
-          "en": "You may archive 1 green cheer or blue cheer from this holomem: Deal 30 Special Damage to 1 of your opponent's back holomem."
+          "en": "You may archive 1 green cheer or blue cheer from this holomem:Deal 30 Special Damage to 1 of your opponent's back holomem."
         }
       }
     ],
@@ -5857,7 +5857,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンが付いているホロメンが能力でサイコロを振った時、このファンをアーカイブできる：そのサイコロの結果をすべて無くし、はじめからサイコロを振り直す。\n\nこのファンは、自分の〈兎田ぺこら〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "When you roll dice as part of the abilities or Arts of the holomem with this Fan attached, you may archive this Fan: Re-roll all dice rolled as part of that ability.\n\nThis Fan may only be attached to your Usada Pekora, and you may attach any number of this Fan to 1 holomem."
+      "en": "When you roll dice as part of the abilities or Arts of the holomem with this Fan attached, you may archive this Fan:Re-roll all dice rolled as part of that ability.\n\nThis Fan may only be attached to your Usada Pekora, and you may attach any number of this Fan to 1 holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -5901,7 +5901,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンをホロメンに手札から付けた時、自分の手札１枚をアーカイブできる：自分のデッキを１枚引く。\n\nこのファンは、自分の〈小鳥遊キアラ〉だけに付けられ、１人につき何枚でも付けられる。",
-      "en": "When you attach this Fan from your hand to a holomem, you may archive 1 card from your hand: Draw 1 card from your deck.\n\nThis Fan may only be attached to your Takanashi Kiara, and you may attach any number of this Fan to 1 holomem."
+      "en": "When you attach this Fan from your hand to a holomem, you may archive 1 card from your hand:Draw 1 card from your deck.\n\nThis Fan may only be attached to your Takanashi Kiara, and you may attach any number of this Fan to 1 holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -5970,7 +5970,7 @@
         "name": { "jp": "フブキングダム", "en": "Fubukingdom" },
         "text": {
           "jp": "[ゲームに1回]自分の白ホロメンが相手のホロメンをダウンさせた時、自分のステージのマスコット2枚につき、サイコロを1回振れる：奇数が1回以上出たなら、相手のライフ-1。",
-          "en": "[1/Game] Usable if your white holomem downs your opponent's holomem: You may roll a dice once for each 2 Mascots attached to your holomem:If it is odd at least once, your opponent takes 1 Life Damage."
+          "en": "[1/Game] Usable if your white holomem downs your opponent's holomem:You may roll a dice once for each 2 Mascots attached to your holomem:If it is odd at least once, your opponent takes 1 Life Damage."
         }
       }
     ],
@@ -6128,7 +6128,7 @@
         "name": { "jp": "ぽえぽえぽえ～", "en": "poepoepoe~" },
         "text": {
           "jp": "[ターンに1回]自分のセンターホロメンが〈沙花叉クロヱ〉の時に使える：自分のデッキの上から3枚を見る。そのカードすべてを、アーカイブするか、好きな順でデッキの上に戻す。",
-          "en": "[1/Turn] Usable if your center holomem is Sakamata Chloe: Look at the top 3 cards of your deck. You may archive all 3 cards, or return them to the top of your deck in any order."
+          "en": "[1/Turn] Usable if your center holomem is Sakamata Chloe:Look at the top 3 cards of your deck. You may archive all 3 cards, or return them to the top of your deck in any order."
         }
       },
       {
@@ -6187,7 +6187,7 @@
         "name": { "jp": "ねえ゛え゛え゛え゛え゛え゛え゛", "en": "Neeeeeee" },
         "text": {
           "jp": "[ターンに1回]自分の〈紫咲シオン〉の能力でサイコロを振った時に使える：サイコロを1回振り直す。",
-          "en": "[1/Turn] Usable if you roll dice as part of the ability or Arts of your Murasaki Shion: Re-roll all dice rolled as part of that ability."
+          "en": "[1/Turn] Usable if you roll dice as part of the ability or Arts of your Murasaki Shion:Re-roll all dice rolled as part of that ability."
         }
       },
       {
@@ -6196,7 +6196,7 @@
         "name": { "jp": "シオンのすごい魔法", "en": "Shion's Amazing Magic" },
         "text": {
           "jp": "[ゲームに1回]自分の紫センターホロメンがアーツを使った時に使える：相手のセンターホロメンに、相手のセンターホロメンのエール1枚につき、特殊ダメージ50を与える。",
-          "en": "[1/Game] Usable if your purple center holomem uses Arts: For each cheer attached to your opponent's center holomem, deal 50 Special Damage to your opponent's center holomem."
+          "en": "[1/Game] Usable if your purple center holomem uses Arts:For each cheer attached to your opponent's center holomem, deal 50 Special Damage to your opponent's center holomem."
         }
       }
     ],
@@ -6294,7 +6294,7 @@
         "name": { "jp": "死神ラップ", "en": "Shinigami Rap" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが〈森カリオペ〉の時に使える：このターンの間、自分の〈森カリオペ〉1人は、アーツを使った後、同じアーツをもう1回使う。",
-          "en": "[1/Game] Usable if your center holomem is Mori Calliope: During this turn, after using Arts, one of your Mori Calliope repeats that Arts once."
+          "en": "[1/Game] Usable if your center holomem is Mori Calliope:During this turn, after using Arts, one of your Mori Calliope repeats that Arts once."
         }
       }
     ],
@@ -7378,7 +7378,7 @@
         "power": "60+",
         "text": {
           "jp": "自分のデッキの上から1枚をアーカイブできる：アーカイブしたカードが、ホロメンの時、このアーツ+20。サポートカードの時、このアーツ+50。",
-          "en": "You may archive the top card of your deck. If it's a holomem, this Arts gets +20. If it's a Support card, this Arts gets +50."
+          "en": "You may archive the top card of your deck:If it's a holomem, this Arts gets +20. If it's a Support card, this Arts gets +50."
         }
       }
     ],
@@ -8065,7 +8065,7 @@
         "power": "20+",
         "text": {
           "jp": "自分のデッキの上から3枚を公開できる：公開したホロメン1枚につき、このアーツ+20。そして公開したカードをアーカイブする。",
-          "en": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Arts gets +20. Then archive the revealed cards."
+          "en": "You may reveal the top 3 cards of your deck:For each holomem revealed, this Arts gets +20. Then archive the revealed cards."
         }
       }
     ],
@@ -8124,7 +8124,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分のデッキの上から3枚を公開できる：公開したホロメン1枚につき、このアーツ+20。そして公開したカードをアーカイブする。",
-          "en": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Arts gets +20. Then archive the revealed cards."
+          "en": "You may reveal the top 3 cards of your deck:For each holomem revealed, this Arts gets +20. Then archive the revealed cards."
         }
       }
     ],
@@ -8193,7 +8193,7 @@
         "power": "50",
         "text": {
           "jp": "このホロメンの青エール1枚をアーカイブできる：相手のセンターホロメンとバックホロメン1人に特殊ダメージ20を与える。",
-          "en": "You may archive 1 blue cheer from this holomem: Deal 20 Special Damage to your opponent's center holomem and 1 of their back holomem."
+          "en": "You may archive 1 blue cheer from this holomem:Deal 20 Special Damage to your opponent's center holomem and 1 of their back holomem."
         }
       }
     ],
@@ -8433,7 +8433,7 @@
         "name": { "jp": "入れ替えの魔法", "en": "Replacement Magic" },
         "text": {
           "jp": "自分の手札1枚をアーカイブできる：自分のアーカイブの#魔法を持つカード1枚を手札に戻す。",
-          "en": "You may archive 1 card from your hand: Return 1 card with #Magic from your archive to hand."
+          "en": "You may archive 1 card from your hand:Return 1 card with #Magic from your archive to hand."
         }
       }
     ],
@@ -8815,7 +8815,7 @@
         "name": { "jp": "蘇りしゾンビ", "en": "Resurrected Zombie" },
         "text": {
           "jp": "自分の手札2枚をアーカイブできる：このターンの間、このホロメンのアーツ+40。",
-          "en": "You may archive 2 cards from your hand: During this turn, this holomem gets Arts +40."
+          "en": "You may archive 2 cards from your hand:During this turn, this holomem gets Arts +40."
         }
       }
     ],
@@ -8932,7 +8932,7 @@
         "name": { "jp": "ショータイム", "en": "Showtime" },
         "text": {
           "jp": "自分の手札のホロメン1枚をアーカイブできる：このターンの間、自分のステージの#Mythを持つホロメン1人のアーツ+20。",
-          "en": "You may archive 1 holomem from your hand: During this turn, 1 of your holomem with #Myth gets Arts +20."
+          "en": "You may archive 1 holomem from your hand:During this turn, 1 of your holomem with #Myth gets Arts +20."
         }
       }
     ],
@@ -9012,7 +9012,7 @@
         "name": { "jp": "みんなで作る最高のfes", "en": "The best fes created by everyone" },
         "text": {
           "jp": "自分の手札の同じタグを持つホロメン2枚をアーカイブできる：自分のデッキを2枚引く。",
-          "en": "You may archive 2 holomem that share a tag from your hand: Draw 2 cards from your deck."
+          "en": "You may archive 2 holomem from your hand that share a tag:Draw 2 cards from your deck."
         }
       }
     ],
@@ -9182,7 +9182,7 @@
         "name": { "jp": "誘惑の視線", "en": "Seductive Gaze" },
         "text": {
           "jp": "自分のバックホロメン1人のHP50回復できる：相手のセンターホロメンに、回復したダメージ10につき、特殊ダメージ10を与える。",
-          "en": "You may restore 50 HP to 1 of your back holomem. Deal 10 Special Damage to your opponent's center holomem for each 10 HP restored by this effect."
+          "en": "You may restore 50 HP to 1 of your back holomem:Deal 10 Special Damage to your opponent's center holomem for each 10 HP restored by this effect."
         }
       }
     ],
@@ -10581,7 +10581,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈白上フブキ〉に付いていたら能力追加\n[ターンに1回]自分のメインステップで、自分のホロメンのエール2枚をアーカイブできる：このターンの間、このホロメンのアーツ+50。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this Mascot attached gets HP +20.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: [1/Turn] During your Main Step, you may archive any 2 cheers from your holomem: During this turn, the holomem with this Mascot attached gets Arts +50.\n\nYou may only attach 1 Mascot to a holomem."
+      "en": "The holomem with this Mascot attached gets HP +20.\n\nIf this is attached to Shirakami Fubuki, it gains the following effect: [1/Turn] During your Main Step, you may archive any 2 cheers from your holomem:During this turn, the holomem with this Mascot attached gets Arts +50.\n\nYou may only attach 1 Mascot to a holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": 4,
@@ -10951,7 +10951,7 @@
         "name": { "jp": "ルーナイト集合", "en": "Luknight gathering" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが〈姫森ルーナ〉の時に使える：自分のデッキから、〈ルーナイト〉1～4枚を公開し、自分のホロメンに割り振って付ける。そしてデッキをシャッフルする。",
-          "en": "[1/Game] Usable if your center holomem is Himemori Luna: Reveal 1-4 Luknights from your deck and attach them to your holomem in any way you like. Then shuffle your deck."
+          "en": "[1/Game] Usable if your center holomem is Himemori Luna:Reveal 1-4 Luknights from your deck and attach them to your holomem in any way you like. Then shuffle your deck."
         }
       }
     ],
@@ -11000,7 +11000,7 @@
         "name": { "jp": "狙撃", "en": "Aiming" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンの色が緑の時に使える：相手のDebut以外のセンターホロメンに特殊ダメージ100を与える。",
-          "en": "[1/Game] Usable if your center holomem is green: Deal 100 Special Damage to your opponent's center holomem if it is not a Debut holomem."
+          "en": "[1/Game] Usable if your center holomem is green:Deal 100 Special Damage to your opponent's center holomem if it is not a Debut holomem."
         }
       }
     ],
@@ -11059,7 +11059,7 @@
         "name": { "jp": "あきらめない心にぇ", "en": "A heart that doesn't give up" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンの色が赤の時に使える：自分の手札を好きな枚数選んで好きな順でデッキの下に戻す。そして手札が5枚になるまで、自分のデッキを引く。",
-          "en": "[1/Game] Usable if your center holomem is red: Choose any number of cards from your hand and put them on the bottom of your deck in any order. Then draw cards from your deck until you have 5 cards in your hand."
+          "en": "[1/Game] Usable if your center holomem is red:Choose any number of cards from your hand and put them on the bottom of your deck in any order. Then draw cards from your deck until you have 5 cards in your hand."
         }
       }
     ],
@@ -11167,7 +11167,7 @@
         "name": { "jp": "悪魔的所業", "en": "Devilish Deeds" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の〈常闇トワ〉がダウンした時に使える：相手のセンターホロメンとコラボホロメンのエール2枚ずつを好きな順でエールデッキの下に戻す。",
-          "en": "[1/Game] Usable if your Tokoyami Towa is downed during your opponent's turn: Return 2 cheers attached to your opponent's center holomem and 2 cheers attached to their collab holomem to the bottom of their cheer deck in any order."
+          "en": "[1/Game] Usable if your Tokoyami Towa is downed during your opponent's turn:Return 2 cheers attached to your opponent's center holomem and 2 cheers attached to their collab holomem to the bottom of their cheer deck in any order."
         }
       }
     ],
@@ -11226,7 +11226,7 @@
         "name": { "jp": "ウォウウォウウォウウォウ", "en": "Wowowowow" },
         "text": {
           "jp": "[ゲームに1回]自分の黄ホロメンがダウンした時に使える：そのホロメンのエール1枚を自分の他のホロメンに付け替え、そのダウンしたホロメンを含め重なっているホロメンの中から1枚を手札に戻す。",
-          "en": "[1/Game] Usable if your yellow holomem is downed: Reattach 1 cheer from that holomem to your other holomem, then return one of that holomem's stacked holomem to hand (you may choose the top holomem)."
+          "en": "[1/Game] Usable if your yellow holomem is downed:Reattach 1 cheer from that holomem to your other holomem, then return one of that holomem's stacked holomem to hand (you may choose the top holomem)."
         }
       }
     ],
@@ -11335,7 +11335,7 @@
         "name": { "jp": "ホロライブID一家", "en": "hololive ID family" },
         "text": {
           "jp": "[ターンに1回]自分の#ID1期生を持つホロメンがダウンした時に使える：自分のデッキを1枚引く。",
-          "en": "[1/Turn] Usable if your holomem with #ID Gen 1 is downed: Draw 1 card from your deck."
+          "en": "[1/Turn] Usable if your holomem with #ID Gen 1 is downed:Draw 1 card from your deck."
         }
       },
       {
@@ -11844,7 +11844,7 @@
         "name": { "jp": "プリペア", "en": "Preparation" },
         "text": {
           "jp": "自分の推しホロメンが〈獅白ぼたん〉の時、自分のエールデッキの上から1枚をアーカイブできる：自分のホロメン1人のHP10回復。",
-          "en": "If your Oshi holomem is Shishiro Botan, you may archive the top card of your cheer deck: Restore 10 HP to 1 of your holomem."
+          "en": "If your Oshi holomem is Shishiro Botan, you may archive the top card of your cheer deck:Restore 10 HP to 1 of your holomem."
         }
       }
     ],
@@ -11943,7 +11943,7 @@
         "name": { "jp": "歌う事は楽しい事", "en": "Singing is fun" },
         "text": {
           "jp": "自分のバックホロメンのエール1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。自分のブルームエフェクト「歌う事は楽しい事」はターンに1回しか使えない。",
-          "en": "You may archive 1 cheer from 1 of your back holomem: Deal 30 Special Damage to your opponent's center or collab holomem. You may only use the Bloom Effect \"Singing is fun\" once per turn."
+          "en": "You may archive 1 cheer from 1 of your back holomem:Deal 30 Special Damage to your opponent's center or collab holomem. You may only use the Bloom Effect \"Singing is fun\" once per turn."
         }
       }
     ],
@@ -11954,7 +11954,7 @@
         "power": "30",
         "text": {
           "jp": "自分の手札の〈角巻わため〉1枚を公開し、デッキの下に戻せる：このホロメンのHP20回復。",
-          "en": "You may reveal 1 Tsunomaki Watame from your hand and put it on the bottom of your deck: Restore 20 HP to this holomem."
+          "en": "You may reveal 1 Tsunomaki Watame from your hand and put it on the bottom of your deck:Restore 20 HP to this holomem."
         }
       }
     ],
@@ -12072,7 +12072,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "自分の推しホロメンが〈獅白ぼたん〉の時、自分のバックホロメンのエール1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ40を与える。",
-          "en": "If your Oshi holomem is Shishiro Botan, you may archive 1 cheer from 1 of your back holomem: Deal 40 Special Damage to your opponent's center or collab holomem."
+          "en": "If your Oshi holomem is Shishiro Botan, you may archive 1 cheer from 1 of your back holomem:Deal 40 Special Damage to your opponent's center or collab holomem."
         }
       }
     ],
@@ -12131,7 +12131,7 @@
         "name": { "jp": "異国の世界の姿", "en": "Appearance of another world" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]相手のパフォーマンスステップが開始する時に使える：このターンの間、自分のライフは相手の能力で減らない。",
-          "en": "[Center or collab position only] Usable at the start of your opponent's Performance Step: During this turn, you take no Life Damage from your opponent's abilities."
+          "en": "[Center or collab position only] Usable at the start of your opponent's Performance Step:During this turn, you take no Life Damage from your opponent's abilities."
         }
       }
     ],
@@ -12195,7 +12195,7 @@
         "name": { "jp": "あんたたちぃ", "en": "You guys" },
         "text": {
           "jp": "サイコロを1回振れる：偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may roll a dice once: If it is even, reveal 1 Fan from your deck and put it into your hand. Then shuffle your deck."
+          "en": "You may roll a dice once:If it is even, reveal 1 Fan from your deck and put it into your hand. Then shuffle your deck."
         }
       }
     ],
@@ -12862,7 +12862,7 @@
         "power": "50",
         "text": {
           "jp": "自分の推しホロメンが〈鷹嶺ルイ〉の時、自分の手札2枚をアーカイブできる：自分のデッキを3枚引く。",
-          "en": "If your Oshi holomem is Takane Lui, you may archive 2 cards from your hand: Draw 3 cards from your deck."
+          "en": "If your Oshi holomem is Takane Lui, you may archive 2 cards from your hand:Draw 3 cards from your deck."
         }
       }
     ],
@@ -13274,7 +13274,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "[センターポジション限定]自分の推しホロメンが〈FUWAMOCO〉の時、このホロメンのエール1枚を、自分の〈モココ・アビスガード〉に付け替えられる：相手のセンターホロメンに特殊ダメージ50を与える。",
-          "en": "[Center position only] If your Oshi holomem is FUWAMOCO, you may reattach 1 of this holomem's cheers to your Mococo Abyssgard. If you do, deal 50 Special Damage to your opponent's center holomem."
+          "en": "[Center position only] If your Oshi holomem is FUWAMOCO, you may reattach 1 of this holomem's cheers to your Mococo Abyssgard:Deal 50 Special Damage to your opponent's center holomem."
         }
       }
     ],
@@ -13386,7 +13386,7 @@
         "name": { "jp": "ブルーレイン", "en": "Blue Rain" },
         "text": {
           "jp": "自分の#IDを持つホロメンのエール1枚をアーカイブできる：相手のバックホロメンに特殊ダメージ30を10ずつ割り振って与える。ただし、ダウンしても相手のライフは減らない。",
-          "en": "You may archive 1 cheer from 1 of your holomem with #ID: Deal 30 damage among your opponent's back holomem, split into units of 10 damage placed however you like. However, your opponent's Life does not reduce even if downed."
+          "en": "You may archive 1 cheer from 1 of your holomem with #ID:Deal 30 damage among your opponent's back holomem, split into units of 10 damage placed however you like. However, your opponent's Life does not reduce even if downed."
         }
       }
     ],
@@ -13862,7 +13862,7 @@
         "power": "30",
         "text": {
           "jp": "このホロメンの紫エール4枚をアーカイブできる：相手のステージのエール1枚をエールデッキの下に戻す。",
-          "en": "You may archive 4 Purple cheers from this holomem: Return 1 cheer attached to your opponent's holomem to the bottom of their cheer deck."
+          "en": "You may archive 4 Purple cheers from this holomem:Return 1 cheer attached to your opponent's holomem to the bottom of their cheer deck."
         }
       }
     ],
@@ -14263,7 +14263,7 @@
         "name": { "jp": "ころねダイナー", "en": "Korone Diner" },
         "text": {
           "jp": "このホロメンのエール1枚をアーカイブできる：自分のデッキから、#ゲーマーズを持つDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may archive 1 cheer from this holomem: Reveal 1 Debut holomem with #Gamers from your deck and put it into your hand. Then shuffle your deck."
+          "en": "You may archive 1 cheer from this holomem:Reveal 1 Debut holomem with #Gamers from your deck and put it into your hand. Then shuffle your deck."
         }
       }
     ],
@@ -14478,7 +14478,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このアーツの対象が相手の2ndホロメンの時、このホロメンに重なっている1stホロメン1枚をアーカイブできる：このアーツ+50。",
-          "en": "If the target of this art is an opposing 2nd Bloom holomem, you may archive one 1st Bloom holomem stacked under this one: This Arts gets +50."
+          "en": "If the target of this art is an opposing 2nd Bloom holomem, you may archive one 1st Bloom holomem stacked under this one:This Arts gets +50."
         }
       }
     ],
@@ -14749,7 +14749,7 @@
         "power": "50",
         "text": {
           "jp": "相手と勝敗が決まるまでじゃんけんできる：自分が勝った時、このターンの間、このホロメンは赤特攻+30を得る。",
-          "en": "You may play Rock Paper Scissors with your opponent until a winner is decided. If you win, this Arts gets +30 vs red."
+          "en": "You may play Rock Paper Scissors with your opponent until a winner is decided:If you win, this Arts gets +30 vs red."
         }
       }
     ],
@@ -16180,7 +16180,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "相手のターンで、このファンが付いているホロメンがダメージを受ける時、このファンをアーカイブできる：このファンが付いていたホロメンの受けるダメージ-30。\n\nこのファンは、自分の〈姫森ルーナ〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "If the holomem with this Fan attached is about to take damage during your opponent's turn, you may archive this Fan: Reduce that damage by 30.\n\nThis Fan may only be attached to your Himemori Luna, and you may attach any number of this Fan to 1 holomem."
+      "en": "If the holomem with this Fan attached is about to take damage during your opponent's turn, you may archive this Fan:Reduce that damage by 30.\n\nThis Fan may only be attached to your Himemori Luna, and you may attach any number of this Fan to 1 holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -16296,7 +16296,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンが付いているホロメンが能力でサイコロを振った時、このファンをアーカイブできる：そのサイコロの結果をすべて無くし、はじめからサイコロを振り直す。\n\nこのファンは、自分の〈赤井はあと〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "When you roll dice as part of the abilities or Arts of the holomem with this Fan attached, you may archive this Fan: Re-roll all dice rolled as part of that ability.\n\nThis Fan may only be attached to your Akai Haato, and you may attach any number of this Fan to 1 holomem."
+      "en": "When you roll dice as part of the abilities or Arts of the holomem with this Fan attached, you may archive this Fan:Re-roll all dice rolled as part of that ability.\n\nThis Fan may only be attached to your Akai Haato, and you may attach any number of this Fan to 1 holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": 4,
@@ -16514,7 +16514,7 @@
         "name": { "jp": "助手くん、んーまっ！", "en": "Assisant-kun, mwah!" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の〈こよりの助手くん〉が付いている〈博衣こより〉が相手からダメージを受ける時に使える：そのホロメン1人が受けるダメージ-100。",
-          "en": "[1/Game] Usable if your Hakui Koyori with a Koyori's Assistant-kun attached is about to take damage during your opponent's turn: Reduce that damage by 100."
+          "en": "[1/Game] Usable if your Hakui Koyori with a Koyori's Assistant-kun attached is about to take damage during your opponent's turn:Reduce that damage by 100."
         }
       }
     ],
@@ -16622,7 +16622,7 @@
         "name": { "jp": "かわいい！ ポジティブ！ ジーニアス！", "en": "Kawaii! Positive! Genius!" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の〈一条莉々華〉がダウンした時に使える：自分のデッキから、[〈一条莉々華〉と〈限界飯〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "[1/Game] Usable if your Ichijou Ririka is downed during your opponent's turn: reveal 1 Ichijou Ririka and 1 Struggle Meal from your deck and put them into your hand. Then shuffle your deck."
+          "en": "[1/Game] Usable if your Ichijou Ririka is downed during your opponent's turn:Reveal 1 Ichijou Ririka and 1 Struggle Meal from your deck and put them into your hand. Then shuffle your deck."
         }
       }
     ],
@@ -16662,7 +16662,7 @@
         "name": { "jp": "愛してる", "en": "Love you" },
         "text": {
           "jp": "[ターンに1回]相手のターンで、自分のホロメンがダウンした時に使える：そのホロメンに付いているファン1枚を手札に戻す。",
-          "en": "[1/Turn] Usable if your holomem is downed during your opponent's turn: Return 1 Fan attached to that holomem to hand."
+          "en": "[1/Turn] Usable if your holomem is downed during your opponent's turn:Return 1 Fan attached to that holomem to hand."
         }
       },
       {
@@ -16780,7 +16780,7 @@
         "name": { "jp": "メンタル！ フィジカル！ パッション！", "en": "Mental! Physical! Passion!" },
         "text": {
           "jp": "[ターンに1回]相手のターンで、自分の〈大空スバル〉が相手からダメージを受ける時に使える：自分の〈大空スバル〉全員が受けるダメージ-30。",
-          "en": "[1/Turn] Usable if your Oozora Subaru is about to take damage during your opponent's turn: Reduce the damage taken by all of your Oozora Subaru from that effect by 30."
+          "en": "[1/Turn] Usable if your Oozora Subaru is about to take damage during your opponent's turn:Reduce the damage taken by all of your Oozora Subaru from that effect by 30."
         }
       },
       {
@@ -16789,7 +16789,7 @@
         "name": { "jp": "リアクション芸", "en": "Reaction Arts" },
         "text": {
           "jp": "[ゲームに1回]自分のライフが3以下の時に使える：このターンの間、自分のセンターホロメンの〈大空スバル〉のアーツ+100。",
-          "en": "[1/Game] Usable if you have 3 or less Life: If your center holomem is Oozora Subaru, during this turn that holomem gets Arts +100."
+          "en": "[1/Game] Usable if you have 3 or less Life:If your center holomem is Oozora Subaru, during this turn that holomem gets Arts +100."
         }
       }
     ],
@@ -17791,7 +17791,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分の推しホロメンが〈儒烏風亭らでん〉の時、このホロメンのエール2枚を、自分のバックホロメン2人に1枚ずつ付け替えられる：このアーツ+30。",
-          "en": "If your oshi holomem is Juufuutei Raden, you may choose 2 of your back holomem and reattach 1 cheer from this holomem to each of them: This Arts gets +30."
+          "en": "If your oshi holomem is Juufuutei Raden, you may choose 2 of your back holomem and reattach 1 cheer from this holomem to each of them:This Arts gets +30."
         }
       }
     ],
@@ -18961,7 +18961,7 @@
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "このホロメンのエール1枚をアーカイブできる：相手のセンターホロメンかバックホロメン1人に特殊ダメージ30を与える。",
-          "en": "You may archive 1 cheer from this holomem: Deal 30 Special Damage to your opponent's center holomem or 1 of their back holomem."
+          "en": "You may archive 1 cheer from this holomem:Deal 30 Special Damage to your opponent's center holomem or 1 of their back holomem."
         }
       }
     ],
@@ -19212,7 +19212,7 @@
         "power": "70",
         "text": {
           "jp": "自分のホロパワーの上から1枚を公開できる：公開したカードが#ENを持つホロメンの時、相手のホロメン1人に特殊ダメージ20を与える。そして公開したカードを裏向きにしてホロパワーの下に戻す。",
-          "en": "You may reveal the top card of your holo Power. If the revealed card is a holomem with #EN, deal 20 Special Damage to 1 of your opponent's holomem. Then put the revealed card face down at the bottom of your holo Power."
+          "en": "You may reveal the top card of your holo Power:If it is a holomem with #EN, deal 20 Special Damage to 1 of your opponent's holomem. Then put the revealed card face down at the bottom of your holo Power."
         }
       }
     ],
@@ -19859,7 +19859,7 @@
         "name": { "jp": "絶世の輝き", "en": "Unparalleled Brilliance" },
         "text": {
           "jp": "自分のホロメンの赤エール1枚をアーカイブできる：自分のデッキを2枚引く。",
-          "en": "You may archive a Red cheer from 1 of your holomem: Draw 2 cards from your deck."
+          "en": "You may archive a Red cheer from 1 of your holomem:Draw 2 cards from your deck."
         }
       }
     ],
@@ -19870,7 +19870,7 @@
         "power": "30+",
         "text": {
           "jp": "自分のアーカイブに赤エールがある時、このアーツ+20。",
-          "en": "If there are any red cheers in your archive, this art gains +20 power."
+          "en": "If there are any Red cheers in your archive, this Arts gets +20."
         }
       }
     ],
@@ -19917,7 +19917,7 @@
         "name": { "jp": "『感情結晶体』", "en": "Jewel of Emotion" },
         "text": {
           "jp": "自分の手札を数えて、自分の手札すべてをアーカイブできる：アーカイブしたカード1枚につき、自分のデッキを1枚引く。自分のブルームエフェクト「『感情結晶体』」はターンに1回しか使えない。",
-          "en": "You may archive all cards in your hand: Draw as many cards as you archived. You may only use the Bloom Effect \"Jewel of Emotion\" once per turn."
+          "en": "You may archive all cards in your hand:Draw as many cards as you archived. You may only use the Bloom Effect \"Jewel of Emotion\" once per turn."
         }
       }
     ],
@@ -21428,7 +21428,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "相手のターンで、このツールが付いているホロメンがダウンした時、自分の手札1枚をアーカイブできる：このツールを手札に戻す。\n\n◆1st以上の〈アーニャ・メルフィッサ〉に付いていたら能力追加\n自分のステージの〈古代武器〉1枚につき、このツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "If the holomem with this Tool attached is downed during your opponent's turn, you may archive 1 card from your hand: Return this card to hand.\n\nIf this is attached to a 1st Bloom or later Anya Melfissa, it gains the following effect: For each Ancient Weapon attached to holomems on your stage, the holomem with this Tool attached gets Arts +10.\n\nYou may only attach 1 Tool to a holomem."
+      "en": "If the holomem with this Tool attached is downed during your opponent's turn, you may archive 1 card from your hand:Return this card to hand.\n\nIf this is attached to a 1st Bloom or later Anya Melfissa, it gains the following effect: For each Ancient Weapon attached to holomems on your stage, the holomem with this Tool attached gets Arts +10.\n\nYou may only attach 1 Tool to a holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -21811,7 +21811,7 @@
         "name": { "jp": "左手に地図", "en": "Map in the left hand" },
         "text": {
           "jp": "[ターンに１回]自分のホロメンの能力でサイコロを振る時に使える：サイコロの目の数１つを宣言し、次に出る目の数を宣言した目として扱う。",
-          "en": "[1/Turn] Usable if you are about to roll a dice as part of a holomem's ability or Arts: Declare a number that is on the dice, and treat the next dice roll as if it was that number."
+          "en": "[1/Turn] Usable if you are about to roll a dice as part of a holomem's ability or Arts:Declare a number that is on the dice, and treat the next dice roll as if it was that number."
         }
       },
       {
@@ -22790,7 +22790,7 @@
         "name": { "jp": "お誕生日会", "en": "Birthday party" },
         "text": {
           "jp": "自分の手札1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。",
-          "en": "You may archive 1 card from your hand: Deal 20 Special Damage to your opponent's center or collab holomem."
+          "en": "You may archive 1 card from your hand:Deal 20 Special Damage to your opponent's center or collab holomem."
         }
       }
     ],
@@ -22891,7 +22891,7 @@
         "power": "50",
         "text": {
           "jp": "自分の手札1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ50を与える。",
-          "en": "You may archive 1 card from your hand: Deal 50 Special Damage to your opponent's center or collab holomem."
+          "en": "You may archive 1 card from your hand:Deal 50 Special Damage to your opponent's center or collab holomem."
         }
       }
     ],
@@ -22940,7 +22940,7 @@
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "自分の手札1～3枚をアーカイブできる：相手のセンターホロメンに、アーカイブしたカード1枚につき、特殊ダメージ40を与える。",
-          "en": "You may archive 1-3 cards from your hand: Deal 40 Special Damage for each card archived to your opponent's center holomem."
+          "en": "You may archive 1-3 cards from your hand:Deal 40 Special Damage for each card archived to your opponent's center holomem."
         }
       }
     ],
@@ -23034,7 +23034,7 @@
         "name": { "jp": "おにけもの会", "en": "Onikemono Association" },
         "text": {
           "jp": "自分の手札のホロメン1枚をアーカイブできる：自分のエールデッキの上から1枚を自分のDebutホロメンに送る。",
-          "en": "You may archive 1 holomem from your hand: Send the top card of your cheer deck to your Debut holomem."
+          "en": "You may archive 1 holomem from your hand:Send the top card of your cheer deck to your Debut holomem."
         }
       }
     ],
@@ -23166,7 +23166,7 @@
         "name": { "jp": "バックショット", "en": "Back Shot" },
         "text": {
           "jp": "[ゲームに1回]自分のステージのホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン1人に特殊ダメージ50を与える。",
-          "en": "[1/Game] Usable if your holomem deals damage to 1 of your opponent's back holomem: Deal 50 Special Damage to the same holomem."
+          "en": "[1/Game] Usable if your holomem deals damage to 1 of your opponent's back holomem:Deal 50 Special Damage to the same holomem."
         }
       }
     ],
@@ -23309,7 +23309,7 @@
         "name": { "jp": "僕と登校しよう…？", "en": "Would you like to go to school with me...?" },
         "text": {
           "jp": "自分のデッキの上から1枚を公開できる：公開したカードがDebutホロメンかSpotホロメンの時、自分のエールデッキの上から1枚をこのホロメンに送る。そして公開したカードをデッキの下に戻す。",
-          "en": "You may reveal the top card of your deck. If that card is a Debut or Spot holomem, send the top card of your cheer deck to this holomem. Then put the revealed card on the bottom of your deck."
+          "en": "You may reveal the top card of your deck:If it is a Debut or Spot holomem, send the top card of your cheer deck to this holomem. Then put the revealed card on the bottom of your deck."
         }
       }
     ],
@@ -23388,7 +23388,7 @@
         "power": "40",
         "text": {
           "jp": "このホロメンの青エール1枚をアーカイブできる：相手のセンターホロメンとバックホロメン1人に特殊ダメージ10を与える。",
-          "en": "You may archive 1 blue cheer from this holomem: Deal 10 Special Damage to your opponent's center holomem and 1 of their back holomem."
+          "en": "You may archive 1 blue cheer from this holomem:Deal 10 Special Damage to your opponent's center holomem and 1 of their back holomem."
         }
       }
     ],
@@ -23540,7 +23540,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このホロメンの青エール2枚をアーカイブできる：相手のセンターホロメンとバックホロメン1人に特殊ダメージ30を与える。",
-          "en": "You may archive 2 blue cheers from this holomem: Deal 30 Special Damage to your opponent's center holomem and 1 of their back holomem."
+          "en": "You may archive 2 blue cheers from this holomem:Deal 30 Special Damage to your opponent's center holomem and 1 of their back holomem."
         }
       }
     ],
@@ -23868,7 +23868,7 @@
         "name": { "jp": "地獄盛りごはん", "en": "Hellish Portion Rice" },
         "text": {
           "jp": "自分の手札1枚をアーカイブできる：自分のデッキから、#食べ物を持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may archive 1 card from your hand: Reveal an Event with #Food from your deck and put it into your hand. Then shuffle your deck."
+          "en": "You may archive 1 card from your hand:Reveal an Event with #Food from your deck and put it into your hand. Then shuffle your deck."
         }
       }
     ],
@@ -24052,7 +24052,7 @@
         "power": "60+",
         "text": {
           "jp": "自分のアーカイブの#食べ物を持つイベント1枚を手札に戻せる：このアーツ+20。",
-          "en": "You may return 1 Event with #Food from your archive to hand: This Arts gets +20."
+          "en": "You may return 1 Event with #Food from your archive to hand:This Arts gets +20."
         }
       }
     ],
@@ -24306,7 +24306,7 @@
         "name": { "jp": "クイックガード", "en": "Quick Guard" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン1人が受けるダメージ-20。",
-          "en": "[1/Game] Usable if your white holomem is about to take damage during your opponent's turn: Reduce that damage by 20."
+          "en": "[1/Game] Usable if your white holomem is about to take damage during your opponent's turn:Reduce that damage by 20."
         }
       }
     ],
@@ -26675,7 +26675,7 @@
         "name": { "jp": "クイックガード", "en": "Quick Guard" },
         "text": {
           "jp": "[ゲームに１回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-20。",
-          "en": "[1/Game] Usable if your white holomem is about to take damage during your opponent's turn: Reduce that damage by 20."
+          "en": "[1/Game] Usable if your white holomem is about to take damage during your opponent's turn:Reduce that damage by 20."
         }
       }
     ],
@@ -26792,7 +26792,7 @@
         "name": { "jp": "バックショット", "en": "Back Shot" },
         "text": {
           "jp": "[ゲームに１回]自分のホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン１人に特殊ダメージ50を与える。",
-          "en": "[1/Game] Usable if your holomem deals damage to 1 of your opponent's back holomem: Deal 50 Special Damage to the same holomem."
+          "en": "[1/Game] Usable if your holomem deals damage to 1 of your opponent's back holomem:Deal 50 Special Damage to the same holomem."
         }
       }
     ],
