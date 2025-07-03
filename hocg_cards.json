@@ -632,19 +632,19 @@
     "oshi_skills": [
       {
         "holo_power": 3,
-        "name": { "jp": "ぎゅっぎゅっ", "en": "Squeeze squeeze" },
+        "name": { "jp": "ぎゅっぎゅっ", "en": "Squish Squish" },
         "text": {
           "jp": "[ターンに１回]相手のセンターホロメンの残りHPを50にする。",
-          "en": "[1/Turn] Change the remaining HP of your opponent's center holomem to 50."
+          "en": "[1/Turn]Set the opponent's center holomem's remaining HP to 50."
         }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": "握りつぶしちゃうぞ", "en": "I'll crush you" },
+        "name": { "jp": "握りつぶしちゃうぞ", "en": "I'll squish you!" },
         "text": {
           "jp": "[ゲームに１回]このターンの間、自分のホロメン１人のアーツ+50。そのホロメンの色が白の時、さらに、そのアーツ+50。",
-          "en": "[1/Game] During this turn, one of your holomem gets Arts +50. If it's a white holomem, they get an additional Arts +50."
+          "en": "[1/Game]During this turn, one of your holomem gets Arts+50. Then, if that holomem's color is white, it gets Arts+50."
         }
       }
     ],
@@ -684,7 +684,7 @@
         "name": { "jp": "文明の守護者", "en": "Guardian of Civilization" },
         "text": {
           "jp": "[ターンに１回]相手のターンで、自分の#Promiseを持つホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-50。",
-          "en": "[1/Turn] Usable if your holomem with #Promise is about to take damage during your opponent's turn:Reduce that damage by 50."
+          "en": "[1/Turn]Usable if your holomem with #Promise would take Damage from the opponent during the opponent's turn:1 of those holomem takes -50 Damage."
         }
       },
       {
@@ -693,7 +693,7 @@
         "name": { "jp": "アメイジング・ドローイング", "en": "Amazing Drawing" },
         "text": {
           "jp": "[ゲームに１回]自分のデッキから、イベント１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "[1/Game] Reveal 1 Event from your deck and put it into your hand. Then shuffle your deck."
+          "en": "[1/Game]Reveal 1 event from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -733,7 +733,7 @@
         "name": { "jp": "サバイバルパワー", "en": "Survival Power" },
         "text": {
           "jp": "[ターンに１回]自分のデッキから、〈石の斧〉１枚を公開し、自分の緑ホロメンに付ける。そしてデッキをシャッフルする。",
-          "en": "[1/Turn] Reveal 1 Stone Axe from your deck and attach it to your green holomem. Then shuffle your deck."
+          "en": "[1/Turn]Reveal 1 <Stone Axe> from your deck, and attach it to your green holomem. Then, shuffle the deck."
         }
       },
       {
@@ -742,7 +742,7 @@
         "name": { "jp": "大地の唄", "en": "Song of the Earth" },
         "text": {
           "jp": "[ゲームに１回]自分の緑センターホロメンのHPすべて回復。",
-          "en": "[1/Game] If your center holomem is green, restore all of their HP."
+          "en": "[1/Game]Restore all HP of your green center holomem."
         }
       }
     ],
@@ -838,10 +838,10 @@
     "oshi_skills": [
       {
         "holo_power": "x",
-        "name": { "jp": "女幹部の采配", "en": "Executive's Orders" },
+        "name": { "jp": "女幹部の采配", "en": "Female Commanding Officer" },
         "text": {
           "jp": "[ターンに１回]自分の赤ホロメンの能力で手札をアーカイブする時に使える：アーカイブする手札1枚につき自分のホロパワー1枚を、かわりにアーカイブできる。",
-          "en": "[1/Turn] Usable if you use a red holomem's ability or arts that archives cards from your hand:You may choose to archive any number of them from your holo Power instead of your hand."
+          "en": "[1/Turn]Usable if you would archive cards from hand by your red holomem's ability:You may archive 1 of your holo Power instead for each hand card to be archived."
         }
       },
       {
@@ -850,7 +850,7 @@
         "name": { "jp": "ホークアイ", "en": "Hawkeye" },
         "text": {
           "jp": "[ゲームに１回]次の相手のターンの間、相手のセンターホロメンとコラボホロメンは、バトンタッチ、移動、交代できない。",
-          "en": "[1/Game] During your opponent's next turn their center and collab holomem cannot move, Baton Pass, or switch."
+          "en": "[1/Game]During your opponent's next turn, your opponent's center holomem and collab holomem cannot Baton Pass, move, or swap."
         }
       }
     ],
@@ -890,7 +890,7 @@
         "name": { "jp": "フェニックステール", "en": "Phoenix Tail" },
         "text": {
           "jp": "[ターンに１回]自分のアーカイブのホロメン１枚を手札に戻す。",
-          "en": "[1/Turn] Return 1 holomem from your archive to hand."
+          "en": "[1/Turn]Return 1 holomem from your archive to hand."
         }
       },
       {
@@ -899,7 +899,7 @@
         "name": { "jp": "Rise from the ashes", "en": "Rise from the Ashes" },
         "text": {
           "jp": "[ゲームに１回]相手のターンで、自分の赤ホロメンがダウンした時に使える：自分の減るライフ-１。さらに、ダウンした１人を選び、そのホロメンを含め重なっているホロメンすべてを手札に戻す。",
-          "en": "[1/Game] Usable if your red holomem is downed during your opponent's turn:You take -1 Life Damage. Then, choose 1 downed card, and return all of the stacked holomem including that holomem to hand."
+          "en": "[1/Game]Usable if your red holomem is downed during your opponent's turn:You take -1 Life Damage. Then, choose 1 downed card, and return all of the stacked holomem including that holomem to hand."
         }
       }
     ],
@@ -1329,7 +1329,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Promise", "en": "#Promise" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 50,
@@ -1380,7 +1380,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Promise", "en": "#Promise" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -1416,7 +1416,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Promise", "en": "#Promise" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -1455,7 +1455,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Promise", "en": "#Promise" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -1503,7 +1503,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Promise", "en": "#Promise" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -1563,7 +1563,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Promise", "en": "#Promise" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -1893,7 +1893,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-２",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -3028,7 +3028,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-２",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#holoX" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -3078,7 +3078,11 @@
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
     },
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#ID Gen 1" }, { "jp": "#絵", "en": "#Art" } ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID1期生", "en": "#ID Gen 1" },
+      { "jp": "#絵", "en": "#Painting" }
+    ],
     "baton_pass": [ "colorless" ],
     "max_amount": 50,
     "illustrations": [
@@ -3118,7 +3122,11 @@
         "power": "50"
       }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#ID Gen 1" }, { "jp": "#絵", "en": "#Art" } ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID1期生", "en": "#ID Gen 1" },
+      { "jp": "#絵", "en": "#Painting" }
+    ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
     "illustrations": [
@@ -3158,7 +3166,11 @@
         "power": "30"
       }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#ID Gen 1" }, { "jp": "#絵", "en": "#Art" } ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID1期生", "en": "#ID Gen 1" },
+      { "jp": "#絵", "en": "#Painting" }
+    ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
     "illustrations": [
@@ -3213,7 +3225,11 @@
         }
       }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#ID Gen 1" }, { "jp": "#絵", "en": "#Art" } ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID1期生", "en": "#ID Gen 1" },
+      { "jp": "#絵", "en": "#Painting" }
+    ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
     "illustrations": [
@@ -3937,7 +3953,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-２",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -4359,19 +4375,15 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "雪山の記憶", "en": "Memories of snowy mountains" },
+        "name": { "jp": "雪山の記憶", "en": "Memories of the Snowy Mountain" },
         "text": {
           "jp": "サイコロを１回振れる：奇数の時、相手のHPが40以上減っているバックホロメン１人をダウンさせる（ダウンしても相手のライフは減らない）。",
-          "en": "You may roll a dice once:If it is odd, down 1 of your opponent's back holomem who has taken at least 40 damage. However, your opponent's Life does not reduce."
+          "en": "You may roll a dice once:If it is odd, down 1 of your opponent's back holomem whose HP is reduced by 40 or more. However, your opponent's Life does not reduce even if downed."
         }
       }
     ],
     "arts": [
-      {
-        "cheers": [ "blue", "blue" ],
-        "name": { "jp": "戦うメイドさん", "en": "The Fighting Maid" },
-        "power": "70"
-      }
+      { "cheers": [ "blue", "blue" ], "name": { "jp": "戦うメイドさん", "en": "Maid Fighter" }, "power": "70" }
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
@@ -4846,7 +4858,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-２",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -5086,7 +5098,7 @@
         "power": "10"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
@@ -5131,7 +5143,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
@@ -5176,7 +5188,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
@@ -5221,11 +5233,11 @@
         "power": "10"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -5263,7 +5275,7 @@
     "arts": [
       { "cheers": [ "colorless" ], "name": { "jp": "ソウルご案内", "en": "Soul Guide" }, "power": "30" }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -5304,7 +5316,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -5328,7 +5340,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。\n\n自分のデッキの上から４枚を見る。その中から、#歌を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Singing and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Singing and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -5379,7 +5391,7 @@
   },
   "hBP01-104": {
     "card_number": "hBP01-104",
-    "name": { "jp": "ふつうのパソコン", "en": "Standard PC" },
+    "name": { "jp": "ふつうのパソコン", "en": "Normal PC" },
     "card_type": { "support": "item" },
     "text": {
       "jp": "自分のデッキから、Debutホロメン１枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
@@ -5526,7 +5538,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。\n\n自分のデッキの上から４枚を見る。その中から、〈兎田ぺこら〉と〈ムーナ・ホシノヴァ〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Usada Pekora or Moona Hoshinova and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Usada Pekora or Moona Hoshinova and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -5572,7 +5584,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。\n\n自分のデッキの上から４枚を見る。その中から、#ID３期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ID Gen 3 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ID Gen 3 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -5617,7 +5629,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。\n\n自分のデッキの上から４枚を見る。その中から、#Promiseを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Promise and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Promise and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -6345,7 +6357,7 @@
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 50,
@@ -6411,7 +6423,7 @@
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -6462,7 +6474,7 @@
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -6514,7 +6526,7 @@
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -6574,7 +6586,7 @@
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -6635,7 +6647,7 @@
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -6841,7 +6853,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -6901,7 +6913,7 @@
       { "jp": "#ID", "en": "#ID" },
       { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 50,
@@ -6950,7 +6962,7 @@
       { "jp": "#ID", "en": "#ID" },
       { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -6995,7 +7007,7 @@
       { "jp": "#ID", "en": "#ID" },
       { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -7054,7 +7066,7 @@
       { "jp": "#ID", "en": "#ID" },
       { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -7113,7 +7125,7 @@
       { "jp": "#ID", "en": "#ID" },
       { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -7173,7 +7185,7 @@
       { "jp": "#ID", "en": "#ID" },
       { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -7384,7 +7396,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -7451,7 +7463,7 @@
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -7516,7 +7528,7 @@
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" },
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
@@ -7567,7 +7579,7 @@
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -7622,7 +7634,7 @@
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -7673,7 +7685,7 @@
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -7733,7 +7745,7 @@
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -7793,7 +7805,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -8199,7 +8211,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -9195,7 +9207,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -9242,7 +9254,7 @@
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Myth", "en": "#Myth" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -9287,7 +9299,7 @@
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Myth", "en": "#Myth" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -9342,7 +9354,7 @@
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Myth", "en": "#Myth" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless" ],
@@ -9391,12 +9403,12 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Myth", "en": "#Myth" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -9661,7 +9673,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
       { "jp": "#0期生", "en": "#Gen 0" },
@@ -9716,7 +9728,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
       { "jp": "#4期生", "en": "#Gen 4" },
@@ -9771,7 +9783,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
       { "jp": "#4期生", "en": "#Gen 4" },
@@ -9826,7 +9838,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
       { "jp": "#2期生", "en": "#Gen 2" },
@@ -9881,7 +9893,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
       { "jp": "#3期生", "en": "#Gen 3" },
@@ -9936,7 +9948,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#ホロウィッチ", "en": "#HoloWitch" },
       { "jp": "#秘密結社holoX", "en": "#holoX" },
@@ -9974,7 +9986,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#絵を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Art and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Painting and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -10092,7 +10104,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、〈天音かなた〉と〈AZKi〉と〈沙花叉クロヱ〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Amane Kanata, AZKi, or Sakamata Chloe and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Amane Kanata, AZKi, or Sakamata Chloe and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -10158,7 +10170,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#秘密結社holoxを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #holoX and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #holoX and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -10191,7 +10203,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#ID2期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ID Gen 2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ID Gen 2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -10224,7 +10236,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#ゲーマーズを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gamers and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gamers and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -10353,7 +10365,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#3期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 3 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 3 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -12148,7 +12160,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -12212,7 +12224,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -12805,7 +12817,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -12868,7 +12880,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -13070,7 +13082,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -13403,7 +13415,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -13457,7 +13469,7 @@
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
       { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 50,
@@ -13504,7 +13516,7 @@
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
       { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -13557,7 +13569,7 @@
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
       { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -13615,12 +13627,12 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
       { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -13672,7 +13684,7 @@
     ],
     "extra": {
       "jp": "このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う",
-      "en": "This holomem is also treated as both Fuwawa Abyssgard and Mococo Abyssgard."
+      "en": "This holomem is also regarded as Fuwawa Abyssgard and Mococo Abyssgard."
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -15208,7 +15220,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -15431,7 +15443,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -15729,7 +15741,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#ID1期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ID Gen 1 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ID Gen 1 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -15762,7 +15774,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#0期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 0 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 0 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -15795,7 +15807,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#4期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 4 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 4 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -15828,7 +15840,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#シューターを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Shooter and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Shooter and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -17230,7 +17242,7 @@
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -17278,7 +17290,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -17336,7 +17348,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Justice", "en": "#Justice" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 50,
@@ -17371,7 +17383,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Justice", "en": "#Justice" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -17411,7 +17423,7 @@
         "name": { "jp": "神眼の描き手", "en": "The Artist with the God Eyes" },
         "text": {
           "jp": "このターンの間、自分のステージの#絵を持つホロメン1人のアーツ+20。",
-          "en": "During this turn, 1 of your holomem with #Art gets Arts +20."
+          "en": "During this turn, 1 of your holomem with #Painting gets Arts +20."
         }
       }
     ],
@@ -17426,7 +17438,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Justice", "en": "#Justice" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -17466,7 +17478,7 @@
         "name": { "jp": "只今、情報収集中", "en": "Currently gathering information." },
         "text": {
           "jp": "自分のデッキの上から3枚を見る。その中から、#絵を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-          "en": "Look at the top 3 cards of your deck. Reveal 1 that is a holomem with #Art and put it into your hand. Then put the remaining cards on the bottom of your deck in any order."
+          "en": "Look at the top 3 cards of your deck. Reveal 1 that is a holomem with #Painting and put it into your hand. Then put the remaining cards on the bottom of your deck in any order."
         }
       }
     ],
@@ -17478,7 +17490,7 @@
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "[コラボポジション限定]自分のセンターホロメンが#絵を持つ時、このアーツ+80。",
-          "en": "[Collab position only] If your center holomem has #Art, this Arts gets +80."
+          "en": "[Collab position only] If your center holomem has #Painting, this Arts gets +80."
         }
       }
     ],
@@ -17486,7 +17498,7 @@
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Justice", "en": "#Justice" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -17917,7 +17929,7 @@
       { "jp": "#ID", "en": "#ID" },
       { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -18487,7 +18499,7 @@
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
-      { "jp": "#絵", "en": "#Art" },
+      { "jp": "#絵", "en": "#Painting" },
       { "jp": "#海", "en": "#Sea" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -18656,7 +18668,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -19218,7 +19230,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -19618,7 +19630,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -19736,7 +19748,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -20817,7 +20829,7 @@
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#5期生", "en": "#Gen 5" },
       { "jp": "#歌", "en": "#Singing" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 50,
@@ -20849,7 +20861,7 @@
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#5期生", "en": "#Gen 5" },
       { "jp": "#歌", "en": "#Singing" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -20904,7 +20916,7 @@
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#5期生", "en": "#Gen 5" },
       { "jp": "#歌", "en": "#Singing" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -20960,7 +20972,7 @@
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#5期生", "en": "#Gen 5" },
       { "jp": "#歌", "en": "#Singing" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": 4,
@@ -21015,7 +21027,7 @@
       }
     ],
     "arts": [ { "cheers": [ "colorless", "colorless" ], "name": { "jp": "ERB", "en": "ERB" }, "power": "20" } ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Justice", "en": "#Justice" },
@@ -21066,7 +21078,7 @@
     "arts": [
       { "cheers": [ "colorless" ], "name": { "jp": "怒らないでよ！", "en": "Stop fighting!" }, "power": "10" }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
     "max_amount": 4,
     "illustrations": [
@@ -21132,7 +21144,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、ホロメン1枚と[ツールかマスコットかファン]1枚を公開し、公開したカードを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal up to 1 holomem and up to 1 Tool, Mascot, or Fan from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal up to 1 holomem and up to 1 Tool, Mascot, or Fan from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -21198,7 +21210,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#5期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 5 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 5 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -21231,7 +21243,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#2期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Gen 2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -21330,7 +21342,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#Adventを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Advent and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #Advent and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -21700,7 +21712,7 @@
     "arts": [
       { "cheers": [ "colorless" ], "name": { "jp": "flower rhapsody", "en": "flower rhapsody" }, "power": "10" }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -21724,7 +21736,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。\n\n自分のデッキの上から４枚を見る。その中から、#ReGLOSSを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ReGLOSS and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are holomem with #ReGLOSS and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -21772,16 +21784,16 @@
         "name": { "jp": "リプレイスメント", "en": "Replacement" },
         "text": {
           "jp": "[ターンに１回]自分のステージのエール１枚を、自分のホロメンに付け替える。",
-          "en": "[1/Turn] Reattach 1 cheer from your holomem to your other holomem."
+          "en": "[1/Turn]Reattach 1 cheer from your stage to 1 of your holomem."
         }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": "じゃあ敵だね？", "en": "So, you're the enemy?" },
+        "name": { "jp": "じゃあ敵だね？", "en": "So, that Makes You My Enemy?" },
         "text": {
           "jp": "[ゲームに１回]相手のセンターホロメンとバックホロメン１人を交代させる。その後、このターンの間、自分の白センターホロメンのアーツ+50。",
-          "en": "[1/Game] Switch your opponent's center holomem with 1 of their back holomem. During this turn, your white center holomem gets Arts +50."
+          "en": "[1/Game]Swap your opponent's center holomem with 1 back holomem. During this turn, your white center holomem gets Arts+50."
         }
       }
     ],
@@ -21808,19 +21820,19 @@
     "oshi_skills": [
       {
         "holo_power": 3,
-        "name": { "jp": "左手に地図", "en": "Map in the left hand" },
+        "name": { "jp": "左手に地図", "en": "A Map in My Left Hand" },
         "text": {
           "jp": "[ターンに１回]自分のホロメンの能力でサイコロを振る時に使える：サイコロの目の数１つを宣言し、次に出る目の数を宣言した目として扱う。",
-          "en": "[1/Turn] Usable if you are about to roll a dice as part of a holomem's ability or Arts:Declare a number that is on the dice, and treat the next dice roll as if it was that number."
+          "en": "[1/Turn]Usable if your holomem's ability would roll a dice:Declare 1 of the face numbers of the dice, and regard the next result as the declared number."
         }
       },
       {
         "special": true,
         "holo_power": 3,
-        "name": { "jp": "右手にマイク", "en": "Mic in the right hand" },
+        "name": { "jp": "右手にマイク", "en": "A Mic in My Right Hand" },
         "text": {
           "jp": "[ゲームに１回]自分のアーカイブのエールを自分の緑ホロメン１人に好きな枚数送る。",
-          "en": "[1/Game] Send any number of cheers from your archive to 1 of your green holomem."
+          "en": "[1/Game]Send any number of cheers from your archive to 1 of your green holomem."
         }
       }
     ],
@@ -21922,10 +21934,13 @@
     "hp": 150,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "white" ], "name": { "jp": "ぬんぬんしよう", "en": "nun nun shiyo" }, "power": "30" },
+      { "cheers": [ "white" ], "name": { "jp": "ぬんぬんしよう", "en": "Noon Noon Together!" }, "power": "30" },
       {
         "cheers": [ "white", "colorless" ],
-        "name": { "jp": "あなたの心は…くもりのち晴れ！", "en": "Your heart is cloudy... then clear!" },
+        "name": {
+          "jp": "あなたの心は…くもりのち晴れ！",
+          "en": "Your Heart… Will Turn from Cloudy to Sunny!"
+        },
         "power": "50"
       }
     ],
@@ -21965,13 +21980,13 @@
         "power": "60+",
         "text": {
           "jp": "自分のステージにホロメンの〈AZKi〉がいる時、このアーツ+50。",
-          "en": "If there are any AZKi on your stage, this Arts gets +50."
+          "en": "If an <AZKi> holomem is on your stage, this Arts gets +50."
         }
       }
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-２",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -22012,7 +22027,7 @@
         "name": { "jp": "HOPE", "en": "HOPE" },
         "text": {
           "jp": "自分のホロパワーを見る。その中から１枚を公開し、手札に加える。そして自分の手札１枚をホロパワーにする。",
-          "en": "Look at your holo Power cards, reveal one, and put it into your hand. Then put a card from your hand into your holo Power."
+          "en": "Look at your holo Power. Reveal 1 card from among them, and add it to hand. Then, put 1 card from your hand as holo Power."
         }
       }
     ],
@@ -22135,7 +22150,7 @@
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "きみとあてのない旅", "en": "An aimless journey with you" },
+        "name": { "jp": "きみとあてのない旅", "en": "A Journey with No Destination with You" },
         "power": "50"
       }
     ],
@@ -22170,7 +22185,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "自分のステージにホロメンの〈ときのそら〉がいる時、自分のエールデッキの上から１枚を、自分のホロメンに送る。",
-          "en": "If there are any Tokino Sora on your stage, send the top card of your cheer deck to your holomem."
+          "en": "If a <Tokino Sora> holomem is on your stage, send the top card of your cheer deck to your holomem."
         }
       },
       {
@@ -22180,7 +22195,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "サイコロを１回振れる：奇数の時、このアーツ+50。１の時、さらに、このアーツ+50。",
-          "en": "You may roll a dice once:If it is odd, this Arts gets +50. Then, if it is 1, this Arts gets an additional +50."
+          "en": "You may roll a dice once:If it is odd, this Arts gets +50. Then, if it is 1, this Arts gets +50."
         }
       }
     ],
@@ -22223,18 +22238,22 @@
         "name": { "jp": "一緒にお絵かき！", "en": "Drawing together!" },
         "text": {
           "jp": "自分のアーカイブの[白エールか緑エール]１枚を自分のセンターホロメンに送れる。",
-          "en": "Send 1 White cheer or Green cheer from your archive to your center holomem."
+          "en": "You may send 1 [white cheer or green cheer] from your archive to your center holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green" ],
-        "name": { "jp": "お絵かきたのしー！", "en": "I had fun drawing!" },
+        "name": { "jp": "お絵かきたのしー！", "en": "Drawing is so fun!" },
         "power": "20"
       }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID1期生", "en": "#ID Gen 1" }, { "jp": "#絵", "en": "#Art" } ],
+    "tags": [
+      { "jp": "#ID", "en": "#ID" },
+      { "jp": "#ID1期生", "en": "#ID Gen 1" },
+      { "jp": "#絵", "en": "#Painting" }
+    ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
     "illustrations": [
@@ -22280,7 +22299,7 @@
     ],
     "extra": {
       "jp": "このホロメンは〈ときのそら〉〈AZKi〉としても扱う",
-      "en": "This holomem is also treated as both Tokino Sora and AZKi."
+      "en": "This holomem is also regarded as Tokino Sora and AZKi."
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
@@ -22316,7 +22335,7 @@
     "hp": 150,
     "bloom_level": "spot",
     "arts": [ { "cheers": [ "white", "green" ], "name": { "jp": "へい", "en": "Hey" }, "power": "30" } ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#4期生", "en": "#Gen 4" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -22346,7 +22365,7 @@
         "name": { "jp": "SoAzKo", "en": "SoAzKo" },
         "text": {
           "jp": "■〈ときのそら〉とコラボした時、自分のデッキを１枚引く。\n■〈AZKi〉とコラボした時、自分のエールデッキの上から１枚を、自分のセンターホロメンに送る。",
-          "en": "- If you are collabing with Tokino Sora, draw 1 card from your deck.\n- If you are collabing with AZKi, send the top card of your cheer deck to your center holomem."
+          "en": "- If collab with <Tokino Sora>, draw 1 card from your deck.\n- If collab with <AZKi>, send the top card of your cheer deck to your center holomem."
         }
       }
     ],
@@ -22357,7 +22376,7 @@
         "power": "10"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#秘密結社holoX", "en": "#holoX" },
@@ -22420,7 +22439,7 @@
   },
   "hSD01-017": {
     "card_number": "hSD01-017",
-    "name": { "jp": "マネちゃん", "en": "Mane-chan" },
+    "name": { "jp": "マネちゃん", "en": "Manager-chan" },
     "card_type": { "support": "staff" },
     "limited": true,
     "text": {
@@ -22548,11 +22567,11 @@
   },
   "hSD01-020": {
     "card_number": "hSD01-020",
-    "name": { "jp": "ホロリスの輪", "en": "Holofan Circle" },
+    "name": { "jp": "ホロリスの輪", "en": "Circle of hololive Listeners" },
     "card_type": { "support": "event" },
     "text": {
       "jp": "サイコロを１回振る：３以上の時、自分のアーカイブのエール１枚を自分のホロメンに送る。",
-      "en": "Roll a dice once:If it is 3 or more, send 1 cheer from your archive to your holomem."
+      "en": "Roll a dice once:If it is 3 or greater, send 1 cheer from your archive to your holomem."
     },
     "max_amount": 4,
     "illustrations": [
@@ -22575,7 +22594,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。\n\n自分のデッキの上から４枚を見る。その中から、〈ときのそら〉と〈AZKi〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Tokino Sora or AZKi and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of <Tokino Sora> and/or <AZKi> from among them, and put the revealed holomem into hand. Then, return the rest to the bottom of the deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -22897,7 +22916,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -22998,13 +23017,13 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#1期生", "en": "#Gen 1" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
       { "jp": "#ケモミミ", "en": "#Kemomimi" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -23045,7 +23064,7 @@
         "power": "10"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
@@ -23074,7 +23093,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、〈白上フブキ〉と〈大神ミオ〉と〈百鬼あやめ〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Shirakami Fubuki, Ookami Mio, or Nakiri Ayame and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Shirakami Fubuki, Ookami Mio, or Nakiri Ayame and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -23497,7 +23516,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -23592,7 +23611,7 @@
       }
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "おらよ～", "en": "Orayo" }, "power": "30" } ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#ゲーマーズ", "en": "#Gamers" },
@@ -23636,7 +23655,7 @@
         }
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#秘密結社holoX", "en": "#holoX" },
@@ -23664,7 +23683,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、〈猫又おかゆ〉と〈鷹嶺ルイ〉と〈大神ミオ〉と〈白上フブキ〉と〈ラプラス・ダークネス〉と〈戌神ころね〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Nekomata Okayu, Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, or Inugami Korone and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Nekomata Okayu, Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, or Inugami Korone and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -24058,7 +24077,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -24159,7 +24178,7 @@
         "power": "20"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -24200,7 +24219,7 @@
         "power": "10"
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom." },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#4期生", "en": "#Gen 4" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -24224,7 +24243,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、〈大空スバル〉と〈癒月ちょこ〉と〈姫森ルーナ〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Oozora Subaru, Yuzuki Choco, or Himemori Luna and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Oozora Subaru, Yuzuki Choco, or Himemori Luna and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -24584,7 +24603,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -24774,7 +24793,7 @@
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
       { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
-      { "jp": "#絵", "en": "#Art" }
+      { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
     "max_amount": 4,
@@ -25058,7 +25077,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#holoX" } ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -25611,7 +25630,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "When this holomem is downed, take 2 Life Damage."
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -25870,7 +25889,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、〈不知火フレア〉と〈尾丸ポルカ〉と〈さくらみこ〉と〈星街すいせい〉と〈白銀ノエル〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Shiranui Flare, Omaru Polka, Sakura Miko, Hoshimachi Suisei, or Shirogane Noel and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of them that are Shiranui Flare, Omaru Polka, Sakura Miko, Hoshimachi Suisei, or Shirogane Noel and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
     },
     "max_amount": 4,
     "illustrations": [
@@ -26666,7 +26685,7 @@
         "name": { "jp": "ホワイトバトン", "en": "White Baton" },
         "text": {
           "jp": "[ターンに１回]このターンの間、自分の白コラボホロメンのアーツ+20。",
-          "en": "[1/Turn] During this turn, your white collab holomem gets Arts +20."
+          "en": "[1/Turn]During this turn, your white collab holomem get Arts +20."
         }
       },
       {
@@ -26675,7 +26694,7 @@
         "name": { "jp": "クイックガード", "en": "Quick Guard" },
         "text": {
           "jp": "[ゲームに１回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える：そのホロメン１人が受けるダメージ-20。",
-          "en": "[1/Game] Usable if your white holomem is about to take damage during your opponent's turn:Reduce that damage by 20."
+          "en": "[1/Game]During your opponent's turn, usable if your white holomem would take Damage from your opponent:That holomem takes -20 Damage."
         }
       }
     ],
@@ -26705,16 +26724,16 @@
         "name": { "jp": "グリーンバトン", "en": "Green Baton" },
         "text": {
           "jp": "[ターンに１回]このターンの間、自分の緑コラボホロメンのアーツ+20。",
-          "en": "[1/Turn] During this turn, your green collab holomem gets Arts +20."
+          "en": "[1/Turn]During this turn, your green collab holomem get Arts +20."
         }
       },
       {
         "special": true,
         "holo_power": 1,
-        "name": { "jp": "みんな頑張ろー！", "en": "Let's do our best everyone!" },
+        "name": { "jp": "みんな頑張ろー！", "en": "Let's All Give Our Best!" },
         "text": {
           "jp": "[ゲームに１回]自分の緑ホロメン全員のHP20回復。",
-          "en": "[1/Game] Restore 20 HP to all of your green holomem."
+          "en": "[1/Game]Restore 20 HP to all of your green holomem."
         }
       }
     ],
@@ -26744,16 +26763,16 @@
         "name": { "jp": "レッドバトン", "en": "Red Baton" },
         "text": {
           "jp": "[ターンに１回]このターンの間、自分の赤コラボホロメンのアーツ+20。",
-          "en": "[1/Turn] During this turn, your red collab holomem gets Arts +20."
+          "en": "[1/Turn]During this turn, your red collab holomem get Arts +20."
         }
       },
       {
         "special": true,
         "holo_power": 1,
-        "name": { "jp": "さあ！もう一度！", "en": "Come on! Again!" },
+        "name": { "jp": "さあ！もう一度！", "en": "Now! Once more!" },
         "text": {
           "jp": "[ゲームに１回]自分のアーカイブの赤ホロメン１枚を手札に戻す。",
-          "en": "[1/Game] Return 1 red holomem from your archive to hand."
+          "en": "[1/Game]Return 1 red holomem from your archive to hand."
         }
       }
     ],
@@ -26783,16 +26802,16 @@
         "name": { "jp": "ブルーバトン", "en": "Blue Baton" },
         "text": {
           "jp": "[ターンに１回]このターンの間、自分の青コラボホロメンのアーツ+20。",
-          "en": "[1/Turn] During this turn, your blue collab holomem gets Arts +20."
+          "en": "[1/Turn]During this turn, your blue collab holomem get Arts +20."
         }
       },
       {
         "special": true,
         "holo_power": 1,
-        "name": { "jp": "バックショット", "en": "Back Shot" },
+        "name": { "jp": "バックショット", "en": "Strike Back" },
         "text": {
           "jp": "[ゲームに１回]自分のホロメンが相手のバックホロメンにダメージを与えた時に使える：その相手のバックホロメン１人に特殊ダメージ50を与える。",
-          "en": "[1/Game] Usable if your holomem deals damage to 1 of your opponent's back holomem:Deal 50 Special Damage to the same holomem."
+          "en": "[1/Game]Usable when your holomem deals Damage to your opponent's back holomem:Deal 50 Special Damage to that back holomem."
         }
       }
     ],
