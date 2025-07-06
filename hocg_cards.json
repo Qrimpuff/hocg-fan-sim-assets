@@ -11337,7 +11337,7 @@
         "name": { "jp": "パソコンならわかるのら", "en": "If you had a PC, you'd understand" },
         "text": {
           "jp": "[ターンに1回]自分のデッキから、カード名に「パソコン」を含むアイテム1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "[1/Turn]Reveal 1 Item with \"PC\" in its name from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "[1/Turn]Reveal 1 item with \"PC\" in its name from your deck, and add it to hand. Then, shuffle the deck."
         }
       },
       {
@@ -11395,7 +11395,7 @@
         "name": { "jp": "狙撃", "en": "Aiming" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンの色が緑の時に使える：相手のDebut以外のセンターホロメンに特殊ダメージ100を与える。",
-          "en": "[1/Game]Usable if your center holomem is green:Deal 100 Special Damage to your opponent's non-Debut center holomem."
+          "en": "[1/Game]Usable if your center holomem's color is green:Deal 100 Special Damage to your opponent's non-Debut center holomem."
         }
       }
     ],
@@ -11454,7 +11454,7 @@
         "name": { "jp": "あきらめない心にぇ", "en": "A heart that doesn't give up" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンの色が赤の時に使える：自分の手札を好きな枚数選んで好きな順でデッキの下に戻す。そして手札が5枚になるまで、自分のデッキを引く。",
-          "en": "[1/Game]Usable if your center holomem is red:Choose any number of cards from your hand, and return them to the bottom of the deck in any order. Then, draw cards from your deck until you have 5 cards in hand."
+          "en": "[1/Game]Usable if your center holomem's color is red:Choose any number of cards from your hand, and return them to the bottom of the deck in any order. Then, draw cards from your deck until you have 5 cards in hand."
         }
       }
     ],
@@ -12455,7 +12455,7 @@
         },
         "text": {
           "jp": "自分のアーカイブの緑エール1枚ずつを、自分の#シューターを持つバックホロメン1～2人に送れる。",
-          "en": "You may send 1 cheer each from your archive to 1~2 of your back holomem with #shooter."
+          "en": "You may send 1 cheer each from your archive to 1~2 of your back holomem with #Shooter."
         }
       }
     ],
@@ -12601,7 +12601,7 @@
         "power": "80+",
         "text": {
           "jp": "このターンに自分の〈兎田ぺこら〉の能力でサイコロを1回以上振っていた時、このアーツ+40。",
-          "en": "If you have rolled a dice at least once during this turn as part of any <Usada Pekora>'s ability, this Arts gets +40."
+          "en": "If you have rolled a dice this turn as part of any <Usada Pekora>'s ability, this Arts gets +40."
         }
       }
     ],
@@ -12664,7 +12664,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このホロメンに緑以外のエールが2枚以上付いている時、このアーツ+50。",
-          "en": "If at least 2 non-green cheers are attached to this holomem, this Arts gets +50."
+          "en": "If 2 or more non-green cheers are attached to this holomem, this Arts gets +50."
         }
       }
     ],
@@ -13802,7 +13802,7 @@
         "power": "40+",
         "text": {
           "jp": "相手のHPが減っているバックホロメン1人につき、このアーツ+10。",
-          "en": "This Arts gets +10 for each of your opponent's back holomem that has taken Damage."
+          "en": "This Arts gets +10 for each of your opponent's damaged back holomem."
         }
       }
     ],
@@ -14582,7 +14582,7 @@
         "advantage": [ "green", 50 ],
         "text": {
           "jp": "相手のステージにエールが7枚以上ある時、このアーツ+70。",
-          "en": "If your opponent has at least 7 cheers on their stage, this Arts gets +70."
+          "en": "If your opponent has 7 or more cheers on their stage, this Arts gets +70."
         }
       }
     ],
@@ -17204,7 +17204,7 @@
         "name": { "jp": "リアクション芸", "en": "Reaction Arts" },
         "text": {
           "jp": "[ゲームに1回]自分のライフが3以下の時に使える：このターンの間、自分のセンターホロメンの〈大空スバル〉のアーツ+100。",
-          "en": "[1/Game]Usable if you have 3 or less Life:During this turn, your center <Oozora Subaru> gets Arts +100."
+          "en": "[1/Game]Usable if your Life is 3 or less:During this turn, your center <Oozora Subaru> gets Arts +100."
         }
       }
     ],
@@ -17687,7 +17687,7 @@
         "power": "30+",
         "text": {
           "jp": "自分のステージの#Promiseを持つホロメン1人につき、このアーツ+10。ただし、数える人数は4人まで。",
-          "en": "This Arts gets +10 for each of your holomem with #Promise. The maximum number of holomem counted for this effect is 4."
+          "en": "This Arts gets +10 for each of your holomem with #Promise. However, only up to 4 holomem are counted."
         }
       }
     ],
@@ -20941,7 +20941,7 @@
         "name": { "jp": "宝物みつけた", "en": "I found a treasure" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]自分の〈古代武器〉が付いているセンターホロメンの〈アーニャ・メルフィッサ〉のアーツに必要な黄-1。",
-          "en": "[Center position or collab position only]The Arts cheer cost of your center <Anya Melfissa> with an <Ancient Weapon> attached is reduced by 1 Yellow cheer."
+          "en": "[Center position or collab position only]The Arts cheer cost of your center <Anya Melfissa> with an <Ancient Weapon> attached is reduced by 1 yellow cheer."
         }
       }
     ],
@@ -21428,7 +21428,7 @@
         "name": { "jp": "『緋色の女王』", "en": "The Scarlet Queen" },
         "text": {
           "jp": "[コラボポジション限定]自分のDebutホロメンがセンターポジションで受けるダメージ-20。",
-          "en": "[Collab position only]Your center holomem takes -20 damage."
+          "en": "[Collab position only]Your center Debut holomem takes -20 damage."
         }
       }
     ],
@@ -21813,7 +21813,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆#ID3期生を持つ1st以上のホロメンに付いていたら能力追加\nこのツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem with #ID Gen 3\nThe holomem this tool is attached to gets Arts +10.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem with #ID Gen 3\nThe holomem this tool is attached to gets Arts+10.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#カエラ'sアームズ", "en": "#Kaela'sArms" } ],
     "max_amount": 4,
@@ -26083,7 +26083,7 @@
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "自分のライフが3以下の時、このアーツ+70。",
-          "en": "If you have 3 or less Life, this Arts gets +70."
+          "en": "If your Life is 3 or less, this Arts gets +70."
         }
       }
     ],
