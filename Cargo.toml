@@ -32,11 +32,11 @@ reqwest = { version = "0.12", features = [
     "brotli",
     "deflate",
 ] }
-rusqlite = { version = "0.34.0", features = ["bundled"] }
+rusqlite = { version = "0.37.0", features = ["bundled"] }
 scraper = "0.23.1"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-tempfile = "3.13.0"
+tempfile = "3.20.0"
 walkdir = "2.5.0"
 webp = "0.3.0"
-zip = "2.5.0"
+zip = "4.2.0"
