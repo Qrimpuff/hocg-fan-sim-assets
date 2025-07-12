@@ -66,10 +66,15 @@ pub fn download_images(
                         .unwrap()
                 });
 
+                // skip unreleased cards
+                if card.manage_id.value(language).is_none() {
+                    return;
+                }
+
                 let Some(img_path) = card.img_path.value(language) else {
-                    if card.manage_id.value(language).is_some() {
-                        eprintln!("Skipping card {card_number} illustration {illust_idx} without image path");
-                    }
+                    eprintln!(
+                        "Skipping card {card_number} illustration {illust_idx} without image path"
+                    );
                     return;
                 };
 
@@ -179,7 +184,9 @@ pub fn download_images(
             });
             *card.img_last_modified.value_mut(language) = img_last_modified;
             // update image hash
-            card.img_hash = path_to_image_hash(&images_path.join(card.img_path.value(language).as_deref().unwrap()));
+            card.img_hash = path_to_image_hash(
+                &images_path.join(card.img_path.value(language).as_deref().unwrap()),
+            );
         }
     });
 
