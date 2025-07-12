@@ -1,9 +1,11 @@
+use hocg_fan_sim_assets_model::{Art, Card, Extra, Keyword, Language, OshiSkill, Tag};
+
 pub mod decklog {
 
     use std::{fmt::Display, str::FromStr, sync::Arc};
 
     use hocg_fan_sim_assets_model::{
-        BloomLevel, CardIllustration, CardType, CardsDatabase, Localized, SupportType,
+        BloomLevel, CardIllustration, CardType, CardsDatabase, Language, Localized, SupportType,
     };
     use parking_lot::{Mutex, RwLock};
     use rayon::iter::{IntoParallelIterator, ParallelBridge, ParallelIterator};
@@ -83,15 +85,27 @@ pub mod decklog {
     impl DeckLogCard {
         fn card_type(&self) -> CardType {
             match self.card_kind.trim().to_lowercase().as_str() {
-                s if s.contains("推し") => CardType::OshiHoloMember,
-                s if s.contains("ホロメン") => CardType::HoloMember,
-                s if s.contains("スタッフ") => CardType::Support(SupportType::Staff),
-                s if s.contains("アイテム") => CardType::Support(SupportType::Item),
-                s if s.contains("イベント") => CardType::Support(SupportType::Event),
-                s if s.contains("ツール") => CardType::Support(SupportType::Tool),
-                s if s.contains("マスコット") => CardType::Support(SupportType::Mascot),
-                s if s.contains("ファン") => CardType::Support(SupportType::Fan),
-                "エール" => CardType::Cheer,
+                s if s.contains("推し") || s.contains("oshi") => CardType::OshiHoloMember,
+                s if s.contains("ホロメン") || s.contains("holomem") => CardType::HoloMember,
+                s if s.contains("スタッフ") || s.contains("staff") => {
+                    CardType::Support(SupportType::Staff)
+                }
+                s if s.contains("アイテム") || s.contains("item") => {
+                    CardType::Support(SupportType::Item)
+                }
+                s if s.contains("イベント") || s.contains("event") => {
+                    CardType::Support(SupportType::Event)
+                }
+                s if s.contains("ツール") || s.contains("tool") => {
+                    CardType::Support(SupportType::Tool)
+                }
+                s if s.contains("マスコット") || s.contains("mascot") => {
+                    CardType::Support(SupportType::Mascot)
+                }
+                s if s.contains("ファン") || s.contains("fan") => {
+                    CardType::Support(SupportType::Fan)
+                }
+                "エール" | "cheer" => CardType::Cheer,
                 _ => CardType::Other,
             }
         }
@@ -132,12 +146,14 @@ pub mod decklog {
         number_filter: &Option<String>,
         expansion: &Option<String>,
         optimized_original_images: bool,
+        language: Language,
     ) -> Vec<(String, usize)> {
         if number_filter.is_none() && expansion.is_none() {
-            println!("Retrieve ALL cards info from Deck Log");
+            println!("Retrieve ALL cards info from Deck Log for language: {language:?}");
         } else {
             println!(
-                "Retrieve cards info from Deck Log with filters - number: {}, expension: {}",
+                "Retrieve cards info from Deck Log with filters - language: {:?}, number: {}, expension: {}",
+                language,
                 number_filter.as_deref().unwrap_or("all"),
                 expansion.as_deref().unwrap_or("all")
             );
@@ -171,9 +187,20 @@ pub mod decklog {
                                     page,
                                 };
 
+                                let (url, referrer) = match language {
+                                    Language::Japanese => (
+                                        "https://decklog.bushiroad.com/system/app/api/search/9",
+                                        "https://decklog.bushiroad.com/",
+                                    ),
+                                    Language::English => (
+                                        "https://decklog-en.bushiroad.com/system/app/api/search/8",
+                                        "https://decklog-en.bushiroad.com/",
+                                    ),
+                                };
+
                                 let resp = http_client()
-                                    .post("https://decklog.bushiroad.com/system/app/api/search/9")
-                                    .header(REFERER, "https://decklog.bushiroad.com/")
+                                    .post(url)
+                                    .header(REFERER, referrer)
                                     .json(&req)
                                     .send()
                                     .unwrap();
@@ -183,7 +210,7 @@ pub mod decklog {
                                 let cards = serde_json::from_str(&content);
                                 let Ok(cards): Result<Vec<DeckLogCard>, _> = cards else {
                                     eprintln!("didn't like response: {content}");
-                                    panic!("{:?}", cards)
+                                    panic!("{cards:?}")
                                 };
 
                                 // no more card in this page
@@ -215,22 +242,25 @@ pub mod decklog {
                                         .values_mut()
                                         .flat_map(|cs| cs.illustrations.iter_mut())
                                         .filter(|c| {
-                                            c.manage_id == dl_card.manage_id
+                                            *c.manage_id.value(language) == dl_card.manage_id
                                                 && c.card_number != dl_card.card_number
                                         })
-                                        .for_each(|c| c.manage_id = None);
+                                        .for_each(|c| {
+                                            *c.manage_id.value_mut(language) = None;
+                                        });
 
                                     // add the card the list
                                     let mut all_cards = all_cards.write();
                                     let card =
                                         all_cards.entry(dl_card.card_number.clone()).or_default();
                                     card.card_number = dl_card.card_number.clone();
-                                    card.name.japanese = Some(dl_card.name.clone());
+                                    *card.name.value_mut(language) = Some(dl_card.name.clone());
                                     card.card_type = dl_card.card_type();
                                     if let CardType::OshiHoloMember = card.card_type {
-                                        card.max_amount = dl_card.max.min(1)
+                                        *card.max_amount.value_mut(language) =
+                                            Some(dl_card.max.min(1));
                                     } else {
-                                        card.max_amount = dl_card.max
+                                        *card.max_amount.value_mut(language) = Some(dl_card.max);
                                     }
                                     card.bloom_level = dl_card.bloom_level();
                                     card.buzz = dl_card.buzz();
@@ -239,30 +269,41 @@ pub mod decklog {
                                     let illustrations = &mut card.illustrations;
                                     // find the card, first by manage_id, then by image, then overwrite delta, otherwise just add
                                     if let Some(illust) = {
-                                        if let Some(i) = illustrations
-                                            .iter_mut()
-                                            .find(|i| i.manage_id == dl_card.manage_id)
-                                        {
+                                        if let Some(i) = illustrations.iter_mut().find(|i| {
+                                            *i.manage_id.value(language) == dl_card.manage_id
+                                        }) {
                                             Some(i)
                                         } else if let Some(i) = illustrations.iter_mut().find(|i| {
-                                            i.img_path.japanese.as_ref() == Some(&dl_card.img)
+                                            i.img_path.value(language).as_ref()
+                                                == Some(&dl_card.img)
                                         }) {
                                             Some(i)
                                         } else {
-                                            illustrations.iter_mut().find(|c| c.manage_id.is_none())
+                                            illustrations
+                                                .iter_mut()
+                                                .find(|c| !c.manage_id.has_value())
                                         }
                                     } {
                                         // only these fields are retrieved
                                         illust.card_number = dl_card.card_number;
-                                        illust.manage_id = dl_card.manage_id;
+                                        *illust.manage_id.value_mut(language) = dl_card.manage_id;
                                         illust.rarity = dl_card.rare;
-                                        illust.img_path.japanese = Some(dl_card.img);
+                                        *illust.img_path.value_mut(language) = Some(dl_card.img);
                                     } else {
                                         let illust = CardIllustration {
                                             card_number: dl_card.card_number.clone(),
-                                            manage_id: dl_card.manage_id,
+                                            manage_id: match language {
+                                                Language::Japanese => Localized {
+                                                    japanese: dl_card.manage_id,
+                                                    ..Default::default()
+                                                },
+                                                Language::English => Localized {
+                                                    english: dl_card.manage_id,
+                                                    ..Default::default()
+                                                },
+                                            },
                                             rarity: dl_card.rare,
-                                            img_path: Localized::jp(dl_card.img),
+                                            img_path: Localized::new(language, dl_card.img),
                                             ..Default::default()
                                         };
                                         // add the card to the list
@@ -289,7 +330,7 @@ pub mod decklog {
         all_cards
             .values()
             .flat_map(|cs| cs.illustrations.iter().enumerate())
-            .filter(|c| filtered_cards.contains(&c.1.manage_id))
+            .filter(|c| filtered_cards.contains(c.1.manage_id.value(language)))
             .map(|c| (c.1.card_number.clone(), c.0))
             .collect()
     }
@@ -301,12 +342,15 @@ pub mod ogbajoj {
 
     use hocg_fan_sim_assets_model::{
         Art, BloomLevel, Card, CardType, CardsDatabase, Color, Extra, Keyword, KeywordEffect,
-        Localized, OshiSkill, SupportType,
+        Language, Localized, OshiSkill, SupportType, Tag,
     };
     use itertools::Itertools;
     use serde::{Deserialize, Serialize};
 
-    use crate::http_client;
+    use crate::{
+        data::{update_arts, update_extra, update_keywords, update_oshi_skills, update_tags},
+        http_client,
+    };
 
     #[derive(Deserialize, Debug)]
     #[serde(rename_all = "camelCase")]
@@ -404,8 +448,7 @@ pub mod ogbajoj {
                 colors_2.sort();
                 if colors_1 != colors_2 {
                     eprintln!(
-                        "Warning: {card_number} colors mismatch: {:?} should be {:?}",
-                        colors_1, colors_2
+                        "Warning: {card_number} colors mismatch: {colors_1:?} should be {colors_2:?}"
                     );
                 }
             }
@@ -469,9 +512,7 @@ pub mod ogbajoj {
             self.update_card_text(card);
             // there is no japanese text in the sheet
             // update existing tags (tags consistency check)
-            card.tags.iter_mut().zip(self.tags()).for_each(|(t, s)| {
-                t.english = Some(s);
-            });
+            update_tags(card, self.tags(), Language::English);
             // there is no baton pass in the sheet
             // there is no max amount in the sheet
         }
@@ -527,7 +568,7 @@ pub mod ogbajoj {
                 .filter_map(|lines| self.to_oshi_skill(card, lines))
                 .collect_vec();
             // dbg!(&oshi_skills);
-            self.update_oshi_skills(card, oshi_skills);
+            update_oshi_skills(card, oshi_skills, Language::English);
 
             // Keywords
             let keywords_lines =
@@ -536,7 +577,7 @@ pub mod ogbajoj {
                 .into_iter()
                 .filter_map(|lines| self.to_keyword(card, lines))
                 .collect_vec();
-            self.update_keywords(card, keywords);
+            update_keywords(card, keywords, Language::English);
 
             // Arts
             let arts_lines = extract_sections(&mut text_lines, &["Arts"]);
@@ -544,7 +585,7 @@ pub mod ogbajoj {
                 .into_iter()
                 .filter_map(|lines| self.to_art(card, lines))
                 .collect_vec();
-            self.update_arts(card, arts);
+            update_arts(card, arts, Language::English);
 
             // Extra
             let extra_lines = extract_sections(&mut text_lines, &["Extra"]);
@@ -552,7 +593,7 @@ pub mod ogbajoj {
                 .into_iter()
                 .filter_map(|lines| self.to_extra(card, lines))
                 .next();
-            self.update_extra(card, extra);
+            update_extra(card, extra, Language::English);
 
             // Ability text
             card.ability_text.english = text_lines
@@ -593,37 +634,6 @@ pub mod ogbajoj {
             })
         }
 
-        fn update_oshi_skills(&self, card: &mut Card, oshi_skills: Vec<OshiSkill>) {
-            // Apply English text to original card oshi_skills, matching by holo_power if possible
-            for (orig_skill, sheet_skill) in card.oshi_skills.iter_mut().zip(oshi_skills.iter()) {
-                if orig_skill.special != sheet_skill.special {
-                    eprintln!(
-                        "Warning: {} oshi skill special mismatch: {} should be {}",
-                        card.card_number, sheet_skill.special, orig_skill.special
-                    );
-                }
-                if orig_skill.holo_power != sheet_skill.holo_power {
-                    eprintln!(
-                        "Warning: {} oshi skill holo power mismatch: {} should be {}",
-                        card.card_number,
-                        String::from(sheet_skill.holo_power),
-                        String::from(orig_skill.holo_power)
-                    );
-                }
-                orig_skill.name.english = sheet_skill.name.english.clone();
-                orig_skill.ability_text.english = sheet_skill.ability_text.english.clone();
-            }
-            // If the number of sheet oshi_skills is different from the original, warn
-            if oshi_skills.len() != card.oshi_skills.len() {
-                eprintln!(
-                    "Warning: {} has a different number of oshi skills in the sheet than in the original card: {} should be {}",
-                    card.card_number,
-                    oshi_skills.len(),
-                    card.oshi_skills.len()
-                );
-            }
-        }
-
         fn to_keyword(&self, card: &mut Card, mut lines: Vec<&str>) -> Option<Keyword> {
             let first = lines.remove(0);
             let Some((effect, name)) = first.split_once(':') else {
@@ -635,7 +645,7 @@ pub mod ogbajoj {
                 "bloom effect" => KeywordEffect::Bloom,
                 "gift" | "gift effect" => KeywordEffect::Gift,
                 _ => {
-                    eprintln!("Unknown keyword effect: {}", effect);
+                    eprintln!("Unknown keyword effect: {effect}");
                     return None;
                 }
             };
@@ -651,29 +661,6 @@ pub mod ogbajoj {
                 name: Localized::en(name.into()),
                 ability_text: Localized::en(lines.join("\n").trim().to_string()),
             })
-        }
-
-        fn update_keywords(&self, card: &mut Card, keywords: Vec<Keyword>) {
-            // Apply English text to original card keywords, matching by effect if possible
-            for (orig_keyword, sheet_keyword) in card.keywords.iter_mut().zip(keywords.iter()) {
-                if orig_keyword.effect != sheet_keyword.effect {
-                    eprintln!(
-                        "Warning: {} keyword effect mismatch: {:?} should be {:?}",
-                        card.card_number, sheet_keyword.effect, orig_keyword.effect
-                    );
-                }
-                orig_keyword.name.english = sheet_keyword.name.english.clone();
-                orig_keyword.ability_text.english = sheet_keyword.ability_text.english.clone();
-            }
-            // If the number of sheet keywords is different from the original, warn
-            if keywords.len() != card.keywords.len() {
-                eprintln!(
-                    "Warning: {} has a different number of keywords in the sheet than in the original card: {} should be {}",
-                    card.card_number,
-                    keywords.len(),
-                    card.keywords.len()
-                );
-            }
         }
 
         fn to_art(&self, card: &mut Card, mut lines: Vec<&str>) -> Option<Art> {
@@ -763,56 +750,6 @@ pub mod ogbajoj {
             })
         }
 
-        fn update_arts(&self, card: &mut Card, arts: Vec<Art>) {
-            // Apply English text to original card arts, matching by power if possible
-            for (orig_art, sheet_art) in card.arts.iter_mut().zip(arts.iter()) {
-                if orig_art.cheers != sheet_art.cheers {
-                    eprintln!(
-                        "Warning: {} art cheers mismatch: {:?} should be {:?}",
-                        card.card_number, sheet_art.cheers, orig_art.cheers
-                    );
-                }
-                if orig_art.power != sheet_art.power {
-                    eprintln!(
-                        "Warning: {} art power mismatch: {:?} should be {:?}",
-                        card.card_number, sheet_art.power, orig_art.power
-                    );
-                }
-                if orig_art.advantage != sheet_art.advantage {
-                    eprintln!(
-                        "Warning: {} art advantage mismatch: {:?} should be {:?}",
-                        card.card_number, sheet_art.advantage, orig_art.advantage
-                    );
-                }
-                orig_art.name.english = sheet_art.name.english.clone();
-
-                if let Some(orig_ability_text) = &mut orig_art.ability_text {
-                    if let Some(sheet_ability_text) = &sheet_art.ability_text {
-                        orig_ability_text.english = sheet_ability_text.english.clone();
-                    } else {
-                        eprintln!(
-                            "Warning: {} art ability text mismatch: {:?} should be {:?}",
-                            card.card_number, sheet_art.ability_text, orig_ability_text
-                        );
-                    }
-                } else if sheet_art.ability_text.is_some() {
-                    eprintln!(
-                        "Warning: {} art ability text mismatch: {:?} should be {:?}",
-                        card.card_number, sheet_art.ability_text, orig_art.ability_text
-                    );
-                }
-            }
-            // If the number of sheet arts is different from the original, warn
-            if arts.len() != card.arts.len() {
-                eprintln!(
-                    "Warning: {} has a different number of arts in the sheet than in the original card: {} should be {}",
-                    card.card_number,
-                    arts.len(),
-                    card.arts.len()
-                );
-            }
-        }
-
         fn to_extra(&self, card: &mut Card, mut lines: Vec<&str>) -> Option<Extra> {
             let first = lines.remove(0);
             let Some((_extra, extra)) = first.split_once(':') else {
@@ -820,28 +757,12 @@ pub mod ogbajoj {
                 return None;
             };
 
-            Some(Localized::new("".into(), extra.trim().into()))
-        }
-
-        fn update_extra(&self, card: &mut Card, extra: Option<Extra>) {
-            // Apply English text to original card extra, matching by name if possible
-            for (orig_extra, sheet_extra) in card.extra.iter_mut().zip(extra.iter()) {
-                orig_extra.english = sheet_extra.english.clone();
-            }
-            // If the number of sheet extra is different from the original, warn
-            if extra.is_some() != card.extra.is_some() {
-                eprintln!(
-                    "Warning: {} has a different extra in the sheet than in the original card: {} should be {}",
-                    card.card_number,
-                    extra.is_some(),
-                    card.extra.is_some()
-                );
-            }
+            Some(Localized::en(extra.trim().into()))
         }
 
         fn name(&self) -> Localized<String> {
             if let Some((jp, en)) = self.card_name_jp_en.split_once("\n(") {
-                Localized::new(
+                Localized::both(
                     jp.trim().into(),
                     en.trim_start_matches('(')
                         .trim_end_matches(')')
@@ -850,7 +771,7 @@ pub mod ogbajoj {
                 )
             } else {
                 let name = self.card_name_jp_en.trim();
-                Localized::new(name.into(), name.into())
+                Localized::both(name.into(), name.into())
             }
         }
 
@@ -923,12 +844,12 @@ pub mod ogbajoj {
                 .to_string()
         }
 
-        fn tags(&self) -> Vec<String> {
+        fn tags(&self) -> Vec<Tag> {
             self.tags
                 .split('#')
                 .map(|s| s.trim())
                 .filter(|s| !s.is_empty())
-                .map(|s| format!("#{s}"))
+                .map(|s| Localized::en(format!("#{s}")))
                 .collect()
         }
     }
@@ -1037,19 +958,6 @@ pub mod ogbajoj {
             .filter(|c| c.name.english.is_none())
             .count();
         println!("Missing english names: {missing_english}");
-
-        // check for tags consistency
-        let tags_mapping = all_cards
-            .values()
-            .flat_map(|c| &c.tags)
-            .map(|t| (&t.japanese, &t.english))
-            .unique()
-            .into_group_map_by(|t| t.0);
-        for (tag, names) in tags_mapping {
-            if names.len() > 1 {
-                println!("Tag {tag:?} has multiple names: {names:#?}");
-            }
-        }
     }
 }
 
@@ -1058,40 +966,44 @@ pub mod hololive_official {
     use std::{ops::Deref, sync::OnceLock};
 
     use hocg_fan_sim_assets_model::{
-        Art, BloomLevel, Card, CardType, CardsDatabase, Color, Keyword, KeywordEffect, Localized,
-        OshiSkill,
+        Art, BloomLevel, Card, CardType, CardsDatabase, Color, Keyword, KeywordEffect, Language,
+        Localized, OshiSkill,
     };
     use itertools::Itertools;
     use parking_lot::{Mutex, RwLock};
     use rayon::iter::{ParallelBridge, ParallelIterator};
     use reqwest::Url;
+    use reqwest::header::REFERER;
     use scraper::{Html, Node, Selector};
 
+    use crate::data::{
+        update_arts, update_extra, update_keywords, update_oshi_skills, update_tags,
+    };
     use crate::http_client;
 
     fn card_type_from_str(card_type: &str) -> CardType {
         match card_type.trim().to_lowercase().as_str() {
-            s if s.contains("推し") => CardType::OshiHoloMember,
-            s if s.contains("ホロメン") => CardType::HoloMember,
-            s if s.contains("スタッフ") => {
+            s if s.contains("推し") || s.contains("oshi") => CardType::OshiHoloMember,
+            s if s.contains("ホロメン") || s.contains("holomem") => CardType::HoloMember,
+            s if s.contains("スタッフ") || s.contains("staff") => {
                 CardType::Support(hocg_fan_sim_assets_model::SupportType::Staff)
             }
-            s if s.contains("アイテム") => {
+            s if s.contains("アイテム") || s.contains("item") => {
                 CardType::Support(hocg_fan_sim_assets_model::SupportType::Item)
             }
-            s if s.contains("イベント") => {
+            s if s.contains("イベント") || s.contains("event") => {
                 CardType::Support(hocg_fan_sim_assets_model::SupportType::Event)
             }
-            s if s.contains("ツール") => {
+            s if s.contains("ツール") || s.contains("tool") => {
                 CardType::Support(hocg_fan_sim_assets_model::SupportType::Tool)
             }
-            s if s.contains("マスコット") => {
+            s if s.contains("マスコット") || s.contains("mascot") => {
                 CardType::Support(hocg_fan_sim_assets_model::SupportType::Mascot)
             }
-            s if s.contains("ファン") => {
+            s if s.contains("ファン") || s.contains("fan") => {
                 CardType::Support(hocg_fan_sim_assets_model::SupportType::Fan)
             }
-            "エール" => CardType::Cheer,
+            "エール" | "cheer" => CardType::Cheer,
             _ => CardType::Other,
         }
     }
@@ -1104,10 +1016,11 @@ pub mod hololive_official {
         card_type.trim().to_lowercase().contains("limited")
     }
 
-    fn tags_from_str(tags: &str) -> Vec<Localized<String>> {
-        tags.split_whitespace()
-            .map(|s| s.trim().to_string())
-            .map(Localized::jp)
+    fn tags_from_str(tags: &str, language: Language) -> Vec<Localized<String>> {
+        tags.split('#')
+            .map(|s| s.trim())
+            .filter(|s| !s.is_empty())
+            .map(|s| Localized::new(language, format!("#{s}")))
             .collect()
     }
 
@@ -1143,7 +1056,7 @@ pub mod hololive_official {
         colors_from_str(baton_pass)
     }
 
-    fn update_card_info(card: &mut Card, hololive_card: &scraper::ElementRef) {
+    fn update_card_info(card: &mut Card, hololive_card: &scraper::ElementRef, language: Language) {
         static CARD_NAME: OnceLock<Selector> = OnceLock::new();
         let card_name = CARD_NAME.get_or_init(|| Selector::parse(".name").unwrap());
 
@@ -1153,8 +1066,8 @@ pub mod hololive_official {
             .next()
             .map(|c| c.text().collect::<String>());
         // from Deck Log
-        if card.name.japanese.is_none() {
-            card.name.japanese = card_name;
+        if card.name.value(language).is_none() {
+            *card.name.value_mut(language) = card_name;
         }
 
         static INFO: OnceLock<Selector> = OnceLock::new();
@@ -1175,7 +1088,7 @@ pub mod hololive_official {
             };
 
             match key.to_lowercase().as_str() {
-                "カードタイプ" => {
+                "カードタイプ" | "card type" => {
                     // from Deck Log
                     if card.card_type == Default::default() {
                         card.card_type = card_type_from_str(value);
@@ -1206,11 +1119,13 @@ pub mod hololive_official {
                         }
                     }
                 }
-                "タグ" => card.tags = tags_from_str(value), // replace existing tags. will need to import english tags later
-                "色" => card.colors = colors_from_str(value),
+                "タグ" | "tag" => {
+                    update_tags(card, tags_from_str(value, language), language);
+                }
+                "色" | "color" => card.colors = colors_from_str(value),
                 "life" => card.life = value.parse().unwrap_or_default(),
                 "hp" => card.hp = value.parse().unwrap_or_default(),
-                "bloomレベル" => {
+                "bloomレベル" | "bloom level" => {
                     // from Deck Log
                     if card.bloom_level == Default::default() {
                         card.bloom_level = bloom_level_from_str(value);
@@ -1225,9 +1140,9 @@ pub mod hololive_official {
                         }
                     }
                 }
-                "バトンタッチ" => card.baton_pass = baton_pass_from_str(value),
-                "能力テキスト" => {
-                    card.ability_text.japanese = Some(
+                "バトンタッチ" | "baton pass" => card.baton_pass = baton_pass_from_str(value),
+                "能力テキスト" | "ability text" => {
+                    *card.ability_text.value_mut(language) = Some(
                         value
                             .lines()
                             .map(|l| l.trim())
@@ -1247,14 +1162,21 @@ pub mod hololive_official {
         let extra = EXTRA.get_or_init(|| Selector::parse(".extra p:nth-child(2)").unwrap());
 
         // Extra
-        // replace existing extras. will need to import english extras later
-        card.extra = hololive_card
-            .select(extra)
-            .next()
-            .map(|c| Localized::jp(c.text().collect::<String>()));
+        update_extra(
+            card,
+            hololive_card
+                .select(extra)
+                .next()
+                .map(|c| Localized::new(language, c.text().collect::<String>())),
+            language,
+        );
     }
 
-    fn update_card_oshi_skills(card: &mut Card, hololive_card: &scraper::ElementRef) {
+    fn update_card_oshi_skills(
+        card: &mut Card,
+        hololive_card: &scraper::ElementRef,
+        language: Language,
+    ) {
         static OSHI_SKILL: OnceLock<Selector> = OnceLock::new();
         let oshi_skill =
             OSHI_SKILL.get_or_init(|| Selector::parse(".oshi.skill p:nth-child(2)").unwrap());
@@ -1279,22 +1201,27 @@ pub mod hololive_official {
                 special,
                 holo_power: holo_power
                     .trim_start_matches("[ホロパワー：")
+                    .trim_start_matches("[holo Power：")
                     .trim_start_matches("-")
                     .trim_end_matches("]")
                     .trim_end_matches("消費")
                     .to_string()
                     .try_into()
                     .unwrap_or_default(),
-                name: Localized::jp(name.trim().to_string()),
-                ability_text: Localized::jp(text.trim().to_string()),
+                name: Localized::new(language, name.trim().to_string()),
+                ability_text: Localized::new(language, text.trim().to_string()),
             };
             oshi_skills.push(oshi_skill);
         }
-        // replace existing keywords. will need to import english keywords later
-        card.oshi_skills = oshi_skills;
+        // replace existing skills. will need to import english skills later
+        update_oshi_skills(card, oshi_skills, language);
     }
 
-    fn update_card_keywords(card: &mut Card, hololive_card: &scraper::ElementRef) {
+    fn update_card_keywords(
+        card: &mut Card,
+        hololive_card: &scraper::ElementRef,
+        language: Language,
+    ) {
         static KEYWORD: OnceLock<Selector> = OnceLock::new();
         let keyword = KEYWORD.get_or_init(|| Selector::parse(".keyword p:nth-child(2)").unwrap());
 
@@ -1339,22 +1266,22 @@ pub mod hololive_official {
             };
 
             let keyword = Keyword {
-                effect: match effect.trim() {
-                    "コラボエフェクト" => KeywordEffect::Collab,
-                    "ブルームエフェクト" => KeywordEffect::Bloom,
-                    "ギフト" => KeywordEffect::Gift,
+                effect: match effect.to_lowercase().trim() {
+                    "コラボエフェクト" | "collab effect" => KeywordEffect::Collab,
+                    "ブルームエフェクト" | "bloom effect" => KeywordEffect::Bloom,
+                    "ギフト" | "gift" => KeywordEffect::Gift,
                     _ => KeywordEffect::Other,
                 },
-                name: Localized::jp(name.trim().to_string()),
-                ability_text: Localized::jp(text.trim().to_string()),
+                name: Localized::new(language, name.trim().to_string()),
+                ability_text: Localized::new(language, text.trim().to_string()),
             };
             keywords.push(keyword);
         }
         // replace existing keywords. will need to import english keywords later
-        card.keywords = keywords;
+        update_keywords(card, keywords, language);
     }
 
-    fn update_card_arts(card: &mut Card, hololive_card: &scraper::ElementRef) {
+    fn update_card_arts(card: &mut Card, hololive_card: &scraper::ElementRef, language: Language) {
         static ART: OnceLock<Selector> = OnceLock::new();
         let art = ART.get_or_init(|| Selector::parse(".sp.arts p:nth-child(2)").unwrap());
 
@@ -1415,26 +1342,29 @@ pub mod hololive_official {
 
             let art = Art {
                 cheers,
-                name: Localized::jp(name.trim().to_string()),
+                name: Localized::new(language, name.trim().to_string()),
                 power: power.to_string().try_into().unwrap_or_default(),
                 advantage,
-                ability_text: text.map(|text| Localized::jp(text.trim().to_string())),
+                ability_text: text.map(|text| Localized::new(language, text.trim().to_string())),
             };
             arts.push(art);
         }
         // replace existing arts. will need to import english arts later
-        card.arts = arts;
+        update_arts(card, arts, language);
     }
 
-    fn update_card_illustrations(card: &mut Card, card_url: Url, card_id: &str) {
+    fn update_card_illustrations(
+        card: &mut Card,
+        card_url: Url,
+        card_id: &str,
+        language: Language,
+    ) {
         static ILLUSTRATOR: OnceLock<Selector> = OnceLock::new();
         let illustrator = ILLUSTRATOR.get_or_init(|| Selector::parse(".ill-name span").unwrap());
 
-        if let Some(illust) = card
-            .illustrations
-            .iter_mut()
-            .find(|i| i.manage_id == card_id.parse().ok() && i.illustrator.is_none())
-        {
+        if let Some(illust) = card.illustrations.iter_mut().find(|i| {
+            *i.manage_id.value(language) == card_id.parse().ok() && i.illustrator.is_none()
+        }) {
             let resp = http_client().get(card_url).send().unwrap();
             let content = resp.text().unwrap();
 
@@ -1453,6 +1383,20 @@ pub mod hololive_official {
         }
     }
 
+    fn overwrite_card_number_fix(card_id: &str, card_number: &mut String) {
+        // fix hSD06-001 Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
+        if card_id == "532" {
+            *card_number = "hSD06-001".into();
+        }
+    }
+
+    fn overwrite_card_fix(card: &mut Card) {
+        // Fix hSD01-002 AZKi oshi card color (the official EN db has a bug)
+        if card.card_number == "hSD01-002" {
+            card.colors = vec![Color::Green];
+        }
+    }
+
     // Retrieve the following fields from Hololive official site:
     // - Card number
     // - Card name "JP"
@@ -1463,8 +1407,8 @@ pub mod hololive_official {
     // - Bloom level
     // - Baton pass
     // - Text "JP"
-    pub fn retrieve_card_info_from_hololive(all_cards: &mut CardsDatabase) {
-        println!("Retrieve all cards info from Hololive official site");
+    pub fn retrieve_card_info_from_hololive(all_cards: &mut CardsDatabase, language: Language) {
+        println!("Retrieve all cards info from Hololive official site for language: {language:?}");
 
         let updated_count = Arc::new(Mutex::new(0));
         let all_cards = Arc::new(RwLock::new(all_cards));
@@ -1476,10 +1420,21 @@ pub mod hololive_official {
                 let updated_count = updated_count.clone();
                 let all_cards = all_cards.clone();
                 move |page| {
-                    let url = "https://hololive-official-cardgame.com/cardlist/cardsearch_ex";
+                    let (url, referrer) = match language {
+                        Language::Japanese => (
+                            "https://hololive-official-cardgame.com/cardlist/cardsearch_ex",
+                            "https://hololive-official-cardgame.com/",
+                        ),
+                        Language::English => (
+                            "https://en.hololive-official-cardgame.com/cardlist/cardsearch_ex",
+                            "https://en.hololive-official-cardgame.com/",
+                        ),
+                    };
+
                     let resp = http_client()
                         .get(url)
                         .query(&[("view", "text"), ("page", page.to_string().as_str())])
+                        .header(REFERER, referrer)
                         .send()
                         .unwrap();
 
@@ -1488,7 +1443,10 @@ pub mod hololive_official {
                     // no more card in this page
                     if content.contains(
                         "<title>hololive OFFICIAL CARD GAME｜ホロライブプロダクション</title>",
-                    ) {
+                    ) || content
+                        .contains("<title>hololive OFFICIAL CARD GAME｜hololive production</title>")
+                        || content.contains("Page not found")
+                    {
                         return None;
                     }
 
@@ -1509,7 +1467,7 @@ pub mod hololive_official {
                             .map(|c| c.text().collect::<String>())
                         else {
                             println!("Card number not found");
-                            continue;
+                            return None;
                         };
 
                         // need to go to the detailed page
@@ -1525,10 +1483,8 @@ pub mod hololive_official {
                             continue;
                         };
 
-                        // fix Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
-                        if &card_id == "532" {
-                            card_number = "hSD06-001".into();
-                        }
+                        // fix card number if needed
+                        overwrite_card_number_fix(&card_id, &mut card_number);
 
                         let _all_cards = all_cards.read();
                         let Some(card) = _all_cards.get(&card_number) else {
@@ -1538,11 +1494,13 @@ pub mod hololive_official {
                         let mut card = card.clone();
                         drop(_all_cards);
 
-                        update_card_info(&mut card, &hololive_card);
-                        update_card_oshi_skills(&mut card, &hololive_card);
-                        update_card_keywords(&mut card, &hololive_card);
-                        update_card_arts(&mut card, &hololive_card);
-                        update_card_illustrations(&mut card, card_url, &card_id);
+                        update_card_info(&mut card, &hololive_card, language);
+                        update_card_oshi_skills(&mut card, &hololive_card, language);
+                        update_card_keywords(&mut card, &hololive_card, language);
+                        update_card_arts(&mut card, &hololive_card, language);
+                        update_card_illustrations(&mut card, card_url, &card_id, language);
+                        // fix the card if needed
+                        overwrite_card_fix(&mut card);
 
                         let mut _all_cards = all_cards.write();
                         _all_cards.insert(card_number, card);
@@ -1562,5 +1520,188 @@ pub mod hololive_official {
             .max(); // Need this to drive the iterator
 
         println!("Updated {} cards", *updated_count.lock());
+    }
+}
+
+fn update_oshi_skills(card: &mut Card, mut oshi_skills: Vec<OshiSkill>, language: Language) {
+    // If the number of sheet oshi skills is different from the original, warn
+    if !card.oshi_skills.is_empty() && oshi_skills.len() != card.oshi_skills.len() {
+        eprintln!(
+            "Warning: {} has a different number of oshi skills than in the original card: {} should be {}",
+            card.card_number,
+            oshi_skills.len(),
+            card.oshi_skills.len()
+        );
+    }
+
+    // Apply text to original card oshi skills, matching by holo power if possible
+    for (mut new_skill, orig_skill) in oshi_skills
+        .drain(..card.oshi_skills.len().min(oshi_skills.len()))
+        .zip(card.oshi_skills.iter_mut())
+    {
+        if orig_skill.special != new_skill.special {
+            eprintln!(
+                "Warning: {} oshi skill special mismatch: {} should be {}",
+                card.card_number, new_skill.special, orig_skill.special
+            );
+        }
+
+        if orig_skill.holo_power != new_skill.holo_power {
+            eprintln!(
+                "Warning: {} oshi skill holo power mismatch: {} should be {}",
+                card.card_number,
+                String::from(new_skill.holo_power),
+                String::from(orig_skill.holo_power)
+            );
+        }
+
+        *orig_skill.name.value_mut(language) = new_skill.name.value_mut(language).take();
+        *orig_skill.ability_text.value_mut(language) =
+            new_skill.ability_text.value_mut(language).take();
+    }
+
+    // If the number of oshi skills is greater than the original, add the remaining skills
+    card.oshi_skills.append(&mut oshi_skills);
+}
+
+fn update_keywords(card: &mut Card, mut keywords: Vec<Keyword>, language: Language) {
+    // If the number of keywords is different from the original, warn
+    if !card.keywords.is_empty() && keywords.len() != card.keywords.len() {
+        eprintln!(
+            "Warning: {} has a different number of keywords than in the original card: {} should be {}",
+            card.card_number,
+            keywords.len(),
+            card.keywords.len()
+        );
+    }
+
+    // Apply text to original card keywords, matching by effect if possible
+    for (mut new_keyword, orig_keyword) in keywords
+        .drain(..card.keywords.len().min(keywords.len()))
+        .zip(card.keywords.iter_mut())
+    {
+        if orig_keyword.effect != new_keyword.effect {
+            eprintln!(
+                "Warning: {} keyword effect mismatch: {:?} should be {:?}",
+                card.card_number, new_keyword.effect, orig_keyword.effect
+            );
+        }
+
+        *orig_keyword.name.value_mut(language) = new_keyword.name.value_mut(language).take();
+        *orig_keyword.ability_text.value_mut(language) =
+            new_keyword.ability_text.value_mut(language).take();
+    }
+
+    // If the number of keywords is greater than the original, add the remaining keywords
+    card.keywords.append(&mut keywords);
+}
+
+fn update_arts(card: &mut Card, mut arts: Vec<Art>, language: Language) {
+    // If the number of arts is different from the original, warn
+    if !card.arts.is_empty() && arts.len() != card.arts.len() {
+        eprintln!(
+            "Warning: {} has a different number of arts than in the original card: {} should be {}",
+            card.card_number,
+            arts.len(),
+            card.arts.len()
+        );
+    }
+
+    // Apply English text to original card arts, matching by power if possible
+    for (mut new_art, orig_art) in arts
+        .drain(..card.arts.len().min(arts.len()))
+        .zip(card.arts.iter_mut())
+    {
+        if orig_art.cheers != new_art.cheers {
+            eprintln!(
+                "Warning: {} art cheers mismatch: {:?} should be {:?}",
+                card.card_number, new_art.cheers, orig_art.cheers
+            );
+        }
+
+        if orig_art.power != new_art.power {
+            eprintln!(
+                "Warning: {} art power mismatch: {:?} should be {:?}",
+                card.card_number, new_art.power, orig_art.power
+            );
+        }
+
+        if orig_art.advantage != new_art.advantage {
+            eprintln!(
+                "Warning: {} art advantage mismatch: {:?} should be {:?}",
+                card.card_number, new_art.advantage, orig_art.advantage
+            );
+        }
+
+        *orig_art.name.value_mut(language) = new_art.name.value_mut(language).take();
+
+        if let Some(orig_ability_text) = &mut orig_art.ability_text {
+            if let Some(sheet_ability_text) = &mut new_art.ability_text {
+                *orig_ability_text.value_mut(language) =
+                    sheet_ability_text.value_mut(language).take();
+            } else {
+                eprintln!(
+                    "Warning: {} art ability text mismatch: {:?} should be {:?}",
+                    card.card_number, new_art.ability_text, orig_ability_text
+                );
+            }
+        } else if new_art.ability_text.is_some() {
+            eprintln!(
+                "Warning: {} art ability text mismatch: {:?} should be {:?}",
+                card.card_number, new_art.ability_text, orig_art.ability_text
+            );
+        }
+    }
+
+    // If the number of arts is greater than the original, add the remaining arts
+    card.arts.append(&mut arts);
+}
+
+fn update_tags(card: &mut Card, mut tags: Vec<Tag>, language: Language) {
+    // If the number of sheet tags is different from the original, warn
+    if !card.tags.is_empty() && tags.len() != card.tags.len() {
+        eprintln!(
+            "Warning: {} has a different number of tags than in the original card: {} should be {}",
+            card.card_number,
+            tags.len(),
+            card.tags.len()
+        );
+    }
+
+    // Apply text to original card tags
+    for (mut new_tag, orig_tag) in tags
+        .drain(..card.tags.len().min(tags.len()))
+        .zip(card.tags.iter_mut())
+    {
+        *orig_tag.value_mut(language) = new_tag.value_mut(language).take();
+    }
+
+    // If the number of tags is greater than the original, add the remaining tags
+    card.tags.append(&mut tags);
+}
+
+fn update_extra(card: &mut Card, mut extra: Option<Extra>, language: Language) {
+    // If the number of sheet extra is different from the original, warn
+    if card.extra.is_some() && extra.is_none() {
+        eprintln!(
+            "Warning: {} has a different extra than in the original card: {} should be {}",
+            card.card_number,
+            extra.is_some(),
+            card.extra.is_some()
+        );
+    }
+
+    // Apply text to original card extra
+    for (mut new_extra, orig_extra) in extra
+        .take_if(|_| card.extra.is_some())
+        .into_iter()
+        .zip(card.extra.iter_mut())
+    {
+        *orig_extra.value_mut(language) = new_extra.value_mut(language).take();
+    }
+
+    // If the number of extras is greater than the original, add the remaining extras
+    if extra.is_some() {
+        card.extra = extra;
     }
 }

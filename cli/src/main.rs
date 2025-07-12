@@ -13,6 +13,7 @@ use std::{
 use clap::Parser;
 use clap::ValueEnum;
 use hocg_fan_sim_assets_model::CardsDatabase;
+use itertools::Itertools;
 use json_pretty_compact::PrettyCompactFormatter;
 use reqwest::blocking::{Client, ClientBuilder};
 use serde::Serialize;
@@ -27,7 +28,7 @@ use crate::{
         ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
     },
     holodelta::{import_holodelta, import_holodelta_db},
-    images::{download_images, prepare_en_proxy_images, zip_images},
+    images::{download_images, prepare_en_proxy_images, utils::is_similar, zip_images},
     price_check::yuyutei,
 };
 
@@ -98,6 +99,10 @@ struct Args {
     #[arg(long)]
     official_hololive: bool,
 
+    /// The language of the cards to import
+    #[arg(long, default_value = "all")]
+    language: Language,
+
     /// Use ogbajoj's sheet to import english translations
     #[arg(long)]
     ogbajoj_sheet: bool,
@@ -105,6 +110,25 @@ struct Args {
     /// Remove unused assets
     #[arg(long)]
     gc: bool,
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
+enum Language {
+    All,
+    Japanese,
+    English,
+}
+
+impl From<Language> for hocg_fan_sim_assets_model::Language {
+    fn from(value: Language) -> Self {
+        match value {
+            Language::All => panic!(
+                "Language::All is not a valid language for hocg_fan_sim_assets_model::Language"
+            ),
+            Language::Japanese => hocg_fan_sim_assets_model::Language::Japanese,
+            Language::English => hocg_fan_sim_assets_model::Language::English,
+        }
+    }
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
@@ -146,57 +170,50 @@ fn main() {
             .values()
             .flat_map(|cs| cs.illustrations.iter().enumerate())
             // don't include unreleased cards
-            .filter(|c| c.1.manage_id.is_some())
+            .filter(|c| c.1.manage_id.has_value())
             .map(|c| (c.1.card_number.clone(), c.0))
             .collect()
     } else {
         // import cards info from Deck Log
-        retrieve_card_info_from_decklog(
-            &mut all_cards,
-            &args.number_filter,
-            &args.expansion,
-            args.optimized_original_images,
-        )
+        [Language::Japanese, Language::English]
+            .into_iter()
+            .filter(|language| args.language == Language::All || args.language == *language)
+            .flat_map(|language| {
+                retrieve_card_info_from_decklog(
+                    &mut all_cards,
+                    &args.number_filter,
+                    &args.expansion,
+                    args.optimized_original_images,
+                    language.into(),
+                )
+            })
+            .collect()
     };
 
     // add official images
     if args.download_images {
-        download_images(
-            &filtered_cards,
-            &images_jp_path,
-            &mut all_cards,
-            args.force_download,
-            args.optimized_original_images,
-        );
-    }
-
-    // add proxy images
-    if let Some(proxy_path) = args.proxy_path {
-        prepare_en_proxy_images(
-            &filtered_cards,
-            &images_en_path,
-            &mut all_cards,
-            &proxy_path,
-            &images_jp_path,
-        );
-    }
-
-    // update yuyutei price
-    if let Some(mode) = args.yuyutei {
-        if args.number_filter.is_some() || args.expansion.is_some() {
-            eprintln!("WARNING: SKIPPING YUYUTEI. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
-        } else {
-            yuyutei(
-                &mut all_cards,
-                mode.unwrap_or(YuyuteiMode::Quick),
-                &images_jp_path,
-            );
-        }
+        [Language::Japanese, Language::English]
+            .into_iter()
+            .filter(|language| args.language == Language::All || args.language == *language)
+            .for_each(|language| {
+                download_images(
+                    &filtered_cards,
+                    &images_jp_path,
+                    &images_en_path,
+                    &mut all_cards,
+                    args.force_download,
+                    args.optimized_original_images,
+                    language.into(),
+                )
+            });
     }
 
     // import from official holoLive
     if args.official_hololive {
-        retrieve_card_info_from_hololive(&mut all_cards);
+        // official Japanese text
+        if args.language == Language::All || args.language == Language::Japanese {
+            retrieve_card_info_from_hololive(&mut all_cards, Language::Japanese.into());
+        }
     }
 
     // import from ogbajoj
@@ -204,11 +221,41 @@ fn main() {
         retrieve_card_info_from_ogbajoj_sheet(&mut all_cards);
     }
 
+    // import from official holoLive
+    if args.official_hololive {
+        // official English text, overwrite ogbajoj sheet
+        if args.language == Language::All || args.language == Language::English {
+            retrieve_card_info_from_hololive(&mut all_cards, Language::English.into());
+        }
+    }
+
+    // check tags consistency
+    if args.official_hololive || args.ogbajoj_sheet {
+        check_tags_consistency(&all_cards);
+    }
+
+    // merge english cards
+    merge_similar_cards(&mut all_cards);
+
+    // add proxy images
+    if let Some(proxy_path) = args.proxy_path {
+        prepare_en_proxy_images(&images_en_path, &mut all_cards, &proxy_path);
+    }
+
+    // update yuyutei price
+    if let Some(mode) = args.yuyutei {
+        if args.number_filter.is_some() || args.expansion.is_some() {
+            eprintln!("WARNING: SKIPPING YUYUTEI. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
+        } else {
+            yuyutei(&mut all_cards, mode.unwrap_or(YuyuteiMode::Quick));
+        }
+    }
+
     // import from holoDelta
     if let Some(holodelta_db_path) = args.holodelta_db_path {
-        import_holodelta_db(&mut all_cards, &images_jp_path, &holodelta_db_path);
+        import_holodelta_db(&mut all_cards, &holodelta_db_path);
     } else if let Some(holodelta_path) = args.holodelta_path {
-        import_holodelta(&mut all_cards, &images_jp_path, &holodelta_path);
+        import_holodelta(&mut all_cards, &holodelta_path);
     }
 
     // save file
@@ -311,4 +358,92 @@ fn garbage_collection(
             }
         }
     }
+}
+
+fn check_tags_consistency(all_cards: &CardsDatabase) {
+    // check for tags consistency
+    let tags_mapping = all_cards
+        .values()
+        .flat_map(|c| &c.tags)
+        .filter(|t| t.japanese.is_some() && t.english.is_some())
+        .map(|t| (&t.japanese, &t.english))
+        .unique()
+        .into_group_map_by(|t| t.0);
+    for (tag, names) in tags_mapping {
+        if names.len() > 1 {
+            println!("Tag {tag:?} has multiple names: {names:#?}");
+        }
+    }
+}
+
+fn merge_similar_cards(all_cards: &mut CardsDatabase) {
+    // merge similar cards by images
+    let mut merged_count = 0;
+    for cs in all_cards.values_mut() {
+        let illustrations = &mut cs.illustrations;
+        let mut i = 0;
+        while i < illustrations.len() {
+            let mut j = i + 1;
+            while j < illustrations.len() {
+                // skip if they are not the same card
+                if illustrations[i].card_number != illustrations[j].card_number
+                    || illustrations[i].rarity != illustrations[j].rarity
+                {
+                    j += 1;
+                } else if is_similar(&illustrations[i], &illustrations[j]) {
+                    if DEBUG {
+                        println!(
+                            "Merging similar images: {:?} and {:?}",
+                            illustrations[i].manage_id, illustrations[j].manage_id
+                        );
+                    }
+
+                    // merge the data
+                    if illustrations[i].manage_id.japanese.is_none() {
+                        illustrations[i].manage_id.japanese = illustrations[j].manage_id.japanese;
+                    }
+                    if illustrations[i].manage_id.english.is_none() {
+                        illustrations[i].manage_id.english = illustrations[j].manage_id.english;
+                    }
+                    if illustrations[i].illustrator.is_none() {
+                        illustrations[i].illustrator = illustrations[j].illustrator.clone();
+                    }
+                    if illustrations[i].img_path.japanese.is_none() {
+                        illustrations[i].img_path.japanese =
+                            illustrations[j].img_path.japanese.clone();
+                    }
+                    if illustrations[i].img_path.english.is_none() {
+                        illustrations[i].img_path.english =
+                            illustrations[j].img_path.english.clone();
+                    }
+                    if illustrations[i].img_last_modified.japanese.is_none() {
+                        illustrations[i].img_last_modified.japanese =
+                            illustrations[j].img_last_modified.japanese.clone();
+                    }
+                    if illustrations[i].img_last_modified.english.is_none() {
+                        illustrations[i].img_last_modified.english =
+                            illustrations[j].img_last_modified.english.clone();
+                    }
+                    if illustrations[i].img_hash.is_empty() {
+                        illustrations[i].img_hash = illustrations[j].img_hash.clone();
+                    }
+                    if illustrations[i].yuyutei_sell_url.is_none() {
+                        illustrations[i].yuyutei_sell_url =
+                            illustrations[j].yuyutei_sell_url.clone();
+                    }
+                    if illustrations[i].delta_art_index.is_none() {
+                        illustrations[i].delta_art_index = illustrations[j].delta_art_index;
+                    }
+
+                    // remove merged illustration
+                    illustrations.remove(j);
+                    merged_count += 1;
+                } else {
+                    j += 1;
+                }
+            }
+            i += 1;
+        }
+    }
+    println!("Merged {merged_count} similar images");
 }

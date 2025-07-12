@@ -6,7 +6,7 @@ use std::{
     sync::{Arc, atomic::AtomicU32},
 };
 
-use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase};
+use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase, Language};
 use image::DynamicImage;
 use itertools::Itertools;
 use oxipng::{InFile, Options, OutFile};
@@ -18,10 +18,8 @@ use webp::{Encoder, WebPMemory};
 use zip::write::SimpleFileOptions;
 
 use crate::{
-    DEBUG,
-    holodelta::DIST_TOLERANCE,
-    http_client,
-    images::utils::{dist_hash, to_image_hash},
+    DEBUG, http_client,
+    images::utils::{DIST_TOLERANCE, dist_hash, path_to_image_hash, to_image_hash},
 };
 
 static WEBP_QUALITY: f32 = 80.0;
@@ -29,11 +27,22 @@ static WEBP_QUALITY: f32 = 80.0;
 pub fn download_images(
     filtered_cards: &[(String, usize)],
     images_jp_path: &Path,
+    images_en_path: &Path,
     all_cards: &mut CardsDatabase,
     force_download: bool,
     optimized_original_images: bool,
+    language: Language,
 ) {
-    println!("Downloading {} images...", filtered_cards.len());
+    println!(
+        "Downloading {} {:?} images...",
+        filtered_cards.len(),
+        language
+    );
+
+    let images_path = match language {
+        Language::Japanese => images_jp_path,
+        Language::English => images_en_path,
+    };
 
     let all_cards = Arc::new(RwLock::new(all_cards));
     let image_count = AtomicU32::new(0);
@@ -57,17 +66,28 @@ pub fn download_images(
                         .unwrap()
                 });
 
+                let Some(img_path) = card.img_path.value(language) else {
+                    if card.manage_id.value(language).is_some() {
+                        eprintln!("Skipping card {card_number} illustration {illust_idx} without image path");
+                    }
+                    return;
+                };
+
+                let (url, referrer) = match language {
+                    Language::Japanese => (
+                        "https://hololive-official-cardgame.com/wp-content/images/cardlist/",
+                        "https://hololive-official-cardgame.com/",
+                    ),
+                    Language::English => (
+                        "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/",
+                        "https://en.hololive-official-cardgame.com/",
+                    ),
+                };
+
                 // check if it's a new image
                 let resp = http_client()
-                    .head(format!(
-                        "https://hololive-official-cardgame.com/wp-content/images/cardlist/{}",
-                        card.img_path
-                            .japanese
-                            .as_deref()
-                            .unwrap_or_default()
-                            .replace(".webp", ".png")
-                    ))
-                    .header(REFERER, "https://decklog.bushiroad.com/")
+                    .head(format!("{url}{}", img_path.replace(".webp", ".png")))
+                    .header(REFERER, referrer)
                     .send()
                     .unwrap();
 
@@ -80,6 +100,7 @@ pub fn download_images(
                 let last_modified_time = last_modified.map(httpdate::parse_http_date);
                 let card_last_modified_time = card
                     .img_last_modified
+                    .value(language)
                     .as_deref()
                     .map(httpdate::parse_http_date);
                 if let (Some(Ok(last_modified_time)), Some(Ok(card_last_modified_time))) =
@@ -94,28 +115,27 @@ pub fn download_images(
 
                 img_last_modified = last_modified
                     .map(String::from)
-                    .or(card.img_last_modified.clone());
+                    .or(card.img_last_modified.value(language).clone());
 
                 // download the image
-                let resp = http_client()
-                    .get(format!(
-                        "https://hololive-official-cardgame.com/wp-content/images/cardlist/{}",
-                        card.img_path
-                            .japanese
-                            .as_deref()
-                            .unwrap_or_default()
-                            .replace(".webp", ".png")
-                    ))
-                    .header(REFERER, "https://decklog.bushiroad.com/")
+                let Ok(resp) = http_client()
+                    .get(format!("{url}{}", img_path.replace(".webp", ".png")))
+                    .header(REFERER, referrer)
                     .send()
-                    .unwrap();
+                    .inspect_err(|e| eprintln!("Error downloading image {img_path:?}: {e}"))
+                else {
+                    return;
+                };
 
                 // Using `image` crate, open the included .jpg file
-                let img = image::load_from_memory(&resp.bytes().unwrap()).unwrap();
+                let Ok(img) = image::load_from_memory(&resp.bytes().unwrap()).inspect_err(|e| {
+                    eprintln!("Error loading image {img_path:?}: {e}");
+                }) else {
+                    return;
+                };
 
                 if optimized_original_images {
-                    let path =
-                        images_jp_path.join(card.img_path.japanese.as_deref().unwrap_or_default());
+                    let path = images_path.join(img_path);
                     if let Some(parent) = Path::new(&path).parent() {
                         fs::create_dir_all(parent).unwrap();
                     }
@@ -134,13 +154,7 @@ pub fn download_images(
                     // Encode the image at a specified quality 0-100
                     let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
                     // Define and write the WebP-encoded file to a given path
-                    let path = images_jp_path.join(
-                        card.img_path
-                            .japanese
-                            .as_deref()
-                            .unwrap_or_default()
-                            .replace(".png", ".webp"),
-                    );
+                    let path = images_path.join(img_path.replace(".png", ".webp"));
                     if let Some(parent) = Path::new(&path).parent() {
                         fs::create_dir_all(parent).unwrap();
                     }
@@ -163,7 +177,9 @@ pub fn download_images(
                     .get_mut(*illust_idx)
                     .unwrap()
             });
-            card.img_last_modified = img_last_modified;
+            *card.img_last_modified.value_mut(language) = img_last_modified;
+            // update image hash
+            card.img_hash = path_to_image_hash(&images_path.join(card.img_path.value(language).as_deref().unwrap()));
         }
     });
 
@@ -173,17 +189,22 @@ pub fn download_images(
 }
 
 pub fn prepare_en_proxy_images(
-    filtered_cards: &[(String, usize)],
     images_en_path: &Path,
     all_cards: &mut CardsDatabase,
     proxy_path: &Path,
-    images_jp_path: &Path,
 ) {
     if !proxy_path.is_dir() {
         panic!("proxy_path should be dir");
     }
 
-    println!("Preparing {} proxy images...", filtered_cards.len());
+    println!(
+        "Preparing {} proxy images...",
+        all_cards
+            .values()
+            .flat_map(|c| c.illustrations.iter())
+            .filter(|c| c.manage_id.english.is_none())
+            .count()
+    );
 
     // key: (number, rarity), value: (file_name, img_path)
     let mut files: HashMap<_, Vec<_>> = HashMap::new();
@@ -240,16 +261,12 @@ pub fn prepare_en_proxy_images(
 
     let rarities = all_cards
         .values_mut()
-        .flat_map(|c| {
-            c.illustrations
-                .iter_mut()
-                .enumerate()
-                .filter(|(i, c)| filtered_cards.contains(&(c.card_number.clone(), *i)))
-                .map(|(_, c)| c)
-        })
+        .flat_map(|c| c.illustrations.iter_mut())
         .map(|c| {
-            // clear any existing proxy
-            c.img_path.english = None;
+            // clear any existing proxy, keep official images
+            if c.manage_id.english.is_none() {
+                c.img_path.english = None;
+            }
             Arc::new(Mutex::new(c))
         })
         .into_group_map_by(|c| {
@@ -276,8 +293,19 @@ pub fn prepare_en_proxy_images(
                     let (_file_name, _rarity, img_path) = img_paths.swap_remove(0);
                     let illust = illustrations.swap_remove(0);
                     let mut illust = illust.lock();
-                    illust.img_path.english =
-                        Some(save_proxy_image(&illust, &img_path, images_en_path));
+                    if illust.manage_id.english.is_none() {
+                        illust.img_path.english =
+                            Some(save_proxy_image(&illust, &img_path, images_en_path));
+
+                        if DEBUG {
+                            println!(
+                                "Updated card {:?} -> manage_id: {:?}, proxy path: {}",
+                                illust.card_number,
+                                illust.manage_id.japanese,
+                                illust.img_path.english.as_ref().unwrap(),
+                            );
+                        }
+                    }
                     proxies_count.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                     return;
                 }
@@ -301,7 +329,7 @@ pub fn prepare_en_proxy_images(
                     .into_iter()
                     .cartesian_product(illustrations.iter())
                     .map(|((rarity, img_path, proxy_img), illust)| {
-                        let dist = dist_proxy_image(&illust.lock(), proxy_img, images_jp_path);
+                        let dist = dist_proxy_image(&illust.lock(), proxy_img);
 
                         (rarity, img_path, illust, dist)
                     })
@@ -318,7 +346,7 @@ pub fn prepare_en_proxy_images(
                     } else {
                         0
                     };
-                    let id_rank = illust.manage_id.unwrap_or(u32::MAX) as u64;
+                    let id_rank = illust.manage_id.japanese.unwrap_or(u32::MAX) as u64;
                     let dist_rank = dist.saturating_div(DIST_TOLERANCE);
                     rarity_rank
                         .saturating_add(id_rank)
@@ -335,22 +363,24 @@ pub fn prepare_en_proxy_images(
                         continue;
                     }
 
-                    if illust.img_path.english.is_none() {
-                        illust.img_path.english =
-                            Some(save_proxy_image(&illust, &img_path, images_en_path));
+                    if illust.img_path.english.is_none() || illust.manage_id.english.is_some() {
+                        if illust.manage_id.english.is_none() {
+                            illust.img_path.english =
+                                Some(save_proxy_image(&illust, &img_path, images_en_path));
+
+                            if DEBUG {
+                                println!(
+                                    "Updated card {:?} -> manage_id: {:?}, proxy path: {} ({})",
+                                    illust.card_number,
+                                    illust.manage_id.japanese,
+                                    illust.img_path.english.as_ref().unwrap(),
+                                    dist
+                                );
+                            }
+                        }
                         img_paths.retain(|(_, _, p)| *p != img_path);
                         already_set.insert(img_path, dist);
                         proxies_count.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
-
-                        if DEBUG {
-                            println!(
-                                "Updated card {:?} -> manage_id: {}, proxy path: {} ({})",
-                                illust.card_number,
-                                illust.manage_id.unwrap(),
-                                illust.img_path.english.as_ref().unwrap(),
-                                dist
-                            );
-                        }
                     }
                 }
             }
@@ -404,11 +434,7 @@ fn save_proxy_image(card: &CardIllustration, img_path: &Path, images_en_path: &P
         .to_string()
 }
 
-fn dist_proxy_image(
-    card: &CardIllustration,
-    proxy_img: DynamicImage,
-    images_jp_path: &Path,
-) -> u64 {
+fn dist_proxy_image(card: &CardIllustration, proxy_img: DynamicImage) -> u64 {
     // compare the image to the card
     if DEBUG {
         println!(
@@ -416,18 +442,16 @@ fn dist_proxy_image(
             card.img_path.japanese.as_deref().unwrap_or_default()
         );
     }
-    let path = images_jp_path.join(card.img_path.japanese.as_deref().unwrap_or_default());
-    let card_img = image::open(path).unwrap();
 
     let h1 = to_image_hash(&proxy_img.into_rgb8());
-    let h2 = to_image_hash(&card_img.into_rgb8());
+    let h2 = &card.img_hash;
 
-    let dist = dist_hash(&h1, &h2);
+    let dist = dist_hash(&h1, h2);
 
     if DEBUG {
-        println!("Proxy hash: {}", h1);
-        println!("Card hash: {}", h2);
-        println!("Distance: {}", dist);
+        println!("Proxy hash: {h1}");
+        println!("Card hash: {h2}");
+        println!("Distance: {dist}");
     }
 
     dist
@@ -468,6 +492,9 @@ pub fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
 
 pub mod utils {
 
+    use std::path::Path;
+
+    use hocg_fan_sim_assets_model::CardIllustration;
     use image::{GrayImage, RgbImage};
     use image_hasher::{HasherConfig, ImageHash};
     use imageproc::map::{blue_channel, green_channel, red_channel};
@@ -476,6 +503,14 @@ pub mod utils {
     use palette::{Hsv, IntoColor, Srgb};
 
     use crate::DEBUG;
+
+    // one image can map to multiple illustrations, if they are similar enough
+    pub const DIST_TOLERANCE: u64 = 3 * 3 * 3 * 2; // a distance of 3 in each color channels and 2 for saturation
+
+    pub fn path_to_image_hash(path: &Path) -> String {
+        let img = image::open(path).unwrap().into_rgb8();
+        to_image_hash(&img)
+    }
 
     pub fn to_image_hash(img: &RgbImage) -> String {
         let hasher = HasherConfig::new()
@@ -503,13 +538,28 @@ pub mod utils {
         let hash = hashes.join("|");
 
         if DEBUG {
-            println!("{}", hash);
+            println!("{hash}");
         }
 
         hash
     }
 
+    pub fn is_similar(c1: &CardIllustration, c2: &CardIllustration) -> bool {
+        let dist = dist_hash(&c1.img_hash, &c2.img_hash);
+        if DEBUG {
+            println!(
+                "is_similar({:?}, {:?}) = {dist}",
+                c1.manage_id, c2.manage_id
+            );
+        }
+        dist <= DIST_TOLERANCE
+    }
+
     pub fn dist_hash(h1: &str, h2: &str) -> u64 {
+        if h1.is_empty() || h2.is_empty() {
+            return u64::MAX; // no hash, no distance
+        }
+
         let h1 = h1.split('|').collect_vec();
         let h2 = h2.split('|').collect_vec();
 
@@ -533,7 +583,7 @@ pub mod utils {
             .product();
 
         if DEBUG {
-            println!("{:?} = {}", a_dist_h, dist_h);
+            println!("{a_dist_h:?} = {dist_h}");
         }
         dist_h
     }

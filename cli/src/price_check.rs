@@ -1,6 +1,5 @@
 use std::{
     collections::{BTreeMap, HashMap},
-    path::Path,
     sync::Arc,
     time::Duration,
 };
@@ -21,7 +20,7 @@ use crate::{
     images::utils::{dist_hash, to_image_hash},
 };
 
-pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path: &Path) {
+pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode) {
     println!(
         "Scraping Yuyutei urls... ({})",
         if mode == YuyuteiMode::Images {
@@ -269,15 +268,14 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
                             .into_iter()
                             .cartesian_product(illustrations.iter())
                             .map(|((url, yuyutei_img), illust)| {
-                                let dist =
-                                    dist_yuyutei_image(&illust.lock(), yuyutei_img, images_jp_path);
+                                let dist = dist_yuyutei_image(&illust.lock(), yuyutei_img);
 
                                 (url, illust, dist)
                             })
                             .collect();
 
                         // sort by best dist, then update the url
-                        dists.sort_by_key(|d| (d.2, d.1.lock().manage_id));
+                        dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
 
                         // modify the cards here, to avoid borrowing issue
                         let mut already_set = BTreeMap::new();
@@ -323,28 +321,22 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode, images_jp_path:
     }
 }
 
-fn dist_yuyutei_image(
-    card: &CardIllustration,
-    yuyutei_img: DynamicImage,
-    images_jp_path: &Path,
-) -> u64 {
+fn dist_yuyutei_image(card: &CardIllustration, yuyutei_img: DynamicImage) -> u64 {
     // compare the image to the card
     println!(
         "Checking Card image: {}",
         card.img_path.japanese.as_deref().unwrap_or_default()
     );
-    let path = images_jp_path.join(card.img_path.japanese.as_deref().unwrap_or_default());
-    let card_img = image::open(path).unwrap();
 
     let h1 = to_image_hash(&yuyutei_img.into_rgb8());
-    let h2 = to_image_hash(&card_img.into_rgb8());
+    let h2 = &card.img_hash;
 
-    let dist = dist_hash(&h1, &h2);
+    let dist = dist_hash(&h1, h2);
 
     if DEBUG {
-        println!("Yuyutei hash: {}", h1);
-        println!("Card hash: {}", h2);
-        println!("Distance: {}", dist);
+        println!("Yuyutei hash: {h1}");
+        println!("Card hash: {h2}");
+        println!("Distance: {dist}");
     }
 
     dist

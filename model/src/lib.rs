@@ -1,20 +1,36 @@
 use std::collections::BTreeMap;
 use std::{cmp::Ordering, num::ParseIntError};
 
-use serde::{Deserialize, Serialize};
+use serde::ser::SerializeStruct;
+use serde::{Deserialize, Serialize, Serializer};
 
 pub type CardsDatabase = BTreeMap<String, Card>;
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Language {
+    Japanese,
+    English,
+}
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize, Default)]
-pub struct Localized<T> {
+pub struct Localized<T: Eq + Serialize> {
+    #[serde(skip_serializing_if = "is_default")]
     #[serde(rename = "jp")]
     pub japanese: Option<T>,
+    #[serde(skip_serializing_if = "is_default")]
     #[serde(rename = "en")]
     pub english: Option<T>,
 }
 
-impl<T> Localized<T> {
-    pub fn new(jp: T, en: T) -> Self {
+impl<T: Eq + Serialize> Localized<T> {
+    pub fn new(language: Language, value: T) -> Self {
+        match language {
+            Language::Japanese => Localized::jp(value),
+            Language::English => Localized::en(value),
+        }
+    }
+
+    pub fn both(jp: T, en: T) -> Self {
         Self {
             japanese: Some(jp),
             english: Some(en),
@@ -33,6 +49,56 @@ impl<T> Localized<T> {
             japanese: None,
             english: Some(en),
         }
+    }
+
+    pub fn value(&self, language: Language) -> &Option<T> {
+        match language {
+            Language::Japanese => &self.japanese,
+            Language::English => &self.english,
+        }
+    }
+
+    pub fn value_mut(&mut self, language: Language) -> &mut Option<T> {
+        match language {
+            Language::Japanese => &mut self.japanese,
+            Language::English => &mut self.english,
+        }
+    }
+
+    pub fn has_value(&self) -> bool {
+        self.japanese.is_some() || self.english.is_some()
+    }
+
+    /// Serializes the `Localized` struct to a JSON object with both languages.
+    fn full_serialize<S>(x: &Self, s: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        let mut rgb = s.serialize_struct("Localized", 3)?;
+        rgb.serialize_field("jp", &x.japanese)?;
+        rgb.serialize_field("en", &x.english)?;
+        rgb.end()
+    }
+}
+
+impl<T: Eq + Serialize + Ord> PartialOrd for Localized<T> {
+    fn partial_cmp(&self, other: &Localized<T>) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
+impl<T: Eq + Serialize + Ord> Ord for Localized<T> {
+    fn cmp(&self, other: &Self) -> Ordering {
+        use std::cmp::Reverse;
+        // use Reverse to pull None at the end, while keeping original order for Some values
+        (
+            Reverse(self.japanese.as_ref().map(Reverse)),
+            Reverse(self.english.as_ref().map(Reverse)),
+        )
+            .cmp(&(
+                Reverse(other.japanese.as_ref().map(Reverse)),
+                Reverse(other.english.as_ref().map(Reverse)),
+            ))
     }
 }
 
@@ -86,6 +152,7 @@ pub enum BloomLevel {
 #[serde(default)]
 pub struct Card {
     pub card_number: String,
+    #[serde(serialize_with = "Localized::full_serialize")]
     pub name: Localized<String>,
     pub card_type: CardType,
     #[serde(skip_serializing_if = "is_default")]
@@ -112,10 +179,10 @@ pub struct Card {
     #[serde(skip_serializing_if = "is_default")]
     pub extra: Option<Extra>, // holomem
     #[serde(skip_serializing_if = "is_default")]
-    pub tags: Vec<Localized<String>>, // holomem, support
+    pub tags: Vec<Tag>, // holomem, support
     #[serde(skip_serializing_if = "is_default")]
     pub baton_pass: Vec<Color>, // holomem
-    pub max_amount: u32,
+    pub max_amount: Localized<u32>, //different restrictions per language
     pub illustrations: Vec<CardIllustration>,
 }
 
@@ -131,6 +198,7 @@ pub struct OshiSkill {
     #[serde(skip_serializing_if = "is_default")]
     pub special: bool,
     pub holo_power: HoloPower,
+    #[serde(serialize_with = "Localized::full_serialize")]
     pub name: Localized<String>,
     #[serde(rename = "text")]
     pub ability_text: AbilityText,
@@ -178,6 +246,7 @@ impl From<HoloPower> for String {
 pub struct Keyword {
     #[serde(rename = "type")]
     pub effect: KeywordEffect,
+    #[serde(serialize_with = "Localized::full_serialize")]
     pub name: Localized<String>,
     #[serde(rename = "text")]
     pub ability_text: AbilityText,
@@ -204,6 +273,7 @@ pub enum KeywordEffect {
 #[serde(default)]
 pub struct Art {
     pub cheers: Vec<Color>,
+    #[serde(serialize_with = "Localized::full_serialize")]
     pub name: Localized<String>,
     #[serde(skip_serializing_if = "is_default")]
     pub power: ArtPower,
@@ -263,17 +333,23 @@ pub type AbilityText = Localized<String>;
 // Extras
 pub type Extra = Localized<String>;
 
+// Tags
+pub type Tag = Localized<String>;
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
 #[serde(default)]
 pub struct CardIllustration {
     pub card_number: String,
-    pub manage_id: Option<u32>, // unique id in Deck Log
+    pub manage_id: Localized<u32>, // unique id in Deck Log
     pub rarity: String,
     pub illustrator: Option<String>,
+    #[serde(serialize_with = "Localized::full_serialize")]
     pub img_path: Localized<String>,
     #[serde(skip_serializing_if = "is_default")]
-    pub img_last_modified: Option<String>,
+    pub img_last_modified: Localized<String>,
+    #[serde(skip_serializing_if = "is_default")]
+    pub img_hash: String,
     pub yuyutei_sell_url: Option<String>,
     pub delta_art_index: Option<u32>,
 }

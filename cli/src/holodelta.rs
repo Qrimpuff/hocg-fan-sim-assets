@@ -14,17 +14,10 @@ use serde::{Deserialize, Serialize};
 
 use crate::{
     DEBUG,
-    images::utils::{dist_hash, to_image_hash},
+    images::utils::{DIST_TOLERANCE, dist_hash, to_image_hash},
 };
 
-// one image can map to multiple illustrations, if they are similar enough
-pub const DIST_TOLERANCE: u64 = 2 * 2 * 2 * 2; // a distance of 2 in each channel
-
-pub fn import_holodelta_db(
-    all_cards: &mut CardsDatabase,
-    images_jp_path: &Path,
-    holodelta_path: &Path,
-) {
+pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
     println!("Importing holoDelta db images...");
 
     let conn = rusqlite::Connection::open(holodelta_path).unwrap();
@@ -54,7 +47,7 @@ pub fn import_holodelta_db(
         let card_number = delta_cards.0;
 
         if DEBUG {
-            println!("\nProcessing card {:?}", card_number);
+            println!("\nProcessing card {card_number:?}");
         }
 
         // update holoDelta art indexes, based on card image
@@ -73,25 +66,19 @@ pub fn import_holodelta_db(
                 .illustrations
                 .par_iter_mut()
                 .filter_map(|illust| {
-                    let path = images_jp_path.join(illust.img_path.japanese.as_ref()?);
-                    let f = File::open(&path).unwrap();
-                    let f = BufReader::new(f);
-                    let card_img = image::load(f, image::ImageFormat::WebP).unwrap();
-                    let card_img = card_img.into_rgb8();
-
                     // clear the delta art index, will be set later
                     illust.delta_art_index = None;
 
-                    Some((Arc::new(Mutex::new(illust)), card_img))
+                    Some(Arc::new(Mutex::new(illust)))
                 })
                 .collect();
 
             let mut dists = delta_cards
                 .iter()
                 .cartesian_product(cards.iter())
-                .map(|((delta_card, delta_img), (card, card_img))| {
+                .map(|((delta_card, delta_img), card)| {
                     let h1 = to_image_hash(delta_img);
-                    let h2 = to_image_hash(card_img);
+                    let h2 = { card.lock().img_hash.clone() };
 
                     let dist = dist_hash(&h1, &h2);
 
@@ -101,10 +88,10 @@ pub fn import_holodelta_db(
                         println!(
                             "Card hash: {} {} = {}",
                             card.card_number,
-                            card.manage_id.unwrap(),
+                            card.manage_id.japanese.unwrap(),
                             h2
                         );
-                        println!("Distance: {}", dist);
+                        println!("Distance: {dist}");
                     }
 
                     (delta_card.1, card, dist)
@@ -112,7 +99,7 @@ pub fn import_holodelta_db(
                 .collect_vec();
 
             // sort by best dist, then update the art index
-            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id));
+            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
 
             // modify the cards here, to avoid borrowing issue
             let mut already_set = BTreeMap::new();
@@ -133,7 +120,7 @@ pub fn import_holodelta_db(
                         println!(
                             "Updated card {:?} -> manage_id: {}, delta_art_index: {} ({})",
                             card.card_number,
-                            card.manage_id.unwrap(),
+                            card.manage_id.japanese.unwrap(),
                             card.delta_art_index.unwrap(),
                             dist
                         );
@@ -143,15 +130,11 @@ pub fn import_holodelta_db(
         }
     }
 
-    println!("Processed {} holoDelta cards", total_count);
-    println!("Updated {} hOCG cards", updated_count);
+    println!("Processed {total_count} holoDelta cards");
+    println!("Updated {updated_count} hOCG cards");
 }
 
-pub fn import_holodelta(
-    all_cards: &mut CardsDatabase,
-    images_jp_path: &Path,
-    holodelta_path: &Path,
-) {
+pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
     println!("Importing holoDelta repository images...");
 
     let card_data_path = holodelta_path.join("cardData.json");
@@ -159,8 +142,9 @@ pub fn import_holodelta(
     let file = BufReader::new(file);
     let delta_cards: HashMap<String, Card> = serde_json::from_reader(file).unwrap();
 
-    let banlist_path = holodelta_path.join("ServerStuff/banlists/current.json");
-    let file = File::open(&banlist_path).expect("Failed to open ServerStuff/banlists/current.json");
+    let banlist_path = holodelta_path.join("ServerStuff/data_source/banlists/current.json");
+    let file = File::open(&banlist_path)
+        .expect("Failed to open ServerStuff/data_source/banlists/current.json");
     let file = BufReader::new(file);
     let banlist: HashMap<String, i32> = serde_json::from_reader(file).unwrap();
 
@@ -176,7 +160,7 @@ pub fn import_holodelta(
         let card_number = delta_card_number;
 
         if DEBUG {
-            println!("\nProcessing card {:?}", card_number);
+            println!("\nProcessing card {card_number:?}");
         }
 
         // update holoDelta art indexes, based on card image
@@ -196,7 +180,7 @@ pub fn import_holodelta(
                     let img_path = format!(r"cardFronts\{set}\ja\{num}\{delta_art_index}.webp");
                     let file = File::open(holodelta_path.join(&img_path))
                         .map_err(|e| {
-                            eprintln!("Error opening file {}: {}", img_path, e);
+                            eprintln!("Error opening file {img_path}: {e}");
                             e
                         })
                         .unwrap();
@@ -211,38 +195,32 @@ pub fn import_holodelta(
                 .illustrations
                 .par_iter_mut()
                 .flat_map(|illust| {
-                    let path = images_jp_path.join(illust.img_path.japanese.as_ref()?);
-                    let f = File::open(&path).unwrap();
-                    let f = BufReader::new(f);
-                    let card_img = image::load(f, image::ImageFormat::WebP).unwrap();
-                    let card_img = card_img.into_rgb8();
-
                     // clear the delta art index, will be set later
                     illust.delta_art_index = None;
 
-                    Some((Arc::new(Mutex::new(illust)), card_img))
+                    Some(Arc::new(Mutex::new(illust)))
                 })
                 .collect();
 
             let mut dists = delta_cards
                 .iter()
                 .cartesian_product(cards.iter())
-                .map(|((delta_art_index, delta_img), (card, card_img))| {
+                .map(|((delta_art_index, delta_img), card)| {
                     let h1 = to_image_hash(delta_img);
-                    let h2 = to_image_hash(card_img);
+                    let h2 = { card.lock().img_hash.clone() };
 
                     let dist = dist_hash(&h1, &h2);
 
                     if DEBUG {
                         let card = card.lock();
-                        println!("holoDelta hash: {} = {}", delta_art_index, h1);
+                        println!("holoDelta hash: {delta_art_index} = {h1}");
                         println!(
                             "Card hash: {} {} = {}",
                             card.card_number,
-                            card.manage_id.unwrap(),
+                            card.manage_id.japanese.unwrap(),
                             h2
                         );
-                        println!("Distance: {}", dist);
+                        println!("Distance: {dist}");
                     }
 
                     (delta_art_index, card, dist)
@@ -250,7 +228,7 @@ pub fn import_holodelta(
                 .collect_vec();
 
             // sort by best dist, then update the art index
-            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id));
+            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
 
             // modify the cards here, to avoid borrowing issue
             let mut already_set = BTreeMap::new();
@@ -271,7 +249,7 @@ pub fn import_holodelta(
                         println!(
                             "Updated card {:?} -> manage_id: {}, delta_art_index: {} ({})",
                             card.card_number,
-                            card.manage_id.unwrap(),
+                            card.manage_id.japanese.unwrap(),
                             card.delta_art_index.unwrap(),
                             dist
                         );
@@ -281,8 +259,8 @@ pub fn import_holodelta(
         }
     }
 
-    println!("Processed {} holoDelta cards", total_count);
-    println!("Updated {} hOCG cards", updated_count);
+    println!("Processed {total_count} holoDelta cards");
+    println!("Updated {updated_count} hOCG cards");
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -391,22 +369,23 @@ impl Card {
         // warn if card limit is different
         if match card.card_type {
             CardType::OshiHoloMember => {
-                card.max_amount as i32 != self.card_limit.unwrap_or_default().min(1)
+                card.max_amount.japanese.unwrap() as i32
+                    != self.card_limit.unwrap_or_default().min(1)
             }
             CardType::Cheer => {
-                card.max_amount as i32
+                card.max_amount.japanese.unwrap() as i32
                     != self
                         .card_limit
                         .map(|l| if l == -1 { 20 } else { l })
                         .unwrap_or_default()
             }
             _ => {
-                card.max_amount as i32
+                card.max_amount.japanese.unwrap() as i32
                     != self
                         .card_limit
                         .map(|l| if l == -1 { 50 } else { l })
                         .unwrap_or_default()
-                    && card.max_amount as i32
+                    && card.max_amount.japanese.unwrap() as i32
                         != banlist.get(card_number).copied().unwrap_or_default()
             }
         } {
@@ -443,7 +422,7 @@ impl Card {
             .colors
             .iter()
             .filter(|c| *c != &Color::Colorless)
-            .map(|c| format!("{:?}", c))
+            .map(|c| format!("{c:?}"))
             .collect_vec()
             != match &self.color {
                 Some(CardColor::Single(c)) => vec![c.clone()],
@@ -502,10 +481,10 @@ impl Card {
                 .sorted()
                 .collect_vec()
         {
-            eprintln!(
-                "Warning: {card_number} tags mismatch: {:?} should be {:?}",
-                self.tags, card.tags
-            );
+            // eprintln!(
+            //     "Warning: {card_number} tags mismatch: {:?} should be {:?}",
+            //     self.tags, card.tags
+            // );
         }
     }
 }
