@@ -14597,7 +14597,7 @@
         "name": { "jp": "エリートギャンブル", "en": "Elite Gambling" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる：3か5の時、このターンの間、このホロメンのアーツ+50。",
-          "en": "[Center position only][1/Turn]During your Main Phase, if a <35P> is attached to this holomem, you may roll a dice once:If it is 3 or 5, during this turn this holomem gets Arts +50."
+          "en": "[Center position only][1/Turn]During your Main Phase, if a <35P> is attached to this holomem, you may roll a dice once:If it is 3 or 5, during this turn this holomem gets Arts+50."
         }
       }
     ],
