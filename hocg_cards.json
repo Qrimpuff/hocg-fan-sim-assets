@@ -28532,7 +28532,7 @@
   },
   "hY01-001": {
     "card_number": "hY01-001",
-    "name": { "jp": "白エール", "en": "White Cheer (Koyori SY" },
+    "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
     "text": {
@@ -28556,7 +28556,7 @@
   },
   "hY01-002": {
     "card_number": "hY01-002",
-    "name": { "jp": "白エール", "en": "White Cheer (Koyori SY" },
+    "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
     "text": {
@@ -28579,7 +28579,7 @@
   },
   "hY01-003": {
     "card_number": "hY01-003",
-    "name": { "jp": "白エール", "en": "White Cheer (Koyori SY" },
+    "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
     "text": {
@@ -28602,7 +28602,7 @@
   },
   "hY01-004": {
     "card_number": "hY01-004",
-    "name": { "jp": "白エール", "en": "White Cheer (Koyori SY" },
+    "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
     "text": {
@@ -28625,7 +28625,7 @@
   },
   "hY01-005": {
     "card_number": "hY01-005",
-    "name": { "jp": "白エール", "en": "White Cheer (Koyori SY" },
+    "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
     "text": {
@@ -28648,7 +28648,7 @@
   },
   "hY01-006": {
     "card_number": "hY01-006",
-    "name": { "jp": "白エール", "en": "White Cheer (Koyori SY" },
+    "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
     "text": {
@@ -28671,7 +28671,7 @@
   },
   "hY02-001": {
     "card_number": "hY02-001",
-    "name": { "jp": "緑エール", "en": "Green Cheer (Aki SY" },
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
     "card_type": "cheer",
     "colors": [ "green" ],
     "text": {
@@ -28695,7 +28695,7 @@
   },
   "hY02-002": {
     "card_number": "hY02-002",
-    "name": { "jp": "緑エール", "en": "Green Cheer (Aki SY" },
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
     "card_type": "cheer",
     "colors": [ "green" ],
     "text": {
@@ -28718,7 +28718,7 @@
   },
   "hY02-003": {
     "card_number": "hY02-003",
-    "name": { "jp": "緑エール", "en": "Green Cheer (Aki SY" },
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
     "card_type": "cheer",
     "colors": [ "green" ],
     "text": {
@@ -28741,7 +28741,7 @@
   },
   "hY02-004": {
     "card_number": "hY02-004",
-    "name": { "jp": "緑エール", "en": "Green Cheer (Aki SY" },
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
     "card_type": "cheer",
     "colors": [ "green" ],
     "text": {
@@ -28764,7 +28764,7 @@
   },
   "hY02-005": {
     "card_number": "hY02-005",
-    "name": { "jp": "緑エール", "en": "Green Cheer (Aki SY" },
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
     "card_type": "cheer",
     "colors": [ "green" ],
     "text": {
@@ -28787,7 +28787,7 @@
   },
   "hY03-001": {
     "card_number": "hY03-001",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28811,7 +28811,7 @@
   },
   "hY03-002": {
     "card_number": "hY03-002",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28834,7 +28834,7 @@
   },
   "hY03-003": {
     "card_number": "hY03-003",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28857,7 +28857,7 @@
   },
   "hY03-004": {
     "card_number": "hY03-004",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28880,7 +28880,7 @@
   },
   "hY03-005": {
     "card_number": "hY03-005",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28903,7 +28903,7 @@
   },
   "hY03-006": {
     "card_number": "hY03-006",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28926,7 +28926,7 @@
   },
   "hY03-007": {
     "card_number": "hY03-007",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28949,7 +28949,7 @@
   },
   "hY03-008": {
     "card_number": "hY03-008",
-    "name": { "jp": "赤エール", "en": "Red Cheer (Mikodanye 4" },
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
@@ -28972,7 +28972,7 @@
   },
   "hY04-001": {
     "card_number": "hY04-001",
-    "name": { "jp": "青エール", "en": "Blue Cheer (Lamy SY" },
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
     "text": {
@@ -28996,7 +28996,7 @@
   },
   "hY04-002": {
     "card_number": "hY04-002",
-    "name": { "jp": "青エール", "en": "Blue Cheer (Lamy SY" },
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
     "text": {
@@ -29019,7 +29019,7 @@
   },
   "hY04-003": {
     "card_number": "hY04-003",
-    "name": { "jp": "青エール", "en": "Blue Cheer (Lamy SY" },
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
     "text": {
@@ -29042,7 +29042,7 @@
   },
   "hY04-004": {
     "card_number": "hY04-004",
-    "name": { "jp": "青エール", "en": "Blue Cheer (Lamy SY" },
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
     "text": {
@@ -29065,7 +29065,7 @@
   },
   "hY04-005": {
     "card_number": "hY04-005",
-    "name": { "jp": "青エール", "en": "Blue Cheer (Lamy SY" },
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
     "text": {
@@ -29088,7 +29088,7 @@
   },
   "hY05-001": {
     "card_number": "hY05-001",
-    "name": { "jp": "紫エール", "en": "Purple Cheer (La+ SY" },
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
     "card_type": "cheer",
     "colors": [ "purple" ],
     "text": {
@@ -29111,7 +29111,7 @@
   },
   "hY05-002": {
     "card_number": "hY05-002",
-    "name": { "jp": "紫エール", "en": "Purple Cheer (La+ SY" },
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
     "card_type": "cheer",
     "colors": [ "purple" ],
     "text": {
@@ -29134,7 +29134,7 @@
   },
   "hY05-003": {
     "card_number": "hY05-003",
-    "name": { "jp": "紫エール", "en": "Purple Cheer (La+ SY" },
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
     "card_type": "cheer",
     "colors": [ "purple" ],
     "text": {
@@ -29157,7 +29157,7 @@
   },
   "hY05-004": {
     "card_number": "hY05-004",
-    "name": { "jp": "紫エール", "en": "Purple Cheer (La+ SY" },
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
     "card_type": "cheer",
     "colors": [ "purple" ],
     "text": {
@@ -29180,7 +29180,7 @@
   },
   "hY06-001": {
     "card_number": "hY06-001",
-    "name": { "jp": "黄エール", "en": "Yellow Cheer (Subaru SY" },
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
     "card_type": "cheer",
     "colors": [ "yellow" ],
     "text": {
@@ -29203,7 +29203,7 @@
   },
   "hY06-002": {
     "card_number": "hY06-002",
-    "name": { "jp": "黄エール", "en": "Yellow Cheer (Subaru SY" },
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
     "card_type": "cheer",
     "colors": [ "yellow" ],
     "text": {
@@ -29226,7 +29226,7 @@
   },
   "hY06-003": {
     "card_number": "hY06-003",
-    "name": { "jp": "黄エール", "en": "Yellow Cheer (Subaru SY" },
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
     "card_type": "cheer",
     "colors": [ "yellow" ],
     "text": {
@@ -29249,7 +29249,7 @@
   },
   "hY06-004": {
     "card_number": "hY06-004",
-    "name": { "jp": "黄エール", "en": "Yellow Cheer (Subaru SY" },
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
     "card_type": "cheer",
     "colors": [ "yellow" ],
     "text": {
