@@ -89,6 +89,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode) {
                 let rarity_select = Selector::parse("h3 span").unwrap();
                 let cards_select = Selector::parse(".card-product").unwrap();
                 let number_select = Selector::parse("span").unwrap();
+                let name_select = Selector::parse("h4").unwrap();
                 let url_select = Selector::parse("a").unwrap();
                 let img_select = Selector::parse("img").unwrap();
                 let max_page_select =
@@ -110,9 +111,16 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode) {
                     for card in card_list.select(&cards_select) {
                         let number: String =
                             card.select(&number_select).next().unwrap().text().collect();
+                        let name: String =
+                            card.select(&name_select).next().unwrap().text().collect();
                         let url_section = card.select(&url_select).next().unwrap();
                         let img_src = url_section.select(&img_select).next().unwrap().attr("src");
                         let url = url_section.attr("href");
+
+                        if name.contains("エラッタ前") {
+                            // skip cards with (before errata)
+                            continue;
+                        }
 
                         if let (Some(url), Some(img_src)) = (url, img_src) {
                             // group them by url

@@ -2,6 +2,7 @@ mod data;
 mod holodelta;
 mod images;
 mod price_check;
+mod utils;
 
 use std::{
     collections::HashSet,

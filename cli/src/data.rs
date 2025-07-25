@@ -161,19 +161,26 @@ pub mod decklog {
 
         let filtered_cards = Arc::new(Mutex::new(Vec::new()));
         let all_cards = Arc::new(RwLock::new(all_cards));
+        let error_count = Arc::new(Mutex::new(0u8));
 
         let _ = ["N", "OSHI", "YELL"]
             .into_par_iter()
             .flat_map({
                 let filtered_cards = filtered_cards.clone();
                 let all_cards = all_cards.clone();
+                let error_count = error_count.clone();
                 move |deck_type| {
                     (1..)
                         .par_bridge()
                         .map({
                             let filtered_cards = filtered_cards.clone();
                             let all_cards = all_cards.clone();
+                            let error_count = error_count.clone();
                             move |page| {
+                                if *error_count.lock() >= 3 {
+                                    return None;
+                                }
+
                                 println!("deck type: {deck_type}, page: {page}");
 
                                 let req = ApiSearchRequest {
@@ -210,7 +217,12 @@ pub mod decklog {
                                 let cards = serde_json::from_str(&content);
                                 let Ok(cards): Result<Vec<DeckLogCard>, _> = cards else {
                                     eprintln!("didn't like response: {content}");
-                                    panic!("{cards:?}")
+                                    let mut error_count = error_count.lock();
+                                    *error_count += 1;
+                                    if *error_count >= 3 {
+                                        panic!("Too many errors, stopping.");
+                                    }
+                                    return Some(());
                                 };
 
                                 // no more card in this page
@@ -350,6 +362,7 @@ pub mod ogbajoj {
     use crate::{
         data::{update_arts, update_extra, update_keywords, update_oshi_skills, update_tags},
         http_client,
+        utils::TrimOnce,
     };
 
     #[derive(Deserialize, Debug)]
@@ -612,18 +625,18 @@ pub mod ogbajoj {
             let mut special = false;
             if holo_power.starts_with("Oshi Skill") {
                 special = false;
-                holo_power = holo_power.trim_start_matches("Oshi Skill").trim();
+                holo_power = holo_power.trim_start_once("Oshi Skill").trim();
             } else if holo_power.starts_with("SP Oshi Skill") {
                 special = true;
-                holo_power = holo_power.trim_start_matches("SP Oshi Skill").trim();
+                holo_power = holo_power.trim_start_once("SP Oshi Skill").trim();
             }
-            holo_power = holo_power.trim_start_matches("holo Power").trim();
-            holo_power = holo_power.trim_start_matches('-');
+            holo_power = holo_power.trim_start_once("holo Power").trim();
+            holo_power = holo_power.trim_start_once("-");
 
             let name = name
                 .trim()
-                .trim_start_matches('"')
-                .trim_end_matches('"')
+                .trim_start_once(r#"""#)
+                .trim_end_once(r#"""#)
                 .trim();
 
             Some(OshiSkill {
@@ -652,8 +665,8 @@ pub mod ogbajoj {
 
             let name = name
                 .trim()
-                .trim_start_matches('"')
-                .trim_end_matches('"')
+                .trim_start_once(r#"""#)
+                .trim_end_once(r#"""#)
                 .trim();
 
             Some(Keyword {
@@ -671,8 +684,8 @@ pub mod ogbajoj {
             };
             let name = name
                 .trim()
-                .trim_start_matches('"')
-                .trim_end_matches('"')
+                .trim_start_once(r#"""#)
+                .trim_end_once(r#"""#)
                 .trim();
 
             let second = lines.remove(0);
@@ -725,7 +738,7 @@ pub mod ogbajoj {
                         };
                         let advantage = advantage
                             .trim()
-                            .trim_start_matches('+')
+                            .trim_start_once("+")
                             .parse()
                             .unwrap_or_default();
                         Some((color, advantage))
@@ -764,10 +777,7 @@ pub mod ogbajoj {
             if let Some((jp, en)) = self.card_name_jp_en.split_once("\n(") {
                 Localized::both(
                     jp.trim().into(),
-                    en.trim_start_matches('(')
-                        .trim_end_matches(')')
-                        .trim()
-                        .into(),
+                    en.trim_start_once("(").trim_end_once(")").trim().into(),
                 )
             } else {
                 let name = self.card_name_jp_en.trim();
@@ -929,11 +939,12 @@ pub mod ogbajoj {
                 updated_count += 1;
 
                 // keep track of cheer names. cheers all have the same name, but are not all in the sheet
-                if card.card_type == CardType::Cheer {
-                    cheers_names.insert(
-                        card.card_number.split_once('-').unwrap().0.to_string(),
-                        card.name.english.clone(),
-                    );
+                if card.card_type == CardType::Cheer
+                    && card.card_number.split_once('-').unwrap().1 == "001"
+                {
+                    cheers_names
+                        .entry(card.card_number.split_once('-').unwrap().0.to_string())
+                        .or_insert(card.name.english.clone());
                 }
             }
         }
@@ -945,7 +956,7 @@ pub mod ogbajoj {
             // ignore and update cheer names
             .filter_map(|c| {
                 if c.card_type == CardType::Cheer {
-                    // use the cheer name from the sheet
+                    // use the basic cheer name from the sheet
                     c.name.english = cheers_names
                         .get(c.card_number.split_once('-').unwrap().0)
                         .cloned()
@@ -980,6 +991,7 @@ pub mod hololive_official {
         update_arts, update_extra, update_keywords, update_oshi_skills, update_tags,
     };
     use crate::http_client;
+    use crate::utils::TrimOnce;
 
     fn card_type_from_str(card_type: &str) -> CardType {
         match card_type.trim().to_lowercase().as_str() {
@@ -1200,11 +1212,11 @@ pub mod hololive_official {
             let oshi_skill = OshiSkill {
                 special,
                 holo_power: holo_power
-                    .trim_start_matches("[ホロパワー：")
-                    .trim_start_matches("[holo Power：")
-                    .trim_start_matches("-")
-                    .trim_end_matches("]")
-                    .trim_end_matches("消費")
+                    .trim_start_once("[ホロパワー：")
+                    .trim_start_once("[holo Power：")
+                    .trim_start_once("-")
+                    .trim_end_once("]")
+                    .trim_end_once("消費")
                     .to_string()
                     .try_into()
                     .unwrap_or_default(),
