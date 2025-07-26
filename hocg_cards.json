@@ -7673,7 +7673,7 @@
         "name": { "jp": "フブキングダム", "en": "Fubukingdom" },
         "text": {
           "jp": "[ゲームに1回]自分の白ホロメンが相手のホロメンをダウンさせた時、自分のステージのマスコット2枚につき、サイコロを1回振れる：奇数が1回以上出たなら、相手のライフ-1。",
-          "en": "[1/Game]Usable when your white holomem downs your opponent's holomem:You may roll a dice once for each 2 mascots attached to your holomem:If it is odd at least once, your opponent gets Life-1."
+          "en": "[1/Game]Usable when your white holomem downs your opponent's holomem:You may roll a die once for each 2 mascots attached to your holomem:If it is odd at least once, your opponent gets Life-1."
         }
       }
     ],
@@ -7901,7 +7901,7 @@
         "name": { "jp": "ねえ゛え゛え゛え゛え゛え゛え゛", "en": "Neeeeeee" },
         "text": {
           "jp": "[ターンに1回]自分の〈紫咲シオン〉の能力でサイコロを振った時に使える：サイコロを1回振り直す。",
-          "en": "[1/Turn]Usable when your <Murasaki Shion> rolls a dice by an ability:Ignore the previous results, and reroll the dice."
+          "en": "[1/Turn]Usable when your <Murasaki Shion> rolls a die by an ability:Ignore the previous results, and reroll the dice."
         }
       },
       {
@@ -10115,7 +10115,7 @@
         "name": { "jp": "魔法見せてあげる", "en": "I'll show you magic" },
         "text": {
           "jp": "サイコロを1回振れる：4以上の時、自分のデッキから、#魔法を持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is 4 or greater, reveal 1 card with #Magic from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may roll a die once:If it is 4 or greater, reveal 1 card with #Magic from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -10272,7 +10272,7 @@
         "power": "30",
         "text": {
           "jp": "サイコロを1回振れる：5以上の時、相手のステージのエール1枚を、相手のホロメンに付け替える。",
-          "en": "You may roll a dice once:If it is 5 or greater, reattach 1 cheer from your opponent's stage to their holomem."
+          "en": "You may roll a die once:If it is 5 or greater, reattach 1 cheer from your opponent's stage to their holomem."
         }
       }
     ],
@@ -10317,7 +10317,7 @@
         "name": { "jp": "いたずらの魔法", "en": "Mischievous Magic" },
         "text": {
           "jp": "サイコロを1回振れる：4以上の時、相手のステージのエール1枚を、相手のホロメンに付け替える。",
-          "en": "You may roll a dice once:If it is 4 or greater, reattach 1 cheer from your opponent's stage to their holomem."
+          "en": "You may roll a die once:If it is 4 or greater, reattach 1 cheer from your opponent's stage to their holomem."
         }
       }
     ],
@@ -11528,7 +11528,7 @@
         },
         "text": {
           "jp": "サイコロを1回振れる：奇数の時、自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is odd, reveal 1 [red cheer or blue cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
+          "en": "You may roll a die once:If it is odd, reveal 1 [red cheer or blue cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
         }
       }
     ],
@@ -11585,7 +11585,7 @@
         "name": { "jp": "この手を差し伸べ、つかんで握る！", "en": "Reach out your hand, and hold on!" },
         "text": {
           "jp": "サイコロを1回振れる：奇数の時、自分のエールデッキから、[白エールか緑エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is odd, reveal 1 [white cheer or rreen cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
+          "en": "You may roll a die once:If it is odd, reveal 1 [white cheer or rreen cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
         }
       }
     ],
@@ -11642,7 +11642,7 @@
         "name": { "jp": "甘～い幸せ、おすそわけ！", "en": "Sweet happiness, share it with me!" },
         "text": {
           "jp": "サイコロを1回振れる：奇数の時、自分のエールデッキから、[紫エールか黄エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is odd, reveal 1 [purple cheer or yellow cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
+          "en": "You may roll a die once:If it is odd, reveal 1 [purple cheer or yellow cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
         }
       }
     ],
@@ -11699,7 +11699,7 @@
         "name": { "jp": "眠れる神秘を我が物に！", "en": "Make the sleeping mystery yours!" },
         "text": {
           "jp": "サイコロを1回振れる：偶数の時、自分のデッキから、イベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is even, reveal 1 event from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may roll a die once:If it is even, reveal 1 event from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -11756,7 +11756,7 @@
         "name": { "jp": "きらめくお宝、ロックオン！", "en": "Lock on to sparkling treasure!" },
         "text": {
           "jp": "サイコロを1回振れる：偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is even, reveal 1 fan from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may roll a die once:If it is even, reveal 1 fan from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -11813,7 +11813,7 @@
         "name": { "jp": "荒波をゆく奔放の牙！", "en": "Unrestrained fangs sailing through rough seas!" },
         "text": {
           "jp": "サイコロを1回振れる：偶数の時、自分のデッキから、ツール1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is even, reveal 1 tool from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may roll a die once:If it is even, reveal 1 tool from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -12200,7 +12200,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキを2枚引き、サイコロを1回振る：3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。",
-      "en": "Draw 2 cards from your deck, then roll a dice once:If it is 3, 5, or 6, reveal 1 Debut holomem from your deck and add it to hand, then shuffle the deck. If it is 2 or 4, draw 1 card from your deck."
+      "en": "Draw 2 cards from your deck, then roll a die once:If it is 3, 5, or 6, reveal 1 Debut holomem from your deck and add it to hand, then shuffle the deck. If it is 2 or 4, draw 1 card from your deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -13006,7 +13006,7 @@
         "name": { "jp": "35P帰ってくるのかッ！？って！", "en": "Is 35P coming back?!" },
         "text": {
           "jp": "[ターンに1回]サイコロを1回振れる：1か2か4か6の時、自分のアーカイブの〈35P〉1枚を手札に戻す。3か5の時、自分のアーカイブの〈35P〉2枚を手札に戻す。",
-          "en": "[1/Turn]You may roll a dice once:If it is 1, 2, 4, or 6, return 1 35P from your archive to hand. If it is 3 or 5, return 2 35Ps from your archive to hand."
+          "en": "[1/Turn]You may roll a die once:If it is 1, 2, 4, or 6, return 1 35P from your archive to hand. If it is 3 or 5, return 2 35Ps from your archive to hand."
         }
       },
       {
@@ -14199,7 +14199,7 @@
         "name": { "jp": "あんたたちぃ", "en": "You guys" },
         "text": {
           "jp": "サイコロを1回振れる：偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is even, reveal 1 fan from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may roll a die once:If it is even, reveal 1 fan from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -14210,7 +14210,7 @@
         "power": "80+",
         "text": {
           "jp": "このターンに自分の〈兎田ぺこら〉の能力でサイコロを1回以上振っていた時、このアーツ+40。",
-          "en": "If you have rolled a dice this turn as part of any <Usada Pekora>'s ability, this Arts gets +40."
+          "en": "If you have rolled a die this turn as part of any <Usada Pekora>'s ability, this Arts gets +40."
         }
       }
     ],
@@ -14375,7 +14375,7 @@
         "name": { "jp": "君と待ち合わせ", "en": "Meet up with you" },
         "text": {
           "jp": "サイコロを1回振れる：2か4か6の時、相手のセンターホロメンに特殊ダメージ10を与える。3か5の時、自分のデッキを1枚引き、相手のセンターホロメンに特殊ダメージ10を与える。",
-          "en": "You may roll a dice once:If it is 2, 4, or 6, deal 10 Special Damage to your opponent's center holomem. If it is 3 or 5, draw 1 card from your deck, and deal 10 Special Damage to your opponent's center holomem."
+          "en": "You may roll a die once:If it is 2, 4, or 6, deal 10 Special Damage to your opponent's center holomem. If it is 3 or 5, draw 1 card from your deck, and deal 10 Special Damage to your opponent's center holomem."
         }
       }
     ],
@@ -14490,7 +14490,7 @@
         "power": "50",
         "text": {
           "jp": "サイコロを1回振れる：2か4か6の時、相手のセンターホロメンに特殊ダメージ20を与える。3か5の時、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。",
-          "en": "You may roll a dice once:If it is 2, 4, or 6, deal 20 Special Damage to your opponent's center holomem. If it is 3 or 5, deal 20 Special Damage to your opponent's center holomem and collab holomem."
+          "en": "You may roll a die once:If it is 2, 4, or 6, deal 20 Special Damage to your opponent's center holomem. If it is 3 or 5, deal 20 Special Damage to your opponent's center holomem and collab holomem."
         }
       }
     ],
@@ -14597,7 +14597,7 @@
         "name": { "jp": "エリートギャンブル", "en": "Elite Gambling" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる：3か5の時、このターンの間、このホロメンのアーツ+50。",
-          "en": "[Center position only][1/Turn]During your Main Phase, if a <35P> is attached to this holomem, you may roll a dice once:If it is 3 or 5, during this turn this holomem gets Arts+50."
+          "en": "[Center position only][1/Turn]During your Main Phase, if a <35P> is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn this holomem gets Arts+50."
         }
       }
     ],
@@ -14839,7 +14839,7 @@
         "power": "40+",
         "text": {
           "jp": "サイコロを1回振れる：奇数の時、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。偶数の時、このアーツ+40。",
-          "en": "You may roll a dice once:If it is odd, deal 20 Special Damage to your opponent's center holomem and collab holomem. If it is even, this Arts gets +40."
+          "en": "You may roll a die once:If it is odd, deal 20 Special Damage to your opponent's center holomem and collab holomem. If it is even, this Arts gets +40."
         }
       }
     ],
@@ -18494,7 +18494,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンが付いているホロメンが能力でサイコロを振った時、このファンをアーカイブできる：そのサイコロの結果をすべて無くし、はじめからサイコロを振り直す。\n\nこのファンは、自分の〈赤井はあと〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "If the holomem this fan is attached to rolled a dice by an ability, you may archive this fan:Ignore the previous results, and reroll the dice.\n\nYou may only attach this fan to your <Akai Haato>, and you may attach any number of this fan per holomem."
+      "en": "If the holomem this fan is attached to rolled a die by an ability, you may archive this fan:Ignore the previous results, and reroll the die.\n\nYou may only attach this fan to your <Akai Haato>, and you may attach any number of this fan per holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": { "jp": 4 },
@@ -18953,7 +18953,7 @@
         "name": { "jp": "総帥のお仕事", "en": "Leader's work" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分のホロメンの能力でサイコロを1度に3回振る時、そのサイコロの目の数すべてを5として扱う。",
-          "en": "[1/Turn]During this turn, whenever you roll a dice 3 times as part of a single ability, regard all numbers on the faces of your dice as 5."
+          "en": "[1/Turn]During this turn, whenever you roll a die 3 times as part of a single ability, regard all numbers on the faces of your dice as 5."
         }
       },
       {
@@ -20691,7 +20691,7 @@
         "name": { "jp": "KPG", "en": "KPG" },
         "text": {
           "jp": "サイコロを1回振れる：4以上の時、相手のコラボホロメンがいないなら、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。",
-          "en": "You may roll a dice once:If it is 4 or greater, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not regarded as Collabing)."
+          "en": "You may roll a die once:If it is 4 or greater, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not regarded as Collabing)."
         }
       }
     ],
@@ -21642,7 +21642,7 @@
         "name": { "jp": "そこに跪け！", "en": "Kneel before me!" },
         "text": {
           "jp": "サイコロを1回振れる：3以上の時、相手のバックホロメン1人をお休みさせる。",
-          "en": "You may roll a dice once:If it is 3 or greater, rest 1 of your opponent's back holomem."
+          "en": "You may roll a die once:If it is 3 or greater, rest 1 of your opponent's back holomem."
         }
       }
     ],
@@ -21752,7 +21752,7 @@
         "name": { "jp": "holoX集合", "en": "holoX Meeting" },
         "text": {
           "jp": "サイコロを1回振れる：奇数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚を手札に戻す。偶数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚をデッキの上に戻す。",
-          "en": "You may roll a dice once:If it is odd, return 1 holomem with #holoX from your archive to hand. If it is even, return 1 holomem with #holoX from your archive to the top of your deck."
+          "en": "You may roll a die once:If it is odd, return 1 holomem with #holoX from your archive to hand. If it is even, return 1 holomem with #holoX from your archive to the top of your deck."
         }
       }
     ],
@@ -21810,7 +21810,7 @@
         "name": { "jp": "貴様の運命試してみるか？", "en": "Would you like to test your fate?" },
         "text": {
           "jp": "サイコロを3回振れる：相手のセンターホロメンに、奇数が出た回数1回につき、特殊ダメージ10を与える。",
-          "en": "You may roll a dice 3 times:Deal 10 Special Damage for each time it is odd to your opponent's center holomem."
+          "en": "You may roll a die 3 times:Deal 10 Special Damage for each time it is odd to your opponent's center holomem."
         }
       }
     ],
@@ -21865,7 +21865,7 @@
         "name": { "jp": "Yes My Dark！", "en": "Yes My Dark!" },
         "text": {
           "jp": "自分の手札1枚をアーカイブすることで、サイコロを3回振れる：奇数が出た回数1回につき、自分のデッキを1枚引く。自分のブルームエフェクト「Yes My Dark！」はターンに1回しか使えない。",
-          "en": "You may archive a card from your hand and roll a dice 3 times:Draw 1 card for each time it is odd. You may only use the Bloom Effect \"Yes My Dark!\" once per turn."
+          "en": "You may archive a card from your hand and roll a die 3 times:Draw 1 card for each time it is odd. You may only use the Bloom Effect \"Yes My Dark!\" once per turn."
         }
       }
     ],
@@ -21877,7 +21877,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "相手のセンターホロメンに、このターンに自分が能力でサイコロを振った回数1回につき、特殊ダメージ10を与える。",
-          "en": "Deal 10 Special Damage for each time you rolled a dice as part of your abilities this turn to your opponent's center holomem."
+          "en": "Deal 10 Special Damage for each time you rolled a die as part of your abilities this turn to your opponent's center holomem."
         }
       }
     ],
@@ -23126,7 +23126,7 @@
         "name": { "jp": "レッツ ショッピング", "en": "Let's go shopping!" },
         "text": {
           "jp": "自分のステージの異なるカード名の#1期生を持つホロメン1人につき、サイコロを1回振れる：4以上が出た回数1回につき、自分のエールデッキの上から1枚をこのホロメンに送る。",
-          "en": "You may roll a dice once for each of your differently-named holomem with #Gen 1:For each time it is 4 or greater, send the top card of your cheer deck to this holomem."
+          "en": "You may roll a die once for each of your differently-named holomem with #Gen 1:For each time it is 4 or greater, send the top card of your cheer deck to this holomem."
         }
       }
     ],
@@ -23991,7 +23991,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈ラプラス・ダークネス〉に付いていたら能力追加\n[コラボポジション限定][ターンに1回]自分のメインステップで、サイコロを1回振れる：奇数の時、このマスコットが付いているホロメンをバックポジションに移動する。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <La+ Darknesss>\n[Collab position only][1/Turn]During your Main Phase, you may roll a dice:If it is odd, move the holomem this mascot is attached to to the back position.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <La+ Darknesss>\n[Collab position only][1/Turn]During your Main Phase, you may roll a die:If it is odd, move the holomem this mascot is attached to to the back position.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -24135,7 +24135,7 @@
         "name": { "jp": "誰かの芽吹きになれたら", "en": "If I could become someone's bud" },
         "text": {
           "jp": "サイコロを１回振れる：１か３か５の時、自分のエールデッキから、[赤エールか青エール]１枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "You may roll a dice once:If it is 1, 3, or 5, reveal 1 [red cheer or blue cheer] from your cheer deck, and send it to your back holomem. Then, shuffle the cheer deck."
+          "en": "You may roll a die once:If it is 1, 3, or 5, reveal 1 [red cheer or blue cheer] from your cheer deck, and send it to your back holomem. Then, shuffle the cheer deck."
         }
       }
     ],
