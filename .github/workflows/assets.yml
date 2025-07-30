@@ -4,9 +4,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Run at 15:00 utc / 00:00 jst
+  # Run twice a day at 03:00 and 15:00 UTC / 12:00 and 00:00 JST
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '0 3,15 * * *'
 env:
   CARGO_TERM_COLOR: always
 
@@ -30,7 +30,7 @@ jobs:
         env:
           SCRAPERAPI_API_KEY: ${{ secrets.SCRAPERAPI_API_KEY }}
           GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
-        run: cargo run --release -- --download-images --yuyutei --ogbajoj-sheet --official-hololive --gc
+        run: cargo run --release -- --download-images --yuyutei --tcgplayer --ogbajoj-sheet --official-hololive --gc
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

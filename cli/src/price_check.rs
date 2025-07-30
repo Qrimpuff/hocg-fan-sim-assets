@@ -14,16 +14,17 @@ use rayon::iter::{
 };
 use reqwest::Url;
 use scraper::{Html, Selector};
+use serde_json::Value;
 
 use crate::{
-    DEBUG, YuyuteiMode, http_client,
+    DEBUG, PriceCheckMode, http_client,
     images::utils::{dist_hash, to_image_hash},
 };
 
-pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode) {
+pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     println!(
         "Scraping Yuyutei urls... ({})",
-        if mode == YuyuteiMode::Images {
+        if mode == PriceCheckMode::Images {
             "comparing images"
         } else {
             "quick"
@@ -149,7 +150,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode) {
     // println!("BEFORE: {urls:#?}");
     // remove existing urls
     let mut existing_urls: HashMap<String, String> = HashMap::new();
-    if mode == YuyuteiMode::Quick {
+    if mode == PriceCheckMode::Quick {
         for card in all_cards
             .values_mut()
             .flat_map(|cs| cs.illustrations.iter_mut())
@@ -187,7 +188,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode) {
     let url_count = Arc::new(Mutex::new(0));
     all_cards.values_mut().par_bridge().for_each(|card| {
         // in quick mode: first come first served. ideal for updating new cards as they are added to the database
-        if mode == YuyuteiMode::Quick {
+        if mode == PriceCheckMode::Quick {
             let illustrations = card
                 .illustrations
                 .iter_mut()
@@ -229,7 +230,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: YuyuteiMode) {
                 }
             }
         // in images mode: find the best match. ideal to fix any issues from quick mode
-        } else if mode == YuyuteiMode::Images {
+        } else if mode == PriceCheckMode::Images {
             let rarities = card
                 .illustrations
                 .iter_mut()
@@ -343,6 +344,308 @@ fn dist_yuyutei_image(card: &CardIllustration, yuyutei_img: DynamicImage) -> u64
 
     if DEBUG {
         println!("Yuyutei hash: {h1}");
+        println!("Card hash: {h2}");
+        println!("Distance: {dist}");
+    }
+
+    dist
+}
+
+pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
+    println!(
+        "Scraping TCGPlayer product ids... ({})",
+        if mode == PriceCheckMode::Images {
+            "comparing images"
+        } else {
+            "quick"
+        }
+    );
+
+    const HOCG_CATEGORY_ID: &str = "87";
+
+    println!("Fetching TCGPlayer groups...");
+    let groups_url = format!("https://tcgcsv.com/tcgplayer/{HOCG_CATEGORY_ID}/groups");
+    let resp = http_client().get(&groups_url).send().unwrap();
+
+    let all_groups = resp.json::<Value>().unwrap();
+    let all_groups = all_groups["results"].as_array().unwrap();
+    println!("Found {} TCGPlayer groups.", all_groups.len());
+
+    let mut product_ids = IndexMap::new();
+    for group in all_groups {
+        let group_name = group["name"].as_str().unwrap_or("Unknown Group");
+        let group_id = group["groupId"].as_u64().unwrap();
+        println!("Processing group: {group_name}");
+
+        // Fetch products
+        let products_url =
+            format!("https://tcgcsv.com/tcgplayer/{HOCG_CATEGORY_ID}/{group_id}/products");
+        let resp = http_client().get(&products_url).send().unwrap();
+
+        #[derive(serde::Deserialize, Debug)]
+        #[serde(rename_all = "camelCase")]
+        struct TcgPlayerProduct {
+            product_id: u32,
+            name: String,
+            image_url: String,
+            extended_data: Vec<Value>,
+        }
+
+        let products = resp.json::<Value>().unwrap();
+        let products = products["results"].as_array().unwrap();
+        for product in products {
+            let product: TcgPlayerProduct = serde_json::from_value(product.clone()).unwrap();
+            if product.extended_data.is_empty() {
+                // skip booster boxes and other products without extended data
+                continue;
+            }
+
+            let card_number = product
+                .extended_data
+                .iter()
+                .find(|ed| ed["name"] == "Number")
+                .and_then(|ed| ed["value"].as_str())
+                .unwrap_or("Unknown Number");
+            let rarity = product
+                .extended_data
+                .iter()
+                .find(|ed| ed["name"] == "Rarity")
+                .and_then(|ed| ed["value"].as_str())
+                .map(|r| match r.to_lowercase().as_str() {
+                    "common" => "C",
+                    "uncommon" => "U",
+                    "rare" => "R",
+                    "double rare" => "RR",
+                    "super rare" => "SR",
+                    "ultra rare" => "UR",
+                    "secret rare" => "SEC",
+                    "special" => "S",
+                    "oshi super rare" => "OSR",
+                    "oshi ultra rare" => "OUR",
+                    "oshi common" => "OC",
+                    "promo" => "PR",
+                    _ => r,
+                })
+                .unwrap_or("Unknown Rarity");
+            if DEBUG {
+                println!(
+                    "  Product: {} - {} - {} - {}",
+                    product.product_id, product.name, card_number, rarity
+                );
+            }
+
+            product_ids.entry(product.product_id).or_insert((
+                card_number.to_string(),
+                rarity.to_string(),
+                product.image_url.to_string(),
+            ));
+        }
+    }
+
+    println!("Found {} TCGPlayer products...", product_ids.len());
+
+    let mut product_ids_skipped = 0;
+
+    // println!("BEFORE: {urls:#?}");
+    // remove existing product ids
+    let mut existing_ids: HashMap<String, u32> = HashMap::new();
+    if mode == PriceCheckMode::Quick {
+        for card in all_cards
+            .values_mut()
+            .flat_map(|cs| cs.illustrations.iter_mut())
+            .filter(|c| c.tcgplayer_product_id.is_some())
+        {
+            if let Some(tcgplayer_product_id) = &card.tcgplayer_product_id {
+                if product_ids.shift_remove(tcgplayer_product_id).is_some() {
+                    product_ids_skipped += 1;
+                }
+                // group by image, some entries are duplicated, like hSD01-016
+                existing_ids
+                    .entry(card.img_path.english.as_deref().unwrap_or_default().into())
+                    .or_insert(*tcgplayer_product_id);
+            }
+        }
+    }
+
+    // swap keys and values
+    let product_ids: HashMap<_, Vec<_>> =
+        product_ids
+            .into_iter()
+            .fold(HashMap::new(), |mut map, (k, v)| {
+                // key: (number, rarity), value: (product_id, img_path)
+                map.entry((v.0, v.1)).or_default().push((k, v.2));
+                map
+            });
+
+    // warn if there are some card with same number and rarity
+    for ((number, rarity), urls) in &product_ids {
+        if urls.len() > 1 {
+            println!("WARNING: {number} ({rarity}) has multiple urls: {urls:#?}");
+        }
+    }
+
+    // add the remaining urls
+    let existing_ids = Arc::new(RwLock::new(existing_ids));
+    let product_ids = Arc::new(RwLock::new(product_ids));
+    let product_ids_count = Arc::new(Mutex::new(0));
+    all_cards.values_mut().par_bridge().for_each(|card| {
+        // in quick mode: first come first served. ideal for updating new cards as they are added to the database
+        if mode == PriceCheckMode::Quick {
+            let illustrations = card
+                .illustrations
+                .iter_mut()
+                .filter(|c| c.tcgplayer_product_id.is_none())
+                .collect_vec();
+
+            for illustration in illustrations {
+                // first, look for same image
+                if let Some(tcgplayer_product_id) = existing_ids
+                    .read()
+                    .get(illustration.img_path.english.as_deref().unwrap_or_default())
+                {
+                    illustration.tcgplayer_product_id = Some(*tcgplayer_product_id);
+                } else if let Some(product_ids) = product_ids.write().get_mut(&(
+                    illustration.card_number.clone(),
+                    illustration.rarity.clone(),
+                )) {
+                    // use the first url
+                    if !product_ids.is_empty() {
+                        let (product_id, _) = product_ids.swap_remove(0);
+                        illustration.tcgplayer_product_id = Some(product_id);
+                        // group by image, some entries are duplicated
+                        existing_ids
+                            .write()
+                            .entry(
+                                illustration
+                                    .img_path
+                                    .english
+                                    .as_deref()
+                                    .unwrap_or_default()
+                                    .into(),
+                            )
+                            .or_insert(product_id);
+                        *product_ids_count.lock() += 1;
+                    }
+                }
+            }
+        // in images mode: find the best match. ideal to fix any issues from quick mode
+        } else if mode == PriceCheckMode::Images {
+            let rarities = card
+                .illustrations
+                .iter_mut()
+                .map(|c| {
+                    // clear any existing url
+                    c.tcgplayer_product_id = None;
+                    Arc::new(Mutex::new(c))
+                })
+                .into_group_map_by(|c| c.lock().rarity.clone());
+
+            rarities
+                .into_par_iter()
+                .for_each(|(rarity, mut illustrations)| {
+                    if let Some(product_ids) = product_ids
+                        .write()
+                        .get_mut(&(card.card_number.clone(), rarity))
+                    {
+                        // nothing to match
+                        if product_ids.is_empty() || illustrations.is_empty() {
+                            return;
+                        }
+
+                        // only one possible match
+                        if product_ids.len() == 1 && illustrations.len() == 1 {
+                            let (product_id, _) = product_ids.swap_remove(0);
+                            let illust = illustrations.swap_remove(0);
+                            illust.lock().tcgplayer_product_id = Some(product_id);
+                            *product_ids_count.lock() += 1;
+                            return;
+                        }
+
+                        // find the best match, otherwise
+                        println!();
+                        let images: Vec<_> = product_ids
+                            .par_iter()
+                            .map(|(product_id, img_path)| {
+                                // download the image
+                                println!("Checking TCGPlayer image: {img_path}");
+                                let resp = http_client().get(img_path).send().unwrap();
+                                let tcgplayer_img =
+                                    image::load_from_memory(&resp.bytes().unwrap()).unwrap();
+                                (*product_id, tcgplayer_img)
+                            })
+                            .collect();
+
+                        let mut dists: Vec<_> = images
+                            .into_iter()
+                            .cartesian_product(illustrations.iter())
+                            .map(|((product_id, tcgplayer_img), illust)| {
+                                let dist = dist_tcgplayer_image(&illust.lock(), tcgplayer_img);
+
+                                (product_id, illust, dist)
+                            })
+                            .collect();
+
+                        // sort by best dist, then update the url
+                        dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.english));
+
+                        // modify the cards here, to avoid borrowing issue
+                        let mut already_set = BTreeMap::new();
+                        for (product_id, illust, dist) in dists {
+                            let mut illust = illust.lock();
+                            // to handle multiple cards with the same image
+                            let min_dist = *already_set.get(&product_id).unwrap_or(&(u64::MAX));
+                            // only one card has the url, no DIST_TOLERANCE
+                            if illust.tcgplayer_product_id.is_none() && min_dist >= dist {
+                                illust.tcgplayer_product_id = Some(product_id);
+                                product_ids.retain(|(u, _)| *u != product_id);
+                                already_set.insert(product_id, dist.min(min_dist));
+                                *product_ids_count.lock() += 1;
+
+                                if DEBUG {
+                                    // println!(
+                                    //     "Updated card {:?} -> manage_id: {}, tcgplayer url: {} ({})",
+                                    //     illust.card_number,
+                                    //     illust.manage_id.unwrap(),
+                                    //     illust.tcgplayer_product_id.as_ref().unwrap(),
+                                    //     dist
+                                    // );
+                                }
+                            }
+                        }
+                    }
+                });
+        }
+    });
+
+    // remove empty product ids
+    let mut product_ids = Arc::try_unwrap(product_ids).unwrap().into_inner();
+    product_ids.retain(|_, product_ids| !product_ids.is_empty());
+    // println!("AFTER: {urls:#?}");
+
+    let product_id_count = *product_ids_count.lock();
+    println!("{product_id_count} TCGPlayer product ids updated ({product_ids_skipped} skipped)");
+    for ((number, rare), product_ids) in product_ids {
+        for product_id in product_ids {
+            let product_id = product_id.0;
+            println!("NO MATCH: [{number}, {rare}] - {product_id}");
+        }
+    }
+}
+
+fn dist_tcgplayer_image(card: &CardIllustration, tcgplayer_img: DynamicImage) -> u64 {
+    // compare the image to the card
+    println!(
+        "Checking Card image: {}",
+        card.img_path.english.as_deref().unwrap_or_default()
+    );
+
+    let h1 = to_image_hash(&tcgplayer_img.into_rgb8());
+    let h2 = &card.img_hash;
+
+    let dist = dist_hash(&h1, h2);
+
+    if DEBUG {
+        println!("TCGPlayer hash: {h1}");
         println!("Card hash: {h2}");
         println!("Distance: {dist}");
     }

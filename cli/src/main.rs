@@ -30,7 +30,7 @@ use crate::{
     },
     holodelta::{import_holodelta, import_holodelta_db},
     images::{download_images, prepare_en_proxy_images, utils::is_similar, zip_images},
-    price_check::yuyutei,
+    price_check::{tcgplayer, yuyutei},
 };
 
 pub const DEBUG: bool = false;
@@ -86,7 +86,11 @@ struct Args {
 
     /// Update the yuyu-tei.jp urls for the cards. can only be use when all cards are searched
     #[arg(long)]
-    yuyutei: Option<Option<YuyuteiMode>>,
+    yuyutei: Option<Option<PriceCheckMode>>,
+
+    /// Update the TCGPlayer product IDs for the cards. can only be use when all cards are searched
+    #[arg(long)]
+    tcgplayer: Option<Option<PriceCheckMode>>,
 
     /// [deprecated] Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
     #[arg(long)]
@@ -133,7 +137,7 @@ impl From<Language> for hocg_fan_sim_assets_model::Language {
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
-enum YuyuteiMode {
+enum PriceCheckMode {
     /// Use the first urls found
     Quick,
     /// Compare images to find the best match
@@ -248,7 +252,16 @@ fn main() {
         if args.number_filter.is_some() || args.expansion.is_some() {
             eprintln!("WARNING: SKIPPING YUYUTEI. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
         } else {
-            yuyutei(&mut all_cards, mode.unwrap_or(YuyuteiMode::Quick));
+            yuyutei(&mut all_cards, mode.unwrap_or(PriceCheckMode::Quick));
+        }
+    }
+
+    // update tcgplayer product IDs
+    if let Some(mode) = args.tcgplayer {
+        if args.number_filter.is_some() || args.expansion.is_some() {
+            eprintln!("WARNING: SKIPPING TCGPLAYER. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
+        } else {
+            tcgplayer(&mut all_cards, mode.unwrap_or(PriceCheckMode::Quick));
         }
     }
 

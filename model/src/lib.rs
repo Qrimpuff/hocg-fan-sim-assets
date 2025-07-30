@@ -351,6 +351,7 @@ pub struct CardIllustration {
     #[serde(skip_serializing_if = "is_default")]
     pub img_hash: String,
     pub yuyutei_sell_url: Option<String>,
+    pub tcgplayer_product_id: Option<u32>,
     pub delta_art_index: Option<u32>,
 }
 
