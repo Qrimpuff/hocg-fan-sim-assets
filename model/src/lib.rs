@@ -355,6 +355,13 @@ pub struct CardIllustration {
     pub delta_art_index: Option<u32>,
 }
 
+impl CardIllustration {
+    pub fn tcgplayer_url(&self) -> Option<String> {
+        self.tcgplayer_product_id
+            .map(|id| format!("https://www.tcgplayer.com/product/{id}"))
+    }
+}
+
 fn is_default<T: Default + Eq>(value: &T) -> bool {
     value == &T::default()
 }
