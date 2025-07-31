@@ -901,6 +901,47 @@
       }
     ]
   },
+  "hBD24-023": {
+    "card_number": "hBD24-023",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-023",
+        "manage_id": { "jp": 1121 },
+        "rarity": "P",
+        "illustrator": "Nardack",
+        "img_path": { "jp": "hPR/hBD24-023_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "pklBm7Q|pklFi5Q|pkhEi5Q|pktNm4Q",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBD24-024": {
     "card_number": "hBD24-024",
     "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
@@ -939,6 +980,88 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBD24-025": {
+    "card_number": "hBD24-025",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-025",
+        "manage_id": { "jp": 1122 },
+        "rarity": "P",
+        "illustrator": "雪子",
+        "img_path": { "jp": "hPR/hBD24-025_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "hEtNHIQ|tCtNPJQ|sitMKJQ|sitNKJQ",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-026": {
+    "card_number": "hBD24-026",
+    "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-026",
+        "manage_id": { "jp": 1123 },
+        "rarity": "P",
+        "illustrator": "神岡ちろる",
+        "img_path": { "jp": "hPR/hBD24-026_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "7GNIukY|7GvKukY|rF2KsmY|7q9Fuco",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -1021,6 +1144,170 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBD24-029": {
+    "card_number": "hBD24-029",
+    "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-029",
+        "manage_id": { "jp": 1124 },
+        "rarity": "P",
+        "illustrator": "おるだん",
+        "img_path": { "jp": "hPR/hBD24-029_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "xO1HWSo|pktFOTY|omtFCTY|pktFPT4",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-030": {
+    "card_number": "hBD24-030",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-030",
+        "manage_id": { "jp": 1125 },
+        "rarity": "P",
+        "illustrator": "SOLANI",
+        "img_path": { "jp": "hPR/hBD24-030_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 27 Jun 2025 02:21:10 GMT" },
+        "img_hash": "uDLitEo|uCLivEo|rCNDtIo|rENDtIo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-031": {
+    "card_number": "hBD24-031",
+    "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-031",
+        "manage_id": { "jp": 1126 },
+        "rarity": "P",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hPR/hBD24-031_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 27 Jun 2025 02:21:07 GMT" },
+        "img_hash": "JmdFncI|JmZEHco|1KLkPVo|3KtFOTs",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-032": {
+    "card_number": "hBD24-032",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-032",
+        "manage_id": { "jp": 1127 },
+        "rarity": "P",
+        "illustrator": "ももこ",
+        "img_path": { "jp": "hPR/hBD24-032_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "pDdNWjI|NDfGUjI|NDfFWro|NHOmmhs",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -7512,6 +7799,18 @@
       },
       {
         "card_number": "hBP01-114",
+        "manage_id": { "jp": 1105 },
+        "rarity": "P",
+        "illustrator": "JinArt こばやかわやまと",
+        "img_path": { "jp": "hPR/hBP01-114_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "NMqsnPw|nGIpPHM|uGYr2RM|mCYjeQM",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-114",
         "manage_id": { "en": 261 },
         "rarity": "S",
         "illustrator": "JinArt こばやかわやまと",
@@ -11823,6 +12122,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10131",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-065",
+        "manage_id": { "jp": 1106 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP02-065_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "StSMxOs|StWMxOs|StWMguk|OtWLlWI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -12557,6 +12868,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10159",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-079",
+        "manage_id": { "jp": 1107 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP02-079_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "vJIptNk|vJIplNk|tBQr1dw|kmwjw1Q",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -15674,6 +15997,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10079",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-037",
+        "manage_id": { "jp": 1108 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP03-037_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "ahQpZsM|ShQpZsM|ehQpZsM|2pUtZds",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -17036,6 +17371,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10124",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-061",
+        "manage_id": { "jp": 1109 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP03-061_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
+        "img_hash": "asXEi2k|esXEi2k|Ut3NySo|Ut2Fxbo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -19972,6 +20319,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10019",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-008",
+        "manage_id": { "jp": 1110 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP04-008_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:52 GMT" },
+        "img_hash": "wtdNpdI|wtXOpFI|wtVPpFI|htSGpFI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -20451,6 +20810,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10035",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-016",
+        "manage_id": { "jp": 1111 },
+        "rarity": "P",
+        "illustrator": "Nekojira",
+        "img_path": { "jp": "hPR/hBP04-016_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:52 GMT" },
+        "img_hash": "AiPNKbU|XiJkaYk|WiJkaYk|XKJgfQk",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -20671,6 +21042,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10042",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-020",
+        "manage_id": { "jp": 1112 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP04-020_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:52 GMT" },
+        "img_hash": "6lQNZqI|6lQNZqI|ylQNZqI|VtdNpaI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -21122,6 +21505,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10058",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-028",
+        "manage_id": { "jp": 1113 },
+        "rarity": "P",
+        "illustrator": "DSマイル",
+        "img_path": { "jp": "hPR/hBP04-028_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:52 GMT" },
+        "img_hash": "lFvKtJY|pFvCpJY|5FvDpJY|hN/LpFY",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -21326,6 +21721,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10065",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-032",
+        "manage_id": { "jp": 1114 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP04-032_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:52 GMT" },
+        "img_hash": "QlVNQ90|Ut1Nxbk|Ut1txbk|Ut1txbk",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -21989,6 +22396,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10089",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-044",
+        "manage_id": { "jp": 1115 },
+        "rarity": "P",
+        "illustrator": "Hong",
+        "img_path": { "jp": "hPR/hBP04-044_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "tiVh2wo|tqVh204|trVh21Y|tiVh2wg",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -22316,6 +22735,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10101",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-050",
+        "manage_id": { "jp": 1116 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP04-050_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "SjSNbcU|SnSNTcU|SnSNacU|WtUHRc0",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -22544,6 +22975,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10110",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP04-054",
+        "manage_id": { "jp": 1117 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP04-054_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "yl2EZi4|yh2EZC4|yl2EZi4|yl2G5Cw",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -23320,6 +23763,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10136",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-067",
+        "manage_id": { "jp": 1118 },
+        "rarity": "P",
+        "illustrator": "",
+        "img_path": { "jp": "hPR/hBP04-067_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "Uk1MS7Q|UkVMifY|Ul1NibQ|0l1NqbQ",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -23374,6 +23829,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10138",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-068",
+        "manage_id": { "jp": 1119 },
+        "rarity": "P",
+        "illustrator": "noka",
+        "img_path": { "jp": "hPR/hBP04-068_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "ckbsDsU|akZsjsU|KkZtjoc|qkYlroc",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -23694,6 +24161,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10150",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-074",
+        "manage_id": { "jp": 1120 },
+        "rarity": "P",
+        "illustrator": "Kutata",
+        "img_path": { "jp": "hPR/hBP04-074_P_02.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_hash": "zCLiYQM|zCLqMYM|3jfKMYM|3DfK+Ys",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
