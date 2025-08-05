@@ -394,7 +394,13 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
         let products = resp.json::<Value>().unwrap();
         let products = products["results"].as_array().unwrap();
         for product in products {
-            let product: TcgPlayerProduct = serde_json::from_value(product.clone()).unwrap();
+            let Ok(product): Result<TcgPlayerProduct, _> = serde_json::from_value(product.clone())
+                .inspect_err(|e| {
+                    println!("Failed to parse product: {e}");
+                })
+            else {
+                continue;
+            };
             if product.extended_data.is_empty() {
                 // skip booster boxes and other products without extended data
                 continue;
@@ -423,7 +429,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     "oshi super rare" => "OSR",
                     "oshi ultra rare" => "OUR",
                     "oshi common" => "OC",
-                    "promo" => "PR",
+                    "promo" => "P",
                     _ => r,
                 })
                 .unwrap_or("Unknown Rarity");
