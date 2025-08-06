@@ -88,7 +88,7 @@ struct Args {
     #[arg(long)]
     yuyutei: Option<Option<PriceCheckMode>>,
 
-    /// Update the TCGPlayer product IDs for the cards. can only be use when all cards are searched
+    /// Update the TCGplayer product IDs for the cards. can only be use when all cards are searched
     #[arg(long)]
     tcgplayer: Option<Option<PriceCheckMode>>,
 

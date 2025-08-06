@@ -353,7 +353,7 @@ fn dist_yuyutei_image(card: &CardIllustration, yuyutei_img: DynamicImage) -> u64
 
 pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     println!(
-        "Scraping TCGPlayer product ids... ({})",
+        "Scraping TCGplayer product ids... ({})",
         if mode == PriceCheckMode::Images {
             "comparing images"
         } else {
@@ -363,13 +363,13 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
     const HOCG_CATEGORY_ID: &str = "87";
 
-    println!("Fetching TCGPlayer groups...");
+    println!("Fetching TCGplayer groups...");
     let groups_url = format!("https://tcgcsv.com/tcgplayer/{HOCG_CATEGORY_ID}/groups");
     let resp = http_client().get(&groups_url).send().unwrap();
 
     let all_groups = resp.json::<Value>().unwrap();
     let all_groups = all_groups["results"].as_array().unwrap();
-    println!("Found {} TCGPlayer groups.", all_groups.len());
+    println!("Found {} TCGplayer groups.", all_groups.len());
 
     let mut product_ids = IndexMap::new();
     for group in all_groups {
@@ -448,7 +448,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
         }
     }
 
-    println!("Found {} TCGPlayer products...", product_ids.len());
+    println!("Found {} TCGplayer products...", product_ids.len());
 
     let mut product_ids_skipped = 0;
 
@@ -573,7 +573,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             .par_iter()
                             .map(|(product_id, img_path)| {
                                 // download the image
-                                println!("Checking TCGPlayer image: {img_path}");
+                                println!("Checking TCGplayer image: {img_path}");
                                 let resp = http_client().get(img_path).send().unwrap();
                                 let tcgplayer_img =
                                     image::load_from_memory(&resp.bytes().unwrap()).unwrap();
@@ -629,7 +629,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     // println!("AFTER: {urls:#?}");
 
     let product_id_count = *product_ids_count.lock();
-    println!("{product_id_count} TCGPlayer product ids updated ({product_ids_skipped} skipped)");
+    println!("{product_id_count} TCGplayer product ids updated ({product_ids_skipped} skipped)");
     for ((number, rare), product_ids) in product_ids {
         for product_id in product_ids {
             let product_id = product_id.0;
@@ -651,7 +651,7 @@ fn dist_tcgplayer_image(card: &CardIllustration, tcgplayer_img: DynamicImage) ->
     let dist = dist_hash(&h1, h2);
 
     if DEBUG {
-        println!("TCGPlayer hash: {h1}");
+        println!("TCGplayer hash: {h1}");
         println!("Card hash: {h2}");
         println!("Distance: {dist}");
     }

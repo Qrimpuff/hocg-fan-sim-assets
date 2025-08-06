@@ -18,6 +18,7 @@ A CLI utility for collecting and processing assets for the Hololive Official Car
   - Create ZIP packages of card images
 - Card pricing:
   - Retrieve Yuyu-tei pricing information
+  - Retrieve TCGPlayer product IDs and pricing information
 
 ## Prerequisites
 
@@ -89,6 +90,13 @@ Options:
           - quick: Use the first urls found
           - images: Compare images to find the best match
   
+      --tcgplayer [<TCGPLAYER_MODE>]
+          Update the TCGplayer product IDs for the cards. can only be use when all cards are searched
+          
+          Possible values:
+          - quick: Use the first product IDs found
+          - images: Compare images to find the best match
+  
       --holodelta-db-path <HOLODELTA_DB_PATH>
           [deprecated] Use holoDelta to import missing/unreleased cards data. The file that contains the card database for holoDelta
   
@@ -130,7 +138,7 @@ Options:
 
 4. Create a complete dataset with pricing information:
    ```
-   cargo run --release -- --clean --download-images --yuyutei=images --proxy-path ./en_proxies --holodelta-path ./holoDelta --ogbajoj-sheet --official-hololive --gc
+   cargo run --release -- --clean --download-images --yuyutei=images --tcgplayer=images --proxy-path ./en_proxies --holodelta-path ./holoDelta --ogbajoj-sheet --official-hololive --gc
    ```
 
 5. Package images for specific card sets:
@@ -144,7 +152,7 @@ Options:
 
 6. Automated asset generation (from GitHub Actions):
    ```
-   cargo run --release -- --download-images --yuyutei --ogbajoj-sheet --official-hololive --gc
+   cargo run --release -- --download-images --yuyutei --tcgplayer --ogbajoj-sheet --official-hololive --gc
    ```
    This example demonstrates daily automated asset generation (runs at 15:00 UTC/00:00 JST). It preserves existing 
    data from gh-pages branch before updating with fresh card information from all sources, then deploys to GitHub Pages.
@@ -162,6 +170,8 @@ Options:
 - **Hololive Official Website** - Additional card info for unreleased cards
 - **@ogbajoj's Sheet** - English translations and additional card details
 - **holoDelta Database** - Additional card image variants
+- **Yuyu-tei** - Japanese card pricing and marketplace information
+- **TCGPlayer** - English card pricing and marketplace information
 
 ## Development
 
