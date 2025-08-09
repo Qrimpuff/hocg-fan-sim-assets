@@ -1311,6 +1311,1026 @@
       }
     ]
   },
+  "hBD24-033": {
+    "card_number": "hBD24-033",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "White Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~White~" },
+        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-033",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-033_P.webp", "en": null },
+        "img_hash": "VD6EbLg|VHqkLLw|1DqkLLI|8lqkKpQ",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-034": {
+    "card_number": "hBD24-034",
+    "name": { "jp": "星街すいせい", "en": "Hoshimachi Suisei" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Blue Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Blue~" },
+        "text": { "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-034",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-034_P.webp", "en": null },
+        "img_hash": "qqlGY0w|qqHGQ0w|qrXEQ0g|qmtHOx4",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-035": {
+    "card_number": "hBD24-035",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Yellow Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
+        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-035",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-035_P.webp", "en": null },
+        "img_hash": "3NXI2VI|RFXMyNI|REVJyJI|xMVJudI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-036": {
+    "card_number": "hBD24-036",
+    "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Yellow Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
+        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-036",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-036_P.webp", "en": null },
+        "img_hash": "tCVJWZo|vGZtmLI|qEdJnLM|qENJmLc",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-037": {
+    "card_number": "hBD24-037",
+    "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Purple Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
+        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-037",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-037_P.webp", "en": null },
+        "img_hash": "nKNitMo|nItntso|nK1i9io|nENlts8",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-038": {
+    "card_number": "hBD24-038",
+    "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Purple Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
+        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-038",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-038_P.webp", "en": null },
+        "img_hash": "oqFFC8g|qqFFC8w|pqFFW8o|qqlFm8w",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-039": {
+    "card_number": "hBD24-039",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Yellow Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
+        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-039",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-039_P.webp", "en": null },
+        "img_hash": "pCVK1qI|pKVD2Lo|qilDm5k|qilDm5k",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-040": {
+    "card_number": "hBD24-040",
+    "name": { "jp": "天音かなた", "en": "Amane Kanata" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "White Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~White~" },
+        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-040",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-040_P.webp", "en": null },
+        "img_hash": "onSJSpY|onSJS5Y|omSFSpY|plSr2pY",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-041": {
+    "card_number": "hBD24-041",
+    "name": { "jp": "エリザベス・ローズ ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
+        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-041",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-041_P.webp", "en": null },
+        "img_hash": "IhQLxsI|IlULx7I|ohVDx7o|olVLx7I",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-042": {
+    "card_number": "hBD24-042",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Blue Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Blue~" },
+        "text": { "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-042",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-042_P.webp", "en": null },
+        "img_hash": "1DtLvLM|1DPrvLM|9DOjPJM|ZCtJvrA",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-043": {
+    "card_number": "hBD24-043",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "White Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~White~" },
+        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-043",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-043_P.webp", "en": null },
+        "img_hash": "qmZJzEY|uE6ojJY|qGRISJY|uFaonJY",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-044": {
+    "card_number": "hBD24-044",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
+        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-044",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-044_P.webp", "en": null },
+        "img_hash": "poxIyzg|oolJi5g|qo1Jy5o|qolJm5o",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-045": {
+    "card_number": "hBD24-045",
+    "name": { "jp": "ときのそら", "en": "Tokino Sora" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "White Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~White~" },
+        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-045",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-045_P.webp", "en": null },
+        "img_hash": "2LQhbBM|2JQpbhs|2oQpThs|mJ2pclM",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-046": {
+    "card_number": "hBD24-046",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Purple Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
+        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-046",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-046_P.webp", "en": null },
+        "img_hash": "1LPqONI|VKNJOcI|tKNMONI|VKNLulI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-047": {
+    "card_number": "hBD24-047",
+    "name": { "jp": "ロボ子さん", "en": "Robocosan" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Purple Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
+        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-047",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-047_P.webp", "en": null },
+        "img_hash": "1GVheZI|VCVF65g|ViVka5o|1EVl6ZA",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-048": {
+    "card_number": "hBD24-048",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Purple Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
+        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-048",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-048_P.webp", "en": null },
+        "img_hash": "RFXIZpI|RFXKZpI|wFXOZpI|YFVK5pE",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-049": {
+    "card_number": "hBD24-049",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "White Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~White~" },
+        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-049",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-049_P.webp", "en": null },
+        "img_hash": "3Jmis0g|3Lmis0g|3Lmi80g|tKiq8nQ",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-050": {
+    "card_number": "hBD24-050",
+    "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Yellow Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
+        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-050",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-050_P.webp", "en": null },
+        "img_hash": "or3ESSo|qq1ESyo|QiVFSyI|RGVPm8g",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-051": {
+    "card_number": "hBD24-051",
+    "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "White Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~White~" },
+        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-051",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-051_P.webp", "en": null },
+        "img_hash": "RreKe9s|ZpWIK9s|ZpXMQ9o|dNeou9s",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-052": {
+    "card_number": "hBD24-052",
+    "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
+        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-052",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-052_P.webp", "en": null },
+        "img_hash": "dEJjtJo|bEJjtMs|ZEJDtMo|bEJLvMs",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-053": {
+    "card_number": "hBD24-053",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Blue Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Blue~" },
+        "text": { "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-053",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-053_P.webp", "en": null },
+        "img_hash": "gG9JjLI|hm1NybI|piVNW7o|hE9JiLI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-054": {
+    "card_number": "hBD24-054",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Green Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
+        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-054",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-054_P.webp", "en": null },
+        "img_hash": "qitBbiY|qitDRio|oitDXiY|qGtDrjY",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-055": {
+    "card_number": "hBD24-055",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Green Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
+        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-055",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-055_P.webp", "en": null },
+        "img_hash": "BiFCOWI|NCBmE0I|JCFGG8I|BENHucI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-056": {
+    "card_number": "hBD24-056",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Yellow Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
+        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-056",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-056_P.webp", "en": null },
+        "img_hash": "lAtmML4|mAlqIJY|mCFLyY4|hEtNuJY",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-057": {
+    "card_number": "hBD24-057",
+    "name": { "jp": "小鳥遊キアラ", "en": "Takanashi Kiara" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
+        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-057",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-057_P.webp", "en": null },
+        "img_hash": "xiVNa/I|ImNNG/M|IkNNG/c|IkNNm/c",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-058": {
+    "card_number": "hBD24-058",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Green Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
+        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-058",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-058_P.webp", "en": null },
+        "img_hash": "oFNLlNY|oNPKlNo|pENJtJI|qoNBrxk",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-059": {
+    "card_number": "hBD24-059",
+    "name": { "jp": "アイラニ・イオフィフティーン", "en": "Airani Iofifteen" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Green Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
+        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-059",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-059_P.webp", "en": null },
+        "img_hash": "pGVL26I|pmVLyoY|pmVJyoY|qmVFy6Y",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-060": {
+    "card_number": "hBD24-060",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Yellow Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
+        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-060",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-060_P.webp", "en": null },
+        "img_hash": "pIoj1Dg|tI4r1Dg|pI5L3Bg|qs1Lztg",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-061": {
+    "card_number": "hBD24-061",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
+        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-061",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-061_P.webp", "en": null },
+        "img_hash": "uh2nRxM|qlVFQxM|qlVFQxI|4udNi1I",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBD24-062": {
+    "card_number": "hBD24-062",
+    "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Purple Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
+        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-062",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-062_P.webp", "en": null },
+        "img_hash": "4jfGZ5o|4iNCZ5o|4idGZ5g|oiNHK54",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP01-001": {
     "card_number": "hBP01-001",
     "name": { "jp": "天音かなた", "en": "Amane Kanata" },
@@ -7655,7 +8675,7 @@
   },
   "hBP01-111": {
     "card_number": "hBP01-111",
-    "name": { "jp": "ホロライブインドネシア3期生", "en": "hololive Indonesia Gen ３" },
+    "name": { "jp": "ホロライブインドネシア3期生", "en": "hololive Indonesia Gen 3" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
@@ -11407,7 +12427,7 @@
         "name": { "jp": "蘇りしゾンビ", "en": "Resurrected Zombie" },
         "text": {
           "jp": "自分の手札2枚をアーカイブできる：このターンの間、このホロメンのアーツ+40。",
-          "en": "You may archive 2 cards from your hand:During this turn, this holomem gets Arts +40."
+          "en": "You may archive 2 cards from your hand:During this turn, this holomem gets Arts+40."
         }
       }
     ],
@@ -11534,7 +12554,7 @@
         "name": { "jp": "ショータイム", "en": "Showtime" },
         "text": {
           "jp": "自分の手札のホロメン1枚をアーカイブできる：このターンの間、自分のステージの#Mythを持つホロメン1人のアーツ+20。",
-          "en": "You may archive 1 holomem from your hand:During this turn, 1 of your holomem with #Myth gets Arts +20."
+          "en": "You may archive 1 holomem from your hand:During this turn, 1 of your holomem with #Myth gets Arts+20."
         }
       }
     ],
@@ -12259,7 +13279,7 @@
         "name": { "jp": "音の魔人", "en": "Demon of Sound" },
         "text": {
           "jp": "このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+30。",
-          "en": "During this turn, your [center holomem and collab holomem] with #Singing get Arts +30."
+          "en": "During this turn, your [center holomem and collab holomem] with #Singing get Arts+30."
         }
       }
     ],
@@ -13367,7 +14387,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈白上フブキ〉に付いていたら能力追加\n[ターンに1回]自分のメインステップで、自分のホロメンのエール2枚をアーカイブできる：このターンの間、このホロメンのアーツ+50。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Shirakami Fubuki>\n[1/Turn]During your Main Phase, you may archive 2 cheers on your stage:During this turn, the holomem this mascot is attached to gets Arts +50.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Shirakami Fubuki>\n[1/Turn]During your Main Phase, you may archive 2 cheers on your stage:During this turn, the holomem this mascot is attached to gets Arts+50.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#ShirakamiCharacter" } ],
     "max_amount": { "jp": 4 },
@@ -14008,7 +15028,7 @@
         "name": { "jp": "デビルズヴォイス", "en": "Devil's Voice" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+20。",
-          "en": "[1/Turn]During this turn, your [center holomem and collab holomem] with #Singing get Arts +20."
+          "en": "[1/Turn]During this turn, your [center holomem and collab holomem] with #Singing get Arts+20."
         }
       },
       {
@@ -14212,7 +15232,7 @@
         "name": { "jp": "がんばり～リス！", "en": "Ganbari-risu!" },
         "text": {
           "jp": "[ゲームに1回]このターンの間、自分のステージの〈アユンダ・リス〉全員のアーツ+50。",
-          "en": "[1/Game]During this turn, all of your <Ayunda Risu> get Arts +50."
+          "en": "[1/Game]During this turn, all of your <Ayunda Risu> get Arts+50."
         }
       }
     ],
@@ -14420,7 +15440,7 @@
         "name": { "jp": "一緒に最高のライブにしようね", "en": "Let's have the best live together" },
         "text": {
           "jp": "このターンの間、自分のファンが付いているホロメン1人のアーツ+20。",
-          "en": "During this turn, 1 of your holomem with a fan attached gets Arts +20."
+          "en": "During this turn, 1 of your holomem with a fan attached gets Arts+20."
         }
       }
     ],
@@ -14481,7 +15501,7 @@
         },
         "text": {
           "jp": "[コラボポジション限定]自分のファンが付いているセンターホロメンの〈姫森ルーナ〉のアーツ+20。",
-          "en": "[Collab position only]Your center <Himemori Luna> with a fan attached gets Arts +20."
+          "en": "[Collab position only]Your center <Himemori Luna> with a fan attached gets Arts+20."
         }
       }
     ],
@@ -17987,7 +19007,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "[センターポジション限定]このホロメンにエールが6枚以上付いている時、このターンの間、このホロメンと自分のコラボホロメンのアーツ+100。",
-          "en": "[Center position only]If 6 or more cheers are attached to this holomem, during this turn your center holomem and collab holomem get Arts +100."
+          "en": "[Center position only]If 6 or more cheers are attached to this holomem, during this turn your center holomem and collab holomem get Arts+100."
         }
       }
     ],
@@ -19286,7 +20306,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈さくらみこ〉に付いていたら能力追加\nこのマスコットが付いているホロメンがコラボした時、このターンの間、自分のセンターホロメンの〈さくらみこ〉のアーツ+10。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <Sakura Miko>\nWhen the holomem this mascot is attached to Collabs, during this turn your center <Sakura Miko> gets Arts +10.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <Sakura Miko>\nWhen the holomem this mascot is attached to Collabs, during this turn your center <Sakura Miko> gets Arts+10.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -19827,7 +20847,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "[ターンに1回]このファンが付いているホロメンにエールが付いた時、このターンの間、このホロメンのアーツ+10。\n\nこのファンは、自分の〈アユンダ・リス〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "[1/Turn]When the holomem this fan is attached to receives cheer, during this turn this holomem gets Arts +10.\n\nYou may only attach this fan to your <Ayunda Risu>, and you may attach any number of this fan per holomem."
+      "en": "[1/Turn]When the holomem this fan is attached to receives cheer, during this turn this holomem gets Arts+10.\n\nYou may only attach this fan to your <Ayunda Risu>, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -19869,7 +20889,7 @@
         "name": { "jp": "こより実験中", "en": "Koyori Experiment" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の#こよラボを持つサポートカードが付いている〈博衣こより〉1人のアーツ+30。",
-          "en": "[1/Turn]During this turn, 1 of your <Hakui Koyori> with a Support Card with #KoyoLabo attached gets Arts +30."
+          "en": "[1/Turn]During this turn, 1 of your <Hakui Koyori> with a Support Card with #KoyoLabo attached gets Arts+30."
         }
       },
       {
@@ -20191,7 +21211,7 @@
         "name": { "jp": "リアクション芸", "en": "Reaction Arts" },
         "text": {
           "jp": "[ゲームに1回]自分のライフが3以下の時に使える：このターンの間、自分のセンターホロメンの〈大空スバル〉のアーツ+100。",
-          "en": "[1/Game]Usable if your Life is 3 or less:During this turn, your center <Oozora Subaru> gets Arts +100."
+          "en": "[1/Game]Usable if your Life is 3 or less:During this turn, your center <Oozora Subaru> gets Arts+100."
         }
       }
     ],
@@ -20887,7 +21907,7 @@
         "name": { "jp": "神眼の描き手", "en": "The Artist with the God Eyes" },
         "text": {
           "jp": "このターンの間、自分のステージの#絵を持つホロメン1人のアーツ+20。",
-          "en": "During this turn, 1 of your holomem with #Painting gets Arts +20."
+          "en": "During this turn, 1 of your holomem with #Painting gets Arts+20."
         }
       }
     ],
@@ -21639,7 +22659,7 @@
         "name": { "jp": "海を越えたお茶会", "en": "Tea across the sea" },
         "text": {
           "jp": "相手のステージに[#JPか#ID]を持つホロメンがいる間、このホロメンのアーツ+30。",
-          "en": "If there are any holomem on your opponent's stage with #JP or #ID, this holomem gets Arts +30."
+          "en": "If there are any holomem on your opponent's stage with #JP or #ID, this holomem gets Arts+30."
         }
       }
     ],
@@ -23436,7 +24456,7 @@
         "name": { "jp": "永遠の休息", "en": "Eternal Rest" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]このホロメンに〈森カリオペの鎌〉か〈Death-sensei〉が付いている間、自分の#Mythを持つセンターホロメンのアーツ+30。",
-          "en": "[Center position or collab position only]If a <Mori Calliope's Scythe> or <Death-sensei> is attached to this holomem, your center holomem with #Myth gets Arts +30."
+          "en": "[Center position or collab position only]If a <Mori Calliope's Scythe> or <Death-sensei> is attached to this holomem, your center holomem with #Myth gets Arts+30."
         }
       }
     ],
@@ -23902,7 +24922,7 @@
         "name": { "jp": "全力で頑張るから", "en": "I'll do my best" },
         "text": {
           "jp": "自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+10。ただし、数える枚数は3枚まで。",
-          "en": "During this turn, 1 of your holomem gets Arts +10 for each cheer currently attached to that holomem. However, only up to 3 cheers are counted."
+          "en": "During this turn, 1 of your holomem gets Arts+10 for each cheer currently attached to that holomem. However, only up to 3 cheers are counted."
         }
       }
     ],
@@ -25156,7 +26176,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分の〈儒烏風亭らでん〉1人を選ぶ。自分のステージのエール1～2枚を、選んだホロメンに付け替えられる。その後、選んだホロメンにエールが3枚以上付いている時、このターンの間、選んだホロメンのアーツ+10。",
-      "en": "Choose 1 of your <Juufuutei Raden>. You may reattach any 1~2 cheers on your stage to the chosen holomem. Then, if the chosen holomem has 3 or more cheers attached, during this turn that holomem gets Arts +10."
+      "en": "Choose 1 of your <Juufuutei Raden>. You may reattach any 1~2 cheers on your stage to the chosen holomem. Then, if the chosen holomem has 3 or more cheers attached, during this turn that holomem gets Arts+10."
     },
     "tags": [ { "jp": "#きのこ", "en": "#Mushroom" } ],
     "max_amount": { "jp": 4 },
@@ -25377,7 +26397,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈博衣こより〉に付いていたら能力追加\nこのマスコットが付いているホロメンがコラボした時、このターンの間、このホロメンのアーツ+10。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to a 1st or greater <Hakui Koyori>\nWhen the holomem this mascot is attached to Collabs, during this turn this holomem gets Arts +10.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to a 1st or greater <Hakui Koyori>\nWhen the holomem this mascot is attached to Collabs, during this turn this holomem gets Arts+10.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#こよラボ", "en": "#KoyoLabo" } ],
     "max_amount": { "jp": 4 },
@@ -26785,7 +27805,7 @@
         "name": { "jp": "あやめのひととせ", "en": "Ayame's first anniversary" },
         "text": {
           "jp": "このホロメンに〈ぽよ余〉が付いている時、このターンの間、自分のセンターホロメンのアーツ+20。",
-          "en": "If there is a <Poyoyo> attached to this holomem, during this turn your center holomem gets Arts +20."
+          "en": "If there is a <Poyoyo> attached to this holomem, during this turn your center holomem gets Arts+20."
         }
       }
     ],
@@ -28551,7 +29571,7 @@
         "name": { "jp": "こんちくわ", "en": "Konchikuwa" },
         "text": {
           "jp": "このターンの間、自分の#ReGLOSSを持つセンターホロメンのアーツ+10。",
-          "en": "During this turn, your center holomem with #ReGLOSS gets Arts +10."
+          "en": "During this turn, your center holomem with #ReGLOSS gets Arts+10."
         }
       }
     ],
@@ -28758,7 +29778,7 @@
         "power": "50",
         "text": {
           "jp": "このターンの間、自分のステージの#ReGLOSSを持つDebutホロメン1人のアーツ+40。",
-          "en": "During this turn, 1 of your Debut holomem with #ReGLOSS gets Arts +40."
+          "en": "During this turn, 1 of your Debut holomem with #ReGLOSS gets Arts+40."
         }
       }
     ],
@@ -29949,7 +30969,7 @@
         "name": { "jp": "大物の確証", "en": "Confirmation of big things" },
         "text": {
           "jp": "このターンの間、自分のセンターホロメンのアーツ+10。",
-          "en": "During this turn, your center holomem gets Arts +10."
+          "en": "During this turn, your center holomem gets Arts+10."
         }
       }
     ],
