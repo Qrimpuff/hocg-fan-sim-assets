@@ -28004,6 +28004,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10019",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hSD01-016",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD01-016_C.webp", "en": null },
+        "img_hash": "vNmrm1c|pNaLmVc|pFaLnNM|nrUjU1c",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -31739,6 +31750,517 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd07/10015",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hSD08-001": {
+    "card_number": "hSD08-001",
+    "name": { "jp": "天音かなた", "en": "Amane Kanata" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "White Mic" },
+        "text": { "en": "[1/Turn]During this turn, your white center holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Quick Guard" },
+        "text": {
+          "en": "[1/Game]During your opponent's turn, usable if your white holomem would take Damage from your opponent:That holomem takes -20 Damage."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD08-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD08-001_OC.webp", "en": null },
+        "img_hash": "KpWGRGo|KpWGRmo|KpWERmo|KpSERms",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD08-002": {
+    "card_number": "hSD08-002",
+    "name": { "jp": "天音かなた", "en": "Amane Kanata" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "holosummer" },
+        "text": {
+          "en": "Look at the top 5 cards of your deck. Reveal 1 Debut holomem with #Summer from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I look good in a yukata, don't I?" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD08-002",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD08-002_U.webp", "en": null },
+        "img_hash": "rlfCtyI|rAPglyo|vAvmt6o|rGqmsiw",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD08-003": {
+    "card_number": "hSD08-003",
+    "name": { "jp": "天音かなた", "en": "Amane Kanata" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "I can talk to you" },
+        "text": {
+          "en": "Reveal 1 Debut holomem with #Gen 4 from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Everyone's Super Darling" },
+        "power": "100+",
+        "advantage": [ "green", 50 ],
+        "text": { "en": "This Arts gets +10 for each of your holomem with #Summer." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD08-003",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD08-003_R.webp", "en": null },
+        "img_hash": "UK6kaDE|QO9EaHM|QO1EaHc|QO1LqnE",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD08-004": {
+    "card_number": "hSD08-004",
+    "name": { "jp": "天音かなた", "en": "Amane Kanata" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 180,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Angel Wind" },
+        "text": { "en": "[Center position only]Your collab Debut holomem with #Gen 4 gets Arts+40." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white", "colorless" ],
+        "name": { "jp": null, "en": "So that I can catch up with you" },
+        "power": "120",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "[1/Turn]If your opponent's center holomem is downed by this Arts, deal 40 Special Damage to 1 of your opponent's 2nd holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD08-004",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD08-004_RR.webp", "en": null },
+        "img_hash": "bCyCUqk|pCSkUqo|pD2MWqY|JAoqtqU",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD08-005": {
+    "card_number": "hSD08-005",
+    "name": { "jp": "姫森ルーナ", "en": "Himemori Luna" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Drawstring bag of holding" },
+        "text": {
+          "en": "[Collab position only]If your holomem is downed during your opponent's turn, if you have equal or less Life than your opponent, your may return 1 item with \"PC\" in its name from your archive to hand."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "It's a festival" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Baby" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD08-005",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD08-005_C.webp", "en": null },
+        "img_hash": "TCvCqAU|bCvCOCU|vCviMqQ|diIkKzE",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD08-006": {
+    "card_number": "hSD08-006",
+    "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Are you going to watch the fireworks?" },
+        "text": {
+          "en": "Deal 10 Special Damage to your opponent's center holomem. If you are going second and this is your first turn, deal 20 Special Damage instead."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Are you captivated by Towa?" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" }, { "en": "#Shooter" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD08-006",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD08-006_C.webp", "en": null },
+        "img_hash": "3CpkeIU|3CtkeKU|3CtkeKU|2Cnmcyk",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD08-007": {
+    "card_number": "hSD08-007",
+    "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Summer festival with everyone" },
+        "text": { "en": "You may send 1 cheer from your archive to your 2nd holomem with #Gen 4." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Cotton candy is delicious" }, "power": "10" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Kemomimi" }, { "en": "#Singing" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD08-007",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD08-007_C.webp", "en": null },
+        "img_hash": "fCliUig|fCliUig|vK3iVig|tp/pRpo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD09-001": {
+    "card_number": "hSD09-001",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Mic" },
+        "text": { "en": "[1/Turn]During this turn, your red center holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Now! Once more!" },
+        "text": { "en": "[1/Game]Return 1 red holomem from your archive to hand." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD09-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD09-001_OC.webp", "en": null },
+        "img_hash": "KpSGRmo|ZJfGJGo|ZJdHJGo|ZMdDtGI",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD09-002": {
+    "card_number": "hSD09-002",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "holosummer" },
+        "text": {
+          "en": "Look at the top 5 cards of your deck. Reveal 1 Debut holomem with #Summer from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Would you like to join Senchou?" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Painting" }, { "en": "#Sea" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD09-002",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD09-002_U.webp", "en": null },
+        "img_hash": "JJdNXew|ItVNRXo|MtVNUXs|Mt1tFXk",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD09-003": {
+    "card_number": "hSD09-003",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A win for everyone" },
+        "text": {
+          "en": "Deal 10 Special Damage for each differently-named holomem with #Gen 3 on your stage to your opponent's center holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "Seriously, leave it to Marine" },
+        "power": "50"
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD09-003",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD09-003_R.webp", "en": null },
+        "img_hash": "kroj7So|mt6jzSo|mtwDxTs|ulWlhTM",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD09-004": {
+    "card_number": "hSD09-004",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": null, "en": "Bonds of 3rd Generation" },
+        "power": "60",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "en": "If your stage has a holomem with #Gen 3 other than <Houshou Marine>, draw 1 card from your deck."
+        }
+      },
+      {
+        "cheers": [ "red", "red", "colorless" ],
+        "name": { "jp": null, "en": "Over the horizon alongside you" },
+        "power": "120",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "en": "Deal 10 Special Damage for each differently-named holomem with #Gen 3 on your stage to your opponent's center holomem and collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD09-004",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD09-004_RR.webp", "en": null },
+        "img_hash": "OiVgTok|OiVkTos|OoVMzMs|stvJp1s",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD09-005": {
+    "card_number": "hSD09-005",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "3rd Generation Beach House" },
+        "text": {
+          "en": "Your center 2nd holomem gets Arts+10 for each of your differently-named holomem with #Gen 3."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Summer is here!" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD09-005",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD09-005_C.webp", "en": null },
+        "img_hash": "LqXEUyk|IuXEU7s|ImVEW7s|JsUlm3k",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD09-006": {
+    "card_number": "hSD09-006",
+    "name": { "jp": "兎田ぺこら", "en": "Usada Pekora" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "You guys work hard!" },
+        "text": {
+          "en": "If you are going second and this is your first turn, send the top card of your cheer deck to your holomem with #Gen 3."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Your order of shaved ice peko!" }, "power": "10" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Kemomimi" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD09-006",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD09-006_C.webp", "en": null },
+        "img_hash": "lJ1NU6o|Rq1NU/o|Rp1PU7o|lJ1FVTo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD09-007": {
+    "card_number": "hSD09-007",
+    "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Let's cool down" },
+        "text": {
+          "en": "[Collab position only]If this holomem is downed during your opponent's turn, if you have less Life than your opponent, you take -1 Life Damage."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Please wait for something cold♪" },
+        "power": "80"
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD09-007",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD09-007_C.webp", "en": null },
+        "img_hash": "RCQKUqA|ZKSKUOA|NJXL1Oo|Vp1NRao",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
