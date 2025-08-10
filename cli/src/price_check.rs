@@ -161,9 +161,11 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     url_skipped += 1;
                 }
                 // group by image, some entries are duplicated, like hSD01-016
-                existing_urls
-                    .entry(card.img_path.japanese.as_deref().unwrap_or_default().into())
-                    .or_insert(yuyutei_sell_url.clone());
+                if let Some(img_path) = card.img_path.japanese.as_deref() {
+                    existing_urls
+                        .entry(img_path.into())
+                        .or_insert(yuyutei_sell_url.clone());
+                }
             }
         }
     }
@@ -214,17 +216,12 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         let (url, _) = urls.swap_remove(0);
                         illustration.yuyutei_sell_url = Some(url.clone());
                         // group by image, some entries are duplicated
-                        existing_urls
-                            .write()
-                            .entry(
-                                illustration
-                                    .img_path
-                                    .japanese
-                                    .as_deref()
-                                    .unwrap_or_default()
-                                    .into(),
-                            )
-                            .or_insert(url.clone());
+                        if let Some(img_path) = illustration.img_path.japanese.as_deref() {
+                            existing_urls
+                                .write()
+                                .entry(img_path.into())
+                                .or_insert(url.clone());
+                        }
                         *url_count.lock() += 1;
                     }
                 }
@@ -466,9 +463,11 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     product_ids_skipped += 1;
                 }
                 // group by image, some entries are duplicated, like hSD01-016
-                existing_ids
-                    .entry(card.img_path.english.as_deref().unwrap_or_default().into())
-                    .or_insert(*tcgplayer_product_id);
+                if let Some(img_path) = card.img_path.english.as_deref() {
+                    existing_ids
+                        .entry(img_path.into())
+                        .or_insert(*tcgplayer_product_id);
+                }
             }
         }
     }
@@ -519,18 +518,13 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         let (product_id, _) = product_ids.swap_remove(0);
                         illustration.tcgplayer_product_id = Some(product_id);
                         // group by image, some entries are duplicated
-                        existing_ids
-                            .write()
-                            .entry(
-                                illustration
-                                    .img_path
-                                    .english
-                                    .as_deref()
-                                    .unwrap_or_default()
-                                    .into(),
-                            )
-                            .or_insert(product_id);
-                        *product_ids_count.lock() += 1;
+                        if let Some(img_path) = illustration.img_path.english.as_deref() {
+                            existing_ids
+                                .write()
+                                .entry(img_path.into())
+                                .or_insert(product_id);
+                            *product_ids_count.lock() += 1;
+                        }
                     }
                 }
             }

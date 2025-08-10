@@ -29,7 +29,10 @@ use crate::{
         ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
     },
     holodelta::{import_holodelta, import_holodelta_db},
-    images::{download_images, prepare_en_proxy_images, utils::is_similar, zip_images},
+    images::{
+        download_images, download_images_from_ogbajoj_sheet, prepare_en_proxy_images,
+        utils::is_similar, zip_images,
+    },
     price_check::{tcgplayer, yuyutei},
 };
 
@@ -163,10 +166,10 @@ fn main() {
     let images_en_path = assets_path.join("img_en");
 
     // load file
-    if !args.clean {
-        if let Ok(s) = fs::read_to_string(&card_mapping_file) {
-            all_cards = serde_json::from_str(&s).unwrap();
-        }
+    if !args.clean
+        && let Ok(s) = fs::read_to_string(&card_mapping_file)
+    {
+        all_cards = serde_json::from_str(&s).unwrap();
     }
 
     // (card number, illustration index)
@@ -211,6 +214,11 @@ fn main() {
                     language.into(),
                 )
             });
+    }
+
+    // download images from ogbajoj sheet
+    if args.ogbajoj_sheet {
+        download_images_from_ogbajoj_sheet(&images_jp_path, &images_en_path, &mut all_cards);
     }
 
     // import from official holoLive

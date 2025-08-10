@@ -368,14 +368,14 @@ pub mod ogbajoj {
     #[derive(Deserialize, Debug)]
     #[serde(rename_all = "camelCase")]
     pub struct Spreadsheet {
-        pub properties: SpreadsheetProperties,
+        pub _properties: SpreadsheetProperties,
         pub sheets: Vec<Sheet>,
     }
 
     #[derive(Deserialize, Debug)]
     #[serde(rename_all = "camelCase")]
     pub struct SpreadsheetProperties {
-        pub title: String,
+        pub _title: String,
     }
 
     #[derive(Deserialize, Debug)]
@@ -527,7 +527,28 @@ pub mod ogbajoj {
             // update existing tags (tags consistency check)
             update_tags(card, self.tags(), Language::English);
             // there is no baton pass in the sheet
-            // there is no max amount in the sheet
+            // there is no max amount in the sheet, add default max amount
+            if card.max_amount.japanese.unwrap_or_default() == 0 {
+                card.max_amount.japanese = Some(match card.card_type {
+                    CardType::OshiHoloMember => 1,
+                    CardType::Cheer => 20,
+                    _ => 4,
+                });
+
+                if card
+                    .extra
+                    .as_ref()
+                    .filter(|e| {
+                        e.english.as_deref()
+                            == Some(
+                                "You may put any number of copies of this holomem in your deck.",
+                            )
+                    })
+                    .is_some()
+                {
+                    card.max_amount.japanese = Some(50);
+                }
+            }
         }
 
         fn update_card_text(&self, card: &mut Card) {
@@ -891,11 +912,6 @@ pub mod ogbajoj {
         let spreadsheet: Spreadsheet = serde_json::from_str(&content).unwrap();
         // dbg!(&spreadsheet);
 
-        if spreadsheet.properties.title != "Hololive OCG/TCG card translations" {
-            eprintln!("Wrong spreadsheet");
-            return;
-        }
-
         let sheets_gid = spreadsheet
             .sheets
             .iter()
@@ -944,7 +960,7 @@ pub mod ogbajoj {
                 {
                     cheers_names
                         .entry(card.card_number.split_once('-').unwrap().0.to_string())
-                        .or_insert(card.name.english.clone());
+                        .or_insert(card.name.clone());
                 }
             }
         }
@@ -957,10 +973,9 @@ pub mod ogbajoj {
             .filter_map(|c| {
                 if c.card_type == CardType::Cheer {
                     // use the basic cheer name from the sheet
-                    c.name.english = cheers_names
+                    c.name = cheers_names
                         .get(c.card_number.split_once('-').unwrap().0)
-                        .cloned()
-                        .flatten();
+                        .cloned()?;
                     None
                 } else {
                     Some(c)
@@ -1249,11 +1264,11 @@ pub mod hololive_official {
                     keyword_text.push('\n');
 
                 // include alt text for images e.g. cheers, color advantages, etc
-                } else if let Node::Element(el) = node.value() {
-                    if let Some(alt) = el.attr("alt") {
-                        keyword_text.push_str(alt.to_string().as_str());
-                        keyword_text.push('\n');
-                    }
+                } else if let Node::Element(el) = node.value()
+                    && let Some(alt) = el.attr("alt")
+                {
+                    keyword_text.push_str(alt.to_string().as_str());
+                    keyword_text.push('\n');
                 }
             }
 
@@ -1310,11 +1325,11 @@ pub mod hololive_official {
                     art_text.push('\n');
 
                 // include alt text for images e.g. cheers, color advantages, etc
-                } else if let Node::Element(el) = node.value() {
-                    if let Some(alt) = el.attr("alt") {
-                        art_text.push_str(alt.to_string().as_str());
-                        art_text.push('\n');
-                    }
+                } else if let Node::Element(el) = node.value()
+                    && let Some(alt) = el.attr("alt")
+                {
+                    art_text.push_str(alt.to_string().as_str());
+                    art_text.push('\n');
                 }
             }
 
