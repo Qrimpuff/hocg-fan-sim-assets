@@ -2331,6 +2331,40 @@
       }
     ]
   },
+  "hBD24-063": {
+    "card_number": "hBD24-063",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
+        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-063",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-063_P.webp", "en": null },
+        "img_hash": "1LWr8rs|xKVLurs|xKVLurs|qitJmps",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP01-001": {
     "card_number": "hBP01-001",
     "name": { "jp": "天音かなた", "en": "Amane Kanata" },
@@ -32032,7 +32066,7 @@
         "rarity": "OC",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD09-001_OC.webp", "en": null },
-        "img_hash": "KpSGRmo|ZJfGJGo|ZJdHJGo|ZMdDtGI",
+        "img_hash": "KpWGRmo|ZJfGJGo|ZJdGJGo|TINCtGI",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
