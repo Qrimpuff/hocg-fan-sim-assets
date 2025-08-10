@@ -6865,6 +6865,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP01-076",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-076_HR.webp", "en": null },
+        "img_hash": "0iQraZM|2jQr7ZM|0hQjx5o|2jdjbZs",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -9791,6 +9802,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10058",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-008",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-008_C.webp", "en": null },
+        "img_hash": "Qk1DxbM|Qk1Dhbs|Qk1DhT8|wkxDhTM",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -10185,6 +10207,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10053",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-014",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-014_HR.webp", "en": null },
+        "img_hash": "IkTETjM|IlTMzjM|IlTFzDM|gqZFXRo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -26755,6 +26788,115 @@
       }
     ]
   },
+  "hBP05-005": {
+    "card_number": "hBP05-005",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Smothered in Choco!" },
+        "text": {
+          "en": "[1/Turn]Reveal 1 event with #Food from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Cooking with Choco" },
+        "text": {
+          "en": "[1/Game]Return 1~4 events with #Food from your archive to hand. Then, during this turn, 1 of your holomem with #Cooking gets Arts+50."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-005",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-005_OSR.webp", "en": null },
+        "img_hash": "RrfKZWI|RqtKJWk|RqpGZGg|RqpFLSw",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-006": {
+    "card_number": "hBP05-006",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Liebesträume" },
+        "text": {
+          "en": "[1/Turn]During this turn, your [center holomem and collab holomem] with #Singing get Arts+10."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 4,
+        "name": { "jp": null, "en": "Shoot the Moon" },
+        "text": {
+          "en": "[1/Game]During this game, the Arts cheer cost of all of your <Nerissa Ravencroft> is reduced by 1 colorless cheer."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-006",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-006_OSR.webp", "en": null },
+        "img_hash": "1MwmtLo|1Mxn1Lo|lMxn1js|3EtmtJ8",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-009": {
+    "card_number": "hBP05-009",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Deep in summer" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 1st <Shirogane Noel> from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Summer Memories" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-009",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-009_C.webp", "en": null },
+        "img_hash": "xCRqesY|zCXKa8Y|SGHCqmc|TKtKuiU",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-011": {
     "card_number": "hBP05-011",
     "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
@@ -26787,6 +26929,251 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-011_P.webp", "en": null },
         "img_hash": "6McFqko|YMIFqko|YMIFqko|4MJFqlo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-011",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-011_R.webp", "en": null },
+        "img_hash": "zKYNTEI|yCQJTEI|bGQL2sI|LMQLkmM",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-014": {
+    "card_number": "hBP05-014",
+    "name": { "jp": "兎田ぺこら", "en": "Usada Pekora" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Am I pekute?" },
+        "power": "20",
+        "text": { "en": "You may roll a die once:If it is even, draw 1 card from your deck." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-014",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-014_C.webp", "en": null },
+        "img_hash": "bqCid0g|bqCiZ0g|RqCiZ0g|bIKqs0E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-015": {
+    "card_number": "hBP05-015",
+    "name": { "jp": "兎田ぺこら", "en": "Usada Pekora" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Carrots..." },
+        "power": "30",
+        "text": {
+          "en": "If there are 3 or more holomem with #Gen 3 on your stage, send the top card of your cheer deck to this holomem."
+        }
+      },
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Do I need them peko?" },
+        "power": "30",
+        "text": { "en": "If your oshi holomem's color is white, draw 1 card from your deck." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-015",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-015_U.webp", "en": null },
+        "img_hash": "KtSmQ04|StVCpU4|TkNBqUY|TsJDpUw",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-056": {
+    "card_number": "hBP05-056",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": null, "en": "Made with love" },
+        "power": "90+",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "This Arts gets +20 for each event with #Food you have used this turn. However, only up to 2 cards are counted."
+        }
+      },
+      {
+        "cheers": [ "purple", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Snuggle up at night" },
+        "power": "150",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "You may archive 2 cards from your hand:Return 1 holomem with #Cooking from your archive to hand."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-056",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-056_RR.webp", "en": null },
+        "img_hash": "xJKFNog|zJoFNYg|TJoFJcg|fNotPM0",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-058": {
+    "card_number": "hBP05-058",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "SUGOIDEKAI" },
+        "text": {
+          "en": "If you are going second, this is your first turn, and your Oshi holomem is <Nerissa Ravencroft>, put the top card of your deck to holo Power."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Byeya darlings!" }, "power": "10" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-058",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-058_C.webp", "en": null },
+        "img_hash": "Is3BiWU|Ms1BiWA|cs1Ai2A|3gdhrQo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-060": {
+    "card_number": "hBP05-060",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Moonlight" },
+        "text": {
+          "en": "Reveal 1 [<Nerissa Ravencroft's Staff> or <Jailbird>] from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": null, "en": "A glamorous banquet" },
+        "power": "40",
+        "text": {
+          "en": "You may archive 1 card from your hand:Deal 20 special damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-060",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-060_R.webp", "en": null },
+        "img_hash": "qECkIk4|qECkBs4|qFCEBs4|vCNhuwY",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-076": {
+    "card_number": "hBP05-076",
+    "name": { "jp": "ちょこのビーフストロガノフ", "en": "Choco's Beef Stroganoff" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "During this turn, 1 of your holomem gets Arts+10. Then, during this turn, 1 of your 2nd <Yuzuki Choco> gets Arts+10."
+    },
+    "tags": [ { "en": "#Food" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-076",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-076_U.webp", "en": null },
+        "img_hash": "qlahnNs|utYlnNs|slYtnNM|skZlHJM",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-080": {
+    "card_number": "hBP05-080",
+    "name": { "jp": "SorAZセレブレーション", "en": "SorAZ Celebration" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "Draw 2 cards from your deck. Then, look at the top 5 cards of your deck. Reveal 1 1st holomem from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-080",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-080_U.webp", "en": null },
+        "img_hash": "vjonF5w|vDolFJw|vDIlHNw|tKolVEw",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -30771,6 +31158,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10022",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD07-002",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD07-002_HR.webp", "en": null },
+        "img_hash": "VKopbGA|1Lop7M4|oBLGJto|wCdC5Fo",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
