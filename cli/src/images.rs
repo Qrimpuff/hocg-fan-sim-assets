@@ -7,7 +7,7 @@ use std::{
     sync::{Arc, atomic::AtomicU32},
 };
 
-use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase, Language};
+use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase, Language, Localized};
 use image::DynamicImage;
 use itertools::Itertools;
 use oxipng::{InFile, Options, OutFile};
@@ -476,13 +476,15 @@ pub fn download_images_from_ogbajoj_sheet(
 
     println!("Downloading unreleased images from @ogbajoj's sheet...");
 
+    let all_cards = Arc::new(RwLock::new(all_cards));
+
     // Download the entire spreadsheet as HTML zip
     let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/export?format=zip");
     let resp = http_client().get(url).send().unwrap();
     let bytes = resp.bytes().unwrap();
     let cursor = Cursor::new(bytes.to_vec());
 
-    let mut archive = zip::ZipArchive::new(cursor).unwrap();
+    let archive = Arc::new(RwLock::new(zip::ZipArchive::new(cursor).unwrap()));
 
     // Precompute selectors
     let table_sel = Selector::parse("table").unwrap();
@@ -490,299 +492,370 @@ pub fn download_images_from_ogbajoj_sheet(
     let td_sel = Selector::parse("td").unwrap();
     let img_sel = Selector::parse("img").unwrap();
 
-    // Iterate html files inside the ZIP
-    for i in 0..archive.len() {
-        let mut imported = 0;
-        let mut skipped = 0;
+    // Image URLs are external; fetch via HTTP
+    fn download_image(
+        url: &str,
+        row_idx: usize,
+        set_code: &str,
+        name: &str,
+    ) -> Result<DynamicImage, Box<dyn Error>> {
+        let resp = http_client()
+            .get(url)
+            .header(REFERER, "https://docs.google.com/")
+            .send()
+            .inspect_err(|e| {
+                eprintln!("[{name}] row {row_idx} {set_code}: request error: {e}");
+            })?;
 
-        let mut file = archive.by_index(i).unwrap();
-        let name = file.name().to_string();
-        if !name.to_ascii_lowercase().ends_with(".html") {
-            continue;
+        if !resp.status().is_success() {
+            eprintln!(
+                "[{name}] row {row_idx} {set_code}: HTTP status {} for {url}",
+                resp.status()
+            );
+            return Err(Box::from(format!("HTTP error: {}", resp.status())));
         }
+        let img_bytes = resp.bytes().inspect_err(|e| {
+            eprintln!("[{name}] row {row_idx} {set_code}: read body error: {e}");
+        })?;
 
-        // Read HTML content
-        let mut html = String::new();
-        file.read_to_string(&mut html).unwrap();
-        drop(file);
+        // Decode image
+        Ok(image::load_from_memory(&img_bytes).inspect_err(|e| {
+            eprintln!("[{name}] row {row_idx} {set_code}: decode error: {e}");
+        })?)
+    }
 
-        println!("Reading HTML: {name}");
-
-        let document = Html::parse_document(&html);
-        for table in document.select(&table_sel) {
-            // Build header index map from the first tbody row of <td> labels
-            let trs = table.select(&tr_sel).collect_vec();
-            let mut set_code_idx: Option<usize> = None;
-            let mut image_idx: Option<usize> = None;
-            let mut rarity_1_idx: Option<usize> = None;
-            let mut alternate_art_idx: Option<usize> = None;
-            let mut rarity_2_idx: Option<usize> = None;
-            let mut text_idx = None;
-            let mut header_row_idx: Option<usize> = None;
-
-            for (i, header_tr) in trs.iter().enumerate() {
-                set_code_idx = None;
-                image_idx = None;
-                rarity_1_idx = None;
-                alternate_art_idx = None;
-                rarity_2_idx = None;
-                text_idx = None;
-
-                let headers = header_tr
-                    .select(&td_sel)
-                    .map(|td| td.text().collect::<String>().trim().to_ascii_lowercase())
-                    .collect_vec();
-                for (idx, h) in headers.iter().enumerate() {
-                    if h.contains("setcode") || h.contains("set code") {
-                        set_code_idx = Some(idx);
-                    }
-                    if h.contains("image") {
-                        image_idx = Some(idx);
-                    }
-                    if h.contains("alternate art") {
-                        alternate_art_idx = Some(idx);
-                    }
-                    if h.contains("rarity") {
-                        if rarity_1_idx.is_none() {
-                            // first rarity column
-                            rarity_1_idx = Some(idx);
-                        } else if rarity_2_idx.is_none() {
-                            // second rarity column
-                            rarity_2_idx = Some(idx);
-                        }
-                    }
-                    if h.contains("text") {
-                        text_idx = Some(idx);
-                    }
+    // Iterate html files inside the ZIP
+    let archive_len = { archive.read().len() };
+    (0..archive_len)
+        .into_par_iter()
+        .filter_map({
+            let archive = archive.clone();
+            move |i| {
+                let mut archive = archive.write();
+                let mut file = archive.by_index(i).unwrap();
+                let name = file.name().to_string();
+                if !name.to_ascii_lowercase().ends_with(".html") {
+                    return None;
                 }
 
-                if set_code_idx.is_some() && image_idx.is_some() && rarity_1_idx.is_some() {
-                    header_row_idx = Some(i);
+                // Read HTML content
+                let mut html = String::new();
+                file.read_to_string(&mut html).unwrap();
 
-                    if DEBUG {
-                        println!(
-                            "Header indices -> setcode: {:?}, image: {:?}, rarity: {:?}",
-                            set_code_idx, image_idx, rarity_1_idx
-                        );
-                    }
-                    break;
-                }
+                Some((name, html))
             }
+        })
+        .for_each({
+            let all_cards = all_cards.clone();
+            move |(name, html)| {
+                let mut imported = 0;
+                let mut skipped = 0;
 
-            // If we don't find headers, skip this table
-            let Some(header_row_idx) = header_row_idx else {
-                eprintln!("[{name}]: missing header row");
-                continue;
-            };
+                println!("[{name}] Reading HTML...");
 
-            // Process data rows after the header row
-            for (row_idx, tr) in trs.into_iter().enumerate().skip(header_row_idx + 1) {
-                let tds = tr.select(&td_sel).collect_vec();
-                if tds.is_empty()
-                    || tds
-                        .iter()
-                        .all(|td| td.text().collect::<String>().trim().is_empty())
-                {
-                    continue;
-                }
+                let document = Html::parse_document(&html);
+                for table in document.select(&table_sel) {
+                    // Build header index map from the first tbody row of <td> labels
+                    let trs = table.select(&tr_sel).collect_vec();
+                    let mut set_code_idx: Option<usize> = None;
+                    let mut image_idx: Option<usize> = None;
+                    let mut rarity_1_idx: Option<usize> = None;
+                    let mut alternate_art_idx: Option<usize> = None;
+                    let mut rarity_2_idx: Option<usize> = None;
+                    let mut text_idx = None;
+                    let mut header_row_idx: Option<usize> = None;
 
-                let set_code = set_code_idx
-                    .and_then(|idx| tds.get(idx))
-                    .map(|td| td.text().collect::<String>().trim().to_string())
-                    .unwrap_or_default();
-                if set_code.is_empty() {
-                    if DEBUG {
-                        eprintln!("[{name}] row {row_idx}: missing set code");
-                    }
-                    continue;
-                }
+                    for (i, header_tr) in trs.iter().enumerate() {
+                        set_code_idx = None;
+                        image_idx = None;
+                        rarity_1_idx = None;
+                        alternate_art_idx = None;
+                        rarity_2_idx = None;
+                        text_idx = None;
 
-                let text = text_idx
-                    .and_then(|idx| tds.get(idx))
-                    .map(|td| td.text().collect::<String>().trim().to_string())
-                    .unwrap_or_default();
-                // language switch for English exclusive cards like hY01-008
-                let language = if text.contains("EN exclusive") {
-                    Language::English
-                } else {
-                    Language::Japanese
-                };
-                let images_path = match language {
-                    Language::Japanese => images_jp_path,
-                    Language::English => images_en_path,
-                };
-
-                // Collect image sources and rarities
-                let mut images = Vec::with_capacity(2);
-
-                let img_src = image_idx
-                    .and_then(|idx| tds.get(idx))
-                    .and_then(|td| td.select(&img_sel).next())
-                    .and_then(|img| img.value().attr("src"))
-                    .map(|s| s.to_string());
-                let rarity_1 = rarity_1_idx
-                    .and_then(|idx| tds.get(idx))
-                    .map(|td| td.text().collect::<String>().trim().to_string());
-                if let Some(img_src) = img_src
-                    && let Some(rarity) = rarity_1
-                {
-                    images.push((img_src, rarity));
-                }
-
-                let rarity_2 = rarity_2_idx
-                    .and_then(|idx| tds.get(idx))
-                    .map(|td| td.text().collect::<String>().trim().to_string())
-                    .filter(|r| r != "SY"); // Cheers have a different number
-                let alternate_art_src = alternate_art_idx
-                    .and_then(|idx| tds.get(idx))
-                    .and_then(|td| td.select(&img_sel).next())
-                    .and_then(|img| img.value().attr("src"))
-                    .map(|s| s.to_string());
-                if let Some(alt_art_src) = alternate_art_src
-                    && let Some(rarity) = rarity_2
-                {
-                    images.push((alt_art_src, rarity));
-                }
-
-                for (img_src, rarity) in images {
-                    if DEBUG {
-                        println!("Row: {set_code} -> {img_src}");
-                    }
-
-                    // one image for hashing, the other for display
-                    let full_size_img_url = img_src
-                        .find("=")
-                        .map(|idx| &img_src[..idx])
-                        .unwrap_or(&img_src);
-                    let hash_img_ratio = 3;
-                    let hash_img_w = 40 * hash_img_ratio;
-                    let hash_img_h = 56 * hash_img_ratio;
-                    let hash_img_url = format!("{full_size_img_url}=w{hash_img_w}-h{hash_img_h}");
-
-                    // Image URLs are external; fetch via HTTP
-                    fn download_image(
-                        url: &str,
-                        row_idx: usize,
-                        set_code: &str,
-                        name: &str,
-                    ) -> Result<DynamicImage, Box<dyn Error>> {
-                        let resp = http_client()
-                            .get(url)
-                            .header(REFERER, "https://docs.google.com/")
-                            .send()
-                            .inspect_err(|e| {
-                                eprintln!("[{name}] row {row_idx} {set_code}: request error: {e}");
-                            })?;
-
-                        if !resp.status().is_success() {
-                            eprintln!(
-                                "[{name}] row {row_idx} {set_code}: HTTP status {} for {url}",
-                                resp.status()
-                            );
-                            return Err(Box::from(format!("HTTP error: {}", resp.status())));
+                        let headers = header_tr
+                            .select(&td_sel)
+                            .map(|td| td.text().collect::<String>().trim().to_ascii_lowercase())
+                            .collect_vec();
+                        for (idx, h) in headers.iter().enumerate() {
+                            if h.contains("setcode") || h.contains("set code") {
+                                set_code_idx = Some(idx);
+                            }
+                            if h.contains("image") {
+                                image_idx = Some(idx);
+                            }
+                            if h.contains("alternate art") {
+                                alternate_art_idx = Some(idx);
+                            }
+                            if h.contains("rarity") {
+                                if rarity_1_idx.is_none() {
+                                    // first rarity column
+                                    rarity_1_idx = Some(idx);
+                                } else if rarity_2_idx.is_none() {
+                                    // second rarity column
+                                    rarity_2_idx = Some(idx);
+                                }
+                            }
+                            if h.contains("text") {
+                                text_idx = Some(idx);
+                            }
                         }
-                        let img_bytes = resp.bytes().inspect_err(|e| {
-                            eprintln!("[{name}] row {row_idx} {set_code}: read body error: {e}");
-                        })?;
 
-                        // Decode image
-                        Ok(image::load_from_memory(&img_bytes).inspect_err(|e| {
-                            eprintln!("[{name}] row {row_idx} {set_code}: decode error: {e}");
-                        })?)
+                        if set_code_idx.is_some() && image_idx.is_some() && rarity_1_idx.is_some() {
+                            header_row_idx = Some(i);
+
+                            if DEBUG {
+                                println!(
+                                    "Header indices -> setcode: {:?}, image: {:?}, rarity: {:?}",
+                                    set_code_idx, image_idx, rarity_1_idx
+                                );
+                            }
+                            break;
+                        }
                     }
 
-                    // Download and decode image
-                    let Ok(hash_img) = download_image(&hash_img_url, row_idx, &set_code, &name)
-                    else {
+                    // If we don't find headers, skip this table
+                    let Some(header_row_idx) = header_row_idx else {
+                        println!("[{name}]: missing header row");
                         continue;
                     };
-                    let img_hash = to_image_hash(&hash_img.into_rgb8());
 
-                    // Find the card or create
-                    let card = all_cards.entry(set_code.clone()).or_default();
-
-                    // find a matching illustration, otherwise create a new one
-                    let mut matching_illustrations = card
-                        .illustrations
-                        .iter_mut()
-                        .filter(|i| {
-                            i.card_number == set_code && i.rarity.eq_ignore_ascii_case(&rarity)
-                        })
-                        .map(|i| (dist_hash(&i.img_hash, &img_hash), i))
-                        // more tolerance for manual cropping
-                        .filter(|(dist, _)| *dist <= DIST_TOLERANCE * 32)
-                        .collect_vec();
-                    matching_illustrations.sort_by_key(|(dist, _)| *dist);
-
-                    let mut _adding = false;
-                    let illust = if let Some((_, illust)) = matching_illustrations.first_mut() {
-                        // Use existing unreleased illustration, with a different image
-                        if !illust.manage_id.has_value() && illust.img_hash != img_hash {
-                            _adding = false;
-                            illust
-                        } else {
-                            // already exists
-                            skipped += 1;
+                    // Process data rows after the header row
+                    for (row_idx, tr) in trs.into_iter().enumerate().skip(header_row_idx + 1) {
+                        let tds = tr.select(&td_sel).collect_vec();
+                        if tds.is_empty()
+                            || tds
+                                .iter()
+                                .all(|td| td.text().collect::<String>().trim().is_empty())
+                        {
                             continue;
                         }
-                    } else {
-                        _adding = true;
-                        // Doesn't exist, add illustration
-                        card.illustrations.push(CardIllustration {
-                            card_number: set_code.clone(),
-                            rarity: rarity.clone(),
-                            ..Default::default()
-                        });
-                        card.illustrations.last_mut().unwrap()
-                    };
 
-                    // Download and decode image
-                    let Ok(full_size_img) =
-                        download_image(full_size_img_url, row_idx, &set_code, &name)
-                    else {
-                        continue;
-                    };
+                        let set_code = set_code_idx
+                            .and_then(|idx| tds.get(idx))
+                            .map(|td| td.text().collect::<String>().trim().to_string())
+                            .unwrap_or_default();
+                        if set_code.is_empty() {
+                            if DEBUG {
+                                println!("[{name}] row {row_idx}: missing set code");
+                            }
+                            continue;
+                        }
 
-                    // Resize image
-                    let resized_img =
-                        full_size_img.resize_exact(400, 559, image::imageops::FilterType::Lanczos3);
-                    // Create the WebP encoder for the above image
-                    let encoder: Encoder = Encoder::from_image(&resized_img).unwrap();
-                    // Encode the image at a specified quality 0-100
-                    let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
-                    // Define and write the WebP-encoded file to a given path
-                    let img_unreleased =
-                        Path::new(UNRELEASED_FOLDER).join(format!("{}_{}.webp", set_code, rarity));
-                    let path = images_path.join(&img_unreleased);
-                    if let Some(parent) = Path::new(&path).parent() {
-                        fs::create_dir_all(parent).unwrap();
+                        let text = text_idx
+                            .and_then(|idx| tds.get(idx))
+                            .map(|td| td.text().collect::<String>().trim().to_string())
+                            .unwrap_or_default();
+                        // language switch for English exclusive cards like hY01-008
+                        let language = if text.contains("EN exclusive") {
+                            Language::English
+                        } else {
+                            Language::Japanese
+                        };
+                        let images_path = match language {
+                            Language::Japanese => images_jp_path,
+                            Language::English => images_en_path,
+                        };
+
+                        // Collect image sources and rarities
+                        let mut images = Vec::with_capacity(2);
+
+                        let img_src = image_idx
+                            .and_then(|idx| tds.get(idx))
+                            .and_then(|td| td.select(&img_sel).next())
+                            .and_then(|img| img.value().attr("src"))
+                            .map(|s| s.to_string());
+                        let rarity_1 = rarity_1_idx
+                            .and_then(|idx| tds.get(idx))
+                            .map(|td| td.text().collect::<String>().trim().to_string());
+                        if let Some(img_src) = img_src
+                            && let Some(rarity) = rarity_1
+                        {
+                            images.push((img_src, rarity));
+                        }
+
+                        let rarity_2 = rarity_2_idx
+                            .and_then(|idx| tds.get(idx))
+                            .map(|td| td.text().collect::<String>().trim().to_string())
+                            .filter(|r| r != "SY"); // Cheers have a different number
+                        let alternate_art_src = alternate_art_idx
+                            .and_then(|idx| tds.get(idx))
+                            .and_then(|td| td.select(&img_sel).next())
+                            .and_then(|img| img.value().attr("src"))
+                            .map(|s| s.to_string());
+                        if let Some(alt_art_src) = alternate_art_src
+                            && let Some(rarity) = rarity_2
+                        {
+                            images.push((alt_art_src, rarity));
+                        }
+
+                        for (img_src, rarity) in images {
+                            if DEBUG {
+                                println!("[{name}] row: {set_code} -> {img_src}");
+                            }
+
+                            // one image for hashing, the other for display
+                            let full_size_img_url = img_src
+                                .find("=")
+                                .map(|idx| &img_src[..idx])
+                                .unwrap_or(&img_src);
+                            let hash_img_ratio = 3;
+                            let hash_img_w = 40 * hash_img_ratio;
+                            let hash_img_h = 56 * hash_img_ratio;
+                            let hash_img_url =
+                                format!("{full_size_img_url}=w{hash_img_w}-h{hash_img_h}");
+
+                            // Download and decode image
+                            let Ok(hash_img) =
+                                download_image(&hash_img_url, row_idx, &set_code, &name)
+                            else {
+                                continue;
+                            };
+                            let img_hash = to_image_hash(&hash_img.into_rgb8());
+
+                            let mut _adding = false;
+                            let mut img_unreleased = Path::new(UNRELEASED_FOLDER)
+                                .join(format!("{}_{}.webp", set_code, rarity));
+                            {
+                                // Find the card or create
+                                let mut all_cards = all_cards.write();
+                                let card = all_cards.entry(set_code.clone()).or_default();
+
+                                // find a matching illustration, otherwise create a new one
+                                let mut matching_illustrations = card
+                                    .illustrations
+                                    .iter_mut()
+                                    .filter(|i| {
+                                        i.card_number == set_code
+                                            && i.rarity.eq_ignore_ascii_case(&rarity)
+                                    })
+                                    .map(|i| (dist_hash(&i.img_hash, &img_hash), i))
+                                    // more tolerance for manual cropping
+                                    .filter(|(dist, _)| *dist <= DIST_TOLERANCE * 32)
+                                    .collect_vec();
+                                matching_illustrations.sort_by_key(|(dist, _)| *dist);
+
+                                let illust =
+                                    if let Some((_, illust)) = matching_illustrations.first_mut() {
+                                        // Use existing unreleased illustration, with a different image
+                                        // Master Sheet has duplicate entries
+                                        if !illust.manage_id.has_value()
+                                            && illust.img_hash != img_hash
+                                            && name != "Master Sheet.html"
+                                        {
+                                            _adding = false;
+
+                                            if let Some(img_path) =
+                                                illust.img_path.value_mut(language).as_mut()
+                                            {
+                                                img_unreleased = Path::new(img_path).into();
+                                            }
+
+                                            illust
+                                        } else {
+                                            // already exists
+                                            skipped += 1;
+                                            continue;
+                                        }
+                                    } else {
+                                        _adding = true;
+
+                                        // find a new image file name
+                                        let mut counter = 2;
+                                        while card.illustrations.iter().any(|i| {
+                                            i.img_path
+                                                .value(language)
+                                                .as_ref()
+                                                .map(|p| {
+                                                    *p == img_unreleased
+                                                        .to_str()
+                                                        .unwrap()
+                                                        .replace("\\", "/")
+                                                })
+                                                .unwrap_or(false)
+                                        }) {
+                                            img_unreleased = Path::new(UNRELEASED_FOLDER).join(
+                                                format!("{}_{}_{}.webp", set_code, rarity, counter),
+                                            );
+                                            counter += 1;
+                                        }
+
+                                        // Doesn't exist, add illustration
+                                        card.illustrations.push(CardIllustration {
+                                            card_number: set_code.clone(),
+                                            rarity: rarity.clone(),
+                                            img_path: Localized::new(
+                                                language,
+                                                img_unreleased
+                                                    .to_str()
+                                                    .unwrap()
+                                                    .replace("\\", "/")
+                                                    .to_string(),
+                                            ),
+                                            ..Default::default()
+                                        });
+                                        card.illustrations.last_mut().unwrap()
+                                    };
+
+                                // could be cleared on errors, with path
+                                illust.img_hash = img_hash.clone();
+                            }
+
+                            // Download and decode image
+                            let mut error = false;
+                            if let Ok(full_size_img) =
+                                download_image(full_size_img_url, row_idx, &set_code, &name)
+                            {
+                                // Resize image
+                                let resized_img = full_size_img.resize_exact(
+                                    400,
+                                    559,
+                                    image::imageops::FilterType::Lanczos3,
+                                );
+                                // Create the WebP encoder for the above image
+                                let encoder: Encoder = Encoder::from_image(&resized_img).unwrap();
+                                // Encode the image at a specified quality 0-100
+                                let webp: WebPMemory = encoder.encode(WEBP_QUALITY);
+                                // Define and write the WebP-encoded file to a given path
+                                let path = images_path.join(&img_unreleased);
+                                if let Some(parent) = Path::new(&path).parent() {
+                                    fs::create_dir_all(parent).unwrap();
+                                }
+                                std::fs::write(&path, &*webp).unwrap();
+                            } else {
+                                error = true;
+                            }
+
+                            if error {
+                                let mut all_cards = all_cards.write();
+                                let illust = all_cards
+                                    .get_mut(&set_code)
+                                    .unwrap()
+                                    .illustrations
+                                    .iter_mut()
+                                    .find(|i| i.rarity == rarity && i.img_hash == img_hash)
+                                    .unwrap();
+                                // could not download image
+                                illust.img_hash = Default::default();
+                                *illust.img_path.value_mut(language) = None;
+                            }
+
+                            if DEBUG {
+                                println!(
+                                    "{} {set_code} [{rarity}] -> {}",
+                                    if _adding { "Added" } else { "Updated" },
+                                    img_unreleased.display()
+                                );
+                            }
+
+                            imported += 1;
+                        }
                     }
-                    std::fs::write(&path, &*webp).unwrap();
-
-                    *illust.img_path.value_mut(language) = Some(
-                        img_unreleased
-                            .to_str()
-                            .unwrap()
-                            .replace("\\", "/")
-                            .to_string(),
-                    );
-                    illust.img_hash = img_hash;
-
-                    if DEBUG {
-                        println!(
-                            "{} {set_code} [{rarity}] -> {}",
-                            if _adding { "Added" } else { "Updated" },
-                            img_unreleased.display()
-                        );
-                    }
-
-                    imported += 1;
                 }
-            }
-        }
 
-        println!("Imported {imported} images from sheet ({skipped} skipped)");
-    }
+                println!("[{name}] Imported {imported} images from sheet ({skipped} skipped)");
+            }
+        });
 }
 
 pub fn zip_images(file_name: &str, assets_path: &Path, images_path: &Path) {
