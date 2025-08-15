@@ -14131,7 +14131,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "このカードは、自分のホロパワー1枚をアーカイブしなければ使えない。\n\n自分のアーカイブの紫エール1枚を、自分の〈紫咲シオン〉に送る。自分の#魔法を持つイベントはターンに1回しか使えない。",
-      "en": "This card can only be used if you archive 1 of your holo Power.\n\nSend 1 purple cheer from your archive to your <Murasaki Shion>.\nYou may only use one event with #Magic per turn."
+      "en": "This card can only be used if you archive 1 of your holo Powers.\n\nSend 1 purple cheer from your archive to your <Murasaki Shion>.\nYou may only use one event with #Magic per turn."
     },
     "tags": [ { "jp": "#魔法", "en": "#Magic" } ],
     "max_amount": { "jp": 4 },
@@ -19890,7 +19890,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のホロパワー1枚をアーカイブしなければ使えない。\n\n自分のデッキから、自分の推しホロメンと同色の1stホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "This card can only be used if you archive 1 of your holo Power.\n\nReveal 1 1st holomem with the same color as your Oshi holomem from your deck, and add it to hand. Then, shuffle the deck."
+      "en": "This card can only be used if you archive 1 of your holo Powers.\n\nReveal 1 1st holomem with the same color as your Oshi holomem from your deck, and add it to hand. Then, shuffle the deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
