@@ -26870,6 +26870,82 @@
       }
     ]
   },
+  "hBP05-002": {
+    "card_number": "hBP05-002",
+    "name": { "jp": "アイラニ・イオフィフティーン", "en": "Airani Iofifteen" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": null, "en": "IOFORIA~!" },
+        "text": {
+          "en": "[1/Turn]Usable if your holomem with #ID Gen 1 would take Damage from the opponent during the opponent's turn:You may reattach 1 cheer from that holomem to 1 of your other holomem with #ID Gen 1."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Kekuatan Iofi" },
+        "text": {
+          "en": "[1/Game]Archive 2 cheers from your stage to reveal 2 holomem with #ID Gen 1 from your deck, and add them to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-002_OSR.webp", "en": null },
+        "img_hash": "iCfFeZs|5rfFKto|5OdNnNo|iiNEaxs",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-003": {
+    "card_number": "hBP05-003",
+    "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Legend of Polka" },
+        "text": {
+          "en": "[1/Turn]Draw cards from your deck until you have as many in your hand as the number of <Troupe Member> on your stage. However, only up to 4 cards can be drawn."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Successful Experience~!!!" },
+        "text": {
+          "en": "[1/Game]Look at the top 7 cards of your deck. Reveal 1 [<Omaru Polka> and staff] from among them, and add them to hand. Then, archive the remaining cards."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-003",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-003_OSR.webp", "en": null },
+        "img_hash": "9LWlWho|/CVHcxk|7EdFvls|zENDuJ0",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-005": {
     "card_number": "hBP05-005",
     "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
@@ -27092,6 +27168,49 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-015_U.webp", "en": null },
         "img_hash": "KtSmQ04|StVCpU4|TkNBqUY|TsJDpUw",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-016": {
+    "card_number": "hBP05-016",
+    "name": { "jp": "兎田ぺこら", "en": "Usada Pekora" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "The strongest goddess" },
+        "text": {
+          "en": "When you roll dice with this holomem's Arts, if the total number rolled is odd, draw 1 card from your deck. If the total number rolled is even, draw 2 cards from your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "You Shall Worship Usa Pekora" },
+        "power": "120+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "You may roll a die once for each holomem that is stacked to this holomem:This Arts gets +10x the total number rolled."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-016",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-016_RR.webp", "en": null },
+        "img_hash": "SuVFym0|QlXBzWM|FlXpnTI|SqxH6m0",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33290,6 +33409,17 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY04-007_P.webp", "en": null },
+        "img_hash": "sE1NgPQ|2EVtjNY|2EYtrFY|tM1PhPw",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hY04-007",
+        "manage_id": { },
+        "rarity": "S",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY04-007_S.webp", "en": null },
         "img_hash": "sE1NgPQ|2EVtjNY|2EYtrFY|tM1PhPw",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
