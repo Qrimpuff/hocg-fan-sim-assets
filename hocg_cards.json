@@ -26905,6 +26905,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-002_OSR_2.webp", "en": null },
+        "img_hash": "ymdFPZs|7sZFLso|5MZNvNo|psNFPro",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -26939,7 +26950,7 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-003_OSR.webp", "en": null },
-        "img_hash": "9LWlWho|/CVHcxk|7EdFvls|zENDuJ0",
+        "img_hash": "1LXFV1k|/CVFd1s|7EdF91s|vENhvoo",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -27211,6 +27222,160 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-016_RR.webp", "en": null },
         "img_hash": "SuVFym0|QlXBzWM|FlXpnTI|SqxH6m0",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-016",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-016_RR_2.webp", "en": null },
+        "img_hash": "Qs1Bym0|Qs3AzHE|RM3JmTA|Ss3E6mk",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-030": {
+    "card_number": "hBP05-030",
+    "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 80,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Dazzling everyday life with you" },
+        "text": { "en": "During this turn, your center holomem with a fan attached gets Arts+10." }
+      }
+    ],
+    "arts": [ { "cheers": [ "red" ], "name": { "jp": null, "en": "Nap Anniversary" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-030",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-030_U.webp", "en": null },
+        "img_hash": "Wl3F2YU|ml3NzaU|ml3NjYc|mF1tjc8",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-031": {
+    "card_number": "hBP05-031",
+    "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Ah, what a wonderful idol life" },
+        "power": "30",
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 <Troupe Member> from your deck, and add it to hand. Then, shuffle your deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-031",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-031_C.webp", "en": null },
+        "img_hash": "aKyCyGk|SIyKxMk|SMRKhMk|yJVLxMs",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-032": {
+    "card_number": "hBP05-032",
+    "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "An ordinary day off with Polka" },
+        "text": { "en": "Deal 20 Special Damage to your opponent's center holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Morning Polka *This is fiction" },
+        "power": "50",
+        "text": {
+          "en": "You may archive 1 card from your hand:Deal 10 damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-032",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-032_U.webp", "en": null },
+        "img_hash": "wlXEK6Y|ylvFqac|6FPFLIc|eFvFPIU",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-033": {
+    "card_number": "hBP05-033",
+    "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Wow, cherry blossoms!" },
+        "power": "40+",
+        "text": {
+          "en": "You may roll a die once:Archive a number of cards from the top of your deck equal to the number rolled. Then, if there are 10 or more cards in your archive, this Arts gets +10."
+        }
+      },
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "I want to come see it again with you next year" },
+        "power": "70+",
+        "text": { "en": "This Arts gets +10 for each <Troupe Member> attached to this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-033",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-033_R.webp", "en": null },
+        "img_hash": "QlWIpfE|Sl/MpKc|Sl/MpKU|yFvMpKY",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
