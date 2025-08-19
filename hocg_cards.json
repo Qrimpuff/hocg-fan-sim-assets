@@ -6397,6 +6397,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10014",
         "tcgplayer_product_id": 647444,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-068",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-068_C.webp", "en": null },
+        "img_hash": "v2|H32=Sj4Yqq0mS6qlpqRn1vqmFxbPQhgyzVLRaSl6neg0bGncNPyWRau0rTvwUuulkkvapl0qpVpP2ybbotFKaoki7aZqpVI|CYM=11282B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -26917,7 +26928,18 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-003_OSR.webp", "en": null },
-        "img_hash": "v2|H32=jDirVMsUyKlTqlOxdKopVSRmKcWmVnhFlsV4RSlVViUpVqZWDpVLV6pq8KpaSXKxGtUy2VZd1trRprZK1Mq2atGqJWk|CYM=075567",
+        "img_hash": "v2|H32=zGrPqEuo7lhjzXJEpNG3ZoziszbUbrKlmmJRpZZaWTVWirSyqlYLBWu5qSpYqm1tSlJppapVqq1aVUqTKpXgVVIrqtQ|CYM=0A5265",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-003",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-003_OUR.webp", "en": null },
+        "img_hash": "v2|H32=WOc27VOmZOFrpm1zrzbMtp1orK7EtamqVFVNmUpVttzLkFRr1NeqtKVCPpSpaK1kSjppUFXaW9VrLclVSx4qk5SqFNU|CYM=184F38",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -27338,6 +27360,60 @@
       }
     ]
   },
+  "hBP05-034": {
+    "card_number": "hBP05-034",
+    "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Here's your order!" },
+        "text": {
+          "en": "[Center position only]You may archive any number of cards from your hand:For each card archived, return 1 <Troupe Member> from your archive to hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Are you ready?" },
+        "power": "110+",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "en": "If your oshi holomem is <Omaru Polka>, this Arts gets +30 for every 10 cards in your archive."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-034",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-034_RR.webp", "en": null },
+        "img_hash": "v2|H32=zqpr0+2SpakpMa1KHukpT87RUnTaddIW0nRWrNJGXKmmirpJW2VopbSUoNKkWFfLaS2qp6RKolTRmhbU0qami7YrtFI|CYM=04353C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-034",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-034_UR.webp", "en": null },
+        "img_hash": "v2|H32=xMmvqqvNVI07bRvTW1S5MrmWKTOpNSs1XmVvibNGZK8lqrRKdlGrtKXfbZVVrWmlpVqlmoZSVZSXpIW+1LJRsdoq0iI|CYM=27611D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-056": {
     "card_number": "hBP05-056",
     "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
@@ -27473,6 +27549,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-076_U.webp", "en": null },
         "img_hash": "v2|H32=UvXLcNZklGSlLjQlLYtom2mbXNmXjJQsty40hyuDadNr21ZVbDjpug+Praqvwy0qeXmpg0XxLTgPH62K+eCOiwfP+ng|CYM=061615",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-077": {
+    "card_number": "hBP05-077",
+    "name": { "jp": "バカタレサーカス", "en": "Bakatare Circus" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of <Shirakami Fubuki>, <Shiranui Flare>, <Tsunomaki Watame>, and/or <Omaru Polka> from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-077",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-077_U.webp", "en": null },
+        "img_hash": "v2|H32=WE3LatBNSGWrZHR3JrY0sreaNJqjKLQJrIgqtW+XZpMvlRJVRIesmr/gLZuqKC2aOjipKovvqWgOPsGD6ksvmw6PPjg|CYM=04131D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
