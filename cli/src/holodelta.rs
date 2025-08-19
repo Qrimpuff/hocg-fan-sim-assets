@@ -1,10 +1,4 @@
-use std::{
-    collections::{BTreeMap, HashMap},
-    fs::File,
-    io::BufReader,
-    path::Path,
-    sync::Arc,
-};
+use std::{collections::HashMap, fs::File, io::BufReader, path::Path, sync::Arc};
 
 use hocg_fan_sim_assets_model::{BloomLevel, CardType, CardsDatabase, Color, SupportType};
 use itertools::Itertools;
@@ -14,7 +8,7 @@ use serde::{Deserialize, Serialize};
 
 use crate::{
     DEBUG,
-    images::utils::{DIST_TOLERANCE, dist_hash, to_image_hash},
+    images::utils::{DIST_TOLERANCE_DIFF_RARITY, dist_hash, to_image_hash},
 };
 
 pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
@@ -88,7 +82,7 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
                         println!(
                             "Card hash: {} {} = {}",
                             card.card_number,
-                            card.manage_id.japanese.unwrap(),
+                            card.manage_id.japanese.unwrap_or_default(),
                             h2
                         );
                         println!("Distance: {dist}");
@@ -102,25 +96,20 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
             dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
 
             // modify the cards here, to avoid borrowing issue
-            let mut already_set = BTreeMap::new();
             for (delta_art_index, card, dist) in dists {
                 // println!("dist: {:?}", (delta_art_index, card, dist));
 
                 let mut card = card.lock();
                 // to handle multiple cards with the same image
-                let min_dist = *already_set
-                    .get(&delta_art_index)
-                    .unwrap_or(&(u64::MAX - DIST_TOLERANCE));
-                if card.delta_art_index.is_none() && min_dist + DIST_TOLERANCE >= dist {
+                if card.delta_art_index.is_none() && dist <= DIST_TOLERANCE_DIFF_RARITY {
                     card.delta_art_index = Some(delta_art_index);
-                    already_set.insert(delta_art_index, dist.min(min_dist));
                     updated_count += 1;
 
                     if DEBUG {
                         println!(
                             "Updated card {:?} -> manage_id: {}, delta_art_index: {} ({})",
                             card.card_number,
-                            card.manage_id.japanese.unwrap(),
+                            card.manage_id.japanese.unwrap_or_default(),
                             card.delta_art_index.unwrap(),
                             dist
                         );
@@ -217,7 +206,7 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
                         println!(
                             "Card hash: {} {} = {}",
                             card.card_number,
-                            card.manage_id.japanese.unwrap(),
+                            card.manage_id.japanese.unwrap_or_default(),
                             h2
                         );
                         println!("Distance: {dist}");
@@ -231,25 +220,20 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
             dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
 
             // modify the cards here, to avoid borrowing issue
-            let mut already_set = BTreeMap::new();
             for (delta_art_index, card, dist) in dists {
                 // println!("dist: {:?}", (delta_art_index, card, dist));
 
                 let mut card = card.lock();
                 // to handle multiple cards with the same image
-                let min_dist = *already_set
-                    .get(&delta_art_index)
-                    .unwrap_or(&(u64::MAX - DIST_TOLERANCE));
-                if card.delta_art_index.is_none() && min_dist + DIST_TOLERANCE >= dist {
+                if card.delta_art_index.is_none() && dist <= DIST_TOLERANCE_DIFF_RARITY {
                     card.delta_art_index = Some(delta_art_index.parse().unwrap());
-                    already_set.insert(delta_art_index, dist.min(min_dist));
                     updated_count += 1;
 
                     if DEBUG {
                         println!(
                             "Updated card {:?} -> manage_id: {}, delta_art_index: {} ({})",
                             card.card_number,
-                            card.manage_id.japanese.unwrap(),
+                            card.manage_id.japanese.unwrap_or_default(),
                             card.delta_art_index.unwrap(),
                             dist
                         );

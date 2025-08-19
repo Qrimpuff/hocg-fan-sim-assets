@@ -22,8 +22,14 @@ use zip::write::SimpleFileOptions;
 
 use crate::{
     DEBUG, http_client,
-    images::utils::{DIST_TOLERANCE, dist_hash, path_to_image_hash, to_image_hash},
+    images::utils::{
+        DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, path_to_image_hash,
+        to_image_hash,
+    },
 };
+
+const PROXIES_FOLDER: &str = "proxies";
+const UNRELEASED_FOLDER: &str = "unreleased";
 
 static WEBP_QUALITY: f32 = 80.0;
 
@@ -36,11 +42,19 @@ pub fn download_images(
     optimized_original_images: bool,
     language: Language,
 ) {
-    println!(
-        "Downloading {} {:?} images...",
-        filtered_cards.len(),
-        language
-    );
+    let amount = filtered_cards
+        .iter()
+        .filter(|(card_number, illust_idx)| {
+            all_cards
+                .get(card_number)
+                .and_then(|c| c.illustrations.get(*illust_idx))
+                .is_some_and(|i| {
+                    i.img_path.value(language).is_some() && i.manage_id.value(language).is_some()
+                })
+        })
+        .count();
+
+    println!("Downloading {} {:?} images...", amount, language);
 
     let images_path = match language {
         Language::Japanese => images_jp_path,
@@ -273,7 +287,11 @@ pub fn prepare_en_proxy_images(
         .flat_map(|c| c.illustrations.iter_mut())
         .map(|c| {
             // clear any existing proxy, keep official images
-            if c.manage_id.english.is_none() {
+            if c.img_path
+                .english
+                .as_ref()
+                .is_some_and(|p| p.starts_with(PROXIES_FOLDER))
+            {
                 c.img_path.english = None;
             }
             Arc::new(Mutex::new(c))
@@ -327,7 +345,13 @@ pub fn prepare_en_proxy_images(
                     .par_iter()
                     .map(|(_, rarity, img_path)| {
                         // download the image
-                        println!("Checking proxy image: {}", img_path.display());
+                        println!(
+                            "Checking proxy image: {}",
+                            img_path
+                                .display()
+                                .to_string()
+                                .replace(&proxy_path.display().to_string(), "...")
+                        );
                         let proxy_img =
                             image::load_from_memory(&fs::read(img_path).unwrap()).unwrap();
                         (rarity.to_owned(), img_path.to_owned(), proxy_img)
@@ -351,12 +375,12 @@ pub fn prepare_en_proxy_images(
                     let illust = d.2.lock();
                     // have rarity and release date influence the matching
                     let rarity_rank = if *rarity != illust.rarity {
-                        DIST_TOLERANCE
+                        DIST_TOLERANCE_DIFF_RARITY * 1000
                     } else {
                         0
                     };
                     let id_rank = illust.manage_id.japanese.unwrap_or(u32::MAX) as u64;
-                    let dist_rank = dist.saturating_div(DIST_TOLERANCE);
+                    let dist_rank = dist.saturating_mul(1000);
                     rarity_rank
                         .saturating_add(id_rank)
                         .saturating_add(dist_rank)
@@ -413,8 +437,6 @@ pub fn prepare_en_proxy_images(
 }
 
 fn save_proxy_image(card: &CardIllustration, img_path: &Path, images_en_path: &Path) -> String {
-    const PROXIES_FOLDER: &str = "proxies";
-
     // Using `image` crate, open the included .jpg file
     let img = image::load_from_memory(&fs::read(img_path).unwrap()).unwrap();
 
@@ -436,11 +458,7 @@ fn save_proxy_image(card: &CardIllustration, img_path: &Path, images_en_path: &P
     }
     std::fs::write(&path, &*webp).unwrap();
 
-    img_en_proxy
-        .to_str()
-        .unwrap()
-        .replace("\\", "/")
-        .to_string()
+    img_en_proxy.to_str().unwrap().replace("\\", "/")
 }
 
 fn dist_proxy_image(card: &CardIllustration, proxy_img: DynamicImage) -> u64 {
@@ -471,7 +489,6 @@ pub fn download_images_from_ogbajoj_sheet(
     images_en_path: &Path,
     all_cards: &mut CardsDatabase,
 ) {
-    const UNRELEASED_FOLDER: &str = "unreleased";
     const SPREADSHEET_ID: &str = "1IdaueY-Jw8JXjYLOhA9hUd2w0VRBao9Z1URJwmCWJ64";
 
     println!("Downloading unreleased images from @ogbajoj's sheet...");
@@ -485,6 +502,8 @@ pub fn download_images_from_ogbajoj_sheet(
     let cursor = Cursor::new(bytes.to_vec());
 
     let archive = Arc::new(RwLock::new(zip::ZipArchive::new(cursor).unwrap()));
+    // this is used to delay Master Sheet access
+    let master_sheet_lock = Arc::new(RwLock::new(()));
 
     // Precompute selectors
     let table_sel = Selector::parse("table").unwrap();
@@ -547,9 +566,17 @@ pub fn download_images_from_ogbajoj_sheet(
         })
         .for_each({
             let all_cards = all_cards.clone();
+            let master_sheet_lock = master_sheet_lock.clone();
             move |(name, html)| {
                 let mut imported = 0;
                 let mut skipped = 0;
+
+                // this is used to delay Master Sheet access
+                let _lock = master_sheet_lock.read();
+                if name == "Master Sheet.html" {
+                    drop(_lock);
+                    let _exclusive = master_sheet_lock.write();
+                }
 
                 println!("[{name}] Reading HTML...");
 
@@ -616,7 +643,7 @@ pub fn download_images_from_ogbajoj_sheet(
 
                     // If we don't find headers, skip this table
                     let Some(header_row_idx) = header_row_idx else {
-                        println!("[{name}]: missing header row");
+                        println!("[{name}] missing header row");
                         continue;
                     };
 
@@ -727,75 +754,89 @@ pub fn download_images_from_ogbajoj_sheet(
                                     .iter_mut()
                                     .filter(|i| {
                                         i.card_number == set_code
-                                            && i.rarity.eq_ignore_ascii_case(&rarity)
+                                            && (i.rarity.eq_ignore_ascii_case(&rarity)
+                                                || !i.manage_id.has_value())
                                     })
                                     .map(|i| (dist_hash(&i.img_hash, &img_hash), i))
                                     // more tolerance for manual cropping
-                                    .filter(|(dist, _)| *dist <= DIST_TOLERANCE * 32)
+                                    .filter(|(dist, i)| {
+                                        match (
+                                            i.manage_id.has_value(),                // released
+                                            i.rarity.eq_ignore_ascii_case(&rarity), // same rarity
+                                        ) {
+                                            (true, true) => *dist <= DIST_TOLERANCE_SAME_RARITY,
+                                            (true, false) => unreachable!(),
+                                            (false, true) => {
+                                                rarity != "P" || *dist <= DIST_TOLERANCE_SAME_RARITY
+                                            }
+                                            (false, false) => *dist <= DIST_TOLERANCE_DIFF_RARITY,
+                                        }
+                                    })
                                     .collect_vec();
                                 matching_illustrations.sort_by_key(|(dist, _)| *dist);
 
-                                let illust =
-                                    if let Some((_, illust)) = matching_illustrations.first_mut() {
-                                        // Use existing unreleased illustration, with a different image
-                                        // Master Sheet has duplicate entries
-                                        if !illust.manage_id.has_value()
-                                            && illust.img_hash != img_hash
-                                            && name != "Master Sheet.html"
+                                let illust = if let Some((_, illust)) =
+                                    matching_illustrations.first_mut()
+                                {
+                                    // Use existing unreleased illustration, with a different image
+                                    // Master Sheet has duplicate entries
+                                    if !illust.manage_id.has_value()
+                                        && illust.img_hash != img_hash
+                                        && name != "Master Sheet.html"
+                                    {
+                                        _adding = false;
+
+                                        if let Some(img_path) =
+                                            illust.img_path.value_mut(language).as_mut()
                                         {
-                                            _adding = false;
-
-                                            if let Some(img_path) =
-                                                illust.img_path.value_mut(language).as_mut()
-                                            {
-                                                img_unreleased = Path::new(img_path).into();
-                                            }
-
-                                            illust
+                                            img_unreleased = Path::new(img_path).into();
                                         } else {
-                                            // already exists
-                                            skipped += 1;
-                                            continue;
+                                            *illust.img_path.value_mut(language) = Some(
+                                                img_unreleased.to_str().unwrap().replace("\\", "/"),
+                                            )
                                         }
+
+                                        illust
                                     } else {
-                                        _adding = true;
+                                        // already exists
+                                        skipped += 1;
+                                        continue;
+                                    }
+                                } else {
+                                    _adding = true;
 
-                                        // find a new image file name
-                                        let mut counter = 2;
-                                        while card.illustrations.iter().any(|i| {
-                                            i.img_path
-                                                .value(language)
-                                                .as_ref()
-                                                .map(|p| {
-                                                    *p == img_unreleased
-                                                        .to_str()
-                                                        .unwrap()
-                                                        .replace("\\", "/")
-                                                })
-                                                .unwrap_or(false)
-                                        }) {
-                                            img_unreleased = Path::new(UNRELEASED_FOLDER).join(
-                                                format!("{}_{}_{}.webp", set_code, rarity, counter),
-                                            );
-                                            counter += 1;
-                                        }
-
-                                        // Doesn't exist, add illustration
-                                        card.illustrations.push(CardIllustration {
-                                            card_number: set_code.clone(),
-                                            rarity: rarity.clone(),
-                                            img_path: Localized::new(
-                                                language,
-                                                img_unreleased
+                                    // find a new image file name
+                                    let mut counter = 2;
+                                    while card.illustrations.iter().any(|i| {
+                                        i.img_path
+                                            .value(language)
+                                            .as_ref()
+                                            .map(|p| {
+                                                *p == img_unreleased
                                                     .to_str()
                                                     .unwrap()
                                                     .replace("\\", "/")
-                                                    .to_string(),
-                                            ),
-                                            ..Default::default()
-                                        });
-                                        card.illustrations.last_mut().unwrap()
-                                    };
+                                            })
+                                            .unwrap_or(false)
+                                    }) {
+                                        img_unreleased = Path::new(UNRELEASED_FOLDER).join(
+                                            format!("{}_{}_{}.webp", set_code, rarity, counter),
+                                        );
+                                        counter += 1;
+                                    }
+
+                                    // Doesn't exist, add illustration
+                                    card.illustrations.push(CardIllustration {
+                                        card_number: set_code.clone(),
+                                        rarity: rarity.clone(),
+                                        img_path: Localized::new(
+                                            language,
+                                            img_unreleased.to_str().unwrap().replace("\\", "/"),
+                                        ),
+                                        ..Default::default()
+                                    });
+                                    card.illustrations.last_mut().unwrap()
+                                };
 
                                 // could be cleared on errors, with path
                                 illust.img_hash = img_hash.clone();
@@ -896,17 +937,22 @@ pub mod utils {
     use std::path::Path;
 
     use hocg_fan_sim_assets_model::CardIllustration;
-    use image::{GrayImage, RgbImage};
+    use image::{GrayImage, RgbImage, imageops};
     use image_hasher::{HasherConfig, ImageHash};
-    use imageproc::map::{blue_channel, green_channel, red_channel};
 
-    use itertools::Itertools;
+    use std::collections::HashMap;
+
     use palette::{Hsv, IntoColor, Srgb};
 
     use crate::DEBUG;
 
     // one image can map to multiple illustrations, if they are similar enough
-    pub const DIST_TOLERANCE: u64 = 3 * 3 * 3 * 2; // a distance of 3 in each color channels and 2 for saturation
+    pub const DIST_TOLERANCE_DIFF_RARITY: u64 = 100; // equivalent to 10% differences
+    pub const DIST_TOLERANCE_SAME_RARITY: u64 = DIST_TOLERANCE_DIFF_RARITY + 38;
+
+    const V2_BITS_DG32: f32 = 1024.0;
+    const V2_W_DG32: f32 = 0.925;
+    const V2_W_CYM: f32 = 0.30;
 
     pub fn path_to_image_hash(path: &Path) -> String {
         let img = image::open(path).unwrap().into_rgb8();
@@ -914,29 +960,42 @@ pub mod utils {
     }
 
     pub fn to_image_hash(img: &RgbImage) -> String {
-        let hasher = HasherConfig::new()
+        // use saturation for better gray
+        let mut sat: image::ImageBuffer<image::Luma<u8>, Vec<u8>> = sat_gray_image(img);
+
+        // blur the "sample" part of the image
+        let start_x = 0;
+        let end_x = img.width();
+        let start_y = img.height() * 170 / 560;
+        let end_y = img.height() * 340 / 560;
+        let cropped =
+            imageops::crop_imm(&sat, start_x, start_y, end_x - start_x, end_y - start_y).to_image();
+        let blurred = imageops::fast_blur(&cropped, 20.0);
+        imageops::overlay(&mut sat, &blurred, start_x as i64, start_y as i64);
+        // sat.save("debug_sat.webp").ok();
+
+        let hasher32 = HasherConfig::new()
+            .hash_size(32, 32)
             .preproc_dct()
             .hash_alg(image_hasher::HashAlg::DoubleGradient)
             .to_hasher();
+        let h32 = hasher32.hash_image(&sat);
 
-        let mut hashes = vec![];
+        // Average color (bias) component CYM=CCYYMM (hex)
+        let (mut sum_c, mut sum_y, mut sum_m) = (0u64, 0u64, 0u64);
+        for p in img.pixels() {
+            let cymk = cymk(p.0);
+            sum_c += (cymk.0 * 255.0) as u64;
+            sum_y += (cymk.1 * 255.0) as u64;
+            sum_m += (cymk.2 * 255.0) as u64;
+        }
+        let n = (img.width() as u64) * (img.height() as u64).max(1);
+        let avg_c = (sum_c / n) as u8;
+        let avg_y = (sum_y / n) as u8;
+        let avg_m = (sum_m / n) as u8;
+        let cym = format!("{:02X}{:02X}{:02X}", avg_c, avg_y, avg_m);
 
-        let red = red_channel(img);
-        let green = green_channel(img);
-        let blue = blue_channel(img);
-
-        let rh = hasher.hash_image(&red);
-        let gh = hasher.hash_image(&green);
-        let bh = hasher.hash_image(&blue);
-        hashes.push(rh.to_base64());
-        hashes.push(gh.to_base64());
-        hashes.push(bh.to_base64());
-
-        let sat = sat_gray_image(img);
-        let sh = hasher.hash_image(&sat);
-        hashes.push(sh.to_base64());
-
-        let hash = hashes.join("|");
+        let hash: String = format!("v2|H32={}|CYM={}", h32.to_base64(), cym);
 
         if DEBUG {
             println!("{hash}");
@@ -945,49 +1004,103 @@ pub mod utils {
         hash
     }
 
-    pub fn is_similar(c1: &CardIllustration, c2: &CardIllustration) -> bool {
+    pub fn is_similar(c1: &CardIllustration, c2: &CardIllustration, same_rarity: bool) -> bool {
         let dist = dist_hash(&c1.img_hash, &c2.img_hash);
         if DEBUG {
             println!(
-                "is_similar({:?}, {:?}) = {dist}",
-                c1.manage_id, c2.manage_id
+                "is_similar({} {}, {} {}) = {dist}",
+                c1.card_number, c1.rarity, c2.card_number, c2.rarity
             );
         }
         // more tolerance for manual cropping
-        dist <= DIST_TOLERANCE * 32
+        dist <= if same_rarity {
+            DIST_TOLERANCE_SAME_RARITY
+        } else {
+            DIST_TOLERANCE_DIFF_RARITY
+        }
     }
 
     pub fn dist_hash(h1: &str, h2: &str) -> u64 {
-        if h1.is_empty() || h2.is_empty() {
-            return u64::MAX; // no hash, no distance
+        (dist_hash_norm(h1, h2).unwrap_or(1.0) * 1000.0) as u64 // 1.0 is the minimum distance, so we scale it up
+    }
+
+    pub fn dist_hash_norm(h1: &str, h2: &str) -> Option<f32> {
+        if !(h1.starts_with("v2|") && h2.starts_with("v2|")) {
+            return None;
+        }
+        let comps1 = &h1[3..];
+        let comps2 = &h2[3..];
+        let map1 = parse_components(comps1)?;
+        let map2 = parse_components(comps2)?;
+
+        let mut score = 0.0f32;
+        let mut total_w = 0.0f32;
+
+        let mut acc = |key: &str, bits: f32, w: f32| -> Option<()> {
+            let a = ImageHash::<Box<[u8]>>::from_base64(map1.get(key)?).ok()?;
+            let b = ImageHash::<Box<[u8]>>::from_base64(map2.get(key)?).ok()?;
+            let d = a.dist(&b) as f32 / bits; // normalized [0,1]
+            if DEBUG {
+                println!(
+                    "v2 {key} dist={d:.4} (bits={bits}) w={w:.2} contrib={:.4}",
+                    d * w
+                );
+            }
+            score += d * w;
+            total_w += w;
+            Some(())
+        };
+
+        // hash DoubleGradient 32x32
+        acc("H32", V2_BITS_DG32, V2_W_DG32);
+
+        // Color bias (average color difference)
+        if let (Some(c1), Some(c2)) = (map1.get("CYM"), map2.get("CYM"))
+            && c1.len() == 6
+            && c2.len() == 6
+            && let (Ok(c1), Ok(y1), Ok(m1), Ok(c2), Ok(y2), Ok(m2)) = (
+                u8::from_str_radix(&c1[0..2], 16),
+                u8::from_str_radix(&c1[2..4], 16),
+                u8::from_str_radix(&c1[4..6], 16),
+                u8::from_str_radix(&c2[0..2], 16),
+                u8::from_str_radix(&c2[2..4], 16),
+                u8::from_str_radix(&c2[4..6], 16),
+            )
+        {
+            let dc = (c1 as i16 - c2 as i16) as f32;
+            let dy = (y1 as i16 - y2 as i16) as f32;
+            let dm = (m1 as i16 - m2 as i16) as f32;
+            let denom: f32 = (3.0f32 * 255.0f32 * 255.0f32).sqrt();
+            let dcym = (dc * dc + dy * dy + dm * dm).sqrt() / denom; // [0,1]
+            if DEBUG {
+                println!(
+                    "v2 CYM dist={dcym:.4} (denom={denom}) w={:.2} contrib={:.4}",
+                    V2_W_CYM,
+                    dcym * V2_W_CYM
+                );
+            }
+            score += dcym * V2_W_CYM;
+            total_w += V2_W_CYM;
         }
 
-        let h1 = h1.split('|').collect_vec();
-        let h2 = h2.split('|').collect_vec();
-
-        let a_dist_h = h1
-            .iter()
-            .zip(h2.iter())
-            .filter_map(|(h1, h2)| {
-                Some(
-                    ImageHash::<Box<[u8]>>::from_base64(h1)
-                        .ok()?
-                        .dist(&ImageHash::from_base64(h2).ok()?) as u64,
-                )
-            })
-            .collect_vec();
-        if h1.len() != a_dist_h.len() || h2.len() != a_dist_h.len() {
-            return u64::MAX;
+        if total_w == 0.0 {
+            return None;
         }
-        let dist_h: u64 = a_dist_h
-            .iter()
-            .map(|d| if *d <= 2 { 1 } else { *d })
-            .product();
 
+        let final_score = score;
         if DEBUG {
-            println!("{a_dist_h:?} = {dist_h}");
+            println!("v2 distance score={final_score:.4}");
         }
-        dist_h
+        Some(final_score)
+    }
+
+    fn parse_components(s: &str) -> Option<HashMap<&str, &str>> {
+        let mut m = HashMap::new();
+        for part in s.split('|') {
+            let (k, v) = part.split_once('=')?;
+            m.insert(k, v);
+        }
+        Some(m)
     }
 
     fn sat_gray_image(img: &RgbImage) -> GrayImage {
@@ -1011,5 +1124,23 @@ pub mod utils {
         let s = hsv.saturation;
         let v = hsv.value;
         (h, s, v)
+    }
+
+    // convert RGB to CYMK
+    fn cymk(rgb: [u8; 3]) -> (f32, f32, f32, f32) {
+        let r = rgb[0] as f32 / 255.0;
+        let g = rgb[1] as f32 / 255.0;
+        let b = rgb[2] as f32 / 255.0;
+
+        let k = 1.0 - r.max(g).max(b);
+        if k >= 1.0 {
+            return (0.0, 0.0, 0.0, 1.0);
+        }
+
+        let c = (1.0 - r - k) / (1.0 - k);
+        let m = (1.0 - g - k) / (1.0 - k);
+        let y = (1.0 - b - k) / (1.0 - k);
+
+        (c, m, y, k)
     }
 }

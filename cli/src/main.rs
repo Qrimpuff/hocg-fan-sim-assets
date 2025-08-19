@@ -1,28 +1,12 @@
-mod data;
-mod holodelta;
-mod images;
-mod price_check;
-mod utils;
-
 use std::{
     collections::HashSet,
     fs::{self},
     path::{Path, PathBuf},
-    sync::OnceLock,
 };
 
 use clap::Parser;
-use clap::ValueEnum;
-use hocg_fan_sim_assets_model::CardsDatabase;
-use itertools::Itertools;
-use json_pretty_compact::PrettyCompactFormatter;
-use reqwest::blocking::{Client, ClientBuilder};
-use serde::Serialize;
-use serde_json::Serializer;
-use tempfile::TempDir;
-use walkdir::WalkDir;
-
-use crate::{
+use hocg_fan_sim_assets_cli::{
+    DEBUG, Language, PriceCheckMode,
     data::{
         decklog::retrieve_card_info_from_decklog,
         hololive_official::retrieve_card_info_from_hololive,
@@ -35,13 +19,13 @@ use crate::{
     },
     price_check::{tcgplayer, yuyutei},
 };
-
-pub const DEBUG: bool = false;
-
-fn http_client() -> &'static Client {
-    static HTTP_CLIENT: OnceLock<Client> = OnceLock::new();
-    HTTP_CLIENT.get_or_init(|| ClientBuilder::new().cookie_store(true).build().unwrap())
-}
+use hocg_fan_sim_assets_model::CardsDatabase;
+use itertools::Itertools;
+use json_pretty_compact::PrettyCompactFormatter;
+use serde::Serialize;
+use serde_json::Serializer;
+use tempfile::TempDir;
+use walkdir::WalkDir;
 
 /// Scrap hOCG information from Deck Log
 #[derive(Parser, Debug)]
@@ -118,33 +102,6 @@ struct Args {
     /// Remove unused assets
     #[arg(long)]
     gc: bool,
-}
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
-enum Language {
-    All,
-    Japanese,
-    English,
-}
-
-impl From<Language> for hocg_fan_sim_assets_model::Language {
-    fn from(value: Language) -> Self {
-        match value {
-            Language::All => panic!(
-                "Language::All is not a valid language for hocg_fan_sim_assets_model::Language"
-            ),
-            Language::Japanese => hocg_fan_sim_assets_model::Language::Japanese,
-            Language::English => hocg_fan_sim_assets_model::Language::English,
-        }
-    }
-}
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
-enum PriceCheckMode {
-    /// Use the first urls found
-    Quick,
-    /// Compare images to find the best match
-    Images,
 }
 
 fn main() {
@@ -412,7 +369,7 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     || illustrations[i].rarity != illustrations[j].rarity
                 {
                     j += 1;
-                } else if is_similar(&illustrations[i], &illustrations[j]) {
+                } else if is_similar(&illustrations[i], &illustrations[j], true) {
                     if DEBUG {
                         println!(
                             "Merging similar images: {:?} and {:?}",
