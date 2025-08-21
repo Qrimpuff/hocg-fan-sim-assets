@@ -27274,7 +27274,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Going out with Iofi" },
         "text": {
-          "en": "You may archive 1 cheer from this holomem:Restore 30 HP to one of your holomem with #ID Gen 1."
+          "en": "You may archive 1 cheer from this holomem:Restore 30 HP to 1 of your holomem with #ID Gen 1."
         }
       }
     ],
@@ -27558,6 +27558,47 @@
       }
     ]
   },
+  "hBP05-037": {
+    "card_number": "hBP05-037",
+    "name": { "jp": "星街すいせい", "en": "Hoshimachi Suisei" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Non-Limit Boost" },
+        "power": "50",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "If a red cheer and a blue cheer are attached to this holomem, you may send 2 cheers from your archive to this holomem. If any cheers of only one of those colors are attached to this holomem, you may send 1 cheer from your archive to this holomem."
+        }
+      },
+      {
+        "cheers": [ "colorless", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Shout in Crisis" },
+        "power": "220",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "Archive all cheers attached to this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-037",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-037_RR.webp", "en": null },
+        "img_hash": "v2|H32=rqo2ba2rjaqbMKmj1KqrlVJDUq0q13MtdFZytVZoZHKW6rRqF0pJlaWrVuttrVGr6a9KpVKV1qhVy9SlUCtWldAoFtk|CYM=074638",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-056": {
     "card_number": "hBP05-056",
     "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
@@ -27673,6 +27714,49 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP05-070": {
+    "card_number": "hBP05-070",
+    "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Welcome to Fubuki Cafe" },
+        "power": "60",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "You may choose any number of [mascots and fans] with #ShirakamiCharacter from your archive, and attach them to your holomem."
+        }
+      },
+      {
+        "cheers": [ "colorless", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "King and cafe owner" },
+        "power": "100+",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "If [your Oshi holomem is <Shirakami Fubuki> or your Oshi holomem's color is yellow], and there are 4 or more [tools, mascots, and fans] on your stage, this Arts gets +100."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Gamers" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-070",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-070_RR.webp", "en": null },
+        "img_hash": "v2|H32=bKOpqm0ZraJrHYujl0WS6ZJlUG6S1FhGUrwsVdKkdEmsqnRJbVldqrLqlJa1JqWVqiVVq0pS1PS2lFHlSlNSrdpVVKo|CYM=101B25",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
