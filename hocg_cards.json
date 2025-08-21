@@ -25300,7 +25300,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "お互いのステージのエール1枚につき、このアーツ+10。ただし、数える枚数は8枚まで。",
-          "en": "This Arts gets +10 for each cheer attached to both players' holomem. However, only up to 8 cheers are counted."
+          "en": "This Arts gets +10 for each cheer on both players' stages. However, only up to 8 cheers are counted."
         }
       }
     ],
@@ -26801,7 +26801,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈大空スバル〉に付いていたら能力追加\nお互いのステージのエールが合計10枚以上ある間、このマスコットが付いているホロメンのアーツ+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Oozora Subaru>\nIf there is a total of 10 or more cheers attached to both players' holomem, the holomem this mascot is attached to gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Oozora Subaru>\nIf there is a total of 10 or more cheers on both players' stages, the holomem this mascot is attached to gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -26935,7 +26935,18 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-002_OSR.webp", "en": null },
-        "img_hash": "v2|H32=5pO6TqMR3Fq1rJtQpa2zNEhqZ7GYSk+xtkpNtbJKqbQ2H7Sqrlpaqmqt2lRVQmut6pVKa2pVWiVKVamrUtMqVVarIlU|CYM=231920",
+        "img_hash": "v2|H32=RreqVKO13NmlvZtVJKGrZEhGZ6WYTk21tkpptbZKqbV2q7S6rlpbKiqtSVVWqmupatVLaSpVqqVKVUurWtJqVVgpqlU|CYM=231924",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-002",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-002_OUR.webp", "en": null },
+        "img_hash": "v2|H32=VNVN1UupWlSSqrIqkmaSbqVU1WRs9amqVFWvqulURqOZFFRq1KQbtKlKgVZK0d2WSksPlemqS1W+sktVtapPVa0oSUc|CYM=312E0D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -27355,6 +27366,95 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-021_U.webp", "en": null },
         "img_hash": "v2|H32=qqqlqo7JdGrX7TjcvbIZyqi0WynGVnKVViO21XoyvLHNapZOVHROpanK6Ppt67VUVq2oeqpVoGmrJkKJ2lalLFarStU|CYM=1A1B29",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-022": {
+    "card_number": "hBP05-022",
+    "name": { "jp": "アイラニ・イオフィフティーン", "en": "Airani Iofifteen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Dyed by the setting sun" },
+        "text": {
+          "en": "If there are 4 or more cheers on your stage, during this turn 1 of your holomem with #ID Gen 1 gets Arts+20."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "green", "colorless" ], "name": { "jp": null, "en": "Matahari Terbenam" }, "power": "50" }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-022",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-022_R.webp", "en": null },
+        "img_hash": "v2|H32=qqs0nKPrLaqPUCljzI6DMXLE0jBaR2JVVhNqGTKS+Ok8kqRqFlVaNUqlUtttq5W6pdoqXUpdUquVqrSWrbVCzUtCklo|CYM=132A30",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-023": {
+    "card_number": "hBP05-023",
+    "name": { "jp": "アイラニ・イオフィフティーン", "en": "Airani Iofifteen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Alien Princess" },
+        "text": {
+          "en": "When this holomem downs an opponent's holomem, you may send 1 cheer from your archive to your holomem with #ID Gen 1."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Relation Garden" },
+        "power": "130+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "[Center position only]If your Oshi holomem is <Airani Iofifteen>, this Arts gets +20 for every 3 cheers on your stage."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-023",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-023_RR.webp", "en": null },
+        "img_hash": "v2|H32=nKprbZeqLU6j5VmOrHSTqmw1kNpKNWpd1kFspcpJNKfLmKRKV11Lo2qrtbZSuqVUrZJqpWqtWmmVSlKt0qXSWqSkKlU|CYM=151D2B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-023",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-023_UR.webp", "en": null },
+        "img_hash": "v2|H32=FIupspqplIrpNFSJuHQyZ0jVMmdNVtOZVG7JXLeLbF02j5JKqlJr1Uut6VLWpWWtWlKtlpsUVaVp6RatlVZl1W1L1rQ|CYM=101E3E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
