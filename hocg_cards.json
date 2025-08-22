@@ -7316,6 +7316,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-082",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-082_C.webp", "en": null },
+        "img_hash": "v2|H32=bmutqrXOS2+WpPCGyyNwjkuSS1lyVVJVYnXSNdSolCK0OFoXUbU2hSKppOmtVEnyUqpbuq5frHiWSlAq04clTaZJ2y4|CYM=20160A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -27699,6 +27710,129 @@
       }
     ]
   },
+  "hBP05-047": {
+    "card_number": "hBP05-047",
+    "name": { "jp": "こぼ・かなえる", "en": "Kobo Kanaeru" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "At your service!" },
+        "power": "20",
+        "text": { "en": "Deal 10 Special Damage to 1 of your opponent's back holomem." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-047",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-047_C.webp", "en": null },
+        "img_hash": "v2|H32=pOpbKoerpe1KE62rqUxamtOKukxSlTLFMnVulddqnBJOVUxblmSppJKyKtppabRtaRKwJK7aSiqvhbSladtLKqStlpY|CYM=1A1816",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-048": {
+    "card_number": "hBP05-048",
+    "name": { "jp": "こぼ・かなえる", "en": "Kobo Kanaeru" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A childhood friend's heart-pounding lap pillow" },
+        "text": { "en": "Deal 10 special damage to 2 of your opponent's back holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "So you'll feel better" },
+        "power": "40",
+        "text": { "en": "Deal 10 special damage to 2 of your opponent's back holomem." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-048",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-048_U.webp", "en": null },
+        "img_hash": "v2|H32=pqqpbqeqNCrv1TRpmZpkyZhcUotYRFJVUmFOVHI13DBnDtRWlWpKpUqtqdKlSpWqVZtKSkolYulqpXKptpW2NYWWSpU|CYM=26220E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-049": {
+    "card_number": "hBP05-049",
+    "name": { "jp": "こぼ・かなえる", "en": "Kobo Kanaeru" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "Tracing the rain" },
+        "power": "60",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "If your opponent's back holomem have taken a total of 80 or more Damage, you may send 1 blue cheer from your archive to your <Kobo Kanaeru>."
+        }
+      },
+      {
+        "cheers": [ "blue", "blue", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Reverberating rain sound" },
+        "power": "120",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "You may archive 2 cheers from this holomem:Deal 30 special damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-049",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-049_RR.webp", "en": null },
+        "img_hash": "v2|H32=dlopSrVqlK6LaJ2si5JplyLRYJd2pTIlViVapSodWFPMkdZpU2VppceqLaiOV8m28lKq1roWoFAmW1YfcLkqi6pKpFo|CYM=1E190F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-049",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-049_UR.webp", "en": null },
+        "img_hash": "v2|H32=VJSjqrBKm7O5q9h0TLPt3E8mpsRaxSNmkG1qGaU8ZBsunRJJSmfBVrS1tbQWiyWVtNJRqEXbLVfXpslqWVqttllrTYs|CYM=2B2C12",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-056": {
     "card_number": "hBP05-056",
     "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
@@ -27926,6 +28060,28 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP05-086": {
+    "card_number": "hBP05-086",
+    "name": { "jp": "Cilus", "en": "Cilus" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Kobo Kanaeru>\n[Center position only][1/turn]If your opponent's back holomem is downed, draw 1 card from your deck.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-086",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-086_C.webp", "en": null },
+        "img_hash": "v2|H32=oqijKmJpY1krWSfZpYmlia2rLIkcqVw11DbUttW21LbatnLVaDgMvjE47ej/x/0gh8epPg/DqeqK/+kADwfqHwrPenQ|CYM=271209",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
