@@ -4272,6 +4272,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10012",
         "tcgplayer_product_id": 647305,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-032",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-032_C.webp", "en": null },
+        "img_hash": "v2|H32=MrO9rsWqJbOtyk2rI3PaXMpkUncyRVpNNpMwTdzYlDY0TVJFVdW00apqi6LLLiTb8KVJKqqWpi2gWsmSWiu2aSp1Kak|CYM=12171B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -27472,6 +27483,115 @@
       }
     ]
   },
+  "hBP05-025": {
+    "card_number": "hBP05-025",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Let's start a new journey" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-025",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-025_C.webp", "en": null },
+        "img_hash": "v2|H32=kq5sW62qU6qtUwyr0laprFJJs6RaWSJVWvG8NkpNlKpsVLySSVWkqZJyS6rWSkrV1aoqXSqtqk8qldY2rbZSXaW2kko|CYM=2A1D23",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-026": {
+    "card_number": "hBP05-026",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Twilight Resort" },
+        "text": { "en": "You may attach 1 <Stone Axe> from your archive to your <Aki Rosenthal>." }
+      }
+    ],
+    "arts": [ { "cheers": [ "green", "colorless" ], "name": { "jp": null, "en": "A moment of dusk" }, "power": "50" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-026",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-026_U.webp", "en": null },
+        "img_hash": "v2|H32=qqqtqqmyUqrOVFjUlqi0CKTUNKtmEWpVWnVaEVpFzEWUKFZNVVSWpKyo6kommXGxRato2qpaqtuLFmSZW5IgiapuslA|CYM=172527",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-027": {
+    "card_number": "hBP05-027",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Gaming? Sporty? Camping?!" },
+        "text": {
+          "en": "You may archive 1 tool attached to this holomem:Reveal 1 [holomem or tool] from your deck,and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "One for All" },
+        "power": "130",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "If your opponent's holomem is downed by this Arts, draw 1 card from your deck. Then, if your Oshi holomem is <Aki Rosenthal>, restore 20 HP to all of your holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-027",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-027_RR.webp", "en": null },
+        "img_hash": "v2|H32=2KorTdyyJMknEmDb4nRZltp0HIp25RmTZmlbtjJp2rStW5ZrVpWoFi2rqNdiVW2paVqqUrWqUpXoUFSpUpW6WLSqUlo|CYM=262431",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-027",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-027_UR.webp", "en": null },
+        "img_hash": "v2|H32=lrKvqrMrlKI7a5DxW1U77aZVWs0u1EPTVF6rVhRpsFTXQ9ZoV1+rVLWurdInrUlabUm1WrW2hZYlW2nprVKZpptq1ZI|CYM=1E2527",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-030": {
     "card_number": "hBP05-030",
     "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
@@ -28060,6 +28180,29 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP05-082": {
+    "card_number": "hBP05-082",
+    "name": { "jp": "アキ・ローゼンタールの斧", "en": "Aki Rosenthal's Axe" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "This card can only be used if you archive 1 card from your hand or 1 <Stone Axe> from your stage.\n\nThe holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 2nd or greater <Aki Rosenthal>\nThe holomem this tool is attached to gets Arts+40.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "extra": { "en": "This tool is also regarded as <Stone Axe>" },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-082",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-082_U.webp", "en": null },
+        "img_hash": "v2|H32=sqKjqrSrkGmbSVZNjkbtVm2WbLRrtVq9Xp2aFa9UrFSsdBbdQ8MMhrCq7aoOF+kq+arpeIrHqap4eCl6ejjg8Tp48GA|CYM=0C1129",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
