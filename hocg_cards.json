@@ -20818,7 +20818,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンが付いているホロメンの能力でエールをアーカイブする時、アーカイブするエール1枚のかわりに、このファンをアーカイブできる。\n\nこのファンは、自分の〈獅白ぼたん〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "When the holomem this fan is attached to would archive cheer as part of their ability, you may archive this fan instead of 1 cheer.\n\nYou may only attach this fan to your <Shishiro Botan>, and you may attach any number of this fan per holomem."
+      "en": "When the holomem this fan is attached to would archive cheer as part of its ability, you may archive this fan instead of 1 cheer.\n\nYou may only attach this fan to your <Shishiro Botan>, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -30284,7 +30284,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンがセンターポジションかコラボポジションで受けるダメージ-10。\n\n◆〈猫又おかゆ〉に付いていたら能力追加\nこのマスコットが付いてるホロメンの能力でエールをアーカイブする時、アーカイブする青エール1枚のかわりに、このマスコットをアーカイブできる。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to in the center position or collab position takes -10 Damage.\n\n◆Additional ability if attached to <Nekomata Okayu>\nWhen the holomem this fan is attached to would archive cheer as part of their ability, you may archive this mascot instead of 1 blue cheer.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to in the center position or collab position takes -10 Damage.\n\n◆Additional ability if attached to <Nekomata Okayu>\nWhen the holomem this fan is attached to would archive cheer as part of its ability, you may archive this mascot instead of 1 blue cheer.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
