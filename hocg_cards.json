@@ -13332,6 +13332,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10088",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-065",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-065_C.webp", "en": null },
+        "img_hash": "v2|H32=SuuwGrWqCWu06q2rS0eWrCoVUpby1GKZ2iZaTTQ9tGc8yehSpcqsRVsmlq5U2duyopdJC0qbBmkuaWkpoaRapVq/WqM|CYM=121F0D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -27996,6 +28007,37 @@
       }
     ]
   },
+  "hBP05-057": {
+    "card_number": "hBP05-057",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 80,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Going out!" },
+        "text": { "en": "During this turn, 1 of your holomem with #Singing gets Arts+10." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Cool Summer Nights" }, "power": "20" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-057",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-057_U.webp", "en": null },
+        "img_hash": "v2|H32=qqqbWrWq7a6kBGSs6SoWS0tbWGLeVWq11nSmlXJ7tOkpGVpqpbSppApatptgqUKVlKQqW8paonVOS1ZJXYoWrUopUkk|CYM=04242B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-058": {
     "card_number": "hBP05-058",
     "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
@@ -28026,6 +28068,38 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP05-059": {
+    "card_number": "hBP05-059",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": null, "en": "One and only" },
+        "power": "30",
+        "text": { "en": "If your Oshi holomem is <Nerissa Ravencroft>, draw 1 card from your deck." }
+      },
+      { "cheers": [ "purple", "colorless" ], "name": { "jp": null, "en": "Don't touch the horns!" }, "power": "50" }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-059",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-059_U.webp", "en": null },
+        "img_hash": "v2|H32=5KqnrOKpmtYadVhCvHZta6SKZClO1WxNSlcOtTMKUrWbtKJITNVLq/CrVNstW620XquwsspU0jqlWrA0tC5g3V+t9ks|CYM=124232",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
