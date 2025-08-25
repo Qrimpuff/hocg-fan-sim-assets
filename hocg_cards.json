@@ -27108,6 +27108,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP05-006",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-006_OUR.webp", "en": null },
+        "img_hash": "v2|H32=0mYlx5dqWrVt2nusppHJuqMllypoVbduWlls4pNWhKvO1jRaXVLVpKnUadVKpYmmSaJapbVqaZu1otkkLatWraqnDtY|CYM=034067",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -27678,7 +27689,7 @@
       {
         "type": "bloom",
         "name": { "jp": null, "en": "An ordinary day off with Polka" },
-        "text": { "en": "Deal 20 Special Damage to your opponent's center holomem." }
+        "text": { "en": "Deal 20 Special Damage to your opponent's collab holomem." }
       }
     ],
     "arts": [
@@ -28145,6 +28156,58 @@
       }
     ]
   },
+  "hBP05-061": {
+    "card_number": "hBP05-061",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "DEO" },
+        "text": { "en": "When this holomem downs your opponent's holomem, draw 2 cards from your deck." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Unleashed Charm" },
+        "power": "120",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "You may archive 1~3 cards from your hand:During this turn, 1 of your holomem with #Singing gets Arts+20 for each card archived."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-061",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-061_RR.webp", "en": null },
+        "img_hash": "v2|H32=tKrLObXylarrVKRWl6u41QgZUKpKFWJ2QlX61VoVnJm3idpq0WKtqraPpWqk+BKUSqVK22lbat1KjzTZ2iqWpMumUpU|CYM=051D21",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-061",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-061_UR.webp", "en": null },
+        "img_hash": "v2|H32=3GpZqpFalaiVGZTZT01OxUrXSycyNaO6lLm0npFKtK4sSlRKo1XrNR1WvbUNj03XafGtFi2q1bT1UCW9H96lS62olVw|CYM=1D2910",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-070": {
     "card_number": "hBP05-070",
     "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
@@ -28280,6 +28343,28 @@
       }
     ]
   },
+  "hBP05-083": {
+    "card_number": "hBP05-083",
+    "name": { "jp": "ネリッサ・レイヴンクロフトの杖", "en": "Nerissa Ravencroft's Staff" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 2nd or greater <Nerissa Ravencroft>\n[Center/collab position only][1/turn]When the holomem this tool is attached to archives cards from your hand by its ability, deal 20 Special Damage to your opponent's center holomem or collab holomem.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-083",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-083_U.webp", "en": null },
+        "img_hash": "v2|H32=mq2rrpSlEpcjU1RRZFllqO2qZK5vFmZWLlZMV81M3OxMjBbdRbotqh+KrSqgO62qr8Pp6jp4rYrCg+D46gfoFWofalU|CYM=202309",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-086": {
     "card_number": "hBP05-086",
     "name": { "jp": "Cilus", "en": "Cilus" },
@@ -28296,6 +28381,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-086_C.webp", "en": null },
         "img_hash": "v2|H32=oqijKmJpY1krWSfZpYmlia2rLIkcqVw11DbUttW21LbatnLVaDgMvjE47ej/x/0gh8epPg/DqeqK/+kADwfqHwrPenQ|CYM=271209",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-087": {
+    "card_number": "hBP05-087",
+    "name": { "jp": "Jailbird", "en": "Jailbird" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem with #Singing.\n\nYou may only attach this fan to your <Nerissa Ravencroft>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-087",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-087_U.webp", "en": null },
+        "img_hash": "v2|H32=qqqrqq2qpLaltCQVSFVSSVpLWEleVVbUtNR2lFZdXl1cSRbVE8koqgwuoer4642P+CuhC/j54fjq8OB4Ch8CH/pRwgc|CYM=452C09",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33771,6 +33878,9 @@
     "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
