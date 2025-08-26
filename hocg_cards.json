@@ -772,7 +772,7 @@
         "img_path": { "jp": "hPR/hBD24-019_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:18 GMT" },
         "img_hash": "v2|H32=aFWnSDNLMmVXqphJLeWXariqU1xIWlSVa1FxLNS1q1K2apSiulKmTS29tGtTslNcylVJMjY0a7imNUvVSlUv1XZZqnQ|CYM=035383",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10019",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -10922,7 +10922,7 @@
         "img_path": { "jp": "hPR/hBP02-024_P_02.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 27 Jun 2025 02:21:08 GMT" },
         "img_hash": "v2|H32=jKKpqjMjHldTWlTbpZi4nNiIbI1sSXRJRlNaV46WkjUqNFZFedFrVKsrravOFCPTn4PosqrCia4UP92gNi2g6oJL4Bo|CYM=281614",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10107",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
       }
@@ -27317,6 +27317,47 @@
       }
     ]
   },
+  "hBP05-017": {
+    "card_number": "hBP05-017",
+    "name": { "jp": "姫森ルーナ", "en": "Himemori Luna" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "Retro Romance" },
+        "power": "50",
+        "text": { "en": "You may attach 1 <Luknight> from your archive to this holomem." }
+      },
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Pakupaku" },
+        "power": "80",
+        "text": {
+          "en": "[Collab position only]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get Life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Baby" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-017",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-017_R.webp", "en": null },
+        "img_hash": "v2|H32=SKoJiku7SJVyVbBVtBS0qrSINmpS2lJLWtNCNS2jpq2tppZKlWqqV6pURbtBrWmlyoXytJa08K1etfCkloJq0UpVUCk|CYM=161C12",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-019": {
     "card_number": "hBP05-019",
     "name": { "jp": "アイラニ・イオフィフティーン", "en": "Airani Iofifteen" },
@@ -28208,6 +28249,49 @@
       }
     ]
   },
+  "hBP05-062": {
+    "card_number": "hBP05-062",
+    "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "I've made a lot of new friends" },
+        "text": {
+          "en": "Reveal 2 1st holomem other than Buzz from your deck with #Singing, and add them to hand. Then, shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": null, "en": "Thank you everyone" },
+        "power": "70",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "en": "Deal 20 Special Damage for each of your 1st holomem with #Singing to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-062",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-062_R.webp", "en": null },
+        "img_hash": "v2|H32=zqqkSrWqjcqjWJHKa1KRrUiTOGVc13pFXFVSZswVZOaXidRq1yQqlVlatbrWmimVq1YquWulotomVVLVoqpi0SZVUks|CYM=082616",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-070": {
     "card_number": "hBP05-070",
     "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
@@ -28245,6 +28329,49 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-070_RR.webp", "en": null },
         "img_hash": "v2|H32=bKOpqm0ZraJrHYujl0WS6ZJlUG6S1FhGUrwsVdKkdEmsqnRJbVldqrLqlJa1JqWVqiVVq0pS1PS2lFHlSlNSrdpVVKo|CYM=101B25",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-072": {
+    "card_number": "hBP05-072",
+    "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow" ],
+        "name": { "jp": null, "en": "Backpack a different color to yours" },
+        "power": "50+",
+        "text": {
+          "en": "[Center position only]If 4 or more cheers are attached to this holomem, during this turn this holomem and your collab holomem get Arts+50."
+        }
+      },
+      {
+        "cheers": [ "yellow", "yellow", "colorless" ],
+        "name": { "jp": null, "en": "Beach date with Watame" },
+        "power": "80",
+        "text": {
+          "en": "If your Oshi holomem is <Tsunomaki Watame>, you may send the top card of your cheer deck to your <Tsunomaki Watame>."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get Life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Kemomimi" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-072",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-072_R.webp", "en": null },
+        "img_hash": "v2|H32=LKutqi+qiJLTltiUhJIlqSQ5ZElsCWpVWlVaZbhFkmWZopZPVfgLVqtUgLYPv/C1ytOqtPKa4OoOXnAbiq9qquplSuk|CYM=160E26",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -28359,6 +28486,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-083_U.webp", "en": null },
         "img_hash": "v2|H32=mq2rrpSlEpcjU1RRZFllqO2qZK5vFmZWLlZMV81M3OxMjBbdRbotqh+KrSqgO62qr8Pp6jp4rYrCg+D46gfoFWofalU|CYM=202309",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-084": {
+    "card_number": "hBP05-084",
+    "name": { "jp": "角巻わためのハープ", "en": "Tsunomaki Watame's Harp" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 2nd or greater <Tsunomaki Watame>\n■While there is a <Watamate> on your stage, the holomem this tool is attached to gets Arts+10.\n■When the holomem this tool is attached to uses Arts, you may send 1 cheer from your archive to your <Tsunomaki Watame>.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-084",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-084_U.webp", "en": null },
+        "img_hash": "v2|H32=VpWjq1SRxDuLKtxq6W5MbmlmDKWrk5yVqZryzHPMUszbSlZVs8mpqsCqreqv6q0qeDgtqsLDqar6cGk46kcqwTp0ShU|CYM=020F13",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33915,7 +34064,7 @@
         "img_path": { "jp": "hPR/hY01-009_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 10:39:56 GMT" },
         "img_hash": "v2|H32=iuxINRJViWpkm3ZapapmmSnbXIo2UslKWSOzQEslkeSTKMppplSa0luTZaISyV7aSak013m6noqZJrZV2XS1rNJWrnU|CYM=0E2014",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10034",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -34060,7 +34209,7 @@
         "img_path": { "jp": "hPR/hY02-007_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 10:39:56 GMT" },
         "img_hash": "v2|H32=pK5eUbOnZ5jOeLySyTmQpE7aNK3SlhlrLEmTNktDpa3StlyLUnXjtsRZrCxZklJNpaqsmi1ttLZa0WJtlapq2QsF0lQ|CYM=300F2D",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10035",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -34277,7 +34426,7 @@
         "img_path": { "jp": "hPR/hY03-011_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 10:39:56 GMT" },
         "img_hash": "v2|H32=OqqyVUmqTBSLVmSjrpV466edlEbkktJGyhZTr6S1G8lkcDSpW90rXKVop2puVai6UtrKqpWqWpUtpapUpULSOlJp0lo|CYM=09443E",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10036",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -34301,7 +34450,7 @@
         "img_path": { "jp": "hPR/hY03-012_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 10:39:56 GMT" },
         "img_hash": "v2|H32=sqpIFa+vdtmbIpzK5LSSRhxMprVbCrSlDLPJKsi0KVdJSZSkmbdqs3aFicpYCtZapdqslKStbEtrdUrSYFoqVWp1sqU|CYM=114846",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10037",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -34442,7 +34591,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY04-007_S.webp", "en": null },
         "img_hash": "v2|H32=qKqrqq2q7NpPFUzZblUUKRLFtGOUZErV1jRLbVIZ84pyS1SqVtnolqZrD5fZIqJln7aiXasUYuWoU0LTpjViLaaXklY|CYM=3E2210",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10033",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -34466,7 +34615,7 @@
         "img_path": { "jp": "hPR/hY04-009_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 10:39:56 GMT" },
         "img_hash": "v2|H32=sqpcVmbpvLKbVTaxTi5WqSm2UuultFpJ1OJiXVRKqU3UmlStxEpqFVK7qUotpZZaO5XWqkpVVq2pUipVtVK2WilVUok|CYM=28341A",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10038",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -34586,7 +34735,7 @@
         "img_path": { "jp": "hPR/hY05-007_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 10:39:57 GMT" },
         "img_hash": "v2|H32=uqzpWJa3VhtMUxS+dmq8pb3MM1OpQdNSSzvNrcSsW6kstVKrWYqmbba2zZrKVHLStGqwNulTK0VatdIaluUSXS/F2jQ|CYM=0E4C2B",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10039",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -34706,7 +34855,7 @@
         "img_path": { "jp": "hPR/hY06-006_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 10:39:57 GMT" },
         "img_hash": "v2|H32=rKpWWbmy6WQ7W5gkK0tUtktJNrNILDJRwCQwy4Y0tkrYrFCJVturTChttqrZVCpV7SLSqq2mqlVWqaXaKdRSqa1SKtU|CYM=171E3D",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10040",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
