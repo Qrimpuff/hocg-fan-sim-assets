@@ -26982,6 +26982,55 @@
       }
     ]
   },
+  "hBP05-001": {
+    "card_number": "hBP05-001",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Shirogane Knights" },
+        "text": {
+          "en": "[1/Turn]Usable when your holomem downs your opponent's holomem:Reveal 1 holomem with #Gen 3 from your deck, and add it to hand. Then, shuffle your deck."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Super Bad Taro" },
+        "text": {
+          "en": "[1/Game]Usable if your holomem with #Gen 3 is downed during your opponent's turn:You take -1 Life Damage. Then, if that holomem is a Buzz holomem or a 2nd holomem, draw 2 cards from your deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=VEvFs1QKToVDqoq060qiNCsT5KhjVWSaU030llNautJ0lnLVqMtbKlio1UJZLdl6qapZbdGrqXRRmqot0hpR1aoqtVU|CYM=1A1413",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-001",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-001_OUR.webp", "en": null },
+        "img_hash": "v2|H32=VMUYVaKlzFWrMKlRT1avE1NW1apUUqmq2lavqFtV1qk7XVRr1UWJLutTXZb1JkmXqaJLFUmtXau1qqnUdappVZWqtlU|CYM=152510",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-002": {
     "card_number": "hBP05-002",
     "name": { "jp": "アイラニ・イオフィフティーン", "en": "Airani Iofifteen" },
@@ -27314,6 +27363,56 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-011_P.webp", "en": null },
         "img_hash": "v2|H32=IKue3CK2XEq1tE1rnZLrKVxSqqnUwmtl1ErPpeNq0tUzqtRouqRaNSraVdKl2iqxVr5teWlVtqqrVlWrrWpKtdUmrdY|CYM=151D14",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-012": {
+    "card_number": "hBP05-012",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 220,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Path of the Knight" },
+        "power": "80+",
+        "advantage": [ "green", 50 ],
+        "text": { "en": "If this holomem is damaged, this Arts gets +40." }
+      },
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "A merciful blow" },
+        "power": "130+",
+        "advantage": [ "green", 50 ],
+        "text": { "en": "[Center position only]If your collab holomem has #Gen 3, this Arts gets +30." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-012",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-012_RR.webp", "en": null },
+        "img_hash": "v2|H32=yqo6WVaqqyYxUqbZqaadqg5ZbaZUlUtpOBafvytJsLeGDMhKLEmUptKWtJVpki0paS1itZk2i1QtS1K7WdpiVcmkSlk|CYM=0F220C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-012",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-012_UR.webp", "en": null },
+        "img_hash": "v2|H32=sqK8ytVatK7fWDZNGmVCbTpFIyXMpKWzpY6NsyHbSGtME9RaVl2+pFqlatmr2pUkSWhJSytUjVYV01Uri65W1Wu00SY|CYM=11230D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -28494,6 +28593,29 @@
       }
     ]
   },
+  "hBP05-075": {
+    "card_number": "hBP05-075",
+    "name": { "jp": "牛丼", "en": "Gyudon" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Choose 1 of your holomem. During this turn, the Baton Pass cheer cost of the chosen holomem is reduced by 2 colorless cheer. Then, restore 20 HP to the chosen holomem."
+    },
+    "tags": [ { "en": "#Food" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-075",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-075_C.webp", "en": null },
+        "img_hash": "v2|H32=xrqnqtSyYNYrVnJUo2aTLJkpnC0rKTo1Kk0+XQ9JXEkMS1bVx+ItqjA4rar4OK2KD74pKvgDqeoOgun6Cn7oIA5vavA|CYM=08161F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-076": {
     "card_number": "hBP05-076",
     "name": { "jp": "ちょこのビーフストロガノフ", "en": "Choco's Beef Stroganoff" },
@@ -28560,6 +28682,28 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP05-081": {
+    "card_number": "hBP05-081",
+    "name": { "jp": "白銀ノエルのメイス", "en": "Shirogane Noel's Mace" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater <Shirogane Noel>\nIf the holomem this tool is attached to has 3 or more cheers attached, this holomem gets Arts+20.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-081",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-081_U.webp", "en": null },
+        "img_hash": "v2|H32=dLUjKmWvJKqhqtTik8rS2tOa1pzaHFpVClWKVYtVqFWoVVZVCf6tqqPgrQv+AI3rgMOt6no+LbqCH6nj+uHog0oeKhw|CYM=0F0A0C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
