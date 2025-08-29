@@ -1320,14 +1320,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "White Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+        "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~White~" },
-        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1354,14 +1360,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Blue Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20." }
+        "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Blue~" },
-        "text": { "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1388,14 +1400,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Yellow Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+        "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
-        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1422,14 +1440,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Yellow Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+        "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
-        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1456,14 +1480,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Purple Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
-        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1490,14 +1520,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Purple Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
-        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1524,14 +1560,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Yellow Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+        "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
-        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1558,14 +1600,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "White Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+        "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~White~" },
-        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -14401,7 +14449,7 @@
         "img_path": { "jp": "hSD09/hBP02-085_U_02.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:39 GMT" },
         "img_hash": "v2|H32=SLWLqVStJCWtK5RTk5q5mrTKVs4rzmxHbMZLlpuS1JImuZJNbCYsu4f5bJo4GW2C44+5aAH4qWiWC6miOzwtuw/HKJs|CYM=0B1917",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
       },
@@ -20416,7 +20464,7 @@
         "img_path": { "jp": "hSD08/hBP03-093_U_02.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:02 GMT" },
         "img_hash": "v2|H32=KqurqlGrI7OjavRWq1zLXMwM1B0rLVRXFiM+9Z+y1LJKu5JFjdAlu4ePbbpxPi2acL6pKHFtiW6Hh6nqr0Chqx8aKDo|CYM=0B2419",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
       },
@@ -29651,7 +29699,7 @@
         "img_path": { "jp": "hSD08/hSD01-016_02_C.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:02 GMT" },
         "img_hash": "v2|H32=yqaLqsWqq+2janRZInVrVVQSXJYrjhafNpoiFTcdlFC6NJJNE5klmgcGZZPg4y2b7IKpaBE+iWzg4Kmq/x4tqj88YJs|CYM=150D0E",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": 2
       }
@@ -33427,7 +33475,7 @@
         "img_path": { "jp": "hSD08/hSD08-001_OC.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:03 GMT" },
         "img_hash": "v2|H32=ilpSp+RKKZWWo2zYkbVaLO1wUadOWbTKS8WwJvRuaXWyCkiXtlVkScuiVmosiZTUVWbatq5qqrUttUmlVlUtWfpaq20|CYM=1A1807",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -33475,7 +33523,7 @@
         "img_path": { "jp": "hSD08/hSD08-002_U.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:02 GMT" },
         "img_hash": "v2|H32=zKriVnpJVqeWTCxpkKosWiWrlLJtrcGpblWJrGpWgwxLtrItslQrt6RU1JouUV9KV6ooeVJL1KElq6pSSa30g1mstsE|CYM=152625",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -33534,7 +33582,7 @@
         "img_path": { "jp": "hSD08/hSD08-003_R.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:02 GMT" },
         "img_hash": "v2|H32=kKrUau3qTpYrWrWolqRNbLGtnehOW2k7Sl4rN8LkWhUmJbQq2iSuXhGqZ4M0S4rYbcsSpZvUjtek2lqpT2ua1Em0UqQ|CYM=0D1819",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -33581,7 +33629,7 @@
         "img_path": { "jp": "hSD08/hSD08-004_RR.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:02 GMT" },
         "img_hash": "v2|H32=rKpWJGpU9Kp6VbVaUqutSlalramE9Wk9KlFL0yuaSjXLqqJKVqOJL5VqalWtWl4lrdR0qSXVVL2LUnS0S7+wdEs3lrA|CYM=281D16",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -33624,7 +33672,7 @@
         "img_path": { "jp": "hSD08/hSD08-005_C.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:02 GMT" },
         "img_hash": "v2|H32=qqJlalJn0hq0XIyxUMq14SzrJNOrrE22Si3LJMs0S21Lx7JsiyQiO1Gl0ad2qGwqrVJMmlhb0ODqUahaLdXUVuJS8pA|CYM=0E2F26",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -33684,7 +33732,7 @@
         "img_path": { "jp": "hSD08/hSD08-006_C.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:03 GMT" },
         "img_hash": "v2|H32=mqqtqkmqUlu2sBxtlJrlqmKJJJZuQ0jVTlVKVUqlSCWbXpJlU7Tmtm2J0toel0yTxxJo+s4uqMsrSbB6pMmpbJZKsiQ|CYM=0B351E",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -33744,7 +33792,7 @@
         "img_path": { "jp": "hSD08/hSD08-007_C.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:03 GMT" },
         "img_hash": "v2|H32=jqpLmq2zIavJm7SWJo/akuJUGmVaKRJlGlVcqbJUzNTsqtpFRZVkJLriKctok5WtadvoeuoLqpqyJKTbSWpKisklSlo|CYM=072340",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -33797,7 +33845,7 @@
         "img_path": { "jp": "hSD09/hSD09-001_OC.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:39 GMT" },
         "img_hash": "v2|H32=pGNWtWdLqeR3nUpLvLROk0jbtYyamdOstmpJ1aZqScWi1rSqpFbT1sqs0iopyy6tL1UklWpT2ioqVVplS9VrJdour9Q|CYM=0E4D42",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -33845,7 +33893,7 @@
         "img_path": { "jp": "hSD09/hSD09-002_U.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:39 GMT" },
         "img_hash": "v2|H32=sqqjjI2rTbKtoqXyWmUbbfNYMi1K0UCT1sVcxrB2tEwyJrZFVTSxsIhpZsom20jptZaIamppjpomm2hJ0QKKpdoqSi8|CYM=0F2929",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -33906,7 +33954,7 @@
         "img_path": { "jp": "hSD09/hSD09-003_R.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:39 GMT" },
         "img_hash": "v2|H32=mqpJ8+0kpaqjsK28JMvJtlJJThaSbVJFnGx2TbgSZmkpq6xaxbLIVqtRU+lWqZaqK1VKK5raJKVapbaWWqVKqepqpEo|CYM=12423E",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -33958,7 +34006,7 @@
         "img_path": { "jp": "hSD09/hSD09-004_RR.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:40 GMT" },
         "img_hash": "v2|H32=uqorbS+rrYorw5GTzNJKMdIw0izaVNsMZk12llZtNs20trxqV/VIdYvsJao1s4Feoha2lukqKpokmaAtttpysempNuo|CYM=094143",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -34001,7 +34049,7 @@
         "img_path": { "jp": "hSD09/hSD09-005_C.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:40 GMT" },
         "img_hash": "v2|H32=do7GRiWqnGK/67k7mHk9Gdh44cxjzGPmZ+wjhwstCJ9LG7J0m2S5k2kNR6tk+k5a0KLEgm2JDtIkn2ipdvlW7LXCJks|CYM=101818",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -34060,7 +34108,7 @@
         "img_path": { "jp": "hSD09/hSD09-006_C.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:40 GMT" },
         "img_hash": "v2|H32=tKqZqq2qGYulqpOqEnGxJmp1ZCdaFGjVWoQS1eTE8kVui9Q0VTU1SqqZq4ol2y3VtadIqqpSKrtSC0arR5vKqr8igq4|CYM=1A1218",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -34119,7 +34167,7 @@
         "img_path": { "jp": "hSD09/hSD09-007_C.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:40 GMT" },
         "img_hash": "v2|H32=pqq17o2q6aotq0uSbGk7zvLdOE2a1VY1klNgJZZSdKa0SLRUNVVUipomCtFTq0zZbtWUqq6aCivJSi3Z16qqNqSw0Wo|CYM=24181E",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd09/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       },
@@ -34842,6 +34890,9 @@
     "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
