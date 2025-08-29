@@ -2934,7 +2934,7 @@
         "illustrator": "タスキブ",
         "img_path": { "jp": "hBP01/hBP01-008_OUR.webp", "en": "hBP01/EN_hBP01-008_OUR.webp" },
         "img_last_modified": { "jp": "Tue, 17 Sep 2024 09:32:21 GMT", "en": "Thu, 03 Jul 2025 08:07:23 GMT" },
-        "img_hash": "v2|H32=JNk1p6XNqKzVZZXNVmejiUZlaluqzkXZqEptpHVKSCVXaTRFRrV3qai05VqtTHJLpVSPlUrUbaWtUlercimtUKqnylM|CYM=632E02",
+        "img_hash": "v2|H32=pNklp6XtqIzVZJWtVmWjS1Y1aloq20XJqEptvHFLWCVHSbRNRrVXqai05VqtXFJLpTSPFUqUdamtWleptNOpVKqtyoM|CYM=622F02",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10018",
         "tcgplayer_product_id": 645592,
         "delta_art_index": 1
@@ -4733,6 +4733,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-038",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-038_C.webp", "en": null },
+        "img_hash": "v2|H32=5q09mmU6rY8/kmkqi9drpko10lVabXJSxsVSYfaQpi2W0tSVVfBqUSottGqt0132W7ZKpbJaqZIkSZRKiSTaMsqXLak|CYM=130E11",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -7361,7 +7372,7 @@
         "rarity": "SR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-081_SR.webp", "en": null },
-        "img_hash": "v2|H32=6rY2SaKmmNIzy5yLjFJM29QkS1JWDeM0Wk1rdDvlJtRPllRKCrbqF6lSdJHVqkksdZu21JWmNq22tE2qVsvSl3W1UrU|CYM=343626",
+        "img_hash": "v2|H32=ojI2SaKmmlIxy5yVjVJMy9VkzlpeLeskWlVrNDvlpsxrHlRLSraqlqlSZNFVqkkl9ZK21NWmJqW+tkmiVavSkjWtXTU|CYM=3C3E2B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -10338,7 +10349,7 @@
         "rarity": "SR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP02-013_SR.webp", "en": null },
-        "img_hash": "v2|H32=TKooXWyrU20qXbckmk23cpWmn2rUVpIKUlRQTKOWmJymXKhSpVIlrdaiqHW2RUmgQpvT4o1GUrXVqiqVaVtSKG1J0ig|CYM=1E1A1A",
+        "img_hash": "v2|H32=RNsoDGarU2Uqabekmk23KpW0n2pUZJMqUlxaTrOWmJwmWqpatVIlrdamqVW2RWmsQprd4odCSrXVomlXqVpJYi3L0io|CYM=241F1F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -16949,7 +16960,7 @@
         "rarity": "SR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP03-030_SR.webp", "en": null },
-        "img_hash": "v2|H32=qrKrdqeqJC0jSFSrSdmdUluyyHJaYkMoQm9rXS6Za1W9kZZrK1WpWlMuLB3aqk29n0pK1VXf0qrVGpcOVJSSqi1Ltio|CYM=023541",
+        "img_hash": "v2|H32=zLarqseyJC2jaFRNSVmdUluSyrpa40coSm9LVUpRaFW9ERZpqFSpSlOHLZ1asm31zwppVRbeSavWil0PUpBR6l0q1ao|CYM=033743",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -22033,7 +22044,7 @@
         "rarity": "SR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP04-013_SR.webp", "en": null },
-        "img_hash": "v2|H32=RKUrLWk1DI2rUojUl6rX2tKq1XpSWolqUEm1qqqNdaamq9YqklepIrxaqT61Sim9KksrldWqL5UKdLWeXami1UvltP0|CYM=032527",
+        "img_hash": "v2|H32=VLUrLWl1CK2rUonVxaKXnsO21bpRutlqVVnFKmpNZQ4viNYtkleLJrhqjbbVSinVqmsrl9WvrZeqfiUdXaul00lFtdE|CYM=04272A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -24694,7 +24705,7 @@
         "rarity": "SR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP04-059_SR.webp", "en": null },
-        "img_hash": "v2|H32=7KqtZG2poqozaaUqLaqtaq22XOqVJNG0MimTlGtJbCmvNJZpm2QPr4vSsLTtk23rKi1VlWnPVqWV0mkp9VqW0lnpouU|CYM=133617",
+        "img_hash": "v2|H32=TFW9HmF1sjInaaWqJdWlqo2WTUOV1tU1sk3XpCstLKmPppZJu2QLv6vSqbTlly2qqrVVl6lNVcGggk0ttUpV1g/pP1I|CYM=173819",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -27518,7 +27529,7 @@
         "cheers": [ "colorless" ],
         "name": { "jp": null, "en": "Do I need them peko?" },
         "power": "30",
-        "text": { "en": "If your oshi holomem's color is white, draw 1 card from your deck." }
+        "text": { "en": "If your Oshi holomem's color is white, draw 1 card from your deck." }
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Kemomimi" } ],
@@ -27573,7 +27584,18 @@
         "rarity": "RR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-016_RR.webp", "en": null },
-        "img_hash": "v2|H32=6ooUVaWKTFEUZ+2YUFer7iR1aeqWNWOrTL2Sau2ZEK+tkqhKMnVqVUmqVq1p20u1cq1SrZWqStepUkpZ06paaktaWmk|CYM=1C1708",
+        "img_hash": "v2|H32=Wsq2VdWqTBETKqyxemOVqih1be6Sp+2oWpXTqyudkkfribRqqjSoPllVVqVpW2mpKrValdW2qtKqWmrdUq1aq3JpWqk|CYM=1F1A0D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-016",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-016_UR.webp", "en": null },
+        "img_hash": "v2|H32=rKiXVa2omJW7bYmk+tRtrZL2rGpaMqWiXXKVoq2mVM1tjrZIUrWtatEVUqWlSiqVLUqulC1Z6cq1Mkl9pXpbU6lrklY|CYM=2A1F1D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
