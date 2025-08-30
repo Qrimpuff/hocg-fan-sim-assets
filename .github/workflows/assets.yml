@@ -20,10 +20,10 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - uses: Swatinem/rust-cache@v2
       
-      - name: Copy cards info
+      - name: Fetch existing assets
         run: |
           git fetch origin gh-pages:gh-pages --force
-          git worktree add assets gh-pages
+          git worktree add --detach assets gh-pages
         
       - name: Run
         env:
