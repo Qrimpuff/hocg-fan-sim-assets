@@ -2489,6 +2489,40 @@
       }
     ]
   },
+  "hBD24-066": {
+    "card_number": "hBD24-066",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Red Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
+        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-066",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-066_P.webp", "en": null },
+        "img_hash": "v2|H32=MlYixmelqlZtvdJs6jRjaMilK3fYqk2lrkrdpa7SueVKs7SqrFYt6Eulq6TWllAtWjTaetpUSq2yVVtXLq2q1jZZ6lY|CYM=09414D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP01-001": {
     "card_number": "hBP01-001",
     "name": { "jp": "天音かなた", "en": "Amane Kanata" },
@@ -4370,6 +4404,17 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-032_C.webp", "en": null },
         "img_hash": "v2|H32=MrO9rsWqJbOtyk2rI3PaXMpkUncyRVpNNpMwTdzYlDY0TVJFVdW00apqi6LLLiTb8KVJKqqWpi2gWsmSWiu2aSp1Kak|CYM=12171B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-032",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-032_HR.webp", "en": null },
+        "img_hash": "v2|H32=MOqlqsYqes3EMM2ZscqlOy0yOORvZFo120xSXZKbdtosm6RVLdCmD0pa2qJarbKpslMqS1q1WiimQzbLWvXbNCRbtEk|CYM=0F161E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -6562,6 +6607,17 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-068_C.webp", "en": null },
         "img_hash": "v2|H32=Sj4Yqq0mS6qlpqRn1vqmFxbPQhgyzVLRaSl6neg0bGncNPyWRau0rTvwUuulkkvapl0qpVpP2ybbotFKaoki7aZqpVI|CYM=11282B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-068",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-068_HR.webp", "en": null },
+        "img_hash": "v2|H32=sm2QyjRMszNVWsw0hTbMSMy1kXFKqWjVGzNmxZknUjUty9hWbaUkSSpT3ZLpLbStS1J5eNRSJam2JEmySye2aCVp6dI|CYM=142D1E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -9623,7 +9679,7 @@
         "name": { "jp": "HALU", "en": "HALU" },
         "text": {
           "jp": "[ターンに1回]自分のホロメンの緑エール1枚をアーカイブすることで、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "[1/Turn]Archive 1 green cheer from your holomem, then reveal 1 cheer from your cheer deck and send it to your holomem. Then, shuffle the cheer deck."
+          "en": "[1/Turn]Archive 1 green cheer from your holomem to reveal 1 cheer from your cheer deck and send it to your holomem. Then, shuffle the cheer deck."
         }
       },
       {
@@ -13454,6 +13510,17 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP02-065_C.webp", "en": null },
         "img_hash": "v2|H32=SuuwGrWqCWu06q2rS0eWrCoVUpby1GKZ2iZaTTQ9tGc8yehSpcqsRVsmlq5U2duyopdJC0qbBmkuaWkpoaRapVq/WqM|CYM=121F0D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP02-065",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-065_HR.webp", "en": null },
+        "img_hash": "v2|H32=qK6MqjaaqWwjEytSy2SHc06ekygkCVqdrGpmzWySJlcMFbpStGmtVWlabbpJ1UvTiZa0rWnVS2ulVqRLy7ZpqSWJsZY|CYM=071C1F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -27535,7 +27602,7 @@
         "name": { "jp": null, "en": "Carrots..." },
         "power": "30",
         "text": {
-          "en": "If there are 3 or more holomem with #Gen 3 on your stage, send the top card of your cheer deck to this holomem."
+          "en": "If 3 or more holomem with #Gen 3 are on your stage, send the top card of your cheer deck to this holomem."
         }
       },
       {
@@ -27650,6 +27717,47 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-017_R.webp", "en": null },
         "img_hash": "v2|H32=SKoJiku7SJVyVbBVtBS0qrSINmpS2lJLWtNCNS2jpq2tppZKlWqqV6pURbtBrWmlyoXytJa08K1etfCkloJq0UpVUCk|CYM=161C12",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-018": {
+    "card_number": "hBP05-018",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "Let's go to the sea!" },
+        "power": "60",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "If a Buzz holomem with #ID Gen 3 is on your stage, draw 1 card from your deck." }
+      },
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Summer Vibes" },
+        "power": "140",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "If your opponent's holomem is downed by this Arts, reveal 1 1st holomem with #ID Gen 3 from your deck,and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-018",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-018_R.webp", "en": null },
+        "img_hash": "v2|H32=mKqtIpLIVHPzUNR4NJvkmiWqDdpslotNSheLjUstU63LaxZqPqkqdVtKZZNqValQaSpJkIt04erBgvpUKtnUeku18lU|CYM=0A1A10",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -27953,6 +28061,50 @@
       }
     ]
   },
+  "hBP05-028": {
+    "card_number": "hBP05-028",
+    "name": { "jp": "獅白ぼたん", "en": "Shishiro Botan" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "I tried my best" },
+        "text": {
+          "en": "[Center position only][1/turn]When your Oshi holomem <Shishiro Botan> or a <Shishiro Botan> on your stage deals 30 or more Special Damage to your opponent's holomem, draw 1 card from your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": null, "en": "This is where we start" },
+        "power": "40",
+        "text": {
+          "en": "You may archive 1 cheer from your <Shishiro Botan>:Deal 30 Special Damage to your opponent's center holomem."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get Life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-028",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-028_R.webp", "en": null },
+        "img_hash": "v2|H32=LKota4+yUKrTUpC1VqOllC4ltU42U1pRUNJyQ2iFdqWtqpZKFagPFqpI8KBiwfCxpFdKifI2KktqcPC1S6Oy8EkVVmg|CYM=201E1D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-030": {
     "card_number": "hBP05-030",
     "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
@@ -28191,6 +28343,88 @@
       }
     ]
   },
+  "hBP05-038": {
+    "card_number": "hBP05-038",
+    "name": { "jp": "モココ・アビスガード", "en": "Mococo Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Mococoeh" },
+        "text": {
+          "en": "[Collab position only]When you use your SP Oshi Skill \"BAU BAU!\", during this turn this holomem gets Arts+70. Then, if a 2nd holomem is on your stage, during this turn this holomem gets Arts+50."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "NOOOOOOOEH!" },
+        "power": "30",
+        "text": {
+          "en": "If your center holomem is <Fuwawa Abyssgard>, this Arts can be used with no cheer requirement."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-038",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-038_R.webp", "en": null },
+        "img_hash": "v2|H32=jKqJ6tuqK607XHJ1tku0ouSy1LpMV1pVSlVbSdIsUqmtqdYkVK2LJvjooYqLVy3bjwbptK5W6Fm16iSZLoVyrS+lctk|CYM=043536",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-046": {
+    "card_number": "hBP05-046",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Just Lamy-chan~?" },
+        "text": { "en": "Reveal 1 <Yukimin> from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "I can't love you!" },
+        "power": "40",
+        "text": {
+          "en": "If a 2nd holomem with #Gen 5 is on your stage, deal 20 Special Damage to 1 of your opponent's holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-046",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-046_R.webp", "en": null },
+        "img_hash": "v2|H32=rKq9qq22raubNSlWh+vaXlLT0spSVXJVdkV2DaRllMV8rNovVKRtIaYttvht2dWWSZNq6a5epkjLLiSb2wKWl9oGtNQ|CYM=231D06",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-047": {
     "card_number": "hBP05-047",
     "name": { "jp": "こぼ・かなえる", "en": "Kobo Kanaeru" },
@@ -28233,7 +28467,7 @@
       {
         "type": "collab",
         "name": { "jp": null, "en": "A childhood friend's heart-pounding lap pillow" },
-        "text": { "en": "Deal 10 special damage to 2 of your opponent's back holomem." }
+        "text": { "en": "Deal 10 Special Damage to 2 of your opponent's back holomem." }
       }
     ],
     "arts": [
@@ -28241,7 +28475,7 @@
         "cheers": [ "blue", "colorless" ],
         "name": { "jp": null, "en": "So you'll feel better" },
         "power": "40",
-        "text": { "en": "Deal 10 special damage to 2 of your opponent's back holomem." }
+        "text": { "en": "Deal 10 Special Damage to 2 of your opponent's back holomem." }
       }
     ],
     "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
@@ -28283,7 +28517,7 @@
         "power": "120",
         "advantage": [ "white", 50 ],
         "text": {
-          "en": "You may archive 2 cheers from this holomem:Deal 30 special damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
+          "en": "You may archive 2 cheers from this holomem:Deal 30 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
         }
       }
     ],
@@ -28308,6 +28542,50 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-049_UR.webp", "en": null },
         "img_hash": "v2|H32=VJSjqrBKm7O5q9h0TLPt3E8mpsRaxSNmkG1qGaU8ZBsunRJJSmfBVrS1tbQWiyWVtNJRqEXbLVfXpslqWVqttllrTYs|CYM=2B2C12",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-050": {
+    "card_number": "hBP05-050",
+    "name": { "jp": "フワワ・アビスガード", "en": "Fuwawa Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Mogojaaan!!!" },
+        "text": {
+          "en": "[Center position only]When you use your Oshi skill \"Moco-chan!\", send the top card of your cheer deck to your holomem with #Advent."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Keyboard Crusher" },
+        "power": "100+",
+        "text": {
+          "en": "If your <Mococo Abyssgard> has performed Arts this turn, this Arts gets +40. If you have also used your Oshi skill \"Moco-chan!\" this turn, this Arts gets +30."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get Life-2" },
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-050",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-050_R.webp", "en": null },
+        "img_hash": "v2|H32=zKyNqs8qytbyUmDdMpE0qzSptJU8U0pVWlNKQUqtUirJLVZqVakPV6tS0LZgCenAKlsq+bK06VrqGlDQ8lXwKIrTcqk|CYM=132824",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -28475,7 +28753,7 @@
         "name": { "jp": null, "en": "A glamorous banquet" },
         "power": "40",
         "text": {
-          "en": "You may archive 1 card from your hand:Deal 20 special damage to your opponent's center holomem or collab holomem."
+          "en": "You may archive 1 card from your hand:Deal 20 Special Damage to your opponent's center holomem or collab holomem."
         }
       }
     ],
@@ -28676,6 +28954,49 @@
       }
     ]
   },
+  "hBP05-073": {
+    "card_number": "hBP05-073",
+    "name": { "jp": "アユンダ・リス", "en": "Ayunda Risu" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "BRRRR" },
+        "text": {
+          "en": "Look at the top 3 cards of your cheer deck. Reveal 1 cheer from among them, and send it to your <Ayunda Risu>. Then, return the remaining cards to the bottom of the cheer deck in any order. Then, draw 1 card from your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "IT's Time to RE4GE!!!!!" },
+        "power": "50+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "If your Oshi holomem is <Ayunda Risu>, this Arts gets +10 for each cheer attached to your holomem with #ID Gen 1. However, only up to 10 cheers are counted."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Kemomimi" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-073",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-073_R.webp", "en": null },
+        "img_hash": "v2|H32=yrqpqq2aPe+vmWzPj2lr2q5kUtVSNVJVUlVWMPYytBototZPU+VIoaqqqPCkW6XyWhuoeqpSKrSUk5Sqak2oWqZOgsU|CYM=041D34",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-075": {
     "card_number": "hBP05-075",
     "name": { "jp": "牛丼", "en": "Gyudon" },
@@ -28739,6 +29060,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-077_U.webp", "en": null },
         "img_hash": "v2|H32=WE3LatBNSGWrZHR3JrY0sreaNJqjKLQJrIgqtW+XZpMvlRJVRIesmr/gLZuqKC2aOjipKovvqWgOPsGD6ksvmw6PPjg|CYM=04131D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-078": {
+    "card_number": "hBP05-078",
+    "name": { "jp": "晩酌配信", "en": "Drinking stream" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #Alcohol from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-078",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-078_U.webp", "en": null },
+        "img_hash": "v2|H32=0KypKtQyaldrU1RTL2snrNWqxLorstqSq5KrlZeElKSupZJFsfgtmjr4LZsbPi2aD8PpKssviS4KH+k4iwfg0wrW4h0|CYM=0A1314",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -31694,7 +32038,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のホロメン1人を選ぶ。選んだホロメンのHP20回復。自分のステージに#料理を持つホロメンがいる時、さらに、このターンの間、選んだホロメンのアーツ+20。",
-      "en": "Choose one of your holomem. Restore 20 HP to that holomem. If there are any holomem with #Cooking on your stage, during this turn the chosen holomem gets Arts+20."
+      "en": "Choose one of your holomem. Restore 20 HP to that holomem. If there are any holomem with #Cooking on your stage, during this turn the chosen holomem also gets Arts+20."
     },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
     "max_amount": { "jp": 4 },
