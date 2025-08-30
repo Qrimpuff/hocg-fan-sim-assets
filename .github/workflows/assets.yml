@@ -22,9 +22,8 @@ jobs:
       
       - name: Copy cards info
         run: |
-          mkdir assets --parents
           git fetch origin gh-pages:gh-pages --force
-          git show gh-pages:hocg_cards.json > assets/hocg_cards.json
+          git worktree add assets gh-pages
         
       - name: Run
         env:
@@ -37,5 +36,5 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: assets # The folder the action should deploy.
-          clean: false
+          clean: true
           commit-message: 'Update assets'
