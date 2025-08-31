@@ -18,8 +18,9 @@ use hocg_fan_sim_assets_cli::{
         utils::is_similar, zip_images,
     },
     price_check::{tcgplayer, yuyutei},
+    qna::{generate_qna, retrieve_qna_from_ogbajoj_sheet},
 };
-use hocg_fan_sim_assets_model::CardsDatabase;
+use hocg_fan_sim_assets_model::{CardsDatabase, QnaDatabase};
 use itertools::Itertools;
 use json_pretty_compact::PrettyCompactFormatter;
 use serde::Serialize;
@@ -102,13 +103,17 @@ struct Args {
     /// Remove unused assets
     #[arg(long)]
     gc: bool,
+
+    /// Generate Q&A file from official sources. Does not rely on asset files.
+    /// Compatible with --clean and --ogbajoj-sheet.
+    /// Doesn't update assets.
+    #[arg(long)]
+    qna: bool,
 }
 
 fn main() {
     dotenvy::dotenv().ok();
     let args = Args::parse();
-
-    let mut all_cards: CardsDatabase = CardsDatabase::new();
 
     // create a temporary folder for the zip file content
     let temp = args.zip_images.then_some(TempDir::new().unwrap());
@@ -119,8 +124,50 @@ fn main() {
     };
 
     let card_mapping_file = assets_path.join("hocg_cards.json");
+    let qna_mapping_file = assets_path.join("hocg_qnas.json");
     let images_jp_path = assets_path.join("img");
     let images_en_path = assets_path.join("img_en");
+
+    // Q&As
+    if args.qna {
+        let mut all_qnas: QnaDatabase = QnaDatabase::new();
+
+        // load file
+        if !args.clean
+            && let Ok(s) = fs::read_to_string(&qna_mapping_file)
+        {
+            all_qnas = serde_json::from_str(&s).unwrap();
+        }
+
+        // import Q&As
+        // TODO no English yet on official site, not sure how it will map
+        [Language::Japanese]
+            .into_iter()
+            .filter(|language| args.language == Language::All || args.language == *language)
+            .for_each(|language| {
+                generate_qna(&mut all_qnas, language.into());
+            });
+
+        // import from ogbajoj
+        if args.ogbajoj_sheet {
+            retrieve_qna_from_ogbajoj_sheet(&mut all_qnas);
+        }
+
+        // save file
+        if let Some(parent) = Path::new(&qna_mapping_file).parent() {
+            fs::create_dir_all(parent).unwrap();
+        }
+        let mut json = vec![];
+        let formatter = PrettyCompactFormatter::new();
+        let mut ser = Serializer::with_formatter(&mut json, formatter);
+        all_qnas.serialize(&mut ser).unwrap();
+        fs::write(&qna_mapping_file, json).unwrap();
+
+        println!("done");
+        return;
+    }
+
+    let mut all_cards: CardsDatabase = CardsDatabase::new();
 
     // load file
     if !args.clean
@@ -253,6 +300,7 @@ fn main() {
             &all_cards,
             &args.assets_path,
             &card_mapping_file,
+            &qna_mapping_file,
             &images_jp_path,
             &images_en_path,
         );
@@ -276,12 +324,14 @@ fn garbage_collection(
     all_cards: &CardsDatabase,
     assets_path: &Path,
     card_mapping_file: &Path,
+    qna_mapping_file: &Path,
     images_jp_path: &Path,
     images_en_path: &Path,
 ) {
     println!("Running garbage collection...");
 
-    let mut required_paths = HashSet::from([card_mapping_file.to_owned()]);
+    let mut required_paths =
+        HashSet::from([card_mapping_file.to_owned(), qna_mapping_file.to_owned()]);
     required_paths.extend(
         all_cards
             .values()

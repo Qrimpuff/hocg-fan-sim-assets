@@ -105,12 +105,22 @@ Options:
   
       --official-hololive
           Use the official holoLive website to import missing/unreleased cards data
+
+      --language <LANGUAGE>
+          The language of the cards or Q&A to import [default: all]
+          Possible values:
+          - all: Process both Japanese and English where available
+          - japanese: Only Japanese
+          - english: Only English
   
       --ogbajoj-sheet
           Use ogbajoj's sheet to import English translations
   
       --gc
           Remove unused assets
+
+      --qna
+          Generate Q&A file from official sources. Compatible with --clean and --ogbajoj-sheet. Does not update cards/assets other than hocg_qnas.json
   
   -h, --help
           Print help
@@ -156,11 +166,17 @@ Options:
    ```
    This example demonstrates daily automated asset generation (runs at 15:00 UTC/00:00 JST). It preserves existing 
    data from gh-pages branch before updating with fresh card information from all sources, then deploys to GitHub Pages.
+   
+7) Generate JP Q&As plus English translations from @ogbajoj's sheet:
+   ```
+   cargo run --release -- --qna --ogbajoj-sheet
+   ```
 
 ## Directory Structure
 
 - `assets/` - Output directory for all generated assets
   - `hocg_cards.json` - Complete card database
+  - `hocg_qnas.json` - Generated questions & answers database
   - `img/` - Downloaded card images (Japanese)
   - `img_en/` - Proxy card images (English)
 

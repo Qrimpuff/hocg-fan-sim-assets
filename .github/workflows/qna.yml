@@ -1,0 +1,40 @@
+name: Generate Q&As
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Run twice a day at 04:00 and 16:00 UTC / 13:00 and 01:00 JST
+  schedule:
+    - cron: '0 4,16 * * *'
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Fetch existing Q&As
+        run: |
+          git fetch origin gh-pages:gh-pages --force
+          git worktree add --detach assets gh-pages
+        
+      - name: Run
+        env:
+          SCRAPERAPI_API_KEY: ${{ secrets.SCRAPERAPI_API_KEY }}
+          GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
+        run: cargo run --release -- --skip-update --qna --ogbajoj-sheet
+        
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: assets # The folder the action should deploy.
+          clean: true
+          commit-message: 'Update Q&As'

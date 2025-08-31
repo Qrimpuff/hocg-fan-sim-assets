@@ -1,4 +1,5 @@
 use std::collections::BTreeMap;
+use std::ops::Deref;
 use std::{cmp::Ordering, num::ParseIntError};
 
 use serde::ser::SerializeStruct;
@@ -721,5 +722,52 @@ impl Ord for Card {
 impl PartialOrd for Card {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         Some(self.cmp(other))
+    }
+}
+
+pub type QnaDatabase = BTreeMap<NaturalQnaNumberOrder, Qna>;
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[serde(rename_all = "snake_case")]
+#[serde(default)]
+pub struct Qna {
+    pub qna_number: String,
+    pub date: Option<String>, // YYYY-MM-DD
+    #[serde(serialize_with = "Localized::full_serialize")]
+    pub question: Localized<String>,
+    #[serde(serialize_with = "Localized::full_serialize")]
+    pub answer: Localized<String>,
+    #[serde(skip_serializing_if = "is_default")]
+    pub referenced_cards: Vec<String>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+pub struct NaturalQnaNumberOrder(String);
+
+impl Deref for NaturalQnaNumberOrder {
+    type Target = String;
+
+    fn deref(&self) -> &Self::Target {
+        &self.0
+    }
+}
+
+impl PartialOrd for NaturalQnaNumberOrder {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
+impl Ord for NaturalQnaNumberOrder {
+    fn cmp(&self, other: &Self) -> Ordering {
+        let self_num = self.0.trim_start_matches('Q').parse::<u32>().unwrap_or(0);
+        let other_num = other.0.trim_start_matches('Q').parse::<u32>().unwrap_or(0);
+        self_num.cmp(&other_num)
+    }
+}
+
+impl From<String> for NaturalQnaNumberOrder {
+    fn from(value: String) -> Self {
+        Self(value)
     }
 }

@@ -388,7 +388,7 @@ pub mod ogbajoj {
     #[serde(rename_all = "camelCase")]
     pub struct SheetProperties {
         pub sheet_id: u64,
-        // pub title: String,
+        pub title: String,
     }
     #[derive(Debug, Deserialize, Serialize)]
     pub struct SheetCard {
