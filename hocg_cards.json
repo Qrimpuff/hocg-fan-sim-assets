@@ -34709,6 +34709,26 @@
       }
     ]
   },
+  "hY01-007": {
+    "card_number": "hY01-007",
+    "name": { "jp": "白エール", "en": "White Cheer" },
+    "card_type": "cheer",
+    "colors": [ "white" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY01-007",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY01-007_SY.webp", "en": null },
+        "img_hash": "v2|H32=UlXLslCVrDQNiy3LrUkWyyfNtGRVLqW8rSxSqq8wysxSM1JRk2SZVJMknSxpS7elRdIlSS2pTZJ0021aqbZFrzZJy1I|CYM=12100B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY01-008": {
     "card_number": "hY01-008",
     "name": { "jp": "白エール", "en": "White Cheer" },
@@ -34875,6 +34895,26 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10028",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hY02-006": {
+    "card_number": "hY02-006",
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
+    "card_type": "cheer",
+    "colors": [ "green" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY02-006",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY02-006_SY.webp", "en": null },
+        "img_hash": "v2|H32=rKoydauqLMtTVVI1NEuStCw1rEtMU2BNUnPJ3jI1xa4wVbSqTlVLL9ku0kI1qrC0lZZqWUkrNkkpSbJVqpVSNIlKclU|CYM=54135A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -35095,6 +35135,26 @@
       }
     ]
   },
+  "hY03-009": {
+    "card_number": "hY03-009",
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
+    "card_type": "cheer",
+    "colors": [ "red" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY03-009",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY03-009_SY.webp", "en": null },
+        "img_hash": "v2|H32=rKoczauqs6JSRVAxUM5MG0wT7c4UMdJMknWwPFJFzbJ8U+yyWlULLYWL0mhZKlabtLSiVUvK0lqqZSpVelRSWo+WMmU|CYM=03696E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY03-011": {
     "card_number": "hY03-011",
     "name": { "jp": "赤エール", "en": "Red Cheer" },
@@ -35264,6 +35324,26 @@
       }
     ]
   },
+  "hY04-006": {
+    "card_number": "hY04-006",
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
+    "card_type": "cheer",
+    "colors": [ "blue" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY04-006",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY04-006_SY.webp", "en": null },
+        "img_hash": "v2|H32=rKrUMKuqL6NTVWNRNGbSRlRbvK5WdUxZGnXJGFJRsMxUM7yiM1VLS9WylpclqTZpn6JiWdu20rQmSXJVylRy0duyUlU|CYM=5E3206",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY04-007": {
     "card_number": "hY04-007",
     "name": { "jp": "青エール", "en": "Blue Cheer" },
@@ -35408,6 +35488,26 @@
       }
     ]
   },
+  "hY05-005": {
+    "card_number": "hY05-005",
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
+    "card_type": "cheer",
+    "colors": [ "purple" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY05-005",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY05-005_SY.webp", "en": null },
+        "img_hash": "v2|H32=rqpP26uutChW15YkUltM09Q0actEMdPMfFPEJNJFOMvWNaSqs127tVuSaFm1rJZprWnSlteSYEnbdiJ1LW3W0laSSlU|CYM=0B4A19",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY05-007": {
     "card_number": "hY05-007",
     "name": { "jp": "紫エール", "en": "Purple Cheer" },
@@ -35525,6 +35625,26 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10032",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hY06-005": {
+    "card_number": "hY06-005",
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
+    "card_type": "cheer",
+    "colors": [ "yellow" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY06-005",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY06-005_SY.webp", "en": null },
+        "img_hash": "v2|H32=rKoylauqrKpSVUtTtNHD0AxZrKhWU1sNVHbYihZ1rLI01KyqalVLthco0nSVqrRpVstiXb1k0ltKpdJValVyRZsscG0|CYM=0B188D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
