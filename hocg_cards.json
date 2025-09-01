@@ -1059,7 +1059,7 @@
         "img_path": { "jp": "hPR/hBD24-026_P.webp", "en": null },
         "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:54 GMT" },
         "img_hash": "v2|H32=rlIe1a9qWrbFpZoiWKWnWlT1OweEWFu1pmpJtaZqWZWmTLSqrVKrVWqqKI2VVWqtKFVKralUWi0qVWrValUqVUp1q1U|CYM=1E2A06",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10026",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -1100,7 +1100,7 @@
         "img_path": { "jp": "hPR/hBD24-027_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 27 Jun 2025 02:21:10 GMT" },
         "img_hash": "v2|H32=tF6braNJvJhLqeRyta2TIlRGKbW22kuVptpR1bJuaSWabJSqrVRLtJqqieVlkrKr21TSIqpVWgrSVKpwttV0VdJsqlU|CYM=522C08",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10027",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -1141,7 +1141,7 @@
         "img_path": { "jp": "hPR/hBD24-028_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 27 Jun 2025 02:21:10 GMT" },
         "img_hash": "v2|H32=GGY5TjNkEpVLparZpZG2Wvhq8xLiJtTkdjJVlWbqSdsKq7SqqFbr6SOvmFpVUVmbq0rKoA9UdGmqV0m2VVmvq8skizY|CYM=166C67",
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10028",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -28868,6 +28868,107 @@
       }
     ]
   },
+  "hBP05-063": {
+    "card_number": "hBP05-063",
+    "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Chilling at home" },
+        "text": {
+          "en": "You may archive 1 cheer from this holomem:Reveal 1 Debut hoplomem from your deck with a different name from all holomem on your stage, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Do you want to play games with me?" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-063",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-063_U.webp", "en": null },
+        "img_hash": "v2|H32=Kqppra+atKuPMKsThiwjtkrNcKZSqWDUUjPWRFhWdiS9UrZGVKVYIipaqbKlylTZ+VQq1a1KQqlKNaVSUqYka622oNU|CYM=091D2B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-064": {
+    "card_number": "hBP05-064",
+    "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 80,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Canvas" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 2 Debut holomem with different names from your deck, and add them to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Happy place" }, "power": "10" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-064",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-064_C.webp", "en": null },
+        "img_hash": "v2|H32=5qoZL+uojKsZX+fhGJdzSspXcKrWdFoVVu2+1VZh5MWOUrQuLXVKtVLqltKtpGrNWi1S21I6Upq5WiRJrdalaY2qtEs|CYM=281621",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-065": {
+    "card_number": "hBP05-065",
+    "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Lucky stone" },
+        "text": {
+          "en": "[Collab position only][1/turn]If your other holomem would take Damage from your opponent, you may roll a die once:If it is odd, that holomem takes -40 damage. If it is even, that holomem takes -20 damage."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "That's a lie!" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-065",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-065_U.webp", "en": null },
+        "img_hash": "v2|H32=quktuq2rPe4v66vmS1PbOcKRUl3SVVBEkgVSXdK8dBm0TPYlWTVcKauqqtI2mxXbpdHQmmpbqVqXq1Kl6SppKKJFlkI|CYM=091324",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-070": {
     "card_number": "hBP05-070",
     "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
@@ -33243,6 +33344,17 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD07-002_HR.webp", "en": null },
         "img_hash": "v2|H32=cMaaKnfmZqaSOO28nFmMmYyTRmbInWJ2a6RyRavKVmeMGaRS0qqqFVJVVarp+qm1AlVZqG3apfSSRUK73bINyisVUik|CYM=122537",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD07-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD07-002_C.webp", "en": null },
+        "img_hash": "v2|H32=wumjqq2jbeotog2uy0wahcIVWl0WkfIRcl92s/Y0skY08taXtc20aNq6WqpaaUutJq2qtKpUi1KrWqRIjwrLoqapIJs|CYM=0C1524",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
