@@ -12,3 +12,14 @@ impl TrimOnce for str {
         self.strip_suffix(pat).unwrap_or(self)
     }
 }
+
+pub fn sanitize_filename(filename: &str) -> String {
+    filename
+        .chars()
+        .map(|c| match c {
+            '<' | '>' | ':' | '"' | '|' | '?' | '*' | '\\' | '/' => '_',
+            c if c.is_control() => '_',
+            c => c,
+        })
+        .collect()
+}

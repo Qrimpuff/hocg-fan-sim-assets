@@ -623,10 +623,12 @@ pub mod ogbajoj {
 
             // Extra
             let extra_lines = extract_sections(&mut text_lines, &["Extra"]);
-            let extra = extra_lines
+            let mut extra = extra_lines
                 .into_iter()
                 .filter_map(|lines| self.to_extra(card, lines))
                 .next();
+            // fix the card if needed
+            overwrite_extra_fix(card, &mut extra);
             update_extra(card, extra, Language::English);
 
             // Ability text
@@ -882,6 +884,15 @@ pub mod ogbajoj {
                 .filter(|s| !s.is_empty())
                 .map(|s| Localized::en(format!("#{s}")))
                 .collect()
+        }
+    }
+
+    fn overwrite_extra_fix(card: &Card, extra: &mut Option<Extra>) {
+        // Fix hSD09-003 Houshou Marine does have extra text
+        if card.card_number == "hSD09-003" {
+            *extra = Some(Localized::en(
+                "If this holomem is downed, you get Life-2".into(),
+            ));
         }
     }
 
@@ -1421,6 +1432,11 @@ pub mod hololive_official {
         // Fix hSD01-002 AZKi oshi card color (the official EN db has a bug)
         if card.card_number == "hSD01-002" {
             card.colors = vec![Color::Green];
+        }
+
+        // Fix hSD08-002 Amane Kanata does not have extra text
+        if card.card_number == "hSD08-002" {
+            card.extra = None;
         }
     }
 

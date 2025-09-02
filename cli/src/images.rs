@@ -26,6 +26,7 @@ use crate::{
         DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, path_to_image_hash,
         to_image_hash,
     },
+    utils::sanitize_filename,
 };
 
 const PROXIES_FOLDER: &str = "proxies";
@@ -742,7 +743,7 @@ pub fn download_images_from_ogbajoj_sheet(
 
                             let mut _adding = false;
                             let mut img_unreleased = Path::new(UNRELEASED_FOLDER)
-                                .join(format!("{}_{}.webp", set_code, rarity));
+                                .join(sanitize_filename(&format!("{}_{}.webp", set_code, rarity)));
                             {
                                 // Find the card or create
                                 let mut all_cards = all_cards.write();
@@ -820,7 +821,10 @@ pub fn download_images_from_ogbajoj_sheet(
                                             .unwrap_or(false)
                                     }) {
                                         img_unreleased = Path::new(UNRELEASED_FOLDER).join(
-                                            format!("{}_{}_{}.webp", set_code, rarity, counter),
+                                            sanitize_filename(&format!(
+                                                "{}_{}_{}.webp",
+                                                set_code, rarity, counter
+                                            )),
                                         );
                                         counter += 1;
                                     }
