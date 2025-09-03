@@ -4414,7 +4414,7 @@
         "rarity": "HR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-032_HR.webp", "en": null },
-        "img_hash": "v2|H32=MOqlqsYqes3EMM2ZscqlOy0yOORvZFo120xSXZKbdtosm6RVLdCmD0pa2qJarbKpslMqS1q1WiimQzbLWvXbNCRbtEk|CYM=0F161E",
+        "img_hash": "v2|H32=cMy1Kl5HaIyEc4k4NcqdeyU3MoZO1Vo02sxWZbs7NpElm6RXtVi2S6laW6JZt62ptslVLUs6aamoRTQpVqtZpkuWJcs|CYM=12252E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -6617,7 +6617,7 @@
         "rarity": "HR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-068_HR.webp", "en": null },
-        "img_hash": "v2|H32=sm2QyjRMszNVWsw0hTbMSMy1kXFKqWjVGzNmxZknUjUty9hWbaUkSSpT3ZLpLbStS1J5eNRSJam2JEmySye2aCVp6dI|CYM=142D1E",
+        "img_hash": "v2|H32=sCySyjZMsTpVSsw4tTLNaMw1knNKmTrVm7Ni1YmWUrVtydBUJK0kWSpRXapJLaSlS1ZVaNTKrampFEmy2yqUainRLdE|CYM=0F3034",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -13520,7 +13520,7 @@
         "rarity": "HR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP02-065_HR.webp", "en": null },
-        "img_hash": "v2|H32=qK6MqjaaqWwjEytSy2SHc06ekygkCVqdrGpmzWySJlcMFbpStGmtVWlabbpJ1UvTiZa0rWnVS2ulVqRLy7ZpqSWJsZY|CYM=071C1F",
+        "img_hash": "v2|H32=VEyRGbZLye6tOq1qW6qtO1LVUwxklTrlZG5qta1ldtWtlNJSRa2lVWlrXbrVtEumpEslvWnSSSqhFhUtaaptm90uldY|CYM=1A291B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -29113,7 +29113,7 @@
         "type": "gift",
         "name": { "jp": null, "en": "Colorful Stream" },
         "text": {
-          "en": "When this holomem uses Arts, you may reattach 2 cheers from this holomem to 1 of your back holomem. Then, return 1 holomem from your archive with the same name as the holomem that received the cheers to your hand."
+          "en": "When this holomem uses Arts, you may reattach 2 cheers from this holomem to 1 of your back holomem. Then, return 1 1st holomem from your archive with the same name as the holomem that received the cheers to your hand."
         }
       }
     ],
@@ -29278,6 +29278,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-073_R.webp", "en": null },
         "img_hash": "v2|H32=yrqpqq2aPe+vmWzPj2lr2q5kUtVSNVJVUlVWMPYytBototZPU+VIoaqqqPCkW6XyWhuoeqpSKrSUk5Sqak2oWqZOgsU|CYM=041D34",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-074": {
+    "card_number": "hBP05-074",
+    "name": { "jp": "フレンドリーパソコン", "en": "Friendly PC" },
+    "card_type": { "support": "item" },
+    "text": {
+      "en": "Reveal 1~2 Debut holomem with the Extra text \"You may include any number of this holomem in the deck\" from your deck, and place them on stage. Then, shuffle the deck. If you placed 2 holomem, return 1 card from your hand to the bottom of the deck."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-074",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-074_C.webp", "en": null },
+        "img_hash": "v2|H32=0qqjqtWqqaorXCtVK1UqVepVVFcUKlSqVCpULlZcXFVcVVJdB8stooKHLeoPyy3q/j7hKvD44Wv4cOAb+HjgA/B44Hk|CYM=201E0D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
