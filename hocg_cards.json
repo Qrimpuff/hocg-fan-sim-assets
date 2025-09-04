@@ -28684,6 +28684,138 @@
       }
     ]
   },
+  "hBP05-052": {
+    "card_number": "hBP05-052",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Secret Infirmary" },
+        "text": {
+          "en": "If there are any events in your archive, deal 10 Special Damage to your opponent's center holomem."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "purple" ], "name": { "jp": null, "en": "How about a lap pillow?" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-052",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-052_U.webp", "en": null },
+        "img_hash": "v2|H32=imtjWo26tOylsr2mMiVJq1JXW0lmXdI0tt0mMVi2NJNtC6RmSnWodKnaUpuSpQ7b5bqSpmLLatm2ularyWqKNKQrUik|CYM=151E12",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-053": {
+    "card_number": "hBP05-053",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 80,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "suusuu..." },
+        "text": {
+          "en": "If you are going second, this is your first turn, and your Oshi holomem is <Yuzuki Choco>, draw 2 cards from your deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Gimme a squeeze?" }, "power": "10" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-053",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-053_C.webp", "en": null },
+        "img_hash": "v2|H32=qrZWLKnKcyW0aqlTVKwpSVLSmZZu1ZTappVMKbYW7KlOO6yqUlVWqamrWtGtlUqltdqtdFVKStYkqWnd0KSl2dPSmlY|CYM=113523",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-054": {
+    "card_number": "hBP05-054",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Gachi?" },
+        "power": "30",
+        "text": {
+          "en": "If you have used 2 or more events with #Food this turn, this Arts can be used with no cheer requirement."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-054",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-054_U.webp", "en": null },
+        "img_hash": "v2|H32=aK4tqsSiO5bSSLZUOyX2aLc3aa1WSxqXSolaV7KUTKVSVlpacG0spVqqoEuH1rWkLclaqWsuyZa2FmXJtaugbWlaoG0|CYM=172016",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-055": {
+    "card_number": "hBP05-055",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Sleep aid demon" },
+        "text": {
+          "en": "[Center position only]At the end of your opponent's performance phase, if this holomem is undamaged, you may send the top card of your cheer deck to your <Yuzuki Choco>."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "purple" ], "name": { "jp": null, "en": "aaahhh" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-055",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-055_R.webp", "en": null },
+        "img_hash": "v2|H32=Cuszqpm6pautOuS6rGV6ZPKkekVSSVKRHllGlXgUXoVrpJZ0k6Tw0qZSJttoq2mpSavZtrbbplq0UGRJii8KKWqpIpE|CYM=08221D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-056": {
     "card_number": "hBP05-056",
     "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
@@ -31908,6 +32040,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10017",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD04-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD04-002_C.webp", "en": null },
+        "img_hash": "v2|H32=KtNcahdpqZbULKeNrZZSSWiZE1dKbTIss8dMdJbKcNMMGuhStMhSLVqkrdJppbZlqVKt1tpKoWokSUmqtq2LlmpVsm0|CYM=0C2516",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
