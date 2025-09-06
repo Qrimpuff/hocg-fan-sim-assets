@@ -411,9 +411,10 @@ pub mod ogbajoj {
     impl SheetCard {
         fn update_card(&self, card: &mut Card) {
             let card_number = card.card_number.clone();
+            let released = card.illustrations.iter().any(|i| i.manage_id.has_value());
 
             // don't overwrite if it already exists
-            if card.card_number.is_empty() {
+            if card.card_number.is_empty() || !released {
                 card.card_number = self.set_code.clone();
             } else {
                 // warn if the card number is different
@@ -425,7 +426,7 @@ pub mod ogbajoj {
                 }
             }
             let name = self.name();
-            if card.name.japanese.is_none() {
+            if card.name.japanese.is_none() || !released {
                 card.name.japanese = name.japanese.as_ref().map(|n| n.replace("\n", " "));
             } else {
                 // warn if the name is different (ignore names that are split)
@@ -439,7 +440,7 @@ pub mod ogbajoj {
                 }
             }
             card.name.english = name.english.clone();
-            if card.card_type == Default::default() {
+            if card.card_type == Default::default() || !released {
                 card.card_type = self.card_type();
             } else {
                 // warn if the card type is different
@@ -451,7 +452,7 @@ pub mod ogbajoj {
                     );
                 }
             }
-            if card.colors.is_empty() {
+            if card.colors.is_empty() || !released {
                 card.colors = self.colors();
             } else {
                 // warn if the colors are different
@@ -466,7 +467,7 @@ pub mod ogbajoj {
                 }
             }
             if card.card_type == CardType::OshiHoloMember {
-                if card.life == 0 {
+                if card.life == 0 || !released {
                     card.life = self.life_hp.parse().unwrap_or_default();
                 } else {
                     // warn if the life is different
@@ -479,7 +480,7 @@ pub mod ogbajoj {
                     }
                 }
             } else if card.card_type == CardType::HoloMember {
-                if card.hp == 0 {
+                if card.hp == 0 || !released {
                     card.hp = self.life_hp.parse().unwrap_or_default();
                 } else {
                     // warn if the hp is different
@@ -492,7 +493,7 @@ pub mod ogbajoj {
                     }
                 }
             }
-            if card.bloom_level == Default::default() {
+            if card.bloom_level == Default::default() || !released {
                 card.bloom_level = self.bloom_level();
                 card.buzz = self.buzz();
                 card.limited = self.limited();
@@ -522,13 +523,13 @@ pub mod ogbajoj {
                     );
                 }
             }
-            self.update_card_text(card);
+            self.update_card_text(card, released);
             // there is no japanese text in the sheet
             // update existing tags (tags consistency check)
-            update_tags(card, self.tags(), Language::English);
+            update_tags(card, self.tags(), Language::English, released);
             // there is no baton pass in the sheet
             // there is no max amount in the sheet, add default max amount
-            if card.max_amount.japanese.unwrap_or_default() == 0 {
+            if card.max_amount.japanese.unwrap_or_default() == 0 || !released {
                 card.max_amount.japanese = Some(match card.card_type {
                     CardType::OshiHoloMember => 1,
                     CardType::Cheer => 20,
@@ -551,7 +552,7 @@ pub mod ogbajoj {
             }
         }
 
-        fn update_card_text(&self, card: &mut Card) {
+        fn update_card_text(&self, card: &mut Card, released: bool) {
             let text = self.text();
             let mut text_lines = text.lines().map(|l| l.trim()).collect_vec();
 
@@ -602,7 +603,7 @@ pub mod ogbajoj {
                 .filter_map(|lines| self.to_oshi_skill(card, lines))
                 .collect_vec();
             // dbg!(&oshi_skills);
-            update_oshi_skills(card, oshi_skills, Language::English);
+            update_oshi_skills(card, oshi_skills, Language::English, released);
 
             // Keywords
             let keywords_lines =
@@ -611,7 +612,7 @@ pub mod ogbajoj {
                 .into_iter()
                 .filter_map(|lines| self.to_keyword(card, lines))
                 .collect_vec();
-            update_keywords(card, keywords, Language::English);
+            update_keywords(card, keywords, Language::English, released);
 
             // Arts
             let arts_lines = extract_sections(&mut text_lines, &["Arts"]);
@@ -619,7 +620,7 @@ pub mod ogbajoj {
                 .into_iter()
                 .filter_map(|lines| self.to_art(card, lines))
                 .collect_vec();
-            update_arts(card, arts, Language::English);
+            update_arts(card, arts, Language::English, released);
 
             // Extra
             let extra_lines = extract_sections(&mut text_lines, &["Extra"]);
@@ -629,7 +630,7 @@ pub mod ogbajoj {
                 .next();
             // fix the card if needed
             overwrite_extra_fix(card, &mut extra);
-            update_extra(card, extra, Language::English);
+            update_extra(card, extra, Language::English, released);
 
             // Ability text
             card.ability_text.english = text_lines
@@ -1158,7 +1159,7 @@ pub mod hololive_official {
                     }
                 }
                 "タグ" | "tag" => {
-                    update_tags(card, tags_from_str(value, language), language);
+                    update_tags(card, tags_from_str(value, language), language, false);
                 }
                 "色" | "color" => card.colors = colors_from_str(value),
                 "life" => card.life = value.parse().unwrap_or_default(),
@@ -1207,6 +1208,7 @@ pub mod hololive_official {
                 .next()
                 .map(|c| Localized::new(language, c.text().collect::<String>())),
             language,
+            false,
         );
     }
 
@@ -1252,7 +1254,7 @@ pub mod hololive_official {
             oshi_skills.push(oshi_skill);
         }
         // replace existing skills. will need to import english skills later
-        update_oshi_skills(card, oshi_skills, language);
+        update_oshi_skills(card, oshi_skills, language, false);
     }
 
     fn update_card_keywords(
@@ -1316,7 +1318,7 @@ pub mod hololive_official {
             keywords.push(keyword);
         }
         // replace existing keywords. will need to import english keywords later
-        update_keywords(card, keywords, language);
+        update_keywords(card, keywords, language, false);
     }
 
     fn update_card_arts(card: &mut Card, hololive_card: &scraper::ElementRef, language: Language) {
@@ -1388,7 +1390,7 @@ pub mod hololive_official {
             arts.push(art);
         }
         // replace existing arts. will need to import english arts later
-        update_arts(card, arts, language);
+        update_arts(card, arts, language, false);
     }
 
     fn update_card_illustrations(
@@ -1566,22 +1568,37 @@ pub mod hololive_official {
     }
 }
 
-fn update_oshi_skills(card: &mut Card, mut oshi_skills: Vec<OshiSkill>, language: Language) {
-    // If the number of sheet oshi skills is different from the original, warn
-    if !card.oshi_skills.is_empty() && oshi_skills.len() != card.oshi_skills.len() {
-        eprintln!(
-            "Warning: {} has a different number of oshi skills than in the original card: {} should be {}",
-            card.card_number,
-            oshi_skills.len(),
-            card.oshi_skills.len()
-        );
+fn update_oshi_skills(
+    card: &mut Card,
+    mut oshi_skills: Vec<OshiSkill>,
+    language: Language,
+    only_text: bool,
+) {
+    let orig_oshi_skills = &mut card.oshi_skills;
+    let new_oshi_skills = &mut oshi_skills;
+    let mut copy_language = language;
+
+    if only_text {
+        // If the number of sheet oshi skills is different from the original, warn
+        if new_oshi_skills.len() != orig_oshi_skills.len() {
+            eprintln!(
+                "Warning: {} has a different number of oshi skills than in the original card: {} should be {}",
+                card.card_number,
+                new_oshi_skills.len(),
+                orig_oshi_skills.len()
+            );
+        }
+    } else {
+        // Use the new oshi skills as base and copy the other language from the original
+        copy_language = match language {
+            Language::Japanese => Language::English,
+            Language::English => Language::Japanese,
+        };
+        // Fully replace the original oshi skills with the new ones
+        std::mem::swap(orig_oshi_skills, new_oshi_skills);
     }
 
-    // Apply text to original card oshi skills, matching by holo power if possible
-    for (mut new_skill, orig_skill) in oshi_skills
-        .drain(..card.oshi_skills.len().min(oshi_skills.len()))
-        .zip(card.oshi_skills.iter_mut())
-    {
+    for (orig_skill, new_skill) in orig_oshi_skills.iter_mut().zip(new_oshi_skills.iter_mut()) {
         if orig_skill.special != new_skill.special {
             eprintln!(
                 "Warning: {} oshi skill special mismatch: {} should be {}",
@@ -1598,31 +1615,44 @@ fn update_oshi_skills(card: &mut Card, mut oshi_skills: Vec<OshiSkill>, language
             );
         }
 
-        *orig_skill.name.value_mut(language) = new_skill.name.value_mut(language).take();
-        *orig_skill.ability_text.value_mut(language) =
-            new_skill.ability_text.value_mut(language).take();
+        // Update the text in the specified language
+        *orig_skill.name.value_mut(copy_language) = new_skill.name.value_mut(copy_language).take();
+        *orig_skill.ability_text.value_mut(copy_language) =
+            new_skill.ability_text.value_mut(copy_language).take();
     }
-
-    // If the number of oshi skills is greater than the original, add the remaining skills
-    card.oshi_skills.append(&mut oshi_skills);
 }
 
-fn update_keywords(card: &mut Card, mut keywords: Vec<Keyword>, language: Language) {
-    // If the number of keywords is different from the original, warn
-    if !card.keywords.is_empty() && keywords.len() != card.keywords.len() {
-        eprintln!(
-            "Warning: {} has a different number of keywords than in the original card: {} should be {}",
-            card.card_number,
-            keywords.len(),
-            card.keywords.len()
-        );
+fn update_keywords(
+    card: &mut Card,
+    mut keywords: Vec<Keyword>,
+    language: Language,
+    only_text: bool,
+) {
+    let orig_keywords = &mut card.keywords;
+    let new_keywords = &mut keywords;
+    let mut copy_language = language;
+
+    if only_text {
+        // If the number of sheet keywords is different from the original, warn
+        if new_keywords.len() != orig_keywords.len() {
+            eprintln!(
+                "Warning: {} has a different number of keywords than in the original card: {} should be {}",
+                card.card_number,
+                new_keywords.len(),
+                orig_keywords.len()
+            );
+        }
+    } else {
+        // Use the new keywords as base and copy the other language from the original
+        copy_language = match language {
+            Language::Japanese => Language::English,
+            Language::English => Language::Japanese,
+        };
+        // Fully replace the original keywords with the new ones
+        std::mem::swap(orig_keywords, new_keywords);
     }
 
-    // Apply text to original card keywords, matching by effect if possible
-    for (mut new_keyword, orig_keyword) in keywords
-        .drain(..card.keywords.len().min(keywords.len()))
-        .zip(card.keywords.iter_mut())
-    {
+    for (orig_keyword, new_keyword) in orig_keywords.iter_mut().zip(new_keywords.iter_mut()) {
         if orig_keyword.effect != new_keyword.effect {
             eprintln!(
                 "Warning: {} keyword effect mismatch: {:?} should be {:?}",
@@ -1630,31 +1660,40 @@ fn update_keywords(card: &mut Card, mut keywords: Vec<Keyword>, language: Langua
             );
         }
 
-        *orig_keyword.name.value_mut(language) = new_keyword.name.value_mut(language).take();
-        *orig_keyword.ability_text.value_mut(language) =
-            new_keyword.ability_text.value_mut(language).take();
+        // Update the text in the specified language
+        *orig_keyword.name.value_mut(copy_language) =
+            new_keyword.name.value_mut(copy_language).take();
+        *orig_keyword.ability_text.value_mut(copy_language) =
+            new_keyword.ability_text.value_mut(copy_language).take();
     }
-
-    // If the number of keywords is greater than the original, add the remaining keywords
-    card.keywords.append(&mut keywords);
 }
 
-fn update_arts(card: &mut Card, mut arts: Vec<Art>, language: Language) {
-    // If the number of arts is different from the original, warn
-    if !card.arts.is_empty() && arts.len() != card.arts.len() {
-        eprintln!(
-            "Warning: {} has a different number of arts than in the original card: {} should be {}",
-            card.card_number,
-            arts.len(),
-            card.arts.len()
-        );
+fn update_arts(card: &mut Card, mut arts: Vec<Art>, language: Language, only_text: bool) {
+    let orig_arts = &mut card.arts;
+    let new_arts = &mut arts;
+    let mut copy_language = language;
+
+    if only_text {
+        // If the number of sheet arts is different from the original, warn
+        if new_arts.len() != orig_arts.len() {
+            eprintln!(
+                "Warning: {} has a different number of arts than in the original card: {} should be {}",
+                card.card_number,
+                new_arts.len(),
+                orig_arts.len()
+            );
+        }
+    } else {
+        // Use the new arts as base and copy the other language from the original
+        copy_language = match language {
+            Language::Japanese => Language::English,
+            Language::English => Language::Japanese,
+        };
+        // Fully replace the original arts with the new ones
+        std::mem::swap(orig_arts, new_arts);
     }
 
-    // Apply English text to original card arts, matching by power if possible
-    for (mut new_art, orig_art) in arts
-        .drain(..card.arts.len().min(arts.len()))
-        .zip(card.arts.iter_mut())
-    {
+    for (orig_art, new_art) in orig_arts.iter_mut().zip(new_arts.iter_mut()) {
         if orig_art.cheers != new_art.cheers {
             eprintln!(
                 "Warning: {} art cheers mismatch: {:?} should be {:?}",
@@ -1676,12 +1715,12 @@ fn update_arts(card: &mut Card, mut arts: Vec<Art>, language: Language) {
             );
         }
 
-        *orig_art.name.value_mut(language) = new_art.name.value_mut(language).take();
-
+        // Update the text in the specified language
+        *orig_art.name.value_mut(copy_language) = new_art.name.value_mut(copy_language).take();
         if let Some(orig_ability_text) = &mut orig_art.ability_text {
-            if let Some(sheet_ability_text) = &mut new_art.ability_text {
-                *orig_ability_text.value_mut(language) =
-                    sheet_ability_text.value_mut(language).take();
+            if let Some(new_ability_text) = &mut new_art.ability_text {
+                *orig_ability_text.value_mut(copy_language) =
+                    new_ability_text.value_mut(copy_language).take();
             } else {
                 eprintln!(
                     "Warning: {} art ability text mismatch: {:?} should be {:?}",
@@ -1695,56 +1734,65 @@ fn update_arts(card: &mut Card, mut arts: Vec<Art>, language: Language) {
             );
         }
     }
-
-    // If the number of arts is greater than the original, add the remaining arts
-    card.arts.append(&mut arts);
 }
 
-fn update_tags(card: &mut Card, mut tags: Vec<Tag>, language: Language) {
-    // If the number of sheet tags is different from the original, warn
-    if !card.tags.is_empty() && tags.len() != card.tags.len() {
-        eprintln!(
-            "Warning: {} has a different number of tags than in the original card: {} should be {}",
-            card.card_number,
-            tags.len(),
-            card.tags.len()
-        );
+fn update_tags(card: &mut Card, mut tags: Vec<Tag>, language: Language, only_text: bool) {
+    let orig_tags = &mut card.tags;
+    let new_tags = &mut tags;
+    let mut copy_language = language;
+
+    if only_text {
+        // If the number of sheet tags is different from the original, warn
+        if new_tags.len() != orig_tags.len() {
+            eprintln!(
+                "Warning: {} has a different number of tags than in the original card: {} should be {}",
+                card.card_number,
+                new_tags.len(),
+                orig_tags.len()
+            );
+        }
+    } else {
+        // Use the new tags as base and copy the other language from the original
+        copy_language = match language {
+            Language::Japanese => Language::English,
+            Language::English => Language::Japanese,
+        };
+        // Fully replace the original tags with the new ones
+        std::mem::swap(orig_tags, new_tags);
     }
 
-    // Apply text to original card tags
-    for (mut new_tag, orig_tag) in tags
-        .drain(..card.tags.len().min(tags.len()))
-        .zip(card.tags.iter_mut())
-    {
-        *orig_tag.value_mut(language) = new_tag.value_mut(language).take();
+    for (orig_tag, new_tag) in orig_tags.iter_mut().zip(new_tags.iter_mut()) {
+        // Update the text in the specified language
+        *orig_tag.value_mut(copy_language) = new_tag.value_mut(copy_language).take();
     }
-
-    // If the number of tags is greater than the original, add the remaining tags
-    card.tags.append(&mut tags);
 }
 
-fn update_extra(card: &mut Card, mut extra: Option<Extra>, language: Language) {
-    // If the number of sheet extra is different from the original, warn
-    if card.extra.is_some() && extra.is_none() {
-        eprintln!(
-            "Warning: {} has a different extra than in the original card: {} should be {}",
-            card.card_number,
-            extra.is_some(),
-            card.extra.is_some()
-        );
+fn update_extra(card: &mut Card, mut extra: Option<Extra>, language: Language, only_text: bool) {
+    let orig_extra = &mut card.extra;
+    let new_extra = &mut extra;
+    let mut copy_language = language;
+
+    if only_text {
+        // If the number of sheet extra is different from the original, warn
+        if new_extra.is_some() != orig_extra.is_some() {
+            eprintln!(
+                "Warning: {} has a different extra than in the original card: {} should be {}",
+                card.card_number,
+                new_extra.is_some(),
+                orig_extra.is_some()
+            );
+        }
+    } else {
+        // Use the new extra as base and copy the other language from the original
+        copy_language = match language {
+            Language::Japanese => Language::English,
+            Language::English => Language::Japanese,
+        };
+        // Fully replace the original extra with the new one
+        std::mem::swap(orig_extra, new_extra);
     }
 
-    // Apply text to original card extra
-    for (mut new_extra, orig_extra) in extra
-        .take_if(|_| card.extra.is_some())
-        .into_iter()
-        .zip(card.extra.iter_mut())
-    {
-        *orig_extra.value_mut(language) = new_extra.value_mut(language).take();
-    }
-
-    // If the number of extras is greater than the original, add the remaining extras
-    if extra.is_some() {
-        card.extra = extra;
+    for (orig_extra, new_extra) in orig_extra.iter_mut().zip(new_extra.iter_mut()) {
+        *orig_extra.value_mut(copy_language) = new_extra.value_mut(copy_language).take();
     }
 }

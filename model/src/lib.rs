@@ -178,7 +178,7 @@ pub struct Card {
     #[serde(rename = "text")]
     pub ability_text: AbilityText, // support, cheer
     #[serde(skip_serializing_if = "is_default")]
-    pub extra: Option<Extra>, // holomem
+    pub extra: Option<Extra>, // holomem, support
     #[serde(skip_serializing_if = "is_default")]
     pub tags: Vec<Tag>, // holomem, support
     #[serde(skip_serializing_if = "is_default")]
