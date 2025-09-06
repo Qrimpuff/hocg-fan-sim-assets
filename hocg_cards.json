@@ -27276,7 +27276,7 @@
     "life": 5,
     "oshi_skills": [
       {
-        "holo_power": 2,
+        "holo_power": 1,
         "name": { "jp": null, "en": "Smothered in Choco!" },
         "text": {
           "en": "[1/Turn]Reveal 1 event with #Food from your deck, and add it to hand. Then, shuffle the deck."
@@ -28721,7 +28721,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-052_U.webp", "en": null },
-        "img_hash": "v2|H32=imtjWo26tOylsr2mMiVJq1JXW0lmXdI0tt0mMVi2NJNtC6RmSnWodKnaUpuSpQ7b5bqSpmLLatm2ularyWqKNKQrUik|CYM=151E12",
+        "img_hash": "v2|H32=imtjWo26tOylsr2mMiVpq1JXW0lmXdI0tt0mMVi2NJNtC6RmSnWodKnaUpuSpQ7b5bqSpmLLatm2ularyWqKNKQrUik|CYM=151E12",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
