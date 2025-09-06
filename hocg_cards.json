@@ -7134,6 +7134,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-076",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-076_C.webp", "en": null },
+        "img_hash": "v2|H32=wjG1qC2rpWotii2Si6FYTuO100xy1XI1Wk101zOStMxsMlxbTcm0pJQ2KqlPbU2aS5ularZCmraKFklpS6uwprRFqVo|CYM=1D1A09",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -27287,7 +27298,7 @@
         "holo_power": 2,
         "name": { "jp": null, "en": "Cooking with Choco" },
         "text": {
-          "en": "[1/Game]Return 1~4 events with #Food from your archive to hand. Then, during this turn, 1 of your holomem with #Cooking gets Arts+50."
+          "en": "[1/Game]Return 1~4 events with #Food from your archive to hand. Then, during this turn, all of your holomem with #Cooking gets Arts+40."
         }
       }
     ],
@@ -28165,6 +28176,46 @@
       }
     ]
   },
+  "hBP05-029": {
+    "card_number": "hBP05-029",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": null, "en": "I've been living for someone" },
+        "power": "50",
+        "text": {
+          "en": "If your Oshi holomem is <Juufuutei Raden>, reveal 1 event with #Mushroom from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      },
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Gradually living my life" },
+        "power": "80+",
+        "text": { "en": "If a 2nd holomem with #ReGLOSS is on your stage, this Arts gets +40." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-029",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-029_R.webp", "en": null },
+        "img_hash": "v2|H32=rqpHVaJyrKtaVQlLLKkrVeTMpepIlepzWhlqLdtWViq5rLJK16pKJ6lUNIFJq3a1aVbqtWuSUrVpk7ZYeiq2WUpltkk|CYM=052039",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-030": {
     "card_number": "hBP05-030",
     "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
@@ -28362,6 +28413,80 @@
       }
     ]
   },
+  "hBP05-035": {
+    "card_number": "hBP05-035",
+    "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "That was just a practice..." },
+        "text": {
+          "en": "[Center position/collab position only]Usable during your opponent's turn if 1 of your <Sakura Miko> is downed:Reveal 1 \"Miko, I'm ashamed\" from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "Zinc nasal infections" },
+        "power": "90",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "en": "You may archive 2 cards from your hand:Deal 50 Special Damage to your opponent's center holomem or collab holomem. If there is a <35P> on your stage, draw 1 card from your deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Baby" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-035",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-035_R.webp", "en": null },
+        "img_hash": "v2|H32=8qojqu2yLaoty4nWjymTaaJVUi12VnJVVE22VNBM9NC0qtYvVaV4NalqD6ouq6XWqENq2qpdptqTlmWpylYi2epSIlk|CYM=012832",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-036": {
+    "card_number": "hBP05-036",
+    "name": { "jp": "星街すいせい", "en": "Hoshimachi Suisei" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Great voice!" },
+        "power": "20+",
+        "text": { "en": "If any of your opponent's back holomem are damaged, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-036",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-036_C.webp", "en": null },
+        "img_hash": "v2|H32=rKo8Vamqr6paVcmkr8qZqk5ds8pSdXJV8nV0o7ZV9Oqk5qhaWlVKo5SqlvD1yrStr1J2aakuIl2tpXJpqaVWqakrMjU|CYM=0A5828",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-037": {
     "card_number": "hBP05-037",
     "name": { "jp": "星街すいせい", "en": "Hoshimachi Suisei" },
@@ -28396,7 +28521,18 @@
         "rarity": "RR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-037_RR.webp", "en": null },
-        "img_hash": "v2|H32=rqo2ba2rjaqbMKmj1KqrlVJDUq0q13MtdFZytVZoZHKW6rRqF0pJlaWrVuttrVGr6a9KpVKV1qhVy9SlUCtWldAoFtk|CYM=074638",
+        "img_hash": "v2|H32=rqs2bqmrjaqbNKnL0qKrV1JFEqx61XItdFZytfRoZHaW6rRqF1roVqW8UltpqUqrqSpqtcqUUvxSS9KlSisqFdostts|CYM=064135",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-037",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-037_UR.webp", "en": null },
+        "img_hash": "v2|H32=3NLSytviVMpDSmcmRrUnpUIltmWr3CJtLk1sl28tbNNdo7RdqVapFk2waSqtqkmrTarJouulQfp0uF2lDVrZpJsullo|CYM=18501F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -28439,6 +28575,47 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-038_R.webp", "en": null },
         "img_hash": "v2|H32=jKqJ6tuqK607XHJ1tku0ouSy1LpMV1pVSlVbSdIsUqmtqdYkVK2LJvjooYqLVy3bjwbptK5W6Fm16iSZLoVyrS+lctk|CYM=043536",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-040": {
+    "card_number": "hBP05-040",
+    "name": { "jp": "miComet", "en": "miComet" },
+    "card_type": "holomem",
+    "colors": [ "red", "blue" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Business friend" },
+        "text": {
+          "en": "If your Life is 3 or less, you may Bloom a holomem from your hand on your center <Sakura Miko> or <Hoshimachi Suisei> which has already Bloomed this turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Business partner" },
+        "power": "90",
+        "text": { "en": "You may reattach 1 cheer from this holomem to your back holomem." }
+      }
+    ],
+    "extra": { "en": "This holomem is also regarded as <Sakura Miko> <Hoshimachi Suisei>" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Baby" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-040",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-040_U.webp", "en": null },
+        "img_hash": "v2|H32=rqozKsaqjeraVpzWzEilpmSjpCpuFVqVWhVKVZKNVs2rRa5MVKVIltJ6FpqVLkmpqUIqqaoa4JpL23StDYvwqS3Jkrg|CYM=294917",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -28721,7 +28898,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-052_U.webp", "en": null },
-        "img_hash": "v2|H32=imtjWo26tOylsr2mMiVpq1JXW0lmXdI0tt0mMVi2NJNtC6RmSnWodKnaUpuSpQ7b5bqSpmLLatm2ularyWqKNKQrUik|CYM=151E12",
+        "img_hash": "v2|H32=imtjWo26tOylsr2mMiVJq1JXW0lmXdI0tt0mMVi2NJNtC6RmSnWodKnaUpuSpQ7b5bqSpmLLatm2ularyWqKNKQrUik|CYM=151E12",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -29572,6 +29749,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-079",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-079_U.webp", "en": null },
+        "img_hash": "v2|H32=aM1r60LtSqWDppRWpFKkUrRTNjUrrVa9tryvnK3abFpqxZJFWLAlix+oJZufLi2awOOtLsLHqWwO8qlrejyPg3r4ats|CYM=052124",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -29681,6 +29869,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-084_U.webp", "en": null },
         "img_hash": "v2|H32=VpWjq1SRxDuLKtxq6W5MbmlmDKWrk5yVqZryzHPMUszbSlZVs8mpqsCqreqv6q0qeDgtqsLDqar6cGk46kcqwTp0ShU|CYM=020F13",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-085": {
+    "card_number": "hBP05-085",
+    "name": { "jp": "みこだにぇー", "en": "Mikodanye" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +10 HP.\n\n◆Additional ability if attached to <Sakura Miko>\nDuring your opponent's turn, if the holomem this mascot is attached to is downed, your opponent archives 1 card from their hand.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-085",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-085_C.webp", "en": null },
+        "img_hash": "v2|H32=6KupquSrZqojOlRwtjqTkpuS2pdaF1oVHgS2jLeMNK12bRLNCD5togM+rYufhy06D+ataPjw4ejwA+E4+HDg+ODw4PA|CYM=011D3B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -31457,6 +31667,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10016",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD03-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD03-002_C.webp", "en": null },
+        "img_hash": "v2|H32=WlKlrI1KMaKtK0var6VbWsq1cllaldJdcmXWlPxIsqSsSnTVV7VWS62oq7LUViXtVqvJtqlKSq20WkmlUpelSkqt1VI|CYM=101608",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
