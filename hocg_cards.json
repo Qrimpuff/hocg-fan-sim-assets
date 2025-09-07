@@ -27629,6 +27629,44 @@
       }
     ]
   },
+  "hBP05-013": {
+    "card_number": "hBP05-013",
+    "name": { "jp": "ときのそら", "en": "Tokino Sora" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Ray of Jewelry" },
+        "text": { "en": "[Center position/collab position only]All holomem with #Gen 0 on your stage get Arts+30." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "7th anniversary, yay ✩°｡⋆⸜(* ॑꒳ ॑* )⸝" },
+        "power": "90",
+        "advantage": [ "red", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-013",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-013_R.webp", "en": null },
+        "img_hash": "v2|H32=qqpWUaKqTJlWVZ1MNF2lqrRYrasM08t2Sk9r9UttYt1Gr6zqslSqNUurVqtfqnp1ja7SNLVacskLyxatpVpSla1WUlM|CYM=444611",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-014": {
     "card_number": "hBP05-014",
     "name": { "jp": "兎田ぺこら", "en": "Usada Pekora" },
@@ -28023,6 +28061,45 @@
       }
     ]
   },
+  "hBP05-024": {
+    "card_number": "hBP05-024",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "green", "green" ],
+        "name": { "jp": null, "en": "Let's relax at AZKi-chi's" },
+        "power": "50",
+        "text": { "en": "If a <Pioneers> is on your stage, send the top card of your cheer deck to your <AZKi>." }
+      },
+      {
+        "cheers": [ "green", "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "You're going home?" },
+        "power": "80+",
+        "text": { "en": "If your Oshi holomem is <AZKi>, this Arts gets +20 for each cheer attached to this holomem." }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get Life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-024",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-024_R.webp", "en": null },
+        "img_hash": "v2|H32=KmnTpkfprarWsOzJpQpaVVpSEiUSlVJLNJV2kfz69tAskV5KlKroUqlVVqlJoSaLyhardFrdkrZpy7alSosqrdIkSy4|CYM=09232A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-025": {
     "card_number": "hBP05-025",
     "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
@@ -28209,7 +28286,7 @@
         "rarity": "R",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-029_R.webp", "en": null },
-        "img_hash": "v2|H32=rqpHVaJyrKtaVQlLLKkrVeTMpepIlepzWhlqLdtWViq5rLJK16pKJ6lUNIFJq3a1aVbqtWuSUrVpk7ZYeiq2WUpltkk|CYM=052039",
+        "img_hash": "v2|H32=pqqvquKpHKtaVVhXPL69Vuy6tLqkFVpRUlF6VVuadq6vlpZKFepLJuBL6bIWrWiRqhTpJcqH8KV6k/R4drqy0GpZsmU|CYM=091F4D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -28581,6 +28658,46 @@
       }
     ]
   },
+  "hBP05-039": {
+    "card_number": "hBP05-039",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 230,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "It's never too late in life" },
+        "power": "40",
+        "text": {
+          "en": "If you have used a <Struggle Meal> this turn, deal 20 Special Damage to your opponent's center holomem and collab holomem."
+        }
+      },
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "You can change course at any time" },
+        "power": "70+",
+        "text": { "en": "If the target of this Arts is a 1st or high collab holomem, this Arts gets +70." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Cooking" }, { "en": "#Languages" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-039",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-039_R.webp", "en": null },
+        "img_hash": "v2|H32=rKqpuua6DOuSVVLFBFOllu2qpLosTVppUlVaRUvC1jYtq5JL1KAMJmJp9Lgv3WzZmrZpLIqWsqRbWpaSaUty2SYPkqA|CYM=064F42",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-040": {
     "card_number": "hBP05-040",
     "name": { "jp": "miComet", "en": "miComet" },
@@ -28866,6 +28983,48 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-050_R.webp", "en": null },
         "img_hash": "v2|H32=zKyNqs8qytbyUmDdMpE0qzSptJU8U0pVWlNKQUqtUirJLVZqVakPV6tS0LZgCenAKlsq+bK06VrqGlDQ8lXwKIrTcqk|CYM=132824",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-051": {
+    "card_number": "hBP05-051",
+    "name": { "jp": "火威青", "en": "Hiodoshi Ao" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Just look into my eyes" },
+        "text": {
+          "en": "Look at the top 3 cards of your deck. Reveal 1 holomem with #Alcohol from among them, and add it to hand. Then, put the remaining cards on the bottom of your deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Champagne Champagne!" },
+        "power": "20",
+        "text": {
+          "en": "If there are 3 or more holomem with #Alcohol on your stage, you may send 1 cheer from your archive to your back holomem with #Alcohol."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Painting" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-051",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-051_R.webp", "en": null },
+        "img_hash": "v2|H32=yqqvpJPqaJ8X1kTVjJLMKqy11SpqVZNpVlV7W1IVNKdrmhZqVtXKtWtldNgqLa1aVIvosdUKotWtKnLVrapwJWqVKts|CYM=553705",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
