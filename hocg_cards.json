@@ -28679,7 +28679,7 @@
         "cheers": [ "red", "colorless", "colorless" ],
         "name": { "jp": null, "en": "You can change course at any time" },
         "power": "70+",
-        "text": { "en": "If the target of this Arts is a 1st or high collab holomem, this Arts gets +70." }
+        "text": { "en": "If the target of this Arts is a 1st or greater collab holomem, this Arts gets +70." }
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Cooking" }, { "en": "#Languages" } ],
