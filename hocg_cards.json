@@ -29645,6 +29645,83 @@
       }
     ]
   },
+  "hBP05-068": {
+    "card_number": "hBP05-068",
+    "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Leisurely rest day" },
+        "text": {
+          "en": "If a mascot is attached to this holomem, look at the top card of your deck. Return that card to the top or bottom of the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Eating snacks and playing games is the best!" },
+        "power": "20"
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Gamers" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-068",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-068_C.webp", "en": null },
+        "img_hash": "v2|H32=pqistoeqLa3LMqNqSrex2nZSWIdaVVJSal1a0vRIPNm0LqSlRW1KBZKmpsor11TqtJRqtKpLalKt21Yr6UoivdsqMlk|CYM=1F1D21",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-069": {
+    "card_number": "hBP05-069",
+    "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "A wonderful smile" },
+        "text": { "en": "[Back position only]This holomem does not take any Damage from your opponent." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Full marks!" },
+        "power": "40",
+        "text": { "en": "You may send the top card of your cheer deck to this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Gamers" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-069",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-069_U.webp", "en": null },
+        "img_hash": "v2|H32=jqotq4uqKbqTVUvWs9R4x8rQNo1ORfJUVk3aFXJEDCP5wnxFVdQatKso0EoqSy2tVamitKpa4GpKS2gprZSiWrCqsLA|CYM=1F1015",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-070": {
     "card_number": "hBP05-070",
     "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
@@ -29681,7 +29758,18 @@
         "rarity": "RR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-070_RR.webp", "en": null },
-        "img_hash": "v2|H32=bKOpqm0ZraJrHYujl0WS6ZJlUG6S1FhGUrwsVdKkdEmsqnRJbVldqrLqlJa1JqWVqiVVq0pS1PS2lFHlSlNSrdpVVKo|CYM=101B25",
+        "img_hash": "v2|H32=LKupim87rYZrGIO3p6bS3ZplUEyaVVpmUjSsVVKk9GmElHRLbVlNqraqopa1oqyUaiVqulpakva2tFDVS8sKrcpWVro|CYM=0E1923",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-070",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-070_UR.webp", "en": null },
+        "img_hash": "v2|H32=XGVpat1og7fTypO1po0yTTY5PA1S05G4WNeVyEo51EgN47ZrVV0NopVStbxJBW0hSSmLVqqWqZqUimlVtWiVpNGi1oo|CYM=0E2737",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
