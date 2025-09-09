@@ -28739,6 +28739,154 @@
       }
     ]
   },
+  "hBP05-041": {
+    "card_number": "hBP05-041",
+    "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Guruguru~" },
+        "power": "20",
+        "text": { "en": "Deal 10 Special Damage to your opponent's center holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gamers" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-041",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-041_U.webp", "en": null },
+        "img_hash": "v2|H32=pKqpqq+qsapLUylWj7MotJaV9KhSUVJVUkV6VSpVPKU8PNZVVfUNlqqqqTqpWnS9SJ2yqapLokuqJlKN26Zw6cqW8ug|CYM=132207",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-042": {
+    "card_number": "hBP05-042",
+    "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 90,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Come in with me!" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 2nd holomem with #Gamers from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "We've been together forever" }, "power": "30" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gamers" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-042",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-042_C.webp", "en": null },
+        "img_hash": "v2|H32=jLqpKq9avarLaymWRakoJaylULXK1VJVUlVe1VRaZm00WlRtVaVJL6oyilK2llaWdpWp0qpaKqlay2mpSqkkqWlFtJE|CYM=141A0F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-043": {
+    "card_number": "hBP05-043",
+    "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Isn't it okay if I do it?" },
+        "text": {
+          "en": "[Collab position only]If your center holomem has #Gamers, your opponent's holomem's Arts can only target your collab holomem. However, this excludes Special Damage."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "You can still play, right?" },
+        "power": "30",
+        "text": {
+          "en": "You may archive 1 blue cheer from this holomem:Deal 10 Special Damage to your opponent's center holomem and 1 of your opponent's back holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gamers" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-043",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-043_U.webp", "en": null },
+        "img_hash": "v2|H32=rKq2VK2qVKrLQghXVsqxsiZVsapuVXpVVlVaWXJUbAl7SLRqWnVKtbqoitIknVLXpZ9quepKKlmVJiZd1YpSWdCqNtE|CYM=291810",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-044": {
+    "card_number": "hBP05-044",
+    "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Lunchtime...?" },
+        "text": {
+          "en": "Deal 10 Special Damage to your opponent's center holomem and 1 of their back holomem. You may only use the Bloom Effect \"Lunchtime...?\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "Don't stop gaming!" },
+        "power": "40",
+        "text": { "en": "Deal 10 Special Damage to 1 of your opponent's holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gamers" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-044",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-044_R.webp", "en": null },
+        "img_hash": "v2|H32=jKot682qZabTUdI2ItWxKiZVtKmmdVLV1ll61VoMTlF5hpZFVaUNJJJqoFpKuWXatbVSqaoXKmm21nKpnlZSq8tKspU|CYM=232412",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-045": {
     "card_number": "hBP05-045",
     "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
