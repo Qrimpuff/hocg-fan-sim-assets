@@ -27279,6 +27279,55 @@
       }
     ]
   },
+  "hBP05-004": {
+    "card_number": "hBP05-004",
+    "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Let's gooo" },
+        "text": {
+          "en": "[1/Turn]Usable if your center holomem is <Nekomata Okayu>:Deal 10 Special Damage to 1 of your opponent's holomem."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Yum yum!" },
+        "text": {
+          "en": "[1/Game]You may swap your opponent's center holomem with 1 damaged back holomem. Then, if your center holomem is <Nekomata Okayu>, draw 3 cards from your deck."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-004",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-004_OSR.webp", "en": null },
+        "img_hash": "v2|H32=ktqmkrNa1GqpSJpWWaaTUhi1V46MWWO1hEplpaZCaa6m6ZSqrlKLFGmpiarWKmk1KFVGrerSaqkqVWpNSoWsVVqqqVU|CYM=233805",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-004",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-004_OUR.webp", "en": null },
+        "img_hash": "v2|H32=VKmWa1WryHGLLmiUzHSczrS0VOvWRCMqUl9LajtTXIurVFRrUoVLp/BSLdVpWcm0Hl2v1qXiLVWNqktVX62O1SWLSks|CYM=355704",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP05-005": {
     "card_number": "hBP05-005",
     "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
@@ -28910,7 +28959,7 @@
         "power": "120",
         "advantage": [ "white", 50 ],
         "text": {
-          "en": "Deal 20 Special Damage to 1 of your opponent's holomem. Then, you may send 1 Cheer from your archive to one of your back holomem with #Gamers."
+          "en": "Deal 20 Special Damage to 1 of your opponent's holomem. Then, you may send 1 Cheer from your archive to your back holomem with #Gamers."
         }
       }
     ],
@@ -28923,7 +28972,18 @@
         "rarity": "RR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-045_RR.webp", "en": null },
-        "img_hash": "v2|H32=qKopk6SpjK1rWVI2zFtJNtqQpaamNbPMVlUsTVJCXBktJpJqeNVItEqlJNKVLmrVSV7ytKlCaChVqbbVLVpSSm8bMkk|CYM=324C04",
+        "img_hash": "v2|H32=qKopE6SqnqwrWVJWyVrJNtoQtaZWtbLNVlUuSVJPXAmtJpZqWPVItEqlLdq0KirVTRqylKlKaHpVqbJVqVpyWiqaIkk|CYM=273A09",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-045",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-045_UR.webp", "en": null },
+        "img_hash": "v2|H32=VFOmKrJq1Ny1qlSc0VEGpkpRUuVqlWtNVLetVk47RCWrUpRqrlWrtF1t3bQWrWnVlYQlm61SqVJVRUkHlrqNapFSTqk|CYM=1C4009",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -29918,6 +29978,47 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-070_UR.webp", "en": null },
         "img_hash": "v2|H32=XGVpat1og7fTypO1po0yTTY5PA1S05G4WNeVyEo51EgN47ZrVV0NopVStbxJBW0hSSmLVqqWqZqUimlVtWiVpNGi1oo|CYM=0E2737",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP05-071": {
+    "card_number": "hBP05-071",
+    "name": { "jp": "戌神ころね", "en": "Inugami Korone" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Inugami Tribe" },
+        "text": {
+          "en": "Reveal 1 1st holomem other than Buzz from your deck with #Gamers, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "YB-2" },
+        "power": "50+",
+        "advantage": [ "blue", 50 ],
+        "text": { "en": "During this turn, 1 of your holomem with #Gamers gets Arts+30." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gamers" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP05-071",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-071_R.webp", "en": null },
+        "img_hash": "v2|H32=rqo7q++qvatpKY3GrLlox8KQMMdaVtJEVkVaFLbZdKy3xlxrVXXZlpKqKtqVmiW16VO6VqopaqlVhUKtqrKqakqr0qo|CYM=25301F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
