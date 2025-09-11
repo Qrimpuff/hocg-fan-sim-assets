@@ -3177,7 +3177,7 @@
         "img_last_modified": { "jp": "Mon, 09 Dec 2024 08:10:36 GMT", "en": "Mon, 25 Aug 2025 03:27:33 GMT" },
         "img_hash": "v2|H32=SKqUXemqXlm2Rmmqtt1JorRcraRKGqfUSq2LWRqty10bq6QqWiRKPalUUtslm6m1VspKVbRVWtstbamorVJSqa1SaqU|CYM=181E0F",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10028",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 653255,
         "delta_art_index": 0
       },
       {
@@ -28864,7 +28864,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Isn't it okay if I do it?" },
+        "name": { "jp": null, "en": "Why not just pick me?" },
         "text": {
           "en": "[Collab position only]If your center holomem has #Gamers, your opponent's holomem's Arts can only target your collab holomem. However, this excludes Special Damage."
         }
@@ -29994,7 +29994,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "Inugami Tribe" },
+        "name": { "jp": null, "en": "Inugami Family" },
         "text": {
           "en": "Reveal 1 1st holomem other than Buzz from your deck with #Gamers, and add it to hand. Then, shuffle the deck."
         }
@@ -31029,7 +31029,7 @@
         "img_last_modified": { "en": "Fri, 11 Jul 2025 08:45:22 GMT" },
         "img_hash": "v2|H32=jJaXarJslavkaLQtw9hpaakUa3G31jNlUttW1VrVWm2e1kpdRGhrJSvT5LARq9vVaymJql8lpKu2ko1SqopdZWtlLos|CYM=03472A",
         "yuyutei_sell_url": null,
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 653252,
         "delta_art_index": 1
       }
     ]
