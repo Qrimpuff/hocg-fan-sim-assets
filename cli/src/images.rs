@@ -590,6 +590,8 @@ pub fn download_images_from_ogbajoj_sheet(
                     let mut rarity_1_idx: Option<usize> = None;
                     let mut alternate_art_idx: Option<usize> = None;
                     let mut rarity_2_idx: Option<usize> = None;
+                    let mut alternate_art_2_idx: Option<usize> = None;
+                    let mut rarity_3_idx: Option<usize> = None;
                     let mut text_idx = None;
                     let mut header_row_idx: Option<usize> = None;
 
@@ -599,6 +601,8 @@ pub fn download_images_from_ogbajoj_sheet(
                         rarity_1_idx = None;
                         alternate_art_idx = None;
                         rarity_2_idx = None;
+                        alternate_art_2_idx = None;
+                        rarity_3_idx = None;
                         text_idx = None;
 
                         let headers = header_tr
@@ -613,7 +617,11 @@ pub fn download_images_from_ogbajoj_sheet(
                                 image_idx = Some(idx);
                             }
                             if h.contains("alternate art") {
-                                alternate_art_idx = Some(idx);
+                                if h.contains("2") {
+                                    alternate_art_2_idx = Some(idx);
+                                } else {
+                                    alternate_art_idx = Some(idx);
+                                }
                             }
                             if h.contains("rarity") {
                                 if rarity_1_idx.is_none() {
@@ -622,6 +630,9 @@ pub fn download_images_from_ogbajoj_sheet(
                                 } else if rarity_2_idx.is_none() {
                                     // second rarity column
                                     rarity_2_idx = Some(idx);
+                                } else if rarity_3_idx.is_none() {
+                                    // third rarity column
+                                    rarity_3_idx = Some(idx);
                                 }
                             }
                             if h.contains("text") {
@@ -688,6 +699,7 @@ pub fn download_images_from_ogbajoj_sheet(
                         // Collect image sources and rarities
                         let mut images = Vec::with_capacity(2);
 
+                        // main image
                         let img_src = image_idx
                             .and_then(|idx| tds.get(idx))
                             .and_then(|td| td.select(&img_sel).next())
@@ -702,6 +714,7 @@ pub fn download_images_from_ogbajoj_sheet(
                             images.push((img_src, rarity));
                         }
 
+                        // first alternate art
                         let rarity_2 = rarity_2_idx
                             .and_then(|idx| tds.get(idx))
                             .map(|td| td.text().collect::<String>().trim().to_string())
@@ -713,6 +726,22 @@ pub fn download_images_from_ogbajoj_sheet(
                             .map(|s| s.to_string());
                         if let Some(alt_art_src) = alternate_art_src
                             && let Some(rarity) = rarity_2
+                        {
+                            images.push((alt_art_src, rarity));
+                        }
+
+                        // second alternate art
+                        let rarity_3 = rarity_3_idx
+                            .and_then(|idx| tds.get(idx))
+                            .map(|td| td.text().collect::<String>().trim().to_string())
+                            .filter(|r| r != "SY"); // Cheers have a different number
+                        let alternate_art_2_src = alternate_art_2_idx
+                            .and_then(|idx| tds.get(idx))
+                            .and_then(|td| td.select(&img_sel).next())
+                            .and_then(|img| img.value().attr("src"))
+                            .map(|s| s.to_string());
+                        if let Some(alt_art_src) = alternate_art_2_src
+                            && let Some(rarity) = rarity_3
                         {
                             images.push((alt_art_src, rarity));
                         }
