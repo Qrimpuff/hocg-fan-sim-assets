@@ -254,16 +254,28 @@ pub mod decklog {
                                         .values_mut()
                                         .flat_map(|cs| cs.illustrations.iter_mut())
                                         .filter(|c| {
-                                            *c.manage_id.value(language) == dl_card.manage_id
-                                                && c.card_number != dl_card.card_number
+                                            c.card_number != dl_card.card_number
+                                                && c.manage_id
+                                                    .value(language)
+                                                    .iter()
+                                                    .flatten()
+                                                    .any(|m| Some(m) == dl_card.manage_id.as_ref())
                                         })
                                         .for_each(|c| {
-                                            *c.manage_id.value_mut(language) = None;
+                                            if let Some(manage_id) = c.manage_id.value_mut(language)
+                                                && let Some(id) = dl_card.manage_id
+                                            {
+                                                manage_id.retain(|&m| m != id);
+                                            }
+                                            // remove empty manage_id
+                                            c.manage_id
+                                                .value_mut(language)
+                                                .take_if(|v| v.is_empty());
                                         });
 
                                     // add the card the list
                                     let mut all_cards = all_cards.write();
-                                    let card =
+                                    let card: &mut hocg_fan_sim_assets_model::Card =
                                         all_cards.entry(dl_card.card_number.clone()).or_default();
                                     card.card_number = dl_card.card_number.clone();
                                     *card.name.value_mut(language) = Some(dl_card.name.clone());
@@ -282,7 +294,11 @@ pub mod decklog {
                                     // find the card, first by manage_id, then by image, then overwrite delta, otherwise just add
                                     if let Some(illust) = {
                                         if let Some(i) = illustrations.iter_mut().find(|i| {
-                                            *i.manage_id.value(language) == dl_card.manage_id
+                                            i.manage_id
+                                                .value(language)
+                                                .iter()
+                                                .flatten()
+                                                .any(|m| Some(m) == dl_card.manage_id.as_ref())
                                         }) {
                                             Some(i)
                                         } else if let Some(i) = illustrations.iter_mut().find(|i| {
@@ -298,7 +314,19 @@ pub mod decklog {
                                     } {
                                         // only these fields are retrieved
                                         illust.card_number = dl_card.card_number;
-                                        *illust.manage_id.value_mut(language) = dl_card.manage_id;
+                                        if let Some(manage_id) = dl_card.manage_id {
+                                            illust
+                                                .manage_id
+                                                .value_mut(language)
+                                                .get_or_insert_default()
+                                                .push(manage_id);
+                                            if let Some(ids) =
+                                                illust.manage_id.value_mut(language).as_mut()
+                                            {
+                                                ids.sort();
+                                                ids.dedup();
+                                            }
+                                        }
                                         illust.rarity = dl_card.rare;
                                         *illust.img_path.value_mut(language) = Some(dl_card.img);
                                     } else {
@@ -306,11 +334,11 @@ pub mod decklog {
                                             card_number: dl_card.card_number.clone(),
                                             manage_id: match language {
                                                 Language::Japanese => Localized {
-                                                    japanese: dl_card.manage_id,
+                                                    japanese: dl_card.manage_id.map(|id| vec![id]),
                                                     ..Default::default()
                                                 },
                                                 Language::English => Localized {
-                                                    english: dl_card.manage_id,
+                                                    english: dl_card.manage_id.map(|id| vec![id]),
                                                     ..Default::default()
                                                 },
                                             },
@@ -323,10 +351,12 @@ pub mod decklog {
                                     }
 
                                     // sort the list, by oldest to latest
-                                    illustrations.sort_by_key(|c| c.manage_id);
+                                    illustrations.sort_by_cached_key(|c| c.manage_id.clone());
 
                                     // add to filtered cards
-                                    filtered_cards.lock().push(dl_card.manage_id);
+                                    if let Some(manage_id) = dl_card.manage_id {
+                                        filtered_cards.lock().push(manage_id);
+                                    }
                                 }
 
                                 Some(())
@@ -342,7 +372,15 @@ pub mod decklog {
         all_cards
             .values()
             .flat_map(|cs| cs.illustrations.iter().enumerate())
-            .filter(|c| filtered_cards.contains(c.1.manage_id.value(language)))
+            .filter(|c| {
+                filtered_cards.iter().any(|f| {
+                    c.1.manage_id
+                        .value(language)
+                        .iter()
+                        .flatten()
+                        .any(|m| m == f)
+                })
+            })
             .map(|c| (c.1.card_number.clone(), c.0))
             .collect()
     }
@@ -628,8 +666,7 @@ pub mod ogbajoj {
                 .into_iter()
                 .filter_map(|lines| self.to_extra(card, lines))
                 .next();
-            // fix the card if needed
-            overwrite_extra_fix(card, &mut extra);
+            fix_extra(card, &mut extra);
             update_extra(card, extra, Language::English, released);
 
             // Ability text
@@ -888,14 +925,30 @@ pub mod ogbajoj {
         }
     }
 
-    fn overwrite_extra_fix(card: &Card, extra: &mut Option<Extra>) {
-        // Fix hSD09-003 Houshou Marine does have extra text
+    // --- Fix known issues with the spreadsheet ---
+    fn fix_extra(card: &Card, extra: &mut Option<Extra>) {
+        // hSD09-003 Houshou Marine does have extra text
         if card.card_number == "hSD09-003" {
             *extra = Some(Localized::en(
                 "If this holomem is downed, you get Life-2".into(),
             ));
         }
+
+        // hBP05-029 Juufuutei Raden does have extra text
+        if card.card_number == "hBP05-029" {
+            *extra = Some(Localized::en(
+                "If this holomem is downed, you get Life-2".into(),
+            ));
+        }
+
+        // hBP05-039 Ichijou Ririka does have extra text
+        if card.card_number == "hBP05-039" {
+            *extra = Some(Localized::en(
+                "If this holomem is downed, you get Life-2".into(),
+            ));
+        }
     }
+    // --- End of fixes ---
 
     // Retrieve the following fields from @ogbajoj's sheet:
     // - Card number
@@ -1004,8 +1057,8 @@ pub mod hololive_official {
     use std::{ops::Deref, sync::OnceLock};
 
     use hocg_fan_sim_assets_model::{
-        Art, BloomLevel, Card, CardType, CardsDatabase, Color, Keyword, KeywordEffect, Language,
-        Localized, OshiSkill,
+        Art, BloomLevel, Card, CardType, CardsDatabase, Color, Extra, Keyword, KeywordEffect,
+        Language, Localized, OshiSkill,
     };
     use itertools::Itertools;
     use parking_lot::{Mutex, RwLock};
@@ -1161,7 +1214,11 @@ pub mod hololive_official {
                 "タグ" | "tag" => {
                     update_tags(card, tags_from_str(value, language), language, false);
                 }
-                "色" | "color" => card.colors = colors_from_str(value),
+                "色" | "color" => {
+                    let mut colors = colors_from_str(value);
+                    fix_colors(card, &mut colors);
+                    card.colors = colors;
+                }
                 "life" => card.life = value.parse().unwrap_or_default(),
                 "hp" => card.hp = value.parse().unwrap_or_default(),
                 "bloomレベル" | "bloom level" => {
@@ -1201,15 +1258,12 @@ pub mod hololive_official {
         let extra = EXTRA.get_or_init(|| Selector::parse(".extra p:nth-child(2)").unwrap());
 
         // Extra
-        update_extra(
-            card,
-            hololive_card
-                .select(extra)
-                .next()
-                .map(|c| Localized::new(language, c.text().collect::<String>())),
-            language,
-            false,
-        );
+        let mut extra = hololive_card
+            .select(extra)
+            .next()
+            .map(|c| Localized::new(language, c.text().collect::<String>()));
+        fix_extra(card, &mut extra, language);
+        update_extra(card, extra, language, false);
     }
 
     fn update_card_oshi_skills(
@@ -1403,7 +1457,12 @@ pub mod hololive_official {
         let illustrator = ILLUSTRATOR.get_or_init(|| Selector::parse(".ill-name span").unwrap());
 
         if let Some(illust) = card.illustrations.iter_mut().find(|i| {
-            *i.manage_id.value(language) == card_id.parse().ok() && i.illustrator.is_none()
+            i.illustrator.is_none()
+                && i.manage_id
+                    .value(language)
+                    .iter()
+                    .flatten()
+                    .any(|m| Some(*m) == card_id.parse().ok())
         }) {
             let resp = http_client().get(card_url).send().unwrap();
             let content = resp.text().unwrap();
@@ -1423,24 +1482,33 @@ pub mod hololive_official {
         }
     }
 
-    fn overwrite_card_number_fix(card_id: &str, card_number: &mut String) {
-        // fix hSD06-001 Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
+    // --- Fixes for known issues in the official database ---
+    fn fix_card_number(card_id: &str, card_number: &mut String) {
+        // hSD06-001 Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
         if card_id == "532" {
             *card_number = "hSD06-001".into();
         }
     }
 
-    fn overwrite_card_fix(card: &mut Card) {
-        // Fix hSD01-002 AZKi oshi card color (the official EN db has a bug)
+    fn fix_colors(card: &mut Card, colors: &mut Vec<Color>) {
+        // hSD01-002 AZKi oshi card color (the official EN db has a bug)
         if card.card_number == "hSD01-002" {
-            card.colors = vec![Color::Green];
-        }
-
-        // Fix hSD08-002 Amane Kanata does not have extra text
-        if card.card_number == "hSD08-002" {
-            card.extra = None;
+            *colors = vec![Color::Green];
         }
     }
+
+    fn fix_extra(card: &Card, extra: &mut Option<Extra>, language: Language) {
+        // hSD08-002 Amane Kanata does not have extra text
+        if card.card_number == "hSD08-002" {
+            *extra = None;
+        }
+
+        // hBP05-082 Aki Rosenthal's Axe does have extra text
+        if card.card_number == "hBP05-082" && language == Language::Japanese {
+            *extra = Some(Localized::jp("このツールは〈石の斧〉としても扱う".into()));
+        }
+    }
+    // --- End of fixes ---
 
     // Retrieve the following fields from Hololive official site:
     // - Card number
@@ -1529,7 +1597,7 @@ pub mod hololive_official {
                         };
 
                         // fix card number if needed
-                        overwrite_card_number_fix(&card_id, &mut card_number);
+                        fix_card_number(&card_id, &mut card_number);
 
                         let _all_cards = all_cards.read();
                         let Some(card) = _all_cards.get(&card_number) else {
@@ -1544,8 +1612,6 @@ pub mod hololive_official {
                         update_card_keywords(&mut card, &hololive_card, language);
                         update_card_arts(&mut card, &hololive_card, language);
                         update_card_illustrations(&mut card, card_url, &card_id, language);
-                        // fix the card if needed
-                        overwrite_card_fix(&mut card);
 
                         let mut _all_cards = all_cards.write();
                         _all_cards.insert(card_number, card);

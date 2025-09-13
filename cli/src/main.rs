@@ -428,11 +428,27 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     }
 
                     // merge the data
-                    if illustrations[i].manage_id.japanese.is_none() {
-                        illustrations[i].manage_id.japanese = illustrations[j].manage_id.japanese;
+                    if let Some(manage_id) = illustrations[j].manage_id.japanese.take() {
+                        illustrations[i]
+                            .manage_id
+                            .japanese
+                            .get_or_insert_default()
+                            .extend(manage_id);
+                        if let Some(ids) = illustrations[i].manage_id.japanese.as_mut() {
+                            ids.sort();
+                            ids.dedup();
+                        }
                     }
-                    if illustrations[i].manage_id.english.is_none() {
-                        illustrations[i].manage_id.english = illustrations[j].manage_id.english;
+                    if let Some(manage_id) = illustrations[j].manage_id.english.take() {
+                        illustrations[i]
+                            .manage_id
+                            .english
+                            .get_or_insert_default()
+                            .extend(manage_id);
+                        if let Some(ids) = illustrations[i].manage_id.english.as_mut() {
+                            ids.sort();
+                            ids.dedup();
+                        }
                     }
                     if illustrations[i].illustrator.is_none() {
                         illustrations[i].illustrator = illustrations[j].illustrator.clone();

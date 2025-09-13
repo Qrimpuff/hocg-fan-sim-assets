@@ -281,7 +281,18 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             .collect();
 
                         // sort by best dist, then update the url
-                        dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
+                        dists.sort_by_key(|d| {
+                            (
+                                d.2,
+                                d.1.lock()
+                                    .manage_id
+                                    .japanese
+                                    .iter()
+                                    .flatten()
+                                    .copied()
+                                    .next(),
+                            )
+                        });
 
                         // modify the cards here, to avoid borrowing issue
                         let mut already_set = BTreeMap::new();
@@ -586,7 +597,18 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             .collect();
 
                         // sort by best dist, then update the url
-                        dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.english));
+                        dists.sort_by_key(|d| {
+                            (
+                                d.2,
+                                d.1.lock()
+                                    .manage_id
+                                    .english
+                                    .iter()
+                                    .flatten()
+                                    .copied()
+                                    .next(),
+                            )
+                        });
 
                         // modify the cards here, to avoid borrowing issue
                         let mut already_set = BTreeMap::new();

@@ -380,7 +380,14 @@ pub fn prepare_en_proxy_images(
                     } else {
                         0
                     };
-                    let id_rank = illust.manage_id.japanese.unwrap_or(u32::MAX) as u64;
+                    let id_rank = illust
+                        .manage_id
+                        .japanese
+                        .iter()
+                        .flatten()
+                        .copied()
+                        .next()
+                        .unwrap_or(u32::MAX) as u64;
                     let dist_rank = dist.saturating_mul(1000);
                     rarity_rank
                         .saturating_add(id_rank)
@@ -555,6 +562,11 @@ pub fn download_images_from_ogbajoj_sheet(
                 let mut file = archive.by_index(i).unwrap();
                 let name = file.name().to_string();
                 if !name.to_ascii_lowercase().ends_with(".html") {
+                    return None;
+                }
+
+                // Skip Master Sheet. Low quality images, wrong data, and duplicates (2025-09)
+                if name == "Master Sheet.html" {
                     return None;
                 }
 

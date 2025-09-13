@@ -342,7 +342,7 @@ pub type Tag = Localized<String>;
 #[serde(default)]
 pub struct CardIllustration {
     pub card_number: String,
-    pub manage_id: Localized<u32>, // unique id in Deck Log
+    pub manage_id: Localized<Vec<u32>>, // unique ids in Deck Log
     pub rarity: String,
     pub illustrator: Option<String>,
     #[serde(serialize_with = "Localized::full_serialize")]

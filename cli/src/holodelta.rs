@@ -82,7 +82,13 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
                         println!(
                             "Card hash: {} {} = {}",
                             card.card_number,
-                            card.manage_id.japanese.unwrap_or_default(),
+                            card.manage_id
+                                .japanese
+                                .iter()
+                                .flatten()
+                                .copied()
+                                .next()
+                                .unwrap_or_default(),
                             h2
                         );
                         println!("Distance: {dist}");
@@ -93,7 +99,18 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
                 .collect_vec();
 
             // sort by best dist, then update the art index
-            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
+            dists.sort_by_key(|d| {
+                (
+                    d.2,
+                    d.1.lock()
+                        .manage_id
+                        .japanese
+                        .iter()
+                        .flatten()
+                        .copied()
+                        .next(),
+                )
+            });
 
             // modify the cards here, to avoid borrowing issue
             for (delta_art_index, card, dist) in dists {
@@ -109,7 +126,13 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
                         println!(
                             "Updated card {:?} -> manage_id: {}, delta_art_index: {} ({})",
                             card.card_number,
-                            card.manage_id.japanese.unwrap_or_default(),
+                            card.manage_id
+                                .japanese
+                                .iter()
+                                .flatten()
+                                .copied()
+                                .next()
+                                .unwrap_or_default(),
                             card.delta_art_index.unwrap(),
                             dist
                         );
@@ -206,7 +229,13 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
                         println!(
                             "Card hash: {} {} = {}",
                             card.card_number,
-                            card.manage_id.japanese.unwrap_or_default(),
+                            card.manage_id
+                                .japanese
+                                .iter()
+                                .flatten()
+                                .copied()
+                                .next()
+                                .unwrap_or_default(),
                             h2
                         );
                         println!("Distance: {dist}");
@@ -217,7 +246,18 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
                 .collect_vec();
 
             // sort by best dist, then update the art index
-            dists.sort_by_key(|d| (d.2, d.1.lock().manage_id.japanese));
+            dists.sort_by_key(|d| {
+                (
+                    d.2,
+                    d.1.lock()
+                        .manage_id
+                        .japanese
+                        .iter()
+                        .flatten()
+                        .copied()
+                        .next(),
+                )
+            });
 
             // modify the cards here, to avoid borrowing issue
             for (delta_art_index, card, dist) in dists {
@@ -233,7 +273,13 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
                         println!(
                             "Updated card {:?} -> manage_id: {}, delta_art_index: {} ({})",
                             card.card_number,
-                            card.manage_id.japanese.unwrap_or_default(),
+                            card.manage_id
+                                .japanese
+                                .iter()
+                                .flatten()
+                                .copied()
+                                .next()
+                                .unwrap_or_default(),
                             card.delta_art_index.unwrap(),
                             dist
                         );

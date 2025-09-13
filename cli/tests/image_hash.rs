@@ -42,16 +42,34 @@ fn test_image_hash_from_json() {
                         illusts[i]
                             .manage_id
                             .japanese
+                            .iter()
+                            .flatten()
+                            .next()
                             .map(|id| format!("JP-{}", id))
-                            .or_else(|| illusts[i].manage_id.english.map(|id| format!("EN-{}", id)))
+                            .or_else(|| illusts[i]
+                                .manage_id
+                                .english
+                                .iter()
+                                .flatten()
+                                .next()
+                                .map(|id| format!("EN-{}", id)))
                             .unwrap_or("<?>".into()),
                         illusts[j].card_number,
                         illusts[j].rarity,
                         illusts[j]
                             .manage_id
                             .japanese
+                            .iter()
+                            .flatten()
+                            .next()
                             .map(|id| format!("JP-{}", id))
-                            .or_else(|| illusts[j].manage_id.english.map(|id| format!("EN-{}", id)))
+                            .or_else(|| illusts[j]
+                                .manage_id
+                                .english
+                                .iter()
+                                .flatten()
+                                .next()
+                                .map(|id| format!("EN-{}", id)))
                             .unwrap_or("<?>".into()),
                         dist
                     );
@@ -72,16 +90,34 @@ fn test_image_hash_from_json() {
             illusts[i]
                 .manage_id
                 .japanese
+                .iter()
+                .flatten()
+                .next()
                 .map(|id| format!("JP-{}", id))
-                .or_else(|| illusts[i].manage_id.english.map(|id| format!("EN-{}", id)))
+                .or_else(|| illusts[i]
+                    .manage_id
+                    .english
+                    .iter()
+                    .flatten()
+                    .next()
+                    .map(|id| format!("EN-{}", id)))
                 .unwrap_or("<?>".into()),
             illusts[j].card_number,
             illusts[j].rarity,
             illusts[j]
                 .manage_id
                 .japanese
+                .iter()
+                .flatten()
+                .next()
                 .map(|id| format!("JP-{}", id))
-                .or_else(|| illusts[j].manage_id.english.map(|id| format!("EN-{}", id)))
+                .or_else(|| illusts[j]
+                    .manage_id
+                    .english
+                    .iter()
+                    .flatten()
+                    .next()
+                    .map(|id| format!("EN-{}", id)))
                 .unwrap_or("<?>".into()),
             dist
         );
