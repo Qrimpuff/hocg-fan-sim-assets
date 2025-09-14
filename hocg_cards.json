@@ -2417,7 +2417,7 @@
         "img_hash": "v2|H32=2k2KqmNtktRppZZUaLS3UoQk89qsaVO1qkpRtaZSmZzOlLSqqlJpVVmk6apXVksLKtVtVSpXaqlqVWpRSlWqVFotL1U|CYM=013B3A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -2451,7 +2451,7 @@
         "img_hash": "v2|H32=sK0kp+mtXFJru9pWTM3bVJTEM5GU2mOznlpppdZaWS1mSrSqqlJqVamiL65WKSiFKlVaKmpVT6VRVWpVSqVqVVYq6VQ|CYM=241626",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -2485,7 +2485,7 @@
         "img_hash": "v2|H32=SlpIquvIUnSl6LZVVO0VWyyJEyWiaryktlDtlKZaWVWOirSuq1Yqq0qqaJp15UuiSltKF8pFWqlWVer0Ul3oVVJNqtU|CYM=104619",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -2519,7 +2519,7 @@
         "img_hash": "v2|H32=MlYixmelqlZtvdJs6jRjaMilK3fYqk2lrkrdpa7SueVKs7SqrFYt6Eulq6TWllAtWjTaetpUSq2yVVtXLq2q1jZZ6lY|CYM=09414D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -4407,7 +4407,7 @@
         "img_hash": "v2|H32=MjOdrsyqJauv6smoQ3OpXMssUlUixVJNUpMyBdra1BQ06XJNVZW8kapqi6rbbGTb1K1JKqqWpq2qWsmSWyu2SCrlKak|CYM=141B1F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP01-032",
@@ -4419,7 +4419,7 @@
         "img_hash": "v2|H32=cE61ap5qyoyEq4mqM6qaeyw1KZVulVo1yoRSZaojNlUsm+RUlVgkDqla26tbVKmptKsXr0t0aaioDzSrVutZpkkWLas|CYM=102633",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -4799,7 +4799,7 @@
         "img_hash": "v2|H32=5i0tmvUqvYq/umkoi4drpWq3klRarVJSboVSY+aQpq2W4tSVVVVqVSqtPGqt0Z3W2bbKpbJaqZokSZRKqSbaMsqXrao|CYM=140F13",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -5672,7 +5672,7 @@
         "img_hash": "v2|H32=km2tqqersYqvoqeam2hLl2p1EsVKNXLFWtfaMTZL1GOUGvRVdZV2lVp0SUol2aWo7Sat1qpUCmpqCVKtVaqt2q1eqS0|CYM=151319",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -6614,7 +6614,7 @@
         "img_hash": "v2|H32=Sjodrq2iS6q1oqVixvqmF5bPYlkyzVLRaQlymeg0bCncNvxURSukJTvwEuuFkkvaNFkqpVpH2qbbppFKaoku7bZqpVI|CYM=102A2F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP01-068",
@@ -6626,7 +6626,7 @@
         "img_hash": "v2|H32=sCySyjZOsapVyswotbLNaKw1G3FunTrVG7Ni1YmWQrUty9hWbK0kSSJTXbqZLbSkS1JUKlRbpamqVEmyWiqUainRrds|CYM=0C3137",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -7140,7 +7140,7 @@
         "img_hash": "v2|H32=0iG1rC2qreotii2Cy6FY3rO1Wl121XI1Wl001XKStM1sElxbRe20pbQ2KqlPaY3SS5ulSrRWkrZKKkkpS6ugtrRUqVo|CYM=1D1A09",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       },
       {
         "card_number": "hBP01-076",
@@ -7152,7 +7152,7 @@
         "img_hash": "v2|H32=OsvNNGTlM1urtJG13VK1or1OM0t4ibNtahlKFZ8wRnbNqrZKxeCGVXttKZoVt9al6luptFWrNOlrVOqVFatdLqRF6pE|CYM=3F3D13",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 3
       }
     ]
   },
@@ -7447,7 +7447,7 @@
         "img_hash": "v2|H32=4rI2aaKmutIxi5SLjFJIy9VmzlpKTeslWlVrdDvlrtRrHlBLSjZqlqlaZtMVq1Ek1dK21NWmJqW2tk2qVevSlrW2XTU|CYM=40402D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       },
       {
         "card_number": "hBP01-081",
@@ -7515,7 +7515,7 @@
         "img_hash": "v2|H32=bmutqrWKC2mTpPCujyOtjGvCS1Fy1RLVZlXQZdaglDK0OloXUZWGgSaqpKgtVEnS2apbuqZfoHqeVtC628MlTaZN2y4|CYM=23180B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -10114,7 +10114,7 @@
         "img_hash": "v2|H32=Um1skoy4tGazqsuoaWKbuWTik20400s1qc4jMWu4ImcrOfQqNasMlYNUW5ZK4S2qva6TrkpXrVKmTB5tSapLtaZZrWo|CYM=0C1009",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -10450,7 +10450,7 @@
         "img_hash": "v2|H32=TMssHGSqU2Uqa7elGk27KpW0lSpUZJsrklRSTiOWmJwmSqpShXIlr9aoKES0TUmoSprTypdKSpXVqmlXqT5JIG1L0io|CYM=272021",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 3
       }
     ]
   },
@@ -10510,7 +10510,7 @@
         "img_hash": "v2|H32=0lk8YuVotcgtos9oNZpbaU+2Yj2Lxkslq8iTp+sIsldpK7BVM6tWVZZQ2apMUi1LrazSqlJdjdKpUkWrtCurtFu3rco|CYM=040F10",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP02-014",
@@ -10522,7 +10522,7 @@
         "img_hash": "v2|H32=1kKkrNZSqK69OVlqsq0bWlGtptUq61QVqaoGeW2aKGktoqRVzW41WquVS6taUiXqk6YmrSlVWqupoZVqS6WJtlpbVao|CYM=041F2C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -11610,7 +11610,7 @@
         "img_hash": "v2|H32=sqYsarLKlrpGWpUFRJqpZihVc6VJp3IZWqfrkLINeCK0mLBs9dpKlS216doV6lK2qUVi2dI1UktSS1IttrS2nak0Ikk|CYM=094E41",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -13558,7 +13558,7 @@
         "img_hash": "v2|H32=SqrwmqWqTUuT6qWpS0eTrCoVUpPq1GKZRsO6TWy+lGY87OhVJVqsUdtutq5kVduytKJJ21rSDmktaUgppaTapBaWSq8|CYM=12240F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP02-065",
@@ -13570,7 +13570,7 @@
         "img_hash": "v2|H32=0E6RirZL2W6tOqlqWq6FO1rV2x1ulbrlZE5qla00MpWttfJSRa2lVUlqTbqz9EumpEuktWnRSaqkFrYtScttqZWttZY|CYM=16291D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -17088,7 +17088,7 @@
         "img_hash": "v2|H32=2LarqqeyJC3naFRNSVmMUluS2jJa40soSmdpXU5VaRW9EVYpKVWpSlO3bJ9ckmXV3kppVRabUarUKh0PUpTQal0q1ao|CYM=033B49",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 4
       }
     ]
   },
@@ -22173,7 +22173,7 @@
         "img_hash": "v2|H32=VLUtLak1KK2rUpnV14LX3su211pROslqVVmlqoqNdQ4vqtYlklarIjhKzbzcSm3eKssrk9WvrZeKfrU+Xamh0ktFtZU|CYM=042A2D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 3
       }
     ]
   },
@@ -24835,7 +24835,7 @@
         "img_hash": "v2|H32=bESt2mPlsqIzaaWqLU61qkUWXMOVlN31M4XXhGutLI2nJtZtmWQDrcvaufRlky3rqpVVlyslVfWki02ttVpVsqnCyYc|CYM=19411C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 3
       }
     ]
   },
@@ -27205,7 +27205,7 @@
         "img_hash": "v2|H32=VFtVo6wKypVDjou04cqmNCtT5KhjFWSdU030VlJaslp1lnLVKsubKljJ02JdLZt6japbSdWqqTRVlqstyhpJ13oqrdU|CYM=191616",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-001",
@@ -27217,7 +27217,7 @@
         "img_hash": "v2|H32=lKVIVcysTFWjIKlTLVatWlpWValEUpWqylalqkpVkqkaVZSq1UXJrGpTU6rxLkmXo6JrVkmtS5OFrurUVapqVc2qqtU|CYM=112612",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -27258,7 +27258,7 @@
         "img_hash": "v2|H32=VjeqvCO11J21nZtYJKGrZFhHJ6XYTk+1tkpplbZKqdUmo7Sqrlpbqiqte1XWJmuta9VLaSpVqq1qVUurSldqVVppq1U|CYM=251C29",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-002",
@@ -27270,7 +27270,7 @@
         "img_hash": "v2|H32=VNVN1UupSlySqpKqkmbSbqVE0WQudK2qRFGroshURrOZFFQq1KQTmS1qwVJK0c/WQ0sulKmqC1Wq0EtVtKkKVb0oS1U|CYM=302E0F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-002",
@@ -27282,7 +27282,7 @@
         "img_hash": "v2|H32=rKqtSqupXtFrlVPVUiWWrNNs0qwUVZMq0tRHq7BURKZrWjRr1Km7rHRSQVMWUEmSDtXopZKaqlaqa+hVk6oqVammSkk|CYM=272E17",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -27323,7 +27323,7 @@
         "img_hash": "v2|H32=zHrPvEPo4ljjyHpMpNG3ZoTjszZQbqOlimJRpZJqWTVWqrS6rlarZWusqS7ZmX1tW1JpratUqq1bVUuTKlXJVVoDq9Q|CYM=0A5C71",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-003",
@@ -27335,7 +27335,7 @@
         "img_hash": "v2|H32=Wqd27cOmZGHbtm1TrbbMpK1utKrUNK2qXFVNmUpVtsjK8VRrVNaqpKdDvrqoKr1kWB7rUFXaS9VqKdlVSl9qlZSqqtQ|CYM=14543D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-003",
@@ -27347,7 +27347,7 @@
         "img_hash": "v2|H32=0ui7rJKswnCnrMFpo6okqbOZNatMlauqdFXJoitmtK2rq1ZrWdG0tAdFTZZJWalkSy2qlNLSqpRJKil16applVaqupI|CYM=04767C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -27388,7 +27388,7 @@
         "img_hash": "v2|H32=tlq2krtY3CqpTJpKUabTUhi1V56cWVO1lkplJbbmae6mpJQqrlKZ1Cmty+rSaImtIVVCqevSSimqVCpNSoWsVVpbKVU|CYM=263D06",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-004",
@@ -27400,7 +27400,7 @@
         "img_hash": "v2|H32=VKGUaxWvSHGrbnSk3FacjqaUVKrSRKMqUktLaitbXIurUlRLUrVPp/DEZ5RpWem0Gk2q1o7jKVWrUktVK50KlS2PSmk|CYM=345A05",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -27441,7 +27441,7 @@
         "img_hash": "v2|H32=lm4Wm6sUaknVtLTayGU7y5CUO1pMLGeVtmJpqbaSeelaarSqqlIm3dilJpOYqNItJ9WqqiJUVHWqVHJVWhUqVSLZWVU|CYM=062918",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-005",
@@ -27453,7 +27453,7 @@
         "img_hash": "v2|H32=qrQolNakLNuOa1RKWEpGK3M60qu21ZOpSNWVoytXTaohbRbLtWTqpMoSZSqZ1ZW6VWjqVEqXKlVqlXtVtSroVV+qZMs|CYM=013649",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-005",
@@ -27465,7 +27465,7 @@
         "img_hash": "v2|H32=omp4WtYqLEmWpFhtKoVUtWuVkvFSFKtpSlXW6itVdKta9VbLFWGqpGpRpC7ZuZUk1Xpq1YqValWqqpZU+apJWkWPSdE|CYM=013B52",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -27518,7 +27518,7 @@
         "img_hash": "v2|H32=0i4lxadqSpVNS3E6prNJOiIllypqVZUsGhFkotNWxaLO1rbaXVKUoqlVadRKpZmmTaJapbWqK1u1oskkTapWLaqtqtY|CYM=014670",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -27559,7 +27559,7 @@
         "img_hash": "v2|H32=VKtUtrMrTMupFNRYaa3fM9S1a6Oa1Fm1LkpZtbZKaa+WupSqqFar1cior11ZliqrpF1LqqpUek1qVTJtSpaq1Eq3pVc|CYM=0F3325",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-007",
@@ -27571,7 +27571,7 @@
         "img_hash": "v2|H32=1J0p3VqqVNWlKma7nVQpU1CbsgYsddGq6lTXqJpasqkscfaqpbaTNYxVNaq3tGm7YZKqFbJSylSuQap1pKiLli2rlVY|CYM=392811",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -27611,7 +27611,7 @@
         "img_hash": "v2|H32=pKrNqVaqmlRSbLJYNEq0urWeJautpUlnS1FLZEt5QryLFWpktSaPPlpZ5Ytk2lyIKlPU0qWtcq2mg6hk1WhoOBY16mo|CYM=13230F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-008",
@@ -27623,7 +27623,7 @@
         "img_hash": "v2|H32=rKrNqlbqmlRSbLJYNEq0urWeJKutlUllS3VLZEt5wryLFWpktSaPPlpZ5atk2lyKKlXE0qWtcq2mg6jk1GhpKBY9qko|CYM=13230F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -27677,7 +27677,7 @@
         "img_hash": "v2|H32=rKq0bsuOajVaRW1xFGvNSpm6laqsEo2VSg0rlWrFy60vZawq2lCLfVWtUpOtyLSaVqpaVJ5UcmpPrWotSiv00m3oklQ|CYM=282527",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -27727,7 +27727,7 @@
         "img_hash": "v2|H32=2q40W8Qilc2TssdquJW3JhjbZrXJjms5mqbLpSJb1KYr1ahorVJOlktVGpOtyi2taJFKSyWVqaZ2ydaqtaZKVVKlptI|CYM=0F1E1A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-010",
@@ -27739,7 +27739,7 @@
         "img_hash": "v2|H32=2qY0W8QiFc2TssdquJW3JhDbJrXJjms5PiZLpStbxKYr1bBorXJOlktVGtOtym2taJFKSyWVqa5mSdSqtaJKVVKlttY|CYM=0E1E1A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -27789,7 +27789,7 @@
         "img_hash": "v2|H32=LK7WWqSuNCJ7YWmrUlOtqVGaxhCtKEuUa3UPxQuXQm2PprJs0iqpLdPRWrultka6rUZt021VJbUuvVLatFRWyy1Lajo|CYM=032028",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-011",
@@ -27801,7 +27801,7 @@
         "img_hash": "v2|H32=LNmWUqXad1prLVHqOqctq1JTrWtVU0s1xVkqJWvZlqwrqbBEWqWdtJNqSpXRUlqVUrZRJUirXaqtVkvZtaqvVNOikqQ|CYM=03252C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": 0
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-011",
@@ -27863,7 +27863,7 @@
         "img_hash": "v2|H32=6Kq8W1aqwya5mrVrvaLMqkrJTKYMlU9pOqcKFyvNMLeGnfpKLGmGptKWdJcr2ylqwi0qpdm2CVQkS1iuSdpqWdm0Sqo|CYM=0F250D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-012",
@@ -27875,7 +27875,7 @@
         "img_hash": "v2|H32=7Ka8ynYqq6a5ercrnbIUyeqhcZ1OVePFMnfOhSuPkC3KrdhLJGXWpFKXpJIpWxUtoq2k1NnWmS62rlV1be22aUuqaak|CYM=122A09",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-012",
@@ -27887,7 +27887,7 @@
         "img_hash": "v2|H32=uqq8ypXqtKrbWGZNGmVKZRpFRiVKpKO1pa6ts6XaTCtME9RaVFWspFKlOtur6pUmWWpDSwtUoVZV0VUrj6dm1eu0ki4|CYM=0E230F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -27933,7 +27933,7 @@
         "img_hash": "v2|H32=qqpWWdKqXNk2VsxONE2lqrRYBqON86k2Ws1jdWtNatVOpajq8naqFUvZVqtXim6yj6zStrVKUkkPzRaslXpSlZ1W0lo|CYM=494B12",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-013",
@@ -27945,7 +27945,7 @@
         "img_hash": "v2|H32=UFJwXWFpKIcuoq0knJKFLLLYjCmVmklr2rnVNqssQDmXaqRMclepJGvZW6lli426SlpamlElKpVVtlWtVSpbLVm0laI|CYM=545711",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -27997,7 +27997,7 @@
         "img_hash": "v2|H32=rqpky9IqjFRaaRhiuFiUKrSJrSQsrUu3S01LkptWKZPLtKpKM1lKv2HilJNSvLVqCdd2saWiyDSWpemppVRy1TQptGo|CYM=21280B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -28058,7 +28058,7 @@
         "img_hash": "v2|H32=blnUqtJqrNCzqrR32dJWLSlRS1pMpaNanJYjocZaMuXPpZRqpUoqVVS11LJLK81OKFmlpVTSrrVVykqxtqVatVK1Vqs|CYM=141F26",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -28109,7 +28109,7 @@
         "img_hash": "v2|H32=+qq2UdWq7DuVqqyxSmeX6qR1acwa5+24SpVbK2udEkfribRqqjSsMklWlrVp222pIpVSlZW0htKqWmrVUy1arm5JWq0|CYM=211D0E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-016",
@@ -28121,7 +28121,7 @@
         "img_hash": "v2|H32=6siWKu3IJLLVSqyzS2JWV6SmW00aZ+XcWmdN1aomUFX7rNRqtFSkpe02lpYty5WdLlWqlErVharVqqmrUlW1qqpKitI|CYM=25200D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-016",
@@ -28133,7 +28133,7 @@
         "img_hash": "v2|H32=pKiXVa2omZW7LZWk+tVJ7ZK2pGpaMqWmXWKVoq2WVM1prrRJUrWtqtwVVqWVS6qVa+umlCVZqIq1rkv9pfpL021rklI|CYM=282021",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       },
       {
         "card_number": "hBP05-016",
@@ -28145,7 +28145,7 @@
         "img_hash": "v2|H32=XNVdOSUVh7SbLaIuUmdaJUtuUmEt5SWqCqulmsmq2LqzsDZ501ZX7JaWxWZNaFXTJdFVtGjJJNk2qZ0lwTZdPrXS9Js|CYM=23280E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 3
       }
     ]
   },
@@ -28199,7 +28199,7 @@
         "img_hash": "v2|H32=rKoJikuVSJWzVLhUsiy0qrAIVipSylZKFMpGNj6rpmWtpJZKtWqrUqpVUbVNrUitQoX+tLa0VKVOtfCg1qZ6lUrlUKk|CYM=192218",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-017",
@@ -28211,7 +28211,7 @@
         "img_hash": "v2|H32=VFVN3WtVy5W3s6WRtXSVaLRs8mxya7OKKoo6aq2KtOqlqt5JWaSrkTzykZklVak+oStfJVO0i66itNU1VZO20mDSBcs|CYM=1B2B16",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -28258,7 +28258,7 @@
         "img_hash": "v2|H32=uIqtItbIVGOzStRqNots2iSqTN4tkotECpeLzUslU63LKxYpzCsqfRtJbasiVahKZSpJkpN2TaqlqqrSKku1KkuVqlQ|CYM=0A1E12",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-018",
@@ -28270,7 +28270,7 @@
         "img_hash": "v2|H32=vFyttpLMLLaryrWqs6qrqrOlImsmvWtvIhuraioiW2pnKlZNXFWqJZvJZRW6VKRYRVWrVKpibVXVdCrVJOlVoVrVqqo|CYM=0D2311",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -28312,7 +28312,7 @@
         "img_hash": "v2|H32=rKo2WcOsabqzSlmyylK3Cdq0x6gslelkUhdKRHIlcpK2SLQqtHSrXGnJkpNai1yrllqqlGu0pKmqpmqtVWpWKimWslU|CYM=291647",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-019",
@@ -28324,7 +28324,7 @@
         "img_hash": "v2|H32=rKo2WcOsabqzSlmyylK3Ccq0x4kslelkUpdKRHI1cpK2SLQqpHSrXGnJkpNai1yrllqqlGu0tKiqpmqtVWpWKqmWslU|CYM=291647",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -28364,7 +28364,7 @@
         "img_hash": "v2|H32=pMql6rXqW6vTvVA9zjWNFq0W7MRqJmBlUmdSRTJTklG2kZ5lVeUPH6qpqMom2nHwRQ9q4apcqDqtGlabP/qPokIvwK8|CYM=261612",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-020",
@@ -28376,7 +28376,7 @@
         "img_hash": "v2|H32=pMql6rXqW6tTvVA9zjXNFq027MRqZmBlUmdSRTJTklG2kZ5lVeUPH6qpqMom2nDxRQ9q4apcqDqtGlaLPvqPokIvwK8|CYM=261612",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -28422,7 +28422,7 @@
         "img_hash": "v2|H32=qqqlqoyJVGrDrDldvaLZyqo0aq1GVnKVVmW21co0vJHMatZVVHVMJeWaovszybFcVqnsuqpdqXqrNkeJ2lapLNWrSpU|CYM=1D1D2E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-021",
@@ -28434,7 +28434,7 @@
         "img_hash": "v2|H32=qqqlqgyJVGrDrDlNvaLZyqo0aq1GVnLVViW21co2vJHMatZVVHVMJaWaovozyblcVqHsuqpdqXqrNkaJ2lapLNWrCtU|CYM=1D1D2E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -28480,7 +28480,7 @@
         "img_hash": "v2|H32=gqo0nq/pLaq3eCljzIyDM3LEwjFaZSIVVldrCRKT+Hl+nrQqVlVaJUqFEttsq4W+pdosXUpbUquVqrSSrbVKlUtKkmo|CYM=142F36",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-022",
@@ -28492,7 +28492,7 @@
         "img_hash": "v2|H32=cgiWIq3O1amzhk1pk5ZjLIjXajVLNjLVXjVqVLvVZCVLyZRtUnRqsmtbkoqNqsokUlFlkVVdpeqrKirSqtRVSVXSlbY|CYM=0E322E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -28543,7 +28543,7 @@
         "img_hash": "v2|H32=nKpp7aerrU6roFuOLGSTqmp1klpKNSxd0kNsxcpZNLdLmbRCVVVbqWIrhbZUqKVWrZJqtWuNSmmFSlatUqXSaqSkKlU|CYM=162131",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-023",
@@ -28555,7 +28555,7 @@
         "img_hash": "v2|H32=1GosjJdbrK6LmmuOtKhTs6hU03NoVZJ1bFXKKRRFSJm6ZLSqtixL1WOlVSpqtbWqVUq00qlaSlHdqqWqiWou0dqlaek|CYM=13262E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-023",
@@ -28567,7 +28567,7 @@
         "img_hash": "v2|H32=NKupOpKqlIrpNlSJqHJyZ0jVN2VIVtOZRW7JXDaLaFUyn7JqqFZr1VtNqVpWtWytbFuplptUQbBp6Ratk9ZppS1LlrY|CYM=0E1E44",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -28617,7 +28617,7 @@
         "img_hash": "v2|H32=Km3TptPqraqnqEhL2SpaFNJa0i0SVdJIlJ12lbTb9tEsk9RKtaqoUqtVVpV7oWarWrarZEr9krRo2balWotordKkS6o|CYM=0A2D35",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-024",
@@ -28629,7 +28629,7 @@
         "img_hash": "v2|H32=qirT0tpqtaq2UKzLRLWoVkyrCFVqVVvlSnVatSsoWjRrNVpZFK1pq6UokqgjXUa7sZpBPaql0qJt2ZKmaUumWkuptdY|CYM=04322F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -28666,7 +28666,7 @@
         "img_hash": "v2|H32=kq5sW62qU6qp0iyr1lK5rFJNubRaV7NVUtG0tmpd1KJsVLyaSVXkrJJKW6vWWkrVVaoqXWutq0sqldS2rbZSXaWmkk4|CYM=2D1F26",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-025",
@@ -28678,7 +28678,7 @@
         "img_hash": "v2|H32=kq5sW62qU6qp0gyr1lK5rFJNubRaU7NVUtG0Nmpd1KJsVLyaSVXkrpJKW6vWWkrVVaoqXWutqksqldS2rbZSXaW2kk4|CYM=2D1F26",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -28725,7 +28725,7 @@
         "img_hash": "v2|H32=jqqtqqmyU66OUlhU1mm0SKTVNKkumWpVShdaFVI1zFWeqFZNUXWWpayqiktkmc2xRYko2qpaqtqLFmSSX5agiapssMA|CYM=19292C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-026",
@@ -28737,7 +28737,7 @@
         "img_hash": "v2|H32=jqqtqqmjU66OUthU1mu0SKTHNKmumWpVSjdaFVI1zFWeqFZFUVWWpayqiktEmc2xRYko2qpaqtqLVmSSX5agqapksEA|CYM=19292C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -28789,7 +28789,7 @@
         "img_hash": "v2|H32=mKqrbdy6JMmlMmGbwnRbltp0GI427RvTRmlbtrJJ2rSsW7Yp3JWoNi2rKM+yVa2xTUqqWrWqUoVpUNSpUpWqWrWq0lo|CYM=2A2936",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-027",
@@ -28801,7 +28801,7 @@
         "img_hash": "v2|H32=2H63LEw7pOplGsG1xlrLJLgSWSUWlkmzWrWy00l0tkmLNrZKzrQJmqVSO6eoiqVaa61t2lVVq9ZVq6VTq9rbqih6VVo|CYM=2E3030",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-027",
@@ -28813,7 +28813,7 @@
         "img_hash": "v2|H32=lqKtqrOqlaIb67DjS3EzxabxWsUv1UPVVh6r1lS7sFSXS9ZsVzYqVNSuJZMmrUlab0m1Wra0kbZmUWnprVqpKr5a3ZI|CYM=1D252B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -28869,7 +28869,7 @@
         "img_hash": "v2|H32=JKota8uUWKqzUuG8QqW7FiItl05yUVpVUNJSQ2idVKe9rLZqFS6vUqxV87RiwcygpItKjbO6LktqcvCxS6e28GmVVqo|CYM=282324",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-028",
@@ -28881,7 +28881,7 @@
         "img_hash": "v2|H32=NLWtqsiUMKHTSqGVy5WuVBelNlXKqjxJSkoqSU3LalWrljZVnjavGowkM4qipVTVpA1rqlJVLa862amqWlXV0klF1Ko|CYM=2B2819",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -28935,7 +28935,7 @@
         "img_hash": "v2|H32=rqqtqnLtUK2bUlhXtK64VvCqlqq0UVphUkkSVVqJUqSunLZKtWqLXqNRGJVcrSix2iRopcqn6KR6VbS8Vpq0sUrTsug|CYM=0A295F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-029",
@@ -28947,7 +28947,7 @@
         "img_hash": "v2|H32=XBWt26JVVBULay3fta6p0pW6lKNod9MqWnVSNdu60n3nqDJJJUprf7HkiaqMJJuUzrTrtMjX6aZr062GlRq1lqlavfo|CYM=032F6A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -28989,7 +28989,7 @@
         "img_hash": "v2|H32=SK0prp2ata6tqimZS6tiWUpxUk3SU/BU0uTScPR01nC2aFIlXSV4QG+qrMoj2yW5PFWmrrq+qtqmjySZ0pKmnpY2hts|CYM=011A2C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-030",
@@ -29001,7 +29001,7 @@
         "img_hash": "v2|H32=SK0prp2ata6tqimdS6tiW0pxUk3SU/BU0qTSUfZ01nC2aFIlXSV4QC+qrMoj2yW5PFWmrrq6qtqmjySZ0pKmjpI2hto|CYM=011A2C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29041,7 +29041,7 @@
         "img_hash": "v2|H32=qKosVaSqOapLWkWq0kqTaqbVs2k2VaPVWiVyNcgq1Kg21rBKtFUsldnWTKRtquKWjSsaJelXKr3Zsnoly9ZSTU2L0tY|CYM=05696F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-031",
@@ -29053,7 +29053,7 @@
         "img_hash": "v2|H32=qKosVaSqOapLWkWq0kqTaqbVs0k2VaPVWiVyNcgq1Kg21rBKtFUslNnWTKRtquKWjSsaJelXKq3Jsnoly9ZSXU2L0tY|CYM=05696F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29103,7 +29103,7 @@
         "img_hash": "v2|H32=qKqn2tOitaqtahhxC3uYaUpdayjGjUoNbK10pHJVoaa2IlIKbEvzJKXqqCVasVSp2rVq29mqLmnKdWLBkaZK1Vu0glo|CYM=043250",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-032",
@@ -29115,7 +29115,7 @@
         "img_hash": "v2|H32=qKqn2tOytaqlajhxCXuYaUpdayrGDUoNbK105HJVoaa2IlIKbEvzJKXqqCVasBSp2rVq29mqLmnKdWDBkaZK1Vu0klo|CYM=043250",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29164,7 +29164,7 @@
         "img_hash": "v2|H32=qqo028uqJapMtqlqSjbTWGpP0pkmU1plklpIpbJK3HS0paxaVLZapUarqlIpaZWqq1ZaKVLVSqupUtSm/aqq1NJiItU|CYM=013F44",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-033",
@@ -29176,7 +29176,7 @@
         "img_hash": "v2|H32=kqo0msuqJIpcJqVKWuSlWWpkktFuN3PdaldotetYaJWrs6RaVHS6pVahqoqpRVXRrVa6qFZVSquqSlJWVTXl0l2spNU|CYM=024141",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -29227,7 +29227,7 @@
         "img_hash": "v2|H32=hqppkmmypakpM61KHulrTc7JUnWadfYW0nRWpNJGWKumCrpNW2VpoZS06NKsWE7ba02KpiVKqFRpGhbU0qcGi7artFI|CYM=043C42",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-034",
@@ -29239,7 +29239,7 @@
         "img_hash": "v2|H32=1qvryuiqtmkxSpVoOmUt7VZNqy0cVcI4OFXGtNo1VCaDpbpKSymptdZWYZCUKm+py1pJ1bSpSda1etHyySpalZ4vUqs|CYM=053D3F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-034",
@@ -29251,7 +29251,7 @@
         "img_hash": "v2|H32=zIutqqOq1oTpbFqXWtiZMrmWOTOrNatVTE1qUZNOZKUtprRKbnSjtiX7LYcUqemhtVqluqdaVdCWtgWqlLJR0vkqsqo|CYM=24681F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -29302,7 +29302,7 @@
         "img_hash": "v2|H32=0qqhqq2yLaotqo1Dm6mTaOJVUq2yRnJVVM2SRNDE9NCUqtYtVaV4tLHGi6guuY3SrOto2rpcptqWVkyPi1aiuKoSIi0|CYM=012F3B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-035",
@@ -29314,7 +29314,7 @@
         "img_hash": "v2|H32=0qrz6qiKdKptSqxKHFnR6atRWtUydWoVbhWrNSoVRk1LtxItUzXotPFOm8ws2YuSBctS0rhV0dq20kl6irVVk6kaZek|CYM=012C34",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -29350,7 +29350,7 @@
         "img_hash": "v2|H32=rKo0XUirj6prU+mkUsuZqi5Vm8pSdXLVsnV4kbbUdGiUpqhaWlVao5Ti1pBk66Ssv1JWaakKIl2NpSJpqaVWq60rMrU|CYM=09612C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-036",
@@ -29362,7 +29362,7 @@
         "img_hash": "v2|H32=rKo0XUirj6prU2mkUuuZqi5Nm8pSdXLVsnV4sbbVdGqUpqhaWlVao5Ti1pBk66Ssn1JWKasqIl2NpSJpqaUWq6krMrU|CYM=09612C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29409,7 +29409,7 @@
         "img_hash": "v2|H32=rqp2bqurhaqJuKnr0qKLVVJTUqxq1XMtJFdStTRqZHPW6rRqV1UqVqW9WkprqUirqaIqtUpWkqhUW9KlSksqFUosNts|CYM=05493A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-037",
@@ -29421,7 +29421,7 @@
         "img_hash": "v2|H32=pKq2qr2qlKq5Kq2i07applK1VMyblRENqlST1Ts5FNWOo7RNF1WpkpW0WqunpUmvraUpqqtSSrR1SlGlqaqJpg8tFNU|CYM=0A4B33",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-037",
@@ -29433,7 +29433,7 @@
         "img_hash": "v2|H32=dNLQqthqVMp3anNnWjUlJUY10mWybCJtLl0o1W0tTNdco7RUKVepFm20KWqh6U2qzahLq+ulQbp0sUWlpUrZposu1V4|CYM=165422",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -29483,7 +29483,7 @@
         "img_hash": "v2|H32=rKqJqlupa80zXLR0tuu0osayVLKsV1hUSlVbSdItWqmzqdYkTLWLJfjq4EojXw3bh2WItqeq6EjX6iSbr4s6pS8lItk|CYM=033C3D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-038",
@@ -29495,7 +29495,7 @@
         "img_hash": "v2|H32=VFuVwkvVK5UpzPG0O6yxKKS802i31XLVclU7VdpS5lLPSrpsWH1bVdjCh9potW9aik1dYGeT0dPVSi311XZdqKq4qpI|CYM=033C37",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -29550,7 +29550,7 @@
         "img_hash": "v2|H32=qKqpularDKuTVErWVl+NluGqpKugXVNpclReRVrK8jQsrbJJlcqMZmpRdJFvtWzLkrZIKIqW0qVbW7aSS4vw2S5L0qA|CYM=075E4F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-039",
@@ -29562,7 +29562,7 @@
         "img_hash": "v2|H32=RFXFlFRVHeWzimqrnKqFis2LtLItLVNpsmhKTdvKljRtpbJJ0MiNJXCpdJomHS9L0p5pLZZW2aS20laaadolS7ZalKk|CYM=076649",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -29617,7 +29617,7 @@
         "img_hash": "v2|H32=qqojKpaqzerKVInezEykJGSqtC5ulXoVThVKVZiJVkWrSbpkVKVI19JIBJoTbnGhqUIqqKoa8JprWzStLZ/wKS3Jsqg|CYM=2C511A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-040",
@@ -29629,7 +29629,7 @@
         "img_hash": "v2|H32=qqozKpaqzerKVInezEykpGSqtC5qlXoVThVKVZiJVkWrSapkVKVI19JIhJoTbnGhqUIqqKoa8JprWzStLcvwKS3Zsqg|CYM=2C521A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29669,7 +29669,7 @@
         "img_hash": "v2|H32=pKqpqs+qsaqLS6lei6FwtNLXUKRSS3JVVlV6VS5VLLVsPFZVVfWLkqqqqSypWmy3RNmEq6pLqsq6JpaL26bgucqW8Og|CYM=152509",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-041",
@@ -29681,7 +29681,7 @@
         "img_hash": "v2|H32=pKqpqs+qsaqLa6lei6FwtNLXUKRSSXJV1lV6VSpVLLVstFZVVfWLkqqqqSypWmy3RNmEq6pLqsq6JpaL26bgqcqW8Og|CYM=152509",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29727,7 +29727,7 @@
         "img_hash": "v2|H32=pLqpqo+6narDK6mWz6lopay1UhWq1VBVQtU21VSabGU0SthlXSRNKaqqmtq2ldbWN9WkkqtKKqteSy2pUq0ppatXtBo|CYM=141C11",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-042",
@@ -29739,7 +29739,7 @@
         "img_hash": "v2|H32=pJqpqo+6narDK6mWz6lppay1UpWK1VBVQpU2VVCabGU0SthlXSRNKaq6mtq2ldbWN9WkkqpKKqteSy2pUq0pLatXtAo|CYM=141D11",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29789,7 +29789,7 @@
         "img_hash": "v2|H32=rKq0UqeqVqrLKidWVqqRqq5Vsa5qVXtVVlVaG3JUbEl6SLRqWnVLtZupivIkmNjUJZdouapqKluZIiJV1SpCzdGqNok|CYM=2B1A13",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-043",
@@ -29801,7 +29801,7 @@
         "img_hash": "v2|H32=rKq0UqeqVqrLCidWVqqRqq5Vsa5qVWvVVlVaG2JUbEl6SLRqWnVLtZupivIknNjUJZ9ovapqKluZIiJd1SpS2dGqNoU|CYM=2B1A13",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -29851,7 +29851,7 @@
         "img_hash": "v2|H32=jKot69Sqta7bWdI+ItWxKiaV0K2kPVLVxnVq1VoUTlF4hpJlUaEtJNZqqFpK2WXarJRWqKsXqmm0lHSpllZSqktKopU|CYM=252815",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-044",
@@ -29863,7 +29863,7 @@
         "img_hash": "v2|H32=TLYta9Sqp8zbauK6s2mXKjJNlbWiVVa1jlVrZW5JWF0vKZJMsVWvElWlSKtqTTWaXjZalaWrK6q01bW61ipata3an9I|CYM=252C14",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -29914,7 +29914,7 @@
         "img_hash": "v2|H32=uKops6Spjq0jWVpW2drLdsoQpaZmtbLMVtUoTVpfbB0vJpJqWLVMpEOlJ9q0LmrVTZrWtKNK6NpV67LVqXri6muaIkk|CYM=2B420B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-045",
@@ -29926,7 +29926,7 @@
         "img_hash": "v2|H32=0Na1sbRUtNWjctiwSWbLssmuydKz5pNcamVLKws5ZCerHZJLuFVol+tSfbkWlq/aqlrKlpWOSZWiy7SWUrVZ+iqLVeo|CYM=2B4E08",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-045",
@@ -29938,7 +29938,7 @@
         "img_hash": "v2|H32=1FqkKrtq1My3qtSc0VFWhkpRQuVo1WtFRLWtVkwfFDWvktRqLFfrtE1J2bQ2LWvV99UlmqVaqdp1RUmXlKqJarQyT6s|CYM=1B430B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -29989,7 +29989,7 @@
         "img_hash": "v2|H32=rKqlqqS2LaqLLal2k+taTkrTUtJSVXBVYgU0DaQ1lMVcpFJ1VTQtI6Yppqhs2ZXWTdNo+apepkjLLyRb20aGttsmpJQ|CYM=272207",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-046",
@@ -30001,7 +30001,7 @@
         "img_hash": "v2|H32=pGKxajRqt6owirW6wwYYUkylSlVKaWr9alU6WceVUtWmkkpKWC0lJZa0pKU12kzaakMk2rREaNC0LY1KHn2fsmJT0rY|CYM=232104",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -30037,7 +30037,7 @@
         "img_hash": "v2|H32=pKpbKl+qre0qNZWqi0xKu5OKMk1SlTLENnVslcZqXBPOUk5ZlmTNpdK2btpraaRlaVOwtC5aSmqvh7SladJJKqUtlrY|CYM=1E1A17",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-047",
@@ -30049,7 +30049,7 @@
         "img_hash": "v2|H32=pKpbKl+qre0qNZWqi0xKu7OKMk1SlTJENnVsleZqXFPOUk5ZlmTNpda2btpraaRlaVuwtC5bSmqvh7SlaVJLqqUtlrY|CYM=1D1A17",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30095,7 +30095,7 @@
         "img_hash": "v2|H32=tqqpLsOjFCqn1LFomZpUiZhcUodYRFJV1qNOVDI13DJnTtZWlWrapUqtqVKkSpSqR9vIWkslYmlqpXKhppW2JY2WapU|CYM=292610",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-048",
@@ -30107,7 +30107,7 @@
         "img_hash": "v2|H32=tqqprsOjFCrn1LFoGZpWy5hcUodYRFJV1iNOVDI13DJmDtZWlWrapUqtqVKkSpSqR5vI2kslYmlqpXKhptW2ZY2WapU|CYM=292610",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30154,7 +30154,7 @@
         "img_hash": "v2|H32=bmopypFqlK6Prp2oy5pjlSDRQJRmpTKlaiV65S4VVNGMmfZpU31jpWeiCaqbd8yWWFqK0rqeqFok2xTaKLkqqypbpFo|CYM=201C11",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-049",
@@ -30166,7 +30166,7 @@
         "img_hash": "v2|H32=bKspapCqlG6Xpt2k25grsSnZSZlSTdaUUtVqFSmVahVkTdZrwynjVGfneZW3pkm+WNoP1tBSsdKXrqXjNFlKVUVbSiU|CYM=1F1B0E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-049",
@@ -30178,7 +30178,7 @@
         "img_hash": "v2|H32=tJihqpiKmyOxq9xGTjnrXUaGhvRbzSPGkm0tGa22YhkuOZppWjNlbqTtt7SWo0SX5FJQqGTbpVrSptlKWFgtuU5LS6k|CYM=292F15",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -30233,7 +30233,7 @@
         "img_hash": "v2|H32=rKytqsOuydLzVmhXMtk0uzSptJk0UgpVWlNaV1qtUirNrdYolaqvVqtUULdlr7ihKFsq27S0cFpYF9i0clVwqYrWcqk|CYM=15302A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-050",
@@ -30245,7 +30245,7 @@
         "img_hash": "v2|H32=rNUtlEW1TejDpu2m62rrkusmy0VWlcdlc/VTKqRksuKrSq5rH65vXYMX1rTH07nsZ9tt+aRFdNrZZpfWQNvbVp6VVko|CYM=103026",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -30296,7 +30296,7 @@
         "img_hash": "v2|H32=iqqlpEbqaI+x1mJVzDJMKqyx1Cp61dN7dlUpWzIVNCdrW5ZqxlSStzvtcJoueY16U4vo5dWKqtStKnLVrarwJWqVats|CYM=5D3E06",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-051",
@@ -30308,7 +30308,7 @@
         "img_hash": "v2|H32=WC231kNtOU+zyiqXTmpshoUzyqXX1VsxlsVrSTNlNEUrK1ZJxpYKpbtqcpisWg35KpNpKdKV65JRK1bbVdLWtaYWTS8|CYM=694602",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -30354,7 +30354,7 @@
         "img_hash": "v2|H32=SmtjWrWqtMytuo2msiRLq1I2G01i2dJxlkUsEUg2NBMsi7ZmShWsEK3aTJkW5S7b9bqTriKbStq2qhSrzcqaNqRNWis|CYM=182414",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-052",
@@ -30366,7 +30366,7 @@
         "img_hash": "v2|H32=SmtjWrWqtEytuo2msiVLo1I2G01i2dJxtlQsUUg2NBMsi7ZmShWsMK1KTJkW5S7b5bqTriqTatq2KBarzcqaNqQtWqs|CYM=182414",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30412,7 +30412,7 @@
         "img_hash": "v2|H32=qrbWKKnKcyW0KqtZ3KwpSVLanZZq1ZSappVMqbIW5KlGOqwqUnVWq6mtetOp1UpltdqtNE1KS9Y0KStd0KSl2VHSmlI|CYM=113B26",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-053",
@@ -30424,7 +30424,7 @@
         "img_hash": "v2|H32=qrbWKKnKcyW0KqtZ3KwpSVLanZZq1ZTappVMqbIWpKlGOqwqUnVWq6mpetOp1WpltdqtNE1KS9Y0KStd0KSl2VnSmlI|CYM=113A26",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30464,7 +30464,7 @@
         "img_hash": "v2|H32=6Kot6sSiE5bSaLREKS3WaLM2aa1OSzqXTolOV+KUTKXyWlpTMmVkpVuqqEvMVrWkLItKqCsqi9K2VmzJJKugbGlaoG0|CYM=182418",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-054",
@@ -30476,7 +30476,7 @@
         "img_hash": "v2|H32=6Kot6sSiEpbSSLRUKS3WaJM2aa1OSzqXTolOV+KUTKVyWlpTMGVkpVqqqEvMVrWkLItKrCsridK2VmzJJaugbGlaoC0|CYM=182318",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30517,7 +30517,7 @@
         "img_hash": "v2|H32=Bs+zqpm6JaulOqS6reR6bMKkekVSSVKTGFlGlWiWTIdrpNJUk6TxkoZSJhloi2mrbaKZprbbptK0VGRLii8KLmqpKJk|CYM=082621",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-055",
@@ -30529,7 +30529,7 @@
         "img_hash": "v2|H32=Kq7zKpkqJQtEe8QarOJq5MSWqOQiheJVOm1mQQxzRhUrlZJ0k6TR04Zaproqq2CrSZHZlF3blpa00uBal9LbrkuVadE|CYM=092522",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -30580,7 +30580,7 @@
         "img_hash": "v2|H32=rLp3itKqvaqta6loa2s2bauwWlVClUg1Wp2k2VrHVJWtklJJlNWxIWnarKZLLU3WeSqW0oYapLKkrS4ttNuW1hYUlho|CYM=0B2813",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-056",
@@ -30592,7 +30592,7 @@
         "img_hash": "v2|H32=5Kp3mtoqmaq1bJ1qKG82bTPzGmVi1Uq1ShWkWUpFRs2pm2prnNSzU2laqZRLZWnSaSqC2l9alLJpJWmp5duCVj5alPI|CYM=0D2711",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-056",
@@ -30604,7 +30604,7 @@
         "img_hash": "v2|H32=zHQtmW1mltVzVF3FbZOzbQ2T62jbsm0icrrNJiOLkmutmpRNopVNSeTWsZaVUm2kqSVqyWVopbaWVlW1tbotWUpNFaw|CYM=5C1D06",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -30647,7 +30647,7 @@
         "img_hash": "v2|H32=uKqbareqraqlrOYsY6oWS2lbWtHS1Wi1zlWslHJ3NEkr21purbS5oU5a5opwy2zWtrYMW9lLovhPCw5LT0sSLVsrUss|CYM=032930",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-057",
@@ -30659,7 +30659,7 @@
         "img_hash": "v2|H32=uKqbaraqraqlLOYsY4oWS0lbWtHSVWi1zlSslHB3NEkr21purbS5oU5apIpwy27WtpQIW9tLorhPCw5Lb1sSL1kr0qs|CYM=032A30",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30713,7 +30713,7 @@
         "img_hash": "v2|H32=jsqtSseq1qSxrLO0kCYSd+xKHFMuVUw0SrU8RcoydE2uTaZUnSRaKXKkaJZi20jSVlqWptZK8Ch02+jb5KsurdIpUmk|CYM=052629",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30759,7 +30759,7 @@
         "img_hash": "v2|H32=rKqnqlKJWtaZdThDtCJZamSKbCnO9SRNTlcMlWIKWpXTtLJMTPRDr/CrRIsnW6yV0q20sppVnD6tWrA0tBQkuW8Ltlo|CYM=124C35",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-059",
@@ -30771,7 +30771,7 @@
         "img_hash": "v2|H32=rKqnqlKJWtaZdXhDtGNZa2SKZCnO9SRNTlcMlWsKWpXTtLJMzPRDr/CrRIsnW6y1Uq20sopVnD6tWrA0tDRg2U8rtlo|CYM=124C35",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -30834,7 +30834,7 @@
         "img_hash": "v2|H32=rNUtrLv2qxjxqNk6N1OVrAxHPYlOU7NLUlJrSd9yUI2PItZqS0Ur1abYtZqxqCmVLQtHq6SVq6a6pl3VtcpNi5aqWms|CYM=513A02",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -30886,7 +30886,7 @@
         "img_hash": "v2|H32=tqrLOanSFarnYKRmjqmR0QkbUotK1WJ2SiW2xAo9tN28iZJt8WbtqoaitaokqhaSUolK22lbatFKXybd23SmpMs0StU|CYM=042127",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-061",
@@ -30898,7 +30898,7 @@
         "img_hash": "v2|H32=VsuJu6lKFzXnaqQijuWXjamxcp1IXWqzSnVqVkrWyNa33Jou0ULtLsSulSo06peSlo9b2mXLSdpm22rJ9KmVrKousqQ|CYM=042029",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-061",
@@ -30910,7 +30910,7 @@
         "img_hash": "v2|H32=/OrRKpMqnaqUCdaZS0lOTWzVSmUqNam2lK2xnoiKlJ6sOkhq4ia7F8tObqIN6UzbaMmGli+KoLX50ml9S1ZJ22vrlm4|CYM=1B2B11",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -30962,7 +30962,7 @@
         "img_hash": "v2|H32=pqqkKpWqmYqjatOqi0qRrUhzGEVckzp1zlVLJcwUZDeOjNBqUyQ6lBnataoWkyzVrFIqq+qlrFqqVSLVtqrKUqpUUkE|CYM=072A19",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-062",
@@ -30974,7 +30974,7 @@
         "img_hash": "v2|H32=psqkKtRKnKqzqm5qc6hTSGNVy91OFRpVZpUSVWyRcmVOkdIvR2WqVPlq1at31a1Wscoi1X2XVazpWiVVqaqVatFWVLU|CYM=092C17",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -31020,7 +31020,7 @@
         "img_hash": "v2|H32=KKoprcfSlSqtcCsTzigzMkqtUYZSrWDUUjFWRPhSViWdQrZEXLVYImZKqaol2kza8VUula1KTqtqFaVSkqYkaq+0qZU|CYM=072132",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-063",
@@ -31032,7 +31032,7 @@
         "img_hash": "v2|H32=KKoprcfSlSqtcCsTzikzMkqtUYZSrWDUUjHWRPhSdiWdQrZGXKVYImZaqaol2kza8VQula1KTqtqFaVSkqYkaq+0qZU|CYM=062032",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31072,7 +31072,7 @@
         "img_hash": "v2|H32=pqqZH8uojau5bufhGJ9zaloXc6rmZloVdmWS1VZl5MWGUrQuLVValVjrtrKltGzNWmVa21IqUpqyWiRLrValao2qpEo|CYM=2B1824",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-064",
@@ -31084,7 +31084,7 @@
         "img_hash": "v2|H32=pqqZH8uojau5bufhGJ9zaloXcarmZloVdmWS1VZl5MWGUrQmLVValVjrtrKltGzNWm1a21IqUpqySiRLrValao2qpEo|CYM=2B1724",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31126,7 +31126,7 @@
         "img_hash": "v2|H32=ymjtuqWrve6Lq6Pka3ObOcaSUl3SVdBEkjVyXdK8dBm0CHZVWXVcqZuqqqJmkjfbpNGUmipbqUrXylKX6TppKKZVlCo|CYM=091528",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-065",
@@ -31138,7 +31138,7 @@
         "img_hash": "v2|H32=ymjluqWrve6Lq6Pka3ObOcaSUl3SVdBEkjXyXZK8dBm0CHZVWXVcqZuqqqJmkjfbpNGUmipbqUrXSlKX6TppKKZVlCo|CYM=091528",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31188,7 +31188,7 @@
         "img_hash": "v2|H32=gqKnqsuqraypSqmtLlOz7WZxElVmmVJV9hlaVrRNUDa9rNZVV1V6VfGqqKom1S2pqlJo662qqkp2VVWvpY6iSqoUWio|CYM=0A1A2C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-066",
@@ -31200,7 +31200,7 @@
         "img_hash": "v2|H32=0iK3qtMqvDrZaqXNamqVhUpXtpVuVcpVZpFaVWxb2lUrOJZqziCqVlEltaYqVTWRqqol1VVVqKpqWlm01RaVp6qWHiU|CYM=0F1C20",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -31251,7 +31251,7 @@
         "img_hash": "v2|H32=tqqNo6sphObnLKVG6fJpmYzSWJnclVJOStW0bpZntHG3uLZpM1U6Jcyu06rUqVLSasWq0itrqDYVL0qVatEo26pWpco|CYM=0F3140",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-067",
@@ -31263,7 +31263,7 @@
         "img_hash": "v2|H32=VqubU6qqlkLHPLeiYyrnUnKtKlFRmWrVap1bVaqqalU1SpYts2qrdFWyUyXU01Kkalpap0pJVKVX9Jq2aVWKNm1VWiY|CYM=12373C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-067",
@@ -31275,7 +31275,7 @@
         "img_hash": "v2|H32=piqZq6Uq2Cr76pbaWqxJlXqVAjVJda1kSjWt1i611dVtW7YtU1c8qVq1ZKulSqqWrsoq1P1KU9NaVSxVVdClKWJVqVI|CYM=0A2833",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -31323,7 +31323,7 @@
         "img_hash": "v2|H32=pKistpeqLa3LsqNqSrWxymZaWoVaVVJSal1e0uRIPNnUCqSlTSVaI5Kspoor01TKtNTKlKJL6lat21ar+UogrdkqYkk|CYM=222023",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-068",
@@ -31335,7 +31335,7 @@
         "img_hash": "v2|H32=pKistpeqLa3LsqNqWrWxykZaWqVaVVJSal1e0uRIfNvUKqSlTSVaI5Kspoor01TatNTKlKJL6lat21ar+UogrdkqYks|CYM=222023",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31387,7 +31387,7 @@
         "img_hash": "v2|H32=jKotq8ura6qzLlvWs41px8vTcoxOQfIUJg3aVfJcDGfb2kxVVVSSlKks0koqWy2tVKmqtaraqPpqSy0prTagaqFatPA|CYM=211217",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-069",
@@ -31399,7 +31399,7 @@
         "img_hash": "v2|H32=jKotq8ura6qzLFvWs8lpxsvTcoxOQfIUZg3aVfJcDGfb2kxVVVSStKks0koqWy2tVKmqtaraqNpKS20prbagZql6sPA|CYM=211217",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31452,7 +31452,7 @@
         "img_hash": "v2|H32=pOu9im87LYZrOJOTp+fT3ZrjUkyaVVpGUjSsVVKkdGmUlnRJbVlNKraoopaVpqTWSiXqqlpakvK2tMBVS8MKr+pU1rI|CYM=0F1D27",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-070",
@@ -31464,7 +31464,7 @@
         "img_hash": "v2|H32=tO69aW1rrSZpODfTpaaL0Vblkl0o1VIVTNkolWJljJEqR7BLpWpttbS0Z8rNQaWbraYlyWltUVm0lLWkXdOtpmmpUSo|CYM=111F1E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-070",
@@ -31476,7 +31476,7 @@
         "img_hash": "v2|H32=TGV9btVoi7fbivW1pq0STaI5PD0y05G4WNWV6Eq5lEiso7ZrVV3FMrdStbhhFTFBSSmLVrq2q5q0imlZnSiVpNGi1qo|CYM=0C293B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -31527,7 +31527,7 @@
         "img_hash": "v2|H32=rqo7q4uqvasta63Ojrkgh8qQcoVaddpUVlVaVfaZdIy3yn5pVVX5lBKqGpqlmmTd6Vua9qorartVy1KtqrSqKouqUmo|CYM=263322",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-071",
@@ -31539,7 +31539,7 @@
         "img_hash": "v2|H32=NJpzqpMqlKotasVurJkky8uUYtVKddtUSmVLVUY5aJWnG65pi1TxVlapX5o1myTRaUqT1qeobLlNS0qlsrSrqkurVOk|CYM=303C14",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -31594,7 +31594,7 @@
         "img_hash": "v2|H32=rKmtqkut2JLTlsiWgdK5q/JpZltyS2Zcel1SJbgtlmWcoJZKNWqrVqtVEaVLvUilwpOutvKaZNoO12iXTqVIquppSuk|CYM=18142D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-072",
@@ -31606,7 +31606,7 @@
         "img_hash": "v2|H32=tLS1lK8UXYpSWsqKTdqZUplS00NKU1rrSmlKYWlpTm2pKD5HcKDLJaltM6otRVC2J1/UlHRblYJw0w6tqbTStOtvlaQ|CYM=1E101E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -31658,7 +31658,7 @@
         "img_hash": "v2|H32=yqqtquW6H82Pm2TOr2prmo5gWtWSFVLVUhVWd9Y6tBIsAtZVU2VYibiq7Lhs2y3yWpapaqoCqtSV0xWKSkuoWqQaoqU|CYM=04233B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-073",
@@ -31670,7 +31670,7 @@
         "img_hash": "v2|H32=Sqq1KtGanm4YWiRkdEltKEzlSZuI1SvVWlVKVco1UjLLqppqm2lKDdFszLmkS43Sel1RqvG+qtCV0lbVStdRcpU68rI|CYM=092633",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -31694,7 +31694,7 @@
         "img_hash": "v2|H32=0qqxqpSqIaqrnCtVKlUqVetUdFU2qxSrVKpULlZ8VFUcVTJdB8EtsiMGL7IzQy/izpytrLjw4Wt4eOAr+LjgK/B44Dk|CYM=24210E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-074",
@@ -31706,7 +31706,7 @@
         "img_hash": "v2|H32=0qqxqpSqIaqrnCtVKlUqVetUVFU2qxSrVKpULlZ8VFUcVTJNB8ktsCMGL6IzQy/izpztuLjw4et4+OAr+HjgK/B44Hk|CYM=24210D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31731,7 +31731,7 @@
         "img_hash": "v2|H32=xKqnqlSVaNerxnZWo2aZLJOpkCUrKSk1Jik2WS9ZHFkeS1JdRuKtqphdLarz+K2rDo4tqvNNqeoPgy3qC3/pqh/PqOo|CYM=091822",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-075",
@@ -31743,7 +31743,7 @@
         "img_hash": "v2|H32=xKqnqlSVaFerRnZWo2aZrJupkCUrISllNik2XS9pHFkeS1JdRuKtqpgcLbLzWK2rDpYtquNPqeoPg62qC3/pqh+vqOo|CYM=091822",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31768,7 +31768,7 @@
         "img_hash": "v2|H32=0lXLclZ1lGS1LjQzLIspm0nbxNjMjJYss64hpynTSNtLyRJRTDzlrpOPLbrMxi2Os3mNo2PxvWgPD62q+OAPi4Pn+Hg|CYM=071813",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-076",
@@ -31780,7 +31780,7 @@
         "img_hash": "v2|H32=UlXLclZ1lCS9LjQzLIsp20nbxNjMjJYss64hpynTSMtLyRJRTDzlLpPPLbpMxi2Os3mNoyPwuSgPD63r+LCNi4Pz+Hg|CYM=071713",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31805,7 +31805,7 @@
         "img_hash": "v2|H32=2E3LKlJNSmWtJlR1Krc3krSStpirKZUJtCorlSuXdJcvlZJNzEYlm+fgJbtYxG2qM7vNaIOzrSwfPKmD68OtigcPLjg|CYM=051520",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-077",
@@ -31817,7 +31817,7 @@
         "img_hash": "v2|H32=mEnLalJNSmWtJlRXarc3krSStpirKZQJvGoqtSuXdJcnlZJNzEYlu2fgJbu4xG2qM7LNaoOz6SwfPMmD6aetgg+PLDg|CYM=051520",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31842,7 +31842,7 @@
         "img_hash": "v2|H32=0KS5qtQzaldrU0RTLWoHLVSqZKqrstiSmpKrlKuklOSbpJJFMZksmzjwLZtgbm26j8Cpasg+iS6Ofuk4jwfpiwZsaJs|CYM=0A1516",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-078",
@@ -31854,7 +31854,7 @@
         "img_hash": "v2|H32=0KS5qtQzalVrU0RTLWoPLXSqZKorstiSmpKrlKuElKSbpJJFMZksmzxwLZtg7m26DsKpasw+iS7MXqk4hwfgiw9IaJs|CYM=0A1516",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -31879,7 +31879,7 @@
         "img_hash": "v2|H32=KOlr6lLtSqWPopRSpFIqU7RTVDUrrTS9tLivnK9aVFprxZJNHCRlkx+ZZLqfCS2a4/eNLuPDuWyP8olrfzyNizT4IJs|CYM=052428",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-079",
@@ -31891,7 +31891,7 @@
         "img_hash": "v2|H32=KOlr6lLtSqWLppRSpFIqUzRTVDUrrTS9tLivnK9aVFprxZJNHKRlkh+ZbLqegS2a4/eNLuPDuWyP86lrfzyNizz4KJs|CYM=052528",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-079",
@@ -31950,7 +31950,7 @@
         "img_hash": "v2|H32=Jp3pNCqV1InWq+zcuWoHTshUMYzPxmykA7lrI0oxM4vMCJS2taqzak5qWaokqSpNuTW90qaqrlup1mZb0kupPr1aNko|CYM=133914",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP05-080",
@@ -31962,7 +31962,7 @@
         "img_hash": "v2|H32=Npeqak6ZWEdHmciqNeZoJpNKLfezekyVKXZ3JUiWZ6XcVFSltaytKKpUWbW1lTxLVlvdmopVpkdm1d2WyrZLVlWaWlU|CYM=0D3D28",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -31986,7 +31986,7 @@
         "img_hash": "v2|H32=cKUjqmSvJK6hqtDS25qW2tea1pjanFpVSsUKVatVqlWqVVJVCXatasDgLSv+AiWqgcut6u88LaiCH6nq/eGpq8mXKSo|CYM=100B0E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-081",
@@ -31998,7 +31998,7 @@
         "img_hash": "v2|H32=cqUjqmSvJK6jqtHS24qS2tea1pjanFpVSnUKVYtVqlWqVVJVCXatKsTgLat+AiWqkcOt6s98LaiCH63q/+Gpq8mXqSo|CYM=100B0E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -32026,7 +32026,7 @@
         "img_hash": "v2|H32=sqKjqpCpkOmbaVZLjErNVm3WarVttlm1SpWaFa1UtFSuZhbdY3aIXZGrbao6V+ki/Krtus5VqapweC26eTjp6z344ao|CYM=0D142C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-082",
@@ -32038,7 +32038,7 @@
         "img_hash": "v2|H32=sqKjqpCpkGmbaVZLjkrtVm3WcrVttlm1Sp2aFa1UtFSuZBbdZzaIXZGpbao6V+ky3Krtqs5VqapweC2qfHrp8z346ao|CYM=0D132C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -32062,7 +32062,7 @@
         "img_hash": "v2|H32=rqSrrlKVUlWjMoRRkqtpqO2sROorSn1SLFJMVc2sXK1crTLdZ6YlopyJzLozd22q58Lt6hx4rYvAj+nqggepKq0HqCg|CYM=262909",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-083",
@@ -32074,7 +32074,7 @@
         "img_hash": "v2|H32=rqSrrlKVUlWjstRRkqtpaO2oRGsran1SLlJMVU2sXK1crBLdZ7YlqpwJzLozd22q5+Lt6hz4rcvAh+nqwg+pqi8PqLo|CYM=262909",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -32098,7 +32098,7 @@
         "img_hash": "v2|H32=VpUju1CRjDOvqlRo6GpMbi1uWCWrtpyVqYow3LPOUszbyhJVs8mhq0QmbaJMtu2qmHitapDHrerkMm2qgB+tii34qRo|CYM=011115",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-084",
@@ -32110,7 +32110,7 @@
         "img_hash": "v2|H32=VpUju1CRjBOvqlRoyGpMbi1uWCWrppyVqYq0zLPOUkzbShJVs8mhq0Q2baJM9u2qGHitqpDPjargUq2qgI+tqi98qyo|CYM=011215",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -32134,7 +32134,7 @@
         "img_hash": "v2|H32=7KupqtazUrIvqjQ5tLqLktuSWpWLlQkFnIYWjaeMNr1SPZLNMCZnsxM5bKLPyY06jsltKtzw6ejyAem4+PDo+uHw4PA|CYM=012042",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-085",
@@ -32146,7 +32146,7 @@
         "img_hash": "v2|H32=7KupqtazUrIvqjQ5tLqLkpuSWpeLlQkVHgYWja+MNj0SLZLNMCZnsxMZbKLPyY0qjsltKvzw6KjyAem6+HDgeOHw4PA|CYM=012042",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -32170,7 +32170,7 @@
         "img_hash": "v2|H32=qqijKtZ5Y1krWSdZpIulq62rLIk8rVg11LbUtpO20rbapjLVZCZENrNJzKm7k30gj+OpPo7BrciPf+2IjwPpCgeHKLg|CYM=2D1409",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-086",
@@ -32182,7 +32182,7 @@
         "img_hash": "v2|H32=qqijKlZpY1krSSdZpIulq62rLKk8qVg11LbUtpO20rbapjLVZCZENrNJzIi7k30wj+epPo7Brcie/63InwPpCg+HKLg|CYM=2D1409",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -32206,7 +32206,7 @@
         "img_hash": "v2|H32=iqqrqq2qpL6ltlIVSl1OS1pLUkVaUHZUtNQ2VDZcXlVeWZbZM8k4u0Y2ZaLY6c2u/LOJK/j56OrIaeGoDx+JLvgxqA8|CYM=4C300A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP05-087",
@@ -32218,7 +32218,7 @@
         "img_hash": "v2|H32=iqqrqqWqpL6ltlKVSl1OS1pLUkFaVHZUtNQ2FDZcXnVeeZbdM8k4s0Y2ZaLYyc2O/LONK/j54OroY+CoDx4JHvhpyA8|CYM=4C300A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -33959,7 +33959,7 @@
         "img_hash": "v2|H32=UlKlrK1KMaqvK1vKq6VTWkq0MllSldBdclXWlGRKsrXsWnSVV7VWS62qq7LYVC1t1KqJ0qleCq2lSkmtWpatUkqt1Vo|CYM=101609",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -34576,7 +34576,7 @@
         "img_hash": "v2|H32=OtNcardprZbWLKes6ZZSaWyZE1ZIKRIsqsdIZbKLNNOMGqhStNtWJVqsrdpppbZlrVKtlttapWokSUmrtK2LlkpVtmw|CYM=0D2918",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -36247,7 +36247,7 @@
         "img_hash": "v2|H32=wmyjqq2zbWotoo2qy04apMoVWlkGk/YRcl/2k+Y0Mkf08laVNUW8aZiqWqpaSU/tZqWotKrUi1KrWqRIpwvLsqStLas|CYM=0C1829",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hSD07-002",
@@ -36259,7 +36259,7 @@
         "img_hash": "v2|H32=cMaeKnfmIqaSOM28lFudmYiTRkfJnXJWaaRiRavKckesi6RV1qruVBpV3app0qO0IlVZrm3apbCSRUi7/ZINyilVUik|CYM=12283A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -37745,7 +37745,7 @@
         "img_hash": "v2|H32=0lTLMlST9DSrqivLO0tcyyXLtUQUqjK1qyxTjq0y20xzs1JWmWyYTJsknSwpS66lYpKlaSQpaZJm2m1ahbYlqyZJS9I|CYM=0F0E0C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -37938,7 +37938,7 @@
         "img_hash": "v2|H32=rKoydMurTMvTVHI0NEqUtCytFEtMUyRN0mPQ0rI00+4wlbSoTtVLbdls0ko2q7S0nZJIOkupNkkpSaJVqpRSMKtKclI|CYM=53125C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -38179,7 +38179,7 @@
         "img_hash": "v2|H32=rKrczMurs7KSTTwxeM4MG0wTy86kM/JM0rSwPTLMSbM8Q9yqG9QjLcdL8mhJKjSatLSmJUuLUlqtbSq1elDSWo+Woi0|CYM=006B72",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -38392,7 +38392,7 @@
         "img_hash": "v2|H32=rKrUWEurK6cTVGNRPKaWRlRLkK7OdSxRmhXJEFJTkoxUs7yoM11LS9SylpdsKSRtm6BoWdO20rQkSTJZihQi0duy0tI|CYM=5F3107",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -38580,7 +38580,7 @@
         "img_hash": "v2|H32=rKpO27Ou/ChO07I0OktM29IkScvEMdNEaNvWNLZNOMPSNOSqtU2btUyybKuz7DJtpWnSllaSKEnbZiIlKW2W0laSSls|CYM=084A1B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -38624,7 +38624,7 @@
         "img_hash": "v2|H32=uqzpWJa3VhtMUxSedmq8pb3MM1OpQdNSSzvNrcSsU6kstVKrWYqmbba0zZrKVHLStGqwNulTK8ValVIaluUSXS/F2jQ|CYM=0D4D2C",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10039",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -38744,7 +38744,7 @@
         "img_hash": "v2|H32=rKqytUuuLOvSVUtLtNHj0E5JwrxIW8kN1PLYmpr1rPJy1KzqaldLtReo0maRrrTqVstsTa0kVkpCpdJValVyZZtsImk|CYM=081691",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -38768,7 +38768,7 @@
         "img_hash": "v2|H32=rKJWWbGy6WQ7W5hkK0tUtktJNLNILDLRwiQwy4Y0tkrIrFSJVtmrTChttqrZVipV7aLSqq2mqlVWqaXaKdRSqa1SKtU|CYM=161E3C",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10040",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
