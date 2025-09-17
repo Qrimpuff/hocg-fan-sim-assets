@@ -4962,7 +4962,7 @@
         "img_last_modified": { "jp": "Mon, 09 Dec 2024 08:10:36 GMT", "en": "Mon, 25 Aug 2025 03:27:33 GMT" },
         "img_hash": "v2|H32=rKvQ+p2qKW2WcqmkakmVImudVkuWVmrdlmEuVMKVcKtOViil1Xa0JiqrlpRJy1ZatNVKmrIuamlaurJlrZRaKm2LiiQ|CYM=291F17",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10031",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 653913,
         "delta_art_index": 0
       },
       {
@@ -13818,7 +13818,7 @@
         "name": { "jp": "この手を差し伸べ、つかんで握る！", "en": "Reach out your hand, and hold on!" },
         "text": {
           "jp": "サイコロを1回振れる：奇数の時、自分のエールデッキから、[白エールか緑エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "You may roll a die once:If it is odd, reveal 1 [white cheer or rreen cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
+          "en": "You may roll a die once:If it is odd, reveal 1 [white cheer or green cheer] from your cheer deck and send it to your back holomem. Then, shuffle the cheer deck."
         }
       }
     ],
