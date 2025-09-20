@@ -953,6 +953,27 @@ pub fn download_images_from_ogbajoj_sheet(
                                 let mut all_cards = all_cards.write();
                                 let card = all_cards.entry(set_code.clone()).or_default();
 
+                                // find a new image file name
+                                let mut counter = 2;
+                                while card.illustrations.iter().any(|i| {
+                                    i.img_path
+                                        .value(language)
+                                        .as_ref()
+                                        .map(|p| {
+                                            *p == img_unreleased
+                                                .to_str()
+                                                .unwrap()
+                                                .replace("\\", "/")
+                                        })
+                                        .unwrap_or(false)
+                                }) {
+                                    img_unreleased =
+                                        Path::new(UNRELEASED_FOLDER).join(sanitize_filename(
+                                            &format!("{}_{}_{}.webp", set_code, rarity, counter),
+                                        ));
+                                    counter += 1;
+                                }
+
                                 // find a matching illustration, otherwise create a new one
                                 let mut matching_illustrations = card
                                     .illustrations
@@ -991,11 +1012,13 @@ pub fn download_images_from_ogbajoj_sheet(
                                     {
                                         _adding = false;
 
-                                        if let Some(img_path) =
-                                            illust.img_path.value_mut(language).as_mut()
+                                        // if the rarity is different, rename the new file if needed
+                                        if let Some(img_path) = illust.img_path.value(language)
+                                            && illust.rarity == rarity
                                         {
                                             img_unreleased = Path::new(img_path).into();
                                         } else {
+                                            illust.rarity = rarity.clone();
                                             *illust.img_path.value_mut(language) = Some(
                                                 img_unreleased.to_str().unwrap().replace("\\", "/"),
                                             )
@@ -1003,35 +1026,30 @@ pub fn download_images_from_ogbajoj_sheet(
 
                                         illust
                                     } else {
+                                        // it's an unreleased card that might have an updated rarity
+                                        if !illust.manage_id.has_value() && illust.rarity != rarity
+                                        {
+                                            illust.rarity = rarity.clone();
+                                            // rename the old file
+                                            if let Some(img_path) =
+                                                illust.img_path.value_mut(language).as_mut()
+                                            {
+                                                let old_path = images_path.join(&img_path);
+                                                *img_path = img_unreleased
+                                                    .to_str()
+                                                    .unwrap()
+                                                    .replace("\\", "/");
+                                                let new_path = images_path.join(&img_path);
+                                                fs::rename(old_path, new_path).unwrap();
+                                            }
+                                        }
+
                                         // already exists
                                         skipped += 1;
                                         continue;
                                     }
                                 } else {
                                     _adding = true;
-
-                                    // find a new image file name
-                                    let mut counter = 2;
-                                    while card.illustrations.iter().any(|i| {
-                                        i.img_path
-                                            .value(language)
-                                            .as_ref()
-                                            .map(|p| {
-                                                *p == img_unreleased
-                                                    .to_str()
-                                                    .unwrap()
-                                                    .replace("\\", "/")
-                                            })
-                                            .unwrap_or(false)
-                                    }) {
-                                        img_unreleased = Path::new(UNRELEASED_FOLDER).join(
-                                            sanitize_filename(&format!(
-                                                "{}_{}_{}.webp",
-                                                set_code, rarity, counter
-                                            )),
-                                        );
-                                        counter += 1;
-                                    }
 
                                     // Doesn't exist, add illustration
                                     card.illustrations.push(CardIllustration {

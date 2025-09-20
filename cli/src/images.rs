@@ -180,7 +180,7 @@ pub fn download_images(
                 image_count.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                 let image_count = image_count.load(std::sync::atomic::Ordering::Relaxed);
                 let image_skipped = image_skipped.load(std::sync::atomic::Ordering::Relaxed);
-                if image_count % 10 == 0 {
+                if image_count.is_multiple_of(10) {
                     println!("{image_count} images downloaded ({image_skipped} skipped)");
                 }
             }
