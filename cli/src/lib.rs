@@ -1,6 +1,7 @@
 pub mod data;
 pub mod holodelta;
 pub mod images;
+pub mod ogbajoj;
 pub mod price_check;
 pub mod qna;
 pub mod utils;

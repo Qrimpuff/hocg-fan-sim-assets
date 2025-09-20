@@ -1,6 +1,5 @@
 use std::sync::{Arc, OnceLock};
 
-use csv::ReaderBuilder;
 use hocg_fan_sim_assets_model::{Language, Qna, QnaDatabase};
 use itertools::Itertools;
 use parking_lot::{Mutex, RwLock};
@@ -8,7 +7,7 @@ use rayon::iter::{ParallelBridge, ParallelIterator};
 use reqwest::header::REFERER;
 use scraper::{Html, Selector};
 
-use crate::{data::ogbajoj::Spreadsheet, http_client};
+use crate::http_client;
 
 pub fn generate_qna(all_qnas: &mut QnaDatabase, language: Language) {
     println!("Retrieve all Q&As from Hololive official site for language: {language:?}");
@@ -156,97 +155,4 @@ fn update_qna(qna: &mut Qna, hololive_qna: &scraper::ElementRef, language: Langu
         .collect_vec();
     relations.sort();
     qna.referenced_cards = relations;
-}
-
-pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
-    println!("Retrieve all Q&As info from @ogbajoj's sheet");
-
-    const SPREADSHEET_ID: &str = "1IdaueY-Jw8JXjYLOhA9hUd2w0VRBao9Z1URJwmCWJ64";
-
-    let api_key = std::env::var("GOOGLE_SHEETS_API_KEY").expect("GOOGLE_SHEETS_API_KEY not set");
-
-    let url = format!("https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}");
-    let resp = http_client()
-        .get(url)
-        .query(&[("key", api_key.as_str())])
-        .send()
-        .unwrap();
-
-    let content = resp.text().unwrap();
-    let spreadsheet: Spreadsheet = serde_json::from_str(&content).unwrap();
-    // dbg!(&spreadsheet);
-
-    let sheets_gid = spreadsheet
-        .sheets
-        .iter()
-        .filter(|s| s.properties.title.contains("Q&A"))
-        .map(|s| s.properties.sheet_id)
-        .collect_vec();
-    // dbg!(&sheets_gid);
-
-    let mut updated_count = 0;
-
-    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/export");
-    for gid in sheets_gid {
-        let resp = http_client()
-            .get(&url)
-            .query(&[
-                ("id", SPREADSHEET_ID),
-                ("gid", gid.to_string().as_str()),
-                ("format", "csv"),
-                ("key", api_key.as_str()), // probably doesn't do anything
-            ])
-            .send()
-            .unwrap();
-        let content = resp.text().unwrap();
-        // fs::write(format!("sheet_{gid}.csv"), &content).unwrap();
-
-        let mut rdr = ReaderBuilder::new()
-            .has_headers(false)
-            .from_reader(content.as_bytes());
-        for (question, answer) in rdr
-            .records()
-            .flatten()
-            .filter(|r| !r.is_empty())
-            .tuple_windows()
-        {
-            if !question[0].starts_with('Q') || !answer[0].starts_with('A') {
-                continue;
-            }
-
-            let Some((number, question)) = question[0].split_once('-') else {
-                eprintln!("Invalid question format: {}", &question[0]);
-                continue;
-            };
-            let Some((_, answer)) = answer[0].split_once('-') else {
-                eprintln!("Invalid answer format: {}", &answer[0]);
-                continue;
-            };
-
-            let number = number.trim().to_string();
-            let question = question.trim().to_string();
-            let answer = answer.trim().to_string();
-
-            let Some(qna) = all_qnas.get_mut(&number.into()) else {
-                // println!("Q&A {} not found", number);
-                continue;
-            };
-            qna.question.english = Some(question);
-            qna.answer.english = Some(answer);
-            updated_count += 1;
-        }
-    }
-
-    println!("Updated {updated_count} Q&As");
-
-    let missing_english = all_qnas
-        .values_mut()
-        .filter(|c| c.question.english.is_none())
-        .count();
-    println!("Missing english questions: {missing_english}");
-    let missing_english = all_qnas
-        .values_mut()
-        .filter(|c| c.answer.english.is_none())
-        .count();
-    println!("Missing english answers: {missing_english}");
 }

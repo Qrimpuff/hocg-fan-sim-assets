@@ -10,15 +10,15 @@ use hocg_fan_sim_assets_cli::{
     data::{
         decklog::retrieve_card_info_from_decklog,
         hololive_official::retrieve_card_info_from_hololive,
-        ogbajoj::retrieve_card_info_from_ogbajoj_sheet,
     },
     holodelta::{import_holodelta, import_holodelta_db},
-    images::{
-        download_images, download_images_from_ogbajoj_sheet, prepare_en_proxy_images,
-        utils::is_similar, zip_images,
+    images::{download_images, prepare_en_proxy_images, utils::is_similar, zip_images},
+    ogbajoj::{
+        download_images_from_ogbajoj_sheet, retrieve_card_info_from_ogbajoj_sheet,
+        retrieve_qna_from_ogbajoj_sheet,
     },
     price_check::{tcgplayer, yuyutei},
-    qna::{generate_qna, retrieve_qna_from_ogbajoj_sheet},
+    qna::generate_qna,
 };
 use hocg_fan_sim_assets_model::{CardsDatabase, QnaDatabase};
 use itertools::Itertools;
