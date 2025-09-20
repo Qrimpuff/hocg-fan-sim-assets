@@ -18313,6 +18313,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP03-051",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-051_C.webp", "en": null },
+        "img_hash": "v2|H32=qKqX2o7qrKxSUi1TsrVZK+pRkqxKWVJVRpxSNcaU9pUspLZWVOkplamlUqpptRSUWwqSLbVSWmqrdDZJqWp2XdtSImk|CYM=14250B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -30874,7 +30885,7 @@
       {
         "cheers": [ "purple", "colorless", "colorless" ],
         "name": { "jp": "Unleashed Charm", "en": "Unleashed Charm" },
-        "power": "120",
+        "power": "120+",
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "自分の手札1～3枚をアーカイブできる：このターンの間、アーカイブしたカード1枚につき、自分のステージの#歌を持つホロメン1人のアーツ+20。",
