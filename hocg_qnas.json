@@ -2781,7 +2781,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-006〈クレイジー・オリー〉のSP推しスキル「蘇るオリー」を使う時、自分のデッキが3枚以下でも使用することができますか？",
-      "en": "Can I use hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie resurrection\" even if I have 3 or less cards in my deck?"
+      "en": "Can I use hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\" even if I have 3 or less cards in my deck?"
     },
     "answer": {
       "jp": "はい、使用することができます。\nその場合はデッキが0枚になるまで引いて、手札2枚をアーカイブします。",
@@ -2996,7 +2996,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-084〈みっころね24〉を使用して、サイコロを振り1が出た時はどうなりますか？",
-      "en": "When using hBP02-084 Mikkorone24, what happens if I roll a 1?"
+      "en": "When using hBP02-084 Mikkorone 24, what happens if I roll a 1?"
     },
     "answer": {
       "jp": "デッキから2枚引くテキストだけを解決し、他には何も起こらないことになります。",
@@ -3009,7 +3009,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-087〈紫咲シオンの魔法のステッキ〉が付いている〈紫咲シオン〉がセンターにいる状態で、hBP02-005〈紫咲シオン〉の推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」を2回使用しました。\nその後、〈紫咲シオン〉がセンターから移動し、再度センターに戻りました。\n推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」は[ターンに1回]に戻ってから再度[ターンに2回]に変更されましたが、再び使用することはできますか？",
-      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Stick attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Neeeeeee\" twice. After that, the Murasaki Shion moved out of the center position, and back to the center position again.\nSince the Oshi Skill became \"1/Turn\" before going back to \"2/Turn\" again, can I use it another time?"
+      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Stick attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" twice. After that, the Murasaki Shion moved out of the center position, and back to the center position again.\nSince the Oshi Skill became \"1/Turn\" before going back to \"2/Turn\" again, can I use it another time?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\n［ターンに1回］を［ターンに2回］に変更する能力であるため、センターポジションを離れて再度センターホロメンになってもそのターンに使用できる回数に変化はありません。",
@@ -3157,7 +3157,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-006〈クレイジー・オリー〉のSP推しスキル「蘇るオリー」は、この能力を処理した後に自分のアーカイブのホロメンを使ってBloomすることができますか？",
-      "en": "After using hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie resurrection\", can I continue to Bloom using holomem from my archive?"
+      "en": "After using hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\", can I continue to Bloom using holomem from my archive?"
     },
     "answer": {
       "jp": "いいえ、能力の処理内でのみBloomさせることができます。\nそのため、4枚引いた後に2枚捨て、その後Bloomすることができます。",
@@ -3216,7 +3216,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-084〈みっころね24〉を使用して、サイコロを振り、2か4が出た時は必ず1枚引きますか？",
-      "en": "When using hBP02-084 Mikkorone24, if I roll a 2 or 4 must I always draw an additional card?"
+      "en": "When using hBP02-084 Mikkorone 24, if I roll a 2 or 4 must I always draw an additional card?"
     },
     "answer": {
       "jp": "はい、2か4が出た時は必ず追加で1枚引きます。",
@@ -3229,7 +3229,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-087〈紫咲シオンの魔法のステッキ〉が付いている〈紫咲シオン〉がセンターにいる状態で、hBP02-005〈紫咲シオン〉の推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」を1回使用し、その後バトンタッチしてバックポジションに移動しました。\nその後、もう一度推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」を使用することはできますか？",
-      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Stick attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Neeeeeee\" once. After that, the Murasaki Shion moved out of the center position.\nCan I use the Oshi Skill \"Neeeeeee\" a second time?"
+      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Stick attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" once. After that, the Murasaki Shion moved out of the center position.\nCan I use the Oshi Skill \"Heeeyyyyy\" a second time?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\nその後何らかの効果によって再びhBP02-087〈紫咲シオンの魔法のステッキ〉が付いている〈紫咲シオン〉がセンターにいる状態になったら、再度使用することができます。",
@@ -3343,7 +3343,7 @@
     "date": "2025-01-10",
     "question": {
       "jp": "hBP02-006〈クレイジー・オリー〉の推しスキル「蘇るオリー」は、そのターンにステージに出した#ID2期生を持つホロメンや、Bloomしたばかりの#ID2期生を持つホロメンをBloomさせることはできますか？",
-      "en": "Can I use hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie resurrection\" to Bloom a holomem that was put on stage this turn, or who has already Bloomed this turn?"
+      "en": "Can I use hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\" to Bloom a holomem that was put on stage this turn, or who has already Bloomed this turn?"
     },
     "answer": {
       "jp": "いいえ、ステージに出したばかりのホロメンはルールによりBloomすることはできません。",
@@ -4701,7 +4701,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-061〈クレイジー・オリー〉のブルームエフェクト「オリ－を見てください！」の能力は、hBP02-006〈クレイジー・オリー〉のSP推しスキル「蘇るオリー」でBloomさせた〈クレイジー・オリー〉のみHPを回復できるのですか？",
-      "en": "Does hBP04-061 Kureiji Ollie's Bloom Effect \"Look at Ollie!\" only restore HP to the holomem that was Bloomed by hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie resurrection\"?"
+      "en": "Does hBP04-061 Kureiji Ollie's Bloom Effect \"Look at Ollie!\" only restore HP to the holomem that was Bloomed by hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\"?"
     },
     "answer": {
       "jp": "いいえ、他の〈クレイジー・オリー〉も回復できます。",
@@ -4979,11 +4979,11 @@
     "date": "2025-07-04",
     "question": {
       "jp": "自分のセンターホロメンのhBP02-047〈紫咲シオン〉のブルームエフェクト「いたずらの魔法」を使い、サイコロを1回振りました。\nその後、hBP02-005〈紫咲シオン〉の推しスキル「ねえ゛え゛え゛え゛え゛え゛え゛」を使い、サイコロを1回振り直しました。\nこの場合、コラボポジションのhBP04-059〈ラプラス・ダークネス〉がアーツ「吾輩最強伝説」を使ったなら、能力で数える「サイコロを振った回数」は何回になりますか？",
-      "en": "I used my center hBP02-047 Murasaki Shion's Bloom Effect \"Mischievous Magic\" and rolled a die. I then used hBP02-005 Murasaki Shion's Oshi Skill \"Neeeeeee\" to re-roll the die.\nIn this case, if my collab hBP04-059 La+ Darknesss uses the Arts \"The strongest legend\", how many times have I rolled a die this turn for its ability?"
+      "en": "I used my center hBP02-047 Murasaki Shion's Bloom Effect \"Mischievous Magic\" and rolled a die. I then used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" to re-roll the die.\nIn this case, if my collab hBP04-059 La+ Darknesss uses the Arts \"The strongest legend\", how many times have I rolled a die this turn for its ability?"
     },
     "answer": {
       "jp": "hBP02-005〈紫咲シオン〉の能力によって前のサイコロの結果を無くしているため、数える回数は1回になります。",
-      "en": "Because you entirely replaced the dice roll using \"Neeeeeee\", the number of rolls counted is 1."
+      "en": "Because you entirely replaced the dice roll using \"Heeeyyyyy\", the number of rolls counted is 1."
     },
     "referenced_cards": [ "hBP02-005", "hBP02-047", "hBP04-059" ]
   },
