@@ -766,6 +766,7 @@ pub fn download_images_from_ogbajoj_sheet(
                     let mut alternate_art_2_idx: Option<usize> = None;
                     let mut rarity_3_idx: Option<usize> = None;
                     let mut text_idx = None;
+                    let mut source_idx = None;
                     let mut header_row_idx: Option<usize> = None;
 
                     for (i, header_tr) in trs.iter().enumerate() {
@@ -777,6 +778,7 @@ pub fn download_images_from_ogbajoj_sheet(
                         alternate_art_2_idx = None;
                         rarity_3_idx = None;
                         text_idx = None;
+                        source_idx = None;
 
                         let headers = header_tr
                             .select(&td_sel)
@@ -810,6 +812,9 @@ pub fn download_images_from_ogbajoj_sheet(
                             }
                             if h.contains("text") {
                                 text_idx = Some(idx);
+                            }
+                            if h.contains("source") {
+                                source_idx = Some(idx);
                             }
                         }
 
@@ -860,12 +865,19 @@ pub fn download_images_from_ogbajoj_sheet(
                             .and_then(|idx| tds.get(idx))
                             .map(|td| td.text().collect::<String>().trim().to_string())
                             .unwrap_or_default();
+
+                        let source = source_idx
+                            .and_then(|idx| tds.get(idx))
+                            .map(|td| td.text().collect::<String>().trim().to_string())
+                            .unwrap_or_default();
+
                         // language switch for English exclusive cards like hY01-008
-                        let language = if text.contains("EN exclusive") {
-                            Language::English
-                        } else {
-                            Language::Japanese
-                        };
+                        let language =
+                            if text.contains("EN exclusive") || source.contains("EN only") {
+                                Language::English
+                            } else {
+                                Language::Japanese
+                            };
                         let images_path = match language {
                             Language::Japanese => images_jp_path,
                             Language::English => images_en_path,

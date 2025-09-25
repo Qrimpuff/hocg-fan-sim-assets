@@ -12,7 +12,9 @@ use hocg_fan_sim_assets_cli::{
         hololive_official::retrieve_card_info_from_hololive,
     },
     holodelta::{import_holodelta, import_holodelta_db},
-    images::{download_images, prepare_en_proxy_images, utils::is_similar, zip_images},
+    images::{
+        PROXIES_FOLDER, download_images, prepare_en_proxy_images, utils::is_similar, zip_images,
+    },
     ogbajoj::{
         download_images_from_ogbajoj_sheet, retrieve_card_info_from_ogbajoj_sheet,
         retrieve_qna_from_ogbajoj_sheet,
@@ -20,7 +22,7 @@ use hocg_fan_sim_assets_cli::{
     price_check::{tcgplayer, yuyutei},
     qna::generate_qna,
 };
-use hocg_fan_sim_assets_model::{CardsDatabase, QnaDatabase};
+use hocg_fan_sim_assets_model::{self as hocg, CardsDatabase, QnaDatabase};
 use itertools::Itertools;
 use json_pretty_compact::PrettyCompactFormatter;
 use serde::Serialize;
@@ -428,49 +430,50 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     }
 
                     // merge the data
-                    if let Some(manage_id) = illustrations[j].manage_id.japanese.take() {
-                        illustrations[i]
-                            .manage_id
-                            .japanese
-                            .get_or_insert_default()
-                            .extend(manage_id);
-                        if let Some(ids) = illustrations[i].manage_id.japanese.as_mut() {
-                            ids.sort();
-                            ids.dedup();
+                    for language in [hocg::Language::Japanese, hocg::Language::English] {
+                        // merge manage id
+                        if let Some(manage_id) =
+                            illustrations[j].manage_id.value_mut(language).take()
+                        {
+                            illustrations[i]
+                                .manage_id
+                                .value_mut(language)
+                                .get_or_insert_default()
+                                .extend(manage_id);
+                            if let Some(ids) = illustrations[i].manage_id.value_mut(language) {
+                                ids.sort();
+                                ids.dedup();
+                            }
+                        }
+
+                        // merge image path and last modified
+                        // overwrite if the current one is a proxy image
+                        if illustrations[i].img_path.value(language).is_none()
+                            || illustrations[i].img_last_modified.value(language).is_none()
+                            || (illustrations[i]
+                                .img_path
+                                .value(language)
+                                .as_ref()
+                                .is_some_and(|p| p.starts_with(PROXIES_FOLDER))
+                                && illustrations[i]
+                                    .img_path
+                                    .value(language)
+                                    .as_ref()
+                                    .is_some_and(|p| !p.starts_with(PROXIES_FOLDER)))
+                        {
+                            *illustrations[i].img_path.value_mut(language) =
+                                illustrations[j].img_path.value(language).clone();
+                            *illustrations[i].img_last_modified.value_mut(language) =
+                                illustrations[j].img_last_modified.value(language).clone();
                         }
                     }
-                    if let Some(manage_id) = illustrations[j].manage_id.english.take() {
-                        illustrations[i]
-                            .manage_id
-                            .english
-                            .get_or_insert_default()
-                            .extend(manage_id);
-                        if let Some(ids) = illustrations[i].manage_id.english.as_mut() {
-                            ids.sort();
-                            ids.dedup();
-                        }
+
+                    // merge other fields
+                    if illustrations[i].img_hash.is_empty() {
+                        illustrations[i].img_hash = illustrations[j].img_hash.clone();
                     }
                     if illustrations[i].illustrator.is_none() {
                         illustrations[i].illustrator = illustrations[j].illustrator.clone();
-                    }
-                    if illustrations[i].img_path.japanese.is_none() {
-                        illustrations[i].img_path.japanese =
-                            illustrations[j].img_path.japanese.clone();
-                    }
-                    if illustrations[i].img_path.english.is_none() {
-                        illustrations[i].img_path.english =
-                            illustrations[j].img_path.english.clone();
-                    }
-                    if illustrations[i].img_last_modified.japanese.is_none() {
-                        illustrations[i].img_last_modified.japanese =
-                            illustrations[j].img_last_modified.japanese.clone();
-                    }
-                    if illustrations[i].img_last_modified.english.is_none() {
-                        illustrations[i].img_last_modified.english =
-                            illustrations[j].img_last_modified.english.clone();
-                    }
-                    if illustrations[i].img_hash.is_empty() {
-                        illustrations[i].img_hash = illustrations[j].img_hash.clone();
                     }
                     if illustrations[i].yuyutei_sell_url.is_none() {
                         illustrations[i].yuyutei_sell_url =

@@ -301,11 +301,6 @@ pub mod decklog {
                                                 .any(|m| Some(m) == dl_card.manage_id.as_ref())
                                         }) {
                                             Some(i)
-                                        } else if let Some(i) = illustrations.iter_mut().find(|i| {
-                                            i.img_path.value(language).as_ref()
-                                                == Some(&dl_card.img)
-                                        }) {
-                                            Some(i)
                                         } else {
                                             illustrations
                                                 .iter_mut()
