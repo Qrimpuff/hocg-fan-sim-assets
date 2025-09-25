@@ -2742,7 +2742,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-001〈白上フブキ〉のSP推しスキル「フブキングダム」を使った時、自分のステージにマスコットが6枚あったのでサイコロを3回振り、奇数が2回出ました。相手のライフは「-2」されますか？",
-      "en": "I used hBP02-001 Shirakami Fubuki's SP Oshi Skill \"Fubukingdom\" while having 6 mascots on my stage, so I rolled a die 3 times and got 2 odd numbers. Will my opponent's Life be reduced by 2?"
+      "en": "I used hBP02-001 Shirakami Fubuki's SP Oshi Skill \"FBKINGDOM\" while having 6 mascots on my stage, so I rolled a die 3 times and got 2 odd numbers. Will my opponent's Life be reduced by 2?"
     },
     "answer": {
       "jp": "いいえ、ライフは「-1」だけされます。\nSP推しスキル「フブキングダム」で複数のサイコロを振った時、奇数が何回出たとしてもライフは「-1」以上されることはありません。",
@@ -2768,7 +2768,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-004〈沙花叉クロヱ〉の推しスキル「ぽえぽえぽえ～」で公開した3枚は、アーカイブするカードとデッキの上に戻すカードを分けることができますか？",
-      "en": "When I reveal 3 cards using hBP02-004 Sakamata Chloe's Oshi Skill \"poepoepoe~\", can I put some in my archive and return some to my deck?"
+      "en": "When I reveal 3 cards using hBP02-004 Sakamata Chloe's Oshi Skill \"Poe Poe Poe~\", can I put some in my archive and return some to my deck?"
     },
     "answer": {
       "jp": "いいえ、できません。\n3枚全てをアーカイブするか、3枚全てをデッキの上に戻してください。",
@@ -2807,7 +2807,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-007〈森カリオペ〉のSP推しスキル「死神ラップ」は、パフォーマンスステップに使用することができますか？",
-      "en": "Can I use hBP02-007 Mori Callope's SP Oshi Skill \"Shinigami Rap\" during the Performance Phase?"
+      "en": "Can I use hBP02-007 Mori Callope's SP Oshi Skill \"Reaper's Rap\" during the Performance Phase?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\nあらかじめメインステップでSP推しスキル「死神ラップ」を使用しておく必要があります。",
@@ -2820,11 +2820,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-007〈森カリオペ〉のSP推しスキル「死神ラップ」を使用して、自分のセンターポジションにいる〈森カリオペ〉がアーツを使った時、もう一回アーツを使う前にコラボホロメンがいればそちらのアーツから使用できますか？",
-      "en": "If I have used hBP02-007 Mori Calliope's SP Oshi Skill \"Shinigami Rap\" on my center Mori Calliope, if I have a holomem in the collab position can I use their Arts after the first use of my center holomem's Arts?"
+      "en": "If I have used hBP02-007 Mori Calliope's SP Oshi Skill \"Reaper's Rap\" on my center Mori Calliope, if I have a holomem in the collab position can I use their Arts after the first use of my center holomem's Arts?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\nSP推しスキル「死神ラップ」を使っている場合は、必ず選択された〈森カリオペ〉が2回連続でアーツを使用してください。",
-      "en": "No, you cannot. If you have used the SP Oshi Skill \"Shinigami Rap\", the selected Mori Calliope must use their Arts twice in a row."
+      "en": "No, you cannot. If you have used the SP Oshi Skill \"Reaper's Rap\", the selected Mori Calliope must use their Arts twice in a row."
     },
     "referenced_cards": [ "hBP02-007" ]
   },
@@ -2833,11 +2833,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-017〈白銀ノエル〉のアーツ「3期生ぱわー」は、自分のステージに#3期生を持つホロメンが5人いても4人までしか数えないのですか？",
-      "en": "When using hBP02-017 Shirogane Noel's Art \"3rd Generation Power\", if there are 5 other holomem with #Gen 3 on my stage, does it still only count up to 4 of them?"
+      "en": "When using hBP02-017 Shirogane Noel's Arts \"Gen 3 Power\", if there are 5 other holomem with #Gen 3 on my stage, does it still only count up to 4 of them?"
     },
     "answer": {
       "jp": "はい、数える人数は〈白銀ノエル〉自身以外の4名までです。最大で「+80」する能力になります。",
-      "en": "Yes, it does. The number of holomem that can be counted is up to 4, excluding the Shirogane Noel using the Art. Therefore the maximum Damage that can be gained is +80."
+      "en": "Yes, it does. The number of holomem that can be counted is up to 4, excluding the Shirogane Noel using the Arts. Therefore the maximum Damage that can be gained is +80."
     },
     "referenced_cards": [ "hBP02-017" ]
   },
@@ -2846,7 +2846,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-026〈大神ミオ〉の《ブルームエフェクト》〈アイドルとして成長した姿〉を使った時、#ゲーマーズを持つホロメン1人と同色ではないホロメンにエールを送ることはできますか？",
-      "en": "Can I use hBP02-026 Ookami Mio's Bloom Effect \"Improving as an idol\" to choose a holomem with #GAMERS, and then send a cheer from my cheer deck to a holomem of another color?"
+      "en": "Can I use hBP02-026 Ookami Mio's Bloom Effect \"Grown as an Idol\" to choose a holomem with #GAMERS, and then send a cheer from my cheer deck to a holomem of another color?"
     },
     "answer": {
       "jp": "はい、可能です。エールデッキから公開するエールは#ゲーマーズを持つホロメン1人と同色のエールでなければいけませんが、送る対象は自由に選ぶことができます。",
@@ -2859,11 +2859,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-032〈宝鐘マリン〉の《ブルームエフェクト》「宝鐘の海賊団」の、「自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。」とは、[ターンに1回]とどう違うのですか？",
-      "en": "Regarding hBP02-032 Houshou Marine's Bloom Effect \"Houshou Pirates\", how does the text \"You may only use the Bloom Effect \"Houshou Pirates\" once per turn.\" differ from \"[1/Turn]\"?"
+      "en": "Regarding hBP02-032 Houshou Marine's Bloom Effect \"Houshou's Pirate Crew\", how does the text \"You may only use the Bloom Effect \"Houshou's Pirate Crew\" once per turn.\" differ from \"[1/Turn]\"?"
     },
     "answer": {
       "jp": "[ターンに1回]とは、その能力ごとにターンに1回しか使えないという意味ですが、《ブルームエフェクト》「宝鐘の海賊団」はこの名称の《ブルームエフェクト》自体がターンに1回しか使えないという意味になります。\n例としてhBP02-032〈宝鐘マリン〉が既に《ブルームエフェクト》「宝鐘の海賊団」を使った状態でステージにいるときに、再度hBP02-032〈宝鐘マリン〉にBloomしても、《ブルームエフェクト》「宝鐘の海賊団」は発揮しません。",
-      "en": "\"[1/Turn]\" indicates that the specific instance of that ability may only be used once on each turn, but the text of the Bloom Effect \"Houshou Pirates\" means that only one instance of any Bloom Effect with that name may be used on each turn.\nFor example, if hBP02-032 Houshou Marine is already on your stage and used its Bloom Effect this turn, then even if you Bloom another hBP02-032 Houshou Marine, the Bloom Effect will not activate."
+      "en": "\"[1/Turn]\" indicates that the specific instance of that ability may only be used once on each turn, but the text of the Bloom Effect \"Houshou's Pirate Crew\" means that only one instance of any Bloom Effect with that name may be used on each turn.\nFor example, if hBP02-032 Houshou Marine is already on your stage and used its Bloom Effect this turn, then even if you Bloom another hBP02-032 Houshou Marine, the Bloom Effect will not activate."
     },
     "referenced_cards": [ "hBP02-032" ]
   },
@@ -2872,7 +2872,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-049〈クレイジー・オリー〉の《コラボエフェクト》「オリーがいつも見てるよ」を使った時、デッキが0枚でも手札1枚をアーカイブできますか？",
-      "en": "When using hBP02-049 Kureiji Ollie's Collab Effect \"Ollie is always watching you\", do I archive a card from my hand even if there are no cards in my deck?"
+      "en": "When using hBP02-049 Kureiji Ollie's Collab Effect \"Ollie's Always Watching\", do I archive a card from my hand even if there are no cards in my deck?"
     },
     "answer": { "jp": "はい、可能です。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP02-049" ]
@@ -2882,11 +2882,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-051〈クレイジー・オリー〉の《ブルームエフェクト》「限界化！！」は、既にBloomしているホロメンもBloomできますか？",
-      "en": "Can I use hBP02-051 Kureiji Ollie's Bloom Effect \"Max simping!!\" to Bloom a holomem who has already Bloomed this turn?"
+      "en": "Can I use hBP02-051 Kureiji Ollie's Bloom Effect \"Going Full Fangirl!!\" to bloom a holomem who has already bloomed this turn?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの能力でBloomできるのはまだそのターンにBloomにしていないホロメンだけです。",
-      "en": "No, you cannot. Only holomem that have not yet Bloomed this turn may Bloom using this ability."
+      "en": "No, you cannot. Only holomem that have not yet bloomed this turn may Bloom using this ability."
     },
     "referenced_cards": [ "hBP02-051" ]
   },
@@ -2895,11 +2895,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-051〈クレイジー・オリー〉の《ブルームエフェクト》「限界化！！」の、「自分のブルームエフェクト「限界化！！」はターンに1回しか使えない。」とは、[ターンに1回]とどう違うのですか？",
-      "en": "Regarding hBP02-051 Kureiji Ollie's Bloom Effect \"Max simping!!\", how does the text \"You may only use the Bloom Effect \"Max simping!!\" once per turn.\" differ from \"[1/Turn]\"?"
+      "en": "Regarding hBP02-051 Kureiji Ollie's Bloom Effect \"Going Full Fangirl!!\", how does the text \"You may only use the Bloom Effect \"Going Full Fangirl!!\" once per turn.\" differ from \"[1/Turn]\"?"
     },
     "answer": {
       "jp": "[ターンに1回]とは、その能力ごとにターンに1回しか使えないという意味ですが、《ブルームエフェクト》「限界化！！」はこの名称の《ブルームエフェクト》自体がターンに1回しか使えないという意味になります。\n例としてhBP02-051〈クレイジー・オリー〉が既に《ブルームエフェクト》「限界化！！」を使った状態でステージにいるときに、再度hBP02-051〈クレイジー・オリー〉にBloomしても、《ブルームエフェクト》「限界化！！」は発揮しません。",
-      "en": "\"[1/Turn]\" indicates that the specific instance of that ability may only be used once on each turn, but the text of the Bloom Effect \"Max simping!!\" means that only one instance of any Bloom Effect with that name may be used on each turn.\nFor example, if hBP02-051 Kureiji Ollie is already on your stage and used its Bloom Effect this turn, then even if you Bloom another hBP02-051 Kureiji Ollie, the Bloom Effect will not activate."
+      "en": "\"[1/Turn]\" indicates that the specific instance of that ability may only be used once on each turn, but the text of the Bloom Effect \"Going Full Fangirl!!\" means that only one instance of any Bloom Effect with that name may be used on each turn.\nFor example, if hBP02-051 Kureiji Ollie is already on your stage and used its Bloom Effect this turn, then even if you Bloom another hBP02-051 Kureiji Ollie, the Bloom Effect will not activate."
     },
     "referenced_cards": [ "hBP02-051" ]
   },
@@ -2908,11 +2908,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-060〈癒月ちょこ〉の《ブルームエフェクト》「誘惑の視線」は「回復したダメージ10につき、特殊ダメージ10を与える。」と書かれていますが、ダメージを与える対象をhBP02-100「白銀聖騎士団」が付いている〈白銀ノエル〉にした場合、ダメージ10を複数回与えるだけで何点回復していてもダメージは0になってしまいますか？",
-      "en": "hBP02-060 Yuzuki Choco's Bloom Effect \"Seductive Gaze\" states \"Deal 10 Special Damage to your opponent's center holomem for each 10 HP restored by this effect.\"\nIf the target of the damage is a Shirogane Noel with a hBP02-100 Shirogane Dan'in attached, will the damage be reduced from 10 to 0 multiple times, no matter how much HP was restored?"
+      "en": "hBP02-060 Yuzuki Choco's Bloom Effect \"Seductive Gaze\" states \"Deal 10 Special Damage to your opponent's center holomem for each 10 HP restored by this effect.\"\nIf the target of the damage is a Shirogane Noel with a hBP02-100 Knight's Order of Shirogane attached, will the damage be reduced from 10 to 0 multiple times, no matter how much HP was restored?"
     },
     "answer": {
       "jp": "いいえ、この能力で与えられるダメージは、「50」回復したなら「50」の特殊ダメージとしてまとめて与えられます。\nhBP02-100「白銀聖騎士団」が付いているホロメンに対して使った場合、例として「50」回復していれば「50」の特殊ダメージが与えられますが、「-10」されるので最終的に与えられるダメージは「40」になります。",
-      "en": "No, if the amount of HP restored by this effect was 50, then it will do a single instance of 50 Damage.\nIn this case, when used against a Shirogane Noel with a hBP02-100 Shirogane Dan'in attached, if the amount of HP restored was 50, then 50 Special Damage will be dealt, and then reduced by 10 to 40 Damage."
+      "en": "No, if the amount of HP restored by this effect was 50, then it will do a single instance of 50 Damage.\nIn this case, when used against a Shirogane Noel with a hBP02-100 Knight's Order of Shirogane attached, if the amount of HP restored was 50, then 50 Special Damage will be dealt, and then reduced by 10 to 40 Damage."
     },
     "referenced_cards": [ "hBP02-060", "hBP02-100" ]
   },
@@ -2921,7 +2921,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hSD02-009〈百鬼あやめ〉のアーツ「余ーだ余」は、手札3枚をアーカイブした場合、相手のセンターホロメンに「40」の特殊ダメージを3回与えるというアーツでしょうか？",
-      "en": "Does hSD02-009 Nakiri Ayame's Art \"Yo~ da yo\" deal 40 Special Damage to my opponent's center holomem 3 times, if I archived 3 cards from my hand?"
+      "en": "Does hSD02-009 Nakiri Ayame's Arts \"Tis I!\" deal 40 special damage to my opponent's center holomem 3 times, if I archived 3 cards from my hand?"
     },
     "answer": {
       "jp": "いいえ、手札3枚をアーカイブした場合、「40」の特殊ダメージを手札3枚分合計し、「120」の特殊ダメージを与えるアーツです。",
@@ -2970,7 +2970,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-079〈爆発の魔法〉の「自分の#魔法を持つイベントはターンに1回しか使えない。」というのは、このカードは1ターンに1回しか使えないということですか？",
-      "en": "Does the text \"You may only play one Event with #Magic per turn\" on hBP02-079 Explosion Magic mean that only this card cannot be played more than once per turn?"
+      "en": "Does the text \"Only 1 of your event with #Magic can be used each turn\" on hBP02-079 Explosion Magic mean that only this card cannot be played more than once per turn?"
     },
     "answer": {
       "jp": "いいえ、違います。\nこのカードを使った場合、そのターン中#魔法というタグを持っているイベント全てが使えません。",
@@ -2983,7 +2983,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-083〈魔法のタンス〉の「自分の#魔法を持つイベントはターンに1回しか使えない。」というのは、このカードは1ターンに1回しか使えないということですか？",
-      "en": "Does the text \"You may only play one Event with #Magic per turn\" on hBP02-083 Magic Closet mean that only this card cannot be played more than once per turn?"
+      "en": "Does the text \"Only 1 of your event with #Magic can be used each turn\" on hBP02-083 Magic Dresser mean that only this card cannot be played more than once per turn?"
     },
     "answer": {
       "jp": "いいえ、違います。\nこのカードを使った場合、そのターン中#魔法というタグを持っているイベント全てが使用できません。",
@@ -3009,11 +3009,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-087〈紫咲シオンの魔法のステッキ〉が付いている〈紫咲シオン〉がセンターにいる状態で、hBP02-005〈紫咲シオン〉の推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」を2回使用しました。\nその後、〈紫咲シオン〉がセンターから移動し、再度センターに戻りました。\n推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」は[ターンに1回]に戻ってから再度[ターンに2回]に変更されましたが、再び使用することはできますか？",
-      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Stick attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" twice. After that, the Murasaki Shion moved out of the center position, and back to the center position again.\nSince the Oshi Skill became \"1/Turn\" before going back to \"2/Turn\" again, can I use it another time?"
+      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Wand attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" twice. After that, the Murasaki Shion moved out of the center position, and back to the center position again.\nSince the Oshi Skill became \"1/Turn\" before going back to \"2/Turn\" again, can I use it another time?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\n［ターンに1回］を［ターンに2回］に変更する能力であるため、センターポジションを離れて再度センターホロメンになってもそのターンに使用できる回数に変化はありません。",
-      "en": "No, you cannot. Since the ability is changed specifically to \"2/Turn\", even if the Murasaki Shion with Murasaki Shion's Magic Stick attached leaves and returns to the center position, the number of times the Oshi Skill can be used does not increase."
+      "en": "No, you cannot. Since the ability is changed specifically to \"2/Turn\", even if the Murasaki Shion with Murasaki Shion's Magic Wand attached leaves and returns to the center position, the number of times the Oshi Skill can be used does not increase."
     },
     "referenced_cards": [ "hBP02-087" ]
   },
@@ -3032,11 +3032,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-100〈白銀聖騎士団〉の「ダメージ-10」とは、特殊ダメージとアーツのダメージを一つのアーツによって与えられた場合、その両方に適用されてダメージ「-20」になるのですか？",
-      "en": "When using hBP02-100 Shirogane Dan'in's ability \"The holomem this fan is attached to takes -10 damage\", if a single Arts deals both Arts Damage and Special Damage, does this apply to both resulting in a total reduction of 20 Damage?"
+      "en": "When using hBP02-100 Knight's Order of Shirogane's ability \"The holomem this fan is attached to takes -10 damage\", if a single Arts deals both arts damage and special damage, does this apply to both resulting in a total reduction of 20 Damage?"
     },
     "answer": {
       "jp": "はい、ダメージを与えられる能力全てに対してその処理ごとに-10されます。",
-      "en": "Yes, each time Damage is taken it is reduced by 10."
+      "en": "Yes, each time damage is taken it is reduced by 10."
     },
     "referenced_cards": [ "hBP02-100" ]
   },
@@ -3045,11 +3045,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hSD02-014〈ぽよ余〉が付いているホロメンがBloomした時、そのホロメンのブルームエフェクトとこのカードで追加された能力でデッキを1枚引くのではどちらが先ですか？",
-      "en": "When a holomem with hSD02-014 Poyoyo attached Blooms, which happens first: that holomem's Bloom Effect, or Poyoyo's ability \"When the holomem this mascot is attached to Blooms, draw 1 card from your deck\"?"
+      "en": "When a holomem with hSD02-014 Poyoyo attached blooms, which happens first: that holomem's Bloom Effect, or Poyoyo's ability \"When the holomem this mascot is attached to blooms, draw 1 card\"?"
     },
     "answer": {
       "jp": "同時誘発となるので、ホロメンをBloomさせたプレイヤーが順番を選んで好きな順で発揮できます。",
-      "en": "Since these effects are triggered simultaneously, the player whose holomem is Blooming may choose the order that they happen."
+      "en": "Since these effects are triggered simultaneously, the player whose holomem is blooming may choose the order that they happen."
     },
     "referenced_cards": [ "hSD02-014" ]
   },
@@ -3058,11 +3058,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hSD03-013〈おかにゃん〉の「ダメージ-10」とは、特殊ダメージとアーツのダメージを一つのアーツによって与えられた場合、その両方に適用されてダメージ「-20」になるのですか？",
-      "en": "When using hSD03-013 Okanyan's ability \"The holomem this mascot is attached to in the center position or collab position takes -10 Damage\", if a single Arts deals both Arts Damage and Special Damage, does this apply to both resulting in a total reduction of 20 Damage?"
+      "en": "When using hSD03-013 Oka-nyan's ability \"The holomem this mascot is attached to in the center position or collab position takes -10 damage\", if a single Arts deals both arts damage and special damage, does this apply to both resulting in a total reduction of 20 damage?"
     },
     "answer": {
       "jp": "はい、ダメージを与えられる能力全てに対してその処理ごとに「-10」されます。",
-      "en": "Yes, each time Damage is taken it is reduced by 10."
+      "en": "Yes, each time damage is taken it is reduced by 10."
     },
     "referenced_cards": [ "hSD03-013" ]
   },
@@ -3071,11 +3071,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hSD04-014〈しょこら〉が付いている〈癒月ちょこ〉がBloomした時、そのホロメンのブルームエフェクトとこのカードで追加された能力でHPを20回復するのはどちらが先ですか？",
-      "en": "When a holomem with hSD04-014 Chocolat attached Blooms, which happens first: that holomem's Bloom Effect, or Chocolat's ability \"When the holomem this mascot is attached to Blooms, restore 20 HP to this holomem\"?"
+      "en": "When a holomem with hSD04-014 Chocolat attached blooms, which happens first: that holomem's Bloom Effect, or Chocolat's ability \"When the holomem this mascot is attached to blooms, restore 20 HP to this holomem\"?"
     },
     "answer": {
       "jp": "同時誘発となるので、ホロメンをBloomさせたプレイヤーが順番を選んで好きな順で発揮できます。",
-      "en": "Since these effects are triggered simultaneously, the player whose holomem is Blooming may choose the order that they happen."
+      "en": "Since these effects are triggered simultaneously, the player whose holomem is blooming may choose the order that they happen."
     },
     "referenced_cards": [ "hSD04-014" ]
   },
@@ -3104,7 +3104,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hSD02-012〈いろはにほへっと あやふぶみ〉の「このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。」とは6枚の時も含みますか。",
-      "en": "hSD02-012 AyaFubuMi says \"This card can only be used if you have 6 or less cards in hand excluding this card.\" Does this include the case of having 6 cards?"
+      "en": "hSD02-012 Irohanihohetto AyaFubuMi says \"This card can only be used if you have 6 or less cards in hand excluding this card.\" Does this include the case of having 6 cards?"
     },
     "answer": { "jp": "はい、含みます。", "en": "Yes, it does." },
     "referenced_cards": [ "hSD02-012" ]
@@ -3144,11 +3144,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-003〈宝鐘マリン〉の推しスキル「Ahoy!」は、このターンにBloomしていない自分の#3期生を持つホロメンにも使用できますか？",
-      "en": "Can I use hBP02-003 Houshou Marine's Oshi Skill \"Ahoy!\" on 1 of my holomem with #Gen 3 that has not yet Bloomed this turn?"
+      "en": "Can I use hBP02-003 Houshou Marine's Oshi Skill \"Ahoy!\" on 1 of my holomem with #Gen 3 that has not yet bloomed this turn?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\nこの推しスキルでBlooｍさせるには、このターンにすでにBloomしているホロメンを選ぶ必要があります。",
-      "en": "No, you cannot. To use this Oshi Skill, you must select a holomem that has already Bloomed this turn."
+      "en": "No, you cannot. To use this Oshi Skill, you must select a holomem that has already bloomed this turn."
     },
     "referenced_cards": [ "hBP02-003" ]
   },
@@ -3157,11 +3157,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-006〈クレイジー・オリー〉のSP推しスキル「蘇るオリー」は、この能力を処理した後に自分のアーカイブのホロメンを使ってBloomすることができますか？",
-      "en": "After using hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\", can I continue to Bloom using holomem from my archive?"
+      "en": "After using hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\", can I continue to bloom using holomem from my archive?"
     },
     "answer": {
       "jp": "いいえ、能力の処理内でのみBloomさせることができます。\nそのため、4枚引いた後に2枚捨て、その後Bloomすることができます。",
-      "en": "No, you cannot. The ability to Bloom from your archive is only used as part of the Oshi Skill: you draw 4, discard 2, then may Bloom from archive once."
+      "en": "No, you cannot. The ability to bloom from your archive is only used as part of the Oshi Skill: you draw 4, archive 2, then may bloom from archive once."
     },
     "referenced_cards": [ "hBP02-006" ]
   },
@@ -3170,7 +3170,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "自分のセンターポジションとコラボポジションにhBP02-059〈森カリオペ〉がいる時にhBP02-007〈森カリオペ〉のSP推しスキル「死神ラップ」を使った場合、コラボポジションの〈森カリオペ〉を対象にすることはできますか？",
-      "en": "If I have a hBP02-059 Mori Calliope in both my center and collab position, can I use hBP02-007 Mori Calliope's SP Oshi Skill \"Shinigami Rap\" to select the Mori Calliope in the collab position?"
+      "en": "If I have a hBP02-059 Mori Calliope in both my center and collab position, can I use hBP02-007 Mori Calliope's SP Oshi Skill \"Reaper's Rap\" to select the Mori Calliope in the collab position?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP02-007" ]
@@ -3180,11 +3180,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-040〈沙花叉クロヱ〉のギフト「最高に激アツ～」は、アーツ「ホロックスロット」でめくった3枚のカードがサポートだった場合も相手のライフを「₋1」できますか？",
-      "en": "Does hBP02-040 Sakamata Chloe's Gift \"Hot Streak\" reduce my opponent's Life by 1 if the three cards revealed by the Arts \"holoX Slots\" were Support Cards?"
+      "en": "Does hBP02-040 Sakamata Chloe's Gift \"Top-Tier Hell Yeah!\" reduce my opponent's life by 1 if the three cards revealed by the Arts \"holoX Slots\" were support cards?"
     },
     "answer": {
       "jp": "いいえ、サポートカードはBloomレベルはないため「-1」できません。",
-      "en": "No, it does not. Support Cards do not have a Bloom Level, so they did not match and you do not reduce your opponent's Life by 1."
+      "en": "No, it does not. Support cards do not have a Bloom Level, so they did not match and you do not reduce your opponent's life by 1."
     },
     "referenced_cards": [ "hBP02-040" ]
   },
@@ -3193,7 +3193,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-040〈沙花叉クロヱ〉のギフト「最高に激アツ～」は、アーツ「ホロックスロット」でめくった3枚のカードが「1st」「1st」「1st Buzz」だった場合は相手のライフを「₋1」できますか？",
-      "en": "Does hBP02-040 Sakamata Chloe's Gift \"Hot Streak\" reduce my opponent's Life by 1 if the three cards revealed by the Art \"holoX Slots\" were a 1st, 1st, and 1st Buzz holomem?"
+      "en": "Does hBP02-040 Sakamata Chloe's Gift \"Top-Tier Hell Yeah!\" reduce my opponent's life by 1 if the three cards revealed by the Art \"holoX Slots\" were a 1st, 1st, and 1st Buzz holomem?"
     },
     "answer": {
       "jp": "はい、BuzzはBloomレベルではないため、Bloomレベルは「1st」として扱われます。",
@@ -3206,7 +3206,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-046〈紫咲シオン〉のブルームエフェクト「入れ替えの魔法」は、手札からアーカイブした#魔法のカードを手札に戻すことはできますか？",
-      "en": "Can I use hBP02-046 Murasaki Shion's Bloom Effect \"Replacement Magic\" to return a card with #Magic that I archived from my hand as part of the cost, back to my hand immediately?"
+      "en": "Can I use hBP02-046 Murasaki Shion's Bloom Effect \"Magic that Interchanges\" to return a card with #Magic that I archived from my hand as part of the cost, back to my hand immediately?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP02-046" ]
@@ -3229,11 +3229,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-087〈紫咲シオンの魔法のステッキ〉が付いている〈紫咲シオン〉がセンターにいる状態で、hBP02-005〈紫咲シオン〉の推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」を1回使用し、その後バトンタッチしてバックポジションに移動しました。\nその後、もう一度推しスキルの「ねえ゛え゛え゛え゛え゛え゛え゛」を使用することはできますか？",
-      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Stick attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" once. After that, the Murasaki Shion moved out of the center position.\nCan I use the Oshi Skill \"Heeeyyyyy\" a second time?"
+      "en": "While I had a Murasaki Shion with a hBP02-087 Murasaki Shion's Magic Wand attached in my center position, I used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" once. After that, the Murasaki Shion moved out of the center position.\nCan I use the Oshi Skill \"Heeeyyyyy\" a second time?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\nその後何らかの効果によって再びhBP02-087〈紫咲シオンの魔法のステッキ〉が付いている〈紫咲シオン〉がセンターにいる状態になったら、再度使用することができます。",
-      "en": "No, you cannot. However, if the Murasaki Shion with Murasaki Shion's Magic Stick attached returns to the center position, then you can use the Oshi Skill a second time."
+      "en": "No, you cannot. However, if the Murasaki Shion with Murasaki Shion's Magic Wand attached returns to the center position, then you can use the Oshi Skill a second time."
     },
     "referenced_cards": [ "hBP02-005", "hBP02-087" ]
   },
@@ -3255,7 +3255,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-089〈おるやんけ〉とhBP02-091〈フブチュン〉が付いているhBP02-013〈白上フブキ〉がコラボした時、hBP02-089〈おるやんけ〉とhBP02-091〈フブチュン〉の能力はどちらから処理しますか？",
-      "en": "If my hBP02-013 Shirakami Fubuki with a hBP02-089 Oruyanke and a hBP02-091 Fubuchun attached Collabs, which ability is processed first: Oruyanke or Fubuchun?"
+      "en": "If my hBP02-013 Shirakami Fubuki with a hBP02-089 Oruyanke and a hBP02-091 Fubu-chun attached Collabs, which ability is processed first: Oruyanke or Fubu-chun?"
     },
     "answer": {
       "jp": "どちらも「コラボした時」のため、好きな順番で処理することができます。",
@@ -3268,7 +3268,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-092〈フブラ〉の能力でアーカイブするエールは、このマスコットが付いているホロメンのエールでなければアーカイブできませんか？",
-      "en": "When using hBP02-092 Fubuzilla's ability, can I only archive cheers from the holomem with Fubuzilla attached?"
+      "en": "When using hBP02-092 Fubzilla's ability, can I only archive cheers from the holomem with Fubzilla attached?"
     },
     "answer": {
       "jp": "いいえ、自分のステージにあるエールであればどれでもアーカイブできます。",
@@ -3281,11 +3281,11 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-092〈フブラ〉の能力でエールをアーカイブする時、hSD03-008〈猫又おかゆ〉に付いているhSD03-013〈おかにゃん〉をアーカイブすることはできますか？",
-      "en": "When archiving cheers as part of hBP02-092 Fubuzilla's ability, can I archive a hSD03-013 Okanyan attached to my hSD03-008 Nekomata Okayu?"
+      "en": "When archiving cheers as part of hBP02-092 Fubzilla's ability, can I archive a hSD03-013 Oka-nyan attached to my hSD03-008 Nekomata Okayu?"
     },
     "answer": {
       "jp": "いいえ、hSD03-013〈おかにゃん〉は、hSD03-013〈おかにゃん〉が付いている〈猫又おかゆ〉の能力によってエールをアーカイブする場合のみ可能となるため、hBP02-092〈フブラ〉の能力でアーカイブすることはできません。",
-      "en": "No, Okanyan can only be archived as part of an ability of the holomem it is attached to, so it cannot be archived by Fubuzilla."
+      "en": "No, Oka-nyan can only be archived as part of an ability of the holomem it is attached to, so it cannot be archived by Fubzilla."
     },
     "referenced_cards": [ "hBP02-092", "hSD03-013" ]
   },
@@ -3294,7 +3294,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-101〈ミオファ〉が付いているホロメンがダウンした時、ライフからエールを送るのと、hBP02-101〈ミオファ〉の能力でカードを引くのではどちらが先ですか？",
-      "en": "When a holomem with a hBP02-101 Miofa attached is downed, which comes first: sending a cheer from Life, or drawing a card using Miofa's ability?"
+      "en": "When a holomem with a hBP02-101 Mio-fam attached is downed, which comes first: sending a cheer from life, or drawing a card using Mio-fam's ability?"
     },
     "answer": { "jp": "カードを引くのが先となります。", "en": "Drawing a card comes first." },
     "referenced_cards": [ "hBP02-101" ]
@@ -3356,11 +3356,11 @@
     "date": "2025-01-10",
     "question": {
       "jp": "自分のセンターホロメンとコラボホロメンがhBP02-040〈沙花叉クロヱ〉の時、センターホロメンのhBP02-040〈沙花叉クロヱ〉でアーツ「ホロックスロット」を使用し、Bloomレベルが同じカードを3枚公開しました。これにより、ギフト「最高に激アツ～」によってライフを「−1」しますが、コラボホロメンのギフト「最高に激アツ～」でもライフを「−1」することができますか？",
-      "en": "While I have a hBP02-040 Sakamata Chloe in both my center and collab position, I used the center Sakamata Chloe's Arts \"holoX Slots\" and revealed three holomem of the same Bloom level.\nThis gave my opponent -1 Life due to the Gift \"Hot Streak\", but does my opponent get another -1 Life due to my collab holomem's Gift \"Hot Streak\"?"
+      "en": "While I have a hBP02-040 Sakamata Chloe in both my center and collab position, I used the center Sakamata Chloe's Arts \"holoX Slots\" and revealed three holomem of the same Bloom level.\nThis gave my opponent -1 Life due to the Gift \"Top-Tier Hell Yeah!\", but does my opponent get another -1 Life due to my collab holomem's Gift \"Top-Tier Hell Yeah!\"?"
     },
     "answer": {
       "jp": "いいえ、ギフト「最高に激アツ～」は、「このホロメンのアーツ」と記載されているため、同名の他のホロメンが使った「ホロックスロット」ではライフを「−1」することはできません。",
-      "en": "No, they do not. The Gift \"Hot Streak\" refers to \"this holomem's Arts\", meaning the \"holoX Slots\" used by another of your holomem does not trigger the Gift."
+      "en": "No, they do not. The Gift \"Top-Tier Hell Yeah!\" refers to \"this holomem's Arts\", meaning the \"holoX Slots\" used by another of your holomem does not trigger the Gift."
     },
     "referenced_cards": [ "hBP02-040" ]
   },
@@ -3369,7 +3369,7 @@
     "date": "2025-01-10",
     "question": {
       "jp": "hBP02-057〈森カリオペ〉のブルームエフェクト「みんなで作る最高のfes」を使い、タグ#EN #歌 を持つホロメンとタグ#JP #歌を持つホロメンをアーカイブすることはできますか？",
-      "en": "Can I use hBP02-057 Mori Calliope's Bloom Effect \"The best fes created by everyone\" to archive a holomem with the tags #EN #Singing and one with the tags #JP #Singing?"
+      "en": "Can I use hBP02-057 Mori Calliope's Bloom Effect \"We'll Make This the Best fes\" to archive a holomem with the tags #EN #Singing and one with the tags #JP #Singing?"
     },
     "answer": {
       "jp": "はい、1つでもタグが同じであれば、どのタグでもアーカイブできます。",
@@ -3408,7 +3408,7 @@
     "date": "2025-05-23",
     "question": {
       "jp": "残りHPが10の〈白上フブキ〉にhBP02-089〈おるやんけ〉が付いている場合、hBP02-012〈白上フブキ〉のブルームエフェクト「ちょっと動かしますね」の能力で他の〈白上フブキ〉にhBP02-089〈おるやんけ〉を付けかえることはできますか？",
-      "en": "If one of my Shirakami Fubuki has a hBP02-089 Oruyanke attached and only 10 HP remaining, can I use hBP02-012 Shirakami Fubuki's Bloom Effect \"I'll move it a little\" to attach the Oruyanke to another Shirakami Fubuki?"
+      "en": "If one of my Shirakami Fubuki has a hBP02-089 Oruyanke attached and only 10 HP remaining, can I use hBP02-012 Shirakami Fubuki's Bloom Effect \"Gonna Move You a Little\" to attach the Oruyanke to another Shirakami Fubuki?"
     },
     "answer": {
       "jp": "はい、できます。マスコットを付け替えた後、HP以上のダメージを受けているホロメンがいる場合、そのホロメンはダウンします。",
@@ -3698,7 +3698,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "相手のパフォーマンスステップが開始した時にhBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」を使った後、相手の〈白上フブキ〉のアーツによってhBP03-022〈アキ・ローゼンタール〉がダウンし、hBP02-001〈白上フブキ〉の推しSPスキル「フブキングダム」の能力により、サイコロを振り奇数を出されました。\nこの場合、hBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」の「自分のライフは相手の能力で減らない。」は発揮されず、ライフが「−1」されますか？",
-      "en": "When my opponent's Performance Step started, I used hBP03-022 Aki Rosenthal's Gift \"Appearance of another world\".\nThen hBP03-022 Aki Rosenthal was downed by an Arts used by my opponent's Shirakami Fubuki, and my opponent used hBP02-001 Shirakami Fubuki's SP Oshi Skill \"Fubukingdom\", rolled a die, and rolled an odd number.\nIn this case, does Aki Rosenthal's Gift \"Appearance of another world\" not activate, resulting in me taking 1 extra Life damage?"
+      "en": "When my opponent's Performance Step started, I used hBP03-022 Aki Rosenthal's Gift \"Appearance of another world\".\nThen hBP03-022 Aki Rosenthal was downed by an Arts used by my opponent's Shirakami Fubuki, and my opponent used hBP02-001 Shirakami Fubuki's SP Oshi Skill \"FBKINGDOM\", rolled a die, and rolled an odd number.\nIn this case, does Aki Rosenthal's Gift \"Appearance of another world\" not activate, resulting in me taking 1 extra Life damage?"
     },
     "answer": {
       "jp": "いいえ、ギフト「異国の世界の姿」は、「相手のパフォーマンスステップが開始する時」に発揮されるため、そのターン中であればhBP03-022〈アキ・ローゼンタール〉がいなくてもライフは「−1」されません。",
@@ -4233,7 +4233,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP02-092〈フブラ〉の能力でエールをアーカイブする時、〈獅白ぼたん〉に付いているhBP03-106〈SSRB〉をアーカイブすることはできますか？",
-      "en": "When using the ability of hBP02-092 Fubuzilla to archive cheers, can I archive a hBP03-106 SSRB instead?"
+      "en": "When using the ability of hBP02-092 Fubzilla to archive cheers, can I archive a hBP03-106 SSRB instead?"
     },
     "answer": {
       "jp": "いいえ、hBP03-106〈SSRB〉は、hBP03-106〈SSRB〉が付いている〈獅白ぼたん〉の能力によってエールをアーカイブする場合のみ可能となるため、hBP02-092〈フブラ〉の能力でアーカイブすることはできません。",
@@ -4979,7 +4979,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "自分のセンターホロメンのhBP02-047〈紫咲シオン〉のブルームエフェクト「いたずらの魔法」を使い、サイコロを1回振りました。\nその後、hBP02-005〈紫咲シオン〉の推しスキル「ねえ゛え゛え゛え゛え゛え゛え゛」を使い、サイコロを1回振り直しました。\nこの場合、コラボポジションのhBP04-059〈ラプラス・ダークネス〉がアーツ「吾輩最強伝説」を使ったなら、能力で数える「サイコロを振った回数」は何回になりますか？",
-      "en": "I used my center hBP02-047 Murasaki Shion's Bloom Effect \"Mischievous Magic\" and rolled a die. I then used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" to re-roll the die.\nIn this case, if my collab hBP04-059 La+ Darknesss uses the Arts \"The strongest legend\", how many times have I rolled a die this turn for its ability?"
+      "en": "I used my center hBP02-047 Murasaki Shion's Bloom Effect \"Mischief Magic\" and rolled a die. I then used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" to re-roll the die.\nIn this case, if my collab hBP04-059 La+ Darknesss uses the Arts \"The strongest legend\", how many times have I rolled a die this turn for its ability?"
     },
     "answer": {
       "jp": "hBP02-005〈紫咲シオン〉の能力によって前のサイコロの結果を無くしているため、数える回数は1回になります。",
