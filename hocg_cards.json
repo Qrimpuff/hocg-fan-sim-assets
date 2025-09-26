@@ -20854,7 +20854,7 @@
     "name": { "jp": "ペロ", "en": "Pero" },
     "card_type": { "support": "mascot" },
     "text": {
-      "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈フワワ・アビスガード〉か〈モココ・アビスガード〉に付いていたら能力追加\nこのマスコットが付いているホロメンのアーツに必要なエールの色すべてを無色にする。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
+      "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈フワワ・アビスガード〉か〈モココ・アビスガード〉に付いていたら能力追加\nこのマスコットが付いているホロメンのアーツに必要なエールの色すべてを無色エールにする。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Fuwawa Abyssgard> or <Mococo Abyssgard>\nThe cheer requirements of all Arts of the holomem this mascot is attached to become colorless.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
@@ -21275,7 +21275,7 @@
     "name": { "jp": "ころねすきー", "en": "Koronesuki" },
     "card_type": { "support": "fan" },
     "text": {
-      "jp": "このファンが付いているホロメンのバトンタッチに必要な無色-1。\n\nこのファンは、自分の〈戌神ころね〉だけに付けられ、1人につき何枚でも付けられる。",
+      "jp": "このファンが付いているホロメンのバトンタッチに必要な無色エール-1。\n\nこのファンは、自分の〈戌神ころね〉だけに付けられ、1人につき何枚でも付けられる。",
       "en": "The Baton Pass cheer cost of the holomem this fan is attached to is reduced by 1 colorless cheer.\n\nYou may only attach this fan to your <Inugami Korone>, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
@@ -26601,7 +26601,7 @@
     "name": { "jp": "限界飯", "en": "Struggle Meal" },
     "card_type": { "support": "event" },
     "text": {
-      "jp": "このターンの間、自分の〈一条莉々華〉1人のアーツに必要な無色-1。自分の〈限界飯〉はターンに1回しか使えない。",
+      "jp": "このターンの間、自分の〈一条莉々華〉1人のアーツに必要な◇-1。自分の〈限界飯〉はターンに1回しか使えない。",
       "en": "During this turn, the Arts cheer cost of 1 of your <Ichijou Ririka> is reduced by 1 colorless cheer. You may only use the card <Struggle Meal> once per turn."
     },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
@@ -27503,7 +27503,7 @@
         "holo_power": 4,
         "name": { "jp": "Shoot for the Moon", "en": "Shoot for the Moon" },
         "text": {
-          "jp": "[ゲームに1回]このゲームの間、自分の〈ネリッサ・レイヴンクロフト〉全員のアーツに必要な無色-1。",
+          "jp": "[ゲームに1回]このゲームの間、自分の〈ネリッサ・レイヴンクロフト〉全員のアーツに必要な◇-1。",
           "en": "[1/Game]During this game, the Arts cheer cost of all of your <Nerissa Ravencroft> is reduced by 1 colorless cheer."
         }
       }
@@ -28187,7 +28187,7 @@
         "name": { "jp": "ぱくぱく", "en": "Pakupaku" },
         "power": "80",
         "text": {
-          "jp": "[コラボポジション限定]自分のセンターホロメンに付いている〈ルーナイト〉1枚につき、このアーツに必要な無色-1。",
+          "jp": "[コラボポジション限定]自分のセンターホロメンに付いている〈ルーナイト〉1枚につき、このアーツに必要な◇-1。",
           "en": "[Collab position only]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
         }
       }
@@ -31742,7 +31742,7 @@
     "name": { "jp": "牛丼", "en": "Gyudon" },
     "card_type": { "support": "event" },
     "text": {
-      "jp": "自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な無色-2。その後、選んだホロメンのHP20回復。",
+      "jp": "自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な◇-2。その後、選んだホロメンのHP20回復。",
       "en": "Choose 1 of your holomem. During this turn, the Baton Pass cheer cost of the chosen holomem is reduced by 2 colorless cheer. Then, restore 20 HP to the chosen holomem."
     },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
@@ -33215,7 +33215,7 @@
     "card_type": { "support": "item" },
     "limited": true,
     "text": {
-      "jp": "このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+      "jp": "このカードは、自分のステージのエール１枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[１stホロメンか２ndホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
       "en": "This card can only be used if you archive 1 cheer from your stage.\n\nReveal 1 [1st holomem or 2nd holomem] other than Buzz from your deck, and add it to hand. Then, shuffle the deck."
     },
     "max_amount": { "jp": 4, "en": 4 },
