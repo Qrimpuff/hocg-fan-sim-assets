@@ -14322,7 +14322,7 @@
   },
   "hBP02-080": {
     "card_number": "hBP02-080",
-    "name": { "jp": "秘密結社holoX", "en": "holoX" },
+    "name": { "jp": "秘密結社holoX", "en": "Secret Society holoX" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
@@ -27203,7 +27203,7 @@
         "name": { "jp": "スーパーまずった太郎", "en": "Super Bad Taro" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の#3期生を持つホロメンがダウンした時に使える：自分の減るライフ-1。その後、そのホロメンがBuzzホロメンか2ndホロメンなら、自分のデッキを2枚引く。",
-          "en": "[1/Game]Usable if your holomem with #Gen 3 is downed during your opponent's turn:You take -1 Life Damage. Then, if that holomem is a Buzz holomem or a 2nd holomem, draw 2 cards from your deck."
+          "en": "[1/Game]Usable if your holomem with #Gen 3 is downed during your opponent's turn:You take -1 Life Damage. Then, if that holomem is a Buzz holomem or a 2nd holomem, draw 2 cards."
         }
       }
     ],
@@ -27386,7 +27386,7 @@
         "name": { "jp": "ウマウマ！", "en": "Yum yum!" },
         "text": {
           "jp": "[ゲームに1回]相手のセンターホロメンとHPが減っているバックホロメン1人を交代できる。その後、自分のセンターホロメンが〈猫又おかゆ〉なら、自分のデッキを3枚引く。",
-          "en": "[1/Game]You may swap your opponent's center holomem with 1 damaged back holomem. Then, if your center holomem is <Nekomata Okayu>, draw 3 cards from your deck."
+          "en": "[1/Game]You may swap your opponent's center holomem with 1 damaged back holomem. Then, if your center holomem is <Nekomata Okayu>, draw 3 cards."
         }
       }
     ],
@@ -27439,7 +27439,7 @@
         "name": { "jp": "ちょこっとクッキング", "en": "Cooking with Choco" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブの#食べ物を持つイベント1～4枚を手札に戻す。その後、このターンの間、自分のステージの#料理を持つホロメン全員のアーツ+40。",
-          "en": "[1/Game]Return 1~4 events with #Food from your archive to hand. Then, during this turn, all of your holomem with #Cooking gets Arts+40."
+          "en": "[1/Game]Return 1~4 events with #Food from your archive to hand. Then, during this turn, all of your holomem with #Cooking get Arts+40."
         }
       }
     ],
@@ -27978,7 +27978,7 @@
         "power": "20",
         "text": {
           "jp": "サイコロを1回振れる：偶数なら、自分のデッキを1枚引く。",
-          "en": "You may roll a die once:If it is even, draw 1 card from your deck."
+          "en": "You may roll a die once:If it is even, draw 1 card."
         }
       }
     ],
@@ -28039,7 +28039,7 @@
         "power": "30",
         "text": {
           "jp": "自分の推しホロメンの色が白なら、自分のデッキを1枚引く。",
-          "en": "If your Oshi holomem's color is white, draw 1 card from your deck."
+          "en": "If your Oshi holomem's color is white, draw 1 card."
         }
       }
     ],
@@ -28090,7 +28090,7 @@
         "name": { "jp": "最強女神", "en": "The strongest goddess" },
         "text": {
           "jp": "このホロメンがアーツを使った時、そのアーツでサイコロを振って出た目の合計数が奇数なら、自分のデッキを1枚引く。偶数なら、自分のデッキを2枚引く。",
-          "en": "When you roll dice with this holomem's Arts, if the total number rolled is odd, draw 1 card from your deck. If the total number rolled is even, draw 2 cards from your deck."
+          "en": "When you roll dice with this holomem's Arts, if the total number rolled is odd, draw 1 card. If the total number rolled is even, draw 2 cards."
         }
       }
     ],
@@ -28245,7 +28245,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "自分のステージに#ID3期生を持つBuzzホロメンがいるなら、自分のデッキを1枚引く。",
-          "en": "If a Buzz holomem with #ID Gen 3 is on your stage, draw 1 card from your deck."
+          "en": "If a Buzz holomem with #ID Gen 3 is on your stage, draw 1 card."
         }
       },
       {
@@ -28255,7 +28255,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このアーツで相手のホロメンをダウンさせた時、自分のデッキから、#ID3期生を持つ1stホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If your opponent's holomem is downed by this Arts, reveal 1 1st holomem with #ID Gen 3 from your deck,and add it to hand. Then, shuffle the deck."
+          "en": "If your opponent's holomem is downed by this Arts, reveal 1 1st holomem with #ID Gen 3 from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -28781,7 +28781,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "このアーツで相手のホロメンをダウンさせた時、自分のデッキを1枚引く。その後、自分の推しホロメンが〈アキ・ローゼンタール〉なら、自分のホロメン全員のHP20回復。",
-          "en": "If your opponent's holomem is downed by this Arts, draw 1 card from your deck. Then, if your Oshi holomem is <Aki Rosenthal>, restore 20 HP to all of your holomem."
+          "en": "If your opponent's holomem is downed by this Arts, draw 1 card. Then, if your Oshi holomem is <Aki Rosenthal>, restore 20 HP to all of your holomem."
         }
       }
     ],
@@ -28846,7 +28846,7 @@
         "name": { "jp": "ちょっと頑張りました", "en": "I tried my best" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分の推しホロメンの〈獅白ぼたん〉か自分のステージの〈獅白ぼたん〉が相手のホロメンに30以上の特殊ダメージを与えた時、自分のデッキを1枚引く。",
-          "en": "[Center position only][1/turn]When your Oshi holomem <Shishiro Botan> or a <Shishiro Botan> on your stage deals 30 or more Special Damage to your opponent's holomem, draw 1 card from your deck."
+          "en": "[Center Position Only][1/turn]When your Oshi holomem <Shishiro Botan> or a <Shishiro Botan> on your stage deals 30 or more special damage to your opponent's holomem, draw 1 card."
         }
       }
     ],
@@ -28857,13 +28857,13 @@
         "power": "40",
         "text": {
           "jp": "自分の〈獅白ぼたん〉のエール1枚をアーカイブできる：相手のセンターホロメンに特殊ダメージ30を与える。",
-          "en": "You may archive 1 cheer from your <Shishiro Botan>:Deal 30 Special Damage to your opponent's center holomem."
+          "en": "You may archive 1 cheer from your <Shishiro Botan>:Deal 30 special damage to your opponent's center holomem."
         }
       }
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "If this holomem is downed, you get Life-2"
+      "en": "If this holomem is downed, you get life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -29097,7 +29097,7 @@
         "name": { "jp": "ポルカとのなんでもない休日", "en": "An ordinary day off with Polka" },
         "text": {
           "jp": "相手のコラボホロメンに特殊ダメージ20を与える。",
-          "en": "Deal 20 Special Damage to your opponent's collab holomem."
+          "en": "Deal 20 special damage to your opponent's collab holomem."
         }
       }
     ],
@@ -29108,7 +29108,7 @@
         "power": "50",
         "text": {
           "jp": "自分の手札1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ10を与える。",
-          "en": "You may archive 1 card from your hand:Deal 10 damage to your opponent's center holomem or collab holomem."
+          "en": "You may archive 1 card from your hand:Deal 10 special damage to your opponent's center holomem or collab holomem."
         }
       }
     ],
@@ -29307,7 +29307,7 @@
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "自分の手札2枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ50を与える。自分のステージに〈35P〉があるなら、さらに、自分のデッキを1枚引く。",
-          "en": "You may archive 2 cards from your hand:Deal 50 Special Damage to your opponent's center holomem or collab holomem. If there is a <35P> on your stage, draw 1 card from your deck."
+          "en": "You may archive 2 cards from your hand:Deal 50 special damage to your opponent's center holomem or collab holomem. If there is a <35P> on your stage, draw 1 card."
         }
       }
     ],
@@ -29907,7 +29907,7 @@
         "name": { "jp": "自分らしく居られる場所", "en": "A place where I can be myself" },
         "text": {
           "jp": "[センターポジション限定]自分の推しホロメンの〈猫又おかゆ〉と自分のステージの〈猫又おかゆ〉全員が相手のセンターホロメンに与える特殊ダメージ+20。",
-          "en": "[Center Position only]Your Oshi holomem <Nekomata Okayu> and all <Nekomata Okayu> on your stage deal +20 Damage when dealing Special Damage to your opponent's center holomem."
+          "en": "[Center Position only]Your Oshi holomem <Nekomata Okayu> and all <Nekomata Okayu> on your stage deal +20 special damage to your opponent's center holomem."
         }
       }
     ],
@@ -29919,7 +29919,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "相手のホロメン1人に特殊ダメージ20を与える。その後、自分のアーカイブのエール1枚を自分の#ゲーマーズを持つバックホロメンに送れる。",
-          "en": "Deal 20 Special Damage to 1 of your opponent's holomem. Then, you may send 1 Cheer from your archive to your back holomem with #GAMERS."
+          "en": "Deal 20 special damage to 1 of your opponent's holomem. Then, you may send 1 Cheer from your archive to your back holomem with #GAMERS."
         }
       }
     ],
@@ -30410,7 +30410,7 @@
         "name": { "jp": "すうすう…", "en": "suusuu..." },
         "text": {
           "jp": "自分が後攻で最初のターンで、自分の推しホロメンが〈癒月ちょこ〉なら、自分のデッキを2枚引く。",
-          "en": "If you are going second, this is your first turn, and your Oshi holomem is <Yuzuki Choco>, draw 2 cards from your deck."
+          "en": "If you are going second, this is your first turn, and your Oshi holomem is <Yuzuki Choco>, draw 2 cards."
         }
       }
     ],
@@ -30758,7 +30758,7 @@
         "power": "30",
         "text": {
           "jp": "自分の推しホロメンが〈ネリッサ・レイヴンクロフト〉なら、自分のデッキを1枚引く。",
-          "en": "If your Oshi holomem is <Nerissa Ravencroft>, draw 1 card from your deck."
+          "en": "If your Oshi holomem is <Nerissa Ravencroft>, draw 1 card."
         }
       },
       {
@@ -30878,7 +30878,7 @@
         "name": { "jp": "DEO", "en": "DEO" },
         "text": {
           "jp": "このホロメンが相手のホロメンをダウンさせた時、自分のデッキを2枚引く。",
-          "en": "When this holomem downs your opponent's holomem, draw 2 cards from your deck."
+          "en": "When this holomem downs your opponent's holomem, draw 2 cards."
         }
       }
     ],
@@ -31182,7 +31182,7 @@
         "name": { "jp": "冬の旅", "en": "Winter journey" },
         "text": {
           "jp": "[コラボポジション限定]自分の#3期生を持つセンターホロメンがアーツを使った時、自分の手札1枚をアーカイブできる：自分のデッキを1枚引く。",
-          "en": "[Collab position only]When your center holomem with #Gen 3 uses Arts, you may archive 1 card from your hand:Draw 1 card from your deck."
+          "en": "[Collab position only]When your center holomem with #Gen 3 uses Arts, you may archive 1 card from your hand:Draw 1 card."
         }
       }
     ],
@@ -31256,7 +31256,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "サイコロを1回振れる：出た目の数が自分のライフ以上なら、このアーツ+60。出た目の数が自分のライフ以下なら、自分のデッキを1枚引く。",
-          "en": "You may roll a die once:If it is greater than or equal to your current Life, the Arts gets +60. If it is less than or equal to your current Life, draw 1 card from your deck."
+          "en": "You may roll a die once:If it is greater than or equal to your current Life, the Arts gets +60. If it is less than or equal to your current Life, draw 1 card."
         }
       }
     ],
@@ -31650,7 +31650,7 @@
         "name": { "jp": "BRRRR", "en": "BRRRR" },
         "text": {
           "jp": "自分のエールデッキの上から3枚を見る。その中から、エール1枚を公開し、自分の〈アユンダ・リス〉に送る。そして残ったエールを好きな順でエールデッキの下に戻す。その後、自分のデッキを1枚引く。",
-          "en": "Look at the top 3 cards of your cheer deck. Reveal 1 cheer from among them, and send it to your <Ayunda Risu>. Then, return the remaining cards to the bottom of the cheer deck in any order. Then, draw 1 card from your deck."
+          "en": "Look at the top 3 cards of your cheer deck. Reveal 1 cheer from among them, and send it to your <Ayunda Risu>. Then, return the remaining cards to the bottom of the cheer deck in any order. Then, draw 1 card."
         }
       }
     ],
@@ -32231,7 +32231,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "相手のターンで、このファンが付いているホロメンがダウンした時、このホロメンのエール1枚を自分の他の#歌を持つホロメンに付け替えられる。\n\nこのファンは、自分の〈ネリッサ・レイヴンクロフト〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem with #Singing.\n\nYou may only attach this fan to your <Nerissa Ravencroft>, and you may attach any number of this fan per holomem."
+      "en": "During your opponent's turn, if the holomem this fan is attached to is downed, you may reattach 1 cheer from the holomem this fan is attached to to your other holomem with #Singing.\n\nYou may only attach this fan to your <Nerissa Ravencroft>, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
