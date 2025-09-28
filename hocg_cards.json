@@ -31880,7 +31880,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキを2枚引く。その後、直前の相手のターンに自分のホロメンがダウンしていて、自分のライフが相手のライフより少ないなら、アーカイブのエール1枚を自分のホロメン1人に送る。",
-      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, send 1 cheer from your archive to your holomem."
+      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, you may send 1 cheer from your archive to your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
