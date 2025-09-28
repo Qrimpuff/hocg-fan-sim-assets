@@ -2,7 +2,7 @@ use hocg_fan_sim_assets_model::{Art, Card, Extra, Keyword, Language, OshiSkill, 
 
 pub mod decklog {
 
-    use std::{fmt::Display, str::FromStr, sync::Arc};
+    use std::{fmt::Display, fs, path::Path, str::FromStr, sync::Arc};
 
     use hocg_fan_sim_assets_model::{
         BloomLevel, CardIllustration, CardType, CardsDatabase, Language, Localized, SupportType,
@@ -132,6 +132,29 @@ pub mod decklog {
         fn limited(&self) -> bool {
             self.card_kind.trim().to_lowercase().contains("limited")
         }
+
+        fn fix_card(&mut self, language: Language) {
+            // fix issues with Deck Log Japanese site
+            if language == Language::Japanese {
+                // fix Kazama Iroha oshi card number
+                if self.manage_id == Some(532) {
+                    self.card_number = "hSD06-001".into();
+                }
+
+                // fix Nerissa Ravencroft oshi card HR image path
+                if self.manage_id == Some(1373) {
+                    self.img = "hBP05/hBP02-065_HR.png".into();
+                }
+            }
+
+            // fix issues with Deck Log English site
+            if language == Language::English {
+                // fix Mikkorone 24 support SEC image path
+                if self.manage_id == Some(419) {
+                    self.img = "hBP02/EN_hBP02-084_SEC.png".into();
+                }
+            }
+        }
     }
 
     // Retrieve the following fields from decklog:
@@ -146,6 +169,8 @@ pub mod decklog {
         number_filter: &Option<String>,
         expansion: &Option<String>,
         optimized_original_images: bool,
+        images_jp_path: &Path,
+        images_en_path: &Path,
         language: Language,
     ) -> Vec<(String, usize)> {
         if number_filter.is_none() && expansion.is_none() {
@@ -158,6 +183,11 @@ pub mod decklog {
                 expansion.as_deref().unwrap_or("all")
             );
         }
+
+        let images_path = match language {
+            Language::Japanese => images_jp_path,
+            Language::English => images_en_path,
+        };
 
         let filtered_cards = Arc::new(Mutex::new(Vec::new()));
         let all_cards = Arc::new(RwLock::new(all_cards));
@@ -232,6 +262,9 @@ pub mod decklog {
 
                                 // update records with deck type and webp images
                                 for mut dl_card in cards {
+                                    // fix the card (deck log has bugs)
+                                    dl_card.fix_card(language);
+
                                     if !optimized_original_images {
                                         dl_card.img = dl_card.img.replace(".png", ".webp");
                                     }
@@ -241,11 +274,6 @@ pub mod decklog {
                                         || dl_card.card_number == "null"
                                     {
                                         continue;
-                                    }
-
-                                    // fix Kazama Iroha oshi card number (deck log has a bug)
-                                    if dl_card.manage_id == Some(532) {
-                                        dl_card.card_number = "hSD06-001".into();
                                     }
 
                                     // remove the old manage_id if it exists
@@ -273,10 +301,11 @@ pub mod decklog {
                                                 .take_if(|v| v.is_empty());
                                         });
 
-                                    // add the card the list
+                                    // add the card to the list
                                     let mut all_cards = all_cards.write();
                                     let card: &mut hocg_fan_sim_assets_model::Card =
                                         all_cards.entry(dl_card.card_number.clone()).or_default();
+
                                     card.card_number = dl_card.card_number.clone();
                                     *card.name.value_mut(language) = Some(dl_card.name.clone());
                                     card.card_type = dl_card.card_type();
@@ -323,7 +352,22 @@ pub mod decklog {
                                             }
                                         }
                                         illust.rarity = dl_card.rare;
-                                        *illust.img_path.value_mut(language) = Some(dl_card.img);
+                                        // rename the old file
+                                        if let Some(img_path) =
+                                            illust.img_path.value_mut(language).as_mut()
+                                            && dl_card.img != *img_path
+                                        {
+                                            let old_path = images_path.join(&img_path);
+                                            *img_path = dl_card.img;
+                                            let new_path = images_path.join(&img_path);
+                                            if fs::exists(&old_path).unwrap_or_default() {
+                                                fs::copy(old_path, new_path).unwrap();
+                                            }
+                                            *illust.img_last_modified.value_mut(language) = None;
+                                        } else {
+                                            *illust.img_path.value_mut(language) =
+                                                Some(dl_card.img);
+                                        }
                                     } else {
                                         let illust = CardIllustration {
                                             card_number: dl_card.card_number.clone(),
@@ -383,6 +427,7 @@ pub mod decklog {
 
 pub mod hololive_official {
     use std::sync::Arc;
+    use std::time::Duration;
     use std::{ops::Deref, sync::OnceLock};
 
     use hocg_fan_sim_assets_model::{
@@ -390,7 +435,7 @@ pub mod hololive_official {
         KeywordEffect, Language, Localized, OshiSkill,
     };
     use itertools::Itertools;
-    use parking_lot::{Mutex, RwLock};
+    use parking_lot::{Condvar, Mutex, RwLock};
     use rayon::iter::{ParallelBridge, ParallelIterator};
     use reqwest::Url;
     use reqwest::header::REFERER;
@@ -400,7 +445,7 @@ pub mod hololive_official {
         update_arts, update_extra, update_keywords, update_oshi_skills, update_tags,
     };
     use crate::http_client;
-    use crate::utils::TrimOnce;
+    use crate::utils::{TrimOnce, clean_text};
 
     fn card_type_from_str(card_type: &str) -> CardType {
         match card_type.trim().to_lowercase().as_str() {
@@ -439,7 +484,7 @@ pub mod hololive_official {
 
     fn tags_from_str(tags: &str, language: Language) -> Vec<Localized<String>> {
         tags.split('#')
-            .map(|s| s.trim())
+            .map(clean_text)
             .filter(|s| !s.is_empty())
             .map(|s| Localized::new(language, format!("#{s}")))
             .collect()
@@ -485,11 +530,9 @@ pub mod hololive_official {
         let card_name = hololive_card
             .select(card_name)
             .next()
-            .map(|c| c.text().collect::<String>());
-        // from Deck Log
-        if card.name.value(language).is_none() {
-            *card.name.value_mut(language) = card_name;
-        }
+            .map(|c| c.text().collect::<String>())
+            .map(|n| clean_text(&n));
+        *card.name.value_mut(language) = card_name;
 
         static INFO: OnceLock<Selector> = OnceLock::new();
         let info = INFO.get_or_init(|| Selector::parse(".info dl :is(dt, dd)").unwrap());
@@ -567,17 +610,17 @@ pub mod hololive_official {
                 }
                 "バトンタッチ" | "baton pass" => card.baton_pass = baton_pass_from_str(value),
                 "能力テキスト" | "ability text" => {
-                    *card.ability_text.value_mut(language) = Some(
-                        value
-                            .lines()
-                            .map(|l| l.trim())
-                            // should remove the "LIMITED：ターンに１枚しか使えない。" line
-                            .filter(|l| !l.to_lowercase().starts_with("limited"))
-                            .collect_vec()
-                            .join("\n")
-                            .trim()
-                            .to_string(),
-                    )
+                    let text = value
+                        .lines()
+                        .map(|l| l.trim())
+                        // should remove the "LIMITED：ターンに１枚しか使えない。" line
+                        .filter(|l| !l.to_lowercase().starts_with("limited"))
+                        .collect_vec()
+                        .join("\n")
+                        .trim()
+                        .to_string();
+                    *card.ability_text.value_mut(language) =
+                        Some(fix_ability_text(&text, language));
                 }
                 _ => { /* nothing else */ }
             }
@@ -590,9 +633,13 @@ pub mod hololive_official {
         let mut extra = hololive_card
             .select(extra)
             .next()
-            .map(|c| Localized::new(language, c.text().collect::<String>()));
+            .map(|c| c.text().collect::<String>())
+            .map(|c| clean_text(&c))
+            .map(|c| Localized::new(language, c));
         fix_extra(card, &mut extra, language);
         update_extra(card, extra, language, false);
+
+        fix_max_amount(card, language);
     }
 
     fn update_card_oshi_skills(
@@ -631,12 +678,13 @@ pub mod hololive_official {
                     .to_string()
                     .try_into()
                     .unwrap_or_default(),
-                name: Localized::new(language, name.trim().to_string()),
-                ability_text: Localized::new(language, text.trim().to_string()),
+                name: Localized::new(language, clean_text(name)),
+                ability_text: Localized::new(language, fix_ability_text(text, language)),
             };
             oshi_skills.push(oshi_skill);
         }
         // replace existing skills. will need to import english skills later
+        fix_oshi_skills(card, &mut oshi_skills);
         update_oshi_skills(card, oshi_skills, language, false);
     }
 
@@ -695,12 +743,13 @@ pub mod hololive_official {
                     "ギフト" | "gift" => KeywordEffect::Gift,
                     _ => KeywordEffect::Other,
                 },
-                name: Localized::new(language, name.trim().to_string()),
-                ability_text: Localized::new(language, text.trim().to_string()),
+                name: Localized::new(language, clean_text(name)),
+                ability_text: Localized::new(language, fix_ability_text(&text, language)),
             };
             keywords.push(keyword);
         }
         // replace existing keywords. will need to import english keywords later
+        fix_keywords(card, &mut keywords);
         update_keywords(card, keywords, language, false);
     }
 
@@ -765,15 +814,16 @@ pub mod hololive_official {
 
             let art = Art {
                 cheers,
-                name: Localized::new(language, name.trim().to_string()),
+                name: Localized::new(language, clean_text(name)),
                 power: power.to_string().try_into().unwrap_or_default(),
                 advantage,
-                ability_text: text.map(|text| Localized::new(language, text.trim().to_string())),
+                ability_text: text
+                    .map(|text| Localized::new(language, fix_ability_text(&text, language))),
             };
             arts.push(art);
         }
         // replace existing arts. will need to import english arts later
-        fix_arts(card, &mut arts);
+        fix_arts(card, &mut arts, language);
         update_arts(card, arts, language, false);
     }
 
@@ -813,28 +863,120 @@ pub mod hololive_official {
     }
 
     // --- Fixes for known issues in the official database ---
-    fn fix_card_number(card_id: &str, card_number: &mut String) {
-        // hSD06-001 Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
-        if card_id == "532" {
-            *card_number = "hSD06-001".into();
+    fn fix_card_number(card_id: &str, card_number: &mut String, language: Language) {
+        if language == Language::Japanese {
+            // hSD06-001 Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
+            if card_id == "532" {
+                *card_number = "hSD06-001".into();
+            }
         }
     }
 
-    fn fix_colors(card: &mut Card, colors: &mut Vec<Color>) {
+    fn fix_colors(card: &Card, colors: &mut Vec<Color>) {
         // hSD01-002 AZKi oshi card color (the official EN db has a bug)
         if card.card_number == "hSD01-002" {
             *colors = vec![Color::Green];
         }
     }
 
-    fn fix_arts(card: &mut Card, arts: &mut [Art]) {
-        // hBP05-061 Nerissa Ravencroft's art Unleashed Charm should be 120+
-        if card.card_number == "hBP05-061"
-            && let Some(art) = arts
-                .iter_mut()
-                .find(|a| a.name.value(Language::Japanese).as_deref() == Some("Unleashed Charm"))
-        {
-            art.power = ArtPower::Plus(120);
+    #[must_use]
+    fn fix_ability_text(text: &str, language: Language) -> String {
+        let mut text = clean_text(text);
+
+        // hBP05-006, hBP05-017, hBP04-091, hBP05-075 have "◇" instead of the text "colorless cheer", in Japanese
+        if language == Language::Japanese {
+            text = text.replace('◇', "無色エール").trim().to_string();
+        }
+
+        // hBP02-079, hBP02-041, hBP02-017 have extra "▲" in ability text, in English
+        if language == Language::English {
+            text = text.replace('▲', "").trim().to_string();
+        }
+
+        text
+    }
+
+    fn fix_oshi_skills(_card: &Card, _oshi_skills: &mut Vec<OshiSkill>) {}
+
+    fn fix_keywords(_card: &Card, _keywords: &mut Vec<Keyword>) {}
+
+    fn fix_arts(card: &Card, arts: &mut Vec<Art>, language: Language) {
+        // fix Japanese arts with known issues
+        if language == Language::Japanese {
+            // hBP05-061 Nerissa Ravencroft's art Unleashed Charm should be 120+
+            if card.card_number == "hBP05-061"
+                && let Some(art) = arts
+                    .iter_mut()
+                    .find(|a| a.name.japanese.as_deref() == Some("Unleashed Charm"))
+            {
+                art.power = ArtPower::Plus(120);
+            }
+        }
+
+        // fix English arts with known issues
+        if language == Language::English {
+            // fix hSD02-008 Nakiri Ayame, art is missing text
+            if card.card_number == "hSD02-008"
+                && let Some(art) = arts.iter_mut().find(|a| {
+                    a.name.english.as_deref() == Some("I Wonder what's Inside the Present?")
+                })
+            {
+                art.ability_text = Some(Localized::en(
+                    "You may archive 1 card from your hand:Deal 50 special damage to your opponent's center holomem or collab holomem."
+                        .into(),
+                ));
+            }
+
+            // fix hSD02-010 Shirakami Fubuki, art has extra text
+            if card.card_number == "hSD02-010"
+                && let Some(art) = arts
+                    .iter_mut()
+                    .find(|a| a.name.english.as_deref() == Some(r#"AyaFubuMi's "Fubu""#))
+            {
+                art.ability_text = None;
+            }
+
+            // fix hSD03-009 Nekomata Okayu, completely missing arts
+            if card.card_number == "hSD03-009" {
+                *arts = vec![
+                    Art {
+                        cheers: vec![Color::Blue, Color::Colorless],
+                        name: Localized::en("Nom Nom".into()),
+                        power: ArtPower::Basic(60),
+                        advantage: Some((Color::White, 50)),
+                        ability_text: None,
+                    },
+                    Art {
+                        cheers: vec![Color::Blue, Color::Blue, Color::Colorless, Color::Colorless],
+                        name: Localized::en("Okayu~".into()),
+                        power: ArtPower::Basic(100),
+                        advantage: Some((Color::White, 50)),
+                        ability_text: Some(Localized::en("You may archive 2 blue cheers from this holomem:Deal 30 special damage to your opponent's center holomem and 1 of their back holomem.".into())),
+                    },
+                ];
+            }
+
+            // fix hSD04-009 Yuzuki Choco, completely missing arts
+            if card.card_number == "hSD04-009" {
+                *arts = vec![
+                    Art {
+                        cheers: vec![Color::Purple, Color::Colorless],
+                        name: Localized::en("33… 22… 11…".into()),
+                        power: ArtPower::Basic(50),
+                        advantage: Some((Color::Green, 50)),
+                        ability_text: None,
+                    },
+                    Art {
+                        cheers: vec![Color::Purple, Color::Purple, Color::Colorless],
+                        name: Localized::en("Act-".into()),
+                        power: ArtPower::Plus(60),
+                        advantage: Some((Color::Green, 50)),
+                        ability_text: Some(Localized::en(
+                            "This Arts gets +40 for each event you used this turn.".into(),
+                        )),
+                    },
+                ];
+            }
         }
     }
 
@@ -847,6 +989,19 @@ pub mod hololive_official {
         // hBP05-082 Aki Rosenthal's Axe does have extra text
         if card.card_number == "hBP05-082" && language == Language::Japanese {
             *extra = Some(Localized::jp("このツールは〈石の斧〉としても扱う".into()));
+        }
+    }
+
+    fn fix_max_amount(card: &mut Card, language: Language) {
+        // fix card amount for unlimited debuts, overwrite default amount
+        if card.max_amount.value(language).is_some_and(|v| v == 4)
+            && card.extra.as_ref().is_some_and(|e| {
+                e.japanese.as_deref() == Some("このホロメンはデッキに何枚でも入れられる")
+                    || e.english.as_deref()
+                        == Some("You may include any number of this holomem in the deck")
+            })
+        {
+            *card.max_amount.value_mut(language) = Some(50);
         }
     }
     // --- End of fixes ---
@@ -864,6 +1019,7 @@ pub mod hololive_official {
     pub fn retrieve_card_info_from_hololive(all_cards: &mut CardsDatabase, language: Language) {
         println!("Retrieve all cards info from Hololive official site for language: {language:?}");
 
+        let page_count = Arc::new((Mutex::new(0), Condvar::new()));
         let updated_count = Arc::new(Mutex::new(0));
         let all_cards = Arc::new(RwLock::new(all_cards));
 
@@ -901,7 +1057,20 @@ pub mod hololive_official {
                         .contains("<title>hololive OFFICIAL CARD GAME｜hololive production</title>")
                         || content.contains("Page not found")
                     {
+                        // Notify the next page to proceed
+                        *page_count.0.lock() += 1;
+                        page_count.1.notify_all();
+
                         return None;
+                    }
+
+                    // wait for the previous pages to be processed
+                    {
+                        let (lock, cvar) = &*page_count;
+                        let mut page_count = lock.lock();
+                        while *page_count < page - 1 {
+                            cvar.wait_for(&mut page_count, Duration::from_secs(600));
+                        }
                     }
 
                     // parse the content and update cards
@@ -921,6 +1090,11 @@ pub mod hololive_official {
                             .map(|c| c.text().collect::<String>())
                         else {
                             println!("Card number not found");
+
+                            // Notify the next page to proceed
+                            *page_count.0.lock() += 1;
+                            page_count.1.notify_all();
+
                             return None;
                         };
 
@@ -938,7 +1112,7 @@ pub mod hololive_official {
                         };
 
                         // fix card number if needed
-                        fix_card_number(&card_id, &mut card_number);
+                        fix_card_number(&card_id, &mut card_number, language);
 
                         let _all_cards = all_cards.read();
                         let Some(card) = _all_cards.get(&card_number) else {
@@ -962,6 +1136,10 @@ pub mod hololive_official {
 
                     // Increment the total updated count
                     *updated_count.lock() += page_updated_count;
+
+                    // Notify the next page to proceed
+                    *page_count.0.lock() += 1;
+                    page_count.1.notify_all();
 
                     println!("Page {page} done: updated {page_updated_count} cards");
 

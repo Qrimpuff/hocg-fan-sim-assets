@@ -23,3 +23,10 @@ pub fn sanitize_filename(filename: &str) -> String {
         })
         .collect()
 }
+
+#[must_use]
+pub fn clean_text(text: &str) -> String {
+    // anything that needs to be done to have clean text goes here
+    // I tried unicode-normalization but it messed up some characters
+    text.trim().to_string()
+}

@@ -204,7 +204,7 @@ impl SheetCard {
                 .as_ref()
                 .filter(|e| {
                     e.english.as_deref()
-                        == Some("You may put any number of copies of this holomem in your deck.")
+                        == Some("You may include any number of this holomem in the deck")
                 })
                 .is_some()
             {

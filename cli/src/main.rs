@@ -198,6 +198,8 @@ fn main() {
                     &args.number_filter,
                     &args.expansion,
                     args.optimized_original_images,
+                    &images_jp_path,
+                    &images_en_path,
                     language.into(),
                 )
             })
