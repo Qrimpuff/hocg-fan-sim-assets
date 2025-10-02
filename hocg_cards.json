@@ -8732,8 +8732,8 @@
         "rarity": "P",
         "illustrator": "JinArt KABAKURA",
         "img_path": { "jp": "hPR/hBP01-104_P.webp", "en": null },
-        "img_last_modified": { "jp": "Tue, 17 Sep 2024 09:30:47 GMT" },
-        "img_hash": "v2|H32=TJtNm1aVQqSrKJJkkkytT6XKEl+7Oj01JCpMHamarJqsujLNzDaPu4PMbbqfGW2qY8+NqhuT6aoxMOm48HjoqvDw4Pg|CYM=20051C",
+        "img_last_modified": { "jp": "Thu, 02 Oct 2025 03:43:18 GMT" },
+        "img_hash": "v2|H32=TJtNm1aVAqSrKJJkkkytT6XKUnu7Oi01JCpMP6mKvJqsqjJNzDaPm4fMbb6fmW2mI8+Nqhv66aoxMOm48HjpqvDw4Pg|CYM=20051C",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10017",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
@@ -23848,7 +23848,7 @@
         "power": "20",
         "text": {
           "jp": "相手のホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。",
-          "en": "Deal 10 damage to 1 of your opponent's holomem. However, your opponent's Life does not reduce even if downed."
+          "en": "Deal 10 special damage to 1 of your opponent's holomem. However, your opponent's Life does not reduce even if downed."
         }
       }
     ],
