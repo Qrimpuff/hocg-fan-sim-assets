@@ -2927,6 +2927,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10016",
         "tcgplayer_product_id": 645590,
         "delta_art_index": 2
+      },
+      {
+        "card_number": "hBP01-007",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-007_P.webp", "en": null },
+        "img_hash": "v2|H32=TMl3lVOKrNHzmqmVq5RdtauVWS1mXalqVEunKolLtqtMKFZrVrWrlGlatLJqqa1USssq1JX4ClXVqGpVr6prVcqvqVo|CYM=4A4312",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -31722,6 +31733,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp05/10164",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP05-074",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-074_P.webp", "en": null },
+        "img_hash": "v2|H32=WqnlDNS1JHK2VOTmLd2bLEmtmwpJbdaSL1O0tG5RCy20rZKW8OpsYY2VlGpibS2dlaZJ16q6Vq1L0vnqqSVS1AZrkio|CYM=082821",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
