@@ -2960,7 +2960,7 @@
     "date": "2024-12-12",
     "question": {
       "jp": "hBP02-078〈かなた建設〉を使用して、hSD01-013〈SorAZ〉を手札に加えることができますか？",
-      "en": "Can I use hBP02-078 Kanata Construction to put a hBP01-013 SorAZ into my hand?"
+      "en": "Can I use hBP02-078 Kanata Construction to put a hSD01-013 SorAZ into my hand?"
     },
     "answer": { "jp": "はい、可能です。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP02-078", "hSD01-013" ]
@@ -4492,7 +4492,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-013〈博衣こより〉のギフト「絶対諦めない！」の能力でホロパワーにあるカードを見た時、必ず1枚を手札に加えなければなりませんか？",
-      "en": "When I use hBP01-013 Hakui Koyori's Gift \"Never give up!\" to look at my holo Power, do I have to take a card from it?"
+      "en": "When I use hBP04-013 Hakui Koyori's Gift \"Never give up!\" to look at my holo Power, do I have to take a card from it?"
     },
     "answer": {
       "jp": "はい、ホロパワーが1枚でもある場合は加えなければなりません。",
@@ -4505,7 +4505,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のデッキが0枚のとき、hBP04-013〈博衣こより〉のギフト「絶対諦めない！」の能力でホロパワーを加えずに1枚選んで手札に加えることはできますか？",
-      "en": "If there are no cards left in my deck, when I use hBP01-013 Hakui Koyori's Gift \"Never give up!\" do I take a card from my holo Power without adding to it?"
+      "en": "If there are no cards left in my deck, when I use hBP04-013 Hakui Koyori's Gift \"Never give up!\" do I take a card from my holo Power without adding to it?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP04-013" ]
@@ -4515,7 +4515,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "デッキにカードが1枚以上ある時、hBP04-013〈博衣こより〉のギフト「絶対諦めない！」の能力でホロパワーを加えずに1枚選んで手札に加えることはできますか？",
-      "en": "If there is at least 1 card left in my deck, when I use hBP01-013 Hakui Koyori's Gift \"Never give up!\" can I take a card from my holo Power without adding to it?"
+      "en": "If there is at least 1 card left in my deck, when I use hBP04-013 Hakui Koyori's Gift \"Never give up!\" can I take a card from my holo Power without adding to it?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP04-013" ]
