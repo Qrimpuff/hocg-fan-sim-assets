@@ -11076,6 +11076,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10048",
         "tcgplayer_product_id": 657578,
         "delta_art_index": 2
+      },
+      {
+        "card_number": "hBP02-023",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-023_P.webp", "en": null },
+        "img_hash": "v2|H32=hJ0LF0uVCll7S7CauEq1iqyCtVqkrlpwWllWsctQtVXXtJRSWlqBplGasaamtK8kL5XWtC+VaZFp8S2pKGVSl6UlatE|CYM=5D3B01",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
