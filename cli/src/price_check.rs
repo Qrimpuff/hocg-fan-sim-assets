@@ -359,6 +359,29 @@ fn dist_yuyutei_image(card: &CardIllustration, yuyutei_img: DynamicImage) -> u64
     dist
 }
 
+#[derive(serde::Deserialize, Debug)]
+#[serde(rename_all = "camelCase")]
+struct TcgPlayerProduct {
+    product_id: u32,
+    name: String,
+    image_url: String,
+    extended_data: Vec<Value>,
+}
+
+impl TcgPlayerProduct {
+    pub fn fix_product(&mut self) {
+        // fix Tokino Sora (SR) (hSD01-006) - Blooming Radiance (BP01E)
+        if self.product_id == 647463
+            && let Some(ed) = self
+                .extended_data
+                .iter_mut()
+                .find(|ed| ed["name"] == "Number")
+        {
+            ed["value"] = Value::String("hSD01-006".into());
+        }
+    }
+}
+
 pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     println!(
         "Scraping TCGplayer product ids... ({})",
@@ -390,20 +413,11 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
             format!("https://tcgcsv.com/tcgplayer/{HOCG_CATEGORY_ID}/{group_id}/products");
         let resp = http_client().get(&products_url).send().unwrap();
 
-        #[derive(serde::Deserialize, Debug)]
-        #[serde(rename_all = "camelCase")]
-        struct TcgPlayerProduct {
-            product_id: u32,
-            name: String,
-            image_url: String,
-            extended_data: Vec<Value>,
-        }
-
         let products = resp.json::<Value>().unwrap();
         let products = products["results"].as_array().unwrap();
         for product in products {
-            let Ok(product): Result<TcgPlayerProduct, _> = serde_json::from_value(product.clone())
-                .inspect_err(|e| {
+            let Ok(mut product): Result<TcgPlayerProduct, _> =
+                serde_json::from_value(product.clone()).inspect_err(|e| {
                     println!("Failed to parse product: {e}");
                 })
             else {
@@ -413,6 +427,9 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 // skip booster boxes and other products without extended data
                 continue;
             }
+
+            // fix known issues
+            product.fix_product();
 
             let card_number = product
                 .extended_data

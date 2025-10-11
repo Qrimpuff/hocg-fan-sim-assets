@@ -957,6 +957,17 @@ pub fn download_images_from_ogbajoj_sheet(
                             };
                             let img_hash = to_image_hash(&hash_img.into_rgb8());
 
+                            // skip rejected hashes
+                            if is_skip_image_hash(&img_hash) {
+                                if DEBUG {
+                                    println!(
+                                        "[{name}] row {row_idx} {set_code}: skipped image hash {img_hash:?}"
+                                    );
+                                }
+                                skipped += 1;
+                                continue;
+                            }
+
                             let mut _adding = false;
                             let mut img_unreleased = Path::new(UNRELEASED_FOLDER)
                                 .join(sanitize_filename(&format!("{}_{}.webp", set_code, rarity)));
@@ -1135,6 +1146,15 @@ pub fn download_images_from_ogbajoj_sheet(
                 println!("[{name}] Imported {imported} images from sheet ({skipped} skipped)");
             }
         });
+}
+
+fn is_skip_image_hash(img_hash: &str) -> bool {
+    let to_skip = [
+        // hBP05-079 (P) Miko, I'm ashamed - poor quality
+        "v2|H32=Uq2rEtSqKHWrYtRzqkxrnfVaVK0rZ5XivFIrrWES1IhqFZLtVKosmqpULZqqV62KcnirZJJFmyxGk2pVcLhSlY6HUlU|CYM=0C0F1C",
+    ];
+
+    to_skip.contains(&img_hash)
 }
 
 pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
