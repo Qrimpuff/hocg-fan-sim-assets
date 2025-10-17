@@ -3697,11 +3697,11 @@
     "qna_number": "Q312",
     "date": "2025-03-11",
     "question": {
-      "jp": "相手のパフォーマンスステップが開始した時にhBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」を使った後、相手の〈白上フブキ〉のアーツによってhBP03-022〈アキ・ローゼンタール〉がダウンし、hBP02-001〈白上フブキ〉の推しSPスキル「フブキングダム」の能力により、サイコロを振り奇数を出されました。\nこの場合、hBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」の「自分のライフは相手の能力で減らない。」は発揮されず、ライフが「−1」されますか？",
+      "jp": "相手のパフォーマンスステップが開始した時にhBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」を使った後、相手の〈白上フブキ〉のアーツによってhBP03-022〈アキ・ローゼンタール〉がダウンし、hBP02-001〈白上フブキ〉の推しSPスキル「フブキングダム」の能力により、サイコロを振り奇数を出されました。\nこの場合、hBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」の「自分のライフは相手の能力で減らない。」は発揮されず、ライフが「-1」されますか？",
       "en": "When my opponent's Performance Step started, I used hBP03-022 Aki Rosenthal's Gift \"Appearance of another world\".\nThen hBP03-022 Aki Rosenthal was downed by an Arts used by my opponent's Shirakami Fubuki, and my opponent used hBP02-001 Shirakami Fubuki's SP Oshi Skill \"FBKINGDOM\", rolled a die, and rolled an odd number.\nIn this case, does Aki Rosenthal's Gift \"Appearance of another world\" not activate, resulting in me taking 1 extra Life damage?"
     },
     "answer": {
-      "jp": "いいえ、ギフト「異国の世界の姿」は、「相手のパフォーマンスステップが開始する時」に発揮されるため、そのターン中であればhBP03-022〈アキ・ローゼンタール〉がいなくてもライフは「−1」されません。",
+      "jp": "いいえ、ギフト「異国の世界の姿」は、「相手のパフォーマンスステップが開始する時」に発揮されるため、そのターン中であればhBP03-022〈アキ・ローゼンタール〉がいなくてもライフは「-1」されません。",
       "en": "No, the Gift \"Appearance of another world\" is activated at the start of your opponent's Performance Step and stays active for the entire turn even if Aki Rosenthal is downed."
     },
     "referenced_cards": [ "hBP02-001", "hBP03-022" ]
