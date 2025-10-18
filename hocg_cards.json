@@ -4285,6 +4285,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 645634,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-030",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-030_P.webp", "en": null },
+        "img_hash": "v2|H32=qqpSVcqoNPJY1aRUtNqNqpRZrSoWzWlTYuVZrWt1yaxSM6bKrFTpLlarWhX50rakS6dSXVFSVpVbq3pZ0qJS/dWscks|CYM=3C4715",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -11084,6 +11095,17 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP02-023_P.webp", "en": null },
         "img_hash": "v2|H32=hJ0LF0uVCll7S7CauEq1iqyCtVqkrlpwWllWsctQtVXXtJRSWlqBplGasaamtK8kL5XWtC+VaZFp8S2pKGVSl6UlatE|CYM=5D3B01",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP02-023",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-023_P_2.webp", "en": null },
+        "img_hash": "v2|H32=TNlNFlO1UjkzGrCktMqlioymtWqmttNgKknSsIvIsKrHipxaaFRLpUm74aqLpEkpLa+fshavWanZsiqtaqlW16alspo|CYM=703902",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
