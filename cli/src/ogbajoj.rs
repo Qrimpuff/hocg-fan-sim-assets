@@ -873,7 +873,9 @@ pub fn download_images_from_ogbajoj_sheet(
 
                         // language switch for English exclusive cards like hY01-008
                         let language =
-                            if text.contains("EN exclusive") || source.contains("EN only") {
+                            if source.contains("(JP)") {
+                                Language::Japanese
+                            } else if text.contains("EN exclusive") || source.contains("EN only") || source.contains("(EN)") {
                                 Language::English
                             } else {
                                 Language::Japanese
