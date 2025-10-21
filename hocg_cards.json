@@ -37799,6 +37799,206 @@
       }
     ]
   },
+  "hSD10-001": {
+    "card_number": "hSD10-001",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Full throttle! Let's go!" },
+        "text": {
+          "en": "[1/Turn]If during this turn one of your holomem has Bloomed, during this turn, 1 of your holomem with #FLOW GLOW gets Arts+30."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Do you want to see the scenery from high above?" },
+        "text": {
+          "en": "[1/Game]Send the top card of your cheer deck to your holomem. Then, choose 1 of your holomem with #FLOW GLOW. During this turn, for each cheer attached to the chosen holomem, the chosen holomem gets Arts+20."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=dKq7mqNOnKrrpK4qaaWvOSSlU7GESlnVlkpJlaZKaZVmNpTKq1YrReqqSarVq0mqqrVJqipVVamrlEuuS1VKVUqrolU|CYM=314011",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD10-009": {
+    "card_number": "hSD10-009",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Seeker of True Beauty" },
+        "text": {
+          "en": "Look at the top X cards of your deck, where X is the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the remaining cards to your deck and shuffle it."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": null, "en": "Vigilance Venus" },
+        "power": "80+",
+        "advantage": [ "blue", 50 ],
+        "text": { "en": "For each card in your opponent's hand, this Arts gets +10." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-009",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-009_RR.webp", "en": null },
+        "img_hash": "v2|H32=pqitTrKqXKN6Shm6lKWnSqSU5yXsVlK1Um0a2nJJUMyPMqJOtVpqJWilRZIWl0qaS2tqmaqlS7dtpUstWpKWrUmr1lo|CYM=184919",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD10-010": {
+    "card_number": "hSD10-010",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "holomem",
+    "colors": [ "colorless" ],
+    "hp": 170,
+    "bloom_level": "spot",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Come to me!" },
+        "text": {
+          "en": "You may archive 1 card from your hand:Reveal 1 holomem with a Collab Effect and #FLOW GLOW from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "RIONA IN DA HOUSE~!" },
+        "power": "50+",
+        "text": { "en": "If there is a 2nd or greater holomem with #FLOW GLOW on your stage, this Arts gets +30." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-010",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-010_RR.webp", "en": null },
+        "img_hash": "v2|H32=tKgJC5IujLLSRtS65talalSKpUtd60pHaaVr9aumcrWrFJJkUKkrdapUtZbRkni0qVZvrS1dbakvhWmrrZRWWmvVtlo|CYM=082914",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD11-001": {
+    "card_number": "hSD11-001",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Eagerly awaiting" },
+        "text": {
+          "en": "[1/Turn]Send 1~2 cheers from your archive to 1 of your holomem with #FLOW GLOW that has no cheers attached."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Just say my name!" },
+        "text": {
+          "en": "[1/Game]Usable when your holomem with #FLOW GLOW's ability archives a cheer:Deal 30 special damage for each cheer archived by that ability to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=nOqd5h3GxNMh1ebS5ZGzqrRM05qSLjPFhlJplaxKSdWEKZSqr1YLRaaqpS6Aosu2ClQ+qK9UEq2LVmqWFl1uSaJJLl0|CYM=2F242C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD11-009": {
+    "card_number": "hSD11-009",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Messenger of Emotions" },
+        "text": {
+          "en": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +3 colorless cheer."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "Sweet Obsession" },
+        "power": "100",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "Deal 10 special damage to the targeted holomem times the cheer cost of that holomem's Baton Pass."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-009",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-009_RR.webp", "en": null },
+        "img_hash": "v2|H32=rKotq0q6mc5mWVKVtGw1rpSktU5Uo1pRalNeU0qxLDU3O55OVWVbrCnZaSu1ti3VSaqycKsmqpLUwWXZUunweqrV0Lo|CYM=1F3811",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY01-001": {
     "card_number": "hY01-001",
     "name": { "jp": "白エール", "en": "White Cheer" },
