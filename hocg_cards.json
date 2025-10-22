@@ -3068,7 +3068,7 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#4期生", "en": "#Gen 4" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 1, "en": 4 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hBP01-010",
@@ -3302,7 +3302,7 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#4期生", "en": "#Gen 4" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 1, "en": 4 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hBP01-014",
@@ -4248,7 +4248,7 @@
       { "jp": "#歌", "en": "#Singing" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 1, "en": 4 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hBP01-030",
