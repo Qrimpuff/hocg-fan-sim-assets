@@ -18613,7 +18613,7 @@
       },
       {
         "cheers": [ "purple", "purple", "colorless" ],
-        "name": { "jp": "Break your ×××", "en": "Break your xxx" },
+        "name": { "jp": "Break your ×××", "en": "Break your ×××" },
         "power": "80",
         "advantage": [ "yellow", 50 ],
         "text": {
@@ -20281,7 +20281,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキの上から4枚を見る。その中から、[Debutホロメンと1stホロメン]1枚ずつを公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "Look at the top 4 cards of your deck. Reveal 1 Debut holomem and 1 1st holomem from among them, and add them to hand. Then, return the remaining cards to the bottom of the deck in any order."
+      "en": "Look at the top 4 cards of your deck. Reveal 1 [Debut holomem and 1st holomem] from among them, and add them to hand. Then, return the remaining cards to the bottom of the deck in any order."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -27462,7 +27462,7 @@
         "name": { "jp": "ポルカの伝説", "en": "Legend of Polka" },
         "text": {
           "jp": "[ターンに1回]自分の手札が自分のステージの〈座員〉の枚数と同じになるまで、自分のデッキを引く。ただし、引ける枚数は4枚まで。",
-          "en": "[1/Turn]Draw cards from your deck until you have as many in your hand as the number of <Troupe Member> on your stage. However, only up to 4 cards can be drawn."
+          "en": "[1/Turn]Draw cards until your hand has the same amount as the number of <Troupe Member> on your stage. However, only up to 4 cards can be drawn."
         }
       },
       {
@@ -28344,7 +28344,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "If this holomem is downed, you get Life-2"
+      "en": "If this holomem is downed, you get life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -29558,7 +29558,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このホロメンに赤エールと青エールが付いているなら、自分のアーカイブのエール2枚をこのホロメンに送れる。どちらか1色しか付いていないなら、自分のアーカイブのエール1枚をこのホロメンに送れる。",
-          "en": "If a red cheer and a blue cheer are attached to this holomem, you may send 2 cheers from your archive to this holomem. If any cheers of only one of those colors are attached to this holomem, you may send 1 cheer from your archive to this holomem."
+          "en": "If a red cheer and a blue cheer are attached to this holomem, you may send 2 cheers from your archive to this holomem. If a cheer of only one of those colors is attached to this holomem, you may send 1 cheer from your archive to this holomem."
         }
       },
       {
@@ -32053,7 +32053,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキを2枚引く。その後、直前の相手のターンに自分のホロメンがダウンしていて、自分のライフが相手のライフより少ないなら、アーカイブのエール1枚を自分のホロメン1人に送る。",
-      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, you may send 1 cheer from your archive to your holomem."
+      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, send 1 cheer from your archive to your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -38068,7 +38068,7 @@
         "img_last_modified": { "jp": "Wed, 18 Dec 2024 12:07:37 GMT", "en": "Fri, 19 Sep 2025 08:21:13 GMT" },
         "img_hash": "v2|H32=UlXMNjXdS3OzosiMLSOTHKuMNHPLmjjrtzpLyy0jlMwpM1BFlJbOmmlptZppZ6uklpbdShYrLamptdtWWkqtrS2lilY|CYM=04060A",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10007",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 658452,
         "delta_art_index": 0
       }
     ]
@@ -38262,7 +38262,7 @@
         "img_last_modified": { "jp": "Wed, 18 Dec 2024 12:07:37 GMT", "en": "Fri, 19 Sep 2025 08:21:13 GMT" },
         "img_hash": "v2|H32=rKq0pCupM7vTREtJbEzPNshYibtMM3BZLhNAsjTJLMvwZqyiltVLjWtrMkpsy7DtlLastJMkVktp26p1slly25s0ojQ|CYM=4D0A59",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10008",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 658451,
         "delta_art_index": 0
       }
     ]
@@ -38432,7 +38432,7 @@
         "img_last_modified": { "jp": "Wed, 18 Dec 2024 12:07:37 GMT", "en": "Fri, 19 Sep 2025 08:21:13 GMT" },
         "img_hash": "v2|H32=rKpMx+OqsyjbURpdloxGwiRNuaZiczR5nDVyGYxZnIxo2ryuh9VL03EySCs9bZYk95KmXJS2aotpSbJ0nraSTduWakk|CYM=016C77",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10009",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 658453,
         "delta_art_index": 0
       }
     ]
@@ -38718,7 +38718,7 @@
         "img_last_modified": { "jp": "Wed, 18 Dec 2024 12:07:37 GMT", "en": "Fri, 19 Sep 2025 08:21:13 GMT" },
         "img_hash": "v2|H32=rKpM2cuqM6rTVENlLNPMNjQltJoMJSlJTlPITNLS1LwyJKyqY1ULtZSqMgPFqrTwr6xKeS2LMq3SUpJVKXVSW1qaoi0|CYM=553918",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10010",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 658454,
         "delta_art_index": 0
       }
     ]
@@ -38932,7 +38932,7 @@
         "img_last_modified": { "jp": "Wed, 18 Dec 2024 12:07:37 GMT", "en": "Fri, 19 Sep 2025 08:21:34 GMT" },
         "img_hash": "v2|H32=pKpsHEursPIyTUxtttpWlsoGkLZIJSxptHlnmxSTk45Klqyrw8dr0jwf2pLPaCxNJIq0SY8mMi3C0spUKHhSk4oHIlE|CYM=07450E",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/yell01/10011",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 658455,
         "delta_art_index": 0
       }
     ]
