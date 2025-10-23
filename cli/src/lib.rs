@@ -15,7 +15,15 @@ pub const DEBUG: bool = false;
 
 fn http_client() -> &'static Client {
     static HTTP_CLIENT: OnceLock<Client> = OnceLock::new();
-    HTTP_CLIENT.get_or_init(|| ClientBuilder::new().cookie_store(true).build().unwrap())
+    HTTP_CLIENT.get_or_init(|| {
+        ClientBuilder::new()
+            .user_agent(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0",
+            )
+            .cookie_store(true)
+            .build()
+            .unwrap()
+    })
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
