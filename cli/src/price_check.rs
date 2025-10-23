@@ -451,6 +451,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     "ultra rare" => "UR",
                     "secret rare" => "SEC",
                     "special" => "S",
+                    "special yell" => "SY",
                     "oshi super rare" => "OSR",
                     "oshi ultra rare" => "OUR",
                     "oshi common" => "OC",
