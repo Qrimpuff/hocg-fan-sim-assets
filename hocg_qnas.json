@@ -2641,11 +2641,11 @@
     "qna_number": "Q225",
     "date": "2024-10-23",
     "question": {
-      "jp": "hBP01-114〈石の斧〉が付いている自分のhBP01-034〈アキ・ローゼンタール〉が、hBP01-037〈アキ・ローゼンタール〉のブルームエフェクト「ゴシックドール」によって回復した場合、hBP01-114〈石の斧〉の能力でカードを引けますか",
+      "jp": "hBP01-114〈石の斧〉が付いている自分のhBP01-037〈アキ・ローゼンタール〉が、hBP01-037〈アキ・ローゼンタール〉のブルームエフェクト「ゴシックドール」によって回復した場合、hBP01-114〈石の斧〉の能力でカードを引けますか",
       "en": "If my hBP01-034 Aki Rosenthal with a hBP01-114 Stone Axe attached, is healed by hBP01-037 Aki Rosenthal's Bloom Effect \"Gothic Doll\", can I draw a card with Stone Axe's ability?"
     },
     "answer": { "jp": "はい、引けます。", "en": "Yes, you can." },
-    "referenced_cards": [ "hBP01-034", "hBP01-037", "hBP01-114" ]
+    "referenced_cards": [ "hBP01-037", "hBP01-114" ]
   },
   "Q226": {
     "qna_number": "Q226",
