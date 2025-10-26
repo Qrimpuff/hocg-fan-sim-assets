@@ -32424,6 +32424,123 @@
       }
     ]
   },
+  "hBP06-002": {
+    "card_number": "hBP06-002",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "I'll do what I like and live how I want to" },
+        "text": {
+          "en": "[1/Turn]Archive the top 2 cards of your deck. Then, during this turn, your [center holomem and collab holomem] with #FLOW GLOW get Arts+20."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 1,
+        "name": { "jp": null, "en": "I will survive!" },
+        "text": {
+          "en": "[1/Game]Usable if your deck has 5 or less cards and your holomem with #FLOW GLOW downed your opponent's center holomem:Your opponent gets life-1."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-002_OSR.webp", "en": null },
+        "img_hash": "v2|H32=VKVtCtKpJnSreDZdqapWDZmPPKNRVSzTKVFqVU2ZKlJcllLVoqlbSlapqTRaoq1FQZOp5Fqq4WXQ6um0WVKrlhZbFp8|CYM=0B3105",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-008": {
+    "card_number": "hBP06-008",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Omatsuri Wasshoi!!" },
+        "text": {
+          "en": "[1/Turn]Roll a die once:If it is greater than or equal to your current Life, add 1 card from your deck to hand. Then, shuffle your deck. If it is less than or equal to your current Life, put 1 card from the top of your deck to holopower."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 1,
+        "name": { "jp": null, "en": "I definitely want to win!!!!!!!" },
+        "text": {
+          "en": "[1/Game]If your center holomem is <Natsuiro Matsuri>, the number of Limited support cards you may use this turn is 2."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-008",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-008_OSR.webp", "en": null },
+        "img_hash": "v2|H32=ptaY+nVDpFJzbYYaLJXTSgy1q1XUamultlpZraZKyZRWqbSqq1ZLVZqqlVJJmiqtK1ZWaspUUiu6VUqVFlWr1mqpqZU|CYM=031F3C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-071": {
+    "card_number": "hBP06-071",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "purple", "purple" ],
+        "name": { "jp": null, "en": "Together with La+!" },
+        "power": "80+",
+        "advantage": [ "yellow", 50 ],
+        "text": { "en": "Roll a die 3 times. This Arts gets +20 for each odd number rolled." }
+      },
+      {
+        "cheers": [ "purple", "purple", "purple", "purple", "purple" ],
+        "name": { "jp": null, "en": "Everyone, heed my call!" },
+        "power": "150",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "en": "Roll a die 5 times. For each odd number rolled, draw 1 card and deal 30 special damage to your opponent's center holomem and collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-071",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-071_R.webp", "en": null },
+        "img_hash": "v2|H32=sjclapYqrbLLKMzKicnLzGLOUtUu3FI3ZpWYVEYzkFGsihJJLNpoJdGqDaqqVaXa0S4q2iotlbxW0SnSpErCL8gutWo|CYM=102307",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hPR-001": {
     "card_number": "hPR-001",
     "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
@@ -37912,6 +38029,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD10-010_RR.webp", "en": null },
         "img_hash": "v2|H32=tKgJC5IujLLSRtS65talalSKpUtd60pHaaVr9aumcrWrFJJkUKkrdapUtZbRkni0qVZvrS1dbakvhWmrrZRWWmvVtlo|CYM=082914",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD10-011": {
+    "card_number": "hSD10-011",
+    "name": { "jp": "WHAT'S UP!!!!! KEEEEEP GROWING!!!!!", "en": "WHAT'S UP!!!!! KEEEEEP GROWING!!!!!" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if all holomem on your stage have #FLOW GLOW.\n\nChoose 3 cheers from your archive, and send them to your center holomem and collab holomem divided as you choose. However, you may only send up to 2 cheers to each holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-011",
+        "manage_id": { },
+        "rarity": "",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-011_.webp", "en": null },
+        "img_hash": "v2|H32=xqrnKtTGClUrVVhVOmlyKXSrdLsrszyXqZYLptUq1Kqr6BJFI8ssmuDxLYsfDi2KfiDhah/g6WgGH6h4ggfgOHD44vE|CYM=0B1A16",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
