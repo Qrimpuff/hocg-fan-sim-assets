@@ -38058,6 +38058,28 @@
       }
     ]
   },
+  "hSD10-013": {
+    "card_number": "hSD10-013",
+    "name": { "jp": "ふぐ太郎", "en": "Fugutaro" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The holomem with #FLOW GLOW this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a holomem with #FLOW GLOW\nUsable at the start of your end phase, if the holomem this tool is attached to has used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOW GLOW from your deck, and place it on stage. Then, shuffle the deck. Then, return this tool to the bottom of the deck.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-013",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-013_C.webp", "en": null },
+        "img_hash": "v2|H32=VKWjqjWvpj+lOiQ1qyJbpNumXtzKXFzdjFjca9lrWapb2hbVTDQt6gvirar68C2q4OGtqo8urWrpKqmDj4MgWK0L6lU|CYM=0A1012",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD11-001": {
     "card_number": "hSD11-001",
     "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
