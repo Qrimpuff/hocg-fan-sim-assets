@@ -16504,7 +16504,7 @@
         },
         "text": {
           "jp": "自分のアーカイブの緑エール1枚ずつを、自分の#シューターを持つバックホロメン1～2人に送れる。",
-          "en": "You may send 1 cheer each from your archive to 1~2 of your back holomem with #Shooter."
+          "en": "You may send 1 green cheer each from your archive to 1~2 of your back holomem with #Shooter."
         }
       }
     ],
@@ -37948,6 +37948,31 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD10-001_OSR.webp", "en": null },
         "img_hash": "v2|H32=dKq7mqNOnKrrpK4qaaWvOSSlU7GESlnVlkpJlaZKaZVmNpTKq1YrReqqSarVq0mqqrVJqipVVamrlEuuS1VKVUqrolU|CYM=314011",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD10-002": {
+    "card_number": "hSD10-002",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "HajimaRindo~~~!" }, "power": "30" } ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-002_C.webp", "en": null },
+        "img_hash": "v2|H32=kqIvreWisbJtM2mysnjZjUxVkkxayTJ1ktk2Zbycdky0bprWV65mRapVSapwqbWVoVa2LfISUutal2jpNimyNahVtGk|CYM=3A1C0E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
