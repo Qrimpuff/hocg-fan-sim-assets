@@ -38143,6 +38143,30 @@
       }
     ]
   },
+  "hSD11-002": {
+    "card_number": "hSD11-002",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Niko-tan has arrived!" }, "power": "20" } ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-002_C.webp", "en": null },
+        "img_hash": "v2|H32=pKpbS5WqpapLO52ao7UZZphVJqUqVXjVZqV6dbyIdm09qdgWVLItWSZJrarJtlalaVUSLatKoqqmVVKt27YitelSkrQ|CYM=0E1B28",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD11-009": {
     "card_number": "hSD11-009",
     "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
