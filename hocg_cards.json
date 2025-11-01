@@ -2523,6 +2523,40 @@
       }
     ]
   },
+  "hBD24-067": {
+    "card_number": "hBD24-067",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Yellow Enhance" },
+        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
+        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBD24-067",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBD24-067_P.webp", "en": null },
+        "img_hash": "v2|H32=qjJa1WlLlDRlqbZoNLWnSkzNeyasWkmlrFpZtYZaUaVSlrSqqlZoVVao6rK1VGrpK9VWq6pVSq0qVUp1SqMmVVorq1U|CYM=12161E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP01-001": {
     "card_number": "hBP01-001",
     "name": { "jp": "天音かなた", "en": "Amane Kanata" },
@@ -38203,7 +38237,7 @@
         "rarity": "RR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD11-009_RR.webp", "en": null },
-        "img_hash": "v2|H32=rKotq0q6mc5mWVKVtGw1rpSktU5Uo1pRalNeU0qxLDU3O55OVWVbrCnZaSu1ti3VSaqycKsmqpLUwWXZUunweqrV0Lo|CYM=1F3811",
+        "img_hash": "v2|H32=rKotqsu6mc5mUVKVtWwxrpSktUxWo1pRalVeU1oxLDW3q95OVG1arCnJaXuRtiTRS6q20Ko24pJWyWTZUsvw+qoV0rI|CYM=1F3511",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
