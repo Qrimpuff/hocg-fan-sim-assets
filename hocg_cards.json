@@ -21595,6 +21595,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-002",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-002_P_2.webp", "en": null },
+        "img_hash": "v2|H32=qqaVqq6qrXZtVWpVZVVKSVJXZqtaSvaqXFwmksxWbRXKRdqKLUrWUqVVVNvtiyZdti2Spxpk0RaStNKllnbSZJakkrQ|CYM=022450",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -22286,6 +22297,17 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP04-013_P.webp", "en": null },
         "img_hash": "v2|H32=mqhlStRovb1mS9iYKaXC6rmUiSzSZqGVqCRLyihUS4s9ykortqVqVWmVJFm22rSuWVJSqqqkadmtayJdljS2ZEmr2lI|CYM=072B0F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-013",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-013_P_2.webp", "en": null },
+        "img_hash": "v2|H32=qk1rkrrMrwoS3Fq6WotavUi6EJXEupSahBukVkyTWVdsN5qlsktaZSXbtLoqRaZVNWiWViJZtSpm3SYLiTTUoqp6yyY|CYM=042F54",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -37981,7 +38003,7 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD10-001_OSR.webp", "en": null },
-        "img_hash": "v2|H32=dKq7mqNOnKrrpK4qaaWvOSSlU7GESlnVlkpJlaZKaZVmNpTKq1YrReqqSarVq0mqqrVJqipVVamrlEuuS1VKVUqrolU|CYM=314011",
+        "img_hash": "v2|H32=NKqokqMunKrrJK4qZa2vGSSlU7mESlmVlkpZlbZKaZV2MpSKqVYrTeqqSarVqkmqarVLqmpVVakrlAq1S1VKVVqqplU|CYM=313E11",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -38025,7 +38047,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Seeker of True Beauty" },
         "text": {
-          "en": "Look at the top X cards of your deck, where X is the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the remaining cards to your deck and shuffle it."
+          "en": "Look at a number of cards from the top of your deck equal to the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the remaining cards to your deck and shuffle it."
         }
       }
     ],
@@ -38170,7 +38192,7 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD11-001_OSR.webp", "en": null },
-        "img_hash": "v2|H32=nOqd5h3GxNMh1ebS5ZGzqrRM05qSLjPFhlJplaxKSdWEKZSqr1YLRaaqpS6Aosu2ClQ+qK9UEq2LVmqWFl1uSaJJLl0|CYM=2F242C",
+        "img_hash": "v2|H32=jOqd5q1GxNIh1abS5ZGzqrRt05qybnPFjlJpha5qSZWGqZSqr1arRaSroCqBokumClVeqa9UUq2LVmqUVk1qWeprJFU|CYM=2D222E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
