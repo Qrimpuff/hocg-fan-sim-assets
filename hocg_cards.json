@@ -38035,6 +38035,39 @@
       }
     ]
   },
+  "hSD10-008": {
+    "card_number": "hSD10-008",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The makeup artist of FLOW GLOW" },
+        "text": {
+          "en": "Look at the cards in your opponent's hand. If there are any support cards among them, draw 1 card."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Love is here!" }, "power": "30" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-008",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-008_C.webp", "en": null },
+        "img_hash": "v2|H32=KqpSN6Wqpa2UWq0oW87Mmmttc9NeHXLR0l3UteZEWKek9Gzat2yhJNK2Urop2ha88jRKvVa6SvVorTYraytUWi2tJtU|CYM=103015",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD10-009": {
     "card_number": "hSD10-009",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
@@ -38217,6 +38250,48 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD11-002_C.webp", "en": null },
         "img_hash": "v2|H32=pKpbS5WqpapLO52ao7UZZphVJqUqVXjVZqV6dbyIdm09qdgWVLItWSZJrarJtlalaVUSLatKoqqmVVKt27YitelSkrQ|CYM=0E1B28",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD11-008": {
+    "card_number": "hSD11-008",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The publicity manager of FLOW GLOW" },
+        "text": {
+          "en": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Love is Time" },
+        "power": "30",
+        "text": {
+          "en": "If the cheer cost of the targeted holomem's Baton Pass is 2 or more, send the top card of your cheer deck to your back holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-008",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-008_C.webp", "en": null },
+        "img_hash": "v2|H32=iKokLomoVmqDXVPai1YxrcpSmaxWXdvSVjVa1bayvEV0qtRqUlWOlqWqqtSml2l5VZMqtWpZsrSpXEpRq1pgqYlKUpU|CYM=2F2908",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
