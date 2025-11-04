@@ -38241,6 +38241,7 @@
     "bloom_level": "debut",
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Niko-tan has arrived!" }, "power": "20" } ],
     "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
     "max_amount": { "jp": 50 },
     "illustrations": [
       {
@@ -38250,6 +38251,44 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD11-002_C.webp", "en": null },
         "img_hash": "v2|H32=pKpbS5WqpapLO52ao7UZZphVJqUqVXjVZqV6dbyIdm09qdgWVLItWSZJrarJtlalaVUSLatKoqqmVVKt27YitelSkrQ|CYM=0E1B28",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD11-004": {
+    "card_number": "hSD11-004",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "To see people smile" },
+        "text": { "en": "You may archive 2 cheers from your stage:Return 1 <Koganei Niko> from your archive to hand." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "I'm willing to give even my life" },
+        "power": "30",
+        "text": { "en": "You may send the top card of your cheer deck to your <Koganei Niko>." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-004",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-004_U.webp", "en": null },
+        "img_hash": "v2|H32=qqyh3q+rDaoPe00jy3LLFNJVUtVS3XJN1lZ0TbQWtEA0bNRPVXVopamqLry2q0XXQteqOqpSjkryqdLT6SlSug1aQEs|CYM=0D1123",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
