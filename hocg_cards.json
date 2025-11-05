@@ -6796,8 +6796,8 @@
         "rarity": "P",
         "illustrator": "",
         "img_path": { "jp": "hPR/hBP01-070_P.webp", "en": "hPR/EN_hBP01-070_P.webp" },
-        "img_last_modified": { "jp": "Mon, 09 Dec 2024 08:10:36 GMT", "en": "Mon, 25 Aug 2025 03:27:32 GMT" },
-        "img_hash": "v2|H32=riowtY2qrVI7oY2qp1VLqbZSG6VaSbLXWsw2U9rMtDBazbRqU7UptbZSUqtZq6TVTauSKmlZylatrVqrpVZKVbZWaaU|CYM=14342B",
+        "img_last_modified": { "jp": "Wed, 05 Nov 2025 03:04:37 GMT", "en": "Mon, 25 Aug 2025 03:27:32 GMT" },
+        "img_hash": "v2|H32=iqpRZr22l+q0k4muTVssJU5ZJD1WZOsQGGXakrnl1Ju/hmxLWS2UpqTSupS92kuttVaiVqpsrlxbq1arqlRSpVUo0ro|CYM=142D32",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10034",
         "tcgplayer_product_id": 654155,
         "delta_art_index": 0
@@ -6813,17 +6813,6 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 645710,
         "delta_art_index": 0
-      },
-      {
-        "card_number": "hBP01-070",
-        "manage_id": { },
-        "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP01-070_P.webp", "en": null },
-        "img_hash": "v2|H32=irgx5q2+x+qsk63vTVssJU5ZJDFWpPOQMGXakrvl1JsvhmxKWS2UtrXSvpC10kulpdeiVqpMrl1Tq9aqqlRSpVSqUqo|CYM=152E32",
-        "yuyutei_sell_url": null,
-        "tcgplayer_product_id": null,
-        "delta_art_index": null
       }
     ]
   },
@@ -38035,6 +38024,37 @@
       }
     ]
   },
+  "hSD10-003": {
+    "card_number": "hSD10-003",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Full throttle, natural, no acting" }, "power": "30" },
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "With all my heart and soul, I'll surpass my limits" },
+        "power": "80"
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-003",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-003_C.webp", "en": null },
+        "img_hash": "v2|H32=rKopqqmrSJbSVNKU1rS0pqVmNes2aVJZWllKXUrMbsxsxlaXVdWrRqhqoCiPrvChVb0qPKof4mC9uvCwVh/wSupKcuE|CYM=2F1011",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD10-008": {
     "card_number": "hSD10-008",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
@@ -38213,7 +38233,7 @@
         "holo_power": 2,
         "name": { "jp": null, "en": "Just say my name!" },
         "text": {
-          "en": "[1/Game]Usable when your holomem with #FLOW GLOW's ability archives a cheer:Deal 30 special damage for each cheer archived by that ability to your opponent's center holomem or collab holomem."
+          "en": "[1/Game]Usable when your holomem with #FLOW GLOW's ability archives cheer:Deal 30 special damage for each cheer archived by that ability to your opponent's center holomem or collab holomem."
         }
       }
     ],
