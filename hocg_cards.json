@@ -6795,9 +6795,9 @@
         "manage_id": { "jp": [ 215 ], "en": [ 296 ] },
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP01-070_P.webp", "en": "hPR/EN_hBP01-070_P.webp" },
-        "img_last_modified": { "jp": "Wed, 05 Nov 2025 03:04:37 GMT", "en": "Mon, 25 Aug 2025 03:27:32 GMT" },
-        "img_hash": "v2|H32=iqpRZr22l+q0k4muTVssJU5ZJD1WZOsQGGXakrnl1Ju/hmxLWS2UpqTSupS92kuttVaiVqpsrlxbq1arqlRSpVUo0ro|CYM=142D32",
+        "img_path": { "jp": "hPR/hBP01-070_P_01.webp", "en": "hPR/EN_hBP01-070_P.webp" },
+        "img_last_modified": { "jp": "Wed, 05 Nov 2025 05:31:29 GMT", "en": "Mon, 25 Aug 2025 03:27:32 GMT" },
+        "img_hash": "v2|H32=riowtY2qrVIro42qp1VLqbZSG6VaSbLXWqw2U9qMtjBazbRqU7UotbZSUqtZq6TUTauSamlZylatrVqrtVZaVbRSa6U|CYM=15352A",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10034",
         "tcgplayer_product_id": 654155,
         "delta_art_index": 0
@@ -6813,6 +6813,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 645710,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-070",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-070_P.webp", "en": null },
+        "img_hash": "v2|H32=irgx5q2+x+qsk63vTVssJU5ZJDFWpPOQMGXakrvl1JsvhmxKWS2UtrXSvpC10kulpdeiVqpMrl1Tq9aqqlRSpVSqUqo|CYM=152E32",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
