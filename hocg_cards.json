@@ -38288,6 +38288,41 @@
       }
     ]
   },
+  "hSD11-003": {
+    "card_number": "hSD11-003",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Meeting with Niko is a miracle" },
+        "power": "50"
+      },
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Look forward to being bitten by my fangs" },
+        "power": "80"
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-003",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-003_C.webp", "en": null },
+        "img_hash": "v2|H32=rKpJ6o2qg6ZSVJaVplA0haWLLctUk1oaSlVSdMpFqayQTk7T0VAtL7Zosi1LllL0aVeqeqoosKJWK9Skl67SEqmaUlM|CYM=042E49",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD11-004": {
     "card_number": "hSD11-004",
     "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
