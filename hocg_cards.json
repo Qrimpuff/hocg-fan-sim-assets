@@ -38066,6 +38066,48 @@
       }
     ]
   },
+  "hSD10-004": {
+    "card_number": "hSD10-004",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "300 Horsepower!" },
+        "text": {
+          "en": "If your Oshi holomem is <Rindo Chihaya> and your opponent has a 1st holomem on their stage, on the turn that this holomem bloomed it may bloom once more using a 2nd holomem from your hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": null, "en": "I'm a powerful driver!" },
+        "power": "50",
+        "text": {
+          "en": "If there are 3 or more holomem with #FLOW GLOW on your stage, you may send the top card of your cheer deck to your back holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-004",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-004_U.webp", "en": null },
+        "img_hash": "v2|H32=LOsTpq2rnbmPOC2Zz5ZSjmPWcmdSVSlF1iypVVJstNYyTFRp0lXpoq2qipYtq9XVdbmpeoqWKtmgUFKtFlomqepR8lQ|CYM=1E0F18",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD10-008": {
     "card_number": "hSD10-008",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
