@@ -38235,10 +38235,44 @@
       {
         "card_number": "hSD10-011",
         "manage_id": { },
-        "rarity": "",
+        "rarity": "U",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD10-011_.webp", "en": null },
+        "img_path": { "jp": "unreleased/hSD10-011_U.webp", "en": null },
         "img_hash": "v2|H32=xqrnKtTGClUrVVhVOmlyKXSrdLsrszyXqZYLptUq1Kqr6BJFI8ssmuDxLYsfDi2KfiDhah/g6WgGH6h4ggfgOHD44vE|CYM=0B1A16",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD10-012": {
+    "card_number": "hSD10-012",
+    "name": { "jp": "FLOW GLOW", "en": "FLOW GLOW" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #FLOW GLOW from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-012",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-012_U.webp", "en": null },
+        "img_hash": "v2|H32=qKqpqqWqolKTVlJUUlVSvVStPL0sFXxWPFJsW1wLXJtOlRZNgMsMui+o4Zs/4OmL/4uJavBwgS6KP+A4yh/gOA8PYFA|CYM=3B370D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD10-012",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-012_P.webp", "en": null },
+        "img_hash": "v2|H32=SrPrqlDTQlUDVdZVlkyVzJWOnJ6pnlwTLDMpNW0tdC0zLZJF48klmx94LZv/gG2b4X/paAF/iS54GOl44sfhGx5f4tM|CYM=1B240E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
