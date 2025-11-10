@@ -27898,6 +27898,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp05/10021",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP05-009",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-009_C.webp", "en": null },
+        "img_hash": "v2|H32=qGLaGKTiHC/2qGWnjlttUivfdEGLilK1lm5LtTLKYFWLGqhlUnXpMkol1tq0ipKqVVRp22lVKtnWX7aqraqmlmJpujY|CYM=002A34",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -29596,6 +29607,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp05/10081",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP05-036",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-036_C.webp", "en": null },
+        "img_hash": "v2|H32=hqqyWozqraroWk2rrJd7k1q1oqVatEpdboRa1WtdVpMrtaxaFk5Zk7ZtkrTSkmKpWipqy6pVKlmtaQYtqbSSpMm20lI|CYM=302107",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -31569,6 +31591,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp05/10151",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP05-068",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-068_C.webp", "en": null },
+        "img_hash": "v2|H32=1I+VUtPChqfTghqG06tRwtLS+dh6VLiYKsQ7iXKKWKsnGpRkaXUri2i6DstoUFWLa4vrqa0JpXQWKjY9saS0taSpqi0|CYM=2A1410",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -32518,6 +32551,44 @@
       }
     ]
   },
+  "hBP06-004": {
+    "card_number": "hBP06-004",
+    "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Oni Enma" },
+        "text": {
+          "en": "[1/Turn]Archive 1~2 cards from the top of your cheer deck:For each card archived, draw 1 card."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Twin sword flash! Onigami-kiri" },
+        "text": {
+          "en": "[1/Game]Deal 20 special damage to your opponent's center holomem or collab holomem for each red cheer in your archive."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-004",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-004_OSR.webp", "en": null },
+        "img_hash": "v2|H32=dKNqdlSFvDKrxFZZqaFXVES5KabUXMutrErZjYadKalWmbSqpFUtVVqqrSlbqiZpUstNS4oWNk1qVUpVUrK21VZLgtU|CYM=07433A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-008": {
     "card_number": "hBP06-008",
     "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
@@ -32550,6 +32621,89 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-008_OSR.webp", "en": null },
         "img_hash": "v2|H32=ptaY+nVDpFJzbYYaLJXTSgy1q1XUamultlpZraZKyZRWqbSqq1ZLVZqqlVJJmiqtK1ZWaspUUiu6VUqVFlWr1mqpqZU|CYM=031F3C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-019": {
+    "card_number": "hBP06-019",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Stoic and hates losing" },
+        "text": {
+          "en": "If your Oshi holomem is <Isaki Riona>, you may archive the top card of your deck:Draw 1 card."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "Surprisingly hot-blooded?" },
+        "power": "40",
+        "text": { "en": "Archive the top card of your deck." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-019",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-019_R.webp", "en": null },
+        "img_hash": "v2|H32=XLa2SZC2FCqzUq0tSVqFpWxazKQ2SWpVWqMrlVstsNIXqbJsongrakWaNpWkqbXStqZl0VWDLGtqRRavqlRWpZWmUtE|CYM=08170C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-039": {
+    "card_number": "hBP06-039",
+    "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "I didn't hear anything" },
+        "text": {
+          "en": "[Center position only]If you have a collab holomem and your opponent does not have a collab holomem, all of your holomem take no Arts damage from your opponent."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "Hundred Oni Dance -Hazy Moon-" },
+        "power": "80+",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "en": "If your oshi holomem is <Nakiri Ayame>, you may archive 1~3 cards from the top of your cheer deck:This arts gets +40 for each card archived.\nThis Arts may not be used from the collab position unless your Life is 2 or less."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-039",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-039_RR.webp", "en": null },
+        "img_hash": "v2|H32=KqotzoyqqauLUcSKKzUwqEZXMG1SVdJDUF2aMPRMllykKlJpRaWsBNKqtJKqUiT5ZatL3y9LkpamklKlrUoqW6lSUlo|CYM=053B2E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -32591,6 +32745,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-071_R.webp", "en": null },
         "img_hash": "v2|H32=sjclapYqrbLLKMzKicnLzGLOUtUu3FI3ZpWYVEYzkFGsihJJLNpoJdGqDaqqVaXa0S4q2iotlbxW0SnSpErCL8gutWo|CYM=102307",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-087": {
+    "card_number": "hBP06-087",
+    "name": { "jp": "しめじダンス", "en": "Shimeji Dance" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Juufuutei Raden>.\n\nArchive the top card of your cheer deck. Then, return 1 <Juufuutei Raden> from your archive to hand."
+    },
+    "tags": [ { "en": "#Mushroom" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-087",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-087_U.webp", "en": null },
+        "img_hash": "v2|H32=tLqlirS6RLVLtVo1azVydSN2paqlKpWqpSq1CrFKeVp8W1bV0IMtascDrcqPxqkKH3ypCg/24Xo6fOF94HggWXB4cnQ|CYM=071510",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -38108,6 +38285,31 @@
       }
     ]
   },
+  "hSD10-007": {
+    "card_number": "hSD10-007",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Nnnnnn Vivi!" }, "power": "20" } ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-007",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-007_C.webp", "en": null },
+        "img_hash": "v2|H32=6qqxmqWrpaqEY6UsyUqELVrUWyl2lVrVblk2dUtJdmWcNkxXE636JEtaKqmptdXatiqy6kolKq2pUjQppKJSyWppqko|CYM=082815",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD10-008": {
     "card_number": "hSD10-008",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
@@ -38431,6 +38633,31 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD11-004_U.webp", "en": null },
         "img_hash": "v2|H32=qqyh3q+rDaoPe00jy3LLFNJVUtVS3XJN1lZ0TbQWtEA0bNRPVXVopamqLry2q0XXQteqOqpSjkryqdLT6SlSug1aQEs|CYM=0D1123",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD11-007": {
+    "card_number": "hSD11-007",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "" }, "power": "20" } ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-007",
+        "manage_id": { },
+        "rarity": "C?",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-007_C_.webp", "en": null },
+        "img_hash": "v2|H32=xKmtzq+gLaqrwmuty3tS1VJVUlV0UpJVNFOU2TQalFG0uPSrVKRalSpKq16qVcmuUqpJWmpVqktJLVWv9KWWtWpLWto|CYM=091B0F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
