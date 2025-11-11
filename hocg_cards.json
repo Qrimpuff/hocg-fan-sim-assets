@@ -38646,7 +38646,16 @@
     "colors": [ "blue" ],
     "hp": 120,
     "bloom_level": "debut",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "" }, "power": "20" } ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Shupishuwa~" },
+        "power": "20",
+        "text": {
+          "en": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer."
+        }
+      }
+    ],
     "extra": { "en": "You may include any number of this holomem in the deck" },
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
     "max_amount": { "jp": 50 },
@@ -38658,6 +38667,17 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD11-007_C_.webp", "en": null },
         "img_hash": "v2|H32=xKmtzq+gLaqrwmuty3tS1VJVUlV0UpJVNFOU2TQalFG0uPSrVKRalSpKq16qVcmuUqpJWmpVqktJLVWv9KWWtWpLWto|CYM=091B0F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD11-007",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-007_C.webp", "en": null },
+        "img_hash": "v2|H32=xiqpjq2qLSqPyqkqSxFSzFI1UkVW0VJ1dlN00TRmtNG06FRVVbV4harqqaqqNQW19atJuqpSqgqpJEmtrUqUttKnS9s|CYM=171407",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
