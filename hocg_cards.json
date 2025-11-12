@@ -5221,7 +5221,7 @@
         "name": { "jp": "きｔらあああ", "en": "It's Heweree" },
         "power": "50+",
         "text": {
-          "jp": "サイコロを１回振れる：出た目の数１につき、このアーツ+10。",
+          "jp": "サイコロを1回振れる：出た目の数1につき、このアーツ+10。",
           "en": "You may roll a die once:This Arts gets +10x the number rolled."
         }
       }
@@ -6677,7 +6677,7 @@
         "name": { "jp": "跪きなさい。", "en": "Kneel Before Me." },
         "power": "40",
         "text": {
-          "jp": "このホロメンに重なっているホロメン１枚をアーカイブできる：相手のコラボホロメンに特殊ダメージ40を与える。",
+          "jp": "このホロメンに重なっているホロメン1枚をアーカイブできる：相手のコラボホロメンに特殊ダメージ40を与える。",
           "en": "You may archive 1 holomem that is stacked to this holomem:Deal 40 Special Damage to your opponent's collab holomem."
         }
       }
