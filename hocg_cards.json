@@ -1648,14 +1648,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Red Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
-        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1682,14 +1688,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Blue Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20." }
+        "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Blue~" },
-        "text": { "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1716,14 +1728,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "White Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+        "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~White~" },
-        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1750,14 +1768,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Red Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
-        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1784,14 +1808,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "White Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+        "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~White~" },
-        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1818,14 +1848,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Purple Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
-        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1852,14 +1888,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Purple Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
-        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1886,14 +1928,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Purple Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
-        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1920,14 +1968,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "White Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+        "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~White~" },
-        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1954,14 +2008,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Yellow Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+        "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
-        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -1988,14 +2048,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "White Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20." }
+        "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your white holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~White~" },
-        "text": { "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 white holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2022,14 +2088,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Red Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
-        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2056,14 +2128,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Blue Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20." }
+        "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your blue holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Blue~" },
-        "text": { "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 blue holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2090,14 +2168,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Green Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+        "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
-        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2124,14 +2208,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Green Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+        "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
-        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2158,14 +2248,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Yellow Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+        "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
-        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2192,14 +2288,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Red Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
-        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2226,14 +2328,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Green Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+        "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
-        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2260,14 +2368,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Green Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+        "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
-        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2294,14 +2408,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Yellow Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
+        "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
-        "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2328,14 +2448,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Red Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
-        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2362,14 +2488,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Purple Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
-        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2396,14 +2528,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Red Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
-        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2430,14 +2568,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Green Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20." }
+        "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your green holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Green~" },
-        "text": { "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 green holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2464,14 +2608,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Purple Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20." }
+        "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your purple holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Purple~" },
-        "text": { "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 purple holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
@@ -2498,14 +2648,20 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Red Enhance" },
-        "text": { "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20." }
+        "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
+        "text": {
+          "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
+          "en": "[1/Turn]During this turn, 1 of your red holomem gets Arts+20."
+        }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Birthday Gift ~Red~" },
-        "text": { "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck." }
+        "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
+        "text": {
+          "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "[1/Game]Reveal 1 red holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
       }
     ],
     "max_amount": { "jp": 1 },
