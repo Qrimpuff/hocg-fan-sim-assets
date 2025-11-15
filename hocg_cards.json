@@ -38558,6 +38558,48 @@
       }
     ]
   },
+  "hSD10-005": {
+    "card_number": "hSD10-005",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The DJ and driver of FLOW GLOW" },
+        "text": {
+          "en": "You may return 1~3 holomem with #FLOW GLOW from your archive to the bottom of your deck. If you returned 3 holomem, you may send the top card of your cheer deck to your holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green" ],
+        "name": { "jp": null, "en": "Let's Go!!!!" },
+        "power": "20+",
+        "text": {
+          "en": "If any of your holomem have bloomed this turn, during this turn, 1 of your <Rindo Chihaya> gets Arts+20."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD10-005",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-005_U.webp", "en": null },
+        "img_hash": "v2|H32=zrn3LK26Haap4jmig2VpGsIdaBRSRXiXUsc+ZVJOpGk/LNQlWzWtoqhaKtItqg2fda0oqapaCksmi6Wq9KjQsLQ6Wio|CYM=171016",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD10-007": {
     "card_number": "hSD10-007",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
