@@ -38954,6 +38954,44 @@
       }
     ]
   },
+  "hSD11-005": {
+    "card_number": "hSD11-005",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The jokester of FLOW GLOW" },
+        "text": { "en": "You may send 1 cheer from your archive to your back holomem with #FLOW GLOW." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "Unyielding" },
+        "power": "30+",
+        "text": { "en": "If there are 5 or more cheers on your stage, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD11-005",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD11-005_U.webp", "en": null },
+        "img_hash": "v2|H32=hqmpuI2qTa7rYknm45uTOZIRcrFaV3KUdkZ2RfJYtEi8q9RKVWVpJCptCpJS2knbL4+qNLqUqrnWi1basBpSWUsqEpU|CYM=0F2528",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD11-007": {
     "card_number": "hSD11-007",
     "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
