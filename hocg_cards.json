@@ -32576,7 +32576,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆2nd以上の〈ネリッサ・レイヴンクロフト〉に付いていたら能力追加\n[センターポジション・コラボポジション限定][ターンに1回]このツールが付いているホロメンの能力で自分の手札をアーカイブした時、相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 2nd or greater <Nerissa Ravencroft>\n[Center/collab position only][1/turn]When the holomem this tool is attached to archives cards from your hand by its ability, deal 20 Special Damage to your opponent's center holomem or collab holomem.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 2nd or greater <Nerissa Ravencroft>\n[Center position or collab position only][1/turn]When the holomem this tool is attached to archives cards from your hand by its ability, deal 20 Special Damage to your opponent's center holomem or collab holomem.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
