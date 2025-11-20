@@ -145,6 +145,11 @@ pub mod decklog {
                 if self.manage_id == Some(1373) {
                     self.img = "hBP05/hBP02-065_HR.png".into();
                 }
+
+                // fix Isaki Riona bloom level
+                if self.card_number == "hSD10-010" {
+                    self.bloom_level = "Spot".into();
+                }
             }
 
             // fix issues with Deck Log English site
@@ -597,12 +602,14 @@ pub mod hololive_official {
                 "life" => card.life = value.parse().unwrap_or_default(),
                 "hp" => card.hp = value.parse().unwrap_or_default(),
                 "bloomレベル" | "bloom level" => {
+                    let mut bloom_level = bloom_level_from_str(value);
+                    fix_bloom_level(card, &mut bloom_level);
+
                     // from Deck Log
                     if card.bloom_level == Default::default() {
-                        card.bloom_level = bloom_level_from_str(value);
+                        card.bloom_level = bloom_level;
                     } else {
                         // warn if the level is different
-                        let bloom_level = bloom_level_from_str(value);
                         if card.bloom_level != bloom_level {
                             eprintln!(
                                 "Warning: {} bloom level mismatch: {:?} should be {:?}",
@@ -879,6 +886,13 @@ pub mod hololive_official {
         // hSD01-002 AZKi oshi card color (the official EN db has a bug)
         if card.card_number == "hSD01-002" {
             *colors = vec![Color::Green];
+        }
+    }
+
+    fn fix_bloom_level(card: &Card, bloom_level: &mut Option<BloomLevel>) {
+        // hSD10-010 Isaki Riona bloom level mismatch
+        if card.card_number == "hSD10-010" {
+            *bloom_level = Some(BloomLevel::Spot);
         }
     }
 

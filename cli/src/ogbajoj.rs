@@ -566,6 +566,11 @@ fn fix_extra(card: &Card, extra: &mut Option<Extra>) {
             "If this holomem is downed, you get Life-2".into(),
         ));
     }
+
+    // hSD10-010 Isaki Riona does have extra text
+    if card.card_number == "hSD10-010" {
+        *extra = Some(Localized::en("This holomem cannot Bloom".into()));
+    }
 }
 // --- End of fixes ---
 
