@@ -5239,6 +5239,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 645654,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-041",
+        "manage_id": { },
+        "rarity": "SR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-041_SR.webp", "en": null },
+        "img_hash": "v2|H32=WmOtKhRvDTq1ahE7SWYzuWtlalU2tdh0VpEWrUtlJqHKrKpVuSS8Mk1atbUml2lLqquttVlZVCq6JlnSVstZ2qqkaa0|CYM=1B1D09",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -10938,6 +10949,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10033",
         "tcgplayer_product_id": 657563,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-016",
+        "manage_id": { },
+        "rarity": "SR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-016_SR.webp", "en": null },
+        "img_hash": "v2|H32=2GitZ0mSlaVrsiu8j6LrlqmS2VJX0shSVtPb5WqKUiWfaqhkmiRKNrXKrZK225XaWitylVTZqaVtqVS5WqtWtFbV2oo|CYM=0B1A07",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -11868,6 +11890,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10062",
         "tcgplayer_product_id": 657592,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-031",
+        "manage_id": { },
+        "rarity": "SR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-031_SR.webp", "en": null },
+        "img_hash": "v2|H32=oqodn7ZSxao4V+ZYxaob1s6VMa66lXoV5qhaVUIQTMsbl6pWrVVatZaolXpp0WrVVq8WKpYupu1p0yVJ6ZatlAsWJV0|CYM=073724",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -18880,7 +18913,7 @@
       },
       {
         "cheers": [ "purple", "purple", "colorless" ],
-        "name": { "jp": "Break your ×××", "en": "Break your ×××" },
+        "name": { "jp": "Break your ×××", "en": "Break your xxx" },
         "power": "80",
         "advantage": [ "yellow", 50 ],
         "text": {
@@ -20548,7 +20581,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキの上から4枚を見る。その中から、[Debutホロメンと1stホロメン]1枚ずつを公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "Look at the top 4 cards of your deck. Reveal 1 [Debut holomem and 1st holomem] from among them, and add them to hand. Then, return the remaining cards to the bottom of the deck in any order."
+      "en": "Look at the top 4 cards of your deck. Reveal 1 Debut holomem and 1 1st holomem from among them, and add them to hand. Then, return the remaining cards to the bottom of the deck in any order."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -27754,7 +27787,7 @@
         "name": { "jp": "ポルカの伝説", "en": "Legend of Polka" },
         "text": {
           "jp": "[ターンに1回]自分の手札が自分のステージの〈座員〉の枚数と同じになるまで、自分のデッキを引く。ただし、引ける枚数は4枚まで。",
-          "en": "[1/Turn]Draw cards until your hand has the same amount as the number of <Troupe Member> on your stage. However, only up to 4 cards can be drawn."
+          "en": "[1/Turn]Draw cards from your deck until you have as many in your hand as the number of <Troupe Member> on your stage. However, only up to 4 cards can be drawn."
         }
       },
       {
@@ -28647,7 +28680,7 @@
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "If this holomem is downed, you get life-2"
+      "en": "If this holomem is downed, you get Life-2"
     },
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -29872,7 +29905,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このホロメンに赤エールと青エールが付いているなら、自分のアーカイブのエール2枚をこのホロメンに送れる。どちらか1色しか付いていないなら、自分のアーカイブのエール1枚をこのホロメンに送れる。",
-          "en": "If a red cheer and a blue cheer are attached to this holomem, you may send 2 cheers from your archive to this holomem. If a cheer of only one of those colors is attached to this holomem, you may send 1 cheer from your archive to this holomem."
+          "en": "If a red cheer and a blue cheer are attached to this holomem, you may send 2 cheers from your archive to this holomem. If any cheers of only one of those colors are attached to this holomem, you may send 1 cheer from your archive to this holomem."
         }
       },
       {
@@ -32379,7 +32412,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキを2枚引く。その後、直前の相手のターンに自分のホロメンがダウンしていて、自分のライフが相手のライフより少ないなら、アーカイブのエール1枚を自分のホロメン1人に送る。",
-      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, send 1 cheer from your archive to your holomem."
+      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, you may send 1 cheer from your archive to your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -37554,6 +37587,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd07/10017",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD07-007",
+        "manage_id": { },
+        "rarity": "SR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD07-007_SR.webp", "en": null },
+        "img_hash": "v2|H32=KGOFajI61qyUKmSelExmU4nVSkVK1Uu1UjVL2dqkMtPMzSZtqFT6dUlp1ZSvqUpZWqutrrSUWktWqzS12lpKL2AJlhY|CYM=032E35",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
