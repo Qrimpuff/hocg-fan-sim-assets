@@ -1026,10 +1026,14 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
     let name = sheet.properties.title.clone();
 
     // Read HTML content from the website
-    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/view");
+    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
     let resp = http_client()
         .get(&url)
-        .query(&[("gid", sheet.properties.sheet_id.to_string().as_str())])
+        .query(&[
+            ("gid", sheet.properties.sheet_id.to_string().as_str()),
+            ("widget", "false"),
+            ("single", "true"),
+        ])
         .header("Sec-Fetch-Dest", "document")
         .header("Sec-Fetch-Mode", "navigate")
         .header("Sec-Fetch-Site", "none")
