@@ -32928,7 +32928,7 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-007_OSR.webp", "en": null },
-        "img_hash": "v2|H32=Ui2CnjcVTrOitvZWnKKVUpTNm9lcW3vdantpqJaqKSlUtoSqqlJJVUmqbWvxoEsnSsNrldpVa60KtaoUS5UqfVpLLbU|CYM=034325",
+        "img_hash": "v2|H32=Um2iXnNFZrOiluZSmaa0WpTNm9lYWXqZaztpqJaqKblUutSyqlIpb0mqSUvookknSsNLlapVS60qtWpVS9UqXVpLqjU|CYM=024D2E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -32967,6 +32967,38 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-008_OSR.webp", "en": null },
         "img_hash": "v2|H32=ptaY+nVDpFJzbYYaLJXTSgy1q1XUamultlpZraZKyZRWqbSqq1ZLVZqqlVJJmiqtK1ZWaspUUiu6VUqVFlWr1mqpqZU|CYM=031F3C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-012": {
+    "card_number": "hBP06-012",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "white" ], "name": { "jp": null, "en": "The REAL Queen is Here!" }, "power": "30" },
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "LA FINE" },
+        "power": "70",
+        "text": { "en": "Draw 2 cards." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-012",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-012_U.webp", "en": null },
+        "img_hash": "v2|H32=rJ1SYUy6pFZRGrSeZJYtKRqWLSnSZE9Kl6hp2xJJaboqVaTaalGtulatUtXNqlataRSOSkmpaTW1mr8ltlZbaWW1plg|CYM=172B19",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33032,6 +33064,114 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-019_R.webp", "en": null },
         "img_hash": "v2|H32=XLa2SZC2FCqzUq0tSVqFpWxazKQ2SWpVWqMrlVstsNIXqbJsongrakWaNpWkqbXStqZl0VWDLGtqRRavqlRWpZWmUtE|CYM=08170C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-021": {
+    "card_number": "hBP06-021",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "I'll deliver it to you" },
+        "text": {
+          "en": "During this turn, 1 of your holomem with #holoX gets Arts+30. If this holomem has a Support card with #KoyoLabo attached, that holomem gets Arts+50 instead."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "A page of youth" },
+        "power": "90+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "You may return a Support card with #KoyoLabo from your archive to the bottom of your deck:This Arts gets +40."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-021",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-021_R.webp", "en": null },
+        "img_hash": "v2|H32=lopaUZWppKquKaWuZCprxlhyc4wLNZWoSmWVmmJHWFunjqRqs1ZpKxaVXZrS0lKRZalKlUtlKtVUq1bd4NK21rVi0lQ|CYM=071A17",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-024": {
+    "card_number": "hBP06-024",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 200,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Magical☆Gozaru's Energizing Magic" },
+        "power": "80"
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-024",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-024_C.webp", "en": null },
+        "img_hash": "v2|H32=RqsJ1qW6raOpUq22q9E4S5aUUokSV9isclV0JdpE9lFULFxWW5VoKbbahrLVsk1aJEmqLKZpsmm1DnS1sqaSlGpa8LA|CYM=181126",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-026": {
+    "card_number": "hBP06-026",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Delivering you energy!" },
+        "text": {
+          "en": "[Center position only]When your holomem collabs, if you have 5 or more cards in your hand, you may send the top card of your cheer deck to your collab holomem."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "green", "green" ], "name": { "jp": null, "en": "I hope you enjoy" }, "power": "60" } ],
+    "extra": { "en": "If this holomem is downed, you get Life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-026",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-026_R.webp", "en": null },
+        "img_hash": "v2|H32=dqqNqueyLZ+jem2aNbnXokiz1tUal2JVXJUyTeSo9CCsLKwtnSxqVWrl1ap0y5aa0pZKqWorWkpSSzSdptsqVKrVUqg|CYM=19121A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33108,6 +33248,47 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-040_C.webp", "en": null },
         "img_hash": "v2|H32=6qqrbc2mOYuWshS7ppOkJG9VS2RbbVpVUmsSUzZVtrK0VF4dVtVkiSlqqLQOD7W+0ydq8aE6rkpqtdWrpzRKKOGnoEM|CYM=052333",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-046": {
+    "card_number": "hBP06-046",
+    "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "You're wrong!" },
+        "text": { "en": "If you have used your SP Oshi Skill \"Hawkeye\" this game, this holomem has Arts+20." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Eternal Bond" },
+        "power": "120",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "If your Oshi holomem is <Takane Lui>, you may archive 2 cards from your hand:Deal 50 special damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-046",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-046_R.webp", "en": null },
+        "img_hash": "v2|H32=oqotq6OyTa+pqI20fOuZuEhXOFNIVJNVUkVTK3ZKdKKWCrRqXW3KpRKuVapa1WlVrUtK0avUqlSSViSa0pJaWqEmolo|CYM=233625",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33292,6 +33473,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-087_U.webp", "en": null },
         "img_hash": "v2|H32=tLqlirS6RLVLtVo1azVydSN2paqlKpWqpSq1CrFKeVp8W1bV0IMtascDrcqPxqkKH3ypCg/24Xo6fOF94HggWXB4cnQ|CYM=071510",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-091": {
+    "card_number": "hBP06-091",
+    "name": { "jp": "ホロライブ1期生", "en": "hololive Generation 1" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #Gen 1 from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-091",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-091_U.webp", "en": null },
+        "img_hash": "v2|H32=WqmpqtWrKS2rTVRVKlVqFUxSbJErndTcnApOvkW6VLJu8hJFQ/ksm/N7LZvqLi2L+Pipbuvg6WwKi4kPKg5gGyot4Js|CYM=05111F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -38810,12 +39014,15 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "エンジン全開 演じない自然体", "en": "Full throttle, natural, no acting" },
+        "name": {
+          "jp": "エンジン全開 演じない自然体",
+          "en": "All Engines Go, Not for Show, Just Natural"
+        },
         "power": "30"
       },
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": "全身全霊 越えてく限界", "en": "With all my heart and soul, I'll surpass my limits" },
+        "name": { "jp": "全身全霊 越えてく限界", "en": "With Heart And Soul, Surpassing Limits We Go" },
         "power": "80"
       }
     ],
@@ -39319,14 +39526,17 @@
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "にこと出会えたの何かのキセキ", "en": "Meeting with Niko is a miracle" },
+        "name": {
+          "jp": "にこと出会えたの何かのキセキ",
+          "en": "It's Kind of a Miracle That We Could Meet"
+        },
         "power": "50"
       },
       {
         "cheers": [ "colorless", "colorless", "colorless" ],
         "name": {
           "jp": "期待せよ 牙で噛まれちゃうシゲキ",
-          "en": "Look forward to being bitten by my fangs"
+          "en": "Look Out for Me Biting You With Fangs, My Tendency"
         },
         "power": "80"
       }
@@ -39461,7 +39671,7 @@
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "虎嘯風生", "en": "Tiger Feng Sheng" },
+        "name": { "jp": "虎嘯風生", "en": "Tiger Roars, Winds Rise" },
         "power": "40+",
         "advantage": [ "red", 50 ],
         "text": {
