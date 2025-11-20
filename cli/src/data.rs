@@ -361,6 +361,9 @@ pub mod decklog {
                                             *img_path = dl_card.img;
                                             let new_path = images_path.join(&img_path);
                                             if fs::exists(&old_path).unwrap_or_default() {
+                                                if let Some(parent) = new_path.parent() {
+                                                    fs::create_dir_all(parent).unwrap();
+                                                }
                                                 fs::copy(old_path, new_path).unwrap();
                                             }
                                             *illust.img_last_modified.value_mut(language) = None;

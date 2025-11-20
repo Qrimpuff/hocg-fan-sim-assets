@@ -522,7 +522,7 @@ pub mod utils {
 
     use std::path::Path;
 
-    use hocg_fan_sim_assets_model::CardIllustration;
+    use hocg_fan_sim_assets_model::{CardIllustration, Language};
     use image::{GrayImage, RgbImage, imageops};
     use image_hasher::{HasherConfig, ImageHash};
 
@@ -590,14 +590,25 @@ pub mod utils {
         hash
     }
 
-    pub fn is_similar(c1: &CardIllustration, c2: &CardIllustration, same_rarity: bool) -> bool {
-        let dist = dist_hash(&c1.img_hash, &c2.img_hash);
+    pub fn can_merge(into: &CardIllustration, from: &CardIllustration, same_rarity: bool) -> bool {
+        let dist = dist_hash(&into.img_hash, &from.img_hash);
         if DEBUG {
             println!(
-                "is_similar({} {}, {} {}) = {dist}",
-                c1.card_number, c1.rarity, c2.card_number, c2.rarity
+                "can_merge({} {}, {} {}) = {dist}",
+                into.card_number, into.rarity, from.card_number, from.rarity
             );
         }
+
+        // if both have manage_id, they must be identical
+        for language in [Language::Japanese, Language::English] {
+            if into.manage_id.value(language).is_some()
+                && from.manage_id.value(language).is_some()
+                && dist != 0
+            {
+                return false;
+            }
+        }
+
         // more tolerance for manual cropping
         dist <= if same_rarity {
             DIST_TOLERANCE_SAME_RARITY

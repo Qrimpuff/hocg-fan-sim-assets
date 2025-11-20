@@ -13,7 +13,7 @@ use hocg_fan_sim_assets_cli::{
     },
     holodelta::{import_holodelta, import_holodelta_db},
     images::{
-        PROXIES_FOLDER, download_images, prepare_en_proxy_images, utils::is_similar, zip_images,
+        PROXIES_FOLDER, download_images, prepare_en_proxy_images, utils::can_merge, zip_images,
     },
     ogbajoj::{
         download_images_from_ogbajoj_sheet, retrieve_card_info_from_ogbajoj_sheet,
@@ -423,7 +423,7 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     || illustrations[i].rarity != illustrations[j].rarity
                 {
                     j += 1;
-                } else if is_similar(&illustrations[i], &illustrations[j], true) {
+                } else if can_merge(&illustrations[i], &illustrations[j], true) {
                     if DEBUG {
                         println!(
                             "Merging similar images: {:?} and {:?}",
