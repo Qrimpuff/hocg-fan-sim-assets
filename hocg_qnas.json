@@ -5687,9 +5687,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-001〈輪堂千速〉の推しスキル「エンジン全開！レッツゴー！」の能力は、Bloomしたホロメン以外も選べますか？",
-      "en": null
+      "en": "Can I choose a holomem that has not bloomed as the target for hSD10-001 Rindo Chihaya's oshi skill \"Full throttle! Let's go!\"?"
     },
-    "answer": { "jp": "はい、選べます。", "en": null },
+    "answer": { "jp": "はい、選べます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD10-001" ]
   },
   "Q483": {
@@ -5697,9 +5697,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-001〈輪堂千速〉の推しスキル「エンジン全開！レッツゴー！」の能力をhSD10-006〈輪堂千速〉に使い、その後hSD10-006〈輪堂千速〉にBloomしました。\nこの場合、Bloom後のhSD10-006〈輪堂千速〉は+30されたままになりますか？",
-      "en": null
+      "en": "I used hSD10-001 Rindo Chihaya's oshi skill \"Full throttle! Let's go!\" on my hSD10-006 Rindo Chihaya, and then bloomed that holomem.\nDoes the holomem still have Arts+30 after blooming?"
     },
-    "answer": { "jp": "はい、なります。", "en": null },
+    "answer": { "jp": "はい、なります。", "en": "Yes, it does." },
     "referenced_cards": [ "hSD10-001", "hSD10-006" ]
   },
   "Q484": {
@@ -5707,9 +5707,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-004〈輪堂千速〉のギフト「300馬力だよ！」の能力は、自分ホロメンが1stホロメンへBloomした直後でなくても使えますか？",
-      "en": null
+      "en": "Can I use hSD10-004 Rindo Chihaya's Gift \"300 Horsepower!\" at a time that isn't immediately after blooming into that holomem?"
     },
-    "answer": { "jp": "はい、使えます。", "en": null },
+    "answer": { "jp": "はい、使えます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD10-004" ]
   },
   "Q485": {
@@ -5717,9 +5717,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-006〈輪堂千速〉のアーツ「鼓動の操縦者」の能力は、他の自分のホロメンがBloomしていても+50されますか？",
-      "en": null
+      "en": "Does hSD10-006 Rindo Chihaya's Arts \"Pilot of Beats\" gets Arts+50 even if it did not bloom this turn, but another one of my holomem did?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes,. it does." },
     "referenced_cards": [ "hSD10-006" ]
   },
   "Q486": {
@@ -5727,9 +5727,12 @@
     "date": "2025-11-19",
     "question": {
       "jp": "残りHPが80のホロメンに、hSD10-006〈輪堂千速〉のアーツ「アクセラビートブレイズ」を使い、140ダメージを与えました。\nこの場合、何枚自分のバックホロメンにエールを送りますか？",
-      "en": null
+      "en": "I used hSD10-006 Rindo Chihaya's Arts \"Accele-beat Blaze\" to deal 140 damage to a holomem which had 80 HP remaining. How many cheers do I send to my back holomem?"
     },
-    "answer": { "jp": "その場合、60オーバーしているため、2枚送ります。", "en": null },
+    "answer": {
+      "jp": "その場合、60オーバーしているため、2枚送ります。",
+      "en": "Since you dealt 60 damage over the remaining HP of the target, you send 2 cheers."
+    },
     "referenced_cards": [ "hSD10-006" ]
   },
   "Q487": {
@@ -5737,9 +5740,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-008〈綺々羅々ヴィヴィ〉のコラボエフェクト「FLOW GLOWのメイク担当」の能力で相手の手札を見てサポートカードがあった場合、必ず1枚引かなければなりませんか？",
-      "en": null
+      "en": "When using hSD10-008 Kikirara Vivi's Collab effect \"The makeup artist of FLOW GLOW\" to look at my opponent's hand, if there is a support card there do I have to draw 1 card?"
     },
-    "answer": { "jp": "はい、必ず引きます。", "en": null },
+    "answer": { "jp": "はい、必ず引きます。", "en": "Yes, you do." },
     "referenced_cards": [ "hSD10-008" ]
   },
   "Q488": {
@@ -5747,11 +5750,11 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-009〈綺々羅々ヴィヴィ〉のコラボエフェクト「美の求道者」の能力は、自分のデッキの枚数が相手の手札以下だった場合はどうなりますか？",
-      "en": null
+      "en": "How do I process hSD10-009 Kikirara Vivi's Collab effect \"Seeker of True Beauty\" if there are less cards in my deck than there are in my opponent's hand?"
     },
     "answer": {
       "jp": "その場合、可能な限りデッキの上からカードを見て、1枚を手札に加えます。",
-      "en": null
+      "en": "In this case, look at as many cards as possible from the top of your deck, and add one to hand."
     },
     "referenced_cards": [ "hSD10-009" ]
   },
@@ -5760,9 +5763,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-010〈響咲リオナ〉のコラボエフェクト「私の元においで～っ」の能力で、コラボエフェクトか#FLOW GLOWのどちらかを持つホロメンを手札に加えることはできますか？",
-      "en": null
+      "en": "When using hSD10-010 Isaki Riona's Collab effect \"Come to me!\", can I add a holomem with either a Collab effect, or #FLOW GLOW (but not both) to my hand?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hSD10-010" ]
   },
   "Q490": {
@@ -5770,9 +5773,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-011〈WHAT'S UP!!!!! KEEEEEP GROWING!!!!!〉は、自分のアーカイブにエールが2枚の場合、センターホロメンとコラボホロメンに1枚ずつエールを送ることはできますか？",
-      "en": null
+      "en": "When using hSD10-011 WHAT'S UP!!!!! KEEEEEP GROWING!!!!!, if there are only 2 cheers in my archive, can I send 1 each to my center and collab holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD10-011" ]
   },
   "Q491": {
@@ -5780,9 +5783,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD10-011〈WHAT'S UP!!!!! KEEEEEP GROWING!!!!!〉は、ホロメン1人に3枚エールを送ることはできますか？",
-      "en": null
+      "en": "When using hSD10-011 WHAT'S UP!!!!! KEEEEEP GROWING!!!!!, can I send all 3 cheers to 1 holomem?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hSD10-011" ]
   },
   "Q492": {
@@ -5790,11 +5793,11 @@
     "date": "2025-11-19",
     "question": {
       "jp": "自分のステージにホロメンが6人いる場合、hSD10-013〈ふぐ太郎〉の能力を使うことはできますか？",
-      "en": null
+      "en": "If I have 6 holomem on my stage, can I use the additional ability of hSD10-013 Fugutaro?"
     },
     "answer": {
       "jp": "はい、その場合、デッキの中を見て、ステージにホロメンを出せないためデッキをシャッフルし、hSD10-013〈ふぐ太郎〉をデッキの下に戻して効果の解決を終えます。",
-      "en": null
+      "en": "Yes, you can. In this case, you look in your deck and since you cannot place any holomem on stage, then just shuffle your deck then place hSD10-013 Fugutaro on the bottom."
     },
     "referenced_cards": [ "hSD10-013" ]
   },
@@ -5803,11 +5806,11 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力の「無色+1」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"1 colorless cheer\" mean in hSD11-007 Mizumiya Su's Arts \"Shupishuwa~\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。",
-      "en": null
+      "en": "This means that your opponent will need to archive 1 more cheer to Baton Pass with the affected holomem."
     },
     "referenced_cards": [ "hSD11-007" ]
   },
@@ -5816,11 +5819,11 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-008〈水宮枢〉のコラボエフェクト「FLOW GLOWのえらい宣伝担当」の能力の「無色+1」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"1 colorless cheer\" mean in hSD11-008 Mizumiya Su's Collab effect \"The publicity manager of FLOW GLOW\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。",
-      "en": null
+      "en": "This means that your opponent will need to archive 1 more cheer to Baton Pass with the affected holomem."
     },
     "referenced_cards": [ "hSD11-008" ]
   },
@@ -5829,11 +5832,11 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-009〈水宮枢〉のコラボエフェクト「感情の伝令者」の能力の「無色+1」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"3 colorless cheer\" mean in hSD11-009 Mizumiya Su's Collab effect \"Messenger of Emotions\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。",
-      "en": null
+      "en": "This means that your opponent will need to archive 1 more cheer to Baton Pass with the affected holomem."
     },
     "referenced_cards": [ "hSD11-009" ]
   },
@@ -5842,9 +5845,9 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。\nこの場合、バトンタッチに必要な「無色」はいくつになりますか？",
-      "en": null
+      "en": "I used hBP05-075 Gyudon on my hBP01-068 Omaru Polka, which had been affected by hSD11-007 Mizumiya Su's Arts \"Shupishua~\" and had its baton pass cost increased by +1.\nIn this case, how much colorless cheer does the baton pass cost?"
     },
-    "answer": { "jp": "この場合、0になります。", "en": null },
+    "answer": { "jp": "この場合、0になります。", "en": "In this case, the baton pass cost will be 0." },
     "referenced_cards": [ "hBP01-068", "hBP05-075", "hSD11-007" ]
   }
 }
