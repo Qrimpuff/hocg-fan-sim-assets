@@ -33113,6 +33113,30 @@
       }
     ]
   },
+  "hBP06-022": {
+    "card_number": "hBP06-022",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 140,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Handmade charm" }, "power": "10" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-022",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-022_C.webp", "en": null },
+        "img_hash": "v2|H32=rroUqisRlaqlVWu1lKopVcqytGlaR+zUUk3I1VacsWxctiyVT1Vaaqys2tK1qGptUKaitKpVpMrKWjRpUo+2qWJLtLQ|CYM=2A0931",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-024": {
     "card_number": "hBP06-024",
     "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
@@ -33172,6 +33196,37 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-026_R.webp", "en": null },
         "img_hash": "v2|H32=dqqNqueyLZ+jem2aNbnXokiz1tUal2JVXJUyTeSo9CCsLKwtnSxqVWrl1ap0y5aa0pZKqWorWkpSSzSdptsqVKrVUqg|CYM=19121A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-034": {
+    "card_number": "hBP06-034",
+    "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "An exciting date at the summer beach" },
+        "power": "10+",
+        "text": { "en": "You may archive 1 card from your hand:Your center <Nakiri Ayame> gets Arts+30." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-034",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-034_C.webp", "en": null },
+        "img_hash": "v2|H32=rKhL64uyLanLG6mWIwvZChJXU2pWa1rVdGlSVJIU1gy8lNxaVm2pdKlqSrJKsbappFtSvabLKcuStCZpi7ayLaAKloc|CYM=07282D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33289,6 +33344,37 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-046_R.webp", "en": null },
         "img_hash": "v2|H32=oqotq6OyTa+pqI20fOuZuEhXOFNIVJNVUkVTK3ZKdKKWCrRqXW3KpRKuVapa1WlVrUtK0avUqlSSViSa0pJaWqEmolo|CYM=233625",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-057": {
+    "card_number": "hBP06-057",
+    "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Mori's Underground Live" },
+        "power": "20",
+        "text": { "en": "Draw 1 card, then archive 1 card from your hand." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-057",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-057_C.webp", "en": null },
+        "img_hash": "v2|H32=irAzG5WirazDSi3ua0tMUmS521MWt9LVkpbSlbpckrl6UNRCV0kpXatKtrJKu5WqtbYStaoVar1KrSsvaK1SS1qpVks|CYM=193819",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33450,6 +33536,45 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-073_U.webp", "en": null },
         "img_hash": "v2|H32=yrQpy+OqnSQnipikpFujlJplcl3KZVJNTkl0FlJJNJOW1JZElVRapSppparWsmnVSpVWk6arqVrWWqglKF1WWLSoaqk|CYM=002647",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-078": {
+    "card_number": "hBP06-078",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Earth & Terra" },
+        "text": {
+          "en": "You may archive 1 cheer from this holomem:Reveal 1 Debut holomem with the same name as your Oshi holomem from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "For now, I'll do my best with POWER!!!!" },
+        "power": "20"
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-078",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-078_C.webp", "en": null },
+        "img_hash": "v2|H32=5KqnlOWqWKV7UVlb2tWpipYSnKoaFdJUWmVi5GaM5myuTJalVqWt0uh06Jq1im2bFgvqValLWmmlWmJp+aJyaappIr0|CYM=211D2A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -39711,7 +39836,7 @@
         "name": { "jp": "しゅぴしゅわー", "en": "Shupishuwa~" },
         "power": "20",
         "text": {
-          "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色エール+1。",
+          "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+1。",
           "en": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer."
         }
       }
@@ -39750,7 +39875,7 @@
         "type": "collab",
         "name": { "jp": "FLOW GLOWのえらい宣伝担当", "en": "The publicity manager of FLOW GLOW" },
         "text": {
-          "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色エール+1。",
+          "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+1。",
           "en": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer."
         }
       }
@@ -39761,7 +39886,7 @@
         "name": { "jp": "愛は時間ですよ", "en": "Love is Time" },
         "power": "30",
         "text": {
-          "jp": "このアーツの対象が相手のバトンタッチに必要な無色エールが2つ以上のホロメンなら、自分のエールデッキの上から1枚を自分のバックホロメンに送る。",
+          "jp": "このアーツの対象が相手のバトンタッチに必要な無色が2つ以上のホロメンなら、自分のエールデッキの上から1枚を自分のバックホロメンに送る。",
           "en": "If the cheer cost of the targeted holomem's Baton Pass is 2 or more, send the top card of your cheer deck to your back holomem."
         }
       }
@@ -39796,7 +39921,7 @@
         "type": "collab",
         "name": { "jp": "感情の伝令者", "en": "Messenger of Emotions" },
         "text": {
-          "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色エール+3。",
+          "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+3。",
           "en": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +3 colorless cheer."
         }
       }
@@ -39808,7 +39933,7 @@
         "power": "100",
         "advantage": [ "purple", 50 ],
         "text": {
-          "jp": "このアーツの対象のホロメンに、そのホロメンのバトンタッチに必要な無色エール1つにつき、特殊ダメージ10を与える。",
+          "jp": "このアーツの対象のホロメンに、そのホロメンのバトンタッチに必要な無色1つにつき、特殊ダメージ10を与える。",
           "en": "Deal 10 special damage to the targeted holomem times the cheer cost of that holomem's Baton Pass."
         }
       }
