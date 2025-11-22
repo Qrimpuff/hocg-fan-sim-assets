@@ -7191,6 +7191,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10015",
         "tcgplayer_product_id": 647472,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-072",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-072_C.webp", "en": null },
+        "img_hash": "v2|H32=iqtrdrWrrdu9ia2JaUxbjEpmG0tSV7FjkNHSFbWoTlB06kZbFqVwwdqyvWhqkRaltVqtOkoPgq3pUlq1pUqglqVCVq8|CYM=09303A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -8173,6 +8184,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-088",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-088_C.webp", "en": null },
+        "img_hash": "v2|H32=oqihrq2rLYqp4y2sS8LYJcMkUlVSNVJVctMQVeTWkNO0WFxTSdX4JbKmrqouWQbNlKz5suraqmqrLpW2lSXS2qqVliw|CYM=0F150D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -13287,6 +13309,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10062",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-054",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-054_C.webp", "en": null },
+        "img_hash": "v2|H32=cj6UKiWrjVqvqimry1JSpVJNW1VWdSJdWtLWpfhL1JasJdRSFK0uBctSjarl69GiWiut+Mu0papqWdu2pG1IW9WmSyo|CYM=061F14",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -22758,6 +22791,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10092",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-016",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-016_C.webp", "en": null },
+        "img_hash": "v2|H32=6DJS3VTlrSq2bU2rpbJiWVuWqTpCVZsloaWSbBmbcpmpWkpalq3pUmlLlqSVFi5tUGmknUuXNKWCBg+Xdeq2bFSbmyo|CYM=032A1E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -32783,6 +32827,42 @@
       }
     ]
   },
+  "hBP06-001": {
+    "card_number": "hBP06-001",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "BIG CAT means..." },
+        "text": {
+          "en": "[1/Turn]If your center holomem is <Raora Panthera>, reveal 1 holomem from your deck with the same name as your collab holomem, and add it to hand. Then, shuffle the deck."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 1,
+        "name": { "jp": null, "en": "BIG TROUBLE!!" },
+        "text": { "en": "[1/Game]During this game, your <Raora Panthera> do not Rest during your Reset Phase." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=hmGTHbaJb/NwmnnnzHAZfJ9l0Hg7G6SbS1soqlZF72TQLCqVa5VJKaEt1GpZqlsaD6qp5aGspi6TqsuqSYvp0rQolCg|CYM=092519",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-002": {
     "card_number": "hBP06-002",
     "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
@@ -33202,6 +33282,30 @@
       }
     ]
   },
+  "hBP06-028": {
+    "card_number": "hBP06-028",
+    "name": { "jp": "姫森ルーナ", "en": "Himemori Luna" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Nnaaaaaai" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Baby" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-028",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-028_C.webp", "en": null },
+        "img_hash": "v2|H32=jqK5qo2rLaqvqymKj5JTlNtVWtRScVJdcmV2VXJcdGS0llRVVZVZIKpKruqppFWvVa+qsqoSqkqkadkmybTJKtsqRIs|CYM=0C1313",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-034": {
     "card_number": "hBP06-034",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
@@ -33344,6 +33448,49 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-046_R.webp", "en": null },
         "img_hash": "v2|H32=oqotq6OyTa+pqI20fOuZuEhXOFNIVJNVUkVTK3ZKdKKWCrRqXW3KpRKuVapa1WlVrUtK0avUqlSSViSa0pJaWqEmolo|CYM=233625",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-047": {
+    "card_number": "hBP06-047",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Cooking with the leftovers" },
+        "text": {
+          "en": "If your Oshi holomem is <Ichijou Ririka> and there are 2 or more <Struggle Meal> in your archive, draw 2 cards."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": null, "en": "There's nothing there. Help me." },
+        "power": "70",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "[Collab position only]Deal 50 damage to your opponent's collab holomem. If your opponent has no collab holomem, deal 50 damage to your opponent's center holomem instead."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Cooking" }, { "en": "#Language" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-047",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-047_R.webp", "en": null },
+        "img_hash": "v2|H32=aJspra2qW5qnqqWqQ5slrUrVKE3SVdluUkaSZVhKdKW0ClZrVLWkpktLYKilmmnZtSqrlmhapr7LWkGdtKJKVaoGqlI|CYM=072F2A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
