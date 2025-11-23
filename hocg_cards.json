@@ -19045,6 +19045,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10081",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-057",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-057_C.webp", "en": null },
+        "img_hash": "v2|H32=Emu5krS2DWmtqKRsb8toElLWW3GaJNKVGm2SBXLabG+0kFqWSbW0JZZWNEnUywarKC1Jly+VraSJUpda2TZbatYqqaY|CYM=012C22",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -25815,6 +25826,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10098",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-067",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-067_C.webp", "en": null },
+        "img_hash": "v2|H32=wpi1Ks2KtYot40nKrSVLZpI1Un1SU9I9dts0HXzCNMbMJrRSVbVSpbRqCqq90qVaUqnytarVSqqt2lZdtkqllmnbWms|CYM=031029",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -26519,6 +26541,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10119",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-079",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-079_C.webp", "en": null },
+        "img_hash": "v2|H32=yi0pq62rrayvqq2aw5BL00OVWld6UVKXWFLSRJiW9NC0TFZtVaWslKpSS6perUmqdcuk2qpaK2qtVUmaWq2ipWSLWSo|CYM=021125",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -33150,6 +33183,47 @@
       }
     ]
   },
+  "hBP06-020": {
+    "card_number": "hBP06-020",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Conductor of Will" },
+        "text": {
+          "en": "If this holomem is downed during your opponent's turn, you may archive the top 2 card of your deck. If you do, darw 1 card from your deck for each differently-named holomem with #FLOW GLOW on your stage."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Resonance Roar" },
+        "power": "150+",
+        "advantage": [ "red", 50 ],
+        "text": { "en": "Archive 1~3 cards from the top of your deck. This Arts gets +20 for each card archived." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-020",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-020_RR.webp", "en": null },
+        "img_hash": "v2|H32=lrpIRLaaxGpjyKV28Oi7MpinE7tIZg9ZSm2HmQNtULuLHrJqqVpJrUoVTZdSmWqRLUss2q3WttKVqiKtUtVSbZWqtqg|CYM=0D2118",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-021": {
     "card_number": "hBP06-021",
     "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
@@ -33337,6 +33411,48 @@
       }
     ]
   },
+  "hBP06-037": {
+    "card_number": "hBP06-037",
+    "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Visiting Date" },
+        "text": {
+          "en": "You may return 2 red cheers from your archive to the bottom of your cheer deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "I hope you stay healthy forever..." },
+        "power": "50",
+        "text": {
+          "en": "You may archive the top card of your cheer deck:Deal 30 damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-037",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-037_U.webp", "en": null },
+        "img_hash": "v2|H32=rKtOlq2qWbGL6pStsjGtbZbVLWhe1TlaUlBSwlJa1pylZtRKUrUsJXloaImVqtq0ZVsoW7ZKqpb10lrRtSa0bWmtkko|CYM=203D2A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-039": {
     "card_number": "hBP06-039",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
@@ -33491,6 +33607,47 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-047_R.webp", "en": null },
         "img_hash": "v2|H32=aJspra2qW5qnqqWqQ5slrUrVKE3SVdluUkaSZVhKdKW0ClZrVLWkpktLYKilmmnZtSqrlmhapr7LWkGdtKJKVaoGqlI|CYM=072F2A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-054": {
+    "card_number": "hBP06-054",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Deliver on your promises!!" },
+        "text": {
+          "en": "If this holomem has a <Yukimin> attached, deal 20 special damage to your opponent's center holomem and draw 1 card. If this holomem has 3 or more <Yukimin> attached, draw 2 cards instead."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "blue", "colorless" ],
+        "name": { "jp": null, "en": "A wholesome birthday and the future beyond" },
+        "power": "140+",
+        "advantage": [ "white", 50 ],
+        "text": { "en": "This Arts gets +10 for each <Yukimin> attached to this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-054",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-054_R.webp", "en": null },
+        "img_hash": "v2|H32=iqRra4moNKuvGJSq5tOrxEYzOsVuFZodVlmaVVZq8FI2JpYuV2VpNKWqKppSlWTZ5SpKfSpRsHJy0Va1KlWKoqk+Ing|CYM=1C220E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33722,6 +33879,49 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-078_C.webp", "en": null },
         "img_hash": "v2|H32=5KqnlOWqWKV7UVlb2tWpipYSnKoaFdJUWmVi5GaM5myuTJalVqWt0uh06Jq1im2bFgvqValLWmmlWmJp+aJyaappIr0|CYM=211D2A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-082": {
+    "card_number": "hBP06-082",
+    "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "The city that never sleeps" },
+        "text": {
+          "en": "[Collab position only]If your Oshi holomem is <Anya Melfissa>, your [center holomem and collab holomem] with an <Ancient Weapon> attached take -30 Arts damage."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "Strange Visitor" },
+        "power": "70",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "If you used your Oshi skill \"Mystical Ritual\" this turn, you may return 1~3 <Anya Melfissa> from your archive to hand."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Language" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-082",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-082_R.webp", "en": null },
+        "img_hash": "v2|H32=yq6k5qus3LKjWSpX0JstDpC2cC3GUHNFVlnbMDrD1NGLsrRqtXSKlW1qSbqWtku1atUq0ipLNKrStUqlak1y1UoptCg|CYM=423718",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34891,6 +35091,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10015",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD02-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD02-002_C.webp", "en": null },
+        "img_hash": "v2|H32=krI5o0+5rapt6kudrerKpEp1y2aUbVJZs560GVLTtDK04vjSJcnWJJZVPu1Sm6VLy7Qu1ctWpS5Zak1LWi5aSoq2kq4|CYM=043834",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
