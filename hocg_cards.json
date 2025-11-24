@@ -32972,6 +32972,44 @@
       }
     ]
   },
+  "hBP06-005": {
+    "card_number": "hBP06-005",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Personification of Chaos" },
+        "text": {
+          "en": "[1/Turn]If you have used your SP Oshi skill this game, roll a die once. Draw cards until your hand has as many cards as the number rolled."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲" },
+        "text": {
+          "en": "[1/Game]Roll a die once. Archive a number of cards from your hand equal to the number rolled."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-005",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-005_OSR.webp", "en": null },
+        "img_hash": "v2|H32=XCVpKkslErO6kzZb2JjmGsysw5ZmjkbFt1Y53TZSqaywmrSmqFKpSVCr6WqSqkkq2rKpaApUXa1KJdlSS9rg2lsnqlU|CYM=0C6064",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-006": {
     "card_number": "hBP06-006",
     "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
@@ -33137,6 +33175,37 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-015_C.webp", "en": null },
         "img_hash": "v2|H32=VqqvQZaqSlo6UxS5SlY0q7S2zbotybwly5pKSZskWvYja5ZWrYqtS2nRZclaJEuyFtvSLdGSUtqqNFKzNK1SJSWVUmk|CYM=202E0E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-017": {
+    "card_number": "hBP06-017",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "My dream is to have an arena live" }, "power": "40" },
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "This hololive is causing a typhoon" },
+        "power": "60"
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-017",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-017_C.webp", "en": null },
+        "img_hash": "v2|H32=LKtJms2yUnXSUrZVNkukkqXKbaultlotSyXa1WtNSalrmQbSsGoNL17R0qUr1fb6paXpWhYv6WBWCqUtXbpSpbakSlE|CYM=062216",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33685,6 +33754,49 @@
       }
     ]
   },
+  "hBP06-060": {
+    "card_number": "hBP06-060",
+    "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Bull's-eye!!!!" },
+        "power": "60",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If your Oshi holomem is <Mori Calliope>, you may archive the top 2 cards of your deck. If you do, send the top card of your cheer deck to your holomem."
+        }
+      },
+      {
+        "cheers": [ "colorless", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Memento Mori." },
+        "power": "200+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "During this turn, 1 of your holomem with #Myth gets Arts+20. Then, if your Oshi holomem is <Mori Calliope> and you have 8 or more holomem in your archive, you may draw 1 card."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-060",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-060_RR.webp", "en": null },
+        "img_hash": "v2|H32=LKupqqsrHErTMjBmnXq0pm3qVM/mlEJNUlWmpWpJuJmtmVYrVfSLBWrLoLItyfDasiZrWoolqrRW29C1pOuKWooucuk|CYM=0F2721",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-065": {
     "card_number": "hBP06-065",
     "name": { "jp": "ロボ子さん", "en": "Robocosan" },
@@ -33766,6 +33878,37 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-066_RR.webp", "en": null },
         "img_hash": "v2|H32=qKpjZa2qFldqU9S6bFWJmratidYSV0m3ElVtNdJZbL27mrZqelXpotVqKFVWq6irrVZ6ta0uCpelw9LSVqtaVi2rUiw|CYM=033631",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-067": {
+    "card_number": "hBP06-067",
+    "name": { "jp": "戌神ころね", "en": "Inugami Korone" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "hololive's Mad Dog" },
+        "text": { "en": "You may archive 1 holomem with #GAMERS from your hand:Draw 1 card." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Gimme your fingers!" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-067",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-067_C.webp", "en": null },
+        "img_hash": "v2|H32=qqpsKbmqTtRTUZZeVtWtCjanocqMFXNFVFVLVVRtW6nstLSqaFGqVZVqVttbSnpppVVSqSkVaommp1IlXpvSqha1trU|CYM=0E2F38",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
