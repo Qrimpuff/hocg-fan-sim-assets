@@ -33160,6 +33160,37 @@
       }
     ]
   },
+  "hBP06-009": {
+    "card_number": "hBP06-009",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "BIG PINK CAT" },
+        "text": { "en": "[Center position only]Your collab holomem takes -10 damage." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I see you!" }, "power": "30" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-009",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-009_C.webp", "en": null },
+        "img_hash": "v2|H32=qqnUVDRLybQ0WttqqZcWqYlWN6lMpqdKUuRtmZNcYbsPpahKp1pSLUsltNpVqir1bUqVpjaVqtW1ukq1qDQ02aWkdKk|CYM=093F26",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-012": {
     "card_number": "hBP06-012",
     "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
@@ -33485,6 +33516,46 @@
       }
     ]
   },
+  "hBP06-030": {
+    "card_number": "hBP06-030",
+    "name": { "jp": "姫森ルーナ", "en": "Himemori Luna" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Feelings of gratitude toward everyone" },
+        "text": {
+          "en": "[Collab position only]During your opponent's turn, when you would archive a <Luknight> attached to your center holomem, you may reattach it to your back <Himemori Luna> instead."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "I want to share them!" },
+        "power": "20",
+        "text": { "en": "You may attach 1 <Luknight> from your archive to your <Himemori Luna>." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Baby" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-030",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-030_R.webp", "en": null },
+        "img_hash": "v2|H32=zrkpa8+oPaOHqnWqk/aTXqh10lRSIWoVUqtwWXwPdFm8arRWpVJpUWplaqRdq1WyUpdq1bJKpqu2qUqtSiWCq7alEi0|CYM=181B16",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-034": {
     "card_number": "hBP06-034",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
@@ -33712,6 +33783,39 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-047_R.webp", "en": null },
         "img_hash": "v2|H32=aJspra2qW5qnqqWqQ5slrUrVKE3SVdluUkaSZVhKdKW0ClZrVLWkpktLYKilmmnZtSqrlmhapr7LWkGdtKJKVaoGqlI|CYM=072F2A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-048": {
+    "card_number": "hBP06-048",
+    "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Moon Pace" },
+        "power": "20",
+        "text": {
+          "en": "If a non-blue cheer is attached to this holomem, deal 10 special damage to 1 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-048",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-048_C.webp", "en": null },
+        "img_hash": "v2|H32=qKpYWaKqrLwSVyRVpYZRL2SWtapaZTtxWnVLdRpZTNGr2ZQqeNVKkpLwttalqrSVtUuixYJWqmU6aGKplLxyLU0btm0|CYM=695A05",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34147,6 +34251,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-091_U.webp", "en": null },
         "img_hash": "v2|H32=WqmpqtWrKS2rTVRVKlVqFUxSbJErndTcnApOvkW6VLJu8hJFQ/ksm/N7LZvqLi2L+Pipbuvg6WwKi4kPKg5gGyot4Js|CYM=05111F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-103": {
+    "card_number": "hBP06-103",
+    "name": { "jp": "まつりす", "en": "Matsurisu" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "If your [Oshi holomem or holomem with #Gen 1] rolled a die by an ability, you may archive this fan:Regard the result of one dice roll as 4.\n\nYou may only attach this fan to your <Natsuiro Matsuri>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-103",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-103_C.webp", "en": null },
+        "img_hash": "v2|H32=yparqsyW7LQmtVY1Ui1STVJJFlu2WrTStNKcqkmsSS1JLRbVg+/46PyAIXr8Oq2KP/iBjz74qYMK/Gn46kEofPpR6hc|CYM=0C182D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
