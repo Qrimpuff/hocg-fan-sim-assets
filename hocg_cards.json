@@ -10470,7 +10470,7 @@
         "img_last_modified": { "jp": "Fri, 17 Jan 2025 10:54:27 GMT" },
         "img_hash": "v2|H32=VqosQdLUrappUta4rWp7kUbsky6oMWJtm94kJUu7skVII6jSZalKLZRUpbqS6S1SypaSalFSLKerTbYtWi1WpSUl1iw|CYM=09131F",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10018",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664979,
         "delta_art_index": 1
       },
       {
@@ -11511,7 +11511,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:13 GMT" },
         "img_hash": "v2|H32=quWUSl27baatMgmb582LNtJKa6UmU1JaSqW0VctelCWtpNBWVpV8pa1aRqnJVi1bpyattrrZi3ZmSbGs27ZKS+laNqk|CYM=15251F",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10059",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664981,
         "delta_art_index": 0
       },
       {
@@ -11746,7 +11746,7 @@
         "img_last_modified": { "jp": "Thu, 06 Feb 2025 10:17:15 GMT" },
         "img_hash": "v2|H32=qqq5qjxyI62TyQs3Rs3nErbQ3YrKRFp1Fi8SdWpzcsWwSrrW2bFEajYINCuZS8nOYXfosKZWeq1ycyzJbqlUrV6lpKU|CYM=015D61",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10019",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664982,
         "delta_art_index": 1
       },
       {
@@ -11830,7 +11830,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:13 GMT" },
         "img_hash": "v2|H32=rKojs1rWbWmliRws6xKHjlq2uUjSc1pFsmY06fo0tNo2rZq2RlXrwm1aLPLTplwtlrYSKa21qELTrlrVslWUupRLUlI|CYM=016150",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10063",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664999,
         "delta_art_index": 1
       }
     ]
@@ -12702,7 +12702,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:13 GMT" },
         "img_hash": "v2|H32=pKoa28nqtSSzeNplSKylqkKXmLWeJmIl2mFIrep0YliytZRqa1XPpETmOtk5y0z5qlQKvZSd0MrWonLb6VJm001roDA|CYM=043714",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10064",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 665000,
         "delta_art_index": 1
       }
     ]
@@ -12992,7 +12992,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:14 GMT" },
         "img_hash": "v2|H32=ckppK61qFCu0isyWpK6rlEu1k2Vm3VJmo3MQPbw0lLWcmKxTNR7kRI7H26rXtGKrUstarUppAq1SLWqXTNKDVYIFWmo|CYM=0B3824",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10061",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664983,
         "delta_art_index": 0
       }
     ]
@@ -33587,6 +33587,41 @@
       }
     ]
   },
+  "hBP06-035": {
+    "card_number": "hBP06-035",
+    "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Kawayo" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 [tool, mascot, or fan] from your deck and attach it to your <Nakiri Ayame>. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "...I'm going back to sleep (:3_\\)_" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-035",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-035_U.webp", "en": null },
+        "img_hash": "v2|H32=6Kofycmqoa2WNKG11pZtsi7RWC7aUVJt0j3TWDIVdJsrZqwlUlWWlq1q0tIpSdWqYr1i25UKclh1qaKFqSpqaarHoEs|CYM=024451",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-037": {
     "card_number": "hBP06-037",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
@@ -34096,6 +34131,37 @@
       }
     ]
   },
+  "hBP06-072": {
+    "card_number": "hBP06-072",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Did you think you could win?" },
+        "text": { "en": "This holomem takes -30 Arts damage from your opponent's 1st holomem." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Disappointment" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-072",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-072_C.webp", "en": null },
+        "img_hash": "v2|H32=rrojrY2q6a6Jasnui6EqVFKVOkJSVVBDUkTUXDZGtNg0NtQFV5X9qqh6KkoqpWC1VakuW6pKqrWtqgYtSpqGmlqrli4|CYM=022529",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-073": {
     "card_number": "hBP06-073",
     "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
@@ -34251,6 +34317,51 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-091_U.webp", "en": null },
         "img_hash": "v2|H32=WqmpqtWrKS2rTVRVKlVqFUxSbJErndTcnApOvkW6VLJu8hJFQ/ksm/N7LZvqLi2L+Pipbuvg6WwKi4kPKg5gGyot4Js|CYM=05111F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-097": {
+    "card_number": "hBP06-097",
+    "name": { "jp": "カワイイスタジャン", "en": "Cute Varsity Jacket" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "◆Additional ability if attached to a Buzz holomem\n■The holomem this tool is attached to gets +30 HP.\n■During your opponent's Main Phase, the HP of the holomem this tool is attached to cannot be changed or reduced by your opponent's abilities.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#BuzzMerch" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-097",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-097_C.webp", "en": null },
+        "img_hash": "v2|H32=yK6pqtmqqaqr6pZRs1o2WzOaFJovqky9brhsFWpVSvVMZVbVE8mtqm7ArYuqwq2K6j6pqh4+qaoqPqmq+jjh6z74qvg|CYM=1B120A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-099": {
+    "card_number": "hBP06-099",
+    "name": { "jp": "ゆび", "en": "Fingers" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The holomem this tool is attached to gets Arts+10.\n\nWhen this tool is attached from hand to your <Inugami Korone>, you may return 1 <Inugami Korone> from your archive to hand.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-099",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-099_U.webp", "en": null },
+        "img_hash": "v2|H32=pKqtqqXrqEOrU3JVYlRSXNeu1KzXKlQ1mjUePRsdGo4arhbVQKAt6vHgqSqv/62q/jjpaA8PgaoK3uH4Oh7gAwoH4ME|CYM=1E181A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -35150,7 +35261,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:14 GMT" },
         "img_hash": "v2|H32=WlWTSrR1K7VLqlTbp6IrNdlKXIovtsQn2aoLlYuk1G4r7JJlzMxsmjMzbZPMHCebzNipbC3GmWwzZ41snRkvq2XSLps|CYM=060E10",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10008",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664997,
         "delta_art_index": 0
       },
       {
@@ -35210,7 +35321,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:15 GMT" },
         "img_hash": "v2|H32=rKqlqreqplXrVUlHW69SpVitWMyc1hxWHlIeUx7VnJ2kOdbFmMk5mGOXjLNzN2Eu3Ayh42f8IY5nJ6noxwdoeo83YDI|CYM=271711",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10009",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664998,
         "delta_art_index": 0
       },
       {
@@ -35621,7 +35732,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:15 GMT" },
         "img_hash": "v2|H32=Crutqq2ym7PnqDm1lNtnrjvlxkp6dpIZ0kVoVZYFsMW+XKwllVbWbmulSpm2pZXSadpryaxMqknTaqktIrVSt9ZK0lo|CYM=102F26",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10010",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664984,
         "delta_art_index": 0
       }
     ]
@@ -36273,7 +36384,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:15 GMT" },
         "img_hash": "v2|H32=aqqc6mmqk1qLI7NYnKdj9txRCrVyWRi1Zlm6pVJbZCWelrRGkVRWs1Srqo2llVZbWkuSyK1KKKopVSpV1q1KlVUqUqg|CYM=22270C",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10011",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664985,
         "delta_art_index": 0
       }
     ]
@@ -36893,7 +37004,7 @@
         "img_last_modified": { "jp": "Wed, 22 Jan 2025 03:35:15 GMT" },
         "img_hash": "v2|H32=6qiUbC8rTeKdOmTSMqnLTFDyriRqUZOkTlO7MUyWMGnOlrQqhHZkVlmpRqmt1KlVlqpJpWpb0ipWpWoliquqFaValrY|CYM=15331C",
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hsd10/10012",
-        "tcgplayer_product_id": null,
+        "tcgplayer_product_id": 664996,
         "delta_art_index": 0
       }
     ]
@@ -40842,6 +40953,9 @@
     "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -41032,6 +41146,9 @@
     "name": { "jp": "緑エール", "en": "Green Cheer" },
     "card_type": "cheer",
     "colors": [ "green" ],
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -41270,6 +41387,9 @@
     "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -41508,6 +41628,9 @@
     "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -41674,6 +41797,9 @@
     "name": { "jp": "紫エール", "en": "Purple Cheer" },
     "card_type": "cheer",
     "colors": [ "purple" ],
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -41862,6 +41988,9 @@
     "name": { "jp": "黄エール", "en": "Yellow Cheer" },
     "card_type": "cheer",
     "colors": [ "yellow" ],
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
