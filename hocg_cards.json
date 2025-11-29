@@ -5732,6 +5732,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd06/10013",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP01-048",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-048_C.webp", "en": null },
+        "img_hash": "v2|H32=hrO9qo+iLaotoiku72PTDGZl0p1SXVpVUhVwRbI09mS0GPTXVZVSKbJor6pLlU3WnUppa6qpq66pFk2LVaWCqq1SqVI|CYM=0E0B1B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -16187,6 +16198,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10067",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-009",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-009_C.webp", "en": null },
+        "img_hash": "v2|H32=UkTmTHfOZJqtqm2qmDSbZYhhk3EJuyqRqbNKF6OyUizjTrRWlkpopUCl3ZJ6ZQ2tlt4JqWkFH6YoWMl6pdZtK3Dxlao|CYM=04160D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -19308,6 +19330,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10090",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-061",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-061_C.webp", "en": null },
+        "img_hash": "v2|H32=yvGxLKehTZq9o2mLz5aoZcpUUkVSUVLXVlr0VLRstFS0LF7VXZT0QKIptqgpVUm2lEqhSkq6EipqNUmlpk6pvtBqhmo|CYM=011430",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -24397,6 +24430,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10116",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-043",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-043_C.webp", "en": null },
+        "img_hash": "v2|H32=qCa0mk2jrZ5uqymrpxZaTqO1UkTS3TI10kyyXT5xlJQtSEhLVZp4kaXWlqpWTba0Wq00S4u2C7SqZUvNpVKpdEsdiVo|CYM=1F1709",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -33367,7 +33411,7 @@
         "type": "gift",
         "name": { "jp": null, "en": "Conductor of Will" },
         "text": {
-          "en": "If this holomem is downed during your opponent's turn, you may archive the top 2 card of your deck. If you do, darw 1 card from your deck for each differently-named holomem with #FLOW GLOW on your stage."
+          "en": "If this holomem is downed during your opponent's turn, you may archive the top 2 cards of your deck. If you do, draw 1 card from your deck for each differently-named holomem with #FLOW GLOW on your stage."
         }
       }
     ],
@@ -33873,6 +33917,49 @@
       }
     ]
   },
+  "hBP06-045": {
+    "card_number": "hBP06-045",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Chaos Reloaded" },
+        "power": "70+",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "Return 1~5 hoplomem from your archive to the bottom of your deck in any order. This Arts gets +10 for each holomem returned."
+        }
+      },
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "💥¡¡SSՈHƆS⅂ƎԀԀOᗡ💥" },
+        "power": "100",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "If you have used your SP Oshi Skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\" this game, deal 100 special damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-045",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-045_RR.webp", "en": null },
+        "img_hash": "v2|H32=srYrTbWqvLUrKy2pKjHHTmJR41ZWM9sW2DfSLNpQ0uyz0LRqE2WpVVpQXaQemoeW61Zqtb0+iqr0a0tbtpWmy6SpkvU|CYM=063A33",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-046": {
     "card_number": "hBP06-046",
     "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
@@ -34025,6 +34112,92 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-054_R.webp", "en": null },
         "img_hash": "v2|H32=iqRra4moNKuvGJSq5tOrxEYzOsVuFZodVlmaVVZq8FI2JpYuV2VpNKWqKppSlWTZ5SpKfSpRsHJy0Va1KlWKoqk+Ing|CYM=1C220E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-055": {
+    "card_number": "hBP06-055",
+    "name": { "jp": "沙花叉クロヱ", "en": "Sakamata Chloe" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Bow wow!!!" },
+        "text": {
+          "en": "If your Oshi holomem is <Murasaki Shion>, send 3 cheers from your opponent's archive to your opponent's center holomem. Then, you may send 1 cheer from your archive to your <Murasaki Shion>."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "purple" ],
+        "name": { "jp": null, "en": "The magic we spun together" },
+        "power": "100+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "Reveal the top 4 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards. If there is an event among them, draw 2 cards."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-055",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-055_R.webp", "en": null },
+        "img_hash": "v2|H32=yqqtq+06tK6zSKhfj6lJk86VULKWLbJWVk2zbWpZUqHrktZrVrVqtaTa9Komyw2Waqmq1qhqovXWVQRbWrai0qoesng|CYM=133414",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-056": {
+    "card_number": "hBP06-056",
+    "name": { "jp": "沙花叉クロヱ", "en": "Sakamata Chloe" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Gal going to school" },
+        "text": {
+          "en": "If you have used your SP Oshi Skill \"Life Reset Button\" this game, this holomem's Arts \"Spend your youth with Sakamata?\" has its cost reduced by 1 colorless cheer."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "blue", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Spend your youth with Sakamata?" },
+        "power": "120+",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "Reveal the top 6 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-056",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-056_R.webp", "en": null },
+        "img_hash": "v2|H32=pKqGY62qr+1rWJvNelnZKpLT2TqWUXuUXlVqldoldLaXLLRqenWsrqHqSq/VqqrUKlVq1ZaeauFWnlK1ClVSqS2rklI|CYM=0C3627",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34307,7 +34480,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Will you stay with me...?" },
         "text": {
-          "en": "If you are going second, this is your first turn, and your Oshi holomem is <Natsuiro Matsuri>, reveal 1 Limited supprt card from your deck and add it to hand. Then, shuffle the deck."
+          "en": "If you are going second, this is your first turn, and your Oshi holomem is <Natsuiro Matsuri>, reveal 1 Limited support card from your deck and add it to hand. Then, shuffle the deck."
         }
       }
     ],
