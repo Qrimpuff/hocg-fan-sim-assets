@@ -33463,6 +33463,39 @@
       }
     ]
   },
+  "hBP06-023": {
+    "card_number": "hBP06-023",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Hop Step Jump!" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 Buzz <Kazama Iroha> from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "GOZAGOZA536" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-023",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-023_U.webp", "en": null },
+        "img_hash": "v2|H32=rKqxMq2qLc1LUymPS3I5qrJ2ULK2VXpVVs1uVNbs9KS/bNQlVVUpZKrrCpq1qFTSaR3q+epLasmiWlarFodiqa22Qi0|CYM=1F0C16",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-024": {
     "card_number": "hBP06-024",
     "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
@@ -34334,6 +34367,46 @@
       }
     ]
   },
+  "hBP06-080": {
+    "card_number": "hBP06-080",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Let's Hold Hands" },
+        "text": {
+          "en": "Reveal 1 [<Subarudo Duck> or <Subatomo>] from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow" ],
+        "name": { "jp": null, "en": "I can go anywhere" },
+        "power": "60+",
+        "text": { "en": "This Arts gets +20 for every <Subatomo> attached to this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-080",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-080_R.webp", "en": null },
+        "img_hash": "v2|H32=zqQtmo2obcqLK1DKy/Map/LWGHcyUdJUcl1WKXIO1K0sglZlVWWcpKK6KKtqWWXbtbqydqpar9ryqVJapaqp0qJlsnQ|CYM=121121",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-082": {
     "card_number": "hBP06-082",
     "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
@@ -34423,6 +34496,26 @@
       }
     ]
   },
+  "hBP06-092": {
+    "card_number": "hBP06-092",
+    "name": { "jp": "マヨネーズちゅっちゅっ", "en": "Mayonnaise sip sip" },
+    "card_type": { "support": "event" },
+    "text": { "en": "During this turn, 1 of your <Hakui Koyori> gets Arts+30." },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-092",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-092_C.webp", "en": null },
+        "img_hash": "v2|H32=UlWrCpSWtJSvunSRqZpqWWt7WnWLpt60r65MqUuLfCsaa1ZVsdhtqgOurarxo63qfSitil2wqarCx6m6Ohyry9rxigc|CYM=021714",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-097": {
     "card_number": "hBP06-097",
     "name": { "jp": "カワイイスタジャン", "en": "Cute Varsity Jacket" },
@@ -34440,6 +34533,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-097_C.webp", "en": null },
         "img_hash": "v2|H32=yK6pqtmqqaqr6pZRs1o2WzOaFJovqky9brhsFWpVSvVMZVbVE8mtqm7ArYuqwq2K6j6pqh4+qaoqPqmq+jjh6z74qvg|CYM=1B120A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-098": {
+    "card_number": "hBP06-098",
+    "name": { "jp": "鬼神刀「阿修羅」", "en": "Demonic Sword \"Asura\"" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to <Nakiri Ayame>\nWhen the holomem this tool is attached to collabs, if your Life is at 1 and your opponent has no collab holomem, your opponent chooses 1 of their back holomem and moves it to the collab position (this is not regarded as Collabing).\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-098",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-098_U.webp", "en": null },
+        "img_hash": "v2|H32=TK6tqsyqiBmLWJJRmlmUaTRtZOVup2L1anZ2VrVStFK0mjbZB+gNjuAgoSp4eOl44Aep+nrAoTrgB+HrCvfg8T5V4EE|CYM=2D3511",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
