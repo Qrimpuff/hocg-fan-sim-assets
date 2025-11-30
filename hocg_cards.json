@@ -33017,6 +33017,44 @@
       }
     ]
   },
+  "hBP06-003": {
+    "card_number": "hBP06-003",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "When in doubt, just do it!" },
+        "text": {
+          "en": "[1/Turn]Send the top card of your cheer deck to your [Buzz holomem or Kazama Iroha which has bloomed from a Buzz holomem]."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Ultimate Stronk Gozaru" },
+        "text": {
+          "en": "[1/Game]During this turn, all of your <Kazama Iroha> get Arts+10 for every cheer on your stage. Then, if there is a Buzz holomem on your stage, draw 3 cards."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-003",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-003_OSR.webp", "en": null },
+        "img_hash": "v2|H32=VMvMklvFmFkjZZppI+W7NJTJu5a0WnnVslpZjaZSWaVmKpSqqFYqzaqqrbRUW0rpqtVRq4pU4q1qVUrVUVVa1ZKqqlU|CYM=17203D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-004": {
     "card_number": "hBP06-004",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
@@ -33700,6 +33738,46 @@
       }
     ]
   },
+  "hBP06-033": {
+    "card_number": "hBP06-033",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Wet feather-colored cracks" },
+        "text": {
+          "en": "If you have used an event with #Mushroom this turn, draw 2 cards. You may only use Bloom Effect \"Wet feather-colored cracks\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green" ],
+        "name": { "jp": null, "en": "Mushroom (Kusabira)" },
+        "power": "40",
+        "text": { "en": "You may send 1 cheer from your archive to your holomem with #ReGLOSS." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-033",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-033_R.webp", "en": null },
+        "img_hash": "v2|H32=pKpLVqfqpLVLRRi1IaWdqnhWvOpKUctSUi3nJVIkcqW0dpYoNlSpaqJd6ZNZqXK1aW1y1ata6lG1WlIp1aJWqVK1Uvk|CYM=261F2C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-034": {
     "card_number": "hBP06-034",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
@@ -34171,7 +34249,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Gal going to school" },
+        "name": { "jp": null, "en": "Going to school with Gyarumata" },
         "text": {
           "en": "If you have used your SP Oshi Skill \"Life Reset Button\" this game, this holomem's Arts \"Spend your youth with Sakamata?\" has its cost reduced by 1 colorless cheer."
         }
@@ -34390,6 +34468,47 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-067_C.webp", "en": null },
         "img_hash": "v2|H32=qqpsKbmqTtRTUZZeVtWtCjanocqMFXNFVFVLVVRtW6nstLSqaFGqVZVqVttbSnpppVVSqSkVaommp1IlXpvSqha1trU|CYM=0E2F38",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-070": {
+    "card_number": "hBP06-070",
+    "name": { "jp": "戌神ころね", "en": "Inugami Korone" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Wan-der Viking" },
+        "text": {
+          "en": "[Center position only][1/Turn]You may return 1 <Fingers> from your stage to the bottom of your deck:During this turn, this holomem's Arts cheer cost is reduced by 2 colorless cheer."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Wow Wow Axe of the End" },
+        "power": "170+",
+        "advantage": [ "green", 50 ],
+        "text": { "en": "If you have used your Oshi Skill \"Infinite strength\" this turn, this Arts gets +40." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-070",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-070_RR.webp", "en": null },
+        "img_hash": "v2|H32=qqraWrWqlIK28KWwZMYpKmpSSy9aG0vFUmXOjasVdkypEpZKUrTYpC5daJVt20q5qUqq1skHoIqlpSRZpZpCq+2qpkU|CYM=0B2C2C",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
