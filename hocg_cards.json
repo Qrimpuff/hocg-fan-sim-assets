@@ -28331,9 +28331,9 @@
       {
         "card_number": "hBP05-009",
         "manage_id": { },
-        "rarity": "C",
+        "rarity": "P",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP05-009_C.webp", "en": null },
+        "img_path": { "jp": "unreleased/hBP05-009_P.webp", "en": null },
         "img_hash": "v2|H32=LFeaGqT2HCXkqgWtLrvtUCvedFOL5laV1m5LteI6SkWrMqhtWrXtslol0tqU0pS20FRpqmXRranWSpVqqbStlzZpqlI|CYM=002835",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -30040,9 +30040,9 @@
       {
         "card_number": "hBP05-036",
         "manage_id": { },
-        "rarity": "C",
+        "rarity": "P",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP05-036_C.webp", "en": null },
+        "img_path": { "jp": "unreleased/hBP05-036_P.webp", "en": null },
         "img_hash": "v2|H32=hquyymzqparoSk2prJd6kVq1olVa1FpVLEVa1S8dVtOvOCZXF05ZU7ZtkqzSkmqpWipryyrVKlmsaUUtraSWpKq1klI|CYM=2E2108",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -32024,9 +32024,9 @@
       {
         "card_number": "hBP05-068",
         "manage_id": { },
-        "rarity": "C",
+        "rarity": "P",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP05-068_C.webp", "en": null },
+        "img_path": { "jp": "unreleased/hBP05-068_P.webp", "en": null },
         "img_hash": "v2|H32=lKqVUpeatyfTljum06rRqtaS2ap71HqW6sU7irOKmYqn2pRkaVUrCym6T6tpUF2bawNrqy2LqX2NKi4tqaS1pSWpKuk|CYM=2A170E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -33366,6 +33366,39 @@
       }
     ]
   },
+  "hBP06-016": {
+    "card_number": "hBP06-016",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Let's fight together" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 [holomem with a Collab Effect and #FLOW GLOW] from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Otsu-Rionaaaaa!" }, "power": "20" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-016",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-016_U.webp", "en": null },
+        "img_hash": "v2|H32=Yi2U0mOllnKSkkstmJLPqdyW7ZROSmu1ZGZL2XbmOUuHS6wqq2VaVVarVtut2qhayg+tqVLVbdvKpVLbrdVSpZUqqTQ|CYM=181907",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-017": {
     "card_number": "hBP06-017",
     "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
@@ -34155,6 +34188,42 @@
       }
     ]
   },
+  "hBP06-050": {
+    "card_number": "hBP06-050",
+    "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "2 Sides of The Moon" },
+        "power": "20",
+        "text": { "en": "Deal 10 special damage to 1 of your opponent's back holomem." }
+      },
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Lunar Duality" },
+        "power": "80"
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-050",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-050_C.webp", "en": null },
+        "img_hash": "v2|H32=iqqtrsuqtGr0QVNSlKtrspO1ObUuVdJFMklWQ1ILVqt0s66bJ9XaJqra0tK0KmXrW6tKNKoFKh3plqQs1CpwdZKl8rg|CYM=0C4038",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-054": {
     "card_number": "hBP06-054",
     "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
@@ -34393,7 +34462,7 @@
         "rarity": "R",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-065_R.webp", "en": null },
-        "img_hash": "v2|H32=KKrKGaeqpZrm1iXCdjIrrVox2q3aVdJR1MZ2RSQjRCUtq6RKVKroMg9VRbql0Va1NlwvTelUlqRei1WbpYq06BUrVqs|CYM=032623",
+        "img_hash": "v2|H32=KKrLGaWqpdrm1iXCVjMprVoxm6zaVdJS1NZ2RSUrRCUtq6xKUKroIg9VZdqlwVa1qlwqTalUlqRai1CZpYKyPEoPUok|CYM=032D28",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34736,6 +34805,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-082_R.webp", "en": null },
         "img_hash": "v2|H32=yq6k5qus3LKjWSpX0JstDpC2cC3GUHNFVlnbMDrD1NGLsrRqtXSKlW1qSbqWtku1atUq0ipLNKrStUqlak1y1UoptCg|CYM=423718",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-085": {
+    "card_number": "hBP06-085",
+    "name": { "jp": "フェイバリットパソコン", "en": "Favorite PC" },
+    "card_type": { "support": "item" },
+    "limited": true,
+    "text": {
+      "en": "Reveal 1 [Debut holomem and Buzz holomem] with the same name and 1 support card with #BuzzMerch from your deck, and add the revealed cards to hand. Then, shuffle the deck."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-085",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-085_U.webp", "en": null },
+        "img_hash": "v2|H32=SKrJqtSiSKeLMtRVq1QrXLZaNkkj6TTpNqkmrSdMVFwqXZJFEc0smnMYLZqK6y2LavipaI/HqS4KDukuujgkm6+K4JM|CYM=032C2E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
