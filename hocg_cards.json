@@ -33995,6 +33995,39 @@
       }
     ]
   },
+  "hBP06-041": {
+    "card_number": "hBP06-041",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "GYM RAT" },
+        "text": {
+          "en": "If you are going second and this is your first turn, draw 3 cards, then archive 2 cards from your hand."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Brat Wellness" }, "power": "30" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-041",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-041_U.webp", "en": null },
+        "img_hash": "v2|H32=qKW1aq8nQpP2WkObtFjpmKSp2CRqidhmWpuaRdrGssma0a4kVKVWL65aUpeAtalabSup1aXaDapStdJSXkvySKlWlao|CYM=1D3723",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-043": {
     "card_number": "hBP06-043",
     "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
@@ -34382,6 +34415,45 @@
       }
     ]
   },
+  "hBP06-059": {
+    "card_number": "hBP06-059",
+    "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Sleepover Party!" },
+        "text": {
+          "en": "If you have 3 or more holomem with #EN on your stage, reveal 1 [blue cheer or purple cheer] from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Sleepy time" },
+        "power": "80"
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-059",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-059_R.webp", "en": null },
+        "img_hash": "v2|H32=LvuTqo1iLeqDqGhchqGprEq3NKVLU1JVbk1SVXItchUtipJlV/WpNKqlpsqp1FSp1KYpq6oqqtrpUmWL0lqpKNJKpNI|CYM=202611",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-060": {
     "card_number": "hBP06-060",
     "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
@@ -34419,6 +34491,39 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-060_RR.webp", "en": null },
         "img_hash": "v2|H32=LKupqqsrHErTMjBmnXq0pm3qVM/mlEJNUlWmpWpJuJmtmVYrVfSLBWrLoLItyfDasiZrWoolqrRW29C1pOuKWooucuk|CYM=0F2721",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-061": {
+    "card_number": "hBP06-061",
+    "name": { "jp": "ロボ子さん", "en": "Robocosan" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "A sweet moment with me" },
+        "power": "20",
+        "text": {
+          "en": "If a <Roboser> is attached to this holomem, deal 20 special damage to your opponent's center holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-061",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-061_C.webp", "en": null },
+        "img_hash": "v2|H32=qq0zWibtlKppWlSqrVK5pRayqlVatTbN0kpI1VKorFRLjNpqSVrpsrWmpNGVqkt1Sa4prWpNpi1yXRatplnWsipJ0pY|CYM=033B3D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -35005,6 +35110,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-103_C.webp", "en": null },
         "img_hash": "v2|H32=yparqsyW7LQmtVY1Ui1STVJJFlu2WrTStNKcqkmsSS1JLRbVg+/46PyAIXr8Oq2KP/iBjz74qYMK/Gn46kEofPpR6hc|CYM=0C182D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-104": {
+    "card_number": "hBP06-104",
+    "name": { "jp": "スバ友", "en": "Subatomo" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "During your opponent's turn, if the holomem this fan is attached to is downed, send the top card of your cheer deck to your <Oozora Subaru>.\n\nYou may only attach this fan to your <Oozora Subaru>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-104",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-104_C.webp", "en": null },
+        "img_hash": "v2|H32=YOerqtSliDmLuNJZIkJyxyXGbKaNuNw5ijhydDNmMkY2yhLVRaotOrEorYuPg+k48Hiti4+HqarweOn4iseqR3oV6nU|CYM=0E0C15",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
