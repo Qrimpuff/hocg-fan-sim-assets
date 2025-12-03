@@ -34061,6 +34061,40 @@
       }
     ]
   },
+  "hBP06-044": {
+    "card_number": "hBP06-044",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": null, "en": "Wheel of Fortune" },
+        "power": "30+",
+        "text": {
+          "en": "If you have used your SP Oshi Skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\" this game, roll a die once. This Arts gets +10x the number rolled."
+        }
+      },
+      { "cheers": [ "red", "red" ], "name": { "jp": null, "en": "Ariga-chu!" }, "power": "70" }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-044",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-044_R.webp", "en": null },
+        "img_hash": "v2|H32=Kqu5a6uqjLTm1Om0JNVt6jwjSEpcK9pS1jQ6TbZ0du0c7a5NWcVaVSpqVpKl0nBaeklKLwI60qWaplJbr5XWimmtVqk|CYM=264C48",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-045": {
     "card_number": "hBP06-045",
     "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
@@ -34610,7 +34644,7 @@
         "rarity": "RR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-066_RR.webp", "en": null },
-        "img_hash": "v2|H32=qKpjZa2qFldqU9S6bFWJmratidYSV0m3ElVtNdJZbL27mrZqelXpotVqKFVWq6irrVZ6ta0uCpelw9LSVqtaVi2rUiw|CYM=033631",
+        "img_hash": "v2|H32=mKorbamqVNcqU9S6bcGNuratidYWZUu3ElVtM5LYbK272pRqelXpptVKaVVWq6mqrVZataUqCpcl27J6VulaVimrkqU|CYM=034039",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34794,6 +34828,39 @@
       }
     ]
   },
+  "hBP06-074": {
+    "card_number": "hBP06-074",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Tenshi Kaiwai" },
+        "text": {
+          "en": "During this turn, your center holomem gets Arts+10 for each support card you used this turn. However, only up to 3 cards are counted."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "yellow" ], "name": { "jp": null, "en": "CURE PALE" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-074",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-074_C.webp", "en": null },
+        "img_hash": "v2|H32=1qOtro2qLaqvuWmqqzlT1UpVUlXSVXBV0hQ2XfRmtEE0StQVVTVqoSqqj6qiUS3VVbdqq6paklrWCpaXrpKpr6ouBSo|CYM=0E0A17",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-078": {
     "card_number": "hBP06-078",
     "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
@@ -34956,6 +35023,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-087_U.webp", "en": null },
         "img_hash": "v2|H32=tLqlirS6RLVLtVo1azVydSN2paqlKpWqpSq1CrFKeVp8W1bV0IMtascDrcqPxqkKH3ypCg/24Xo6fOF94HggWXB4cnQ|CYM=071510",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-088": {
+    "card_number": "hBP06-088",
+    "name": { "jp": "ドッキリうさぎ", "en": "Prank Rabbit" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "This card can only be used if your holomem was downed during your opponent's previous turn and you have less Life than your opponent.\n\nChoose your opponent's center holomem or collab holomem. Rest the chosen holomem and move it to the back position. The chosen holomem does not unrest during your opponent's next reset step."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-088",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-088_C.webp", "en": null },
+        "img_hash": "v2|H32=aptrqlbVsNWx1JRUmsZLz0urSKsrq5Q1nCmOPcdcxkhnqhJNRYEounD4bLqeBi2L4PiJLooP6eAOweloajzgk2p8avE|CYM=0B2931",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
