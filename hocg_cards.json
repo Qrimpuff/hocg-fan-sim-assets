@@ -30207,7 +30207,7 @@
         "power": "70+",
         "text": {
           "jp": "このアーツの対象が相手の1st以上のコラボホロメンなら、このアーツ+70。",
-          "en": "If the target of this Arts is a 1st or greater collab holomem, this Arts gets +70."
+          "en": "If the target of this Arts is your opponent's 1st or greater collab holomem, this Arts gets +70."
         }
       }
     ],
@@ -33621,7 +33621,7 @@
     "arts": [
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "Magical☆Gozaru's Energizing Magic" },
+        "name": { "jp": null, "en": "Magical☆Gozaru's Uplifting Spell" },
         "power": "80"
       }
     ],
@@ -33635,6 +33635,41 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-024_C.webp", "en": null },
         "img_hash": "v2|H32=RqsJ1qW6raOpUq22q9E4S5aUUokSV9isclV0JdpE9lFULFxWW5VoKbbahrLVsk1aJEmqLKZpsmm1DnS1sqaSlGpa8LA|CYM=181126",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-025": {
+    "card_number": "hBP06-025",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "A Chill Anniversary" },
+        "text": {
+          "en": "[Center position or collab position only]Your holomem with #holoX other than this holomem get Arts+20."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless", "colorless" ], "name": { "jp": null, "en": "Tsuntsuntsun..." }, "power": "50" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-025",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-025_U.webp", "en": null },
+        "img_hash": "v2|H32=rKqjqs+qraqPMim6g6kbXUtVUk9KVdJVVkXyRbZM9um0RFYllbT5Aqppispp6VW5VVsq26paKgvpk3CpSaqWysqmsFg|CYM=0D0B1E",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34255,6 +34290,39 @@
       }
     ]
   },
+  "hBP06-049": {
+    "card_number": "hBP06-049",
+    "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Blue Amber" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 blue cheer from your cheer deck and send it to your <Moona Hoshinova>. Then, shuffle the cheer deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Dance of Stars" }, "power": "20" } ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-049",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-049_U.webp", "en": null },
+        "img_hash": "v2|H32=yqmlqrTrTLSjR7RSaDa1jkZyYK1epHJHlsXLVRpbnFnIG5IpLbWslelqtNpWqlurltRS2kpfyrQul2itqF2kUbBWsEo|CYM=39290F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-050": {
     "card_number": "hBP06-050",
     "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
@@ -34861,6 +34929,50 @@
       }
     ]
   },
+  "hBP06-076": {
+    "card_number": "hBP06-076",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Let's go performing!" },
+        "text": {
+          "en": "Reveal 1 [<Ebifrion> or <Matsurisu>] from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "Fall in love with Matsuri-chan ♥" },
+        "power": "50+",
+        "text": {
+          "en": "If the target of this Arts is your opponent's 2nd holomem, and you have used a Limited event this turn, this Arts gets +70."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get Life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-076",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-076_R.webp", "en": null },
+        "img_hash": "v2|H32=nqqNqqWqLcsrUqjVYlOTpHTZ0q1UmXIVSNVyVGhWcFY7SpZLUWlpWWtRTapgkYqWqpbqtbKmoK5aLZSltq7y1aZStko|CYM=121B28",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-078": {
     "card_number": "hBP06-078",
     "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
@@ -35045,6 +35157,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-088_C.webp", "en": null },
         "img_hash": "v2|H32=aptrqlbVsNWx1JRUmsZLz0urSKsrq5Q1nCmOPcdcxkhnqhJNRYEounD4bLqeBi2L4PiJLooP6eAOweloajzgk2p8avE|CYM=0B2931",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-089": {
+    "card_number": "hBP06-089",
+    "name": { "jp": "ドローイングストリーム", "en": "Drawing Stream" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "Reveal 1 cheer from your cheer deck and send it to your holomem with #Painting. Then, shuffle the cheer deck. Then, return 1 holomem with #Painting from your archive to hand."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-089",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-089_C.webp", "en": null },
+        "img_hash": "v2|H32=uK2prJSsRqNLKlRjTmpLLY0sLp0rm1TSVlJKUpdalCymrRJNyCJsiqfrLZqxKKW7D4+pLvDgiy5q+On4ygdq0XodYlE|CYM=041F18",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
