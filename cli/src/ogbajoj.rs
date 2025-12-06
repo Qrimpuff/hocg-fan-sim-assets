@@ -1,6 +1,5 @@
 use std::{collections::HashMap, error::Error, fs, ops::Not, path::Path, sync::Arc};
 
-use csv::ReaderBuilder;
 use hocg_fan_sim_assets_model::{
     Art, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra, Keyword,
     KeywordEffect, Language, Localized, OshiSkill, QnaDatabase, SupportType, Tag,
@@ -902,8 +901,6 @@ fn is_skip_image_hash(img_hash: &str) -> bool {
 pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
     println!("Retrieve all Q&As info from @ogbajoj's sheet");
 
-    let api_key = std::env::var("GOOGLE_SHEETS_API_KEY").expect("GOOGLE_SHEETS_API_KEY not set");
-
     let spreadsheet = retrieve_spreadsheet();
 
     let sheets_gid = spreadsheet
@@ -916,54 +913,66 @@ pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
 
     let mut updated_count = 0;
 
-    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/export");
+    // Precompute selectors
+    let table_sel = Selector::parse("table").unwrap();
+    let tr_sel = Selector::parse("tr").unwrap();
+    let td_sel = Selector::parse("td").unwrap();
+
+    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
     for gid in sheets_gid {
         let resp = http_client()
             .get(&url)
             .query(&[
-                ("id", SPREADSHEET_ID),
                 ("gid", gid.to_string().as_str()),
-                ("format", "csv"),
-                ("key", api_key.as_str()), // probably doesn't do anything
+                ("widget", "false"),
+                ("single", "true"),
             ])
+            .header("Sec-Fetch-Dest", "document")
+            .header("Sec-Fetch-Mode", "navigate")
+            .header("Sec-Fetch-Site", "none")
+            .header("Sec-Fetch-User", "?1")
             .send()
             .unwrap();
-        let content = resp.text().unwrap();
-        // fs::write(format!("sheet_{gid}.csv"), &content).unwrap();
+        let html = resp.text().unwrap();
+        // fs::write(format!("sheet_{gid}.html"), &html).unwrap();
 
-        let mut rdr = ReaderBuilder::new()
-            .has_headers(false)
-            .from_reader(content.as_bytes());
-        for (question, answer) in rdr
-            .records()
-            .flatten()
-            .filter(|r| !r.is_empty())
-            .tuple_windows()
-        {
-            if !question[0].starts_with('Q') || !answer[0].starts_with('A') {
-                continue;
+        let document = Html::parse_document(&html);
+        if let Some(table) = document.select(&table_sel).next() {
+            let rows_text: Vec<String> = table
+                .select(&tr_sel)
+                .map(|tr| {
+                    let tds = tr.select(&td_sel).collect_vec();
+                    extract_cell_text(&tds, Some(0))
+                })
+                .filter(|s| !s.is_empty())
+                .collect();
+
+            for (question, answer) in rows_text.iter().tuple_windows() {
+                if !question.starts_with('Q') || !answer.starts_with('A') {
+                    continue;
+                }
+
+                let Some((number, question)) = question.split_once('-') else {
+                    eprintln!("Invalid question format: {}", question);
+                    continue;
+                };
+                let Some((_, answer)) = answer.split_once('-') else {
+                    eprintln!("Invalid answer format: {}", answer);
+                    continue;
+                };
+
+                let number = number.trim().to_string();
+                let question = question.trim().to_string();
+                let answer = answer.trim().to_string();
+
+                let Some(qna) = all_qnas.get_mut(&number.into()) else {
+                    // println!("Q&A {} not found", number);
+                    continue;
+                };
+                qna.question.english = Some(question);
+                qna.answer.english = Some(answer);
+                updated_count += 1;
             }
-
-            let Some((number, question)) = question[0].split_once('-') else {
-                eprintln!("Invalid question format: {}", &question[0]);
-                continue;
-            };
-            let Some((_, answer)) = answer[0].split_once('-') else {
-                eprintln!("Invalid answer format: {}", &answer[0]);
-                continue;
-            };
-
-            let number = number.trim().to_string();
-            let question = question.trim().to_string();
-            let answer = answer.trim().to_string();
-
-            let Some(qna) = all_qnas.get_mut(&number.into()) else {
-                // println!("Q&A {} not found", number);
-                continue;
-            };
-            qna.question.english = Some(question);
-            qna.answer.english = Some(answer);
-            updated_count += 1;
         }
     }
 
