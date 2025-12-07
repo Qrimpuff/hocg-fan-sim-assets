@@ -38883,7 +38883,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "ダンスでこの世界に彩を！", "en": "Add color to the world with dance!" },
+        "name": { "jp": "ダンスでこの世界に彩を！", "en": "Coloring the World with my Dance!" },
         "text": {
           "jp": "自分のデッキから、#ReGLOSSを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "Reveal 1 [Debut holomem or 1st holomem] with #ReGLOSS from your deck, and add it to hand. Then, shuffle the deck."
@@ -38893,12 +38893,12 @@
     "arts": [
       {
         "cheers": [ "white", "white", "colorless" ],
-        "name": { "jp": "滅紫の雷", "en": "Purple Lightning" },
+        "name": { "jp": "滅紫の雷", "en": "Thunder of Deep Purple" },
         "power": "80+",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "自分のステージに〈轟はじめ〉以外の#ReGLOSSを持つホロメンがいる時、このアーツ+30。",
-          "en": "If there are any holomem with #ReGLOSS other than <Todoroki Hajime> on your stage, this Arts gets +30."
+          "en": "If your stage has a holomem with #ReGLOSS other than <Todoroki Hajime>, this Arts gets +30."
         }
       }
     ],
@@ -39391,7 +39391,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "元気をお届け", "en": "Bringing you energy" },
+        "name": { "jp": "元気をお届け", "en": "Sending you energy" },
         "text": {
           "jp": "自分の#秘密結社holoXを持つホロメン1人のHP30回復。",
           "en": "Restore 30 HP to 1 of your holomem with #holoX."
@@ -39401,12 +39401,12 @@
     "arts": [
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": "天才では？", "en": "Am I a genius?" },
+        "name": { "jp": "天才では？", "en": "A genius, aren't I?" },
         "power": "70+",
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "自分のステージにエールが5枚以上ある時、このアーツ+50。",
-          "en": "If there are 5 or more cheers on your stage, this Arts gets +50."
+          "en": "If your stage has 5 or more cheers, this Arts gets +50."
         }
       }
     ],
@@ -40025,12 +40025,12 @@
     "arts": [
       {
         "cheers": [ "yellow", "colorless", "colorless" ],
-        "name": { "jp": "情熱ステージ", "en": "Passion Stage" },
+        "name": { "jp": "情熱ステージ", "en": "Passionate Stage" },
         "power": "70+",
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "自分のライフが3以下の時、このアーツ+70。",
-          "en": "If your Life is 3 or less, this Arts gets +70."
+          "en": "If your life is 3 or less, this Arts gets +70."
         }
       }
     ],
