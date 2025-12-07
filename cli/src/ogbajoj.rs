@@ -893,6 +893,10 @@ fn is_skip_image_hash(img_hash: &str) -> bool {
     let to_skip = [
         // hBP05-079 (P) Miko, I'm ashamed - poor quality
         "v2|H32=Uq2rEtSqKHWrYtRzqkxrnfVaVK0rZ5XivFIrrWES1IhqFZLtVKosmqpULZqqV62KcnirZJJFmyxGk2pVcLhSlY6HUlU|CYM=0C0F1C",
+        // hBP04-002 (P) Juufuutei Raden - poor quality
+        "v2|H32=qqaVqq6qrXZtVWpVZVVKSVJXZqtaSvaqXFwmksxWbRXKRdqKLUrWUqVVVNvtiyZdti2Spxpk0RaStNKllnbSZJakkrQ|CYM=022450",
+        // hBP04-013 (P) Hakui Koyori - poor quality
+        "v2|H32=qk1rkrrMrwoS3Fq6WotavUi6EJXEupSahBukVkyTWVdsN5qlsktaZSXbtLoqRaZVNWiWViJZtSpm3SYLiTTUoqp6yyY|CYM=042F54",
     ];
 
     to_skip.contains(&img_hash)
