@@ -3321,7 +3321,7 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#4期生", "en": "#Gen 4" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 1, "en": 1 },
+    "max_amount": { "jp": 4, "en": 1 },
     "illustrations": [
       {
         "card_number": "hBP01-010",
@@ -3567,7 +3567,7 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#4期生", "en": "#Gen 4" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 1, "en": 1 },
+    "max_amount": { "jp": 4, "en": 1 },
     "illustrations": [
       {
         "card_number": "hBP01-014",
@@ -21978,17 +21978,6 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
-      },
-      {
-        "card_number": "hBP04-002",
-        "manage_id": { },
-        "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP04-002_P.webp", "en": null },
-        "img_hash": "v2|H32=qqaVqq6qrXZtVWpVZVVKSVJXZqtaSvaqXFwmksxWbRXKRdqKLUrWUqVVVNvtiyZdti2Spxpk0RaStNKllnbSZJakkrQ|CYM=022450",
-        "yuyutei_sell_url": null,
-        "tcgplayer_product_id": null,
-        "delta_art_index": null
       }
     ]
   },
@@ -22681,17 +22670,6 @@
         "img_path": { "jp": "hPR/hBP04-013_P.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 05 Nov 2025 03:04:37 GMT" },
         "img_hash": "v2|H32=vKqlapCqtQ4nb1qcWk1a6xpV0maLtIR2pKSpuq2vRaupqtolxhYrk+2lLJo20aSaPNhRl6qySdUkiy3ZlNaSlqml0lo|CYM=062619",
-        "yuyutei_sell_url": null,
-        "tcgplayer_product_id": null,
-        "delta_art_index": null
-      },
-      {
-        "card_number": "hBP04-013",
-        "manage_id": { },
-        "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP04-013_P.webp", "en": null },
-        "img_hash": "v2|H32=qk1rkrrMrwoS3Fq6WotavUi6EJXEupSahBukVkyTWVdsN5qlsktaZSXbtLoqRaZVNWiWViJZtSpm3SYLiTTUoqp6yyY|CYM=042F54",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34960,9 +34938,9 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "It's up to you" },
+        "name": { "jp": null, "en": "Leave it to me" },
         "text": {
-          "en": "Reveal 1 <Fingers> from your deck, and add it to hand. Then, shuffle the deck. You may only use Bloom Effect \"It's up to you\" once per turn."
+          "en": "Reveal 1 <Fingers> from your deck, and add it to hand. Then, shuffle the deck. You may only use Bloom Effect \"Leave it to me\" once per turn."
         }
       }
     ],
