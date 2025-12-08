@@ -15679,10 +15679,10 @@
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": "ルーナイト集合", "en": "Luknight gathering" },
+        "name": { "jp": "ルーナイト集合", "en": "Lu-knights gathering" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが〈姫森ルーナ〉の時に使える：自分のデッキから、〈ルーナイト〉1～4枚を公開し、自分のホロメンに割り振って付ける。そしてデッキをシャッフルする。",
-          "en": "[1/Game]Usable if your center holomem is Himemori Luna:Reveal 1~4 <Luknight> from your deck, and attach them to your holomem divided as you choose. Then, shuffle your deck."
+          "en": "[1/Game]Usable if your center holomem is Himemori Luna:Reveal 1~4 <Lu-knights> from your deck, and attach them to your holomem divided as you choose. Then, shuffle your deck."
         }
       }
     ],
@@ -16159,7 +16159,7 @@
         "power": "10",
         "text": {
           "jp": "自分の〈ルーナイト〉が付いているホロメンがいない時、自分のデッキから、〈ルーナイト〉1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。",
-          "en": "If there are no <Luknight> attached to any holomem on your stage, reveal 1 <Luknight> from your deck, and attach it to your holomem. Then, shuffle the deck."
+          "en": "If there are no <Lu-knights> attached to any holomem on your stage, reveal 1 <Lu-knights> from your deck, and attach it to your holomem. Then, shuffle the deck."
         }
       }
     ],
@@ -16404,7 +16404,7 @@
         "power": "20",
         "text": {
           "jp": "自分のアーカイブの〈ルーナイト〉1枚を自分の〈姫森ルーナ〉に付けられる。",
-          "en": "You may attach 1 <Luknight> from your archive to your <Himemori Luna>."
+          "en": "You may attach 1 <Lu-knights> from your archive to your <Himemori Luna>."
         }
       }
     ],
@@ -16455,19 +16455,19 @@
         "name": { "jp": "ルーナについてくるのら～", "en": "Follow Luna~" },
         "text": {
           "jp": "自分の推しホロメンが〈姫森ルーナ〉の時、自分のアーカイブの〈ルーナイト〉1枚を自分の〈姫森ルーナ〉に付けられる。",
-          "en": "If your Oshi holomem is <Himemori Luna>, you may attach 1 <Luknight> from your archive to your <Himemori Luna>."
+          "en": "If your Oshi holomem is <Himemori Luna>, you may attach 1 <Lu-knights> from your archive to your <Himemori Luna>."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "white", "white", "colorless" ],
-        "name": { "jp": "お疲れ様なのらね", "en": "Otsukaresama nanora" },
+        "name": { "jp": "お疲れ様なのらね", "en": "Good Work Today" },
         "power": "100+",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このホロメンに〈ルーナイト〉が付いている時、このアーツ+50。",
-          "en": "If a <Luknight> is attached to this holomem, this Arts gets +50."
+          "en": "If <Lu-knights> is attached to this holomem, this Arts gets +50."
         }
       }
     ],
@@ -19573,22 +19573,22 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "わんだふぉ～♡", "en": "Wan-derful♡" },
+        "name": { "jp": "わんだふぉ～♡", "en": "Wan-Dafuuul♡" },
         "text": {
           "jp": "このホロメンがダウンした時、自分のエールデッキの上から1枚を自分の〈戌神ころね〉に送る。",
-          "en": "If this holomem is downed, send the top card of your cheer deck to your <Inugami Korone>."
+          "en": "When this holomem is downed, send the top card of your cheer deck to your <Inugami Korone>."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "yellow", "colorless" ],
-        "name": { "jp": "最凶天災", "en": "The worst natural disaster" },
+        "name": { "jp": "最凶天災", "en": "The Biggest Disaster" },
         "power": "120+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このアーツの対象が相手の2ndホロメンの時、このホロメンに重なっている1stホロメン1枚をアーカイブできる：このアーツ+50。",
-          "en": "If the target of this Arts is your opponent's 2nd holomem, you may archive 1 1st holomem stacked to this one:This Arts gets +50."
+          "en": "If the target of this Arts is your opponent's 2nd holomem, you may archive 1 1st holomem stacked to this holomem:This Arts gets +50."
         }
       }
     ],
@@ -19930,10 +19930,10 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "まだまだいくよー！", "en": "We're not done yet!" },
+        "name": { "jp": "まだまだいくよー！", "en": "We're Gonna Keep on Going!" },
         "text": {
           "jp": "このホロメンがダウンした時、このホロメンのエール1枚を、自分の他の〈角巻わため〉に付け替えられる。",
-          "en": "If this holomem is downed, you may reattach 1 cheer from this holomem to your other <Tsunomaki Watame>."
+          "en": "When this holomem is downed, you may reattach 1 cheer from this holomem to your other <Tsunomaki Watame>."
         }
       }
     ],
@@ -19945,7 +19945,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "[センターポジション限定]このホロメンにエールが6枚以上付いている時、このターンの間、このホロメンと自分のコラボホロメンのアーツ+100。",
-          "en": "[Center position only]If 6 or more cheers are attached to this holomem, during this turn your center holomem and collab holomem get Arts+100."
+          "en": "[Center position only]If 6 or more cheers are attached to this holomem, during this turn, this holomem and your collab holomem get Arts+100."
         }
       }
     ],
@@ -21492,7 +21492,7 @@
   },
   "hBP03-105": {
     "card_number": "hBP03-105",
-    "name": { "jp": "ルーナイト", "en": "Luknight" },
+    "name": { "jp": "ルーナイト", "en": "Lu-knights" },
     "card_type": { "support": "fan" },
     "text": {
       "jp": "相手のターンで、このファンが付いているホロメンがダメージを受ける時、このファンをアーカイブできる：このファンが付いていたホロメンの受けるダメージ-30。\n\nこのファンは、自分の〈姫森ルーナ〉だけに付けられ、1人につき何枚でも付けられる。",
@@ -28803,7 +28803,7 @@
         "power": "50",
         "text": {
           "jp": "自分のアーカイブの〈ルーナイト〉1枚をこのホロメンに付けられる。",
-          "en": "You may attach 1 <Luknight> from your archive to this holomem."
+          "en": "You may attach 1 <Lu-knights> from your archive to this holomem."
         }
       },
       {
@@ -28812,7 +28812,7 @@
         "power": "80",
         "text": {
           "jp": "[コラボポジション限定]自分のセンターホロメンに付いている〈ルーナイト〉1枚につき、このアーツに必要な無色エール-1。",
-          "en": "[Collab position only]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
+          "en": "[Collab position only]For each <Lu-knights> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
         }
       }
     ],
@@ -33254,6 +33254,39 @@
       }
     ]
   },
+  "hBP06-010": {
+    "card_number": "hBP06-010",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The Dream Team" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 [Debut holomem or Spot holomem] from your deck, and place it on stage. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "We're all great friends!" }, "power": "30" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-010",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-010_U.webp", "en": null },
+        "img_hash": "v2|H32=iimWEkhtpNFgJG3NtqZpqZbCubqGS4m2ThlLIQuXWym3tK5qSlUpFaWqUofotHWwSrWgkFZL1JqStlJq1WpqWdJqUq0|CYM=063925",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-011": {
     "card_number": "hBP06-011",
     "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
@@ -33768,7 +33801,7 @@
         "type": "gift",
         "name": { "jp": null, "en": "Feelings of gratitude toward everyone" },
         "text": {
-          "en": "[Collab position only]During your opponent's turn, when you would archive a <Luknight> attached to your center holomem, you may reattach it to your back <Himemori Luna> instead."
+          "en": "[Collab position only]During your opponent's turn, when you would archive a <Lu-knights> attached to your center holomem, you may reattach it to your back <Himemori Luna> instead."
         }
       }
     ],
@@ -33777,7 +33810,7 @@
         "cheers": [ "colorless" ],
         "name": { "jp": null, "en": "I want to share them!" },
         "power": "20",
-        "text": { "en": "You may attach 1 <Luknight> from your archive to your <Himemori Luna>." }
+        "text": { "en": "You may attach 1 <Lu-knights> from your archive to your <Himemori Luna>." }
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Baby" } ],
@@ -33808,7 +33841,7 @@
         "type": "bloom",
         "name": { "jp": null, "en": "Nnasshoi!" },
         "text": {
-          "en": "If your Oshi holomem is <Himemori Luna>, you may archive 1~2 Luknights on your stage:For each card archived, send the top card of your cheer deck to 1 of your <Himemori Luna>."
+          "en": "If your Oshi holomem is <Himemori Luna>, you may archive 1~2 Lu-knightss on your stage:For each card archived, send the top card of your cheer deck to 1 of your <Himemori Luna>."
         }
       }
     ],
@@ -33818,7 +33851,7 @@
         "name": { "jp": null, "en": "We'll be together forever" },
         "power": "160+",
         "advantage": [ "blue", 50 ],
-        "text": { "en": "If 2 or more <Luknight> are attached to this holomem, this Arts gets +50." }
+        "text": { "en": "If 2 or more <Lu-knights> are attached to this holomem, this Arts gets +50." }
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Baby" } ],
@@ -34159,6 +34192,44 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-041_U.webp", "en": null },
         "img_hash": "v2|H32=qKW1aq8nQpP2WkObtFjpmKSp2CRqidhmWpuaRdrGssma0a4kVKVWL65aUpeAtalabSup1aXaDapStdJSXkvySKlWlao|CYM=1D3723",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-042": {
+    "card_number": "hBP06-042",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Strawberry Princess" },
+        "text": { "en": "Archive 1 card from your hand. Then, draw 1 card." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": null, "en": "Birthday colored with strawberries" },
+        "power": "40+",
+        "text": { "en": "You may archive 2 cards from your hand:This Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-042",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-042_C.webp", "en": null },
+        "img_hash": "v2|H32=nq6blLOuLC4hRy1rplNlq5pRuhnSSTpd0EpI1dpSSLfakpZbTauppi7rtLS0qpalUq3wrepQWjmqVkILpaSycLaUslo|CYM=09453F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34656,6 +34727,46 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-057_C.webp", "en": null },
         "img_hash": "v2|H32=irAzG5WirazDSi3ua0tMUmS521MWt9LVkpbSlbpckrl6UNRCV0kpXatKtrJKu5WqtbYStaoVar1KrSsvaK1SS1qpVks|CYM=193819",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP06-058": {
+    "card_number": "hBP06-058",
+    "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Yes, Chef." },
+        "text": { "en": "Draw 3 cards, then archive 2 cards from your hand." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "a chef's journey's end." },
+        "power": "30",
+        "text": {
+          "en": "If a purple cheer is attached to this holomem, draw 1 card from your deck. Then, archive the top 2 cards of your deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-058",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-058_U.webp", "en": null },
+        "img_hash": "v2|H32=zmux4sVara/jkqUWK60rWTqFS1k4lUsbuDRKHZZq/NQ2KdBqVUlqlRK1ttW1qpXqKVMpSmTZSrWZSjK1Wle0rVKtoWo|CYM=1F2612",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
