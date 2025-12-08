@@ -3519,11 +3519,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "自分のアーカイブにhBP03-105〈ルーナイト〉が4枚ある場合、hBP03-001〈姫森ルーナ〉のSP推しスキル「ルーナイト集合」を使用することはできますか？",
-      "en": "Can I use hBP03-001 Himemori Luna's SP Oshi Skill \"Luknight gathering\" if I have four copies of hBP03-105 Luknight in my archive?"
+      "en": "Can I use hBP03-001 Himemori Luna's SP Oshi Skill \"Lu-knights gathering\" if I have four copies of hBP03-105 Lu-knights in my archive?"
     },
     "answer": {
       "jp": "はい、ホロパワーを支払い、デッキの中を見て、ホロメンに付けられるhBP03-105〈ルーナイト〉が無いので効果の解決を終えます。\n[4/01更新]3/11(火)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
-      "en": "Yes. In this case you pay the holo Power cost and look inside your deck, but since there are no Luknights in the deck, you shuffle your deck without attaching any."
+      "en": "Yes. In this case you pay the holo Power cost and look inside your deck, but since there are no Lu-knightss in the deck, you shuffle your deck without attaching any."
     },
     "referenced_cards": [ "hBP03-001", "hBP03-105" ]
   },
@@ -3532,7 +3532,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-001〈姫森ルーナ〉のSP推しスキル「ルーナイト集合」で公開されたhBP03-105〈ルーナイト〉は〈姫森ルーナ〉以外に付けることはできますか？",
-      "en": "Can I attach a hBP03-105 Luknight that I revealed using hBP03-001 Himemori Luna's SP Oshi Skill \"Luknight gathering\" to 1 of my holomem other than Himemori Luna?"
+      "en": "Can I attach a hBP03-105 Lu-knights that I revealed using hBP03-001 Himemori Luna's SP Oshi Skill \"Lu-knights gathering\" to 1 of my holomem other than Himemori Luna?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP03-001", "hBP03-105" ]
