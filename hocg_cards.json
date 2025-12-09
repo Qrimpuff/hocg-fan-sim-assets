@@ -16914,10 +16914,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": {
-          "jp": "なんとかしてくれる獅白ぼたん",
-          "en": "Shishiro Botan will do something about it"
-        },
+        "name": { "jp": "なんとかしてくれる獅白ぼたん", "en": "Shishiro Botan will fix it somehow" },
         "text": {
           "jp": "自分のアーカイブの緑エール1枚ずつを、自分の#シューターを持つバックホロメン1～2人に送れる。",
           "en": "You may send 1 green cheer each from your archive to 1~2 of your back holomem with #Shooter."
@@ -16927,12 +16924,12 @@
     "arts": [
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": "神エイム", "en": "God Aim" },
+        "name": { "jp": "神エイム", "en": "God-Tier Aim" },
         "power": "110",
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "自分の推しホロメンが〈獅白ぼたん〉の時、自分のバックホロメンのエール1枚をアーカイブできる：相手のセンターホロメンかコラボホロメンに特殊ダメージ40を与える。",
-          "en": "If your Oshi holomem is <Shishiro Botan>, you may archive 1 cheer from your back holomem:Deal 40 Special Damage to your opponent's center holomem or collab holomem."
+          "en": "If your Oshi holomem is <Shishiro Botan>, you may archive 1 cheer from your back holomem:Deal 40 special damage to your opponent's center holomem or collab holomem."
         }
       }
     ],
@@ -19019,22 +19016,22 @@
     "arts": [
       {
         "cheers": [ "purple" ],
-        "name": { "jp": "私を縛る固定概念を壊せ", "en": "Break the stereotypes that bind me" },
+        "name": { "jp": "私を縛る固定概念を壊せ", "en": "Breaking out of the stereotypes" },
         "power": "30",
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。",
-          "en": "Deal 30 Special Damage to your opponent's center holomem or collab holomem."
+          "en": "Deal 30 special damage to your opponent's center holomem or collab holomem."
         }
       },
       {
         "cheers": [ "purple", "purple", "colorless" ],
-        "name": { "jp": "Break your ×××", "en": "Break your xxx" },
+        "name": { "jp": "Break your ×××", "en": "Break your ×××" },
         "power": "80",
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "相手のセンターホロメンかコラボホロメンどちらかに、自分の#歌を持つバックホロメン1人につき、特殊ダメージ20を与える。ただし、数える人数は4人まで。",
-          "en": "Deal 20 Special Damage for each of your back holomem with #Singing to your opponent's center holomem or collab holomem. However, only up to 4 holomem are counted."
+          "en": "Deal 20 special damage for each of your back holomem with #Singing to your opponent's center holomem or collab holomem. However, only up to 4 holomem are counted."
         }
       }
     ],
@@ -33581,7 +33578,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-018_U.webp", "en": null },
-        "img_hash": "v2|H32=opRazrGu1EvSaoUpXHOtskiVrZWMUksltkpKJXOMcqZPTKRKUmTKNVKr9NKtmmpppVxKqTaVL0ui1wmr9KtaVa1T0mg|CYM=11170C",
+        "img_hash": "v2|H32=rJRSXLG+1GpSaqUi2mOtsEq1rdWPXUIt105KJVOuMNQrbIRGWmmptlWrdJGtulrZqZZSq73QD2mmS62v4UnStKXL0mg|CYM=0E1014",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34744,7 +34741,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-051_U.webp", "en": null },
-        "img_hash": "v2|H32=rqqrdamqLa3LaUms1mpFZuJVlUpu1dJZUE9eUVpZlitsl9qqU6WtJS5ZLNok3XTZ2bbqdIlSakVQq1Ip0aaSTKlUlto|CYM=22290A",
+        "img_hash": "v2|H32=pK6taKWpOa7LaWms1mrgVMJVkEZuVVpZWm1aVVortGsqkVpXUyWtpKpoKtot3VXbVZapIMuSqqTSipYt0ZKSLqlWli0|CYM=1F2113",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -35177,7 +35174,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-062_U.webp", "en": null },
-        "img_hash": "v2|H32=qqqspqqqjBnFUksZlOTjPFLls3RSFVpTVhVeS1LVNs5U8aTqVuVaNC3bhN+llmBZ2lpqWRalqpWpaWBaVmtSqVqVqPQ|CYM=053814",
+        "img_hash": "v2|H32=KKu1qlOzjCnGOksxpOrzPFLnsbRaFVrzShVaS1qldE6M4rRuUnVaMq3ahJ6llmnpW1ppuVavqpSgaqRZVktKqVrVqrQ|CYM=023424",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -35656,7 +35653,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-075_U.webp", "en": null },
-        "img_hash": "v2|H32=LLqT6626LayN4p2to5RSV9KRalZSRekaUkXwIrYVtKo0RlSqWlX1qbWqCtXdqhL1dlmqVKkqalZ1i5RNcq1KPEuralE|CYM=07131B",
+        "img_hash": "v2|H32=bJiTq626L6SNqonia6ZJ09JRa8ZSRXDOckVwA7ZYdJK2FtSqSlW1KqOqCpVZmgTttlWqVqpaalY1yyWNcq1qukuqalU|CYM=031327",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -36381,7 +36378,7 @@
         "rarity": "C",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-102_C.webp", "en": null },
-        "img_hash": "v2|H32=qKqpqqSqYFJLVlpVSlXbTZutlI2SjRbVVtVW2WzJLMgcy5LdofmNgscPLXh/keF4Hz7henXLofj5wPD4dvngMD8U8HQ|CYM=031C42",
+        "img_hash": "v2|H32=qKqpqqSqYHJLUkpVSlbaTZuNko2SjVbVVtVW1W3MbMycyxbdofiNgoOPLXj9sOEqHz6pKvLDofj68PD4euDgODoU6BU|CYM=011C42",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
