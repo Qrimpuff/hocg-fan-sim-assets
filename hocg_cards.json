@@ -35920,7 +35920,7 @@
         "name": { "jp": null, "en": "I am Subaru & Watame! Yeah!!" },
         "power": "80",
         "text": {
-          "en": "[Collab position only]If your Oshi holomem is <Tsunomaki Watame> or <Oozora Subaru>, the cheer cost of this Arts is reduced by 1 yellow cheer. If your 2nd holomem is a 2nd <Tsunomaki Watame>, the cheer cost of this Arts is reduced by 3 yellow cheer instead."
+          "en": "[Collab position only]If your Oshi holomem is <Tsunomaki Watame> or <Oozora Subaru>, the cheer cost of this Arts is reduced by 1 yellow cheer. If your center holomem is a 2nd <Tsunomaki Watame>, the cheer cost of this Arts is reduced by 3 yellow cheer instead."
         }
       }
     ],
@@ -36053,6 +36053,7 @@
     "card_number": "hBP06-088",
     "name": { "jp": "ドッキリうさぎ", "en": "Prank Rabbit" },
     "card_type": { "support": "event" },
+    "limited": true,
     "text": {
       "en": "This card can only be used if your holomem was downed during your opponent's previous turn and you have less Life than your opponent.\n\nChoose your opponent's center holomem or collab holomem. Rest the chosen holomem and move it to the back position. The chosen holomem does not unrest during your opponent's next reset step."
     },
