@@ -4089,7 +4089,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？",
-      "en": "Can I use hBP03-088 Call-in if I have the same amount of Life as my opponent?"
+      "en": "Can I use hBP03-088 Totsumachi if I have the same amount of Life as my opponent?"
     },
     "answer": { "jp": "いいえ、使用できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP03-088" ]
@@ -4099,7 +4099,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉を使用し、コラボポジションにホロメンが移動した時、ホロパワーを貯めることはできますか？",
-      "en": "When using hBP03-088 Call-in to move a holomem to the collab position, does my opponent move a card from deck to holo Power?"
+      "en": "When using hBP03-088 Totsumachi to move a holomem to the collab position, does my opponent move a card from deck to holo Power?"
     },
     "answer": {
       "jp": "いいえ、ホロパワーは「コラボする」時のみしか貯めることはできません。",
@@ -4112,7 +4112,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？",
-      "en": "Can I use hBP03-088 Call-in to move one of my opponent's resting holomem to the collab position?"
+      "en": "Can I use hBP03-088 Totsumachi to move one of my opponent's resting holomem to the collab position?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-088" ]
@@ -4122,7 +4122,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "相手のバックポジションにホロメンがおらず、コラボポジションが不在の時、hBP03-088〈凸待ち〉は使用できますか？",
-      "en": "Can I use hBP03-088 Call-in if my opponent has no collab holomem and no back holomem?"
+      "en": "Can I use hBP03-088 Totsumachi if my opponent has no collab holomem and no back holomem?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\nそのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。",
@@ -4135,7 +4135,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、「コラボした時」の能力は発揮されますか？",
-      "en": "When using hBP03-088 Call-in to move a holomem to the collab position, does its Collab Effect activate?"
+      "en": "When using hBP03-088 Totsumachi to move a holomem to the collab position, does its Collab Effect activate?"
     },
     "answer": { "jp": "いいえ、されません。", "en": "No, it does not." },
     "referenced_cards": [ "hBP03-088" ]
@@ -4145,7 +4145,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？",
-      "en": "After I have used hBP03-088 Call-in to move a holomem to the collab position, does my opponent move that holomem to the back position during their Reset Phase?"
+      "en": "After I have used hBP03-088 Totsumachi to move a holomem to the collab position, does my opponent move that holomem to the back position during their Reset Phase?"
     },
     "answer": {
       "jp": "はい、バックポジションへ移動させ、お休みさせます。",
@@ -4371,11 +4371,11 @@
     "date": "2025-04-28",
     "question": {
       "jp": "ターンプレイヤーがhBP03-088〈凸待ち〉を使った時、コラボポジションに移動させるバックホロメンを選ぶのはどちらのプレイヤーですか？",
-      "en": "When a player uses hBP03-088 Call-in, which player chooses the back holomem to move to the collab position?"
+      "en": "When a player uses hBP03-088 Totsumachi, which player chooses the back holomem to move to the collab position?"
     },
     "answer": {
       "jp": "hBP03-088〈凸待ち〉を使っていないプレイヤーになります。",
-      "en": "The player who did not use the card Call-in is the one that chooses."
+      "en": "The player who did not use the card Totsumachi is the one that chooses."
     },
     "referenced_cards": [ "hBP03-088" ]
   },
