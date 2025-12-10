@@ -15878,7 +15878,7 @@
         "name": { "jp": "モコちゃん！", "en": "Moco-chan!" },
         "text": {
           "jp": "[ターンに1回]自分のエールデッキの上から1枚を、自分の1stホロメンの〈モココ・アビスガード〉に送る。",
-          "en": "[1/Turn]Send the top card of your cheer deck to your 1st <Mococo Abyssgard>."
+          "en": "[1/Turn]Send the top card of your cheer deck to your 1st holomem <Mococo Abyssgard>."
         }
       },
       {
@@ -15887,7 +15887,7 @@
         "name": { "jp": "BAU BAU!", "en": "BAU BAU!" },
         "text": {
           "jp": "[ゲームに1回]自分の#Adventを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、相手のバックホロメンも対象にできる。",
-          "en": "[1/Game]Choose 1 of your holomem with #Advent. During this turn, that holomem's Arts may target your opponent's back holomem."
+          "en": "[1/Game]Choose 1 of your holomem with #Advent. During this turn, you may also target your opponent's back holomem with the chosen holomem's Arts."
         }
       }
     ],
@@ -15916,6 +15916,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10010",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP03-004",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": null, "en": "unreleased/hBP03-004_P.webp" },
+        "img_hash": "v2|H32=1Gpy1bNCkrappeZSya03SkxlM9uUanuVlmpZtcZySbVWqrSqqlKpJVGqq2xqW0lpyZQqK6pVWqmrVWrRS1UqVdoqrVU|CYM=133321",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -16634,7 +16645,7 @@
     "hp": 100,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "ららーいおん♪", "en": "La-Lion♪" }, "power": "30" }
+      { "cheers": [ "colorless" ], "name": { "jp": "ららーいおん♪", "en": "La-lion♪" }, "power": "30" }
     ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
@@ -17193,7 +17204,7 @@
     "colors": [ "red" ],
     "hp": 100,
     "bloom_level": "debut",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "にゃっはろ～", "en": "Nyahallo" }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "にゃっはろ～", "en": "Nya-hello" }, "power": "30" } ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
@@ -17473,10 +17484,10 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "エリートギャンブル", "en": "Elite Gambling" },
+        "name": { "jp": "エリートギャンブル", "en": "Elite Gamble" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる：3か5の時、このターンの間、このホロメンのアーツ+50。",
-          "en": "[Center position only][1/Turn]During your Main Phase, if a <35P> is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn this holomem gets Arts+50."
+          "en": "[Center position only][1/Turn]During your Main Phase, when <35P> is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn, this holomem gets Arts+50."
         }
       }
     ],
@@ -18252,18 +18263,18 @@
     "arts": [
       {
         "cheers": [ "blue" ],
-        "name": { "jp": "ドーナツ大好き", "en": "I love donuts" },
+        "name": { "jp": "ドーナツ大好き", "en": "I Love Donuts" },
         "power": "60",
         "advantage": [ "purple", 50 ]
       },
       {
         "cheers": [ "blue", "red", "colorless" ],
-        "name": { "jp": "一緒に食べる？", "en": "Shall we eat together?" },
+        "name": { "jp": "一緒に食べる？", "en": "Wanna eat together?" },
         "power": "100",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "[センターポジション限定]自分の推しホロメンが〈FUWAMOCO〉の時、このホロメンのエール1枚を、自分の〈モココ・アビスガード〉に付け替えられる：相手のセンターホロメンに特殊ダメージ50を与える。",
-          "en": "[Center position only]If your Oshi holomem is <FUWAMOCO>, you may reattach 1 cheer from this holomem to your <Mococo Abyssgard>:Deal 50 Special Damage to your opponent's center holomem."
+          "en": "[Center position only]If your Oshi holomem is <FUWAMOCO>, you may reattach 1 cheer from this holomem to your <Mococo Abyssgard>:Deal 50 special damage to your opponent's center holomem."
         }
       }
     ],
@@ -18444,7 +18455,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "可愛い女の子かと思った？", "en": "Did you mistake me for some cutesy girl?" },
+        "name": { "jp": "可愛い女の子かと思った？", "en": "Did you Mistake me for some Cutesy Girl?" },
         "power": "10"
       },
       {
@@ -18734,7 +18745,7 @@
     "colors": [ "purple" ],
     "hp": 110,
     "bloom_level": "debut",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんやっぴー", "en": "Konyappi" }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんやっぴー", "en": "Suppies!" }, "power": "30" } ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
@@ -20023,10 +20034,10 @@
     "hp": 110,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "こんリス", "en": "Konrisu" }, "power": "20" },
+      { "cheers": [ "colorless" ], "name": { "jp": "こんリス", "en": "Kon-Risu" }, "power": "20" },
       {
         "cheers": [ "colorless", "colorless", "colorless" ],
-        "name": { "jp": "ぷるぷる～", "en": "Purupuru" },
+        "name": { "jp": "ぷるぷる～", "en": "Puru Puru~" },
         "power": "60",
         "text": {
           "jp": "このホロメンのエール1枚を、自分の〈戌神ころね〉に付け替えられる。",
@@ -20301,19 +20312,19 @@
         "name": { "jp": "マジカルサポート", "en": "Magical Support" },
         "text": {
           "jp": "自分の#ID1期生を持つホロメンのエール1枚を、自分の他のホロメンに付け替えられる。",
-          "en": "You may reattach 1 cheer from your holomem with #ID Gen 1 to any of your holomem."
+          "en": "You may reattach 1 cheer from your holomem with #ID Gen 1 to your other holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "colorless", "colorless" ],
-        "name": { "jp": "魔法の森のリスの女の子", "en": "Squirrel girl in the magical forest" },
+        "name": { "jp": "魔法の森のリスの女の子", "en": "Squirrel Girl from the Magical Forest" },
         "power": "50+",
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "■このホロメンに緑エールが付いている時、このアーツ+50。\n■このホロメンに青エールが付いている時、このアーツ+50。",
-          "en": "If a green cheer is attached to this holomem, this Arts gets +50.\nIf a blue cheer is attached to this holomem, this Arts gets +50."
+          "en": "■If a green cheer is attached to this holomem, this Arts gets +50.\n■If a blue cheer is attached to this holomem, this Arts gets +50."
         }
       }
     ],
@@ -20821,12 +20832,12 @@
   },
   "hBP03-088": {
     "card_number": "hBP03-088",
-    "name": { "jp": "凸待ち", "en": "Call-in" },
+    "name": { "jp": "凸待ち", "en": "Totsumachi" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
       "jp": "このカードは、自分のライフが相手より少ない時にしか使えない。\n\n相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。",
-      "en": "This card can only be used if you have less Life than your opponent.\n\nIf your opponent has no collab holomem, they choose 1 of their back holomem and move it to the collab position (this is not regarded as Collabing)."
+      "en": "This card can only be used if your life is less than your opponent's.\n\nIf your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (Moving is not regarded as collab)."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -21599,7 +21610,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "■このファンが付いているホロメンがアーツを使う時、このファンを赤エールとしても扱う。\n■このファンが付いているホロメンがダウンした時、相手は、自身のデッキを1枚引ける。\n\nこのファンは、自分の〈さくらみこ〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "■If the holomem this fan is attached to would use Arts, this fan is also regarded as a red cheer.\n■If the holomem this fan is attached to is downed, your opponent may draw 1 card from their deck.\n\nYou may only attach this fan to your <Sakura Miko>, and you may attach any number of this fan per holomem."
+      "en": "■If the holomem this fan is attached to would use Arts, this fan is also regarded as a red cheer.\n■When the holomem this fan is attached to is downed, your opponent may draw 1 card.\n\nYou may only attach this fan to your <Sakura Miko>, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -24039,7 +24050,7 @@
         "name": { "jp": "KPG", "en": "KPG" },
         "text": {
           "jp": "サイコロを1回振れる：4以上の時、相手のコラボホロメンがいないなら、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。",
-          "en": "You may roll a die once:If it is 4 or greater, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not regarded as Collabing)."
+          "en": "You may roll a die once:If it is 4 or greater, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (Moving is not regarded as collab)."
         }
       }
     ],
@@ -33964,7 +33975,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-029_U.webp", "en": null },
-        "img_hash": "v2|H32=iqurqqe6KaW/Vjm1yVXJust12ipSTfJBckVySXSXthJ8rlatVaXUV4pWoPhe6g1eT4tKVZpWShW1rmCda1ZSJalSYKg|CYM=15170E",
+        "img_hash": "v2|H32=jqupqqWqKa6vUjm0ifTZuot12KxSVXJVckVyWXYGtlI8jlZVVfWsBqpWqKp/qlW+Va8qZKpCqjaXrkWfaVpSpalScKg|CYM=141514",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -35240,7 +35251,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-064_U.webp", "en": null },
-        "img_hash": "v2|H32=qqqtqq6qpM3M1BHTmPUpopA2nCtmVVJdVlVyFNKRMJy4NKYsW3RaNlJKatm06VDZ6VuqV6aPUqlW2/BVtEXwtbSlsik|CYM=0A4017",
+        "img_hash": "v2|H32=IqqvKuWqdN3IQiNTmOYdo5PrHKtmlWJlalFuRcpZ3JwqJKZtSWWYptJaadst6VHawpOplrYfWisuk6BX1mty1bSUsrA|CYM=09462A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -35855,6 +35866,49 @@
       }
     ]
   },
+  "hBP06-081": {
+    "card_number": "hBP06-081",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Dispatch! The chaotic Oozora Police!!" },
+        "text": {
+          "en": "If your Oshi holomem is <Oozora Subaru>, you may archive 1 cheer from your stage:Reveal 1 <Oozora Subaru> from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "GUILTY or INNOCENT" },
+        "power": "100",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If your life is 3 or less, for each of this holomem's cheers, send the top card of your cheer deck to 1 of your yellow holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP06-081",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-081_RR.webp", "en": null },
+        "img_hash": "v2|H32=zqkvq42oLeerMKnW67RpkmupWi5uG1JtVley1JbG1NK34lZtV/UqlahqqaqgLRWadImqVqpS0cqUnuC1SlqpoqKCklQ|CYM=221219",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP06-082": {
     "card_number": "hBP06-082",
     "name": { "jp": "アーニャ・メルフィッサ", "en": "Anya Melfissa" },
@@ -36223,7 +36277,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-095_U.webp", "en": null },
-        "img_hash": "v2|H32=KqurqjSrbGnhbNRkxKTPpJemnpYL31tbSFtoM2gzfJAs3JJdCF5okvjAZZvwQeHrDh85aB98wS360OngwtdgEFaX4tI|CYM=152E0C",
+        "img_hash": "v2|H32=SrWrqlTTZHHpKtRk5KTPpNemnrYLml9bSlpqM2kzXJIonBJNBjxsivjgbZvywS2LDh+taBs8qS74eKni6uMtmi6LaNM|CYM=112715",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -36281,7 +36335,7 @@
     "name": { "jp": "鬼神刀「阿修羅」", "en": "Demonic Sword \"Asura\"" },
     "card_type": { "support": "tool" },
     "text": {
-      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to <Nakiri Ayame>\nWhen the holomem this tool is attached to collabs, if your Life is at 1 and your opponent has no collab holomem, your opponent chooses 1 of their back holomem and moves it to the collab position (this is not regarded as Collabing).\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to <Nakiri Ayame>\nWhen the holomem this tool is attached to collabs, if your Life is at 1 and your opponent has no collab holomem, your opponent chooses 1 of their back holomem and moves it to the collab position (Moving is not regarded as collab).\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -36335,7 +36389,7 @@
         "rarity": "C",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-100_C.webp", "en": null },
-        "img_hash": "v2|H32=UKrrqnAvLSmtZQzFjNXZmttWWxpbFhIVNpc2t3SWbrJkVxKVYrHhAg6/LUn6JA1P8PDxeA6HYVkKvnFZ8DBAUdrgUlw|CYM=0A1606",
+        "img_hash": "v2|H32=UjqrKnU7JCGv4STFjM3MzNnK2F7bNhM2szY2tjeyJJIkG1bVdaGpqg9+LerqCq2q8HjpKg/uqWoqH2nw+nDiD2rBOlQ|CYM=0A120D",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
