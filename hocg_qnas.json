@@ -4171,7 +4171,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-095〈ホロキャップ〉が付いているDebutホロメンがBloomした時、このカードはアーカイブされますか？",
-      "en": "When a Debut holomem with a hBP03-095 holocap attached Blooms, will the holocap be archived?"
+      "en": "When a Debut holomem with a hBP03-095 holoCap attached Blooms, will the holoCap be archived?"
     },
     "answer": { "jp": "いいえ、アーカイブはされません。", "en": "No, it will not." },
     "referenced_cards": [ "hBP03-095" ]
@@ -4181,7 +4181,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-095〈ホロキャップ〉は、DebutホロメンやSpotホロメン以外にも付けることはできますか？",
-      "en": "Can I attach a hBP03-095 holocap to a holomem other than a Debut or Spot holomem?"
+      "en": "Can I attach a hBP03-095 holoCap to a holomem other than a Debut or Spot holomem?"
     },
     "answer": {
       "jp": "はい、付けられます。\nしかし、DebutホロメンやSpotホロメンではないため何も起こりません。",
@@ -4305,7 +4305,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "残りHPが20のhBP03-095〈ホロキャップ〉が付いているhBP01-096〈兎田ぺこら〉にhBP03-052〈常闇トワ〉のアーツ「そういう感じなんだ」を使いました。\nこの場合、相手のhBP03-095〈ホロキャップ〉をアーカイブし、ダウンさせることはできますか？",
-      "en": "When using hBP03-052 Tokoyami Towa's Arts \"That's what it feels like\" while my opponent has a hBP01-096 Usada Pekora with a hBP03-095 holocap attached and 20 HP remaining, can I archive the holocap and down my opponent's holomem?"
+      "en": "When using hBP03-052 Tokoyami Towa's Arts \"That's what it feels like\" while my opponent has a hBP01-096 Usada Pekora with a hBP03-095 holoCap attached and 20 HP remaining, can I archive the holoCap and down my opponent's holomem?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-096", "hBP03-052", "hBP03-095" ]
