@@ -379,6 +379,16 @@ impl TcgPlayerProduct {
         {
             ed["value"] = Value::String("hSD01-006".into());
         }
+
+        // fix Purple Cheer - Yuzuki Choco (P) - hololive OFFICIAL CARD GAME Promos (hOCGP)
+        if self.product_id == 659055
+            && let Some(ed) = self
+                .extended_data
+                .iter_mut()
+                .find(|ed| ed["name"] == "Number")
+        {
+            ed["value"] = Value::String("hY05-006".into());
+        }
     }
 }
 

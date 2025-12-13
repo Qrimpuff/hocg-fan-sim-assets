@@ -545,30 +545,16 @@ impl SheetCard {
 
 // --- Fix known issues with the spreadsheet ---
 fn fix_extra(card: &Card, extra: &mut Option<Extra>) {
-    // hSD09-003 Houshou Marine does have extra text
-    if card.card_number == "hSD09-003" {
+    // fix missing Buzz extra text
+    if card.buzz && extra.is_none() {
         *extra = Some(Localized::en(
-            "If this holomem is downed, you get Life-2".into(),
+            "If this holomem is downed, you get life-2".into(),
         ));
     }
 
-    // hBP05-029 Juufuutei Raden does have extra text
-    if card.card_number == "hBP05-029" {
-        *extra = Some(Localized::en(
-            "If this holomem is downed, you get Life-2".into(),
-        ));
-    }
-
-    // hBP05-039 Ichijou Ririka does have extra text
-    if card.card_number == "hBP05-039" {
-        *extra = Some(Localized::en(
-            "If this holomem is downed, you get Life-2".into(),
-        ));
-    }
-
-    // hSD10-010 Isaki Riona does have extra text
-    if card.card_number == "hSD10-010" {
-        *extra = Some(Localized::en("This holomem cannot Bloom".into()));
+    // fix missing Spot extra text
+    if card.bloom_level == Some(BloomLevel::Spot) && extra.is_none() {
+        *extra = Some(Localized::en("This holomem cannot bloom".into()));
     }
 }
 // --- End of fixes ---

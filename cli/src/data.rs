@@ -439,7 +439,7 @@ pub mod hololive_official {
     use std::{ops::Deref, sync::OnceLock};
 
     use hocg_fan_sim_assets_model::{
-        Art, ArtPower, BloomLevel, Card, CardType, CardsDatabase, Color, Extra, Keyword,
+        Art, ArtPower, BloomLevel, Card, CardType, CardsDatabase, Color, Extra, HoloPower, Keyword,
         KeywordEffect, Language, Localized, OshiSkill,
     };
     use itertools::Itertools;
@@ -694,7 +694,7 @@ pub mod hololive_official {
             oshi_skills.push(oshi_skill);
         }
         // replace existing skills. will need to import english skills later
-        fix_oshi_skills(card, &mut oshi_skills);
+        fix_oshi_skills(card, &mut oshi_skills, language);
         update_oshi_skills(card, oshi_skills, language, false);
     }
 
@@ -913,7 +913,19 @@ pub mod hololive_official {
         text
     }
 
-    fn fix_oshi_skills(_card: &Card, _oshi_skills: &mut Vec<OshiSkill>) {}
+    fn fix_oshi_skills(card: &Card, oshi_skills: &mut [OshiSkill], language: Language) {
+        // fix English oshi skills with known issues
+        if language == Language::English {
+            // fix hBP03-004 FUWAMOCO, oshi skill has wrong holoPower
+            if card.card_number == "hBP03-004"
+                && let Some(skill) = oshi_skills
+                    .iter_mut()
+                    .find(|a| a.name.english.as_deref() == Some("BAU BAU!"))
+            {
+                skill.holo_power = HoloPower::Basic(2);
+            }
+        }
+    }
 
     fn fix_keywords(_card: &Card, _keywords: &mut Vec<Keyword>) {}
 
