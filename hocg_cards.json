@@ -33038,6 +33038,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-001",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-001_SEC.webp", "en": null },
+        "img_hash": "v2|H32=SMNSVMKiElXVrKlktE1ty7ZNFJtMlZWqSBWNq7tWVKUr06JrXi3RtqtVWtumxb60S8sLNKZaUtWSqmpUJasLT7WkINE|CYM=073225",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -33079,6 +33090,17 @@
         "img_path": { "jp": "hBP06/hBP06-002_OSR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 12 Dec 2025 04:23:02 GMT" },
         "img_hash": "v2|H32=VEdpptrQJmGt6LJdK6pWTZWPKatJVayDKVVuU02Vq1JMl0qVqqmTS1amrS1yoq1FJZsrJdeqoGHwqum02bKp1FZbDaU|CYM=083E0B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-002",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-002_OUR.webp", "en": null },
+        "img_hash": "v2|H32=FGqqIrdwWFWr1UhVu82MrnurjapSlU2qUlWlSntTdim5UlRr17SprupVqZSqtKm0lS4pta0q1bYtqr22FarpLZSqZtU|CYM=27570A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33227,6 +33249,17 @@
         "img_path": { "jp": "hBP06/hBP06-005_OSR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 12 Dec 2025 04:23:02 GMT" },
         "img_hash": "v2|H32=RCRpLltlErOikzRb2JrmGsisw5ZGnEbFs1Y51TZSqaySmrSiqFqjTUyl6Wqyikuq2JKracpUX6XKJdpaW9vo+lsvp9U|CYM=0C696D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-005",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-005_OUR.webp", "en": null },
+        "img_hash": "v2|H32=xNmtDHOZbNkzk1KzpDPLtISjyxScxauaUlXXsul4VibuKJZKdDVLdaVWtbRLSomvUq1ptaqlq1RtW8HCYK29tLWqllo|CYM=165569",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34380,6 +34413,17 @@
         "img_path": { "jp": "hBP06/hBP06-031_RR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 12 Dec 2025 04:22:58 GMT" },
         "img_hash": "v2|H32=qqpryo2rjarTKpKWlDQqX2JWJW+KdajFUs1pjUpVVJ1uNpZs11XNpqrJYrMnq3DRbDqo2qouqMq1pWTd1SoqWuhqklo|CYM=24201F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-031",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-031_UR.webp", "en": null },
+        "img_hash": "v2|H32=ZJWNBUtaUNZbalJS2vSvOtSkrT2MqHlsmmllzqtoZOqtjJZKl1ULJvBSaauNqm2tihSpsqmtSWq01Mmqcq1rpU8ttto|CYM=55482A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -36796,7 +36840,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "おしまいのあじまり", "en": "The end of the story" },
+        "name": { "jp": "おしまいのあじまり", "en": "The Beginning of the End" },
         "text": {
           "jp": "自分の手札の〈大空スバル〉1枚を公開し、デッキの下に戻せる：自分のアーカイブの[〈角巻わため〉か〈大空スバル〉]1枚を手札に戻す。",
           "en": "Reveal 1 <Oozora Subaru> from your hand, and you may return it to the bottom of your deck:Return 1 <Tsunomaki Watame> or <Oozora Subaru> from your archive to hand."
@@ -36919,7 +36963,7 @@
   },
   "hBP06-086": {
     "card_number": "hBP06-086",
-    "name": { "jp": "愛情いっぱい召し上がれ♪", "en": "Enjoy it with lots of love ♪" },
+    "name": { "jp": "愛情いっぱい召し上がれ♪", "en": "Made With Love, Enjoy ♪" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
