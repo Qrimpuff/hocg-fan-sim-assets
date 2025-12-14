@@ -3443,7 +3443,7 @@
     "date": "2025-02-14",
     "question": {
       "jp": "hSD06-011〈ﾁｬｷ丸〉が付いているホロメンがダウンした時、このカードの「ダメージを受けた時」という能力で相手ホロメンに特殊ダメージを与えることはできますか？",
-      "en": "When my holomem with hSD06-011 Chakimaru attached is downed with Damage, can I use Chakimaru's \"when the holomem this tool is attached to takes Damage\" ability and deal Special Damage to my opponent's holomem?"
+      "en": "When my holomem with hSD06-011 Chakimaru attached is downed with damage, can I use Chakimaru's \"when the holomem this tool is attached to takes damage\" ability and deal special damage to my opponent's holomem?"
     },
     "answer": { "jp": "はい、与えることができます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD06-011" ]
@@ -3453,7 +3453,7 @@
     "date": "2025-02-14",
     "question": {
       "jp": "hSD07-004〈不知火フレア〉のアーツ「ワンダフルライフ」は、自分と相手の手札の枚数が同じでも「+10」されますか？",
-      "en": "Does hSD07-004 Shiranui Flare's Arts \"Wonderful Life\" get +10 Damage if I have the same number of cards in hand as my opponent?"
+      "en": "Does hSD07-004 Shiranui Flare's Arts \"Wonderful Life\" get +10 if I have the same number of cards in hand as my opponent?"
     },
     "answer": { "jp": "いいえ、されません。", "en": "No, it does not." },
     "referenced_cards": [ "hSD07-004" ]
@@ -3463,7 +3463,7 @@
     "date": "2025-02-14",
     "question": {
       "jp": "hSD07-007〈不知火フレア〉のブルームエフェクト「また一つ成長した私を」は、コラボホロメンと交代した時にもホロパワーを貯めることはできますか？",
-      "en": "Do I put a card into holo Power when using hSD07-007 Shiranui Flare's Bloom Effect \"I've grown a little bit\" to move into the collab position?"
+      "en": "Do I put a card into holo Power when using hSD07-007 Shiranui Flare's Bloom Effect \"I've Grown Once Again\" to move into the collab position?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you do not." },
     "referenced_cards": [ "hSD07-007" ]
@@ -3473,7 +3473,7 @@
     "date": "2025-02-14",
     "question": {
       "jp": "お休みしているhSD07-007〈不知火フレア〉のブルームエフェクト「また一つ成長した私を」の能力で、コラボポジションの残りHP70以下のホロメンと交代することはできますか？",
-      "en": "Can I use hSD07-007 Shiranui Flare's Bloom Effect \"I've grown a little bit\" to move it into the collab position even if it is resting?"
+      "en": "Can I use hSD07-007 Shiranui Flare's Bloom Effect \"I've Grown Once Again\" to move it into the collab position even if it is resting?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD07-007", "hSD07-012" ]
@@ -3483,11 +3483,11 @@
     "date": "2025-02-14",
     "question": {
       "jp": "お休みしているhSD07-007〈不知火フレア〉がブルームエフェクト「また一つ成長した私を」の能力で、コラボポジションの残りHP70以下のホロメンと交代しました。\n次のリセットステップでバックポジションに戻った場合、このホロメンはお休みしますか？",
-      "en": "After using hSD07-007 Shiranui Flare's Bloom Effect \"I've grown a little bit\" while resting, during the next Reset Phase is the holomem still resting?"
+      "en": "After using hSD07-007 Shiranui Flare's Bloom Effect \"I've Grown Once Again\" while resting, during the next reset phase is the holomem still resting?"
     },
     "answer": {
       "jp": "はい、リセットステップでアクティブにした後、バックポジションへ移動しお休みします。",
-      "en": "Yes. During the Reset Phase it will be unrested, before moving to the back position and resting again."
+      "en": "Yes. During the reset phase it will be set to active, before moving to the back position and resting again."
     },
     "referenced_cards": [ "hSD07-007" ]
   },
@@ -3496,7 +3496,7 @@
     "date": "2025-02-14",
     "question": {
       "jp": "hSD07-012〈尾丸ポルカ〉のコラボエフェクト「僕らに水を」は、自分と相手の手札の枚数が同じでも1枚引けますか？",
-      "en": "Does hSD07-012 Omaru Polka's Collab Effect \"Give us water\" allow me to draw a card if I have the same number of cards in hand as my opponent?"
+      "en": "Does hSD07-012 Omaru Polka's Collab Effect \"Give Us Water\" allow me to draw a card if I have the same number of cards in hand as my opponent?"
     },
     "answer": { "jp": "いいえ、引けません。", "en": "No, it does not." },
     "referenced_cards": [ "hSD07-012" ]
@@ -3506,11 +3506,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "自分のデッキの中に「パソコン」を含むカードが無い場合、hBP03-001〈姫森ルーナ〉の推しスキル「パソコンならわかるのら」を使用することはできますか？",
-      "en": "Can I use hBP03-001 Himemori Luna's Oshi Skill \"If you had a PC, you'd understand\" if there are no cards with \"PC\" in their name in my deck?"
+      "en": "Can I use hBP03-001 Himemori Luna's Oshi skill \"I Know How to Use a Computew!\" if there are no cards with \"PC\" in their card name in my deck?"
     },
     "answer": {
       "jp": "はい、その場合、ホロパワーを支払い、デッキの中を見て、手札に加えられる「パソコン」を含むカードが無いので効果の解決を終えます。",
-      "en": "Yes. In this case you pay the holo Power cost and look inside your deck, but since there are no cards with \"PC\" in the name to add to hand, you shuffle your deck without adding any."
+      "en": "Yes. In this case you pay the holo Power cost and look inside your deck, but since there are no cards with \"PC\" in the card name to add to hand, you shuffle your deck without adding any."
     },
     "referenced_cards": [ "hBP03-001" ]
   },
@@ -3519,7 +3519,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "自分のアーカイブにhBP03-105〈ルーナイト〉が4枚ある場合、hBP03-001〈姫森ルーナ〉のSP推しスキル「ルーナイト集合」を使用することはできますか？",
-      "en": "Can I use hBP03-001 Himemori Luna's SP Oshi Skill \"Lu-knights gathering\" if I have four copies of hBP03-105 Lu-knights in my archive?"
+      "en": "Can I use hBP03-001 Himemori Luna's SP Oshi skill \"Lu-knights, Assemble\" if I have four copies of hBP03-105 Lu-knights in my archive?"
     },
     "answer": {
       "jp": "はい、ホロパワーを支払い、デッキの中を見て、ホロメンに付けられるhBP03-105〈ルーナイト〉が無いので効果の解決を終えます。\n[4/01更新]3/11(火)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
@@ -3532,7 +3532,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-001〈姫森ルーナ〉のSP推しスキル「ルーナイト集合」で公開されたhBP03-105〈ルーナイト〉は〈姫森ルーナ〉以外に付けることはできますか？",
-      "en": "Can I attach a hBP03-105 Lu-knights that I revealed using hBP03-001 Himemori Luna's SP Oshi Skill \"Lu-knights gathering\" to 1 of my holomem other than Himemori Luna?"
+      "en": "Can I attach a hBP03-105 Lu-knights that I revealed using hBP03-001 Himemori Luna's SP Oshi skill \"Lu-knights, Assemble\" to 1 of my holomem other than Himemori Luna?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP03-001", "hBP03-105" ]
@@ -3542,7 +3542,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-002〈獅白ぼたん〉のSP推しスキル「狙撃」は、センターポジションのホロメンの色が白緑の場合でも使用できますか？",
-      "en": "Can I use hBP03-002 Shishiro Botan's SP Oshi Skill \"Aiming\" if my center holomem is White/Green?"
+      "en": "Can I use hBP03-002 Shishiro Botan's SP Oshi skill \"Sniping\" if my center holomem is White/Green?"
     },
     "answer": { "jp": "はい、使用できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-002" ]
@@ -3552,11 +3552,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "自分のアーカイブにhBP03-107〈35P〉が無い場合、hBP03-003〈さくらみこ〉の推しスキル「35P帰ってくるのかッ！？って！」を使用することはできますか？",
-      "en": "Can I use hBP03-003 Sakura Miko's Oshi Skill \"Is 35P coming back?!\" even if I have no hBP03-107 35Ps in my archive?"
+      "en": "Can I use hBP03-003 Sakura Miko's Oshi skill \"Are 35P Making a Comeback?!\" even if I have no hBP03-107 35P in my archive?"
     },
     "answer": {
       "jp": "はい、ホロパワーを支払い、その後、アーカイブの中にhBP03-107〈35P〉があれば手札に加え、無ければ何も起こらず効果の解決を終えます。",
-      "en": "Yes. In this case you pay the holo Power cost, and then if any 35Ps have been added to archive you may return them to your hand. If not, then the effect finishes resolving without anything else happening."
+      "en": "Yes. In this case you pay the holo Power cost, and then if any 35P have been added to archive you may return them to your hand. If not, then the effect finishes resolving without anything else happening."
     },
     "referenced_cards": [ "hBP03-003", "hBP03-107" ]
   },
@@ -3565,7 +3565,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-003〈さくらみこ〉のSP推しスキル「あきらめない心にぇ」は、手札にカードが1枚も無くても使用することはできますか？",
-      "en": "Can I use hBP03-003 Sakura Miko's SP OShi Skill \"A heart that doesn't give up\" even if I have no cards in my hand?"
+      "en": "Can I use hBP03-003 Sakura Miko's SP Oshi skill \"The Strength to not Give Up\" even if I have no cards in my hand?"
     },
     "answer": { "jp": "はい、使用できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-003" ]
@@ -3575,7 +3575,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-004〈FUWAMOCO〉の推しスキル「モコちゃん！」は、自分のhBP03-050〈FUWAMOCO〉にエールを送ることはできますか？",
-      "en": "Can I use hBP03-004 FUWAMOCO's Oshi Skill \"Moco-chan!\" to send a cheer to hBP03-050 FUWAMOCO?"
+      "en": "Can I use hBP03-004 FUWAMOCO's Oshi skill \"Moco-chan!\" to send a cheer to hBP03-050 FUWAMOCO?"
     },
     "answer": {
       "jp": "はい、できます。\nカード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。",
@@ -3588,7 +3588,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-004〈FUWAMOCO〉のSP推しスキル「BAU BAU!」を使ったホロメンは、相手のセンターホロメンやコラボホロメンがいない場合、直接バックホロメンにアーツを使うことはできますか?",
-      "en": "If I use hBP03-004 FUWAMOCO's SP Oshi Skill \"BAU BAU!\" on 1 of my holomem, and my opponent has no center or collab holomem, can my holomem target 1 of my opponent's back holomem directly?"
+      "en": "If I use hBP03-004 FUWAMOCO's SP Oshi skill \"BAU BAU!\" on 1 of my holomem, and my opponent has no center or collab holomem, can my holomem target 1 of my opponent's back holomem directly?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, it can." },
     "referenced_cards": [ "hBP03-004" ]
@@ -3598,11 +3598,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "相手のhBP01-087〈こぼ・かなえる〉のアーツ「雨のマントラ」の能力で自分の〈戌神ころね〉が2人同時にダウンした時、hBP03-006〈戌神ころね〉のSP推しスキル「ウォウウォウウォウウォウ」で2人分のエールの付け替えと、ホロメンを手札に戻すことはできますか？",
-      "en": "If my opponent uses hBP01-087 Kobo Kanaeru's Arts \"Rain Mantra\" and two of my Inugami Korone are downed at the same time, can I use hBP03-006 Inugami Korone's SP Oshi Skill \"Wowowowow\" to move the cheers from both of them, and return a holomem to my hand from both?"
+      "en": "If my opponent uses hBP01-087 Kobo Kanaeru's Arts \"Rain Mantra\" and two of my Inugami Korone are downed at the same time, can I use hBP03-006 Inugami Korone's SP Oshi skill \"Wow Wow Wow Wow\" to move the cheers from both of them, and return a holomem to my hand from both?"
     },
     "answer": {
       "jp": "いいえ。ダウン処理は1人ずつ処理されるため、どちらか1人のみに使用できます。",
-      "en": "No, you cannot. Down processing is performed on one holomem at a time, so the Skill can only be used on one holomem."
+      "en": "No, you cannot. Down processing is performed on one holomem at a time, so the skill can only be used on one holomem."
     },
     "referenced_cards": [ "hBP01-087", "hBP03-006" ]
   },
@@ -3611,7 +3611,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "自分のhBP03-066〈戌神ころね〉が3枚目に重なっている状態（Debut、1stホロメンの上にhBP03-066〈戌神ころね〉が重ねられている状態）で相手のターンにダウンしました。\nその後、hBP03-006〈戌神ころね〉のSP推しスキル「ウォウウォウウォウウォウ」を使って、ホロメンを戻したいのですが、「選んだホロメンを含め重なっているホロメン」とはどのカードを指しますか?",
-      "en": "My hBP03-066 Inugami Korone is the third card in a stack (on top of a Debut and 1st holomem), and is downed during my opponent's turn.\nIf I use hBP03-006 Inugami Korone's SP Oshi Skill \"Wowowowow\" to return one of these cards to hand, what are the cards I can choose between?"
+      "en": "My hBP03-066 Inugami Korone is the third card in a stack (on top of a Debut and 1st holomem), and is downed during my opponent's turn.\nIf I use hBP03-006 Inugami Korone's SP Oshi skill \"Wow Wow Wow Wow\" to return one of these cards to hand, what are the cards I can choose between?"
     },
     "answer": {
       "jp": "この場合、Debut、1stホロメンの上にhBP03-066〈戌神ころね〉と重ねられているため、3枚のうち好きな1枚を手札に戻します。",
@@ -3624,7 +3624,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "自分のデッキの中にファンが無い場合、hBP03-007〈角巻わため〉の推しスキル「Member sheep いらっしゃい！」を使用することはできますか？",
-      "en": "Can I use hBP03-007 Tsunomaki Watame's Oshi Skill \"Membersheep welcome!\" if there are no fans in my deck?"
+      "en": "Can I use hBP03-007 Tsunomaki Watame's Oshi Skill \"Welcome to the Member Sheep!\" if there are no fans in my deck?"
     },
     "answer": {
       "jp": "はい、その場合、ホロパワーを支払い、デッキの中を見て、手札に加えられるファンが無いのでデッキをシャッフルし、効果の解決を終えます。",
@@ -3637,7 +3637,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-0012〈姫森ルーナ〉のブルームエフェクト「一緒に最高のライブにしようね」の能力で、ファンが付いているセンターホロメンを選びました。\nその後、バトンタッチをし、他のホロメンをセンターポジションに出し、アーツを使用しました。\nこの場合、アーツダメージは「+20」されますか？",
-      "en": "When using hBP03-012 Himemori Luna's Bloom Effect \"Let's have the best live together\" I selected my center holomem. After that I Baton Passed to another holomem, does the new center holomem have Arts+20?"
+      "en": "When using hBP03-012 Himemori Luna's Bloom Effect \"Let's Make this the Best Concert Ever!\" I selected my center holomem. After that I Baton Passed to another holomem, does the new center holomem have Arts+20?"
     },
     "answer": {
       "jp": "いいえ、ブルームエフェクトの能力によって選んだホロメンのアーツのみが「+20」されます。",
@@ -3649,7 +3649,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-012〈姫森ルーナ〉のブルームエフェクト「一緒に最高のライブにしようね」の能力で、hBP01-123〈野うさぎ同盟〉が付いているhBP01-096〈兎田ぺこら〉を選びました。\nその後、コラボをし、コラボエフェクト「それは「冒険」」の能力を使い、さらにhBP01-123〈野うさぎ同盟〉の能力でサイコロを振り直しました。\nこの場合、hBP01-123〈野うさぎ同盟〉が付いていないhBP01-096〈兎田ぺこら〉のアーツは「+20」されますか？",
-      "en": "When using hBP03-012 Himemori Luna's Bloom Effect \"Let's have the best live together\" I selected hBP01-096 Usada Pekora with a hBP01-123 Wild Rabbit Alliance attached.\nAfter this, I Collabed with that holomem, and during the Collab Effect \"That is an \"Adventure\"\" I re-rolled the die using the ability of hBP01-123 Nousagi Alliance, causing it to be archived.\nIn this case, does hBP01-096 Usada Pekora still have Arts+20?"
+      "en": "When using hBP03-012 Himemori Luna's Bloom Effect \"Let's Make this the Best Concert Ever!\" I selected hBP01-096 Usada Pekora with a hBP01-123 Wild Rabbit Alliance attached.\nAfter this, I Collabed with that holomem, and during the Collab Effect \"That is an \"Adventure\"\" I re-rolled the die using the ability of hBP01-123 Wild Rabbit Alliance, causing it to be archived.\nIn this case, does hBP01-096 Usada Pekora still have Arts+20?"
     },
     "answer": {
       "jp": "はい、ブルームエフェクトの能力によって選んだホロメンにファンが付いていれば「+20」されるため、アーツを使った時に付いている必要はありません。",
@@ -3662,7 +3662,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-017〈獅白ぼたん〉のコラボエフェクト「プリペア」は、HPが減っているホロメンがいなくてもエールデッキの上から1枚をアーカイブできますか?",
-      "en": "Can I use hBP03-017 Shishiro Botan's Collab Effect \"Preparation\" to archive the top card of my cheer deck even if I have no damaged holomems?"
+      "en": "Can I use hBP03-017 Shishiro Botan's Collab Effect \"Prepare\" to archive the top card of my cheer deck even if I have no holomem with reduced HP?"
     },
     "answer": { "jp": "はい、アーカイブできます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-017" ]
@@ -3672,11 +3672,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-021〈獅白ぼたん〉のブルームエフェクト「なんとかしてくれる獅白ぼたん」は、自分のアーカイブの緑エール2枚を、自分の#シューター1人に付けることはできますか?",
-      "en": "Can I use hBP03-021 Shishiro Botan's Bloom Effect \"Shishiro Botan will do something about it\" to attach two cheers to one of my holomem with #Shooter?"
+      "en": "Can I use hBP03-021 Shishiro Botan's Bloom Effect \"Shishiro Botan will fix it somehow\" to attach 2 cheers to 1 of my holomem with #Shooter?"
     },
     "answer": {
       "jp": "いいえ、#シューターを持つホロメン2人までに、アーカイブの緑エールを1枚ずつ付ける能力のため、1人の場合は1枚しか付けることはできません。",
-      "en": "No, you cannot. The Bloom Effect allows you to attach 1 cheer to each of up to two holomem, if you only choose one holomem then it can still only have 1 cheer attached."
+      "en": "No, you cannot. The Bloom Effect allows you to attach 1 cheer to each of up to 2 holomem, if you only choose 1 holomem then it can still only have 1 cheer attached."
     },
     "referenced_cards": [ "hBP03-021" ]
   },
@@ -3685,11 +3685,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」の「自分のライフは相手の能力で減らない。」とは、アーツダメージや特殊ダメージによるダウンでも減らなくなりますか?",
-      "en": "Does the text \"you take no Life Damage from your opponent's abilities\" in hBP03-022 Aki Rosenthal's Gift \"Appearance of another world\" mean that my Life is not reduced by my holomem being downed by Special Damage?"
+      "en": "Does the text \"your life cannot be reduced by your opponent's abilities\" in hBP03-022 Aki Rosenthal's Gift \"My Otherworldly Form\" mean that my life is not reduced by my holomem being downed by special damage?"
     },
     "answer": {
       "jp": "いいえ、アーツダメージや特殊ダメージなどでダウンした際のルールによるライフの減少については、通常通りライフダメージとして受けます。\n何らかの能力によって「ライフ−X(数値)」されるものによってのみ減らなくなります。",
-      "en": "No, when your holomem are downed by Special or Arts Damage, your Life is reduced as normal Life damage. The only time it is not reduced is by abilities that use the text \"Life-X\" in them."
+      "en": "No, when your holomem are downed by special or Arts damage, your life is reduced as normal life damage. The only time it is not reduced is by abilities that use the text \"life-X\" in them."
     },
     "referenced_cards": [ "hBP03-022" ]
   },
@@ -3698,11 +3698,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "相手のパフォーマンスステップが開始した時にhBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」を使った後、相手の〈白上フブキ〉のアーツによってhBP03-022〈アキ・ローゼンタール〉がダウンし、hBP02-001〈白上フブキ〉の推しSPスキル「フブキングダム」の能力により、サイコロを振り奇数を出されました。\nこの場合、hBP03-022〈アキ・ローゼンタール〉のギフト「異国の世界の姿」の「自分のライフは相手の能力で減らない。」は発揮されず、ライフが「-1」されますか？",
-      "en": "When my opponent's Performance Step started, I used hBP03-022 Aki Rosenthal's Gift \"Appearance of another world\".\nThen hBP03-022 Aki Rosenthal was downed by an Arts used by my opponent's Shirakami Fubuki, and my opponent used hBP02-001 Shirakami Fubuki's SP Oshi Skill \"FBKINGDOM\", rolled a die, and rolled an odd number.\nIn this case, does Aki Rosenthal's Gift \"Appearance of another world\" not activate, resulting in me taking 1 extra Life damage?"
+      "en": "When my opponent's performance phase started, I used hBP03-022 Aki Rosenthal's Gift \"My Otherworldly Form\".\nThen hBP03-022 Aki Rosenthal was downed by an Arts used by my opponent's Shirakami Fubuki, and my opponent used hBP02-001 Shirakami Fubuki's SP Oshi skill \"FBKINGDOM\", rolled a die, and rolled an odd number.\nIn this case, does Aki Rosenthal's Gift \"My Otherworldly Form\" not activate, resulting in me taking 1 extra Life damage?"
     },
     "answer": {
       "jp": "いいえ、ギフト「異国の世界の姿」は、「相手のパフォーマンスステップが開始する時」に発揮されるため、そのターン中であればhBP03-022〈アキ・ローゼンタール〉がいなくてもライフは「-1」されません。",
-      "en": "No, the Gift \"Appearance of another world\" is activated at the start of your opponent's Performance Step and stays active for the entire turn even if Aki Rosenthal is downed."
+      "en": "No, the Gift \"My Otherworldly Form\" is activated at the start of your opponent's performance phase and stays active for the entire turn even if Aki Rosenthal is downed."
     },
     "referenced_cards": [ "hBP02-001", "hBP03-022" ]
   },
@@ -3711,11 +3711,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-023〈兎田ぺこら〉のアーツ「カードするぺこ」は、他の〈兎田ぺこら〉のブルームエフェクトなどによってサイコロを振った場合でも「+40」されますか?",
-      "en": "Does hBP03-023 Usada Pekora's Arts \"Cardsuru peko\" gain +40 Damage even if I've rolled a die as part of another Usada Pekora's Bloom Effect?"
+      "en": "Does hBP03-023 Usada Pekora's Arts \"Time to Play Cards Peko\" gain +40 even if I've rolled a die as part of another Usada Pekora's Bloom Effect?"
     },
     "answer": {
       "jp": "はい、何らかの〈兎田ぺこら〉の能力によりサイコロが振られていた場合は「+40」されます。",
-      "en": "Yes, if any dice have been rolled as part of any Usada Pekora's ability this turn, the Arts gains +40 Damage."
+      "en": "Yes, if any dice have been rolled as part of any Usada Pekora's ability this turn, the Arts gains +40."
     },
     "referenced_cards": [ "hBP03-023" ]
   },
@@ -3724,11 +3724,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-033〈赤井はあと〉のブルームエフェクト「全力でいくぞおおお!」の能力で、相手のツールが付いているセンターホロメンに与えるダメージは特殊ダメージ「10」と特殊ダメージ「20」が与えられますか?",
-      "en": "When using hBP03-033 Akai Haato's Bloom Effect \"I'll go with all my might!\" on a holomem with a tool attached, do I deal 10 Special Damage and then 20 Special Damage?"
+      "en": "When using hBP03-033 Akai Haato's Bloom Effect \"Gonna Give it my All!\" on a holomem with a tool attached, do I deal 10 special damage and then 20 special damage?"
     },
     "answer": {
       "jp": "いいえ、特殊ダメージ「10」は与えられず、かわりに特殊ダメージ「30」が与えられます。",
-      "en": "No, you deal one instance of 30 Special Damage."
+      "en": "No, you deal one instance of 30 special damage."
     },
     "referenced_cards": [ "hBP03-033" ]
   },
@@ -3763,7 +3763,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-038〈モココ・アビスガード〉のブルームエフェクト「遊びの時間だー！」の能力で、自分のデッキからhBP03-050〈FUWAMOCO〉を手札に加えることはできますか?",
-      "en": "Can I use hBP03-038 Mococo Abyssgard's Bloom Effect \"It's play time!\" to add hBP03-050 FUWAMOCO to my hand from my deck?"
+      "en": "Can I use hBP03-038 Mococo Abyssgard's Bloom Effect \"It's playtime!\" to add hBP03-050 FUWAMOCO to my hand from my deck?"
     },
     "answer": {
       "jp": "はい、できます。\nカード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。",
@@ -3776,7 +3776,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-039〈モココ・アビスガード〉のギフト「魔界乃番犬の暴れん坊」は、自分のセンターホロメンがhBP03-050〈FUWAMOCO〉の場合でもお休みせずバックポジションに移動しますか?",
-      "en": "Can I use hBP03-039 Mococo Abyssgard's Gift \"Rambunctious demonic guard dog\" to move to the back position without resting even if my center holomem is hBP03-050 FUWAMOCO?"
+      "en": "Can I use hBP03-039 Mococo Abyssgard's Gift \"The Rowdy Demonic Guard Dog\" to move to the back position without resting even if my center holomem is hBP03-050 FUWAMOCO?"
     },
     "answer": {
       "jp": "はい、お休みせずに移動します。\nカード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。",
@@ -3789,7 +3789,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-042〈フワワ・アビスガード〉のブルームエフェクト「フワ花流水」は、他の自分のステージのホロメンがhBP03-050〈FUWAMOCO〉のみの場合でも特殊ダメージ「20」を与えることはできますか?",
-      "en": "Can I use hBP03-042 Fuwawa Abyssgard's Bloom Effect \"Fuwa Flower Water\" to deal Special Damage even if my only other holomem is hBP03-050 FUWAMOCO?"
+      "en": "Can I use hBP03-042 Fuwawa Abyssgard's Bloom Effect \"Fuwa Floating with the Current\" to deal special damage even if my only other holomem is hBP03-050 FUWAMOCO?"
     },
     "answer": {
       "jp": "はい、与えられます。\nカード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。",
@@ -3802,7 +3802,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-039〈モココ・アビスガード〉のアーツ「もこもこしてる方」は、自分のセンターホロメンがhBP03-050〈FUWAMOCO〉の場合でも「+30」されますか?",
-      "en": "Does hBP03-039 Mococo Abyssgard's Arts \"The Fuzzy One\" gain +30 Damage if my center holomem is hBP03-050 FUWAMOCO?"
+      "en": "Does hBP03-039 Mococo Abyssgard's Arts \"The Fuzzy One\" gain +30 if my center holomem is hBP03-050 FUWAMOCO?"
     },
     "answer": {
       "jp": "はい、されます。\nカード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。",
@@ -3815,7 +3815,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-043〈フワワ・アビスガード〉のアーツ「一緒に食べる?」で、自分のhBP03-050〈FUWAMOCO〉にエールを付け替えることはできますか?",
-      "en": "Can I use hBP03-043 Fuwawa Abyssgard's Arts \"Shall we eat together?\" to move a cheer to hBP03-050 FUWAMOCO?"
+      "en": "Can I use hBP03-043 Fuwawa Abyssgard's Arts \"Wanna eat together?\" to move a cheer to hBP03-050 FUWAMOCO?"
     },
     "answer": {
       "jp": "はい、できます。\nカード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。",
@@ -3828,11 +3828,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-045〈こぼ・かなえる〉のブルームエフェクト「ブルーレイン」を使用し、相手のhBP01-126〈座員〉が付いている〈尾丸ポルカ〉2人それぞれに「10」ダメージと「20」ダメージを与えようとしました。\nこの場合、与えられるダメージは「20」ダメージと「30」ダメージになりますか？",
-      "en": "I used hBP03-045 Kobo Kanaeru's Bloom Effect \"Blue Rain\" to deal 10 Special Damage to one of my opponent's Omaru Polka, and 20 Special Damage to another Omaru Polka, each of which had 1 hBP01-126 Troupe Member attached.\nIn this case, do they take 20 and 30 Special Damage respectively?"
+      "en": "I used hBP03-045 Kobo Kanaeru's Bloom Effect \"Blue Rain\" to deal 10 special damage to one of my opponent's Omaru Polka, and 20 special damage to another Omaru Polka, each of which had 1 hBP01-126 Troupe Member attached.\nIn this case, do they take 20 and 30 special damage respectively?"
     },
     "answer": {
       "jp": "はい、それぞれに与えられるダメージに加え、hBP01-126〈座員〉の能力により受けるダメージが「+10」ずつされるため、「20」ダメージと「30」ダメージを与えることになります。",
-      "en": "Yes, they do. The Damage is dealt to each holomem in one instance, after which Troupe Member adds +10 damage to each of them."
+      "en": "Yes, they do. The damage is dealt to each holomem in one instance, after which Troupe Member adds +10 damage to each of them."
     },
     "referenced_cards": [ "hBP01-126", "hBP03-045" ]
   },
@@ -3841,7 +3841,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-049〈火威青〉のアーツ「イケメンにお任せを」は、相手のセンターホロメンとバックホロメンに特殊ダメージを割り振って与えることはできますか?",
-      "en": "Can I use hBP03-049 Hiodoshi Ao's Arts \"Leave it to this ikemen\" to deal Special Damage to both my opponent's center and back holomem?"
+      "en": "Can I use hBP03-049 Hiodoshi Ao's Arts \"Leave it to the Handsome One!\" to deal special damage to both my opponent's center and back holomem?"
     },
     "answer": {
       "jp": "いいえ、センターホロメンかバックホロメンのどちらか1人のみに与えられます。",
@@ -3854,7 +3854,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-056〈常闇トワ〉のアーツ「Break your XXX」は、相手のセンターホロメンとコラボホロメンに特殊ダメージを割り振って与えることはできますか?",
-      "en": "Can I use hBP03-056 Tokoyami Towa's Arts \"Break your ×××\" to deal Special Damage to both my opponent's center and collab holomem?"
+      "en": "Can I use hBP03-056 Tokoyami Towa's Arts \"Break your ×××\" to deal special damage to both my opponent's center and collab holomem?"
     },
     "answer": {
       "jp": "いいえ、センターホロメンかコラボホロメンのどちらか1人のみに与えられます。",
@@ -3867,11 +3867,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-064〈戌神ころね〉のアーツ「ぶるぁあああああ!!!!!!!!!!!!!!」の能力の、「初期ライフ」とはいくつのことですか?",
-      "en": "What is the \"starting Life\" referred to by hBP03-064 Inugami Korone's Art \"BRAAAAAAHH!!!!!!!!!!!!!!!\"?"
+      "en": "What is the \"initial life\" referred to by hBP03-064 Inugami Korone's Art \"BrRRAAAAAAAAH!!!!!!!!!!!!!!\"?"
     },
     "answer": {
       "jp": "初期ライフとは、自分の推しホロメンに記載されているライフの数を指します。",
-      "en": "\"Starting Life\" refers to the amount of Life listed on your Oshi holomem."
+      "en": "\"Initial life\" refers to the amount of life listed on your Oshi holomem."
     },
     "referenced_cards": [ "hBP03-064" ]
   },
@@ -3880,11 +3880,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-065〈戌神ころね〉のギフト「ボクシングスタイル」は、hBP01-001〈天音かなた〉の推しスキル「ぎゅっぎゅっ」によって残りHPを「50」にすることはできますか？",
-      "en": "While hBP03-065 Inugami Korone's Gift \"Boxing Style\" is active, can my center holomem's HP be increased to 50 by my opponent's hBP01-001 Amane's Kanata's Oshi Skill \"Squish Squish\"?"
+      "en": "While hBP03-065 Inugami Korone's Gift \"Boxing Style\" is active, can my center holomem's HP be reduced to 50 by my opponent's hBP01-001 Amane's Kanata's Oshi skill \"Squish Squish\"?"
     },
     "answer": {
       "jp": "いいえ、HPの変動はしないため「50」にはできません。",
-      "en": "No, their HP cannot be changed, so it cannot be set to 50 even as an increase."
+      "en": "No, their HP cannot be changed, so it cannot be set to 50."
     },
     "referenced_cards": [ "hBP01-001", "hBP03-065" ]
   },
@@ -3893,11 +3893,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-065〈戌神ころね〉のギフト「ボクシングスタイル」は、パフォーマンスステップ中では特殊ダメージを与えることはできますか？",
-      "en": "While hBP03-065 Inugami Korone's Gift \"Boxing Style\" is active, is my center holomem's HP immune to Special Damage from my opponent's Arts?"
+      "en": "While hBP03-065 Inugami Korone's Gift \"Boxing Style\" is active, is my center holomem's HP immune to special damage from my opponent's Arts?"
     },
     "answer": {
       "jp": "はい、与えられます。",
-      "en": "No, \"Boxing Style\" is only active during your opponent's Main Phase, so any Performance Phase actions such as Arts can still deal damage."
+      "en": "No, \"Boxing Style\" is only active during your opponent's main phase, so any performance phase actions such as Arts can still deal damage."
     },
     "referenced_cards": [ "hBP03-065" ]
   },
@@ -3906,11 +3906,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-066〈戌神ころね〉のギフト「わんだふぉ〜♡」は、ルールによるライフダメージとどちらが先に処理されますか?",
-      "en": "When hBP03-066 Inugami Korone's Gift \"Wan-derful ❤️\" is activated, which is processed first: Life damage from the holomem being downed or the cheer gain from the Gift?"
+      "en": "When hBP03-066 Inugami Korone's Gift \"Wan-Dafuuul♡\" is activated, which is processed first: life damage from the holomem being downed or the cheer gain from the Gift?"
     },
     "answer": {
       "jp": "ギフト「わんだふぉ〜♡」の能力を先に処理し、その後ダウン処理を行い、ライフダメージの処理を行います。",
-      "en": "The Gift \"Wan-derful ❤️\" is resolved first, then the rest of the Down process, and finally the Life damage."
+      "en": "The Gift \"Wan-Dafuuul♡\" is resolved first, then the rest of the Down process, and finally the life damage."
     },
     "referenced_cards": [ "hBP03-066" ]
   },
@@ -3919,7 +3919,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-066〈戌神ころね〉のギフト「わんだふぉ〜♡」とhBP03-006〈戌神ころね〉の推しSPスキル「ウォウウォウウォウウォウ」を使いたい時、どちらの能力から処理されますか?",
-      "en": "If I want to use hBP03-066 Inugami Korone's Gift \"Wan-derful ❤️\" and hBP03-006 Inugami Korone's SP Oshi Skill \"Wowowowow\" at the same time, which is resolved first?"
+      "en": "If I want to use hBP03-066 Inugami Korone's Gift \"Wan-Dafuuul♡\" and hBP03-006 Inugami Korone's SP Oshi skill \"Wow Wow Wow Wow\" at the same time, which is resolved first?"
     },
     "answer": {
       "jp": "どちらも「ダウンした時」に使える能力であるため、好きな順番で処理ができます。",
@@ -3932,7 +3932,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-072〈角巻わため〉のギフト「まだまだいくよー！」は、自分の他の〈角巻わため〉にエールを付け替えずダウンすることはできますか？",
-      "en": "When my hBP03-072 Tsunomaki Watame is downed, can I refuse to use the Gift \"We're not done yet!\" to move cheer to another of my holomem?"
+      "en": "When my hBP03-072 Tsunomaki Watame is downed, can I refuse to use the Gift \"We're Gonna Keep on Going!\" to reattach cheer to another of my holomem?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-072" ]
@@ -3955,7 +3955,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-074〈アユンダ・リス〉のアーツ「繋がる思い」は、〈アイラニ・イオフィフティーン〉と〈ムーナ・ホシノヴァ〉のどちらかがいれば「+10」されますか？",
-      "en": "Does hBP03-074 Ayunda Risu's Art \"Wishes that connect\" gain +10 Damage if only one of Airani Iofifteen or Moona Hoshinova is on my stage?"
+      "en": "Does hBP03-074 Ayunda Risu's Arts \"Connected Wishes\" gain +10 if my stage has only one of Airani Iofifteen or Moona Hoshinova?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP03-074" ]
@@ -3965,7 +3965,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-077〈アユンダ・リス〉のブルームエフェクト「同期の絆」は、デッキからDebutホロメンを1枚も公開しないことはできますか？",
-      "en": "Can I use hBP03-077 Ayunda Risu's Bloom Effect \"Bond of Synchronization\" without revealing a Debut holomem from my deck?"
+      "en": "Can I use hBP03-077 Ayunda Risu's Bloom Effect \"Bond between Genmates\" without revealing a Debut holomem from my deck?"
     },
     "answer": {
       "jp": "はい、1枚も公開せずにデッキをシャッフルして効果の解決を終えます。",
@@ -3978,7 +3978,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-078〈アユンダ・リス〉のアーツ「魔法の森のリスの女の子」は、緑エールと青エールのどちらかが付いていなくても「+50」されますか？",
-      "en": "Does hBP03-078 Ayunda Risu's Arts \"Squirrel girl in the magical forest\" gain +50 Damage if only one of green or blue cheer is attached?"
+      "en": "Does hBP03-078 Ayunda Risu's Arts \"Squirrel Girl from the Magical Forest\" gain +50 if only one of green or blue cheer is attached?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP03-078" ]
@@ -4011,11 +4011,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-083〈音乃瀬奏〉のギフト「なんちゅーこった」の「相手のパフォーマンスステップが終了する時」とは、どのタイミングを指しますか？",
-      "en": "What does \"At the end of your opponent's Performance Phase\" mean in hBP03-083 Otonose Kanade's Gift \"What happened?\""
+      "en": "What does \"At the end of your opponent's performance phase\" mean in hBP03-083 Otonose Kanade's Gift \"What the heck!\""
     },
     "answer": {
       "jp": "「相手のパフォーマンスステップが終了する時」とは、相手のアーツの使用が終わり、エンドステップへ移行する前となります。",
-      "en": "It means after your opponent finishes using Arts and before they move to their End Phase."
+      "en": "It means after your opponent finishes using Arts and before they move to their end phase."
     },
     "referenced_cards": [ "hBP03-083" ]
   },
@@ -4067,7 +4067,7 @@
     },
     "answer": {
       "jp": "いいえ、使用できません。 \nそのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。",
-      "en": "No, you cannot. Support Cards cannot be used if using them does not change the game state other than putting the Support Card in the Archive."
+      "en": "No, you cannot. Support cards cannot be used if using them does not change the game state other than putting the support card in the archive."
     },
     "referenced_cards": [ "hBP03-086" ]
   },
@@ -4080,7 +4080,7 @@
     },
     "answer": {
       "jp": "いいえ、使用できません。\nそのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。",
-      "en": "No, you cannot. Support Cards cannot be used if using them does not change the game state other than putting the Support Card in the Archive."
+      "en": "No, you cannot. Support cards cannot be used if using them does not change the game state other than putting the support card in the archive."
     },
     "referenced_cards": [ "hBP03-087" ]
   },
@@ -4089,7 +4089,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？",
-      "en": "Can I use hBP03-088 Totsumachi if I have the same amount of Life as my opponent?"
+      "en": "Can I use hBP03-088 Totsumachi if I have the same amount of life as my opponent?"
     },
     "answer": { "jp": "いいえ、使用できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP03-088" ]
@@ -4126,7 +4126,7 @@
     },
     "answer": {
       "jp": "いいえ、使用できません。\nそのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。",
-      "en": "No, you cannot. Support Cards cannot be used if using them does not change the game state other than putting the Support Card in the archive."
+      "en": "No, you cannot. Support cards cannot be used if using them does not change the game state other than putting the support card in the archive."
     },
     "referenced_cards": [ "hBP03-088" ]
   },
@@ -4145,7 +4145,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？",
-      "en": "After I have used hBP03-088 Totsumachi to move a holomem to the collab position, does my opponent move that holomem to the back position during their Reset Phase?"
+      "en": "After I have used hBP03-088 Totsumachi to move a holomem to the collab position, does my opponent move that holomem to the back position during their reset phase?"
     },
     "answer": {
       "jp": "はい、バックポジションへ移動させ、お休みさせます。",
@@ -4162,7 +4162,7 @@
     },
     "answer": {
       "jp": "いいえ、デッキの中は非公開領域のため、任意の枚数を加え、処理を終えることができます。",
-      "en": "No, you do not have to. Your Deck is a hidden zone, so you may choose to reveal none."
+      "en": "No, you do not have to. Your deck is a hidden zone, so you may choose to reveal none."
     },
     "referenced_cards": [ "hBP03-089" ]
   },
@@ -4171,7 +4171,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-095〈ホロキャップ〉が付いているDebutホロメンがBloomした時、このカードはアーカイブされますか？",
-      "en": "When a Debut holomem with a hBP03-095 holoCap attached Blooms, will the holoCap be archived?"
+      "en": "When a Debut holomem with a hBP03-095 holoCap attached blooms, will the holoCap be archived?"
     },
     "answer": { "jp": "いいえ、アーカイブはされません。", "en": "No, it will not." },
     "referenced_cards": [ "hBP03-095" ]
@@ -4207,11 +4207,11 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-106〈SSRB〉か付いているhBP03-019〈獅白ぼたん〉のブルームエフェクト「歌う事は楽しい事」の能力で、バックホロメンのエールをアーカイブする時、代わりにhBP03-106〈SSRB〉をアーカイブすることはできますか?",
-      "en": "When using hBP03-019 Shishiro Botan's Bloom Effect \"Singing is fun\", can I archive a hBP03-106 SSRB attached to hBP03-019 Shishiro Botan instead of a cheer from 1 of my back holomem?"
+      "en": "When using hBP03-019 Shishiro Botan's Bloom Effect \"Singing is Fun\", can I archive a hBP03-106 SSRB attached to hBP03-019 Shishiro Botan instead of a cheer from 1 of my back holomem?"
     },
     "answer": {
       "jp": "はい、「このファンが付いているホロメンの能力でエールをアーカイブする時」なので、代わりにアーカイブすることができます。",
-      "en": "Yes, since \"the holomem this fan is attached to would archive cheer as part of their ability\" you may archive the SSRB."
+      "en": "Yes, since \"you would archive a cheer by the ability of the holomem this fan is attached to\" you may archive the SSRB."
     },
     "referenced_cards": [ "hBP03-019", "hBP03-106" ]
   },
@@ -4220,7 +4220,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-106〈SSRB〉が付いているhBP03-019〈獅白ぼたん〉のブルームエフェクト「歌う事は楽しい事」の能力は、バックホロメンにエールが付いていなくても、代わりにhBP03-106〈SSRB〉をアーカイブすることはできますか?",
-      "en": "When using hBP03-019 Shishiro Botan's Bloom Effect \"Singing is fun\", can I archive a hBP03-106 SSRB attached to hBP03-019 Shishiro Botan instead of a cheer from 1 of my back holomem, even if there are no cheers attached to any of my back holomem?"
+      "en": "When using hBP03-019 Shishiro Botan's Bloom Effect \"Singing is Fun\", can I archive a hBP03-106 SSRB attached to hBP03-019 Shishiro Botan instead of a cheer from 1 of my back holomem, even if there are no cheers attached to any of my back holomem?"
     },
     "answer": {
       "jp": "はい、「このファンが付いているホロメンの能力でエールをアーカイブする時」なので、代わりにアーカイブすることができます。",
@@ -4237,7 +4237,7 @@
     },
     "answer": {
       "jp": "いいえ、hBP03-106〈SSRB〉は、hBP03-106〈SSRB〉が付いている〈獅白ぼたん〉の能力によってエールをアーカイブする場合のみ可能となるため、hBP02-092〈フブラ〉の能力でアーカイブすることはできません。",
-      "en": "No, you cannot. You can only archive SSRB when using the abilities of the holomem it is attached to, so it cannot be done when using the ability of Fubuzilla."
+      "en": "No, you cannot. You can only archive SSRB when using the abilities of the holomem it is attached to, so it cannot be done when using the ability of Fubzilla."
     },
     "referenced_cards": [ "hBP02-092", "hBP03-106" ]
   },
@@ -4272,7 +4272,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-111〈ころねすきー〉の「無色-1」とは、どういう意味ですか？",
-      "en": "What does \"1 colorless cheer\" mean in hBP03-111 Koronesuki?"
+      "en": "What does \"-1 colorless\" mean in hBP03-111 Koronesuki?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色1つ分減らす能力です。",
@@ -4285,7 +4285,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP01-114〈石の斧〉とhBP01-121〈Kotori〉が付いているホロメンがアーツを使った時、hBP01-121〈kotori〉の能力によってhBP01-114〈石の斧〉によるダメージを「-10」することはできますか？",
-      "en": "When a holomem with hBP01-114 Stone Axe and hBP01-121 Kotori attached uses an Arts, does the ability of Kotori reduce the damage from Stone Axe?"
+      "en": "When a holomem with hBP01-114 Stone Axe and hBP01-121 Kotori attached uses Arts, does the ability of Kotori reduce the damage from Stone Axe?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP01-114", "hBP01-121" ]
@@ -4305,7 +4305,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "残りHPが20のhBP03-095〈ホロキャップ〉が付いているhBP01-096〈兎田ぺこら〉にhBP03-052〈常闇トワ〉のアーツ「そういう感じなんだ」を使いました。\nこの場合、相手のhBP03-095〈ホロキャップ〉をアーカイブし、ダウンさせることはできますか？",
-      "en": "When using hBP03-052 Tokoyami Towa's Arts \"That's what it feels like\" while my opponent has a hBP01-096 Usada Pekora with a hBP03-095 holoCap attached and 20 HP remaining, can I archive the holoCap and down my opponent's holomem?"
+      "en": "When using hBP03-052 Tokoyami Towa's Arts \"So that's how it is, huh\" while my opponent has a hBP01-096 Usada Pekora with a hBP03-095 holoCap attached and 20 HP remaining, can I archive the holoCap and down my opponent's holomem?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-096", "hBP03-052", "hBP03-095" ]
@@ -4315,7 +4315,7 @@
     "date": "2025-03-18",
     "question": {
       "jp": "残りHP70のコラボホロメンhBP01-095〈オーロ・クロニー〉のアーツ「早送り」を使い、バックホロメンの〈不知火フレア〉を手札のhSD07-007〈不知火フレア〉にbloomさせました。\nその後、ブルームエフェクト「また一つ成長した私を」を使い、hBP01-095〈オーロ・クロニー〉と交代させた場合、アーツを使うことはできますか？",
-      "en": "I used hBP01-095 Ouro Kronii's Arts \"Fast Forward\" with 70 HP remaining while in the collab position, and made my back holomem Bloom to hSD07-007 Shiranui Flare.\nI then used the Bloom Effect \"I've grown a little bit\" to swap with the Ouro Kronii in the collab position. Can I now use Arts with Shiranui Flare in the collab position?"
+      "en": "I used hBP01-095 Ouro Kronii's Arts \"Fast Forward\" with 70 HP remaining while in the collab position, and bloomed my back holomem to hSD07-007 Shiranui Flare.\nI then used the Bloom Effect \"I've Grown Once Again\" to swap with the Ouro Kronii in the collab position. Can I now use Arts with Shiranui Flare in the collab position?"
     },
     "answer": { "jp": "いいえ、使えません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP01-095", "hSD07-007" ]
@@ -4325,11 +4325,11 @@
     "date": "2025-03-27",
     "question": {
       "jp": "自分のバックホロメンが4人の時、hBP03-096〈ライフル〉とhBP03-101〈ビビ〉が付いているhBP03-056〈常闇トワ〉がアーツ「Break your XXX」を使いました。\nこの場合、相手のセンターホロメンかコラボホロメンどちらかに与えられる特殊ダメージはいくつになりますか？",
-      "en": "When using hBP03-056 Tokoyami Towa's Arts \"Break your ×××\" while it has a hBP03-096 Rifle and hBP03-101 Bibi attached, and I have 4 back holomem with #Singing, how much Special Damage will I do to my opponent's center or collab holomem?"
+      "en": "When using hBP03-056 Tokoyami Towa's Arts \"Break your ×××\" while it has a hBP03-096 Rifle and hBP03-101 Bibi attached, and I have 4 back holomem with #Singing, how much special damage will I deal to my opponent's center or collab holomem?"
     },
     "answer": {
       "jp": "先にアーツ「Break your XXX」の能力で与える特殊ダメージを決めた後にhBP03-096〈ライフル〉とhBP03-101〈ビビ〉の能力でそれぞれ「＋10」ずつされるため、与えられる特殊ダメージは「100」となります。",
-      "en": "First the total Special Damage from the Arts \"Break your ×××\" is calculated, and then the effects of Rifle and Bibi are added. So in this case, 4 x 20 = 80 Special Damage from the Arts, +10 from Rifle and +10 from Bibi gives a total of 100 Special Damage."
+      "en": "First the total special damage from the Arts \"Break your ×××\" is calculated, and then the effects of Rifle and Bibi are added. So in this case, 4 x 20 = 80 special damage from the Arts, +10 from Rifle and +10 from Bibi gives a total of 100 special damage."
     },
     "referenced_cards": [ "hBP03-056", "hBP03-096", "hBP03-101" ]
   },
@@ -4351,7 +4351,7 @@
     "date": "2025-03-27",
     "question": {
       "jp": "hBP03-030〈さくらみこ〉のギフト「エリートギャンブル」を使い、その後hBP03-030〈さくらみこ〉へBloomしました。\nこの場合、Bloom後のhBP03-030〈さくらみこ〉のギフト「エリートギャンブル」を使うことはできますか？",
-      "en": "After using hBP03-030 Sakura Miko's Gift \"Elite Gambling\", I then Bloomed it into another hBP03-030 Sakura Miko. Can I use the Gift \"Elite Gambling\" once again?"
+      "en": "After using hBP03-030 Sakura Miko's Gift \"Elite Gamble\", I then bloomed it into another hBP03-030 Sakura Miko. Can I use the Gift \"Elite Gamble\" once again?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-030" ]
@@ -4384,7 +4384,7 @@
     "date": "2025-04-28",
     "question": {
       "jp": "自分のhBP01-081〈星街すいせい〉のアーツ「輝く彗星」を使い、hBP01-116〈うぱお〉が付いているセンターホロメンの〈天音かなた〉をダウンさせました。\nその後ダウン処理を行い、自分のhBP01-007〈星街すいせい〉のSP推しスキル「シューティングスター」を使い、相手のバックホロメンのhBP01-116〈うぱお〉が付いているバックホロメンの〈天音かなた〉をダウンさせました。\nこの場合、それぞれのhBP01-116〈うぱお〉の能力はいつ処理されますか？",
-      "en": "I used hBP01-081 Hoshimachi Suisei's Arts \"Shining Comet\" to down my opponent's Center Amane Kanata, which had a hBP01-116 Upao attached.\nAfter this, the Down Process was executed then I used hBP01-007 Hoshimachi Suisei's SP Oshi Skill \"Shooting Star\" to down my opponent's Back Amane Kanata, which also had an Upao attached.\nIn this case, when are the effects of each Upao processed?"
+      "en": "I used hBP01-081 Hoshimachi Suisei's Arts \"Shining Comet\" to down my opponent's center Amane Kanata, which had a hBP01-116 Upao attached.\nAfter this, the Down Process was executed then I used hBP01-007 Hoshimachi Suisei's SP Oshi skill \"Shooting Star\" to down my opponent's back Amane Kanata, which also had an Upao attached.\nIn this case, when are the effects of each Upao processed?"
     },
     "answer": {
       "jp": "処理の優先順位として、ルールとして処理されるもの（ダウン処理など）が優先的にすべて処理されます。\n次にターンプレイヤー側で処理すべき能力（使った時に発揮される能力など）が優先的にすべて処理されます。\nそして最後に、非ターンプレイヤー側で処理すべき能力（ダメージを与えられた時に発揮される能力など）がすべて処理されます。\n\nhBP01-116〈うぱお〉は非ターンプレイヤー側で処理すべき能力となるため、すべて最後に処理されます。",
@@ -4446,11 +4446,11 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、選んだ〈雪花ラミィ〉が相手のhBP03-066〈戌神ころね〉をダウンさせた場合、SP推しスキル「ぶーん、バリバリバリバリ」の能力と、相手のダウン処理やギフト「わんだふぉ～♡」の能力はどれから処理されますか？",
-      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vrooooom! Baribaribaribari\" and the selected Yukihana Lamy downed my opponent's hBP03-066 Inugami Korone.\nIn this case, which is processed first: the effects of my SP Oshi Skill \"Vrooooom! Baribaribaribari\" or my opponent's Gift effect \"Wan-derful ❤️\"?"
+      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi skill \"Vrooooom! Baribaribaribari\" and the selected Yukihana Lamy downed my opponent's hBP03-066 Inugami Korone.\nIn this case, which is processed first: the effects of my SP Oshi skill \"Vrooooom! Baribaribaribari\" or my opponent's Gift \"Wan-Dafuuul♡\"?"
     },
     "answer": {
       "jp": "先にSP推しスキル「ぶーん、バリバリバリバリ」の能力により2枚引きます。\nその後、ギフト「わんだふぉ〜♡」の能力を処理し、ライフダメージの処理を行います。",
-      "en": "You draw 2 cards with the effect of \"Vrooooom! Baribaribaribari\" first, as it is your effect. After that, your opponent processes their Gift \"Wan-derful ❤️\" then deals with Life damage."
+      "en": "You draw 2 cards with the effect of \"Vrooooom! Baribaribaribari\" first, as it is your effect. After that, your opponent processes their Gift \"Wan-Dafuuul♡\" then deals with Life damage."
     },
     "referenced_cards": [ "hBP03-066", "hBP04-004" ]
   },
@@ -4626,7 +4626,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-049〈ムーナ・ホシノヴァ〉のアーツ「Shining Moon」の能力は、自分の他のホロメンがhBP03-050〈FUWAMOCO〉のみでも「+50」されますか？",
-      "en": "Does the ability of hBP04-049 Moona Hoshinova's Arts \"Shining Moon\" still give +50 Damage if the only other holomem on my stage is hBP03-050 FUWAMOCO?"
+      "en": "Does hBP04-049 Moona Hoshinova's Arts \"Shining Moon\" still gain +50 if the only other holomem on my stage is hBP03-050 FUWAMOCO?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP03-050", "hBP04-049" ]
@@ -4724,7 +4724,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-072〈大空スバル〉のアーツ「太陽少女」は、hBP01-126〈座員〉やhBP03-107〈35P〉も数えることができますか？",
-      "en": "Does hBP04-072 Oozora Subaru's Art \"Sun Girl\" count hBP01-126 Troupe Member or hBP03-107 35P for its effect?"
+      "en": "Does hBP04-072 Oozora Subaru's Arts \"Sun Girl\" count hBP01-126 Troupe Member or hBP03-107 35P for its effect?"
     },
     "answer": { "jp": "いいえ、数えられません。", "en": "No, it does not." },
     "referenced_cards": [ "hBP01-126", "hBP03-107", "hBP04-072" ]
@@ -5048,7 +5048,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP03-012〈姫森ルーナ〉のブルームエフェクト「一緒に最高のライブにしようね」の能力で、ファンが付いていないhBP01-096〈兎田ぺこら〉を選びました。\nその後、hBP01-123〈野うさぎ同盟〉をhBP01-096〈兎田ぺこら〉に付けてアーツを使った場合、アーツは+20されますか？",
-      "en": "I used hBP03-012 Himemori Luna's Bloom Effect \"Let's have the best live together\" choosing a hBP01-096 Usada Pekora with no fans attached.\nIf I attach a hBP01-123 Wild Rabbit Alliance during the same turn, will the holomem gain Arts+20?"
+      "en": "I used hBP03-012 Himemori Luna's Bloom Effect \"Let's Make this the Best Concert Ever!\" choosing a hBP01-096 Usada Pekora with no fans attached.\nIf I attach a hBP01-123 Wild Rabbit Alliance during the same turn, will the holomem gain Arts+20?"
     },
     "answer": {
       "jp": "いいえ、ブルームエフェクトの能力によって選んだ時に、そのホロメンにファンが付いていなければ+20されません。",
@@ -5269,7 +5269,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-007〈不知火フレア〉の推しスキル「キミの力になりたいから」の能力で、コラボホロメンとバックポジションのhSD07-003〈不知火フレア〉を交代させました。\nこの場合、hSD07-003〈不知火フレア〉のコラボエフェクト「大切な仲間たちと」は使えますか？",
-      "en": "I used hBP05-007 Shiranui Flare's Oshi Skill \"I want to be your strength\" to switch my collab holomem with my hSD07-003 Shiranui Flare from the back position.\nIn this case, can I use Shiranui Flare's collab effect \"With my precious friends\"?"
+      "en": "I used hBP05-007 Shiranui Flare's Oshi skill \"I want to be your strength\" to switch my collab holomem with my hSD07-003 Shiranui Flare from the back position.\nIn this case, can I use Shiranui Flare's collab effect \"With Cherished Companions\"?"
     },
     "answer": { "jp": "いいえ、使えません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP05-007", "hSD07-003" ]
@@ -5855,9 +5855,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-001〈ラオーラ・パンテーラ〉のSP推しスキル「BIG TROUBLE!!」を使った後に、自分のリセットステップでコラボホロメンの〈ラオーラ・パンテーラ〉をお休みさせてバックポジションへ移動させることはできますか？",
-      "en": null
+      "en": "After I have used hBP06-001 Raora Panthera's SP Oshi skill \"BIG TROUBLE!!\", can I still rest my collab holomem when moving it to the back position during my reset phase?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-001" ]
   },
   "Q498": {
@@ -5865,9 +5865,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-001〈ラオーラ・パンテーラ〉のSP推しスキル「BIG TROUBLE!!」を使った後に、相手がhBP06-088〈ドッキリうさぎ〉を使い、自分のセンターホロメンを選びました。\nこの場合、選ばれたホロメンはお休みしてバックポジションへ移動しますか？",
-      "en": null
+      "en": "After I have used hBP06-001 Raora Panthera's SP Oshi skill \"BIG TROUBLE!\"\", my opponent used hBP06-088 Prank Rabbit and chose my center holomem.\nIn this case, does the chosen holomem still rest and move to the back position?"
     },
-    "answer": { "jp": "はい、移動します。", "en": null },
+    "answer": { "jp": "はい、移動します。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP06-001", "hBP06-088" ]
   },
   "Q499": {
@@ -5875,11 +5875,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-002〈響咲リオナ〉の推しスキル「やりたいように、私は私らしく」の能力は、自分のデッキが1枚以下でも使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP06-002 Isaki Riona's Oshi skill \"I'll do what I like and live how I want to\" even if I have 1 or less cards in my deck?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、0枚になるまでデッキの上からカードをアーカイブし、+20します。",
-      "en": null
+      "en": "Yes, you can. In this case, archive cards from your deck until you have none left, and then give Arts+20."
     },
     "referenced_cards": [ "hBP06-002" ]
   },
@@ -5888,9 +5888,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキの枚数が7枚で推しホロメンがhBP06-002〈響咲リオナ〉の時、hBP06-020〈響咲リオナ〉のアーツ「レゾナンスロア」の能力でデッキを2枚アーカイブし、相手のセンターホロメンをダウンさせました。\nこの場合、hBP06-002〈響咲リオナ〉のSP推しスキル「生き抜いていくんです！」の能力を使って相手のライフを-1することはできますか？",
-      "en": null
+      "en": "I have 7 cards in my deck and my Oshi holomem is hBP06-002 Isaki Riona. I then use hBP06-020 Isaki Riona's Arts \"Resonance Roar\" to archive the top 2 cards of my deck, and down my opponent's center holomem.\nIn this case, can I use hBP06-002 Isaki Riona's SP Oshi skill \"I will survive!\" to give my opponent -1 life?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-002", "hBP06-020" ]
   },
   "Q501": {
@@ -5898,11 +5898,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の「[BuzzホロメンかBuzzホロメンからBloomしている〈風真いろは〉]」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does the phase \"[Buzz holomem or Kazama Iroha which has bloomed from a Buzz holomem]\" mean in hBP06-003 Kazama Iroha's Oshi skill \"When in doubt, just do it!\"?"
     },
     "answer": {
       "jp": "Buzzホロメン、もしくは一番上に重なっているホロメンが〈風真いろは〉であり、その真下のカードがBuzzホロメンであるホロメン、という状況を指します。",
-      "en": null
+      "en": "This means the target must be either a Buzz holomem, or a Kazama Iroha which is stacked directly on top of a Buzz holomem."
     },
     "referenced_cards": [ "hBP06-003" ]
   },
@@ -5911,9 +5911,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？",
-      "en": null
+      "en": "When using hBP06-003 Kazama Iroha's Oshi skill \"When in doubt, just do it!\", can I send cheer to a Buzz holomem that is not Kazama Iroha?"
     },
-    "answer": { "jp": "はい、送れます。", "en": null },
+    "answer": { "jp": "はい、送れます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-003" ]
   },
   "Q503": {
@@ -5921,11 +5921,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」は、SP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」を使っていなくても使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP06-005 Hakos Baelz's Oshi skill \"Personification of Chaos\" even if I have not used the SP Oshi skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\"?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、ホロパワーを支払い、SP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」を使っていないため、何もせず効果の処理を終えます。",
-      "en": null
+      "en": "Yes, you can. In this case, you pay holo Power as normal, but then since you have not used the SP Oshi skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\" the effect ends without doing anything."
     },
     "referenced_cards": [ "hBP06-005" ]
   },
@@ -5934,9 +5934,12 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力は、サイコロを振り、出た目の数と同じになるまでカードを引かなければなりませんか？",
-      "en": null
+      "en": "When using hBP06-005 Hakos Baelz's Oshi skill \"Personification of Chaos\", do I have to roll the die and do I have to draw the number of cards instructed?"
     },
-    "answer": { "jp": "はい、引かなければなりません。", "en": null },
+    "answer": {
+      "jp": "はい、引かなければなりません。",
+      "en": "Yes, you must roll the die and you must draw cards."
+    },
     "referenced_cards": [ "hBP06-005" ]
   },
   "Q505": {
@@ -5944,9 +5947,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-005〈ハコス・ベールズ〉のSP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」の能力は、サイコロを振らずに処理を終えることはできますか？",
-      "en": null
+      "en": "Can I use hBP06-005 Hakos Baelz's SP Oshi skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\" and not roll a die?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you must roll the die." },
     "referenced_cards": [ "hBP06-005" ]
   },
   "Q506": {
@@ -5954,11 +5957,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-007〈ロボ子さん〉の推しスキル「PONじゃないもん！！」の能力は、自分のデッキが1枚以下でも使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP06-007 Robocosan's Oshi skill \"I'm not PON!\" even if I have 1 or less cards in my deck?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、0枚になるまでデッキの上からカードをアーカイブします。",
-      "en": null
+      "en": "Yes, you can. In this case, archive cards from your deck until you have none left, and then return 1 card from archive to hand."
     },
     "referenced_cards": [ "hBP06-007" ]
   },
@@ -5967,9 +5970,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-008〈夏色まつり〉の推しスキル「おまつりわっしょーい！！！」の能力でサイコロを振り、出た目がライフの数と同じ場合、自分のデッキから、カード1枚を手札に加え、その後自分のデッキの上から1枚をホロパワーにすることはできますか？",
-      "en": null
+      "en": "When using hBP06-008 Natsuiro Matsuri's Oshi skill \"Omatsuri Wasshoi!!\", if I roll a dice and the result is the same as my current life amount, do I add 1 card to hand and also place 1 card in holo Power?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP06-008" ]
   },
   "Q508": {
@@ -5977,11 +5980,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-008〈夏色まつり〉の推しスキル「おまつりわっしょーい！！！」の能力でサイコロを振り、出た目がライフの数と同じ場合、自分のデッキから、カード1枚を手札に加えるのと、自分のデッキの上から1枚をホロパワーにする順番を自分で選ぶことはできますか？",
-      "en": null
+      "en": "When using hBP06-008 Natsuiro Matsuri's Oshi skill \"Omatsuri Wasshoi!!\", if I roll a dice and the result is the same as my current life amount, can I choose the order in which I add 1 card to hand and place 1 card in holo Power?"
     },
     "answer": {
       "jp": "いいえ、できません。\n必ず書かれている順番に処理します。",
-      "en": null
+      "en": "No, you cannot. You must do these in the order written."
     },
     "referenced_cards": [ "hBP06-008" ]
   },
@@ -5990,9 +5993,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？",
-      "en": null
+      "en": "When using hBP06-008 Natsuiro Matsuri's SP Oshi skill \"I definitely want to win!!!!!!!\" on my first turn while going first, can I use 2 Limited support cards this turn?"
     },
-    "answer": { "jp": "いいえ、なりません。", "en": null },
+    "answer": { "jp": "いいえ、なりません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-008" ]
   },
   "Q510": {
@@ -6000,11 +6003,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-014〈ラオーラ・パンテーラ〉のギフト「夢紡ぎのアトリエ」の能力で、ホロパワーにあるカードを見た時、必ず1枚を手札に加えなければなりませんか？",
-      "en": null
+      "en": "When using hBP06-014 Raora Panthera's Gift \"Dream Weaving Atelier\", when looking at my holo Power, do I have to add 1 of them to my hand?"
     },
     "answer": {
       "jp": "はい、ホロパワーが1枚でもある場合は加えなければなりません。",
-      "en": null
+      "en": "Yes, you do."
     },
     "referenced_cards": [ "hBP06-014" ]
   },
@@ -6013,11 +6016,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が0枚の時、hBP06-014〈ラオーラ・パンテーラ〉のギフト「夢紡ぎのアトリエ」の能力で、ホロパワーを1枚選んで手札に加えるのみはできますか？",
-      "en": null
+      "en": "If I have 0 cards in my hand when using hBP06-014 Raora Panthera's Gift \"Dream Weaving Atelier\", can I end the effect after adding a card to my hand from holo Power?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの場合、加えたカードをホロパワーに置きます。",
-      "en": null
+      "en": "No, you cannot. In this case, place the card you added to hand into holo Power."
     },
     "referenced_cards": [ "hBP06-014" ]
   },
@@ -6026,9 +6029,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が0枚の時、hBP06-014〈ラオーラ・パンテーラ〉のギフト「夢紡ぎのアトリエ」の能力で、手札に加えたカードをホロパワーにすることはできますか？",
-      "en": null
+      "en": "If I have 0 cards in my hand when using hBP06-014 Raora Panthera's Gift \"Dream Weaving Atelier\", do I put the card added to my hand back into holo Power?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP06-014" ]
   },
   "Q513": {
@@ -6036,9 +6039,12 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-014〈ラオーラ・パンテーラ〉のアーツ「色彩のリナシメント」で相手のホロメンをダウンさせた場合。ギフト「夢紡ぎのアトリエ」の能力は、いつ発揮されますか？",
-      "en": null
+      "en": "If I down my opponent's holomem using hBP06-014 Raora Panthera's Arts \"Rinascimento of Colors\", when is the Gift \"Dream Weaving Atelier\" processed?"
     },
-    "answer": { "jp": "ダウン処理の後に発揮されます。", "en": null },
+    "answer": {
+      "jp": "ダウン処理の後に発揮されます。",
+      "en": "It is processed after the Down process."
+    },
     "referenced_cards": [ "hBP06-014" ]
   },
   "Q514": {
@@ -6046,9 +6052,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-016〈響咲リオナ〉のコラボエフェクト「一緒に共闘しよ」の能力で、コラボエフェクトか#FLOW GLOWのどちらかを持つホロメンを手札に加えることはできますか？",
-      "en": null
+      "en": "When using hBP06-016 Isaki Riona's Collab effect \"Let's fight together\", can I add a holomem with either a Collab effect, or #FLOW GLOW (but not both) to my hand?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-016" ]
   },
   "Q515": {
@@ -6056,9 +6062,12 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキが1枚以下の時、hBP06-020〈響咲リオナ〉のギフト「意志の指揮者」の能力を使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP06-020 Isaki Riona's Gift \"Conductor of Will\" if I have 1 or less cards in my deck?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": {
+      "jp": "いいえ、できません。",
+      "en": "No, you cannot.\n(this contradicts another Q&A, we are waiting to see if there is a resolution to this)"
+    },
     "referenced_cards": [ "hBP06-020" ]
   },
   "Q516": {
@@ -6066,11 +6075,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-020〈響咲リオナ〉のアーツ「レゾナンスロア」の能力は、1枚ずつアーカイブしたカードを見て、好きなタイミングで終えることはできますか？",
-      "en": null
+      "en": "When using hBP06-020 Isaki Riona's Arts \"Resonance Roar\", can I look at the cards I'm archiving one by one, and choose to stop at any time?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの場合、アーカイブする枚数を宣言してからデッキをアーカイブします。",
-      "en": null
+      "en": "No, you cannot. You must declare the number of cards you will archive before archiving any cards."
     },
     "referenced_cards": [ "hBP06-020" ]
   },
@@ -6079,9 +6088,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が5枚で、センターホロメンがhBP06-026〈風真いろは〉の時、hSD04-004〈癒月ちょこ〉をコラボさせ、手札を1枚捨ててデッキから何も手札に加えませんでした。\nこの場合、hBP06-026〈風真いろは〉のギフト「元気をお届け！」の能力で、コラボホロメンのhSD04-004〈癒月ちょこ〉にエールを送ることはできますか？",
-      "en": null
+      "en": "I have 5 cards in my hand, and my center holomem is hBP06-026 Kazama Iroha. I then collab with hSD04-004 Yuzuki Choco, and use the Collab Effect \"One Hell of a Meal\" to archive a card from my hand but do not add any cards from my deck to hand.\nIn this case, can I use Kazama Iroha's Gift \"Delivering you energy!\" to send cheer to my collab holomem Yuzuki Choco?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-026", "hSD04-004" ]
   },
   "Q518": {
@@ -6089,9 +6098,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が4枚で、センターホロメンがhBP06-026〈風真いろは〉の時、hSD06-008〈博衣こより〉をコラボさせ、カードを1枚引きました。\nこの場合、hBP06-026〈風真いろは〉のギフト「元気をお届け！」の能力で、コラボホロメンのhSD06-008〈博衣こより〉にエールを送ることはできますか？",
-      "en": null
+      "en": "I have 4 cards in my hand, any my center holomem is hBP06-026 Kazama Iroha. I then collab with hSD06-008 Hakui Koyori, and use the Collab Effect \"Brains!\" to draw a card.\nIn this case, can I use Kazama Iroha's Gift \"Delivering you energy!\" to send cheer to my collab holomem Hakui Koyori?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-026", "hSD06-008" ]
   },
   "Q519": {
@@ -6099,11 +6108,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-027〈風真いろは〉のアーツ「伝えたい想い」で相手のホロメンをダウンさせた場合、能力でホロメンをBloomできるのはいつですか？",
-      "en": null
+      "en": "If I down my opponent's holomem using hBP06-027 Kazama Iroha's Arts \"Step Together\", when do I use the Gift \"Thoughts I want to convey\" to bloom my holomem?"
     },
     "answer": {
       "jp": "「相手のセンターホロメンをダウンさせた時」なので、ホロメンをアーカイブする前となります。",
-      "en": null
+      "en": "As this effect is triggered \"When this holomem downs your opponent's center holomem\", you bloom your holomem before the downed holomem is archived."
     },
     "referenced_cards": [ "hBP06-027" ]
   },
@@ -6112,9 +6121,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-030〈姫森ルーナ〉のギフト「みんなへ感謝の気持ち」の能力は、hBP03-105〈ルーナイト〉自身の能力でアーカイブする場合も、かわりにバックホロメンの〈姫森ルーナ〉に付け替えることはできますか？",
-      "en": null
+      "en": "When archiving hBP03-105 Lu-knights using its ability, can I use hBP06-030 Himemori Luna's Gift \"Feelings of gratitude toward everyone\" to reattach it to my back holomem instead?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-105", "hBP06-030" ]
   },
   "Q521": {
@@ -6122,9 +6131,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP01-080〈星街すいせい〉のコラボエフェクト「雪山の記憶」の能力によって、残りHP40の、hBP03-105〈ルーナイト〉が付いている〈姫森ルーナ〉がダウンしました。\nこの場合、コラボポジションのhBP06-030〈姫森ルーナ〉のギフト「みんなへ感謝の気持ち」の能力を発揮することはできますか？",
-      "en": null
+      "en": "(this question is erroneous, but has been translated here as preservation of its intent - Suisei can only down a back holomem with its effect, while Luna can only save Lu-knights from a center holomem)\nMy opponent used hBP01-080 Hoshimachi Suisei's Collab Effect \"Memories of the Snowy Mountain\" to down my Himemori Luna with hBP03-105 Lu-knights attached and HP reduced by 40.\nIn this case, can I use hBP06-030 Himemori Luna's Gift \"Feelings of gratitude toward everyone\" to reattach the Lu-knights to my back holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-080", "hBP03-105", "hBP06-030" ]
   },
   "Q522": {
@@ -6132,11 +6141,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-039〈百鬼あやめ〉のギフト「余、なんも聞いとらんかった。」の「アーツダメージ」とは、アーツの能力による特殊ダメージも含まれますか？",
-      "en": null
+      "en": "In hBP06-039 Nakiri Ayame's Gift \"I didn't hear anything\", does \"Arts damage\" also include special damage caused by Arts?"
     },
     "answer": {
       "jp": "いいえ、含まれません。\nアーツダメージとは、アーツ名の右に記載されている数値です。",
-      "en": null
+      "en": "No, it does not."
     },
     "referenced_cards": [ "hBP06-039" ]
   },
@@ -6145,11 +6154,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-039〈百鬼あやめ〉のアーツ「百鬼乱舞 -朧月-」の能力は、1枚ずつアーカイブしたエールカードを見て、好きなタイミングでアーカイブを止めることはできますか？",
-      "en": null
+      "en": "When using hBP06-039 Nakiri Ayame's Arts \"Hundred Oni Dance -Hazy Moon-\", can I look at the cheer cards I'm archiving one by one, and choose to stop at any time?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの場合、アーカイブする枚数を宣言してからエールデッキをアーカイブします。",
-      "en": null
+      "en": "No, you cannot. You must declare the number of cards you will archive before archiving any cards."
     },
     "referenced_cards": [ "hBP06-039" ]
   },
@@ -6158,9 +6167,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-042〈ハコス・ベールズ〉のブルームエフェクト「Strawberry Princess」の能力は、手札が0枚でも1枚引くことはできますか？",
-      "en": null
+      "en": "When using hBP06-042 Hakos Baelz's Bloom Effect \"Strawberry Princess\", can I draw 1 card even if I have 0 cards in hand?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-042" ]
   },
   "Q525": {
@@ -6168,11 +6177,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-052〈ムーナ・ホシノヴァ〉のギフト「新月」の「アーツダメージ」とは、アーツの能力による特殊ダメージも含まれますか？",
-      "en": null
+      "en": "In hBP06-052 Moona Hoshinova's Gift \"New Moon\", does \"Arts damage\" also include special damage caused by Arts?"
     },
     "answer": {
       "jp": "いいえ、含まれません。\nアーツダメージとは、アーツ名の右に記載されている数値です。",
-      "en": null
+      "en": "No, it does not."
     },
     "referenced_cards": [ "hBP06-052" ]
   },
@@ -6181,11 +6190,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-055〈沙花叉クロヱ〉のコラボエフェクト「ワンワーーン！！！」の能力は、相手のアーカイブのエールが2枚以下の場合は使うことはできませんか？",
-      "en": null
+      "en": "Is it impossible for me to use hBP06-055 Sakamata Chloe's Collab Effect \"Bow wow!!!\" if my opponent has 2 or less cheers in their archive?"
     },
     "answer": {
       "jp": "いいえ、使えます。\nこの場合、可能な限り相手のセンターホロメンにエールを送り、その後、自分のアーカイブのエール1枚を自分の〈紫咲シオン〉に送ることができます。",
-      "en": null
+      "en": "No, you can still use it. In this case, you send as many cheers to your opponent's center holomem as possible, then send 1 cheer from your archive to your Murasaki Shion."
     },
     "referenced_cards": [ "hBP06-055" ]
   },
@@ -6194,11 +6203,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキが3枚以下の時、hBP06-056〈沙花叉クロヱ〉のアーツ「二人で紡いだ魔法」の能力を発揮することはできますか？",
-      "en": null
+      "en": "Can I use the ability of hBP06-055 Sakamata Chloe's Arts \"The magic we spun together\" if my deck has 3 or less cards?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、可能な限りデッキの上からカードを公開します。",
-      "en": null
+      "en": "Yes, you can. In this case, reveal as many cards as possible from your deck."
     },
     "referenced_cards": [ "hBP06-055" ]
   },
@@ -6207,11 +6216,11 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキが5枚以下の時、hBP06-057〈沙花叉クロヱ〉のアーツ「沙花叉と青春しよ？」の能力を発揮することはできますか？",
-      "en": null
+      "en": "Can I use the ability of hBP06-056 Sakamata Chloe's Arts \"Spend your youth with Sakamata?\" if my deck has 5 or less cards?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、可能な限りデッキの上からカードを公開します。",
-      "en": null
+      "en": "Yes, you can. In this case, reveal as many cards as possible from your deck."
     },
     "referenced_cards": [ "hBP06-056" ]
   },
@@ -6220,9 +6229,12 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキが1枚以下の時、hBP06-060〈森カリオペ〉のアーツ「Bull's-eye!!!!」でデッキの上からカードをアーカイブすることはできますか？",
-      "en": null
+      "en": "Can I use hBP06-060 Mori Calliope's Arts \"Bull's-eye!!!!\" to archive cards from my deck, if I have 1 or less cards in my deck?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": {
+      "jp": "はい、できます。",
+      "en": "Yes, you can.\n(this contradicts another Q&A, we are waiting to see if there is a resolution to this)"
+    },
     "referenced_cards": [ "hBP06-060" ]
   },
   "Q530": {
@@ -6230,9 +6242,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の推しホロメンがhBP06-007〈ロボ子さん〉で、自分のアーカイブにhBP03-110〈ろぼさー〉が2枚ある時、hBP06-064〈ロボ子さん〉のコラボエフェクト「いたずらしちゃうぞ～！」の能力で手札を2枚捨てました。\nこの場合、必ずhBP03-110〈ろぼさー〉を2枚手札に戻さなければなりませんか？",
-      "en": null
+      "en": "My Oshi holomem is hBP06-007 Robocosan, and I have 2 hBP03-110 Roboser in my archive. I then use hBP06-064 Robocosan's Collab Effect \"I'm going to play a prank on you!\" and archive 2 cards from my hand.\nIn this case, do I have to return 2 Roboser from my archive to hand?"
     },
-    "answer": { "jp": "はい、必ず戻します。", "en": null },
+    "answer": { "jp": "はい、必ず戻します。", "en": "Yes, you must." },
     "referenced_cards": [ "hBP03-110", "hBP06-007", "hBP06-064" ]
   },
   "Q531": {
@@ -6240,9 +6252,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のコラボホロメンがhBP01-023〈ときのそら〉で、センターホロメンがhBP06-066〈ロボ子さん〉の時、コラボホロメンのhBP01-023〈ときのそら〉のアーツ「止まらねえぞ」を使い、相手のセンターホロメンがダウンするまでに3回ダメージを与えました。\nこの場合、hBP06-066〈ロボ子さん〉のギフト「どり～む_コネクト.zero」は何回発揮できますか？",
-      "en": null
+      "en": "My collab holomem is hBP01-023 Tokino Sora, and my center holomem is hBP06-066 Robocosan. I then use Tokino Sora's Arts \"Not gonna stop\" and deal damage 3 times to my opponent's center holomem before it is downed.\nIn this case, how many times do I use Robocosan's Gift \"dream_CONNECT.zero\"?"
     },
-    "answer": { "jp": "3回まで発揮できます。", "en": null },
+    "answer": { "jp": "3回まで発揮できます。", "en": "You use it 3 times." },
     "referenced_cards": [ "hBP01-023", "hBP06-066" ]
   },
   "Q532": {
@@ -6250,9 +6262,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」の能力で、自分のお休みしている〈戌神ころね〉をアクティブにしました。\nその後、hBP06-069〈戌神ころね〉にBloomさせ、アーツ「しばきあげパンチング」を使った場合、+50されますか？",
-      "en": null
+      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\" to set my hBP06-067 Inugami Korone to active.\nIf I then bloom that holomem to hBP06-069 Inugami Korone, and use the Arts \"Shibakiage Punching\", does it still get +50?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP03-006", "hBP06-069" ]
   },
   "Q533": {
@@ -6260,9 +6272,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-084〈AIこより〉のギフト「「こんこよ」、古くなっちゃったかな？」の能力は、hBP01-106〈あとは任せた！〉で交代した場合も発揮されますか？",
-      "en": null
+      "en": "Can I use hBP06-084 AI Koyori's Gift \"\"Konkoyo\", I wonder if that's getting old?\" if I switch it using hBP01-106 I leave the rest to you!?"
     },
-    "answer": { "jp": "いいえ、されません。", "en": null },
+    "answer": { "jp": "いいえ、されません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP01-106", "hBP06-084" ]
   },
   "Q534": {
@@ -6270,9 +6282,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-088〈ドッキリうさぎ〉は、相手のホロメンがセンターホロメンのみの場合でも使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP06-088 Prank Rabbit even if my opponent only has a center holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-088" ]
   },
   "Q535": {
@@ -6280,9 +6292,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-096〈2人あわせてラムダック！〉は、同じhBP06-083〈ラムダック〉を2回選ぶことはできますか？",
-      "en": null
+      "en": "When using hBP06-096 The two of us are LAMBDUCK!, can I choose the same hBP06-083 LAMBDUCK twice?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-083", "hBP06-096" ]
   },
   "Q536": {
@@ -6290,9 +6302,12 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-097〈カワイイスタジャン〉が付いているBuzzホロメンを、hBP01-001〈天音かなた〉の推しスキル「ぎゅっぎゅっ」によって残りHPを「50」させることはできますか？",
-      "en": null
+      "en": "Can I use hBP01-001 Amane Kanata's Oshi skill \"Squish Squish\" to reduce the HP of a Buzz holomem with hBP06-097 Cute Varsity Jacket attached to 50?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": {
+      "jp": "いいえ、できません。",
+      "en": "No, their HP cannot be changed, so it cannot be set to 50."
+    },
     "referenced_cards": [ "hBP01-001", "hBP06-097" ]
   },
   "Q537": {
@@ -6300,9 +6315,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-104〈スバ友〉が付いている〈大空スバル〉がダウンした時、hBP06-104〈スバ友〉の能力で自身にエールを送ることはできますか？",
-      "en": null
+      "en": "When my Oozora Subaru with hBP06-104 Subatomo attached is downed, can I use Subatomo's effect to send cheer to the downed holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-104" ]
   }
 }
