@@ -4734,7 +4734,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-078〈アーニャ・メルフィッサ〉のギフト「宝物見つけた」の「黄-1」とは、どういう意味ですか？",
-      "en": "What does \"1 yellow cheer\" mean in hBP04-078 Anya Melfissa's Gift \"I found a treasure\"?"
+      "en": "What does \"-1 yellow\" mean in hBP04-078 Anya Melfissa's Gift \"I found a treasure\"?"
     },
     "answer": {
       "jp": "アーツを使うのに必要なエールの数を黄1つ分減らす能力です。",
@@ -4809,7 +4809,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-091〈限界飯〉の「無色-1」とは、どういう意味ですか？",
-      "en": "What does \"1 colorless cheer\" mean in hBP04-091 Struggle Meal?"
+      "en": "What does \"-1 colorless\" mean in hBP04-091 Struggle Meal?"
     },
     "answer": {
       "jp": "アーツを使うのに必要なエールの数を無色1つ分減らす能力です。",
@@ -5256,7 +5256,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-006〈ネリッサ・レイヴンクロフト〉のSP推しスキル「Shoot for the Moon」の「無色-1」とは、どういう意味ですか？",
-      "en": "What does \"1 colorless cheer\" mean in hBP05-006 Nerissa Ravencroft's SP Oshi Skill \"Shoot for the Moon\"?"
+      "en": "What does \"-1 colorless\" mean in hBP05-006 Nerissa Ravencroft's SP Oshi Skill \"Shoot for the Moon\"?"
     },
     "answer": {
       "jp": "アーツを使うのに必要なエールの数を無色1つ分減らす能力です。",
@@ -5553,7 +5553,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-075〈牛丼〉の「無色-2」とは、どういう意味ですか？",
-      "en": "What does \"2 colorless cheer\" mean in hBP05-075 Gyudon?"
+      "en": "What does \"-2 colorless\" mean in hBP05-075 Gyudon?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色2つ分減らす能力です。",
@@ -5806,7 +5806,7 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力の「無色+1」とは、どういう意味ですか？",
-      "en": "What does \"1 colorless cheer\" mean in hSD11-007 Mizumiya Su's Arts \"Shupishuwa~\"?"
+      "en": "What does \"+1 colorless\" mean in hSD11-007 Mizumiya Su's Arts \"Shupishuwa~\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。",
@@ -5819,7 +5819,7 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-008〈水宮枢〉のコラボエフェクト「FLOW GLOWのえらい宣伝担当」の能力の「無色+1」とは、どういう意味ですか？",
-      "en": "What does \"1 colorless cheer\" mean in hSD11-008 Mizumiya Su's Collab effect \"The publicity manager of FLOW GLOW\"?"
+      "en": "What does \"+1 colorless\" mean in hSD11-008 Mizumiya Su's Collab effect \"The publicity manager of FLOW GLOW\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。",
@@ -5832,7 +5832,7 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-009〈水宮枢〉のコラボエフェクト「感情の伝令者」の能力の「無色+3」とは、どういう意味ですか？",
-      "en": "What does \"3 colorless cheer\" mean in hSD11-009 Mizumiya Su's Collab effect \"Messenger of Emotions\"?"
+      "en": "What does \"+3 colorless\" mean in hSD11-009 Mizumiya Su's Collab effect \"Messenger of Emotions\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色3つ分増やす能力です。",
@@ -5934,7 +5934,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力は、サイコロを振り、出た目の数と同じになるまでカードを引かなければなりませんか？",
-      "en": "When using hBP06-005 Hakos Baelz's Oshi skill \"Personification of Chaos\", do I have to roll the die and do I have to draw the number of cards instructed?"
+      "en": "When using hBP06-005 Hakos Baelz's Oshi skill \"Personification of Chaos\", do I have to roll the die and do I have to draw the appropriate number of cards?"
     },
     "answer": {
       "jp": "はい、引かなければなりません。",
