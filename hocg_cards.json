@@ -28890,7 +28890,7 @@
         "name": { "jp": "ぱくぱく", "en": "Pakupaku" },
         "power": "80",
         "text": {
-          "jp": "[コラボポジション限定]自分のセンターホロメンに付いている〈ルーナイト〉1枚につき、このアーツに必要な無色エール-1。",
+          "jp": "[コラボポジション限定]自分のセンターホロメンに付いている〈ルーナイト〉1枚につき、このアーツに必要な無色-1。",
           "en": "[Collab Position Only]For each <Lu-knights> attached to your center holomem, this Arts requires -1 colorless."
         }
       }
@@ -35481,6 +35481,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-053",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-053_UR.webp", "en": null },
+        "img_hash": "v2|H32=yuq3qvaqlGo5ilSTSUpr5UrTSqXOFdu0tC2LNCGtVAmrJJJJLC/olJWqtJKVVi2rq6Kll36riWpttS2pmsrUk7ba2iY|CYM=385A0A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -36629,6 +36640,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-077",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-077_UR.webp", "en": null },
+        "img_hash": "v2|H32=tJRYarGQFeWrUDSlSFJKmFLH2ppaZaqVYWWq0aUt7N3Ni1RdBC1pIpauLdMlyVqldcpqXQrWrZq1SlUqalVSq63qVls|CYM=343619",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -36806,6 +36828,17 @@
         "img_path": { "jp": "hBP06/hBP06-081_RR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 12 Dec 2025 04:22:50 GMT" },
         "img_hash": "v2|H32=rqovq5OoMaerNKnW67Rymkq6SK1uGVJtVleS1NbW1tKswlYlV7VuFChquMtjTRWSdIkqVqpS4fqVntDRaFqpqomKkjY|CYM=24141B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-081",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-081_UR.webp", "en": null },
+        "img_hash": "v2|H32=1Mq5KpyK5eyrSOTMSuxLeVK1WnNTFVC1hlWl0swXxJdN0pJs0DRtgRabbpmgaSVbtNAF1klLatmWygWe0l7VdlXZltU|CYM=0A1D22",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
