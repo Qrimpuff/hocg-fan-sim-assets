@@ -5221,7 +5221,7 @@
         "type": "bloom",
         "name": { "jp": "成長した兎田ぺこらを", "en": "Usada Pekora has Improved" },
         "text": {
-          "jp": "自分のエールデッキの上から１枚を、自分のセンターホロメンかコラボホロメンに送る。",
+          "jp": "自分のエールデッキの上から1枚を、自分のセンターホロメンかコラボホロメンに送る。",
           "en": "Send the top card of your cheer deck to your center holomem or collab holomem."
         }
       }
@@ -13337,7 +13337,7 @@
         "name": { "jp": "グリム・リーパーの第一弟子", "en": "First Disciple of the Grim Reaper" },
         "power": "30+",
         "text": {
-          "jp": "自分のアーカイブにホロメンがある時、このアーツ+10。",
+          "jp": "自分のアーカイブにホロメンがあるなら、このアーツ+10。",
           "en": "If your archive has holomem, this Arts gets +10."
         }
       }
@@ -33702,6 +33702,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-014",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-014_UR.webp", "en": null },
+        "img_hash": "v2|H32=VpQpa7gkZJOrIiZzS1VTK0kxUue0uiiltDqtqqUqqkvVupZpsaRpdVSrlZJyqUm2KrWqqqmlbdkrxUmVttqFspVsVZU|CYM=13292B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -36138,6 +36149,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP06-066",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-066_UR.webp", "en": null },
+        "img_hash": "v2|H32=VNWrY9fUlFWrK7TRqayuzluufk1ay7NKFGuzGqmi9jqrqpZJtqbptlBNLbnWi02VqVCrVAWtTa+0qaTTVtuqulWr0ao|CYM=0B6A5F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -37236,7 +37258,7 @@
   },
   "hBP06-093": {
     "card_number": "hBP06-093",
-    "name": { "jp": "山田ルイ54世", "en": "YamadaLui54Sen" },
+    "name": { "jp": "山田ルイ54世", "en": "YamadaLui54Sei" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
@@ -44104,6 +44126,9 @@
     "name": { "jp": "白エール", "en": "White Cheer" },
     "card_type": "cheer",
     "colors": [ "white" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -44319,6 +44344,9 @@
     "name": { "jp": "緑エール", "en": "Green Cheer" },
     "card_type": "cheer",
     "colors": [ "green" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -44654,6 +44682,9 @@
     "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -44893,6 +44924,9 @@
     "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -45084,6 +45118,9 @@
     "name": { "jp": "紫エール", "en": "Purple Cheer" },
     "card_type": "cheer",
     "colors": [ "purple" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
@@ -45250,6 +45287,9 @@
     "name": { "jp": "黄エール", "en": "Yellow Cheer" },
     "card_type": "cheer",
     "colors": [ "yellow" ],
+    "text": {
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+    },
     "max_amount": { "jp": 20 },
     "illustrations": [
       {
