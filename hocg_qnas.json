@@ -129,9 +129,9 @@
   },
   "Q12": {
     "qna_number": "Q12",
-    "date": "2024-09-21",
+    "date": "2025-12-18",
     "question": {
-      "jp": "hSD01-013〈SorAZ〉のエクストラ「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」とは、ステージ以外の場所にある場合でも〈ときのそら〉〈AZKi〉として扱いますか？",
+      "jp": "hSD01-013〈SorAZ〉のエクストラ「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」とは、ステージ以外にある場合でも〈ときのそら〉〈AZKi〉として扱いますか？",
       "en": "Does the Extra rule on hSD01-013 SorAZ, \"This holomem is also regarded as <Tokino Sora> <AZKi>\" mean that even if it is somewhere other than the stage, it is treated as both Tokino Sora and AZKi?"
     },
     "answer": { "jp": "はい、扱います。", "en": "Yes, it does." },
@@ -6128,13 +6128,13 @@
   },
   "Q521": {
     "qna_number": "Q521",
-    "date": "2025-12-12",
+    "date": "2025-12-18",
     "question": {
-      "jp": "hBP01-080〈星街すいせい〉のコラボエフェクト「雪山の記憶」の能力によって、残りHP40の、hBP03-105〈ルーナイト〉が付いている〈姫森ルーナ〉がダウンしました。\nこの場合、コラボポジションのhBP06-030〈姫森ルーナ〉のギフト「みんなへ感謝の気持ち」の能力を発揮することはできますか？",
+      "jp": "残りHP10の、hBP03-105〈ルーナイト〉が付いている〈姫森ルーナ〉が100ダメージを受け、ダウンしました。\nこの場合、コラボポジションのhBP06-030〈姫森ルーナ〉のギフト「みんなへ感謝の気持ち」の能力を発揮することはできますか？\n[12/18更新]12/12(金)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
       "en": "(this question is erroneous, but has been translated here as preservation of its intent - Suisei can only down a back holomem with its effect, while Luna can only save Lu-knights from a center holomem)\nMy opponent used hBP01-080 Hoshimachi Suisei's Collab Effect \"Memories of the Snowy Mountain\" to down my Himemori Luna with hBP03-105 Lu-knights attached and HP reduced by 40.\nIn this case, can I use hBP06-030 Himemori Luna's Gift \"Feelings of gratitude toward everyone\" to reattach the Lu-knights to my back holomem?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
-    "referenced_cards": [ "hBP01-080", "hBP03-105", "hBP06-030" ]
+    "referenced_cards": [ "hBP03-105", "hBP06-030" ]
   },
   "Q522": {
     "qna_number": "Q522",
@@ -6319,5 +6319,123 @@
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-104" ]
+  },
+  "Q538": {
+    "qna_number": "Q538",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "相手のセンターホロメンがアーツを使い、アーツの能力による特殊ダメージで自分のセンターホロメンがダウンしました。\nこの場合、ダウン処理はアーツダメージを与えられる前に処理されますか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、アーツダメージまで処理してからダウン処理を行います。",
+      "en": null
+    }
+  },
+  "Q539": {
+    "qna_number": "Q539",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "相手のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時に、自分のBuzzホロメンからBloomしているhBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」を、相手のセンターホロメンに使いました。\nこの場合、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力でダメージを受けなくできますか？",
+      "en": null
+    },
+    "answer": { "jp": "いいえ、できません。", "en": null },
+    "referenced_cards": [ "hBP01-027", "hBP06-027" ]
+  },
+  "Q540": {
+    "qna_number": "Q540",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」の「軽減されない」とは、どういう意味ですか？",
+      "en": null
+    },
+    "answer": { "jp": "ダメージを減らす能力の影響を受けないという意味です。", "en": null },
+    "referenced_cards": [ "hBP06-027" ]
+  },
+  "Q541": {
+    "qna_number": "Q541",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」の「このホロメンがBuzzホロメンからBloomしているなら」とは、どういう意味ですか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "hBP06-027〈風真いろは〉の真下にあるカードがBuzzホロメンである状態を指します。",
+      "en": null
+    },
+    "referenced_cards": [ "hBP06-027" ]
+  },
+  "Q542": {
+    "qna_number": "Q542",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP06-083〈ラムダック〉にhBP03-112〈わためいと〉とhBP06-104〈スバ友〉の両方を付けることはできますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、できます。", "en": null },
+    "referenced_cards": [ "hBP03-112", "hBP06-083", "hBP06-104" ]
+  },
+  "Q543": {
+    "qna_number": "Q543",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP03-112〈わためいと〉とhBP06-104〈スバ友〉が付いているhBP06-083〈ラムダック〉をhBP06-081〈大空スバル〉にBloomさせました。\nこの場合、付いているhBP03-112〈わためいと〉はどうなりますか？",
+      "en": null
+    },
+    "answer": { "jp": "〈角巻わため〉ではないので、アーカイブされます。", "en": null },
+    "referenced_cards": [ "hBP03-112", "hBP06-081", "hBP06-083", "hBP06-104" ]
+  },
+  "Q544": {
+    "qna_number": "Q544",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP03-050〈FUWAMOCO〉のエクストラ「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」とは、ステージ以外にある場合でも〈フワワ・アビスガード〉〈モココ・アビスガード〉として扱いますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、扱います。", "en": null },
+    "referenced_cards": [ "hBP03-050" ]
+  },
+  "Q545": {
+    "qna_number": "Q545",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP05-040〈miComet〉のエクストラ「このホロメンは〈さくらみこ〉〈星街すいせい〉としても扱う」とは、ステージ以外にある場合でも〈さくらみこ〉〈星街すいせい〉として扱いますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、扱います。", "en": null },
+    "referenced_cards": [ "hBP05-040" ]
+  },
+  "Q546": {
+    "qna_number": "Q546",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP06-083〈ラムダック〉のエクストラ「このホロメンは〈大空スバル〉〈角巻わため〉としても扱う」とは、ステージ以外にある場合でも〈大空スバル〉〈角巻わため〉として扱いますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、扱います。", "en": null },
+    "referenced_cards": [ "hBP06-083" ]
+  },
+  "Q547": {
+    "qna_number": "Q547",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」を使ったが、お休みしているホロメンが誰もいないので何も起こりませんでした。\nこの場合、hBP06-070〈戌神ころね〉のアーツ「終焉のウォウウォウアックス」で210ダメージを与えることはできますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、できます。", "en": null },
+    "referenced_cards": [ "hBP03-006", "hBP06-070" ]
+  },
+  "Q548": {
+    "qna_number": "Q548",
+    "date": "2025-12-18",
+    "question": {
+      "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」を使ったが、お休みしているホロメンが誰もいないので何も起こりませんでした。\nこの場合、hBP06-069〈戌神ころね〉のアーツ「しばきあげパンチング」で80ダメージを与えることはできますか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、推しスキル「無限の体力」でアクティブになっていないのでできません。",
+      "en": null
+    },
+    "referenced_cards": [ "hBP03-006", "hBP06-069" ]
   }
 }
