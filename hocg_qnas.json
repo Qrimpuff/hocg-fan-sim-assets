@@ -6131,7 +6131,7 @@
     "date": "2025-12-18",
     "question": {
       "jp": "残りHP10の、hBP03-105〈ルーナイト〉が付いている〈姫森ルーナ〉が100ダメージを受け、ダウンしました。\nこの場合、コラボポジションのhBP06-030〈姫森ルーナ〉のギフト「みんなへ感謝の気持ち」の能力を発揮することはできますか？\n[12/18更新]12/12(金)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
-      "en": "(this question is erroneous, but has been translated here as preservation of its intent - Suisei can only down a back holomem with its effect, while Luna can only save Lu-knights from a center holomem)\nMy opponent used hBP01-080 Hoshimachi Suisei's Collab Effect \"Memories of the Snowy Mountain\" to down my Himemori Luna with hBP03-105 Lu-knights attached and HP reduced by 40.\nIn this case, can I use hBP06-030 Himemori Luna's Gift \"Feelings of gratitude toward everyone\" to reattach the Lu-knights to my back holomem?"
+      "en": "My Himemori Luna, which has 10 HP and has a hBP03-105 Lu-knights attached, takes 100 damage and is downed.\nIn this case, can I use my collab holomem hBP06-030 Himemori Luna's Gift \"Feelings of gratitude toward everyone\"?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-105", "hBP06-030" ]
@@ -6325,11 +6325,11 @@
     "date": "2025-12-18",
     "question": {
       "jp": "相手のセンターホロメンがアーツを使い、アーツの能力による特殊ダメージで自分のセンターホロメンがダウンしました。\nこの場合、ダウン処理はアーツダメージを与えられる前に処理されますか？",
-      "en": null
+      "en": "My opponent's holomem uses an Arts, which downs my holomem with damage from the Arts ability text. Do I execute the Down process before Arts damage is dealt?"
     },
     "answer": {
       "jp": "いいえ、アーツダメージまで処理してからダウン処理を行います。",
-      "en": null
+      "en": "No, the Arts damage is dealt first, then any Down processes are executed."
     }
   },
   "Q539": {
@@ -6337,9 +6337,9 @@
     "date": "2025-12-18",
     "question": {
       "jp": "相手のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時に、自分のBuzzホロメンからBloomしているhBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」を、相手のセンターホロメンに使いました。\nこの場合、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力でダメージを受けなくできますか？",
-      "en": null
+      "en": "My opponent has hBP01-027 Vestia Zeta in their collab position, and my hBP06-027 Kazama Iroha which has bloomed from a Buzz holomem uses the Arts \"Step Together\" targeting my opponent's center holomem.\nIn this case, can my opponent use Vestia Zeta's Gift \"V.7\" to prevent the damage?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, they cannot." },
     "referenced_cards": [ "hBP01-027", "hBP06-027" ]
   },
   "Q540": {
@@ -6347,9 +6347,12 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」の「軽減されない」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"cannot be reduced\" mean on hBP06-027 Kazama Iroha's Arts \"Step Together\"?"
     },
-    "answer": { "jp": "ダメージを減らす能力の影響を受けないという意味です。", "en": null },
+    "answer": {
+      "jp": "ダメージを減らす能力の影響を受けないという意味です。",
+      "en": "It means that the damage is not affected by any ability that can reduce damage."
+    },
     "referenced_cards": [ "hBP06-027" ]
   },
   "Q541": {
@@ -6357,11 +6360,11 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」の「このホロメンがBuzzホロメンからBloomしているなら」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"if this holomem has bloomed from a Buzz holomem\" mean on hBP06-027 Kazama Iroha's Arts \"Step Together\"?"
     },
     "answer": {
       "jp": "hBP06-027〈風真いろは〉の真下にあるカードがBuzzホロメンである状態を指します。",
-      "en": null
+      "en": "It means that the card immediately beneath hBP06-027 Kazama Iroha must be a Buzz holomem."
     },
     "referenced_cards": [ "hBP06-027" ]
   },
@@ -6370,9 +6373,9 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP06-083〈ラムダック〉にhBP03-112〈わためいと〉とhBP06-104〈スバ友〉の両方を付けることはできますか？",
-      "en": null
+      "en": "Can I attach both hBP03-112 Watamates and hBP06-104 Subatomo to hBP06-083 LAMBDUCK?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-112", "hBP06-083", "hBP06-104" ]
   },
   "Q543": {
@@ -6380,9 +6383,12 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP03-112〈わためいと〉とhBP06-104〈スバ友〉が付いているhBP06-083〈ラムダック〉をhBP06-081〈大空スバル〉にBloomさせました。\nこの場合、付いているhBP03-112〈わためいと〉はどうなりますか？",
-      "en": null
+      "en": "I have both hBP03-112 Watamates and hBP06-104 Subatomo attached to my hBP06-083 LAMBDUCK, and then bloom it to hBP06-081 Oozora Subaru.\nIn this case, what happens to the attached Watamates?"
     },
-    "answer": { "jp": "〈角巻わため〉ではないので、アーカイブされます。", "en": null },
+    "answer": {
+      "jp": "〈角巻わため〉ではないので、アーカイブされます。",
+      "en": "Since the holomem is no longer Tsunomaki Watame, the Watamates is archived."
+    },
     "referenced_cards": [ "hBP03-112", "hBP06-081", "hBP06-083", "hBP06-104" ]
   },
   "Q544": {
@@ -6390,9 +6396,9 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP03-050〈FUWAMOCO〉のエクストラ「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」とは、ステージ以外にある場合でも〈フワワ・アビスガード〉〈モココ・アビスガード〉として扱いますか？",
-      "en": null
+      "en": "Does the Extra rule on hBP03-050 FUWAMOCO, \"This holomem is also regarded as <Fuwawa Abyssgard> <Mococo Abyssgard>\" mean that even if it is somewhere other than the stage, it is treated as both Fuwawa Abyssgard and Mococo Abyssgard?"
     },
-    "answer": { "jp": "はい、扱います。", "en": null },
+    "answer": { "jp": "はい、扱います。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP03-050" ]
   },
   "Q545": {
@@ -6400,9 +6406,9 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP05-040〈miComet〉のエクストラ「このホロメンは〈さくらみこ〉〈星街すいせい〉としても扱う」とは、ステージ以外にある場合でも〈さくらみこ〉〈星街すいせい〉として扱いますか？",
-      "en": null
+      "en": "Does the Extra rule on hBP05-040 miComet, \"This holomem is also regarded as <Sakura Miko> <Hoshimachi Suisei>\" mean that even if it is somewhere other than the stage, it is treated as both Sakura Miko and Hoshimachi Suisei?"
     },
-    "answer": { "jp": "はい、扱います。", "en": null },
+    "answer": { "jp": "はい、扱います。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP05-040" ]
   },
   "Q546": {
@@ -6410,9 +6416,9 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP06-083〈ラムダック〉のエクストラ「このホロメンは〈大空スバル〉〈角巻わため〉としても扱う」とは、ステージ以外にある場合でも〈大空スバル〉〈角巻わため〉として扱いますか？",
-      "en": null
+      "en": "Does the Extra rule on hBP06-083 LAMBDUCK, \"This holomem is also regarded as <Tsunomaki Watame> <Oozora Subaru>\" mean that even if it is somewhere other than the stage, it is treated as both Tsunomaki Watame and Oozora Subaru?"
     },
-    "answer": { "jp": "はい、扱います。", "en": null },
+    "answer": { "jp": "はい、扱います。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP06-083" ]
   },
   "Q547": {
@@ -6420,9 +6426,9 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」を使ったが、お休みしているホロメンが誰もいないので何も起こりませんでした。\nこの場合、hBP06-070〈戌神ころね〉のアーツ「終焉のウォウウォウアックス」で210ダメージを与えることはできますか？",
-      "en": null
+      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\", but since I had no resting holomem there was no effect.\nCan I now use hBP06-070 Inugami Korone's Arts \"Wow Wow Axe of the End\" to deal 210 damage?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-006", "hBP06-070" ]
   },
   "Q548": {
@@ -6430,11 +6436,11 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」を使ったが、お休みしているホロメンが誰もいないので何も起こりませんでした。\nこの場合、hBP06-069〈戌神ころね〉のアーツ「しばきあげパンチング」で80ダメージを与えることはできますか？",
-      "en": null
+      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\", but since I had no resting holomem there was no effect.\nCan I now use hBP06-069 Inugami Korone's Arts \"Shibakiage Punching\" to deal 80 damage?"
     },
     "answer": {
       "jp": "いいえ、推しスキル「無限の体力」でアクティブになっていないのでできません。",
-      "en": null
+      "en": "No, you cannot, as this holomem was not set to active by the Oshi skill \"Infinite Stamina\"."
     },
     "referenced_cards": [ "hBP03-006", "hBP06-069" ]
   }
