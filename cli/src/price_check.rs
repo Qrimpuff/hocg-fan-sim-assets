@@ -194,6 +194,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
             let illustrations = card
                 .illustrations
                 .iter_mut()
+                .filter(|c| c.img_path.japanese.is_some())
                 .filter(|c| c.yuyutei_sell_url.is_none())
                 .collect_vec();
 
@@ -228,14 +229,16 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
             }
         // in images mode: find the best match. ideal to fix any issues from quick mode
         } else if mode == PriceCheckMode::Images {
+            // clear any existing url
+            for c in &mut card.illustrations {
+                c.yuyutei_sell_url = None;
+            }
+
             let rarities = card
                 .illustrations
                 .iter_mut()
-                .map(|c| {
-                    // clear any existing url
-                    c.yuyutei_sell_url = None;
-                    Arc::new(Mutex::new(c))
-                })
+                .filter(|c| c.img_path.japanese.is_some())
+                .map(|c| Arc::new(Mutex::new(c)))
                 .into_group_map_by(|c| c.lock().rarity.clone());
 
             rarities
@@ -260,13 +263,28 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         println!();
                         let images: Vec<_> = urls
                             .par_iter()
-                            .map(|(url, img_path)| {
+                            .filter_map(|(url, img_path)| {
                                 // download the image
                                 println!("Checking Yuyutei image: {img_path}");
-                                let resp = http_client().get(img_path).send().unwrap();
+                                let resp = http_client()
+                                    .get(img_path)
+                                    .send()
+                                    .map_err(|e| {
+                                        eprintln!("Failed to download image: {img_path} {e:?}")
+                                    })
+                                    .ok()?;
+                                if resp.status() != 200 {
+                                    if DEBUG {
+                                        eprintln!(
+                                            "Failed to download image (status: {}) : {img_path}",
+                                            resp.status()
+                                        );
+                                    }
+                                    return None;
+                                }
                                 let yuyutei_img =
                                     image::load_from_memory(&resp.bytes().unwrap()).unwrap();
-                                (url.clone(), yuyutei_img)
+                                Some((url.clone(), yuyutei_img))
                             })
                             .collect();
 
@@ -538,6 +556,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
             let illustrations = card
                 .illustrations
                 .iter_mut()
+                .filter(|c| c.img_path.english.is_some())
                 .filter(|c| c.tcgplayer_product_id.is_none())
                 .collect_vec();
 
@@ -569,14 +588,16 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
             }
         // in images mode: find the best match. ideal to fix any issues from quick mode
         } else if mode == PriceCheckMode::Images {
+            // clear any existing url
+            for c in &mut card.illustrations {
+                c.tcgplayer_product_id = None;
+            }
+
             let rarities = card
                 .illustrations
                 .iter_mut()
-                .map(|c| {
-                    // clear any existing url
-                    c.tcgplayer_product_id = None;
-                    Arc::new(Mutex::new(c))
-                })
+                .filter(|c| c.img_path.english.is_some())
+                .map(|c| Arc::new(Mutex::new(c)))
                 .into_group_map_by(|c| c.lock().rarity.clone());
 
             rarities
@@ -604,13 +625,28 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         println!();
                         let images: Vec<_> = product_ids
                             .par_iter()
-                            .map(|(product_id, img_path)| {
+                            .filter_map(|(product_id, img_path)| {
                                 // download the image
                                 println!("Checking TCGplayer image: {img_path}");
-                                let resp = http_client().get(img_path).send().unwrap();
+                                let resp = http_client()
+                                    .get(img_path)
+                                    .send()
+                                    .map_err(|e| {
+                                        eprintln!("Failed to download image: {img_path} {e:?}")
+                                    })
+                                    .ok()?;
+                                if resp.status() != 200 {
+                                    if DEBUG {
+                                        eprintln!(
+                                            "Failed to download image (status: {}) : {img_path}",
+                                            resp.status()
+                                        );
+                                    }
+                                    return None;
+                                }
                                 let tcgplayer_img =
                                     image::load_from_memory(&resp.bytes().unwrap()).unwrap();
-                                (*product_id, tcgplayer_img)
+                                Some((*product_id, tcgplayer_img))
                             })
                             .collect();
 
