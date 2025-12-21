@@ -973,6 +973,17 @@ pub mod hololive_official {
 
         // fix English arts with known issues
         if language == Language::English {
+            // fix hSD01-006 Tokino Sora, art has extra new line
+            if card.card_number == "hSD01-006"
+                && let Some(art) = arts
+                    .iter_mut()
+                    .find(|a| a.name.english.as_deref() == Some("SorAZ Sympathy"))
+            {
+                art.ability_text = Some(Localized::en(
+                    "If an 〈AZKi〉 holomem is on your stage, Arts +50.".into(),
+                ));
+            }
+
             // fix hSD02-008 Nakiri Ayame, art is missing text
             if card.card_number == "hSD02-008"
                 && let Some(art) = arts.iter_mut().find(|a| {
