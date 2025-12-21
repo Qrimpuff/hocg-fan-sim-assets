@@ -434,6 +434,7 @@ pub mod decklog {
 }
 
 pub mod hololive_official {
+    use std::collections::HashMap;
     use std::sync::Arc;
     use std::time::Duration;
     use std::{ops::Deref, sync::OnceLock};
@@ -546,20 +547,32 @@ pub mod hololive_official {
         let info = INFO.get_or_init(|| Selector::parse(".info dl :is(dt, dd)").unwrap());
 
         // Card info
-        for (key, value) in hololive_card.select(info).tuples() {
-            let key = key.text().collect::<String>();
-            let img_alts = value
-                .children()
-                .filter_map(|c| c.value().as_element().and_then(|c| c.attr("alt")))
-                .join(" ");
-            let value = value.text().collect::<String>();
-            let value = if !img_alts.is_empty() {
-                img_alts.trim()
-            } else {
-                value.trim()
-            };
+        let mut card_info: HashMap<String, String> = hololive_card
+            .select(info)
+            .tuples()
+            .map(|(key, value)| {
+                let key = key.text().collect::<String>();
+                let img_alts = value
+                    .children()
+                    .filter_map(|c| c.value().as_element().and_then(|c| c.attr("alt")))
+                    .join(" ");
+                let value = value.text().collect::<String>();
+                let value = if !img_alts.is_empty() {
+                    img_alts.trim()
+                } else {
+                    value.trim()
+                };
+                (key.to_lowercase(), value.to_owned())
+            })
+            .collect();
 
-            match key.to_lowercase().as_str() {
+        // add potential missing tag field (will pass through fixes in match)
+        if !card_info.contains_key("タグ") && !card_info.contains_key("tag") {
+            card_info.insert("tag".into(), "".into());
+        }
+
+        for (key, value) in card_info.iter() {
+            match key.as_str() {
                 "カードタイプ" | "card type" => {
                     // from Deck Log
                     if card.card_type == Default::default() {
@@ -592,7 +605,9 @@ pub mod hololive_official {
                     }
                 }
                 "タグ" | "tag" => {
-                    update_tags(card, tags_from_str(value, language), language, false);
+                    let mut tags = tags_from_str(value, language);
+                    fix_tags(card, &mut tags, language);
+                    update_tags(card, tags, language, false);
                 }
                 "色" | "color" => {
                     let mut colors = colors_from_str(value);
@@ -878,6 +893,20 @@ pub mod hololive_official {
             // hSD06-001 Kazama Iroha oshi card number (the official db has a bug, it's the second time it happened)
             if card_id == "532" {
                 *card_number = "hSD06-001".into();
+            }
+        }
+    }
+
+    fn fix_tags(card: &Card, tags: &mut Vec<Localized<String>>, language: Language) {
+        if language == Language::Japanese {
+            // hBP06-087 Shimeji Dance missing tag
+            if card.card_number == "hBP06-087" {
+                *tags = vec![Localized::jp("#きのこ".into())];
+            }
+
+            // hBP06-097 Cute Varsity Jacket missing tag
+            if card.card_number == "hBP06-097" {
+                *tags = vec![Localized::jp("#Buzzグッズ".into())];
             }
         }
     }
