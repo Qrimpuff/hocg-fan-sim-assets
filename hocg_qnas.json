@@ -1898,13 +1898,13 @@
   },
   "Q160": {
     "qna_number": "Q160",
-    "date": "2024-09-21",
+    "date": "2025-12-22",
     "question": {
       "jp": "相手のカードの能力で、自分のホロメンAとホロメンBが同時にダウンしました。この時の処理の方法を教えてください。",
       "en": "If both my holomem A and holomem B are downed simultaneously due to the opponent's card effect, how should I process this?"
     },
     "answer": {
-      "jp": "以下の順番で処理を行ってください。\n\n①ダウン処理としてホロメンAをアーカイブします。\n②次に、ダウン処理としてホロメンBをアーカイブします。\n③2人ダウンしたことで、ライフを-2します。まず、ライフを1枚を表向きにし、ステージのホロメンにエールを送ります。そして、ライフをもう1枚表向きにし、ステージのホロメンにエールを送ります。",
+      "jp": "以下の順番で処理を行ってください。\n\n①ホロメンAのダウン処理として、「ダウンした時」「ダウンさせた時」の能力を処理します。\n②ホロメンAをアーカイブし、ライフを-1します。ライフを1枚を表向きにし、自分のステージのホロメンにエールを送ります。\n③次に、ホロメンBのダウン処理として、「ダウンした時」「ダウンさせた時」の能力を処理します。\n④ホロメンBをアーカイブし、ライフを-1します。ライフを1枚を表向きにし、自分のステージのホロメンにエールを送ります。\n\n[12/22更新]12/19(金)の総合ルール変更に伴い、内容を変更いたしました。",
       "en": "Process it in the following order:\n1. Archive holomem A as part of the Down process.\n2. Archive holomem B as part of the Down process.\n3. Since two holomem were downed, reduce your Life by 2. First, turn over one Life card and send it to a holomem on your stage. Then, turn over another Life card and send it to a holomem on your stage."
     }
   },
