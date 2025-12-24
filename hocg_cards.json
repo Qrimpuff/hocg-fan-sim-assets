@@ -30201,7 +30201,7 @@
         "name": { "jp": "モココェ", "en": "Mococoeh" },
         "text": {
           "jp": "[コラボポジション限定]自分のSP推しスキル「BAU BAU!」を使った時、このターンの間、このホロメンのアーツ+70。自分のステージに2ndホロメンがいるなら、さらに、このターンの間、このホロメンのアーツ+50。",
-          "en": "[Collab Position Only]When you use your SP Oshi skill \"BAU BAU!\", during this turn, this holomem gets Arts+70. Then, if a 2nd holomem is on your stage, during this turn, this holomem gets Arts+50."
+          "en": "[Collab Position Only]When you use your SP Oshi skill \"BAU BAU!\", during this turn, this holomem gets Arts+70. Also, if a 2nd holomem is on your stage, during this turn, this holomem gets Arts+50."
         }
       }
     ],
@@ -30958,7 +30958,7 @@
         "power": "100+",
         "text": {
           "jp": "このターンに自分の〈モココ・アビスガード〉がアーツを使っていたなら、このアーツ+40。このターンに自分の推しスキル「モコちゃん！」を使っていたなら、さらに、このアーツ+30。",
-          "en": "If your <Mococo Abyssgard> used Arts this turn, this Arts gets +40. If you also used your Oshi skill \"Moco-chan!\" this turn, this Arts gets +30."
+          "en": "If your <Mococo Abyssgard> used Arts this turn, this Arts gets +40. Also, if you used your Oshi skill \"Moco-chan!\" this turn, this Arts gets +30."
         }
       }
     ],
