@@ -44605,7 +44605,7 @@
         }
       }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom" },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
     "tags": [ { "jp": "#DEV_IS", "en": "#DEV_IS" }, { "jp": "#FLOW GLOW", "en": "#FLOW GLOW" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
