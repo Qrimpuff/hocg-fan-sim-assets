@@ -45162,6 +45162,37 @@
       }
     ]
   },
+  "hSD12-003": {
+    "card_number": "hSD12-003",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Have you ever heard the story of the 'Palais Montrose'?" },
+        "text": { "en": "Deal 10 special damage to 1 of your opponent's back holomem." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Adieu, dear listener!" }, "power": "20" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-003",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-003_C.webp", "en": null },
+        "img_hash": "v2|H32=rqrZrq+qpaihQy874bpZ0lLU0adSVSJVtGVaRcpR9NhUGeyCLWWplIKlUrRQmhZP+VqiaqouamlKhUKN0qKWqdOq8mk|CYM=1D2816",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD12-008": {
     "card_number": "hSD12-008",
     "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
@@ -45335,6 +45366,46 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-009_C.webp", "en": null },
         "img_hash": "v2|H32=iurRkpKqrdrxoy125MkpJ0ZdeG0uV8tlOlnOpXqdFrGulKBtBUXIJrJS1pJSW1YrXasqpSq9KllKlaa1lapK09aSolQ|CYM=013055",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-011": {
+    "card_number": "hSD13-011",
+    "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "I am Gonathan G." },
+        "text": {
+          "en": "You may archive 1 Debut holomem that is stacked to this holomem:Deal 20 special damage to your opponent's collab holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "Pursuing the meaning of everything" },
+        "power": "40+",
+        "text": { "en": "If there are no holomem stacked to this holomem, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-011",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-011_U.webp", "en": null },
+        "img_hash": "v2|H32=aCm9pqVra6WfUjIn75QYq+acaMnalHJZUqXSUrallELWKF5PVHWUlbOqpuhJ21X1lpqp2rKLale1KrYtqtZUqupWaSo|CYM=081626",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
