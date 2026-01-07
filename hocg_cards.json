@@ -17508,7 +17508,7 @@
         "name": { "jp": "エリートギャンブル", "en": "Elite Gamble" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる：3か5の時、このターンの間、このホロメンのアーツ+50。",
-          "en": "[Center Position Only][1/Turn]During your main phase, when 〈35P〉 is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn, this holomem gets Arts+50."
+          "en": "[Center Position Only][1/Turn]During your main phase, if 〈35P〉 is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn, this holomem gets Arts+50."
         }
       }
     ],
@@ -17765,7 +17765,7 @@
         "name": { "jp": "もう1人のはあと", "en": "The other Haato" },
         "text": {
           "jp": "自分のアーカイブの#1期生を持つBuzz以外の[1stホロメンか2ndホロメン]1枚を手札に戻せる。",
-          "en": "You may return 1 [1st holomem or 2nd holomem] with #Gen 1 other than Buzz to hand."
+          "en": "You may return 1 [1st holomem or 2nd holomem] with #Gen 1 other than Buzz from your archive to hand."
         }
       }
     ],
@@ -20288,7 +20288,7 @@
         "name": { "jp": "同期の絆", "en": "Bond between Genmates" },
         "text": {
           "jp": "自分のステージのホロメンが5人以下の時、自分のデッキから、#ID1期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。",
-          "en": "When your stage has 5 or less holomem, reveal 1 Debut holomem with #ID Gen 1 from your deck, and you may place it on stage. Then, shuffle the deck."
+          "en": "If your stage has 5 or less holomem, reveal 1 Debut holomem with #ID Gen 1 from your deck, and you may place it on stage. Then, shuffle the deck."
         }
       }
     ],
@@ -21447,7 +21447,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈戌神ころね〉に付いていたら能力追加\nこのマスコットが付いているホロメンがコラボした時、自分のアーカイブの黄エール1枚をこのホロメンに送れる。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to 〈Inugami Korone〉\nWhen the holomem this mascot is attached to collabs, you may send 1 yellow cheer from your archive to your holomem.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to 〈Inugami Korone〉\nWhen the holomem this mascot is attached to collabs, you may send 1 yellow cheer from your archive to this holomem.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -21555,7 +21555,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "相手のターンで、このファンが付いているホロメンがダメージを受ける時、このファンをアーカイブできる：このファンが付いていたホロメンの受けるダメージ-30。\n\nこのファンは、自分の〈姫森ルーナ〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "During your opponent's turn, when the holomem this fan is attached to takes damage, you may archive this fan:The holomem this fan is attached to takes -30 damage.\n\nYou may only attach this fan to your 〈Himemori Luna〉, and you may attach any number of this fan per holomem."
+      "en": "During your opponent's turn, if the holomem this fan is attached would take damage, you may archive this fan:The holomem this fan is attached to takes -30 damage instead.\n\nYou may only attach this fan to your 〈Himemori Luna〉, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
