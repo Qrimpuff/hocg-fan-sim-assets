@@ -38661,6 +38661,79 @@
       }
     ]
   },
+  "hBP07-003": {
+    "card_number": "hBP07-003",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Guidance of the Divine Talisman" },
+        "text": {
+          "en": "[1/Turn]Look at the top 2 cards of your deck. Add 1 card from among them to hand. Then, return the remaining card to the top of the deck."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Everyone's Mama" },
+        "text": {
+          "en": "[1/Game]Look at the top 6 cards of your deck. Add 3 cards from among them to hand. Then, return the remaining cards to the top of the deck in any order. Then, restore 50 HP to all of your holomem."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-003",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-003_OSR.webp", "en": null },
+        "img_hash": "v2|H32=SnKeaWNh2KYhraplaZajTFzSW5a0SlG1pmpxpY5qSbVmmpSqrlYqVUurqSzVZEurKlVaK0tU0q1qVUnVatUqVVoqrFU|CYM=1F272B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-065": {
+    "card_number": "hBP07-065",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "other",
+    "colors": [ "purple" ],
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Let's get excited!" },
+        "power": "30",
+        "text": { "en": "Draw 1 card, then archive 1 card from your hand." }
+      },
+      {
+        "cheers": [ "purple", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Let me hear everyone's voices!!!" },
+        "power": "120"
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-065",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-065_C.webp", "en": null },
+        "img_hash": "v2|H32=aKmTSiapraq1TmmppEpJkUuSkrHS1lJtLDWSVGpJarE2SbrVVGrpEqnVVijplC+t0iatU1ItsnLLWpukX1pSbSqVFks|CYM=052C16",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hPR-001": {
     "card_number": "hPR-001",
     "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
@@ -45265,6 +45338,37 @@
       }
     ]
   },
+  "hSD12-012": {
+    "card_number": "hSD12-012",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 140,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Fleeting Intertwining Feelings" },
+        "power": "80",
+        "text": { "en": "If your life is 3 or less, this Arts requires -2 colorless." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-012",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-012_C.webp", "en": null },
+        "img_hash": "v2|H32=rOorDV0qtFRSdZZ2stY0ku2WPaosl1gtPmVqVU5lznGN5QYKl9Up15fq6bpSrXSJShW2LS1f6mitWtCktFLSaZYtUuk|CYM=282211",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD13-001": {
     "card_number": "hSD13-001",
     "name": { "jp": "エリザベス・ローズ ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
@@ -45333,6 +45437,45 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-002_OSR.webp", "en": null },
         "img_hash": "v2|H32=VDXQkJu3TribrNqKVLWrShxVZ3ekdmlVplJ7pZZKeZWyvJSqqFZJ1SipS0WLNmtSNFVJq6pUWqWqVUqVSlUq1VIrpVU|CYM=102A3E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-005": {
+    "card_number": "hSD13-005",
+    "name": { "jp": "エリザベス・ローズ ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "For Justice! -ERB-" },
+        "text": {
+          "en": "During your opponent's turn, when 1 of your holomem with #Justice is downed, send the top card of your cheer deck to this holomem. You may only use Gift \"For Justice! -ERB-\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "Lovely to See You, to See You, Lovely~♡" },
+        "power": "50"
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-005",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-005_U.webp", "en": null },
+        "img_hash": "v2|H32=rpRDqqe0rZLXKriWaWpbxjtNUm3CkdYs1hNWNbRWXGGt4Z4FVbVpoqELpOpJaha0K9Wqp6rbLetSKqlJ1oqrlqoUUto|CYM=08332F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
