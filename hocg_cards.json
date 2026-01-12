@@ -14837,6 +14837,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10161",
         "tcgplayer_product_id": 657691,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP02-080",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-080_P.webp", "en": null },
+        "img_hash": "v2|H32=xopSRbSqSNW3Kli1q8pQ7LOwyGqqlb2o5Efr0rRkoyPQXFCrXZmtWqlqpUilrKkmJZWqlZVDql2VaypFotvaZFKp0tQ|CYM=002629",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -30381,6 +30392,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp05/10090",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP05-040",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-040_P.webp", "en": null },
+        "img_hash": "v2|H32=qqpvaqaqjK5narGuy2RralKVcmVWU1KVdEXSFfm0dNWtkdJNVKVctEvSZPi20tL9aWsqOKp/6sq0XlYLldKSsigpoms|CYM=153020",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -36919,6 +36941,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp06/10139",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP06-067",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-067_P.webp", "en": null },
+        "img_hash": "v2|H32=qGrbIqiqTafStbalVlW2VjZsllJXqFI6UqlKtSlVaGUpVipFBn8tVR1UtJX1WlLy1VtaSVVKZa1dLdIqabXKkrCooso|CYM=222620",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -38184,6 +38217,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp06/10187",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP06-090",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP06-090_P.webp", "en": null },
+        "img_hash": "v2|H32=2qxoJpVupKolayivpi5LdVjW22RNUlJns8lkU1rV19jsdJS225JKJaddJZqiba1LVVJyaVppq1rptKZNtFo2tWuV0qo|CYM=004C6E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -38693,6 +38737,42 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-003_OSR.webp", "en": null },
         "img_hash": "v2|H32=SnKeaWNh2KYhraplaZajTFzSW5a0SlG1pmpxpY5qSbVmmpSqrlYqVUurqSzVZEurKlVaK0tU0q1qVUnVatUqVVoqrFU|CYM=1F272B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-005": {
+    "card_number": "hBP07-005",
+    "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "On the Rings of Oblivion" },
+        "text": { "en": "[1/Turn]Draw the bottom 2 cards of your deck, then archive 1 card from your hand." }
+      },
+      {
+        "special": true,
+        "holo_power": 4,
+        "name": { "jp": null, "en": "Prison of Time" },
+        "text": {
+          "en": "[1/Game]If your center holomem is a 2nd holomem <Ouro Kronii>, take an extra turn after this one."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-005",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-005_OSR.webp", "en": null },
+        "img_hash": "v2|H32=zEratdttlE4RpZpNLcwf01ipj9O0Slulpkot9UYpaVWmqrSqrVYppS+raSlJpS7L6apmq2lUcOlpUaqqaUnJtFZNK9U|CYM=252E1B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -45748,6 +45828,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-011_U.webp", "en": null },
         "img_hash": "v2|H32=aCm9pqVra6WfUjIn75QYq+acaMnalHJZUqXSUrallELWKF5PVHWUlbOqpuhJ21X1lpqp2rKLale1KrYtqtZUqupWaSo|CYM=081626",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-016": {
+    "card_number": "hSD13-016",
+    "name": { "jp": "Justice", "en": "Justice" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #Justice from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-016",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-016_U.webp", "en": null },
+        "img_hash": "v2|H32=IqurqtCqyJrLONQ8rCwtLSQvJK8uhRbVnpQelb5WvFIuVJJNBegMivCoLbqPD+27/uONbh58oWjwA+lggh9oGHp44Fk|CYM=3B2620",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
