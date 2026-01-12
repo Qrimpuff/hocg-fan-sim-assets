@@ -38777,8 +38777,9 @@
   "hBP07-065": {
     "card_number": "hBP07-065",
     "name": { "jp": "AZKi", "en": "AZKi" },
-    "card_type": "other",
+    "card_type": "holomem",
     "colors": [ "purple" ],
+    "hp": 190,
     "bloom_level": "first",
     "arts": [
       {
@@ -38803,6 +38804,39 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-065_C.webp", "en": null },
         "img_hash": "v2|H32=aKmTSiapraq1TmmppEpJkUuSkrHS1lJtLDWSVGpJarE2SbrVVGrpEqnVVijplC+t0iatU1ItsnLLWpukX1pSbSqVFks|CYM=052C16",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-066": {
+    "card_number": "hBP07-066",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A diva from the virtual world" },
+        "text": {
+          "en": "Restore 30 HP to 1 of your holomem. Then, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+10."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I love music and singing!" }, "power": "40" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-066",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-066_C.webp", "en": null },
+        "img_hash": "v2|H32=lKrbaqWqNZpq1amwVG27qtYuVKuuVGqFSFFqVdopWiUWJa5sC2VJNbLwSttwqFLa2VJSqlobUqmm17K1tILytbCKUiU|CYM=0B3221",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -45571,6 +45605,37 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-003_C.webp", "en": null },
         "img_hash": "v2|H32=qKrJqrS6JFdSVzRXSrScqmyskKqiUBBNslJaZVqnaiUYodZUVaWtS49qtbpLpVatqFpqy0paSqm2WvAloqnqaEpLYqk|CYM=304225",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-004": {
+    "card_number": "hSD13-004",
+    "name": { "jp": "エリザベス・ローズ ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Roses are Red" }, "power": "40" },
+      {
+        "cheers": [ "red", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "The Fire of My Heart is Blue" },
+        "power": "140"
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-004",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-004_C.webp", "en": null },
+        "img_hash": "v2|H32=hqOzuIWqrb4tOE2uqSpaV9KHkkdSVfbJclF00faK1CJkNHJRNU15INr2NqhZ0i2JTburbuoaknbWupakhaqvLitJkhI|CYM=093023",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
