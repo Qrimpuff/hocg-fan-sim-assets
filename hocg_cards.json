@@ -38854,6 +38854,79 @@
       }
     ]
   },
+  "hBP07-025": {
+    "card_number": "hBP07-025",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Matcha Parfait! with love" },
+        "text": {
+          "en": "Choose 1 of your holomem with #GAMERS and with a support card attached. During this turn, the chosen holomem gets Arts+20."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Welcome to Gamers Cafe" },
+        "power": "20",
+        "text": { "en": "Send 1 cheer from your archive to 1 of your holomem with #GAMERS." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-025",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-025_C.webp", "en": null },
+        "img_hash": "v2|H32=LKtaXWyqjLbTUpM0xNKzLQ5ltamSNSlL0ncs03tPbI8yZqRKBnVNqpbKtlb1svKVqVRKyWlJKgXpqnI1SVtSqUulMlU|CYM=0D525A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-036": {
+    "card_number": "hBP07-036",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "AKAI HAATO VS HAACHAMA" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 2 Debut holomem <Akai Haato> from your deck, and place them on stage. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Which do you prefer?♡" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-036",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-036_C.webp", "en": null },
+        "img_hash": "v2|H32=qqojx6uqDKvPFK2zVDKtI2TWMCtW0zlNUhVaTbIkUlw8YqSqVnVIL61qWtKti1K1tNZKtVqNUqlhq0Jdq0p6aepUklI|CYM=0C4C2F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-065": {
     "card_number": "hBP07-065",
     "name": { "jp": "AZKi", "en": "AZKi" },
