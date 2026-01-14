@@ -38927,6 +38927,46 @@
       }
     ]
   },
+  "hBP07-038": {
+    "card_number": "hBP07-038",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Genju Gourmet Hunter" },
+        "text": {
+          "en": "Roll a die once. If it is odd, deal 20 special damage to your opponent's center holomem. If it is even, draw 1 card."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "hololiveEN0" },
+        "power": "30",
+        "text": { "en": "During this turn, all of your holomem on stage with #EN get Arts+20." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-038",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-038_C.webp", "en": null },
+        "img_hash": "v2|H32=rKuzre2hperLUi3Wl8orrqa1UitaVUpVUkvaWngK0Jq1rrRqVHQpVSToWrQtm1S4Uq+q2spSql3ytnSp0q5SrYJHkug|CYM=0E2A37",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-065": {
     "card_number": "hBP07-065",
     "name": { "jp": "AZKi", "en": "AZKi" },
@@ -38990,6 +39030,44 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-066_C.webp", "en": null },
         "img_hash": "v2|H32=lKrbaqWqNZpq1amwVG27qtYuVKuuVGqFSFFqVdopWiUWJa5sC2VJNbLwSttwqFLa2VJSqlobUqmm17K1tILytbCKUiU|CYM=0B3221",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-088": {
+    "card_number": "hBP07-088",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "The Power of the Tiger" },
+        "text": { "en": "All of your back 1st holomem with #FLOW GLOW do not take special damage from your opponent." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "I'm happy because everyone is here!" },
+        "power": "50+",
+        "text": { "en": "If a cheer has been archived from your stage this turn, this Arts gets +30." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-088",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-088_U.webp", "en": null },
+        "img_hash": "v2|H32=TKWp6q2pWbanWCmvy5I0S8u3WFU2SVo0UlU2TVomtMi0blZNVWWtpEraqqa1rU3b9oWs1apbqqq2tFLatkaWtmLLlEo|CYM=05132F",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
