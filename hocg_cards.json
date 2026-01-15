@@ -38854,6 +38854,45 @@
       }
     ]
   },
+  "hBP07-017": {
+    "card_number": "hBP07-017",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "holoh3ro Shopping" },
+        "text": {
+          "en": "[Center Position Only]When your Buzz holomem with #ID Gen 3 collabs, choose 1 holomem on your stage. The chosen holomem gets Arts+30."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "I like spending time with everyone" },
+        "power": "50"
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-017",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-017_C.webp", "en": null },
+        "img_hash": "v2|H32=zKoi28mqVtWyVLRU0lS1KrUu/aovfU21alVLEkqjSdJriZYs0lStqpWqyZdKVU3Laolq0WWpcL0qdXKp7VLSpbRq1qE|CYM=081416",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-025": {
     "card_number": "hBP07-025",
     "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
@@ -38961,6 +39000,44 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-038_C.webp", "en": null },
         "img_hash": "v2|H32=rKuzre2hperLUi3Wl8orrqa1UitaVUpVUkvaWngK0Jq1rrRqVHQpVSToWrQtm1S4Uq+q2spSql3ytnSp0q5SrYJHkug|CYM=0E2A37",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-052": {
+    "card_number": "hBP07-052",
+    "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "It's Time desuwa!" },
+        "text": { "en": "You may attach 1 mascot from your archive to this holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "It's my new catchphrase. What do you think?" },
+        "power": "30+",
+        "text": { "en": "If your stage has a holomem with #Promise other than <Ouro Kronii>, this Arts gets +10." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-052",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-052_C.webp", "en": null },
+        "img_hash": "v2|H32=6qqjKuyqLLrNVhhkhsRZrZZFWotSlfJVWhVSFVo09m18qJZeV63pLqlSKqp9uVW0Vq2qlapWoqmqlvDhpNFwqaBk8nk|CYM=103825",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
