@@ -6449,11 +6449,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自分の手札が5枚で、デッキが0枚の時に、手札にあるhSD01-017〈マネちゃん〉を使用できますか？",
-      "en": null
+      "en": "If I have 5 cards in my hand and 0 cards in my deck, can I use hSD01-017 Manager-chan?"
     },
     "answer": {
       "jp": "はい、できます。\nその場合、手札をすべてデッキに戻してシャッフルした後、デッキから可能な限り引きます。",
-      "en": null
+      "en": "Yes, you can. In this case, return all cards from your hand to the deck, shuffle it, then draw as many as possible."
     },
     "referenced_cards": [ "hSD01-017" ]
   },
@@ -6462,11 +6462,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自分のデッキが2枚の時に、手札にあるhBP02-084〈みっころね24〉を使用できますか？",
-      "en": null
+      "en": "If I have only 2 cards in my deck, can I use hBP02-084 Mikkorone 24?"
     },
     "answer": {
       "jp": "はい、できます。\nその場合、手札を2枚引いた後、サイコロを振ります。サイコロの目にかかわらず、その後は何も起きなかったものとして解決します。",
-      "en": null
+      "en": "Yes, you can. In this case, draw 2 cards, then roll a die. Regardless of the result, the effect cannot continue to resolve and so ends."
     },
     "referenced_cards": [ "hBP02-084" ]
   },
@@ -6475,11 +6475,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自分のデッキが0枚の時に、手札にあるhBP02-084〈みっころね24〉を使用できますか？",
-      "en": null
+      "en": "If I have no cards in my deck, can I use hBP02-084 Mikkorone 24?"
     },
     "answer": {
       "jp": "いいえ、できません。\nデッキを引けない場合、サイコロのみを振ることもできません。",
-      "en": null
+      "en": "No, you cannot. If there are no cards to draw from your deck, you cannot resolve the card by only rolling a die."
     },
     "referenced_cards": [ "hBP02-084" ]
   },
@@ -6488,11 +6488,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "相手のホロメンに1枚もエールが付いていない時に、hBP01-110〈鈍器でぶっ叩くわよ！〉を使用できますか？",
-      "en": null
+      "en": "If my opponent's holomem have no cheers attached, can I use hBP01-110 I'll smack you with a blunt weapon!?"
     },
     "answer": {
       "jp": "いいえ、できません。\n相手のホロメンのエールをアーカイブできない場合、サイコロのみを振ることもできません。",
-      "en": null
+      "en": "No, you cannot. If there are no cheers to archive, you cannot resolve the card by only rolling a die."
     },
     "referenced_cards": [ "hBP01-110" ]
   },
@@ -6501,11 +6501,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "相手のステージにバックホロメンがいない時に、hBP01-112〈わくわくいたずらタイム〉を使用できますか？",
-      "en": null
+      "en": "If my opponent has no back holomem, can I use hBP01-112 Exciting Prank Time?"
     },
     "answer": {
       "jp": "いいえ、できません。\n相手のバックホロメンがいない場合、サイコロのみを振ることもできません。",
-      "en": null
+      "en": "No, you cannot. If there are no holomem to damage, you cannot resolve the card by only rolling a die."
     },
     "referenced_cards": [ "hBP01-112" ]
   },
@@ -6514,11 +6514,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自分のアーカイブにエールがない時に、hSD01-020〈ホロリスの輪〉を使用することはできますか？",
-      "en": null
+      "en": "If there are no cheers in my archive, can I use hSD01-020 Circle of hololive Listeners?"
     },
     "answer": {
       "jp": "いいえ、できません。\n自分のアーカイブにエールがない場合、サイコロのみを振ることもできません。",
-      "en": null
+      "en": "No, you cannot. If there are no cheers to send from archive, you cannot resolve the card by only rolling a die."
     },
     "referenced_cards": [ "hSD01-020" ]
   },
@@ -6527,11 +6527,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自身のステージのエールの枚数が4枚の時に、hBP06-003〈風真いろは〉のSP推しスキル「アルティメットつよつよござる」を使用しました。\nその後、自身のステージのエールの枚数が5枚になった場合、〈風真いろは〉のアーツダメージは+50になりますか？",
-      "en": null
+      "en": "I used hBP06-003 Kazama Iroha's SP Oshi Skill \"Ultimate Stronk Gozaru\" while I had 4 cheers on my stage.\nIf I then use Arts while I have 5 cheers on my stage, will my Kazama Iroha's Arts damage be increased by 50?"
     },
     "answer": {
       "jp": "いいえ、+40となります。\n「アルティメットつよつよござる」は、能力の解決時点でのエールのみを参照し、その後の変化は参照しません。",
-      "en": null
+      "en": "No, it will only be increased by 40. \"Ultimate Stronk Gozaru\" applies an effect that is based on the number of cheers on your stage at the time you use the ability, and not any cheers added afterward."
     },
     "referenced_cards": [ "hBP06-003" ]
   },
@@ -6540,11 +6540,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、コラボした後に使用したサポートカードも数えられますか？",
-      "en": null
+      "en": "Regarding hBP06-074 Natsuiro Matsuri's Collab Effect \"Tenshi Kaiwai\", does the text \"each support card you used this turn\" include support cards that I use after I collab?"
     },
     "answer": {
       "jp": "いいえ、コラボエフェクト「天使界隈」を使用するまでに使っていたサポートカードの枚数のみを数えます。",
-      "en": null
+      "en": "No, it does not. It will only count the number of support cards you had used before the collab effect was activated."
     },
     "referenced_cards": [ "hBP06-074" ]
   },
@@ -6553,11 +6553,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、hBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」で、手札以外の領域からホロメンへ付けた場合を数えますか？",
-      "en": null
+      "en": "Regarding hBP06-074 Natsuiro Matsuri's Collab Effect \"Tenshi Kaiwai\", does the text \"each support card you used this turn\" include support cards that I attach to a holomem from somewhere other than hand using hBP01-003 Aki Rosenthal's Oshi Skill \"Survival Power\"?"
     },
     "answer": {
       "jp": "いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。",
-      "en": null
+      "en": "No, it does not. It will only count the number of support cards that you played from your hand."
     },
     "referenced_cards": [ "hBP01-003", "hBP06-074" ]
   },
@@ -6566,11 +6566,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "hBP06-103〈まつりす〉をステージの〈夏色まつり〉に付けました。次のターンに、サイコロを振った時に〈夏色まつり〉に付いているhBP06-103〈まつりす〉の能力を使用してサイコロの目の数を4にしました。その後、hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」を使用しました。この場合、このターンにアーカイブしたhBP06-103〈まつりす〉を「このターンに自分が使っていたサポートカード」として数えられますか？",
-      "en": null
+      "en": "I attached hBP06-103 Matsurisu to one of my holomem. On my next turn, when I rolled a die, I used the ability of that Matsurisu to change the result to 4. Afterwards, I used hBP06-074 Natsuiro Matsuri's Collab Effect \"Tenshi Kaiwai\".\nIn this case, does the Matsurisu that I used and archived count as a \"support card you used this turn\"?"
     },
     "answer": {
       "jp": "いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。",
-      "en": null
+      "en": "No, it does not. The Collab Effect \"Tenshi Kaiwai\" will only count support cards played from your hand during this turn."
     },
     "referenced_cards": [ "hBP06-074", "hBP06-103" ]
   },
@@ -6579,11 +6579,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。\nこのターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？",
-      "en": null
+      "en": "I bloomed one of my Debut holomem to a 1st holomem, then used hBP06-090 Bloom Stage to bloom it to another 1st holomem.\nIf I use hBP06-008 Natsuiro Matsuri's SP Oshi Skill \"I definitely want to win!!!!!!!\", can I use another Bloom Stage and bloom that holomem a third time?"
     },
     "answer": {
       "jp": "いいえ、できません。\nhBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。",
-      "en": null
+      "en": "No, you cannot. Bloom Stage only allows you to bloom a 1st holomem which has a Debut holomem immediately below it."
     },
     "referenced_cards": [ "hBP06-008", "hBP06-090" ]
   },
@@ -6592,11 +6592,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？",
-      "en": null
+      "en": "I bloomed my debut Houshou Marine to hBP02-032 Houshou Marine, but chose not to use the Bloom Effect \"Houshou's Pirate Crew\" at that time. Then I used hBP06-090 Bloom Stage to bloom it to another hBP02-032 Houshou Marine.\nCan I use the Bloom Effect \"Houshou's Pirate Crew\" on this second bloom?"
     },
     "answer": {
       "jp": "いいえ、使用できません。\nブルームエフェクトはすべて強制発揮のため、すでに1度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用している扱いとなります。\nそのため『自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。』が有効となっており、同じターンの間、ブルームエフェクト「宝鐘の海賊団」は使用できません。",
-      "en": null
+      "en": "No, you cannot. Since Bloom Effects are not optional, the first time you bloomed you were considered as using the Bloom Effect \"Houshou's Pirate Crew\".\nAs a result, the rule \"You may only use Bloom Effect \"Houshou's Pirate Crew\" once per turn\" is active, and you cannot use the Bloom Effect \"Houshou's Pirate Crew\" again during the same turn."
     },
     "referenced_cards": [ "hBP02-032", "hBP06-090" ]
   }
