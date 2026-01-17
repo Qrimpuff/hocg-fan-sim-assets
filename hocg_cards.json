@@ -4196,6 +4196,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10011",
         "tcgplayer_product_id": 647031,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-024",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-024_C.webp", "en": null },
+        "img_hash": "v2|H32=2EX0Mp2sJEoxKq3OM0qLp8vQWyRnsVo4K41CU5mME2fLOsRWmiaoVWVaVqpatS2tpZWJpKLWrdJaaQutLaVppbXVlyo|CYM=050D0B",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -5492,6 +5503,17 @@
         "img_path": { "jp": "hPR/hBP01-044_P_02.webp", "en": null },
         "img_last_modified": { "jp": "Wed, 08 Oct 2025 06:18:54 GMT" },
         "img_hash": "v2|H32=wo6dKsymJZq1oikruchb5koZUsxKM3JFxjI2laxldluY1JpVFbVcYaJo0qpJkg1Tc0spras2lVpKk6YltFrVKlmtQq0|CYM=0A3534",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-044",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-044_C.webp", "en": null },
+        "img_hash": "v2|H32=yiyz3OWrja6kW22qi2TSSku10kzSNTJVYuuyVTTLFqW0UkiXVJVtQakqtui2TZSm1q5SqsoiSqukFWYt6ZWWYmuVm34|CYM=092022",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -8511,6 +8533,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10041",
         "tcgplayer_product_id": 647476,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP01-092",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-092_C.webp", "en": null },
+        "img_hash": "v2|H32=2rKkrFs7mbwsa8maz6RCVkKXE1TGRTLXktVsRNuTJObb9uxSVa1SpalSqVI2pWlVS9U0uYuqmqa0Uq1a1qQVqkmLlao|CYM=1F1F0C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -17654,6 +17687,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10068",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-031",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-031_C.webp", "en": null },
+        "img_hash": "v2|H32=WuqEmm2pqSakqSutnSJiHEvXUmrKVHLJ0hq0ZHKJtDa0qGhX1tRWqWldnbKkaZbW0iUt68u2qiSlUku1WaorTSZJqaU|CYM=142823",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -38705,6 +38749,44 @@
       }
     ]
   },
+  "hBP07-002": {
+    "card_number": "hBP07-002",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Good Luck, holoh3ro!" },
+        "text": {
+          "en": "[1/Turn]Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+50. If that holomem is a Buzz holomem with #ID Gen 3, that holomem gets Arts+80 instead."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Because nothing is impossible!" },
+        "text": {
+          "en": "[1/Game]Choose any number of [mascots and fans] from your archive, and attach them to 1 of your holomem with #ID Gen 3. If you attach 3 or more, during this turn that holomem gets Arts+100."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-002_OSR.webp", "en": null },
+        "img_hash": "v2|H32=lF2dlrTYVd2lyp2dbcu8DaXsVFJlbVTSY1GsNrPRq2pUPULVLdWrKqqqLWpVrWkqravppF6qqy11LV1LVTVV0qZrqiY|CYM=252206",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-003": {
     "card_number": "hBP07-003",
     "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
@@ -45888,6 +45970,28 @@
       }
     ]
   },
+  "hSD12-015": {
+    "card_number": "hSD12-015",
+    "name": { "jp": "脱獄を果たした共犯者たち", "en": "Escaped Criminal Gang" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "This card can only be used if all holomem on your stage have #Advent.\n\nDeal 20 special damage to your opponent's center holomem. Send 1 cheer from your archive to your holomem.\nYou may only use the card <Escaped Criminal Gang> once per turn."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-015",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-015_U.webp", "en": null },
+        "img_hash": "v2|H32=6o6pqqSqpGunazRhsmKSVNqUWJwbnF+dLgqeN582lBbelhbdA4GtqgweoYv6IK0K+oOpeB/+Ler6+KHL4OOp+g7+4OM|CYM=2B2409",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD13-001": {
     "card_number": "hSD13-001",
     "name": { "jp": "エリザベス・ローズ ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
@@ -46051,6 +46155,38 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-005_U.webp", "en": null },
         "img_hash": "v2|H32=rpRDqqe0rZLXKriWaWpbxjtNUm3CkdYs1hNWNbRWXGGt4Z4FVbVpoqELpOpJaha0K9Wqp6rbLetSKqlJ1oqrlqoUUto|CYM=08332F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-008": {
+    "card_number": "hSD13-008",
+    "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "For Justice! -GG-" },
+        "text": { "en": "Send 1 cheer from your archive to your holomem with #Justice." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "GI MURIN!!!!" }, "power": "20" } ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-008",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-008_C.webp", "en": null },
+        "img_hash": "v2|H32=rqAzKZarK1RSjU3SKhWUqi3blCpK1lpR2jRK1fcoprU76CpNVaWtl6t8tlJKk9S01YpSqaKUWpS2WkmptWpQKZaq0to|CYM=12325B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
