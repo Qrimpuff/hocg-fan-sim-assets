@@ -28292,7 +28292,7 @@
         "name": { "jp": "Shoot for the Moon", "en": "Shoot for the Moon" },
         "text": {
           "jp": "[ゲームに1回]このゲームの間、自分の〈ネリッサ・レイヴンクロフト〉全員のアーツに必要な無色エール-1。",
-          "en": "[1/Game]During this game, the Arts of your <Nerissa Ravencroft> require -1 colorless."
+          "en": "[1/Game]During this game, all of your <Nerissa Ravencroft> requires -1 colorless for their Arts."
         }
       }
     ],
@@ -28321,6 +28321,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp05/10015",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP05-006",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-006_SEC.webp", "en": null },
+        "img_hash": "v2|H32=Srq1x1uqLtctLXJpSC2hWlJZq6rUVrOoelWku1ttBKtKWrRKbVXSpV2WqJSrpmklqq5qpY2mVZKlqsksfapKpVarUoU|CYM=03456E",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -32553,7 +32564,7 @@
     "card_type": { "support": "item" },
     "text": {
       "jp": "自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。",
-      "en": "Reveal 1~2 Debut holomem with the Extra text \"You may include any number of this holomem in the deck\" from your deck, and place them on stage. Then, shuffle the deck. If you placed 2 holomem, return 1 card from your hand to the bottom of the deck."
+      "en": "Reveal 1~2 Debut holomem with Extra \"You may include any number of this holomem in the deck\" from your deck, and place them on stage. Then, shuffle the deck. If 2 Debut holomem were placed, return 1 card from your hand to the bottom of the deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -32592,6 +32603,17 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP05-074",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP05-074_C.webp", "en": null },
+        "img_hash": "v2|H32=SJGpmtS01m7nZuRkq1srkSuZWpnbrtZs1m5WajNbLJMqk1ZV+ODsog+fLWrSJ6k4SkuNi/BwqaqKw42P8HCqih4O4OA|CYM=0A220D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -39070,6 +39092,39 @@
       }
     ]
   },
+  "hBP07-023": {
+    "card_number": "hBP07-023",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Fortune telling power injection!" },
+        "text": {
+          "en": "If you are going second and this is your first turn, look at the top 3 cards of your deck. Add 1 card from among them to hand. Then, return the remaining cards to the top of the deck in any order."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "MIOON!" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-023",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-023_C.webp", "en": null },
+        "img_hash": "v2|H32=3Kotl8WqSDZj27As0lW1KL5slIlKURjNatNa0nYuVumvtpZtVpWtmitoqJqyVVkmSStS0qtCasuUulolLct2qLboIsU|CYM=11392D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-025": {
     "card_number": "hBP07-025",
     "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
@@ -39350,6 +39405,39 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-066_C.webp", "en": null },
         "img_hash": "v2|H32=lKrbaqWqNZpq1amwVG27qtYuVKuuVGqFSFFqVdopWiUWJa5sC2VJNbLwSttwqFLa2VJSqlobUqmm17K1tILytbCKUiU|CYM=0B3221",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-071": {
+    "card_number": "hBP07-071",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Hey, you" },
+        "text": {
+          "en": "Look at the top 5 cards of your deck. Reveal 1 purple Debut holomem from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "purple" ], "name": { "jp": null, "en": "I want a homemade breakfast" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-071",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-071_C.webp", "en": null },
+        "img_hash": "v2|H32=LJvMWq1qJY2rJqVsMrfbqFJSW7NKTWpVUk0ulVbSXNkskqRuC3QqJdKqQtJoaZaWtJlLq1ZbYHkqm1KrtthqSdpmcmk|CYM=202F09",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
