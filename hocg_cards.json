@@ -39013,6 +39013,37 @@
       }
     ]
   },
+  "hBP07-016": {
+    "card_number": "hBP07-016",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Pat the BAZO" },
+        "text": { "en": "If this holomem has a mascot attached, this holomem gets +30 HP." }
+      }
+    ],
+    "arts": [ { "cheers": [ "white" ], "name": { "jp": null, "en": "So, Tell Me Your Secrets?" }, "power": "20" } ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-016",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-016_U.webp", "en": null },
+        "img_hash": "v2|H32=zKqkbWpb1qooV1rTlKarO5TknTqGbWnBSq0plUuhpK1TuqRaK1RKr0HaSVU2iS7R1q+0qdEmMqWtNLR8dp12qfSqlq4|CYM=20200A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-017": {
     "card_number": "hBP07-017",
     "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
@@ -39544,6 +39575,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-088_U.webp", "en": null },
         "img_hash": "v2|H32=TKWp6q2pWbanWCmvy5I0S8u3WFU2SVo0UlU2TVomtMi0blZNVWWtpEraqqa1rU3b9oWs1apbqqq2tFLatkaWtmLLlEo|CYM=05132F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-103": {
+    "card_number": "hBP07-103",
+    "name": { "jp": "ギラファノコギリクワガタ", "en": "Giraffe Stag Beetle" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Momosuzu Nene> with this tool attached gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Momosuzu Nene>\nThis holomem's Arts damage cannot be reduced.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-103",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-103_U.webp", "en": null },
+        "img_hash": "v2|H32=RkWrKlSdwJyLmFCdqhg2HT98XGabIlTyu7J4kSuJZM0qa1ZVB48tqhWorar0gumq8GitKng86avg8Wn4ejzosvJhqk0|CYM=111115",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
