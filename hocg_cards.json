@@ -46051,6 +46051,44 @@
       }
     ]
   },
+  "hSD12-002": {
+    "card_number": "hSD12-002",
+    "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Biboo Tax" },
+        "text": {
+          "en": "[1/Turn]Archive the top card of both players' cheer decks. For each color of cheer archived, draw 1 card."
+        }
+      },
+      {
+        "special": true,
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Ancient, Mystic Brilliance" },
+        "text": {
+          "en": "[1/Game]Deal 10 special damage for each [holomem with #Advent and cheer] in your archive to your opponent's center holomem."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-002_OSR.webp", "en": null },
+        "img_hash": "v2|H32=VOt+T1NNlKrrqFJcpaqSVKi0tra7WliVh2pcj1JLKW8UorSWq5ZLKiaprWpVq2nrS7YtquosIilJVUpZWVUr1VprrlU|CYM=244207",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD12-003": {
     "card_number": "hSD12-003",
     "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
@@ -46188,6 +46226,47 @@
       }
     ]
   },
+  "hSD12-011": {
+    "card_number": "hSD12-011",
+    "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Wanna play with Biboo?" },
+        "text": {
+          "en": "Draw 1 card. You may archive 1 cheer from your stage. If you archived cheer, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+40."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Accept all the sparkle!" },
+        "power": "110",
+        "advantage": [ "yellow", 50 ],
+        "text": { "en": "For each color of cheer in both players' archives, this Arts requires -1 colorless." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Baby" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-011",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-011_RR.webp", "en": null },
+        "img_hash": "v2|H32=qKpKYbuqlpQyVbQWtAUli6SrjaoM0ss0WnVrWEotSIkrz7Rq+lQLtS3TYKFFq0qTaQ8KFa0vUtAlrVp8X9bSJcUr0vg|CYM=084738",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD12-012": {
     "card_number": "hSD12-012",
     "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
@@ -46235,6 +46314,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD12-015_U.webp", "en": null },
         "img_hash": "v2|H32=6o6pqqSqpGunazRhsmKSVNqUWJwbnF+dLgqeN582lBbelhbdA4GtqgweoYv6IK0K+oOpeB/+Ler6+KHL4OOp+g7+4OM|CYM=2B2409",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD12-016": {
+    "card_number": "hSD12-016",
+    "name": { "jp": "GEOW", "en": "GEOW" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\nWhen this mascot is attached from hand to your 1st or greater <Koseki Bijou>, you may archive 1 cheer from your stage:Reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-016",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-016_C.webp", "en": null },
+        "img_hash": "v2|H32=VFWralXVMNOrqlSVq6pMVUtVVFWr6jTZq6rUqt+sXCUrqlRVEV2tql0sLeo9PK2qpWCtql1grYqt6K2qraotqq2qr6s|CYM=010B09",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
