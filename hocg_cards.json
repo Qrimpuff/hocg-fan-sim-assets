@@ -38826,6 +38826,37 @@
       }
     ]
   },
+  "hBP07-001": {
+    "card_number": "hBP07-001",
+    "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 6,
+        "name": { "jp": null, "en": "Shall I do a Horn Drill?" },
+        "text": { "en": "[1/Turn]During this turn, all <Tsunomaki Watame> on your stage get Arts+100." }
+      }
+    ],
+    "text": {
+      "en": "Oshi Stage Skill: Do-do-drive\nWhen your <Tsunomaki Watame> uses Arts, put the top card of your deck to holo Power."
+    },
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=ZIlj1dOUai3LUFKlKWlS14mzJWurVZSmqVGK1xGpq1KRVl7VqqkpqkmlratJrnVpTarLakoqWWpZSpRsSUqXpm3L25I|CYM=28130A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-002": {
     "card_number": "hBP07-002",
     "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
@@ -38968,6 +38999,37 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-007_OSR.webp", "en": null },
         "img_hash": "v2|H32=plGUtMcZClNZrY9aG+m7KoTJe6GsWmmprlqptcbqY5WWrLSqqVYmVZJqkgol2DTRKlVKq6pVUi1JVUu1WlJLVVIqqVQ|CYM=0C273F",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-009": {
+    "card_number": "hBP07-009",
+    "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "Gabu gabu!" },
+        "power": "20+",
+        "text": { "en": "[Center Position Only]This Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Kemomimi" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-009",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-009_U.webp", "en": null },
+        "img_hash": "v2|H32=rKpOS7SazubSUdJ0s6S1OjQsrapsy2udS8tLpUpZyaULIdJaqlANriZZ9FvSrfKlwaJSUUmrQqm2VqRpa6Wy1VWqVts|CYM=170627",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -39190,6 +39252,49 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-025_C.webp", "en": null },
         "img_hash": "v2|H32=LKtaXWyqjLbTUpM0xNKzLQ5ltamSNSlL0ncs03tPbI8yZqRKBnVNqpbKtlb1svKVqVRKyWlJKgXpqnI1SVtSqUulMlU|CYM=0D525A",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-029": {
+    "card_number": "hBP07-029",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Earth Mother Goddess" },
+        "text": {
+          "en": "[1/Turn]During your opponent's turn, when this holomem takes damage, if this holomem has a support card attached, restore 50 HP to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Upright Leading" },
+        "power": "130+",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "en": "You may archive the top card of your deck:If the archived card is a holomem, send the top card of your cheer deck to your holomem. If it is a support card, this Arts gets +50."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-029",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-029_RR.webp", "en": null },
+        "img_hash": "v2|H32=4qpOWqWqptuJa5in2tjZpdLUSqVOVjM1Xle/a1qUFCprlZRqXnSstLZDaYtJapJW4Kmq6C6VKltalnJdta5aVatLcqk|CYM=3D1123",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -39616,6 +39721,39 @@
       }
     ]
   },
+  "hBP07-078": {
+    "card_number": "hBP07-078",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Join me over here!" },
+        "text": {
+          "en": "Look at the top 5 cards of your deck. Reveal 1 <Nekko> from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Have fun with Nene!!" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Singing" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-078",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-078_U.webp", "en": null },
+        "img_hash": "v2|H32=iqpntsmovaZD6alXTKvDme5DRCk2UVhMNpkyRNLYNMu8lrZtUnVKKmlqSpAur4XarbWiteqqtCqU0qJVUqpkaYtKKis|CYM=092746",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-088": {
     "card_number": "hBP07-088",
     "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
@@ -39654,6 +39792,29 @@
       }
     ]
   },
+  "hBP07-094": {
+    "card_number": "hBP07-094",
+    "name": { "jp": "ギリわるロボ", "en": "GiriWaru Robo" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "Return all of the cards in your hand to the deck and shuffle it. Then, draw 4 cards from your deck. If your life is 3 or less, instead both players return all of the cards in their hands to their decks and shuffle them. Then both players draw 4 cards."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-094",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-094_U.webp", "en": null },
+        "img_hash": "v2|H32=sqqzqrSqJI5t2kTVClWbNZt2GnUrVWzdbMlsyVwLVEp7UhJNIwhssA+PLYvweKW7D9/pavA94WzgwaE/eh7gsPDB4gc|CYM=13191D",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-103": {
     "card_number": "hBP07-103",
     "name": { "jp": "ギラファノコギリクワガタ", "en": "Giraffe Stag Beetle" },
@@ -39670,6 +39831,29 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-103_U.webp", "en": null },
         "img_hash": "v2|H32=RkWrKlSdwJyLmFCdqhg2HT98XGabIlTyu7J4kSuJZM0qa1ZVB48tqhWorar0gumq8GitKng86avg8Wn4ejzosvJhqk0|CYM=111115",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-106": {
+    "card_number": "hBP07-106",
+    "name": { "jp": "ハトタウロス", "en": "Pigeotaurus" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Ookami Mio>\nWhen this holomem collabs, you may return 1 <Pigeotaurus> attached to this holomem to the top of the deck:Return 1 holomem from your archive to hand.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#Shirakami's Character" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-106",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-106_U.webp", "en": null },
+        "img_hash": "v2|H32=0rK7qlSzbK0tbWxtbi12SNNaUtqbyh3HjKecNp023DbONjJdB8Po4B/4DerwGKkqePjpeA+u6aoPjy2q+HgpOOmC4MM|CYM=0C223A",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -46246,6 +46430,49 @@
       }
     ]
   },
+  "hSD12-007": {
+    "card_number": "hSD12-007",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "What kind of knowledge can I gain?" },
+        "text": {
+          "en": "[1/Turn]When this holomem downs your opponent's holomem, return 1 support card other than LIMITED from your archive to hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Can you please not underestimate us?" },
+        "power": "110",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-007",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-007_RR.webp", "en": null },
+        "img_hash": "v2|H32=rKqJVIOqhLZjWXBbNKw1ijSUtaoMVcslWlVaLYpSWK2vnrRqWVkLF5K1wLfg2XCx+XqitapWUrWwtnLV1boyVVKq0ng|CYM=0D514C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD12-008": {
     "card_number": "hSD12-008",
     "name": { "jp": "古石ビジュー", "en": "Koseki Bijou" },
@@ -46769,6 +46996,39 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-011_U.webp", "en": null },
         "img_hash": "v2|H32=aCm9pqVra6WfUjIn75QYq+acaMnalHJZUqXSUrallELWKF5PVHWUlbOqpuhJ21X1lpqp2rKLale1KrYtqtZUqupWaSo|CYM=081626",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-012": {
+    "card_number": "hSD13-012",
+    "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Thank you for your hard work!" },
+        "text": {
+          "en": "During your opponent's turn, when your back holomem would take special damage from your opponent, you may archive 1 holomem that is stacked to this holomem:During this turn, all of your back holomem do not take special damage."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "yellow", "colorless" ], "name": { "jp": null, "en": "I won't lose" }, "power": "60" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-012",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-012_U.webp", "en": null },
+        "img_hash": "v2|H32=qqhbNaapzKqZcjXL1rYz2lbVUrZLVmhWStdpNWZNNK1sLbYkTlVoA6m0JIutalpW9ZKmy5JqUoull1Jy0mok2dWqUmg|CYM=07345B",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
