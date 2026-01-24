@@ -25040,6 +25040,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10096",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-050",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-050_C.webp", "en": null },
+        "img_hash": "v2|H32=itRRLYX1LVQHKS1Xq1ZSKaqU0lZSKbLVtGpWrbSy1Eq8uFgV06x0USpaltppWZWkJcukqSvWKmuyFGlLlJRJkpVtq7Q|CYM=182208",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -25857,6 +25868,17 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10117",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-063",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-063_C.webp", "en": null },
+        "img_hash": "v2|H32=tLRhV6VVtZIp1W1UmahqVYvd0ihq1dJJMqo4N/SqvFdcqthVrWptJZKki9K2VRZKVau2qKpSJLtLWq6tUkcivVl3qqo|CYM=0D200C",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -32709,7 +32731,7 @@
         "rarity": "C",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-074_C.webp", "en": null },
-        "img_hash": "v2|H32=SJGpmtS01m7nZuRkq1srkSuZWpnbrtZs1m5WajNbLJMqk1ZV+ODsog+fLWrSJ6k4SkuNi/BwqaqKw42P8HCqih4O4OA|CYM=0A220D",
+        "img_hash": "v2|H32=drOjKjGviMyJzNzcq54SM7MzNqMrq1bNjYpcGN84XDLOZlZVI1mhqvCgrcsPS62KuDytOvAw6WgPy4+LHz7wOPB4qk8|CYM=032217",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -39090,6 +39112,39 @@
       }
     ]
   },
+  "hBP07-006": {
+    "card_number": "hBP07-006",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Let's go, Pioneers." },
+        "text": {
+          "en": "[1/Turn]If your holomem was downed during your opponent's previous turn, reveal 1 event from your deck and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "text": {
+      "en": "Oshi Stage Skill: ETERNiTY FRONTiER\nYour center holomem <AZKi> gets Arts+20 for each of your holo Power."
+    },
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-006",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-006_OSR.webp", "en": null },
+        "img_hash": "v2|H32=2ibKlGkltkkpLS5ViKWjUkgW49Kkem2JtGqppR52u9SSqpSqq1JpVUulqSSwqCorqqVyyQpVUtUqVQpVW3UqlVpvatU|CYM=102219",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-007": {
     "card_number": "hBP07-007",
     "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
@@ -39416,6 +39471,45 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-029_RR.webp", "en": null },
         "img_hash": "v2|H32=4qpOWqWqptuJa5in2tjZpdLUSqVOVjM1Xle/a1qUFCprlZRqXnSstLZDaYtJapJW4Kmq6C6VKltalnJdta5aVatLcqk|CYM=3D1123",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-030": {
+    "card_number": "hBP07-030",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "holoRêve -Iroha-" },
+        "text": { "en": "When bloomed from a Buzz holomem, restore 100 HP to 1 of your holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "green" ],
+        "name": { "jp": null, "en": "Many Treasures" },
+        "power": "100",
+        "advantage": [ "yellow", 50 ],
+        "text": { "en": "You may archive 2 cheers from this holomem:Draw 2 cards." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-030",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-030_R.webp", "en": null },
+        "img_hash": "v2|H32=zKipqo26LaqvKi2CbzsrysqUUk3a1NJVUk3y1NJt9Ey16tRlVTVpJarYrookiwXaLEmq0qpeKtpW2kWtqUqqrKotQNI|CYM=0A0E24",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -46524,7 +46618,7 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD12-002_OSR.webp", "en": null },
-        "img_hash": "v2|H32=VOt+T1NNlKrrqFJcpaqSVKi0tra7WliVh2pcj1JLKW8UorSWq5ZLKiaprWpVq2nrS7YtquosIilJVUpZWVUr1VprrlU|CYM=244207",
+        "img_hash": "v2|H32=VGV+Cntt1MfrqlIepbaSFKi0lrebVFieh2lcjkdpqUVUo5SWrhZLKiSprSpVq0mryrYpSmppKW1iVUtVW1Vq1XJJptU|CYM=294606",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -47225,6 +47319,28 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-016_U.webp", "en": null },
         "img_hash": "v2|H32=IqurqtCqyJrLONQ8rCwtLSQvJK8uhRbVnpQelb5WvFIuVJJNBegMivCoLbqPD+27/uONbh58oWjwA+lggh9oGHp44Fk|CYM=3B2620",
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-018": {
+    "card_number": "hSD13-018",
+    "name": { "jp": "Popo", "en": "Popo" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Gigi Murin>\nIf there are no holomem stacked to this holomem, this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-018",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-018_C.webp", "en": null },
+        "img_hash": "v2|H32=iKqpqpyqyC1pbUhVrEmmWpfa1tpSilIVajVuNSc0Nja2dhbdBvgtivhwLSrg4+l6hw/h6A8P4ejyP+GL8OHgOz/44Dg|CYM=042E57",
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
