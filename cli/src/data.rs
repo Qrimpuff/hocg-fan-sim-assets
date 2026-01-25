@@ -281,7 +281,7 @@ pub mod decklog {
                                         continue;
                                     }
 
-                                    // remove the old manage_id if it exists
+                                    // remove the old manage_id, if it exists
                                     all_cards
                                         .write()
                                         .values_mut()
@@ -348,13 +348,7 @@ pub mod decklog {
                                                 .manage_id
                                                 .value_mut(language)
                                                 .get_or_insert_default()
-                                                .push(manage_id);
-                                            if let Some(ids) =
-                                                illust.manage_id.value_mut(language).as_mut()
-                                            {
-                                                ids.sort();
-                                                ids.dedup();
-                                            }
+                                                .insert(manage_id);
                                         }
                                         illust.rarity = dl_card.rare;
                                         // rename the old file
@@ -381,11 +375,15 @@ pub mod decklog {
                                             card_number: dl_card.card_number.clone(),
                                             manage_id: match language {
                                                 Language::Japanese => Localized {
-                                                    japanese: dl_card.manage_id.map(|id| vec![id]),
+                                                    japanese: dl_card
+                                                        .manage_id
+                                                        .map(|id| [id].into()),
                                                     ..Default::default()
                                                 },
                                                 Language::English => Localized {
-                                                    english: dl_card.manage_id.map(|id| vec![id]),
+                                                    english: dl_card
+                                                        .manage_id
+                                                        .map(|id| [id].into()),
                                                     ..Default::default()
                                                 },
                                             },
@@ -1133,6 +1131,7 @@ pub mod hololive_official {
                         return None;
                     }
 
+                    // FIXME: remove the wait to improve performance, while keeping consistency. need to keep order?
                     // wait for the previous pages to be processed
                     {
                         let (lock, cvar) = &*page_count;

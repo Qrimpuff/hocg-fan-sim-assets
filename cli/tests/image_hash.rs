@@ -318,3 +318,11 @@ image_hash_tests!(
     false,
     false
 );
+
+image_hash_tests!(
+    test_hbp05_074_c_variants,
+    "hBP05-074_C_a.webp",
+    "hBP05-074_C_b.webp",
+    true,
+    false
+);

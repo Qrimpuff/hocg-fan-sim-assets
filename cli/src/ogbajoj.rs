@@ -2,7 +2,7 @@ use std::{collections::HashMap, error::Error, fs, ops::Not, path::Path, sync::Ar
 
 use hocg_fan_sim_assets_model::{
     Art, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra, Keyword,
-    KeywordEffect, Language, Localized, OshiSkill, QnaDatabase, SupportType, Tag,
+    KeywordEffect, Language, Localized, OshiSkill, QnaDatabase, SheetCell, SupportType, Tag,
 };
 use image::DynamicImage;
 use itertools::Itertools;
@@ -55,7 +55,9 @@ pub struct SheetProperties {
 
 #[derive(Debug)]
 pub struct SheetCard {
+    pub sheet_id: u64,
     pub row_idx: usize,
+    pub col_idx: usize,
     pub set_code: String,
     pub card_name_jp_en: String,
     pub language: Language,
@@ -674,11 +676,14 @@ pub fn download_images_from_ogbajoj_sheet(
                 for card in cards {
                     let language = card.language;
                     let row_idx = card.row_idx;
+                    let col_idx = card.col_idx;
                     let set_code = card.set_code;
                     let rarity = card.rarity;
                     let img_src = card.images_src;
                     let hash_img_url = card.hash_img_url;
                     let full_size_img_url = card.full_size_img_url;
+                    let sheet_id = card.sheet_id;
+                    let sheet_cell = SheetCell::from_row_col(row_idx, col_idx);
 
                     // language switch for English exclusive cards like hY01-008
                     let images_path = match language {
@@ -709,6 +714,27 @@ pub fn download_images_from_ogbajoj_sheet(
                         continue;
                     }
 
+                    // remove the old sheet_cell, if it exists
+                    all_cards
+                        .write()
+                        .values_mut()
+                        .flat_map(|cs| cs.illustrations.iter_mut())
+                        .filter(|c| {
+                            c.card_number != set_code
+                                && c.ogbajoj_sheet_cells
+                                    .iter()
+                                    .flatten()
+                                    .any(|(s, c)| *s == sheet_id && *c == sheet_cell)
+                        })
+                        .for_each(|c| {
+                            if let Some(ogbajoj_sheet_cells) = c.ogbajoj_sheet_cells.as_mut() {
+                                ogbajoj_sheet_cells
+                                    .retain(|(s, c)| *s != sheet_id || *c != sheet_cell);
+                            };
+                            // remove empty sheet_cell
+                            c.ogbajoj_sheet_cells.take_if(|v| v.is_empty());
+                        });
+
                     let mut _adding = false;
                     let mut img_unreleased = Path::new(UNRELEASED_FOLDER)
                         .join(sanitize_filename(&format!("{}_{}.webp", set_code, rarity)));
@@ -736,14 +762,26 @@ pub fn download_images_from_ogbajoj_sheet(
                         let mut matching_illustrations = card
                             .illustrations
                             .iter_mut()
-                            .filter(|i| {
-                                i.card_number == set_code
-                                    && (i.rarity.eq_ignore_ascii_case(&rarity)
-                                        || !i.manage_id.has_value())
+                            .map(|i| {
+                                // remove existing cell, for when the card move cells
+                                let mut same_sheet_cell = false;
+                                if let Some(ogbajoj_sheet_cells) = i.ogbajoj_sheet_cells.as_mut() {
+                                    same_sheet_cell = ogbajoj_sheet_cells
+                                        .iter()
+                                        .any(|(s, c)| *s == sheet_id && *c == sheet_cell);
+                                    ogbajoj_sheet_cells
+                                        .retain(|(s, c)| *s != sheet_id || *c != sheet_cell);
+                                };
+                                // remove empty sheet_cell
+                                i.ogbajoj_sheet_cells.take_if(|v| v.is_empty());
+                                (i, same_sheet_cell)
                             })
-                            .map(|i| (dist_hash(&i.img_hash, &img_hash), i))
+                            .filter(|(i, _)| {
+                                i.rarity.eq_ignore_ascii_case(&rarity) || !i.manage_id.has_value()
+                            })
+                            .map(|(i, s)| (dist_hash(&i.img_hash, &img_hash), i, s))
                             // more tolerance for manual cropping
-                            .filter(|(dist, i)| {
+                            .filter(|(dist, i, same_sheet_cell)| {
                                 match (
                                     i.manage_id.has_value(),                // released
                                     i.rarity.eq_ignore_ascii_case(&rarity), // same rarity
@@ -751,15 +789,24 @@ pub fn download_images_from_ogbajoj_sheet(
                                     (true, true) => *dist <= DIST_TOLERANCE_SAME_RARITY,
                                     (true, false) => unreachable!(),
                                     (false, true) => {
-                                        rarity != "P" || *dist <= DIST_TOLERANCE_SAME_RARITY
+                                        // allow modifying the same unreleased cell
+                                        *same_sheet_cell || *dist <= DIST_TOLERANCE_SAME_RARITY
                                     }
                                     (false, false) => *dist <= DIST_TOLERANCE_DIFF_RARITY,
                                 }
                             })
                             .collect_vec();
-                        matching_illustrations.sort_by_key(|(dist, _)| *dist);
+                        matching_illustrations.sort_by_key(|(dist, _, _)| *dist);
 
-                        let illust = if let Some((_, illust)) = matching_illustrations.first_mut() {
+                        let illust = if let Some((_, illust, _)) =
+                            matching_illustrations.first_mut()
+                        {
+                            // add the sheet cell back, if not present
+                            illust
+                                .ogbajoj_sheet_cells
+                                .get_or_insert_default()
+                                .insert((sheet_id, sheet_cell));
+
                             // Use existing unreleased illustration, with a different image
                             // Master Sheet has duplicate entries
                             if !illust.manage_id.has_value()
@@ -811,6 +858,7 @@ pub fn download_images_from_ogbajoj_sheet(
                                     language,
                                     img_unreleased.to_str().unwrap().replace("\\", "/"),
                                 ),
+                                ogbajoj_sheet_cells: Some([(sheet_id, sheet_cell.clone())].into()),
                                 ..Default::default()
                             });
                             card.illustrations.last_mut().unwrap()
@@ -1025,13 +1073,14 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
     let img_sel = Selector::parse("img").unwrap();
 
     let name = sheet.properties.title.clone();
+    let sheet_id = sheet.properties.sheet_id;
 
     // Read HTML content from the website
     let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
     let resp = http_client()
         .get(&url)
         .query(&[
-            ("gid", sheet.properties.sheet_id.to_string().as_str()),
+            ("gid", sheet_id.to_string().as_str()),
             ("widget", "false"),
             ("single", "true"),
         ])
@@ -1168,7 +1217,9 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
         };
 
         // Process data rows after the header row
-        for (row_idx, tr) in trs.into_iter().enumerate().skip(header_row_idx + 1) {
+        for (row_idx, tr) in trs.into_iter().skip(header_row_idx + 1).enumerate() {
+            let row_idx = row_idx + 1; // 1-based index
+
             let tds = tr.select(&td_sel).collect_vec();
             if tds.is_empty()
                 || tds
@@ -1194,6 +1245,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
             let text = extract_cell_text(&tds, text_idx);
             let source = extract_cell_text(&tds, source_idx);
 
+            // FIXME: more EN cases
             // language switch for English exclusive cards like hY01-008
             let language = if source.contains("(JP)") {
                 Language::Japanese
@@ -1221,7 +1273,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
             if let Some(img_src) = img_src
                 && let Some(rarity) = rarity_1
             {
-                images.push((img_src, rarity));
+                images.push((img_src, rarity, image_idx.unwrap()));
             }
 
             // first alternate art
@@ -1237,7 +1289,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
             if let Some(alt_art_src) = alternate_art_src
                 && let Some(rarity) = rarity_2
             {
-                images.push((alt_art_src, rarity));
+                images.push((alt_art_src, rarity, alternate_art_idx.unwrap()));
             }
 
             // second alternate art
@@ -1253,10 +1305,12 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
             if let Some(alt_art_src) = alternate_art_2_src
                 && let Some(rarity) = rarity_3
             {
-                images.push((alt_art_src, rarity));
+                images.push((alt_art_src, rarity, alternate_art_2_idx.unwrap()));
             }
 
-            for (img_src, rarity) in images {
+            for (img_src, rarity, col_idx) in images {
+                let col_idx = col_idx + 1; // 1-based index
+
                 if DEBUG {
                     println!("[{name}] row: {set_code} -> {img_src}");
                 }
@@ -1275,7 +1329,9 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
                 let full_size_img_url = format!("{full_size_img_url}{query}");
 
                 let card = SheetCard {
+                    sheet_id,
                     row_idx,
+                    col_idx,
                     set_code: set_code.clone(),
                     card_name_jp_en: card_name.clone(),
                     language,

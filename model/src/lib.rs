@@ -1,4 +1,4 @@
-use std::collections::BTreeMap;
+use std::collections::{BTreeMap, BTreeSet};
 use std::ops::Deref;
 use std::{cmp::Ordering, num::ParseIntError};
 
@@ -342,7 +342,7 @@ pub type Tag = Localized<String>;
 #[serde(default)]
 pub struct CardIllustration {
     pub card_number: String,
-    pub manage_id: Localized<Vec<u32>>, // unique ids in Deck Log
+    pub manage_id: Localized<BTreeSet<u32>>, // unique ids in Deck Log
     pub rarity: String,
     pub illustrator: Option<String>,
     #[serde(serialize_with = "Localized::full_serialize")]
@@ -351,6 +351,7 @@ pub struct CardIllustration {
     pub img_last_modified: Localized<String>,
     #[serde(skip_serializing_if = "is_default")]
     pub img_hash: String,
+    pub ogbajoj_sheet_cells: Option<BTreeSet<(SheetId, SheetCell)>>,
     pub yuyutei_sell_url: Option<String>,
     pub tcgplayer_product_id: Option<u32>,
     pub delta_art_index: Option<u32>,
@@ -360,6 +361,78 @@ impl CardIllustration {
     pub fn tcgplayer_url(&self) -> Option<String> {
         self.tcgplayer_product_id
             .map(|id| format!("https://www.tcgplayer.com/product/{id}"))
+    }
+}
+
+pub type SheetId = u64;
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+pub struct SheetCell(String);
+
+impl SheetCell {
+    /// Creates a `SheetCell` from 1-based row and column indices.
+    pub fn from_row_col(row: usize, col: usize) -> Self {
+        let mut col = col - 1; // convert to 0-based index
+        let mut col_str = String::new();
+
+        loop {
+            let remainder = col % 26;
+            col_str.insert(0, (b'A' + remainder as u8) as char);
+            if col < 26 {
+                break;
+            }
+            col = col / 26 - 1;
+        }
+
+        SheetCell(format!("{}{}", col_str, row))
+    }
+
+    /// Converts the `SheetCell` to 1-based row and column indices.
+    pub fn to_row_col(&self) -> Option<(usize, usize)> {
+        let mut col = 0;
+        let mut row_str = String::new();
+
+        for c in self.0.chars() {
+            if c.is_ascii_alphabetic() {
+                col = col * 26 + (c.to_ascii_uppercase() as usize - 'A' as usize + 1);
+            } else if c.is_ascii_digit() {
+                row_str.push(c);
+            } else {
+                return None; // invalid character
+            }
+        }
+
+        let row: usize = row_str.parse().ok()?;
+        Some((row, col)) // 1-based index
+    }
+}
+
+impl Deref for SheetCell {
+    type Target = String;
+
+    fn deref(&self) -> &Self::Target {
+        &self.0
+    }
+}
+
+impl PartialOrd for SheetCell {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
+impl Ord for SheetCell {
+    fn cmp(&self, other: &Self) -> Ordering {
+        use std::cmp::Reverse;
+        // use Reverse to pull None at the end, while keeping original order for Some values
+        (Reverse(self.to_row_col().as_ref().map(Reverse)),)
+            .cmp(&(Reverse(other.to_row_col().as_ref().map(Reverse)),))
+    }
+}
+
+impl From<String> for SheetCell {
+    fn from(value: String) -> Self {
+        Self(value)
     }
 }
 
@@ -725,7 +798,7 @@ impl PartialOrd for Card {
     }
 }
 
-pub type QnaDatabase = BTreeMap<NaturalQnaNumberOrder, Qna>;
+pub type QnaDatabase = BTreeMap<QnaNumber, Qna>;
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
@@ -742,9 +815,9 @@ pub struct Qna {
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
-pub struct NaturalQnaNumberOrder(String);
+pub struct QnaNumber(String);
 
-impl Deref for NaturalQnaNumberOrder {
+impl Deref for QnaNumber {
     type Target = String;
 
     fn deref(&self) -> &Self::Target {
@@ -752,13 +825,13 @@ impl Deref for NaturalQnaNumberOrder {
     }
 }
 
-impl PartialOrd for NaturalQnaNumberOrder {
+impl PartialOrd for QnaNumber {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         Some(self.cmp(other))
     }
 }
 
-impl Ord for NaturalQnaNumberOrder {
+impl Ord for QnaNumber {
     fn cmp(&self, other: &Self) -> Ordering {
         let self_num = self.0.trim_start_matches('Q').parse::<u32>().unwrap_or(0);
         let other_num = other.0.trim_start_matches('Q').parse::<u32>().unwrap_or(0);
@@ -766,7 +839,7 @@ impl Ord for NaturalQnaNumberOrder {
     }
 }
 
-impl From<String> for NaturalQnaNumberOrder {
+impl From<String> for QnaNumber {
     fn from(value: String) -> Self {
         Self(value)
     }

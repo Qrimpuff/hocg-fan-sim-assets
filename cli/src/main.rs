@@ -442,10 +442,6 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                                 .value_mut(language)
                                 .get_or_insert_default()
                                 .extend(manage_id);
-                            if let Some(ids) = illustrations[i].manage_id.value_mut(language) {
-                                ids.sort();
-                                ids.dedup();
-                            }
                         }
 
                         // merge image path and last modified
@@ -481,9 +477,27 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                         illustrations[i].yuyutei_sell_url =
                             illustrations[j].yuyutei_sell_url.clone();
                     }
+                    if illustrations[i].tcgplayer_product_id.is_none() {
+                        illustrations[i].tcgplayer_product_id =
+                            illustrations[j].tcgplayer_product_id;
+                    }
                     if illustrations[i].delta_art_index.is_none() {
                         illustrations[i].delta_art_index = illustrations[j].delta_art_index;
                     }
+
+                    // merge ogbajoj sheet cells
+                    let ogbajoj_sheet_cells_j = illustrations[j]
+                        .ogbajoj_sheet_cells
+                        .take()
+                        .into_iter()
+                        .flatten();
+                    illustrations[i]
+                        .ogbajoj_sheet_cells
+                        .get_or_insert_default()
+                        .extend(ogbajoj_sheet_cells_j);
+                    illustrations[i]
+                        .ogbajoj_sheet_cells
+                        .take_if(|v| v.is_empty());
 
                     // remove merged illustration
                     illustrations.remove(j);
