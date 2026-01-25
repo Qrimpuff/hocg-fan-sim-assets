@@ -1,4 +1,5 @@
 use std::collections::{BTreeMap, BTreeSet};
+use std::fmt::Display;
 use std::ops::Deref;
 use std::{cmp::Ordering, num::ParseIntError};
 
@@ -362,6 +363,20 @@ impl CardIllustration {
         self.tcgplayer_product_id
             .map(|id| format!("https://www.tcgplayer.com/product/{id}"))
     }
+
+    pub fn ogbajoj_sheet_urls(&self) -> Vec<String> {
+        const SPREADSHEET_ID: &str = "1IdaueY-Jw8JXjYLOhA9hUd2w0VRBao9Z1URJwmCWJ64";
+        self.ogbajoj_sheet_cells
+            .iter()
+            .flatten()
+            .map(|(sheet_id, cell)| {
+                format!(
+                    "https://docs.google.com/spreadsheets/d/{}/view?gid={}#range={}",
+                    SPREADSHEET_ID, sheet_id, cell
+                )
+            })
+            .collect()
+    }
 }
 
 pub type SheetId = u64;
@@ -433,6 +448,12 @@ impl Ord for SheetCell {
 impl From<String> for SheetCell {
     fn from(value: String) -> Self {
         Self(value)
+    }
+}
+
+impl Display for SheetCell {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", self.0)
     }
 }
 
