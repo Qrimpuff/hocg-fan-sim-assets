@@ -40693,6 +40693,40 @@
       }
     ]
   },
+  "hBP07-004": {
+    "card_number": "hBP07-004",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Worldwide Strongest Idol!" },
+        "text": {
+          "en": "[1/Turn]Return 1 Debut holomem <Akai Haato> from your back position to the bottom of your deck. Then, choose 1 <Akai Haato> on your stage. During this turn, the chosen holomem gets Arts+50."
+        }
+      }
+    ],
+    "text": {
+      "en": "Oshi Stage Skill: Haachama Now\n[1/Turn]During your turn, when your <Akai Haato> returns from your stage to deck using your ability, draw 2 cards."
+    },
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-004",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-004_OSR.webp", "en": null },
+        "img_hash": "v2|H32=9os2SaOZ1kq1nVZalblXUsyZc0mImGOpykp5xYYrWVWkJZSqq1KrRSuliypfKSmlWlUqq6pVVi1qVaJVSlqqtFVdGlQ|CYM=035538",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C6" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-005": {
     "card_number": "hBP07-005",
     "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
@@ -40980,6 +41014,46 @@
         "img_path": { "jp": "unreleased/hBP07-020_U.webp", "en": null },
         "img_hash": "v2|H32=KmccmtBtdlfSSaW0NFrvqqm2S2scp9IdUm+SnEsziU4vo6xOknRKNV2rVKmpWrVSJWmLVkqVZanUqitLrVRVlApt0Zo|CYM=111F17",
         "ogbajoj_sheet_cells": [ [ 337784829, "C22" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-021": {
+    "card_number": "hBP07-021",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Will You Assist Me in This Mission?" },
+        "text": { "en": "Attach 1 [<BAZO> or <Zecretary>] from your archive to your holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Supreme Secret Agent" },
+        "power": "160+",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "If you have a Buzz holomem with #ID Gen 3 on your stage, this Arts gets +40." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-021",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-021_RR.webp", "en": null },
+        "img_hash": "v2|H32=lKpKVZaqxpUKVYTVcqqkamW2pSpI1atsSj1aZat5UqXLSpRKkiSrPlJVTa8KWyq1rVpipQWaatXBUmLVlaqybWmtsuo|CYM=212E0B",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C23" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -48547,6 +48621,46 @@
       }
     ]
   },
+  "hSD12-004": {
+    "card_number": "hSD12-004",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "An Ominous Warning" },
+        "power": "20",
+        "text": { "en": "This Arts may also target your opponent's back holomem." }
+      },
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "Just a Humble, Kind Witch" },
+        "power": "30",
+        "text": {
+          "en": "If you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #Advent."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-004",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-004_C.webp", "en": null },
+        "img_hash": "v2|H32=rNJRq61SPK2vKjEsp6mkTdK5ilVKldpWUjHsUFKppPBcpVZJW1W5Jql4KtGVrgrVVaqqVqWKqhZq1RWtckWVqkJVsOo|CYM=21200D",
+        "ogbajoj_sheet_cells": [ [ 543634835, "C6" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD12-007": {
     "card_number": "hSD12-007",
     "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
@@ -49022,6 +49136,48 @@
         "img_path": { "jp": "unreleased/hSD13-006_U.webp", "en": null },
         "img_hash": "v2|H32=zpgNUqeoaXOzrCUtmcK2pCpLUp5aVGJJVhbCKcYjlKdOK/RLFVVatVor0Lop6ylitIVqXZoWpTylapq2oq1Sn7WSKlU|CYM=13362E",
         "ogbajoj_sheet_cells": [ [ 543634835, "C36" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-007": {
+    "card_number": "hSD13-007",
+    "name": { "jp": "エリザベス・ローズ ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 180,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Warcry of Fierce Flames" },
+        "text": { "en": "This holomem gets +10 HP for each cheer attached to this holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "The Slayer of Evil's Cadenza" },
+        "power": "100+",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "This Arts gets +20 for each cheer attached to this holomem. If your opponent's holomem is downed by this Arts, send the top card of your cheer deck to this holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-007",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-007_RR.webp", "en": null },
+        "img_hash": "v2|H32=JKvJiiO7zLTLUNhUpdQ0ebScNStWL3JjWmVaRcpVzMWtsVYKVGWLpvLiBbrVmmrVakWtbC64atGWWqBSkpJSoUsNomg|CYM=1E351D",
+        "ogbajoj_sheet_cells": [ [ 543634835, "C37" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
