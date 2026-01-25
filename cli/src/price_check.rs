@@ -388,7 +388,7 @@ struct TcgPlayerProduct {
 
 impl TcgPlayerProduct {
     pub fn fix_product(&mut self) {
-        // fix Tokino Sora (SR) (hSD01-006) - Blooming Radiance (BP01E)
+        // Tokino Sora (SR) (hSD01-006) - Blooming Radiance (BP01E)
         if self.product_id == 647463
             && let Some(ed) = self
                 .extended_data
@@ -398,14 +398,44 @@ impl TcgPlayerProduct {
             ed["value"] = Value::String("hSD01-006".into());
         }
 
-        // fix Purple Cheer - Yuzuki Choco (P) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 659055
+        // Yellow Cheer (C) - Elite Spark (HBP03E)
+        if self.product_id == 670487
             && let Some(ed) = self
                 .extended_data
                 .iter_mut()
                 .find(|ed| ed["name"] == "Number")
         {
-            ed["value"] = Value::String("hY05-006".into());
+            ed["value"] = Value::String("hY06-001".into());
+        }
+
+        // Pavolia Reine (P) (hBP02-018) - hololive OFFICIAL CARD GAME Promos (hOCGP)
+        if self.product_id == 671675
+            && let Some(ed) = self
+                .extended_data
+                .iter_mut()
+                .find(|ed| ed["name"] == "Rarity")
+        {
+            ed["value"] = Value::String("Promo".into());
+        }
+
+        // Shirakami Fubuki (P) (hBP02-011) - hololive OFFICIAL CARD GAME Promos (hOCGP)
+        if self.product_id == 671615
+            && let Some(ed) = self
+                .extended_data
+                .iter_mut()
+                .find(|ed| ed["name"] == "Rarity")
+        {
+            ed["value"] = Value::String("Promo".into());
+        }
+
+        // Nanashi Mumei (P) (hBP01-015) - hololive OFFICIAL CARD GAME Promos (hOCGP)
+        if self.product_id == 671673
+            && let Some(ed) = self
+                .extended_data
+                .iter_mut()
+                .find(|ed| ed["name"] == "Rarity")
+        {
+            ed["value"] = Value::String("Promo".into());
         }
     }
 }
