@@ -1245,13 +1245,13 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
             let text = extract_cell_text(&tds, text_idx);
             let source = extract_cell_text(&tds, source_idx);
 
-            // FIXME: more EN cases
             // language switch for English exclusive cards like hY01-008
             let language = if source.contains("(JP)") {
                 Language::Japanese
             } else if text.contains("EN exclusive")
                 || source.contains("EN only")
                 || source.contains("(EN)")
+                || text.contains("available in EN")
             {
                 Language::English
             } else {
