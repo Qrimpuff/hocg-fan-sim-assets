@@ -438,8 +438,8 @@ pub mod hololive_official {
     use std::{ops::Deref, sync::OnceLock};
 
     use hocg_fan_sim_assets_model::{
-        Art, ArtPower, BloomLevel, Card, CardType, CardsDatabase, Color, Extra, HoloPower, Keyword,
-        KeywordEffect, Language, Localized, OshiSkill,
+        Art, ArtPower, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra,
+        HoloPower, Keyword, KeywordEffect, Language, Localized, OshiSkill,
     };
     use itertools::Itertools;
     use parking_lot::{Condvar, Mutex, RwLock};
@@ -850,39 +850,35 @@ pub mod hololive_official {
         update_arts(card, arts, language, false);
     }
 
-    fn update_card_illustrations(
-        card: &mut Card,
-        card_url: Url,
-        card_id: &str,
-        language: Language,
-    ) {
+    fn update_card_illustrations(illust: &mut CardIllustration, language: Language) -> bool {
         static ILLUSTRATOR: OnceLock<Selector> = OnceLock::new();
         let illustrator = ILLUSTRATOR.get_or_init(|| Selector::parse(".ill-name span").unwrap());
 
-        if let Some(illust) = card.illustrations.iter_mut().find(|i| {
-            i.illustrator.is_none()
-                && i.manage_id
-                    .value(language)
-                    .iter()
-                    .flatten()
-                    .any(|m| Some(*m) == card_id.parse().ok())
-        }) {
-            let resp = http_client().get(card_url).send().unwrap();
-            let content = resp.text().unwrap();
-
-            // parse the content and update cards
-            let document = Html::parse_document(&content);
-
-            // get the illustrator from the card
-            // save empty string to indicate that we know there is no illustrator. no need for request
-            illust.illustrator = Some(
-                document
-                    .select(illustrator)
-                    .next()
-                    .map(|c| c.text().collect::<String>())
-                    .unwrap_or_default(),
-            );
+        if illust.illustrator.is_some() {
+            return false;
         }
+
+        let card_urls = illust.official_site_urls(language);
+        let Some(card_url) = card_urls.last() else {
+            return false;
+        };
+
+        let resp = http_client().get(card_url).send().unwrap();
+        let content = resp.text().unwrap();
+
+        // parse the content and update cards
+        let document = Html::parse_document(&content);
+
+        // get the illustrator from the card
+        // save empty string to indicate that we know there is no illustrator. no need for request
+        illust.illustrator = Some(
+            document
+                .select(illustrator)
+                .next()
+                .map(|c| c.text().collect::<String>())
+                .unwrap_or_default(),
+        );
+        true
     }
 
     // --- Fixes for known issues in the official database ---
@@ -1131,7 +1127,6 @@ pub mod hololive_official {
                         return None;
                     }
 
-                    // FIXME: remove the wait to improve performance, while keeping consistency. need to keep order?
                     // wait for the previous pages to be processed
                     {
                         let (lock, cvar) = &*page_count;
@@ -1194,7 +1189,6 @@ pub mod hololive_official {
                         update_card_oshi_skills(&mut card, &hololive_card, language);
                         update_card_keywords(&mut card, &hololive_card, language);
                         update_card_arts(&mut card, &hololive_card, language);
-                        update_card_illustrations(&mut card, card_url, &card_id, language);
 
                         let mut _all_cards = all_cards.write();
                         _all_cards.insert(card_number, card);
@@ -1216,8 +1210,34 @@ pub mod hololive_official {
             })
             .while_some()
             .max(); // Need this to drive the iterator
-
         println!("Updated {} cards", *updated_count.lock());
+
+        // Download illustration specific info
+        let illust_updated_count = Arc::new(Mutex::new(0u32));
+        all_cards
+            .write()
+            .values_mut()
+            .enumerate()
+            .par_bridge()
+            .for_each(|(index, card)| {
+                let mut update_count = 0;
+                for illustration in &mut card.illustrations {
+                    if update_card_illustrations(illustration, language) {
+                        update_count += 1;
+                    }
+                }
+
+                if update_count > 0 {
+                    let mut illust_updated_count = illust_updated_count.lock();
+                    *illust_updated_count += update_count;
+
+                    if illust_updated_count.is_multiple_of(100) {
+                        let index = index + 1;
+                        println!("Card {index} done: updated {illust_updated_count} illustrations");
+                    }
+                }
+            });
+        println!("Updated {} illustrations", *illust_updated_count.lock());
     }
 }
 

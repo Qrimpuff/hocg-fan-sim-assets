@@ -359,6 +359,22 @@ pub struct CardIllustration {
 }
 
 impl CardIllustration {
+    pub fn official_site_urls(&self, language: Language) -> Vec<String> {
+        self.manage_id
+            .value(language)
+            .iter()
+            .flatten()
+            .map(|id| match language {
+                Language::Japanese => {
+                    format!("https://hololive-official-cardgame.com/cardlist/?id={id}")
+                }
+                Language::English => {
+                    format!("https://en.hololive-official-cardgame.com/cardlist/?id={id}")
+                }
+            })
+            .collect()
+    }
+
     pub fn tcgplayer_url(&self) -> Option<String> {
         self.tcgplayer_product_id
             .map(|id| format!("https://www.tcgplayer.com/product/{id}"))
