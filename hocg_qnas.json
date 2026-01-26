@@ -1905,7 +1905,7 @@
     },
     "answer": {
       "jp": "以下の順番で処理を行ってください。\n\n①ホロメンAのダウン処理として、「ダウンした時」「ダウンさせた時」の能力を処理します。\n②ホロメンAをアーカイブし、ライフを-1します。ライフを1枚を表向きにし、自分のステージのホロメンにエールを送ります。\n③次に、ホロメンBのダウン処理として、「ダウンした時」「ダウンさせた時」の能力を処理します。\n④ホロメンBをアーカイブし、ライフを-1します。ライフを1枚を表向きにし、自分のステージのホロメンにエールを送ります。\n\n[12/22更新]12/19(金)の総合ルール変更に伴い、内容を変更いたしました。",
-      "en": "Process it in the following order:\n1. Archive holomem A as part of the Down process.\n2. Archive holomem B as part of the Down process.\n3. Since two holomem were downed, reduce your Life by 2. First, turn over one Life card and send it to a holomem on your stage. Then, turn over another Life card and send it to a holomem on your stage."
+      "en": "Process it in the following order:\n1. As part of holomem A's down process, execute any \"when this holomem is downed\" abilities, and any of your opponent's \"when you down your opponent's holomem\" abilities.\n2. Archive holomem A and take 1 life by turning the top card of your life over and sending it to a holomem.\n3. As part of holomem B's down process, execute any \"when this holomem is downed\" abilities, and any of your opponent's \"when you down your opponent's holomem\" abilities.\n4. Archive holomem B and take 1 life by turning the top card of your life over and sending it to a holomem."
     }
   },
   "Q161": {
