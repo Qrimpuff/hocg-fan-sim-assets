@@ -41476,6 +41476,47 @@
       }
     ]
   },
+  "hBP07-058": {
+    "card_number": "hBP07-058",
+    "name": { "jp": "こぼ・かなえる", "en": "Kobo Kanaeru" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Happy For You" },
+        "text": {
+          "en": "Reveal 1 cheer from your cheer deck with the same color as 1 of your holomem with #ID Gen 3 on stage, and send it to your holomem. Then, shuffle the cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "MANTAP LEE!!" },
+        "power": "60",
+        "text": { "en": "If your opponent has 3 or more back holomem with reduced HP, draw 2 cards." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-058",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-058_R.webp", "en": null },
+        "img_hash": "v2|H32=rKtraq2rTG6rU5TWwlm0vtKbNL1SVTIVUlVSBdIk0qWtrtQuVWStKqrWKtUGnUqlZatpqKpaqlJSV1LV+gpyqbWqUro|CYM=1B1716",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C60" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-065": {
     "card_number": "hBP07-065",
     "name": { "jp": "AZKi", "en": "AZKi" },
@@ -41691,6 +41732,42 @@
         "img_path": { "jp": "unreleased/hBP07-078_U.webp", "en": null },
         "img_hash": "v2|H32=iqpntsmovaZD6alXTKvDme5DRCk2UVhMNpkyRNLYNMu8lrZtUnVKKmlqSpAur4XarbWiteqqtCqU0qJVUqpkaYtKKis|CYM=092746",
         "ogbajoj_sheet_cells": [ [ 337784829, "C80" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-087": {
+    "card_number": "hBP07-087",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Niko-tan dispatched!" },
+        "text": {
+          "en": "If you are going second and this is your first turn, you may archive the top 2 cards of your cheer deck:Choose 1 holomem with #FLOW GLOW on your stage. During this turn, the chosen holomem gets Arts+20."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "The criminal was caught red-handed" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-087",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-087_C.webp", "en": null },
+        "img_hash": "v2|H32=rKqtbq+rraLLWyFV2rI3Wso1coqqVXKlUkH6xHZL1l08yrQlVNUrVFrpgtqtqVC1cK2q0opWYqvVomqta0myJEkqptU|CYM=201226",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C89" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
