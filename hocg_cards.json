@@ -41369,6 +41369,40 @@
       }
     ]
   },
+  "hBP07-040": {
+    "card_number": "hBP07-040",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Haachama ♥ Restaurant" },
+        "text": {
+          "en": "You may return 1 Debut <Akai Haato> from your back position to the bottom of your deck:Reveal 1 [1st holomem or 2nd holomem] other than Buzz from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "red" ], "name": { "jp": null, "en": "Our specialty Haaton Burger!" }, "power": "40" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-040",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-040_R.webp", "en": null },
+        "img_hash": "v2|H32=Kqu3ui+rTKXbcm2l2lQp0JYpGlqWq1JbRgeyFWZUtpR2bLYsVNVoVYFqUqqt0VDZWrUt+JZaaysWCpJKpVKV0qm1UGg|CYM=033442",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C42" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-050": {
     "card_number": "hBP07-050",
     "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
@@ -41831,6 +41865,30 @@
         "img_path": { "jp": "unreleased/hBP07-094_U.webp", "en": null },
         "img_hash": "v2|H32=sqqzqrSqJI5t2kTVClWbNZt2GnUrVWzdbMlsyVwLVEp7UhJNIwhssA+PLYvweKW7D9/pavA94WzgwaE/eh7gsPDB4gc|CYM=13191D",
         "ogbajoj_sheet_cells": [ [ 337784829, "C96" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-101": {
+    "card_number": "hBP07-101",
+    "name": { "jp": "ASMRマイク", "en": "ASMR Microphone" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "◆Additional ability if attached to a Buzz holomem\nThis holomem's Arts require -1 colorless.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#BuzzMerch" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-101",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-101_C.webp", "en": null },
+        "img_hash": "v2|H32=VlWrSFTVRL2rqlQsq2r2bL92LJMrslaTq6pUjZdu1GysalZVs8ktqgo+LesKPq2qyuKtquABqatqYCkq6gNrqnp4akk|CYM=070B0D",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C103" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
