@@ -41716,6 +41716,49 @@
       }
     ]
   },
+  "hBP07-067": {
+    "card_number": "hBP07-067",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "ROMANTiC NiGHT" },
+        "text": {
+          "en": "Look at the top 4 cards of your deck. Reveal 1 <AZKi> from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": null, "en": "A night alone with you" },
+        "power": "40",
+        "text": {
+          "en": "You may archive 1 card from your hand:Deal 20 special damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-067",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-067_R.webp", "en": null },
+        "img_hash": "v2|H32=uqprXJuqFKtWYo2b9qKNWugVl8pIlWsFXK1q1TssUukpVqZKUqrKNS3VWZJqqWK1qRQouLBWKtWq1jItVZK2qrW8tlk|CYM=053E44",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C69" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-071": {
     "card_number": "hBP07-071",
     "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
@@ -41923,6 +41966,28 @@
         "img_path": { "jp": "unreleased/hBP07-088_U.webp", "en": null },
         "img_hash": "v2|H32=TKWp6q2pWbanWCmvy5I0S8u3WFU2SVo0UlU2TVomtMi0blZNVWWtpEraqqa1rU3b9oWs1apbqqq2tFLatkaWtmLLlEo|CYM=05132F",
         "ogbajoj_sheet_cells": [ [ 337784829, "C90" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-092": {
+    "card_number": "hBP07-092",
+    "name": { "jp": "アーカイブパソコン", "en": "Archive PC" },
+    "card_type": { "support": "item" },
+    "limited": true,
+    "text": { "en": "Return 1~3 holomem from your archive to the deck and shuffle it. Draw 2 cards." },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-092",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-092_U.webp", "en": null },
+        "img_hash": "v2|H32=aK3pqmStbK2rqtRZphqGOJcapjkrLVxJKksqRZ1LlFaqtBJFQaksmjGoLZu/bq2awIepaJokqSyqW6kuqlBg23pdIts|CYM=0E320C",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C94" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
