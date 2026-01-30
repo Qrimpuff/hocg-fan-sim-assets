@@ -5703,7 +5703,7 @@
         "img_last_modified": { "jp": "Wed, 08 Oct 2025 06:18:54 GMT" },
         "img_hash": "v2|H32=wo6dKsymJZq1oikruchb5koZUsxKM3JFxjI2laxldluY1JpVFbVcYaJo0qpJkg1Tc0spras2lVpKk6YltFrVKlmtQq0|CYM=0A3534",
         "ogbajoj_sheet_cells": [ [ 1568103987, "C37" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10138",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       },
@@ -41497,6 +41497,48 @@
       }
     ]
   },
+  "hBP07-044": {
+    "card_number": "hBP07-044",
+    "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "The Show Must Go On" },
+        "text": {
+          "en": "[Center Position・Collab Position Only]During your opponent's turn, when your Buzz holomem with a fan attached is downed, if your Oshi holomem is <Omaru Polka>, you take -1 Life Damage."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "Staff First!" },
+        "power": "120",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "Archive the top 2 cards of your deck. You may return 1 staff from your archive to hand." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-044",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-044_R.webp", "en": null },
+        "img_hash": "v2|H32=KKpNSomqZrWTzJS2tvSxmrDSKYsq1QvRWlUy1VJKFmkmLLZqWiVql6X6wKVaV2rTdIsqqipFeiW0i2p1dJHWuLZ6tlI|CYM=0E3E51",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C46" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-050": {
     "card_number": "hBP07-050",
     "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
@@ -41903,6 +41945,40 @@
         "img_path": { "jp": "unreleased/hBP07-078_U.webp", "en": null },
         "img_hash": "v2|H32=iqpntsmovaZD6alXTKvDme5DRCk2UVhMNpkyRNLYNMu8lrZtUnVKKmlqSpAur4XarbWiteqqtCqU0qJVUqpkaYtKKis|CYM=092746",
         "ogbajoj_sheet_cells": [ [ 337784829, "C80" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-080": {
+    "card_number": "hBP07-080",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Orange Idol!" },
+        "text": {
+          "en": "[1/Turn]Usable during your main phase if your Oshi holomem is <Momosuzu Nene>:Attach 1 <Nekko> from your archive to this holomem."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "yellow" ], "name": { "jp": null, "en": "The cutest thing ever" }, "power": "40" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Singing" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-080",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-080_C.webp", "en": null },
+        "img_hash": "v2|H32=rKpyWaWqCa1bco28WGGpEpRtcqJqVdalUl0425IN1FquUaxtVrVtrdKmUpqtLlHaaUlqdaWaKlWtw9IuUlpSJe3aktI|CYM=02225E",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C82" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
