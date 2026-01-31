@@ -12093,7 +12093,7 @@
         "img_path": { "jp": "hBP02/hBP02-024_C.webp", "en": "hBP02/EN_hBP02-024_C.webp" },
         "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:54 GMT", "en": "Fri, 19 Sep 2025 08:21:34 GMT" },
         "img_hash": "v2|H32=qqWUSh27baatOgmK5+WLNdJKa6U2MVJaaqW0VNtOlG2tlNhWVLV0pa1aRqnJdi3btqWttqpIi3I2yZUk27ZKS6laNuk|CYM=15241F",
-        "ogbajoj_sheet_cells": [ [ 337784829, "C115" ], [ 1642260809, "C25" ] ],
+        "ogbajoj_sheet_cells": [ [ 1642260809, "C25" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10049",
         "tcgplayer_product_id": 657579,
         "delta_art_index": 0
@@ -12123,6 +12123,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10107",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP02-024",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-024_C.webp", "en": null },
+        "img_hash": "v2|H32=Ejal6I2eJWutm42PI2PLlvLkUjdamXLNWpN2U9mG1HBbNtRWXbZ+paZZSqtSqbTUprSpJqlSrVpWpdmmSptSqaZZqyo|CYM=151E1D",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C115" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -20695,7 +20707,7 @@
         "img_path": { "jp": "hBP03/hBP03-067_C.webp", "en": "hBP03/EN_hBP03-067_C.webp" },
         "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:46 GMT", "en": "Tue, 09 Dec 2025 09:50:28 GMT" },
         "img_hash": "v2|H32=hqLTupWqraLbqpaK67HYDkpVUmnKRXJtakn4xWQrOFHspFgVRJW9UZKipupKWRNtLa0pm6pWimrW0luqWUorpaktpK0|CYM=001125",
-        "ogbajoj_sheet_cells": [ [ 337784829, "C122" ], [ 1235233029, "C68" ] ],
+        "ogbajoj_sheet_cells": [ [ 1235233029, "C68" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10136",
         "tcgplayer_product_id": 669139,
         "delta_art_index": 0
@@ -20712,6 +20724,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10070",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-067",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-067_C.webp", "en": null },
+        "img_hash": "v2|H32=hKr5uKWqraupOQ2qq1N5fNI18nRaFdJFNlhSRbTINEW8wlRXVJXtUZKkpurTUkutSUtpramWpq60VtYWyVrJaikpBqk|CYM=001427",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C122" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -26091,7 +26115,7 @@
         "img_path": { "jp": "hBP04/hBP04-050_C.webp", "en": "proxies/hBP04/hBP04-050_C.webp" },
         "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:33:56 GMT" },
         "img_hash": "v2|H32=ymi1qrWqKWqnomlqS2lillLSUkVilVJZ0iXSVXxblGRs2tBUVbS0QK1qrKqyRQ3VNrWpWqpXi7JrSxKtW7JLS5YlSao|CYM=1A2509",
-        "ogbajoj_sheet_cells": [ [ 216653992, "C51" ], [ 337784829, "C120" ] ],
+        "ogbajoj_sheet_cells": [ [ 216653992, "C51" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10101",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
@@ -26117,6 +26141,18 @@
         "img_path": { "jp": "unreleased/hBP04-050_C.webp", "en": null },
         "img_hash": "v2|H32=itRRLYX1LVQHKS1Xq1ZSKaqU0lZSKbLVtGpWrbSy1Eq8uFgV06x0USpaltppWZWkJcukqSvWKmuyFGlLlJRJkpVtq7Q|CYM=182208",
         "ogbajoj_sheet_cells": [ [ 543634835, "C19" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-050",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-050_C_2.webp", "en": null },
+        "img_hash": "v2|H32=oqm9qrWKLavPaq26a2XSKtLUUi1S0VJVOmHWVbiWVjG80FAVV6yqQSpVps1JpYWvrUrL0q5LSyqtNCul2bYUbalNlbo|CYM=182108",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C120" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -41646,6 +41682,47 @@
       }
     ]
   },
+  "hBP07-055": {
+    "card_number": "hBP07-055",
+    "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Toward a Promised Future" },
+        "text": {
+          "en": "Choose 1 holomem with #Promise on your stage. During this turn, the chosen holomem gets Arts+50."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "Life Goes On" },
+        "power": "90",
+        "advantage": [ "white", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-055",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-055_U.webp", "en": null },
+        "img_hash": "v2|H32=ijIpiq0qla6lqISqh6wol2t1WFZSRVJNUiFS0dqxdLe31l5FWWXwlK6SqKA2jWX5aVmr6qoaSlp0WQWX4LSSKpJCgNQ|CYM=161513",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C57" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-058": {
     "card_number": "hBP07-058",
     "name": { "jp": "こぼ・かなえる", "en": "Kobo Kanaeru" },
@@ -49296,7 +49373,7 @@
         "rarity": "C",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD12-016_C.webp", "en": null },
-        "img_hash": "v2|H32=VFWralXVMNOrqlSVq6pMVUtVVFWr6jTZq6rUqt+sXCUrqlRVEV2tql0sLeo9PK2qpWCtql1grYqt6K2qraotqq2qr6s|CYM=010B09",
+        "img_hash": "v2|H32=VFWpKlVVNNmrilTVq6pMJctUTFWryjRbq6qUqt0qT68rqlZVVa2pqqIqreqqOq2qomqtqvLhraqq4C2qqkqpKsKCqos|CYM=020E08",
         "ogbajoj_sheet_cells": [ [ 543634835, "C18" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -49732,6 +49809,50 @@
         "img_path": { "jp": "unreleased/hSD13-014_C.webp", "en": null },
         "img_hash": "v2|H32=8KqWTpPOKTKaTa1zGizFqrScdart2CZXKuFqNSupVrXpqIhEVqgKpVtFXZKtaqWqNdFgm6pLVKmpFemouVL00ItG0qo|CYM=0D0B23",
         "ogbajoj_sheet_cells": [ [ 543634835, "C44" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-015": {
+    "card_number": "hSD13-015",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "colorless" ],
+    "hp": 160,
+    "bloom_level": "spot",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Harmony of Justice" },
+        "text": {
+          "en": "You may return 1 cheer from your stage to the bottom of your cheer deck. If you do, reveal 1 cheer from your cheer deck and send it to your holomem. Then, shuffle the cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Have some coffee!" },
+        "power": "30+",
+        "text": {
+          "en": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20."
+        }
+      }
+    ],
+    "extra": { "en": "This holomem cannot Bloom" },
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-015",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-015_C.webp", "en": null },
+        "img_hash": "v2|H32=Zq5rSlSrrFLQG7yyhDTVqqlU1atrSSrVaitKUem0Wi3L6JJsSy3pWyRZpJ4uVbWWtdrVui7aTouaNGjpraZqqVSrUqU|CYM=042422",
+        "ogbajoj_sheet_cells": [ [ 543634835, "C45" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
