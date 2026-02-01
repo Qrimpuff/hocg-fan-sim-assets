@@ -25874,6 +25874,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10093",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-046",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-046_P.webp", "en": null },
+        "img_hash": "v2|H32=VE2VapTqsSalqqy2aZIsOWuRaXlr1Url21UqldJcmo0zDFJUPVCtWkm2zUKKLU2TtKWFKvVVrSquVin6fzpf1VGtWqU|CYM=251505",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C13" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -27600,7 +27612,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP04-072_P.webp", "en": null },
         "img_hash": "v2|H32=DJuWqY2qjrSlapa2OkOVVpIGFVUqVdO1rFHaUUXR8lBNkbRKaumpVkktYqvxlGnLKpVVXiVNqq3VRKlCaluV1mtbaaU|CYM=0F134D",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C13" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C14" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -29845,7 +29857,7 @@
         "img_path": { "jp": "hPR/hBP05-009_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT" },
         "img_hash": "v2|H32=PGOamqRmHC/UqgWujrtpUSuaVlWrSlC1kq9LtWKqYlWrU6hlUnXpZFptdNKUzZSiVXRpumnVKJtS3Y2q1dKNlmLpKkU|CYM=002D3A",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C14" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C15" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10135",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -29921,7 +29933,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-010_P.webp", "en": null },
         "img_hash": "v2|H32=tKpKVZSqFKurVFars1ydqmmPt6prxck2TqU7V0swYt2z6oR0qlSpVl4rSSpXqyqLbatqqWWrdpGl0rLQqVSWtKXUtsg|CYM=031118",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C15" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C16" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -31630,7 +31642,7 @@
         "img_path": { "jp": "hPR/hBP05-036_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT" },
         "img_hash": "v2|H32=hqqSSuXqpaq1SkmprJc7g1O1qhVa1UpVatVK1WxVcpcqlSpXx1pZUrZskqeSlmapWitry7rVKlmsSUVtqS22pKq1kqY|CYM=342408",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C16" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C17" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10136",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -31918,7 +31930,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-040_P.webp", "en": null },
         "img_hash": "v2|H32=qqpvaqaqjK5narGuy2RralKVcmVWU1KVdEXSFfm0dNWtkdJNVKVctEvSZPi20tL9aWsqOKp/6sq0XlYLldKSsigpoms|CYM=153020",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C17" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C18" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -32108,7 +32120,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-043_P.webp", "en": null },
         "img_hash": "v2|H32=zKabW0WkSLlrtGmd67LVSopS1epSUbTGVqGsTFuSpEmNipZKFtWtolpZtJL0qu1WVq1otVVLraqqHmpVlSSirLk0tqQ|CYM=2D4E05",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C18" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C19" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33710,7 +33722,7 @@
         "img_path": { "jp": "hPR/hBP05-068_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT" },
         "img_hash": "v2|H32=1G6VWouWrybTllOm06fTrlXWW9Bz1PsU68RbmXKcWItnm5BlSVUrGziqI8s4WEWLSaNpKi2LqV2namxtqSY1pW2pK2k|CYM=2E1614",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C19" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C20" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10137",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33788,7 +33800,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-069_P.webp", "en": null },
         "img_hash": "v2|H32=plpcbrdKjC4jXZSqelWJzXQjWtVspVKVTjVanWoV1KpqFZRaVVoqtUquQavBVeqRqaLySmrR0mqtqFlaKbWVqqmqWlM|CYM=1D1E13",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C20" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C21" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34194,7 +34206,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-075_P.webp", "en": null },
         "img_hash": "v2|H32=1KqrqtSqFKunqhT1qcrEWqteyFUrJ1I1KyVeVa9QzlyqylZVs+mtqky6raqPjq2qgU+pauCXqarg1anq+lWKh3pVKlU|CYM=051612",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C21" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C22" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -38214,7 +38226,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-058_P.webp", "en": null },
         "img_hash": "v2|H32=zLVkzVrRRC3bsqZtmaKtqhLJpapaitJsVrFprrYZ3KyrstBqLF2JslWlRNWqVv2yhRoq1dquKqm2xtVWlap2iVClKmk|CYM=015555",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C22" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C23" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -38788,7 +38800,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-067_P.webp", "en": null },
         "img_hash": "v2|H32=qGrbIqiqTafStbalVlW2VjZsllJXqFI6UqlKtSlVaGUpVipFBn8tVR1UtJX1WlLy1VtaSVVKZa1dLdIqabXKkrCooso|CYM=222620",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C23" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C24" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -40113,7 +40125,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-090_P.webp", "en": null },
         "img_hash": "v2|H32=2qxoJpVupKolayivpi5LdVjW22RNUlJns8lkU1rV19jsdJS225JKJaddJZqiba1LVVJyaVppq1rptKZNtFo2tWuV0qo|CYM=004C6E",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C24" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C25" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -40125,7 +40137,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-090_P_2.webp", "en": null },
         "img_hash": "v2|H32=rKrNDpUmXdYz3DLkpo0qrZKliitbMlNSa9Jt4+3IOeOqSZawVl2PQqpUaNHLxipdHh+lqqm44gvSUmC1oKLyQsqlNjg|CYM=453E0D",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C25" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C26" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -41068,6 +41080,47 @@
       }
     ]
   },
+  "hBP07-018": {
+    "card_number": "hBP07-018",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Horse Doko?" },
+        "text": {
+          "en": "Reveal the top card of your deck. If the revealed card is a support card, add it to your hand. If it is not a support card, return it to the top of the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "Umami~ Umami~♪" },
+        "power": "30+",
+        "text": { "en": "If you have used an event this turn, this Arts gets +30." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-018",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-018_C.webp", "en": null },
+        "img_hash": "v2|H32=VqurWXaNFOuiVNTm+FLN5lmiXZMdqyI1Kp2DRcPlw2rLaIZsv2gLl0oXaYv0iqCC8tBpdGml9MBalVLLKUn04LX0Vqo|CYM=241E11",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C20" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-020": {
     "card_number": "hBP07-020",
     "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
@@ -41533,6 +41586,46 @@
       }
     ]
   },
+  "hBP07-041": {
+    "card_number": "hBP07-041",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "EVERYBODY SAY HENTAI" },
+        "text": { "en": "Deal 50 special damage to your opponent's collab holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "Plan to be loved by all things" },
+        "power": "80+",
+        "advantage": [ "green", 50 ],
+        "text": { "en": "If all cheers on your stage are red cheers, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-041",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-041_U.webp", "en": null },
+        "img_hash": "v2|H32=vKqLrKqiTK1LVUhV0rutwpIapapSlbZQWhVWMXpMUCs+TJZKFVmpKrVKSauimlq1QpXytapWalVZpXStqaqyWcKVcpk|CYM=045367",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C43" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-044": {
     "card_number": "hBP07-044",
     "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
@@ -41828,7 +41921,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-066_P.webp", "en": null },
         "img_hash": "v2|H32=Sq3Naourtmqz2rQ0sNTRtbSUS6WWmqLdEim7WOw9Y2isS5SqWCRqVVVC4tWliqbKdFmVUno1odt6pSWNrZZQLVW1yiU|CYM=0F3711",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C26" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C27" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -49295,7 +49388,7 @@
         "rarity": "RR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD12-011_RR.webp", "en": null },
-        "img_hash": "v2|H32=qKpKYbuqlpQyVbQWtAUli6SrjaoM0ss0WnVrWEotSIkrz7Rq+lQLtS3TYKFFq0qTaQ8KFa0vUtAlrVp8X9bSJcUr0vg|CYM=084738",
+        "img_hash": "v2|H32=rKpKUbuq1rSyVJSWtAUli6SzrapM08t0WnVrWFotUKkrx7RqulQLpWXTYKFJq0qxSF8KFakqUtG0rHp9XtLybaSr8tk|CYM=094837",
         "ogbajoj_sheet_cells": [ [ 543634835, "C13" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -49329,6 +49422,40 @@
         "img_path": { "jp": "unreleased/hSD12-012_C.webp", "en": null },
         "img_hash": "v2|H32=rOorDV0qtFRSdZZ2stY0ku2WPaosl1gtPmVqVU5lznGN5QYKl9Up15fq6bpSrXSJShW2LS1f6mitWtCktFLSaZYtUuk|CYM=282211",
         "ogbajoj_sheet_cells": [ [ 543634835, "C14" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD12-014": {
+    "card_number": "hSD12-014",
+    "name": { "jp": "フワワ・アビスガード", "en": "Fuwawa Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Happy☆Puppy -FUWAWA-" },
+        "text": {
+          "en": "If all holomem on your stage have #Advent, you may return 1 Debut holomem from your back position to the bottom of your deck:Send the top card of your cheer deck to your holomem."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "It's so true!" }, "power": "30" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-014",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-014_C.webp", "en": null },
+        "img_hash": "v2|H32=TBWxqm26LaqtqmmqhxRrzdJTWlVSwdJVUsm2VZDJNNGsSdQ1VbXdKqpSstqyKk1dUmuptmqZi2oqCUmrqgWqpqqWSmo|CYM=11150B",
+        "ogbajoj_sheet_cells": [ [ 543634835, "C16" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
