@@ -41202,6 +41202,50 @@
       }
     ]
   },
+  "hBP07-022": {
+    "card_number": "hBP07-022",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 220,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Muscles never betray you!" },
+        "text": {
+          "en": "[Collab Position Only]During your opponent's turn, when your center holomem with #Gen 3 is downed, return all of the stacked holomem including that downed holomem to hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "I'll be full of energy all the way" },
+        "power": "50",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "Choose 1 of your holomem with #Gen 3. During this turn, the chosen holomem requires -1 colorless for its Arts. If that holomem is a 2nd <Shirogane Noel>, it requires -2 colorless for its Arts instead."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-022",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-022_R.webp", "en": null },
+        "img_hash": "v2|H32=VNHsSpWbzGarOoyqq1A3q6nuU81Prgq1SqurVUu/oEqzLdRm2iarNdVqjSpqpSnSJcsl2iqVKukllUnxapVar2m12qU|CYM=0A0A0B",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C24" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-023": {
     "card_number": "hBP07-023",
     "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
@@ -41230,6 +41274,47 @@
         "img_path": { "jp": "unreleased/hBP07-023_C.webp", "en": null },
         "img_hash": "v2|H32=3Kotl8WqSDZj27As0lW1KL5slIlKURjNatNa0nYuVumvtpZtVpWtmitoqJqyVVkmSStS0qtCasuUulolLct2qLboIsU|CYM=11392D",
         "ogbajoj_sheet_cells": [ [ 337784829, "C25" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-024": {
+    "card_number": "hBP07-024",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "My Precious Family" },
+        "text": { "en": "[1/Turn]When <Mio-fam> is attached to this holomem, draw 1 card." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green" ],
+        "name": { "jp": null, "en": "Let's laugh a lot today too" },
+        "power": "10+",
+        "text": {
+          "en": "You may archive the top card of your deck. If the archived card is a support card, this Arts gets +30."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-024",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-024_U.webp", "en": null },
+        "img_hash": "v2|H32=SKm0Ss2qraTNSiutxxITraaTGEl2dShNUmV8jRJTdCuzkFRLVlVUpK0qqpZLrVWRVlup2qKaqGiWiklVqbTSam0rUqs|CYM=191F1A",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C26" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -47499,7 +47584,7 @@
         "name": { "jp": "なんでも入る巾着", "en": "Drawstring bag of holding" },
         "text": {
           "jp": "[コラボポジション限定]相手のターンで、自分のホロメンがダウンした時、自分のライフが相手以下なら、自分のアーカイブのカード名に「パソコン」を含むアイテム1枚を手札に戻せる。",
-          "en": "[Collab Position Only]During your opponent's turn, when your holomem is downed, f your life is less than or equal to your opponent's, your may return 1 item with \"PC\" in its card name from your archive to hand."
+          "en": "[Collab Position Only]During your opponent's turn, when your holomem is downed, if your life is less than or equal to your opponent's, your may return 1 item with \"PC\" in its card name from your archive to hand."
         }
       }
     ],
@@ -49422,6 +49507,40 @@
         "img_path": { "jp": "unreleased/hSD12-012_C.webp", "en": null },
         "img_hash": "v2|H32=rOorDV0qtFRSdZZ2stY0ku2WPaosl1gtPmVqVU5lznGN5QYKl9Up15fq6bpSrXSJShW2LS1f6mitWtCktFLSaZYtUuk|CYM=282211",
         "ogbajoj_sheet_cells": [ [ 543634835, "C14" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD12-013": {
+    "card_number": "hSD12-013",
+    "name": { "jp": "モココ・アビスガード", "en": "Mococo Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Happy☆Puppy -MOCOCO-" },
+        "text": {
+          "en": "If all holomem on your stage have #Advent, you may return 1 Debut holomem from your back position to the bottom of your deck:Draw 2 cards."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "So true, so true!!" }, "power": "30" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD12-013",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD12-013_C.webp", "en": null },
+        "img_hash": "v2|H32=5JWxqqWqra6vqilqi4ZLSVJVUkXaU1JV1jEcEtQ61DCcYtQ1VdT9IiopLsqt2SXbVkupqiorKpqm0y2XoBqJKlqrCqo|CYM=031B1B",
+        "ogbajoj_sheet_cells": [ [ 543634835, "C15" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
