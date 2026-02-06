@@ -18975,7 +18975,7 @@
     "arts": [
       {
         "cheers": [ "red", "blue" ],
-        "name": { "jp": "もこもこしてる方", "en": "The Fluffy One" },
+        "name": { "jp": "もこもこしてる方", "en": "The Fuzzy One" },
         "power": "50+",
         "text": {
           "jp": "[コラボポジション限定]自分のセンターホロメンが〈フワワ・アビスガード〉の時、このアーツ+30。",
@@ -19087,12 +19087,12 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "魔界乃番犬のまとめ役", "en": "The Peacemaking Demonic Guard Dog" },
+        "name": { "jp": "魔界乃番犬のまとめ役", "en": "The Moodmaker of the Demonic Guard Dogs" },
         "power": "40"
       },
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": "ふわふわしてる方", "en": "The Soft One" },
+        "name": { "jp": "ふわふわしてる方", "en": "The Fluffy One" },
         "power": "60"
       }
     ],
@@ -19653,7 +19653,7 @@
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "魔界乃番犬シスターズ", "en": "Twin sisters of the Demonic Guard Dogs" },
+        "name": { "jp": "魔界乃番犬シスターズ", "en": "Twin Demonic Guard Dogs" },
         "power": "40",
         "text": {
           "jp": "自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分の#Adventを持つホロメンに送る。そしてエールデッキをシャッフルする。",
@@ -42323,6 +42323,37 @@
       }
     ]
   },
+  "hBP07-073": {
+    "card_number": "hBP07-073",
+    "name": { "jp": "ラプラス・ダークネス", "en": "La+ Darknesss" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "I'm Live!!!!!!!!!" },
+        "text": { "en": "During this turn, this holomem requires -2 colorless for its Arts." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Shooter" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-073",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-073_R.webp", "en": null },
+        "img_hash": "v2|H32=qqoWSrOqpLIjeWR+jLYtTtyViYxcU9KVUlN6JXJScCVuVpRKA0mKNQ2kJLXpu0q9VauipalWtCuwtHLR9KWyFVWqlqg|CYM=25390D",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C75" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-076": {
     "card_number": "hBP07-076",
     "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
@@ -42580,6 +42611,29 @@
         "img_path": { "jp": "unreleased/hBP07-088_U.webp", "en": null },
         "img_hash": "v2|H32=TKWp6q2pWbanWCmvy5I0S8u3WFU2SVo0UlU2TVomtMi0blZNVWWtpEraqqa1rU3b9oWs1apbqqq2tFLatkaWtmLLlEo|CYM=05132F",
         "ogbajoj_sheet_cells": [ [ 337784829, "C90" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-091": {
+    "card_number": "hBP07-091",
+    "name": { "jp": "ライブスタッフ", "en": "Live Staff" },
+    "card_type": { "support": "staff" },
+    "text": {
+      "en": "This card can only be used if you archive 1 cheer from your stage.\n\nAttach 1 fan from your archive to your holomem. If you do, return 1 holomem from your archive to hand."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-091",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-091_C.webp", "en": null },
+        "img_hash": "v2|H32=UtWritTVrGWrYlRlqmJuR29SLJWtqjWdrapUXFN4UhWWqVZVRIesKvJ4reqq4q2K+jipqtLxqequ4K2q4jqpqj48qus|CYM=0C1F17",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C93" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
