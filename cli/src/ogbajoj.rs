@@ -933,6 +933,8 @@ fn is_skip_image_hash(img_hash: &str) -> bool {
         "v2|H32=qk1rkrrMrwoS3Fq6WotavUi6EJXEupSahBukVkyTWVdsN5qlsktaZSXbtLoqRaZVNWiWViJZtSpm3SYLiTTUoqp6yyY|CYM=042F54",
         // hhBP03-105 (U) Lu-knights - not enough cropping
         "v2|H32=nqaPopSmoaujSyRZJNlm2WZVblVqVWpValRefN9s1CpWKhJdB5wvig74rYvAfqkq8DHpOvqA4fjgYeG66IPgeP4D+hg|CYM=2E0B08",
+        // hBP02-054 (P) Mori Calliope - poor quality
+        "v2|H32=ClWJTlpVMjV1UnQ6NPOkUmyVqtcs1UapW9VG7Vs7SudPCZJWnKombU/V8HGgKlWqnxZNVYpXTWViSVmWW6tVpGhNbUU|CYM=094937",
     ];
 
     to_skip.contains(&img_hash)
