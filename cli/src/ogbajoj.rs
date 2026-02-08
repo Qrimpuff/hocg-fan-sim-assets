@@ -91,7 +91,8 @@ impl SheetCard {
         }
         let name = self.name();
         if card.name.japanese.is_none() || !released {
-            card.name.japanese = name.japanese.as_ref().map(|n| n.replace("\n", " "));
+            // fix Elizabeth Rose Bloodflame - エリザベス・ローズ・ブラッドフレイム
+            card.name.japanese = name.japanese.as_ref().map(|n| n.replace("\n", "・"));
         } else {
             // warn if the name is different (ignore names that are split)
             if card.name.japanese != name.japanese
