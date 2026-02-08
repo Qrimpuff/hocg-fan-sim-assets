@@ -41139,6 +41139,48 @@
       }
     ]
   },
+  "hBP07-013": {
+    "card_number": "hBP07-013",
+    "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Have A Nice Day!!!" },
+        "text": {
+          "en": "During this turn, all <Tsunomaki Watame> on your stage get Arts+20. If 6 or more cheers are attached to your center holomem, draw 2 cards."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Thank You Oversheep!" },
+        "power": "90+",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "This Arts gets +50 for each <Watamates> attached to this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Kemomimi" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-013",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-013_U.webp", "en": null },
+        "img_hash": "v2|H32=2qpnVZqZJKKzUWSyzTRvUslsS9ambZuWJmWbkm1H25PsDpaquhRqVVWrVamqVq3Ldbkt0KlqRV2lraWraVWm3u2qFU0|CYM=011835",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C15" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-016": {
     "card_number": "hBP07-016",
     "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
@@ -42259,6 +42301,47 @@
         "img_path": { "jp": "unreleased/hBP07-067_R.webp", "en": null },
         "img_hash": "v2|H32=uqprXJuqFKtWYo2b9qKNWugVl8pIlWsFXK1q1TssUukpVqZKUqrKNS3VWZJqqWK1qRQouLBWKtWq1jItVZK2qrW8tlk|CYM=053E44",
         "ogbajoj_sheet_cells": [ [ 337784829, "C69" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-068": {
+    "card_number": "hBP07-068",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The path we've walked together" },
+        "text": {
+          "en": "During this turn, this holomem gets Arts+20 for each of your holomem with #Gen 0 and with different card names."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "I'm waiting for your White Day gift" },
+        "power": "100",
+        "advantage": [ "yellow", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-068",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-068_U.webp", "en": null },
+        "img_hash": "v2|H32=2lR0F99cpYtu663LrKpLSbSySlWik9qWKiOi1DItlCQnSahEtVRalTWabtladZWqaa2qVGmqpaqpRQ+p6dKtKmrZr9Y|CYM=003E3D",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C70" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -50594,6 +50677,48 @@
       }
     ]
   },
+  "hSD13-013": {
+    "card_number": "hSD13-013",
+    "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Strength to bounce back" },
+        "text": {
+          "en": "[1/Turn]During your main phase, you may archive 1 holomem stacked to your <Gigi Murin>:Send the top card of your cheer deck to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Riot Breaking Out of Her Shell" },
+        "power": "90+",
+        "advantage": [ "white", 50 ],
+        "text": { "en": "If there are no holomem stacked to this holomem, this Arts gets +90." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-013",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-013_RR.webp", "en": null },
+        "img_hash": "v2|H32=oqoLzaqjpaKtVS2nbFJJrk4ZeJ7W2HJXUknS0rItlMmUprZpVnVYFYCqydJR6ja1agki26lqltVWlVRpqEm2uapbUls|CYM=1B2C18",
+        "ogbajoj_sheet_cells": [ [ 543634835, "C43" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD13-014": {
     "card_number": "hSD13-014",
     "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
@@ -50698,6 +50823,30 @@
         "img_path": { "jp": "unreleased/hSD13-016_U.webp", "en": null },
         "img_hash": "v2|H32=IqurqtCqyJrLONQ8rCwtLSQvJK8uhRbVnpQelb5WvFIuVJJNBegMivCoLbqPD+27/uONbh58oWjwA+lggh9oGHp44Fk|CYM=3B2620",
         "ogbajoj_sheet_cells": [ [ 543634835, "C46" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD13-017": {
+    "card_number": "hSD13-017",
+    "name": { "jp": "JUSTICE, JUST LIKE THAT!!!!", "en": "JUSTICE, JUST LIKE THAT!!!!" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if all holomem on your stage have #Justice.\n\nChoose 1 holomem on your stage. Return 1~2 holomem stacked to that holomem to hand. During this turn, the chosen holomem gets Arts+20 for each holomem returned by this effect."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD13-017",
+        "manage_id": { },
+        "rarity": "U?",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-017_U_.webp", "en": null },
+        "img_hash": "v2|H32=mL2LVNKsUq3SKlSjLVstSyxbLUljbdSjVpJXs2ySLZJrv5Ik2LRlm96GafgCny34fpqJJIGmmySNJk+DqSwG2y3JNps|CYM=051B18",
+        "ogbajoj_sheet_cells": [ [ 543634835, "C47" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
