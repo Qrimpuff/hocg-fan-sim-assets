@@ -24570,7 +24570,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "伝統と革新", "en": "Tradition and innovation" },
+        "name": { "jp": "伝統と革新", "en": "Tradition and Revolution" },
         "text": {
           "jp": "自分のデッキから、#きのこを持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "Reveal 1 event with #Mushroom from your deck, and add it to hand. Then, shuffle the deck."
@@ -24580,12 +24580,12 @@
     "arts": [
       {
         "cheers": [ "green", "green", "colorless", "colorless" ],
-        "name": { "jp": "御後がよろしいようで", "en": "And now for the next act" },
+        "name": { "jp": "御後がよろしいようで", "en": "Looks Like the Next Act Is Ready" },
         "power": "140+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分の推しホロメンが〈儒烏風亭らでん〉の時、このホロメンのエール2枚を、自分のバックホロメン2人に1枚ずつ付け替えられる：このアーツ+30。",
-          "en": "If your Oshi holomem is <Juufuutei Raden>, you may choose 2 of your back holomem and reattach 1 cheer from this holomem to each of them:This Arts gets +30."
+          "en": "If your Oshi holomem is <Juufuutei Raden>, you may reattach 2 cheers from this holomem, 1 each to 2 of your back holomem:This Arts gets +30."
         }
       }
     ],
@@ -25291,12 +25291,12 @@
     "arts": [
       {
         "cheers": [ "red", "colorless", "colorless" ],
-        "name": { "jp": "お？　喧嘩する？", "en": "Oh? You want a fight?" },
+        "name": { "jp": "お？　喧嘩する？", "en": "Oh? Wanna Fight?" },
         "power": "80",
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "相手のセンターホロメンに特殊ダメージ50を与える。その後、このターンに自分が〈限界飯〉を使っていた時、相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。",
-          "en": "Deal 50 special damage to your opponent's center holomem. Then, if you used a <Struggle Meal> this turn, deal 30 special damage to your opponent's center holomem or collab holomem."
+          "en": "Deal 50 special damage to your opponent's center holomem. If you used a <Struggle Meal> this turn, deal 30 special damage to your opponent's center holomem or collab holomem."
         }
       }
     ],
@@ -25975,17 +25975,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "ユニーリアの令嬢", "en": "Daughter of Unylia" },
+        "name": { "jp": "ユニーリアの令嬢", "en": "Lady of Unylia" },
         "text": {
           "jp": "自分のエールデッキの上から1枚を、自分の〈雪民〉が付いている〈雪花ラミィ〉に送る。",
-          "en": "Send the top card of your cheer deck to your <Yukihana Lamy> with a <Yukimin> attached."
+          "en": "Send the top card of your cheer deck to your <Yukihana Lamy> with <Yukimin> attached."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "blue", "colorless", "colorless" ],
-        "name": { "jp": "今日も祝福がありますように", "en": "May you be blessed today too" },
+        "name": { "jp": "今日も祝福がありますように", "en": "May Today Be a Blessed Day" },
         "power": "130",
         "advantage": [ "red", 50 ],
         "text": {
@@ -27575,12 +27575,12 @@
     "arts": [
       {
         "cheers": [ "yellow", "yellow", "colorless" ],
-        "name": { "jp": "太陽少女", "en": "Sun Girl" },
+        "name": { "jp": "太陽少女", "en": "Sunshine Girl" },
         "power": "100+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "お互いのステージのエール1枚につき、このアーツ+10。ただし、数える枚数は8枚まで。",
-          "en": "This Arts gets +10 for each cheer on both players' stages. However, only up to 8 cheers are counted."
+          "en": "This Arts gets +10 for each cheer on both players' stage. However, only up to 8 cheers are counted."
         }
       }
     ],
@@ -29236,7 +29236,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈大空スバル〉に付いていたら能力追加\nお互いのステージのエールが合計10枚以上ある間、このマスコットが付いているホロメンのアーツ+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Oozora Subaru>\nIf there is a total of 10 or more cheers on both players' stages, the holomem this mascot is attached to gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Oozora Subaru>\nIf there is a total of 10 or more cheers on both players' stage, the holomem this mascot is attached to gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -41306,6 +41306,49 @@
       }
     ]
   },
+  "hBP07-019": {
+    "card_number": "hBP07-019",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 230,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "All set!" },
+        "text": {
+          "en": "Reveal 1 [<BAZO> or <Zecretary>] from your deck, and attach it to your <Vestia Zeta>. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "hololive ID's first Dance Queen" },
+        "power": "50",
+        "text": { "en": "If this holomem has a mascot or fan attached, draw 1 card." }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-019",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-019_R.webp", "en": null },
+        "img_hash": "v2|H32=rKppi7W6UtWyVdZdYkWtqkyqrapcltZ20lJWZa1qRm2tq5ZKeKitXlpVYbVWi2qltVKqpaZUcK2tVXi4y6va1BYP1tI|CYM=211D13",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C21" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-020": {
     "card_number": "hBP07-020",
     "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
@@ -41541,6 +41584,42 @@
         "img_path": { "jp": "unreleased/hBP07-025_C.webp", "en": null },
         "img_hash": "v2|H32=LKtaXWyqjLbTUpM0xNKzLQ5ltamSNSlL0ncs03tPbI8yZqRKBnVNqpbKtlb1svKVqVRKyWlJKgXpqnI1SVtSqUulMlU|CYM=0D525A",
         "ogbajoj_sheet_cells": [ [ 337784829, "C27" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-026": {
+    "card_number": "hBP07-026",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "I hope they get here soon..." },
+        "text": {
+          "en": "Reveal 1 [<Pigeotaurus> or <Mio-fam>] from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "It's kinda stylish, right?" }, "power": "40" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-026",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-026_C.webp", "en": null },
+        "img_hash": "v2|H32=aInHUiuJla6WdJGs1iQ6icp0uImkUng1VAp6nVoKTt1uka5PVgVapilKsno9ulLRsJWtoXrV4KutqlIpaUuWhK1i8lU|CYM=341719",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C28" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
