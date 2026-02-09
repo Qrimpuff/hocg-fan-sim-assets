@@ -4459,7 +4459,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、hBP04-048〈雪花ラミィ〉を選びました。\nその後、アーツ「今日も祝福がありますように」を使い、相手のセンターホロメンとバックホロメンをダウンさせました。\nこの場合、2人ダウンさせたので4枚引くことはできますか？",
-      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vrooooom! Baribaribaribari\" and selected hBP04-048 Yukihana Lamy. I then used its Arts \"May you be blessed today too\" to down my opponent's center and back holomem.\nSince I downed 2 holomem, do I draw 4 cards?"
+      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vrooooom! Baribaribaribari\" and selected hBP04-048 Yukihana Lamy. I then used its Arts \"May Today Be a Blessed Day\" to down my opponent's center and back holomem.\nSince I downed 2 holomem, do I draw 4 cards?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP04-004", "hBP04-048" ]
@@ -4538,7 +4538,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のバックホロメンが1人の場合、hBP04-025〈儒烏風亭らでん〉のアーツ「御後がよろしいようで」の能力を使って「+30」することはできますか？",
-      "en": "If I only have one back holomem, can I use the effect of hBP04-025 Juufuutei Raden's Arts \"And now for the next act\" to get +30 Damage?"
+      "en": "If I only have one back holomem, can I use the effect of hBP04-025 Juufuutei Raden's Arts \"Looks Like the Next Act Is Ready\" to get +30 Damage?"
     },
     "answer": {
       "jp": "いいえ、アーツの能力で付いているエール2枚を2人に付けることができなければ「+30」できません。",
@@ -4590,7 +4590,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分がhBP04-091〈限界飯〉を使っており、相手のセンターホロメンがいない時に、hBP04-037〈一条莉々華〉のアーツ「お？　喧嘩する？」を相手のコラボホロメンに使いました。\nこの場合、能力でセンターホロメンに50ダメージを与えず、コラボホロメンに30ダメージを与えることはできますか？",
-      "en": "I used a hBP04-091 Struggle Meal during my turn, then used hBP04-037 Ichijou Ririka's Arts \"Oh? You want a fight?\" on my opponent's collab holomem, while they have no center holomem.\nCan I deal 30 Special Damage to my opponent's collab holomem even though I cannot deal 50 Special Damage to their center holomem?"
+      "en": "I used a hBP04-091 Struggle Meal during my turn, then used hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" on my opponent's collab holomem, while they have no center holomem.\nCan I deal 30 Special Damage to my opponent's collab holomem even though I cannot deal 50 Special Damage to their center holomem?"
     },
     "answer": { "jp": "はい、与えられます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP04-037", "hBP04-091" ]
@@ -4724,7 +4724,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-072〈大空スバル〉のアーツ「太陽少女」は、hBP01-126〈座員〉やhBP03-107〈35P〉も数えることができますか？",
-      "en": "Does hBP04-072 Oozora Subaru's Arts \"Sun Girl\" count hBP01-126 Troupe Member or hBP03-107 35P for its effect?"
+      "en": "Does hBP04-072 Oozora Subaru's Arts \"Sunshine Girl\" count hBP01-126 Troupe Member or hBP03-107 35P for its effect?"
     },
     "answer": { "jp": "いいえ、数えられません。", "en": "No, it does not." },
     "referenced_cards": [ "hBP01-126", "hBP03-107", "hBP04-072" ]
@@ -4845,7 +4845,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-048〈雪花ラミィ〉のアーツ「今日も祝福がありますように」の能力で、バックポジションにいるhBP04-102〈やめなー〉が付いている〈雪花ラミィ〉を選ぶことはできますか？",
-      "en": "When using hBP04-048 Yukihana Lamy's Arts \"May you be blessed today too\", can I choose a back holomem with hBP04-102 Yamena attached as a target for the Special Damage?"
+      "en": "When using hBP04-048 Yukihana Lamy's Arts \"May Today Be a Blessed Day\", can I choose a back holomem with hBP04-102 Yamena attached as a target for the Special Damage?"
     },
     "answer": {
       "jp": "はい、選べます。\nしかし、hBP04-102〈やめなー〉の能力によりダメージは与えられません。",
@@ -4969,7 +4969,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP04-106〈雪民〉が付いているhBP04-047〈雪花ラミィ〉にhBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、その後コラボエフェクト「fleur」を使って相手のホロメンに120ダメージを与えました。\nその後、hBP04-048〈雪花ラミィ〉にBloomさせ、パフォーマンスステップでアーツ「今日も祝福がありますように」を使った場合、アーツの能力も+100されますか？",
-      "en": "I used hBP04-004 Yukihana Lamy's SP Skill \"Vrooooom! Baribaribaribari\" on hBP04-047 Yukihana Lamy, which has a hBP04-106 Yukimin attached, and then used the Collab Effect \"fleur\" to deal 120 damage to my opponent's holomem.\nIf I then Bloom that holomem to hBP04-048 Yukihana Lamy and use the Arts \"May you be blessed today too\" during the Performance Phase, will the Arts still deal +100 Special Damage?"
+      "en": "I used hBP04-004 Yukihana Lamy's SP Skill \"Vrooooom! Baribaribaribari\" on hBP04-047 Yukihana Lamy, which has a hBP04-106 Yukimin attached, and then used the Collab Effect \"fleur\" to deal 120 damage to my opponent's holomem.\nIf I then Bloom that holomem to hBP04-048 Yukihana Lamy and use the Arts \"May Today Be a Blessed Day\" during the Performance Phase, will the Arts still deal +100 Special Damage?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP04-004", "hBP04-047", "hBP04-048", "hBP04-106" ]
@@ -5012,7 +5012,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP01-121〈Kotori〉が付いている相手のセンターポジションのhBP01-067〈小鳥遊キアラ〉に、自分のhBP04-037〈一条莉々華〉のアーツ「お？　喧嘩する？」の能力で特殊ダメージ50と30を与えました。\nこの場合、与えられるダメージはいくつになりますか？",
-      "en": "My opponent's center hBP01-067 Takanashi Kiara has a hBP01-121 Kotori attached, and I used my hBP04-037 Ichijou Ririka's Arts \"Oh? You want a fight?\" dealing it 50 and 30 Special Damage.\nIn this case, how much total Damage will be done to Takanashi Kiara?"
+      "en": "My opponent's center hBP01-067 Takanashi Kiara has a hBP01-121 Kotori attached, and I used my hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" dealing it 50 and 30 Special Damage.\nIn this case, how much total Damage will be done to Takanashi Kiara?"
     },
     "answer": {
       "jp": "それぞれの特殊ダメージが-10されるため、40ダメージと20ダメージが与えられます。",
@@ -5081,7 +5081,7 @@
     "date": "2025-08-22",
     "question": {
       "jp": "自分のhBP04-037〈一条莉々華〉のアーツ「お？　喧嘩する？」の能力で、アーツのダメージ80と特殊ダメージ50と特殊ダメージ30を与えました。\nhBP04-006〈大空スバル〉の推しスキル「メンタル！ フィジカル！ パッション！」は、1ターンの間に、相手のホロメンからの特殊ダメージや、アーツによるダメージそれぞれに-30を割り振ることはできますか？",
-      "en": "I used my hBP04-037 Ichijou Ririka's Arts \"Oh? You want a fight?\" to deal 50 Special Damage, 30 Special Damage, and 80 Arts Damage to my opponent's holomem.\nCan my opponent use hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\" to reduce both the Special Damage and Arts Damage from this by 30?"
+      "en": "I used my hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" to deal 50 Special Damage, 30 Special Damage, and 80 Arts Damage to my opponent's holomem.\nCan my opponent use hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\" to reduce both the Special Damage and Arts Damage from this by 30?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, they cannot." },
     "referenced_cards": [ "hBP04-006", "hBP04-037" ]
@@ -5348,7 +5348,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "相手のhBP04-037〈一条莉々華〉がアーツ「お？　喧嘩する？」を使い、自分のセンターホロメンとコラボホロメンのhBP05-035〈さくらみこ〉がダウンしました。\nこの場合、ギフト「今のはちょっとね、練習で…」の能力で、hBP05-079〈み俺恥〉は何枚手札に加えられますか？",
-      "en": "My opponent uses hBP04-037 Ichijou Ririka's Arts \"Oh? You want a fight?\" to down both my center and collab hBP05-035 Sakura Miko.\nHow many hBP05-079 Miko, I'm ashamed can I add to my hand using the Gift \"That was just a practice...\"?"
+      "en": "My opponent uses hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" to down both my center and collab hBP05-035 Sakura Miko.\nHow many hBP05-079 Miko, I'm ashamed can I add to my hand using the Gift \"That was just a practice...\"?"
     },
     "answer": {
       "jp": "センターポジション、コラボポジションでそれぞれ発揮されるため、合計3枚まで加えられます。",
