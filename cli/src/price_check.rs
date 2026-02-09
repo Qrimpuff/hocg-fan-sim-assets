@@ -118,17 +118,13 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         let img_src = url_section.select(&img_select).next().unwrap().attr("src");
                         let url = url_section.attr("href");
 
-                        if name.contains("エラッタ前") {
-                            // skip cards with (before errata)
-                            continue;
-                        }
-
                         if let (Some(url), Some(img_src)) = (url, img_src) {
                             // group them by url
                             urls.write().entry(url.to_owned()).or_insert((
                                 number,
                                 rarity.clone(),
                                 img_src.to_string(),
+                                name,
                             ));
                         }
                     }
@@ -171,11 +167,19 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     }
 
     // swap keys and values
-    let urls: HashMap<_, Vec<_>> = urls.into_iter().fold(HashMap::new(), |mut map, (k, v)| {
-        // key: (number, rarity), value: (url, img_path)
-        map.entry((v.0, v.1)).or_default().push((k, v.2));
+    let mut urls: HashMap<_, Vec<_>> = urls.into_iter().fold(HashMap::new(), |mut map, (k, v)| {
+        // key: (number, rarity), value: (url, img_path, name)
+        map.entry((v.0, v.1)).or_default().push((k, v.2, v.3));
         map
     });
+
+    // filter urls: remove "before errata" if "after errata" exists
+    for list in urls.values_mut() {
+        let has_after_errata = list.iter().any(|(_, _, name)| name.contains("エラッタ後"));
+        if has_after_errata {
+            list.retain(|(_, _, name)| !name.contains("エラッタ前"));
+        }
+    }
 
     // warn if there are some card with same number and rarity
     for ((number, rarity), urls) in &urls {
@@ -214,7 +218,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 )) {
                     // use the first url
                     if !urls.is_empty() {
-                        let (url, _) = urls.swap_remove(0);
+                        let (url, _, _) = urls.swap_remove(0);
                         illustration.yuyutei_sell_url = Some(url.clone());
                         // group by image, some entries are duplicated
                         if let Some(img_path) = illustration.img_path.japanese.as_deref() {
@@ -252,7 +256,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
                         // only one possible match
                         if urls.len() == 1 && illustrations.len() == 1 {
-                            let (url, _) = urls.swap_remove(0);
+                            let (url, _, _) = urls.swap_remove(0);
                             let illust = illustrations.swap_remove(0);
                             illust.lock().yuyutei_sell_url = Some(url.clone());
                             *url_count.lock() += 1;
@@ -263,7 +267,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         println!();
                         let images: Vec<_> = urls
                             .par_iter()
-                            .filter_map(|(url, img_path)| {
+                            .filter_map(|(url, img_path, _)| {
                                 // download the image
                                 println!("Checking Yuyutei image: {img_path}");
                                 let resp = http_client()
@@ -321,7 +325,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             // only one card has the url, no DIST_TOLERANCE
                             if illust.yuyutei_sell_url.is_none() && min_dist >= dist {
                                 illust.yuyutei_sell_url = Some(url.clone());
-                                urls.retain(|(u, _)| *u != url);
+                                urls.retain(|(u, _, _)| *u != url);
                                 already_set.insert(url, dist.min(min_dist));
                                 *url_count.lock() += 1;
 
