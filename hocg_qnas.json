@@ -4734,7 +4734,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-078〈アーニャ・メルフィッサ〉のギフト「宝物見つけた」の「黄-1」とは、どういう意味ですか？",
-      "en": "What does \"-1 yellow\" mean in hBP04-078 Anya Melfissa's Gift \"I found a treasure\"?"
+      "en": "What does \"-1 yellow\" mean in hBP04-078 Anya Melfissa's Gift \"I Found a Treasure\"?"
     },
     "answer": {
       "jp": "アーツを使うのに必要なエールの数を黄1つ分減らす能力です。",
@@ -4747,7 +4747,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-082〈夏色まつり〉のブルームエフェクト「レッツ ショッピング」でホロメンにエールを送るのはいつになりますか？",
-      "en": "When using hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's go shopping!\", when do you send cheers to the holomem?"
+      "en": "When using hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's Go Shopping\", when do you send cheers to the holomem?"
     },
     "answer": {
       "jp": "自分のステージに異なるカード名の#1期生を持つホロメンの人数分のサイコロを振り終わった後に送ります。",
@@ -4760,7 +4760,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のステージに異なるカード名の#1期生を持つホロメンが3人いる時、hBP04-082〈夏色まつり〉のブルームエフェクト「レッツ ショッピング」の能力でサイコロを振り、4以上が出た回数が3回になりました。\nこの場合、このホロメンに必ずエールを3枚送らなければなりませんか？",
-      "en": "I have three holomem with #Gen 1 and different names on my stage, and I roll the die 3 times for hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's go shopping!\", getting a result of 4 or more three times.\nIn this case, must I send all 3 cheers to the holomem?"
+      "en": "I have three holomem with #Gen 1 and different names on my stage, and I roll the die 3 times for hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's Go Shopping\", getting a result of 4 or more three times.\nIn this case, must I send all 3 cheers to the holomem?"
     },
     "answer": {
       "jp": "はい、必ず送ります。\nエールデッキが2枚以下の場合はすべて送ります。",
@@ -4992,7 +4992,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP04-082〈夏色まつり〉のブルームエフェクト「レッツ ショッピング」の能力でサイコロを3回振る場合、hBP04-005〈ラプラス・ダークネス〉の推しスキル「総帥のお仕事」の能力でそのサイコロの目の数すべてを5として扱うことはできますか？",
-      "en": "If I use hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's go shopping!\" and roll a die 3 times, does the effect of hBP04-005 La+ Darknesss's Oshi Skill \"Leader's work\" make the results all regarded as 5?"
+      "en": "If I use hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's Go Shopping\" and roll a die 3 times, does the effect of hBP04-005 La+ Darknesss's Oshi Skill \"Leader's work\" make the results all regarded as 5?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP04-005", "hBP04-082" ]
