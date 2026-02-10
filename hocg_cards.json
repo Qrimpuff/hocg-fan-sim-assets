@@ -25570,16 +25570,16 @@
         "power": "30",
         "text": {
           "jp": "自分のステージにこのホロメン以外の#ID3期生を持つホロメンがいる時、自分のデッキを1枚引く。",
-          "en": "If your stage has any other holomem with #ID Gen 3, draw 1 card."
+          "en": "If your stage has other holomem with #ID Gen 3, draw 1 card."
         }
       },
       {
         "cheers": [ "red", "colorless", "colorless" ],
-        "name": { "jp": "お墨付きの一品", "en": "Seal of approval" },
+        "name": { "jp": "お墨付きの一品", "en": "Certified Masterpiece" },
         "power": "90",
         "text": {
           "jp": "自分の#カエラ'sアームズを持つツールが付いているホロメンがいる時、相手のコラボホロメンに特殊ダメージ30を与える。",
-          "en": "If you have a holomem with a tool with #Kaela'sArms attached, deal 30 special damage to your opponent's collab holomem."
+          "en": "If you have a holomem that has a tool with #Kaela's Arms attached, deal 30 special damage to your opponent's collab holomem."
         }
       }
     ],
@@ -27945,17 +27945,17 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "宝物みつけた", "en": "I found a treasure" },
+        "name": { "jp": "宝物みつけた", "en": "I Found a Treasure" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]自分の〈古代武器〉が付いているセンターホロメンの〈アーニャ・メルフィッサ〉のアーツに必要な黄-1。",
-          "en": "[Center Position・Collab Position Only]The Arts of your center <Anya Melfissa> with <Ancient Weapon> attached require -1 yellow."
+          "en": "[Center Position・Collab Position Only]Your center <Anya Melfissa> with <Ancient Weapon> attached requires -1 yellow for its Arts."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "yellow", "colorless", "colorless" ],
-        "name": { "jp": "ダンジョンアドベンチャー", "en": "Dungeon adventure" },
+        "name": { "jp": "ダンジョンアドベンチャー", "en": "Dungeon Adventure" },
         "power": "160",
         "advantage": [ "red", 50 ]
       }
@@ -28207,22 +28207,22 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "レッツ ショッピング", "en": "Let's go shopping!" },
+        "name": { "jp": "レッツ ショッピング", "en": "Let's Go Shopping" },
         "text": {
           "jp": "自分のステージの異なるカード名の#1期生を持つホロメン1人につき、サイコロを1回振れる：4以上が出た回数1回につき、自分のエールデッキの上から1枚をこのホロメンに送る。",
-          "en": "You may roll a die once for each of your holomem with #Gen 1 and with different card names:For each time it is 4 or greater, send the top card of your cheer deck to this holomem."
+          "en": "You may roll a die once for each differently named holomem with #Gen 1 on your stage:Send the top card of your cheer deck to this holomem for each result that is 4 or greater rolled."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "お気に入りみつけた", "en": "I found my favorite" },
+        "name": { "jp": "お気に入りみつけた", "en": "Found a Favorite" },
         "power": "60+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このホロメンのエール1枚につき、このアーツ+20。",
-          "en": "This Arts gets +20 for each cheer attached to this holomem."
+          "en": "This Arts gets +20 for each of this holomem's cheers."
         }
       }
     ],
@@ -28465,13 +28465,13 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ハズバンドいっぱい", "en": "Everyone is husband" },
+        "name": { "jp": "ハズバンドいっぱい", "en": "Lots of Husbands" },
         "power": "50",
         "advantage": [ "white", 50 ]
       },
       {
         "cheers": [ "blue", "yellow" ],
-        "name": { "jp": "ギラギラパワー", "en": "Gira Gira Power" },
+        "name": { "jp": "ギラギラパワー", "en": "Dazzling Power" },
         "power": "50+",
         "advantage": [ "white", 50 ],
         "text": {
@@ -29008,7 +29008,7 @@
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆#ID3期生を持つ1st以上のホロメンに付いていたら能力追加\nこのツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem with #ID Gen 3\nThe holomem this tool is attached to gets Arts+10.\n\nOnly 1 tool can be attached to each of your holomem."
     },
-    "tags": [ { "jp": "#カエラ'sアームズ", "en": "#Kaela'sArms" } ],
+    "tags": [ { "jp": "#カエラ'sアームズ", "en": "#Kaela's Arms" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -30005,7 +30005,7 @@
         "power": "40+",
         "text": {
           "jp": "自分のステージの異なるカード名の#3期生を持つホロメン1人につき、このアーツ+10。",
-          "en": "This Arts gets +10 for each of your holomem with #Gen 3 and with different card names."
+          "en": "This Arts gets +10 for each differently named holomem with #Gen 3 on your stage."
         }
       }
     ],
@@ -30865,7 +30865,7 @@
         "power": "80+",
         "text": {
           "jp": "自分の推しホロメンが〈AZKi〉なら、このホロメンのエール1枚につき、このアーツ+20。",
-          "en": "If your Oshi holomem is <AZKi>, this Arts gets +20 for each cheer attached to this holomem."
+          "en": "If your Oshi holomem is <AZKi>, this Arts gets +20 for each of this holomem's cheers."
         }
       }
     ],
@@ -33577,7 +33577,7 @@
         "power": "30+",
         "text": {
           "jp": "自分のステージの異なるカード名の#3期生を持つホロメン1人につき、このアーツ+10。",
-          "en": "This Arts gets +10 for each of your holomem with #Gen 3 and with different card names."
+          "en": "This Arts gets +10 for each differently named holomem with #Gen 3 on your stage."
         }
       }
     ],
@@ -35583,7 +35583,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "[センターポジション限定]このターンの間、自分の#絵を持つコラボホロメンのアーツ+50し、そのホロメンのアーツに必要な無色-1。",
-          "en": "[Center Position Only]During this turn, your collab holomem with #Painting gets Arts+50, and that holomem's Arts require -1 colorless."
+          "en": "[Center Position Only]During this turn, your collab holomem with #Painting gets Arts+50, and that holomem requires -1 colorless for its Arts."
         }
       }
     ],
@@ -35936,7 +35936,7 @@
         "name": { "jp": "意志の指揮者", "en": "Conductor of Will" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、自分のデッキの上から2枚をアーカイブできる。アーカイブしたなら、自分のステージの異なるカード名の#FLOW GLOWを持つホロメン1人につき、自分のデッキを1枚引く。",
-          "en": "During your opponent's turn, when this holomem is downed, you may archive the top 2 cards of your deck. If you do, draw 1 card from your deck for each of your holomem with #FLOW GLOW and with different card names."
+          "en": "During your opponent's turn, when this holomem is downed, you may archive the top 2 cards of your deck. If you do, draw 1 card for each differently named holomem with #FLOW GLOW on your stage."
         }
       }
     ],
@@ -39030,7 +39030,7 @@
         "name": { "jp": "ワンダーヴァイキング", "en": "Wan-der Viking" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分のステージの〈ゆび〉1枚をデッキの下に戻せる：このターンの間、このホロメンのアーツに必要な無色-2。",
-          "en": "[Center Position Only][1/Turn]You may return 1 <Fingers> from your stage to the bottom of your deck:During this turn, this holomem's Arts require -2 colorless."
+          "en": "[Center Position Only][1/Turn]You may return 1 <Fingers> from your stage to the bottom of your deck:During this turn, this holomem requires -2 colorless for its Arts."
         }
       }
     ],
@@ -41935,6 +41935,47 @@
       }
     ]
   },
+  "hBP07-039": {
+    "card_number": "hBP07-039",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Is the blood flying?" },
+        "text": {
+          "en": "[1/Turn]During your turn, when your <Akai Haato> returns from your stage to deck, you may send 1 cheer from your archive to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "My name is \"Chamao\" and I'm a real man!" },
+        "power": "50",
+        "text": { "en": "Deal 20 special damage to your opponent's center holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-039",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-039_C.webp", "en": null },
+        "img_hash": "v2|H32=qKop7qyyJq7roen0S6mpelpUki+SXtJl0k32m1JBdFm2itJJWFVMpaaXpLK2pHTZtayKiqptKl2mSyTL4Fpq2Vli0pQ|CYM=0A3930",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C41" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-040": {
     "card_number": "hBP07-040",
     "name": { "jp": "赤井はあと", "en": "Akai Haato" },
@@ -42410,7 +42451,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "The path we've walked together" },
         "text": {
-          "en": "During this turn, this holomem gets Arts+20 for each of your holomem with #Gen 0 and with different card names."
+          "en": "During this turn, this holomem gets Arts+20 for each differently named holomem with #Gen 0 on your stage."
         }
       }
     ],
@@ -42707,7 +42748,7 @@
         "name": { "jp": null, "en": "Full-of-energy, colorful parfait" },
         "power": "20+",
         "text": {
-          "en": "If your Oshi holomem is <Shiranui Flare>, choose 1 of your <Shiranui Flare>. During this turn, the chosen holomem gets Arts+20 for each cheer attached to that holomem."
+          "en": "If your Oshi holomem is <Shiranui Flare>, choose 1 of your <Shiranui Flare>. During this turn, the chosen holomem gets Arts+20 for each of that holomem's cheers."
         }
       }
     ],
@@ -42823,7 +42864,7 @@
         "name": { "jp": null, "en": "I'm fired up!" },
         "power": "80+",
         "advantage": [ "white", 50 ],
-        "text": { "en": "This Arts gets +20 for each cheer attached to this holomem." }
+        "text": { "en": "This Arts gets +20 for each of this holomem's cheers." }
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
@@ -42936,12 +42977,36 @@
       }
     ]
   },
+  "hBP07-097": {
+    "card_number": "hBP07-097",
+    "name": { "jp": "時の支配者 -Promise-", "en": "Ruler of Time -Promise-" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if all holomem on your stage have #Promise.\n\nReveal 2 holomem with #Promise from your deck, and add them to hand. Then, shuffle the deck. If your life is less than your opponent's, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-097",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-097_U.webp", "en": null },
+        "img_hash": "v2|H32=aq2pqNQpSCjLKlB6qDottbWbtN2zydZa0loSUhZSFnIuNxJFDaAsmvC4LPqeLm26gs+JLuCDqS7w+emD6gdg+Cpf4NE|CYM=2B1D0E",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C99" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-101": {
     "card_number": "hBP07-101",
     "name": { "jp": "ASMRマイク", "en": "ASMR Microphone" },
     "card_type": { "support": "tool" },
     "text": {
-      "en": "◆Additional ability if attached to a Buzz holomem\nThis holomem's Arts require -1 colorless.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "◆Additional ability if attached to a Buzz holomem\nThis holomem requires -1 colorless for its Arts.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "tags": [ { "en": "#BuzzMerch" } ],
     "max_amount": { "jp": 4 },
@@ -48457,7 +48522,7 @@
         "name": { "jp": "みんな優勝するぞ", "en": "A win for everyone" },
         "text": {
           "jp": "相手のセンターホロメンに、自分のステージの異なるカード名の#3期生を持つホロメン1人につき、特殊ダメージ10を与える。",
-          "en": "Deal 10 special damage for each of your holomem with #Gen 3 and with different card names to your opponent's center holomem."
+          "en": "Deal 10 special damage for each differently named holomem with #Gen 3 on your stage to your opponent's center holomem."
         }
       }
     ],
@@ -48521,7 +48586,7 @@
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "相手のセンターホロメンとコラボホロメンに、自分のステージの異なるカード名の#3期生を持つホロメン1人につき、特殊ダメージ10を与える。",
-          "en": "Deal 10 special damage for each of your holomem with #Gen 3 and with different card names to your opponent's center holomem and collab holomem."
+          "en": "Deal 10 special damage for each differently named holomem with #Gen 3 on your stage to your opponent's center holomem and collab holomem."
         }
       }
     ],
@@ -48575,7 +48640,7 @@
         "name": { "jp": "3期生の海の家", "en": "3rd Generation Beach House" },
         "text": {
           "jp": "このターンの間、自分のステージの異なるカード名の#3期生を持つホロメン1人につき、自分のセンターポジションの2ndホロメンのアーツ+10。",
-          "en": "Your center 2nd holomem gets Arts+10 for each of your holomem with #Gen 3 and with different card names."
+          "en": "Your center 2nd holomem gets Arts+10 for each differently named holomem with #Gen 3 on your stage."
         }
       }
     ],
@@ -50605,7 +50670,7 @@
       {
         "type": "gift",
         "name": { "jp": null, "en": "Warcry of Fierce Flames" },
-        "text": { "en": "This holomem gets +10 HP for each cheer attached to this holomem." }
+        "text": { "en": "This holomem gets +10 HP for each of this holomem's cheers." }
       }
     ],
     "arts": [
@@ -50615,7 +50680,7 @@
         "power": "100+",
         "advantage": [ "purple", 50 ],
         "text": {
-          "en": "This Arts gets +20 for each cheer attached to this holomem. If your opponent's holomem is downed by this Arts, send the top card of your cheer deck to this holomem."
+          "en": "This Arts gets +20 for each of this holomem's cheers. If your opponent's holomem is downed by this Arts, send the top card of your cheer deck to this holomem."
         }
       }
     ],
