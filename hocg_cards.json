@@ -23119,7 +23119,7 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": "ReGLOSSの風流人", "en": "The elegant one of ReGLOSS" },
+        "name": { "jp": "ReGLOSSの風流人", "en": "ReGLOSS's Elegant Girl" },
         "text": {
           "jp": "[ターンに1回]自分のアーカイブのエール1枚を、自分の#ReGLOSSを持つホロメンに送る。",
           "en": "[1/Turn]Send 1 cheer from your archive to your holomem with #ReGLOSS."
@@ -23128,10 +23128,10 @@
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": "余った時間でぐるぐる", "en": "Spinning around in my spare time" },
+        "name": { "jp": "余った時間でぐるぐる", "en": "With the Extra Time, Round and Round" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブの#きのこを持つイベント1～4枚を手札に戻す。そして手札に戻したカード2枚につき、自分のデッキを1枚引く。",
-          "en": "[1/Game]Return 1~4 events with #Mushroom from your archive to hand. Then, for each 2 cards returned to hand, draw 1 card."
+          "en": "[1/Game]Return 1~4 events with #Mushroom from your archive to hand. Then, draw 1 card for every 2 cards returned to hand."
         }
       }
     ],
@@ -23199,7 +23199,7 @@
         "name": { "jp": "かわいい！ ポジティブ！ ジーニアス！", "en": "Kawaii! Positive! Genius!" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の〈一条莉々華〉がダウンした時に使える：自分のデッキから、[〈一条莉々華〉と〈限界飯〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "[1/Game]During your opponent's turn, usable when your <Ichijou Ririka> is downed:Reveal 1 [<Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add the revealed cards to hand. Then, shuffle the deck."
+          "en": "[1/Game]Usable when your <Ichijou Ririka> is downed during the opponent's turn:Reveal 1 [<Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add them to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -41205,6 +41205,40 @@
       }
     ]
   },
+  "hBP07-015": {
+    "card_number": "hBP07-015",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Adopt Me?" },
+        "text": {
+          "en": "If you are going second and this is your first turn, reveal 1 Buzz holomem with #ID Gen 3 from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I found a stray cat~" }, "power": "20" } ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-015",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-015_C.webp", "en": null },
+        "img_hash": "v2|H32=Rk3URFVaNWu0qqu6tK2/2siUN8wLTuK1Okwrp+tsUoePq6hkq1TaNlKVVJJty27LUmtJqiaVStO0WiTbWmqatNCqqrQ|CYM=051518",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C17" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-016": {
     "card_number": "hBP07-016",
     "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
@@ -43131,6 +43165,30 @@
         "img_path": { "jp": "unreleased/hBP07-097_U.webp", "en": null },
         "img_hash": "v2|H32=aq2pqNQpSCjLKlB6qDottbWbtN2zydZa0loSUhZSFnIuNxJFDaAsmvC4LPqeLm26gs+JLuCDqS7w+emD6gdg+Cpf4NE|CYM=2B1D0E",
         "ogbajoj_sheet_cells": [ [ 337784829, "C99" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-098": {
+    "card_number": "hBP07-098",
+    "name": { "jp": "ビッグゴッドミオーンの占い", "en": "Big God Mion's Fortune Telling" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Ookami Mio>.\n\nReveal the top 3 cards of your deck. During this turn, for each support card revealed, all holomem on your stage get Arts+20. Then, return the revealed cards to the top of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-098",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-098_U.webp", "en": null },
+        "img_hash": "v2|H32=imWpZMxlSPNjm1TbJos0zbVOlGybJlA22jI6PT0ttE0rrRJFUTwsmz74JZvgL226D8epalD4jy7gA+lojg6pi+DDKts|CYM=051F2C",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C100" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -51176,6 +51234,18 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD13-017_U_.webp", "en": null },
         "img_hash": "v2|H32=mL2LVNKsUq3SKlSjLVstSyxbLUljbdSjVpJXs2ySLZJrv5Ik2LRlm96GafgCny34fpqJJIGmmySNJk+DqSwG2y3JNps|CYM=051B18",
+        "ogbajoj_sheet_cells": null,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD13-017",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD13-017_U.webp", "en": null },
+        "img_hash": "v2|H32=2NSLjNLU0qXTpVRDLWotSy1KLEsrLVRFVqJWk12SbJIpklZF0PAli78obfiCDm26vjipLoKHuSwOj6mDqlou2/rBKtk|CYM=04191F",
         "ogbajoj_sheet_cells": [ [ 543634835, "C47" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
