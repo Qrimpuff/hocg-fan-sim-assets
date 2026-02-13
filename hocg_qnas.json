@@ -4410,7 +4410,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分の推しホロメンがhBP04-001〈博衣こより〉の時、hBP04-105〈こよりの助手くん〉が付いている〈博衣こより〉に、相手の3枚目に重なっているhBP01-081〈星街すいせい〉（Debut、1stホロメンホロメンの上にhBP01-081〈星街すいせい〉が重ねられている状態）がアーツ「輝く彗星」を使い、180ダメージを与えようとしました。\nこの場合、hBP04-001〈博衣こより〉のSP推しスキル「助手くん、んーまっ！」を使い、受けるダメージを「-100」できますか？",
-      "en": "My Oshi is hBP04-001 Hakui Koyori, and one of my Hakui Koyori holomem has a hBP04-105 Koyori's Assistant-kun attached.\nMy opponent's hBP01-081 Hoshimachi Suisei is the third stacked card (Debut, 1st, 2nd), and is about to deal 180 damage to that Hakui Koyori with the Arts \"Shining Comet\".\nCan I use hBP04-001 Hakui Koyori's SP Oshi Skill \"Assisant-kun, mwah!\" to reduce that damage by 100?"
+      "en": "My Oshi is hBP04-001 Hakui Koyori, and one of my Hakui Koyori holomem has a hBP04-105 Koyori's Assistants attached.\nMy opponent's hBP01-081 Hoshimachi Suisei is the third stacked card (Debut, 1st, 2nd), and is about to deal 180 damage to that Hakui Koyori with the Arts \"Shining Comet\".\nCan I use hBP04-001 Hakui Koyori's SP Oshi Skill \"Assisant-kun, mwah!\" to reduce that damage by 100?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-081", "hBP04-001", "hBP04-105" ]
@@ -4858,7 +4858,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のhBP04-103〈カラス〉が付いている〈ラプラス・ダークネス〉がコラボし、hBP04-103〈カラス〉の能力でバックポジションに移動しました。\nその後、このターン中にもう一度コラボできますか？",
-      "en": "My La+ Darknesss with hBP04-103 Crow attached, moved from the collab position to the back position because of Crow's effect. Can I Collab again this turn?"
+      "en": "My La+ Darknesss with hBP04-103 Karasu attached, moved from the collab position to the back position because of Karasu's effect. Can I Collab again this turn?"
     },
     "answer": {
       "jp": "いいえ、できません。 \nコラボできるのは1ターンに1回までです。",
@@ -4871,7 +4871,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のhBP04-103〈カラス〉が付いている〈ラプラス・ダークネス〉がコラボし、hBP04-103〈カラス〉の能力でサイコロを振り奇数が出ました。\nこの場合、必ずバックポジションへ移動させなければなりませんか？",
-      "en": "I rolled a die for the effect of hBP04-103 Crow attached to a La+ Darknesss in the collab position, and the result was an odd number. Do I have to move that La+ Darknesss to the back position?"
+      "en": "I rolled a die for the effect of hBP04-103 Karasu attached to a La+ Darknesss in the collab position, and the result was an odd number. Do I have to move that La+ Darknesss to the back position?"
     },
     "answer": { "jp": "はい、必ず移動させます。", "en": "Yes, you must." },
     "referenced_cards": [ "hBP04-103" ]
@@ -4881,7 +4881,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-104〈スバルドダック〉の能力はアーカイブにあるエールも含めて数えますか？",
-      "en": "Does the ability of hBP04-104 Subarudo Duck count cheers in each player's archive?"
+      "en": "Does the ability of hBP04-104 Subaru Duck count cheers in each player's archive?"
     },
     "answer": { "jp": "いいえ、数えません。", "en": "No, it does not." },
     "referenced_cards": [ "hBP04-104" ]
@@ -5002,7 +5002,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP04-104〈スバルドダック〉が付いているhBP04-071〈大空スバル〉がアーツ「しゅばっ！」を使いました。\nアーツの能力によりステージのエールの数が10枚以上になった場合、アーツ「しゅばっ！」のダメージは+20されますか？",
-      "en": "I used hBP04-071 Oozora Subaru's Arts \"Shuba!\" with a hBP04-104 Subarudo Duck attached, while there were 9 cheers on stage.\nIn this case, will the effect of Subarudo Duck be activated by the cheer placed on stage by the Arts?"
+      "en": "I used hBP04-071 Oozora Subaru's Arts \"Shuba!\" with a hBP04-104 Subaru Duck attached, while there were 9 cheers on stage.\nIn this case, will the effect of Subaru Duck be activated by the cheer placed on stage by the Arts?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP04-071", "hBP04-104" ]
@@ -6599,5 +6599,215 @@
       "en": "No, you cannot. Since Bloom Effects are not optional, the first time you bloomed you were considered as using the Bloom Effect \"Houshou's Pirate Crew\".\nAs a result, the rule \"You may only use Bloom Effect \"Houshou's Pirate Crew\" once per turn\" is active, and you cannot use the Bloom Effect \"Houshou's Pirate Crew\" again during the same turn."
     },
     "referenced_cards": [ "hBP02-032", "hBP06-090" ]
+  },
+  "Q561": {
+    "qna_number": "Q561",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD12-004〈シオリ・ノヴェラ〉のアーツ「不穏な忠告」は、相手のセンターホロメンやコラボホロメンが不在でもバックホロメンに使うことはできますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、できます。", "en": null },
+    "referenced_cards": [ "hSD12-004" ]
+  },
+  "Q562": {
+    "qna_number": "Q562",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD12-013〈モココ・アビスガード〉のコラボエフェクト「ハッピー☆パピー -MOCOCO-」の能力で、自分のバックポジションのDebutホロメンをデッキの下に戻す場合、そのホロメンに付いているカードも戻りますか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD12-013" ]
+  },
+  "Q563": {
+    "qna_number": "Q563",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD12-014〈フワワ・アビスガード〉のコラボエフェクト「ハッピー☆パピー -FUWAWA-」の能力で、自分のバックポジションのDebutホロメンをデッキの下に戻す場合、そのホロメンに付いているカードも戻りますか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD12-014" ]
+  },
+  "Q564": {
+    "qna_number": "Q564",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "自分のセンターホロメンが赤の2ndホロメンでコラボホロメンがhBP01-050〈風真いろは〉の時、相手がhBP01-050〈風真いろは〉へアーツを使いました。\nこの場合、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」を使って、赤のセンターポジションの2ndホロメンが代わりにダメージを受けることはできますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、できます。", "en": null },
+    "referenced_cards": [ "hBP01-050", "hSD13-001" ]
+  },
+  "Q565": {
+    "qna_number": "Q565",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」で、バックホロメンのBP04-102〈やめなー〉が付いているhBP04-086〈桃鈴ねね〉を選びました。\nこの場合、BP04-102〈やめなー〉が付いているhBP04-086〈桃鈴ねね〉はダメージを受けますか？",
+      "en": null
+    },
+    "answer": { "jp": "いいえ、受けません。", "en": null },
+    "referenced_cards": [ "hBP04-086", "hSD13-001" ]
+  },
+  "Q566": {
+    "qna_number": "Q566",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉のSP推しスキル「JUST LIKE THAT」の能力で、アーカイブにある1stや2ndの#Justiceを持つホロメンをステージに出すことはできますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、できます。", "en": null },
+    "referenced_cards": [ "hSD13-001" ]
+  },
+  "Q567": {
+    "qna_number": "Q567",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-002〈ジジ・ムリン〉の推しスキル「Boat Goes Binted」の能力は、自分のセンターポジションにのみホロメンがいる場合、コラボポジションに移動させることはできますか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、できません。\nセンターポジションとコラボポジションにホロメンがいる時のみ入れ替えられます。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-002" ]
+  },
+  "Q568": {
+    "qna_number": "Q568",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-002〈ジジ・ムリン〉の推しスキル「Boat Goes Binted」の能力で、センターホロメンとコラボホロメンを入れ替えました。\nこの場合、センターホロメンが持っているコラボエフェクトは発揮されますか？",
+      "en": null
+    },
+    "answer": { "jp": "いいえ、されません。", "en": null },
+    "referenced_cards": [ "hSD13-002" ]
+  },
+  "Q569": {
+    "qna_number": "Q569",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-002〈ジジ・ムリン〉のSP推しスキル「自由奔放な『追跡者』」の能力は、自分のステージに1st以上の〈ジジ・ムリン〉がいなければ2ndの〈ジジ・ムリン〉を出すことができませんか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、出せます。\nこの能力は、Bloomさせるのではなく、2ndホロメンを直接ステージに出します。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-002" ]
+  },
+  "Q570": {
+    "qna_number": "Q570",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-005〈エリザベス・ローズ・ブラッドフレイム〉のギフト「For Justice! -ERB-」の能力は、自身がダウンした場合、エールデッキからエールを送った後にアーカイブしますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、アーカイブします。", "en": null },
+    "referenced_cards": [ "hSD13-005" ]
+  },
+  "Q571": {
+    "qna_number": "Q571",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "ギフト「猛炎のウォークライ」でHPが上がっている、残りHP10のhSD13-007〈エリザベス・ローズ・ブラッドフレイム〉がバトンタッチする場合、ダウン処理を行うのはいつですか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "この場合、センターホロメンとバックホロメンを入れ替えた後にダウン処理を行います。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-007" ]
+  },
+  "Q572": {
+    "qna_number": "Q572",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-009〈ジジ・ムリン〉のコラボエフェクト「イタズラ増殖！」の能力は、自分のステージに1st以下の〈ジジ・ムリン〉がいなければ1stの#Justiceを持つホロメンを出すことができませんか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、出せます。\nこの能力は、Bloomさせるのではなく、1stホロメンを直接ステージに出します。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-009" ]
+  },
+  "Q573": {
+    "qna_number": "Q573",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-011〈ジジ・ムリン〉のアーツ「すべての意味を追い求めて」の「このホロメンに重なっているホロメンが0枚なら」とは、どういう意味ですか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "hSD13-011〈ジジ・ムリン〉の下にあるカードが0枚であることを指します。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-011" ]
+  },
+  "Q574": {
+    "qna_number": "Q574",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-013〈ジジ・ムリン〉のアーツ「殻破りのライオット」の「このホロメンに重なっているホロメンが0枚なら」とは、どういう意味ですか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "hSD13-013〈ジジ・ムリン〉の下にあるカードが0枚であることを指します。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-013" ]
+  },
+  "Q575": {
+    "qna_number": "Q575",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、されます。", "en": null },
+    "referenced_cards": [ "hBP01-104", "hSD13-014" ]
+  },
+  "Q576": {
+    "qna_number": "Q576",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-015〈ラオーラ・パンテーラ〉のコラボエフェクト「正義の諧調」は、この能力で戻したエールも送ることはできますか？",
+      "en": null
+    },
+    "answer": { "jp": "はい、できます。", "en": null },
+    "referenced_cards": [ "hSD13-015" ]
+  },
+  "Q577": {
+    "qna_number": "Q577",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-017〈JUSTICE, JUST LIKE THAT!!!!〉の能力で、選んだホロメンの一番上のカードを戻すことはできますか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "いいえ、できません。\n「重なっているホロメン」とは、ホロメンの下にあるカードを指します。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-017" ]
+  },
+  "Q578": {
+    "qna_number": "Q578",
+    "date": "2026-02-13",
+    "question": {
+      "jp": "hSD13-018〈Popo〉の「このホロメンに重なっているホロメンが0枚なら」とは、どういう意味ですか？",
+      "en": null
+    },
+    "answer": {
+      "jp": "〈ジジ・ムリン〉の下にあるカードが0枚であることを指します。",
+      "en": null
+    },
+    "referenced_cards": [ "hSD13-018" ]
   }
 }
