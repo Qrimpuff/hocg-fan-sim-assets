@@ -23051,19 +23051,19 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": "こより実験中", "en": "Koyori Experiment" },
+        "name": { "jp": "こより実験中", "en": "Koyori Experimenting" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の#こよラボを持つサポートカードが付いている〈博衣こより〉1人のアーツ+30。",
-          "en": "[1/Turn]During this turn, 1 of your <Hakui Koyori> with a support card with #KOYO LABO attached gets Arts+30."
+          "en": "[1/Turn]During this turn, 1 of your 〈Hakui Koyori〉 that has a support card with #KOYO LABO attached gets Arts+30."
         }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": "助手くん、んーまっ！", "en": "Assisant-kun, mwah!" },
+        "name": { "jp": "助手くん、んーまっ！", "en": "Assistants, mmmwah!" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の〈こよりの助手くん〉が付いている〈博衣こより〉が相手からダメージを受ける時に使える：そのホロメン1人が受けるダメージ-100。",
-          "en": "[1/Game]During your opponent's turn, usable when your <Hakui Koyori> with <Koyori's Assistant-kun> attached would take damage from your opponent:1 of those holomem takes -100 damage."
+          "en": "[1/Game]Usable if your 〈Hakui Koyori〉 with 〈Koyori's Assistants〉 attached would take damage from the opponent during the opponent's turn:1 of those holomem takes -100 damage."
         }
       }
     ],
@@ -23187,7 +23187,7 @@
     "oshi_skills": [
       {
         "holo_power": 3,
-        "name": { "jp": "Reach the top！", "en": "Reach the top!" },
+        "name": { "jp": "Reach the top！", "en": "Reach the Top!" },
         "text": {
           "jp": "[ターンに1回]自分のセンターホロメンが#ReGLOSSを持つ時、相手のコラボホロメンに特殊ダメージ50を与える。",
           "en": "[1/Turn]If your center holomem has #ReGLOSS, deal 50 special damage to your opponent's collab holomem."
@@ -23196,10 +23196,10 @@
       {
         "special": true,
         "holo_power": 1,
-        "name": { "jp": "かわいい！ ポジティブ！ ジーニアス！", "en": "Kawaii! Positive! Genius!" },
+        "name": { "jp": "かわいい！ ポジティブ！ ジーニアス！", "en": "Cute! Positive! Genius!" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の〈一条莉々華〉がダウンした時に使える：自分のデッキから、[〈一条莉々華〉と〈限界飯〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "[1/Game]Usable when your <Ichijou Ririka> is downed during the opponent's turn:Reveal 1 [<Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add them to hand. Then, shuffle the deck."
+          "en": "[1/Game]Usable when your 〈Ichijou Ririka〉 is downed during the opponent's turn:Reveal 1 [〈Ichijou Ririka〉 and/or 〈Struggle Meal〉] each from your deck, and add them to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -23255,19 +23255,19 @@
     "oshi_skills": [
       {
         "holo_power": 1,
-        "name": { "jp": "愛してる", "en": "Love you" },
+        "name": { "jp": "愛してる", "en": "I Love You" },
         "text": {
           "jp": "[ターンに1回]相手のターンで、自分のホロメンがダウンした時に使える：そのホロメンに付いているファン1枚を手札に戻す。",
-          "en": "[1/Turn]During your opponent's turn, usable when your holomem is downed:Return 1 fan from the downed holomem to hand."
+          "en": "[1/Turn]Usable when your holomem is downed during the opponent's turn:Return 1 fan attached to that holomem to hand."
         }
       },
       {
         "special": true,
         "holo_power": 3,
-        "name": { "jp": "ぶーん、バリバリバリバリ", "en": "Vrooooom! Baribaribaribari" },
+        "name": { "jp": "ぶーん、バリバリバリバリ", "en": "Vroom, Bari Bari Bari Bari" },
         "text": {
           "jp": "[ゲームに1回]自分の〈雪花ラミィ〉1人を選ぶ。このターンの間、選んだホロメンが、相手のホロメン1人に与える特殊ダメージ+100し、選んだホロメンが相手のホロメンをダウンさせた時、自分のデッキを2枚引く。",
-          "en": "[1/Game]Choose 1 of your <Yukihana Lamy>. During this turn, the chosen holomem deals +100 special damage to 1 of your opponent's holomem. When the chosen holomem downs your opponent's holomem during this turn, draw 2 cards."
+          "en": "[1/Game]Choose 1 of your 〈Yukihana Lamy〉. During this turn, the chosen holomem deals +100 special damage to 1 of your opponent's holomem, and if the chosen holomem downed an opponent's holomem, draw 2 cards."
         }
       }
     ],
@@ -23323,19 +23323,19 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": "総帥のお仕事", "en": "Leader's work" },
+        "name": { "jp": "総帥のお仕事", "en": "Leader's Work" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分のホロメンの能力でサイコロを1度に3回振る時、そのサイコロの目の数すべてを5として扱う。",
-          "en": "[1/Turn]During this turn, whenever you roll a die 3 times as part of a single ability, regard all numbers on the faces of your dice as 5."
+          "en": "[1/Turn]During this turn, if you would roll a die 3 times for 1 ability of your holomem, regard all numbers on the faces of that die as 5."
         }
       },
       {
         "special": true,
         "holo_power": 3,
-        "name": { "jp": "我ら秘密結社holoX！", "en": "We are Secret Society holoX!" },
+        "name": { "jp": "我ら秘密結社holoX！", "en": "We Are Secret Society holoX!" },
         "text": {
           "jp": "[ゲームに1回]自分の#秘密結社holoXを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、エールを必要とせずに使える。",
-          "en": "[1/Game]Choose 1 of your holomem with #holoX. During this turn, the chosen holomem's Arts can be used with no cheer requirement."
+          "en": "[1/Game]Choose 1 of your holomem with #holoX. During this turn, the chosen holomem's Arts may be used without cheer requirements."
         }
       }
     ],
@@ -23394,16 +23394,16 @@
         "name": { "jp": "メンタル！ フィジカル！ パッション！", "en": "Mental! Physical! Passion!" },
         "text": {
           "jp": "[ターンに1回]相手のターンで、自分の〈大空スバル〉が相手からダメージを受ける時に使える：自分の〈大空スバル〉全員が受けるダメージ-30。",
-          "en": "[1/Turn]During your opponent's turn, usable if your <Oozora Subaru> would take damage from your opponent:All of your <Oozora Subaru> take -30 damage."
+          "en": "[1/Turn]Usable if your 〈Oozora Subaru〉 would take damage from the opponent during the opponent's turn:All of your 〈Oozora Subaru〉 take -30 damage."
         }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": "リアクション芸", "en": "Reaction Arts" },
+        "name": { "jp": "リアクション芸", "en": "Comedic Reactions" },
         "text": {
           "jp": "[ゲームに1回]自分のライフが3以下の時に使える：このターンの間、自分のセンターホロメンの〈大空スバル〉のアーツ+100。",
-          "en": "[1/Game]Usable if your life is 3 or less:During this turn, your center holomem <Oozora Subaru> gets Arts+100."
+          "en": "[1/Game]Usable if your life is 3 or less:During this turn, your center holomem 〈Oozora Subaru〉 gets Arts+100."
         }
       }
     ],
@@ -23462,16 +23462,16 @@
         "name": { "jp": "神秘の儀式", "en": "Mystical Ritual" },
         "text": {
           "jp": "[ターンに1回]自分のデッキから、〈古代武器〉1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。",
-          "en": "[1/Turn]Reveal 1 <Ancient Weapon> from your deck, and attach it to your holomem. Then, shuffle the deck."
+          "en": "[1/Turn]Reveal 1 〈Ancient Weapon〉 from your deck, and attach it to your holomem. Then, shuffle the deck."
         }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": "人生のこと考えていた方が勝てる", "en": "Those who think about life will win" },
+        "name": { "jp": "人生のこと考えていた方が勝てる", "en": "Those Who Think about Life Win" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブのエールを、自分の〈古代武器〉が付いているホロメン全員に1枚ずつ送る。",
-          "en": "[1/Game]Send 1 cheer from your archive to each of your holomem with an <Ancient Weapon> attached."
+          "en": "[1/Game]Send 1 cheer each from your archive to all of your holomem with 〈Ancient Weapon〉 attached."
         }
       }
     ],
@@ -23512,7 +23512,7 @@
     "colors": [ "white" ],
     "hp": 100,
     "bloom_level": "debut",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんこよ～", "en": "Konkoyo" }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんこよ～", "en": "Konkoyo~" }, "power": "30" } ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
@@ -23565,7 +23565,7 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "終わりなき輪廻に迷いし子らよ",
-          "en": "Oh, you poor souls lost within an eternal cycle"
+          "en": "Oh, You Poor Souls Lost within an Eternal Cycle"
         },
         "power": "20",
         "text": {
@@ -23633,12 +23633,12 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "助手く～ん、なんかお疲れっぽい？", "en": "Assistant-kun, you seem tired?" },
+        "name": { "jp": "助手く～ん、なんかお疲れっぽい？", "en": "Assistants~ Are You Tired?" },
         "power": "40"
       },
       {
         "cheers": [ "white", "colorless" ],
-        "name": { "jp": "こよに添い寝される？", "en": "Will you sleep with me?" },
+        "name": { "jp": "こよに添い寝される？", "en": "Will You Let Koyo Sleep Beside You?" },
         "power": "60"
       }
     ],
@@ -23688,11 +23688,11 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "助手くんっ見ててね！", "en": "Assistant-kun, watch out!" },
+        "name": { "jp": "助手くんっ見ててね！", "en": "Assistants, Pay Attention!" },
         "power": "30",
         "text": {
           "jp": "自分のアーカイブの〈こよりの助手くん〉1枚を、自分の他の〈博衣こより〉に付けられる。",
-          "en": "You may attach 1 <Koyori's Assistant-kun> from your archive to your other <Hakui Koyori>."
+          "en": "You may attach 1 〈Koyori's Assistants〉 from your archive to your other 〈Hakui Koyori〉."
         }
       }
     ],
@@ -23742,7 +23742,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "はい！ はい！ はい！ はい！", "en": "Hai! Hai! Hai! Hai!" },
+        "name": { "jp": "はい！ はい！ はい！ はい！", "en": "Yes! Yes! Yes! Yes!" },
         "text": {
           "jp": "自分のデッキから、#こよラボを持つサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "Reveal 1 support card with #KOYO LABO from your deck, and add it to hand. Then, shuffle the deck."
@@ -23754,12 +23754,12 @@
         "cheers": [ "white" ],
         "name": {
           "jp": "助手くんとこよはずっと一緒だよ！",
-          "en": "Assistant-kun and Koyo will always be together!"
+          "en": "Koyo and Her Assistants Will Always Be Together!"
         },
         "power": "30",
         "text": {
           "jp": "このホロメンに〈こよりの助手くん〉が付いている時、自分のデッキを1枚引く。",
-          "en": "If <Koyori's Assistant-kun> is attached to this holomem, draw 1 card."
+          "en": "If 〈Koyori's Assistants〉 is attached to this holomem, draw 1 card."
         }
       }
     ],
@@ -23913,7 +23913,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "戻っておいで", "en": "Please come back" },
+        "name": { "jp": "戻っておいで", "en": "Come Back" },
         "text": {
           "jp": "自分のアーカイブの#白上'sキャラクターを持つカード1～2枚を手札に戻せる。",
           "en": "You may return 1~2 cards with #Shirakami's Character from your archive to hand."
@@ -23923,12 +23923,12 @@
     "arts": [
       {
         "cheers": [ "white", "colorless", "colorless" ],
-        "name": { "jp": "私の大切な人", "en": "My special someone" },
+        "name": { "jp": "私の大切な人", "en": "My Precious One" },
         "power": "100+",
         "advantage": [ "green", 50 ],
         "text": {
           "jp": "自分のステージに〈白上フブキ〉以外の#ゲーマーズを持つホロメンがいる時、このアーツ+50。",
-          "en": "If your stage has a holomem with #GAMERS other than <Shirakami Fubuki>, this Arts gets +50."
+          "en": "If your stage has a holomem with #GAMERS other than 〈Shirakami Fubuki〉, this Arts gets +50."
         }
       }
     ],
@@ -23985,13 +23985,13 @@
         "power": "30+",
         "text": {
           "jp": "自分のステージの#Promiseを持つホロメン1人につき、このアーツ+10。ただし、数える人数は4人まで。",
-          "en": "This Arts gets +10 for each of your holomem with #Promise. However, only up to 4 holomem are counted."
+          "en": "This Arts gets +10 for each holomem with #Promise on your stage. However, only up to 4 holomem are counted."
         }
       }
     ],
     "extra": {
       "jp": "このホロメンがダウンした時、自分のライフ-2",
-      "en": "If this holomem is downed, you get Life-2"
+      "en": "If this holomem is downed, you get life-2"
     },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
@@ -24111,7 +24111,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "正義のピンクパンサー", "en": "Pink panther of Justice" },
+        "name": { "jp": "正義のピンクパンサー", "en": "Pink Panther of Justice" },
         "power": "40"
       }
     ],
@@ -24165,14 +24165,14 @@
         "name": { "jp": "神眼の描き手", "en": "The Artist with the God Eyes" },
         "text": {
           "jp": "このターンの間、自分のステージの#絵を持つホロメン1人のアーツ+20。",
-          "en": "During this turn, 1 of your holomem with #Painting gets Arts+20."
+          "en": "During this turn, 1 holomem on your stage with #Painting gets Arts+20."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "情報収集はお手の物", "en": "Information gathering is a breeze" },
+        "name": { "jp": "情報収集はお手の物", "en": "Information Gathering Is My Specialty" },
         "power": "50"
       }
     ],
@@ -24223,7 +24223,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "只今、情報収集中", "en": "Currently gathering information" },
+        "name": { "jp": "只今、情報収集中", "en": "Currently Gathering Information" },
         "text": {
           "jp": "自分のデッキの上から3枚を見る。その中から、#絵を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
           "en": "Look at the top 3 cards of your deck. Reveal 1 holomem with #Painting from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
@@ -24291,7 +24291,7 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "儒烏風亭一門は前座見習い！",
-          "en": "The Juufuutei Group's curtain raiser and apprentice!"
+          "en": "The Juufuutei Family Are Still Apprentice Curtain Raisers!"
         },
         "power": "20"
       },
@@ -24351,7 +24351,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "あなたに学びと面白いをお届け", "en": "Bringing you learning and fun" },
+        "name": { "jp": "あなたに学びと面白いをお届け", "en": "Bringing You Knowledge and Fun" },
         "text": {
           "jp": "このターンに自分が#きのこを持つイベントを使っていた時、自分の#ReGLOSSを持つホロメン1人のHP20回復。",
           "en": "If you used an event with #Mushroom this turn, restore 20 HP to 1 of your holomem with #ReGLOSS."
@@ -24359,11 +24359,7 @@
       }
     ],
     "arts": [
-      {
-        "cheers": [ "colorless" ],
-        "name": { "jp": "らでんスタンバイ", "en": "Raden on standby" },
-        "power": "30"
-      }
+      { "cheers": [ "colorless" ], "name": { "jp": "らでんスタンバイ", "en": "Raden Standby" }, "power": "30" }
     ],
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
@@ -24409,10 +24405,10 @@
     "hp": 160,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "green" ], "name": { "jp": "博識ツッコミ", "en": "Knowledgeable Tsukkomi" }, "power": "30" },
+      { "cheers": [ "green" ], "name": { "jp": "博識ツッコミ", "en": "Knowledgeable Clapback" }, "power": "30" },
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "まぁそんなとこですな", "en": "Well, that's about it" },
+        "name": { "jp": "まぁそんなとこですな", "en": "Well, Something Like That" },
         "power": "50"
       }
     ],
@@ -24462,16 +24458,14 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ReGLOSSの賑やかし", "en": "ReGLOSS's hype squad and jokester" },
+        "name": { "jp": "ReGLOSSの賑やかし", "en": "ReGLOSS's Hype Squad" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他の#ReGLOSSを持つホロメンに付け替えられる。",
           "en": "During your opponent's turn, when this holomem is downed, you may reattach 1 cheer from this holomem to your other holomem with #ReGLOSS."
         }
       }
     ],
-    "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "ネタ枠担当", "en": "Chief of story time" }, "power": "40" }
-    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "ネタ枠担当", "en": "Jokester" }, "power": "40" } ],
     "tags": [
       { "jp": "#DEV_IS", "en": "#DEV_IS" },
       { "jp": "#ReGLOSS", "en": "#ReGLOSS" },
@@ -24518,7 +24512,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "冷静沈着", "en": "Calm and collected" },
+        "name": { "jp": "冷静沈着", "en": "Calm and Collected" },
         "text": {
           "jp": "[センターポジション限定]相手のメインステップの間、このホロメンのHPは相手の能力で減らず、変動しない。",
           "en": "[Center Position Only]During your opponent's main phase, this holomem's HP cannot be reduced or changed by your opponent's abilities."
@@ -24528,7 +24522,7 @@
     "arts": [
       {
         "cheers": [ "green" ],
-        "name": { "jp": "喝采反芻", "en": "Cheers Rumination" },
+        "name": { "jp": "喝采反芻", "en": "Reminiscing Applause" },
         "power": "30",
         "text": {
           "jp": "自分のアーカイブのエール1枚をこのホロメンに送れる。",
@@ -24597,7 +24591,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分の推しホロメンが〈儒烏風亭らでん〉の時、このホロメンのエール2枚を、自分のバックホロメン2人に1枚ずつ付け替えられる：このアーツ+30。",
-          "en": "If your Oshi holomem is <Juufuutei Raden>, you may reattach 2 cheers from this holomem, 1 each to 2 of your back holomem:This Arts gets +30."
+          "en": "If your Oshi holomem is 〈Juufuutei Raden〉, you may reattach 2 cheers from this holomem each to 2 of your back holomem:This Arts gets +30."
         }
       }
     ],
@@ -24660,22 +24654,22 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "フブキは特別な存在", "en": "Fubuki is a special someone" },
+        "name": { "jp": "フブキは特別な存在", "en": "Fubuki Is Someone Special" },
         "text": {
           "jp": "自分の推しホロメンが〈白上フブキ〉の時、自分のエールデッキから、白エール1枚を公開し、自分の〈白上フブキ〉に送る。そしてエールデッキをシャッフルする。",
-          "en": "If your Oshi holomem is <Shirakami Fubuki>, reveal 1 white cheer from your cheer deck, and send it to your <Shirakami Fubuki>. Then, shuffle the cheer deck."
+          "en": "If your Oshi holomem is 〈Shirakami Fubuki〉, reveal 1 White cheer from your cheer deck, and send it to your 〈Shirakami Fubuki〉. Then, shuffle the cheer deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": "うちってフブキのものだったの？", "en": "Did our house belong to Fubuki?" },
+        "name": { "jp": "うちってフブキのものだったの？", "en": "Wait, I Belong to Fubuki?" },
         "power": "100+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分のステージに〈大神ミオ〉以外の#ゲーマーズを持つホロメンがいる時、このアーツ+50。",
-          "en": "If your stage has a holomem with #GAMERS other than <Ookami Mio>, this Arts gets +50."
+          "en": "If your stage has a holomem with #GAMERS other than 〈Ookami Mio〉, this Arts gets +50."
         }
       }
     ],
@@ -24729,14 +24723,14 @@
         "name": { "jp": "HOLORO", "en": "HOLORO" },
         "text": {
           "jp": "自分のエールデッキの上から1枚を、自分の〈クレイジー・オリー〉か〈アーニャ・メルフィッサ〉に送る。",
-          "en": "Send the top card of your cheer deck to your <Kureiji Ollie> or <Anya Melfissa>."
+          "en": "Send the top card of your cheer deck to your 〈Kureiji Ollie〉 or 〈Anya Melfissa〉."
         }
       }
     ],
     "arts": [ { "cheers": [ "green" ], "name": { "jp": "Terima Kasih", "en": "Terima Kasih" }, "power": "30" } ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#トリ", "en": "#Bird" },
       { "jp": "#絵", "en": "#Painting" }
     ],
@@ -24779,7 +24773,7 @@
     "hp": 100,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "正義の調べ", "en": "The Melody of Justice" }, "power": "30" }
+      { "cheers": [ "colorless" ], "name": { "jp": "正義の調べ", "en": "Melody of Justice" }, "power": "30" }
     ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
@@ -24831,7 +24825,7 @@
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "『古代自動人形』", "en": "Ancient Automaton" },
+        "name": { "jp": "『古代自動人形』", "en": "An Ancient Automaton" },
         "power": "60"
       }
     ],
@@ -24881,17 +24875,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "こんな旋律思いついたの", "en": "I came up with a new melody" },
+        "name": { "jp": "こんな旋律思いついたの", "en": "I Came Up with a New Melody" },
         "text": {
           "jp": "自分のステージのエール1～2枚を選び、自分のホロメンに割り振って付け替えられる。",
-          "en": "You may choose 1~2 cheers from your stage, and reattach them to your holomem as you choose."
+          "en": "Choose 1~2 cheers from your stage, and you may reattach them divided as you choose to your holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "聞いてくれる？", "en": "Would you like to listen?" },
+        "name": { "jp": "聞いてくれる？", "en": "Would You Like to Listen?" },
         "power": "50"
       }
     ],
@@ -24941,10 +24935,10 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "海を越えたお茶会", "en": "Tea across the sea" },
+        "name": { "jp": "海を越えたお茶会", "en": "Tea Party Across the Sea" },
         "text": {
           "jp": "相手のステージに[#JPか#ID]を持つホロメンがいる間、このホロメンのアーツ+30。",
-          "en": "If your opponent's stage has a holomem with #JP or #ID, this holomem gets Arts+30."
+          "en": "While your opponent's stage has holomem with [#JP or #ID], this holomem gets Arts+30."
         }
       }
     ],
@@ -24956,7 +24950,7 @@
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "自分の#語学を持つバックホロメン1人を選ぶ。自分のエールデッキから、選んだホロメンと同色のエール1枚を公開し、選んだホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "Reveal 1 cheer from your cheer deck with the same color as 1 of your back holomem with #Language, and send it to that holomem. Then, shuffle the cheer deck."
+          "en": "Choose 1 of your back holomem with #Language. Reveal 1 cheer from your cheer deck with the same color as the chosen holomem, and send it to the chosen holomem. Then, shuffle the cheer deck."
         }
       }
     ],
@@ -25003,7 +24997,7 @@
     "colors": [ "red" ],
     "hp": 100,
     "bloom_level": "debut",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんりり", "en": "Kon-riri" }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "こんりり", "en": "Kon-Riri" }, "power": "30" } ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
@@ -25053,14 +25047,14 @@
     "hp": 120,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "red" ], "name": { "jp": "莉々華スタンバイ", "en": "Ririka on standby" }, "power": "20" },
+      { "cheers": [ "red" ], "name": { "jp": "莉々華スタンバイ", "en": "Ririka Standby" }, "power": "20" },
       {
         "cheers": [ "red", "colorless" ],
         "name": { "jp": "リミットオーバー", "en": "Limit Over" },
         "power": "30",
         "text": {
           "jp": "このターンに自分が〈限界飯〉を使っていた時、相手のコラボホロメンに特殊ダメージ20を与える。",
-          "en": "If you used a <Struggle Meal> this turn, deal 20 special damage to your opponent's collab holomem."
+          "en": "If you used 〈Struggle Meal〉 this turn, deal 20 special damage to your opponent's collab holomem."
         }
       }
     ],
@@ -25166,14 +25160,14 @@
         "name": { "jp": "限界飯料理人", "en": "Struggle Meal Chef" },
         "text": {
           "jp": "自分のアーカイブの〈限界飯〉1枚を手札に戻せる。",
-          "en": "You may return 1 <Struggle Meal> from your archive to hand."
+          "en": "You may return 1 〈Struggle Meal〉 from your archive to hand."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "red" ],
-        "name": { "jp": "社長パンチ", "en": "Presidential Punch" },
+        "name": { "jp": "社長パンチ", "en": "Entrepreneur Punch" },
         "power": "50",
         "text": {
           "jp": "相手のコラボホロメンに特殊ダメージ20を与える。",
@@ -25228,7 +25222,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "おいしいもの独り占め", "en": "Delicious food all to myself" },
+        "name": { "jp": "おいしいもの独り占め", "en": "Keeping All the Delicious Food to Myself" },
         "text": {
           "jp": "相手のコラボホロメンに特殊ダメージ20を与える。",
           "en": "Deal 20 special damage to your opponent's collab holomem."
@@ -25238,7 +25232,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "いひひっ", "en": "eheheh" },
+        "name": { "jp": "いひひっ", "en": "Heehee" },
         "power": "30",
         "text": {
           "jp": "このアーツの対象が相手のコラボホロメンの時、自分のデッキを1枚引く。",
@@ -25308,7 +25302,7 @@
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "相手のセンターホロメンに特殊ダメージ50を与える。その後、このターンに自分が〈限界飯〉を使っていた時、相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。",
-          "en": "Deal 50 special damage to your opponent's center holomem. If you used a <Struggle Meal> this turn, deal 30 special damage to your opponent's center holomem or collab holomem."
+          "en": "Deal 50 special damage to your opponent's center holomem. If you used 〈Struggle Meal〉 this turn, deal 30 special damage to your opponent's center holomem or collab holomem."
         }
       }
     ],
@@ -25372,7 +25366,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "どこ見ちゃってるのかな～！！♥♡", "en": "I wonder if they saw that!!♥♡" },
+        "name": { "jp": "どこ見ちゃってるのかな～！！♥♡", "en": "Where Are You Looking~!!♥♡" },
         "text": {
           "jp": "相手のセンターホロメンとコラボホロメンに特殊ダメージ10を与える。",
           "en": "Deal 10 special damage to your opponent's center holomem and collab holomem."
@@ -25382,7 +25376,7 @@
     "arts": [
       {
         "cheers": [ "red", "colorless" ],
-        "name": { "jp": "えっち♥♥", "en": "Risqué♥♥" },
+        "name": { "jp": "えっち♥♥", "en": "Perv♥♥" },
         "power": "50+",
         "advantage": [ "green", 50 ],
         "text": {
@@ -25435,12 +25429,12 @@
     "colors": [ "red" ],
     "hp": 120,
     "bloom_level": "debut",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "おはエラ", "en": "Ohaela" }, "power": "20" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "おはエラ", "en": "Oha-Ela" }, "power": "20" } ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
     },
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 50 },
     "illustrations": [
@@ -25483,7 +25477,7 @@
       { "cheers": [ "colorless" ], "name": { "jp": "When Life is Hard", "en": "When Life is Hard" }, "power": "30" },
       { "cheers": [ "red", "colorless" ], "name": { "jp": "DAHLAH", "en": "DAHLAH" }, "power": "50" }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -25525,7 +25519,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "JDON my soul", "en": "JDON my soul" },
+        "name": { "jp": "JDON my soul", "en": "JDON My Soul" },
         "text": {
           "jp": "自分のアーカイブのツール1枚を手札に戻せる。",
           "en": "You may return 1 tool from your archive to hand."
@@ -25533,9 +25527,9 @@
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "サイレント笑い", "en": "Silent laughter" }, "power": "20" }
+      { "cheers": [ "colorless" ], "name": { "jp": "サイレント笑い", "en": "Silent Laugh" }, "power": "20" }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -25599,7 +25593,7 @@
       "jp": "このホロメンがダウンした時、自分のライフ-2",
       "en": "If this holomem is downed, you get life-2"
     },
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -25654,7 +25648,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "こんらみ～", "en": "Kon-Lamy" },
+        "name": { "jp": "こんらみ～", "en": "Lamyoohoo" },
         "power": "20",
         "text": {
           "jp": "相手のホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。",
@@ -25739,14 +25733,14 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "Snow flower", "en": "Snow flower" },
+        "name": { "jp": "Snow flower", "en": "Snow Flower" },
         "text": {
           "jp": "自分の〈雪民〉が付いている〈雪花ラミィ〉がいない時、自分のデッキから、〈雪民〉1枚を公開し、自分の〈雪花ラミィ〉に付ける。そしてデッキをシャッフルする。",
-          "en": "If you do not have a <Yukihana Lamy> with <Yukimin> attached, reveal 1 <Yukimin> from your deck, and attach it to your <Yukihana Lamy>. Then, shuffle the deck."
+          "en": "If you do not have a 〈Yukihana Lamy〉 with 〈Yukimin〉 attached, reveal 1 〈Yukimin〉 from your deck, and attach it to your 〈Yukihana Lamy〉. Then, shuffle the deck."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "うぅ…", "en": "uu..." }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "うぅ…", "en": "Ugh…" }, "power": "30" } ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#5期生", "en": "#Gen 5" },
@@ -25805,10 +25799,10 @@
     "hp": 150,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "blue" ], "name": { "jp": "おつらみ", "en": "Otsu-Lamy" }, "power": "30" },
+      { "cheers": [ "blue" ], "name": { "jp": "おつらみ", "en": "Lamy Later" }, "power": "30" },
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": "ボスが攻略できな～い", "en": "I can't beat the boss!" },
+        "name": { "jp": "ボスが攻略できな～い", "en": "I Can't Defeat the Boss~" },
         "power": "50"
       }
     ],
@@ -25859,7 +25853,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "いっぱい頑張るよ！", "en": "I'll do my best!" },
+        "name": { "jp": "いっぱい頑張るよ！", "en": "I'll Work Very Hard!" },
         "power": "30",
         "text": {
           "jp": "自分のファンが付いているホロメンがいる時、相手のホロメン1人に特殊ダメージ10を与える。",
@@ -25929,14 +25923,14 @@
         "name": { "jp": "fleur", "en": "fleur" },
         "text": {
           "jp": "自分の〈雪民〉が付いている〈雪花ラミィ〉がいる時、相手のホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。",
-          "en": "If you have a <Yukihana Lamy> with a <Yukimin> attached, deal 20 special damage to 1 of your opponent's holomem. However, your opponent's life does not reduce even if downed."
+          "en": "If you have a 〈Yukihana Lamy〉 with 〈Yukimin〉 attached, deal 20 special damage to 1 of your opponent's holomem. However, your opponent's life does not reduce even if downed."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": "雪が煌く花束", "en": "Sparkling Snow Bouquet" },
+        "name": { "jp": "雪が煌く花束", "en": "Bouquet of Shimmering Snow" },
         "power": "50"
       }
     ],
@@ -25990,7 +25984,7 @@
         "name": { "jp": "ユニーリアの令嬢", "en": "Lady of Unylia" },
         "text": {
           "jp": "自分のエールデッキの上から1枚を、自分の〈雪民〉が付いている〈雪花ラミィ〉に送る。",
-          "en": "Send the top card of your cheer deck to your <Yukihana Lamy> with <Yukimin> attached."
+          "en": "Send the top card of your cheer deck to your 〈Yukihana Lamy〉 with 〈Yukimin〉 attached."
         }
       }
     ],
@@ -26079,7 +26073,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "月と星のステージ", "en": "Moon and star stage" },
+        "name": { "jp": "月と星のステージ", "en": "Stage of Moon and Stars" },
         "power": "50",
         "advantage": [ "white", 50 ]
       },
@@ -26090,13 +26084,13 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "相手のバックホロメン1人に特殊ダメージ20を与える。その後、自分のステージにこのホロメンと異なる色のホロメンがいる時、このアーツ+50。",
-          "en": "Deal 20 special damage to 1 of your opponent's back holomem. Then, if your stage has a holomem with a color other than this holomem's color, this Arts gets +50."
+          "en": "Deal 20 special damage to 1 of your opponent's back holomem. If your stage has a holomem with different color as this holomem, this Arts gets +50."
         }
       }
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID1期生", "en": "#ID Gen 1" },
+      { "jp": "#ID1期生", "en": "#IDGen 1" },
       { "jp": "#歌", "en": "#Singing" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -26174,11 +26168,12 @@
       },
       {
         "card_number": "hBP04-050",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1766 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP04-050_C.webp", "en": null },
-        "img_hash": "v2|H32=itRRLYX1LVQHKS1Xq1ZSKaqU0lZSKbLVtGpWrbSy1Eq8uFgV06x0USpaltppWZWkJcukqSvWKmuyFGlLlJRJkpVtq7Q|CYM=182208",
+        "illustrator": "",
+        "img_path": { "jp": "hSD12/hBP04-050_02_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:25 GMT" },
+        "img_hash": "v2|H32=qtYxqpWqrVoPqy2y61JSqSrVUlRKrTJVUkpStaxU1EqslFAVV6V8USrKjqJpUZW0baumqeqSimqyFGlLtrRJmrZtiZY|CYM=172209",
         "ogbajoj_sheet_cells": [ [ 543634835, "C19" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -26210,13 +26205,13 @@
         "cheers": [ "blue" ],
         "name": {
           "jp": "それって素敵な物語だと思わない？",
-          "en": "Don't you think that's a wonderful story?"
+          "en": "Don't You Think That's a Wonderful Story?"
         },
         "power": "30"
       },
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "尽きない知識欲", "en": "Endless thirst for knowledge" },
+        "name": { "jp": "尽きない知識欲", "en": "Thirst for Knowledge" },
         "power": "50"
       }
     ],
@@ -26262,7 +26257,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "脱獄計画", "en": "Prison break plan" },
+        "name": { "jp": "脱獄計画", "en": "Prison Break Plan" },
         "text": {
           "jp": "相手のバックホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。",
           "en": "Deal 20 special damage to 1 of your opponent's back holomem. However, your opponent's life does not reduce even if downed."
@@ -26392,7 +26387,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "貴様ら、刮目せよ！！", "en": "Heed my call!" },
+        "name": { "jp": "貴様ら、刮目せよ！！", "en": "See Me, Hear Me, All of You!!" },
         "power": "30"
       }
     ],
@@ -26470,7 +26465,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "そこに跪け！", "en": "Kneel before me!" },
+        "name": { "jp": "そこに跪け！", "en": "Kneel Over There!" },
         "text": {
           "jp": "サイコロを1回振れる：3以上の時、相手のバックホロメン1人をお休みさせる。",
           "en": "You may roll a die once:If it is 3 or greater, rest 1 of your opponent's back holomem."
@@ -26480,7 +26475,7 @@
     "arts": [
       {
         "cheers": [ "purple" ],
-        "name": { "jp": "我ら、エデンの星を統べる者！", "en": "We are the ones who rule planet Eden!" },
+        "name": { "jp": "我ら、エデンの星を統べる者！", "en": "We Who Rule the Star of Eden!" },
         "power": "30+",
         "text": {
           "jp": "相手のお休みしているホロメン1人につき、このアーツ+10。",
@@ -26533,12 +26528,12 @@
     "arts": [
       {
         "cheers": [ "purple" ],
-        "name": { "jp": "いちごだいすき！", "en": "I love strawberries!" },
+        "name": { "jp": "いちごだいすき！", "en": "I Love Strawberries!" },
         "power": "40"
       },
       {
         "cheers": [ "purple", "purple" ],
-        "name": { "jp": "ぷらすめいと諸君いつもありがとう", "en": "Thank you as always, Plusmates" },
+        "name": { "jp": "ぷらすめいと諸君いつもありがとう", "en": "Thank You, +mate!" },
         "power": "70"
       }
     ],
@@ -26588,10 +26583,10 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "holoX集合", "en": "holoX Meeting" },
+        "name": { "jp": "holoX集合", "en": "holoX Assemble" },
         "text": {
           "jp": "サイコロを1回振れる：奇数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚を手札に戻す。偶数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚をデッキの上に戻す。",
-          "en": "You may roll a die once:If it is odd, return 1 holomem with #holoX from your archive to hand. If it is even, return 1 holomem with #holoX from your archive to the top of your deck."
+          "en": "You may roll a die once:If it is odd, return 1 holomem with #holoX from your archive to hand. If it is even, return 1 holomem with #holoX from your archive to the top of the deck."
         }
       }
     ],
@@ -26600,7 +26595,7 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "最高のステージ魅せてやるからな！！",
-          "en": "I'll show you the best performance!!"
+          "en": "I'll Show You the Best Stage Ever!!"
         },
         "power": "40"
       }
@@ -26650,17 +26645,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "貴様の運命試してみるか？", "en": "Would you like to test your fate?" },
+        "name": { "jp": "貴様の運命試してみるか？", "en": "Shall We Test Your Fate?" },
         "text": {
           "jp": "サイコロを3回振れる：相手のセンターホロメンに、奇数が出た回数1回につき、特殊ダメージ10を与える。",
-          "en": "You may roll a die 3 times:Deal 10 special damage for each time it is odd to your opponent's center holomem."
+          "en": "You may roll a die 3 times:Deal 10 special damage to your opponent's center holomem for each odd result rolled."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple" ],
-        "name": { "jp": "吾輩に勝つつもりか？", "en": "You think you can defeat me?" },
+        "name": { "jp": "吾輩に勝つつもりか？", "en": "You Dare Challenge Me?" },
         "power": "30"
       }
     ],
@@ -26811,11 +26806,11 @@
     "arts": [
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": "ゲーム配信中", "en": "Streaming games today" },
+        "name": { "jp": "ゲーム配信中", "en": "Game Streaming" },
         "power": "40",
         "text": {
           "jp": "相手のセンターホロメンとコラボホロメンに、相手のセンターホロメンのエール1枚につき、特殊ダメージ10を与える。",
-          "en": "For each cheer attached to your opponent's center holomem, deal 10 special damage to your opponent's center holomem and collab holomem."
+          "en": "Deal 10 special damage to your opponent's center holomem and collab holomem for each of your opponent's center holomem's cheers."
         }
       }
     ],
@@ -26865,28 +26860,28 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "オリーを見てください！", "en": "Look at Ollie!" },
+        "name": { "jp": "オリーを見てください！", "en": "Please Watch Ollie!" },
         "text": {
           "jp": "自分のSP推しスキル「蘇るオリー」でBloomした時、自分の〈クレイジー・オリー〉1人のHPすべて回復。",
-          "en": "If Bloomed using the SP Oshi Skill \"Ollie Revives\", restore all HP of 1 of your <Kureiji Ollie>."
+          "en": "If bloomed with SP Oshi Skill\"Ollie Revives\", restore all HP to 1 of your 〈Kureiji Ollie〉."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": "HOLOROの魂", "en": "Soul of HOLORO" },
+        "name": { "jp": "HOLOROの魂", "en": "HOLORO Soul" },
         "power": "80+",
         "advantage": [ "green", 50 ],
         "text": {
           "jp": "自分のステージのこのホロメン以外の#ID2期生を持つ2ndホロメン1人につき、このアーツ+20。",
-          "en": "This Arts gets +20 for each of your other 2nd holomem with #ID Gen 2."
+          "en": "This Arts gets +20 for each 2nd holomem with #ID Gen 2 on your stage other than this holomem."
         }
       }
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -26934,18 +26929,18 @@
         "name": { "jp": "永遠の休息", "en": "Eternal Rest" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]このホロメンに〈森カリオペの鎌〉か〈Death-sensei〉が付いている間、自分の#Mythを持つセンターホロメンのアーツ+30。",
-          "en": "[Center Position・Collab Position Only]If <Mori Calliope's Scythe> or <Death-sensei> is attached to this holomem, your center holomem with #Myth gets Arts+30."
+          "en": "[Center Position・Collab Position Only]While this holomem has 〈Mori Calliope's Scythe〉 or 〈Death-sensei〉attached, your center holomem with #Myth gets Arts+30."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": "最期の一杯", "en": "Last drink" },
+        "name": { "jp": "最期の一杯", "en": "One Final Drink" },
         "power": "50",
         "text": {
           "jp": "自分のデッキの上から2枚を見る。その中から、1枚をアーカイブする。そして残ったカードをデッキの上に戻す。",
-          "en": "Look at the top 2 cards of your deck. Archive 1 of them, and return the other to the top of your deck."
+          "en": "Look at the top 2 cards of your deck. Archive 1 card from among them. Then, return the rest to the top of the deck."
         }
       }
     ],
@@ -27016,7 +27011,7 @@
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "ボンビジュー！", "en": "Bon Bijou!" }, "power": "20" }
+      { "cheers": [ "colorless" ], "name": { "jp": "ボンビジュー！", "en": "Bon-Bijou!" }, "power": "20" }
     ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
@@ -27058,11 +27053,12 @@
       },
       {
         "card_number": "hBP04-063",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1767 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP04-063_C.webp", "en": null },
-        "img_hash": "v2|H32=tLRhV6VVtZIp1W1UmahqVYvd0ihq1dJJMqo4N/SqvFdcqthVrWptJZKki9K2VRZKVau2qKpSJLtLWq6tUkcivVl3qqo|CYM=0D200C",
+        "illustrator": "",
+        "img_path": { "jp": "hSD12/hBP04-063_02_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:19 GMT" },
+        "img_hash": "v2|H32=tLhhKpYqtaqpqu3Km6hqVcrVUo1q1dIdYtYaNXSqvFdsq9hVrXZtBZKkz9K2VSZLVauWqKrTpLpLSg+lWioovUlqr6o|CYM=0A200E",
         "ogbajoj_sheet_cells": [ [ 543634835, "C20" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -27077,7 +27073,7 @@
     "colors": [ "purple" ],
     "hp": 180,
     "bloom_level": "first",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "煌く宝石", "en": "Sparkling Gem" }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "煌く宝石", "en": "Shining Jewel" }, "power": "30" } ],
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Advent", "en": "#Advent" },
@@ -27124,7 +27120,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "絶世の輝き", "en": "Unparalleled Brilliance" },
+        "name": { "jp": "絶世の輝き", "en": "An Unmatched Brilliance" },
         "text": {
           "jp": "自分のホロメンの赤エール1枚をアーカイブできる：自分のデッキを2枚引く。",
           "en": "You may archive 1 red cheer from your holomem:Draw 2 cards."
@@ -27134,11 +27130,11 @@
     "arts": [
       {
         "cheers": [ "purple" ],
-        "name": { "jp": "鉱石と採掘者", "en": "Ore and miner" },
+        "name": { "jp": "鉱石と採掘者", "en": "The Ore and the Miner" },
         "power": "30+",
         "text": {
           "jp": "自分のアーカイブに赤エールがある時、このアーツ+20。",
-          "en": "If you have red cheer in your archive, this Arts gets +20."
+          "en": "If your archive has a Red cheer, this Arts gets +20."
         }
       }
     ],
@@ -27191,7 +27187,7 @@
         "name": { "jp": "『感情結晶体』", "en": "The Jewel of Emotions" },
         "text": {
           "jp": "自分の手札を数えて、自分の手札すべてをアーカイブできる：アーカイブしたカード1枚につき、自分のデッキを1枚引く。自分のブルームエフェクト「『感情結晶体』」はターンに1回しか使えない。",
-          "en": "Count the number of cards in your hand, and you may archive all of your hand:Draw 1 card for each card you archived. You may only use Bloom Effect \"The Jewel of Emotions\" once per turn."
+          "en": "Count the number of cards in your hand, and you may archive all of your hand:Draw 1 card for each card archived. You may only use Bloom Effect \"The Jewel of Emotions\" once per turn."
         }
       }
     ],
@@ -27273,7 +27269,7 @@
         "cheers": [ "yellow", "colorless", "colorless" ],
         "name": {
           "jp": "ちわーす！ ホロライブ2期生 大空スバルっス!!",
-          "en": "Sup! I'm Oozora Subaru from hololive 2nd Generation!"
+          "en": "Sup! I'm Oozora Subaru from hololive 2nd Generation!!"
         },
         "power": "60"
       }
@@ -27350,7 +27346,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "大空スバル盛り合わせセット", "en": "Oozora Subaru Assorted Set" },
+        "name": { "jp": "大空スバル盛り合わせセット", "en": "Oozora Subaru Special Combo Set" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]このホロメンが相手の1stホロメンから受けるダメージ-20。",
           "en": "[Center Position・Collab Position Only]This holomem takes -20 damage from your opponent's 1st holomem."
@@ -27360,7 +27356,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "スバルからきみへ！", "en": "From Subaru to you!" },
+        "name": { "jp": "スバルからきみへ！", "en": "From Subaru to You!" },
         "power": "20"
       }
     ],
@@ -27417,10 +27413,10 @@
     "hp": 190,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "yellow" ], "name": { "jp": "おはようスバル", "en": "Good morning Subaru" }, "power": "30" },
+      { "cheers": [ "yellow" ], "name": { "jp": "おはようスバル", "en": "Good Morning Subaru" }, "power": "30" },
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "眠いんデスケド", "en": "I'm sleepy tho" },
+        "name": { "jp": "眠いんデスケド", "en": "But I'm Sleepy" },
         "power": "50"
       }
     ],
@@ -27466,17 +27462,20 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "全力で頑張るから", "en": "I'll do my best" },
+        "name": { "jp": "全力で頑張るから", "en": "I'll Give It My All" },
         "text": {
           "jp": "自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+10。ただし、数える枚数は3枚まで。",
-          "en": "During this turn, 1 of your holomem gets Arts+10 for each cheer attached to that holomem. However, only up to 3 cheers are counted."
+          "en": "Choose 1 of your holomem. During this turn, the chosen holomem gets Arts+10 for each of the chosen holomem's cheers. However, only up to 3 cheers are counted."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "いっぱい応援して、楽しんでね！", "en": "Please support us and have fun!" },
+        "name": {
+          "jp": "いっぱい応援して、楽しんでね！",
+          "en": "Give Us All Your Support and Have Fun!"
+        },
         "power": "20"
       }
     ],
@@ -27531,7 +27530,7 @@
       },
       {
         "cheers": [ "yellow", "colorless", "colorless" ],
-        "name": { "jp": "最強で楽しい毎日", "en": "The best and most fun day" },
+        "name": { "jp": "最強で楽しい毎日", "en": "Our Strongest, Happiest Days" },
         "power": "90"
       }
     ],
@@ -27580,7 +27579,7 @@
         "name": { "jp": "サンライトステージ", "en": "Sunlight Stage" },
         "text": {
           "jp": "自分のアーカイブの黄エール1枚を自分のホロメンに送れる。",
-          "en": "You may send 1 yellow cheer from your archive to your holomem."
+          "en": "You may send 1 Yellow cheer from your archive to your holomem."
         }
       }
     ],
@@ -27666,14 +27665,14 @@
     "colors": [ "yellow" ],
     "hp": 100,
     "bloom_level": "debut",
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "おはよー！", "en": "Ohayo!" }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "おはよー！", "en": "Good Day!" }, "power": "30" } ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless" ],
@@ -27720,20 +27719,20 @@
         "name": { "jp": "A Day at the Café", "en": "A Day at the Café" },
         "text": {
           "jp": "[センターポジション限定]このホロメンと自分のコラボホロメンが受けるダメージ-10。",
-          "en": "[Center position only]This holomem and your collab holomem take -10 damage."
+          "en": "[Center Position Only]This holomem and your collab holomem take -10 damage."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "隣座りますか？", "en": "Do you want to sit next to me?" },
+        "name": { "jp": "隣座りますか？", "en": "Do You Want to Sit Beside Me?" },
         "power": "20"
       }
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless" ],
@@ -27788,16 +27787,16 @@
     "hp": 180,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "yellow" ], "name": { "jp": "悪魔の招待", "en": "Devil's invitation" }, "power": "30" },
+      { "cheers": [ "yellow" ], "name": { "jp": "悪魔の招待", "en": "Devil's Invitation" }, "power": "30" },
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "悪魔の囁き", "en": "Devil's whisper" },
+        "name": { "jp": "悪魔の囁き", "en": "Devil's Whisper" },
         "power": "50"
       }
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -27841,23 +27840,23 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "私から皆さんへの歌", "en": "A song from me to everyone" },
+        "name": { "jp": "私から皆さんへの歌", "en": "A Song from Me to All of You" },
         "text": {
           "jp": "自分のアーカイブの〈古代武器〉1枚を自分の〈アーニャ・メルフィッサ〉に付けられる。",
-          "en": "You may attach 1 <Ancient Weapon> from your archive to your <Anya Melfissa>."
+          "en": "You may attach 1 〈Ancient Weapon〉 from your archive to your 〈Anya Melfissa〉."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "応援、よろしくね！", "en": "Thank you for your support!" },
+        "name": { "jp": "応援、よろしくね！", "en": "Please Cheer for Me!" },
         "power": "30"
       }
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless" ],
@@ -27901,7 +27900,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ガラス越しの庭園", "en": "Garden behind the glass" },
+        "name": { "jp": "ガラス越しの庭園", "en": "The Garden Beyond the Glass" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、このホロメンを含め重なっているホロメンの中から1枚を手札に戻す。",
           "en": "During your opponent's turn, when this holomem is downed, return 1 card from among the stacked holomem including this holomem to hand."
@@ -27913,7 +27912,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -27960,7 +27959,7 @@
         "name": { "jp": "宝物みつけた", "en": "I Found a Treasure" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]自分の〈古代武器〉が付いているセンターホロメンの〈アーニャ・メルフィッサ〉のアーツに必要な黄-1。",
-          "en": "[Center Position・Collab Position Only]Your center <Anya Melfissa> with <Ancient Weapon> attached requires -1 yellow for its Arts."
+          "en": "[Center Position・Collab Position Only]Your center holomem 〈Anya Melfissa〉 with 〈Ancient Weapon〉 attached requires -1 Yellow for its Arts."
         }
       }
     ],
@@ -27974,7 +27973,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#ID Gen 2" },
+      { "jp": "#ID2期生", "en": "#IDGen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -28034,14 +28033,14 @@
         "name": { "jp": "わっしょ～い！", "en": "Wasshoi!" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他のホロメンに付け替えられる。",
-          "en": "During your opponent's turn, when this holomem is downed, you may reattach 1 cheer from this holomem to your other holomem."
+          "en": "During your opponent's turn, when this holomem is downed, you may reattach 1 of this holomem's cheers to your other holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ホロライブの清楚担当", "en": "Hololive's seiso representative" },
+        "name": { "jp": "ホロライブの清楚担当", "en": "hololive's Symbol of Purity" },
         "power": "10"
       }
     ],
@@ -28106,10 +28105,10 @@
     "hp": 180,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "夏色応援団", "en": "Natsuiro Cheer Squad" }, "power": "30" },
+      { "cheers": [ "colorless" ], "name": { "jp": "夏色応援団", "en": "Natsuiro Supporters" }, "power": "30" },
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "戦え！ 血を血で洗え！", "en": "Fight! Wash away blood with blood!" },
+        "name": { "jp": "戦え！ 血を血で洗え！", "en": "Fight! Blood for Blood!" },
         "power": "50"
       }
     ],
@@ -28159,17 +28158,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "大好きな君に届くように", "en": "So that I can reach you who I love" },
+        "name": { "jp": "大好きな君に届くように", "en": "So That It Reaches the One I Love" },
         "text": {
           "jp": "自分のエールデッキから、黄エール1枚を公開し、このホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "Reveal 1 yellow cheer from your cheer deck, and send it to this holomem. Then, shuffle the cheer deck."
+          "en": "Reveal 1 Yellow cheer from your cheer deck, and send it to this holomem. Then, shuffle the cheer deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "全力で歌うよッ！！", "en": "I'll sing with all my might!!" },
+        "name": { "jp": "全力で歌うよッ！！", "en": "Sing with All My Heart!!" },
         "power": "20"
       }
     ],
@@ -28297,7 +28296,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "こんねね～", "en": "Kon-Nene" },
+        "name": { "jp": "こんねね～", "en": "Kon-Nene~" },
         "power": "10",
         "text": {
           "jp": "自分のステージのホロメンが5人以下の時、自分のデッキから、#5期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。",
@@ -28366,7 +28365,7 @@
     "hp": 190,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "はぁ～ん", "en": "haaan~" }, "power": "30" },
+      { "cheers": [ "colorless" ], "name": { "jp": "はぁ～ん", "en": "HAAAN" }, "power": "30" },
       { "cheers": [ "yellow", "colorless" ], "name": { "jp": "またねね", "en": "Mata-Nene" }, "power": "50" }
     ],
     "tags": [
@@ -28416,17 +28415,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "最高の気分!!!!!!!!!!!!!!", "en": "Feeling great!!!!!!!!!!!!!!" },
+        "name": { "jp": "最高の気分!!!!!!!!!!!!!!", "en": "The Best Feeling Ever!!!!!!!!!!!!!!" },
         "text": {
           "jp": "自分のエールデッキから、自分のステージの#5期生を持つホロメン1人と同色のエール1枚を公開し、自分の#5期生を持つホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "Reveal 1 cheer from your cheer deck with the same color as 1 of your holomem with #Gen 5, and send it to your holomem with #Gen 5. Then, shuffle the cheer deck."
+          "en": "Reveal 1 cheer from your cheer deck with the same color as 1 holomem on your stage with #Gen 5, and send it to your holomem with #Gen 5. Then, shuffle the cheer deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "いっぱいがんばるぞい!!!!!", "en": "I'll do my best!!!!!" },
+        "name": { "jp": "いっぱいがんばるぞい!!!!!", "en": "I’m Gonna Do My Best!!!!!" },
         "power": "20"
       }
     ],
@@ -28555,12 +28554,12 @@
         "name": { "jp": "『緋色の女王』", "en": "The Scarlet Queen" },
         "text": {
           "jp": "[コラボポジション限定]自分のDebutホロメンがセンターポジションで受けるダメージ-20。",
-          "en": "[Collab position only]Your center Debut holomem takes -20 damage."
+          "en": "[Collab Position Only]Your Debut holomem in the center position takes -20 damage."
         }
       }
     ],
     "arts": [ { "cheers": [ "colorless", "colorless" ], "name": { "jp": "ERB", "en": "ERB" }, "power": "20" } ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom" },
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Justice", "en": "#Justice" },
@@ -28607,7 +28606,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "え？ でも面白かったじゃん！", "en": "Eh? But it was fun!" },
+        "name": { "jp": "え？ でも面白かったじゃん！", "en": "Huh? But It was Funny!" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、自分のエールデッキの上から1枚を自分のホロメンに送る。",
           "en": "During your opponent's turn, when this holomem is downed, send the top card of your cheer deck to your holomem."
@@ -28615,9 +28614,13 @@
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "怒らないでよ！", "en": "Stop fighting!" }, "power": "10" }
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "怒らないでよ！", "en": "Don't Get Mad at Me!" },
+        "power": "10"
+      }
     ],
-    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot bloom" },
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -28651,12 +28654,12 @@
   },
   "hBP04-089": {
     "card_number": "hBP04-089",
-    "name": { "jp": "ツートンカラーパソコン", "en": "Two-tone PC" },
+    "name": { "jp": "ツートンカラーパソコン", "en": "Two-Tone PC" },
     "card_type": { "support": "item" },
     "limited": true,
     "text": {
       "jp": "このカードは、自分のステージに色が1色で異なる色のホロメンが2人以上いなければ使えない。\n\n自分のステージの色が1色で異なる色のホロメン2人を選ぶ。自分のデッキから、Buzz以外のそれぞれ選んだホロメンと同色の1stホロメン1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "This card can only be used if you have at least 2 unicolor holomem with different colors on your stage.\n\nChoose 2 of your unicolor holomem with different colors. Reveal 1 1st holomem other than Buzz from your deck with each of those colors, and add them to hand. Then, shuffle the deck."
+      "en": "This card can only be used if you have 2 or more holomem on stage, each with only 1 color and is different color from each other.\n\nChoose 2 of your holomem on stage each with only 1 color and is different color from each other. Reveal 1 1st holomem with the same color as each of the chosen holomem other than Buzz from your deck, and add them to hand. Then, shuffle the deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -28695,7 +28698,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、ホロメン1枚と[ツールかマスコットかファン]1枚を公開し、公開したカードを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal 1 holomem and 1 [tool, mascot, or fan] from among them, and add the revealed cards to hand. Then, return the remaining cards to the bottom of the deck in any order."
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal 1 holomem and 1 [tool, mascot or fan] from among them, and add the revealed cards to hand. Then, return the remaining cards to the bottom of the deck in any order."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -28733,7 +28736,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "このターンの間、自分の〈一条莉々華〉1人のアーツに必要な無色エール-1。自分の〈限界飯〉はターンに1回しか使えない。",
-      "en": "During this turn, the Arts of 1 of your <Ichijou Ririka> require -1 colorless. You may only use the card <Struggle Meal> once per turn."
+      "en": "During this turn, 1 of your 〈Ichijou Ririka〉 requires -1 colorless for its Arts. You may only use 〈Struggle Meal〉 once a turn."
     },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
     "max_amount": { "jp": 4 },
@@ -28807,7 +28810,7 @@
   },
   "hBP04-093": {
     "card_number": "hBP04-093",
-    "name": { "jp": "ホロライブ2期生", "en": "hololive Generation 2" },
+    "name": { "jp": "ホロライブ2期生", "en": "hololive Gen 2" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
@@ -28850,7 +28853,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分の〈儒烏風亭らでん〉1人を選ぶ。自分のステージのエール1～2枚を、選んだホロメンに付け替えられる。その後、選んだホロメンにエールが3枚以上付いている時、このターンの間、選んだホロメンのアーツ+10。",
-      "en": "Choose 1 of your <Juufuutei Raden>. You may reattach 1~2 cheers from your stage to the chosen holomem. Then, if the chosen holomem has 3 or more cheers attached, during this turn, the chosen holomem gets Arts+10."
+      "en": "Choose 1 of your 〈Juufuutei Raden〉. You may reattach 1~2 cheers from your stage to the chosen holomem. If 3 or more cheers are attached to the chosen holomem, during this turn, the chosen holomem gets Arts+10."
     },
     "tags": [ { "jp": "#きのこ", "en": "#Mushroom" } ],
     "max_amount": { "jp": 4 },
@@ -28979,7 +28982,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆1st以上の〈博衣こより〉に付いていたら能力追加\n自分のメインステップで、このツールが付いているホロメンのエール1枚をアーカイブできる：自分のお休みしている#秘密結社holoXを持つホロメン1人をアクティブにする。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater <Hakui Koyori>\nDuring your main phase, you may archive 1 cheer from the holomem this tool is attached to:Set 1 of your resting holomem with #holoX to active.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to 1st or greater 〈Hakui Koyori〉\nDuring your main phase, you may archive 1 cheer from the holomem this tool is attached to:Set 1 of your resting holomem with #holoX to active.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#こよラボ", "en": "#KOYO LABO" } ],
     "max_amount": { "jp": 4 },
@@ -29014,11 +29017,11 @@
   },
   "hBP04-098": {
     "card_number": "hBP04-098",
-    "name": { "jp": "鍛冶ハンマー", "en": "Blacksmith's Hammer" },
+    "name": { "jp": "鍛冶ハンマー", "en": "Smithing Hammer" },
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆#ID3期生を持つ1st以上のホロメンに付いていたら能力追加\nこのツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem with #ID Gen 3\nThe holomem this tool is attached to gets Arts+10.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to 1st or greater holomem with #IDGen 3\nThe holomem this tool is attached to gets Arts+10.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#カエラ'sアームズ", "en": "#Kaela's Arms" } ],
     "max_amount": { "jp": 4 },
@@ -29057,7 +29060,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "相手のターンで、このツールが付いているホロメンがダウンした時、自分の手札1枚をアーカイブできる：このツールを手札に戻す。\n\n◆1st以上の〈アーニャ・メルフィッサ〉に付いていたら能力追加\n自分のステージの〈古代武器〉1枚につき、このツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "During your opponent's turn, when the holomem this tool is attached to is downed, you may archive 1 card from your hand:Return this tool to hand.\n\n◆Additional ability if attached to a 1st or greater <Anya Melfissa>\nThe holomem this tool is attached to gets Arts+10 for each <Ancient Weapon> on your stage.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "During your opponent's turn, when the holomem this tool is attached to is downed, you may archive 1 card from your hand:Return this tool to hand.\n\n◆Additional ability if attached to 1st or greater 〈Anya Melfissa〉\nThe holomem this tool is attached to gets Arts+10 for each 〈Ancient Weapon〉 on your stage.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -29095,7 +29098,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈博衣こより〉に付いていたら能力追加\nこのマスコットが付いているホロメンがコラボした時、このターンの間、このホロメンのアーツ+10。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to a 1st or greater <Hakui Koyori>\nWhen the holomem this mascot is attached to collabs, during this turn, this holomem gets Arts+10.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to 〈Hakui Koyori〉\nWhen the holomem this mascot is attached to collabs, during this turn, this holomem gets Arts+10.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#こよラボ", "en": "#KOYO LABO" } ],
     "max_amount": { "jp": 4 },
@@ -29134,7 +29137,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈雪花ラミィ〉に付いていたら能力追加\nこのマスコットが付いているホロメンのHP+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <Yukihana Lamy>\nThe holomem this mascot is attached to gets +20 HP.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to 〈Yukihana Lamy〉\nThe holomem this mascot is attached to gets +20 HP.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -29172,7 +29175,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆#5期生を持つ1st以上のホロメンに付いていたら能力追加\n[バックポジション限定]このマスコットが付いているホロメンは相手からダメージを受けない。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem with #Gen 5\n[Back Position Only]The holomem this mascot is attached to does not take damage from your opponent.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to 1st or greater holomem with #Gen 5\n[Back Position Only]The holomem this mascot is attached to does not take damage from your opponent.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -29206,11 +29209,11 @@
   },
   "hBP04-103": {
     "card_number": "hBP04-103",
-    "name": { "jp": "カラス", "en": "Crow" },
+    "name": { "jp": "カラス", "en": "Karasu" },
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈ラプラス・ダークネス〉に付いていたら能力追加\n[コラボポジション限定][ターンに1回]自分のメインステップで、サイコロを1回振れる：奇数の時、このマスコットが付いているホロメンをバックポジションに移動する。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <La+ Darknesss>\n[Collab Position Only][1/Turn]During your main phase, you may roll a die:If it is odd, move the holomem this mascot is attached to to the back position.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to 〈La+ Darknesss〉\n[Collab Position Only][1/Turn]During your main phase, you may roll a die once:If it is odd, move the holomem this mascot is attached to to the back position.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -29244,11 +29247,11 @@
   },
   "hBP04-104": {
     "card_number": "hBP04-104",
-    "name": { "jp": "スバルドダック", "en": "Subarudo Duck" },
+    "name": { "jp": "スバルドダック", "en": "Subaru Duck" },
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈大空スバル〉に付いていたら能力追加\nお互いのステージのエールが合計10枚以上ある間、このマスコットが付いているホロメンのアーツ+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Oozora Subaru>\nIf there is a total of 10 or more cheers on both players' stage, the holomem this mascot is attached to gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to 〈Oozora Subaru〉\nWhile the total number of cheers on both players' stage is 10 or more, the holomem this mascot is attached to gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -29282,11 +29285,11 @@
   },
   "hBP04-105": {
     "card_number": "hBP04-105",
-    "name": { "jp": "こよりの助手くん", "en": "Koyori's Assistant-kun" },
+    "name": { "jp": "こよりの助手くん", "en": "Koyori's Assistants" },
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンをホロメンに手札かアーカイブから付けた時、自分のステージのエール1枚を、このファンが付いているホロメンに付け替えられる。\n\nこのファンは、自分の〈博衣こより〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "When this fan is attached from hand or archive to a holomem, you may reattach 1 cheer from your other holomem to the holomem this fan is attached to.\n\nYou may only attach this fan to your <Hakui Koyori>, and you may attach any number of this fan per holomem."
+      "en": "When this fan is attached to holomem from hand or archive, you may reattach 1 cheer from your stage to the holomem this fan is attached to.\n\nYou may only attach this fan to your 〈Hakui Koyori〉, and you may attach any number of this fan per holomem."
     },
     "tags": [ { "jp": "#こよラボ", "en": "#KOYO LABO" } ],
     "max_amount": { "jp": 4 },
@@ -29325,7 +29328,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "このファンが付いているホロメンが、相手のセンターホロメンに与える特殊ダメージ+10。\n\nこのファンは、自分の〈雪花ラミィ〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "The holomem this fan is attached to deals +10 special damage to your opponent's center holomem.\n\nYou may only attach this fan to your <Yukihana Lamy>, and you may attach any number of this fan per holomem."
+      "en": "The holomem this fan is attached to deals +10 special damage to your opponent's center holomem.\n\nYou may only attach this fan to your 〈Yukihana Lamy〉, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -29860,7 +29863,7 @@
         "name": { "jp": "夏深し", "en": "Deep in summer" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、1stホロメンの〈白銀ノエル〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 1st <Shirogane Noel> from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 1st <Shirogane Noel> from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -30614,7 +30617,7 @@
         "name": { "jp": "過去・今・未来の私と君へ", "en": "The past, present, and future us" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を自分の#ID1期生を持つホロメンに送る。",
-          "en": "If you are going second and this is your first turn, send the top card of your cheer deck to your holomem with #ID Gen 1."
+          "en": "If you went second and it is your first turn, send the top card of your cheer deck to your holomem with #ID Gen 1."
         }
       }
     ],
@@ -31316,7 +31319,7 @@
         "power": "30",
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、〈座員〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 <Troupe Member> from your deck, and add it to hand. Then, shuffle your deck."
+          "en": "If you went second and it is your first turn, reveal 1 <Troupe Member> from your deck, and add it to hand. Then, shuffle your deck."
         }
       }
     ],
@@ -32057,7 +32060,7 @@
         "name": { "jp": "一緒に入ろ～！", "en": "Come in with me!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、#ゲーマーズを持つ2ndホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 2nd holomem with #GAMERS from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 2nd holomem with #GAMERS from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -33468,7 +33471,7 @@
         "name": { "jp": "Canvas", "en": "Canvas" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、異なるカード名のDebutホロメン2枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 2 Debut holomem with different card names from your deck, and add them to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 2 Debut holomem with different card names from your deck, and add them to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -34191,11 +34194,12 @@
       },
       {
         "card_number": "hBP05-074",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1768 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP05-074_C.webp", "en": null },
-        "img_hash": "v2|H32=drOjKjGviMyJzNzcq54SM7MzNqMrq1bNjYpcGN84XDLOZlZVI1mhqvCgrcsPS62KuDytOvAw6WgPy4+LHz7wOPB4qk8|CYM=032217",
+        "illustrator": "risumi",
+        "img_path": { "jp": "hSD12/hBP05-074_02_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:25 GMT" },
+        "img_hash": "v2|H32=NjOjqkDl4MyNztzUq5gwM/MzVjMrq0adiYpcGM84XDPKJlZVY1ihqvCyjascWy2KmLy9rjBk6epPw42KnjzoOHB4qas|CYM=032217",
         "ogbajoj_sheet_cells": [ [ 543634835, "C24" ], [ 543634835, "C51" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -35353,7 +35357,7 @@
         "name": { "jp": "夢みたいな最高のチーム", "en": "The Dream Team" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、[DebutホロメンかSpotホロメン]1枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 [Debut holomem or Spot holomem] from your deck, and place it on stage. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 [Debut holomem or Spot holomem] from your deck, and place it on stage. Then, shuffle the deck."
         }
       }
     ],
@@ -35721,7 +35725,7 @@
         "name": { "jp": "一緒に共闘しよ", "en": "Let's fight together" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 [holomem with a Collab Effect and #FLOW GLOW] from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 [holomem with a Collab Effect and #FLOW GLOW] from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -36142,7 +36146,7 @@
         "name": { "jp": "ホップすてっぷジャンプ！", "en": "Hop Step Jump!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、Buzzホロメンの〈風真いろは〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 Buzz <Kazama Iroha> from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 Buzz <Kazama Iroha> from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -36839,7 +36843,7 @@
         "name": { "jp": "かわ余", "en": "Kawayo" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、[ツールかマスコットかファン]1枚を公開し、自分の〈百鬼あやめ〉に付ける。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 [tool, mascot, or fan] from your deck and attach it to your <Nakiri Ayame>. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 [tool, mascot, or fan] from your deck and attach it to your <Nakiri Ayame>. Then, shuffle the deck."
         }
       }
     ],
@@ -37221,7 +37225,7 @@
         "name": { "jp": "GYM RAT", "en": "GYM RAT" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキを3枚引いた後、手札2枚をアーカイブする。",
-          "en": "If you are going second and this is your first turn, draw 3 cards, then archive 2 cards from your hand."
+          "en": "If you went second and it is your first turn, draw 3 cards, then archive 2 cards from your hand."
         }
       }
     ],
@@ -37700,7 +37704,7 @@
         "name": { "jp": "青い琥珀", "en": "Blue Amber" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のエールデッキから、青エール1枚を公開し、自分の〈ムーナ・ホシノヴァ〉に送る。そしてエールデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 1 blue cheer from your cheer deck and send it to your <Moona Hoshinova>. Then, shuffle the cheer deck."
+          "en": "If you went second and it is your first turn, reveal 1 blue cheer from your cheer deck and send it to your <Moona Hoshinova>. Then, shuffle the cheer deck."
         }
       }
     ],
@@ -38510,7 +38514,7 @@
         "name": { "jp": "ロボ子と一緒にあそぼ", "en": "Let's play with Roboco" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、〈ろぼさー〉2枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you are going second and this is your first turn, reveal 2 <Roboser> from your deck, and add them to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 2 <Roboser> from your deck, and add them to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -39660,7 +39664,7 @@
         "name": { "jp": "手を繋ごう", "en": "Let's Hold Hands" },
         "text": {
           "jp": "自分のデッキから、[〈スバルドダック〉か〈スバ友〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "Reveal 1 [<Subarudo Duck> or <Subatomo>] from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "Reveal 1 [<Subaru Duck> or <Subatomo>] from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -41028,7 +41032,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Once More" },
         "text": {
-          "en": "If you are going second and this is your first turn, choose 1 of your <Tsunomaki Watame>. During this turn, after the chosen holomem used Arts, use the same Arts once more."
+          "en": "If you went second and it is your first turn, choose 1 of your <Tsunomaki Watame>. During this turn, after the chosen holomem used Arts, use the same Arts once more."
         }
       }
     ],
@@ -41217,7 +41221,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Adopt Me?" },
         "text": {
-          "en": "If you are going second and this is your first turn, reveal 1 Buzz holomem with #ID Gen 3 from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 Buzz holomem with #ID Gen 3 from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -41532,7 +41536,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Fortune telling power injection!" },
         "text": {
-          "en": "If you are going second and this is your first turn, look at the top 3 cards of your deck. Add 1 card from among them to hand. Then, return the remaining cards to the top of the deck in any order."
+          "en": "If you went second and it is your first turn, look at the top 3 cards of your deck. Add 1 card from among them to hand. Then, return the remaining cards to the top of the deck in any order."
         }
       }
     ],
@@ -41809,7 +41813,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Let's go for a drive" },
         "text": {
-          "en": "If you are going second and this is your first turn, reveal 1 each of [1st holomem <Rindo Chihaya> and <Fugutaro>] from your deck, and add them to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 each of [1st holomem <Rindo Chihaya> and <Fugutaro>] from your deck, and add them to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -41825,6 +41829,42 @@
         "img_path": { "jp": "unreleased/hBP07-032_C.webp", "en": null },
         "img_hash": "v2|H32=yKpJG4uqFL+mUTbUZBelhsy2dKbKRVJkUk1LTVpJWMmrmrQs8FWJJi9S6NLKqlq1dZVKy2prauryUlIpNavywVIqUik|CYM=0D3F3C",
         "ogbajoj_sheet_cells": [ [ 337784829, "C34" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-033": {
+    "card_number": "hBP07-033",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Teal Mermaid" },
+        "text": {
+          "en": "Choose 1 of your holomem with #FLOW GLOW that has bloomed this turn. During this turn, the chosen holomem gets Arts+30."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "green", "colorless" ], "name": { "jp": null, "en": "~Something blue~ Chihaya" }, "power": "50" }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-033",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-033_U.webp", "en": null },
+        "img_hash": "v2|H32=mqJyVq2q2j2lyUksplFpqtIWae9aU7TNWlG0kloltJIaLaRKS1VcqqtUUqtWumrVUqvSWq+vKlvwkkq1lVKWtq22qlU|CYM=341412",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C35" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -41928,7 +41968,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "AKAI HAATO VS HAACHAMA" },
         "text": {
-          "en": "If you are going second and this is your first turn, reveal 2 Debut holomem <Akai Haato> from your deck, and place them on stage. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 2 Debut holomem <Akai Haato> from your deck, and place them on stage. Then, shuffle the deck."
         }
       }
     ],
@@ -42194,7 +42234,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Today's the day!" },
         "text": {
-          "en": "If you are going second and this is your first turn, you may bloom your center holomem <Ouro Kronii> using a 1st holomem in your hand. This ability allows you to bloom on your first turn."
+          "en": "If you went second and it is your first turn, you may bloom your center holomem <Ouro Kronii> using a 1st holomem in your hand. This ability allows you to bloom on your first turn."
         }
       }
     ],
@@ -42726,7 +42766,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "apapa" },
         "text": {
-          "en": "If you are going second and this is your first turn, reveal 1 2nd holomem with #Gen 5 from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 2nd holomem with #Gen 5 from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -42855,6 +42895,49 @@
       }
     ]
   },
+  "hBP07-081": {
+    "card_number": "hBP07-081",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Momosuzu Nene, insect expert!" },
+        "text": {
+          "en": "If you have 4 or more holo Power and your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (Moving is not regarded as collab)."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow" ],
+        "name": { "jp": null, "en": "Bullock your heart!" },
+        "power": "30",
+        "text": {
+          "en": "If this holomem has <Giraffe Stag Beetle> attached, this Arts damage is dealt to your opponent's center holomem and collab holomem, instead of only the holomem targeted by this Arts."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Singing" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-081",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-081_R.webp", "en": null },
+        "img_hash": "v2|H32=yq2biq2qja2tOi2sT7nalmq1UlTSV3BNkkt21bBsVtK5pFZtVaVsqapaqtRlS5G2ulRpmaqWq0pSm9av9FOSsmor0lU|CYM=110F32",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C83" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-084": {
     "card_number": "hBP07-084",
     "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
@@ -42951,7 +43034,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Niko-tan dispatched!" },
         "text": {
-          "en": "If you are going second and this is your first turn, you may archive the top 2 cards of your cheer deck:Choose 1 holomem with #FLOW GLOW on your stage. During this turn, the chosen holomem gets Arts+20."
+          "en": "If you went second and it is your first turn, you may archive the top 2 cards of your cheer deck:Choose 1 holomem with #FLOW GLOW on your stage. During this turn, the chosen holomem gets Arts+20."
         }
       }
     ],
@@ -44169,7 +44252,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。\n\n自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを５枚引く。",
-      "en": "This card can only be used if you have 1 or more cards in hand excluding this card.\n\nReturn all of the cards in your hand to the deck and shuffle it. Then, draw 5 cards from your deck."
+      "en": "This card can only be used if you have 1 or more cards in hand excluding this card.\n\nReturn all of the cards in your hand to the deck and shuffle it. Then, draw 5 cards."
     },
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -48257,17 +48340,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "ホロサマー", "en": "holosummer" },
+        "name": { "jp": "ホロサマー", "en": "holoSummer" },
         "text": {
           "jp": "自分のデッキの上から5枚を見る。その中から、#サマーを持つDebutホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-          "en": "Look at the top 5 cards of your deck. Reveal 1 Debut holomem with #Summer from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order."
+          "en": "Look at the top 5 cards of your deck. Reveal 1 Debut holomem with #Summer from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "浴衣似合うでしょ", "en": "I look good in a yukata, don't I?" },
+        "name": { "jp": "浴衣似合うでしょ", "en": "I Look Good in a Yukata, Right?" },
         "power": "20"
       }
     ],
@@ -48318,7 +48401,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "相談のるよ", "en": "I can talk to you" },
+        "name": { "jp": "相談のるよ", "en": "I'll Hear You Out" },
         "text": {
           "jp": "自分のデッキから、#4期生を持つDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "Reveal 1 Debut holomem with #Gen 4 from your deck, and add it to hand. Then, shuffle the deck."
@@ -48333,7 +48416,7 @@
         "advantage": [ "green", 50 ],
         "text": {
           "jp": "自分のステージの#サマーを持つホロメン1人につき、このアーツ+10。",
-          "en": "This Arts gets +10 for each of your holomem with #Summer."
+          "en": "This Arts gets +10 for each holomem with #Summer on your stage."
         }
       }
     ],
@@ -48369,19 +48452,19 @@
         "name": { "jp": "エンジェルウィンド", "en": "Angel Wind" },
         "text": {
           "jp": "[センターポジション限定]自分のコラボポジションの#4期生を持つDebutホロメンのアーツ+40。",
-          "en": "[Center Position Only]Your collab Debut holomem with #Gen 4 gets Arts+40."
+          "en": "[Center Position Only]Your Debut holomem with #Gen 4 in the collab position gets Arts+40."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "white", "white", "colorless" ],
-        "name": { "jp": "きみの背中に追いつけるように", "en": "So that I can catch up with you" },
+        "name": { "jp": "きみの背中に追いつけるように", "en": "So that I Can Catch Up to You" },
         "power": "120",
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "[ターンに1回]このアーツで相手のセンターホロメンをダウンさせた時、相手の2ndホロメン1人に特殊ダメージ40を与える。",
-          "en": "[1/Turn]If your opponent's center holomem is downed by this Arts, deal 40 special damage to 1 of your opponent's 2nd holomem."
+          "en": "[1/Turn]When this Arts downed your opponent's center holomem, deal 40 special damage to 1 of your opponent's 2nd holomem."
         }
       }
     ],
@@ -48427,15 +48510,15 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "なんでも入る巾着", "en": "Drawstring bag of holding" },
+        "name": { "jp": "なんでも入る巾着", "en": "All-Encompassing Pouch" },
         "text": {
           "jp": "[コラボポジション限定]相手のターンで、自分のホロメンがダウンした時、自分のライフが相手以下なら、自分のアーカイブのカード名に「パソコン」を含むアイテム1枚を手札に戻せる。",
-          "en": "[Collab Position Only]During your opponent's turn, when your holomem is downed, if your life is less than or equal to your opponent's, your may return 1 item with \"PC\" in its card name from your archive to hand."
+          "en": "[Collab Position Only]During the opponent's turn, when your holomem is downed, and your life is less than or equal to your opponent's, you may return 1 item with \"PC\" in its card name from your archive to hand."
         }
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "お祭りなのら", "en": "It's a festival" }, "power": "30" }
+      { "cheers": [ "colorless" ], "name": { "jp": "お祭りなのら", "en": "It's a Festival" }, "power": "30" }
     ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -48484,17 +48567,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "花火見ていく？", "en": "Are you going to watch the fireworks?" },
+        "name": { "jp": "花火見ていく？", "en": "Wanna Watch the Fireworks?" },
         "text": {
           "jp": "相手のセンターホロメンに特殊ダメージ10を与える。自分が後攻で最初のターンなら、かわりに、相手のセンターホロメンに特殊ダメージ20を与える。",
-          "en": "Deal 10 special damage to your opponent's center holomem. If you are going second and this is your first turn, deal 20 special damage to your opponent's center holomem instead."
+          "en": "Deal 10 special damage to your opponent's center holomem. If you went second and it is your first turn, deal 20 special damage to your opponent's center holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "トワに見惚れちゃった？", "en": "Are you captivated by Towa?" },
+        "name": { "jp": "トワに見惚れちゃった？", "en": "Have You Fallen for Towa?" },
         "power": "20"
       }
     ],
@@ -48546,7 +48629,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "みんなと夏祭り", "en": "Summer festival with everyone" },
+        "name": { "jp": "みんなと夏祭り", "en": "Summer Festival with Everyone" },
         "text": {
           "jp": "自分のアーカイブのエール1枚を自分の#4期生を持つ2ndホロメンに送れる。",
           "en": "You may send 1 cheer from your archive to your 2nd holomem with #Gen 4."
@@ -48556,7 +48639,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "わたあめおいしいねぇ", "en": "Cotton candy is delicious" },
+        "name": { "jp": "わたあめおいしいねぇ", "en": "Cotton Candy's Delicious" },
         "power": "10"
       }
     ],
@@ -48891,7 +48974,7 @@
         "name": { "jp": "あんたたち働くぺこー！", "en": "You guys work hard!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を、自分の#3期生を持つホロメンに送る。",
-          "en": "If you are going second and this is your first turn, send the top card of your cheer deck to your holomem with #Gen 3."
+          "en": "If you went second and it is your first turn, send the top card of your cheer deck to your holomem with #Gen 3."
         }
       }
     ],
@@ -50029,16 +50112,18 @@
     "oshi_skills": [
       {
         "holo_power": 1,
-        "name": { "jp": null, "en": "The Archiver" },
+        "name": { "jp": "収集家", "en": "The Archiver" },
         "text": {
+          "jp": "[ターンに1回]自分のデッキの上から3枚を見る。その中から、サポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
           "en": "[1/Turn]Look at the top 3 cards of your deck. Reveal 1 support card from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order."
         }
       },
       {
         "special": true,
         "holo_power": 3,
-        "name": { "jp": null, "en": "Rebellion" },
+        "name": { "jp": "リベリオン", "en": "Rebellion" },
         "text": {
+          "jp": "[ゲームに1回]相手のDebut以外のバックホロメン1人に、自分のアーカイブのサポートカード1枚につき、特殊ダメージ10を与える。",
           "en": "[1/Game]Choose 1 of your opponent's back holomem other than Debut. Deal 10 special damage for each support card in your archive to the chosen holomem."
         }
       }
@@ -50047,11 +50132,12 @@
     "illustrations": [
       {
         "card_number": "hSD12-001",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1750 ] },
         "rarity": "OSR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-001_OSR.webp", "en": null },
-        "img_hash": "v2|H32=TGkvq49pXlGj1LZU5DyzSiQsa2IwSzu1slpZtbaqieUmorSqrlIrTaqqqlXSd9miqdUqrapVSq1LVWpoCkaqlVJNaVU|CYM=203627",
+        "illustrator": "村カルキ",
+        "img_path": { "jp": "hSD12/hSD12-001_OSR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:11 GMT" },
+        "img_hash": "v2|H32=TGlvp8dJUFXjVbJURJW3SiQMS+YcXVuVllpZtbZCyaF2trSqrlKrVSquqkUSU9mSqdUKrapVcjUr1WpYWlYoVVJlLVU|CYM=213C2A",
         "ogbajoj_sheet_cells": [ [ 543634835, "C3" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50068,16 +50154,18 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Biboo Tax" },
+        "name": { "jp": "Biboo Tax", "en": "Biboo Tax" },
         "text": {
+          "jp": "[ターンに1回]お互いのエールデッキの上から1枚をアーカイブする。アーカイブしたエール1色につき、自分のデッキを1枚引く。",
           "en": "[1/Turn]Archive the top card of both players' cheer decks. For each color of cheer archived, draw 1 card."
         }
       },
       {
         "special": true,
         "holo_power": 2,
-        "name": { "jp": null, "en": "Ancient, Mystic Brilliance" },
+        "name": { "jp": "古代魔石の輝き", "en": "Ancient, Mystic Brilliance" },
         "text": {
+          "jp": "[ゲームに1回]相手のセンターホロメンに、自分のアーカイブの[#Adventを持つホロメンとエール]1枚につき、特殊ダメージ10を与える。",
           "en": "[1/Game]Deal 10 special damage for each [holomem with #Advent and cheer] in your archive to your opponent's center holomem."
         }
       }
@@ -50086,11 +50174,12 @@
     "illustrations": [
       {
         "card_number": "hSD12-002",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1751 ] },
         "rarity": "OSR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-002_OSR.webp", "en": null },
-        "img_hash": "v2|H32=VGV+Cntt1MfrqlIepbaSFKi0lrebVFieh2lcjkdpqUVUo5SWrhZLKiSprSpVq0mryrYpSmppKW1iVUtVW1Vq1XJJptU|CYM=294606",
+        "illustrator": "茶椿",
+        "img_path": { "jp": "hSD12/hSD12-002_OSR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:20 GMT" },
+        "img_hash": "v2|H32=VEV+LWtrVMZjqNIczaSyVim0lradVnS2h0lcjlVJqWtUp/SWrzbLqCypq2pXi0vry7JrS6qpK2lq0UtfW5Vp1VJJrtU|CYM=2B4D08",
         "ogbajoj_sheet_cells": [ [ 543634835, "C4" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50144,11 +50233,12 @@
       },
       {
         "card_number": "hSD12-003",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1752 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-003_C.webp", "en": null },
-        "img_hash": "v2|H32=rqrZrq+qpaihQy874bpZ0lLU0adSVSJVtGVaRcpR9NhUGeyCLWWplIKlUrRQmhZP+VqiaqouamlKhUKN0qKWqdOq8mk|CYM=1D2816",
+        "illustrator": "よもさか",
+        "img_path": { "jp": "hSD12/hSD12-003_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:13 GMT" },
+        "img_hash": "v2|H32=zqrZjqWqpaopay97o7pb2lrUyIVSVXJVnmVaRbxRtMlcWcyiLSWplqLlnqlQ2iZb2NKwappqainqB2rZ8LaWpdWq8ik|CYM=20301B",
         "ogbajoj_sheet_cells": [ [ 543634835, "C5" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50166,29 +50256,35 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": null, "en": "An Ominous Warning" },
+        "name": { "jp": "不穏な忠告", "en": "An Ominous Warning" },
         "power": "20",
-        "text": { "en": "This Arts may also target your opponent's back holomem." }
+        "text": {
+          "jp": "このアーツは、相手のバックホロメンも対象にできる。",
+          "en": "This Arts may also target your opponent's back holomem."
+        }
       },
       {
         "cheers": [ "blue" ],
-        "name": { "jp": null, "en": "Just a Humble, Kind Witch" },
+        "name": { "jp": "Just a Humble, Kind Witch", "en": "Just a Humble, Kind Witch" },
         "power": "30",
         "text": {
+          "jp": "自分のアーカイブにサポートカードが4枚以上あるなら、自分のエールデッキの上から1枚を自分の#Adventを持つホロメンに送る。",
           "en": "If you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #Advent."
         }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-004",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1753 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-004_C.webp", "en": null },
-        "img_hash": "v2|H32=rNJRq61SPK2vKjEsp6mkTdK5ilVKldpWUjHsUFKppPBcpVZJW1W5Jql4KtGVrgrVVaqqVqWKqhZq1RWtckWVqkJVsOo|CYM=21200D",
+        "illustrator": "VIGORE",
+        "img_path": { "jp": "hSD12/hSD12-004_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:14 GMT" },
+        "img_hash": "v2|H32=rtJRqq1SW6mvKqEsp6kmxVKtSlVClZhWUjWkUlIppGRcpVZpE1WxKLl6yvTEpk7URaoqVqSqql5qVZWqYtWVqopVtOo|CYM=22240D",
         "ogbajoj_sheet_cells": [ [ 543634835, "C6" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50206,27 +50302,35 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Journey to the Other World & Happiness" },
-        "text": { "en": "Send 1 cheer from your archive to your holomem with #Advent." }
+        "name": { "jp": "『異世界への旅立ちと幸せ』", "en": "Journey to the Other World & Happiness" },
+        "text": {
+          "jp": "自分のアーカイブのエール1枚を自分の#Adventを持つホロメンに送る。",
+          "en": "Send 1 cheer from your archive to your holomem with #Advent."
+        }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": null, "en": "The stars out the window are beautiful, aren't they?" },
+        "name": {
+          "jp": "車窓から見える星がとてもきれいよ",
+          "en": "The stars out the window are beautiful, aren't they?"
+        },
         "power": "40"
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-005",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1754 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-005_U.webp", "en": null },
-        "img_hash": "v2|H32=rKorHcmqNGpSVyR2tKOkoqTVnataVVhdWl1YVMpMYqTMVq7aE1WJajTqUqpKp7SUUF9SubAsKulaanKt8Ypy6Vartmk|CYM=5C4806",
+        "illustrator": "時坂まこと",
+        "img_path": { "jp": "hSD12/hSD12-005_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:15 GMT" },
+        "img_hash": "v2|H32=pKorHcmosOpSUzR2tKPkoqbVmKnSVXhdWl1YVcpdUqXORK5UE1WLSmyqUqqLiZSVTV9Su7EsKulbanKp6apyrVersmk|CYM=604B07",
         "ogbajoj_sheet_cells": [ [ 543634835, "C7" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50245,8 +50349,9 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "A Study in Advent" },
+        "name": { "jp": "A Study in Advent", "en": "A Study in Advent" },
         "text": {
+          "jp": "自分の手札のサポートカード1枚をアーカイブできる：自分のデッキから、#Adventを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "You may archive 1 support card from your hand:Reveal 1 [Debut holomem or 1st holomem] from your deck with #Advent, and add it to hand. Then, shuffle the deck."
         }
       }
@@ -50254,22 +50359,30 @@
     "arts": [
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": null, "en": "It's Elementary" },
+        "name": { "jp": "初歩的なことよ", "en": "It's Elementary" },
         "power": "40",
-        "text": { "en": "Deal 20 special damage to 1 of your opponent's holomem." }
+        "text": {
+          "jp": "相手のホロメン1人に特殊ダメージ20を与える。",
+          "en": "Deal 20 special damage to 1 of your opponent's holomem."
+        }
       }
     ],
-    "extra": { "en": "If this holomem is downed, you get life-2" },
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "extra": {
+      "jp": "このホロメンがダウンした時、自分のライフ-2",
+      "en": "If this holomem is downed, you get life-2"
+    },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-006",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1755 ] },
         "rarity": "R",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-006_R.webp", "en": null },
-        "img_hash": "v2|H32=rKqGJmJqIa1SRGlrlJWtoozTtKVsUlpVUg1KFZrJVrWpqq5OVqhLp2Bp0JKptHS5S0pq2agVUrBpWVattFZ2WdpS8vE|CYM=0B5649",
+        "illustrator": "Rosuuri",
+        "img_path": { "jp": "hSD12/hSD12-006_R.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:20 GMT" },
+        "img_hash": "v2|H32=rKqsMUKrU6xSRGlrlJW3otjStq2sUlZVUhVKFZLpVrWtqaRulKpLFCJXUJLtpEy5y0poqygVWqBrWValtFZ2SdoS8rA|CYM=0D6154",
         "ogbajoj_sheet_cells": [ [ 543634835, "C8" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50287,8 +50400,9 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "What kind of knowledge can I gain?" },
+        "name": { "jp": "どんな知識が得られるかしら", "en": "What kind of knowledge can I gain?" },
         "text": {
+          "jp": "[ターンに1回]このホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのLIMITED以外のサポートカード1枚を手札に戻す。",
           "en": "[1/Turn]When this holomem downs your opponent's holomem, return 1 support card other than LIMITED from your archive to hand."
         }
       }
@@ -50296,24 +50410,27 @@
     "arts": [
       {
         "cheers": [ "blue", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "Can you please not underestimate us?" },
+        "name": { "jp": "私達を見くびらないで貰える？", "en": "Can you please not underestimate us?" },
         "power": "110",
         "advantage": [ "white", 50 ],
         "text": {
+          "jp": "相手のDebut以外のホロメン1人に、自分のステージの#Adventを持つホロメン1人につき、特殊ダメージ10を与える。",
           "en": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut."
         }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Advent", "en": "#Advent" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-007",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1756 ] },
         "rarity": "RR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-007_RR.webp", "en": null },
-        "img_hash": "v2|H32=rKqJVIOqhLZjWXBbNKw1ijSUtaoMVcslWlVaLYpSWK2vnrRqWVkLF5K1wLfg2XCx+XqitapWUrWwtnLV1boyVVKq0ng|CYM=0D514C",
+        "illustrator": "株式会社ジーアングル",
+        "img_path": { "jp": "hSD12/hSD12-007_RR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:21 GMT" },
+        "img_hash": "v2|H32=rKqJ1sqrRpNjeXBa8Kw1yiSVtak+VY8lWlVaJY5WWqWunLZqWU0LVca15Lcgs2ixOVootapWWrWwpnLV1bKy1Vuq8vg|CYM=0E5752",
         "ogbajoj_sheet_cells": [ [ 543634835, "C9" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50331,29 +50448,36 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Flower Girl" },
+        "name": { "jp": "花売りの少女", "en": "Flower Girl" },
         "text": {
-          "en": "If you are going second and this is your first turn, draw 1 card for each cheer on both players' stages."
+          "jp": "自分が後攻で最初のターンなら、お互いのステージのエール1枚につき、自分のデッキを1枚引く。",
+          "en": "If you went second and it is your first turn, draw 1 card for each cheer on both players' stages."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": null, "en": "I've been having a lot of dreams lately" },
+        "name": { "jp": "私……この頃よく夢を見るの。", "en": "I've been having a lot of dreams lately" },
         "power": "30"
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Baby" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-008",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1757 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-008_C.webp", "en": null },
-        "img_hash": "v2|H32=yrItq7WqTVqjK5WqytajKdLyclVmpVpdbhVuhcpabKVKVbZk02UotUvKpbqWlkvblJLSqmrbUipoSWkdLK1p6SytqFQ|CYM=142411",
+        "illustrator": "よもさか",
+        "img_path": { "jp": "hSD12/hSD12-008_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:15 GMT" },
+        "img_hash": "v2|H32=6rKtqrWqW9ojq7Wqk9azNVLwMlUmpVhdLBVOzUpSbIdKVZJl02VstAnKrKq3lkpblJLSqmrbWnpqSWnbLq1pqSylqFA|CYM=152913",
         "ogbajoj_sheet_cells": [ [ 543634835, "C10" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50371,23 +50495,36 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "Lively Family" },
+        "name": { "jp": "賑やかな家族", "en": "Lively Family" },
         "text": {
+          "jp": "自分のデッキの上から3枚を見る。その中から、#Adventを持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
           "en": "Look at the top 3 cards of your deck. Reveal 1 holomem with #Advent from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I'm very grateful" }, "power": "30" } ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Baby" } ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "とっても感謝してるの", "en": "I'm very grateful" },
+        "power": "30"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-009",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1758 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-009_C.webp", "en": null },
-        "img_hash": "v2|H32=GtmlKh+rrWilkglqpJYbq0xocpVuZVJGsiUyTtqkFsut5KwknTRIFKlS2tJS21ab0pLlolKraq1rrU5ZKl1ZqdWWlto|CYM=042723",
+        "illustrator": "marumoru",
+        "img_path": { "jp": "hSD12/hSD12-009_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:16 GMT" },
+        "img_hash": "v2|H32=GsukKoWqtWqjpllrpN4bt0h4WlVqZVJWsiUyTdilBk+s5KwknTRMFqlTu9JS2Uab0pLFqtCrSu1rrQ5bKlVZKtSWlpo|CYM=042C28",
         "ogbajoj_sheet_cells": [ [ 543634835, "C11" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50403,26 +50540,37 @@
     "hp": 170,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "The brightness that fades away" }, "power": "30" },
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "滲んでいく輝き", "en": "The brightness that fades away" },
+        "power": "30"
+      },
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": null, "en": "Your Princess AWAKENS!" },
+        "name": { "jp": "Your Princess AWAKENS!", "en": "Your Princess AWAKENS!" },
         "power": "50",
         "text": {
+          "jp": "このホロメンの紫以外のエール1枚をアーカイブできる：自分のアーカイブのホロメン1枚を手札に戻す。",
           "en": "You may archive 1 non-purple cheer from this holomem:Return 1 holomem from your archive to hand."
         }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Baby" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-010",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1759 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-010_U.webp", "en": null },
-        "img_hash": "v2|H32=hKM7Whqlhao53imNx+o5dVpZxmPaVVqN0oTcVWqttGqsdVpVTNlZqbZNtraTVkk6ySatS8qTpElaq5sk25LStmnapEo|CYM=18260F",
+        "illustrator": "VIGORE",
+        "img_path": { "jp": "hSD12/hSD12-010_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:17 GMT" },
+        "img_hash": "v2|H32=rKo7elKthaqpniuN1uo4ZUpZQmPKVU6dsoWeVWqltOqodXJVTPHZqaZllLKzVklqmSSlSlqmpElbqZZky5JStmnapEo|CYM=182910",
         "ogbajoj_sheet_cells": [ [ 543634835, "C12" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50440,8 +50588,9 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "Wanna play with Biboo?" },
+        "name": { "jp": "ビブーと遊んでいかない？", "en": "Wanna play with Biboo?" },
         "text": {
+          "jp": "自分のデッキを1枚引く。その後、自分のステージのエール1枚をアーカイブできる。アーカイブしたなら、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+40。",
           "en": "Draw 1 card. You may archive 1 cheer from your stage. If you archived cheer, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+40."
         }
       }
@@ -50449,22 +50598,31 @@
     "arts": [
       {
         "cheers": [ "purple", "colorless", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "Accept all the sparkle!" },
+        "name": { "jp": "キラキラぜーんぶ受け止めて！", "en": "Accept all the sparkle!" },
         "power": "110",
         "advantage": [ "yellow", 50 ],
-        "text": { "en": "For each color of cheer in both players' archives, this Arts requires -1 colorless." }
+        "text": {
+          "jp": "お互いのアーカイブのエール1色につき、このアーツに必要な無色-1。",
+          "en": "For each color of cheer in both players' archives, this Arts requires -1 colorless."
+        }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Baby" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ベイビー", "en": "#Baby" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-011",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1760 ] },
         "rarity": "RR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-011_RR.webp", "en": null },
-        "img_hash": "v2|H32=rKpKUbuq1rSyVJSWtAUli6SzrapM08t0WnVrWFotUKkrx7RqulQLpWXTYKFJq0qxSF8KFakqUtG0rHp9XtLybaSr8tk|CYM=094837",
+        "illustrator": "株式会社ジーアングル",
+        "img_path": { "jp": "hSD12/hSD12-011_RR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:18 GMT" },
+        "img_hash": "v2|H32=rKpMYZuq0pSyXLQetAUtimSjzasO0as0WnVrQEotSK0rx7Rq2lSLpSXRZKkJq0qXaS8KF60vUtm1qno8X9LSJcGr8vA|CYM=0A4E3B",
         "ogbajoj_sheet_cells": [ [ 543634835, "C13" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50482,21 +50640,31 @@
     "arts": [
       {
         "cheers": [ "purple", "colorless", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "Fleeting Intertwining Feelings" },
+        "name": { "jp": "綾なす想いは、儚きブルー", "en": "Fleeting Intertwining Feelings" },
         "power": "80",
-        "text": { "en": "If your life is 3 or less, this Arts requires -2 colorless." }
+        "text": {
+          "jp": "自分のライフが3以下なら、このアーツに必要な無色-2。",
+          "en": "If your life is 3 or less, this Arts requires -2 colorless."
+        }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#歌", "en": "#Singing" },
+      { "jp": "#トリ", "en": "#Bird" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-012",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1761 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-012_C.webp", "en": null },
-        "img_hash": "v2|H32=rOorDV0qtFRSdZZ2stY0ku2WPaosl1gtPmVqVU5lznGN5QYKl9Up15fq6bpSrXSJShW2LS1f6mitWtCktFLSaZYtUuk|CYM=282211",
+        "illustrator": "Ria",
+        "img_path": { "jp": "hSD12/hSD12-012_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:22 GMT" },
+        "img_hash": "v2|H32=rOoriVMqtGxSJdJsktYwk+yWNao0l1otbmVqVU5lxnGptUYm19Er15d66a5apWSpahW2JC2f6mmtGtAmtVLSYxYvUuk|CYM=292513",
         "ogbajoj_sheet_cells": [ [ 543634835, "C14" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50514,23 +50682,36 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Happy☆Puppy -MOCOCO-" },
+        "name": { "jp": "ハッピー☆パピー -MOCOCO-", "en": "Happy☆Puppy -MOCOCO-" },
         "text": {
+          "jp": "自分のステージのホロメン全員が#Adventを持つホロメンなら、自分のバックポジションのDebutホロメン1人をデッキの下に戻せる：自分のデッキを2枚引く。",
           "en": "If all holomem on your stage have #Advent, you may return 1 Debut holomem from your back position to the bottom of your deck:Draw 2 cards."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "So true, so true!!" }, "power": "30" } ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "ほんまにほんま～！！", "en": "So true, so true!!" },
+        "power": "30"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ケモミミ", "en": "#Kemomimi" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-013",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1762 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-013_C.webp", "en": null },
-        "img_hash": "v2|H32=5JWxqqWqra6vqilqi4ZLSVJVUkXaU1JV1jEcEtQ61DCcYtQ1VdT9IiopLsqt2SXbVkupqiorKpqm0y2XoBqJKlqrCqo|CYM=031B1B",
+        "illustrator": "イコモチ",
+        "img_path": { "jp": "hSD12/hSD12-013_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:23 GMT" },
+        "img_hash": "v2|H32=pJixqqWqraqtqmmui45LydIVUlVaVVJ1VnEwFtQxdBK8QtA1VdW1AkopLsotkyXZk0uoKmorKpquky2XpFqLLlorCqo|CYM=021E1E",
         "ogbajoj_sheet_cells": [ [ 543634835, "C15" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50548,23 +50729,35 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Happy☆Puppy -FUWAWA-" },
+        "name": { "jp": "ハッピー☆パピー -FUWAWA-", "en": "Happy☆Puppy -FUWAWA-" },
         "text": {
+          "jp": "自分のステージのホロメン全員が#Adventを持つホロメンなら、自分のバックポジションのDebutホロメン1人をデッキの下に戻せる：自分のエールデッキの上から1枚を自分のホロメンに送る。",
           "en": "If all holomem on your stage have #Advent, you may return 1 Debut holomem from your back position to the bottom of your deck:Send the top card of your cheer deck to your holomem."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "It's so true!" }, "power": "30" } ],
-    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "ほんまにほんまだよ！", "en": "It's so true!" },
+        "power": "30"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Advent", "en": "#Advent" },
+      { "jp": "#ケモミミ", "en": "#Kemomimi" }
+    ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-014",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1763 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-014_C.webp", "en": null },
-        "img_hash": "v2|H32=TBWxqm26LaqtqmmqhxRrzdJTWlVSwdJVUsm2VZDJNNGsSdQ1VbXdKqpSstqyKk1dUmuptmqZi2oqCUmrqgWqpqqWSmo|CYM=11150B",
+        "illustrator": "イコモチ",
+        "img_path": { "jp": "hSD12/hSD12-014_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:23 GMT" },
+        "img_hash": "v2|H32=LJmxqu2qraqtqmmqp1IrzVLTWlVSw9JVUsW2VZDBNNOsWdw1VaXdKqhSJtqi6mzZUkmptGqdqmpqC02qqt2LJqqlCmo|CYM=12180E",
         "ogbajoj_sheet_cells": [ [ 543634835, "C16" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50577,17 +50770,19 @@
     "name": { "jp": "脱獄を果たした共犯者たち", "en": "Escaped Criminal Gang" },
     "card_type": { "support": "event" },
     "text": {
+      "jp": "このカードは、自分のステージのホロメン全員が#Adventを持つホロメンでなければ使えない。\n\n相手のセンターホロメンに特殊ダメージ20を与える。その後、自分のアーカイブのエール1枚を自分のホロメンに送る。\n自分の〈脱獄を果たした共犯者たち〉はターンに1回しか使えない。",
       "en": "This card can only be used if all holomem on your stage have #Advent.\n\nDeal 20 special damage to your opponent's center holomem. Send 1 cheer from your archive to your holomem.\nYou may only use the card <Escaped Criminal Gang> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-015",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1764 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-015_U.webp", "en": null },
-        "img_hash": "v2|H32=6o6pqqSqpGunazRhsmKSVNqUWJwbnF+dLgqeN582lBbelhbdA4GtqgweoYv6IK0K+oOpeB/+Ler6+KHL4OOp+g7+4OM|CYM=2B2409",
+        "illustrator": "黒井ススム",
+        "img_path": { "jp": "hSD12/hSD12-015_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:18 GMT" },
+        "img_hash": "v2|H32=roqrqkStpGunK1Zh0mGQdJOUWpVKnV2dPI4MNY8ylnbWEjLdYwwlqgwe7aP4YOwq+MHt6g+WDapcS42L4KOtvg984Os|CYM=2E2609",
         "ogbajoj_sheet_cells": [ [ 543634835, "C17" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50600,17 +50795,19 @@
     "name": { "jp": "GEOW", "en": "GEOW" },
     "card_type": { "support": "mascot" },
     "text": {
+      "jp": "このマスコットが付いているホロメンのHP+20。\n\nこのマスコットを手札から1st以上の〈古石ビジュー〉に付けた時、自分のステージのエール1枚をアーカイブできる：自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The holomem this mascot is attached to gets +20 HP.\n\nWhen this mascot is attached from hand to your 1st or greater <Koseki Bijou>, you may archive 1 cheer from your stage:Reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD12-016",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1765 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-016_C.webp", "en": null },
-        "img_hash": "v2|H32=VFWpKlVVNNmrilTVq6pMJctUTFWryjRbq6qUqt0qT68rqlZVVa2pqqIqreqqOq2qomqtqvLhraqq4C2qqkqpKsKCqos|CYM=020E08",
+        "illustrator": "はたほまめ",
+        "img_path": { "jp": "hSD12/hSD12-016_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:30:24 GMT" },
+        "img_hash": "v2|H32=VFWrKlHVMtGrqlTViaqMFUtzWlWr6hRZs6qUqA2uWi1LqlZVMVul6mSmLaq7ba2q02itilbUrepU4K2qj6WpqqDDq6s|CYM=020E09",
         "ogbajoj_sheet_cells": [ [ 543634835, "C18" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50627,16 +50824,18 @@
     "oshi_skills": [
       {
         "holo_power": 3,
-        "name": { "jp": null, "en": "Harbinger of Order" },
+        "name": { "jp": "秩序の先駆者", "en": "Harbinger of Order" },
         "text": {
+          "jp": "[ターンに1回]自分のホロメン1人が相手からアーツダメージを受ける時、自分のステージの[Buzzか2nd]の赤ホロメン1人を選べる：そのダメージを、選んだホロメンがかわりに受ける。",
           "en": "[1/Turn]When 1 of your holomem would take Arts damage from your opponent, you may choose 1 red [Buzz or 2nd] holomem on your stage:The chosen holomem takes the damage instead."
         }
       },
       {
         "special": true,
         "holo_power": 3,
-        "name": { "jp": null, "en": "JUST LIKE THAT" },
+        "name": { "jp": "JUST LIKE THAT", "en": "JUST LIKE THAT" },
         "text": {
+          "jp": "[ゲームに1回]自分のアーカイブの#Justiceを持つホロメン1枚をステージに出す。その後、自分のアーカイブのエール1～5枚をそのホロメンに送る。",
           "en": "[1/Game]Place 1 holomem with #Justice from your archive on stage. Then, send 1~5 cheers from your archive to that holomem."
         }
       }
@@ -50645,11 +50844,12 @@
     "illustrations": [
       {
         "card_number": "hSD13-001",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1769 ] },
         "rarity": "OSR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-001_OSR.webp", "en": null },
-        "img_hash": "v2|H32=fNWqljOFTOVLpV5pSanWGpio0yqSureimyqUtrZqqSW2QrSaplqpK0u3pGhaKtsqStJJeKp0S6UqVdo0UNurVTalqlQ|CYM=334220",
+        "illustrator": "絢芽",
+        "img_path": { "jp": "hSD13/hSD13-001_OSR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:54 GMT" },
+        "img_hash": "v2|H32=bFSqtDPESMVLo17JSanWmpiokyrSOpemmiqWprJqiSW2RLS6plKrK1u1pGzaatsqCpJZ+qt0S62qVds0WdtpQQ4tqxQ|CYM=364824",
         "ogbajoj_sheet_cells": [ [ 543634835, "C31" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50666,14 +50866,18 @@
     "oshi_skills": [
       {
         "holo_power": 1,
-        "name": { "jp": null, "en": "Boat Goes Binted" },
-        "text": { "en": "[1/Turn]Switch your opponent's center holomem and collab holomem." }
+        "name": { "jp": "Boat Goes Binted", "en": "Boat Goes Binted" },
+        "text": {
+          "jp": "[ターンに1回]相手のセンターポジションとコラボポジションのホロメンを入れ替える。",
+          "en": "[1/Turn]Switch your opponent's center holomem and collab holomem."
+        }
       },
       {
         "special": true,
         "holo_power": 3,
-        "name": { "jp": null, "en": "The free-spirited Chaser" },
+        "name": { "jp": "自由奔放な『追跡者』", "en": "The free-spirited Chaser" },
         "text": {
+          "jp": "[ゲームに1回]自分のデッキから、2ndホロメンの〈ジジ・ムリン〉2枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、自分のアーカイブのエールを自分のホロメン全員に1枚ずつ送る。",
           "en": "[1/Game]Reveal 2 2nd holomem <Gigi Murin> from your deck, and place them on stage. Then, shuffle the deck. Then, send 1 cheer from your archive to each of your holomem."
         }
       }
@@ -50682,11 +50886,12 @@
     "illustrations": [
       {
         "card_number": "hSD13-002",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1770 ] },
         "rarity": "OSR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-002_OSR.webp", "en": null },
-        "img_hash": "v2|H32=VDXQkJu3TribrNqKVLWrShxVZ3ekdmlVplJ7pZZKeZWyvJSqqFZJ1SipS0WLNmtSNFVJq6pUWqWqVUqVSlUq1VIrpVU|CYM=102A3E",
+        "illustrator": "BISAI",
+        "img_path": { "jp": "hSD13/hSD13-002_OSR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:55 GMT" },
+        "img_hash": "v2|H32=VDXQsJu2TribrJqKVLWvShi1Z3akdmmVpFJ7lZZKeZWytLSqqFbJ1SipS0abNstZtFVbq6pUWqWqVUqVSlUq1VoLrVU|CYM=102D44",
         "ogbajoj_sheet_cells": [ [ 543634835, "C32" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50735,11 +50940,12 @@
       },
       {
         "card_number": "hSD13-003",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1771 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-003_C.webp", "en": null },
-        "img_hash": "v2|H32=qKrJqrS6JFdSVzRXSrScqmyskKqiUBBNslJaZVqnaiUYodZUVaWtS49qtbpLpVatqFpqy0paSqm2WvAloqnqaEpLYqk|CYM=304225",
+        "illustrator": "めふぃすと",
+        "img_path": { "jp": "hSD13/hSD13-003_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:55 GMT" },
+        "img_hash": "v2|H32=rKrpqrK7IteSUi1DabTIqk6tkKqmVNBc4lJaRV6XciU4o+aUEaWhSZdqtKpJpVbpLFpoy2paSqu2WvB1oq1qaGpLcmk|CYM=314828",
         "ogbajoj_sheet_cells": [ [ 543634835, "C33" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50755,23 +50961,29 @@
     "hp": 170,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Roses are Red" }, "power": "40" },
+      { "cheers": [ "colorless" ], "name": { "jp": "薔薇は赤い", "en": "Roses are Red" }, "power": "40" },
       {
         "cheers": [ "red", "colorless", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "The Fire of My Heart is Blue" },
+        "name": { "jp": "私の心の炎は青い", "en": "The Fire of My Heart is Blue" },
         "power": "140"
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#歌", "en": "#Singing" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-004",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1772 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-004_C.webp", "en": null },
-        "img_hash": "v2|H32=hqOzuIWqrb4tOE2uqSpaV9KHkkdSVfbJclF00faK1CJkNHJRNU15INr2NqhZ0i2JTburbuoaknbWupakhaqvLitJkhI|CYM=093023",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hSD13/hSD13-004_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:56 GMT" },
+        "img_hash": "v2|H32=hqOzuMWqra41OI2qqSpKVdKHkkYy1dLJWlVU0faK9HKkFHJRNc3ZSNq1NqrIUi3zT7qLeuoaknbSupa2tbqvvilLghI|CYM=093326",
         "ogbajoj_sheet_cells": [ [ 543634835, "C34" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50789,8 +51001,9 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "For Justice! -ERB-" },
+        "name": { "jp": "For Justice! -ERB-", "en": "For Justice! -ERB-" },
         "text": {
+          "jp": "相手のターンで、自分の#Justiceを持つホロメンがダウンした時、自分のエールデッキの上から1枚をこのホロメンに送る。自分のギフト「For Justice! -ERB-」はターンに1回しか使えない。",
           "en": "During your opponent's turn, when 1 of your holomem with #Justice is downed, send the top card of your cheer deck to this holomem. You may only use Gift \"For Justice! -ERB-\" once per turn."
         }
       }
@@ -50798,20 +51011,29 @@
     "arts": [
       {
         "cheers": [ "red", "colorless" ],
-        "name": { "jp": null, "en": "Lovely to See You, to See You, Lovely~♡" },
+        "name": {
+          "jp": "Lovely to See You, to See You, Lovely～♡",
+          "en": "Lovely to See You, to See You, Lovely~♡"
+        },
         "power": "50"
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#歌", "en": "#Singing" }
+    ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-005",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1773 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-005_U.webp", "en": null },
-        "img_hash": "v2|H32=rpRDqqe0rZLXKriWaWpbxjtNUm3CkdYs1hNWNbRWXGGt4Z4FVbVpoqELpOpJaha0K9Wqp6rbLetSKqlJ1oqrlqoUUto|CYM=08332F",
+        "illustrator": "sena",
+        "img_path": { "jp": "hSD13/hSD13-005_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:57 GMT" },
+        "img_hash": "v2|H32=qrZDqqWkrZLVKrmWeWhb10tNU23CmdY01hNWFbRWVOOs0p4VVeV5oKUr5KpJSBasK9Wmp6JaLGtSGqlK0pqplqqWQto|CYM=063733",
         "ogbajoj_sheet_cells": [ [ 543634835, "C35" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50829,23 +51051,36 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "Bring It On!" },
+        "name": { "jp": "Bring It On!", "en": "Bring It On!" },
         "text": {
+          "jp": "自分のステージの#Justiceを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。",
           "en": "Choose 1 holomem with #Justice on your stage. During this turn, the chosen holomem gets Arts+20."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Something to Protect" }, "power": "30" } ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "守護るべきもの", "en": "Something to Protect" },
+        "power": "30"
+      }
+    ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#歌", "en": "#Singing" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-006",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1774 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-006_U.webp", "en": null },
-        "img_hash": "v2|H32=zpgNUqeoaXOzrCUtmcK2pCpLUp5aVGJJVhbCKcYjlKdOK/RLFVVatVor0Lop6ylitIVqXZoWpTylapq2oq1Sn7WSKlU|CYM=13362E",
+        "illustrator": "VIGORE",
+        "img_path": { "jp": "hSD13/hSD13-006_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:42 GMT" },
+        "img_hash": "v2|H32=jpgdcqeoSXObriUpucK1pApLUpxaVGrZ1hbmaUZx1qZOb/RqE2TalVppxLpt6QnqNaFqDZoUpRStapqWoqVSp5W2KvU|CYM=143B31",
         "ogbajoj_sheet_cells": [ [ 543634835, "C36" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50863,31 +51098,41 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Warcry of Fierce Flames" },
-        "text": { "en": "This holomem gets +10 HP for each of this holomem's cheers." }
+        "name": { "jp": "猛炎のウォークライ", "en": "Warcry of Fierce Flames" },
+        "text": {
+          "jp": "このホロメンのエール1枚につき、このホロメンのHP+10。",
+          "en": "This holomem gets +10 HP for each of this holomem's cheers."
+        }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "The Slayer of Evil's Cadenza" },
+        "name": { "jp": "悪斬りのカデンツァ", "en": "The Slayer of Evil's Cadenza" },
         "power": "100+",
         "advantage": [ "purple", 50 ],
         "text": {
+          "jp": "このホロメンのエール1枚につき、このアーツ+20。このアーツで相手のホロメンをダウンさせた時、自分のエールデッキの上から1枚をこのホロメンに送る。",
           "en": "This Arts gets +20 for each of this holomem's cheers. If your opponent's holomem is downed by this Arts, send the top card of your cheer deck to this holomem."
         }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#歌", "en": "#Singing" }
+    ],
+    "baton_pass": [ "colorless", "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-007",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1775 ] },
         "rarity": "RR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-007_RR.webp", "en": null },
-        "img_hash": "v2|H32=JKvJiiO7zLTLUNhUpdQ0ebScNStWL3JjWmVaRcpVzMWtsVYKVGWLpvLiBbrVmmrVakWtbC64atGWWqBSkpJSoUsNomg|CYM=1E351D",
+        "illustrator": "たうた",
+        "img_path": { "jp": "hSD13/hSD13-007_RR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:51 GMT" },
+        "img_hash": "v2|H32=LKqJijOrzLTLUpg0mcwta8aeMCtWK3JHWkVaVchVzNWOsdYqdCWbhbPCTboVimrVasWt6Db6StOCXqASkrJS80uPolg|CYM=1F3A1E",
         "ogbajoj_sheet_cells": [ [ 543634835, "C37" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50905,22 +51150,30 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "For Justice! -GG-" },
-        "text": { "en": "Send 1 cheer from your archive to your holomem with #Justice." }
+        "name": { "jp": "For Justice! -GG-", "en": "For Justice! -GG-" },
+        "text": {
+          "jp": "自分のアーカイブのエール1枚を自分の#Justiceを持つホロメンに送る。",
+          "en": "Send 1 cheer from your archive to your holomem with #Justice."
+        }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "GI MURIN!!!!" }, "power": "20" } ],
-    "extra": { "en": "You may include any number of this holomem in the deck" },
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "GI MURIN!!!!", "en": "GI MURIN!!!!" }, "power": "20" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may include any number of this holomem in the deck"
+    },
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 50 },
     "illustrations": [
       {
         "card_number": "hSD13-008",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1776 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-008_C.webp", "en": null },
-        "img_hash": "v2|H32=rqAzKZarK1RSjU3SKhWUqi3blCpK1lpR2jRK1fcoprU76CpNVaWtl6t8tlJKk9S01YpSqaKUWpS2WkmptWpQKZaq0to|CYM=12325B",
+        "illustrator": "巻羊",
+        "img_path": { "jp": "hSD13/hSD13-008_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:43 GMT" },
+        "img_hash": "v2|H32=qqI3KZaqa1RSja2SLBWVqi3bnApK10pRzHRa1eMoRrU76SpNVaRtFrtstFpL2dSUhaNSraiXWpW2W0mptWpQKZSq0so|CYM=103462",
         "ogbajoj_sheet_cells": [ [ 543634835, "C38" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50938,23 +51191,26 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Mischievous Growth!" },
+        "name": { "jp": "イタズラ増殖！", "en": "Mischievous Growth!" },
         "text": {
-          "en": "If you are going second and this is your first turn, reveal 1 1st holomem with #Justice from your deck, and place it on stage. Then, shuffle the deck."
+          "jp": "自分が後攻で最初のターンなら、自分のデッキから、#Justiceを持つ1stホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
+          "en": "If you went second and it is your first turn, reveal 1 1st holomem with #Justice from your deck, and place it on stage. Then, shuffle the deck."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "YIPPEEE" }, "power": "20" } ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "YIPPEEE", "en": "YIPPEEE" }, "power": "20" } ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-009",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1777 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-009_C.webp", "en": null },
-        "img_hash": "v2|H32=iurRkpKqrdrxoy125MkpJ0ZdeG0uV8tlOlnOpXqdFrGulKBtBUXIJrJS1pJSW1YrXasqpSq9KllKlaa1lapK09aSolQ|CYM=013055",
+        "illustrator": "なかゥま",
+        "img_path": { "jp": "hSD13/hSD13-009_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:44 GMT" },
+        "img_hash": "v2|H32=iurRklKqMdqpoi1u5Mk6ZSZdWG0mU2ptelUOpWqUlrGMlLJtjSXgJrZS3JJSW1YrU6sIrStNKltLlba1lapK1daCotQ|CYM=003760",
         "ogbajoj_sheet_cells": [ [ 543634835, "C39" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -50970,19 +51226,29 @@
     "hp": 180,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "yellow" ], "name": { "jp": null, "en": "The source of headaches" }, "power": "40" },
-      { "cheers": [ "yellow", "colorless" ], "name": { "jp": null, "en": "Mischievous Gremlin" }, "power": "60" }
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": "周囲の頭痛の種", "en": "The source of headaches" },
+        "power": "40"
+      },
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": "悪戯好きのグレムリン", "en": "Mischievous Gremlin" },
+        "power": "60"
+      }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-010",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1778 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-010_C.webp", "en": null },
-        "img_hash": "v2|H32=ipsn7q2yPaorZbGeG+srFNZbShXSNVJN0jI0VdaatKlkVvTTVqVcJbGiKvGtal1aLbXbqqpXpkpp07X0UpsESq2SpTQ|CYM=091D2A",
+        "illustrator": "chyan",
+        "img_path": { "jp": "hSD13/hSD13-010_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:46 GMT" },
+        "img_hash": "v2|H32=qroH7u2itaorabOaGukrFNJKShXSVXLV0jA2VdCatKVkUnLXVrVcJbGqqqG9am1WrbXbqqpapqrp0qXUUpsmS63apTQ|CYM=08202F",
         "ogbajoj_sheet_cells": [ [ 543634835, "C40" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51000,8 +51266,9 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "I am Gonathan G." },
+        "name": { "jp": "I am Gonathan G.", "en": "I am Gonathan G." },
         "text": {
+          "jp": "このホロメンに重なっているDebutホロメン1枚をアーカイブできる：相手のコラボホロメンに特殊ダメージ20を与える。",
           "en": "You may archive 1 Debut holomem that is stacked to this holomem:Deal 20 special damage to your opponent's collab holomem."
         }
       }
@@ -51009,21 +51276,26 @@
     "arts": [
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": null, "en": "Pursuing the meaning of everything" },
+        "name": { "jp": "すべての意味を追い求めて", "en": "Pursuing the meaning of everything" },
         "power": "40+",
-        "text": { "en": "If there are no holomem stacked to this holomem, this Arts gets +20." }
+        "text": {
+          "jp": "このホロメンに重なっているホロメンが0枚なら、このアーツ+20。",
+          "en": "If there are no holomem stacked to this holomem, this Arts gets +20."
+        }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-011",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1779 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-011_U.webp", "en": null },
-        "img_hash": "v2|H32=aCm9pqVra6WfUjIn75QYq+acaMnalHJZUqXSUrallELWKF5PVHWUlbOqpuhJ21X1lpqp2rKLale1KrYtqtZUqupWaSo|CYM=081626",
+        "illustrator": "VIGORE",
+        "img_path": { "jp": "hSD13/hSD13-011_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:52 GMT" },
+        "img_hash": "v2|H32=Sim9rqVqI6WbUjAnr4wZq+6caM3atHJZVqXSU/allEqUMl5NVHVEtbOorKhpy1PdlJqp2rKKSla1KrQtrtZUqktWaao|CYM=08182B",
         "ogbajoj_sheet_cells": [ [ 543634835, "C41" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51041,23 +51313,32 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Thank you for your hard work!" },
+        "name": { "jp": "ご苦労さん！", "en": "Thank you for your hard work!" },
         "text": {
+          "jp": "相手のターンで、自分のバックホロメンが相手から特殊ダメージを受ける時、このホロメンに重なっているホロメン1枚をアーカイブできる：このターンの間、自分のバックホロメン全員は特殊ダメージを受けない。",
           "en": "During your opponent's turn, when your back holomem would take special damage from your opponent, you may archive 1 holomem that is stacked to this holomem:During this turn, all of your back holomem do not take special damage."
         }
       }
     ],
-    "arts": [ { "cheers": [ "yellow", "colorless" ], "name": { "jp": null, "en": "I won't lose" }, "power": "60" } ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": "負けるわけにはいかない", "en": "I won't lose" },
+        "power": "60"
+      }
+    ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-012",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1780 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-012_U.webp", "en": null },
-        "img_hash": "v2|H32=qqhbNaapzKqZcjXL1rYz2lbVUrZLVmhWStdpNWZNNK1sLbYkTlVoA6m0JIutalpW9ZKmy5JqUoull1Jy0mok2dWqUmg|CYM=07345B",
+        "illustrator": "加川壱互",
+        "img_path": { "jp": "hSD13/hSD13-012_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:47 GMT" },
+        "img_hash": "v2|H32=qKrbNJaJSKu5aqXL1rYz2lJXRrZLUmhWylNpN25FOI1sLbYkTlVoCjuspKOhaNpW9ZIsy5Jq1oqlltK20mok2dWqUuk|CYM=073965",
         "ogbajoj_sheet_cells": [ [ 543634835, "C42" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51075,8 +51356,9 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Strength to bounce back" },
+        "name": { "jp": "再起のストレングス", "en": "Strength to bounce back" },
         "text": {
+          "jp": "[ターンに1回]自分のメインステップで、自分の〈ジジ・ムリン〉に重なっているホロメン1枚をアーカイブできる：自分のエールデッキの上から1枚をこのホロメンに送る。",
           "en": "[1/Turn]During your main phase, you may archive 1 holomem stacked to your <Gigi Murin>:Send the top card of your cheer deck to this holomem."
         }
       }
@@ -51084,22 +51366,27 @@
     "arts": [
       {
         "cheers": [ "yellow", "colorless", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "Riot Breaking Out of Her Shell" },
+        "name": { "jp": "殻破りのライオット", "en": "Riot Breaking Out of Her Shell" },
         "power": "90+",
         "advantage": [ "white", 50 ],
-        "text": { "en": "If there are no holomem stacked to this holomem, this Arts gets +90." }
+        "text": {
+          "jp": "このホロメンに重なっているホロメンが0枚なら、このアーツ+90。",
+          "en": "If there are no holomem stacked to this holomem, this Arts gets +90."
+        }
       }
     ],
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Justice", "en": "#Justice" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-013",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1781 ] },
         "rarity": "RR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-013_RR.webp", "en": null },
-        "img_hash": "v2|H32=iKorjaurlKarVipX1nAozNSpPKjWmCJHUlVSUzJVVpW9HNZFVvVYLrJKS7K02E2haUuq2qpaglZfFtCwqcqi6Cq/olg|CYM=1E2928",
+        "illustrator": "たうた",
+        "img_path": { "jp": "hSD13/hSD13-013_RR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:47 GMT" },
+        "img_hash": "v2|H32=qKorjKernLKtdmpH0jAprISJfKpOmCJHUlVSU0pFVIm4VNZpVPUZDrMOyrKl4GGlKUus27pKilYfttBQrdqi6iq/oFg|CYM=1E2B2B",
         "ogbajoj_sheet_cells": [ [ 543634835, "C43" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51117,8 +51404,9 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Melody of Justice" },
+        "name": { "jp": "正義の旋律", "en": "Melody of Justice" },
         "text": {
+          "jp": "[センターポジション・コラボポジション限定][ターンに1回]自分の#Justiceを持つ[DebutホロメンかSpotホロメン]がステージに出た時、自分のデッキを1枚引く。",
           "en": "[Center Position・Collab Position Only][1/Turn]When a [Debut holomem or Spot holomem] with #Justice is placed on your stage, draw 1 card."
         }
       }
@@ -51126,22 +51414,31 @@
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": null, "en": "Have some tea!" },
+        "name": { "jp": "紅茶をどうぞ！", "en": "Have some tea!" },
         "power": "40",
-        "text": { "en": "Send the top card of your cheer deck to your holomem with #Justice." }
+        "text": {
+          "jp": "自分のエールデッキの上から1枚を自分の#Justiceを持つホロメンに送る。",
+          "en": "Send the top card of your cheer deck to your holomem with #Justice."
+        }
       }
     ],
-    "extra": { "en": "This holomem cannot Bloom" },
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#語学", "en": "#Language" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-014",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1782 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-014_C.webp", "en": null },
-        "img_hash": "v2|H32=8KqWTpPOKTKaTa1zGizFqrScdart2CZXKuFqNSupVrXpqIhEVqgKpVtFXZKtaqWqNdFgm6pLVKmpFemouVL00ItG0qo|CYM=0D0B23",
+        "illustrator": "",
+        "img_path": { "jp": "hSD13/hSD13-014_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:48 GMT" },
+        "img_hash": "v2|H32=sKrUQoTqKSKaTYxqGyjRquScVqqt0CZVLsFLNSulUrXJqIhkVrIqNVtF354pSaSqtdt0m2pLVKupl6qoqVL01IlG0qo|CYM=0F0C28",
         "ogbajoj_sheet_cells": [ [ 543634835, "C44" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51159,8 +51456,9 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Harmony of Justice" },
+        "name": { "jp": "正義の諧調", "en": "Harmony of Justice" },
         "text": {
+          "jp": "自分のステージのエール1枚をエールデッキの下に戻せる。戻したなら、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。",
           "en": "You may return 1 cheer from your stage to the bottom of your cheer deck. If you do, reveal 1 cheer from your cheer deck and send it to your holomem. Then, shuffle the cheer deck."
         }
       }
@@ -51168,24 +51466,32 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": null, "en": "Have some coffee!" },
+        "name": { "jp": "コーヒーをどうぞ！", "en": "Have some coffee!" },
         "power": "30+",
         "text": {
+          "jp": "自分の#Justiceを持つ[センターホロメンとコラボホロメン]に異なる色のエールが付いているなら、このアーツ+20。",
           "en": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20."
         }
       }
     ],
-    "extra": { "en": "This holomem cannot Bloom" },
-    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "extra": { "jp": "このホロメンはBloomできない", "en": "This holomem cannot Bloom" },
+    "tags": [
+      { "jp": "#EN", "en": "#EN" },
+      { "jp": "#Justice", "en": "#Justice" },
+      { "jp": "#ケモミミ", "en": "#Kemomimi" },
+      { "jp": "#絵", "en": "#Painting" }
+    ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-015",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1783 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-015_C.webp", "en": null },
-        "img_hash": "v2|H32=Zq5rSlSrrFLQG7yyhDTVqqlU1atrSSrVaitKUem0Wi3L6JJsSy3pWyRZpJ4uVbWWtdrVui7aTouaNGjpraZqqVSrUqU|CYM=042422",
+        "illustrator": "",
+        "img_path": { "jp": "hSD13/hSD13-015_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:49 GMT" },
+        "img_hash": "v2|H32=pqprSlCrrFOcO9SyljTRqqlUVqlrSivVaytaQWm0Wi1b6Zpty2xpXSTZpBYuVaSWtZpUqm5bTsuyNGjpiaZaqVSqUqU|CYM=042725",
         "ogbajoj_sheet_cells": [ [ 543634835, "C45" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51199,17 +51505,19 @@
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
+      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#Justiceを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
       "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #Justice from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-016",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1784 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-016_U.webp", "en": null },
-        "img_hash": "v2|H32=IqurqtCqyJrLONQ8rCwtLSQvJK8uhRbVnpQelb5WvFIuVJJNBegMivCoLbqPD+27/uONbh58oWjwA+lggh9oGHp44Fk|CYM=3B2620",
+        "illustrator": "PORO",
+        "img_path": { "jp": "hSD13/hSD13-016_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:53 GMT" },
+        "img_hash": "v2|H32=qqqjqtSryJirOtR5pC2tbS0uVKUuthSUlpQelb5UtFYuVLJdAWBMmjjibLrHH+yyx+EtbjdeiW74Qelohx+oqH744Lk|CYM=432827",
         "ogbajoj_sheet_cells": [ [ 543634835, "C46" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51223,29 +51531,19 @@
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
+      "jp": "このカードは、自分のステージのホロメン全員が#Justiceを持つホロメンでなければ使えない。\n\n自分のステージのホロメン1人を選ぶ。選んだホロメンに重なっているホロメン1～2枚を手札に戻す。このターンの間、この能力で戻したホロメン1枚につき、選んだホロメンのアーツ+20。",
       "en": "This card can only be used if all holomem on your stage have #Justice.\n\nChoose 1 holomem on your stage. Return 1~2 holomem stacked to that holomem to hand. During this turn, the chosen holomem gets Arts+20 for each holomem returned by this effect."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-017",
-        "manage_id": { },
-        "rarity": "U?",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-017_U_.webp", "en": null },
-        "img_hash": "v2|H32=mL2LVNKsUq3SKlSjLVstSyxbLUljbdSjVpJXs2ySLZJrv5Ik2LRlm96GafgCny34fpqJJIGmmySNJk+DqSwG2y3JNps|CYM=051B18",
-        "ogbajoj_sheet_cells": null,
-        "yuyutei_sell_url": null,
-        "tcgplayer_product_id": null,
-        "delta_art_index": null
-      },
-      {
-        "card_number": "hSD13-017",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1785 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-017_U.webp", "en": null },
-        "img_hash": "v2|H32=2NSLjNLU0qXTpVRDLWotSy1KLEsrLVRFVqJWk12SbJIpklZF0PAli78obfiCDm26vjipLoKHuSwOj6mDqlou2/rBKtk|CYM=04191F",
+        "illustrator": "黒井ススム",
+        "img_path": { "jp": "hSD13/hSD13-017_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:50 GMT" },
+        "img_hash": "v2|H32=iJSJiNKd0qWTrVRjLUotWyRKLWsrbXRtVoNSk0+SbJItstJFmHFlm3eEPLKDHm26fz6JKIeHuWwPj62DoH2tq//BLts|CYM=031C23",
         "ogbajoj_sheet_cells": [ [ 543634835, "C47" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51258,17 +51556,19 @@
     "name": { "jp": "Popo", "en": "Popo" },
     "card_type": { "support": "mascot" },
     "text": {
+      "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈ジジ・ムリン〉に付いていたら能力追加\nこのホロメンに重なっているホロメンが0枚なら、このホロメンのアーツ+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Gigi Murin>\nIf there are no holomem stacked to this holomem, this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD13-018",
-        "manage_id": { },
+        "manage_id": { "jp": [ 1786 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD13-018_C.webp", "en": null },
-        "img_hash": "v2|H32=iKqpqpyqyC1pbUhVrEmmWpfa1tpSilIVajVuNSc0Nja2dhbdBvgtivhwLSrg4+l6hw/h6A8P4ejyP+GL8OHgOz/44Dg|CYM=042E57",
+        "illustrator": "888BUN",
+        "img_path": { "jp": "hSD13/hSD13-018_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 13 Feb 2026 10:31:50 GMT" },
+        "img_hash": "v2|H32=rKqpqtCsyC2paUxFSkmnWpfa1tpaikqVbiViNS80Nja2NjLNDPwnkvB4DCLx4+x6MQ/p6B6P6OLMP+iK8OHgOj944Ck|CYM=042F5D",
         "ogbajoj_sheet_cells": [ [ 543634835, "C48" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -51418,7 +51718,8 @@
     "card_type": "cheer",
     "colors": [ "white" ],
     "text": {
-      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
     },
     "max_amount": { "jp": 20 },
     "illustrations": [
@@ -51679,7 +51980,8 @@
     "card_type": "cheer",
     "colors": [ "green" ],
     "text": {
-      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
     },
     "max_amount": { "jp": 20 },
     "illustrations": [
@@ -51890,7 +52192,8 @@
     "card_type": "cheer",
     "colors": [ "red" ],
     "text": {
-      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
     },
     "max_amount": { "jp": 20 },
     "illustrations": [
@@ -52251,7 +52554,8 @@
     "card_type": "cheer",
     "colors": [ "blue" ],
     "text": {
-      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
     },
     "max_amount": { "jp": 20 },
     "illustrations": [
@@ -52485,7 +52789,8 @@
     "card_type": "cheer",
     "colors": [ "purple" ],
     "text": {
-      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
     },
     "max_amount": { "jp": 20 },
     "illustrations": [
@@ -52692,7 +52997,8 @@
     "card_type": "cheer",
     "colors": [ "yellow" ],
     "text": {
-      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。"
+      "jp": "■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。\n■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。",
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
     },
     "max_amount": { "jp": 20 },
     "illustrations": [
