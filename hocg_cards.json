@@ -28159,6 +28159,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp04/10162",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-080",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-080_P.webp", "en": null },
+        "img_hash": "v2|H32=qqkpk42yC+vEssOrk0mksEtWtKVKlHIW0m1OV1Ip2Es2C2hdVUWWNha2ktKUKiWlqZZqaWhpqlboV7SssJZKoqoqSms|CYM=091234",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C18" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -29927,7 +29939,7 @@
         "img_path": { "jp": "hPR/hBP05-009_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT" },
         "img_hash": "v2|H32=PGOamqRmHC/UqgWujrtpUSuaVlWrSlC1kq9LtWKqYlWrU6hlUnXpZFptdNKUzZSiVXRpumnVKJtS3Y2q1dKNlmLpKkU|CYM=002D3A",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C18" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C19" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10135",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -30004,7 +30016,7 @@
         "img_path": { "jp": "hPR/hBP05-010_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:58 GMT" },
         "img_hash": "v2|H32=tKpqVU7KlKutUleqs0pcqiufk6ovhck2a6U7V0o0S90zqmB2qlSpXEYrSypWqS+beasorWWrdpHx0rbSqVbWtK3Utto|CYM=03131B",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C19" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C20" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -31713,7 +31725,7 @@
         "img_path": { "jp": "hPR/hBP05-036_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT" },
         "img_hash": "v2|H32=hqqSSuXqpaq1SkmprJc7g1O1qhVa1UpVatVK1WxVcpcqlSpXx1pZUrZskqeSlmapWitry7rVKlmsSUVtqS22pKq1kqY|CYM=342408",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C20" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C21" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10136",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -32001,7 +32013,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-040_P.webp", "en": null },
         "img_hash": "v2|H32=qqpvaqaqjK5narGuy2RralKVcmVWU1KVdEXSFfm0dNWtkdJNVKVctEvSZPi20tL9aWsqOKp/6sq0XlYLldKSsigpoms|CYM=153020",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C21" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C22" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -32191,7 +32203,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-043_P.webp", "en": null },
         "img_hash": "v2|H32=zKabW0WkSLlrtGmd67LVSopS1epSUbTGVqGsTFuSpEmNipZKFtWtolpZtJL0qu1WVq1otVVLraqqHmpVlSSirLk0tqQ|CYM=2D4E05",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C22" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C23" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33793,7 +33805,7 @@
         "img_path": { "jp": "hPR/hBP05-068_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT" },
         "img_hash": "v2|H32=1G6VWouWrybTllOm06fTrlXWW9Bz1PsU68RbmXKcWItnm5BlSVUrGziqI8s4WEWLSaNpKi2LqV2namxtqSY1pW2pK2k|CYM=2E1614",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C23" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C24" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10137",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -33871,7 +33883,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-069_P.webp", "en": null },
         "img_hash": "v2|H32=plpcbrdKjC4jXZSqelWJzXQjWtVspVKVTjVanWoV1KpqFZRaVVoqtUquQavBVeqRqaLySmrR0mqtqFlaKbWVqqmqWlM|CYM=1D1E13",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C24" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C25" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -34279,7 +34291,7 @@
         "img_path": { "jp": "hPR/hBP05-075_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:55 GMT" },
         "img_hash": "v2|H32=xKqpqlCrFKmnqlR7qerkXotaWlWrpnY1OitKVa9Q1lqrylJdM9mhiUw2bbqP3a2qs07t6uSHqerhg6nq+Wipq/ksquo|CYM=051613",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C25" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C26" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -38325,7 +38337,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-058_P.webp", "en": null },
         "img_hash": "v2|H32=zLVkzVrRRC3bsqZtmaKtqhLJpapaitJsVrFprrYZ3KyrstBqLF2JslWlRNWqVv2yhRoq1dquKqm2xtVWlap2iVClKmk|CYM=015555",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C26" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C27" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -38913,7 +38925,7 @@
         "img_path": { "jp": "hPR/hBP06-067_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:56 GMT" },
         "img_hash": "v2|H32=iGqbKqCqRaPStzalZlW2FpZskhpXqVK6Uq1KNShVSlUpVcpVxn4tVU9UNJXMWlLwlVtYUVxaRaVdfVDpbbVJV7RaRIs|CYM=252A24",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C27" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C28" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -40239,7 +40251,7 @@
         "img_path": { "jp": "hPR/hBP06-090_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:56 GMT" },
         "img_hash": "v2|H32=2JxopldFpKopazCrpy5pdVjW0yRdUjJnM4llU1rV19lMVdSWy5bLZSNfZZqiba1PdVp2aVpri0rplKVtpFo0lWuV0ro|CYM=005074",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C28" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C29" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -40251,7 +40263,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-090_P.webp", "en": null },
         "img_hash": "v2|H32=rKrNDpUmXdYz3DLkpo0qrZKliitbMlNSa9Jt4+3IOeOqSZawVl2PQqpUaNHLxipdHh+lqqm44gvSUmC1oKLyQsqlNjg|CYM=453E0D",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C29" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C30" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -42195,6 +42207,46 @@
       }
     ]
   },
+  "hBP07-042": {
+    "card_number": "hBP07-042",
+    "name": { "jp": "赤井はあと", "en": "Akai Haato" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "Pure Heart Tarantella" },
+        "power": "80",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "Deal 40 special damage to your opponent's center holomem and collab holomem." }
+      },
+      {
+        "cheers": [ "red", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Journey to Happiness" },
+        "power": "140+",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "If your holomem returned from your stage to deck this turn, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-042",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-042_RR.webp", "en": null },
+        "img_hash": "v2|H32=rqqpqq2qDapLqkmqSzPDZMJVsl2y1TLZVpl0lVZJVmW2VNRfWVVoJWqpLqSlr4GXq1rq+qh6poq02oSntJaW2rp6gso|CYM=012C31",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C44" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-044": {
     "card_number": "hBP07-044",
     "name": { "jp": "尾丸ポルカ", "en": "Omaru Polka" },
@@ -42522,7 +42574,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-066_P.webp", "en": null },
         "img_hash": "v2|H32=Sq3Naourtmqz2rQ0sNTRtbSUS6WWmqLdEim7WOw9Y2isS5SqWCRqVVVC4tWliqbKdFmVUno1odt6pSWNrZZQLVW1yiU|CYM=0F3711",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C30" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C31" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -42619,6 +42671,49 @@
         "img_path": { "jp": "unreleased/hBP07-068_U.webp", "en": null },
         "img_hash": "v2|H32=io50opuqparNa63L7GxLSdSySlUik1KWcjVKlXIk0CQsTahUtVZKJVWSVplKZVSqba2qti+blYqtS1L9UtOlKgqpklY|CYM=033022",
         "ogbajoj_sheet_cells": [ [ 337784829, "C70" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-070": {
+    "card_number": "hBP07-070",
+    "name": { "jp": "癒月ちょこ", "en": "Yuzuki Choco" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "What would you like for dinner today?" },
+        "text": {
+          "en": "Look at the top 3 cards of your deck. Reveal 1 holomem with #Cooking from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": null, "en": "I'll do my best to make something delicious♡" },
+        "power": "30",
+        "text": {
+          "en": "Choose 1 of your holomem with #Cooking. During this turn, for each event with #Food you used this turn, the chosen holomem requires -1 colorless for its Arts."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-070",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-070_R.webp", "en": null },
+        "img_hash": "v2|H32=1KorbdSqTrXpVcjUi82VqrRL1ip6tWJSelXWVDJHVkW3qtZrWiWtrfLUrdp02aWqVsta1a1a8pWNKniojaZiya0mJso|CYM=05252B",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C72" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
