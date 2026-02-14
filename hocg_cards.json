@@ -14087,7 +14087,7 @@
         "img_path": { "jp": "hPR/hBP02-054_03_P.webp", "en": null },
         "img_last_modified": { "jp": "Tue, 03 Feb 2026 06:28:24 GMT" },
         "img_hash": "v2|H32=qqqNKtbV8yNyajQ5tGoEuuxUo9MsDUpVyItmJUvVVjWJlZpatKlmtWtVdLJYoxyqzxamrNOXJG2iFCyKWKNU2ql0aq0|CYM=035962",
-        "ogbajoj_sheet_cells": null,
+        "ogbajoj_sheet_cells": [ [ 419749048, "C9" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -15583,7 +15583,7 @@
         "img_path": { "jp": "hPR/hBP02-080_P_2.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:57 GMT" },
         "img_hash": "v2|H32=xkpiRZSqSFW3qki1M+pY7LewWGmrEv2ophfp6rQ0p6NwWFCpVdEtWqxqpEqlrqmqJZWplpVFqkmVaipFlqqKJTStunU|CYM=00292D",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C9" ], [ 419749048, "C10" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C10" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -22692,7 +22692,7 @@
         "img_path": { "jp": "COMMON/hBP03-105_U.webp", "en": "hBP03/EN_hBP03-105_U_02.webp" },
         "img_last_modified": { "jp": "Fri, 12 Dec 2025 04:23:44 GMT", "en": "Wed, 07 Jan 2026 02:23:28 GMT" },
         "img_hash": "v2|H32=vKK/plKlAyupq6QVoNUl2Sf5amVqRahZulxKdW0o1CrSOrJJJ2YnmyeyjZvATMyu5DhsZvwzbGaYmYxp2M7IbOwHbDI|CYM=360C09",
-        "ogbajoj_sheet_cells": null,
+        "ogbajoj_sheet_cells": [ [ 1235233029, "C106" ], [ 2134313136, "C119" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10212",
         "tcgplayer_product_id": 669216,
         "delta_art_index": null
@@ -24744,7 +24744,7 @@
     "arts": [ { "cheers": [ "green" ], "name": { "jp": "Terima Kasih", "en": "Terima Kasih" }, "power": "30" } ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#トリ", "en": "#Bird" },
       { "jp": "#絵", "en": "#Painting" }
     ],
@@ -25448,7 +25448,7 @@
       "jp": "このホロメンはデッキに何枚でも入れられる",
       "en": "You may include any number of this holomem in the deck"
     },
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 50, "en": 50 },
     "illustrations": [
@@ -25491,7 +25491,7 @@
       { "cheers": [ "colorless" ], "name": { "jp": "When Life is Hard", "en": "When Life is Hard" }, "power": "30" },
       { "cheers": [ "red", "colorless" ], "name": { "jp": "DAHLAH", "en": "DAHLAH" }, "power": "50" }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -25543,7 +25543,7 @@
     "arts": [
       { "cheers": [ "colorless" ], "name": { "jp": "サイレント笑い", "en": "Silent Laugh" }, "power": "20" }
     ],
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -25607,7 +25607,7 @@
       "jp": "このホロメンがダウンした時、自分のライフ-2",
       "en": "If this holomem is downed, you get life-2"
     },
-    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#IDGen 3" } ],
+    "tags": [ { "jp": "#ID", "en": "#ID" }, { "jp": "#ID3期生", "en": "#ID Gen 3" } ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -26104,7 +26104,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID1期生", "en": "#IDGen 1" },
+      { "jp": "#ID1期生", "en": "#ID Gen 1" },
       { "jp": "#歌", "en": "#Singing" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -26895,7 +26895,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -27686,7 +27686,7 @@
     },
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless" ],
@@ -27746,7 +27746,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless" ],
@@ -27810,7 +27810,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -27870,7 +27870,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless" ],
@@ -27926,7 +27926,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -27987,7 +27987,7 @@
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
-      { "jp": "#ID2期生", "en": "#IDGen 2" },
+      { "jp": "#ID2期生", "en": "#ID Gen 2" },
       { "jp": "#語学", "en": "#Language" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
@@ -29036,7 +29036,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆#ID3期生を持つ1st以上のホロメンに付いていたら能力追加\nこのツールが付いているホロメンのアーツ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to 1st or greater holomem with #IDGen 3\nThe holomem this tool is attached to gets Arts+10.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to 1st or greater holomem with #ID Gen 3\nThe holomem this tool is attached to gets Arts+10.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#カエラ'sアームズ", "en": "#Kaela's Arms" } ],
     "max_amount": { "jp": 4, "en": 4 },
@@ -34448,7 +34448,7 @@
         "img_path": { "jp": "hPR/hBP05-079_01_P.webp", "en": null },
         "img_last_modified": { "jp": "Thu, 02 Oct 2025 03:43:19 GMT" },
         "img_hash": "v2|H32=QpWjGlRVKmWrqtRC6qhqnfUK1a6rrhRnlOortasa1BqrrDJFBUVsmjhyLJqHB62aY9it6NFsjS6Gh63qcHgtio+HLos|CYM=0B101F",
-        "ogbajoj_sheet_cells": null,
+        "ogbajoj_sheet_cells": [ [ 1568103987, "C92" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10122",
         "tcgplayer_product_id": null,
         "delta_art_index": null
