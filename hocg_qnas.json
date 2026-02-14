@@ -4397,11 +4397,11 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-001〈博衣こより〉のSP推しスキル「助手くん、んーまっ！」は、1ターンの間に相手のホロメンからの特殊ダメージや、アーツによるダメージそれぞれに「-100」を割り振ることはできますか？",
-      "en": "When using hBP04-001 Hakui Koyori's SP Oshi Skill \"Assisant-kun, mwah!\", can I reduce the Special Damage and Arts Damage from one of my opponent's holomem by 100 during the same turn?"
+      "en": "When using hBP04-001 Hakui Koyori's SP Oshi Skill \"Assisants, mmmwah!\", can I reduce the Special Damage and Arts Damage from one of my opponent's holomem by 100 during the same turn?"
     },
     "answer": {
       "jp": "いいえ、できません。 \nダメージを軽減する能力は、複数のダメージに割り振って軽減することはできません。",
-      "en": "No, you cannot. The damage reduction will only apply to one instance of Damage."
+      "en": "No, you cannot. The damage reduction will only apply to one instance of damage."
     },
     "referenced_cards": [ "hBP04-001" ]
   },
@@ -4410,7 +4410,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分の推しホロメンがhBP04-001〈博衣こより〉の時、hBP04-105〈こよりの助手くん〉が付いている〈博衣こより〉に、相手の3枚目に重なっているhBP01-081〈星街すいせい〉（Debut、1stホロメンホロメンの上にhBP01-081〈星街すいせい〉が重ねられている状態）がアーツ「輝く彗星」を使い、180ダメージを与えようとしました。\nこの場合、hBP04-001〈博衣こより〉のSP推しスキル「助手くん、んーまっ！」を使い、受けるダメージを「-100」できますか？",
-      "en": "My Oshi is hBP04-001 Hakui Koyori, and one of my Hakui Koyori holomem has a hBP04-105 Koyori's Assistants attached.\nMy opponent's hBP01-081 Hoshimachi Suisei is the third stacked card (Debut, 1st, 2nd), and is about to deal 180 damage to that Hakui Koyori with the Arts \"Shining Comet\".\nCan I use hBP04-001 Hakui Koyori's SP Oshi Skill \"Assisant-kun, mwah!\" to reduce that damage by 100?"
+      "en": "My Oshi is hBP04-001 Hakui Koyori, and one of my Hakui Koyori holomem has a hBP04-105 Koyori's Assistants attached.\nMy opponent's hBP01-081 Hoshimachi Suisei is the third stacked card (Debut, 1st, 2nd), and is about to deal 180 damage to that Hakui Koyori with the Arts \"Shining Comet\".\nCan I use hBP04-001 Hakui Koyori's SP Oshi Skill \"Assisants, mmmwah!\" to reduce that damage by 100?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-081", "hBP04-001", "hBP04-105" ]
@@ -4420,7 +4420,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-003〈一条莉々華〉のSP推しスキル「かわいい！ ポジティブ！ ジーニアス！」は、必ず〈一条莉々華〉と〈限界飯〉を1枚ずつ公開して手札に加えなければなりませんか？",
-      "en": "When using hBP04-003 Ichijou Ririka's SP Oshi Skill \"Kawaii! Positive! Genius!\", do I have to reveal both an Ichijou Ririka and a Struggle Meal and put them into my hand?"
+      "en": "When using hBP04-003 Ichijou Ririka's SP Oshi Skill \"Cute! Positive! Genius!\", do I have to reveal both an Ichijou Ririka and a Struggle Meal and put them into my hand?"
     },
     "answer": {
       "jp": "いいえ、どちらか1枚のみを加え、処理を終えることができます。",
@@ -4433,11 +4433,11 @@
     "date": "2025-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP04-003〈一条莉々華〉で相手の推しホロメンがhBP01-007〈星街すいせい〉の時、相手のセンターポジションのhBP01-081〈星街すいせい〉がアーツ「輝く彗星」を使い、自分のhBP04-037〈一条莉々華〉をダウンさせました。\nこの場合、自分の推しホロメンのhBP04-003〈一条莉々華〉のSP推しスキル「かわいい！ ポジティブ！ ジーニアス！」と、相手の推しホロメンのhBP01-007〈星街すいせい〉のSP推しスキル「シューティングスター」はどちらが先に使えますか？",
-      "en": "My Oshi holomem is hBP04-003 Ichijou Ririka, and my opponent's Oshi holomem is hBP01-007 Hoshimachi Suisei. My opponent used hBP01-081 Hoshimachi Suisei's Arts \"Shining Comet\" to down my hBP04-037 Ichijou Ririka.\nIn this case, which is processed first: my SP Oshi Skill \"Kawaii! Positive! Genius!\", or my opponent's SP Oshi Skill \"Shooting Star\"?"
+      "en": "My Oshi holomem is hBP04-003 Ichijou Ririka, and my opponent's Oshi holomem is hBP01-007 Hoshimachi Suisei. My opponent used hBP01-081 Hoshimachi Suisei's Arts \"Shining Comet\" to down my hBP04-037 Ichijou Ririka.\nIn this case, which is processed first: my SP Oshi Skill \"Cute! Positive! Genius!\", or my opponent's SP Oshi Skill \"Shooting Star\"?"
     },
     "answer": {
       "jp": "「かわいい！ ポジティブ！ ジーニアス！」が先に使えます。",
-      "en": "\"Kawaii! Positive! Genius!\" is processed first."
+      "en": "\"Cute! Positive! Genius!\" is processed first."
     },
     "referenced_cards": [ "hBP01-007", "hBP01-081", "hBP04-003", "hBP04-037" ]
   },
@@ -4446,11 +4446,11 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、選んだ〈雪花ラミィ〉が相手のhBP03-066〈戌神ころね〉をダウンさせた場合、SP推しスキル「ぶーん、バリバリバリバリ」の能力と、相手のダウン処理やギフト「わんだふぉ～♡」の能力はどれから処理されますか？",
-      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi skill \"Vrooooom! Baribaribaribari\" and the selected Yukihana Lamy downed my opponent's hBP03-066 Inugami Korone.\nIn this case, which is processed first: the effects of my SP Oshi skill \"Vrooooom! Baribaribaribari\" or my opponent's Gift \"Wan-Dafuuul♡\"?"
+      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi skill \"Vroom, Bari Bari Bari Bari\" and the selected Yukihana Lamy downed my opponent's hBP03-066 Inugami Korone.\nIn this case, which is processed first: the effects of my SP Oshi skill \"Vroom, Bari Bari Bari Bari\" or my opponent's Gift \"Wan-Dafuuul♡\"?"
     },
     "answer": {
       "jp": "先にSP推しスキル「ぶーん、バリバリバリバリ」の能力により2枚引きます。\nその後、ギフト「わんだふぉ〜♡」の能力を処理し、ライフダメージの処理を行います。",
-      "en": "You draw 2 cards with the effect of \"Vrooooom! Baribaribaribari\" first, as it is your effect. After that, your opponent processes their Gift \"Wan-Dafuuul♡\" then deals with Life damage."
+      "en": "You draw 2 cards with the effect of \"Vroom, Bari Bari Bari Bari\" first, as it is your effect. After that, your opponent processes their Gift \"Wan-Dafuuul♡\" then deals with Life damage."
     },
     "referenced_cards": [ "hBP03-066", "hBP04-004" ]
   },
@@ -4459,7 +4459,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、hBP04-048〈雪花ラミィ〉を選びました。\nその後、アーツ「今日も祝福がありますように」を使い、相手のセンターホロメンとバックホロメンをダウンさせました。\nこの場合、2人ダウンさせたので4枚引くことはできますか？",
-      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vrooooom! Baribaribaribari\" and selected hBP04-048 Yukihana Lamy. I then used its Arts \"May Today Be a Blessed Day\" to down my opponent's center and back holomem.\nSince I downed 2 holomem, do I draw 4 cards?"
+      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vroom, Bari Bari Bari Bari\" and selected hBP04-048 Yukihana Lamy. I then used its Arts \"May Today Be a Blessed Day\" to down my opponent's center and back holomem.\nSince I downed 2 holomem, do I draw 4 cards?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP04-004", "hBP04-048" ]
@@ -4469,7 +4469,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、hBP04-106〈雪民〉が付いているhBP04-043〈雪花ラミィ〉を選びました。\nその後、hBP04-047〈雪花ラミィ〉にBloomさせ、コラボエフェクト「fleur」を使い、相手のホロメンをダウンさせて2枚引きました。\nこの場合、hBP04-047〈雪花ラミィ〉パフォーマンスステップでアーツ「雪が煌く花束」を使い、相手のセンターホロメンをダウンさせてさらに2枚引くことはできますか？",
-      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vrooooom! Baribaribaribari\" and selected hBP04-043 Yukihana Lamy with a hBP04-106 Yukimin attached.\nI then Bloomed that holomem to hBP04-047 Yukihana Lamy, and used the Collab Effect \"fleur\" to down one of my opponent's holomem and draw 2 cards.\nIf I then use the Arts \"Sparkling Snow Bouquet\" during my Performance Phase and down my opponent's center holomem, do I draw 2 more cards?"
+      "en": "I used hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vroom, Bari Bari Bari Bari\" and selected hBP04-043 Yukihana Lamy with a hBP04-106 Yukimin attached.\nI then Bloomed that holomem to hBP04-047 Yukihana Lamy, and used the Collab Effect \"fleur\" to down one of my opponent's holomem and draw 2 cards.\nIf I then use the Arts \"Bouquet of Shimmering Snow\" during my Performance Phase and down my opponent's center holomem, do I draw 2 more cards?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP04-004", "hBP04-043", "hBP04-047", "hBP04-106" ]
@@ -4479,7 +4479,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-005〈ラプラス・ダークネス〉の推しスキル「総帥のお仕事」を使い、パフォーマンスステップでhBP01-023〈ときのそら〉のアーツ「止まらねえぞ」を使った場合、サイコロの出る目すべてを「5」にできますか？",
-      "en": "If I use hBP04-005 La+ Darknesss's Oshi Skill \"Leader's work\", and then use hBP01-023 Tokino Sora's Arts \"Not gonna stop\", can I make all of the dice rolls result in 5?"
+      "en": "If I use hBP04-005 La+ Darknesss's Oshi Skill \"Leader's Work\", and then use hBP01-023 Tokino Sora's Arts \"Not gonna stop\", can I make all of the dice rolls result in 5?"
     },
     "answer": {
       "jp": "いいえ、できません。\n一度にサイコロを3回振る能力のみ、出る目すべてを「5」として扱います。",
@@ -4492,7 +4492,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-013〈博衣こより〉のギフト「絶対諦めない！」の能力でホロパワーにあるカードを見た時、必ず1枚を手札に加えなければなりませんか？",
-      "en": "When I use hBP04-013 Hakui Koyori's Gift \"Never give up!\" to look at my holo Power, do I have to take a card from it?"
+      "en": "When I use hBP04-013 Hakui Koyori's Gift \"I'll Never Give Up!\" to look at my holo Power, do I have to take a card from it?"
     },
     "answer": {
       "jp": "はい、ホロパワーが1枚でもある場合は加えなければなりません。",
@@ -4505,7 +4505,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のデッキが0枚のとき、hBP04-013〈博衣こより〉のギフト「絶対諦めない！」の能力でホロパワーを加えずに1枚選んで手札に加えることはできますか？",
-      "en": "If there are no cards left in my deck, when I use hBP04-013 Hakui Koyori's Gift \"Never give up!\" do I take a card from my holo Power without adding to it?"
+      "en": "If there are no cards left in my deck, when I use hBP04-013 Hakui Koyori's Gift \"I'll Never Give Up!\" do I take a card from my holo Power without adding to it?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP04-013" ]
@@ -4515,7 +4515,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "デッキにカードが1枚以上ある時、hBP04-013〈博衣こより〉のギフト「絶対諦めない！」の能力でホロパワーを加えずに1枚選んで手札に加えることはできますか？",
-      "en": "If there is at least 1 card left in my deck, when I use hBP04-013 Hakui Koyori's Gift \"Never give up!\" can I take a card from my holo Power without adding to it?"
+      "en": "If there is at least 1 card left in my deck, when I use hBP04-013 Hakui Koyori's Gift \"I'll Never Give Up!\" can I take a card from my holo Power without adding to it?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP04-013" ]
@@ -4525,7 +4525,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-024〈儒烏風亭らでん〉のギフト「冷静沈着」は、hBP01-001〈天音かなた〉の推しスキル「ぎゅっぎゅっ」によって残りHPを「50」させることはできますか？",
-      "en": "My hBP04-024 Juufuutei Raden with the Gift \"Calm and collected\" and less than 50 HP has been targeted by my opponent's hBP01-001 Amane Kanata's Oshi Skill \"Squish Squish\". Will this increase their HP to 50?"
+      "en": "My hBP04-024 Juufuutei Raden with the Gift \"Calm and Collected\" and less than 50 HP has been targeted by my opponent's hBP01-001 Amane Kanata's Oshi Skill \"Squish Squish\". Will this increase their HP to 50?"
     },
     "answer": {
       "jp": "いいえ、HPの変動はしないため「50」にはできません。",
@@ -4551,7 +4551,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-030〈セシリア・イマーグリーン〉のブルームエフェクト「こんな旋律思いついたの」は、複数いる自分のホロメンの中から1人を選び、そのホロメン1人にエール2枚全てを付け替えることはできますか。",
-      "en": "Can I use hBP04-030 Cecilia Immergreen's Bloom Effect \"I came up with a new melody\" to move both cheers to one of my holomem, even if I have multiple holomem?"
+      "en": "Can I use hBP04-030 Cecilia Immergreen's Bloom Effect \"I Came Up with a New Melody\" to move both cheers to one of my holomem, even if I have multiple holomem?"
     },
     "answer": {
       "jp": "はい、できます。 \n複数のホロメンがいる場合でも1人のホロメンに対して該当のエールを全て付けることができます。",
@@ -4590,7 +4590,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分がhBP04-091〈限界飯〉を使っており、相手のセンターホロメンがいない時に、hBP04-037〈一条莉々華〉のアーツ「お？　喧嘩する？」を相手のコラボホロメンに使いました。\nこの場合、能力でセンターホロメンに50ダメージを与えず、コラボホロメンに30ダメージを与えることはできますか？",
-      "en": "I used a hBP04-091 Struggle Meal during my turn, then used hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" on my opponent's collab holomem, while they have no center holomem.\nCan I deal 30 Special Damage to my opponent's collab holomem even though I cannot deal 50 Special Damage to their center holomem?"
+      "en": "I used a hBP04-091 Struggle Meal during my turn, then used hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" on my opponent's collab holomem, while they have no center holomem.\nCan I deal 30 special damage to my opponent's collab holomem even though I cannot deal 50 special damage to their center holomem?"
     },
     "answer": { "jp": "はい、与えられます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP04-037", "hBP04-091" ]
@@ -4600,7 +4600,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のアーカイブにhBP04-106〈雪民〉が4枚ある場合、hBP04-044〈雪花ラミィ〉のコラボエフェクト「Snow flower」を使うことはできますか？\n[8/22更新]6/11(水)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
-      "en": "Can I use hBP04-044 Yukihana Lamy's Collab Effect \"Snow flower\" if I have four copies of hBP04-106 Yukimin between my archive and stage?"
+      "en": "Can I use hBP04-044 Yukihana Lamy's Collab Effect \"Snow Flower\" if I have four copies of hBP04-106 Yukimin between my archive and stage?"
     },
     "answer": {
       "jp": "はい、デッキの中を見て、ホロメンに付けられるhBP04-106〈雪民〉が無いので効果の解決を終えます。",
@@ -4613,7 +4613,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-049〈ムーナ・ホシノヴァ〉のアーツ「Shining Moon」の能力は、自分の他のホロメンがSpotホロメンのみでも「+50」されますか？",
-      "en": "Does the ability of hBP04-049 Moona Hoshinova's Arts \"Shining Moon\" still give +50 Damage if the only other holomem on my stage are Spot holomem?"
+      "en": "Does the ability of hBP04-049 Moona Hoshinova's Arts \"Shining Moon\" still give +50 damage if the only other holomem on my stage are Spot holomem?"
     },
     "answer": {
       "jp": "いいえ、されません。\nSpotホロメンは無色のホロメンとして扱います。無色は色に含まれません。",
@@ -4636,11 +4636,11 @@
     "date": "2025-06-11",
     "question": {
       "jp": "先攻の1ターン目にhBP04-055〈ラプラス・ダークネス〉をコラボさせ、相手のバックホロメン1人をお休みにさせました。\nこの場合、次の相手のリセットステップにそのホロメンはアクティブになりますか？",
-      "en": "As the player going first, on my first turn I Collabed with hBP04-055 La+ Darknesss and rested one of my opponent's holomem. Does that holomem unrest during my opponent's Reset Phase next turn?"
+      "en": "As the player going first, on my first turn I Collabed with hBP04-055 La+ Darknesss and rested one of my opponent's holomem. Does that holomem unrest during my opponent's reset phase next turn?"
     },
     "answer": {
       "jp": "いいえ、お互いの最初のターンはリセットステップがスキップされるため、アクティブにはなりません。",
-      "en": "No, it does not. On both players' first turns the Reset Phase is skipped."
+      "en": "No, it does not. On both players' first turns the reset phase is skipped."
     },
     "referenced_cards": [ "hBP04-055" ]
   },
@@ -4649,11 +4649,11 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のメインステップにhBP02-084〈みっころね24〉とhSD01-020〈ホロリスの輪〉を使い。それぞれでサイコロを振りました。\nその後、hBP04-059〈ラプラス・ダークネス〉のアーツ「吾輩最強伝説」を使った場合、能力で数える「サイコロを振った回数」は何回になりますか？",
-      "en": "During my Main Phase, I used both hBP02-084 Mikkorone 24, and hSD01-020 Circle of hololive Listeners, rolling the die once for each of them.\nIf I now use hBP04-059 La+ Darknesss's Arts \"The strongest legend\", how many dice rolls are counted for the effect?"
+      "en": "During my Main Phase, I used both hBP02-084 Mikkorone 24, and hSD01-020 Circle of hololive Listeners, rolling the die once for each of them.\nIf I now use hBP04-059 La+ Darknesss's Arts \"Legend of My Supremacy\", how many dice rolls are counted for the effect?"
     },
     "answer": {
       "jp": "サポートカードでも能力で振っていることになるため「2回」となります。",
-      "en": "The count is 2 dice rolls. Even when using Support Cards, the dice rolls are counted."
+      "en": "The count is 2 dice rolls. Even when using support cards, the dice rolls are counted."
     },
     "referenced_cards": [ "hBP02-084", "hBP04-059" ]
   },
@@ -4662,7 +4662,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のセンターポジションでhBP01-043〈兎田ぺこら〉がアーツ「全人類兎化計画」を使い、サイコロを3回振りました。\nこの場合、コラボポジションでhBP04-059〈ラプラス・ダークネス〉のアーツ「吾輩最強伝説」の能力で数える「サイコロを振った回数」は何回になりますか？",
-      "en": "My center hBP01-043 Usada Pekora used ther Arts \"Operation: Bunnify Humanity\" and rolled a die 3 times.\nIf I now use hBP04-059 La+ Darknesss's Arts \"The strongest legend\", how many dice rolls are counted for the effect?"
+      "en": "My center hBP01-043 Usada Pekora used ther Arts \"Operation: Bunnify Humanity\" and rolled a die 3 times.\nIf I now use hBP04-059 La+ Darknesss's Arts \"Legend of My Supremacy\", how many dice rolls are counted for the effect?"
     },
     "answer": {
       "jp": "「このターンに自分が能力でサイコロを振った回数」となるため、この場合はhBP01-043〈兎田ぺこら〉のアーツ「全人類兎化計画」によって振った「3回」となります。",
@@ -4675,7 +4675,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のセンターポジションのhBP01-123〈野うさぎ同盟〉が付いているhBP01-043〈兎田ぺこら〉がアーツ「全人類兎化計画」を使い、サイコロを3回振りました。\nその後、hBP01-123〈野うさぎ同盟〉の能力を使い、サイコロを3回振り直しました。\nこの場合、コラボポジションのhBP04-059〈ラプラス・ダークネス〉がアーツ「吾輩最強伝説」を使った場合、能力で数える「サイコロを振った回数」は何回になりますか？",
-      "en": "My center hBP01-043 Usada Pekora used her Arts \"Operation: Bunnify Humanity\" and rolled a die 3 times.\nI then used the ability of the attached hBP01-123 Wild Rabbit Alliance to re-roll the die 3 times.\nIf I now use hBP04-059 La+ Darknesss's Arts \"The strongest legend\", how many dice rolls are counted for the effect?"
+      "en": "My center hBP01-043 Usada Pekora used her Arts \"Operation: Bunnify Humanity\" and rolled a die 3 times.\nI then used the ability of the attached hBP01-123 Wild Rabbit Alliance to re-roll the die 3 times.\nIf I now use hBP04-059 La+ Darknesss's Arts \"Legend of My Supremacy\", how many dice rolls are counted for the effect?"
     },
     "answer": {
       "jp": "hBP01-123〈野うさぎ同盟〉の能力によって前のサイコロの結果を無くしているため、数える回数は「3回」になります。",
@@ -4701,7 +4701,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-061〈クレイジー・オリー〉のブルームエフェクト「オリ－を見てください！」の能力は、hBP02-006〈クレイジー・オリー〉のSP推しスキル「蘇るオリー」でBloomさせた〈クレイジー・オリー〉のみHPを回復できるのですか？",
-      "en": "Does hBP04-061 Kureiji Ollie's Bloom Effect \"Look at Ollie!\" only restore HP to the holomem that was Bloomed by hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\"?"
+      "en": "Does hBP04-061 Kureiji Ollie's Bloom Effect \"Please Watch Ollie!\" only restore HP to the holomem that was Bloomed by hBP02-006 Kureiji Ollie's SP Oshi Skill \"Ollie Revives\"?"
     },
     "answer": {
       "jp": "いいえ、他の〈クレイジー・オリー〉も回復できます。",
@@ -4773,7 +4773,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-089〈ツートンカラーパソコン〉の「色が1色で異なる色のホロメン」とはどういう意味ですか？",
-      "en": "What does \"unicolor holomem with different colors\" mean on hBP04-089 Two-Tone PC?"
+      "en": "What does \"2 of your holomem on stage each with only 1 color and is different color from each other\" mean on hBP04-089 Two-Tone PC?"
     },
     "answer": {
       "jp": "そのホロメンが持つ色が1色のみであり、2人以上いることを指します。\n例としてhBP01-021〈ときのそら〉は持っている色が1色ですが、hSD01-013〈SorAZ〉は持っている色が2色となります。",
@@ -4832,7 +4832,7 @@
     "date": "2025-06-11",
     "question": {
       "jp": "自分のステージにhBP04-099〈古代武器〉が付いているhBP04-074〈アーニャ・メルフィッサ〉がいる時、hBP04-099〈古代武器〉が付いているhBP04-076〈アーニャ・メルフィッサ〉のアーツ「応援、よろしくね！」を使いました。\nこの場合、hBP04-099〈古代武器〉の能力により、hBP04-076〈アーニャ・メルフィッサ〉のアーツ「応援、よろしくね！」のダメージはいくつ上がりますか？",
-      "en": "I have a hBP04-074 Anya Melfissa and a hBP04-076 Anya Melfissa each with a hBP04-099 Ancient Weapon attached on my stage.\nWhen I use hBP04-076 Anya Melfissa's Arts \"Thank you for your support!\", how much Damage is added from the effect of Ancient Weapon?"
+      "en": "I have a hBP04-074 Anya Melfissa and a hBP04-076 Anya Melfissa each with a hBP04-099 Ancient Weapon attached on my stage.\nWhen I use hBP04-076 Anya Melfissa's Arts \"Please Cheer for Me!\", how much damage is added from the effect of Ancient Weapon?"
     },
     "answer": {
       "jp": "ステージにhBP04-099〈古代武器〉が2枚あるので「+20」されます。",
@@ -4845,11 +4845,11 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-048〈雪花ラミィ〉のアーツ「今日も祝福がありますように」の能力で、バックポジションにいるhBP04-102〈やめなー〉が付いている〈雪花ラミィ〉を選ぶことはできますか？",
-      "en": "When using hBP04-048 Yukihana Lamy's Arts \"May Today Be a Blessed Day\", can I choose a back holomem with hBP04-102 Yamena attached as a target for the Special Damage?"
+      "en": "When using hBP04-048 Yukihana Lamy's Arts \"May Today Be a Blessed Day\", can I choose a back holomem with hBP04-102 Yamena attached as a target for the special damage?"
     },
     "answer": {
       "jp": "はい、選べます。\nしかし、hBP04-102〈やめなー〉の能力によりダメージは与えられません。",
-      "en": "Yes, you can. However, they will not take any Damage due to the ability of Yamena."
+      "en": "Yes, you can. However, they will not take any damage due to the ability of Yamena."
     },
     "referenced_cards": [ "hBP04-048", "hBP04-102" ]
   },
@@ -4891,7 +4891,7 @@
     "date": "2025-06-20",
     "question": {
       "jp": "hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使って、自分のhBP04-047〈雪花ラミィ〉を選びました。\nその後、hBP04-048〈雪花ラミィ〉にBloomした場合、hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」の能力はどうなりますか？",
-      "en": "I chose hBP04-047 Yukihana Lamy as the target of hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vrooooom! Baribaribaribari\"\nIf I then bloom that holomem to hBP04-048 Yukihana Lamy, what happens to the effects of \"Vrooooom! Baribaribaribari\"?"
+      "en": "I chose hBP04-047 Yukihana Lamy as the target of hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vroom, Bari Bari Bari Bari\"\nIf I then bloom that holomem to hBP04-048 Yukihana Lamy, what happens to the effects of \"Vroom, Bari Bari Bari Bari\"?"
     },
     "answer": {
       "jp": "Bloom前にかかった能力はBloom後にも引き継がれます。",
@@ -4904,7 +4904,7 @@
     "date": "2025-06-20",
     "question": {
       "jp": "自分のマスコットが2枚付いているhBP02-013〈白上フブキ〉をhBP04-014〈白上フブキ〉にBloomさせました。\nこの場合、ルールによってマスコットを1枚になるようにアーカイブするのと、hBP04-014〈白上フブキ〉のブルームエフェクト「戻っておいで」の能力はどちらから処理されますか？",
-      "en": "I Bloomed my hBP02-013 Shirakami Fubuki with two mascots attached, into a hBP04-014 Shirakami Fubuki.\nIn this case, in which order do I perform the Bloom Effect \"Please come back\" and removing a mascot as the new holomem can only have 1 attached?"
+      "en": "I Bloomed my hBP02-013 Shirakami Fubuki with two mascots attached, into a hBP04-014 Shirakami Fubuki.\nIn this case, in which order do I perform the Bloom Effect \"Come Back\" and removing a mascot as the new holomem can only have 1 attached?"
     },
     "answer": {
       "jp": "ルールにより、マスコットが1枚になるようにアーカイブした後、ブルームエフェクト「戻っておいで」の能力を処理します。",
@@ -4917,7 +4917,7 @@
     "date": "2025-06-20",
     "question": {
       "jp": "hBP04-006〈大空スバル〉の推しスキル「メンタル！ フィジカル！ パッション！」は、1ターンの間に相手のホロメンからの特殊ダメージや、アーツによるダメージそれぞれに-30を割り振ることはできますか？",
-      "en": "When using hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\", can I reduce both the Special Damage and Arts Damage of a single Arts by 30?"
+      "en": "When using hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\", can I reduce both the special damage and arts damage of a single Arts by 30?"
     },
     "answer": {
       "jp": "いいえ、できません。\n一度に受けるダメージを減らす能力のため、推しスキルを使ったタイミングに受けるダメージのみしか減らせません。",
@@ -4930,7 +4930,7 @@
     "date": "2025-06-20",
     "question": {
       "jp": "自分の推しホロメンがhBP04-006〈大空スバル〉で、センターホロメンとバックホロメン1人がhBP04-067〈大空スバル〉の時、相手がhBP01-087〈こぼ・かなえる〉のアーツ「雨のマントラ」を使いました。\nバックホロメンのhBP04-067〈大空スバル〉に、能力による20ダメージが与えられる時に推しスキル「メンタル！ フィジカル！ パッション！」を使った場合、その後のセンターホロメンのhBP04-067〈大空スバル〉に与えられる40ダメージを-30することはできますか？",
-      "en": "When using hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\", can I reduce both the Special Damage and Arts Damage of hBP01-087 Kobo Kanaeru's Arts \"Rain Mantra\" by 30?"
+      "en": "When using hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\", can I reduce both the special damage and arts damage of hBP01-087 Kobo Kanaeru's Arts \"Rain Mantra\" by 30?"
     },
     "answer": {
       "jp": "いいえ、できません。\n一度に受けるダメージを減らす能力のため、推しスキルを使ったタイミングのダメージのみしか減らせません。",
@@ -4956,7 +4956,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "エールが2枚付いている〈大空スバル〉にhBP04-070〈大空スバル〉のコラボエフェクト「全力で頑張るから」の能力を使いました。\nその後、さらにエールを1枚付けてアーツを使った場合、+20ではなく+30されますか？",
-      "en": "I used hBP04-070 Oozora Subaru's Collab Effect \"I'll do my best\" on a holomem with 2 cheers attached. If I attach one more cheer to that holomem this turn, will they have Arts+30 or +20?"
+      "en": "I used hBP04-070 Oozora Subaru's Collab Effect \"I'll Give It My All\" on a holomem with 2 cheers attached. If I attach one more cheer to that holomem this turn, will they have Arts+30 or +20?"
     },
     "answer": {
       "jp": "いいえ、能力を使った時の枚数のみを数えるため、+20となります。",
@@ -4969,7 +4969,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP04-106〈雪民〉が付いているhBP04-047〈雪花ラミィ〉にhBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、その後コラボエフェクト「fleur」を使って相手のホロメンに120ダメージを与えました。\nその後、hBP04-048〈雪花ラミィ〉にBloomさせ、パフォーマンスステップでアーツ「今日も祝福がありますように」を使った場合、アーツの能力も+100されますか？",
-      "en": "I used hBP04-004 Yukihana Lamy's SP Skill \"Vrooooom! Baribaribaribari\" on hBP04-047 Yukihana Lamy, which has a hBP04-106 Yukimin attached, and then used the Collab Effect \"fleur\" to deal 120 damage to my opponent's holomem.\nIf I then Bloom that holomem to hBP04-048 Yukihana Lamy and use the Arts \"May Today Be a Blessed Day\" during the Performance Phase, will the Arts still deal +100 Special Damage?"
+      "en": "I used hBP04-004 Yukihana Lamy's SP Skill \"Vroom, Bari Bari Bari Bari\" on hBP04-047 Yukihana Lamy, which has a hBP04-106 Yukimin attached, and then used the Collab Effect \"fleur\" to deal 120 damage to my opponent's holomem.\nIf I then Bloom that holomem to hBP04-048 Yukihana Lamy and use the Arts \"May Today Be a Blessed Day\" during the performance phase, will the Arts still deal +100 special damage?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP04-004", "hBP04-047", "hBP04-048", "hBP04-106" ]
@@ -4979,7 +4979,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "自分のセンターホロメンのhBP02-047〈紫咲シオン〉のブルームエフェクト「いたずらの魔法」を使い、サイコロを1回振りました。\nその後、hBP02-005〈紫咲シオン〉の推しスキル「ねえ゛え゛え゛え゛え゛え゛え゛」を使い、サイコロを1回振り直しました。\nこの場合、コラボポジションのhBP04-059〈ラプラス・ダークネス〉がアーツ「吾輩最強伝説」を使ったなら、能力で数える「サイコロを振った回数」は何回になりますか？",
-      "en": "I used my center hBP02-047 Murasaki Shion's Bloom Effect \"Mischief Magic\" and rolled a die. I then used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" to re-roll the die.\nIn this case, if my collab hBP04-059 La+ Darknesss uses the Arts \"The strongest legend\", how many times have I rolled a die this turn for its ability?"
+      "en": "I used my center hBP02-047 Murasaki Shion's Bloom Effect \"Mischief Magic\" and rolled a die. I then used hBP02-005 Murasaki Shion's Oshi Skill \"Heeeyyyyy\" to re-roll the die.\nIn this case, if my collab hBP04-059 La+ Darknesss uses the Arts \"Legend of My Supremacy\", how many times have I rolled a die this turn for its ability?"
     },
     "answer": {
       "jp": "hBP02-005〈紫咲シオン〉の能力によって前のサイコロの結果を無くしているため、数える回数は1回になります。",
@@ -4992,7 +4992,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP04-082〈夏色まつり〉のブルームエフェクト「レッツ ショッピング」の能力でサイコロを3回振る場合、hBP04-005〈ラプラス・ダークネス〉の推しスキル「総帥のお仕事」の能力でそのサイコロの目の数すべてを5として扱うことはできますか？",
-      "en": "If I use hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's Go Shopping\" and roll a die 3 times, does the effect of hBP04-005 La+ Darknesss's Oshi Skill \"Leader's work\" make the results all regarded as 5?"
+      "en": "If I use hBP04-082 Natsuiro Matsuri's Bloom Effect \"Let's Go Shopping\" and roll a die 3 times, does the effect of hBP04-005 La+ Darknesss's Oshi Skill \"Leader's Work\" make the results all regarded as 5?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP04-005", "hBP04-082" ]
@@ -5012,11 +5012,11 @@
     "date": "2025-07-04",
     "question": {
       "jp": "hBP01-121〈Kotori〉が付いている相手のセンターポジションのhBP01-067〈小鳥遊キアラ〉に、自分のhBP04-037〈一条莉々華〉のアーツ「お？　喧嘩する？」の能力で特殊ダメージ50と30を与えました。\nこの場合、与えられるダメージはいくつになりますか？",
-      "en": "My opponent's center hBP01-067 Takanashi Kiara has a hBP01-121 Kotori attached, and I used my hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" dealing it 50 and 30 Special Damage.\nIn this case, how much total Damage will be done to Takanashi Kiara?"
+      "en": "My opponent's center hBP01-067 Takanashi Kiara has a hBP01-121 Kotori attached, and I used my hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" dealing it 50 and 30 special damage.\nIn this case, how much total damage will be done to Takanashi Kiara?"
     },
     "answer": {
       "jp": "それぞれの特殊ダメージが-10されるため、40ダメージと20ダメージが与えられます。",
-      "en": "Both instances of the Special Damage will be reduced by Kotori, meaning you will deal 40 and 20 Damage, for a total of 60."
+      "en": "Both instances of the special damage will be reduced by Kotori, meaning you will deal 40 and 20 damage, for a total of 60."
     },
     "referenced_cards": [ "hBP01-067", "hBP01-121", "hBP04-037" ]
   },
@@ -5025,7 +5025,7 @@
     "date": "2025-07-04",
     "question": {
       "jp": "自分のhBP04-106〈雪民〉が付いているhBP04-047〈雪花ラミィ〉がコラボし、ホロパワーが3になりました。\nこの場合、コラボエフェクト「fleur」の能力を処理する前にhBP04-004〈雪花ラミィ〉の推しスキル「ぶーん、バリバリバリバリ」を使って特殊ダメージを+100することはできますか？",
-      "en": "I collabed with my hBP04-047 Yukihana Lamy with a hBP04-106 Yukimin attached, taking my holo Power up to 3.\nCan I now use hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vrooooom! Baribaribaribari\" before processing the Collab Effect \"fleur\" to deal +100 Special Damage?"
+      "en": "I collabed with my hBP04-047 Yukihana Lamy with a hBP04-106 Yukimin attached, taking my holo Power up to 3.\nCan I now use hBP04-004 Yukihana Lamy's SP Oshi Skill \"Vroom, Bari Bari Bari Bari\" before processing the Collab Effect \"fleur\" to deal +100 Special Damage?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP04-004", "hBP04-047", "hBP04-106" ]
@@ -5061,7 +5061,7 @@
     "date": "2025-08-13",
     "question": {
       "jp": "hSD08-004〈天音かなた〉のアーツ「きみの背中に追いつけるように」の能力で、相手のホロメンに120ダメージを与えダウンさせました。\nその後、別の2ndホロメンに特殊ダメージ40を与え、ダウンさせました。\nこの場合、この能力によってさらに他の相手の2ndホロメンに特殊ダメージ40を与えることはできますか？",
-      "en": "Using hSD08-004 Amane Kanata's Arts \"So that I can catch up with you\", I dealt 120 damage to my opponent's center holomem and it was downed.\nI then dealt 40 special damage to one of their 2nd holomem, and it was also downed.\nCan I now deal 40 special damage to another of my opponent's 2nd holomem?"
+      "en": "Using hSD08-004 Amane Kanata's Arts \"So that I Can Catch Up to You\", I dealt 120 damage to my opponent's center holomem and it was downed.\nI then dealt 40 special damage to one of their 2nd holomem, and it was also downed.\nCan I now deal 40 special damage to another of my opponent's 2nd holomem?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hSD08-004" ]
@@ -5071,7 +5071,7 @@
     "date": "2025-08-13",
     "question": {
       "jp": "hSD08-005〈姫森ルーナ〉のギフト「なんでも入る巾着」の能力は、自分と相手のライフが同じ枚数でも、アーカイブのカード名に「パソコン」を含むアイテム1枚を手札に加えられますか？",
-      "en": "Can I use hSD08-005 Himemori Luna's Gift \"Drawstring bag of holding\" to return an item with \"PC\" in its name from my archive to hand, even if my current Life is the same as my opponent's?"
+      "en": "Can I use hSD08-005 Himemori Luna's Gift \"All-Encompassing Pouch\" to return an item with \"PC\" in its name from my archive to hand, even if my current Life is the same as my opponent's?"
     },
     "answer": { "jp": "はい、加えられます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD08-005" ]
@@ -5081,7 +5081,7 @@
     "date": "2025-08-22",
     "question": {
       "jp": "自分のhBP04-037〈一条莉々華〉のアーツ「お？　喧嘩する？」の能力で、アーツのダメージ80と特殊ダメージ50と特殊ダメージ30を与えました。\nhBP04-006〈大空スバル〉の推しスキル「メンタル！ フィジカル！ パッション！」は、1ターンの間に、相手のホロメンからの特殊ダメージや、アーツによるダメージそれぞれに-30を割り振ることはできますか？",
-      "en": "I used my hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" to deal 50 Special Damage, 30 Special Damage, and 80 Arts Damage to my opponent's holomem.\nCan my opponent use hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\" to reduce both the Special Damage and Arts Damage from this by 30?"
+      "en": "I used my hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" to deal 50 special damage, 30 special damage, and 80 arts damage to my opponent's holomem.\nCan my opponent use hBP04-006 Oozora Subaru's Oshi Skill \"Mental! Physical! Passion!\" to reduce both the special damage and arts damage from this by 30?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, they cannot." },
     "referenced_cards": [ "hBP04-006", "hBP04-037" ]
