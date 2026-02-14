@@ -903,6 +903,16 @@ pub mod hololive_official {
                 *tags = vec![Localized::jp("#Buzzグッズ".into())];
             }
         }
+
+        if language == Language::English {
+            // #ID Gen N have wrong format
+            tags.iter_mut().for_each(|t| match t.english.as_deref() {
+                Some("#IDGen 1") => *t = Localized::en("#ID Gen 1".into()),
+                Some("#IDGen 2") => *t = Localized::en("#ID Gen 2".into()),
+                Some("#IDGen 3") => *t = Localized::en("#ID Gen 3".into()),
+                _ => {}
+            });
+        }
     }
 
     fn fix_colors(card: &Card, colors: &mut Vec<Color>) {
@@ -928,9 +938,14 @@ pub mod hololive_official {
             text = text.replace('◇', "無色エール").trim().to_string();
         }
 
-        // hBP02-079, hBP02-041, hBP02-017 have extra "▲" in ability text, in English
         if language == Language::English {
+            // hBP02-079, hBP02-041, hBP02-017 have extra "▲" in ability text, in English
             text = text.replace('▲', "").trim().to_string();
+
+            // #ID Gen N have wrong format
+            text = text.replace("#IDGen 1", "#ID Gen 1");
+            text = text.replace("#IDGen 2", "#ID Gen 2");
+            text = text.replace("#IDGen 3", "#ID Gen 3");
         }
 
         text

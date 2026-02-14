@@ -288,6 +288,18 @@ fn main() {
         import_holodelta(&mut all_cards, &holodelta_path);
     }
 
+    // garbage collection
+    if args.gc {
+        garbage_collection(
+            &mut all_cards,
+            &args.assets_path,
+            &card_mapping_file,
+            &qna_mapping_file,
+            &images_jp_path,
+            &images_en_path,
+        );
+    }
+
     // save file
     if let Some(parent) = Path::new(&card_mapping_file).parent() {
         fs::create_dir_all(parent).unwrap();
@@ -297,18 +309,6 @@ fn main() {
     let mut ser = Serializer::with_formatter(&mut json, formatter);
     all_cards.serialize(&mut ser).unwrap();
     fs::write(&card_mapping_file, json).unwrap();
-
-    // garbage collection
-    if args.gc {
-        garbage_collection(
-            &all_cards,
-            &args.assets_path,
-            &card_mapping_file,
-            &qna_mapping_file,
-            &images_jp_path,
-            &images_en_path,
-        );
-    }
 
     if args.zip_images {
         zip_images(
@@ -325,7 +325,7 @@ fn main() {
 }
 
 fn garbage_collection(
-    all_cards: &CardsDatabase,
+    all_cards: &mut CardsDatabase,
     assets_path: &Path,
     card_mapping_file: &Path,
     qna_mapping_file: &Path,
@@ -334,6 +334,25 @@ fn garbage_collection(
 ) {
     println!("Running garbage collection...");
 
+    // remove unreferenced cards
+    all_cards.values_mut().for_each(|cs| {
+        cs.illustrations.retain(|i| {
+            let keep = i.manage_id.has_value() || i.ogbajoj_sheet_cells.is_some();
+            if !keep {
+                println!("Removing illustration: {} - {}", cs.card_number, i.rarity);
+            }
+            keep
+        });
+    });
+    all_cards.retain(|_, cs| {
+        let keep = !cs.illustrations.is_empty();
+        if !keep {
+            println!("Removing card: {}", cs.card_number);
+        }
+        keep
+    });
+
+    // remove unreferenced images
     let mut required_paths =
         HashSet::from([card_mapping_file.to_owned(), qna_mapping_file.to_owned()]);
     required_paths.extend(

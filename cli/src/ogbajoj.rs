@@ -702,18 +702,8 @@ pub fn download_images_from_ogbajoj_sheet(
                     else {
                         continue;
                     };
-                    let img_hash = to_image_hash(&hash_img.into_rgb8());
-
-                    // skip rejected hashes
-                    if is_skip_image_hash(&img_hash) {
-                        if DEBUG {
-                            println!(
-                                "[{name}] row {row_idx} {set_code}: skipped image hash {img_hash:?}"
-                            );
-                        }
-                        skipped += 1;
-                        continue;
-                    }
+                    let mut img_hash = to_image_hash(&hash_img.into_rgb8());
+                    fix_image_hash(&mut img_hash);
 
                     // remove the old sheet_cell, if it exists
                     all_cards
@@ -924,21 +914,30 @@ pub fn download_images_from_ogbajoj_sheet(
         });
 }
 
-fn is_skip_image_hash(img_hash: &str) -> bool {
-    let to_skip = [
+fn fix_image_hash(img_hash: &mut String) {
+    *img_hash = match img_hash.as_str() {
         // hBP05-079 (P) Miko, I'm ashamed - poor quality
-        "v2|H32=Uq2rEtSqKHWrYtRzqkxrnfVaVK0rZ5XivFIrrWES1IhqFZLtVKosmqpULZqqV62KcnirZJJFmyxGk2pVcLhSlY6HUlU|CYM=0C0F1C",
+        "v2|H32=Uq2rEtSqKHWrYtRzqkxrnfVaVK0rZ5XivFIrrWES1IhqFZLtVKosmqpULZqqV62KcnirZJJFmyxGk2pVcLhSlY6HUlU|CYM=0C0F1C" => {
+            "v2|H32=QpWjGlRVKmWrqtRC6qhqnfUK1a6rrhRnlOortasa1BqrrDJFBUVsmjhyLJqHB62aY9it6NFsjS6Gh63qcHgtio+HLos|CYM=0B101F"
+        }
         // hBP04-002 (P) Juufuutei Raden - poor quality
-        "v2|H32=qqaVqq6qrXZtVWpVZVVKSVJXZqtaSvaqXFwmksxWbRXKRdqKLUrWUqVVVNvtiyZdti2Spxpk0RaStNKllnbSZJakkrQ|CYM=022450",
+        "v2|H32=qqaVqq6qrXZtVWpVZVVKSVJXZqtaSvaqXFwmksxWbRXKRdqKLUrWUqVVVNvtiyZdti2Spxpk0RaStNKllnbSZJakkrQ|CYM=022450" => {
+            "v2|H32=7CooXeakanWJoVBFUitcy2dbe6sO2WU7KFvVqipS0aqOVFSrTU6lbcbWTapp262KNlAqVWvaKlwqempdrSqqVZWqalM|CYM=121F11"
+        }
         // hBP04-013 (P) Hakui Koyori - poor quality
-        "v2|H32=qk1rkrrMrwoS3Fq6WotavUi6EJXEupSahBukVkyTWVdsN5qlsktaZSXbtLoqRaZVNWiWViJZtSpm3SYLiTTUoqp6yyY|CYM=042F54",
-        // hhBP03-105 (U) Lu-knights - not enough cropping
-        "v2|H32=nqaPopSmoaujSyRZJNlm2WZVblVqVWpValRefN9s1CpWKhJdB5wvig74rYvAfqkq8DHpOvqA4fjgYeG66IPgeP4D+hg|CYM=2E0B08",
+        "v2|H32=qk1rkrrMrwoS3Fq6WotavUi6EJXEupSahBukVkyTWVdsN5qlsktaZSXbtLoqRaZVNWiWViJZtSpm3SYLiTTUoqp6yyY|CYM=042F54" => {
+            "v2|H32=vKqlapCqtQ4nb1qcWk1a6xpV0maLtIR2pKSpuq2vRaupqtolxhYrk+2lLJo20aSaPNhRl6qySdUkiy3ZlNaSlqml0lo|CYM=062619"
+        }
+        // hBP03-105 (U) Lu-knights - not enough cropping
+        "v2|H32=nqaPopSmoaujSyRZJNlm2WZVblVqVWpValRefN9s1CpWKhJdB5wvig74rYvAfqkq8DHpOvqA4fjgYeG66IPgeP4D+hg|CYM=2E0B08" => {
+            "v2|H32=vKK/plKlAyupq6QVoNUl2Sf5amVqRahZulxKdW0o1CrSOrJJJ2YnmyeyjZvATMyu5DhsZvwzbGaYmYxp2M7IbOwHbDI|CYM=360C09"
+        }
         // hBP02-054 (P) Mori Calliope - poor quality
-        "v2|H32=ClWJTlpVMjV1UnQ6NPOkUmyVqtcs1UapW9VG7Vs7SudPCZJWnKombU/V8HGgKlWqnxZNVYpXTWViSVmWW6tVpGhNbUU|CYM=094937",
-    ];
-
-    to_skip.contains(&img_hash)
+        "v2|H32=ClWJTlpVMjV1UnQ6NPOkUmyVqtcs1UapW9VG7Vs7SudPCZJWnKombU/V8HGgKlWqnxZNVYpXTWViSVmWW6tVpGhNbUU|CYM=094937" => {
+            "v2|H32=qqqNKtbV8yNyajQ5tGoEuuxUo9MsDUpVyItmJUvVVjWJlZpatKlmtWtVdLJYoxyqzxamrNOXJG2iFCyKWKNU2ql0aq0|CYM=035962"
+        }
+        _ => img_hash,
+    }.to_string();
 }
 
 pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
