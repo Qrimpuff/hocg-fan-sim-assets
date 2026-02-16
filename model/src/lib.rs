@@ -1,3 +1,4 @@
+use std::cmp::Reverse;
 use std::collections::{BTreeMap, BTreeSet};
 use std::fmt::Display;
 use std::ops::Deref;
@@ -91,7 +92,6 @@ impl<T: Eq + Serialize + Ord> PartialOrd for Localized<T> {
 
 impl<T: Eq + Serialize + Ord> Ord for Localized<T> {
     fn cmp(&self, other: &Self) -> Ordering {
-        use std::cmp::Reverse;
         // use Reverse to pull None at the end, while keeping original order for Some values
         (
             Reverse(self.japanese.as_ref().map(Reverse)),
@@ -128,7 +128,7 @@ pub enum SupportType {
     Fan,
 }
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize, Hash)]
 #[serde(rename_all = "snake_case")]
 pub enum Color {
     White,
@@ -186,6 +186,81 @@ pub struct Card {
     pub baton_pass: Vec<Color>, // holomem
     pub max_amount: Localized<u32>, //different restrictions per language
     pub illustrations: Vec<CardIllustration>,
+}
+
+impl Card {
+    pub fn names(&self) -> Vec<&str> {
+        let mut names: Vec<&str> = [self.name.japanese.as_deref(), self.name.english.as_deref()]
+            .into_iter()
+            .flatten()
+            .collect();
+        names.dedup();
+
+        // handle FUWAMOCO oshi
+        if self.card_type == CardType::OshiHoloMember
+            && names.iter().any(|&name| name.contains("FUWAMOCO"))
+        {
+            for name in [
+                "フワワ・アビスガード",
+                "モココ・アビスガード",
+                "Fuwawa Abyssgard",
+                "Mococo Abyssgard",
+            ] {
+                if !names.contains(&name) {
+                    names.push(name);
+                }
+            }
+        }
+
+        // handle "このホロメンは〈ときのそら〉〈AZKi〉としても扱う"
+        // handle "This holomem is also regarded as 〈Tokino Sora〉〈AZKi〉"
+        if let Some(extra) = &self.extra
+            && (extra
+                .japanese
+                .as_ref()
+                .is_some_and(|jp| jp.contains("このホロメンは") && jp.contains("としても扱う"))
+                || extra
+                    .english
+                    .as_ref()
+                    .map(|en| en.to_lowercase())
+                    .is_some_and(|en| en.contains("this holomem is also regarded as")))
+        {
+            // extract names between 〈〉 and <>
+            for extra in [extra.japanese.as_deref(), extra.english.as_deref()]
+                .into_iter()
+                .flatten()
+            {
+                for part in extra.split('〈').skip(1) {
+                    if let Some(name) = part.split('〉').next()
+                        && !names.contains(&name)
+                    {
+                        names.push(name);
+                    }
+                }
+                for part in extra.split('<').skip(1) {
+                    if let Some(name) = part.split('>').next()
+                        && !names.contains(&name)
+                    {
+                        names.push(name);
+                    }
+                }
+            }
+        }
+
+        names
+    }
+
+    pub fn sort_key<'a>(&'a self) -> CardOrderingHelper<'a, 'a, 'a, 7> {
+        CardOrderingHelper::<7>::default(self)
+    }
+
+    pub fn sort_key_deck<'a, 'b, 'c>(
+        &'a self,
+        oshi_bias: Option<&'b Card>,
+        colors_bias: &'c [Color],
+    ) -> CardOrderingHelper<'a, 'b, 'c, 7> {
+        CardOrderingHelper::<7>::deck_sort(self, oshi_bias, colors_bias)
+    }
 }
 
 // Oshi skills
@@ -454,7 +529,6 @@ impl PartialOrd for SheetCell {
 
 impl Ord for SheetCell {
     fn cmp(&self, other: &Self) -> Ordering {
-        use std::cmp::Reverse;
         // use Reverse to pull None at the end, while keeping original order for Some values
         (Reverse(self.to_row_col().as_ref().map(Reverse)),)
             .cmp(&(Reverse(other.to_row_col().as_ref().map(Reverse)),))
@@ -477,359 +551,449 @@ fn is_default<T: Default + Eq>(value: &T) -> bool {
     value == &T::default()
 }
 
-fn holomem_order(text: &str) -> usize {
-    // following the order of the official website
-    // https://hololive.hololivepro.com/en/talents
-    let names = [
-        // Gen 0
-        "ときのそら",
-        "Tokino Sora",
-        "ロボ子さん",
-        "Robocosan",
-        "AZKi",
-        "AZKi",
-        "さくらみこ",
-        "Sakura Miko",
-        "星街すいせい",
-        "Hoshimachi Suisei",
-        // Gen 1
-        "アキ・ローゼンタール",
-        "Aki Rosenthal",
-        "赤井はあと",
-        "Akai Haato",
-        "白上フブキ",
-        "Shirakami Fubuki",
-        "夏色まつり",
-        "Natsuiro Matsuri",
-        // Gen 2
-        "紫咲シオン",
-        "Murasaki Shion",
-        "百鬼あやめ",
-        "Nakiri Ayame",
-        "癒月ちょこ",
-        "Yuzuki Choco",
-        "大空スバル",
-        "Oozora Subaru",
-        "湊あくあ",
-        "Minato Aqua",
-        // GAMERS
-        "大神ミオ",
-        "Ookami Mio",
-        "猫又おかゆ",
-        "Nekomata Okayu",
-        "戌神ころね",
-        "Inugami Korone",
-        // Gen 3
-        "兎田ぺこら",
-        "Usada Pekora",
-        "不知火フレア",
-        "Shiranui Flare",
-        "白銀ノエル",
-        "Shirogane Noel",
-        "宝鐘マリン",
-        "Houshou Marine",
-        // Gen 4
-        "天音かなた",
-        "Amane Kanata",
-        "角巻わため",
-        "Tsunomaki Watame",
-        "常闇トワ",
-        "Tokoyami Towa",
-        "姫森ルーナ",
-        "Himemori Luna",
-        "桐生ココ",
-        "Kiryu Coco",
-        // Gen 5
-        "雪花ラミィ",
-        "Yukihana Lamy",
-        "桃鈴ねね",
-        "Momosuzu Nene",
-        "獅白ぼたん",
-        "Shishiro Botan",
-        "尾丸ポルカ",
-        "Omaru Polka",
-        // holoX
-        "ラプラス・ダークネス",
-        "La+ Darknesss",
-        "鷹嶺ルイ",
-        "Takane Lui",
-        "博衣こより",
-        "Hakui Koyori",
-        "沙花叉クロヱ",
-        "Sakamata Chloe",
-        "風真いろは",
-        "Kazama Iroha",
-        // Indonesia
-        "アユンダ・リス",
-        "Ayunda Risu",
-        "ムーナ・ホシノヴァ",
-        "Moona Hoshinova",
-        "アイラニ・イオフィフティーン",
-        "Airani Iofifteen",
-        "クレイジー・オリー",
-        "Kureiji Ollie",
-        "アーニャ・メルフィッサ",
-        "Anya Melfissa",
-        "パヴォリア・レイネ",
-        "Pavolia Reine",
-        "ベスティア・ゼータ",
-        "Vestia Zeta",
-        "カエラ・コヴァルスキア",
-        "Kaela Kovalskia",
-        "こぼ・かなえる",
-        "Kobo Kanaeru",
-        // English - Myth
-        "森カリオペ",
-        "Mori Calliope",
-        "小鳥遊キアラ",
-        "Takanashi Kiara",
-        "一伊那尓栖",
-        "Ninomae Ina'nis",
-        "がうる・ぐら",
-        "Gawr Gura",
-        "ワトソン・アメリア",
-        "Watson Amelia",
-        // Project: HOPE
-        "IRyS",
-        "IRyS",
-        // Council
-        "オーロ・クロニー",
-        "Ouro Kronii",
-        "七詩ムメイ",
-        "Nanashi Mumei",
-        "ハコス・ベールズ",
-        "Hakos Baelz",
-        "九十九佐命",
-        "Tsukumo Sana",
-        "セレス・ファウナ",
-        "Ceres Fauna",
-        // Advent
-        "シオリ・ノヴェラ",
-        "Shiori Novella",
-        "古石ビジュー",
-        "Koseki Bijou",
-        "ネリッサ・レイヴンクロフト",
-        "Nerissa Ravencroft",
-        "フワワ・アビスガード",
-        "Fuwawa Abyssgard",
-        "モココ・アビスガード",
-        "Mococo Abyssgard",
-        // Justice
-        "エリザベス・ローズ・ブラッドフレイム",
-        "Elizabeth Rose Bloodflame",
-        "ジジ・ムリン",
-        "Gigi Murin",
-        "セシリア・イマーグリーン",
-        "Cecilia Immergreen",
-        "ラオーラ・パンテーラ",
-        "Raora Panthera",
-        // DEV_IS - ReGLOSS
-        "火威青",
-        "Hiodoshi Ao",
-        "音乃瀬奏",
-        "Otonose Kanade",
-        "一条莉々華",
-        "Ichijou Ririka",
-        "儒烏風亭らでん",
-        "Juufuutei Raden",
-        "轟はじめ",
-        "Todoroki Hajime",
-        // FLOW GLOW
-        "響咲リオナ",
-        "Isaki Riona",
-        "虎金妃笑虎",
-        "Koganei Niko",
-        "水宮枢",
-        "Mizumiya Su",
-        "輪堂千速",
-        "Rindo Chihaya",
-        "綺々羅々ヴィヴィ",
-        "Kikirara Vivi",
-        // Staff
-        "春先のどか",
-        "Harusaki Nodoka",
-        "友人A（えーちゃん）",
-        "Friend A (A-chan)",
-    ];
-
-    // Check if the text contains any of the names
-    let text = text.to_lowercase();
-    names
-        .iter()
-        .position(|&name| text.contains(name.to_lowercase().as_str()))
-        .unwrap_or(usize::MAX)
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct CardOrderingHelper<'c, 'o, 'y, const F: usize> {
+    card: &'c Card,
+    oshi_bias: Option<&'o Card>,
+    colors_bias: &'y [Color],
+    ordering_fields: [CardOrderingField; F],
 }
 
-impl Ord for Card {
-    fn cmp(&self, other: &Self) -> Ordering {
-        // Priority 1: Card type
-        let type_ordering = self.card_type.cmp(&other.card_type);
-        if type_ordering != Ordering::Equal {
-            // println!(
-            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
-            //     self.card_number, self.card_type, other.card_number, other.card_type, type_ordering
-            // );
-            return type_ordering;
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum CardOrderingField {
+    CardType,
+    Colors,
+    Member,
+    BloomLevel,
+    Buzz,
+    AttachText,
+    CardNumber,
+}
+
+impl<const F: usize> CardOrderingHelper<'_, '_, '_, F> {
+    pub fn default(card: &Card) -> CardOrderingHelper<'_, '_, '_, 7> {
+        use CardOrderingField::*;
+        CardOrderingHelper {
+            card,
+            oshi_bias: None,
+            colors_bias: &[],
+            ordering_fields: [
+                CardType, Colors, Member, BloomLevel, Buzz, AttachText, CardNumber,
+            ],
         }
+    }
 
-        // Priority 2: Colors
-        let color_ordering = self.colors.cmp(&other.colors);
-        if color_ordering != Ordering::Equal {
-            // println!(
-            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
-            //     self.card_number, self.colors, other.card_number, other.colors, color_ordering
-            // );
-            return color_ordering;
+    pub fn member_first(card: &Card) -> CardOrderingHelper<'_, '_, '_, 7> {
+        use CardOrderingField::*;
+        CardOrderingHelper {
+            ordering_fields: [
+                CardType, Member, BloomLevel, Buzz, Colors, AttachText, CardNumber,
+            ],
+            ..Self::default(card)
         }
+    }
 
-        // Priority 3: Members
-        if self.card_type == CardType::OshiHoloMember || self.card_type == CardType::HoloMember {
-            let self_name: String = [self.name.japanese.as_ref(), self.name.english.as_ref()]
-                .into_iter()
-                // unit cards have names in extras
-                .chain(
-                    self.extra
-                        .iter()
-                        .flat_map(|e| [e.japanese.as_ref(), e.english.as_ref()]),
-                )
-                .flatten()
-                .cloned()
-                .collect();
-            let other_name: String = [other.name.japanese.as_ref(), other.name.english.as_ref()]
-                .into_iter()
-                // unit cards have names in extras
-                .chain(
-                    other
-                        .extra
-                        .iter()
-                        .flat_map(|e| [e.japanese.as_ref(), e.english.as_ref()]),
-                )
-                .flatten()
-                .cloned()
-                .collect();
-
-            let self_member_order = holomem_order(&self_name);
-            let other_member_order = holomem_order(&other_name);
-            let member_ordering = self_member_order.cmp(&other_member_order);
-            if member_ordering != Ordering::Equal {
-                // println!(
-                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
-                //     self.card_number,
-                //     self.name.japanese,
-                //     other.card_number,
-                //     other.name.japanese,
-                //     member_ordering
-                // );
-                return member_ordering;
-            }
-
-            // Priority 4: Bloom Level
-            let bloom_ordering = self.bloom_level.cmp(&other.bloom_level);
-            if bloom_ordering != Ordering::Equal {
-                // println!(
-                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
-                //     self.card_number,
-                //     self.bloom_level,
-                //     other.card_number,
-                //     other.bloom_level,
-                //     bloom_ordering
-                // );
-                return bloom_ordering;
-            }
-
-            // Priority 5: Buzz
-            let buzz_ordering = self.buzz.cmp(&other.buzz);
-            if buzz_ordering != Ordering::Equal {
-                // println!(
-                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
-                //     self.card_number, self.buzz, other.card_number, other.buzz, buzz_ordering
-                // );
-                return buzz_ordering;
-            }
+    pub fn deck_sort<'c, 'o, 'y>(
+        card: &'c Card,
+        oshi_card: Option<&'o Card>,
+        colors: &'y [Color],
+    ) -> CardOrderingHelper<'c, 'o, 'y, 7> {
+        CardOrderingHelper {
+            oshi_bias: oshi_card,
+            colors_bias: colors,
+            ..Self::member_first(card)
         }
+    }
 
-        // Priority 6: Tool/Mascot/Fan members
-        if self.card_type == CardType::Support(SupportType::Tool)
-            || self.card_type == CardType::Support(SupportType::Mascot)
-            || self.card_type == CardType::Support(SupportType::Fan)
-        {
-            let self_text: String = self
-                .oshi_skills
-                .iter()
-                .flat_map(|skill| {
-                    [
-                        skill.ability_text.japanese.as_ref(),
-                        skill.ability_text.english.as_ref(),
-                    ]
-                })
-                .chain(self.keywords.iter().flat_map(|keyword| {
-                    [
-                        keyword.ability_text.japanese.as_ref(),
-                        keyword.ability_text.english.as_ref(),
-                    ]
-                }))
-                .chain(self.arts.iter().flat_map(|art| {
-                    art.ability_text
-                        .iter()
-                        .flat_map(|t| [t.japanese.as_ref(), t.english.as_ref()])
-                }))
-                .chain([
-                    self.ability_text.japanese.as_ref(),
-                    self.ability_text.english.as_ref(),
-                ])
-                .flatten()
-                .cloned()
-                .collect();
-            let other_text: String = other
-                .oshi_skills
-                .iter()
-                .flat_map(|skill| {
-                    [
-                        skill.ability_text.japanese.as_ref(),
-                        skill.ability_text.english.as_ref(),
-                    ]
-                })
-                .chain(other.keywords.iter().flat_map(|keyword| {
-                    [
-                        keyword.ability_text.japanese.as_ref(),
-                        keyword.ability_text.english.as_ref(),
-                    ]
-                }))
-                .chain(other.arts.iter().flat_map(|art| {
-                    art.ability_text
-                        .iter()
-                        .flat_map(|t| [t.japanese.as_ref(), t.english.as_ref()])
-                }))
-                .chain([
-                    other.ability_text.japanese.as_ref(),
-                    other.ability_text.english.as_ref(),
-                ])
-                .flatten()
-                .cloned()
-                .collect();
+    fn holomem_order(text: &str, oshi_bias: Option<&Card>) -> usize {
+        // following the order of the official website
+        // https://hololive.hololivepro.com/en/talents
+        let names = [
+            // Gen 0
+            "ときのそら",
+            "Tokino Sora",
+            "ロボ子さん",
+            "Robocosan",
+            "AZKi",
+            "AZKi",
+            "さくらみこ",
+            "Sakura Miko",
+            "星街すいせい",
+            "Hoshimachi Suisei",
+            // Gen 1
+            "アキ・ローゼンタール",
+            "Aki Rosenthal",
+            "赤井はあと",
+            "Akai Haato",
+            "白上フブキ",
+            "Shirakami Fubuki",
+            "夏色まつり",
+            "Natsuiro Matsuri",
+            // Gen 2
+            "紫咲シオン",
+            "Murasaki Shion",
+            "百鬼あやめ",
+            "Nakiri Ayame",
+            "癒月ちょこ",
+            "Yuzuki Choco",
+            "大空スバル",
+            "Oozora Subaru",
+            "湊あくあ",
+            "Minato Aqua",
+            // GAMERS
+            "大神ミオ",
+            "Ookami Mio",
+            "猫又おかゆ",
+            "Nekomata Okayu",
+            "戌神ころね",
+            "Inugami Korone",
+            // Gen 3
+            "兎田ぺこら",
+            "Usada Pekora",
+            "不知火フレア",
+            "Shiranui Flare",
+            "白銀ノエル",
+            "Shirogane Noel",
+            "宝鐘マリン",
+            "Houshou Marine",
+            // Gen 4
+            "天音かなた",
+            "Amane Kanata",
+            "角巻わため",
+            "Tsunomaki Watame",
+            "常闇トワ",
+            "Tokoyami Towa",
+            "姫森ルーナ",
+            "Himemori Luna",
+            "桐生ココ",
+            "Kiryu Coco",
+            // Gen 5
+            "雪花ラミィ",
+            "Yukihana Lamy",
+            "桃鈴ねね",
+            "Momosuzu Nene",
+            "獅白ぼたん",
+            "Shishiro Botan",
+            "尾丸ポルカ",
+            "Omaru Polka",
+            // holoX
+            "ラプラス・ダークネス",
+            "La+ Darknesss",
+            "鷹嶺ルイ",
+            "Takane Lui",
+            "博衣こより",
+            "Hakui Koyori",
+            "沙花叉クロヱ",
+            "Sakamata Chloe",
+            "風真いろは",
+            "Kazama Iroha",
+            // Indonesia
+            "アユンダ・リス",
+            "Ayunda Risu",
+            "ムーナ・ホシノヴァ",
+            "Moona Hoshinova",
+            "アイラニ・イオフィフティーン",
+            "Airani Iofifteen",
+            "クレイジー・オリー",
+            "Kureiji Ollie",
+            "アーニャ・メルフィッサ",
+            "Anya Melfissa",
+            "パヴォリア・レイネ",
+            "Pavolia Reine",
+            "ベスティア・ゼータ",
+            "Vestia Zeta",
+            "カエラ・コヴァルスキア",
+            "Kaela Kovalskia",
+            "こぼ・かなえる",
+            "Kobo Kanaeru",
+            // English - Myth
+            "森カリオペ",
+            "Mori Calliope",
+            "小鳥遊キアラ",
+            "Takanashi Kiara",
+            "一伊那尓栖",
+            "Ninomae Ina'nis",
+            "がうる・ぐら",
+            "Gawr Gura",
+            "ワトソン・アメリア",
+            "Watson Amelia",
+            // Project: HOPE
+            "IRyS",
+            "IRyS",
+            // Council
+            "オーロ・クロニー",
+            "Ouro Kronii",
+            "七詩ムメイ",
+            "Nanashi Mumei",
+            "ハコス・ベールズ",
+            "Hakos Baelz",
+            "九十九佐命",
+            "Tsukumo Sana",
+            "セレス・ファウナ",
+            "Ceres Fauna",
+            // Advent
+            "シオリ・ノヴェラ",
+            "Shiori Novella",
+            "古石ビジュー",
+            "Koseki Bijou",
+            "ネリッサ・レイヴンクロフト",
+            "Nerissa Ravencroft",
+            "フワワ・アビスガード",
+            "Fuwawa Abyssgard",
+            "モココ・アビスガード",
+            "Mococo Abyssgard",
+            // Justice
+            "エリザベス・ローズ・ブラッドフレイム",
+            "Elizabeth Rose Bloodflame",
+            "ジジ・ムリン",
+            "Gigi Murin",
+            "セシリア・イマーグリーン",
+            "Cecilia Immergreen",
+            "ラオーラ・パンテーラ",
+            "Raora Panthera",
+            // DEV_IS - ReGLOSS
+            "火威青",
+            "Hiodoshi Ao",
+            "音乃瀬奏",
+            "Otonose Kanade",
+            "一条莉々華",
+            "Ichijou Ririka",
+            "儒烏風亭らでん",
+            "Juufuutei Raden",
+            "轟はじめ",
+            "Todoroki Hajime",
+            // FLOW GLOW
+            "響咲リオナ",
+            "Isaki Riona",
+            "虎金妃笑虎",
+            "Koganei Niko",
+            "水宮枢",
+            "Mizumiya Su",
+            "輪堂千速",
+            "Rindo Chihaya",
+            "綺々羅々ヴィヴィ",
+            "Kikirara Vivi",
+            // Staff
+            "春先のどか",
+            "Harusaki Nodoka",
+            "友人A（えーちゃん）",
+            "Friend A (A-chan)",
+        ];
 
-            let self_order = holomem_order(&self_text);
-            let other_order = holomem_order(&other_text);
-            let ordering = self_order.cmp(&other_order);
-            if ordering != Ordering::Equal {
-                // println!(
-                //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
-                //     self.card_number,
-                //     self.text.japanese,
-                //     other.card_number,
-                //     other.text.japanese,
-                //     ordering
-                // );
-                return ordering;
-            }
-        }
-
-        // Final fallback: compare by card number
-        self.card_number.cmp(&other.card_number)
+        // Check if the text contains any of the names
+        let text = text.to_lowercase();
+        oshi_bias
+            .into_iter()
+            .flat_map(|card| card.names())
+            .chain(names)
+            .position(|name| text.contains(name.to_lowercase().as_str()))
+            .unwrap_or(usize::MAX)
     }
 }
 
-impl PartialOrd for Card {
+impl<'c, 'o, 'y, const F: usize> Ord for CardOrderingHelper<'c, 'o, 'y, F> {
+    fn cmp(&self, other: &Self) -> Ordering {
+        if self.ordering_fields != other.ordering_fields || self.oshi_bias != other.oshi_bias {
+            panic!("Cannot compare CardOrderingHelper with different ordering fields");
+        }
+
+        let card = self.card;
+        let other = other.card;
+
+        for field in &self.ordering_fields {
+            match field {
+                CardOrderingField::CardType => {
+                    // Sort by: Card type
+                    let type_ordering = card.card_type.cmp(&other.card_type);
+                    if type_ordering != Ordering::Equal {
+                        // println!(
+                        //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                        //     card.card_number, card.card_type, other.card_number, other.card_type, type_ordering
+                        // );
+                        return type_ordering;
+                    }
+                }
+                CardOrderingField::Colors => {
+                    // Sort by: Colors
+                    // add oshi bias here by checking if any of the colors match the oshi's colors, and putting those first
+                    // then put any cheer colors
+                    let self_colors = (
+                        Reverse(
+                            self.oshi_bias
+                                .map(|o| o.colors.iter().any(|c| card.colors.contains(c))),
+                        ),
+                        Reverse(self.colors_bias.iter().any(|c| card.colors.contains(c))),
+                        &card.colors,
+                    );
+                    let other_colors = (
+                        Reverse(
+                            self.oshi_bias
+                                .map(|o| o.colors.iter().any(|c| other.colors.contains(c))),
+                        ),
+                        Reverse(self.colors_bias.iter().any(|c| other.colors.contains(c))),
+                        &other.colors,
+                    );
+
+                    let color_ordering = self_colors.cmp(&other_colors);
+                    if color_ordering != Ordering::Equal {
+                        // println!(
+                        //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                        //     card.card_number, card.colors, other.card_number, other.colors, color_ordering
+                        // );
+                        return color_ordering;
+                    }
+                }
+                CardOrderingField::Member => {
+                    // Sort by: Members
+                    if card.card_type == CardType::OshiHoloMember
+                        || card.card_type == CardType::HoloMember
+                    {
+                        let self_names = card.names().join(" ");
+                        let other_names = other.names().join(" ");
+
+                        let self_member_order = Self::holomem_order(&self_names, self.oshi_bias);
+                        let other_member_order = Self::holomem_order(&other_names, self.oshi_bias);
+                        let member_ordering = self_member_order.cmp(&other_member_order);
+                        if member_ordering != Ordering::Equal {
+                            // println!(
+                            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                            //     self.card_number,
+                            //     self.name.japanese,
+                            //     other.card_number,
+                            //     other.name.japanese,
+                            //     member_ordering
+                            // );
+                            return member_ordering;
+                        }
+                    }
+                }
+                CardOrderingField::BloomLevel => {
+                    // Sort by: Bloom Level
+                    if card.card_type == CardType::HoloMember {
+                        let bloom_ordering = card.bloom_level.cmp(&other.bloom_level);
+                        if bloom_ordering != Ordering::Equal {
+                            // println!(
+                            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                            //     card.card_number,
+                            //     card.bloom_level,
+                            //     other.card_number,
+                            //     other.bloom_level,
+                            //     bloom_ordering
+                            // );
+                            return bloom_ordering;
+                        }
+                    }
+                }
+                CardOrderingField::Buzz => {
+                    // Sort by: Buzz
+                    if card.card_type == CardType::HoloMember {
+                        let buzz_ordering = card.buzz.cmp(&other.buzz);
+                        if buzz_ordering != Ordering::Equal {
+                            // println!(
+                            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                            //     card.card_number, card.buzz, other.card_number, other.buzz, buzz_ordering
+                            // );
+                            return buzz_ordering;
+                        }
+                    }
+                }
+                CardOrderingField::AttachText => {
+                    // Sort by: Tool/Mascot/Fan members
+                    if card.card_type == CardType::Support(SupportType::Tool)
+                        || card.card_type == CardType::Support(SupportType::Mascot)
+                        || card.card_type == CardType::Support(SupportType::Fan)
+                    {
+                        let self_text: String = card
+                            .oshi_skills
+                            .iter()
+                            .flat_map(|skill| {
+                                [
+                                    skill.ability_text.japanese.as_ref(),
+                                    skill.ability_text.english.as_ref(),
+                                ]
+                            })
+                            .chain(card.keywords.iter().flat_map(|keyword| {
+                                [
+                                    keyword.ability_text.japanese.as_ref(),
+                                    keyword.ability_text.english.as_ref(),
+                                ]
+                            }))
+                            .chain(card.arts.iter().flat_map(|art| {
+                                art.ability_text
+                                    .iter()
+                                    .flat_map(|t| [t.japanese.as_ref(), t.english.as_ref()])
+                            }))
+                            .chain([
+                                card.ability_text.japanese.as_ref(),
+                                card.ability_text.english.as_ref(),
+                            ])
+                            .flatten()
+                            .cloned()
+                            .collect();
+                        let other_text: String = other
+                            .oshi_skills
+                            .iter()
+                            .flat_map(|skill| {
+                                [
+                                    skill.ability_text.japanese.as_ref(),
+                                    skill.ability_text.english.as_ref(),
+                                ]
+                            })
+                            .chain(other.keywords.iter().flat_map(|keyword| {
+                                [
+                                    keyword.ability_text.japanese.as_ref(),
+                                    keyword.ability_text.english.as_ref(),
+                                ]
+                            }))
+                            .chain(other.arts.iter().flat_map(|art| {
+                                art.ability_text
+                                    .iter()
+                                    .flat_map(|t| [t.japanese.as_ref(), t.english.as_ref()])
+                            }))
+                            .chain([
+                                other.ability_text.japanese.as_ref(),
+                                other.ability_text.english.as_ref(),
+                            ])
+                            .flatten()
+                            .cloned()
+                            .collect();
+
+                        let self_order = Self::holomem_order(&self_text, self.oshi_bias);
+                        let other_order = Self::holomem_order(&other_text, self.oshi_bias);
+                        let ordering = self_order.cmp(&other_order);
+                        if ordering != Ordering::Equal {
+                            // println!(
+                            //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
+                            //     card.card_number,
+                            //     card.text.japanese,
+                            //     other.card_number,
+                            //     other.text.japanese,
+                            //     ordering
+                            // );
+                            return ordering;
+                        }
+                    }
+                }
+                CardOrderingField::CardNumber => {
+                    // Final fallback: compare by card number
+                    let ordering = card.card_number.cmp(&other.card_number);
+                    if ordering != Ordering::Equal {
+                        // println!(
+                        //     "Comparing {} with {} -> {:?}",
+                        //     card.card_number, other.card_number, ordering
+                        // );
+                        return ordering;
+                    }
+                }
+            }
+        }
+
+        // it's the same card
+        Ordering::Equal
+    }
+}
+
+impl<'c, 'o, 'y, const F: usize> PartialOrd for CardOrderingHelper<'c, 'o, 'y, F> {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         Some(self.cmp(other))
     }
