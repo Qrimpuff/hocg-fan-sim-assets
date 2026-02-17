@@ -249,18 +249,6 @@ impl Card {
 
         names
     }
-
-    pub fn sort_key<'a>(&'a self) -> CardOrderingHelper<'a, 'a, 'a, 7> {
-        CardOrderingHelper::<7>::default(self)
-    }
-
-    pub fn sort_key_deck<'a, 'b, 'c>(
-        &'a self,
-        oshi_bias: Option<&'b Card>,
-        colors_bias: &'c [Color],
-    ) -> CardOrderingHelper<'a, 'b, 'c, 7> {
-        CardOrderingHelper::<7>::deck_sort(self, oshi_bias, colors_bias)
-    }
 }
 
 // Oshi skills
@@ -552,11 +540,17 @@ fn is_default<T: Default + Eq>(value: &T) -> bool {
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
-pub struct CardOrderingHelper<'c, 'o, 'y, const F: usize> {
+pub struct CardOrderingHelper<'c, 'o> {
     card: &'c Card,
-    oshi_bias: Option<&'o Card>,
-    colors_bias: &'y [Color],
-    ordering_fields: [CardOrderingField; F],
+    options: &'o CardOrderingOptions,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct CardOrderingOptions {
+    ordering_fields: Vec<CardOrderingField>,
+    oshi_bias: Option<Card>,
+    color_bias: Vec<Color>,
+    tag_bias: Vec<String>,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -570,42 +564,52 @@ pub enum CardOrderingField {
     CardNumber,
 }
 
-impl<const F: usize> CardOrderingHelper<'_, '_, '_, F> {
-    pub fn default(card: &Card) -> CardOrderingHelper<'_, '_, '_, 7> {
+impl Default for CardOrderingOptions {
+    fn default() -> Self {
         use CardOrderingField::*;
-        CardOrderingHelper {
-            card,
-            oshi_bias: None,
-            colors_bias: &[],
-            ordering_fields: [
+        CardOrderingOptions {
+            ordering_fields: vec![
                 CardType, Colors, Member, BloomLevel, Buzz, AttachText, CardNumber,
             ],
+            oshi_bias: None,
+            color_bias: vec![],
+            tag_bias: vec![],
         }
     }
+}
 
-    pub fn member_first(card: &Card) -> CardOrderingHelper<'_, '_, '_, 7> {
+impl CardOrderingOptions {
+    pub fn member_first() -> CardOrderingOptions {
         use CardOrderingField::*;
-        CardOrderingHelper {
-            ordering_fields: [
+        CardOrderingOptions {
+            ordering_fields: vec![
                 CardType, Member, BloomLevel, Buzz, Colors, AttachText, CardNumber,
             ],
-            ..Self::default(card)
+            ..Self::default()
         }
     }
 
-    pub fn deck_sort<'c, 'o, 'y>(
-        card: &'c Card,
-        oshi_card: Option<&'o Card>,
-        colors: &'y [Color],
-    ) -> CardOrderingHelper<'c, 'o, 'y, 7> {
+    pub fn deck_sort(
+        oshi_bias: Option<Card>,
+        color_bias: Vec<Color>,
+        tag_bias: Vec<String>,
+    ) -> CardOrderingOptions {
+        CardOrderingOptions {
+            oshi_bias,
+            color_bias,
+            tag_bias,
+            ..Self::member_first()
+        }
+    }
+
+    pub fn for_card<'o, 'c>(&'o self, card: &'c Card) -> CardOrderingHelper<'c, 'o> {
         CardOrderingHelper {
-            oshi_bias: oshi_card,
-            colors_bias: colors,
-            ..Self::member_first(card)
+            card,
+            options: self,
         }
     }
 
-    fn holomem_order(text: &str, oshi_bias: Option<&Card>) -> usize {
+    fn holomem_order(&self, text: &str) -> usize {
         // following the order of the official website
         // https://hololive.hololivepro.com/en/talents
         let names = [
@@ -780,31 +784,75 @@ impl<const F: usize> CardOrderingHelper<'_, '_, '_, F> {
             "Friend A (A-chan)",
         ];
 
-        // Check if the text contains any of the names
+        // Check if the text contains any of the names, with a bias towards the oshi's names if applicable
         let text = text.to_lowercase();
-        oshi_bias
+        self.oshi_bias
+            .as_ref()
             .into_iter()
             .flat_map(|card| card.names())
             .chain(names)
             .position(|name| text.contains(name.to_lowercase().as_str()))
             .unwrap_or(usize::MAX)
     }
+
+    fn card_type_key(&self, card: &Card) -> (bool, CardType) {
+        // put colorless cards at the end, including spots
+        (
+            card.colors.first().unwrap_or(&Color::Colorless) == &Color::Colorless,
+            card.card_type,
+        )
+    }
+
+    fn color_key<'a>(&self, card: &'a Card) -> (Reverse<Option<bool>>, Reverse<bool>, &'a [Color]) {
+        // add oshi bias here by checking if any of the colors match the oshi's colors, and putting those first
+        // then put any cheer colors, then the rest
+        (
+            Reverse(
+                self.oshi_bias
+                    .as_ref()
+                    .map(|o| o.colors.iter().any(|c| card.colors.contains(c))),
+            ),
+            Reverse(self.color_bias.iter().any(|c| card.colors.contains(c))),
+            &card.colors,
+        )
+    }
+
+    fn member_key(&self, card: &Card) -> (Reverse<usize>, usize) {
+        // for members, we want to sort by the order of their names in the official website
+        let names = card.names().join(",");
+        let member_order = self.holomem_order(&names);
+
+        // then relevant tags like branch, gen, theme, etc.
+        let tag_count = card
+            .tags
+            .iter()
+            .filter(|tag| {
+                self.tag_bias.iter().any(|bias| {
+                    tag.japanese.as_ref() == Some(bias) || tag.english.as_ref() == Some(bias)
+                })
+            })
+            .count();
+
+        (Reverse(tag_count), member_order)
+    }
 }
 
-impl<'c, 'o, 'y, const F: usize> Ord for CardOrderingHelper<'c, 'o, 'y, F> {
+impl<'c, 'o> Ord for CardOrderingHelper<'c, 'o> {
     fn cmp(&self, other: &Self) -> Ordering {
-        if self.ordering_fields != other.ordering_fields || self.oshi_bias != other.oshi_bias {
-            panic!("Cannot compare CardOrderingHelper with different ordering fields");
+        if self.options != other.options {
+            panic!("Cannot compare CardOrderingHelper with different options");
         }
 
-        let card = self.card;
-        let other = other.card;
+        let CardOrderingHelper { card, options } = self;
+        let CardOrderingHelper { card: other, .. } = other;
 
-        for field in &self.ordering_fields {
+        for field in &options.ordering_fields {
             match field {
                 CardOrderingField::CardType => {
                     // Sort by: Card type
-                    let type_ordering = card.card_type.cmp(&other.card_type);
+                    let self_type = options.card_type_key(card);
+                    let other_type = options.card_type_key(other);
+                    let type_ordering = self_type.cmp(&other_type);
                     if type_ordering != Ordering::Equal {
                         // println!(
                         //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
@@ -815,25 +863,8 @@ impl<'c, 'o, 'y, const F: usize> Ord for CardOrderingHelper<'c, 'o, 'y, F> {
                 }
                 CardOrderingField::Colors => {
                     // Sort by: Colors
-                    // add oshi bias here by checking if any of the colors match the oshi's colors, and putting those first
-                    // then put any cheer colors
-                    let self_colors = (
-                        Reverse(
-                            self.oshi_bias
-                                .map(|o| o.colors.iter().any(|c| card.colors.contains(c))),
-                        ),
-                        Reverse(self.colors_bias.iter().any(|c| card.colors.contains(c))),
-                        &card.colors,
-                    );
-                    let other_colors = (
-                        Reverse(
-                            self.oshi_bias
-                                .map(|o| o.colors.iter().any(|c| other.colors.contains(c))),
-                        ),
-                        Reverse(self.colors_bias.iter().any(|c| other.colors.contains(c))),
-                        &other.colors,
-                    );
-
+                    let self_colors = options.color_key(card);
+                    let other_colors = options.color_key(other);
                     let color_ordering = self_colors.cmp(&other_colors);
                     if color_ordering != Ordering::Equal {
                         // println!(
@@ -848,12 +879,9 @@ impl<'c, 'o, 'y, const F: usize> Ord for CardOrderingHelper<'c, 'o, 'y, F> {
                     if card.card_type == CardType::OshiHoloMember
                         || card.card_type == CardType::HoloMember
                     {
-                        let self_names = card.names().join(" ");
-                        let other_names = other.names().join(" ");
-
-                        let self_member_order = Self::holomem_order(&self_names, self.oshi_bias);
-                        let other_member_order = Self::holomem_order(&other_names, self.oshi_bias);
-                        let member_ordering = self_member_order.cmp(&other_member_order);
+                        let self_member = options.member_key(card);
+                        let other_member = options.member_key(other);
+                        let member_ordering = self_member.cmp(&other_member);
                         if member_ordering != Ordering::Equal {
                             // println!(
                             //     "Comparing {} ({:?}) with {} ({:?}) -> {:?}",
@@ -958,8 +986,8 @@ impl<'c, 'o, 'y, const F: usize> Ord for CardOrderingHelper<'c, 'o, 'y, F> {
                             .cloned()
                             .collect();
 
-                        let self_order = Self::holomem_order(&self_text, self.oshi_bias);
-                        let other_order = Self::holomem_order(&other_text, self.oshi_bias);
+                        let self_order = options.holomem_order(&self_text);
+                        let other_order = options.holomem_order(&other_text);
                         let ordering = self_order.cmp(&other_order);
                         if ordering != Ordering::Equal {
                             // println!(
@@ -993,7 +1021,7 @@ impl<'c, 'o, 'y, const F: usize> Ord for CardOrderingHelper<'c, 'o, 'y, F> {
     }
 }
 
-impl<'c, 'o, 'y, const F: usize> PartialOrd for CardOrderingHelper<'c, 'o, 'y, F> {
+impl<'c, 'o> PartialOrd for CardOrderingHelper<'c, 'o> {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         Some(self.cmp(other))
     }
