@@ -41744,6 +41744,47 @@
       }
     ]
   },
+  "hBP07-027": {
+    "card_number": "hBP07-027",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "The Queen of Hearts' Command" },
+        "text": {
+          "en": "Choose 1 of your back holomem other than this holomem. During this turn, the chosen holomem gets Arts+30."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "green" ],
+        "name": { "jp": null, "en": "Call me Your Majesty" },
+        "power": "70",
+        "text": { "en": "[Center Position Only]When this Arts downed your opponent's holomem, draw 1 card." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" }, { "en": "#Cooking" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-027",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-027_R.webp", "en": null },
+        "img_hash": "v2|H32=rJafauWqaJTQKVCWulWVKrZTsaWGyWtNUqlMTVMSVGuvFi5KTmmNpduitpZpWrCUkqXqpalLaSi0tUlTtrJqralWtik|CYM=133E4A",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C29" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-029": {
     "card_number": "hBP07-029",
     "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
@@ -43412,6 +43453,40 @@
         "img_path": { "jp": "unreleased/hBP07-088_U.webp", "en": null },
         "img_hash": "v2|H32=TKWp6q2pWbanWCmvy5I0S8u3WFU2SVo0UlU2TVomtMi0blZNVWWtpEraqqa1rU3b9oWs1apbqqq2tFLatkaWtmLLlEo|CYM=05132F",
         "ogbajoj_sheet_cells": [ [ 337784829, "C90" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-089": {
+    "card_number": "hBP07-089",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Swift Riposte!" },
+        "text": {
+          "en": "If your holomem with #FLOW GLOW was downed during your opponent's previous turn, draw 2 cards. You may only use Bloom Effect \"Sha! Sword draw counter\" once per turn."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "yellow" ], "name": { "jp": null, "en": "So exciting!!" }, "power": "50" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-089",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-089_R.webp", "en": null },
+        "img_hash": "v2|H32=nLqtqpu6LKxLUWSuq1ejzrWqWgUmSVpVTkWwUHK0lJK2TFYlVFUqtdWqDatKXVXaVavi0quLqlKtRdXKqteSJqKSkjY|CYM=111728",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C91" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
