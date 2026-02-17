@@ -6605,9 +6605,9 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD12-004〈シオリ・ノヴェラ〉のアーツ「不穏な忠告」は、相手のセンターホロメンやコラボホロメンが不在でもバックホロメンに使うことはできますか？",
-      "en": null
+      "en": "Can I use hSD12-004 Shiori Novella's Arts \"An Ominous Warning\" to target a back holomem, even if my opponent has no center and no collab holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD12-004" ]
   },
   "Q562": {
@@ -6615,11 +6615,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD12-013〈モココ・アビスガード〉のコラボエフェクト「ハッピー☆パピー -MOCOCO-」の能力で、自分のバックポジションのDebutホロメンをデッキの下に戻す場合、そのホロメンに付いているカードも戻りますか？",
-      "en": null
+      "en": "If I use hSD12-013 Mococo Abyssgard's Collab Effect \"Happy☆Puppy -MOCOCO-\" to return a Debut holomem to the bottom of my deck, will the cards attached to that holomem also be returned to the deck?"
     },
     "answer": {
       "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
-      "en": null
+      "en": "No, they will not. All cards attached to that holomem will be archived."
     },
     "referenced_cards": [ "hSD12-013" ]
   },
@@ -6628,11 +6628,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD12-014〈フワワ・アビスガード〉のコラボエフェクト「ハッピー☆パピー -FUWAWA-」の能力で、自分のバックポジションのDebutホロメンをデッキの下に戻す場合、そのホロメンに付いているカードも戻りますか？",
-      "en": null
+      "en": "If I use hSD12-014 Fuwawa Abyssgard's Collab Effect \"Happy☆Puppy -FUWAWA-\" to return a Debut holomem to the bottom of my deck, will the cards attached to that holomem also be returned to the deck?"
     },
     "answer": {
       "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
-      "en": null
+      "en": "No, they will not. All cards attached to that holomem will be archived."
     },
     "referenced_cards": [ "hSD12-014" ]
   },
@@ -6641,9 +6641,9 @@
     "date": "2026-02-13",
     "question": {
       "jp": "自分のセンターホロメンが赤の2ndホロメンでコラボホロメンがhBP01-050〈風真いろは〉の時、相手がhBP01-050〈風真いろは〉へアーツを使いました。\nこの場合、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」を使って、赤のセンターポジションの2ndホロメンが代わりにダメージを受けることはできますか？",
-      "en": null
+      "en": "My center holomem is a red 2nd holomem and my collab holomem is hBP01-050 Kazama Iroha, and my opponent uses an Arts targeting Kazama Iroha.\nIn this case, can I use hSD13-001 Elizabeth Rose Bloodflame's Oshi Skill \"Harbinger of Order\" to have the center holomem take the damage instead?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-050", "hSD13-001" ]
   },
   "Q565": {
@@ -6651,9 +6651,12 @@
     "date": "2026-02-13",
     "question": {
       "jp": "自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」で、バックホロメンのBP04-102〈やめなー〉が付いているhBP04-086〈桃鈴ねね〉を選びました。\nこの場合、BP04-102〈やめなー〉が付いているhBP04-086〈桃鈴ねね〉はダメージを受けますか？",
-      "en": null
+      "en": "When my center holomem is about to take Arts damage, I use hSD13-001 Elizabeth Rose Bloodflame's Oshi Skill \"Harbinger of Order\", and choose hBP05-034 Omaru Polka with hBP04-102 Yamena attached and in the back position, to take the damage.\nIn this case, will the Omaru Polka with Yamena attached take damage?"
     },
-    "answer": { "jp": "いいえ、受けません。", "en": null },
+    "answer": {
+      "jp": "いいえ、受けません。",
+      "en": "No, it will not.\n(the question is originally written with a Nene chosen to take the damage, but Nene cannot be chosen by Harbinger of Order so I edited this question for accuracy)"
+    },
     "referenced_cards": [ "hBP04-086", "hSD13-001" ]
   },
   "Q566": {
@@ -6661,9 +6664,9 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉のSP推しスキル「JUST LIKE THAT」の能力で、アーカイブにある1stや2ndの#Justiceを持つホロメンをステージに出すことはできますか？",
-      "en": null
+      "en": "Can I use hSD13-001 Elizabeth Rose Bloodflame's SP Oshi Skill \"JUST LIKE THAT\" to place a 1st or 2nd holomem with #Justice on stage from my archive?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD13-001" ]
   },
   "Q567": {
@@ -6671,11 +6674,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-002〈ジジ・ムリン〉の推しスキル「Boat Goes Binted」の能力は、自分のセンターポジションにのみホロメンがいる場合、コラボポジションに移動させることはできますか？",
-      "en": null
+      "en": "Can I use hSD13-002 Gigi Murin's Oshi Skill \"Boat Goes Binted\" to move my opponent's center holomem to the collab position, if they have no collab holomem?"
     },
     "answer": {
       "jp": "いいえ、できません。\nセンターポジションとコラボポジションにホロメンがいる時のみ入れ替えられます。",
-      "en": null
+      "en": "No, you cannot. You can only switch holomem if there is both a center and a collab holomem to switch."
     },
     "referenced_cards": [ "hSD13-002" ]
   },
@@ -6684,9 +6687,9 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-002〈ジジ・ムリン〉の推しスキル「Boat Goes Binted」の能力で、センターホロメンとコラボホロメンを入れ替えました。\nこの場合、センターホロメンが持っているコラボエフェクトは発揮されますか？",
-      "en": null
+      "en": "I used hSD13-002 Gigi Murin's Oshi Skill \"Boat Goes Binted\" to switch my opponent's center and collab holomem. Will the Collab Effect of the holomem previously in the center position now be activated?"
     },
-    "answer": { "jp": "いいえ、されません。", "en": null },
+    "answer": { "jp": "いいえ、されません。", "en": "No, it will not." },
     "referenced_cards": [ "hSD13-002" ]
   },
   "Q569": {
@@ -6694,11 +6697,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-002〈ジジ・ムリン〉のSP推しスキル「自由奔放な『追跡者』」の能力は、自分のステージに1st以上の〈ジジ・ムリン〉がいなければ2ndの〈ジジ・ムリン〉を出すことができませんか？",
-      "en": null
+      "en": "Does hSD13-002 Gigi Murin's SP Oshi Skill \"The free-spirited Chaser\" mean that I cannot place a 2nd holomem Gigi Murin unless I have a 1st or greater holomem Gigi Murin on my stage?"
     },
     "answer": {
       "jp": "いいえ、出せます。\nこの能力は、Bloomさせるのではなく、2ndホロメンを直接ステージに出します。",
-      "en": null
+      "en": "No, you can place the holomem on stage in this situation. This ability does not bloom a holomem on stage, instead it places the holomem directly onto the stage."
     },
     "referenced_cards": [ "hSD13-002" ]
   },
@@ -6707,9 +6710,12 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-005〈エリザベス・ローズ・ブラッドフレイム〉のギフト「For Justice! -ERB-」の能力は、自身がダウンした場合、エールデッキからエールを送った後にアーカイブしますか？",
-      "en": null
+      "en": "If my hSD13-005 Elizabeth Rose Bloodflame is downed, will it be archived after being sent a cheer from its Gift \"For Justice! -ERB-\"?"
     },
-    "answer": { "jp": "はい、アーカイブします。", "en": null },
+    "answer": {
+      "jp": "はい、アーカイブします。",
+      "en": "Yes, it will receive a cheer before being archived."
+    },
     "referenced_cards": [ "hSD13-005" ]
   },
   "Q571": {
@@ -6717,11 +6723,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "ギフト「猛炎のウォークライ」でHPが上がっている、残りHP10のhSD13-007〈エリザベス・ローズ・ブラッドフレイム〉がバトンタッチする場合、ダウン処理を行うのはいつですか？",
-      "en": null
+      "en": "If my hSD13-007 Elizabeth Rose Bloodflame has increased HP with its Gift \"Warcry of Fierce Flames\", and has 10 HP remaining, when will the down process be performed as I Baton Pass?"
     },
     "answer": {
       "jp": "この場合、センターホロメンとバックホロメンを入れ替えた後にダウン処理を行います。",
-      "en": null
+      "en": "In this case, swap your center holomem and back holomem, then perform the down process."
     },
     "referenced_cards": [ "hSD13-007" ]
   },
@@ -6730,11 +6736,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-009〈ジジ・ムリン〉のコラボエフェクト「イタズラ増殖！」の能力は、自分のステージに1st以下の〈ジジ・ムリン〉がいなければ1stの#Justiceを持つホロメンを出すことができませんか？",
-      "en": null
+      "en": "Does hSD13-009 Gigi Murin's Collab Effect \"Mischievous Growth!\" mean that I cannot place a 1st holomem with #Justice unless I have a 1st or lower holomem with #Justice on my stage?"
     },
     "answer": {
       "jp": "いいえ、出せます。\nこの能力は、Bloomさせるのではなく、1stホロメンを直接ステージに出します。",
-      "en": null
+      "en": "No, you can place the holomem on stage in this situation. This ability does not bloom a holomem on stage, instead it places the holomem directly onto the stage."
     },
     "referenced_cards": [ "hSD13-009" ]
   },
@@ -6743,11 +6749,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-011〈ジジ・ムリン〉のアーツ「すべての意味を追い求めて」の「このホロメンに重なっているホロメンが0枚なら」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"If there are no holomem stacked to this holomem\" mean on hSD13-011 Gigi Murin's Arts \"Pursuing the meaning of everything\"?"
     },
     "answer": {
       "jp": "hSD13-011〈ジジ・ムリン〉の下にあるカードが0枚であることを指します。",
-      "en": null
+      "en": "It means if there are no holomem cards underneath hSD13-011 Gigi Murin."
     },
     "referenced_cards": [ "hSD13-011" ]
   },
@@ -6756,11 +6762,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-013〈ジジ・ムリン〉のアーツ「殻破りのライオット」の「このホロメンに重なっているホロメンが0枚なら」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"If there are no holomem stacked to this holomem\" mean on hSD13-013 Gigi Murin's Arts \"Riot Breaking Out of Her Shell\"?"
     },
     "answer": {
       "jp": "hSD13-013〈ジジ・ムリン〉の下にあるカードが0枚であることを指します。",
-      "en": null
+      "en": "It means if there are no holomem cards underneath hSD13-013 Gigi Murin."
     },
     "referenced_cards": [ "hSD13-013" ]
   },
@@ -6769,9 +6775,9 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？",
-      "en": null
+      "en": "Will hSD13-014 Cecilia Immergreen's Gift \"Melody of Justice\" activate when a holomem is placed on stage by an effect such as hBP01-104 Normal PC?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP01-104", "hSD13-014" ]
   },
   "Q576": {
@@ -6779,9 +6785,9 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-015〈ラオーラ・パンテーラ〉のコラボエフェクト「正義の諧調」は、この能力で戻したエールも送ることはできますか？",
-      "en": null
+      "en": "Can I use hSD13-015 Raora Panthera's Collab Effect \"Harmony of Justice\" to send the cheer that I had returned to the cheer deck?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hSD13-015" ]
   },
   "Q577": {
@@ -6789,11 +6795,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-017〈JUSTICE, JUST LIKE THAT!!!!〉の能力で、選んだホロメンの一番上のカードを戻すことはできますか？",
-      "en": null
+      "en": "Can I use hSD13-017 JUSTICE, JUST LIKE THAT!!!! to return the top card of the chosen holomem to hand?"
     },
     "answer": {
       "jp": "いいえ、できません。\n「重なっているホロメン」とは、ホロメンの下にあるカードを指します。",
-      "en": null
+      "en": "No, you cannot. \"Stacked holomem\" refers to cards underneath the top holomem card."
     },
     "referenced_cards": [ "hSD13-017" ]
   },
@@ -6802,11 +6808,11 @@
     "date": "2026-02-13",
     "question": {
       "jp": "hSD13-018〈Popo〉の「このホロメンに重なっているホロメンが0枚なら」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"If there are no holomem stacked to this holomem\" mean on hSD13-018 Popo?"
     },
     "answer": {
       "jp": "〈ジジ・ムリン〉の下にあるカードが0枚であることを指します。",
-      "en": null
+      "en": "It means if there are no holomem cards underneath the holomem hSD13-018 Popo is attached to."
     },
     "referenced_cards": [ "hSD13-018" ]
   }
