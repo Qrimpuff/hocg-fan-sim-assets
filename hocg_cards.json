@@ -52298,6 +52298,27 @@
       }
     ]
   },
+  "hY01-012": {
+    "card_number": "hY01-012",
+    "name": { "jp": "白エール", "en": "White Cheer" },
+    "card_type": "cheer",
+    "colors": [ "white" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY01-012",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY01-012_SY.webp", "en": null },
+        "img_hash": "v2|H32=2OycNLeWW2WluudDEml1qibp2ahba6mUWhLpTrYzbMwkMSyqalWuR4v0rValqamqdGtaZZSqXqrSlpZWWw9Jp5Sq0mQ|CYM=071015",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C128" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY02-001": {
     "card_number": "hY02-001",
     "name": { "jp": "緑エール", "en": "Green Cheer" },
@@ -52531,6 +52552,27 @@
         "ogbajoj_sheet_cells": [ [ 1568103987, "C10" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 670610,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hY02-010": {
+    "card_number": "hY02-010",
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
+    "card_type": "cheer",
+    "colors": [ "green" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY02-010",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY02-010_SY.webp", "en": null },
+        "img_hash": "v2|H32=pp1MdavOE1vJSrNKiYrkpLO59KwaJBCKVioUS1K/dBlMl2yXqZbSNlKlKauWltJSWmsqSbRYJllo6SoltnRyKVJa8ig|CYM=3B0920",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C129" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
         "delta_art_index": null
       }
     ]
@@ -52872,6 +52914,27 @@
       }
     ]
   },
+  "hY03-014": {
+    "card_number": "hY03-014",
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
+    "card_type": "cheer",
+    "colors": [ "red" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY03-014",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY03-014_SY.webp", "en": null },
+        "img_hash": "v2|H32=rqpYKSmrWttaXXbZ0tS2lLL0uRalpkhnxTpE7kQqZo2UpZy0qUWuVVaqsq2ksXqpjSZqqUu0Sqtp0ShbSmlSq9QSklo|CYM=0A464E",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C130" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY04-001": {
     "card_number": "hY04-001",
     "name": { "jp": "青エール", "en": "Blue Cheer" },
@@ -53134,6 +53197,27 @@
       }
     ]
   },
+  "hY04-011": {
+    "card_number": "hY04-011",
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
+    "card_type": "cheer",
+    "colors": [ "blue" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY04-011",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY04-011_SY.webp", "en": null },
+        "img_hash": "v2|H32=qKpWVausNVvODCXXnCvJrGZXkanyUsh1FpuZxkaplZZKjeylUtVap6kuq9apX5ZK0aJq0yWttkq61maJpUoiLZSSUtk|CYM=3D200B",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C131" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY05-001": {
     "card_number": "hY05-001",
     "name": { "jp": "紫エール", "en": "Purple Cheer" },
@@ -53344,6 +53428,27 @@
       }
     ]
   },
+  "hY05-009": {
+    "card_number": "hY05-009",
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
+    "card_type": "cheer",
+    "colors": [ "purple" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY05-009",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY05-009_SY.webp", "en": null },
+        "img_hash": "v2|H32=yLK0PRbrTbK3TUzLua4kU2yam62mEfO0ISmSVOUuUsvNFlhSJC1qRUkaVto22SmlliSmtklLUuoukapspZKkpUopkmU|CYM=14320A",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C132" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY06-001": {
     "card_number": "hY06-001",
     "name": { "jp": "黄エール", "en": "Yellow Cheer" },
@@ -53548,6 +53653,27 @@
         "ogbajoj_sheet_cells": [ [ 1568103987, "C26" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 670611,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hY06-009": {
+    "card_number": "hY06-009",
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
+    "card_type": "cheer",
+    "colors": [ "yellow" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY06-009",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY06-009_SY.webp", "en": null },
+        "img_hash": "v2|H32=qKoWrS8i66neV2tX3iiYVmQu3LK0zSgX06wk07Ihya610myV1tHWqqmaKlFpKdKWkmQm6SWpSrVLY7JqStWibUpbYls|CYM=04215A",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C133" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
         "delta_art_index": null
       }
     ]
