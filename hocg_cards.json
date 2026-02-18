@@ -43298,6 +43298,47 @@
       }
     ]
   },
+  "hBP07-082": {
+    "card_number": "hBP07-082",
+    "name": { "jp": "桃鈴ねね", "en": "Momosuzu Nene" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "NePoLaBo is the best!!!!!!!!!!!!!" },
+        "text": {
+          "en": "Reveal 1 2nd holomem with #Gen 5 from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "A-cho~~~!" },
+        "power": "50",
+        "advantage": [ "blue", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Singing" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-082",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-082_U.webp", "en": null },
+        "img_hash": "v2|H32=7KpJTWm6lKqrVDqUlqoqFYZZJCm2VTVaErVSklpFUrZmEfQqQ1VJKqXSqfC1HlalWrWq0kmrIlVaK7alWpIyWamkkl8|CYM=01244C",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C84" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-084": {
     "card_number": "hBP07-084",
     "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
@@ -43620,6 +43661,29 @@
         "img_path": { "jp": "unreleased/hBP07-095_C.webp", "en": null },
         "img_hash": "v2|H32=qLapqvSyJkEDQ1ZFlqS1pJWuKE0rSVhZGls6GZe6lMorzhZF8PAsiho4LYu+fi2aqh+pKA8HiS6K4KnjggfgGo6HIPg|CYM=092729",
         "ogbajoj_sheet_cells": [ [ 337784829, "C97" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-096": {
+    "card_number": "hBP07-096",
+    "name": { "jp": "ちゃま旅", "en": "Chama Journey" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Choose 1 <Akai Haato> in your back position. Return all of the chosen holomem's stacked holomem, including that holomem, to the bottom of the deck in any order. During this turn, all of your <Akai Haato> requires -1 colorless for their Arts."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-096",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-096_U.webp", "en": null },
+        "img_hash": "v2|H32=qKqpqqWqoo6TVFJVUhZStxurXJMeXVZVnlxcfU84TDtumhZdEPgMogYHoSv+B+mq+nWhqvAX4fj+4OGqjufhOJ4P4PE|CYM=422A06",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C98" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
