@@ -42676,6 +42676,39 @@
       }
     ]
   },
+  "hBP07-060": {
+    "card_number": "hBP07-060",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 190,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Food Anatomy" }, "power": "10" },
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "Don't Let Her Cook!" },
+        "power": "50",
+        "text": { "en": "This Arts may not be used unless you have 4 or more support cards in your archive." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-060",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-060_U.webp", "en": null },
+        "img_hash": "v2|H32=IqoMuSeqLS6taiRsq/LMnBI10ydeVXJD2lRs1XJbzNlsllRKR1WqJSrqLdqlqpa00rcqaalaqqW2ldIl0BrypZYuomg|CYM=133A1E",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C62" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-065": {
     "card_number": "hBP07-065",
     "name": { "jp": "AZKi", "en": "AZKi" },
@@ -43756,6 +43789,29 @@
         "img_path": { "jp": "unreleased/hBP07-099_C.webp", "en": null },
         "img_hash": "v2|H32=StWrytzNXK2TqlQ6NjokWiVSJFartYbVioWahdsKXAppJhJF8+EsmlyCpYsOPi2aevipaoIPqWzihyk+Ojgvy/Dwoos|CYM=122912",
         "ogbajoj_sheet_cells": [ [ 337784829, "C101" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-100": {
+    "card_number": "hBP07-100",
+    "name": { "jp": "フロンティアスピリット", "en": "Frontier Spirit" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Return 1 <AZKi> from your archive to hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive.\nYou may only use the card <Frontier Spirit> once per turn."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-100",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-100_U.webp", "en": null },
+        "img_hash": "v2|H32=VKmpqle1SnWrVFJVmk7STpOqlKqtumUXLRosWL1KnNqaulbV4DQt6oIHrYr6cK0qig+pqgI+qaoOz+kqig+pqw4equo|CYM=0A1418",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C102" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
