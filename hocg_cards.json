@@ -42519,6 +42519,46 @@
       }
     ]
   },
+  "hBP07-053": {
+    "card_number": "hBP07-053",
+    "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "A Timeless Promise" },
+        "text": {
+          "en": "Choose 1 holomem with #Promise on your stage. During this turn, the chosen holomem gets Arts+20."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "Everlasting Flower" },
+        "power": "50",
+        "text": { "en": "Send the top card of your cheer deck to your holomem with #Promise." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-053",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-053_C.webp", "en": null },
+        "img_hash": "v2|H32=qrVaLQunrH5VaqRqpFqdsCxT6YxWGmdq1ipvztIgcM1rVLRKG1WoZ48u0pRJq7SWqZYqpXo1qrbSlcPXtMpWqZauUlU|CYM=5B4205",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C55" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-054": {
     "card_number": "hBP07-054",
     "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
@@ -42588,6 +42628,50 @@
         "img_path": { "jp": "unreleased/hBP07-055_U.webp", "en": null },
         "img_hash": "v2|H32=ijIpiq0qla6lqISqh6wol2t1WFZSRVJNUiFS0dqxdLe31l5FWWXwlK6SqKA2jWX5aVmr6qoaSlp0WQWX4LSSKpJCgNQ|CYM=161513",
         "ogbajoj_sheet_cells": [ [ 337784829, "C57" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-056": {
+    "card_number": "hBP07-056",
+    "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Commander of Time" },
+        "text": {
+          "en": "[Center Position Only]At the start of your performance phase, you may bloom 1 of your other <Ouro Kronii> using a holomem that is stacked to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "blue", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "You're not ready for me." },
+        "power": "80+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "You may reattach 1 cheer from this holomem to your other holomem with #Promise. If your Oshi holomem is <Ouro Kronii>, this Arts gets +100."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-056",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-056_RR.webp", "en": null },
+        "img_hash": "v2|H32=sqo5KrWorLJrSaxWT6pGjfZSUKnSVjhcWnV6UZKVVEmntFZtUyVolXq4FbqhKYWWq1GqumrJpFqVCmpV17akratSMqg|CYM=273310",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C58" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -42703,6 +42787,38 @@
         "img_path": { "jp": "unreleased/hBP07-060_U.webp", "en": null },
         "img_hash": "v2|H32=IqoMuSeqLS6taiRsq/LMnBI10ydeVXJD2lRs1XJbzNlsllRKR1WqJSrqLdqlqpa00rcqaalaqqW2ldIl0BrypZYuomg|CYM=133A1E",
         "ogbajoj_sheet_cells": [ [ 337784829, "C62" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-064": {
+    "card_number": "hBP07-064",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Come and relax♡" },
+        "power": "20",
+        "text": { "en": "Reveal 1 <Pioneers> from your deck, and attach it to your <AZKi>. Then, shuffle the deck." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-064",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-064_U.webp", "en": null },
+        "img_hash": "v2|H32=TqrpKsOq1myyRbSIttG0m22Sh7ZoTUI0MmVaVau+WtEenk5KWSprVVql8JQWiV2qlVKlpK9KslSu1QartbS0paQNtqk|CYM=013733",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C66" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -43865,6 +43981,29 @@
       }
     ]
   },
+  "hBP07-104": {
+    "card_number": "hBP07-104",
+    "name": { "jp": "Thorn", "en": "Thorn" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Elizabeth Rose Bloodflame> with this tool attached gets Arts+20.\n\n◆Additional ability if attached to 2nd <Elizabeth Rose Bloodflame>\nWhile this holomem has reduced HP, this holomem gets Arts+20.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-104",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-104_U.webp", "en": null },
+        "img_hash": "v2|H32=0reTotK2mDSpDJRdpE2kyaXrBOttKm16bDpuXO/crsG84xbdDoZsOvgIrQrA8K3qgg+pKnh44eOA/6mqCh6hi/AB8HA|CYM=032F35",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C106" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-106": {
     "card_number": "hBP07-106",
     "name": { "jp": "ハトタウロス", "en": "Pigeotaurus" },
@@ -43883,6 +44022,29 @@
         "img_path": { "jp": "unreleased/hBP07-106_U.webp", "en": null },
         "img_hash": "v2|H32=0rK7qlSzbK0tbWxtbi12SNNaUtqbyh3HjKecNp023DbONjJdB8Po4B/4DerwGKkqePjpeA+u6aoPjy2q+HgpOOmC4MM|CYM=0C223A",
         "ogbajoj_sheet_cells": [ [ 337784829, "C108" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-109": {
+    "card_number": "hBP07-109",
+    "name": { "jp": "Kronies", "en": "Kronies" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "The holomem this fan is attached to gets Arts+10.\n\nYou may only attach this fan to your <Ouro Kronii>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-109",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-109_C.webp", "en": null },
+        "img_hash": "v2|H32=1KepqsWqS0qrSlJdkloW1aeVpLWtqywlLCp8bHlOdFR80lZdRDYtquDArYq+yq2qDn6pqvBBqarwcKmqPnyqCxIf8uA|CYM=0D140D",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C111" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
