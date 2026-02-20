@@ -6650,14 +6650,14 @@
     "qna_number": "Q565",
     "date": "2026-02-13",
     "question": {
-      "jp": "自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」で、バックホロメンのBP04-102〈やめなー〉が付いているhBP04-086〈桃鈴ねね〉を選びました。\nこの場合、BP04-102〈やめなー〉が付いているhBP04-086〈桃鈴ねね〉はダメージを受けますか？",
+      "jp": "自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」で、バックホロメンのBP04-102〈やめなー〉が付いているhBP01-071〈尾丸ポルカ〉を選びました。\nこの場合、BP04-102〈やめなー〉が付いているhBP01-071〈尾丸ポルカ〉はダメージを受けますか？\n\n[02/20更新]02/13(金)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
       "en": "When my center holomem is about to take Arts damage, I use hSD13-001 Elizabeth Rose Bloodflame's Oshi Skill \"Harbinger of Order\", and choose hBP05-034 Omaru Polka with hBP04-102 Yamena attached and in the back position, to take the damage.\nIn this case, will the Omaru Polka with Yamena attached take damage?"
     },
     "answer": {
       "jp": "いいえ、受けません。",
       "en": "No, it will not.\n(the question is originally written with a Nene chosen to take the damage, but Nene cannot be chosen by Harbinger of Order so I edited this question for accuracy)"
     },
-    "referenced_cards": [ "hBP04-086", "hSD13-001" ]
+    "referenced_cards": [ "hBP01-071", "hSD13-001" ]
   },
   "Q566": {
     "qna_number": "Q566",
