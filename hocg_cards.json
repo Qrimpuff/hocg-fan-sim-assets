@@ -43019,6 +43019,42 @@
       }
     ]
   },
+  "hBP07-063": {
+    "card_number": "hBP07-063",
+    "name": { "jp": "AZKi", "en": "AZKi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 1220,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Exciting night camp" },
+        "text": {
+          "en": "If you went second, it is your first turn, and your Oshi holomem is <AZKi>, return 1 cheer from your opponent's stage to the bottom of the cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "A space that is close to you" }, "power": "30" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-063",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-063_C.webp", "en": null },
+        "img_hash": "v2|H32=qKrXKtqiKFXSNirVhEq1qqRctGrPpApVWpUutVpNZLmzaq5tRtVKp6latFppi1TVSSvomtZqaKnSkmC5tiRo27S0Uko|CYM=2B441F",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C65" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-064": {
     "card_number": "hBP07-064",
     "name": { "jp": "AZKi", "en": "AZKi" },
@@ -44274,6 +44310,29 @@
       }
     ]
   },
+  "hBP07-105": {
+    "card_number": "hBP07-105",
+    "name": { "jp": "BAZO", "en": "BAZO" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <Vestia Zeta>\nWhen this holomem uses Arts, return 1 fan from your archive to hand.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-105",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-105_C.webp", "en": null },
+        "img_hash": "v2|H32=pLKtoqO2S1VLVVJVUmkQq7SrtKu8HQ4VDhVOhUytTKtMazbdF/AHqsA3oY/+AOEgH/zh+B986XgBH+k4hwfhC4/H4KE|CYM=361B08",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C107" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-106": {
     "card_number": "hBP07-106",
     "name": { "jp": "ハトタウロス", "en": "Pigeotaurus" },
@@ -44298,6 +44357,52 @@
       }
     ]
   },
+  "hBP07-107": {
+    "card_number": "hBP07-107",
+    "name": { "jp": "Boros", "en": "Boros" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Ouro Kronii>\nIf you have used your SP Oshi Skill \"Warden of Time\" this game, this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-107",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-107_U.webp", "en": null },
+        "img_hash": "v2|H32=jKqpqrOqsokzWXZVYlJoVsx2jHacTJbNns0O1S+VbLd+NhbVcHAHig+P4Sjgw+mqfPjh6A8PKbr/D6GLHx7g+P3A4Do|CYM=36250D",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C109" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-108": {
+    "card_number": "hBP07-108",
+    "name": { "jp": "Zecretary", "en": "Zecretary" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "■If the holomem this fan is attached to would use Arts, if your Oshi holomem is <Vestia Zeta>, this fan is also regarded as a white cheer.\n■During your opponent's turn, when the holomem this fan is attached to takes damage, archive this fan.\n\nYou may only attach this fan to your <Vestia Zeta>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-108",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-108_C.webp", "en": null },
+        "img_hash": "v2|H32=pK+trqetypnLmULZU0pySnNqdnZuskyVzLFcYRtrOmc7Y1bVDbAv6KGBhYuvH+H4+HCpqgePqargeOE4j4fhi/B44As|CYM=1C1308",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C110" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-109": {
     "card_number": "hBP07-109",
     "name": { "jp": "Kronies", "en": "Kronies" },
@@ -44313,8 +44418,29 @@
         "rarity": "C",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-109_C.webp", "en": null },
-        "img_hash": "v2|H32=1KepqsWqS0qrSlJdkloW1aeVpLWtqywlLCp8bHlOdFR80lZdRDYtquDArYq+yq2qDn6pqvBBqarwcKmqPnyqCxIf8uA|CYM=0D140D",
+        "img_hash": "v2|H32=xKapqtWuS0rbSlJdGlsW1aWVpLWtozQlLCh8LXlsfFRm1lZVQD4tqvDBrcsfwK2qDz6pqv1Bqarw8amqP/ioCw8+6OA|CYM=0D120B",
         "ogbajoj_sheet_cells": [ [ 337784829, "C111" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-110": {
+    "card_number": "hBP07-110",
+    "name": { "jp": "ねっ子", "en": "Nekko" },
+    "card_type": { "support": "fan" },
+    "text": { "en": "[1/Turn]When the bloom level of the holomem this mascot is attached to increases, draw 1 card." },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-110",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-110_C.webp", "en": null },
+        "img_hash": "v2|H32=cqUrrWal5EWpUtRW0lqSWpNaVmrta21pbSlsvWu8OrSytBbdDIcouoPArQt4eOn6+D6t6oOHrYoL4qmKPzzhO/3g6Pg|CYM=061936",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C112" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
