@@ -42511,6 +42511,40 @@
       }
     ]
   },
+  "hBP07-046": {
+    "card_number": "hBP07-046",
+    "name": { "jp": "エリザベス・ローズ・ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Taking Back the Initiative!" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 1 [1st holomem <Elizabeth Rose Bloodflame> and/or <Thorn>] each from your deck, and add them to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Onwards and Upwards!" }, "power": "30" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-046",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-046_C.webp", "en": null },
+        "img_hash": "v2|H32=pKozV2S6fKZaVZk03CmZK5ZenaoqVIpVWk0rpVJpdq2kq5auVtXJBqFwUpM9rUmSKSsKSy1eYr3VKnAp6aIyWalqMl0|CYM=19502F",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C48" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-048": {
     "card_number": "hBP07-048",
     "name": { "jp": "エリザベス・ローズ・ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
@@ -43013,6 +43047,47 @@
         "img_path": { "jp": "unreleased/hBP07-060_U.webp", "en": null },
         "img_hash": "v2|H32=IqoMuSeqLS6taiRsq/LMnBI10ydeVXJD2lRs1XJbzNlsllRKR1WqJSrqLdqlqpa00rcqaalaqqW2ldIl0BrypZYuomg|CYM=133A1E",
         "ogbajoj_sheet_cells": [ [ 337784829, "C62" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-061": {
+    "card_number": "hBP07-061",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "A New Chapter Begins!" },
+        "text": {
+          "en": "If your Oshi holomem is <Shiori Novella>, look at the top 4 cards of your deck. Reveal 1 support card from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "There's no way I'd let them get away, right?" },
+        "power": "20",
+        "text": { "en": "Deal 20 special damage to 1 of your opponent's back holomem." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-061",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-061_R.webp", "en": null },
+        "img_hash": "v2|H32=jKspqo2qJK2LaqSswsmBrtJVUFpaE1JZWhdeldKV9KW8qNZlUqWtogqUSppqi1XbpdWr0qVWqotUalK58qRQ6qVINOg|CYM=1C2911",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C63" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
