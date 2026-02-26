@@ -43094,6 +43094,50 @@
       }
     ]
   },
+  "hBP07-062": {
+    "card_number": "hBP07-062",
+    "name": { "jp": "シオリ・ノヴェラ", "en": "Shiori Novella" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A New Crime & A New Me" },
+        "text": {
+          "en": "You may archive 2 support cards from your hand:Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+50."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "Forbidden Knowledge Unleashed" },
+        "power": "60+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "Send 1 cheer from your archive to your holomem with #Advent. If your Oshi holomem is <Shiori Novella> and 4 or more cheers are attached to this holomem, this Arts gets +100."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-062",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-062_RR.webp", "en": null },
+        "img_hash": "v2|H32=SLqtKk66trajRbIVt+ohaZHaUKvM1VvVVlXalBJozKmdalJrfKFOtTNo6FKklRW0opWqlktKtNIH2yl5ilYgbWkrslI|CYM=283610",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C64" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-063": {
     "card_number": "hBP07-063",
     "name": { "jp": "AZKi", "en": "AZKi" },
@@ -44333,6 +44377,29 @@
         "img_path": { "jp": "unreleased/hBP07-101_C.webp", "en": null },
         "img_hash": "v2|H32=VlWrSFTVRL2rqlQsq2r2bL92LJMrslaTq6pUjZdu1GysalZVs8ktqgo+LesKPq2qyuKtquABqatqYCkq6gNrqnp4akk|CYM=070B0D",
         "ogbajoj_sheet_cells": [ [ 337784829, "C103" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP07-102": {
+    "card_number": "hBP07-102",
+    "name": { "jp": "角巻わためのハンマー", "en": "Tsunomaki Watame's Hammer" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Tsunomaki Watame> with this tool attached gets Arts+20.\n\n◆Additional ability if attached to 2nd <Tsunomaki Watame>\n■[Center Position Only]This holomem gets Arts+30.\n■[Center Position Only]When this holomem uses Arts, roll a die once. If it is 3 or 5, deal 50 special damage to 1 of your other holomem.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-102",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-102_U.webp", "en": null },
+        "img_hash": "v2|H32=xj2HKMeZ4JzpmnDXOCoYY51jnGGfItRwuL5wvDu8Hr0O41ZVDx4puuBw4ejwcK0qDg+pi+DBreKe4i2qCg6pCi4Pjj4|CYM=071A21",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C104" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
