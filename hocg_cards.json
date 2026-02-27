@@ -42545,6 +42545,40 @@
       }
     ]
   },
+  "hBP07-047": {
+    "card_number": "hBP07-047",
+    "name": { "jp": "エリザベス・ローズ・ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 120,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "...Very well." },
+        "text": {
+          "en": "If your Oshi holomem is <Elizabeth Rose Bloodflame>, put the top card of your deck as holo Power."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "red" ], "name": { "jp": null, "en": "Now come at me at your worst!" }, "power": "50" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP07-047",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-047_U.webp", "en": null },
+        "img_hash": "v2|H32=rqrftLerSZQwsSldWLKtal5C1KpOVdKmSlVGlUrkdKuvpqxJJ0Uvr0rT1Lr1klrTlRbSpcqLqkW1qlIllNoildIqILU|CYM=403F17",
+        "ogbajoj_sheet_cells": [ [ 337784829, "C49" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP07-048": {
     "card_number": "hBP07-048",
     "name": { "jp": "エリザベス・ローズ・ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
@@ -42769,7 +42803,7 @@
         "rarity": "C",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-053_C.webp", "en": null },
-        "img_hash": "v2|H32=qrVaLQunrH5VaqRqpFqdsCxT6YxWGmdq1ipvztIgcM1rVLRKG1WoZ48u0pRJq7SWqZYqpXo1qrbSlcPXtMpWqZauUlU|CYM=5B4205",
+        "img_hash": "v2|H32=qKMTSoujJK1SUiR19DidsiRb2ahWVmtFUhRqRepkUI2vIpRKPF2rJ5WqUpVJq5CWrZZptbo1qrRSldLV5co2qZWWUl0|CYM=654806",
         "ogbajoj_sheet_cells": [ [ 337784829, "C55" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
