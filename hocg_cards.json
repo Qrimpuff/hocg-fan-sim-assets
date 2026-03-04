@@ -41052,6 +41052,18 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP07-001",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-001_OUR.webp", "en": null },
+        "img_hash": "v2|H32=pKTSqpWkw67TktKnU5Ick0qSDMoMa+1I5CuoUOcksq0pRnxbKl2tZIkk1JJpYWq1paSqtMoqzYpfqlWrrZSVqt2CrdI|CYM=47460B",
+        "ogbajoj_sheet_cells": [ [ 337784829, "J2" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -41088,6 +41100,18 @@
         "img_path": { "jp": "unreleased/hBP07-002_OSR.webp", "en": null },
         "img_hash": "v2|H32=lF2dlrTYVd2lyp2dbcu8DaXsVFJlbVTSY1GsNrPRq2pUPULVLdWrKqqqLWpVrWkqravppF6qqy11LV1LVTVV0qZrqiY|CYM=252206",
         "ogbajoj_sheet_cells": [ [ 337784829, "C3" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP07-002",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-002_SEC.webp", "en": null },
+        "img_hash": "v2|H32=3GpdWl1KVFdVmiWLo8SqjapqqGiyW81qcFeV6iulUqkqpVZpWQWv4g1XVZVJVX24SW0qVW+pjcK1ql+HTavdqLAWKpo|CYM=21130A",
+        "ogbajoj_sheet_cells": [ [ 337784829, "J3" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
