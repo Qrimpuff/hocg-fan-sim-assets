@@ -29984,7 +29984,7 @@
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "楽しく！", "en": "Have fun!" }, "power": "20" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "楽しく！", "en": "Fun Times!" }, "power": "20" } ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#3期生", "en": "#Gen 3" },
@@ -30392,11 +30392,11 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "かわいいぺこか？", "en": "Am I pekute?" },
+        "name": { "jp": "かわいいぺこか？", "en": "Am I Cute, Peko?" },
         "power": "20",
         "text": {
           "jp": "サイコロを1回振れる：偶数なら、自分のデッキを1枚引く。",
-          "en": "You may roll a die once:If it is even, draw 1 card."
+          "en": "You may roll a die once: If it is even, draw 1 card."
         }
       }
     ],
@@ -30741,15 +30741,15 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "イオフィとおでかけ", "en": "Going out with Iofi" },
+        "name": { "jp": "イオフィとおでかけ", "en": "Going Out with Iofi" },
         "text": {
           "jp": "このホロメンのエール1枚をアーカイブできる：自分の#ID1期生を持つホロメン1人のHP30回復。",
-          "en": "You may archive 1 cheer from this holomem:Restore 30 HP to 1 of your holomem with #ID Gen 1."
+          "en": "You may archive 1 cheer from this holomem: Restore 30 HP to 1 of your holomem with #ID Gen 1."
         }
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "君といる時間", "en": "Time spent with you" }, "power": "30" }
+      { "cheers": [ "colorless" ], "name": { "jp": "君といる時間", "en": "Time with You" }, "power": "30" }
     ],
     "tags": [
       { "jp": "#ID", "en": "#ID" },
@@ -31050,16 +31050,16 @@
     "arts": [
       {
         "cheers": [ "green", "green" ],
-        "name": { "jp": "あずきんちでゆっくりしよ", "en": "Let's relax at AZKi-chi's" },
+        "name": { "jp": "あずきんちでゆっくりしよ", "en": "Chilling at the AZKrib" },
         "power": "50",
         "text": {
           "jp": "自分のステージに〈開拓者〉があるなら、自分のエールデッキの上から1枚を自分の〈AZKi〉に送る。",
-          "en": "If you have a holomem with <Pioneers> attached, send the top card of your cheer deck to your <AZKi>."
+          "en": "If your stage has <Pioneers>, send the top card of your cheer deck to your <AZKi>."
         }
       },
       {
         "cheers": [ "green", "green", "colorless", "colorless" ],
-        "name": { "jp": "帰っちゃうの？", "en": "You're going home?" },
+        "name": { "jp": "帰っちゃうの？", "en": "You're Leaving Already?" },
         "power": "80+",
         "text": {
           "jp": "自分の推しホロメンが〈AZKi〉なら、このホロメンのエール1枚につき、このアーツ+20。",
@@ -31174,7 +31174,7 @@
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "暮れなずむひととき", "en": "A moment of dusk" },
+        "name": { "jp": "暮れなずむひととき", "en": "When Dusk Falls" },
         "power": "50"
       }
     ],
@@ -31305,17 +31305,17 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ちょっと頑張りました", "en": "I tried my best" },
+        "name": { "jp": "ちょっと頑張りました", "en": "I Tried My Best" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分の推しホロメンの〈獅白ぼたん〉か自分のステージの〈獅白ぼたん〉が相手のホロメンに30以上の特殊ダメージを与えた時、自分のデッキを1枚引く。",
-          "en": "[Center Position Only][1/Turn]When your Oshi holomem <Shishiro Botan> or a <Shishiro Botan> on your stage deals 30 or more special damage to your opponent's holomem, draw 1 card."
+          "en": "[Center Position Only][1/Turn]When your <Shishiro Botan> Oshi holomem or <Shishiro Botan> on your stage deals 30 or more special damage to your opponent's holomem, draw 1 card."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "ここからが俺たちのスタートだ", "en": "This is where we start" },
+        "name": { "jp": "ここからが俺たちのスタートだ", "en": "Our Journey Starts Here" },
         "power": "40",
         "text": {
           "jp": "自分の〈獅白ぼたん〉のエール1枚をアーカイブできる：相手のセンターホロメンに特殊ダメージ30を与える。",
@@ -40402,7 +40402,7 @@
     "limited": true,
     "text": {
       "jp": "自分のエールデッキから、エール1枚を公開し、自分の#絵を持つホロメンに送る。そしてエールデッキをシャッフルする。その後、自分のアーカイブの#絵を持つホロメン1枚を手札に戻す。",
-      "en": "Reveal 1 cheer from your cheer deck and send it to your holomem with #Painting. Then, shuffle the cheer deck. Return 1 holomem with #Painting from your archive to hand."
+      "en": "Reveal 1 cheer from your cheer deck, and send it to your holomem with #Painting. Then, shuffle the cheer deck. Return 1 holomem with #Painting from your archive to hand."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -40431,6 +40431,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp06/10185",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP06-089",
+        "manage_id": { },
+        "rarity": "S",
+        "illustrator": null,
+        "img_path": { "jp": null, "en": "unreleased/hBP06-089_S.webp" },
+        "img_hash": "v2|H32=WtXbktTTjLWrKpRtqy0rDfNIdNkrmXTSbLJrtlsmUiYrLJJFXLZsuoOCLZuKdq2K8D2pKtDhiW4CPuno8BAumqrEIoM|CYM=061E20",
+        "ogbajoj_sheet_cells": [ [ 2134313136, "J90" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -41188,6 +41200,18 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP07-004",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-004_OUR.webp", "en": null },
+        "img_hash": "v2|H32=NNqkZDOaZCM7HEQzr4Qs066krbNS0As30lTTSetSlq1rWlRKdZGplrVUtZSqVqmliqKhatVyVbGVJKlUKrqVptWqUOk|CYM=034E35",
+        "ogbajoj_sheet_cells": [ [ 337784829, "J5" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -41259,6 +41283,18 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP07-006",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-006_SEC.webp", "en": null },
+        "img_hash": "v2|H32=1OqxfLKqbFU9mymfLdUZrapGmWWUNamqRFVVq+JKt5lTKkaqZWnZNK1alaZk0YtUBo+gtCVJilS2qtqUC1pL07WqNtU|CYM=0F1C18",
+        "ogbajoj_sheet_cells": [ [ 337784829, "J7" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
