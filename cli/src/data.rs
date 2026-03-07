@@ -439,7 +439,7 @@ pub mod hololive_official {
 
     use hocg_fan_sim_assets_model::{
         Art, ArtPower, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra,
-        HoloPower, Keyword, KeywordEffect, Language, Localized, OshiSkill,
+        HoloPower, Keyword, KeywordEffect, Language, Localized, OshiSkill, OshiSkillKind,
     };
     use itertools::Itertools;
     use parking_lot::{Condvar, Mutex, RwLock};
@@ -670,29 +670,41 @@ pub mod hololive_official {
         hololive_card: &scraper::ElementRef,
         language: Language,
     ) {
-        static OSHI_SKILL: OnceLock<Selector> = OnceLock::new();
-        let oshi_skill =
-            OSHI_SKILL.get_or_init(|| Selector::parse(".oshi.skill p:nth-child(2)").unwrap());
-        static SP_SKILL: OnceLock<Selector> = OnceLock::new();
-        let sp_skill =
-            SP_SKILL.get_or_init(|| Selector::parse(".sp.skill p:nth-child(2)").unwrap());
+        static SKILL: OnceLock<Selector> = OnceLock::new();
+        let skill = SKILL.get_or_init(|| Selector::parse(".skill p:nth-child(2)").unwrap());
 
         let card_number = &card.card_number;
 
         let mut oshi_skills = vec![];
-        for (special, oshi_skill) in hololive_card
-            .select(oshi_skill)
-            .map(|s| (false, s))
-            .chain(hololive_card.select(sp_skill).map(|s| (true, s)))
-        {
-            let Some((holo_power, name, text)) = oshi_skill.text().collect_tuple() else {
-                eprintln!("Oshi skill not found for {card_number:?}");
+        for oshi_skill in hololive_card.select(skill) {
+            let classes = oshi_skill
+                .parent()
+                .into_iter()
+                .flat_map(|n| n.value().as_element().and_then(|el| el.attr("class")))
+                .flat_map(str::split_whitespace)
+                .collect_vec();
+
+            let kind = if classes.contains(&"oshi") {
+                OshiSkillKind::Normal
+            } else if classes.contains(&"sp") {
+                OshiSkillKind::Special
+            } else if classes.contains(&"stage") {
+                OshiSkillKind::Stage
+            } else {
+                eprintln!("Oshi skill kind not recognized for {card_number:?}");
                 continue;
             };
 
-            let oshi_skill = OshiSkill {
-                special,
-                holo_power: holo_power
+            let (holo_power, name, text) = match oshi_skill.text().collect_vec()[..] {
+                [holo_power, name, text] => (Some(holo_power), name, text),
+                [name, text] => (None, name, text),
+                _ => {
+                    eprintln!("Oshi skill text format not recognized for {card_number:?}");
+                    continue;
+                }
+            };
+            let holo_power = holo_power.and_then(|holo_power| {
+                holo_power
                     .trim_start_once("[ホロパワー：")
                     .trim_start_once("[holo Power：")
                     .trim_start_once("-")
@@ -700,7 +712,12 @@ pub mod hololive_official {
                     .trim_end_once("消費")
                     .to_string()
                     .try_into()
-                    .unwrap_or_default(),
+                    .ok()
+            });
+
+            let oshi_skill = OshiSkill {
+                kind,
+                holo_power,
                 name: Localized::new(language, clean_text(name)),
                 ability_text: Localized::new(language, fix_ability_text(text, language)),
             };
@@ -960,7 +977,7 @@ pub mod hololive_official {
                     .iter_mut()
                     .find(|a| a.name.english.as_deref() == Some("BAU BAU!"))
             {
-                skill.holo_power = HoloPower::Basic(2);
+                skill.holo_power = Some(HoloPower::Basic(2));
             }
         }
     }
@@ -1287,10 +1304,10 @@ pub fn update_oshi_skills(
     }
 
     for (orig_skill, new_skill) in orig_oshi_skills.iter_mut().zip(new_oshi_skills.iter_mut()) {
-        if orig_skill.special != new_skill.special {
+        if orig_skill.kind != new_skill.kind {
             eprintln!(
-                "Warning: {} oshi skill special mismatch: {} should be {}",
-                card.card_number, new_skill.special, orig_skill.special
+                "Warning: {} oshi skill kind mismatch: {:?} should be {:?}",
+                card.card_number, new_skill.kind, orig_skill.kind
             );
         }
 
@@ -1298,8 +1315,14 @@ pub fn update_oshi_skills(
             eprintln!(
                 "Warning: {} oshi skill holo power mismatch: {} should be {}",
                 card.card_number,
-                String::from(new_skill.holo_power),
-                String::from(orig_skill.holo_power)
+                new_skill
+                    .holo_power
+                    .map(String::from)
+                    .unwrap_or("<none>".into()),
+                orig_skill
+                    .holo_power
+                    .map(String::from)
+                    .unwrap_or("<none>".into())
             );
         }
 

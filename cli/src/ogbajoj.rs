@@ -2,7 +2,8 @@ use std::{collections::HashMap, error::Error, fs, ops::Not, path::Path, sync::Ar
 
 use hocg_fan_sim_assets_model::{
     Art, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra, Keyword,
-    KeywordEffect, Language, Localized, OshiSkill, QnaDatabase, SheetCell, SupportType, Tag,
+    KeywordEffect, Language, Localized, OshiSkill, OshiSkillKind, QnaDatabase, SheetCell,
+    SupportType, Tag,
 };
 use image::DynamicImage;
 use itertools::Itertools;
@@ -256,7 +257,10 @@ impl SheetCard {
         }
 
         // Oshi skills
-        let oshi_skills_lines = extract_sections(&mut text_lines, &["Oshi Skill", "SP Oshi Skill"]);
+        let oshi_skills_lines = extract_sections(
+            &mut text_lines,
+            &["Oshi Skill", "SP Oshi Skill", "Oshi Stage Skill"],
+        );
         let oshi_skills = oshi_skills_lines
             .into_iter()
             .filter_map(|lines| self.to_oshi_skill(card, lines))
@@ -304,16 +308,24 @@ impl SheetCard {
             return None;
         };
 
-        let mut special = false;
+        let mut kind = Default::default();
         if holo_power.starts_with("Oshi Skill") {
-            special = false;
+            kind = OshiSkillKind::Normal;
             holo_power = holo_power.trim_start_once("Oshi Skill").trim();
         } else if holo_power.starts_with("SP Oshi Skill") {
-            special = true;
+            kind = OshiSkillKind::Special;
             holo_power = holo_power.trim_start_once("SP Oshi Skill").trim();
+        } else if holo_power.starts_with("Oshi Stage Skill") {
+            kind = OshiSkillKind::Stage;
+            holo_power = holo_power.trim_start_once("Oshi Stage Skill").trim();
         }
         holo_power = holo_power.trim_start_once("holo Power").trim();
         holo_power = holo_power.trim_start_once("-");
+        let holo_power = holo_power
+            .is_empty()
+            .not()
+            .then(|| holo_power.to_string().try_into().ok())
+            .flatten();
 
         let name = name
             .trim()
@@ -322,8 +334,8 @@ impl SheetCard {
             .trim();
 
         Some(OshiSkill {
-            special,
-            holo_power: holo_power.to_string().try_into().unwrap_or_default(),
+            kind,
+            holo_power,
             name: Localized::en(name.into()),
             ability_text: Localized::en(lines.join("\n").trim().to_string()),
         })

@@ -63,11 +63,23 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     }
                 }
 
+                let unblock_workers = || {
+                    // Avoid a long wait on other workers if the first page fails
+                    // or pagination metadata is missing.
+                    if page == 1 {
+                        let mut max_page_lock = max_page.0.lock();
+                        if *max_page_lock == 0 {
+                            *max_page_lock = 1;
+                        }
+                    }
+                    max_page.1.notify_all();
+                };
+
                 let mut url = Url::parse("https://yuyu-tei.jp/sell/hocg/s/search").unwrap();
                 url.query_pairs_mut()
-                    .append_pair("search_word", "")
+                    .append_pair("search_word", "h") // every card number starts with "h"
                     .append_pair("page", page.to_string().as_str());
-                let resp = if let Some(scraperapi_key) = &scraperapi_key {
+                let resp = match if let Some(scraperapi_key) = &scraperapi_key {
                     http_client()
                         .get("https://api.scraperapi.com/")
                         .query(&[
@@ -75,14 +87,26 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             ("url", url.as_str()),
                             ("session_number", "123"),
                         ])
-                        .timeout(Duration::from_secs(70))
                         .send()
-                        .unwrap()
                 } else {
-                    http_client().get(url.clone()).send().unwrap()
+                    http_client().get(url.clone()).send()
+                } {
+                    Ok(resp) => resp,
+                    Err(err) => {
+                        eprintln!("WARNING: Failed to fetch Yuyutei page {page}: {err}");
+                        unblock_workers();
+                        return Some(());
+                    }
                 };
 
-                let content = resp.text().unwrap();
+                let content = match resp.text() {
+                    Ok(content) => content,
+                    Err(err) => {
+                        eprintln!("WARNING: Failed to read Yuyutei page {page}: {err}");
+                        unblock_workers();
+                        return Some(());
+                    }
+                };
                 // println!("{content}");
 
                 let document = Html::parse_document(&content);
@@ -96,11 +120,14 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 let max_page_select =
                     Selector::parse(".pagination li:nth-last-child(2) a").unwrap();
 
-                if let Some(max) = document.select(&max_page_select).next() {
-                    let max_page_num = max.text().collect::<String>().parse().unwrap();
+                if let Some(max) = document.select(&max_page_select).next()
+                    && let Ok(max_page_num) = max.text().collect::<String>().parse()
+                {
                     *max_page.0.lock() = max_page_num;
                 }
-                max_page.1.notify_all();
+
+                // If page count is unavailable (or failed to parse), at least unblock workers.
+                unblock_workers();
 
                 for card_list in document.select(&card_lists) {
                     let rarity: String = card_list
@@ -268,6 +295,11 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         let images: Vec<_> = urls
                             .par_iter()
                             .filter_map(|(url, img_path, _)| {
+                                // skip "Now Printing" images
+                                if img_path.contains("noimage") {
+                                    return None;
+                                }
+
                                 // download the image
                                 println!("Checking Yuyutei image: {img_path}");
                                 let resp = http_client()
@@ -312,7 +344,8 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                                     .iter()
                                     .flatten()
                                     .copied()
-                                    .next(),
+                                    .next()
+                                    .unwrap_or(u32::MAX),
                             )
                         });
 
@@ -704,7 +737,8 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                                     .iter()
                                     .flatten()
                                     .copied()
-                                    .next(),
+                                    .next()
+                                    .unwrap_or(u32::MAX),
                             )
                         });
 

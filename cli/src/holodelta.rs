@@ -108,7 +108,8 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
                         .iter()
                         .flatten()
                         .copied()
-                        .next(),
+                        .next()
+                        .unwrap_or(u32::MAX),
                 )
             });
 
@@ -255,7 +256,8 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
                         .iter()
                         .flatten()
                         .copied()
-                        .next(),
+                        .next()
+                        .unwrap_or(u32::MAX),
                 )
             });
 

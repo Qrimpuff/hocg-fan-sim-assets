@@ -252,7 +252,7 @@ impl Card {
 }
 
 // Oshi skills
-// - special
+// - kind
 // - holo power
 // - name
 // - ability text
@@ -261,8 +261,9 @@ impl Card {
 #[serde(default)]
 pub struct OshiSkill {
     #[serde(skip_serializing_if = "is_default")]
-    pub special: bool,
-    pub holo_power: HoloPower,
+    pub kind: OshiSkillKind,
+    #[serde(skip_serializing_if = "is_default")]
+    pub holo_power: Option<HoloPower>, // normal and special skills only
     #[serde(serialize_with = "Localized::full_serialize")]
     pub name: Localized<String>,
     #[serde(rename = "text")]
@@ -271,8 +272,16 @@ pub struct OshiSkill {
 
 #[derive(Debug, Copy, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
-pub enum HoloPower {
+pub enum OshiSkillKind {
     #[default]
+    Normal,
+    Special,
+    Stage,
+}
+
+#[derive(Debug, Copy, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+pub enum HoloPower {
     X,
     #[serde(untagged)]
     Basic(u32),

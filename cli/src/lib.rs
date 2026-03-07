@@ -6,7 +6,7 @@ pub mod price_check;
 pub mod qna;
 pub mod utils;
 
-use std::sync::OnceLock;
+use std::{sync::OnceLock, time::Duration};
 
 use clap::ValueEnum;
 use reqwest::blocking::{Client, ClientBuilder};
@@ -21,6 +21,7 @@ fn http_client() -> &'static Client {
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0",
             )
             .cookie_store(true)
+            .timeout(Duration::from_secs(70))
             .build()
             .unwrap()
     })
