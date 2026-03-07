@@ -15,7 +15,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -57,7 +57,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -99,7 +99,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -141,7 +141,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -183,7 +183,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -225,7 +225,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -267,7 +267,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -309,7 +309,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -393,7 +393,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -435,7 +435,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -477,7 +477,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -519,7 +519,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -561,7 +561,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -603,7 +603,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -645,7 +645,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Anniversary Gift ～Blue～", "en": "Anniversary Gift ~Blue~" },
         "text": {
@@ -687,7 +687,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -729,7 +729,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -771,7 +771,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -813,7 +813,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -855,7 +855,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -897,7 +897,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -939,7 +939,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -981,7 +981,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -1023,7 +1023,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -1065,7 +1065,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -1107,7 +1107,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -1149,7 +1149,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -1191,7 +1191,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -1233,7 +1233,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -1275,7 +1275,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -1317,7 +1317,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -1359,7 +1359,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -1401,7 +1401,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -1443,7 +1443,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -1485,7 +1485,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -1527,7 +1527,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -1569,7 +1569,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -1611,7 +1611,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -1653,7 +1653,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -1695,7 +1695,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -1737,7 +1737,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -1779,7 +1779,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -1821,7 +1821,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -1863,7 +1863,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -1905,7 +1905,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -1947,7 +1947,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -1989,7 +1989,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -2031,7 +2031,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -2073,7 +2073,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -2115,7 +2115,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
@@ -2157,7 +2157,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -2199,7 +2199,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
@@ -2241,7 +2241,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -2283,7 +2283,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -2325,7 +2325,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -2367,7 +2367,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -2409,7 +2409,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -2451,7 +2451,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -2493,7 +2493,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
@@ -2535,7 +2535,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -2577,7 +2577,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -2619,7 +2619,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -2661,7 +2661,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
@@ -2703,7 +2703,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
@@ -2745,7 +2745,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
@@ -2784,7 +2784,7 @@
         "text": { "en": "[1/Turn]During this turn, 1 of your yellow holomem gets Arts+20." }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": null, "en": "Birthday Gift ~Yellow~" },
         "text": { "en": "[1/Game]Reveal 1 yellow holomem from your deck, and add it to hand. Then, shuffle the deck." }
@@ -2822,7 +2822,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "握りつぶしちゃうぞ", "en": "I'll squish you!" },
         "text": {
@@ -2877,7 +2877,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "アメイジング・ドローイング", "en": "Amazing Drawing" },
         "text": {
@@ -2932,7 +2932,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "大地の唄", "en": "Song of the Earth" },
         "text": {
@@ -2987,7 +2987,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "幸運兎", "en": "Lucky Rabbit" },
         "text": {
@@ -3055,7 +3055,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "ホークアイ", "en": "Hawkeye" },
         "text": {
@@ -3110,7 +3110,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "Rise from the ashes", "en": "Rise from the ashes" },
         "text": {
@@ -3178,7 +3178,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "シューティングスター", "en": "Shooting Star" },
         "text": {
@@ -3298,7 +3298,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "雨乞い", "en": "Rainmaking" },
         "text": {
@@ -4351,7 +4351,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C112" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP01-024",
@@ -5744,7 +5744,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C113" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP01-044",
@@ -8932,7 +8932,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C118" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP01-092",
@@ -10591,7 +10591,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "フブキングダム", "en": "FBKINGDOM" },
         "text": {
@@ -10659,7 +10659,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "極彩色の宴", "en": "Vibrant Banquet" },
         "text": {
@@ -10714,7 +10714,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "出航～！", "en": "Set Sail~!" },
         "text": {
@@ -10782,7 +10782,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "人生リセットボタン", "en": "Life Reset Button" },
         "text": {
@@ -10850,7 +10850,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "シオンのすごい魔法", "en": "Shion's Amazing Magic" },
         "text": {
@@ -10905,7 +10905,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "蘇るオリー", "en": "Ollie Revives" },
         "text": {
@@ -10960,7 +10960,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "死神ラップ", "en": "Reaper's Rap" },
         "text": {
@@ -12201,7 +12201,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C114" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -16598,7 +16598,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "ルーナイト集合", "en": "Lu-knights, Assemble" },
         "text": {
@@ -16653,7 +16653,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "狙撃", "en": "Sniping" },
         "text": {
@@ -16721,7 +16721,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "あきらめない心にぇ", "en": "The Strength to not Give Up" },
         "text": {
@@ -16789,7 +16789,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "BAU BAU!", "en": "BAU BAU!" },
         "text": {
@@ -16857,7 +16857,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "悪魔的所業", "en": "Diabolical Deeds" },
         "text": {
@@ -16925,7 +16925,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "ウォウウォウウォウウォウ", "en": "Wow Wow Wow Wow" },
         "text": {
@@ -16993,7 +16993,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "わためは悪くないよねぇ？", "en": "Watame isn't at fault, right?" },
         "text": {
@@ -17061,7 +17061,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "がんばり～リス！", "en": "Ganbari Risu~!" },
         "text": {
@@ -18649,7 +18649,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C117" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -20907,7 +20907,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C121" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP03-067",
@@ -22420,7 +22420,7 @@
         "ogbajoj_sheet_cells": null,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 679261,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -23241,7 +23241,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "助手くん、んーまっ！", "en": "Assistants, mmmwah!" },
         "text": {
@@ -23309,7 +23309,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "余った時間でぐるぐる", "en": "With the Extra Time, Round and Round" },
         "text": {
@@ -23377,7 +23377,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "かわいい！ ポジティブ！ ジーニアス！", "en": "Cute! Positive! Genius!" },
         "text": {
@@ -23445,7 +23445,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "ぶーん、バリバリバリバリ", "en": "Vroom, Bari Bari Bari Bari" },
         "text": {
@@ -23513,7 +23513,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "我ら秘密結社holoX！", "en": "We Are Secret Society holoX!" },
         "text": {
@@ -23581,7 +23581,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "リアクション芸", "en": "Comedic Reactions" },
         "text": {
@@ -23649,7 +23649,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "人生のこと考えていた方が勝てる", "en": "Those Who Think about Life Win" },
         "text": {
@@ -26084,7 +26084,7 @@
         "manage_id": { },
         "rarity": "P",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP04-046_P_2.webp", "en": null },
+        "img_path": { "jp": "unreleased/hBP04-046_P.webp", "en": null },
         "img_hash": "v2|H32=VE2VapTqsSalqqy2aZIsOWuRaXlr1Url21UqldJcmo0zDFJUPVCtWkm2zUKKLU2TtKWFKvVVrSquVin6fzpf1VGtWqU|CYM=251505",
         "ogbajoj_sheet_cells": [ [ 419749048, "C28" ] ],
         "yuyutei_sell_url": null,
@@ -26360,7 +26360,7 @@
         "ogbajoj_sheet_cells": [ [ 543634835, "C19" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd12/10017",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP04-050",
@@ -26373,7 +26373,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C119" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       }
     ]
   },
@@ -26636,7 +26636,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C120" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 2
       },
       {
         "card_number": "hBP04-054",
@@ -27272,7 +27272,7 @@
         "ogbajoj_sheet_cells": [ [ 543634835, "C20" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd12/10018",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -28601,7 +28601,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C122" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       },
       {
         "card_number": "hBP04-083",
@@ -29637,7 +29637,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "スーパーまずった太郎", "en": "Super Bad Taro" },
         "text": {
@@ -29692,7 +29692,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "Kekuatan Iofi", "en": "Kekuatan Iofi" },
         "text": {
@@ -29760,7 +29760,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "成功体験－！！！", "en": "Successful Experience~!!!" },
         "text": {
@@ -29828,7 +29828,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "ウマウマ！", "en": "Yum yum!" },
         "text": {
@@ -29883,7 +29883,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "ちょこっとクッキング", "en": "Cooking with Choco" },
         "text": {
@@ -29951,7 +29951,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 4,
         "name": { "jp": "Shoot for the Moon", "en": "Shoot for the Moon" },
         "text": {
@@ -30018,7 +30018,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "みんなで盛り上がろう！", "en": "Let's all have fun!" },
         "text": {
@@ -35104,7 +35104,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "BIG TROUBLE!!", "en": "BIG TROUBLE!!" },
         "text": {
@@ -35175,7 +35175,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "生き抜いていくんです！", "en": "I will survive!" },
         "text": {
@@ -35230,7 +35230,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "アルティメットつよつよござる", "en": "Ultimate Stronk Gozaru" },
         "text": {
@@ -35298,7 +35298,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "二刀一閃！ 鬼神斬り", "en": "Twin sword flash! Onigami-kiri" },
         "text": {
@@ -35366,7 +35366,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": {
           "jp": "🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲",
@@ -35436,7 +35436,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "双月の斉唱", "en": "Chorus of the twin moons" },
         "text": {
@@ -35491,7 +35491,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": {
           "jp": "ボクの『高性能っぷり』を堪能してよね♡",
@@ -35549,7 +35549,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "絶対勝ちたい！！！！！！！", "en": "I definitely want to win!!!!!!!" },
         "text": {
@@ -41150,6 +41150,14 @@
     "life": 5,
     "oshi_skills": [
       {
+        "kind": "stage",
+        "name": { "jp": "ドドドライブ", "en": "Do-do-drive" },
+        "text": {
+          "jp": "自分の〈角巻わため〉がアーツを使った時、自分のデッキの上から1枚をホロパワーにする。",
+          "en": "When your <Tsunomaki Watame> uses Arts, put the top card of your deck as holo Power."
+        }
+      },
+      {
         "holo_power": 6,
         "name": { "jp": "角ドリルしたろか？", "en": "Shall I do a Horn Drill?" },
         "text": {
@@ -41158,9 +41166,6 @@
         }
       }
     ],
-    "text": {
-      "en": "Oshi Stage Skill: Do-do-drive\nWhen your <Tsunomaki Watame> uses Arts, put the top card of your deck as holo Power."
-    },
     "max_amount": { "jp": 1 },
     "illustrations": [
       {
@@ -41206,7 +41211,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "不可能なんてないんだから！", "en": "Because nothing is impossible!" },
         "text": {
@@ -41228,7 +41233,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C3" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-002",
@@ -41260,7 +41265,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "みんなのママ", "en": "Everyone's Mama" },
         "text": {
@@ -41282,7 +41287,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C4" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-003",
@@ -41306,6 +41311,14 @@
     "life": 5,
     "oshi_skills": [
       {
+        "kind": "stage",
+        "name": { "jp": "はあちゃまなう", "en": "Haachama Now" },
+        "text": {
+          "jp": "[ターンに1回]自分のターンで、自分の〈赤井はあと〉が自分の能力でステージからデッキに戻った時、自分のデッキを2枚引く。",
+          "en": "[1/Turn]During your turn, when your <Akai Haato> returns from your stage to deck using your ability, draw 2 cards."
+        }
+      },
+      {
         "holo_power": 2,
         "name": { "jp": "ワールドワイドな最強アイドル！", "en": "Worldwide Strongest Idol!" },
         "text": {
@@ -41314,9 +41327,6 @@
         }
       }
     ],
-    "text": {
-      "en": "Oshi Stage Skill: Haachama Now\n[1/Turn]During your turn, when your <Akai Haato> returns from your stage to deck using your ability, draw 2 cards."
-    },
     "max_amount": { "jp": 1 },
     "illustrations": [
       {
@@ -41362,7 +41372,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 4,
         "name": { "jp": "時間の典獄", "en": "Warden of Time" },
         "text": {
@@ -41384,7 +41394,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C6" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-005",
@@ -41408,6 +41418,14 @@
     "life": 5,
     "oshi_skills": [
       {
+        "kind": "stage",
+        "name": { "jp": "ETERNiTY FRONTiER", "en": "ETERNiTY FRONTiER" },
+        "text": {
+          "jp": "自分のホロパワー1枚につき、自分のセンターホロメンの〈AZKi〉のアーツ+20。",
+          "en": "Your center holomem <AZKi> gets Arts+20 for each of your holo Power."
+        }
+      },
+      {
         "holo_power": 1,
         "name": { "jp": "行くよ、開拓者。", "en": "Let's go, Pioneers." },
         "text": {
@@ -41416,9 +41434,6 @@
         }
       }
     ],
-    "text": {
-      "en": "Oshi Stage Skill: ETERNiTY FRONTiER\nYour center holomem <AZKi> gets Arts+20 for each of your holo Power."
-    },
     "max_amount": { "jp": 1 },
     "illustrations": [
       {
@@ -41464,7 +41479,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "ねねちの大・暴・走！", "en": "Nenechi's Great Rampage!" },
         "text": {
@@ -41486,7 +41501,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C8" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-007",
@@ -41542,7 +41557,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C9" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41584,7 +41599,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C10" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41635,7 +41650,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C11" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41687,7 +41702,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C12" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41736,7 +41751,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C13" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41789,7 +41804,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C14" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41842,7 +41857,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C15" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-014",
@@ -41897,7 +41912,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C16" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41940,7 +41955,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C17" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -41983,7 +41998,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C18" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42030,7 +42045,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C19" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42082,7 +42097,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C20" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42126,7 +42141,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C21" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42174,7 +42189,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C22" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-021",
@@ -42238,7 +42253,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C23" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42280,7 +42295,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C24" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42332,7 +42347,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C25" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42384,7 +42399,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C26" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42432,7 +42447,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C27" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42484,7 +42499,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C28" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42537,7 +42552,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C29" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42590,7 +42605,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C30" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-029",
@@ -42650,7 +42665,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C31" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42706,7 +42721,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C32" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42745,7 +42760,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C33" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42788,7 +42803,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C34" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42835,7 +42850,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C35" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42883,7 +42898,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C36" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-035",
@@ -42941,7 +42956,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C37" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -42988,7 +43003,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C38" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43039,7 +43054,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C39" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43093,7 +43108,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C40" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43140,7 +43155,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C41" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43192,7 +43207,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C42" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43244,7 +43259,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C43" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-042",
@@ -43308,7 +43323,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C44" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43360,7 +43375,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C45" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43463,7 +43478,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C47" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43566,7 +43581,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C49" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43618,7 +43633,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C50" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-049",
@@ -43669,7 +43684,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C51" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43712,7 +43727,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C52" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43762,7 +43777,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C53" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43851,7 +43866,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C55" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -43895,7 +43910,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C56" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44010,7 +44025,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C58" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44057,7 +44072,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C59" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44104,7 +44119,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C60" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44142,7 +44157,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C61" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44292,7 +44307,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C64" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44329,7 +44344,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C65" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44374,7 +44389,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C66" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44417,7 +44432,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C67" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-066",
@@ -44476,7 +44491,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C68" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44523,7 +44538,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C69" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-068",
@@ -44583,7 +44598,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C70" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-069",
@@ -44649,7 +44664,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C71" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44695,7 +44710,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C72" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-071",
@@ -44754,7 +44769,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C73" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44805,7 +44820,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C74" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44858,7 +44873,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C75" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-074",
@@ -44922,7 +44937,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C76" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -44979,7 +44994,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C77" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45027,7 +45042,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C78" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45075,7 +45090,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C79" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45127,7 +45142,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C80" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45227,7 +45242,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C82" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45279,7 +45294,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C83" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45396,7 +45411,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C85" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45447,7 +45462,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C86" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45538,7 +45553,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C88" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45585,7 +45600,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C89" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45628,7 +45643,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C90" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45679,7 +45694,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C91" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       },
       {
         "card_number": "hBP07-090",
@@ -45716,7 +45731,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C92" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45742,7 +45757,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C93" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45793,7 +45808,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C95" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45819,7 +45834,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C96" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45844,7 +45859,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C97" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45870,7 +45885,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C98" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45896,7 +45911,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C99" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45922,7 +45937,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C100" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45947,7 +45962,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C101" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -45973,7 +45988,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C102" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46023,7 +46038,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C104" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46048,7 +46063,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C105" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46073,7 +46088,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C106" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46099,7 +46114,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C107" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46124,7 +46139,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C108" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46149,7 +46164,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C109" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46174,7 +46189,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C110" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46199,7 +46214,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C111" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -46311,7 +46326,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "じゃあ敵だね？", "en": "So, that Makes You My Enemy?" },
         "text": {
@@ -46353,7 +46368,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "右手にマイク", "en": "A Mic in My Right Hand" },
         "text": {
@@ -47352,7 +47367,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "さあ！もう一度！", "en": "Now! Once More!" },
         "text": {
@@ -48028,7 +48043,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "バックショット", "en": "Strike Back" },
         "text": {
@@ -48691,7 +48706,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "カードチェンジ", "en": "Card Change" },
         "text": {
@@ -49328,7 +49343,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "クイックガード", "en": "Quick Guard" },
         "text": {
@@ -49959,7 +49974,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "みんな頑張ろー！", "en": "We'll Do our Best!" },
         "text": {
@@ -50489,7 +50504,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "後は引き受けた！", "en": "Leave the rest to me!" },
         "text": {
@@ -51207,7 +51222,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "クイックガード", "en": "Quick Guard" },
         "text": {
@@ -51303,7 +51318,7 @@
         "ogbajoj_sheet_cells": null,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 679483,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -51508,7 +51523,7 @@
         "ogbajoj_sheet_cells": null,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 679489,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -51583,7 +51598,7 @@
         "ogbajoj_sheet_cells": null,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 679491,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -51658,7 +51673,7 @@
         "ogbajoj_sheet_cells": null,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 679493,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -51678,7 +51693,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "さあ！もう一度！", "en": "Now! Once more!" },
         "text": {
@@ -52080,7 +52095,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": {
           "jp": "向こう側の景色を見に行かない？",
@@ -52168,7 +52183,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C115" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -52623,7 +52638,7 @@
         "manage_id": { "jp": [ 1468 ] },
         "rarity": "C",
         "illustrator": "さかなへん",
-        "img_path": { "jp": "hBP07/hSD10-013_02_C.webp", "en": "proxies/hSD10/hSD10-013_C.webp" },
+        "img_path": { "jp": "hBP07/hSD10-013_02_C.webp", "en": "proxies/hBP07/hSD10-013_02_C.webp" },
         "img_last_modified": { "jp": "Thu, 05 Mar 2026 09:01:25 GMT" },
         "img_hash": "v2|H32=JKSjqla1JhWlqqQViqUrpUmmXFXKWlxdjErcSZnrWGtb6pJdTDRl4ozMLYsz0W2qZLKtqhMdrWpgBKmLh4epOuoP6aY|CYM=0A1214",
         "ogbajoj_sheet_cells": [ [ 337784829, "C127" ], [ 1478464232, "C15" ], [ 1478464232, "C36" ] ],
@@ -52649,7 +52664,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "ニコたんの名を呼ぶがいいさ！", "en": "Just say my name!" },
         "text": {
@@ -52734,7 +52749,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C123" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 1
       }
     ]
   },
@@ -53102,7 +53117,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "リベリオン", "en": "Rebellion" },
         "text": {
@@ -53144,7 +53159,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 2,
         "name": { "jp": "古代魔石の輝き", "en": "Ancient, Mystic Brilliance" },
         "text": {
@@ -53317,7 +53332,7 @@
         "ogbajoj_sheet_cells": [ [ 543634835, "C7" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd12/10005",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -53369,7 +53384,7 @@
         "ogbajoj_sheet_cells": [ [ 543634835, "C8" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd12/10006",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -53814,7 +53829,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "JUST LIKE THAT", "en": "JUST LIKE THAT" },
         "text": {
@@ -53856,7 +53871,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 3,
         "name": { "jp": "自由奔放な『追跡者』", "en": "The free-spirited Chaser" },
         "text": {
@@ -54235,7 +54250,7 @@
         "ogbajoj_sheet_cells": [ [ 543634835, "C40" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd13/10010",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -54373,7 +54388,7 @@
         "ogbajoj_sheet_cells": [ [ 543634835, "C43" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd13/10013",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -54530,7 +54545,7 @@
         "ogbajoj_sheet_cells": [ [ 543634835, "C47" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd13/10017",
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -54863,7 +54878,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C128" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -55121,7 +55136,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C129" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -55479,7 +55494,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C130" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -55762,7 +55777,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C131" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -55993,7 +56008,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C132" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -56222,7 +56237,7 @@
         "ogbajoj_sheet_cells": [ [ 337784829, "C133" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": null
+        "delta_art_index": 0
       }
     ]
   },
@@ -56242,7 +56257,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "クイックガード", "en": "Quick Guard" },
         "text": {
@@ -56284,7 +56299,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "みんな頑張ろー！", "en": "Let's All Give Our Best!" },
         "text": {
@@ -56326,7 +56341,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "さあ！もう一度！", "en": "Now! Once more!" },
         "text": {
@@ -56368,7 +56383,7 @@
         }
       },
       {
-        "special": true,
+        "kind": "special",
         "holo_power": 1,
         "name": { "jp": "バックショット", "en": "Strike Back" },
         "text": {
