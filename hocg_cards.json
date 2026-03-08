@@ -9607,6 +9607,12 @@
           [ 543634835, "C23" ],
           [ 543634835, "C50" ],
           [ 994570439, "C105" ],
+          [ 1326338526, "C14" ],
+          [ 1326338526, "C28" ],
+          [ 1326338526, "C33" ],
+          [ 1326338526, "C48" ],
+          [ 1326338526, "C53" ],
+          [ 1326338526, "C68" ],
           [ 1478464232, "C18" ],
           [ 1478464232, "C40" ],
           [ 1534249600, "C19" ],
@@ -16024,7 +16030,7 @@
         "img_path": { "jp": "hBP02/hBP02-088_U.webp", "en": "hBP02/EN_hBP02-088_U.webp" },
         "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 19 Sep 2025 08:21:14 GMT" },
         "img_hash": "v2|H32=TqWPqhWrlaq7qpC1qa1glUvVWt2rWF5Qu1rycLd2NnSyalZVM9mtqmOy6arM4q3q7MatqviQrYpUMq2ryIepiukfqIo|CYM=011911",
-        "ogbajoj_sheet_cells": [ [ 1642260809, "C89" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C54" ], [ 1642260809, "C89" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10177",
         "tcgplayer_product_id": 657707,
         "delta_art_index": 0
@@ -22950,7 +22956,7 @@
         "img_path": { "jp": "hBP03/hBP03-107_U.webp", "en": "hBP03/EN_hBP03-107_U.webp" },
         "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:49 GMT", "en": "Tue, 09 Dec 2025 09:50:18 GMT" },
         "img_hash": "v2|H32=tKq1qkynSDeJK1JdckkzS7PqsPTrtEw0zLxWzDPINMs+S5JNjGEtujOYZ6bAduj4t5e4i56WrerA4yk4KT7py2/J6Gg|CYM=024243",
-        "ogbajoj_sheet_cells": [ [ 1235233029, "C108" ] ],
+        "ogbajoj_sheet_cells": [ [ 1235233029, "C108" ], [ 1326338526, "C34" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10216",
         "tcgplayer_product_id": 669220,
         "delta_art_index": 0
@@ -54578,6 +54584,320 @@
       }
     ]
   },
+  "hSD14-001": {
+    "card_number": "hSD14-001",
+    "name": { "jp": "白上フブキ", "en": "Shirakami Fubuki" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 4,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Everyone, rush in together!" },
+        "text": {
+          "en": "[1/Turn]Choose 1 of your <Shirakami Fubuki> with mascot attached. During this turn, the chosen holomem gets Arts+20."
+        }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Mascots, Assemble!!" },
+        "text": { "en": "[1/Game]Reveal 1~2 mascots from your deck, and add them to hand. Then, shuffle the deck." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD14-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD14-001_OC.webp", "en": null },
+        "img_hash": "v2|H32=JtMtayqjTle7sqO0cZSxMrGlcGpzNqhuRxqMVqWq51pciVaVaZWKKlJqhVYlvdsytmraQtGqSiuUUoElFltbKtVHy7Y|CYM=1C1710",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C3" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD14-011": {
+    "card_number": "hSD14-011",
+    "name": { "jp": "ありよりのアリゲーター", "en": "Ari Yori no Alligator" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +10 HP.\n\n◆Additional ability if attached to <Shirakami Fubuki>\nWhen this holomem downs your opponent's holomem, send the top card of your cheer deck to your holomem.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#Shirakami's Character" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD14-011",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD14-011_C.webp", "en": null },
+        "img_hash": "v2|H32=tLKtqqSySmZLakptWiqzqrWqtI6WrlzEzsTe1ZtRFhEyGxLdAegtuuCxDQ/+D+noD8epKnA86ejgh+mC8GHg4IqH4AM|CYM=270E05",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C13" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD15-001": {
+    "card_number": "hSD15-001",
+    "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 4,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Chotto Matsutake~♪" },
+        "text": {
+          "en": "[1/Turn]Reveal 1 event with #Mushroom from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Expand your world" },
+        "text": {
+          "en": "[1/Game]Send the top card of your cheer deck to your <Juufuutei Raden>. Return 1 card with #Mushroom from your archive to hand."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD15-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD15-001_OC.webp", "en": null },
+        "img_hash": "v2|H32=SuGkYqmlSm6pOrxcQ6qzGqTtUzurinSVs2pZlbZKWaW2UpS2qlYuS6mtrGpXaUuqL1XpqtpUKKlqVUppStVqVVapolQ|CYM=54160F",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C18" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD15-010": {
+    "card_number": "hSD15-010",
+    "name": { "jp": "まつたけダンス", "en": "Matsutake Dance" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Choose 1 <Juufuutei Raden> on your stage. During this turn, the chosen holomem gets Arts+10. If the chosen holomem has 3 or more cheers, that holomem gets Arts+20 instead."
+    },
+    "tags": [ { "en": "#Mushroom" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD15-010",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD15-010_C.webp", "en": null },
+        "img_hash": "v2|H32=UrWrqtSlpEurSwxdiU9Kncu+VjWzOnZzrlJWVsuW3pS6pFbVEfjtquQDLaqu662r8DupKqbBrYqweCmqehjhKo5Hqq4|CYM=031715",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C27" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD16-001": {
+    "card_number": "hSD16-001",
+    "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "35P Here Here~" },
+        "text": { "en": "[1/Turn]If you have <35P> on your stage, draw 1 card." }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "35P Let's Go~!" },
+        "text": {
+          "en": "[1/Game]Choose 1 of your <Sakura Miko> with fan attached. During this turn, the chosen holomem gets Arts+50."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD16-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD16-001_OC.webp", "en": null },
+        "img_hash": "v2|H32=SCuUplWmOFktxUYXqWlnEoyisynGqjOlxGtJlc5SaRGry5SqrFZt1dusqirbKqvlSlXopC7VUqpKFi7VVlVSVSYt6tc|CYM=114336",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C32" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD17-001": {
+    "card_number": "hSD17-001",
+    "name": { "jp": "星街すいせい", "en": "Hoshimachi Suisei" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 4,
+    "oshi_skills": [
+      {
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Let's do our best with gusto!!!" },
+        "text": { "en": "[1/Turn]Send the top card of your cheer deck to your holomem." }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "The Shooting Star" },
+        "text": {
+          "en": "[1/Game]If your center holomem is <Hoshimachi Suisei>, deal 50 special damage to 1 of your opponent's back holomem."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD17-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD17-001_OC.webp", "en": null },
+        "img_hash": "v2|H32=TmOvtjW3alkrk61SaSlVKpWqV61UqrGU1mghjbZmKaUii5SqqlKuSXKrFVX4KMlWStnRJC5NKtqKNW7RTdVpdVYlqlQ|CYM=5E3406",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C38" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD17-010": {
+    "card_number": "hSD17-010",
+    "name": { "jp": "ステラ", "en": "Stellar" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Deal 20 special damage to 1 of your opponent's back holomem other than Debut.\nYou may only use the card <Stellar> once per turn."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD17-010",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD17-010_C.webp", "en": null },
+        "img_hash": "v2|H32=pqqjqqSraLdL11hV2kaSTpZOlF4u0k7XbJNum347FiqWJBbdA8ksquDwrQ/+8OGqjw/p6MA+4SqP4+E43wfgOvhw4As|CYM=523906",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C47" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD18-001": {
+    "card_number": "hSD18-001",
+    "name": { "jp": "森カリオペ", "en": "Mori Calliope" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 4,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Rhyming" },
+        "text": { "en": "[1/Turn]Archive the top 2 cards of your deck. Draw 1 card." }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Rap That Connects the World" },
+        "text": {
+          "en": "[1/Game]If you have 6 or more holomem in your archive, during this turn, all <Mori Calliope> on your stage get Arts+30."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD18-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD18-001_OC.webp", "en": null },
+        "img_hash": "v2|H32=UMeeNjXX1eylkpZJIZuyQSbbMj0iU6ZdY02hPC1Nya2VKrSSptpoSd+iiSRQ+euyqq1N1VplyqJaVVJVq5Rp1VuXqnQ|CYM=3E2C0A",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C52" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD19-001": {
+    "card_number": "hSD19-001",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 4,
+    "oshi_skills": [
+      {
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Sorry" },
+        "text": { "en": "[1/Turn]Return 1 holomem from your archive to hand." }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Walking Subaru" },
+        "text": { "en": "[1/Game]Send 1 cheer each from your archive to 1~2 of your <Oozora Subaru>." }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD19-001",
+        "manage_id": { },
+        "rarity": "OC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD19-001_OC.webp", "en": null },
+        "img_hash": "v2|H32=mkzaZttm1JZrKdKybZlrGty2N8uKMlelpEpLtZZKyZWKGbSqrlZI1ZWtqdqQti6pC1WSKqpVWq3KVSotPlHb1kqrqlU|CYM=1D1427",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C58" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD19-010": {
+    "card_number": "hSD19-010",
+    "name": { "jp": "ごきげんカレー", "en": "Good Mood Curry" },
+    "card_type": { "support": "event" },
+    "text": { "en": "Restore 30 HP to all of your holomem." },
+    "tags": [ { "en": "#Food" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD19-010",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD19-010_C.webp", "en": null },
+        "img_hash": "v2|H32=oqqjqrCqOOkpSUxdTFnM2s+axBrSHlJVelV+VS/VLNeM1xbNBsfMo/DwPXg/+Kk6Hw/hKA8eofivPykKPxjgaD8uIng|CYM=092647",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C67" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY01-001": {
     "card_number": "hY01-001",
     "name": { "jp": "白エール", "en": "White Cheer" },
@@ -54602,6 +54922,7 @@
           [ 994570439, "C128" ],
           [ 1114537117, "C6" ],
           [ 1235233029, "C118" ],
+          [ 1326338526, "C15" ],
           [ 1534249600, "C22" ],
           [ 1642260809, "C107" ],
           [ 2103775807, "C19" ]
@@ -54910,6 +55231,7 @@
           [ 994570439, "C129" ],
           [ 1114537117, "C7" ],
           [ 1235233029, "C119" ],
+          [ 1326338526, "C29" ],
           [ 1478464232, "C20" ],
           [ 1534249600, "C44" ],
           [ 1642260809, "C108" ]
@@ -55168,6 +55490,7 @@
           [ 994570439, "C130" ],
           [ 1114537117, "C8" ],
           [ 1235233029, "C120" ],
+          [ 1326338526, "C35" ],
           [ 1642260809, "C109" ],
           [ 1874575099, "C22" ],
           [ 2103775807, "C38" ]
@@ -55526,6 +55849,7 @@
           [ 994570439, "C131" ],
           [ 1114537117, "C9" ],
           [ 1235233029, "C121" ],
+          [ 1326338526, "C49" ],
           [ 1478464232, "C42" ],
           [ 1642260809, "C110" ],
           [ 1874575099, "C44" ]
@@ -55807,6 +56131,7 @@
         "ogbajoj_sheet_cells": [
           [ 543634835, "C28" ],
           [ 1235233029, "C122" ],
+          [ 1326338526, "C55" ],
           [ 1478464232, "C21" ],
           [ 1642260809, "C111" ],
           [ 1874575099, "C66" ]
@@ -56038,6 +56363,7 @@
         "ogbajoj_sheet_cells": [
           [ 543634835, "C55" ],
           [ 1235233029, "C123" ],
+          [ 1326338526, "C69" ],
           [ 1478464232, "C41" ],
           [ 1534249600, "C66" ]
         ],
