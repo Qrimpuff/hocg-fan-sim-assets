@@ -44793,10 +44793,14 @@
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "吾輩の歌聴いてくれる奴いるううう！？！？", "en": null },
+        "name": {
+          "jp": "吾輩の歌聴いてくれる奴いるううう！？！？",
+          "en": "Is there anyone who will listen to my singing!?!?"
+        },
         "power": "30",
         "text": {
-          "jp": "自分のデッキから、〈ラプラス・ダークネス〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。"
+          "jp": "自分のデッキから、〈ラプラス・ダークネス〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "en": "Reveal 1 <La+ Darknesss> from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
