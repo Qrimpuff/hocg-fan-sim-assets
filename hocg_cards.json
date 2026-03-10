@@ -30210,7 +30210,7 @@
         "power": "20+",
         "text": {
           "jp": "このターンに自分が〈牛丼〉を使っていたなら、このアーツ+30。",
-          "en": "If you used <Gyudon> this turn, this Arts gets +30."
+          "en": "If you used <Beef Bowl> this turn, this Arts gets +30."
         }
       }
     ],
@@ -31870,7 +31870,7 @@
         "name": { "jp": "今のはちょっとね、練習で…", "en": "That was just a practice..." },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]相手のターンで、自分の〈さくらみこ〉がダウンした時に使える：自分のデッキから、〈み俺恥〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "[Center Position・Collab Position Only]Usable when 1 of your <Sakura Miko> is downed during the opponent's turn:Reveal 1 <Miko, I'm ashamed> from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "[Center Position・Collab Position Only]Usable when 1 of your <Sakura Miko> is downed during the opponent's turn:Reveal 1 <DIYMiko> from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -34527,7 +34527,7 @@
   },
   "hBP05-075": {
     "card_number": "hBP05-075",
-    "name": { "jp": "牛丼", "en": "Gyudon" },
+    "name": { "jp": "牛丼", "en": "Beef Bowl" },
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な無色エール-2。その後、選んだホロメンのHP20回復。",
@@ -34696,7 +34696,7 @@
   },
   "hBP05-079": {
     "card_number": "hBP05-079",
-    "name": { "jp": "み俺恥", "en": "Miko, I'm ashamed" },
+    "name": { "jp": "み俺恥", "en": "DIYMiko" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
