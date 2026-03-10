@@ -5553,7 +5553,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-075〈牛丼〉の「無色-2」とは、どういう意味ですか？",
-      "en": "What does \"-2 colorless\" mean in hBP05-075 Gyudon?"
+      "en": "What does \"-2 colorless\" mean in hBP05-075 Beef Bowl?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色2つ分減らす能力です。",
@@ -5566,7 +5566,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-075〈牛丼〉は、バトンタッチのコストが0でHPが減っていないホロメンに使えますか？",
-      "en": "Can I use hBP05-075 Gyudon on an undamaged holomem whose Baton Pass cost is 0?"
+      "en": "Can I use hBP05-075 Beef Bowl on an undamaged holomem whose Baton Pass cost is 0?"
     },
     "answer": { "jp": "はい、使えます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP05-075" ]
@@ -5845,7 +5845,7 @@
     "date": "2025-11-19",
     "question": {
       "jp": "hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。\nこの場合、バトンタッチに必要な「無色」はいくつになりますか？",
-      "en": "I used hBP05-075 Gyudon on my hBP01-068 Omaru Polka, which had been affected by hSD11-007 Mizumiya Su's Arts \"Shupishuwa~\" and had its baton pass cost increased by +1.\nIn this case, how much colorless cheer does the baton pass cost?"
+      "en": "I used hBP05-075 Beef Bowl on my hBP01-068 Omaru Polka, which had been affected by hSD11-007 Mizumiya Su's Arts \"Shupishuwa~\" and had its baton pass cost increased by +1.\nIn this case, how much colorless cheer does the baton pass cost?"
     },
     "answer": { "jp": "この場合、0になります。", "en": "In this case, the baton pass cost will be 0." },
     "referenced_cards": [ "hBP01-068", "hBP05-075", "hSD11-007" ]
