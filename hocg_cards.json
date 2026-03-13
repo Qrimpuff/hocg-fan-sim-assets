@@ -41706,7 +41706,7 @@
         "img_path": { "jp": "hBP07/hBP07-009_P.webp", "en": null },
         "img_last_modified": { "jp": "Thu, 12 Mar 2026 08:06:54 GMT" },
         "img_hash": "v2|H32=jpS0L8mYVmq4ytIiPEuPtrBpp5OSZOnZwmcpjUO6GaVOn6xaqVpSq1StdrVWa6RSlrbStqpUrSVVSq3aapVVq6VqamU|CYM=00272F",
-        "ogbajoj_sheet_cells": null,
+        "ogbajoj_sheet_cells": [ [ 419749048, "C54" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -45195,7 +45195,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-066_P.webp", "en": null },
         "img_hash": "v2|H32=Sq3Naourtmqz2rQ0sNTRtbSUS6WWmqLdEim7WOw9Y2isS5SqWCRqVVVC4tWliqbKdFmVUno1odt6pSWNrZZQLVW1yiU|CYM=0F3711",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C54" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C55" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -45327,7 +45327,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-068_P.webp", "en": null },
         "img_hash": "v2|H32=quprCsvq6rVSJ5C1VDVVapVY1GiSSpo1WiVSNRo1UmU3RZZNnnRIL/rQ4LFrW1HwaVnQwLZVQpOmtWmplba0NPA00qE|CYM=00544A",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C55" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C56" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -45539,7 +45539,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-071_P.webp", "en": null },
         "img_hash": "v2|H32=rrabKq2yYa3jWiutVYs7Trmt1EpLZaI5WlXLMVqdTDKbiNZFt1SNlq1qSUplq1KwVSlqlZaWKtlSqnWpaq2SVklJtqo|CYM=2C4409",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C56" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C57" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -52808,7 +52808,7 @@
         "name": { "jp": "花火見ていく？", "en": "Wanna Watch the Fireworks?" },
         "text": {
           "jp": "相手のセンターホロメンに特殊ダメージ10を与える。自分が後攻で最初のターンなら、かわりに、相手のセンターホロメンに特殊ダメージ20を与える。",
-          "en": "Deal 10 special damage to your opponent's center holomem. If you went second and it is your first turn, deal 20 special damage to your opponent's center holomem."
+          "en": "Deal 10 special damage to your opponent's center holomem. If you went second and it is your first turn, deal 20 special damage to your opponent's center holomem instead."
         }
       }
     ],
@@ -52835,8 +52835,8 @@
         "rarity": "C",
         "illustrator": "TAYA",
         "img_path": { "jp": "hSD08/hSD08-006_C.webp", "en": "hBP04/EN_hSD08-006_C.webp" },
-        "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:03 GMT", "en": "Fri, 13 Feb 2026 10:34:17 GMT" },
-        "img_hash": "v2|H32=iKqtqkmqUlu2sBxplJrlqmKpJJZuQ0jVTlVKVUqlSCWbXp4lUzTmtm2J0toel0yTx1Jp+s8urMstSbB6pMnpbJZKoiU|CYM=0A351E",
+        "img_last_modified": { "jp": "Wed, 13 Aug 2025 09:53:03 GMT", "en": "Fri, 13 Mar 2026 07:35:05 GMT" },
+        "img_hash": "v2|H32=iKqtqkmqUku2MpRplJqlqmKJJJcmU1jVTlVOdVqFSCWrHJZtE3Xmtmmb0pqel0yyx1Jo0uxqqcotS7RopKkgeZZHsmU|CYM=0A341D",
         "ogbajoj_sheet_cells": [ [ 2103775807, "C8" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd08/10006",
         "tcgplayer_product_id": 679490,
@@ -52861,8 +52861,8 @@
         "rarity": "S",
         "illustrator": "TAYA",
         "img_path": { "jp": null, "en": "hBP04/EN_hSD08-006_S.webp" },
-        "img_last_modified": { "en": "Fri, 13 Feb 2026 10:34:18 GMT" },
-        "img_hash": "v2|H32=iqqtqk2qUku2MJRplJqlqmKJJJcuQ1jVTlVM1VqVyCWLHJ5lE3Xktmmb0pqetsyyx1Jp2u1aqUotS7RqpKkgbZZFsjU|CYM=0B351E",
+        "img_last_modified": { "en": "Fri, 13 Mar 2026 07:35:06 GMT" },
+        "img_hash": "v2|H32=iKqtqkmqUku2MpRplJqlqmKJJJcmU1jVTlVOdVqFSCWrHJZtE3Xmtmmb0pqel0yyx1Jo0uxqqcotS7RopKkgeZZHsmU|CYM=0A341D",
         "ogbajoj_sheet_cells": null,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": 679491,
