@@ -525,6 +525,7 @@ pub mod utils {
     use hocg_fan_sim_assets_model::{CardIllustration, Language};
     use image::{GrayImage, RgbImage, imageops};
     use image_hasher::{HasherConfig, ImageHash};
+    use itertools::Itertools;
 
     use std::collections::HashMap;
 
@@ -536,9 +537,11 @@ pub mod utils {
     pub const DIST_TOLERANCE_DIFF_RARITY: u64 = 100; // equivalent to 10% differences
     pub const DIST_TOLERANCE_SAME_RARITY: u64 = DIST_TOLERANCE_DIFF_RARITY + 38;
 
-    const V2_BITS_DG32: f32 = 1024.0;
-    const V2_W_DG32: f32 = 0.925;
-    const V2_W_CYM: f32 = 0.30;
+    const VERSION_COMPONENT: &str = "version";
+    const V2_VERSION: &str = "v2";
+    const V2_WIDTH_DG32: u32 = 32;
+    const V2_WEIGHT_DG32: f32 = 0.925;
+    const V2_WEIGHT_CYM: f32 = 0.30;
 
     pub fn path_to_image_hash(path: &Path) -> String {
         let img = image::open(path).unwrap().into_rgb8();
@@ -546,6 +549,20 @@ pub mod utils {
     }
 
     pub fn to_image_hash(img: &RgbImage) -> String {
+        let prep = prep_for_hash(img);
+        let h32 = to_hash_component(&prep);
+        let cym = to_color_component(img);
+
+        let hash = format_components(V2_VERSION, &[("H32", &h32), ("CYM", &cym)]);
+
+        if DEBUG {
+            println!("{hash}");
+        }
+
+        hash
+    }
+
+    fn prep_for_hash(img: &RgbImage) -> GrayImage {
         // use saturation for better gray
         let mut sat: image::ImageBuffer<image::Luma<u8>, Vec<u8>> = sat_gray_image(img);
 
@@ -560,13 +577,20 @@ pub mod utils {
         imageops::overlay(&mut sat, &blurred, start_x as i64, start_y as i64);
         // sat.save("debug_sat.webp").ok();
 
+        sat
+    }
+
+    fn to_hash_component(img: &GrayImage) -> String {
         let hasher32 = HasherConfig::new()
-            .hash_size(32, 32)
+            .hash_size(V2_WIDTH_DG32, V2_WIDTH_DG32)
             .preproc_dct()
             .hash_alg(image_hasher::HashAlg::DoubleGradient)
             .to_hasher();
-        let h32 = hasher32.hash_image(&sat);
+        let h32 = hasher32.hash_image(img);
+        h32.to_base64()
+    }
 
+    fn to_color_component(img: &RgbImage) -> String {
         // Average color (bias) component CYM=CCYYMM (hex)
         let (mut sum_c, mut sum_y, mut sum_m) = (0u64, 0u64, 0u64);
         for p in img.pixels() {
@@ -580,14 +604,7 @@ pub mod utils {
         let avg_y = (sum_y / n) as u8;
         let avg_m = (sum_m / n) as u8;
         let cym = format!("{:02X}{:02X}{:02X}", avg_c, avg_y, avg_m);
-
-        let hash: String = format!("v2|H32={}|CYM={}", h32.to_base64(), cym);
-
-        if DEBUG {
-            println!("{hash}");
-        }
-
-        hash
+        cym
     }
 
     pub fn can_merge(into: &CardIllustration, from: &CardIllustration, same_rarity: bool) -> bool {
@@ -621,39 +638,76 @@ pub mod utils {
         (dist_hash_norm(h1, h2).unwrap_or(1.0) * 1000.0) as u64 // 1.0 is the minimum distance, so we scale it up
     }
 
-    pub fn dist_hash_norm(h1: &str, h2: &str) -> Option<f32> {
-        if !(h1.starts_with("v2|") && h2.starts_with("v2|")) {
+    fn dist_hash_norm(h1: &str, h2: &str) -> Option<f32> {
+        let map1 = parse_components(h1)?;
+        let map2 = parse_components(h2)?;
+
+        if map1.get(VERSION_COMPONENT)? != map2.get(VERSION_COMPONENT)? {
             return None;
         }
-        let comps1 = &h1[3..];
-        let comps2 = &h2[3..];
-        let map1 = parse_components(comps1)?;
-        let map2 = parse_components(comps2)?;
 
         let mut score = 0.0f32;
         let mut total_w = 0.0f32;
 
-        let mut acc = |key: &str, bits: f32, w: f32| -> Option<()> {
-            let a = ImageHash::<Box<[u8]>>::from_base64(map1.get(key)?).ok()?;
-            let b = ImageHash::<Box<[u8]>>::from_base64(map2.get(key)?).ok()?;
-            let d = a.dist(&b) as f32 / bits; // normalized [0,1]
-            if DEBUG {
-                println!(
-                    "v2 {key} dist={d:.4} (bits={bits}) w={w:.2} contrib={:.4}",
-                    d * w
-                );
-            }
-            score += d * w;
-            total_w += w;
-            Some(())
-        };
-
         // hash DoubleGradient 32x32
-        acc("H32", V2_BITS_DG32, V2_W_DG32);
+        calc_hash_component(
+            "H32",
+            V2_WEIGHT_DG32,
+            &map1,
+            &map2,
+            &mut score,
+            &mut total_w,
+        );
 
         // Color bias (average color difference)
-        if let (Some(c1), Some(c2)) = (map1.get("CYM"), map2.get("CYM"))
-            && c1.len() == 6
+        calc_color_component("CYM", V2_WEIGHT_CYM, &map1, &map2, &mut score, &mut total_w);
+
+        if total_w == 0.0 {
+            return None;
+        }
+
+        let final_score = score;
+        if DEBUG {
+            println!("{V2_VERSION} distance score={final_score:.4}");
+        }
+        Some(final_score)
+    }
+
+    fn calc_hash_component(
+        key: &str,
+        weight: f32,
+        map1: &HashMap<&str, &str>,
+        map2: &HashMap<&str, &str>,
+        score: &mut f32,
+        total_w: &mut f32,
+    ) -> Option<()> {
+        let a = ImageHash::<Box<[u8]>>::from_base64(map1.get(key)?).ok()?;
+        let b = ImageHash::<Box<[u8]>>::from_base64(map2.get(key)?).ok()?;
+        let bits = a.as_bytes().len().min(b.as_bytes().len()) as f32 * 8.0;
+        let d = a.dist(&b) as f32 / bits; // normalized [0,1]
+        if DEBUG {
+            println!(
+                "{V2_VERSION} {key} dist={d:.4} (bits={bits}) w={weight:.2} contrib={:.4}",
+                d * weight
+            );
+        }
+        *score += d * weight;
+        *total_w += weight;
+        Some(())
+    }
+
+    fn calc_color_component(
+        key: &str,
+        weight: f32,
+        map1: &HashMap<&str, &str>,
+        map2: &HashMap<&str, &str>,
+        score: &mut f32,
+        total_w: &mut f32,
+    ) -> Option<()> {
+        // Color bias (average color difference)
+        let c1 = map1.get(key)?;
+        let c2 = map2.get(key)?;
+        if c1.len() == 6
             && c2.len() == 6
             && let (Ok(c1), Ok(y1), Ok(m1), Ok(c2), Ok(y2), Ok(m2)) = (
                 u8::from_str_radix(&c1[0..2], 16),
@@ -671,31 +725,30 @@ pub mod utils {
             let dcym = (dc * dc + dy * dy + dm * dm).sqrt() / denom; // [0,1]
             if DEBUG {
                 println!(
-                    "v2 CYM dist={dcym:.4} (denom={denom}) w={:.2} contrib={:.4}",
-                    V2_W_CYM,
-                    dcym * V2_W_CYM
+                    "{V2_VERSION} {key} dist={dcym:.4} (denom={denom}) w={weight:.2} contrib={:.4}",
+                    dcym * weight
                 );
             }
-            score += dcym * V2_W_CYM;
-            total_w += V2_W_CYM;
+            *score += dcym * weight;
+            *total_w += weight;
         }
+        Some(())
+    }
 
-        if total_w == 0.0 {
-            return None;
-        }
-
-        let final_score = score;
-        if DEBUG {
-            println!("v2 distance score={final_score:.4}");
-        }
-        Some(final_score)
+    fn format_components(version: &str, map: &[(&str, &str)]) -> String {
+        version.to_owned() + "|" + &map.iter().map(|(k, v)| format!("{}={}", k, v)).join("|")
     }
 
     fn parse_components(s: &str) -> Option<HashMap<&str, &str>> {
         let mut m = HashMap::new();
-        for part in s.split('|') {
-            let (k, v) = part.split_once('=')?;
-            m.insert(k, v);
+        for (i, part) in s.split('|').enumerate() {
+            if i == 0 {
+                // starts with version
+                m.insert(VERSION_COMPONENT, part);
+            } else {
+                let (k, v) = part.split_once('=')?;
+                m.insert(k, v);
+            }
         }
         Some(m)
     }
