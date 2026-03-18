@@ -9706,11 +9706,14 @@
         "img_hash": "v2|H32=5KmpqqWrEqWT5lJVi2NMce06fB87jlTVOs5WVK9qrHGsKlZVUfEtqgo+raoPz6mq8YOpqnB4qaqqBqmq6sPp6no4qDo|CYM=0E0B1C",
         "ogbajoj_sheet_cells": [
           [ 1326338526, "C14" ],
-          [ 1326338526, "C28" ],
-          [ 1326338526, "C33" ],
+          [ 1326338526, "C29" ],
+          [ 1326338526, "C35" ],
           [ 1326338526, "C48" ],
+          [ 1326338526, "C51" ],
           [ 1326338526, "C53" ],
-          [ 1326338526, "C68" ]
+          [ 1326338526, "C57" ],
+          [ 1326338526, "C68" ],
+          [ 1326338526, "C73" ]
         ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -16082,7 +16085,7 @@
         "img_path": { "jp": "hBP02/hBP02-088_U.webp", "en": "hBP02/EN_hBP02-088_U.webp" },
         "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 19 Sep 2025 08:21:14 GMT" },
         "img_hash": "v2|H32=TqWPqhWrlaq7qpC1qa1glUvVWt2rWF5Qu1rycLd2NnSyalZVM9mtqmOy6arM4q3q7MatqviQrYpUMq2ryIepiukfqIo|CYM=011911",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C54" ], [ 1642260809, "C89" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C54" ], [ 1326338526, "C58" ], [ 1642260809, "C89" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10177",
         "tcgplayer_product_id": 657707,
         "delta_art_index": 0
@@ -23034,7 +23037,7 @@
         "img_path": { "jp": "hBP03/hBP03-107_U.webp", "en": "hBP03/EN_hBP03-107_U.webp" },
         "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:49 GMT", "en": "Tue, 09 Dec 2025 09:50:18 GMT" },
         "img_hash": "v2|H32=tKq1qkynSDeJK1JdckkzS7PqsPTrtEw0zLxWzDPINMs+S5JNjGEtujOYZ6bAduj4t5e4i56WrerA4yk4KT7py2/J6Gg|CYM=024243",
-        "ogbajoj_sheet_cells": [ [ 1235233029, "C108" ], [ 1326338526, "C34" ] ],
+        "ogbajoj_sheet_cells": [ [ 1235233029, "C108" ], [ 1326338526, "C36" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp03/10216",
         "tcgplayer_product_id": 669220,
         "delta_art_index": 0
@@ -55975,6 +55978,35 @@
       }
     ]
   },
+  "hSD14-010": {
+    "card_number": "hSD14-010",
+    "name": { "jp": "holoAN", "en": "holoAN" },
+    "card_type": { "support": "staff" },
+    "limited": true,
+    "text": { "en": "Draw 3 cards." },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD14-010",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD14-010_C.webp", "en": null },
+        "img_hash": "v2|H32=KK2pqpSqraqn6tRCLrYrNWMRalUrVdpU2l5aVVqFVpEqpZJFQKBsmh+sLZuLDm26+jqJbvBwiWwuFomuqldg2S7XKts|CYM=0E1410",
+        "ogbajoj_sheet_cells": [
+          [ 1326338526, "C12" ],
+          [ 1326338526, "C28" ],
+          [ 1326338526, "C34" ],
+          [ 1326338526, "C50" ],
+          [ 1326338526, "C56" ],
+          [ 1326338526, "C72" ]
+        ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD14-011": {
     "card_number": "hSD14-011",
     "name": { "jp": "ありよりのアリゲーター", "en": "Ari Yori no Alligator" },
@@ -56091,7 +56123,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD16-001_OC.webp", "en": null },
         "img_hash": "v2|H32=SCuUplWmOFktxUYXqWlnEoyisynGqjOlxGtJlc5SaRGry5SqrFZt1dusqirbKqvlSlXopC7VUqpKFi7VVlVSVSYt6tc|CYM=114336",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C32" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C32" ], [ 1326338526, "C33" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56128,7 +56160,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD17-001_OC.webp", "en": null },
         "img_hash": "v2|H32=TmOvtjW3alkrk61SaSlVKpWqV61UqrGU1mghjbZmKaUii5SqqlKuSXKrFVX4KMlWStnRJC5NKtqKNW7RTdVpdVYlqlQ|CYM=5E3406",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C38" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C38" ], [ 1326338526, "C40" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56151,7 +56183,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD17-010_C.webp", "en": null },
         "img_hash": "v2|H32=pqqjqqSraLdL11hV2kaSTpZOlF4u0k7XbJNum347FiqWJBbdA8ksquDwrQ/+8OGqjw/p6MA+4SqP4+E43wfgOvhw4As|CYM=523906",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C47" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C47" ], [ 1326338526, "C49" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56188,7 +56220,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD18-001_OC.webp", "en": null },
         "img_hash": "v2|H32=UMeeNjXX1eylkpZJIZuyQSbbMj0iU6ZdY02hPC1Nya2VKrSSptpoSd+iiSRQ+euyqq1N1VplyqJaVVJVq5Rp1VuXqnQ|CYM=3E2C0A",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C52" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C55" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56223,7 +56255,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-001_OC.webp", "en": null },
         "img_hash": "v2|H32=mkzaZttm1JZrKdKybZlrGty2N8uKMlelpEpLtZZKyZWKGbSqrlZI1ZWtqdqQti6pC1WSKqpVWq3KVSotPlHb1kqrqlU|CYM=1D1427",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C58" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C62" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56245,7 +56277,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-010_C.webp", "en": null },
         "img_hash": "v2|H32=oqqjqrCqOOkpSUxdTFnM2s+axBrSHlJVelV+VS/VLNeM1xbNBsfMo/DwPXg/+Kk6Hw/hKA8eofivPykKPxjgaD8uIng|CYM=092647",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C67" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C67" ], [ 1326338526, "C71" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56589,7 +56621,7 @@
           [ 994570439, "C129" ],
           [ 1114537117, "C7" ],
           [ 1235233029, "C119" ],
-          [ 1326338526, "C29" ],
+          [ 1326338526, "C30" ],
           [ 1478464232, "C20" ],
           [ 1534249600, "C44" ],
           [ 1642260809, "C108" ]
@@ -56852,7 +56884,7 @@
           [ 994570439, "C130" ],
           [ 1114537117, "C8" ],
           [ 1235233029, "C120" ],
-          [ 1326338526, "C35" ],
+          [ 1326338526, "C37" ],
           [ 1642260809, "C109" ],
           [ 1874575099, "C22" ],
           [ 2103775807, "C38" ]
@@ -57215,7 +57247,7 @@
           [ 994570439, "C131" ],
           [ 1114537117, "C9" ],
           [ 1235233029, "C121" ],
-          [ 1326338526, "C49" ],
+          [ 1326338526, "C52" ],
           [ 1478464232, "C42" ],
           [ 1642260809, "C110" ],
           [ 1874575099, "C44" ]
@@ -57501,7 +57533,7 @@
         "ogbajoj_sheet_cells": [
           [ 543634835, "C28" ],
           [ 1235233029, "C122" ],
-          [ 1326338526, "C55" ],
+          [ 1326338526, "C59" ],
           [ 1478464232, "C21" ],
           [ 1642260809, "C111" ],
           [ 1874575099, "C66" ]
@@ -57738,6 +57770,7 @@
           [ 543634835, "C55" ],
           [ 1235233029, "C123" ],
           [ 1326338526, "C69" ],
+          [ 1326338526, "C74" ],
           [ 1478464232, "C41" ],
           [ 1534249600, "C66" ]
         ],
