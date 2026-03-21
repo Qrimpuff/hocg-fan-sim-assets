@@ -6824,9 +6824,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-008〈角巻わため〉のコラボエフェクト「もういっぺぇ」を使い、センターホロメンの〈角巻わため〉が2回アーツを使いました。\nこの場合、hBP07-001〈角巻わため〉の推しステージスキル「ドドドライブ」の能力によってホロパワーを2枚置くことはできますか？",
-      "en": null
+      "en": "I used hBP07-008 Tsunomaki Watame's Collab Effect \"Once More\", and my center Tsunomaki Watame used Arts twice.\nIn this case, do I put two cards from my deck into holo power with hBP07-001 Tsunomaki Watame's Oshi Stage Skill \"Do-do-drive\"?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP07-001", "hBP07-008" ]
   },
   "Q580": {
@@ -6834,9 +6834,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-002〈ベスティア・ゼータ〉のSP推しスキル「不可能なんてないんだから！」の能力で、自分のアーカイブにあるhBP07-108〈Zecretary〉をhBP04-039〈カエラ・コヴァルスキア〉に付けることはできますか？",
-      "en": null
+      "en": "Can I use hBP07-002 Vestia Zeta's SP Oshi Skill \"Because nothing is impossible!\" to attach hBP07-108 Zecretary from my archive to hBP04-039 Kaela Kovalskia?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-002", "hBP07-108" ]
   },
   "Q581": {
@@ -6844,9 +6844,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-002〈ベスティア・ゼータ〉のSP推しスキル「不可能なんてないんだから！」の能力で、自分のアーカイブにあるhBP07-105〈BAZO〉3枚を選びました。\nこの場合、〈ベスティア・ゼータ〉1人にすべて付けることはできますか？",
-      "en": null
+      "en": "When I used hBP07-002 Vestia Zeta's SP Oshi Skill \"Because nothing is impossible!\"  I chose 3 copies of hBP07-105 BAZO from my archive.\nIn this case, can I attach all of them to 1 Vestia Zeta?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot" },
     "referenced_cards": [ "hBP07-002", "hBP07-105" ]
   },
   "Q582": {
@@ -6854,9 +6854,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のデッキが残り1枚で、hBP07-003〈大神ミオ〉の推しスキル「神札の導き」の能力を使いました。\nこの場合、1枚も手札に加えずにデッキに戻すことはできますか？",
-      "en": null
+      "en": "I have 1 card left in my deck when using hBP07-003 Ookami Mio's Oshi Skill \"Guidance of the Divine Talisman\".\nIn this case, can I return it to the deck without adding a card to hand?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-003" ]
   },
   "Q583": {
@@ -6864,9 +6864,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のデッキが残り3枚で、hBP07-003〈大神ミオ〉のSP推しスキル「みんなのママ」の能力を使いました。\nこの場合、1枚も手札に加えずにデッキに戻すことはできますか？",
-      "en": null
+      "en": "I have 3 cards left in my deck when using hBP07-003 Ookami Mio's SP Oshi Skill \"Everyone's Mama\".\nIn this case, can I return any of those cards to the deck without adding them to hand?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-003" ]
   },
   "Q584": {
@@ -6874,9 +6874,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-004〈赤井はあと〉のステージ推しスキル「はあちゃまなう」の能力は、hBP07-096〈ちゃま旅〉の能力で自分の〈赤井はあと〉がデッキに戻った場合も発揮されますか？",
-      "en": null
+      "en": "Will hBP07-004 Akai Haato's Oshi Stage Skill \"Haachama Now\" be activated even if my Akai Haato is returned to the deck by the effect of hBP07-096 Chama Journey?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP07-004", "hBP07-096" ]
   },
   "Q585": {
@@ -6884,11 +6884,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-004〈赤井はあと〉の推しスキル「ワールドワイドな最強アイドル！」の能力で、自分の〈赤井はあと〉がデッキに戻る場合、その〈赤井はあと〉に付いているカードもデッキに戻りますか？",
-      "en": null
+      "en": "If I return my Akai Haato to the deck using hBP07-004 Akai Haato's Oshi Skill \"Worldwide Strongest Idol!\", will the cards attached to that Akai Haato also be returned to the deck?"
     },
     "answer": {
       "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
-      "en": null
+      "en": "No, they will not be returned. All attached cards will be archived."
     },
     "referenced_cards": [ "hBP07-004" ]
   },
@@ -6897,9 +6897,12 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-004〈赤井はあと〉の推しスキル「ワールドワイドな最強アイドル！」の能力で、自分の〈赤井はあと〉がデッキに戻る場合、好きな順番でデッキの下に戻せますか？",
-      "en": null
+      "en": "If I return my Akai Haato to the deck using hBP07-004 Akai Haato's Oshi Skill \"Worldwide Strongest Idol!\", can I return the stacked cards to the bottom of the deck in any order?"
     },
-    "answer": { "jp": "はい、戻せます。", "en": null },
+    "answer": {
+      "jp": "はい、戻せます。",
+      "en": "Yes, you can.\n(you can't return multiple cards with the oshi skill since it wants a debut, but that's what the Q&A says)"
+    },
     "referenced_cards": [ "hBP07-004" ]
   },
   "Q587": {
@@ -6907,11 +6910,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のステージにhBP07-039〈赤井はあと〉とhBP07-040〈赤井はあと〉がいる時、hBP07-40〈赤井はあと〉のコラボエフェクト「Haachama ♥ Restaurant」の能力で、バックポジションの〈赤井はあと〉をデッキの下に戻しました。\nこの場合、hBP07-004〈赤井はあと〉の推しステージスキル「はあちゃまなう」とhBP07-039〈赤井はあと〉のギフト「血ゃ舞ってる奴いる！？」のどちらから処理しますか？",
-      "en": null
+      "en": "I have both hBP07-039 Akai Haato and hBP07-040 Akai Haato on my stage, and I use hBP07-040 Akai Haato's Collab Effect \"Haachama ♥ Restaurant\" to return 1 of my Akai Haato from the back position to my deck.\nIn this case, which should be processed first: hBP07-004 Akai Haato's Oshi Stage Skill \"Haachama Now\", or hBP07-039 Akai Haato's Gift \"Is the blood flying?\"?"
     },
     "answer": {
       "jp": "hBP07-004〈赤井はあと〉とhBP07-039〈赤井はあと〉持つプレイヤーが好きな順番で処理します。",
-      "en": null
+      "en": "You may process these two effects in any order you like."
     },
     "referenced_cards": [ "hBP07-004", "hBP07-039", "hBP07-040" ]
   },
@@ -6920,9 +6923,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-005〈オーロ・クロニー〉の推しスキル「忘却の輪の上で」の能力で下からカードを引く場合、一番下にあるカードを1枚目として最初に引きますか？",
-      "en": null
+      "en": "When using hBP07-005 Ouro Kronii's Oshi Skill \"On the Rings of Oblivion\", do I draw cards from the bottom of my deck?"
     },
-    "answer": { "jp": "はい、引きます。", "en": null },
+    "answer": { "jp": "はい、引きます。", "en": "Yes, you draw from the bottom." },
     "referenced_cards": [ "hBP07-005" ]
   },
   "Q589": {
@@ -6930,11 +6933,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-005〈オーロ・クロニー〉のSP推しスキル「時間の典獄」の、「このターンの後に、もう1回自分のターンを開始する」とはどういう意味ですか？",
-      "en": null
+      "en": "What does \"take an extra turn after this one\" mean on hBP07-005 Ouro Kronii's SP Oshi Skill \"Warden of Time\"?"
     },
     "answer": {
       "jp": "現在行っているターンの終了後、相手にターンが移る前に、再び自分のリセットステップタから開始することを指します。",
-      "en": null
+      "en": "It means that after your current turn ends, you start a new turn from the reset step without your opponent taking a turn."
     },
     "referenced_cards": [ "hBP07-005" ]
   },
@@ -6943,9 +6946,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-008〈角巻わため〉のコラボエフェクト「もういっぺぇ」の能力で、自分のセンターポジションにいる〈角巻わため〉を選びました。\nセンターホロメンの〈角巻わため〉がアーツを使った後、もう一回アーツを使う前にコラボホロメンのhBP07-008〈角巻わため〉はアーツを使えますか？",
-      "en": null
+      "en": "I used hBP07-008 Tsunomaki Watame's Collab Effect \"Once More\" to select my center Tsunomaki Watame.\nAfter my center Tsunomaki Watame uses Arts, can I my collab Tsunomaki Watame use Arts before the center Tsunomaki Watame uses arts for a second time?"
     },
-    "answer": { "jp": "いいえ、使えません。", "en": null },
+    "answer": { "jp": "いいえ、使えません。", "en": "No, it cannot." },
     "referenced_cards": [ "hBP07-008" ]
   },
   "Q591": {
@@ -6953,9 +6956,12 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-020〈ベスティア・ゼータ〉のコラボエフェクト「Ya ya ya ya ya～!」は、残りのHPが90以下の相手のホロメンに使用した場合、HPはどうなりますか？",
-      "en": null
+      "en": "If hBP07-020 Vestia Zeta's Collab Effect \"Ya ya ya ya ya~!\" is used on an opponent's holomem with 90 or less HP remaining, what happens?"
     },
-    "answer": { "jp": "相手のホロメンの残りのHPは100になります。", "en": null },
+    "answer": {
+      "jp": "相手のホロメンの残りのHPは100になります。",
+      "en": "The remaining HP of the targeted holomem will be set to 100."
+    },
     "referenced_cards": [ "hBP07-020" ]
   },
   "Q592": {
@@ -6963,9 +6969,12 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-022〈白銀ノエル〉のギフト「筋肉は裏切らない！」の能力でホロメンを戻した場合、ライフダメージはどうなりますか？",
-      "en": null
+      "en": "If I use hBP07-022 Shirogane Noel's Gift to return a downed holomem to my hand, what happens to the life damage?"
     },
-    "answer": { "jp": "この場合、ライフダメージは通常通り処理されます。", "en": null },
+    "answer": {
+      "jp": "この場合、ライフダメージは通常通り処理されます。",
+      "en": "The life damage is processed as normal."
+    },
     "referenced_cards": [ "hBP07-022" ]
   },
   "Q593": {
@@ -6973,11 +6982,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "残りHPが10の、サポートカードが付いているhBP07-029〈大神ミオ〉が10ダメージを受けてダウンしました。\nこの場合、ギフト「緑の地母神」の能力で50回復してステージに残ることはできますか？",
-      "en": null
+      "en": "My hBP07-029 Ookami Mio, with a support card attached and 10 HP remaining, takes 10 damage and is downed.\nIn this case, can it recover 50 HP with the Gift \"Earth Mother Goddess\" and remain on stage?"
     },
     "answer": {
       "jp": "いいえ、できません。\n先にダウン処理によってアーカイブに置かれます。",
-      "en": null
+      "en": "No, it cannot. It is archive first through the down process."
     },
     "referenced_cards": [ "hBP07-029" ]
   },
@@ -6986,11 +6995,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-030〈風真いろは〉のブルームエフェクト「holoRêve -いろは-」の「BuzzホロメンからBloomした時」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"When bloomed from a Buzz holomem\" mean on hBP07-030 Kazama Iroha's Gift \"holoRêve -Iroha-\"?"
     },
     "answer": {
       "jp": "hBP07-030〈風真いろは〉の真下にあるカードがBuzzホロメンである状態を指します。",
-      "en": null
+      "en": "It means when the card directly below hBP07-030 Kazama Iroha is a Buzz holomem."
     },
     "referenced_cards": [ "hBP07-030" ]
   },
@@ -6999,9 +7008,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-050〈オーロ・クロニー〉のコラボエフェクト「この日が来た！」の能力は、この能力内でしかBloomさせることはできませんか？",
-      "en": null
+      "en": "After using hBP07-050 Ouro Kronii's Collab Effect \"Today's the day!\", can I continue to bloom that holomem?"
     },
-    "answer": { "jp": "はい、できません。", "en": null },
+    "answer": { "jp": "はい、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-050" ]
   },
   "Q596": {
@@ -7009,11 +7018,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-040〈赤井はあと〉のコラボエフェクト「Haachama ♥ Restaurant」の能力で、自分の〈赤井はあと〉がデッキに戻る場合、その〈赤井はあと〉に付いているカードもデッキに戻りますか？",
-      "en": null
+      "en": "If I return my Akai Haato to the deck using hBP07-040 Akai Haato's Collab Effect \"Haachama ♥ Restaurant\", will the cards attached to that Akai Haato also be returned to the deck?"
     },
     "answer": {
       "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
-      "en": null
+      "en": "No, they will not be returned. All attached cards will be archived."
     },
     "referenced_cards": [ "hBP07-040" ]
   },
@@ -7022,9 +7031,12 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-040〈赤井はあと〉のコラボエフェクト「Haachama ♥ Restaurant」の能力で、自分の〈赤井はあと〉がデッキに戻る場合、好きな順番でデッキの下に戻せますか？",
-      "en": null
+      "en": "If I return my Akai Haato to the deck using hBP07-040 Akai Haato's Collab Effect \"Haachama ♥ Restaurant\", can I return the stacked cards to the bottom of the deck in any order?"
     },
-    "answer": { "jp": "はい、戻せます。", "en": null },
+    "answer": {
+      "jp": "はい、戻せます。",
+      "en": "Yes, you can.\n(you can't return multiple cards with this collab effect since it wants a debut, but that's what the Q&A says)"
+    },
     "referenced_cards": [ "hBP07-040" ]
   },
   "Q598": {
@@ -7032,9 +7044,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP03-107〈35P〉が2枚付いているhBP07-043〈さくらみこ〉がアーツ「桜は花に顕る」を使いました。\nこの場合、アーツの能力で引けるカードは何枚になりますか？",
-      "en": null
+      "en": "My hBP07-043 Sakura Miko with 2 hBP03-107 35P attached, uses its Arts \"Revelation of cherry blossoms\".\nIn this case, how many cards do I draw by the Arts effect?"
     },
-    "answer": { "jp": "2枚となります。", "en": null },
+    "answer": { "jp": "2枚となります。", "en": "You draw 2 cards." },
     "referenced_cards": [ "hBP03-107", "hBP07-043" ]
   },
   "Q599": {
@@ -7042,11 +7054,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のセンターホロメンがhBP07-044〈尾丸ポルカ〉の時、hBP01-126〈座員〉が付いているhBP01-071〈尾丸ポルカ〉がダウンしました。\nこの場合、ライフダメージはいくつになりますか？",
-      "en": null
+      "en": "My center holomem is hBP07-044 Omaru Polka, and my hBP01-071 Omaru Polka with hBP01-126 Troupe Member attached is downed.\nIn this case, how much life damage will I take?"
     },
     "answer": {
       "jp": "この場合、hBP07-044〈尾丸ポルカ〉のギフト「The Show Must Go On」の能力によって減るライフが-1となるため、ライフダメージは1となります。",
-      "en": null
+      "en": "You take 1 less life damage due to hBP07-044 Omaru Polka's Gift \"The Show Must Go On\", so you will take a total of 1 life damage."
     },
     "referenced_cards": [ "hBP01-071", "hBP01-126", "hBP07-044" ]
   },
@@ -7055,9 +7067,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-048〈エリザベス・ローズ・ブラッドフレイム〉のギフト「Queen of Impersonation」の能力で、自分のhSD13-007〈エリザベス・ローズ・ブラッドフレイム〉のアーツ「悪斬りのカデンツァ」を相手の紫ホロメンに使いました。\nこの場合、アーツ「悪斬りのカデンツァ」が持っている紫特攻＋50は計算されますか？",
-      "en": null
+      "en": "I used hBP07-048 Elizabeth Rose Bloodflame's Gift \"Queen of Impersonation\" to use hSD13-007 Elizabeth Rose Bloodflame's Arts \"The Slayer of Evil's Cadenza\" against my opponent's purple holomem.\nIn this case, will the +50 critical damage vs purple be applied?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP07-048", "hSD13-007" ]
   },
   "Q601": {
@@ -7065,9 +7077,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-056〈オーロ・クロニー〉のギフト「時界を統べし者」の能力で、このカードを他の〈オーロ・クロニー〉にBloomさせることはできますか？",
-      "en": null
+      "en": "Can I use hBP07-056 Ouro Kronii's Gift \"Commander of Time\" to make that holomem bloom to another Ouro Kronii?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-056" ]
   },
   "Q602": {
@@ -7075,9 +7087,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のhSD01-013〈SorAZ〉が1人いる時、hBP07-068〈AZKi〉がコラボしました。\nこの場合、コラボエフェクト「共に歩んできた軌跡」の能力で、hSD01-013〈SorAZ〉を〈ときのそら〉、〈SorAZ〉の2人分として数えることはできますか？",
-      "en": null
+      "en": "I have 1 hSD01-013 SorAZ on my stage when I collab with hBP07-068 AZKi.\nIn this case, can I count SorAZ as both \"Tokino Sora\" and \"SorAZ\" for the Collab Effect \"The path we've walked together\"?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-068", "hSD01-013" ]
   },
   "Q603": {
@@ -7085,11 +7097,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-075〈古石ビジュー〉のギフト「闇夜のハンター」の「アーツの対象が自分のアーカイブのエールと同色の相手のホロメンなら」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"If the target of this holomem's Arts is your opponent's holomem with the same color as a cheer in your archive\" mean on hBP07-075 Koseki Bijou's Gift \"Hunter in the Dark\"?"
     },
     "answer": {
       "jp": "アーツの対象が自分のアーカイブにあるエールのいずれかの色と同色である場合を指します。\n例として、白エールがあれば白ホロメン、緑エールがあれば緑ホロメンがアーツの対象であれば、このギフトの能力が発揮されます。",
-      "en": null
+      "en": "This refers to the case when the holomem being targeted by Arts has the same color as any of the cheers in your archive.\nFor example, if you have any white cheer in your archive and the target is a white holomem; or if you have nya green cheer in your archive and the target is a green holomem."
     },
     "referenced_cards": [ "hBP07-075" ]
   },
@@ -7098,11 +7110,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-084〈夏色まつり〉のギフト「一緒にゲームしよ」の能力で自分のアーカイブのLIMITEDのサポートカードをデッキの下に戻した場合、重なっているホロメンすべてを戻すことはできますか？",
-      "en": null
+      "en": "When I use hBP07-084 Natsuiro Matsuri's Gift \"Let's play games together\" to return a Limited support card from my archive to deck, can I return all holomems in the stack to my hand?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこのカードのみを手札に戻し、他のカードは通常のダウン処理を行います。",
-      "en": null
+      "en": "No, you cannot. You only return the top card to your hand, and the rest are archived as usual."
     },
     "referenced_cards": [ "hBP07-084" ]
   },
@@ -7111,9 +7123,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-086〈ジジ・ムリン〉のコラボエフェクト「執念のチェイサー」の能力は、相手のセンターホロメンやコラボホロメンが不在でも、バックホロメンを選んでアーツを使うことができますか？",
-      "en": null
+      "en": "Can the target of hBP07-086 Gigi Murin's Collab Effect \"Obsessive Chaser\" choose to use Arts on my opponent's back holomem, even if they have no center or collab holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, it can." },
     "referenced_cards": [ "hBP07-086" ]
   },
   "Q606": {
@@ -7121,9 +7133,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-092（アーカイブパソコン〉は、デッキにカードがあり、アーカイブにホロメンが無い時でも使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP07-092 Archive PC if there are cards in my deck, even if there are no holomem in my archive?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP07-092" ]
   },
   "Q607": {
@@ -7131,9 +7143,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-092（アーカイブパソコン〉は、デッキが0枚でアーカイブにホロメンがある時は使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP07-092 Archive PC is there are holomem in my archive, even if there are no cards in my deck?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP07-092" ]
   },
   "Q608": {
@@ -7141,11 +7153,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-096〈ちゃま旅〉の能力で、自分の〈赤井はあと〉がデッキに戻る場合、その〈赤井はあと〉に付いているカードもデッキに戻りますか？",
-      "en": null
+      "en": "If I return my Akai Haato to the deck using hBP07-096 Chama Journey, will the cards attached to that Akai Haato also be returned to the deck?"
     },
     "answer": {
       "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
-      "en": null
+      "en": "No, they will not be returned. All attached cards will be archived."
     },
     "referenced_cards": [ "hBP07-096" ]
   },
@@ -7154,9 +7166,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-096〈ちゃま旅〉の能力で、自分の〈赤井はあと〉がデッキに戻る場合、好きな順番でデッキの下に戻せますか？",
-      "en": null
+      "en": "If I return my Akai Haato to the deck using hBP07-096 Chama Journey, can I return the stacked cards to the bottom of the deck in any order?"
     },
-    "answer": { "jp": "はい、戻せます。", "en": null },
+    "answer": { "jp": "はい、戻せます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP07-096" ]
   },
   "Q610": {
@@ -7164,9 +7176,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のアーカイブにhBP07-100〈フロンティアスピリット〉が0枚で〈AZKi〉が1枚ある時、このカードを使うことはできますか？",
-      "en": null
+      "en": "If I have 0 copies of hBP07-100 Frontier Spirit and 1 AZKi in my archive, can I use hBP07-100 Frontier Spirit?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP07-100" ]
   },
   "Q611": {
@@ -7174,9 +7186,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のアーカイブにhBP07-100〈フロンティアスピリット〉が3枚ある時、hBP07-069〈AZKi〉のアーツ「紡いだ軌跡 すべてに捧ぐ歌」の能力でホロパワーを4枚アーカイブしました。\nその中にhBP07-100〈フロンティアスピリット〉がある場合、相手のライフを−1することはできますか？",
-      "en": null
+      "en": "I have 3 copies of hBP07-100 Frontier Spirit in my archive, and I archive 4 cards from holo power using hBP07-069 AZKi's Arts \"The trajectory we spun - a song dedicated to all\".\nIf one of the archived cards is Frontier Spirit, can I still reduce my opponent's life?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP07-069", "hBP07-100" ]
   },
   "Q612": {
@@ -7184,9 +7196,9 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のアーカイブにhBP07-100〈フロンティアスピリット〉が1枚で〈AZKi〉とエールが0枚である時、このカードを使うことはできますか？",
-      "en": null
+      "en": "If I have 1 copy of hBP07-100 Frontier Spirit in my archive, and 0 AZKi or cheer in my archive, can I use hBP07-100 Frontier Spirit?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-100" ]
   },
   "Q613": {
@@ -7194,11 +7206,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-103〈ギラファノコギリクワガタ〉の「軽減されない」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"cannot be reduced\" mean on hBP07-103 Giraffe Stag Beetle?"
     },
     "answer": {
       "jp": "ダメージを減らす、またはダメージを受けない能力の影響を受けないという意味です。",
-      "en": null
+      "en": "This means that the damage is not affected by any abilities that reduce or prevent damage."
     },
     "referenced_cards": [ "hBP07-103" ]
   },
@@ -7207,11 +7219,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-106〈ハトタウロス〉が付いているhBP07-028〈大神ミオ〉がコラボした時、hBP07-106〈ハトタウロス〉の能力とコラボエフェクト「金瞳の綺羅星」の能力はどちらから処理されますか?",
-      "en": null
+      "en": "I collab with my hBP07-028 Ookami Mio with hBP07-106 Pigeotaurus attached, which is processed first: the effect of Pigeotaurus, or the Collab Effect \"Golden-eyed Star\"?"
     },
     "answer": {
       "jp": "どちらも「コラボした時」に使える能力であるため、好きな順番で処理ができます。",
-      "en": null
+      "en": "Since both abilities activate when collabing, you may choose to use them in any order."
     },
     "referenced_cards": [ "hBP07-028", "hBP07-106" ]
   },
@@ -7220,11 +7232,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "残りHP10の、hBP07-106〈ハトタウロス〉が付いている〈大神ミオ〉がコラボした時、hBP07-106〈ハトタウロス〉の能力でhBP07-106〈ハトタウロス〉をデッキの上に戻すことはできますか？",
-      "en": null
+      "en": "I collab with my Ookami Mio with hBP07-106 Pigeotaurus attached and 10 HP remaining. Can I use Pigeotaurus's ability to return it to the top of the deck?"
     },
     "answer": {
       "jp": "はい、できます。\nその場合、残りHPが0になるため、アーカイブからホロメンを1枚手札に戻した後にダウン処理を行います。",
-      "en": null
+      "en": "Yes, you can. In this case, your Ookami Mio's HP will become 0, so once Pigeotaurus's effect is completed it will be downed."
     },
     "referenced_cards": [ "hBP07-106" ]
   },
@@ -7233,11 +7245,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hSD01-013〈SorAZ〉のエクストラ能力「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"This holomem is also regarded as <Tokino Sora> <AZKi>\" mean on hSD01-013 SorAZ's Extra text?"
     },
     "answer": {
       "jp": "カード名として、〈ときのそら〉、〈AZKi〉、〈SorAZ〉を持つことを指します。",
-      "en": null
+      "en": "It means that the card has the names \"Tokino Sora\", \"AZKi\", and \"SorAZ\"."
     },
     "referenced_cards": [ "hSD01-013" ]
   },
@@ -7246,11 +7258,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP03-050〈FUWAMOCO〉のエクストラ能力「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"This holomem is also regarded as <Fuwawa Abyssgard> <Mococo Abyssgard>\" mean on hBP03-050 FUWAMOCO's Extra text?"
     },
     "answer": {
       "jp": "カード名として、〈フワワ・アビスガード〉、〈モココ・アビスガード〉、〈FUWAMOCO〉を持つことを指します。",
-      "en": null
+      "en": "It means that the card has the names \"Fuwawa Abyssgard\", \"Mococo Abyssgard\", and \"FUWAMOCO\"."
     },
     "referenced_cards": [ "hBP03-050" ]
   },
@@ -7259,11 +7271,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP05-040〈miComet〉のエクストラ能力「このホロメンは〈さくらみこ〉〈星街すいせい〉としても扱う」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"This holomem is also regarded as <Sakura Miko> <Hoshimachi Suisei>\" mean on hBP05-040 miComet's Extra text?"
     },
     "answer": {
       "jp": "カード名として、〈さくらみこ〉、〈星街すいせい〉、〈miComet〉を持つことを指します。",
-      "en": null
+      "en": "It means that the card has the names \"Sakura Miko\", \"Hoshimachi Suisei\", and \"miComet\"."
     },
     "referenced_cards": [ "hBP05-040" ]
   },
@@ -7272,11 +7284,11 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP06-083〈ラムダック〉のエクストラ能力「このホロメンは〈角巻わため〉〈大空スバル〉としても扱う」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"This holomem is also regarded as <Tsunomaki Watame> <Oozora Subaru>\" mean on hBP06-083 LAMBDUCK's Extra text?"
     },
     "answer": {
       "jp": "カード名として、〈角巻わため〉、〈大空スバル〉、〈ラムダック〉を持つことを指します。",
-      "en": null
+      "en": "It means that the card has the names \"Tsunomaki Watame\", \"Oozora Subaru\", and \"LAMBDUCK\"."
     },
     "referenced_cards": [ "hBP06-083" ]
   },
@@ -7285,11 +7297,11 @@
     "date": "2026-03-12",
     "question": {
       "jp": "hBP04-025〈儒烏風亭らでん〉のアーツ「御後がよろしいようで」の能力は、どのように処理されますか？",
-      "en": null
+      "en": "How is hBP04-025 Juufuutei Raden's Arts \"Looks Like the Next Act Is Ready\" processed?"
     },
     "answer": {
       "jp": "このアーツの能力は、hBP04-025〈儒烏風亭らでん〉に付いているエール2枚を、自分のバックホロメン２人に１枚ずつ付け替えることができます。\nそうした場合、このアーツは+30され、その後アーツダメージを与えます。",
-      "en": null
+      "en": "This ability allows you to remove 2 cheers attached to hBP04-025 Juufuutei Raden, and move 1 each to 2 of your back holomem. If this is done, the Arts gets +30, then you deal Arts damage."
     },
     "referenced_cards": [ "hBP04-025" ]
   }
