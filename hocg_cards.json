@@ -6120,7 +6120,7 @@
         "type": "gift",
         "name": { "jp": "用心棒", "en": "Bodyguard" },
         "text": {
-          "jp": "[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない（特殊ダメージは除く）。",
+          "jp": "[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない。ただし、特殊ダメージは除く。",
           "en": "[Collab Position Only]Your opponent's holomem's Arts can only target your collab holomem. However, it excludes Special Damage."
         }
       }
@@ -6131,7 +6131,7 @@
         "name": { "jp": "元気を全力でお届けします！", "en": "Bringing You Energy at Full Power!" },
         "power": "20",
         "text": {
-          "jp": "自分のエールデッキの上から１枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。",
+          "jp": "自分のエールデッキの上から1枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。",
           "en": "Send the top card of your cheer deck to your holomem with #holoX other than 〈Kazama Iroha〉."
         }
       }
@@ -7428,7 +7428,7 @@
         "type": "bloom",
         "name": { "jp": "宴の始まりだ！", "en": "The Feast Begins!" },
         "text": {
-          "jp": "自分のデッキから、ファン１枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+          "jp": "自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "Reveal 1 fan from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
@@ -8920,7 +8920,7 @@
         "name": { "jp": "クロにちは～", "en": "Kronii-Chiwa~" },
         "power": "10",
         "text": {
-          "jp": "このホロメンのエール１枚を、自分の他の#Promiseを持つホロメンに付け替えられる。",
+          "jp": "このホロメンのエール1枚を、自分の他の#Promiseを持つホロメンに付け替えられる。",
           "en": "You may reattach 1 cheer from this holomem to your other holomem with #Promise."
         }
       }
