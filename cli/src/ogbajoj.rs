@@ -714,7 +714,7 @@ pub fn download_images_from_ogbajoj_sheet(
                     else {
                         continue;
                     };
-                    let mut img_hash = to_image_hash(&hash_img.into_rgb8());
+                    let mut img_hash = to_image_hash(&set_code, &hash_img.into_rgb8());
                     fix_image_hash(&mut img_hash);
 
                     // remove the old sheet_cell, if it exists
@@ -947,6 +947,10 @@ fn fix_image_hash(img_hash: &mut String) {
         // hBP02-054 (P) Mori Calliope - poor quality
         "v2|H32=ClWJTlpVMjV1UnQ6NPOkUmyVqtcs1UapW9VG7Vs7SudPCZJWnKombU/V8HGgKlWqnxZNVYpXTWViSVmWW6tVpGhNbUU|CYM=094937" => {
             "v2|H32=qqqNKtbV8yNyajQ5tGoEuuxUo9MsDUpVyItmJUvVVjWJlZpatKlmtWtVdLJYoxyqzxamrNOXJG2iFCyKWKNU2ql0aq0|CYM=035962"
+        }
+        // hBP01-007 (P) Hoshimachi Suisei - not enough cropping, sample
+        "v2|H32=RO2wXOHBFD6qoyzaWilMUkNZTaxGV6mKVqWloru8FKfjXFRr0rSptlVSWdNVa02WUMtJtapUilYqS6Cm1aImrdWqUm0|CYM=4B3901|E_CYM=5A4501|L_CYM=835406" => {
+            "v2|H32=1EysVLHFkD4qgSyzs2nM2EtRVYxEV2maVLetontUlKLrVFRrkFWrtlFbXdJFa001WKVK1apWi1arWipVqaQ2TbWiWmU|CYM=544202|E_CYM=674F00|L_CYM=8F5902"
         }
         _ => img_hash,
     }.to_string();

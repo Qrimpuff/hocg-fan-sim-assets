@@ -1,4 +1,10 @@
-use std::{collections::HashMap, fs::File, io::BufReader, path::Path, sync::Arc};
+use std::{
+    collections::{BTreeMap, HashMap},
+    fs::File,
+    io::BufReader,
+    path::Path,
+    sync::Arc,
+};
 
 use hocg_fan_sim_assets_model::{BloomLevel, CardType, CardsDatabase, Color, SupportType};
 use itertools::Itertools;
@@ -71,7 +77,7 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
                 .iter()
                 .cartesian_product(cards.iter())
                 .map(|((delta_card, delta_img), card)| {
-                    let h1 = to_image_hash(delta_img);
+                    let h1 = to_image_hash(&delta_card.0, delta_img);
                     let h2 = { card.lock().img_hash.clone() };
 
                     let dist = dist_hash(&h1, &h2);
@@ -114,13 +120,19 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
             });
 
             // modify the cards here, to avoid borrowing issue
+            let mut already_set = BTreeMap::new();
             for (delta_art_index, card, dist) in dists {
                 // println!("dist: {:?}", (delta_art_index, card, dist));
 
                 let mut card = card.lock();
                 // to handle multiple cards with the same image
-                if card.delta_art_index.is_none() && dist <= DIST_TOLERANCE_DIFF_RARITY {
+                let min_dist = *already_set.get(&delta_art_index).unwrap_or(&(u64::MAX));
+                // at least one card per index, but if there are multiple, allow some tolerance for different rarity
+                if card.delta_art_index.is_none()
+                    && dist <= min_dist.max(DIST_TOLERANCE_DIFF_RARITY)
+                {
                     card.delta_art_index = Some(delta_art_index);
+                    already_set.insert(delta_art_index, dist.min(min_dist));
                     updated_count += 1;
 
                     if DEBUG {
@@ -219,7 +231,7 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
                 .iter()
                 .cartesian_product(cards.iter())
                 .map(|((delta_art_index, delta_img), card)| {
-                    let h1 = to_image_hash(delta_img);
+                    let h1 = to_image_hash(&card_number, delta_img);
                     let h2 = { card.lock().img_hash.clone() };
 
                     let dist = dist_hash(&h1, &h2);
@@ -262,13 +274,19 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
             });
 
             // modify the cards here, to avoid borrowing issue
+            let mut already_set = BTreeMap::new();
             for (delta_art_index, card, dist) in dists {
                 // println!("dist: {:?}", (delta_art_index, card, dist));
 
                 let mut card = card.lock();
                 // to handle multiple cards with the same image
-                if card.delta_art_index.is_none() && dist <= DIST_TOLERANCE_DIFF_RARITY {
+                let min_dist = *already_set.get(&delta_art_index).unwrap_or(&(u64::MAX));
+                // at least one card per index, but if there are multiple, allow some tolerance for different rarity
+                if card.delta_art_index.is_none()
+                    && dist <= min_dist.max(DIST_TOLERANCE_DIFF_RARITY)
+                {
                     card.delta_art_index = Some(delta_art_index.parse().unwrap());
+                    already_set.insert(delta_art_index, dist.min(min_dist));
                     updated_count += 1;
 
                     if DEBUG {

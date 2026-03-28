@@ -400,7 +400,7 @@ fn dist_yuyutei_image(card: &CardIllustration, yuyutei_img: DynamicImage) -> u64
         card.img_path.japanese.as_deref().unwrap_or_default()
     );
 
-    let h1 = to_image_hash(&yuyutei_img.into_rgb8());
+    let h1 = to_image_hash(&card.card_number, &yuyutei_img.into_rgb8());
     let h2 = &card.img_hash;
 
     let dist = dist_hash(&h1, h2);
@@ -793,7 +793,7 @@ fn dist_tcgplayer_image(card: &CardIllustration, tcgplayer_img: DynamicImage) ->
         card.img_path.english.as_deref().unwrap_or_default()
     );
 
-    let h1 = to_image_hash(&tcgplayer_img.into_rgb8());
+    let h1 = to_image_hash(&card.card_number, &tcgplayer_img.into_rgb8());
     let h2 = &card.img_hash;
 
     let dist = dist_hash(&h1, h2);
