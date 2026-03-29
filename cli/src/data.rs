@@ -150,6 +150,21 @@ pub mod decklog {
                 if self.card_number == "hSD10-010" {
                     self.bloom_level = "Spot".into();
                 }
+
+                // fix Vestia Zeta buzz
+                if self.card_number == "hBP07-019" {
+                    self.card_kind = "Buzzホロメン".into();
+                }
+
+                // fix Elizabeth Rose Bloodflame buzz
+                if self.card_number == "hBP07-048" {
+                    self.card_kind = "Buzzホロメン".into();
+                }
+
+                // fix Nerissa Ravencroft buzz
+                if self.card_number == "hBP07-076" {
+                    self.card_kind = "Buzzホロメン".into();
+                }
             }
 
             // fix issues with Deck Log English site

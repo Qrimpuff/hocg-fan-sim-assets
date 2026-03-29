@@ -165,33 +165,9 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
         .while_some()
         .max(); // Need this to drive the iterator
 
-    let mut urls = Arc::try_unwrap(urls).unwrap().into_inner();
+    let urls = Arc::try_unwrap(urls).unwrap().into_inner();
     println!("Found {} Yuyutei urls...", urls.len());
-
-    let mut url_skipped = 0;
-
     // println!("BEFORE: {urls:#?}");
-    // remove existing urls
-    let mut existing_urls: HashMap<String, String> = HashMap::new();
-    if mode == PriceCheckMode::Quick {
-        for card in all_cards
-            .values_mut()
-            .flat_map(|cs| cs.illustrations.iter_mut())
-            .filter(|c| c.yuyutei_sell_url.is_some())
-        {
-            if let Some(yuyutei_sell_url) = &card.yuyutei_sell_url {
-                if urls.shift_remove(yuyutei_sell_url).is_some() {
-                    url_skipped += 1;
-                }
-                // group by image, some entries are duplicated, like hSD01-016
-                if let Some(img_path) = card.img_path.japanese.as_deref() {
-                    existing_urls
-                        .entry(img_path.into())
-                        .or_insert(yuyutei_sell_url.clone());
-                }
-            }
-        }
-    }
 
     // swap keys and values
     let mut urls: HashMap<_, Vec<_>> = urls.into_iter().fold(HashMap::new(), |mut map, (k, v)| {
@@ -201,10 +177,38 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     });
 
     // filter urls: remove "before errata" if "after errata" exists
+    let mut url_skipped = 0;
     for list in urls.values_mut() {
         let has_after_errata = list.iter().any(|(_, _, name)| name.contains("エラッタ後"));
         if has_after_errata {
             list.retain(|(_, _, name)| !name.contains("エラッタ前"));
+            url_skipped += 1;
+        }
+    }
+
+    // remove existing urls
+    let mut existing_urls: HashMap<String, String> = HashMap::new();
+    if mode == PriceCheckMode::Quick {
+        for card in all_cards
+            .values_mut()
+            .flat_map(|cs| cs.illustrations.iter_mut())
+            .filter(|c| c.yuyutei_sell_url.is_some())
+        {
+            if let Some(yuyutei_sell_url) = &card.yuyutei_sell_url {
+                let urls = urls.get_mut(&(card.card_number.clone(), card.rarity.clone()));
+                if let Some(urls) = urls
+                    && let Some(pos) = urls.iter().position(|(url, _, _)| url == yuyutei_sell_url)
+                {
+                    urls.remove(pos);
+                    url_skipped += 1;
+                }
+                // group by image, some entries are duplicated, like hSD01-016
+                if let Some(img_path) = card.img_path.japanese.as_deref() {
+                    existing_urls
+                        .entry(img_path.into())
+                        .or_insert(yuyutei_sell_url.clone());
+                }
+            }
         }
     }
 
@@ -386,8 +390,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     let url_count = *url_count.lock();
     println!("{url_count} Yuyutei urls updated ({url_skipped} skipped)");
     for ((number, rare), urls) in urls {
-        for url in urls {
-            let url = url.0;
+        for (url, _, _) in urls {
             println!("NO MATCH: [{number}, {rare}] - {url}");
         }
     }
@@ -426,53 +429,58 @@ struct TcgPlayerProduct {
 impl TcgPlayerProduct {
     pub fn fix_product(&mut self) {
         // Tokino Sora (SR) (hSD01-006) - Blooming Radiance (BP01E)
-        if self.product_id == 647463
-            && let Some(ed) = self
-                .extended_data
-                .iter_mut()
-                .find(|ed| ed["name"] == "Number")
-        {
-            ed["value"] = Value::String("hSD01-006".into());
+        if self.product_id == 647463 {
+            self.set_card_number("hSD01-006");
         }
 
         // Yellow Cheer (C) - Elite Spark (HBP03E)
-        if self.product_id == 670487
-            && let Some(ed) = self
-                .extended_data
-                .iter_mut()
-                .find(|ed| ed["name"] == "Number")
-        {
-            ed["value"] = Value::String("hY06-001".into());
+        if self.product_id == 670487 {
+            self.set_card_number("hY06-001");
         }
 
         // Pavolia Reine (P) (hBP02-018) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 671675
-            && let Some(ed) = self
-                .extended_data
-                .iter_mut()
-                .find(|ed| ed["name"] == "Rarity")
-        {
-            ed["value"] = Value::String("Promo".into());
+        if self.product_id == 671675 {
+            self.set_rarity("Promo");
         }
 
         // Shirakami Fubuki (P) (hBP02-011) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 671615
-            && let Some(ed) = self
-                .extended_data
-                .iter_mut()
-                .find(|ed| ed["name"] == "Rarity")
-        {
-            ed["value"] = Value::String("Promo".into());
+        if self.product_id == 671615 {
+            self.set_rarity("Promo");
         }
 
         // Nanashi Mumei (P) (hBP01-015) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 671673
-            && let Some(ed) = self
-                .extended_data
-                .iter_mut()
-                .find(|ed| ed["name"] == "Rarity")
+        if self.product_id == 671673 {
+            self.set_rarity("Promo");
+        }
+
+        // La+ Darknesss (P) (hBP04-054) - hololive OFFICIAL CARD GAME Promos (hOCGP)
+        if self.product_id == 682245 {
+            self.set_rarity("Promo");
+        }
+
+        // Oozora Subaru (P) (hBP04-068) (Alternate Art) - Curious Universe (HBP04E)
+        if self.product_id == 682256 {
+            self.set_rarity("Promo");
+        }
+    }
+
+    fn set_card_number(&mut self, number: &str) {
+        if let Some(ed) = self
+            .extended_data
+            .iter_mut()
+            .find(|ed| ed["name"] == "Number")
         {
-            ed["value"] = Value::String("Promo".into());
+            ed["value"] = Value::String(number.into());
+        }
+    }
+
+    fn set_rarity(&mut self, rarity: &str) {
+        if let Some(ed) = self
+            .extended_data
+            .iter_mut()
+            .find(|ed| ed["name"] == "Rarity")
+        {
+            ed["value"] = Value::String(rarity.into());
         }
     }
 }
