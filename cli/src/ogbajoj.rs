@@ -661,6 +661,7 @@ pub fn download_images_from_ogbajoj_sheet(
         .into_par_iter()
         .filter_map(move |sheet| {
             let name = sheet.properties.title.clone();
+            let sheet_id = sheet.properties.sheet_id;
 
             // Skip Master Sheet. Low quality images, wrong data, and duplicates (2025-09)
             if name == "Master Sheet" {
@@ -669,12 +670,44 @@ pub fn download_images_from_ogbajoj_sheet(
 
             let cards = retrieve_spreadsheet_data(&sheet);
 
-            Some((name, cards?))
+            Some((name, sheet_id, cards?))
+        })
+        .inspect({
+            let all_cards = all_cards.clone();
+            move |(_, sheet_id, cards)| {
+                // remove orphan sheet_cells
+                all_cards
+                    .write()
+                    .values_mut()
+                    .flat_map(|cs| cs.illustrations.iter_mut())
+                    .filter(|c| {
+                        c.ogbajoj_sheet_cells
+                            .iter()
+                            .flatten()
+                            .any(|(s, _)| s == sheet_id)
+                    })
+                    .for_each(|c| {
+                        if let Some(ogbajoj_sheet_cells) = c.ogbajoj_sheet_cells.as_mut() {
+                            ogbajoj_sheet_cells.retain(|(s, c)| {
+                                let (row_idx, col_idx) =
+                                    c.to_row_col().expect("should be a valid sheet cell");
+                                s != sheet_id
+                                    || cards.iter().any(|card| {
+                                        s == sheet_id
+                                            && card.row_idx == row_idx
+                                            && card.col_idx == col_idx
+                                    })
+                            });
+                        };
+                        // remove empty sheet_cell
+                        c.ogbajoj_sheet_cells.take_if(|v| v.is_empty());
+                    });
+            }
         })
         .for_each({
             let all_cards = all_cards.clone();
             let master_sheet_lock = master_sheet_lock.clone();
-            move |(name, cards)| {
+            move |(name, _, cards)| {
                 let mut imported = 0;
                 let mut skipped = 0;
 
