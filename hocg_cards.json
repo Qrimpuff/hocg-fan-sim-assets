@@ -9740,7 +9740,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-104_C_4.webp", "en": null },
         "img_hash": "v2|H32=cIsrilOrkiWDJNR1iyRMma2LbJkvinR1K2pedw9iXFOMilZVVeGtqg4eraoOfqmq8Aetqr7w6aqqOumq8GCtqg8P4II|CYM=1F1306|A_CYM=371C01",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C69" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C70" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -9752,7 +9752,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-104_C_5.webp", "en": null },
         "img_hash": "v2|H32=UourqlWphiWrJJR1qyZk5y2qbJ+pKlxVi2pcVU/KXlk7qlZVVcEtqgo+raqOT62q8DmpqqIe6arq0qmq4EGpqvoa6Dg|CYM=121908|A_CYM=1A2B05",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C81" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C86" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -9764,7 +9764,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP01-104_C_6.webp", "en": null },
         "img_hash": "v2|H32=5KmpqqWrEqWT5lJVi2NMce06fB87jlTVOs5WVK9qrHGsKlZVUfEtqgo+raoPz6mq8YOpqnB4qaqqBqmq6sPp6no4qDo|CYM=0E0B1C|A_CYM=140D2F",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C97" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C105" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -15633,6 +15633,9 @@
           [ 1326338526, "C17" ],
           [ 1326338526, "C36" ],
           [ 1326338526, "C52" ],
+          [ 1326338526, "C72" ],
+          [ 1326338526, "C87" ],
+          [ 1326338526, "C107" ],
           [ 1478464232, "C19" ],
           [ 1642260809, "C78" ]
         ],
@@ -15951,6 +15954,9 @@
           [ 1326338526, "C18" ],
           [ 1326338526, "C37" ],
           [ 1326338526, "C53" ],
+          [ 1326338526, "C73" ],
+          [ 1326338526, "C88" ],
+          [ 1326338526, "C108" ],
           [ 1642260809, "C85" ],
           [ 2103775807, "C17" ],
           [ 2103775807, "C35" ]
@@ -16173,7 +16179,7 @@
         "img_path": { "jp": "hBP02/hBP02-088_U.webp", "en": "hBP02/EN_hBP02-088_U.webp" },
         "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 19 Sep 2025 08:21:14 GMT" },
         "img_hash": "v2|H32=TqWPqhWrlaq7qpC1qa1glUvVWt2rWF5Qu1rycLd2NnSyalZVM9mtqmOy6arM4q3q7MatqviQrYpUMq2ryIepiukfqIo|CYM=011911",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C82" ], [ 1642260809, "C89" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C82" ], [ 1326338526, "C89" ], [ 1642260809, "C89" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10177",
         "tcgplayer_product_id": 657707,
         "delta_art_index": 0
@@ -48728,6 +48734,9 @@
           [ 1326338526, "C14" ],
           [ 1326338526, "C33" ],
           [ 1326338526, "C49" ],
+          [ 1326338526, "C69" ],
+          [ 1326338526, "C85" ],
+          [ 1326338526, "C104" ],
           [ 1478464232, "C17" ],
           [ 1478464232, "C38" ],
           [ 1534249600, "C18" ],
@@ -48861,6 +48870,8 @@
           [ 1326338526, "C16" ],
           [ 1326338526, "C35" ],
           [ 1326338526, "C51" ],
+          [ 1326338526, "C71" ],
+          [ 1326338526, "C106" ],
           [ 1478464232, "C39" ],
           [ 1874575099, "C41" ],
           [ 1874575099, "C63" ]
@@ -56355,7 +56366,9 @@
           [ 1326338526, "C48" ],
           [ 1326338526, "C68" ],
           [ 1326338526, "C80" ],
-          [ 1326338526, "C96" ]
+          [ 1326338526, "C84" ],
+          [ 1326338526, "C96" ],
+          [ 1326338526, "C103" ]
         ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -56900,7 +56913,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD18-001_OC.webp", "en": null },
         "img_hash": "v2|H32=UMeeNjXX1eylkpZJIZuyQSbbMj0iU6ZdY02hPC1Nya2VKrSSptpoSd+iiSRQ+euyqq1N1VplyqJaVVJVq5Rp1VuXqnQ|CYM=3E2C0A",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C73" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C77" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56925,7 +56938,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD18-002_C.webp", "en": null },
         "img_hash": "v2|H32=rqqcSuWqrbbTY+M6rbLTShzLqbxaRXLVzpRSVcYYTJKSWahWFXVKk1qtpGutWrTV0hYyrcqSqlqtS2CrVqkWrUmwsi0|CYM=02321F",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C74" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C78" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -56959,7 +56972,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD18-005_U.webp", "en": null },
         "img_hash": "v2|H32=CKstqpPqWlfSVNJUtBikrKyKJYlspkpTWnVKNQtVO6ULbU5KlSSGNUvR8KvSqmHp6VJrIirdoFahSvD4tDRwWKqm6qQ|CYM=024537",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C77" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C81" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57000,7 +57013,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD18-007_U.webp", "en": null },
         "img_hash": "v2|H32=Upa0Kq2mJZqtaq2bW2ospdIaS7WURFMbrNRSS+OUVEotrWxKkTW2tVaqSqmrUlWrJJ2pKmrLrVZqq62SlqaklKtWUq0|CYM=01271F",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C79" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C79" ], [ 1326338526, "C83" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57035,7 +57048,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-001_OC.webp", "en": null },
         "img_hash": "v2|H32=mkzaZttm1JZrKdKybZlrGty2N8uKMlelpEpLtZZKyZWKGbSqrlZI1ZWtqdqQti6pC1WSKqpVWq3KVSotPlHb1kqrqlU|CYM=1D1427",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C86" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C93" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57060,7 +57073,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-002_C.webp", "en": null },
         "img_hash": "v2|H32=rKqMLaur6brCWHval7Q7i56lJKtKUXRVclPaVDZUmLQkHui1V1VaSqulstqxWlCtVqumVKpHUkuxcmChVqukbQ8vFm0|CYM=08124B",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C87" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C94" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57092,7 +57105,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-005_U.webp", "en": null },
         "img_hash": "v2|H32=rKoLmq2rLarLuymOy/I5tspX2KLSFVJVUll2ZFZSlGS0nFQVV1WpIqp6orJtq1abVYuq26qKqqnqUlZdzapiqeomNK0|CYM=140B27",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C90" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C97" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57131,7 +57144,40 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-007_U.webp", "en": null },
         "img_hash": "v2|H32=rqqtqqbjPMpjU2JVqLFrpYyt+y7YzlpSWlJal1oV1qSsrLZOpUoLB0r68ri2lbSpWhXqafo0aplamXDpyydwKUopUGk|CYM=362A19",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C92" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C92" ], [ 1326338526, "C99" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD19-009": {
+    "card_number": "hSD19-009",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 180,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow" ],
+        "name": { "jp": null, "en": "Dancing Pleiades" },
+        "power": "80+",
+        "advantage": [ "white", 30 ],
+        "text": { "en": "If your life is 2 or less, this Arts gets +10." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD19-009",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD19-009_RR.webp", "en": null },
+        "img_hash": "v2|H32=jKotq82qrRXHUpmoIxNUSlulYl9SxloVvlZSUpp1tE7WNFxXVVCplmtJSq1SqhRtaZVKepK2K1+lj3RJpg2ytGopymo|CYM=070D33",
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C101" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57153,7 +57199,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-010_C.webp", "en": null },
         "img_hash": "v2|H32=oqqjqrCqOOkpSUxdTFnM2s+axBrSHlJVelV+VS/VLNeM1xbNBsfMo/DwPXg/+Kk6Hw/hKA8eofivPykKPxjgaD8uIng|CYM=092647",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C95" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C95" ], [ 1326338526, "C102" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -58123,7 +58169,7 @@
           [ 994570439, "C131" ],
           [ 1114537117, "C9" ],
           [ 1235233029, "C121" ],
-          [ 1326338526, "C70" ],
+          [ 1326338526, "C74" ],
           [ 1478464232, "C42" ],
           [ 1642260809, "C110" ],
           [ 1874575099, "C44" ]
@@ -58409,7 +58455,7 @@
         "ogbajoj_sheet_cells": [
           [ 543634835, "C28" ],
           [ 1235233029, "C122" ],
-          [ 1326338526, "C83" ],
+          [ 1326338526, "C90" ],
           [ 1478464232, "C21" ],
           [ 1642260809, "C111" ],
           [ 1874575099, "C66" ]
@@ -58646,6 +58692,7 @@
           [ 543634835, "C55" ],
           [ 1235233029, "C123" ],
           [ 1326338526, "C98" ],
+          [ 1326338526, "C109" ],
           [ 1478464232, "C41" ],
           [ 1534249600, "C66" ]
         ],
