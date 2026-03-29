@@ -16179,7 +16179,7 @@
         "img_path": { "jp": "hBP02/hBP02-088_U.webp", "en": "hBP02/EN_hBP02-088_U.webp" },
         "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 19 Sep 2025 08:21:14 GMT" },
         "img_hash": "v2|H32=TqWPqhWrlaq7qpC1qa1glUvVWt2rWF5Qu1rycLd2NnSyalZVM9mtqmOy6arM4q3q7MatqviQrYpUMq2ryIepiukfqIo|CYM=011911",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C82" ], [ 1326338526, "C89" ], [ 1642260809, "C89" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C89" ], [ 1642260809, "C89" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10177",
         "tcgplayer_product_id": 657707,
         "delta_art_index": 0
@@ -56365,9 +56365,7 @@
           [ 1326338526, "C32" ],
           [ 1326338526, "C48" ],
           [ 1326338526, "C68" ],
-          [ 1326338526, "C80" ],
           [ 1326338526, "C84" ],
-          [ 1326338526, "C96" ],
           [ 1326338526, "C103" ]
         ],
         "yuyutei_sell_url": null,
@@ -57013,7 +57011,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD18-007_U.webp", "en": null },
         "img_hash": "v2|H32=Upa0Kq2mJZqtaq2bW2ospdIaS7WURFMbrNRSS+OUVEotrWxKkTW2tVaqSqmrUlWrJJ2pKmrLrVZqq62SlqaklKtWUq0|CYM=01271F",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C79" ], [ 1326338526, "C83" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C83" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57144,7 +57142,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-007_U.webp", "en": null },
         "img_hash": "v2|H32=rqqtqqbjPMpjU2JVqLFrpYyt+y7YzlpSWlJal1oV1qSsrLZOpUoLB0r68ri2lbSpWhXqafo0aplamXDpyydwKUopUGk|CYM=362A19",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C92" ], [ 1326338526, "C99" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C99" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57199,7 +57197,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD19-010_C.webp", "en": null },
         "img_hash": "v2|H32=oqqjqrCqOOkpSUxdTFnM2s+axBrSHlJVelV+VS/VLNeM1xbNBsfMo/DwPXg/+Kk6Hw/hKA8eofivPykKPxjgaD8uIng|CYM=092647",
-        "ogbajoj_sheet_cells": [ [ 1326338526, "C95" ], [ 1326338526, "C102" ] ],
+        "ogbajoj_sheet_cells": [ [ 1326338526, "C102" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -58691,7 +58689,6 @@
         "ogbajoj_sheet_cells": [
           [ 543634835, "C55" ],
           [ 1235233029, "C123" ],
-          [ 1326338526, "C98" ],
           [ 1326338526, "C109" ],
           [ 1478464232, "C41" ],
           [ 1534249600, "C66" ]
