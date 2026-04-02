@@ -47864,6 +47864,47 @@
       }
     ]
   },
+  "hBP08-087": {
+    "card_number": "hBP08-087",
+    "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Dreaming Cheer" },
+        "text": {
+          "en": "You may send 1~2 cheers from your archive to your [<Shiranui Flare> or holomem with #EN] center holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Waking From My Dream" },
+        "power": "90",
+        "advantage": [ "blue", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-087",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-087_R.webp", "en": null },
+        "img_hash": "v2|H32=yqulr626TYqrdGnah6kTVSWrEutKVlLN0lTaVJastDS9atZFlVRalamtlpp2qUn4XtorS6urtrJpS7WklkqoairKsqQ|CYM=0D2329",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C89" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hPR-001": {
     "card_number": "hPR-001",
     "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
