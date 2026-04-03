@@ -47864,6 +47864,40 @@
       }
     ]
   },
+  "hBP08-048": {
+    "card_number": "hBP08-048",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "183cm With Aura" },
+        "text": {
+          "en": "You may archive 1 cheer from your stage: Reveal 1 <Aura> from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Big. Huge. Strong." }, "power": "30" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-048",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-048_U.webp", "en": null },
+        "img_hash": "v2|H32=tqvppq2qk62taqsug1lYNlKZUlZatXLdWnU2yXJVPEsylVQtWVW1pqaqqWo1y0vX9ZepqqKaKlttq4IUkoVSK2op0qM|CYM=1E1108",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C50" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-087": {
     "card_number": "hBP08-087",
     "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
