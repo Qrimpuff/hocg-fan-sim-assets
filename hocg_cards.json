@@ -47933,6 +47933,47 @@
       }
     ]
   },
+  "hBP08-041": {
+    "card_number": "hBP08-041",
+    "name": { "jp": "小鳥遊キアラ", "en": "Takanashi Kiara" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Phoenix Style Aerobics" },
+        "text": {
+          "en": "During your opponent's turn, when this holomem is downed, you may return this holomem to hand instead of archive."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "It's a Real \"Fever Night\"!!!" },
+        "power": "20",
+        "text": { "en": "Archive the top card of your deck." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-041",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-041_C.webp", "en": null },
+        "img_hash": "v2|H32=qKlEl6mqLKlJkgkqqU3NoopN48lWtdPJVhM2JZJapHY2rKRKFFSqJOmbWthZrjL0TYtKqaaVSilpW5K1raxW27IlIqU|CYM=103830",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C43" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-048": {
     "card_number": "hBP08-048",
     "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
