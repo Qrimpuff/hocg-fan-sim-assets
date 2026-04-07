@@ -47888,6 +47888,45 @@
       }
     ]
   },
+  "hBP08-011": {
+    "card_number": "hBP08-011",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The Hot Pink One" },
+        "text": { "en": "If a white cheer is attached to this holomem, draw 1 card." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Hot Ending" },
+        "power": "30",
+        "text": { "en": "If a purple cheer is attached to this holomem, draw 1 card." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-011",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-011_C.webp", "en": null },
+        "img_hash": "v2|H32=kqNaU5PKlKW8XISsJK1tSmznZWps08etWlKjlFsOWdqvNqRKallKNVaVVpGFrm27+SpO25TW8GuWmiolaV021WlpqFI|CYM=1C3E19",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C13" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-031": {
     "card_number": "hBP08-031",
     "name": { "jp": "パヴォリア・レイネ", "en": "Pavolia Reine" },
