@@ -2513,7 +2513,7 @@
         "img_last_modified": { "jp": "Wed, 08 Oct 2025 06:18:57 GMT" },
         "img_hash": "v2|H32=apjqlK22fGkrZZZjaU1jSkSVS57EKjO1hGpbpaZSWZXCqpQqrlYs1dqqqKiXThotZFVSq6pUWq2rVWpVYnXK1g4rq1Q|CYM=021D36",
         "ogbajoj_sheet_cells": [ [ 630131808, "C63" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10060",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -2639,7 +2639,7 @@
         "img_last_modified": { "jp": "Wed, 08 Oct 2025 06:18:57 GMT" },
         "img_hash": "v2|H32=uktKq+Vs0tBxpbZ2aLW3ahQ1s1qoLVeUqkpRtaZa0RXOoLSqqlKJVVu0KarUVloJK9VS1SpTaKkqVUpJSlXLVlotK1U|CYM=00413E",
         "ogbajoj_sheet_cells": [ [ 630131808, "C66" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbd20/10063",
         "tcgplayer_product_id": null,
         "delta_art_index": 0
       }
@@ -48080,6 +48080,45 @@
         "img_path": { "jp": "unreleased/hBP08-055_C.webp", "en": null },
         "img_hash": "v2|H32=pKqr6qWqPK4r2xiMT5KTzsKw07DSbUKVUm1uldpk7PE+bdZuVlVpAKpSqVJU60XZNZX4qKraqlpWm1arW5bSpFWqWmQ|CYM=0B1A24",
         "ogbajoj_sheet_cells": [ [ 419256011, "C57" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-079": {
+    "card_number": "hBP08-079",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Dawn Diva" },
+        "text": { "en": "While you have a 2nd holomem with #ReGLOSS on your stage, this holomem gets +50 HP." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Pure Singing Voice" },
+        "power": "10",
+        "text": { "en": "You may send 1 cheer from your archive to your center holomem with #ReGLOSS." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-079",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-079_C.webp", "en": null },
+        "img_hash": "v2|H32=qKvbbLurbTJjEiQ3ZJJsrMZGqOzKRJNM2lUS2bNJctkz2bRKVCVKJ69StarpVkq1TVsti2qrqrTZonC1S79aLcUrYpU|CYM=152C20",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C81" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
