@@ -4,9 +4,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Run twice a day at 03:00 and 15:00 UTC / 12:00 and 00:00 JST
+  # Run twice a day at 13:00 and 21:00 UTC / 22:00 and 06:00 JST / 09:00 and 17:00 EDT
+  # ogbajoj: They usually update the spreadsheet before 13:00 UTC
+  # TCGCSV: All content updates everyday around 20:00:00 UTC
   schedule:
-    - cron: '0 3,15 * * *'
+    - cron: '0 13,21 * * *'
 env:
   CARGO_TERM_COLOR: always
 

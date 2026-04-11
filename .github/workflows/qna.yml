@@ -4,9 +4,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Run twice a day at 04:00 and 16:00 UTC / 13:00 and 01:00 JST
+  # Run once a day at 04:00 UTC / 13:00 JST / 00:00 EDT
   schedule:
-    - cron: '0 4,16 * * *'
+    - cron: '0 4 * * *'
 env:
   CARGO_TERM_COLOR: always
 
