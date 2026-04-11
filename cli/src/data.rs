@@ -601,7 +601,8 @@ pub mod hololive_official {
                                 card.card_number, card_type, card.card_type
                             );
                         }
-                        let buzz = buzz(value);
+                        let mut buzz = buzz(value);
+                        fix_buzz(card, &mut buzz);
                         if card.buzz != buzz {
                             eprintln!(
                                 "Warning: {} buzz mismatch: {} should be {}",
@@ -920,6 +921,23 @@ pub mod hololive_official {
             if card_id == "532" {
                 *card_number = "hSD06-001".into();
             }
+        }
+    }
+
+    fn fix_buzz(card: &Card, buzz: &mut bool) {
+        // hBP07-019 Vestia Zeta is Buzz
+        if card.card_number == "hBP07-019" {
+            *buzz = true;
+        }
+
+        // hBP07-048 Elizabeth Rose Bloodflame is Buzz
+        if card.card_number == "hBP07-048" {
+            *buzz = true;
+        }
+
+        // hBP07-076 Nerissa Ravencroft is Buzz
+        if card.card_number == "hBP07-076" {
+            *buzz = true;
         }
     }
 

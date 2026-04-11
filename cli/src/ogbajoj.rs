@@ -1,4 +1,11 @@
-use std::{collections::HashMap, error::Error, fs, ops::Not, path::Path, sync::Arc};
+use std::{
+    collections::{HashMap, VecDeque},
+    error::Error,
+    fs,
+    ops::Not,
+    path::Path,
+    sync::Arc,
+};
 
 use hocg_fan_sim_assets_model::{
     Art, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra, Keyword,
@@ -263,7 +270,7 @@ impl SheetCard {
         );
         let oshi_skills = oshi_skills_lines
             .into_iter()
-            .filter_map(|lines| self.to_oshi_skill(card, lines))
+            .filter_map(|lines| self.to_oshi_skill(card, lines.into()))
             .collect_vec();
         // dbg!(&oshi_skills);
         update_oshi_skills(card, oshi_skills, Language::English, released);
@@ -273,7 +280,7 @@ impl SheetCard {
             extract_sections(&mut text_lines, &["Collab Effect", "Bloom Effect", "Gift"]);
         let keywords = keywords_lines
             .into_iter()
-            .filter_map(|lines| self.to_keyword(card, lines))
+            .filter_map(|lines| self.to_keyword(card, lines.into()))
             .collect_vec();
         update_keywords(card, keywords, Language::English, released);
 
@@ -281,7 +288,7 @@ impl SheetCard {
         let arts_lines = extract_sections(&mut text_lines, &["Arts"]);
         let arts = arts_lines
             .into_iter()
-            .filter_map(|lines| self.to_art(card, lines))
+            .filter_map(|lines| self.to_art(card, lines.into()))
             .collect_vec();
         update_arts(card, arts, Language::English, released);
 
@@ -289,7 +296,7 @@ impl SheetCard {
         let extra_lines = extract_sections(&mut text_lines, &["Extra"]);
         let mut extra = extra_lines
             .into_iter()
-            .filter_map(|lines| self.to_extra(card, lines))
+            .filter_map(|lines| self.to_extra(card, lines.into()))
             .next();
         fix_extra(card, &mut extra);
         update_extra(card, extra, Language::English, released);
@@ -301,10 +308,10 @@ impl SheetCard {
             .then(|| text_lines.join("\n").trim().to_string());
     }
 
-    fn to_oshi_skill(&self, card: &mut Card, mut lines: Vec<&str>) -> Option<OshiSkill> {
-        let first = lines.remove(0);
+    fn to_oshi_skill(&self, card: &mut Card, mut lines: VecDeque<&str>) -> Option<OshiSkill> {
+        let first = lines.pop_front().unwrap_or_default();
         let Some((mut holo_power, name)) = first.split_once(':') else {
-            eprintln!("Oshi skill not found for {}", card.card_number);
+            eprintln!("Warning: Oshi skill not found for {}", card.card_number);
             return None;
         };
 
@@ -337,14 +344,14 @@ impl SheetCard {
             kind,
             holo_power,
             name: Localized::en(name.into()),
-            ability_text: Localized::en(lines.join("\n").trim().to_string()),
+            ability_text: Localized::en(lines.into_iter().join("\n").trim().to_string()),
         })
     }
 
-    fn to_keyword(&self, card: &mut Card, mut lines: Vec<&str>) -> Option<Keyword> {
-        let first = lines.remove(0);
+    fn to_keyword(&self, card: &mut Card, mut lines: VecDeque<&str>) -> Option<Keyword> {
+        let first = lines.pop_front().unwrap_or_default();
         let Some((effect, name)) = first.split_once(':') else {
-            eprintln!("Keyword not found for {}", card.card_number);
+            eprintln!("Warning: Keyword not found for {}", card.card_number);
             return None;
         };
         let effect = match effect.to_lowercase().trim() {
@@ -366,14 +373,14 @@ impl SheetCard {
         Some(Keyword {
             effect,
             name: Localized::en(name.into()),
-            ability_text: Localized::en(lines.join("\n").trim().to_string()),
+            ability_text: Localized::en(lines.into_iter().join("\n").trim().to_string()),
         })
     }
 
-    fn to_art(&self, card: &mut Card, mut lines: Vec<&str>) -> Option<Art> {
-        let first = lines.remove(0);
+    fn to_art(&self, card: &mut Card, mut lines: VecDeque<&str>) -> Option<Art> {
+        let first = lines.pop_front().unwrap_or_default();
         let Some((_arts, name)) = first.split_once(':') else {
-            eprintln!("Art not found for {}", card.card_number);
+            eprintln!("Warning: Art not found for {}", card.card_number);
             return None;
         };
         let name = name
@@ -382,9 +389,9 @@ impl SheetCard {
             .trim_end_once(r#"""#)
             .trim();
 
-        let second = lines.remove(0);
+        let second = lines.pop_front().unwrap_or_default();
         let Some((_cost, cheers)) = second.split_once(':') else {
-            eprintln!("Art cost not found for {}", card.card_number);
+            eprintln!("Warning: Art cost not found for {}", card.card_number);
             return None;
         };
 
@@ -409,9 +416,9 @@ impl SheetCard {
             })
             .collect_vec();
 
-        let third = lines.remove(0);
+        let third = lines.pop_front().unwrap_or_default();
         let Some((_power, power)) = third.split_once(':') else {
-            eprintln!("Art power not found for {}", card.card_number);
+            eprintln!("Warning: Art power not found for {}", card.card_number);
             return None;
         };
 
@@ -453,14 +460,14 @@ impl SheetCard {
             ability_text: lines
                 .is_empty()
                 .not()
-                .then(|| Localized::en(lines.join("\n").trim().to_string())),
+                .then(|| Localized::en(lines.into_iter().join("\n").trim().to_string())),
         })
     }
 
-    fn to_extra(&self, card: &mut Card, mut lines: Vec<&str>) -> Option<Extra> {
-        let first = lines.remove(0);
+    fn to_extra(&self, card: &mut Card, mut lines: VecDeque<&str>) -> Option<Extra> {
+        let first = lines.pop_front().unwrap_or_default();
         let Some((_extra, extra)) = first.split_once(':') else {
-            eprintln!("Extra not found for {}", card.card_number);
+            eprintln!("Warning: Extra not found for {}", card.card_number);
             return None;
         };
 
