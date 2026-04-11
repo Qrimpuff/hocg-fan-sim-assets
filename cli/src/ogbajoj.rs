@@ -24,13 +24,12 @@ use webp::{Encoder, WebPMemory};
 use crate::{
     DEBUG,
     data::{update_arts, update_extra, update_keywords, update_oshi_skills, update_tags},
-    http_client,
+    google_docs_http_client, google_sheets_api_http_client,
     images::{
         UNRELEASED_FOLDER, WEBP_QUALITY,
         utils::{DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, to_image_hash},
     },
-    utils::TrimOnce,
-    utils::sanitize_filename,
+    utils::{TrimOnce, sanitize_filename},
 };
 
 const SPREADSHEET_ID: &str = "1IdaueY-Jw8JXjYLOhA9hUd2w0VRBao9Z1URJwmCWJ64";
@@ -1018,7 +1017,7 @@ pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
 
     let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
     for gid in sheets_gid {
-        let resp = http_client()
+        let resp = google_docs_http_client()
             .get(&url)
             .query(&[
                 ("gid", gid.to_string().as_str()),
@@ -1092,7 +1091,7 @@ fn retrieve_spreadsheet() -> Spreadsheet {
     let api_key = std::env::var("GOOGLE_SHEETS_API_KEY").expect("GOOGLE_SHEETS_API_KEY not set");
 
     let url = format!("https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}");
-    let resp = http_client()
+    let resp = google_sheets_api_http_client()
         .get(url)
         .query(&[("key", api_key.as_str())])
         .send()
@@ -1135,7 +1134,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
 
     // Read HTML content from the website
     let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
-    let resp = http_client()
+    let resp = google_docs_http_client()
         .get(&url)
         .query(&[
             ("gid", sheet_id.to_string().as_str()),
@@ -1430,7 +1429,7 @@ fn download_sheet_image(
     set_code: &str,
     name: &str,
 ) -> Result<DynamicImage, Box<dyn Error>> {
-    let resp = http_client()
+    let resp = google_docs_http_client()
         .get(url)
         .header(REFERER, "https://docs.google.com/")
         .header("Sec-Fetch-Dest", "image")

@@ -12,7 +12,7 @@ pub mod decklog {
     use reqwest::header::REFERER;
     use serde::{Deserialize, Deserializer, Serialize};
 
-    use crate::http_client;
+    use crate::{decklog_en_http_client, decklog_http_client};
 
     #[derive(Debug, Serialize)]
     #[serde(rename_all = "snake_case")]
@@ -244,18 +244,20 @@ pub mod decklog {
                                     page,
                                 };
 
-                                let (url, referrer) = match language {
+                                let (client, url, referrer) = match language {
                                     Language::Japanese => (
+                                        decklog_http_client(),
                                         "https://decklog.bushiroad.com/system/app/api/search/9",
                                         "https://decklog.bushiroad.com/",
                                     ),
                                     Language::English => (
+                                        decklog_en_http_client(),
                                         "https://decklog-en.bushiroad.com/system/app/api/search/8",
                                         "https://decklog-en.bushiroad.com/",
                                     ),
                                 };
 
-                                let resp = http_client()
+                                let resp = client
                                     .post(url)
                                     .header(REFERER, referrer)
                                     .json(&req)
