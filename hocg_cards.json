@@ -48051,6 +48051,42 @@
       }
     ]
   },
+  "hBP08-025": {
+    "card_number": "hBP08-025",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Café Time" },
+        "text": {
+          "en": "If you have 2 or more resting holomem with #Justice, during this turn, all of your holomem with #Justice get Arts+20."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Isn't It Important to Take Breaks?" }, "power": "30" }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-025",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-025_R.webp", "en": null },
+        "img_hash": "v2|H32=rKpkHKMsbaraQznj1Mop05bUENpKlVJVVg1qrZZeLK0Nu6xmVFVKJ6ouctqvolDVddulKotaLq1bwlKtaalSW0uldts|CYM=172034",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C27" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-031": {
     "card_number": "hBP08-031",
     "name": { "jp": "パヴォリア・レイネ", "en": "Pavolia Reine" },
