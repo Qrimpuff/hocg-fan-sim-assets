@@ -48363,6 +48363,40 @@
       }
     ]
   },
+  "hBP08-071": {
+    "card_number": "hBP08-071",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "TOMORROW!?" },
+        "text": {
+          "en": "Deal 20 special damage to 1 of your opponent's holomem with a different color to their Oshi holomem."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless", "colorless" ], "name": { "jp": null, "en": "Bonk!" }, "power": "50" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-071",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-071_C.webp", "en": null },
+        "img_hash": "v2|H32=auyV62nIJHmSw2Q0mNvthq063aZ2dhIlUlcK1Vo2aN0OdKxss3SKJl26aJCttaWSUqtSq65XratLi2ppVivUotaKYlk|CYM=14311F",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C73" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-079": {
     "card_number": "hBP08-079",
     "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
