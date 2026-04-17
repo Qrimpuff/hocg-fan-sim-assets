@@ -7,6 +7,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -15,6 +16,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -47,6 +49,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -55,6 +58,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -87,6 +91,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -95,6 +100,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -127,6 +133,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -135,6 +142,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -167,6 +175,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -175,6 +184,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -207,6 +217,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -215,6 +226,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -247,6 +259,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -255,6 +268,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -287,6 +301,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -295,6 +310,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -327,6 +343,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -335,6 +352,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -367,6 +385,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -375,6 +394,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -407,6 +427,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -415,6 +436,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -447,6 +469,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -455,6 +478,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -487,6 +511,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -495,6 +520,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -527,6 +553,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -535,6 +562,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -567,6 +595,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -575,6 +604,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -607,6 +637,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -615,6 +646,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Anniversary Gift ～Blue～", "en": "Anniversary Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -647,6 +679,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -655,6 +688,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -687,6 +721,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -695,6 +730,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -727,6 +763,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -735,6 +772,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -767,6 +805,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -775,6 +814,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -807,6 +847,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -815,6 +856,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -847,6 +889,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -855,6 +898,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -887,6 +931,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -895,6 +940,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -927,6 +973,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -935,6 +982,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -967,6 +1015,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -975,6 +1024,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1007,6 +1057,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -1015,6 +1066,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1047,6 +1099,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -1055,6 +1108,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1087,6 +1141,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -1095,6 +1150,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1127,6 +1183,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -1135,6 +1192,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1167,6 +1225,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -1175,6 +1234,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1207,6 +1267,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -1215,6 +1276,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1247,6 +1309,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -1255,6 +1318,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1287,6 +1351,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -1295,6 +1360,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1327,6 +1393,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -1335,6 +1402,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1367,6 +1435,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -1375,6 +1444,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1407,6 +1477,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -1415,6 +1486,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1447,6 +1519,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -1455,6 +1528,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1487,6 +1561,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -1495,6 +1570,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1527,6 +1603,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -1535,6 +1612,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1567,6 +1645,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -1575,6 +1654,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1607,6 +1687,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -1615,6 +1696,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1647,6 +1729,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -1655,6 +1738,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1687,6 +1771,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -1695,6 +1780,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1727,6 +1813,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -1735,6 +1822,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1767,6 +1855,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -1775,6 +1864,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1807,6 +1897,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -1815,6 +1906,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1847,6 +1939,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -1855,6 +1948,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1887,6 +1981,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -1895,6 +1990,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1927,6 +2023,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -1935,6 +2032,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -1967,6 +2065,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -1975,6 +2074,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2007,6 +2107,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトエンハンス", "en": "White Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。",
@@ -2015,6 +2116,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～White～", "en": "Birthday Gift ~White~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2047,6 +2149,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -2055,6 +2158,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2087,6 +2191,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ブルーエンハンス", "en": "Blue Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。",
@@ -2095,6 +2200,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Blue～", "en": "Birthday Gift ~Blue~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2127,6 +2233,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -2135,6 +2242,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2167,6 +2275,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -2175,6 +2284,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2207,6 +2317,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -2215,6 +2326,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2247,6 +2359,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -2255,6 +2368,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2287,6 +2401,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -2295,6 +2410,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2327,6 +2443,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -2335,6 +2452,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2367,6 +2485,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -2375,6 +2494,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2407,6 +2527,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -2415,6 +2536,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2447,6 +2569,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -2455,6 +2578,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2487,6 +2611,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -2495,6 +2620,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2527,6 +2653,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "グリーンエンハンス", "en": "Green Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。",
@@ -2535,6 +2662,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Green～", "en": "Birthday Gift ~Green~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2567,6 +2695,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "パープルエンハンス", "en": "Purple Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。",
@@ -2575,6 +2704,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Purple～", "en": "Birthday Gift ~Purple~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2607,6 +2737,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドエンハンス", "en": "Red Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。",
@@ -2615,6 +2746,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Red～", "en": "Birthday Gift ~Red~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -2647,6 +2779,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "イエローエンハンス", "en": "Yellow Enhance" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
@@ -2655,6 +2788,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "Birthday Gift ～Yellow～", "en": "Birthday Gift ~Yellow~" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -12336,7 +12470,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP02-026_P.webp", "en": null },
-        "img_hash": "v2|H32=nNVLK7LYVnvDiqYOUg2rKjmNd22rSDBdVm2oVFCprdZsI5KlyjRLol6tadqordlU5a1KW6ClVarWdJ2kvlQ1qLRJomo|CYM=513105",
+        "img_hash": "v2|H32=nNFLKrLY1HvXyqYOUp2rKjmNc2krSjLdUmmrVVKpqRRKI5KlynRbglqNaduprdlU7aVJW6i1aanW8t2kqlRVoFWVqqQ|CYM=533407",
         "ogbajoj_sheet_cells": [ [ 419749048, "C19" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -19533,7 +19667,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP03-044_P.webp", "en": null },
-        "img_hash": "v2|H32=2rKvppS4lGsva6RtTGvNimqVXZpq07MVFnO7slc1rKTfuLJqW7XMtlWtaVqkualSquhR1Z+mrouVEl/RsrSqtYauqts|CYM=1D202E",
+        "img_hash": "v2|H32=2pK9ptC6lGYla6QpXGtlim6WbZpql6uVVnerghM1LqXTOrZKSrWKt1Wt6VKguqlWquhR1JukbdKVUl3V+pVata+q6ls|CYM=232733",
         "ogbajoj_sheet_cells": [ [ 419749048, "C31" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -20228,7 +20362,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP03-055_P.webp", "en": null },
-        "img_hash": "v2|H32=2pqLu9Aqnpq2YmQbJickbWplLl1YZcpbWtXc9kLVLLZtEVpa2LLYpA+ttFGkSy1JWttK11mhlZaqWtomVKWpWuuqUSo|CYM=191303",
+        "img_hash": "v2|H32=2pqZu9AqlJq0KmQLJiYkfWolLl1IZcpJWlXaxlJVKrZvVVpS2bLYpB+ttFGkyy3ZWspKnVmpldKqSpoWVK2Jcmqq0Xo|CYM=1A1404",
         "ogbajoj_sheet_cells": [ [ 419749048, "C34" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -32642,7 +32776,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-043_P_2.webp", "en": null },
-        "img_hash": "v2|H32=zKabW0WkSLlrtGmd67LVSopS1epSUbTGVqGsTFuSpEmNipZKFtWtolpZtJL0qu1WVq1otVVLraqqHmpVlSSirLk0tqQ|CYM=2D4E05",
+        "img_hash": "v2|H32=1Cafy8WkSJmjrmmZ6bLVKotSVSpaVfRmUrWkTFq2tE1LCpZODtWvokpV1JLUuu1WVq1plVVLLbmqLmtVlyoqrbW2raw|CYM=305007",
         "ogbajoj_sheet_cells": [ [ 419749048, "C58" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -34354,7 +34488,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-069_P_2.webp", "en": null },
-        "img_hash": "v2|H32=plpcbrdKjC4jXZSqelWJzXQjWtVspVKVTjVanWoV1KpqFZRaVVoqtUquQavBVeqRqaLySmrR0mqtqFlaKbWVqqmqWlM|CYM=1D1E13",
+        "img_hash": "v2|H32=tjpcLreqjTqnzJSqaleNzXYjOtVs9VqVbjVa1WY32K1qVZRWVVqqtUqqRatBVaqVoaJiampRsqqtq1lapJWVqq3aWVM|CYM=1F2116",
         "ogbajoj_sheet_cells": [ [ 419749048, "C62" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -35305,6 +35439,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "BIG CAT means…", "en": "BIG CAT means..." },
         "text": {
           "jp": "[ターンに1回]自分のセンターホロメンが〈ラオーラ・パンテーラ〉なら、自分のデッキから、自分のコラボホロメンと同じカード名のホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -35313,6 +35448,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 1,
         "name": { "jp": "BIG TROUBLE!!", "en": "BIG TROUBLE!!" },
         "text": {
           "jp": "[ゲームに1回]このゲームの間、自分の〈ラオーラ・パンテーラ〉全員は、リセットステップでお休みしない。",
@@ -35371,6 +35507,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": {
           "jp": "やりたいように、私は私らしく",
           "en": "I'll do what I like and live how I want to"
@@ -35382,6 +35519,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 1,
         "name": { "jp": "生き抜いていくんです！", "en": "I will survive!" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキの枚数が5枚以下で、自分の#FLOW GLOWを持つホロメンが相手のセンターホロメンをダウンさせた時に使える:相手のライフ-1。",
@@ -35427,6 +35565,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "迷ったらまず実行！", "en": "When in doubt, just do it!" },
         "text": {
           "jp": "[ターンに1回]自分のエールデッキの上から1枚を自分の[BuzzホロメンかBuzzホロメンからBloomしている〈風真いろは〉]に送る。",
@@ -35435,6 +35574,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "アルティメットつよつよござる", "en": "Ultimate Stronk Gozaru" },
         "text": {
           "jp": "[ゲームに1回]このターンの間、自分のステージのエール1枚につき、自分のステージの〈風真いろは〉全員のアーツ+10。その後、自分のステージにBuzzホロメンがいるなら、自分のデッキを3枚引く。",
@@ -35493,6 +35633,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "鬼閻魔", "en": "Oni Enma" },
         "text": {
           "jp": "[ターンに1回]自分のエールデッキの上から1～2枚をアーカイブする:アーカイブしたエール1枚につき、自分のデッキを1枚引く。",
@@ -35501,6 +35642,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "二刀一閃！ 鬼神斬り", "en": "Twin sword flash! Onigami-kiri" },
         "text": {
           "jp": "[ゲームに1回]相手のセンターホロメンかコラボホロメンどちらかに、自分のアーカイブの赤エール1枚につき、特殊ダメージ20を与える。",
@@ -35559,6 +35701,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 1,
         "name": { "jp": "混沌の化身", "en": "Personification of Chaos" },
         "text": {
           "jp": "[ターンに1回]このゲーム中に、自分のSP推しスキルを使っていたなら、サイコロを1回振る。自分の手札が出た目の数と同じになるまで、自分のデッキを引く。",
@@ -35567,6 +35710,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": {
           "jp": "🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲",
           "en": "🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲"
@@ -35627,6 +35771,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 1,
         "name": { "jp": "満月の輝き", "en": "Full Moon Shine" },
         "text": {
           "jp": "[ターンに1回]相手のホロメン1人に特殊ダメージを与えた時に使える:相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。",
@@ -35635,6 +35780,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "双月の斉唱", "en": "Chorus of the twin moons" },
         "text": {
           "jp": "[ゲームに1回]お互いのステージのエールが合計6枚以上あるなら、自分のエールデッキから、エール1～3枚を公開し、自分の#ID1期生を持つホロメンに割り振って送る。そしてエールデッキをシャッフルする。",
@@ -35680,6 +35826,7 @@
     "life": 6,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "PONじゃないもん！！", "en": "I'm not PON!" },
         "text": {
           "jp": "[ターンに1回]相手のターンで、自分の〈ロボ子さん〉がダウンした時に使える:自分のデッキの上から2枚をアーカイブする。その後、自分のアーカイブの〈ロボ子さん〉1枚を手札に戻す。",
@@ -35688,6 +35835,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 1,
         "name": {
           "jp": "ボクの『高性能っぷり』を堪能してよね♡",
           "en": "Enjoy my \"high spec\" performance♡"
@@ -35736,6 +35884,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "おまつりわっしょーい！！！", "en": "Omatsuri Wasshoi!!" },
         "text": {
           "jp": "[ターンに1回]サイコロを1回振る。出た目の数が自分のライフ以上なら、自分のデッキから、カード1枚を手札に加える。そしてデッキをシャッフルする。出た目の数が自分のライフ以下なら、自分のデッキの上から1枚をホロパワーにする。",
@@ -35744,6 +35893,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 1,
         "name": { "jp": "絶対勝ちたい！！！！！！！", "en": "I definitely want to win!!!!!!!" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが〈夏色まつり〉なら、このターンの間、自分が使えるLIMITEDのサポートカードの枚数は2枚になる。",
@@ -38905,7 +39055,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-058_P.webp", "en": null },
-        "img_hash": "v2|H32=zLVkzVrRRC3bsqZtmaKtqhLJpapaitJsVrFprrYZ3KyrstBqLF2JslWlRNWqVv2yhRoq1dquKqm2xtVWlap2iVClKmk|CYM=015555",
+        "img_hash": "v2|H32=VHVlydrRZCXZqiZpmbKt6hLZpa5atVpNVtVLLDZZ1IyrKtRKLFm7klUtVdWqVr2wpZYq1dKmK6q0W1VVkS4mm1Ci62o|CYM=035553",
         "ogbajoj_sheet_cells": [ [ 419749048, "C68" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -40856,7 +41006,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP06-090_P.webp", "en": null },
-        "img_hash": "v2|H32=rKrNDpUmXdYz3DLkpo0qrZKliitbMlNSa9Jt4+3IOeOqSZawVl2PQqpUaNHLxipdHh+lqqm44gvSUmC1oKLyQsqlNjg|CYM=453E0D",
+        "img_hash": "v2|H32=LCfNLhUnScYzWDLEppgsqZa1qitTN1Naa1Jto+3LKaPo6da0Vl2PQqpWbNGLxypdHh+triu6aj/SUmm1qaLqUsqhtPg|CYM=47410F",
         "ogbajoj_sheet_cells": [ [ 419749048, "C71" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -41405,6 +41555,7 @@
         }
       },
       {
+        "holo_power": 6,
         "name": { "jp": "角ドリルしたろか？", "en": "Shall I do a Horn Drill?" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分のステージの〈角巻わため〉全員のアーツ+100。",
@@ -41450,6 +41601,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 3,
         "name": { "jp": "Good Luck, holoh3ro!", "en": "Good Luck, holoh3ro!" },
         "text": {
           "jp": "[ターンに1回]自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。そのホロメンが#ID3期生を持つBuzzホロメンなら、かわりに、そのホロメンのアーツ+80。",
@@ -41458,6 +41610,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "不可能なんてないんだから！", "en": "Because nothing is impossible!" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブの[マスコットとファン]を好きな枚数選び、自分の#ID3期生を持つホロメン1人に付ける。3枚以上付けたなら、このターンの間、そのホロメンのアーツ+100。",
@@ -41516,6 +41669,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 1,
         "name": { "jp": "神札の導き", "en": "Guidance of the Divine Talisman" },
         "text": {
           "jp": "[ターンに1回]自分のデッキの上から2枚を見る。その中から、カード1枚を手札に加える。そして残ったカードをデッキの上に戻す。",
@@ -41524,6 +41678,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "みんなのママ", "en": "Everyone's Mama" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキの上から6枚を見る。その中から、カード3枚を手札に加える。そして残ったカードを好きな順でデッキの上に戻す。その後、自分のホロメン全員のHP50回復。",
@@ -41590,6 +41745,7 @@
         }
       },
       {
+        "holo_power": 2,
         "name": { "jp": "ワールドワイドな最強アイドル！", "en": "Worldwide Strongest Idol!" },
         "text": {
           "jp": "[ターンに1回]自分のバックポジションのDebutホロメンの〈赤井はあと〉1人をデッキの下に戻す。その後、自分のステージの〈赤井はあと〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。",
@@ -41635,6 +41791,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "忘却の輪の上で", "en": "On the Rings of Oblivion" },
         "text": {
           "jp": "[ターンに1回]自分のデッキを下から2枚引いた後、手札1枚をアーカイブする。",
@@ -41643,6 +41800,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 4,
         "name": { "jp": "時間の典獄", "en": "Warden of Time" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが2ndの〈オーロ・クロニー〉なら、このターンの後に、もう1回自分のターンを開始する。",
@@ -41696,6 +41854,7 @@
         }
       },
       {
+        "holo_power": 1,
         "name": { "jp": "行くよ、開拓者。", "en": "Let's go, Pioneers." },
         "text": {
           "jp": "[ターンに1回]直前の相手のターンに自分のホロメンがダウンしていたなら、自分のデッキから、イベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -41754,6 +41913,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "スーパーねぽらぼエナジー", "en": "Super NePoLaBo Energy" },
         "text": {
           "jp": "[ターンに1回]自分のアーカイブのエールを自分の#5期生を持つ2ndホロメン全員に1枚ずつ送る。",
@@ -41762,6 +41922,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 1,
         "name": { "jp": "ねねちの大・暴・走！", "en": "Nenechi's Great Rampage!" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、Debutホロメンの〈桃鈴ねね〉1～4枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
@@ -45471,7 +45632,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP07-066_P.webp", "en": null },
-        "img_hash": "v2|H32=Sq3Naourtmqz2rQ0sNTRtbSUS6WWmqLdEim7WOw9Y2isS5SqWCRqVVVC4tWliqbKdFmVUno1odt6pSWNrZZQLVW1yiU|CYM=0F3711",
+        "img_hash": "v2|H32=SOVVagvltiqzWrQ0sZzVtLWUS6WWmmuVUpl7Wdq1y+mrSdYuWDQqVV1K4tVli6aK9Eu/WrI1rdt6laXbrZpVrVGVaqU|CYM=163D13",
         "ogbajoj_sheet_cells": [ [ 419749048, "C75" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -53453,6 +53614,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ホワイトマイク", "en": "White Microphone" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の白センターホロメンのアーツ+20。",
@@ -53461,6 +53623,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 1,
         "name": { "jp": "クイックガード", "en": "Quick Guard" },
         "text": {
           "jp": "[ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える:そのホロメン1人が受けるダメージ-20。",
@@ -53922,6 +54085,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "レッドマイク", "en": "Red Microphone" },
         "text": {
           "jp": "[ターンに1回]このターンの間、自分の赤センターホロメンのアーツ+20。",
@@ -53930,6 +54094,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 1,
         "name": { "jp": "さあ！もう一度！", "en": "Now! Once more!" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブの赤ホロメン1枚を手札に戻す。",
@@ -54400,6 +54565,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "エンジン全開！レッツゴー！", "en": "Full throttle! Let's go!" },
         "text": {
           "jp": "[ターンに1回]このターンに自分のホロメンがBloomしていたなら、このターンの間、自分のステージの#FLOW GLOWを持つホロメン1人のアーツ+30。",
@@ -54408,6 +54574,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": {
           "jp": "向こう側の景色を見に行かない？",
           "en": "Do you want to see the scenery from high above?"
@@ -54967,6 +55134,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "虎視眈々", "en": "Eagerly awaiting" },
         "text": {
           "jp": "[ターンに1回]自分のアーカイブのエール1～2枚を自分のエールが付いていない#FLOW GLOWを持つホロメン1人に送る。",
@@ -54975,6 +55143,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "ニコたんの名を呼ぶがいいさ！", "en": "Just say my name!" },
         "text": {
           "jp": "[ゲームに1回]自分の#FLOW GLOWを持つホロメンの能力でエールをアーカイブした時に使える:相手のセンターホロメンかコラボホロメンどちらかに、アーカイブしたエール1枚につき、特殊ダメージ30を与える。",
@@ -55418,6 +55587,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 1,
         "name": { "jp": "収集家", "en": "The Archiver" },
         "text": {
           "jp": "[ターンに1回]自分のデッキの上から3枚を見る。その中から、サポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
@@ -55426,6 +55596,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 3,
         "name": { "jp": "リベリオン", "en": "Rebellion" },
         "text": {
           "jp": "[ゲームに1回]相手のDebut以外のバックホロメン1人に、自分のアーカイブのサポートカード1枚につき、特殊ダメージ10を与える。",
@@ -55458,6 +55629,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "Biboo Tax", "en": "Biboo Tax" },
         "text": {
           "jp": "[ターンに1回]お互いのエールデッキの上から1枚をアーカイブする。アーカイブしたエール1色につき、自分のデッキを1枚引く。",
@@ -55466,6 +55638,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "古代魔石の輝き", "en": "Ancient, Mystic Brilliance" },
         "text": {
           "jp": "[ゲームに1回]相手のセンターホロメンに、自分のアーカイブの[#Adventを持つホロメンとエール]1枚につき、特殊ダメージ10を与える。",
@@ -56139,6 +56312,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 3,
         "name": { "jp": "秩序の先駆者", "en": "Harbinger of Order" },
         "text": {
           "jp": "[ターンに1回]自分のホロメン1人が相手からアーツダメージを受ける時、自分のステージの[Buzzか2nd]の赤ホロメン1人を選べる:そのダメージを、選んだホロメンがかわりに受ける。",
@@ -56147,6 +56321,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 3,
         "name": { "jp": "JUST LIKE THAT", "en": "JUST LIKE THAT" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブの#Justiceを持つホロメン1枚をステージに出す。その後、自分のアーカイブのエール1～5枚をそのホロメンに送る。",
@@ -56179,6 +56354,7 @@
     "life": 5,
     "oshi_skills": [
       {
+        "holo_power": 1,
         "name": { "jp": "Boat Goes Binted", "en": "Boat Goes Binted" },
         "text": {
           "jp": "[ターンに1回]相手のセンターポジションとコラボポジションのホロメンを入れ替える。",
@@ -56187,6 +56363,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 3,
         "name": { "jp": "自由奔放な『追跡者』", "en": "The free-spirited Chaser" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、2ndホロメンの〈ジジ・ムリン〉2枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、自分のアーカイブのエールを自分のホロメン全員に1枚ずつ送る。",
@@ -56909,6 +57086,7 @@
     "life": 4,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "みんな一緒にいくぞぉおっ", "en": "Everyone, rush in together!" },
         "text": {
           "jp": "[ターンに1回]自分のマスコットが付いている〈白上フブキ〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。",
@@ -56917,6 +57095,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "マスコッツ、アッセンブル!!", "en": "Mascots, Assemble!!" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、マスコット1～2枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -57372,6 +57551,7 @@
     "life": 4,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ちょっとまつたけ～♪", "en": "Chotto Matsutake~♪" },
         "text": {
           "jp": "[ターンに1回]自分のデッキから#きのこを持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
@@ -57380,6 +57560,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "あなたの世界を広げに行こう", "en": "Expand your world" },
         "text": {
           "jp": "[ゲームに1回]自分のエールデッキの上から1枚を自分の〈儒烏風亭らでん〉に送る。その後、自分のアーカイブの#きのこを持つイベント1枚を手札に戻す。",
@@ -57803,6 +57984,7 @@
     "life": 4,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "35Pこっちこっちー", "en": "35P Here Here~" },
         "text": {
           "jp": "[ターンに1回]自分の〈35P〉が付いているホロメンがいるなら、自分のデッキを1枚引く。",
@@ -57811,6 +57993,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "35Pいくぞー！", "en": "35P Let's Go~!" },
         "text": {
           "jp": "[ゲームに1回]自分のファンが付いている〈さくらみこ〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。",
@@ -58189,6 +58372,7 @@
     "life": 4,
     "oshi_skills": [
       {
+        "holo_power": 3,
         "name": { "jp": "張り切ってがんばろーー!!!", "en": "Let's do our best with gusto!!!" },
         "text": {
           "jp": "[ターンに1回]自分のエールデッキの上から1枚を自分のホロメンに送る。",
@@ -58197,6 +58381,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "流れ星", "en": "The Shooting Star" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが〈星街すいせい〉なら、相手のバックホロメン1人に特殊ダメージ50を与える。",
@@ -58571,6 +58756,7 @@
     "life": 4,
     "oshi_skills": [
       {
+        "holo_power": 2,
         "name": { "jp": "ライミング", "en": "Rhyming" },
         "text": {
           "jp": "[ターンに1回]自分のデッキの上から2枚をアーカイブする。その後、自分のデッキを1枚引く。",
@@ -58579,6 +58765,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "世界を繋げるラップ", "en": "Rap That Connects the World" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブにホロメンが6枚以上あるなら、このターンの間、自分のステージの〈森カリオペ〉全員のアーツ+30。",
@@ -58938,6 +59125,7 @@
     "life": 4,
     "oshi_skills": [
       {
+        "holo_power": 3,
         "name": { "jp": "ごめんｹﾄﾞ", "en": "Sorry" },
         "text": {
           "jp": "[ターンに1回]自分のアーカイブのホロメン1枚を手札に戻す。",
@@ -58946,6 +59134,7 @@
       },
       {
         "kind": "special",
+        "holo_power": 2,
         "name": { "jp": "おさんぽスバル", "en": "Walking Subaru" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブのエールを自分の〈大空スバル〉1～2人に1枚ずつ送る。",
@@ -59287,7 +59476,7 @@
     "card_number": "hSD19-010",
     "name": { "jp": "ごきげんカレー", "en": "Good Mood Curry" },
     "card_type": { "support": "event" },
-    "text": { "jp": "自分のホロメンのHP30回復。", "en": "Restore 30 HP to all of your holomem." },
+    "text": { "jp": "自分のホロメンのHP30回復。", "en": "Restore 30 HP to your holomem." },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
