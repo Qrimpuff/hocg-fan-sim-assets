@@ -724,7 +724,9 @@ pub mod hololive_official {
             let holo_power = holo_power.and_then(|holo_power| {
                 holo_power
                     .trim_start_once("[ホロパワー：")
+                    .trim_start_once("[ホロパワー:")
                     .trim_start_once("[holo Power：")
+                    .trim_start_once("[holo Power:")
                     .trim_start_once("-")
                     .trim_end_once("]")
                     .trim_end_once("消費")
