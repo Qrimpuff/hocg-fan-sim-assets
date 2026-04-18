@@ -569,9 +569,9 @@
   },
   "Q47": {
     "qna_number": "Q47",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "hBP01-013〈天音かなた〉のブルームエフェクト「天使のお仕事」で、相手のBuzzを含む1stホロメンホロメンをダウンさせた場合、エクストラ「このホロメンがダウンした時、自分のライフ-２」によってライフは減りますか？",
+      "jp": "hBP01-013〈天音かなた〉のブルームエフェクト「天使のお仕事」で、相手のBuzzを含む1stホロメンをダウンさせた場合、エクストラ「このホロメンがダウンした時、自分のライフ-２」によってライフは減りますか？",
       "en": "If hBP01-013 Amane Kanata's Bloom Effect \"Angel's Work\" downs an opponent's Buzz holomem, will their Life be reduced by 2 with the Extra rules \"If this holomem is downed, you get Life-2\"?"
     },
     "answer": {
@@ -631,9 +631,9 @@
   },
   "Q52": {
     "qna_number": "Q52",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "hBP01-019〈七詩ムメイ〉のブルームエフェクト「みんなと歌って踊りたい！」は1stホロメンホロメンからBloomしても能力は発揮しますか？",
+      "jp": "hBP01-019〈七詩ムメイ〉のブルームエフェクト「みんなと歌って踊りたい！」は1stホロメンからBloomしても能力は発揮しますか？",
       "en": "Does hBP01-019 Nanashi Mumei's Bloom Effect \"I Want to Sing and Dance with Everyone!\" activate if it Blooms from a 1st holomem?"
     },
     "answer": { "jp": "いいえ、発揮しません。", "en": "No, it does not." },
@@ -654,9 +654,9 @@
   },
   "Q54": {
     "qna_number": "Q54",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "hBP01-026〈ベスティア・ゼータ〉のブルームエフェクト「新たな運命」は1stホロメンホロメンからBloomしても能力は発揮しますか？",
+      "jp": "hBP01-026〈ベスティア・ゼータ〉のブルームエフェクト「新たな運命」は1stホロメンからBloomしても能力は発揮しますか？",
       "en": "Does hBP01-026 Vestia Zeta's Bloom Effect \"A New Destiny\" activate if it Blooms from a 1st holomem?"
     },
     "answer": { "jp": "いいえ、発揮しません。", "en": "No, it does not." },
@@ -854,13 +854,13 @@
   },
   "Q71": {
     "qna_number": "Q71",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "hBP01-045〈AZKi〉は、自身のギフト「Overwrite」の能力が発揮している状態で、残りライフ3以下でも1stホロメンホロメンにBloomすることはできますか？",
+      "jp": "hBP01-045〈AZKi〉は、自身のギフト「Overwrite」の能力が発揮している状態で、残りライフ3以下でも1stホロメンにBloomすることはできますか？",
       "en": "Can hBP01-045 AZKi Bloom into a 1st holomem even if I have 3 Life or less remaining, and the effect of its Gift \"Overwrite\" is active?"
     },
     "answer": {
-      "jp": "はい、できます。\nギフト「Overwrite」の能力は、2ndホロメンホロメンにもBloomできる能力なので、通常通り1stホロメンホロメンにBloomすることもできます。",
+      "jp": "はい、できます。\nギフト「Overwrite」の能力は、2ndホロメンにもBloomできる能力なので、通常通り1stホロメンにBloomすることもできます。",
       "en": "Yes, she can. The ability of the Gift \"Overwrite\" allows you to Bloom into a 2nd holomem, but you can also Bloom into a 1st holomem as usual."
     },
     "referenced_cards": [ "hBP01-045" ]
@@ -1044,13 +1044,13 @@
   },
   "Q87": {
     "qna_number": "Q87",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
       "jp": "hBP01-066〈小鳥遊キアラ〉のアーツ「跪きなさい。」の「このホロメンに重なっているホロメン１枚をアーカイブできる」というのは、どのカードをアーカイブすることができる能力ですか？",
       "en": "hBP01-066 Takanashi Kiara's Arts \"Kneel Before Me.\" allows you to archive \"1 holomem that is stacked to this holomem.\" Which cards can I archive?"
     },
     "answer": {
-      "jp": "この効果でアーカイブできるのは、このカード以外の、このカードの下に重ねられているホロメンカードになります。\n例えば、Debutホロメン、1stホロメンホロメンと1枚ずつBloomしている場合、この能力を発揮できるのは1回だけになります。",
+      "jp": "この効果でアーカイブできるのは、このカード以外の、このカードの下に重ねられているホロメンカードになります。\n例えば、Debutホロメン、1stホロメンと1枚ずつBloomしている場合、この能力を発揮できるのは1回だけになります。",
       "en": "This effect can only archive holomem stacked under that card, that are not that card. For example, if you Bloomed from a Debut holomem to this holomem, you may only use this ability once."
     },
     "referenced_cards": [ "hBP01-066" ]
@@ -1093,13 +1093,13 @@
   },
   "Q91": {
     "qna_number": "Q91",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "自分のhBP01-081〈星街すいせい〉が3枚目に重なっている状態（Debut、1stホロメンホロメンの上にhBP01-081〈星街すいせい〉が重ねられている状態）でアーツ「輝く彗星」を使用し、青のエール2枚をアーカイブにしました。この場合、このアーツで相手のホロメンに与えられるダメージは、180ダメージですか、それとも240ダメージのどちらになりますか？",
+      "jp": "自分のhBP01-081〈星街すいせい〉が3枚目に重なっている状態（Debut、1stホロメンの上にhBP01-081〈星街すいせい〉が重ねられている状態）でアーツ「輝く彗星」を使用し、青のエール2枚をアーカイブにしました。この場合、このアーツで相手のホロメンに与えられるダメージは、180ダメージですか、それとも240ダメージのどちらになりますか？",
       "en": "My hBP01-081 Hoshimachi Suisei is the third card in the stack (it is stacked on top of a Debut holomem and a 1st holomem). When I use the Arts \"Shining Comet\" and archive 2 blue cheers, will the Damage dealt to the opponent's holomem be 180 or 240?"
     },
     "answer": {
-      "jp": "180ダメージになります。\nDebutホロメンの上に1stホロメンホロメン、hBP01-081〈星街すいせい〉の合計2枚のカードが重なっている状態のため、アーツダメージ60に＋120が加算されます。",
+      "jp": "180ダメージになります。\nDebutホロメンの上に1stホロメン、hBP01-081〈星街すいせい〉の合計2枚のカードが重なっている状態のため、アーツダメージ60に＋120が加算されます。",
       "en": "It will deal 180 Damage. Since there are two cards stacked under the top holomem, 120 Damage will be added onto the Arts' base Damage of 60."
     },
     "referenced_cards": [ "hBP01-081" ]
@@ -1165,9 +1165,9 @@
   },
   "Q97": {
     "qna_number": "Q97",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、他にDebutホロメンがある場合でもそれを公開しなくてもよいですか？",
+      "jp": "hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？",
       "en": "If I use hBP01-104 Normal PC and the card I want isn't in the deck, can I choose not to reveal any card even if there are other Debut holomems in the deck?"
     },
     "answer": {
@@ -1375,9 +1375,9 @@
   },
   "Q115": {
     "qna_number": "Q115",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない時に、hBP01-104〈ふつうのパソコン〉を使用することができますか？",
+      "jp": "自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？",
       "en": "If I have 6 holomem on my stage, can I use hBP01-104 Normal PC?"
     },
     "answer": { "jp": "いいえ、使用できません。", "en": "No, you cannot." },
@@ -1448,26 +1448,26 @@
   },
   "Q121": {
     "qna_number": "Q121",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
       "jp": "ゲームの準備で手札の引き直しを一度行った上で、手札にDebutホロメンが1枚もない場合は、どうなりますか？",
       "en": "What happens if, after my first mulligan, I still don't have a Debut holomem in my hand?"
     },
     "answer": {
-      "jp": "引き直した手札にDebutホロメンが1枚もない場合は、相手プレイヤーにその手札を公開し、引き直しを行います。\n手札を全てデッキに戻し、引き直す前の手札より1枚少ない枚数を引いて手札にしてください。引き直した後、手札に1枚でもDebutホロメンがあった場合は、それ以上引き直すことはできません。",
-      "en": "If your second hand lacks a Debut holomem, reveal your hand to your opponent and mulligan again, drawing one fewer card than the previous hand. This process continues until a Debut holomem is drawn, at which point no further mulligans are allowed."
+      "jp": "手札の引き直し後、それでも手札にDebutホロメンがなかった場合は、手札にDebutホロメンが来るまで、「手札すべてを公開した後に、手札すべてをデッキに戻してシャッフルし、デッキの上から7枚引いて手札にする」を繰り返します。\nそして手札にDebutホロメンが来たなら、Debutホロメン1枚を選んで、センターポジションに裏向きで置いた後、最初の引き直しを除く、「手札すべてを公開した後に、手札すべてをデッキに戻してシャッフルし、デッキの上から7枚引いて手札にする」操作で引き直した回数と同じ枚数のカードを手札から選び、デッキの下に好きな順番で送ります。",
+      "en": "After redrawing your hand, if you still don't have a Debut holomem, reveal all cards in your hand, return them to the deck and shuffle, then draw 7 cards, repeating until you have a Debut holomem.\n\nOnce you have a Debut holomem, choose 1 Debut holomem in your hand and place it face down in the center position. Then, for each time you redrew (other than the initial redraw), put one card from your hand on the bottom of your deck, placing those cards in any order you like."
     }
   },
   "Q122": {
     "qna_number": "Q122",
-    "date": "2024-09-21",
+    "date": "2026-04-16",
     "question": {
-      "jp": "ゲームの準備で手札の引き直しを繰り返し、1枚になるまで引き直しましたが、Debutホロメンを引くことができませんでした。この場合はどうなりますか？",
-      "en": "What happens if I keep mulliganing until I have only one card left, but still no Debut holomem?"
+      "jp": "ゲームの準備で、最初の引き直し後、さらに6回の引き直しを行いましたが、このとき手札にDebutホロメンがありませんでした。\n7回目の引き直しを行うとデッキ下に移動させるカードが7枚となり、センターポジションにおけるホロメンカードが足りなくなりますが、この場合はどうなりますか？",
+      "en": "During game preparation, after the initial redraw, I performed six more redraws, but I still didn't have a Debut holomem in my hand.\n\nIf I perform a seventh redraw, I will put seven cards on the bottom of the deck, resulting in having no holomem to place in the center position. What happens in this case?"
     },
     "answer": {
-      "jp": "引き直しを繰り返してもDebutホロメンを引けなかった場合は、ゲーム開始時にそのプレイヤーは敗北します。",
-      "en": "If you cannot draw a Debut holomem even after reducing your hand to one card, you automatically lose the game."
+      "jp": "最初の引き直しを除いて、引き直し回数が6回に達した場合、そのプレイヤーは敗北します。",
+      "en": "Excluding the first redraw, if a player has redrawn six times, that player loses."
     }
   },
   "Q123": {
@@ -2442,14 +2442,14 @@
   },
   "Q208": {
     "qna_number": "Q208",
-    "date": "2024-10-04",
+    "date": "2026-04-16",
     "question": {
       "jp": "自分のセンターポジションにホロメンAがいる状態で、hSD01-004〈ときのそら〉のコラボエフェクト「レッツダンス！」を発揮してアーツを+20しました。その後、ホロメンAをホロメンBにBloomした場合、ホロメンBのアーツは+20されたままになりますか？",
       "en": "With holomem A in the center position, I used hSD01-004 Tokino Sora's Collab Effect \"Let's Dance!\" to give it Arts+20. If I then Bloom holomem A to holomem B, will it still have Arts+20?"
     },
     "answer": {
-      "jp": "はい、アーツは+20されたままになります。\nセンターホロメンはセンターポジションにいるホロメンであるため、能力を発揮したタイミングのホロメンから変わっても、効果は継続します。",
-      "en": "Yes, it will still have Arts+20. Since the center holomem is always the holomem in the center position, the effect will continue even if that holomem has changed since the ability was activated."
+      "jp": "はい、アーツは+20されます。\nBloom後も、そのホロメンにかかっている状態は引き継がれます。",
+      "en": "Yes, it will still have Arts+20. All effects such as this will carry through Bloom."
     },
     "referenced_cards": [ "hSD01-004" ]
   },
@@ -2944,14 +2944,14 @@
   },
   "Q249": {
     "qna_number": "Q249",
-    "date": "2024-12-12",
+    "date": "2026-04-16",
     "question": {
-      "jp": "hBP02-077〈レトロパソコン〉は、アーカイブにホロメンが1枚もいない状態で使用できますか？",
+      "jp": "hBP02-077〈レトロパソコン〉は、アーカイブにホロメンが1枚もいない時は使えますか？",
       "en": "Can I use hBP02-077 Retro PC if there are no holomem in my Archive?"
     },
     "answer": {
-      "jp": "いいえ、使用できません。\nそのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。",
-      "en": "No, you cannot. Support Cards cannot be used if you cannot select the specified target and using them does not change the game state other than putting the Support Card in the archive."
+      "jp": "いいえ、使えません。\nそのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードは使えません。",
+      "en": "No, you cannot. Support Cards cannot be used if using them does not change the game state other than putting the Support Card in the archive."
     },
     "referenced_cards": [ "hBP02-077" ]
   },
@@ -4407,9 +4407,9 @@
   },
   "Q372": {
     "qna_number": "Q372",
-    "date": "2025-06-11",
+    "date": "2026-04-16",
     "question": {
-      "jp": "自分の推しホロメンがhBP04-001〈博衣こより〉の時、hBP04-105〈こよりの助手くん〉が付いている〈博衣こより〉に、相手の3枚目に重なっているhBP01-081〈星街すいせい〉（Debut、1stホロメンホロメンの上にhBP01-081〈星街すいせい〉が重ねられている状態）がアーツ「輝く彗星」を使い、180ダメージを与えようとしました。\nこの場合、hBP04-001〈博衣こより〉のSP推しスキル「助手くん、んーまっ！」を使い、受けるダメージを「-100」できますか？",
+      "jp": "自分の推しホロメンがhBP04-001〈博衣こより〉の時、hBP04-105〈こよりの助手くん〉が付いている〈博衣こより〉に、相手の3枚目に重なっているhBP01-081〈星街すいせい〉（Debut、1stホロメンの上にhBP01-081〈星街すいせい〉が重ねられている状態）がアーツ「輝く彗星」を使い、180ダメージを与えようとしました。\nこの場合、hBP04-001〈博衣こより〉のSP推しスキル「助手くん、んーまっ！」を使い、受けるダメージを「-100」できますか？",
       "en": "My Oshi is hBP04-001 Hakui Koyori, and one of my Hakui Koyori holomem has a hBP04-105 Koyori's Assistants attached.\nMy opponent's hBP01-081 Hoshimachi Suisei is the third stacked card (Debut, 1st, 2nd), and is about to deal 180 damage to that Hakui Koyori with the Arts \"Shining Comet\".\nCan I use hBP04-001 Hakui Koyori's SP Oshi Skill \"Assisants, mmmwah!\" to reduce that damage by 100?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
@@ -5045,14 +5045,14 @@
   },
   "Q425": {
     "qna_number": "Q425",
-    "date": "2025-07-04",
+    "date": "2026-04-16",
     "question": {
       "jp": "hBP03-012〈姫森ルーナ〉のブルームエフェクト「一緒に最高のライブにしようね」の能力で、ファンが付いていないhBP01-096〈兎田ぺこら〉を選びました。\nその後、hBP01-123〈野うさぎ同盟〉をhBP01-096〈兎田ぺこら〉に付けてアーツを使った場合、アーツは+20されますか？",
       "en": "I used hBP03-012 Himemori Luna's Bloom Effect \"Let's Make this the Best Concert Ever!\" choosing a hBP01-096 Usada Pekora with no fans attached.\nIf I attach a hBP01-123 Wild Rabbit Alliance during the same turn, will the holomem gain Arts+20?"
     },
     "answer": {
-      "jp": "いいえ、ブルームエフェクトの能力によって選んだ時に、そのホロメンにファンが付いていなければ+20されません。",
-      "en": "No, it will not. The effect is added based on whether a fan is attached at the time the Bloom Effect is processed."
+      "jp": "いいえ、hBP03-012〈姫森ルーナ〉のブルームエフェクト「一緒に最高のライブにしようね」は、ファンが付いていないホロメンを選んだ場合、何も起こらなかったものとして解決します。また、解決後にそのホロメンにファンがついても、アーツ+20はされません。",
+      "en": "No, it will not. The Bloom Effect \"Let's Make this the Best Concert Ever!\" fails to resolve if you select a holomem with no fans attached. Even if that holomem has a fan attached after the effect has resolved, it will not gain Arts+20."
     },
     "referenced_cards": [ "hBP01-096", "hBP01-123", "hBP03-012" ]
   },
@@ -6986,7 +6986,7 @@
     },
     "answer": {
       "jp": "いいえ、できません。\n先にダウン処理によってアーカイブに置かれます。",
-      "en": "No, it cannot. It is archive first through the down process."
+      "en": "No, it cannot. It is archived first through the down process."
     },
     "referenced_cards": [ "hBP07-029" ]
   },
@@ -7304,5 +7304,252 @@
       "en": "This ability allows you to remove 2 cheers attached to hBP04-025 Juufuutei Raden, and move 1 each to 2 of your back holomem. If this is done, the Arts gets +30, then you deal Arts damage."
     },
     "referenced_cards": [ "hBP04-025" ]
+  },
+  "Q621": {
+    "qna_number": "Q621",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "マスコットが付いているhSD14-009〈白上フブキ〉が相手のターンでダウンした時、ギフト「私は倒れちゃいけないな」の能力でカードを引くのはいつになりますか？",
+      "en": "If my hSD14-009 Shirakami Fubuki with a mascot attached is downed during my opponent's turn, when will the gift \"I Mustn't Go Down\" trigger to draw a card?"
+    },
+    "answer": {
+      "jp": "hSD14-009〈白上フブキ〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、カード1枚を引いてから、hSD14-009〈白上フブキ〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
+      "en": "As part of the down process for hSD14-009 Shirakami Fubuki, process the \"when downed\" ability first.\nIn this case, draw one card, archive Shirakami Fubuki, and reduce your life by one. Then turn one life card face up and send that cheer to a holomem on your stage."
+    },
+    "referenced_cards": [ "hSD14-009" ]
+  },
+  "Q622": {
+    "qna_number": "Q622",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD15-005〈儒烏風亭らでん〉が相手のターンでダウンした時、ギフト「体力作り頑張るぞー！！！！！」の能力で他のホロメンにエールを付け替えるのはいつになりますか？",
+      "en": "If my hSD15-005 Juufuutei Raden is downed during my opponent's turn, when will the gift \"I'll Work Hard to Build Up My Stamina!!!!!\" trigger to reattach 1 cheer?"
+    },
+    "answer": {
+      "jp": "hSD15-005〈儒烏風亭らでん〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、エール1枚を他のホロメンに付け替えてから、hSD15-005〈儒烏風亭らでん〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
+      "en": "As part of the down process for hSD15-005 Juufuutei Raden, process the \"when downed\" ability first.\nIn this case, reattach 1 cheer from Juufuutei Raden, archive Juufuutei Raden, and reduce your life by one. Then turn one life card face up and send that cheer to a holomem on your stage."
+    },
+    "referenced_cards": [ "hSD15-005" ]
+  },
+  "Q623": {
+    "qna_number": "Q623",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD15-008〈儒烏風亭らでん〉が相手のホロメンをダウンさせた時、ギフト「薄明」の能力でHPを20回復するのはいつになりますか？",
+      "en": "If my hSD15-008 Juufuutei Raden downs my opponent's holomem, when will the gift \"Twilight\" trigger to restore HP?"
+    },
+    "answer": {
+      "jp": "相手のホロメンのダウン処理として、hSD15-008〈儒烏風亭らでん〉の「ダウンさせた時」の能力を先に処理します。\nこの場合、hSD15-008〈儒烏風亭らでん〉のHPを20回復してから、相手のホロメンをアーカイブし、相手のライフを1つ減らします。相手はライフを1枚を表向きにし、相手のステージのホロメンにそのエールを送ります。",
+      "en": "As part of the down process for your opponent's holomem, process the \"when this downs\" ability first.\nIn this case, restore 20 HP to Juufuutei Raden, your opponent's holomem is archived, and your opponent's life is reduced by one. Then your opponent turns one life card face up and sends that cheer to a holomem on their stage."
+    },
+    "referenced_cards": [ "hSD15-008" ]
+  },
+  "Q624": {
+    "qna_number": "Q624",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "自分のhSD15-008〈儒烏風亭らでん〉が相手のマスコットが付いているhSD14-009〈白上フブキ〉をダウンさせました。\nhSD15-008〈儒烏風亭らでん〉のギフト「薄明」の能力とhSD14-009〈白上フブキ〉のギフト「私は倒れちゃいけないな」の能力はどちらから処理されますか？",
+      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Shirakami Fubuki's gift \"I Mustn't Go Down\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD15-008〈儒烏風亭らでん〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Juufuutei Raden's gift \"Twilight\" will be processed first."
+    },
+    "referenced_cards": [ "hSD14-009", "hSD15-008" ]
+  },
+  "Q625": {
+    "qna_number": "Q625",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "自分のhSD15-008〈儒烏風亭らでん〉が相手のhSD16-007〈さくらみこ〉をダウンさせました。\nこの場合、hSD15-008〈儒烏風亭らでん〉のギフト「薄明」の能力とhSD16-007〈さくらみこ〉のギフト「みこの膝にごろーんってして」の能力はどちらから処理されますか？",
+      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Sakura Miko's gift \"Come Lay On Miko's Lap Pillow\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD15-008〈儒烏風亭らでん〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Juufuutei Raden's gift \"Twilight\" will be processed first."
+    },
+    "referenced_cards": [ "hSD15-008", "hSD16-007" ]
+  },
+  "Q626": {
+    "qna_number": "Q626",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "自分のhSD15-008〈儒烏風亭らでん〉が相手のhSD17-008〈星街すいせい〉をダウンさせました。\nこの場合、hSD15-008〈儒烏風亭らでん〉のギフト「薄明」の能力とhSD17-008〈星街すいせい〉のギフト「明日への歌」の能力はどちらから処理されますか？",
+      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD17-008 Hoshimachi Suisei.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Hoshimachi Suisei's gift \"A Song for Tomorrow\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD15-008〈儒烏風亭らでん〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Juufuutei Raden's gift \"Twilight\" will be processed first."
+    },
+    "referenced_cards": [ "hSD15-008", "hSD17-008" ]
+  },
+  "Q627": {
+    "qna_number": "Q627",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "自分のhSD15-008〈儒烏風亭らでん〉が相手のhSD18-007〈森カリオペ〉をダウンさせました。\nこの場合、hSD15-008〈儒烏風亭らでん〉のギフト「薄明」の能力とhSD18-007〈森カリオペ〉のギフト「ちょっとした特別なプレゼント」の能力はどちらから処理されますか？",
+      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Mori Calliope's gift \"A Special Little Present\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD15-008〈儒烏風亭らでん〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Juufuutei Raden's gift \"Twilight\" will be processed first."
+    },
+    "referenced_cards": [ "hSD15-008", "hSD18-007" ]
+  },
+  "Q628": {
+    "qna_number": "Q628",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD16-007〈さくらみこ〉が相手のターンでダウンした時、ギフト「みこの膝にごろーんってして」の能力でカードを引くのはいつになりますか？",
+      "en": "If my hSD16-007 Sakura Miko is downed during my opponent's turn, when will the gift \"Come Lay On Miko's Lap Pillow\" trigger to draw a card?"
+    },
+    "answer": {
+      "jp": "hSD16-007〈さくらみこ〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、カード1枚を引いてから、hSD16-007〈さくらみこ〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
+      "en": "As part of the down process for hSD16-007 Sakura Miko, process the \"when downed\" ability first.\nIn this case, draw one card, archive Sakura Miko, and reduce your life by one. Then turn one life card face up and send that cheer to a holomem on your stage."
+    },
+    "referenced_cards": [ "hSD16-007" ]
+  },
+  "Q629": {
+    "qna_number": "Q629",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD17-008〈星街すいせい〉が相手のターンでダウンした時、ギフト「明日への歌」の能力でカードを引くのはいつになりますか？",
+      "en": "If my hSD17-008 Hoshimachi Suisei is downed during my opponent's turn, when will the gift \"A Song for Tomorrow\" trigger to draw a card?"
+    },
+    "answer": {
+      "jp": "hSD17-008〈星街すいせい〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、カード1枚を引いてから、hSD17-008〈星街すいせい〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
+      "en": "As part of the down process for hSD17-008 Hoshimachi Suisei, process the \"when downed\" ability first.\nIn this case, draw one card, archive Hoshimachi Suisei, and reduce your life by one. Then turn one life card face up and send that cheer to a holomem on your stage."
+    },
+    "referenced_cards": [ "hSD17-008" ]
+  },
+  "Q630": {
+    "qna_number": "Q630",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD18-007〈森カリオペ〉が相手のターンでダウンした時、ギフト「ちょっとした特別なプレゼント」の能力で自分のデッキの上から1枚をアーカイブするのはいつになりますか？",
+      "en": "If my hSD18-007 Mori Calliope is downed during my opponent's turn, when will the gift \"A Special Little Present\" trigger to archive a card from my deck?"
+    },
+    "answer": {
+      "jp": "hSD18-007〈森カリオペ〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、自分のデッキの上から1枚をアーカイブしてから、hSD18-007〈森カリオペ〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
+      "en": "As part of the down process for hSD18-007 Mori Calliope, process the \"when downed\" ability first.\nIn this case, archive the top card of your deck, archive Mori Calliope, and reduce your life by one. Then turn one life card face up and send that cheer to a holomem on your stage."
+    },
+    "referenced_cards": [ "hSD18-007" ]
+  },
+  "Q631": {
+    "qna_number": "Q631",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のホロメンをダウンさせた時、自分のエールデッキの上から1枚を自分のホロメンに送るのはいつになりますか？",
+      "en": "If my Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downs my opponent's holomem, when will the ability of Ari Yori no Alligator trigger to send a card from my cheer deck?"
+    },
+    "answer": {
+      "jp": "相手のホロメンのダウン処理として、hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉の「ダウンさせた時」の能力を先に処理します。\nこの場合、自分のエールデッキの上から1枚を自分のホロメンに送ってから、相手のホロメンをアーカイブし、相手のライフを1つ減らします。相手はライフを1枚を表向きにし、相手のステージのホロメンにそのエールを送ります。",
+      "en": "As part of the down process for your opponent's holomem, process the \"when this downs\" ability first.\nIn this case, send the top card of your cheer deck to your holomem, your opponent's holomem is archived, and your opponent's life is reduced by one. Then your opponent turns one life card face up and sends that cheer to a holomem on their stage."
+    },
+    "referenced_cards": [ "hSD14-011" ]
+  },
+  "Q632": {
+    "qna_number": "Q632",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のマスコットが付いているhSD14-009〈白上フブキ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD14-009〈白上フブキ〉のギフト「私は倒れちゃいけないな」の能力はどちらから処理されますか？",
+      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Ari Yori no Alligator's ability or Shirakami Fubuki's gift \"I Mustn't Go Down\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+    },
+    "referenced_cards": [ "hSD14-009", "hSD14-011" ]
+  },
+  "Q633": {
+    "qna_number": "Q633",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD16-007〈さくらみこ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD16-007〈さくらみこ〉のギフト「みこの膝にごろーんってして」の能力はどちらから処理されますか？",
+      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Ari Yori no Alligator's ability or Sakura Miko's gift \"Come Lay On Miko's Lap Pillow\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+    },
+    "referenced_cards": [ "hSD14-011", "hSD16-007" ]
+  },
+  "Q634": {
+    "qna_number": "Q634",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD17-008〈星街すいせい〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD17-008〈星街すいせい〉のギフト「明日への歌」の能力はどちらから処理されますか？",
+      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD17-008 Hoshimachi Suisei.\nWhich ability is processed first: Ari Yori no Alligator's ability or Hoshimachi Suisei's gift \"A Song for Tomorrow\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+    },
+    "referenced_cards": [ "hSD14-011", "hSD17-008" ]
+  },
+  "Q635": {
+    "qna_number": "Q635",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD18-007〈森カリオペ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD18-007〈森カリオペ〉のギフト「ちょっとした特別なプレゼント」の能力はどちらから処理されますか？",
+      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Ari Yori no Alligator's ability or Mori Calliope's gift \"A Special Little Present\"?"
+    },
+    "answer": {
+      "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
+      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+    },
+    "referenced_cards": [ "hSD14-011", "hSD18-007" ]
+  },
+  "Q636": {
+    "qna_number": "Q636",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "自分のステージに〈儒烏風亭らでん〉がいない時に、hSD15-010〈まつたけダンス〉は使えますか？",
+      "en": "Can I use hSD15-010 Matsutake Dance when there are no Juufuutei Raden on my stage?"
+    },
+    "answer": {
+      "jp": "いいえ、選べるホロメンがいないため使えません。",
+      "en": "No, it cannot be used as there are no available targets to choose."
+    },
+    "referenced_cards": [ "hSD15-010" ]
+  },
+  "Q637": {
+    "qna_number": "Q637",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "相手のステージにDebut以外のホロメンがいない時に、hSD17-010〈ステラ〉を使うことはできますか？",
+      "en": "Can I use hSD17-010 Stellar when there are no holomem other than Debut on my opponent's stage?"
+    },
+    "answer": {
+      "jp": "いいえ、選べるホロメンがいないため使えません。",
+      "en": "No, it cannot be used as there are no available targets to choose."
+    },
+    "referenced_cards": [ "hSD17-010" ]
+  },
+  "Q638": {
+    "qna_number": "Q638",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "HPが減っているホロメンがいない時に、hSD19-010〈ごきげんカレー〉を使うことはできますか？",
+      "en": "Can I use hSD19-010 Good Mood Curry when there are no holomem with reduced HP on my stage?"
+    },
+    "answer": {
+      "jp": "いいえ、選べるホロメンがいないため使えません。",
+      "en": "No, it cannot be used as there are no available targets to choose.\n(it's unclear if this card heals all of your holomem or just one, but the answer is the same either way)"
+    },
+    "referenced_cards": [ "hSD19-010" ]
+  },
+  "Q639": {
+    "qna_number": "Q639",
+    "date": "2026-04-16",
+    "question": {
+      "jp": "hSD01-019〈スゴイパソコン〉を使い、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？",
+      "en": "If I use hSD01-019 Amazing PC and the card I want isn't in the deck, can I choose not to reveal any card even if there are other 1st or 2nd holomem in the deck?"
+    },
+    "answer": {
+      "jp": "はい、公開しなくてもよいです。\nその場合は、デッキをシャッフルして能力が終了します。",
+      "en": "Yes, you can. In that case, shuffle the deck and the ability ends."
+    },
+    "referenced_cards": [ "hSD01-019" ]
   }
 }
