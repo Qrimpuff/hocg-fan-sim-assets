@@ -48051,6 +48051,45 @@
       }
     ]
   },
+  "hBP08-007": {
+    "card_number": "hBP08-007",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "oshi_holomem",
+    "colors": [ "yellow" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Kanade Melody" },
+        "text": {
+          "en": "[1/Turn]Usable at the end of your turn if your center holomem <Otonose Kanade> used Arts during this turn: Swap your center holomem with 1 of your back holomem with #ReGLOSS."
+        }
+      },
+      {
+        "kind": "special",
+        "holo_power": 1,
+        "name": { "jp": null, "en": "Thank You for the Applause!" },
+        "text": {
+          "en": "[1/Game]Send the top 3 cards of your cheer deck to your center holomem <Otonose Kanade>. At the end of this turn, archive 3 cheers on your stage."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-007",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-007_OSR.webp", "en": null },
+        "img_hash": "v2|H32=wFRSmfNWqNozJ75SKKXXYszlS+mUUiuVnGphta5qSaXWq7SqqlIoVVmytCRpawulalVaa6pVVqmqVCpdSlVqVVoltFQ|CYM=012F47",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C9" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-008": {
     "card_number": "hBP08-008",
     "name": { "jp": "IRyS", "en": "IRyS" },
