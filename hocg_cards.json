@@ -47977,6 +47977,45 @@
       }
     ]
   },
+  "hBP08-001": {
+    "card_number": "hBP08-001",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Nephilim's Blessing" },
+        "text": {
+          "en": "[1/Turn]Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20. If the chosen holomem has purple cheer attached, it gets Arts+50 instead."
+        }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "HOPE and DESPAIR" },
+        "text": {
+          "en": "[1/Game]Draw 1 card for each cheer attached to all of your <IRyS>. Put 1 card from the top of your deck to holo power for each purple cheer attached to all of your <IRyS>."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=eOsbaZi5ba2Jlay07awmc41qVGpZVZRK05KceZOo77JUrULVootJKl+pvWrJttEotOmrJkm6US1JaqW0SyqVKuFTFus|CYM=1A4116",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C3" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-002": {
     "card_number": "hBP08-002",
     "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
@@ -48157,6 +48196,48 @@
         "img_path": { "jp": "unreleased/hBP08-011_C.webp", "en": null },
         "img_hash": "v2|H32=kqNaU5PKlKW8XISsJK1tSmznZWps08etWlKjlFsOWdqvNqRKallKNVaVVpGFrm27+SpO25TW8GuWmiolaV021WlpqFI|CYM=1C3E19",
         "ogbajoj_sheet_cells": [ [ 419256011, "C13" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-013": {
+    "card_number": "hBP08-013",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Victory Tea Time" },
+        "text": {
+          "en": "When this holomem downs your opponent's holomem, put the top card of your deck as holo power."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "Did it Make Your Heart Flutter?" },
+        "power": "70+",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "If this holomem has purple cheer attached, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-013",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-013_U.webp", "en": null },
+        "img_hash": "v2|H32=aK0rZWylbFKMcsySzZKJtKuUmTmz0zbLVtt22saL9C1jLpZuqmDpsp9WablL4cnVJtUt0GlrL4+tqqC0tLZp6QXPUgo|CYM=141925",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C15" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -48715,6 +48796,29 @@
         "img_path": { "jp": "unreleased/hBP08-102_C.webp", "en": null },
         "img_hash": "v2|H32=RourqkaHQmWrZVJ14nzxuPGa1JrpmllWOFo8Zj3mPM44rhbdTKItqhP4ravCf6k6+D7p6g7g6aoCPuE64AHpCg4O4Dg|CYM=0C2D1F",
         "ogbajoj_sheet_cells": [ [ 419256011, "C104" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-106": {
+    "card_number": "hBP08-106",
+    "name": { "jp": "GuyRyS", "en": "GuyRyS" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem.\n\nYou may only attach this fan to your <IRyS>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-106",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-106_C.webp", "en": null },
+        "img_hash": "v2|H32=TLqtqky6QlcrVxJVsoezh62uNKUrrXv1OmhWWdt61FjUWBJdI8ENpmTZqaouH62qpp/pql3zqap94OmqDfqpqo1/6Qo|CYM=102824",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C108" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
