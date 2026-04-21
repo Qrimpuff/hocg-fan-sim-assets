@@ -804,11 +804,11 @@ impl CardOrderingOptions {
             .unwrap_or(usize::MAX)
     }
 
-    fn card_type_key(&self, card: &Card) -> (bool, CardType) {
+    fn card_type_key(&self, card: &Card) -> (CardType, bool) {
         // put colorless cards at the end, including spots
         (
-            card.colors.first().unwrap_or(&Color::Colorless) == &Color::Colorless,
             card.card_type,
+            card.colors.first().unwrap_or(&Color::Colorless) == &Color::Colorless,
         )
     }
 
