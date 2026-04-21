@@ -48640,6 +48640,44 @@
       }
     ]
   },
+  "hBP08-069": {
+    "card_number": "hBP08-069",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 100,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Arrival of Summer" },
+        "text": { "en": "If there are 3 or more holomem with #Painting on your stage, draw 1 card." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "That Went Well, But We Can Do Better" },
+        "power": "30"
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-069",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-069_U.webp", "en": null },
+        "img_hash": "v2|H32=rKvbkvOKpCoHarQ2JWtU6rLUJGmS1CxVak9KlctSW6Xa2FZVnHSpak9DLYtpqrbFSz3SopKUIq20tiaplra2Rbat2tI|CYM=11231E",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C71" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-071": {
     "card_number": "hBP08-071",
     "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
