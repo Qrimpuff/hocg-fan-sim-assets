@@ -48244,6 +48244,47 @@
       }
     ]
   },
+  "hBP08-024": {
+    "card_number": "hBP08-024",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Gute Reise -Have a Nice Trip-" },
+        "text": {
+          "en": "[Center Position・Collab Position Only]During your opponent's main phase, the HP of all of your resting <Cecilia Immergreen> cannot be reduced or changed by your opponent's abilities."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green" ],
+        "name": { "jp": null, "en": "Wherever the Wind Takes You" },
+        "power": "60",
+        "text": { "en": "Rest this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-024",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-024_C.webp", "en": null },
+        "img_hash": "v2|H32=3LI2Wo2qNHqtSimm5kwpjUoWad1KNUkmIil6LbNJtimySLREUrWVqq0qKurQKk29pdKq1Cprqjq2Ei1d5anS2q2tUrU|CYM=130D25",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C26" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-025": {
     "card_number": "hBP08-025",
     "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
@@ -48317,7 +48358,7 @@
         "rarity": "R",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP08-031_R.webp", "en": null },
-        "img_hash": "v2|H32=tKqtuqWqLauLUonqQ+mbVCWv0lRiVVIlUlFyRZyrdKWtKNRPlXYrVapUDbZOpWmbKstKqSqbpKpqVbSUacvwoGqL8Cg|CYM=0F1518",
+        "img_hash": "v2|H32=tKytuqW6LauLMkmrE6mb1CSv0lRiV1JVUlF6RdyrdDWtKtRv1VYrVKpCDbIqpSjbLstqqS6JpKpqGfC0aUvqpGqb8Kg|CYM=0F1518",
         "ogbajoj_sheet_cells": [ [ 419256011, "C33" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
