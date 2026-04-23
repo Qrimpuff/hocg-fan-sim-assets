@@ -3880,7 +3880,7 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-065〈戌神ころね〉のギフト「ボクシングスタイル」は、hBP01-001〈天音かなた〉の推しスキル「ぎゅっぎゅっ」によって残りHPを「50」にすることはできますか？",
-      "en": "While hBP03-065 Inugami Korone's Gift \"Boxing Style\" is active, can my center holomem's HP be reduced to 50 by my opponent's hBP01-001 Amane's Kanata's Oshi skill \"Squish Squish\"?"
+      "en": "While hBP03-065 Inugami Korone's Gift \"Boxing Style\" is active, can my center holomem's HP be changed to 50 by my opponent's hBP01-001 Amane's Kanata's Oshi skill \"Squish Squish\"?"
     },
     "answer": {
       "jp": "いいえ、HPの変動はしないため「50」にはできません。",
@@ -4525,11 +4525,11 @@
     "date": "2025-06-11",
     "question": {
       "jp": "hBP04-024〈儒烏風亭らでん〉のギフト「冷静沈着」は、hBP01-001〈天音かなた〉の推しスキル「ぎゅっぎゅっ」によって残りHPを「50」させることはできますか？",
-      "en": "My hBP04-024 Juufuutei Raden with the Gift \"Calm and Collected\" and less than 50 HP has been targeted by my opponent's hBP01-001 Amane Kanata's Oshi Skill \"Squish Squish\". Will this increase their HP to 50?"
+      "en": "Can the HP of my hBP04-024 Juufuutei Raden with the Gift \"Calm and Collected\" be changed to 50 by my opponent's hBP01-001 Amane's Kanata's Oshi skill \"Squish Squish\"?"
     },
     "answer": {
       "jp": "いいえ、HPの変動はしないため「50」にはできません。",
-      "en": "No, their HP cannot be changed, so it cannot be set to 50 even as an increase."
+      "en": "No, their HP cannot be changed, so it cannot be set to 50."
     },
     "referenced_cards": [ "hBP01-001", "hBP04-024" ]
   },
@@ -5104,7 +5104,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "自分のhBP02-033〈宝鐘マリン〉のブルームエフェクト「ゴシッククィーン」の能力で相手のホロメンをダウンさせた場合、hBP05-001〈白銀ノエル〉の推しスキル「白銀の騎士達」の能力で#3期生を持つホロメンを手札に加えることはできますか？",
-      "en": "If I use hBP02-033 Houshou Marine's Bloom Effect \"Gothic Queen\" to down 1 of my opponent's holomem, can I use hBP05-001 Shirogane Noel's Oshi Skill \"Shirogane Knights\" to add a holomem with #Gen 3 to my hand?"
+      "en": "If I use hBP02-033 Houshou Marine's Bloom Effect \"Gothic Queen\" to down 1 of my opponent's holomem, can I use hBP05-001 Shirogane Noel's Oshi Skill \"Knights of Shirogane\" to add a holomem with #Gen 3 to my hand?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP02-033", "hBP05-001" ]
@@ -5183,7 +5183,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-003〈尾丸ポルカ〉のSP推しスキル「成功体験－！！！」の能力で、デッキの上から見た7枚の中に〈尾丸ポルカ〉やスタッフがあった場合でも、それらを手札に加えずに、7枚すべてをアーカイブできますか？",
-      "en": "When using hBP05-003 Omaru Polka's SP Oshi Skill \"Successful Experience~!!!\", can I archive all 7 cards even if there is an Omaru Polka and a Staff card among them?"
+      "en": "When using hBP05-003 Omaru Polka's SP Oshi Skill \"Successful Experience!!!\", can I archive all 7 cards even if there is an Omaru Polka and a Staff card among them?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP05-003" ]
@@ -5193,7 +5193,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-003〈尾丸ポルカ〉のSP推しスキル「成功体験－！！！」の能力で、デッキの上から見た7枚の中に〈尾丸ポルカ〉やスタッフがあった場合でも、どちらかのみを手札に加えて残りすべてをアーカイブすることはできますか？",
-      "en": "When using hBP05-003 Omaru Polka's SP Oshi Skill \"Successful Experience~!!!\", can I add only 1 card to my hand even if there is both an Omaru Polka and a Staff card among the cards that I look at?"
+      "en": "When using hBP05-003 Omaru Polka's SP Oshi Skill \"Successful Experience!!!\", can I add only 1 card to my hand even if there is both an Omaru Polka and a Staff card among the cards that I look at?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP05-003" ]
@@ -5203,7 +5203,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "相手のセンターホロメンが不在の時、hBP05-004〈猫又おかゆ〉のSP推しスキル「ウマウマ！」の能力で、相手のHPが減っているバックホロメンをセンターポジションに移動させることはできますか？",
-      "en": "If my opponent has no center holomem, can I use hBP05-004 Nekomata Okayu's SP Oshi Skill \"Yum yum!\" to move 1 of my opponent's damaged back holomem to the center position?"
+      "en": "If my opponent has no center holomem, can I use hBP05-004 Nekomata Okayu's SP Oshi Skill \"Yum, Yum!\" to move 1 of my opponent's damaged back holomem to the center position?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP05-004" ]
@@ -5213,7 +5213,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "相手のセンターホロメンが不在の時、hBP05-004〈猫又おかゆ〉のSP推しスキル「ウマウマ！」の能力は、相手のHPが減っているバックホロメンをセンターポジションに移動させなくてもセンターホロメンが〈猫又おかゆ〉であれば3枚引けますか？",
-      "en": "If my opponent has no center holomem, can I use hBP05-004 Nekomata Okayu's SP Oshi Skill \"Yum yum!\" to draw 3 cards without moving a holomem to the center position, as long as my center holomem is Nekomata Okayu?"
+      "en": "If my opponent has no center holomem, can I use hBP05-004 Nekomata Okayu's SP Oshi Skill \"Yum, Yum!\" to draw 3 cards without moving a holomem to the center position, as long as my center holomem is Nekomata Okayu?"
     },
     "answer": { "jp": "はい、引けます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP05-004" ]
@@ -5223,7 +5223,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-005〈癒月ちょこ〉の推しスキル「ちょこまみれになっちゃえっ！」は、デッキに#食べ物を持つカードが無くても使うことはできますか？",
-      "en": "Can I use hBP05-005 Yuzuki Choco's Oshi Skill \"Smothered in Choco!\" even if there are no cards with #Food in my deck?"
+      "en": "Can I use hBP05-005 Yuzuki Choco's Oshi Skill \"Be Smitten by Choco!\" even if there are no cards with #Food in my deck?"
     },
     "answer": {
       "jp": "はい、その場合、ホロパワーを支払い、デッキの中を見て、手札に加えられる#食べ物を持つカードが無いのでデッキをシャッフルし、効果の解決を終えます。",
@@ -5272,7 +5272,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-007〈不知火フレア〉の推しスキル「キミの力になりたいから」の能力で、コラボホロメンとバックポジションのhSD07-003〈不知火フレア〉を交代させました。\nこの場合、hSD07-003〈不知火フレア〉のコラボエフェクト「大切な仲間たちと」は使えますか？",
-      "en": "I used hBP05-007 Shiranui Flare's Oshi skill \"I want to be your strength\" to switch my collab holomem with my hSD07-003 Shiranui Flare from the back position.\nIn this case, can I use Shiranui Flare's collab effect \"With Cherished Companions\"?"
+      "en": "I used hBP05-007 Shiranui Flare's Oshi skill \"I Want to Be Your Source of Comfort\" to switch my collab holomem with my hSD07-003 Shiranui Flare from the back position.\nIn this case, can I use Shiranui Flare's collab effect \"With Cherished Companions\"?"
     },
     "answer": { "jp": "いいえ、使えません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP05-007", "hSD07-003" ]
@@ -5282,7 +5282,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-007〈不知火フレア〉のSP推しスキル「みんなで盛り上がろう！」は、自分の〈不知火フレア〉に付け替えられるエールが無くても使えますか？",
-      "en": "Can I use hBP05-007 Shiranui Flare's SP Oshi Skill \"Let's all have fun!\" even if I have no cheers that can be reattached to my Shiranui Flare?"
+      "en": "Can I use hBP05-007 Shiranui Flare's SP Oshi Skill \"Let's Get This Party Started!\" even if I have no cheers that can be reattached to my Shiranui Flare?"
     },
     "answer": { "jp": "はい、使えます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP05-002" ]
@@ -5305,7 +5305,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-033〈尾丸ポルカ〉のアーツ「すごいね、桜！」の能力は、デッキに1枚でもカードが無ければ使えませんか？",
-      "en": "Is it impossible for me to use the effect of hBP05-033 Omaru Polka's Arts \"Wow, cherry blossoms!\" if I have 0 cards in my deck?"
+      "en": "Is it impossible for me to use the effect of hBP05-033 Omaru Polka's Arts \"Such Wonderful Cherry Blossoms!\" if I have 0 cards in my deck?"
     },
     "answer": {
       "jp": "いいえ、使えます。\nこの場合、サイコロを振り、1枚もアーカイブせずに、その後10枚以上あれば+10します。",
@@ -5318,7 +5318,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-034〈尾丸ポルカ〉のブルームエフェクト「おまたせ～！」の能力で、自分のアーカイブにあるhBP01-126〈座員〉の枚数以上のカードを捨てることはできますか？",
-      "en": "When using hBP05-034 Omaru Polka's bloom effect \"Here's your order!\", can I archive more cards from my hand than the number of hBP01-126 Troupe Member in my archive?"
+      "en": "When using hBP05-034 Omaru Polka's bloom effect \"Sorry for the Wait!\", can I archive more cards from my hand than the number of hBP01-126 Troupe Member in my archive?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-126", "hBP05-034" ]
@@ -5328,7 +5328,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "自分のアーカイブにhBP01-126〈座員〉が4枚ある時、hBP05-034〈尾丸ポルカ〉のブルームエフェクト「おまたせ～！」の能力で手札を4枚捨てました。\nこの場合、必ずhBP01-126〈座員〉を4枚手札に戻さなければなりませんか？",
-      "en": "I have 4 copies of hBP01-126 Troupe Member in my archive, and I archive 4 cards as part of hBP05-034 Omaru Polka's bloom effect \"Here's your order!\".\nDo I have to return all 4 copies of Troupe Member to my hand?"
+      "en": "I have 4 copies of hBP01-126 Troupe Member in my archive, and I archive 4 cards as part of hBP05-034 Omaru Polka's bloom effect \"Sorry for the Wait!\".\nDo I have to return all 4 copies of Troupe Member to my hand?"
     },
     "answer": { "jp": "はい、必ず戻します。", "en": "Yes, you must return them." },
     "referenced_cards": [ "hBP01-126", "hBP05-034" ]
@@ -5351,7 +5351,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "相手のhBP04-037〈一条莉々華〉がアーツ「お？　喧嘩する？」を使い、自分のセンターホロメンとコラボホロメンのhBP05-035〈さくらみこ〉がダウンしました。\nこの場合、ギフト「今のはちょっとね、練習で…」の能力で、hBP05-079〈み俺恥〉は何枚手札に加えられますか？",
-      "en": "My opponent uses hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" to down both my center and collab hBP05-035 Sakura Miko.\nHow many hBP05-079 DIYMiko can I add to my hand using the Gift \"That was just a practice...\"?"
+      "en": "My opponent uses hBP04-037 Ichijou Ririka's Arts \"Oh? Wanna Fight?\" to down both my center and collab hBP05-035 Sakura Miko.\nHow many hBP05-079 DIYMiko can I add to my hand using the Gift \"That Was Just Practice...\"?"
     },
     "answer": {
       "jp": "センターポジション、コラボポジションでそれぞれ発揮されるため、合計3枚まで加えられます。",
@@ -5364,7 +5364,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-039〈一条莉々華〉のアーツ「いつでも軌道修正できる」は、対象が相手の1st Buzzのコラボホロメンでも+70されますか？",
-      "en": "Does hBP05-039 Ichijou Ririka's Arts \"You can change course at any time\" still get +70 if the targeted holomem is a 1st Buzz collab holomem?"
+      "en": "Does hBP05-039 Ichijou Ririka's Arts \"Changing Course Is Always an Option\" still get +70 if the targeted holomem is a 1st Buzz collab holomem?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP05-039" ]
@@ -5384,7 +5384,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "自分のアーカイブとステージに合わせてhBP04-106〈雪民〉が4枚ある場合、hBP05-046〈雪花ラミィ〉のブルームエフェクト「ラミィちゃんしか～？」を使うことはできますか？",
-      "en": "If I have 4 copies of hBP04-106 Yukimin between my archive and stage, can I use hBP05-046 Yukihana Lamy's bloom effect \"Just Lamy-chan~?\"?"
+      "en": "If I have 4 copies of hBP04-106 Yukimin between my archive and stage, can I use hBP05-046 Yukihana Lamy's bloom effect \"Only Lamy-chan?\"?"
     },
     "answer": { "jp": "はい、使えます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP04-106", "hBP05-046" ]
@@ -5394,7 +5394,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hSD04-014〈しょこら〉が付いているhBP05-055〈癒月ちょこ〉のHPが10減っている場合、ギフト「寝坊助悪魔」の能力でエールデッキから1枚を送ることはできますか？",
-      "en": "If my hBP05-055 Yuzuki Choco with a hSD04-014 Chocolat attached has only taken 10 damage, can I use the Gift \"Sleep aid demon\" to send a card from my cheer deck?"
+      "en": "If my hBP05-055 Yuzuki Choco with a hSD04-014 Chocolat attached has only taken 10 damage, can I use the Gift \"Sleepyhead Demon\" to send a card from my cheer deck?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP05-055", "hSD04-014" ]
@@ -5417,7 +5417,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-055〈常闇トワ〉のブルームエフェクト「友達がいっぱい増えたよ」の能力で、#歌を持つBuzz以外の1stホロメン１枚、もしくは０枚を選ぶことはできますか？",
-      "en": "When using hBP05-062 Tokoyami Towa's bloom effect \"I've made a lot of new friends\", can I choose to add 1 or 0 cards to hand?"
+      "en": "When using hBP05-062 Tokoyami Towa's bloom effect \"So Many Friends Made\", can I choose to add 1 or 0 cards to hand?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP05-055" ]
@@ -5437,7 +5437,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-066〈不知火フレア〉のアーツ「氷姿雪魄」の能力で、このカードも数に含めることはできますか？",
-      "en": "Does hBP05-066 Shiranui Flare's Arts \"Pure like the snow\" count itself for its effect?"
+      "en": "Does hBP05-066 Shiranui Flare's Arts \"Pure as Snow and Ice\" count itself for its effect?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP05-066" ]
@@ -5470,7 +5470,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-067〈不知火フレア〉のアーツ「みんなに笑っててほしいから」の能力でサイコロを振り、出た目がライフの数と同じ場合、+60され、デッキを１枚引けますか？",
-      "en": "When using hBP05-067 Shiranui Flare's Arts \"Because I want everyone to laugh\", if I roll a dice and the result is the same as my current Life amount, do I get +60 to Arts and also draw 1 card?"
+      "en": "When using hBP05-067 Shiranui Flare's Arts \"Putting Smiles on Every Face\", if I roll a dice and the result is the same as my current Life amount, do I get +60 to Arts and also draw 1 card?"
     },
     "answer": {
       "jp": "はい、どちらも条件を満たします。",
@@ -5506,7 +5506,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "マスコットが付いているhBP05-070〈白上フブキ〉がアーツ「フブキカフェにようこそ」を使いました。\nこの場合、すでにマスコットが付いているhBP05-070〈白上フブキ〉にマスコットを付けようとすることはできますか？",
-      "en": "When using hBP05-070 Shirakami Fubuki's Arts \"Welcome to Fubuki Cafe\" while it has a mascot attached, can I try to attach a mascot to it?"
+      "en": "When using hBP05-070 Shirakami Fubuki's Arts \"Welcome to Fubuki's Café\" while it has a mascot attached, can I try to attach a mascot to it?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP05-070" ]
@@ -5516,7 +5516,7 @@
     "date": "2025-09-12",
     "question": {
       "jp": "hBP05-070〈白上フブキ〉のアーツ「国王兼喫茶経営者」は、自分のステージにツール、マスコット、ファンの3種類が揃っている必要はありますか？",
-      "en": "When using hBP05-070 Shirakami Fubuki's Arts \"King and cafe owner\", do I need all three card types (tool, mascot,and fan) on my stage for the Arts to get +100?"
+      "en": "When using hBP05-070 Shirakami Fubuki's Arts \"King and Café Manager\", do I need all three card types (tool, mascot,and fan) on my stage for the Arts to get +100?"
     },
     "answer": { "jp": "いいえ、必要ありません。", "en": "No, you do not." },
     "referenced_cards": [ "hBP05-070" ]
@@ -5628,7 +5628,7 @@
     "date": "2025-09-18",
     "question": {
       "jp": "自分のコラボポジションにhBP05-066〈不知火フレア〉がいる時に、hBP05-016〈兎田ぺこら〉がアーツを使い、hBP03-107〈35P〉が付いている〈さくらみこ〉をダウンさせました。\nこの場合、hBP05-016〈兎田ぺこら〉のギフト「最強女神」の能力とhBP05-066〈不知火フレア〉のギフト「冬の旅」の能力、hBP03-107〈35P〉の能力はどの順で処理されますか？",
-      "en": "While I have hBP05-066 Shiranui Flare in my collab position, I used my center hBP05-016 Usada Pekora to down my opponent's Sakura Miko with hBP03-107 35P attached.\nIn what order are the effects of Usada Pekora's Gift \"The strongest goddess\", Shiranui Flare's Gift \"Winter journey\", and 35P processed?"
+      "en": "While I have hBP05-066 Shiranui Flare in my collab position, I used my center hBP05-016 Usada Pekora to down my opponent's Sakura Miko with hBP03-107 35P attached.\nIn what order are the effects of Usada Pekora's Gift \"The Strongest Goddess\", Shiranui Flare's Gift \"Winter Trip\", and 35P processed?"
     },
     "answer": {
       "jp": "処理の優先順位として、ルールとして処理されるもの（ダウン処理など）が優先的にすべて処理されるため、hBP03-107〈35P〉の能力を先に処理します。\n次にターンプレイヤー側で処理すべき能力（使った時に発揮される能力など）を処理するので、hBP05-016〈兎田ぺこら〉のギフト「最強女神」の能力とhBP05-066〈不知火フレア〉のギフト「冬の旅」の能力を好きな順で処理します。",
@@ -5641,7 +5641,7 @@
     "date": "2025-09-18",
     "question": {
       "jp": "自分のコラボポジションにhBP05-066〈不知火フレア〉がいる時に、hBP02-033〈宝鐘マリン〉がアーツを使い、hBP05-085〈みこだにぇー〉が付いている〈さくらみこ〉をダウンさせました。\nこの場合、hBP05-066〈不知火フレア〉のギフト「冬の旅」の能力とhBP05-085〈みこだにぇー〉はどの順で処理されますか？",
-      "en": "While I have hBP05-066 Shiranui Flare in my collab position, I used my center hBP02-033 Houshou Marine to down my opponent's Sakura Miko with hBP05-085 Mikodanye attached.\nIn what order are the effects of Shiranui Flare's Gift \"Winter journey\" and Mikodanye processed?"
+      "en": "While I have hBP05-066 Shiranui Flare in my collab position, I used my center hBP02-033 Houshou Marine to down my opponent's Sakura Miko with hBP05-085 Mikodanye attached.\nIn what order are the effects of Shiranui Flare's Gift \"Winter Trip\" and Mikodanye processed?"
     },
     "answer": {
       "jp": "処理の優先順位として、ルールとして処理されるもの（ダウン処理など）が優先的にすべて処理されるため、hBP05-085〈みこだにぇー〉の能力を先に処理します。\n次にターンプレイヤー側で処理すべき能力（使った時に発揮される能力など）を処理するので、hBP05-066〈不知火フレア〉のギフト「冬の旅」の能力を好きな順で処理します。",
@@ -5677,7 +5677,7 @@
     "date": "2025-09-18",
     "question": {
       "jp": "hBP05-055〈癒月ちょこ〉のギフト「寝坊助悪魔」の「相手のパフォーマンスステップが終了する時、このホロメンのHPが減っていないなら」とは、どういう意味ですか？",
-      "en": "What does \"if this holomem is undamaged\" mean in hBP05-055 Yuzuki Choco's Gift \"Sleep aid demon\"?"
+      "en": "What does \"if this holomem's HP is not reduced\" mean in hBP05-055 Yuzuki Choco's Gift \"Sleepyhead Demon\"?"
     },
     "answer": {
       "jp": "相手のパフォーマンスステップの終了時に、このホロメンにダメージマーカーが載っていないことを指します。",
@@ -6305,7 +6305,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-097〈カワイイスタジャン〉が付いているBuzzホロメンを、hBP01-001〈天音かなた〉の推しスキル「ぎゅっぎゅっ」によって残りHPを「50」させることはできますか？",
-      "en": "Can I use hBP01-001 Amane Kanata's Oshi skill \"Squish Squish\" to reduce the HP of a Buzz holomem with hBP06-097 Cute Varsity Jacket attached to 50?"
+      "en": "Can the HP of my Buzz holomem with hBP06-097 Cute Varsity Jacket attached be changed to 50 by my opponent's hBP01-001 Amane's Kanata's Oshi skill \"Squish Squish\"?"
     },
     "answer": {
       "jp": "いいえ、できません。",
