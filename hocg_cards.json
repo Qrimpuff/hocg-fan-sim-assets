@@ -36254,7 +36254,7 @@
         "name": { "jp": "夢紡ぎのアトリエ", "en": "Dream Weaving Atelier" },
         "text": {
           "jp": "このホロメンがアーツを使った時、自分のホロパワーを見る。その中から1枚を公開し、手札に加える。手札に加えたなら、自分の手札1枚をホロパワーにする。そしてホロパワーをシャッフルする。",
-          "en": "When this holomem uses Arts, look at your holo Power. Reveal 1 card from among them, and add it to hand. If you added a card to hand, put 1 card from your hand to holo Power, then shuffle your holo Power."
+          "en": "When this holomem uses Arts, look at your holo Power. Reveal 1 card from among them, and add it to hand. If you added a card to hand, put 1 card from your hand to holo Power. Then, shuffle your holo Power."
         }
       }
     ],
@@ -48157,6 +48157,46 @@
         "img_path": { "jp": "unreleased/hBP08-008_C.webp", "en": null },
         "img_hash": "v2|H32=StqbDnpWlKmUbazVlKpvOiDaTSqzkstlsKPLYmo349hbq7YsqWXoVlRZWpUl10uqWrVqUx9HconSp6TL0mpUqVo11ko|CYM=0D4135",
         "ogbajoj_sheet_cells": [ [ 419256011, "C10" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-009": {
+    "card_number": "hBP08-009",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Maybe the Day Will Come When We Can Understand Each Other" },
+        "text": {
+          "en": "Look at your holo Power. Reveal 1 support card from among them, and add it to hand. Then, shuffle your holo Power. If you added a card to hand, put the top card of your deck to holo Power."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "I'm Looking for Something Much Deeper" },
+        "power": "20"
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-009",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-009_U.webp", "en": null },
+        "img_hash": "v2|H32=0ohb0rKYHGmkNaw0ZGZlpmhGVaublalJmpWHvGuT0rZrabZsyqTYKmtVXaqly0urefRaWoaHLaktaibV2ipOWa3Usqk|CYM=053B2A",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C11" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
