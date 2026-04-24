@@ -9712,7 +9712,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:41 GMT" },
         "img_hash": "v2|H32=UrHLqkWlJEWjqjBVqYqsua2qzGetLlx1Oyo6FzuaWptbylZVB9mtrkeWrar4bq2qsG+tqvDwqarGg62qeDzpCvmB6Hg|CYM=1B1206|A_CYM=311E00",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C15" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10011",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       },
@@ -9725,7 +9725,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:50 GMT" },
         "img_hash": "v2|H32=bKupqsWp0lWDulJVqUpc93uuWNepqhRVOy42ZD9uXjSeqFZVMcmNqEa2rapHtq2q+D6tqpHhqarxJKmqv2Xp6vkB6Oo|CYM=1A0C12|A_CYM=2D111A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C34" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10012",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       },
@@ -9738,7 +9738,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:59 GMT" },
         "img_hash": "v2|H32=YqurqlWrkuWbrNJVqaxkNzMyMDcsKlxVzshMzY/YXhk7OlZVMcmN6Ew2LSpPLumq8PGtqh09qerxgakq+WDp6uuDqAo|CYM=0B1F15|A_CYM=0E3A21",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C52" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10011",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       },
@@ -9751,7 +9751,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:07 GMT" },
         "img_hash": "v2|H32=YIsrilGrkmWDJMB1rCSMna2LbJ0tinR0Kmpcdw9DXhuaClZVMcmN68c2LbrHfK2q8Ietqh/4qSoXtOmq8GEtiw+P4Is|CYM=201206|A_CYM=391C01",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C72" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10010",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       },
@@ -9764,7 +9764,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:16 GMT" },
         "img_hash": "v2|H32=QqvrqkWphiWLLJJ1qSokNy2KKJetqlxVCypcXQ9aWto7ilZVs8GN6EY+rarPP62q8H6tqjiOqarw8Kmq8GEp6vks6Cg|CYM=121907|A_CYM=1B2D05",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C90" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10011",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       },
@@ -9777,7 +9777,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:24 GMT" },
         "img_hash": "v2|H32=7Kqpqp2rEqWTpFJV6XBMcVM7WB88jjTVP45OxY/olni+KlZVMcmN6Ew+LTrHZq2ruMOpqng4qeqPg6mL8EHp6np4qDo|CYM=0E0A1D|A_CYM=140D31",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C109" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10010",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       },
@@ -48090,6 +48090,44 @@
       }
     ]
   },
+  "hBP08-005": {
+    "card_number": "hBP08-005",
+    "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "" },
+        "text": {
+          "en": "At the end of your turn, if your center holomem is <Takane Lui> and you have a collab holomem, draw cards until your hand has 4 cards."
+        }
+      },
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Hoisa Hoisa" },
+        "text": {
+          "en": "[1/Turn]Archive 2 cards from your hand. If you archived 2 cards with this ability, deal 50 special damage to your opponent's [center holomem and collab holomem] other than Debut."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-005",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-005_OSR.webp", "en": null },
+        "img_hash": "v2|H32=eqWUJnNpiLRlWSgdTc2jWmjJx7Yya5S262iQNZYq6cW2IpSStlJaammnpCyVpsuiiiJlrapuS6c1VSpoDjUWFWpLrkU|CYM=05282F",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C7" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-007": {
     "card_number": "hBP08-007",
     "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
@@ -48284,6 +48322,48 @@
       }
     ]
   },
+  "hBP08-018": {
+    "card_number": "hBP08-018",
+    "name": { "jp": "ときのそら", "en": "Tokino Sora" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "I Want to Be an Idol" },
+        "text": { "en": "[Center Position・Collab Position Only]Draw 2 cards." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "I Hope it Gets Everyone Excited!" },
+        "power": "150",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If your Oshi holomem is Tokino Sora, choose 1 other <Tokino Sora> on your stage. During this turn, you may also target your opponent's back 2nd holomem with the chosen holomem's Arts"
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-018",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-018_RR.webp", "en": null },
+        "img_hash": "v2|H32=ptOnyWTTdJhItty02JK0bJmWN2+1pgttSq2NaUs5xlWvG5Zql6qtL0FVqU+lSvXTLq290lE9KNSqUGmptPJaqFC1spo|CYM=07201F",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C20" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-024": {
     "card_number": "hBP08-024",
     "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
@@ -48355,6 +48435,47 @@
         "img_path": { "jp": "unreleased/hBP08-025_R.webp", "en": null },
         "img_hash": "v2|H32=rKpkHKMsbaraQznj1Mop05bUENpKlVJVVg1qrZZeLK0Nu6xmVFVKJ6ouctqvolDVddulKotaLq1bwlKtaalSW0uldts|CYM=172034",
         "ogbajoj_sheet_cells": [ [ 419256011, "C27" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-028": {
+    "card_number": "hBP08-028",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "holonatsu Extra Large Parfait" },
+        "text": {
+          "en": "Choose 1 of your <Aki Rosenthal> with tool attached. During this turn, the chosen holomem gets Arts+20. If the chosen holomem is a Buzz holomem or 2nd holomem, that holomem gets Arts+50 instead."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": null, "en": "Would You Like a Bite?" },
+        "power": "50",
+        "text": { "en": "Restore 30 HP to 1 of your holomem with tool attached." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-028",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-028_R.webp", "en": null },
+        "img_hash": "v2|H32=yrmzvM+5vaqkxCyOtOJqwYmy0mHatcgGUk1ePGZKck2nOp5tlTRoKyir2pam0xW8Ui2gtWppqrHrQlYt0laW2lotclo|CYM=20232B",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C30" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -48787,6 +48908,83 @@
         "img_path": { "jp": "unreleased/hBP08-071_C.webp", "en": null },
         "img_hash": "v2|H32=auyV62nIJHmSw2Q0mNvthq063aZ2dhIlUlcK1Vo2aN0OdKxss3SKJl26aJCttaWSUqtSq65XratLi2ppVivUotaKYlk|CYM=14311F",
         "ogbajoj_sheet_cells": [ [ 419256011, "C73" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-072": {
+    "card_number": "hBP08-072",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Natsu Ina!!" },
+        "text": {
+          "en": "If you have 8 or more holomem with #Myth in your archive, return 1 holomem with #Myth from your archive to hand. You may only use Bloom Effect \"Natsu Ina!!\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": null, "en": "Multicolor Sketch" },
+        "power": "30+",
+        "text": {
+          "en": "The Arts gets +10 for each holomem on your opponent's stage with a different color to their Oshi holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" }, { "en": "#Summer" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-072",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-072_R.webp", "en": null },
+        "img_hash": "v2|H32=iqqra5WqJbulmmS6QlbEvupU8Ca6RbglUk1aTVptSkUubFRsWWWpWhuorZYir4WXtLh6sYaKi4ahSkmLD5patSwbSqs|CYM=101A0D",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C74" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-077": {
+    "card_number": "hBP08-077",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Please Listen to My Cover Song" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 1 [1st holomem <Otonose Kanade> and/or <Recorder>] each from your deck, and add them to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Kanade Standby" }, "power": "20" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-077",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-077_C.webp", "en": null },
+        "img_hash": "v2|H32=rOpLuk2qtLYtobQmpYkLZYPJGpVSVliYUnQ8SVLtZEm22FYllFRZqqqqKtJVqy7VSS+2qqtaolpUq3p4pJNLr1JKtLQ|CYM=032137",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C79" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -57475,7 +57673,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:42 GMT" },
         "img_hash": "v2|H32=dlMrZauqSlWbtqKycRSxsiE1WGpzVuwuZ1qsFpWaRppd3FKVa5SKKhpqhVQttdomtOqahtWqWiuUUtEltlpbNqVDS7U|CYM=1E1A12",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C3" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57510,7 +57708,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:42 GMT" },
         "img_hash": "v2|H32=tKhUcyNp25hSUpRqvJq1ZkypibomkWtbi7QrWWtmk6VLLqhSOlVLb1PKt5QtLTIrrbRMKZJWmbZbapbqpNk0aUu2tlk|CYM=1E0A0A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C4" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57552,7 +57750,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:43 GMT" },
         "img_hash": "v2|H32=1HrUciSrFlLLqtPKLKM0qjfNSrHqWao1o1mJtdOsSasbjyBVa1uNK0UKr1Ol9DbOjmnZqqFmFui1pNqm1KVqtZaUWrQ|CYM=0A0B12",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C5" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57597,7 +57795,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:44 GMT" },
         "img_hash": "v2|H32=GKu0WkyqT2Ozyi0yYsmXqmk2TqunJmkxusZLbaOW6U0WAqhsmCaslmWr1lVGiVqrstFpSipVTqlWqyrZaWjS1pVWqqQ|CYM=171710",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C6" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57646,7 +57844,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:45 GMT" },
         "img_hash": "v2|H32=rKpkUFKrQlVS0q17UkyRqqw9qapONYnZchdPpasVaKVHDKJqWiUju43alNYp09ysJRrkpLRySislSnTZtavaapSi0lA|CYM=2D1C0C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C7" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57690,7 +57888,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:45 GMT" },
         "img_hash": "v2|H32=UnStKpRi0pK0CqfSLIsnyU+y0kxLs7tky5grpctkVruzbihVOJdWpVfquSrLUSmWtLSNrVor1WqLlCm1pUqlKlqlUrY|CYM=080E0F",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C8" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57739,7 +57937,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:46 GMT" },
         "img_hash": "v2|H32=csVkS1zLlralstImGyWkTS9rTUlJksgyxpIrlZJqa402aVKtSWa+dkWsqdGWqmTSulNdqiW1paaWlrGgLUuPLvGkqpY|CYM=081B1A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C9" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57792,7 +57990,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:47 GMT" },
         "img_hash": "v2|H32=yqw0W0xz9KIrVdeqtrYtLdCKqzV2y8nUFikPReuyMG+O57BK4macrJWqSpWa2i1bbUumpEaVlZImlVZKSbVSrUqtWqU|CYM=34210B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C10" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57842,7 +58040,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:48 GMT" },
         "img_hash": "v2|H32=rKpaVEJX1apLVrCq8lityZakhks8rYxWGqkpVEst69RrrbpnDlerXOa1aJW1qnQaKbq0WlSqVqnbalarS03WqirV0uo|CYM=2D2A0D",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C11" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57872,7 +58070,7 @@
           [ 1326338526, "C88" ],
           [ 1326338526, "C107" ]
         ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10010",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57898,7 +58096,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:49 GMT" },
         "img_hash": "v2|H32=pLCtqsS1SnNralhNmCqUqjeKNo+3rtzEzGTeVZNVNhEqEzLdE82PuMAxDY44BunqzpIpKjB67ejhh6mC8PHg6g2H4IM|CYM=2A1006",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C13" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10011",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57940,7 +58138,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:51 GMT" },
         "img_hash": "v2|H32=auWkZpVhSn1pGrQMVKoaG6jlUzqomnSVk+pZlabqWbW2WrS2qlLuSTmt5qpzyduqrVWLqNJUaqnqVFqtS9VqVWrpqlY|CYM=581811",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C22" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -57977,7 +58175,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:52 GMT" },
         "img_hash": "v2|H32=qKqtio2quaqvqjmuizMqzsI1WtVaVVIVQlHwZXJZtEm0tlhVVdXUoatqq+ozk1W2Xa2ovqpqqqtq20kqyaS2tqleSq0|CYM=1A1021",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C23" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58017,7 +58215,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:52 GMT" },
         "img_hash": "v2|H32=1KqtWq2qFarLUqykk69oXcrlUq3SVUxVsl0yVebctkN2OVClVZUsi7KqibamyZPa17WKKulSqlqqXrZtSau22elXsiQ|CYM=11102A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C24" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58064,7 +58262,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:53 GMT" },
         "img_hash": "v2|H32=rKqpVUup0orSlJGek6Q0apJlMO2KVWjVSlFqVWpRbjWSRs4kXTWtqqz6qKpW21DZUh1Oqqsmoqmtknbp1apSLFKrcrU|CYM=0C2136",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C25" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58114,7 +58312,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:54 GMT" },
         "img_hash": "v2|H32=rKitqmOtUltSWhhWONOxppyylaHMEUodSl1qzUpNaqUj6ZZWFWVHteKl4KpuqHi1pV5oq+pDqOByeOA1rSrgUJeq4PA|CYM=212234",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C26" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58159,7 +58357,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:54 GMT" },
         "img_hash": "v2|H32=LKqtqoWoqeqrqnjWm6OQjtamNNXa1mZValVKFW4dYiHiilYVVfUN26qkqqp5Sj2l3Jep6qpuqFq+Wqk4bp+pKqIPadI|CYM=141319",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C27" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58206,7 +58404,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:55 GMT" },
         "img_hash": "v2|H32=mqokqsurra7Hi6mslLJKyaS0WldizdIWSlUSVfamUlG0KdxN1zRKJWmqWsso1ZWaWUm0rkqLK7WurYaHple2tKTVpKI|CYM=1A162C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C28" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58257,7 +58455,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:56 GMT" },
         "img_hash": "v2|H32=0qIlyq2qmaqnKSkum6hobUo3EsVC1XIXUhPaVTIz1GS2RFJFVTWsoynqq6qz2VOlV8sm22rbqq6SUinpjZKSJmm2YNs|CYM=281318",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C29" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58305,7 +58503,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:57 GMT" },
         "img_hash": "v2|H32=rqpbSr2qw5rzeJyajpI5zqyXOKUaZS4lUnkkZ0ZaZOqGVsroS1VtqqS2sLZRq1LRbCkqraqHsrrw0lBalaqSrQqrtm0|CYM=491F19",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C30" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58331,7 +58529,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:57 GMT" },
         "img_hash": "v2|H32=QrSrqlStFEmtSzRXq8rKlMu2UrWzKjZ1vipcWy/aXpTLclZdASitqsykLbqfWg2j8Pyp6oTDrap5OC2KcBjp6w+HKao|CYM=031917",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C31" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd15/10010",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58373,7 +58571,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:00 GMT" },
         "img_hash": "v2|H32=VCrQppWmKhltxVYSrUlvGoyit2rUqzOlTGpLlexCaRGjyZSqqFKl1Zut6yrbaqP1SlX7pKZV0qrLFirVVlVSVSptq9c|CYM=12483A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C41" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58410,7 +58608,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:01 GMT" },
         "img_hash": "v2|H32=KmutquQrl+alqolau6dJSdvSMi3OWHJ2lm3WUHCGhr14SmqVUbWUhK9LXEq2SqQlWLSFkmpLqpalpGqp2RKpTVLapSo|CYM=014146",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C42" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58450,7 +58648,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:01 GMT" },
         "img_hash": "v2|H32=6qqpc9Wqlaytsy0Kq6RpW1pKcrmyVdI8stG0BVhbXFv8pFKlVZm0IaZFSbLDJi2b1qSy1ipby2qkkpbS222m1ckqJMk|CYM=013841",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C43" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58491,7 +58689,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:02 GMT" },
         "img_hash": "v2|H32=qqq1qmulrYq8Jmmd1qLvxkrRUmbsRVJ0JkXSNHbJsNQWy6wmUWtaVSSNVrKslaypmbSsVpKqpeprS0WrVaoqVSolsKQ|CYM=04484A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C44" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58532,7 +58730,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:03 GMT" },
         "img_hash": "v2|H32=rKqb7qOqLaolmq2yS0pIymZDWktS1NBV2hRSNZZltnG2Sc4OVVUpw87wlqxxq8b0r1NIKposqrDqCmihrYcSL6It0qs|CYM=032D43",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C45" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58574,7 +58772,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:04 GMT" },
         "img_hash": "v2|H32=qqqpqvOqTaqPLK2mLymL9dLjcs9aU1JGUllyFbY1rBU2TbbNVVVItSyyLFqdKhg9p5XKbmpqskLaFqalpgsWPpaqUqk|CYM=094249",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C46" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58628,7 +58826,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:05 GMT" },
         "img_hash": "v2|H32=qrGThymrVLqlKmmqy2wJTtJk601Sl/JJUpOwXdKSNCW0mrRqWlW4a61aWtilympVFqumtKqVSq/hKio1dLWWKipVUqs|CYM=013A47",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C47" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58671,7 +58869,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:05 GMT" },
         "img_hash": "v2|H32=gqqjoqmqKa4tq+GoZyxMcsIw2sza1lIUUsV2ZbZptFG0atZ2U1WQADiqTppsySW9N5WyJroqalqkyyapv2qSFtg2wko|CYM=0B3833",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C48" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58719,7 +58917,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:06 GMT" },
         "img_hash": "v2|H32=SqqtrYurmcKnMqVa5q5jqGiNUs1SU1pVklO0NJgxlKy8rLw01TRqJTlJWqlmi0Xb+kimWssqUqql0rRQlpJqWoqWouA|CYM=0E3325",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C49" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd16/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58761,7 +58959,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:08 GMT" },
         "img_hash": "v2|H32=SkOvtDX3alkrla1SySlXKpWqV61Ui7GUVmwhirZmKyVmi6SqqlKuW2qrFFX7KptWbttZJaZFKtqqNWpVRNVpVVZ1qVU|CYM=643908",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C60" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58794,7 +58992,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:09 GMT" },
         "img_hash": "v2|H32=qqg9qpSqLaqvSrta1trrHRLzMqRqMVJEblVYU8hW1jKUlPJUUbVSIWroTKq01KStrE0qtVpKrFrrpWmlS59iS5tutLo|CYM=3A2309",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C61" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58830,7 +59028,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:09 GMT" },
         "img_hash": "v2|H32=kqqpS62qtaqvUpOem6Vk20MtWOlqUdJU1lOWltIEtKV4NFaJU924pG4aKcqkNSVa1qGCtqtKaku5NpIkXa6y1UnDJkk|CYM=281A14",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C62" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58869,7 +59067,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:10 GMT" },
         "img_hash": "v2|H32=rKopqoapMyq0TVlLwjLMjJKyMqVaWTZ1ck0+VXJNONQmJWpFVW21qSq1eNLSUsTVNSukSsqysqoqVUgrySq0pJeG8nA|CYM=462C0C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C63" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58906,7 +59104,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:11 GMT" },
         "img_hash": "v2|H32=pqqpqgmrOZsNWlxal5qEpIalMuUyRXJZUllyUVKVYpVktlZVUdUzB+yC6qq/qKThl6coaKoKqGn5+qToDw+kqooXJKs|CYM=331B09",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C64" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58944,7 +59142,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:12 GMT" },
         "img_hash": "v2|H32=yuqpqrToVJqtqrH0LZ8TbVq3Uk3Kk3JlylFwl7J8PBM0TNZVVaVUpWrprGqlain0p1XbrtoqpFq21imVpUqhKlqlUpI|CYM=2E250C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C65" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -58987,7 +59185,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:12 GMT" },
         "img_hash": "v2|H32=atbRqpWqKa+lqq1KDqVSW0o5UlXKSXKV0lTSlXKc1LQ8FGpV1TR0ImmytNIjW1a9ZLUJa65KqmqilU2qUq2pZForpCw|CYM=1B2C20",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C66" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59034,7 +59232,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:13 GMT" },
         "img_hash": "v2|H32=sqpryp2qtaqno6ymnKTilEpVUmVKNVJJakUyVehdsFU0klZVUVXtSs5Ku6qjVQ7dRYkyt6qrircWq5Sv1LrSopImlus|CYM=311907",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C67" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59078,7 +59276,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:14 GMT" },
         "img_hash": "v2|H32=KKojJdWqjJOXylzKprVU6Wi1pbQuUXDSNlVaU1IlaXVSpZSqklSttGupllpPv6xJ2paK1aWKUle1LFrbhsIytVtrWpQ|CYM=333C12",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C68" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59103,7 +59301,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:15 GMT" },
         "img_hash": "v2|H32=pqqjqnCrSJdJlkpV0kTSbpdq2FxO0kzXbJNsmU87VjqWNjbZM9kxuNjyjItscqiqjw/p4pgd6Sqf5+A4zw/oOvhw4Cs|CYM=523906",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C69" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd17/10010",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59145,7 +59343,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:17 GMT" },
         "img_hash": "v2|H32=UMeaNi3S3cSnkpbJIZuySSbbIjkyQ6ZdIk2hPC1dya21rvSipvp4Sc6Sg3RQ9auiqqhF1VdFyqpKW1JUq5Qp1UsXq1Q|CYM=3E2F0B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C79" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59174,7 +59372,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:18 GMT" },
         "img_hash": "v2|H32=pqqc6rWqrarbZte6PTLTSBhZI41KxXLVzpRSVWYYTJOSWehW1XRKsVKtpGvtWrbVkjVYqsuSqnitT2Bplq2WrUm0Sis|CYM=023622",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C80" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59210,7 +59408,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:19 GMT" },
         "img_hash": "v2|H32=0qq1y7Sqiyqra5O+Wyk069I0Wq9qVcoUJsNILdKUNOvMNFpLa1msoksqL9u0LBNLtHWWtqlKaku0pjYpkKSytMmWSmk|CYM=012828",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C81" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59253,7 +59451,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:19 GMT" },
         "img_hash": "v2|H32=iqqtqmZdUivCVFBZtNLB7rCaNKc3JBvVYqVqVUqbbFVOJxpNWWRGtiFraJWUtLEiY2toS0pbpKFq29CqujS0qy7b8GU|CYM=015546",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C82" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59296,7 +59494,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:20 GMT" },
         "img_hash": "v2|H32=rKqtqlPjUnfSUNBUpDykrayKJYlspkjTSlVKNYtVUjULbU5SlSSHNWvR8KuWqzjprVqIAi6diFarS/DY9CRwWKumyiQ|CYM=02493B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C83" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59334,7 +59532,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:21 GMT" },
         "img_hash": "v2|H32=rKqVKnKrK9tScfJcpPLUtqyGtI7M1W5FWk1K1Us5WkFrlEpJ1NRLtam1tJJsaLRlay14KosuoFby0tAtUrpJq0mL9tI|CYM=014732",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C84" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59381,7 +59579,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:22 GMT" },
         "img_hash": "v2|H32=cra0qo2qJYqtaqfa2yospdIaSzWUFVNXrNRST2fU1EosrchKmbW0ldaqS6mzUkWrbL2pamvJrVZou62WlrallK1WUq8|CYM=012B22",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C85" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59428,7 +59626,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:22 GMT" },
         "img_hash": "v2|H32=rKpLVZGqKKVSVbS1kqq0ljTVtYpK1U9LSkdKZWolSCKpNI5Kt1ipSlpVsaupbdagzSp6tZWSakVdqnItWqEWtcnW1to|CYM=045F51",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C86" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59472,7 +59670,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:23 GMT" },
         "img_hash": "v2|H32=iKrU0dKqhK8mUU0eMFu1OnzbNLsalUvByIVOxcplaG1ONahItUyrM23V1JbSqmyxS3hiqakVatWWqpYq1cpS6ap08tM|CYM=346317",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C87" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd18/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59514,7 +59712,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:25 GMT" },
         "img_hash": "v2|H32=mkxa5JdmtJZrK1qyed27utS2M42KMlO3tEpLtZZKzcWKmbSqrlZI16csqdKQNmapC1XSKqpVWq+aVCotLlHb1mopKFU|CYM=1E162A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C97" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10001",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59547,7 +59745,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:26 GMT" },
         "img_hash": "v2|H32=rKqcrGOrabrmeHvSkyQ7i56lJCtKUeZFUlPa1DZUsDQkjOiVV1ETC6ulNNI4WlytVqusVqtPUmm5UuChUqukeQ8vUio|CYM=091450",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C98" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10002",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59587,7 +59785,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:26 GMT" },
         "img_hash": "v2|H32=hqqtca2rM44pKhmKq7SFMsYRUrhiVVpcOke01pZGFCO0nlR3TV0tC2B4q24XfCfbl8dgtahqWiq0LpYu0rTq1cqX8tU|CYM=081039",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C99" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10003",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59624,7 +59822,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:27 GMT" },
         "img_hash": "v2|H32=qqopu52qKamLYmhsjqqcrsJVlrZSEZpVdg1zZW5NdKSsRNBsVVSsUqqpLKFqZUqlVUrK2p7SqtGqtVYptKq2LZa2MrU|CYM=16273D",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C100" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10004",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59667,7 +59865,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:28 GMT" },
         "img_hash": "v2|H32=rKqTmq+qKaqnqCmOy6M5JspX0jXSVVJVUlXWRVJW1GS0tNQ1V3UpKqpyovKtiVSbVasqy6pLqqjoVhZdzapiqcomsK0|CYM=140B29",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C101" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10005",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59705,7 +59903,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:29 GMT" },
         "img_hash": "v2|H32=qqotqq2rWaqL+pumJ9irZsqNcnXaRXIV2lXSRlJStEx0MvRdVdVepKqqiOrdajn1pbWqeqoqqrbSWpRStZZSpWqpIq0|CYM=12192E",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C102" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10006",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59752,7 +59950,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:29 GMT" },
         "img_hash": "v2|H32=rqqtqmbzmcrDU2JVKaFLpZyscqy7zlpSelJaV1oXUrUOrZZcpWILVcr4dLbklLStWkX4aLo0ar96u3Cr2wf4KFqtUOk|CYM=392D1C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C103" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10007",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59789,7 +59987,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:30 GMT" },
         "img_hash": "v2|H32=vKqt6s+pm6qHmS3ek7MzMcJS86ZWK1JWUpVIqWpVNKWkaNxaVVWvLIvim7okiXS1UQ+itSpaqpSibSbXmyRiWWClMkk|CYM=0F1339",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C104" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10008",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59827,7 +60025,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:31 GMT" },
         "img_hash": "v2|H32=nKotq8uqrRXnWpmoIztUSlupYl/SxkqVLlZSUpp1tErcNHSXVZC7lGlJSq1eqhRp69VKepK2qlqk11RZpg2itGppyko|CYM=060E36",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C105" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10009",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
@@ -59850,7 +60048,7 @@
         "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:31 GMT" },
         "img_hash": "v2|H32=oKqjqlK7WOkpyVhdTEnO2s+a1BrKHvJUslR6VS/VLNcM1zLZjPPho+DgbDoz2YwqNx7oih8e6eicPy2Kfyjgqh8sKDg|CYM=09274C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C106" ] ],
-        "yuyutei_sell_url": null,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd19/10010",
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
