@@ -4,7 +4,10 @@ use std::{
     time::Duration,
 };
 
-use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase};
+use hocg_fan_sim_assets_model::{
+    CardIllustration, CardsDatabase,
+    img_hash::{dist_hash, to_image_hash},
+};
 use image::DynamicImage;
 use indexmap::IndexMap;
 use itertools::Itertools;
@@ -16,10 +19,7 @@ use reqwest::Url;
 use scraper::{Html, Selector};
 use serde_json::Value;
 
-use crate::{
-    DEBUG, PriceCheckMode, http_client,
-    images::utils::{dist_hash, to_image_hash},
-};
+use crate::{DEBUG, PriceCheckMode, http_client};
 
 pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     println!(

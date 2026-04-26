@@ -6,16 +6,16 @@ use std::{
     sync::Arc,
 };
 
-use hocg_fan_sim_assets_model::{BloomLevel, CardType, CardsDatabase, Color, SupportType};
+use hocg_fan_sim_assets_model::{
+    BloomLevel, CardType, CardsDatabase, Color, SupportType,
+    img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash, to_image_hash},
+};
 use itertools::Itertools;
 use parking_lot::Mutex;
 use rayon::iter::{IntoParallelIterator, IntoParallelRefMutIterator, ParallelIterator};
 use serde::{Deserialize, Serialize};
 
-use crate::{
-    DEBUG,
-    images::utils::{DIST_TOLERANCE_DIFF_RARITY, dist_hash, to_image_hash},
-};
+use crate::DEBUG;
 
 pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
     println!("Importing holoDelta db images...");

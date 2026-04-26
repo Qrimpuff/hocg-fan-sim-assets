@@ -12,9 +12,7 @@ use hocg_fan_sim_assets_cli::{
         hololive_official::retrieve_card_info_from_hololive,
     },
     holodelta::{import_holodelta, import_holodelta_db},
-    images::{
-        PROXIES_FOLDER, download_images, prepare_en_proxy_images, utils::can_merge, zip_images,
-    },
+    images::{PROXIES_FOLDER, download_images, prepare_en_proxy_images, zip_images},
     ogbajoj::{
         download_images_from_ogbajoj_sheet, retrieve_card_info_from_ogbajoj_sheet,
         retrieve_qna_from_ogbajoj_sheet,
@@ -22,7 +20,7 @@ use hocg_fan_sim_assets_cli::{
     price_check::{tcgplayer, yuyutei},
     qna::generate_qna,
 };
-use hocg_fan_sim_assets_model::{self as hocg, CardsDatabase, QnaDatabase};
+use hocg_fan_sim_assets_model::{self as hocg, CardsDatabase, QnaDatabase, img_hash::can_merge};
 use itertools::Itertools;
 use json_pretty_compact::PrettyCompactFormatter;
 use serde::Serialize;

@@ -11,6 +11,7 @@ use hocg_fan_sim_assets_model::{
     Art, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra, Keyword,
     KeywordEffect, Language, Localized, OshiSkill, OshiSkillKind, QnaDatabase, SheetCell,
     SupportType, Tag,
+    img_hash::{DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, to_image_hash},
 };
 use image::DynamicImage;
 use itertools::Itertools;
@@ -25,10 +26,7 @@ use crate::{
     DEBUG,
     data::{update_arts, update_extra, update_keywords, update_oshi_skills, update_tags},
     google_docs_http_client, google_sheets_api_http_client,
-    images::{
-        UNRELEASED_FOLDER, WEBP_QUALITY,
-        utils::{DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, to_image_hash},
-    },
+    images::{UNRELEASED_FOLDER, WEBP_QUALITY},
     utils::{TrimOnce, sanitize_filename},
 };
 

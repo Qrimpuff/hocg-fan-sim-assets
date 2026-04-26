@@ -1,3 +1,5 @@
+pub mod img_hash;
+
 use std::cmp::Reverse;
 use std::collections::{BTreeMap, BTreeSet};
 use std::fmt::Display;
@@ -6,6 +8,8 @@ use std::{cmp::Ordering, num::ParseIntError};
 
 use serde::ser::SerializeStruct;
 use serde::{Deserialize, Serialize, Serializer};
+
+use crate::img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash};
 
 pub type CardsDatabase = BTreeMap<String, Card>;
 
@@ -410,6 +414,80 @@ pub type Extra = Localized<String>;
 // Tags
 pub type Tag = Localized<String>;
 
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+pub struct CardReference {
+    card_number: String,
+    rarity: String,
+    id: IllustrationId,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+pub enum IllustrationId {
+    Index(usize), // only valid for a specific database
+    ManageId(Localized<u32>),
+    DeltaArtIndex(u32),
+    ImageHash(String),
+}
+
+impl CardReference {
+    pub fn find_in<'a>(&self, db: &'a CardsDatabase) -> Option<&'a CardIllustration> {
+        let illustrations = &db.get(&self.card_number)?.illustrations;
+        match &self.id {
+            IllustrationId::Index(i) => illustrations.get(*i),
+            IllustrationId::ManageId(manage_id) => illustrations.iter().find(|illust| {
+                illust
+                    .manage_id
+                    .japanese
+                    .as_ref()
+                    .zip(manage_id.japanese.as_ref())
+                    .is_some_and(|(ids, manage_id)| ids.contains(manage_id))
+                    || illust
+                        .manage_id
+                        .english
+                        .as_ref()
+                        .zip(manage_id.english.as_ref())
+                        .is_some_and(|(ids, manage_id)| ids.contains(manage_id))
+            }),
+            IllustrationId::DeltaArtIndex(index) => illustrations.iter().find(|illust| {
+                illust.rarity == self.rarity && illust.delta_art_index == Some(*index)
+            }),
+            IllustrationId::ImageHash(hash) => {
+                // find the most likely match by image hash, but also check rarity to avoid mismatches
+                let mut dists: Vec<_> = illustrations
+                    .iter()
+                    .enumerate()
+                    .map(|(idx, illust)| {
+                        let dist = dist_hash(hash, &illust.img_hash);
+
+                        (illust, dist, idx)
+                    })
+                    .collect();
+
+                // sort by best dist
+                dists.sort_by_cached_key(|(illust, dist, idx)| {
+                    let rarity = &illust.rarity;
+                    let dist = *dist;
+                    // have rarity and release date influence the matching
+                    let rarity_rank = if *rarity != illust.rarity {
+                        DIST_TOLERANCE_DIFF_RARITY * 10
+                    } else {
+                        0
+                    };
+                    let id_rank = *idx as u64;
+                    let dist_rank = dist.saturating_mul(10);
+                    rarity_rank
+                        .saturating_add(id_rank)
+                        .saturating_add(dist_rank)
+                });
+
+                dists.first().map(|(illust, _, _)| *illust)
+            }
+        }
+    }
+}
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
 #[serde(default)]
@@ -431,6 +509,29 @@ pub struct CardIllustration {
 }
 
 impl CardIllustration {
+    pub fn to_card_ref(card: &CardIllustration) -> Option<CardReference> {
+        let id = if let Some(managed_id) =
+            card.manage_id.japanese.as_ref().and_then(|ids| ids.first())
+        {
+            IllustrationId::ManageId(Localized::new(Language::Japanese, *managed_id))
+        } else if let Some(managed_id) = card.manage_id.english.as_ref().and_then(|ids| ids.first())
+        {
+            IllustrationId::ManageId(Localized::new(Language::English, *managed_id))
+        } else if let Some(delta_art_index) = card.delta_art_index {
+            IllustrationId::DeltaArtIndex(delta_art_index)
+        } else if !card.img_hash.is_empty() {
+            IllustrationId::ImageHash(card.img_hash.clone())
+        } else {
+            return None; // cannot create a reference without an id
+        };
+
+        Some(CardReference {
+            card_number: card.card_number.clone(),
+            rarity: card.rarity.clone(),
+            id,
+        })
+    }
+
     pub fn official_site_urls(&self, language: Language) -> Vec<String> {
         self.manage_id
             .value(language)

@@ -3,10 +3,12 @@ use std::ops::Mul;
 use std::path::Path;
 use std::path::PathBuf;
 
-use hocg_fan_sim_assets_cli::images::utils::{
-    DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, path_to_image_hash,
+use hocg_fan_sim_assets_model::{
+    CardsDatabase,
+    img_hash::{
+        DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, path_to_image_hash,
+    },
 };
-use hocg_fan_sim_assets_model::CardsDatabase;
 
 #[ignore]
 #[test]

@@ -4,4 +4,11 @@ edition.workspace = true
 version.workspace = true
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }
+image = { workspace = true }
+image_hasher = { workspace = true }
+itertools = { workspace = true }
+palette = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }
