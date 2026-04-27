@@ -49295,6 +49295,30 @@
       }
     ]
   },
+  "hBP08-098": {
+    "card_number": "hBP08-098",
+    "name": { "jp": "hololive Mythology", "en": "hololive Mythology" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if all holomem on your stage have #Myth.\n\nReveal the top 4 cards of your deck. Add 2 of them to hand. Then, archive the remaining cards."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-098",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-098_U.webp", "en": null },
+        "img_hash": "v2|H32=CperityWbKfrIkRlqySrXbNaul0rWnRbbGpuKXeqtKo/rRZFB8Usih54LZro8K3LDh+pKlt8qW6i6Kmr4KAtm+6LKNs|CYM=161A19",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C100" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-102": {
     "card_number": "hBP08-102",
     "name": { "jp": "クールなパーカー", "en": "Cool Hoodie" },
