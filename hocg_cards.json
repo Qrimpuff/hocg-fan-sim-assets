@@ -49001,6 +49001,40 @@
       }
     ]
   },
+  "hBP08-062": {
+    "card_number": "hBP08-062",
+    "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Prepared to be Taken Down" },
+        "text": {
+          "en": "You may archive 1 card from your hand: Place 1 Debut holomem with Extra \"You may include any number of this holomem in the deck\" from your deck on stage. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "The Will to Take Down" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-062",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-062_U.webp", "en": null },
+        "img_hash": "v2|H32=pKquZPGqbFXSqmmZllSRqilVlipppTI1dqVWWzZl0ZqmVKQt0lJqKiitldorXdSyVosq7ZWKal2lrkqpldZKJaW0Wmo|CYM=013B33",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C64" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-064": {
     "card_number": "hBP08-064",
     "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
