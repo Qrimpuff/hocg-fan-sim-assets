@@ -49305,6 +49305,28 @@
       }
     ]
   },
+  "hBP08-090": {
+    "card_number": "hBP08-090",
+    "name": { "jp": "エレガントパソコン", "en": "Elegant PC" },
+    "card_type": { "support": "item" },
+    "limited": true,
+    "text": { "en": "Return 1~3 [mascots and fans] from your archive to the deck and shuffle it. Draw 2 cards." },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-090",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-090_C.webp", "en": null },
+        "img_hash": "v2|H32=SpVrglSSFKqzqlQqaypra0tDrlWrdbRVvjQrtWmNTIUPh5JFPDhsuofDbduP5y2LMDyNLuAPiW7ggykuig4vi/6DIPs|CYM=110B1C",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C92" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-095": {
     "card_number": "hBP08-095",
     "name": { "jp": "破滅の呪文", "en": "Doom" },
