@@ -48624,6 +48624,42 @@
       }
     ]
   },
+  "hBP08-030": {
+    "card_number": "hBP08-030",
+    "name": { "jp": "パヴォリア・レイネ", "en": "Pavolia Reine" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Step By Step" },
+        "text": {
+          "en": "You may archive 1 holomem with #ID Gen 2 from your hand: Send the top card of your cheer deck to your back holomem."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Please Keep This in Mind..." }, "power": "10" }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Bird" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-030",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-030_C.webp", "en": null },
+        "img_hash": "v2|H32=jKulpI2Laarj0FnOk7CZSialkLKaZWq10jRaSRK1lElPKtxFVlU+q6mqkpJSi9W2lZYp66pKarnpotJaUmmkqWrLUiU|CYM=1D1F1B",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C32" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-031": {
     "card_number": "hBP08-031",
     "name": { "jp": "パヴォリア・レイネ", "en": "Pavolia Reine" },
