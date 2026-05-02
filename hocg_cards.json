@@ -48730,6 +48730,49 @@
       }
     ]
   },
+  "hBP08-037": {
+    "card_number": "hBP08-037",
+    "name": { "jp": "モココ・アビスガード", "en": "Mococo Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Twinkle Idol" },
+        "text": {
+          "en": "If you have <Fuwawa Abyssgard> on your stage, deal 20 special damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "GanBAUrune!" },
+        "power": "30",
+        "text": {
+          "en": "If this holomem has 2 blue cheer attached, send the top card of your cheer deck to your <Fuwawa Abyssgard>."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-037",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-037_R.webp", "en": null },
+        "img_hash": "v2|H32=jqsrfa+pnaqr2pGuscqxTmpFGgtORUpR1jZWQ7I01CLeSlRrV3VptYJaopJWmWmxSVoqeqqWIt/WmnKhaa1UraGqloQ|CYM=0F3524",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C39" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-040": {
     "card_number": "hBP08-040",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
