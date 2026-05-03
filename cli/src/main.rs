@@ -427,6 +427,12 @@ fn check_tags_consistency(all_cards: &CardsDatabase) {
 }
 
 fn merge_similar_cards(all_cards: &mut CardsDatabase) {
+    // sort cards by rarity then by manage id
+    for cs in all_cards.values_mut() {
+        cs.illustrations
+            .sort_by_cached_key(|a| (a.rarity.clone(), a.manage_id.clone()));
+    }
+
     // merge similar cards by images
     let mut merged_count = 0;
     for cs in all_cards.values_mut() {

@@ -369,7 +369,7 @@ pub fn prepare_en_proxy_images(
                     let dist = d.3;
                     let illust = d.2.lock();
                     // have rarity and release date influence the matching
-                    let rarity_rank = if *rarity != illust.rarity {
+                    let rarity_rank = if *rarity != illust.rarity.to_string() {
                         DIST_TOLERANCE_DIFF_RARITY * 1000
                     } else {
                         0

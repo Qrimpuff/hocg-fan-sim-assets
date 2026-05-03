@@ -195,7 +195,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
             .filter(|c| c.yuyutei_sell_url.is_some())
         {
             if let Some(yuyutei_sell_url) = &card.yuyutei_sell_url {
-                let urls = urls.get_mut(&(card.card_number.clone(), card.rarity.clone()));
+                let urls = urls.get_mut(&(card.card_number.clone(), card.rarity.to_string()));
                 if let Some(urls) = urls
                     && let Some(pos) = urls.iter().position(|(url, _, _)| url == yuyutei_sell_url)
                 {
@@ -245,7 +245,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     illustration.yuyutei_sell_url = Some(yuyutei_sell_url.clone());
                 } else if let Some(urls) = urls.write().get_mut(&(
                     illustration.card_number.clone(),
-                    illustration.rarity.clone(),
+                    illustration.rarity.to_string(),
                 )) {
                     // use the first url
                     if !urls.is_empty() {
@@ -274,7 +274,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 .iter_mut()
                 .filter(|c| c.img_path.japanese.is_some())
                 .map(|c| Arc::new(Mutex::new(c)))
-                .into_group_map_by(|c| c.lock().rarity.clone());
+                .into_group_map_by(|c| c.lock().rarity.to_string());
 
             rarities
                 .into_par_iter()
@@ -644,7 +644,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     illustration.tcgplayer_product_id = Some(*tcgplayer_product_id);
                 } else if let Some(product_ids) = product_ids.write().get_mut(&(
                     illustration.card_number.clone(),
-                    illustration.rarity.clone(),
+                    illustration.rarity.to_string(),
                 )) {
                     // use the first url
                     if !product_ids.is_empty() {
@@ -673,7 +673,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 .iter_mut()
                 .filter(|c| c.img_path.english.is_some())
                 .map(|c| Arc::new(Mutex::new(c)))
-                .into_group_map_by(|c| c.lock().rarity.clone());
+                .into_group_map_by(|c| c.lock().rarity.to_string());
 
             rarities
                 .into_par_iter()

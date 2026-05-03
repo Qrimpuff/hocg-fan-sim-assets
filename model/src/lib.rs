@@ -418,7 +418,7 @@ pub type Tag = Localized<String>;
 #[serde(rename_all = "snake_case")]
 pub struct CardReference {
     card_number: String,
-    rarity: String,
+    rarity: CardRarity,
     id: IllustrationId,
 }
 
@@ -488,13 +488,106 @@ impl CardReference {
     }
 }
 
+#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
+#[serde(from = "String", into = "String")]
+pub enum CardRarity {
+    // Standard rarities
+    // C
+    Common,
+    // U
+    Uncommon,
+    // R
+    Rare,
+    // RR
+    DoubleRare,
+    // OC
+    OshiHoloMemberCommon,
+    // OSR
+    OshiHoloMemberSuperRare,
+    // Parallel rarities
+    // S
+    Special,
+    // SR
+    SpecialRare,
+    // SY
+    SpecialCheer,
+    // UR
+    UltraRare,
+    // HR
+    HoloMemberRare,
+    // OUR
+    OshiHoloMemberUltraRare,
+    // SEC
+    Secret,
+    // P
+    Promo,
+    // ...
+    Other(String),
+}
+
+impl From<String> for CardRarity {
+    fn from(value: String) -> Self {
+        match value.to_ascii_uppercase().as_str() {
+            "C" => CardRarity::Common,
+            "U" => CardRarity::Uncommon,
+            "R" => CardRarity::Rare,
+            "RR" => CardRarity::DoubleRare,
+            "OSR" => CardRarity::OshiHoloMemberSuperRare,
+            "OC" => CardRarity::OshiHoloMemberCommon,
+            "S" => CardRarity::Special,
+            "SR" => CardRarity::SpecialRare,
+            "SY" => CardRarity::SpecialCheer,
+            "UR" => CardRarity::UltraRare,
+            "HR" => CardRarity::HoloMemberRare,
+            "OUR" => CardRarity::OshiHoloMemberUltraRare,
+            "SEC" => CardRarity::Secret,
+            "P" => CardRarity::Promo,
+            other => CardRarity::Other(other.to_string()),
+        }
+    }
+}
+
+impl From<CardRarity> for String {
+    fn from(value: CardRarity) -> Self {
+        match value {
+            CardRarity::Common => "C".into(),
+            CardRarity::Uncommon => "U".into(),
+            CardRarity::Rare => "R".into(),
+            CardRarity::DoubleRare => "RR".into(),
+            CardRarity::OshiHoloMemberSuperRare => "OSR".into(),
+            CardRarity::OshiHoloMemberCommon => "OC".into(),
+            CardRarity::Special => "S".into(),
+            CardRarity::SpecialRare => "SR".into(),
+            CardRarity::SpecialCheer => "SY".into(),
+            CardRarity::UltraRare => "UR".into(),
+            CardRarity::HoloMemberRare => "HR".into(),
+            CardRarity::OshiHoloMemberUltraRare => "OUR".into(),
+            CardRarity::Secret => "SEC".into(),
+            CardRarity::Promo => "P".into(),
+            CardRarity::Other(other) => other,
+        }
+    }
+}
+
+impl Display for CardRarity {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", String::from(self.clone()))
+    }
+}
+
+impl Default for CardRarity {
+    fn default() -> Self {
+        CardRarity::Other("?".to_string())
+    }
+}
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 #[serde(rename_all = "snake_case")]
 #[serde(default)]
 pub struct CardIllustration {
     pub card_number: String,
     pub manage_id: Localized<BTreeSet<u32>>, // unique ids in Deck Log
-    pub rarity: String,
+    pub rarity: CardRarity,
     pub illustrator: Option<String>,
     #[serde(serialize_with = "Localized::full_serialize")]
     pub img_path: Localized<String>,

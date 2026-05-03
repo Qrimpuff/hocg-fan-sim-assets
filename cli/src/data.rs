@@ -367,7 +367,7 @@ pub mod decklog {
                                                 .get_or_insert_default()
                                                 .insert(manage_id);
                                         }
-                                        illust.rarity = dl_card.rare;
+                                        illust.rarity = dl_card.rare.into();
                                         // rename the old file
                                         if let Some(img_path) =
                                             illust.img_path.value_mut(language).as_mut()
@@ -404,7 +404,7 @@ pub mod decklog {
                                                     ..Default::default()
                                                 },
                                             },
-                                            rarity: dl_card.rare,
+                                            rarity: dl_card.rare.into(),
                                             img_path: Localized::new(language, dl_card.img),
                                             ..Default::default()
                                         };

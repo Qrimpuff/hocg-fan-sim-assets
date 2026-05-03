@@ -817,14 +817,15 @@ pub fn download_images_from_ogbajoj_sheet(
                                 (i, same_sheet_cell)
                             })
                             .filter(|(i, _)| {
-                                i.rarity.eq_ignore_ascii_case(&rarity) || !i.manage_id.has_value()
+                                i.rarity.to_string().eq_ignore_ascii_case(&rarity)
+                                    || !i.manage_id.has_value()
                             })
                             .map(|(i, s)| (dist_hash(&i.img_hash, &img_hash), i, s))
                             // more tolerance for manual cropping
                             .filter(|(dist, i, same_sheet_cell)| {
                                 match (
-                                    i.manage_id.has_value(),                // released
-                                    i.rarity.eq_ignore_ascii_case(&rarity), // same rarity
+                                    i.manage_id.has_value(),                            // released
+                                    i.rarity.to_string().eq_ignore_ascii_case(&rarity), // same rarity
                                 ) {
                                     (true, true) => *dist <= DIST_TOLERANCE_SAME_RARITY,
                                     (true, false) => unreachable!(),
@@ -857,11 +858,11 @@ pub fn download_images_from_ogbajoj_sheet(
 
                                 // if the rarity is different, rename the new file if needed
                                 if let Some(img_path) = illust.img_path.value(language)
-                                    && illust.rarity == rarity
+                                    && illust.rarity.to_string() == rarity
                                 {
                                     img_unreleased = Path::new(img_path).into();
                                 } else {
-                                    illust.rarity = rarity.clone();
+                                    illust.rarity = rarity.clone().into();
                                     *illust.img_path.value_mut(language) =
                                         Some(img_unreleased.to_str().unwrap().replace("\\", "/"))
                                 }
@@ -869,8 +870,10 @@ pub fn download_images_from_ogbajoj_sheet(
                                 illust
                             } else {
                                 // it's an unreleased card that might have an updated rarity
-                                if !illust.manage_id.has_value() && illust.rarity != rarity {
-                                    illust.rarity = rarity.clone();
+                                if !illust.manage_id.has_value()
+                                    && illust.rarity.to_string() != rarity
+                                {
+                                    illust.rarity = rarity.clone().into();
                                     // rename the old file
                                     if let Some(img_path) =
                                         illust.img_path.value_mut(language).as_mut()
@@ -893,7 +896,7 @@ pub fn download_images_from_ogbajoj_sheet(
                             // Doesn't exist, add illustration
                             card.illustrations.push(CardIllustration {
                                 card_number: set_code.clone(),
-                                rarity: rarity.clone(),
+                                rarity: rarity.clone().into(),
                                 img_path: Localized::new(
                                     language,
                                     img_unreleased.to_str().unwrap().replace("\\", "/"),
@@ -940,7 +943,7 @@ pub fn download_images_from_ogbajoj_sheet(
                             .unwrap()
                             .illustrations
                             .iter_mut()
-                            .find(|i| i.rarity == rarity && i.img_hash == img_hash)
+                            .find(|i| i.rarity.to_string() == rarity && i.img_hash == img_hash)
                             .unwrap();
                         // could not download image
                         illust.img_hash = Default::default();
