@@ -427,10 +427,25 @@ fn check_tags_consistency(all_cards: &CardsDatabase) {
 }
 
 fn merge_similar_cards(all_cards: &mut CardsDatabase) {
-    // sort cards by rarity then by manage id
+    // sort cards by rarity, then by semi chronological manage id (JP/EN)
     for cs in all_cards.values_mut() {
-        cs.illustrations
-            .sort_by_cached_key(|a| (a.rarity.clone(), a.manage_id.clone()));
+        cs.illustrations.sort_by_cached_key(|a| {
+            (
+                a.rarity.clone(),
+                a.manage_id
+                    .japanese
+                    .as_ref()
+                    .and_then(|ids| ids.first().copied())
+                    .unwrap_or(u32::MAX)
+                    .min(
+                        a.manage_id
+                            .english
+                            .as_ref()
+                            .and_then(|ids| ids.first().copied())
+                            .unwrap_or(u32::MAX),
+                    ),
+            )
+        });
     }
 
     // merge similar cards by images
