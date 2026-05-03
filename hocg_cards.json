@@ -37559,11 +37559,11 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "夏の海でドキドキデート", "en": "BBQ Date at the Summer Beach" },
+        "name": { "jp": "夏の海でドキドキデート", "en": "Exciting Date at the Summer Beach" },
         "power": "10+",
         "text": {
           "jp": "自分の手札1枚をアーカイブできる:このターンの間、自分のセンターホロメンの〈百鬼あやめ〉のアーツ+30。",
-          "en": "You may archive 1 card from your hand:Your center holomem <Nakiri Ayame> gets Arts+30."
+          "en": "You may archive 1 card from your hand: During this turn, your center holomem <Nakiri Ayame> gets Arts+30."
         }
       }
     ],
@@ -40879,7 +40879,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキから、同じカード名の[DebutホロメンとBuzzホロメン]1枚ずつと#Buzzグッズを持つサポートカード1枚を公開し、公開したカードを手札に加える。そしてデッキをシャッフルする。",
-      "en": "Reveal 1 [Debut holomem and Buzz holomem] with the same card name, and 1 support card with #BuzzMerch from your deck, and add the revealed cards to hand. Then, shuffle the deck."
+      "en": "Reveal 1 [Debut holomem and Buzz holomem] with the same card name, and 1 support card with #Buzz Merch from your deck, and add the revealed cards to hand. Then, shuffle the deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -41384,7 +41384,7 @@
       "jp": "◆Buzzホロメンに付いていたら能力追加\n■このツールが付いているホロメンのHP+30。\n■相手のメインステップの間、このツールが付いているホロメンのHPは相手の能力で減らず、変動しない。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "◆Additional ability if attached to Buzz holomem\n■The holomem this tool is attached to gets +30 HP.\n■During your opponent's main phase, the HP of the holomem this tool is attached to cannot be reduced or changed by your opponent's abilities.\n\nOnly 1 tool can be attached to each of your holomem."
     },
-    "tags": [ { "jp": "#Buzzグッズ", "en": "#BuzzMerch" } ],
+    "tags": [ { "jp": "#Buzzグッズ", "en": "#Buzz Merch" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -47760,7 +47760,7 @@
       "jp": "◆Buzzホロメンに付いていたら能力追加\nこのホロメンのアーツに必要な無色-1。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "◆Additional ability if attached to a Buzz holomem\nThis holomem requires -1 colorless for its Arts.\n\nOnly 1 tool can be attached to each of your holomem."
     },
-    "tags": [ { "jp": "#Buzzグッズ", "en": "#BuzzMerch" } ],
+    "tags": [ { "jp": "#Buzzグッズ", "en": "#Buzz Merch" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -48241,6 +48241,45 @@
         "img_path": { "jp": "unreleased/hBP08-003_OSR.webp", "en": null },
         "img_hash": "v2|H32=olerV6NV7qpLrd6sSa1bGZhVmwvIUlNnxmpp1TZqeZlmmZSqqlKptIGtrYobpeitL5UWKWpUYC3qVC9tYlEuVdomr1Q|CYM=3C5513",
         "ogbajoj_sheet_cells": [ [ 419256011, "C5" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-004": {
+    "card_number": "hBP08-004",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 1,
+        "name": { "jp": null, "en": "It Would Be Great If You Just Watched Su" },
+        "text": {
+          "en": "[1/Turn] Choose your opponent's center holomem. Until the end of your opponent's next turn, the chosen holomem requires +3 colorless for its baton pass."
+        }
+      },
+      {
+        "kind": "special",
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Ike Ike Don Don!" },
+        "text": {
+          "en": "[1/Game] Deal the same amount of special damage to 1 of your opponent's back holomem as the amount of damage taken by your opponent's center holomem."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-004",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-004_OSR.webp", "en": null },
+        "img_hash": "v2|H32=1kVetcVlVpVjszRacLWjTlzFa5OsSkuzvFpxoRZKSe1WerSqqlIvVYLwqeWVpHssKrRaWapVSoWqVVpQBlUrVVrqKlU|CYM=3C1A01",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C6" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -49182,6 +49221,46 @@
       }
     ]
   },
+  "hBP08-066": {
+    "card_number": "hBP08-066",
+    "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Is My Face That Red?" },
+        "text": { "en": "You may return 1 support card from your archive to the top of your deck." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Let's Sober Up, Shall We?" },
+        "power": "60",
+        "advantage": [ "yellow", 50 ],
+        "text": { "en": "You may archive 1~2 cards from your hand: This Arts gets +20 for each card archived." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-066",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-066_U.webp", "en": null },
+        "img_hash": "v2|H32=2q2mKpvKbau0WqluZLu0LCSx3EwstRtHTl+OlVtP1tmLtrxKlrTKtKVKVYtKjZ2SpCtqVaBSqbRStVqlSq10qkotslI|CYM=14332A",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C68" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-069": {
     "card_number": "hBP08-069",
     "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
@@ -49528,7 +49607,7 @@
     "text": {
       "en": "The holomem with this tool attached gets Arts+10.\n\n◆Additional ability if attached to a Buzz holomem\n[1/Turn]When this holomem downs your opponent's holomem, draw 2 cards.\n\nOnly 1 tool can be attached to each of your holomem."
     },
-    "tags": [ { "en": "#BuzzMerch" } ],
+    "tags": [ { "en": "#Buzz Merch" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
