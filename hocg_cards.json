@@ -49029,6 +49029,47 @@
       }
     ]
   },
+  "hBP08-052": {
+    "card_number": "hBP08-052",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "Energy Restoration Gummi" },
+        "power": "70",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If your opponent's center holomem requires 5 or more colorless cheers for its baton pass, send the top card of your cheer deck to your <Mizumiya Su>."
+        }
+      },
+      {
+        "cheers": [ "blue", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Gummis Are Yummy" },
+        "power": "180",
+        "advantage": [ "red", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-052",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-052_U.webp", "en": null },
+        "img_hash": "v2|H32=pNaNime6rcpLq2Ooz1MLlocaGNYyNVhtUjXSJRplVlS8TnYV1ZXaKrJarfRJrFSqSkqF0ouKKapm2UXVtliKiqKtKq0|CYM=1D1208",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C54" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-054": {
     "card_number": "hBP08-054",
     "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
