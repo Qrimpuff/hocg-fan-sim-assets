@@ -48153,7 +48153,7 @@
         "holo_power": 2,
         "name": { "jp": null, "en": "HOPE and DESPAIR" },
         "text": {
-          "en": "[1/Game]Draw 1 card for each cheer attached to all of your <IRyS>. Put 1 card from the top of your deck to holo power for each purple cheer attached to all of your <IRyS>."
+          "en": "[1/Game]Draw 1 card for each cheer attached to all of your <IRyS>. Put 1 card from the top of your deck to holo Power for each purple cheer attached to all of your <IRyS>."
         }
       }
     ],
@@ -49181,6 +49181,50 @@
         "img_path": { "jp": "unreleased/hBP08-056_U.webp", "en": null },
         "img_hash": "v2|H32=LKmVmq2tbeuTkiltS5KT3ENCWi2SUnglWllSVWitVFq9tfRV1KRtKanKoqgt21a2lF5pWlKtrUqpklStbcsqtVZLKa0|CYM=1A1B11",
         "ogbajoj_sheet_cells": [ [ 419256011, "C58" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-060": {
+    "card_number": "hBP08-060",
+    "name": { "jp": "FUWAMOCO", "en": "FUWAMOCO" },
+    "card_type": "holomem",
+    "colors": [ "red", "blue" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "BAU\" DOL♡" },
+        "text": {
+          "en": "[Collab Position Only] Your Oshi Skill \"Moco-chan!\" has its \"[holo Power:-3]\" changed to \"[holo Power:-2]\"."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Together Forever♡" },
+        "power": "50",
+        "text": {
+          "en": "If your Oshi holomem is blue <FUWAMOCO>, you may put the top card of your deck to holo Power."
+        }
+      }
+    ],
+    "extra": { "en": "This holomem is also regarded as <Fuwawa Abyssgard> <Mococo Abyssgard>" },
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-060",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-060_R.webp", "en": null },
+        "img_hash": "v2|H32=pPVJLq3srbnP6qmcI6tMKmJVErtWgtJVVLLWMJI1VhK1mFhDVKmpNKraWappJRTpaVprm6aVLkmyVimqlpZ0LaSUtos|CYM=151B16",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C62" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
