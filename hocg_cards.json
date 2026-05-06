@@ -49306,6 +49306,47 @@
       }
     ]
   },
+  "hBP08-065": {
+    "card_number": "hBP08-065",
+    "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "It's a Long Shot!" },
+        "text": {
+          "en": "[Center Position Only] You may archive 1 card from your hand: Roll a die once. If it is 1, draw 3 cards. If it is a number other than 1, draw 1 card."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "purple" ],
+        "name": { "jp": null, "en": "I'm Gonna Win!" },
+        "power": "50+",
+        "text": { "en": "If your hand has 2 or less cards, this Arts gets +30." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-065",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-065_R.webp", "en": null },
+        "img_hash": "v2|H32=auukCmurlpaktUWrtFZlqWjO8+DaFVKl1hVLtTJOTCWbWqxumlTStUmtSlI1mym52nCtq2pTYNutBqWqrapJWqCostA|CYM=0F2921",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C67" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-066": {
     "card_number": "hBP08-066",
     "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
