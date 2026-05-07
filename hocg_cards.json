@@ -35757,10 +35757,10 @@
     "oshi_skills": [
       {
         "holo_power": 1,
-        "name": { "jp": "混沌の化身", "en": "Personification of Chaos" },
+        "name": { "jp": "混沌の化身", "en": "Embodiment of Chaos" },
         "text": {
           "jp": "[ターンに1回]このゲーム中に、自分のSP推しスキルを使っていたなら、サイコロを1回振る。自分の手札が出た目の数と同じになるまで、自分のデッキを引く。",
-          "en": "[1/Turn]If you have used your SP Oshi Skill this game, roll a die once. Draw cards until your hand has the same number of cards as the number rolled."
+          "en": "[1/Turn]If you used your SP Oshi Skill during this game, roll a die once. Draw cards until your hand has the same number as the result."
         }
       },
       {
@@ -35772,7 +35772,7 @@
         },
         "text": {
           "jp": "[ゲームに1回]サイコロを1回振る。出た目の数1につき、自分の手札1枚をアーカイブする。",
-          "en": "[1/Game]Roll a die once. Archive a number of cards from your hand equal to the number rolled."
+          "en": "[1/Game]Roll a die once. Archive 1 card from your hand x the number rolled."
         }
       }
     ],
@@ -36012,11 +36012,11 @@
         "name": { "jp": "BIG PINK CAT", "en": "BIG PINK CAT" },
         "text": {
           "jp": "[センターポジション限定]自分のコラボホロメンが受けるダメージ-10。",
-          "en": "[Center Position Only]Your collab holomem takes -10 damage."
+          "en": "[Center Position Only] Your collab holomem takes -10 damage."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "I see you!", "en": "I see you!" }, "power": "30" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "I see you!", "en": "I See You!" }, "power": "30" } ],
     "tags": [
       { "jp": "#EN", "en": "#EN" },
       { "jp": "#Justice", "en": "#Justice" },
@@ -36383,7 +36383,7 @@
     "hp": 110,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "おかえりおな～", "en": "Okae-Riona~" }, "power": "30" }
+      { "cheers": [ "colorless" ], "name": { "jp": "おかえりおな～", "en": "WB-Riona!" }, "power": "30" }
     ],
     "extra": {
       "jp": "このホロメンはデッキに何枚でも入れられる",
@@ -36447,7 +36447,7 @@
         "name": { "jp": "一緒に共闘しよ", "en": "Let's fight together" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 [holomem with a Collab Effect and #FLOW GLOW] from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 [holomem with a Collab Effect and with #FLOW GLOW] from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -36757,22 +36757,22 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "君に届けっ", "en": "I'll deliver it to you" },
+        "name": { "jp": "君に届けっ", "en": "Reaching Out to You" },
         "text": {
           "jp": "このターンの間、自分のステージの#秘密結社holoXを持つホロメン1人のアーツ+30。このホロメンに#こよラボを持つサポートカードが付いているなら、かわりに、そのホロメンのアーツ+50。",
-          "en": "During this turn, 1 of your holomem with #holoX gets Arts+30. If this holomem has a support card with #KOYO LABO attached, that holomem gets Arts+50 instead."
+          "en": "Choose 1 holomem with #holoX on your stage. During this turn, the chosen holomem gets Arts+30. If a support card with #KOYO LABO is attached to this holomem, the chosen holomem gets Arts+50 instead."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "white", "colorless" ],
-        "name": { "jp": "青春の１ページ", "en": "A page of youth" },
+        "name": { "jp": "青春の１ページ", "en": "Page from Our Youth" },
         "power": "90+",
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "自分のアーカイブの#こよラボを持つサポートカード1枚をデッキの下に戻せる:このアーツ+40。",
-          "en": "You may return a support card with #KOYO LABO from your archive to the bottom of your deck:This Arts gets +40."
+          "en": "You may return 1 support card with #KOYO LABO from your archive to the bottom of your deck: This Arts gets +40."
         }
       }
     ],
@@ -36820,7 +36820,7 @@
     "hp": 140,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "手作りのお守り", "en": "Handmade charm" }, "power": "10" }
+      { "cheers": [ "colorless" ], "name": { "jp": "手作りのお守り", "en": "Handmade Charm" }, "power": "10" }
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#秘密結社holoX", "en": "#holoX" } ],
     "baton_pass": [ "colorless" ],
@@ -37225,7 +37225,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "祝祭", "en": "Festival" },
+        "name": { "jp": "祝祭", "en": "Celebration" },
         "power": "30",
         "text": {
           "jp": "自分のファンが付いているホロメンがいるなら、自分のエールデッキの上から1枚をこのホロメンに送れる。",
@@ -37482,17 +37482,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "濡羽色のほころび", "en": "Wet feather-colored cracks" },
+        "name": { "jp": "濡羽色のほころび", "en": "Tarnished Black Feathers" },
         "text": {
           "jp": "このターンに自分が#きのこを持つイベントを使っていたなら、自分のデッキを2枚引く。自分のブルームエフェクト「濡羽色のほころび」はターンに1回しか使えない。",
-          "en": "If you used an event with #Mushroom this turn, draw 2 cards. You may only use Bloom Effect \"Wet feather-colored cracks\" once per turn."
+          "en": "If you used an event with #Mushroom this turn, draw 2 cards. You may only use Bloom Effect \"Tarnished Black Feathers\" once per turn."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green" ],
-        "name": { "jp": "茸 （くさびら）", "en": "Mushroom (Kusabira)" },
+        "name": { "jp": "茸 （くさびら）", "en": "Kusabira" },
         "power": "40",
         "text": {
           "jp": "自分のアーカイブのエール1枚を自分の#ReGLOSSを持つホロメンに送れる。",
@@ -38023,7 +38023,7 @@
         "name": { "jp": "GYM RAT", "en": "GYM RAT" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキを3枚引いた後、手札2枚をアーカイブする。",
-          "en": "If you went second and it is your first turn, draw 3 cards, and archive 2 cards from your hand."
+          "en": "If you went second and it is your first turn, draw 3 cards, and archive 2 cards from hand."
         }
       }
     ],
@@ -38095,11 +38095,11 @@
     "arts": [
       {
         "cheers": [ "red" ],
-        "name": { "jp": "イチゴで彩る誕生日", "en": "Birthday colored with strawberries" },
+        "name": { "jp": "イチゴで彩る誕生日", "en": "Birthday Full of Strawberries" },
         "power": "40+",
         "text": {
           "jp": "自分の手札2枚をアーカイブできる:このアーツ+20。",
-          "en": "You may archive 2 cards from your hand:This Arts gets +20."
+          "en": "You may archive 2 cards from your hand: This Arts gets +20."
         }
       }
     ],
@@ -38351,22 +38351,22 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "間違っているぞ！", "en": "You're wrong!" },
+        "name": { "jp": "間違っているぞ！", "en": "You're Mistaken!" },
         "text": {
           "jp": "このゲーム中に、自分のSP推しスキル「ホークアイ」を使っていたなら、このホロメンのアーツ+20。",
-          "en": "If you used your SP Oshi skill \"Hawkeye\" this game, this holomem has Arts+20."
+          "en": "During this game, if you used your SP Oshi skill \"Hawkeye\", this holomem gets Arts+20."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "colorless", "colorless" ],
-        "name": { "jp": "永久不滅の絆", "en": "Eternal Bond" },
+        "name": { "jp": "永久不滅の絆", "en": "Everlasting Bonds" },
         "power": "120",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "自分の推しホロメンが〈鷹嶺ルイ〉なら、自分の手札2枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ50を与える。",
-          "en": "If your Oshi holomem is <Takane Lui>, you may archive 2 cards from your hand:Deal 50 special damage to your opponent's center holomem or collab holomem."
+          "en": "If your Oshi holomem is <Takane Lui>, you may archive 2 cards from your hand: Deal 50 special damage to your opponent's center holomem or collab holomem."
         }
       }
     ],
@@ -38483,11 +38483,11 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ムーンペース", "en": "Moon Pace" },
+        "name": { "jp": "ムーンペース", "en": "MoonPhase" },
         "power": "20",
         "text": {
           "jp": "このホロメンに青以外のエールが付いているなら、相手のバックホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。",
-          "en": "If a non-blue cheer is attached to this holomem, deal 10 special damage to 1 of your opponent's back holomem. However, your opponent's life does not reduce even if downed."
+          "en": "If cheers other than blue cheer are attached to this holomem, deal 10 special damage to 1 of your opponent's back holomem. However, your opponent's life does not reduce even if downed."
         }
       }
     ],
@@ -38924,22 +38924,22 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "ワンワーーン！！！", "en": "Bow wow!!!" },
+        "name": { "jp": "ワンワーーン！！！", "en": "Woof, Wooof!!!" },
         "text": {
           "jp": "自分の推しホロメンが〈紫咲シオン〉なら、相手のアーカイブのエール3枚を相手のセンターホロメンに送る。その後、自分のアーカイブのエール1枚を自分の〈紫咲シオン〉に送れる。",
-          "en": "If your Oshi holomem is <Murasaki Shion>, send 3 cheers from your opponent's archive to your opponent's center holomem. You may send 1 cheer from your archive to your <Murasaki Shion>."
+          "en": "If your Oshi holomem is <Murasaki Shion>, send 3 cheers from your opponent's archive to your opponent's center holomem. Then, you may send 1 cheer from your archive to your <Murasaki Shion>."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "blue", "purple" ],
-        "name": { "jp": "二人で紡いだ魔法", "en": "The magic we spun together" },
+        "name": { "jp": "二人で紡いだ魔法", "en": "Magic Created by the Pair" },
         "power": "100+",
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "自分のデッキの上から4枚を公開する。公開したホロメン1枚につき、このアーツ+20。そして公開したカードをアーカイブする。その中にイベントがあるなら、自分のデッキを2枚引く。",
-          "en": "Reveal the top 4 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards. If there is an event among them, draw 2 cards."
+          "en": "Reveal the top 4 cards of your deck. This Arts gets +20 for each holomem revealed among them. Then, archive the revealed cards. If an event is among them, draw 2 cards."
         }
       }
     ],
@@ -39058,7 +39058,7 @@
         "power": "20",
         "text": {
           "jp": "自分のデッキを1枚引いた後、手札1枚をアーカイブする。",
-          "en": "Draw 1 card, and archive 1 card from your hand."
+          "en": "Draw 1 card, and archive 1 card from hand."
         }
       }
     ],
@@ -39386,7 +39386,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "ロボ子と一緒にあそぼ", "en": "Let's play with Roboco" },
+        "name": { "jp": "ロボ子と一緒にあそぼ", "en": "Come Play with Roboco" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、〈ろぼさー〉2枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "If you went second and it is your first turn, reveal 2 <Roboser> from your deck, and add them to hand. Then, shuffle the deck."
@@ -39396,7 +39396,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ひとりじゃないよ", "en": "You're not alone" },
+        "name": { "jp": "ひとりじゃないよ", "en": "You're Not Alone" },
         "power": "30"
       }
     ],
@@ -39918,22 +39918,22 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ワンダーヴァイキング", "en": "Wan-der Viking" },
+        "name": { "jp": "ワンダーヴァイキング", "en": "Wonder Viking" },
         "text": {
           "jp": "[センターポジション限定][ターンに1回]自分のステージの〈ゆび〉1枚をデッキの下に戻せる:このターンの間、このホロメンのアーツに必要な無色-2。",
-          "en": "[Center Position Only][1/Turn]You may return 1 <Fingers> from your stage to the bottom of your deck:During this turn, this holomem requires -2 colorless for its Arts."
+          "en": "[Center Position Only] [1/Turn] You may return 1 <Fingers> from your stage to the bottom of your deck: During this turn, this holomem's Arts requires -2 colorless."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless", "colorless", "colorless", "colorless" ],
-        "name": { "jp": "終焉のウォウウォウアックス", "en": "Wow Wow Axe of the End" },
+        "name": { "jp": "終焉のウォウウォウアックス", "en": "Ragnarok WowWowAxe" },
         "power": "170+",
         "advantage": [ "green", 50 ],
         "text": {
           "jp": "このターンに自分の推しスキル「無限の体力」を使っていたなら、このアーツ+40。",
-          "en": "If you used your Oshi Skill \"Infinite Stamina\" this turn, this Arts gets +40."
+          "en": "If your Oshi Skill \"Infinite Stamina\" was used this turn, this Arts gets +40."
         }
       }
     ],
@@ -40061,16 +40061,14 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "勝てると思った？", "en": "Did you think you could win?" },
+        "name": { "jp": "勝てると思った？", "en": "Did You Think That You'd Win?" },
         "text": {
           "jp": "このホロメンが相手の1stホロメンから受けるアーツダメージ-30。",
           "en": "This holomem takes -30 Arts damage from your opponent's 1st holomem."
         }
       }
     ],
-    "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "ざんね～ん", "en": "Disappointment" }, "power": "20" }
-    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "ざんね～ん", "en": "Too Bad" }, "power": "20" } ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#1期生", "en": "#Gen 1" },
@@ -40559,7 +40557,7 @@
     "arts": [
       {
         "cheers": [ "yellow", "yellow" ],
-        "name": { "jp": "どこへだって行ける", "en": "I can go anywhere" },
+        "name": { "jp": "どこへだって行ける", "en": "We Can Go Anywhere" },
         "power": "60+",
         "text": {
           "jp": "このホロメンに付いている〈スバ友〉1枚につき、このアーツ+20。",
@@ -40879,7 +40877,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキから、同じカード名の[DebutホロメンとBuzzホロメン]1枚ずつと#Buzzグッズを持つサポートカード1枚を公開し、公開したカードを手札に加える。そしてデッキをシャッフルする。",
-      "en": "Reveal 1 [Debut holomem and Buzz holomem] with the same card name, and 1 support card with #Buzz Merch from your deck, and add the revealed cards to hand. Then, shuffle the deck."
+      "en": "Reveal 1 [Debut holomem and/or Buzz holomem] each with the same card name, and/or 1 support card with #Buzz Merch from your deck, and add the revealed cards to hand. Then, shuffle the deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -40918,7 +40916,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキを1枚引く。その後、自分のホロメン1人のHP100回復。",
-      "en": "Draw 1 card. Restore 100 HP to 1 of your holomem."
+      "en": "Draw 1 card. Then, restore 100 HP to 1 of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -40956,7 +40954,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "このカードは、自分の推しホロメンが〈儒烏風亭らでん〉でなければ使えない。\n\n自分のエールデッキの上から1枚をアーカイブする。その後、自分のアーカイブの〈儒烏風亭らでん〉1枚を手札に戻す。",
-      "en": "This card can only be used if your Oshi holomem is <Juufuutei Raden>.\n\nArchive the top card of your cheer deck. Return 1 <Juufuutei Raden> from your archive to hand."
+      "en": "This card can only be used if your Oshi holomem is <Juufuutei Raden>.\n\nArchive the top card of your cheer deck. Then, return 1 <Juufuutei Raden> from your archive to hand."
     },
     "tags": [ { "jp": "#きのこ", "en": "#Mushroom" } ],
     "max_amount": { "jp": 4 },
@@ -41086,7 +41084,7 @@
     "limited": true,
     "text": {
       "jp": "自分のデッキを2枚引く。その後、自分のライフが4以下なら、自分のこのターンにDebutホロメンからBloomした1stホロメン1人を、自分の手札のホロメンを使ってもう1回Bloomできる。",
-      "en": "Draw 2 cards. If your life is 4 or less, bloom 1 of your 1st holomem that bloomed from Debut this turn once more using a holomem from your hand."
+      "en": "Draw 2 cards. Then, if your life is 4 or less, you may bloom 1 of your 1st holomem that bloomed from Debut holomem this turn once more using a holomem from your hand."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
