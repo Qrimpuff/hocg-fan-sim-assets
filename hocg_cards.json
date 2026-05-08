@@ -49573,6 +49573,47 @@
       }
     ]
   },
+  "hBP08-081": {
+    "card_number": "hBP08-081",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "A Feast of Sound" },
+        "text": { "en": "Send 1 cheer from your archive to your center holomem <Otonose Kanade>." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "Still Growing this Year" },
+        "power": "40+",
+        "text": {
+          "en": "[Center Position Only] If you have 1 more cheer on your stage than your opponent, this Arts gets +20. If you have 2 or more, this Arts gets +40 instead."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-081",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-081_R.webp", "en": null },
+        "img_hash": "v2|H32=iqKprs2qrfNnukSur1FQrqsVWltyEzpVVlN6BZZMdIW0SlZLUdVola2qptBSraWXSV2ouqbaqquyVlm2rUpCWqatEm0|CYM=111230",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C83" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-085": {
     "card_number": "hBP08-085",
     "name": { "jp": "不知火フレア", "en": "Shiranui Flare" },
@@ -58841,6 +58882,18 @@
           [ 1326338526, "C107" ]
         ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hsd14/10010",
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD14-010",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD14-010_C.webp", "en": null },
+        "img_hash": "v2|H32=UnWrKtT2KaurqlTLq7pLrdNaUn2rPFRTqkoqtZNI1ForrdJFR/EtmioaLZuqdi2bHp+patu0iW6qiqmqqmotm+qDLps|CYM=0A0D0F",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C123" ] ],
+        "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
       }
