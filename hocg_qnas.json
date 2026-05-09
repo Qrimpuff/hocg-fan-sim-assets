@@ -2355,7 +2355,7 @@
     },
     "answer": {
       "jp": "特に条件の記載がない場合は、自分のメインステップとなります。\n「サイコロを振る時～」など、何かしらのアクションを条件とする記載がある場合は、そのタイミングで能力を発揮し、効果を解決します。",
-      "en": "If there is no condition stated, they are used during the Main Phase. If there is a condition such as \"Usable if your holomem's ability would roll a die,\" the Skill can be activated at that time."
+      "en": "If there is no trigger stated, they are used during your Main Phase. If there is a trigger condition such as \"Usable if your holomem's ability would roll a die,\" the Skill can be activated at that time."
     }
   },
   "Q201": {
