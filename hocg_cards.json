@@ -48163,7 +48163,7 @@
         "rarity": "OSR",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP08-001_OSR.webp", "en": null },
-        "img_hash": "v2|H32=eOsbaZi5ba2Jlay07awmc41qVGpZVZRK05KceZOo77JUrULVootJKl+pvWrJttEotOmrJkm6US1JaqW0SyqVKuFTFus|CYM=1A4116",
+        "img_hash": "v2|H32=eOsbaZmZ7a2IlKS07axmcw1qVGpZVZRK05LcOZO4a7ZUrULVootLKl+prUrJpvkodOmrJkmy0C3JaqW0WypVKmFRNuk|CYM=1E420F",
         "ogbajoj_sheet_cells": [ [ 419256011, "C3" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -56039,22 +56039,22 @@
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "鼓動の操縦者", "en": "Pilot of Beats" },
+        "name": { "jp": "鼓動の操縦者", "en": "Navigator of Beat" },
         "power": "80+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このターンに自分のホロメンがBloomしていたなら、このアーツ+50。",
-          "en": "If any of your holomem have bloomed this turn, this Arts gets +50."
+          "en": "If your holomem bloomed this turn, this Arts gets +50."
         }
       },
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": "アクセラビートブレイズ", "en": "Accele-beat Blaze" },
+        "name": { "jp": "アクセラビートブレイズ", "en": "Accele-BeatBlaze" },
         "power": "140",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このアーツで相手のセンターホロメンをダウンさせた時、与えたダメージが残りHPをオーバーしていたなら、オーバーしたダメージ30につき、自分のエールデッキの上から1枚を自分のバックホロメン1人に送る。",
-          "en": "When this Arts downed your opponent's holomem, for every 30 damage dealt more than the remaining HP send the top card of your cheer deck to 1 of your back holomem."
+          "en": "If this Arts downed your opponent's center holomem, and the damage dealt was greater than the remaining HP, send the top card of your cheer deck to 1 of your back holomem for every 30 damage greater."
         }
       }
     ],
