@@ -40989,7 +40989,7 @@
   },
   "hBP06-088": {
     "card_number": "hBP06-088",
-    "name": { "jp": "ドッキリうさぎ", "en": "Prank Rabbit" },
+    "name": { "jp": "ドッキリうさぎ", "en": "Prankster Rabbit" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
@@ -48611,7 +48611,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Café Time" },
         "text": {
-          "en": "If you have 2 or more resting holomem with #Justice, during this turn, all of your holomem with #Justice get Arts+20."
+          "en": "If you have 2 or more resting holomem with #Justice, during this turn, all holomem on your stage get Arts+20."
         }
       }
     ],
@@ -48629,6 +48629,47 @@
         "img_path": { "jp": "unreleased/hBP08-025_R.webp", "en": null },
         "img_hash": "v2|H32=rKpkHKMsbaraQznj1Mop05bUENpKlVJVVg1qrZZeLK0Nu6xmVFVKJ6ouctqvolDVddulKotaLq1bwlKtaalSW0uldts|CYM=172034",
         "ogbajoj_sheet_cells": [ [ 419256011, "C27" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-026": {
+    "card_number": "hBP08-026",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Mechanical Streich" },
+        "text": {
+          "en": "If you have 2 or more resting holomem with #Justice, during this turn, this holomem gets Arts+50."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": null, "en": "Musical Winde" },
+        "power": "90",
+        "advantage": [ "blue", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-026",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-026_U.webp", "en": null },
+        "img_hash": "v2|H32=rKo0Ra+qvabiTIv3skwrX9mUdCvY1lu5EmXLljJthLFS0yxrlFSPtipZUtJV0zSpqrWqWqskUtlVimqpapLSpUqt0pY|CYM=250E39",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C28" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
