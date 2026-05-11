@@ -5868,7 +5868,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-001〈ラオーラ・パンテーラ〉のSP推しスキル「BIG TROUBLE!!」を使った後に、相手がhBP06-088〈ドッキリうさぎ〉を使い、自分のセンターホロメンを選びました。\nこの場合、選ばれたホロメンはお休みしてバックポジションへ移動しますか？",
-      "en": "After I have used hBP06-001 Raora Panthera's SP Oshi skill \"BIG TROUBLE!\"\", my opponent used hBP06-088 Prank Rabbit and chose my center holomem.\nIn this case, does the chosen holomem still rest and move to the back position?"
+      "en": "After I have used hBP06-001 Raora Panthera's SP Oshi skill \"BIG TROUBLE!\"\", my opponent used hBP06-088 Prankster Rabbit and chose my center holomem.\nIn this case, does the chosen holomem still rest and move to the back position?"
     },
     "answer": { "jp": "はい、移動します。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP06-001", "hBP06-088" ]
@@ -6285,7 +6285,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-088〈ドッキリうさぎ〉は、相手のホロメンがセンターホロメンのみの場合でも使うことはできますか？",
-      "en": "Can I use hBP06-088 Prank Rabbit even if my opponent only has a center holomem?"
+      "en": "Can I use hBP06-088 Prankster Rabbit even if my opponent only has a center holomem?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-088" ]
