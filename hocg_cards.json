@@ -48558,6 +48558,49 @@
       }
     ]
   },
+  "hBP08-019": {
+    "card_number": "hBP08-019",
+    "name": { "jp": "ラオーラ・パンテーラ", "en": "Raora Panthera" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Buon Appetito -Enjoy Your Meal-" },
+        "text": {
+          "en": "■While this holomem does not have <Chattino> attached, this holomem requires -1 white cheer for its Arts.\n■While this holomem has <Chattino> attached, this holomem gets +30 HP."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "Let's Share This Happiness" },
+        "power": "10",
+        "text": {
+          "en": "If this holomem does not have <Chattino> attached, attach 1 <Chattino> from your deck to this holomem. Then, shuffle the deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-019",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-019_U.webp", "en": null },
+        "img_hash": "v2|H32=9qouVjDKVCnaVtR51Ka2UK3qtbgsXCstSjULKUNhyaZi2Zaqq2oqrXStpVIu08mSwJtqVVaVKrUtbarWbYs2zVuhctk|CYM=043542",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C21" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-024": {
     "card_number": "hBP08-024",
     "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
