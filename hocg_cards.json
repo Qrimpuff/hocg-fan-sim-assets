@@ -49825,6 +49825,30 @@
       }
     ]
   },
+  "hBP08-096": {
+    "card_number": "hBP08-096",
+    "name": { "jp": "優しいモンスター", "en": "Gentle Monster" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Ichijou Ririka>.\n\nReveal 1 [<Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add them to hand. Then, shuffle the deck. If there are 3 or more <Struggle Meal> in your archive, during this turn, all <Ichijou Ririka> on your stage get Arts+50."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-096",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-096_U.webp", "en": null },
+        "img_hash": "v2|H32=cmW7blRFJLknu1Sbr7Op0clSzGSvrNQM1qorvatTqVIrZJJF8Xhsmg+PLZuFhyW7pYvpKj0+jS7g4anLHy4tm+B4KNk|CYM=03181A",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C98" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-098": {
     "card_number": "hBP08-098",
     "name": { "jp": "hololive Mythology", "en": "hololive Mythology" },
