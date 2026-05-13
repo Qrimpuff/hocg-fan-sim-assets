@@ -49036,6 +49036,40 @@
       }
     ]
   },
+  "hBP08-047": {
+    "card_number": "hBP08-047",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Yes, Genius!" },
+        "text": {
+          "en": "If you went second and it is your first turn, draw 1 card, and draw 1 more card for each colorless required for your opponent's center holomem's baton pass."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "blue" ], "name": { "jp": null, "en": "Is Your Su-Charge at 100%?" }, "power": "30" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-047",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-047_C.webp", "en": null },
+        "img_hash": "v2|H32=qKpMbaeqTqXCWqu2SleZZqiV1io+ZdaaVmVt0TqRKWUqpaQufFQqpSqlWdpSqVL6tcpaVYXKap1WSmJJpaRWKU1LUpo|CYM=433808",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C49" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-048": {
     "card_number": "hBP08-048",
     "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
