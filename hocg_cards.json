@@ -39314,7 +39314,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": null, "en": "unreleased/hBP06-060_P.webp" },
-        "img_hash": "v2|H32=1D6nw80+tdVrvamES607TlmpUmor15IqK9VZKpbaWeaSclSV0lItZImuSypSVV2rqkhataWqVbVVaVVVVqkq1XTttSo|CYM=016372",
+        "img_hash": "v2|H32=VNQnS9V2ptWrPqfVa60tzkut8cpktaOqaFUkq2laVK+tStZLUgm/pFXSKbpK0k23qmpKtbUaSZXRaklVXamqWkqtWlU|CYM=044453",
         "ogbajoj_sheet_cells": [ [ 419749048, "C78" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -41146,7 +41146,7 @@
         "rarity": "P",
         "illustrator": null,
         "img_path": { "jp": null, "en": "unreleased/hBP06-090_P.webp" },
-        "img_hash": "v2|H32=tNK0srdmstJLrK9u082dKrRp2M4sI0ptT6xKNVuslx3okrSWnKWmldZqWqtJaVH6aq0iqa1WVapSpZokJV1JP9JWtqQ|CYM=4B4D06",
+        "img_hash": "v2|H32=ZJy4a3UkkoqjNtGkKddrtQRuatVbaqTaWlbtkrJV6wdkerSkrdYtK4r2rVuVqq0tcstSSlktpVN6aLVqJm1Y+umqNNk|CYM=2C430E",
         "ogbajoj_sheet_cells": [ [ 419749048, "C82" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -41337,7 +41337,7 @@
   },
   "hBP06-096": {
     "card_number": "hBP06-096",
-    "name": { "jp": "2人あわせてラムダック！", "en": "The two of us are LAMBDUCK!" },
+    "name": { "jp": "2人あわせてラムダック！", "en": "2 of Us Form LAMBDUCK!" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
@@ -45876,6 +45876,18 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp07/10137",
         "tcgplayer_product_id": null,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP07-067",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP07-067_P.webp", "en": null },
+        "img_hash": "v2|H32=pKoyTK3qhapLSo26U6yLYbbUK61WViuVVitT11qpUmWttbRqkmVpVZZSWrVNi6CVrU2yova4Soup1y6tiZJWrVvalpY|CYM=0E2318",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C91" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -45945,7 +45957,7 @@
         "img_path": { "jp": "hPR/hBP07-068_P.webp", "en": null },
         "img_last_modified": { "jp": "Thu, 19 Mar 2026 09:00:25 GMT" },
         "img_hash": "v2|H32=rOsrKlvq6rJSK7CwVDVVapVc2mySSqo1WiVaNVI1UmUXRZZF3nRFVWyyRJUqy1nVaVnRwbZVUtMmlWnplZS1NPB00qU|CYM=005A51",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C91" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C92" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10180",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -46158,7 +46170,7 @@
         "img_path": { "jp": "hPR/hBP07-071_P.webp", "en": null },
         "img_last_modified": { "jp": "Thu, 19 Mar 2026 09:00:26 GMT" },
         "img_hash": "v2|H32=vLabKquyQ63jWiutVds7SpGl8EpLZbIpWlXLsVqVTDKbkdZFp1SHlqtqYVplqlKybalqlba2K9HSql2hfo3TVktLtio|CYM=2E480A",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C92" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C93" ] ],
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10181",
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -48319,6 +48331,18 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-005",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-005_P.webp", "en": null },
+        "img_hash": "v2|H32=jFbSLU1aprRLS7SSiqVVea6kV1tmpavaUrWtStO2Um2tulRrUrWtLVWUqtQqVbbUaWu1tq1qira0qq1UlrW1qlmaVao|CYM=024234",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C94" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -48510,6 +48534,57 @@
         "img_path": { "jp": "unreleased/hBP08-013_U.webp", "en": null },
         "img_hash": "v2|H32=aK0rZWylbFKMcsySzZKJtKuUmTmz0zbLVtt22saL9C1jLpZuqmDpsp9WablL4cnVJtUt0GlrL4+tqqC0tLZp6QXPUgo|CYM=141925",
         "ogbajoj_sheet_cells": [ [ 419256011, "C15" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-017": {
+    "card_number": "hBP08-017",
+    "name": { "jp": "ときのそら", "en": "Tokino Sora" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Vah!" },
+        "text": { "en": "Reveal 1 <Ankimo> from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "Let's All Keep Moving Forward!" },
+        "power": "40+",
+        "text": { "en": "If you have a 2nd holomem with #Gen 0 on your stage, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-017",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-017_R.webp", "en": null },
+        "img_hash": "v2|H32=sIpLZbDK1BVgl7RU1DIkiqxmjZpMsasZUrtju5NqY6rLzNZqammpNhVV/ZSUrdq0qVq2tZWHag2Jomq1VpW2WZV0Wls|CYM=234135",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C19" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-017",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-017_P.webp", "en": null },
+        "img_hash": "v2|H32=qsomi5zMtLDTNLRQTCbNSlzrzcr2yMvUsk1LpSM3GiUnsrJKSmVIJ0WraNXqUPWqrfpOgZVOdbGuF/JKVq2m1tZktMI|CYM=172F2D",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C95" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -55960,10 +56035,10 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": "エンジン全開！レッツゴー！", "en": "Full throttle! Let's go!" },
+        "name": { "jp": "エンジン全開！レッツゴー！", "en": "Let's Rev Our Engines and Go!" },
         "text": {
           "jp": "[ターンに1回]このターンに自分のホロメンがBloomしていたなら、このターンの間、自分のステージの#FLOW GLOWを持つホロメン1人のアーツ+30。",
-          "en": "[1/Turn]If any of your holomem have bloomed this turn, during this turn, 1 of your holomem with #FLOW GLOW gets Arts+30."
+          "en": "[1/Turn] If your holomem has bloomed this turn, during this turn, 1 holomem with #FLOW GLOW on your stage gets Arts+30."
         }
       },
       {
@@ -55971,11 +56046,11 @@
         "holo_power": 2,
         "name": {
           "jp": "向こう側の景色を見に行かない？",
-          "en": "Do you want to see the scenery from high above?"
+          "en": "Won't You Come with Me to Chase Greater Heights?"
         },
         "text": {
           "jp": "[ゲームに1回]自分のエールデッキの上から1枚を自分のホロメンに送る。その後、自分の#FLOW GLOWを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+20。",
-          "en": "[1/Game]Send the top card of your cheer deck to your holomem. Choose 1 of your holomem with #FLOW GLOW. During this turn, the chosen holomem gets Arts+20 for each of the chosen holomem's cheers."
+          "en": "[1/Game] Send the top card of your cheer deck to your holomem. Then, choose 1 of your holomem with #FLOW GLOW. During this turn, the chosen holomem gets Arts+20 for each of the chosen holomem's cheers."
         }
       }
     ],
@@ -56006,7 +56081,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "はじまりんど～～～！", "en": "HajimaRindo~~~!" },
+        "name": { "jp": "はじまりんど～～～！", "en": "Ready, Set, Rindo!" },
         "power": "30"
       }
     ],
@@ -56071,13 +56146,13 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "エンジン全開 演じない自然体",
-          "en": "All Engines Go, Not for Show, Just Natural"
+          "en": "Going Full Throttle, Not an Act, All Natural"
         },
         "power": "30"
       },
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": "全身全霊 越えてく限界", "en": "With Heart And Soul, Surpassing Limits We Go" },
+        "name": { "jp": "全身全霊 越えてく限界", "en": "Giving It All, Crashing Through the Limits" },
         "power": "80"
       }
     ],
@@ -56113,14 +56188,14 @@
         "name": { "jp": "300馬力だよ！", "en": "300 Horsepower!" },
         "text": {
           "jp": "自分の推しホロメンが〈輪堂千速〉で、相手のステージに1stホロメンがいるなら、このターンにBloomしたこのホロメンは、自分の手札の2ndホロメンを使ってもう1回Bloomできる。",
-          "en": "If your Oshi holomem is <Rindo Chihaya> and your opponent has a 1st holomem on their stage, on the turn that this holomem bloomed it may bloom once more using a 2nd holomem from your hand."
+          "en": "If your Oshi holomem is <Rindo Chihaya>, and your opponent's stage has a 1st holomem, you may bloom this holomem that bloomed this turn once more using a 2nd holomem from your hand."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "パワフルな運転手だよ！", "en": "I'm a powerful driver!" },
+        "name": { "jp": "パワフルな運転手だよ！", "en": "Powerful Driver!" },
         "power": "50",
         "text": {
           "jp": "自分のステージに#FLOW GLOWを持つホロメンが3人以上いるなら、自分のエールデッキの上から1枚を自分のバックホロメンに送れる。",
@@ -56157,21 +56232,21 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "FLOW GLOWのDJ兼運転手担当", "en": "The DJ and driver of FLOW GLOW" },
+        "name": { "jp": "FLOW GLOWのDJ兼運転手担当", "en": "DJ and Driver of FLOW GLOW" },
         "text": {
           "jp": "自分のアーカイブの#FLOW GLOWを持つホロメン1～3枚を好きな順でデッキの下に戻せる。ホロメン3枚をデッキに戻したなら、自分のエールデッキの上から1枚を自分のホロメンに送れる。",
-          "en": "You may return 1~3 holomem with #FLOW GLOW from your archive to the bottom of your deck. If you returned 3 holomem, you may send the top card of your cheer deck to your holomem."
+          "en": "You may return 1~3 holomem with #FLOW GLOW from your archive to the bottom of your deck in any order. If 3 holomem were returned to deck, you may send the top card of your cheer deck to your holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green" ],
-        "name": { "jp": "行きます！！！！", "en": "Let's Go!!!!" },
+        "name": { "jp": "行きます！！！！", "en": "Here We Go!!!!" },
         "power": "20+",
         "text": {
           "jp": "このターンに自分のホロメンがBloomしていたなら、このターンの間、自分のステージの〈輪堂千速〉1人のアーツ+20。",
-          "en": "If any of your holomem have bloomed this turn, during this turn, 1 of your <Rindo Chihaya> gets Arts+20."
+          "en": "If your holomem bloomed this turn, during this turn, 1 <Rindo Chihaya> on your stage gets Arts+20."
         }
       }
     ],
@@ -56265,7 +56340,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ん〜〜〜〜〜ッヴィヴィ〜！", "en": "Nnnnnn Vivi!" },
+        "name": { "jp": "ん〜〜〜〜〜ッヴィヴィ〜！", "en": "Mm...... Vivi!" },
         "power": "20"
       }
     ],
@@ -56315,17 +56390,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "FLOW GLOWのメイク担当", "en": "The makeup artist of FLOW GLOW" },
+        "name": { "jp": "FLOW GLOWのメイク担当", "en": "Makeup Artist of FLOW GLOW" },
         "text": {
           "jp": "相手の手札すべてを見る。その中にサポートカードがあるなら、自分のデッキを1枚引く。",
-          "en": "Look at the cards in your opponent's hand. If there are any support cards among them, draw 1 card."
+          "en": "Look at your opponent's entire hand. If a support card is among them, draw 1 card."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "そこに愛はあるんや！", "en": "Love is here!" },
+        "name": { "jp": "そこに愛はあるんや！", "en": "That's Love Right There!" },
         "power": "30"
       }
     ],
@@ -56358,10 +56433,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "美の求道者", "en": "Seeker of True Beauty" },
+        "name": { "jp": "美の求道者", "en": "Seeker of Beauty" },
         "text": {
           "jp": "自分のデッキの上から、相手の手札と同じ枚数を見る。その中から、カード1枚を手札に加える。そして残ったカードをデッキに戻してシャッフルする。",
-          "en": "Look at a number of cards from the top of your deck equal to the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the remaining cards to your deck and shuffle it."
+          "en": "Look at a number of cards from the top of your deck equal to the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the rest to the deck and shuffle it."
         }
       }
     ],
@@ -56419,10 +56494,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "私の元においで～っ", "en": "Come to me!" },
+        "name": { "jp": "私の元においで～っ", "en": "Gather Around" },
         "text": {
           "jp": "自分の手札1枚をアーカイブできる:自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may archive 1 card from your hand:Reveal 1 [holomem with a Collab Effect and with #FLOW GLOW] from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may archive 1 card from your hand: Reveal 1 [holomem with Collab Effect and #FLOW GLOW] from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -56433,7 +56508,7 @@
         "power": "50+",
         "text": {
           "jp": "自分のステージに#FLOW GLOWを持つ2nd以上のホロメンがいるなら、このアーツ+30。",
-          "en": "If there is a 2nd or greater holomem with #FLOW GLOW on your stage, this Arts gets +30."
+          "en": "If your stage has a 2nd or greater holomem with #FLOW GLOW, this Arts gets +30."
         }
       }
     ],
@@ -56476,7 +56551,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のステージのホロメン全員が#FLOW GLOWを持つホロメンでなければ使えない。\n\n自分のアーカイブのエール3枚を選び、自分のセンターホロメンとコラボホロメンに割り振って送る。ただし、ホロメン1人に送る枚数は2枚まで。",
-      "en": "This card can only be used if all holomem on your stage have #FLOW GLOW.\n\nChoose 3 cheers from your archive, and send them to your center holomem and collab holomem divided as you choose. However, you may only send up to 2 cheers to each holomem."
+      "en": "This card can only be used if all holomem on your stage are holomem with #FLOW GLOW.\n\nChoose 3 cheers from your archive, and send them divided as you choose to your center holomem and collab holomem. However, only up to 2 cheers can be sent to 1 holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -56540,7 +56615,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている#FLOW GLOWを持つホロメンのアーツ+10。\n\n◆#FLOW GLOWを持つホロメンに付いていたら能力追加\n自分のエンドステップが開始する時、このターンにこのホロメンがアーツを使っていたなら使える:自分のデッキから、#FLOW GLOWを持つ[DebutホロメンかSpotホロメン]1枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、このホロメンに付いている〈ふぐ太郎〉1枚をデッキの下に戻す。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with #FLOW GLOW this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a holomem with #FLOW GLOW\nUsable at the start of your end phase, if the holomem this tool is attached to used Arts this turn:Reveal 1 [Debut holomem or Spot holomem] with #FLOW GLOW from your deck, and place it on stage. Then, shuffle the deck. Return this tool to the bottom of the deck.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem with #FLOW GLOW this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to holomem with #FLOW GLOW\nUsable at the beginning of your end phase, if the holomem this tool is attached to used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOW GLOW from your deck, and place it on stage. Then, shuffle the deck. Return this tool to the bottom of the deck.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -56568,19 +56643,19 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": "虎視眈々", "en": "Eagerly awaiting" },
+        "name": { "jp": "虎視眈々", "en": "Lying in Wait" },
         "text": {
           "jp": "[ターンに1回]自分のアーカイブのエール1～2枚を自分のエールが付いていない#FLOW GLOWを持つホロメン1人に送る。",
-          "en": "[1/Turn]Send 1~2 cheers from your archive to 1 of your holomem with #FLOW GLOW that has no cheers attached."
+          "en": "[1/Turn] Send 1~2 cheers from your archive to 1 of your holomem with #FLOW GLOW and no cheers attached."
         }
       },
       {
         "kind": "special",
         "holo_power": 2,
-        "name": { "jp": "ニコたんの名を呼ぶがいいさ！", "en": "Just say my name!" },
+        "name": { "jp": "ニコたんの名を呼ぶがいいさ！", "en": "Just Say My Name!" },
         "text": {
           "jp": "[ゲームに1回]自分の#FLOW GLOWを持つホロメンの能力でエールをアーカイブした時に使える:相手のセンターホロメンかコラボホロメンどちらかに、アーカイブしたエール1枚につき、特殊ダメージ30を与える。",
-          "en": "[1/Game]Usable when the ability of your holomem with #FLOW GLOW archives cheer:Deal 30 special damage for each cheer archived by that ability to your opponent's center holomem or collab holomem."
+          "en": "[1/Game] Usable when the ability of your holomem with #FLOW GLOW archives cheers: Deal 30 special damage for each cheer archived to your opponent's center holomem or collab holomem."
         }
       }
     ],
@@ -56611,7 +56686,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ニコたんが～来たァー！", "en": "Niko-tan has arrived!" },
+        "name": { "jp": "ニコたんが～来たァー！", "en": "Here's Niko!" },
         "power": "20"
       }
     ],
@@ -56676,7 +56751,7 @@
         "cheers": [ "colorless", "colorless" ],
         "name": {
           "jp": "にこと出会えたの何かのキセキ",
-          "en": "It's Kind of a Miracle That We Could Meet"
+          "en": "Meeting Niko Is Nothing Short of a Miracle"
         },
         "power": "50"
       },
@@ -56684,7 +56759,7 @@
         "cheers": [ "colorless", "colorless", "colorless" ],
         "name": {
           "jp": "期待せよ 牙で噛まれちゃうシゲキ",
-          "en": "Look Out for Me Biting You With Fangs, My Tendency"
+          "en": "Look Forward to the Thrill of Being Bitten"
         },
         "power": "80"
       }
@@ -56718,17 +56793,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "人を笑顔にするためならば", "en": "To see people smile" },
+        "name": { "jp": "人を笑顔にするためならば", "en": "Willing to Give Her Life" },
         "text": {
           "jp": "自分のステージのエール2枚をアーカイブできる:自分のアーカイブの〈虎金妃笑虎〉1枚を手札に戻す。",
-          "en": "You may archive 2 cheers from your stage:Return 1 <Koganei Niko> from your archive to hand."
+          "en": "You may archive 2 cheers from your stage: Return 1 <Koganei Niko> from your archive to hand."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "自分の人生すらも捧げられる", "en": "I'm willing to give even my life" },
+        "name": { "jp": "自分の人生すらも捧げられる", "en": "To See People Smile" },
         "power": "30",
         "text": {
           "jp": "自分のエールデッキの上から1枚を自分の〈虎金妃笑虎〉に送れる。",
@@ -56765,7 +56840,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "FLOW GLOWのお笑い担当", "en": "The jokester of FLOW GLOW" },
+        "name": { "jp": "FLOW GLOWのお笑い担当", "en": "Jokester of FLOW GLOW" },
         "text": {
           "jp": "自分のアーカイブのエール1枚を自分の#FLOW GLOWを持つバックホロメンに送れる。",
           "en": "You may send 1 cheer from your archive to your back holomem with #FLOW GLOW."
@@ -56775,7 +56850,7 @@
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "百折不撓", "en": "Unyielding" },
+        "name": { "jp": "百折不撓", "en": "Never Give Up" },
         "power": "30+",
         "text": {
           "jp": "自分のステージにエールが5枚以上あるなら、このアーツ+20。",
@@ -56812,22 +56887,22 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "戯笑の使者", "en": "Emissary of Ridicule" },
+        "name": { "jp": "戯笑の使者", "en": "Emissary of Jest" },
         "text": {
           "jp": "自分のパフォーマンスステップが開始する時、自分の手札の#FLOW GLOWを持つホロメン1枚をアーカイブできる:自分のアーカイブの黄エール1枚を自分の〈虎金妃笑虎〉に送る。",
-          "en": "At the beginning of your performance phase, you may archive 1 holomem with #FLOW GLOW from your hand:Send 1 yellow cheer from your archive to your <Koganei Niko>."
+          "en": "At the beginning of your performance phase, you may archive 1 holomem with #FLOW GLOW from your hand: Send 1 yellow cheer from your archive to your <Koganei Niko>."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "虎嘯風生", "en": "Tiger Roars, Winds Rise" },
+        "name": { "jp": "虎嘯風生", "en": "Tigers Roar and the Wind Rises" },
         "power": "40+",
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "このホロメンのエールを好きな枚数アーカイブできる:アーカイブしたエール1枚につき、このアーツ+40。",
-          "en": "You may archive any number of cheers from this holomem:This Arts gets +40 for each card archived."
+          "en": "You may archive any number of cheers from this holomem: This Arts gets +40 for each cheer archived."
         }
       }
     ],
@@ -56873,7 +56948,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "しゅぴしゅわー", "en": "​¡Shupi-shuwa!" },
+        "name": { "jp": "しゅぴしゅわー", "en": "​Shupi Shuwa" },
         "power": "20",
         "text": {
           "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+1。",
@@ -56927,7 +57002,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "FLOW GLOWのえらい宣伝担当", "en": "The publicity manager of FLOW GLOW" },
+        "name": { "jp": "FLOW GLOWのえらい宣伝担当", "en": "Publicity Manager of FLOW GLOW" },
         "text": {
           "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+1。",
           "en": "Until the end of your opponent's next turn, 1 of your opponent's center holomem requires +1 colorless for its baton pass."
@@ -56937,11 +57012,11 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "愛は時間ですよ", "en": "Love is Time" },
+        "name": { "jp": "愛は時間ですよ", "en": "Love Is Time" },
         "power": "30",
         "text": {
           "jp": "このアーツの対象が相手のバトンタッチに必要な無色が2つ以上のホロメンなら、自分のエールデッキの上から1枚を自分のバックホロメンに送る。",
-          "en": "If the target of this Arts has a baton pass that costs 2 or more, send the top card of your cheer deck to your back holomem."
+          "en": "If this Arts' target is your opponent's holomem that requires 2 or more colorless for its baton pass, send the top card of your cheer deck to your back holomem."
         }
       }
     ],
@@ -56987,7 +57062,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "感情の伝令者", "en": "Messenger of Emotions" },
+        "name": { "jp": "感情の伝令者", "en": "Herald of Emotions" },
         "text": {
           "jp": "相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+3。",
           "en": "Until the end of your opponent's next turn, 1 of your opponent's center holomem requires +3 colorless for its baton pass."
@@ -57002,7 +57077,7 @@
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このアーツの対象のホロメンに、そのホロメンのバトンタッチに必要な無色1つにつき、特殊ダメージ10を与える。",
-          "en": "Deal 10 special damage to the target of this arts for each cheer of that holomem's baton pass cost."
+          "en": "Deal 10 special damage to this Arts' target holomem for each colorless required for that holomem's baton pass."
         }
       }
     ],
