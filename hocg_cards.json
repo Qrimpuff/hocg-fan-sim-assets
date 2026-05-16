@@ -48346,6 +48346,44 @@
       }
     ]
   },
+  "hBP08-006": {
+    "card_number": "hBP08-006",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "oshi_holomem",
+    "colors": [ "purple" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "WORLD DOMINATION" },
+        "text": {
+          "en": "If all holomem on your opponent's stage have a different color to their Oshi holomem, the Arts of all of your <Ninomae Ina'nis> may be used without cheer requirements."
+        }
+      },
+      {
+        "holo_power": "x",
+        "name": { "jp": null, "en": "Colors of Ina'nis" },
+        "text": {
+          "en": "[1/Turn] For each holo Power archived for this ability, choose 1 holomem on your opponent's stage. During this turn, the chosen holomem are regarded as holomem with all colors."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-006",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-006_OSR.webp", "en": null },
+        "img_hash": "v2|H32=VG1XLVMtVJmy5ZwypevUKqyq1YpQKjKCE0owraZNLcuWStSSslorr6yptSpJq4u2QqNpoKo0r2VLtepZVmVRUSooplU|CYM=583C06",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C8" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-007": {
     "card_number": "hBP08-007",
     "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
@@ -49077,6 +49115,50 @@
       }
     ]
   },
+  "hBP08-045": {
+    "card_number": "hBP08-045",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Looks Like a Bountiful Harvest This Year!" },
+        "text": {
+          "en": "During this turn, when you roll a die for the ability of your Oshi holomem <Hakos Baelz> or your holomem <Hakos Baelz>, regard all numbers on the die as doubled."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": null, "en": "I Want to Live True to Myself" },
+        "power": "50+",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "en": "Choose 1 holomem on your stage and roll a die once. During this turn, the chosen holomem gets Arts+10x the result."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-045",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-045_R.webp", "en": null },
+        "img_hash": "v2|H32=WsoxipfKjDykrIy0rCSZptuSWslKUXjZZlljqWtpciTLJh5NrVTodS/LVKpSoWlVoFWu+qaK8Ipa6WmllKa02hZrWkU|CYM=0F3039",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C47" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-046": {
     "card_number": "hBP08-046",
     "name": { "jp": "エリザベス・ローズ・ブラッドフレイム", "en": "Elizabeth Rose Bloodflame" },
@@ -49693,6 +49775,47 @@
       }
     ]
   },
+  "hBP08-073": {
+    "card_number": "hBP08-073",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Behave Yourself, Okay?" },
+        "text": {
+          "en": "Choose 2 holomem on your opponent's stage. During this turn, the chosen holomem are regarded as holomem with all colors."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "No Cookies for Snack Time!" },
+        "power": "90",
+        "advantage": [ "blue", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-073",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-073_U.webp", "en": null },
+        "img_hash": "v2|H32=KOobQqWqzIqmrKWelywjKZsQGWmSUZCVUnVmtVqnMKVrRlZPWnVpqi/bJLmlqWnVIbur8iuLlJKl2ha919qubOBLklo|CYM=072B1E",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C75" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-077": {
     "card_number": "hBP08-077",
     "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
@@ -49801,6 +49924,47 @@
         "img_path": { "jp": "unreleased/hBP08-081_R.webp", "en": null },
         "img_hash": "v2|H32=iqKprs2qrfNnukSur1FQrqsVWltyEzpVVlN6BZZMdIW0SlZLUdVola2qptBSraWXSV2ouqbaqquyVlm2rUpCWqatEm0|CYM=111230",
         "ogbajoj_sheet_cells": [ [ 419256011, "C83" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-082": {
+    "card_number": "hBP08-082",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "It's Supposed to Be a Joyous Day, But..." },
+        "text": {
+          "en": "If you have more cheers on stage than your opponent, during this turn, this holomem gets Arts+40."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "I Can't Stop Crying" },
+        "power": "100",
+        "advantage": [ "white", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-082",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-082_U.webp", "en": null },
+        "img_hash": "v2|H32=riYpKk8qWapLq1OqqyMlhqUWqJWGlVLVUtXS0fJQtFC23FZVVWVdL3oqacqt0nX4Hg6quqqeqZZ02RWV4NCqoqouVqs|CYM=0B1322",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C84" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
