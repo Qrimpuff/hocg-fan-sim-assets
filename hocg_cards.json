@@ -48954,6 +48954,50 @@
       }
     ]
   },
+  "hBP08-032": {
+    "card_number": "hBP08-032",
+    "name": { "jp": "パヴォリア・レイネ", "en": "Pavolia Reine" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 180,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "On a New Journey" },
+        "text": {
+          "en": "Choose 1 2nd holomem [<Kureiji Ollie> or <Anya Melfissa>] on your stage: During this turn, the chosen holomem gets Arts+70."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Structural Color" },
+        "power": "80+",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "If you have a holomem with #ID Gen 2 other than <Pavolia Reine> with purple cheer or yellow cheer attached, this Arts gets +70."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Bird" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-032",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-032_U.webp", "en": null },
+        "img_hash": "v2|H32=rKprHq2qxaNrSLSm03AbjrI0lE6yfahMUs1LyUpVWpnNkpRslVStUrayUpdSkduWaUmq1C5LJr1VpUstaSkSaqoqFss|CYM=2B1610",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C34" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-034": {
     "card_number": "hBP08-034",
     "name": { "jp": "モココ・アビスガード", "en": "Mococo Abyssgard" },
@@ -50187,6 +50231,29 @@
         "img_path": { "jp": "unreleased/hBP08-106_C.webp", "en": null },
         "img_hash": "v2|H32=zLqtqkS7SlMrVxNVo4ezh6WupKyr6FN1anhWWd9Y1Fj2WBJdAsANqmJQpSo6Hq2qyh/pqvr/oap68OmoCnzhKoa/6Ag|CYM=10261D",
         "ogbajoj_sheet_cells": [ [ 419256011, "C108" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-107": {
+    "card_number": "hBP08-107",
+    "name": { "jp": "Otomo", "en": "Otomo" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "The holomem this fan is attached to gets Arts+10.\n\nWhen this fan is attached to holomem from hand or archive, the holomem this fan is attached to is set to either active or resting.\n\nYou may only attach this fan to your <Cecilia Immergreen>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-107",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-107_C.webp", "en": null },
+        "img_hash": "v2|H32=Qq2rqlScUtazlhZXtiIsK607zHnJWczZjtyehJeuGq5oalbVweEsKjg86csuHi26D++pivCDqaouPik6qgvp+PDhqos|CYM=1B0721",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C109" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
