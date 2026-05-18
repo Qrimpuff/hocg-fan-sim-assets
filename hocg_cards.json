@@ -49548,6 +49548,40 @@
       }
     ]
   },
+  "hBP08-061": {
+    "card_number": "hBP08-061",
+    "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Secret Society Hospitality" },
+        "text": {
+          "en": "If you went second and it is your first turn, and your Oshi holomem is <Takane Lui>, your opponent adds the top card of their holo Power to hand."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Have Some holoX Coffee" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-061",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-061_C.webp", "en": null },
+        "img_hash": "v2|H32=0rKMbNOSpG0p2qUobNvTomxN0zYyTWiTdixO08ymUsmuZqQuu2VaYVTrrZRom5XKrkpSq1VaKlXomrVqqlVWrVWrKtU|CYM=01362A",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C63" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-062": {
     "card_number": "hBP08-062",
     "name": { "jp": "鷹嶺ルイ", "en": "Takane Lui" },
@@ -49927,6 +49961,40 @@
         "img_path": { "jp": "unreleased/hBP08-079_C.webp", "en": null },
         "img_hash": "v2|H32=qKvbbLurbTJjEiQ3ZJJsrMZGqOzKRJNM2lUS2bNJctkz2bRKVCVKJ69StarpVkq1TVsti2qrqrTZonC1S79aLcUrYpU|CYM=152C20",
         "ogbajoj_sheet_cells": [ [ 419256011, "C81" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-080": {
+    "card_number": "hBP08-080",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Fighting Cheer" },
+        "text": {
+          "en": "If you have more cheers on stage than your opponent, you may place 1 Debut holomem with #ReGLOSS from your deck on stage. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Kanad-extraction" }, "power": "20" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-080",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-080_C.webp", "en": null },
+        "img_hash": "v2|H32=jGJrto+qbUpPqWyL79MNsuo0mlbKNfJcUinSVPIKVqm+VtYsVXWpAirqbKpqWXTVFU6ilalKpqrwlVqn1pVLKqLXqlQ|CYM=011636",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C82" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
