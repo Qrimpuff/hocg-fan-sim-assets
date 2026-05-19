@@ -41233,7 +41233,7 @@
   },
   "hBP06-093": {
     "card_number": "hBP06-093",
-    "name": { "jp": "山田ルイ54世", "en": "YamadaLui54Sei" },
+    "name": { "jp": "山田ルイ54世", "en": "Yamada Lui the 54th" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
@@ -48714,6 +48714,38 @@
       }
     ]
   },
+  "hBP08-022": {
+    "card_number": "hBP08-022",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Escapement" },
+        "text": { "en": "When this holomem uses baton pass and moves to the back position, this holomem is rested." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Let's Do It Elegantly" }, "power": "20" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-022",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-022_U.webp", "en": null },
+        "img_hash": "v2|H32=rKvhIq0qVquTNilNUrutRi2YVMuuVFg9UkfKNFqp8lBMpCRteVUvLS6rUpoWi9JStbTpUvIuYilJy1KtqkKplkvStrU|CYM=26153D",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C24" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-024": {
     "card_number": "hBP08-024",
     "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
@@ -49979,7 +50011,7 @@
         "type": "bloom",
         "name": { "jp": null, "en": "Fighting Cheer" },
         "text": {
-          "en": "If you have more cheers on stage than your opponent, you may place 1 Debut holomem with #ReGLOSS from your deck on stage. Then, shuffle the deck."
+          "en": "If the number of cheers on your stage is more than your opponent's, you may place 1 Debut holomem with #ReGLOSS from your deck on stage. Then, shuffle the deck."
         }
       }
     ],
@@ -50276,6 +50308,29 @@
         "img_path": { "jp": "unreleased/hBP08-102_C.webp", "en": null },
         "img_hash": "v2|H32=RourqkaHQmWrZVJ14nzxuPGa1JrpmllWOFo8Zj3mPM44rhbdTKItqhP4ravCf6k6+D7p6g7g6aoCPuE64AHpCg4O4Dg|CYM=0C2D1F",
         "ogbajoj_sheet_cells": [ [ 419256011, "C104" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-103": {
+    "card_number": "hBP08-103",
+    "name": { "jp": "ホロマント", "en": "holoCape" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "■The holomem with this tool attached gets +50 HP.\n■If the holomem with this tool attached is downed, you get life-1.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-103",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-103_U.webp", "en": null },
+        "img_hash": "v2|H32=Rperola3Ni6xKtAtkSqUao9KSlorWHmVKblYpZOslmyGahZVHBwt6nLw4eviwa2Lwoetqo4HqargH62qwoMPDj/oqks|CYM=16160A",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C105" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
