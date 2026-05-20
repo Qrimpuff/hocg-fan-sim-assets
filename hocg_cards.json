@@ -41195,7 +41195,7 @@
   },
   "hBP06-092": {
     "card_number": "hBP06-092",
-    "name": { "jp": "マヨネーズちゅっちゅっ", "en": "Mayonnaise sip sip" },
+    "name": { "jp": "マヨネーズちゅっちゅっ", "en": "Sipping Mayonnaise" },
     "card_type": { "support": "event" },
     "text": {
       "jp": "このターンの間、自分のステージの〈博衣こより〉1人のアーツ+30。",
@@ -48381,6 +48381,18 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-006",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-006_SEC.webp", "en": null },
+        "img_hash": "v2|H32=vBW3KqvdanVLzWmzW2VUk6tSNl1W06tSVptMUbEuVumtLlRLXKWpJGVbjdYpaUm1LVuJtivS2bLlsmmrVJWVrKaWhk8|CYM=3E5005",
+        "ogbajoj_sheet_cells": [ [ 419256011, "L8" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -49107,6 +49119,50 @@
       }
     ]
   },
+  "hBP08-039": {
+    "card_number": "hBP08-039",
+    "name": { "jp": "モココ・アビスガード", "en": "Mococo Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Trust from the Abyss" },
+        "text": {
+          "en": "If your stage has 6 or more blue cheers, set 1 of your resting <Fuwawa Abyssgard> to active."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red", "red" ],
+        "name": { "jp": null, "en": "Fuzzy Bounty Hunter" },
+        "power": "90+",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "For each blue cheer attached to this holomem, this Arts gets +20. Then, choose any number of blue cheers attached to this holomem, and reattach them to 1 of your <Fuwawa Abyssgard>."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-039",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-039_RR.webp", "en": null },
+        "img_hash": "v2|H32=5qQNquWqqdZr0qnSq2RLi54sUq0arZJJ0lHSVdRCVJKcStYtRSRtFWp1Ldr1upWaKVumriqbSby2muG0VqWq0ZKuUEk|CYM=112024",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C41" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-040": {
     "card_number": "hBP08-040",
     "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
@@ -49536,6 +49592,50 @@
       }
     ]
   },
+  "hBP08-059": {
+    "card_number": "hBP08-059",
+    "name": { "jp": "フワワ・アビスガード", "en": "Fuwawa Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Love from the Abyss" },
+        "text": {
+          "en": "While your stage has 6 or more red cheers, you may also target your opponent's back holomem other than Debut with this holomem's Arts."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "blue", "blue" ],
+        "name": { "jp": null, "en": "Fluffy Boundary Spanner" },
+        "power": "80+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "If your <Mococo Abyssgard> used Arts this turn, this Arts gets +50. Then, choose any number of red cheers attached to this holomem, and reattach them to 1 of your <Mococo Abyssgard>."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-059",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-059_RR.webp", "en": null },
+        "img_hash": "v2|H32=yqWrKqWh3MqlWkiaz0oljkueMsVOFVo1VnVaadozNFuzilZtW/WptSmplSKlXmna1lqr2qLapbqytXW13aqKtqovQts|CYM=101B25",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C61" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-060": {
     "card_number": "hBP08-060",
     "name": { "jp": "FUWAMOCO", "en": "FUWAMOCO" },
@@ -49926,6 +50026,50 @@
       }
     ]
   },
+  "hBP08-074": {
+    "card_number": "hBP08-074",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Awaken, Crimson Eyes Obsidian Dragon" },
+        "text": {
+          "en": "[Center Position Only] Draw 1 card for each holomem on your opponent's stage with a different color to their Oshi holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Necro Elimination!!" },
+        "power": "110",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "en": "You may archive 1~3 cards from your hand: Choose 1 of your opponent's holomem for each card archived with this ability. During this turn, the chosen holomem are regarded as holomem with all colors."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-074",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-074_RR.webp", "en": null },
+        "img_hash": "v2|H32=rKpbQ6qqpKNzXKQVh6pMStO0vaoy1aMxclXLPUpLUq2tylZrTFWpVraCNLWl9aahaSuq1alWMLXVukq7S5KSlFW2ttA|CYM=023C39",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C76" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-077": {
     "card_number": "hBP08-077",
     "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
@@ -50212,6 +50356,30 @@
         "img_path": { "jp": "unreleased/hBP08-090_C.webp", "en": null },
         "img_hash": "v2|H32=SpVrglSSFKqzqlQqaypra0tDrlWrdbRVvjQrtWmNTIUPh5JFPDhsuofDbduP5y2LMDyNLuAPiW7ggykuig4vi/6DIPs|CYM=110B1C",
         "ogbajoj_sheet_cells": [ [ 419256011, "C92" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-094": {
+    "card_number": "hBP08-094",
+    "name": { "jp": "パパは仕事を辞める", "en": "Papa Quits His Job" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if you have a collab holomem.\n\nChoose your center holomem. During your opponent's next turn, while the chosen holomem is in the center position, that holomem takes -300 Arts damage when hit for the first time."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-094",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-094_U.webp", "en": null },
+        "img_hash": "v2|H32=StWrstTVJrWrqlRLKy4LLt1K1DSrNFYzpior7bPKlNormZJFVbgsmoWDLZv5oi2brpqpKoumiS6g2i0q6uBti+AbIFs|CYM=021E21",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C96" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
