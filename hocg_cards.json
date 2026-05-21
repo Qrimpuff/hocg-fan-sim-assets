@@ -37687,7 +37687,7 @@
         "name": { "jp": "まったり夜桜温泉デート", "en": "Laid-Back Night Cherry Blossom Hot Spring Date" },
         "text": {
           "jp": "自分のデッキから、[〈阿修羅＆羅刹〉か〈鬼神刀「阿修羅」〉か〈ぽよ余〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "Reveal 1 [<Asura & Rakshasa>, <Demonic Sword \"Asura\"> or <Poyoyo>] from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "Reveal 1 [<Asura & Rakshasa>, <Demon Blade Asura> or <Poyoyo>] from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
@@ -41415,7 +41415,7 @@
   },
   "hBP06-098": {
     "card_number": "hBP06-098",
-    "name": { "jp": "鬼神刀「阿修羅」", "en": "Demonic Sword \"Asura\"" },
+    "name": { "jp": "鬼神刀「阿修羅」", "en": "Demon Blade Asura" },
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆〈百鬼あやめ〉に付いていたら能力追加\nこのツールが付いているホロメンがコラボした時、自分のライフが1で、相手のコラボホロメンがいないなら、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
@@ -48758,6 +48758,40 @@
       }
     ]
   },
+  "hBP08-023": {
+    "card_number": "hBP08-023",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Time to Be Together" },
+        "text": {
+          "en": "You may rest this holomem. Then, if you have 2 or more resting holomem with #Justice, restore 50 HP to 1 of your holomem."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "green" ], "name": { "jp": null, "en": "Very, Very Special!" }, "power": "40" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-023",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-023_C.webp", "en": null },
+        "img_hash": "v2|H32=6OmUqqfqaU2WgqnULk2TyylbkqVOy7CW0mUpXdI0JqkvNaxt1lRarSmultJtq7XUdNpKLXJb6tqupSRblRbhLdIqUkk|CYM=22093B",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C25" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-024": {
     "card_number": "hBP08-024",
     "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
@@ -49176,7 +49210,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Drawn In By the Scent of Sakura" },
         "text": {
-          "en": "If this holomem has <Demonic Sword \"Asura\"> attached, and your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (Moving is not regarded as collab)."
+          "en": "If this holomem has <Demon Blade Asura> attached, and your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (Moving is not regarded as collab)."
         }
       }
     ],
@@ -50368,7 +50402,7 @@
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
-      "en": "This card can only be used if you have a collab holomem.\n\nChoose your center holomem. During your opponent's next turn, while the chosen holomem is in the center position, that holomem takes -300 Arts damage when hit for the first time."
+      "en": "This card can only be used if you have a collab holomem.\n\nChoose your center holomem. During your opponent's next turn, when the chosen holomem would take Arts damage for the first time while in the center position, that holomem takes -300 damage."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -50499,6 +50533,29 @@
         "img_path": { "jp": "unreleased/hBP08-103_U.webp", "en": null },
         "img_hash": "v2|H32=Rperola3Ni6xKtAtkSqUao9KSlorWHmVKblYpZOslmyGahZVHBwt6nLw4eviwa2Lwoetqo4HqargH62qwoMPDj/oqks|CYM=16160A",
         "ogbajoj_sheet_cells": [ [ 419256011, "C105" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-105": {
+    "card_number": "hBP08-105",
+    "name": { "jp": "Bloom&Gloom", "en": "Bloom&Gloom" },
+    "card_type": { "support": "mascot" },
+    "text": {
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <IRyS>\nWhile this holomem has white cheer and purple cheer attached, this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-105",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-105_C.webp", "en": null },
+        "img_hash": "v2|H32=1CqlKtWiK7Wr1GjVq8y0TJdKlEs3q1aTD6tOO88pzn2O2VbVVYEvqrNKLauqDq3qqtqpuKv94auqWqkqqqqhKj7qruo|CYM=091212",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C107" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
