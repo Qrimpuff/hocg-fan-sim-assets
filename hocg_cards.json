@@ -30180,7 +30180,7 @@
         "name": { "jp": "いっくよー", "en": "Here We Go" },
         "text": {
           "jp": "[ターンに1回]自分のセンターホロメンが〈猫又おかゆ〉なら使える:相手のホロメン1人に特殊ダメージ10を与える。",
-          "en": "[1/Turn]Usable if your center holomem is 〈Nekomata Okayu〉: Deal 10 special damage to your opponent's holomem."
+          "en": "[1/Turn]Usable if your center holomem is 〈Nekomata Okayu〉: Deal 10 special damage to 1 of your opponent's holomem."
         }
       },
       {
@@ -59593,10 +59593,9 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "一緒に行こう(??????)??", "en": "Let's Go Together (๑•̀ㅂ•́)و✧" },
-        "power": "20+",
+        "name": { "jp": "一緒に行こう", "en": "Let's Go Together (๑•̀ㅂ•́)و✧" },
         "text": {
-          "jp": "[コラボポジション限定]このホロメンにマスコットが付いているなら、このアーツ+20。",
+          "jp": "20+\n[コラボポジション限定]このホロメンにマスコットが付いているなら、このアーツ+20。",
           "en": "[Collab Position Only]If a mascot is attached to this holomem, this Arts gets +20."
         }
       }
