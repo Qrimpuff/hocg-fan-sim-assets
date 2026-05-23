@@ -49441,6 +49441,48 @@
       }
     ]
   },
+  "hBP08-044": {
+    "card_number": "hBP08-044",
+    "name": { "jp": "小鳥遊キアラ", "en": "Takanashi Kiara" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 170,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "The Light Shines Again" },
+        "text": {
+          "en": "During your main phase, if your archive has 10 or more holomem, you may bloom 1 of your holomem using this holomem from your archive. (This ability can only be used while this holomem is in archive)"
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Fearless Fire Vogel" },
+        "power": "100",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "Archive 1~3 cards from the top of your deck." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Bird" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-044",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-044_RR.webp", "en": null },
+        "img_hash": "v2|H32=qqQr7qe7battm0yb7DvIdIxOkmXapDZbMjUyMTJKdCTLpJ5FFWBpq6tmLbJRq8m+Rdry+mrbqrRhk5WimiYiS2otEss|CYM=171F2E",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C46" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-045": {
     "card_number": "hBP08-045",
     "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
@@ -50298,6 +50340,46 @@
         "img_path": { "jp": "unreleased/hBP08-074_RR.webp", "en": null },
         "img_hash": "v2|H32=rKpbQ6qqpKNzXKQVh6pMStO0vaoy1aMxclXLPUpLUq2tylZrTFWpVraCNLWl9aahaSuq1alWMLXVukq7S5KSlFW2ttA|CYM=023C39",
         "ogbajoj_sheet_cells": [ [ 419256011, "C76" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-075": {
+    "card_number": "hBP08-075",
+    "name": { "jp": "ロボ子さん", "en": "Robocosan" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Robocosan↔Roboser" },
+        "text": { "en": "Reveal 1 <Roboser> from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "purple" ],
+        "name": { "jp": null, "en": "Let's Go Outside Together" },
+        "power": "110+",
+        "advantage": [ "yellow", 50 ],
+        "text": { "en": "This Arts gets +20 for each <Roboser> attached to this holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Shooter" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-075",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-075_R.webp", "en": null },
+        "img_hash": "v2|H32=sqrDSbSrOcotSyymylbNKMw00jROSTOVUscsW1OV1KysUZJL0lSkJVmSTZJ0msqXJi2o9GnbCpuWLFJrpq9SaGibUqs|CYM=0A3938",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C77" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
