@@ -48669,6 +48669,40 @@
       }
     ]
   },
+  "hBP08-010": {
+    "card_number": "hBP08-010",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Race with Me!!" },
+        "text": {
+          "en": "Reveal 1 [<Bloom&Gloom> or <GuyRyS>] from your deck, and add it to hand. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I am Lightning Speed" }, "power": "40" } ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-010",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-010_C.webp", "en": null },
+        "img_hash": "v2|H32=6qhCbZRqTNVSs6xWVJm3cJSMbaqtRI2qK3crsRpzsh17na5uplJIOslWVo9KpVqpJqlSYjRaKyXVqurVVVpqXVErqtE|CYM=122829",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C12" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-011": {
     "card_number": "hBP08-011",
     "name": { "jp": "IRyS", "en": "IRyS" },
@@ -50867,6 +50901,29 @@
         "img_path": { "jp": "unreleased/hBP08-098_U.webp", "en": null },
         "img_hash": "v2|H32=CperityWbKfrIkRlqySrXbNaul0rWnRbbGpuKXeqtKo/rRZFB8Usih54LZro8K3LDh+pKlt8qW6i6Kmr4KAtm+6LKNs|CYM=161A19",
         "ogbajoj_sheet_cells": [ [ 419256011, "C100" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-099": {
+    "card_number": "hBP08-099",
+    "name": { "jp": "HOLOTORI", "en": "HOLOTORI" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Choose 1 of the following abilities to use.\n\n■Archive 1 cheer from your holomem with #Bird. If you archived a cheer, draw 2 cards, and return 1 card from your hand to the bottom of the deck.\n■Send 1 cheer from your archive to your holomem with #Bird.\n\nYou may only use the card <HOLOTORI> once per turn."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-099",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-099_U.webp", "en": null },
+        "img_hash": "v2|H32=xlSnZtZXBnMrY1RhY6tmrWOtXL2LmJmcqVqcTrluHG6c5lZVFw+tqgHgrUqub62q/uCp6g/gLaoAfqk6qg+tKoo+qOk|CYM=131B09",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C101" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
