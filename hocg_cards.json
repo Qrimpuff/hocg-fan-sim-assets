@@ -49568,6 +49568,46 @@
       }
     ]
   },
+  "hBP08-033": {
+    "card_number": "hBP08-033",
+    "name": { "jp": "パヴォリア・レイネ", "en": "Pavolia Reine" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Watcher's Gaze" },
+        "text": { "en": "Send 1 cheer from your cheer deck to your holomem with #ID. Then, shuffle the cheer deck." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Knockout Twist" },
+        "power": "140",
+        "advantage": [ "blue", 50 ],
+        "text": { "en": "Send 1~2 cheers from your archive to 1 of your <Pavolia Reine>." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Bird" }, { "en": "#Painting" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-033",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-033_RR.webp", "en": null },
+        "img_hash": "v2|H32=7KqWXSmqjaarSSiWkmwlUdKUNatWlalOTmnalTpGVI2ekpRK0lSpEm1LVq21qkq1Sm2qlCnbCo2Vlipl2dIy2SutMsk|CYM=2E3A1D",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C35" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-034": {
     "card_number": "hBP08-034",
     "name": { "jp": "モココ・アビスガード", "en": "Mococo Abyssgard" },
@@ -51331,6 +51371,50 @@
         "img_path": { "jp": "unreleased/hBP08-082_U.webp", "en": null },
         "img_hash": "v2|H32=riYpKk8qWapLq1OqqyMlhqUWqJWGlVLVUtXS0fJQtFC23FZVVWVdL3oqacqt0nX4Hg6quqqeqZZ02RWV4NCqoqouVqs|CYM=0B1322",
         "ogbajoj_sheet_cells": [ [ 419256011, "C84" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-083": {
+    "card_number": "hBP08-083",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Hype Power-Up!" },
+        "text": {
+          "en": "If the number of cheers on your stage is less than or equal to your opponent's, send 1~2 cheers from your archive to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow", "colorless" ],
+        "name": { "jp": null, "en": "Kanade On Stage" },
+        "power": "120+",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "If you have more cheers on your stage than your opponent, this Arts gets +20 for each cheer more."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-083",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-083_RR.webp", "en": null },
+        "img_hash": "v2|H32=rLupZuu6LavGZk23p2SJNqrVs9hSllLVUpnWRRpZdES1KtRKVWnppC7TkrDZq6TVqkZq0rK+FputUiaV0qpSqil4slI|CYM=021E4C",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C85" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
