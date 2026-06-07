@@ -51397,7 +51397,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "It's Supposed to Be a Joyous Day, But..." },
         "text": {
-          "en": "If you have more cheers on stage than your opponent, during this turn, this holomem gets Arts+40."
+          "en": "If the number of cheers on your stage is more than your opponent's, during this turn, this holomem gets Arts+40."
         }
       }
     ],
@@ -51449,7 +51449,7 @@
         "power": "120+",
         "advantage": [ "blue", 50 ],
         "text": {
-          "en": "If you have more cheers on your stage than your opponent, this Arts gets +20 for each cheer more."
+          "en": "If the number of cheers on your stage is more than your opponent's, this Arts gets +20 for each cheer more."
         }
       }
     ],
