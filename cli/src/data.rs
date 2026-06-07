@@ -841,21 +841,29 @@ pub mod hololive_official {
             // dbg!(&art_text);
 
             let mut cheers = vec![];
-            let mut art_text = art_text.lines().filter_map(|l| {
-                let l = l.trim();
-                let c = colors_from_str(l);
+            let mut art_text = art_text.lines().filter(|l| {
+                let c = colors_from_str(l.trim());
                 if c.is_empty() || l.chars().count() > 1 {
-                    Some(l)
+                    true
                 } else {
                     cheers.extend(c);
-                    None
+                    false
                 }
             });
 
-            let Some(name) = art_text.next() else {
+            let mut name = String::new();
+            for l in art_text.by_ref() {
+                name.push_str(l);
+                // the damage is the last part of the name text
+                if l.contains('　') {
+                    break;
+                }
+            }
+            if name.is_empty() {
                 eprintln!("Art name not found for {card_number:?}");
                 continue;
-            };
+            }
+
             let advantage = art_text
                 .next()
                 .and_then(|a| a.split_once('+'))
@@ -870,7 +878,7 @@ pub mod hololive_official {
                 Some(text)
             };
 
-            let (name, power) = name.rsplit_once('　').unwrap_or((name, ""));
+            let (name, power) = name.rsplit_once('　').unwrap_or((&name, ""));
 
             let art = Art {
                 cheers,
@@ -987,9 +995,11 @@ pub mod hololive_official {
     fn fix_ability_text(text: &str, language: Language) -> String {
         let mut text = clean_text(text);
 
-        // hBP05-006, hBP05-017, hBP04-091, hBP05-075 have "◇" instead of the text "colorless cheer", in Japanese
+        // hBP05-006, hBP05-017, hBP04-091, hBP05-075 have "◇" instead of the text "colorless cheer"
         if language == Language::Japanese {
             text = text.replace('◇', "無色エール").trim().to_string();
+        } else {
+            text = text.replace('◇', "colorless").trim().to_string();
         }
 
         if language == Language::English {
@@ -1119,8 +1129,15 @@ pub mod hololive_official {
         }
 
         // hBP05-082 Aki Rosenthal's Axe does have extra text
-        if card.card_number == "hBP05-082" && language == Language::Japanese {
-            *extra = Some(Localized::jp("このツールは〈石の斧〉としても扱う".into()));
+        if card.card_number == "hBP05-082" {
+            if language == Language::Japanese {
+                *extra = Some(Localized::jp("このツールは〈石の斧〉としても扱う".into()));
+            }
+            if language == Language::English {
+                *extra = Some(Localized::en(
+                    "This tool is also regarded as 〈Stone Axe〉".into(),
+                ));
+            }
         }
     }
 

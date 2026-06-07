@@ -595,6 +595,11 @@ pub fn retrieve_card_info_from_ogbajoj_sheet(all_cards: &mut CardsDatabase) {
     let mut cheers_names = HashMap::new();
 
     for sheet in spreadsheet.sheets {
+        // Skip Master Sheet. Less reliable data.
+        if sheet.properties.title == "Master Sheet" {
+            continue;
+        }
+
         let cards = retrieve_spreadsheet_data(&sheet).unwrap_or_default();
 
         for result in cards {
@@ -1196,60 +1201,60 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
                 .collect_vec();
             for (idx, h) in headers.iter().enumerate() {
                 if h.contains("setcode") || h.contains("set code") {
-                    set_code_idx = Some(idx);
+                    set_code_idx.get_or_insert(idx);
                 }
 
                 if h.contains("card name") {
-                    card_name_idx = Some(idx);
+                    card_name_idx.get_or_insert(idx);
                 }
 
                 if h.contains("image") {
-                    image_idx = Some(idx);
+                    image_idx.get_or_insert(idx);
                 }
 
                 if h.contains("type") {
-                    card_type_idx = Some(idx);
+                    card_type_idx.get_or_insert(idx);
                 }
 
                 if h.contains("color") {
-                    color_idx = Some(idx);
+                    color_idx.get_or_insert(idx);
                 }
 
                 if h.contains("life") || h.contains("hp") {
-                    life_hp_idx = Some(idx);
+                    life_hp_idx.get_or_insert(idx);
                 }
 
-                if h.contains("tags") {
-                    tags_idx = Some(idx);
+                if h.contains("tags") && !h.contains("meta") {
+                    tags_idx.get_or_insert(idx);
                 }
 
                 if h.contains("alternate art") {
                     if h.contains("2") {
-                        alternate_art_2_idx = Some(idx);
+                        alternate_art_2_idx.get_or_insert(idx);
                     } else {
-                        alternate_art_idx = Some(idx);
+                        alternate_art_idx.get_or_insert(idx);
                     }
                 }
 
                 if h.contains("rarity") {
                     if rarity_1_idx.is_none() {
                         // first rarity column
-                        rarity_1_idx = Some(idx);
+                        rarity_1_idx.get_or_insert(idx);
                     } else if rarity_2_idx.is_none() {
                         // second rarity column
-                        rarity_2_idx = Some(idx);
+                        rarity_2_idx.get_or_insert(idx);
                     } else if rarity_3_idx.is_none() {
                         // third rarity column
-                        rarity_3_idx = Some(idx);
+                        rarity_3_idx.get_or_insert(idx);
                     }
                 }
 
                 if h.contains("text") {
-                    text_idx = Some(idx);
+                    text_idx.get_or_insert(idx);
                 }
 
                 if h.contains("source") {
-                    source_idx = Some(idx);
+                    source_idx.get_or_insert(idx);
                 }
             }
 
