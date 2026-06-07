@@ -48898,6 +48898,50 @@
       }
     ]
   },
+  "hBP08-014": {
+    "card_number": "hBP08-014",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "The Light that Remains in Despair" },
+        "text": {
+          "en": "Deal 30 special damage to your opponent's center holomem. Additionally, if a purple cheer is attached to this holomem, deal 30 special damage to your opponent's collab holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Prismatic Anthem" },
+        "power": "130+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "During this turn, all holomem on your stage get Arts+20 for each purple cheer attached to this holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-014",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-014_RR.webp", "en": null },
+        "img_hash": "v2|H32=LKtb0pmwVC3SVJRkJGulpiZbpdq7VZNcWm2rrUtpUaktKZZuglKpqnTQcJGpTnrbJa1KlUKdqPRLizat8QJWabSqclk|CYM=243C16",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C16" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-016": {
     "card_number": "hBP08-016",
     "name": { "jp": "ときのそら", "en": "Tokino Sora" },
@@ -49003,11 +49047,11 @@
     "arts": [
       {
         "cheers": [ "white", "colorless", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "I Hope it Gets Everyone Excited!" },
+        "name": { "jp": null, "en": "I Hope It Gets Everyone Excited!" },
         "power": "150",
         "advantage": [ "red", 50 ],
         "text": {
-          "en": "If your Oshi holomem is Tokino Sora, choose 1 other <Tokino Sora> on your stage. During this turn, you may also target your opponent's back 2nd holomem with the chosen holomem's Arts"
+          "en": "If your Oshi holomem is Tokino Sora, choose 1 other <Tokino Sora> on your stage. During this turn, you may also target your opponent's back 2nd holomem with the chosen holomem's Arts."
         }
       }
     ],
@@ -51670,6 +51714,30 @@
         "img_path": { "jp": "unreleased/hBP08-091_U.webp", "en": null },
         "img_hash": "v2|H32=SKtrq0Or26qZqpR6tFK0VqVWNFQ8mlbdUppCd2t1anUqdVZVDAaFrrIkreoPw+3okhctqsDzqer4eKGr8CApent4ig8|CYM=04162A",
         "ogbajoj_sheet_cells": [ [ 419256011, "C93" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-092": {
+    "card_number": "hBP08-092",
+    "name": { "jp": "思い出のドーナツショップ", "en": "Donut Shop Full of Memories" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "Reveal 1 [<Fuwawa Abyssgard> and/or <Mococo Abyssgard>] each from your deck, and add them to hand. Then, shuffle the deck. If your life is less than your opponent's, deal 20 special damage to 1 of your opponent's holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-092",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-092_U.webp", "en": null },
+        "img_hash": "v2|H32=KOWpptSmaaq7qtQKuSq5ZJlWKNUr1VpZWhlaNVI11jUyJRJNA4AsmuD6LZu/Ki2KJZupatWnjW7geK2qjwctm2qQINk|CYM=0F1913",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C94" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
