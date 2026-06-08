@@ -5497,7 +5497,7 @@
     },
     "answer": {
       "jp": "いいえ、現在受けているダメージ以下のHPを持ったホロメンへのBloomはできません。",
-      "en": "No, you cannot bloom to a holomem with less base HP than the damage currently on the holomem."
+      "en": "No, you cannot bloom to a holomem taht does not have more base HP than the damage currently on the holomem."
     },
     "referenced_cards": [ "hBP02-013", "hBP02-089", "hBP02-090", "hBP05-070" ]
   },
@@ -7087,7 +7087,7 @@
     "date": "2026-03-02",
     "question": {
       "jp": "自分のhSD01-013〈SorAZ〉が1人いる時、hBP07-068〈AZKi〉がコラボしました。\nこの場合、コラボエフェクト「共に歩んできた軌跡」の能力で、hSD01-013〈SorAZ〉を〈ときのそら〉、〈SorAZ〉の2人分として数えることはできますか？",
-      "en": "I have 1 hSD01-013 SorAZ on my stage when I collab with hBP07-068 AZKi.\nIn this case, can I count SorAZ as both \"Tokino Sora\" and \"SorAZ\" for the Collab Effect \"The path we've walked together\"?"
+      "en": "I have 1 hSD01-013 SorAZ on my stage when I collab with hBP07-068 AZKi.\nIn this case, can I count SorAZ as two holomem, counting both \"Tokino Sora\" and \"SorAZ\", for the Collab Effect \"The path we've walked together\"?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP07-068", "hSD01-013" ]
