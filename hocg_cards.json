@@ -36456,22 +36456,22 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "夢紡ぎのアトリエ", "en": "Dream Weaving Atelier" },
+        "name": { "jp": "夢紡ぎのアトリエ", "en": "Atelier Where Dreams Come True" },
         "text": {
           "jp": "このホロメンがアーツを使った時、自分のホロパワーを見る。その中から1枚を公開し、手札に加える。手札に加えたなら、自分の手札1枚をホロパワーにする。そしてホロパワーをシャッフルする。",
-          "en": "When this holomem uses Arts, look at your holo Power. Reveal 1 card from among them, and add it to hand. If you added a card to hand, put 1 card from your hand to holo Power. Then, shuffle your holo Power."
+          "en": "When this holomem uses Arts, look at your holo Power. Reveal 1 card from among them, and add it to hand. If you added a card to hand, put 1 card from your hand to holo Power. Then, shuffle the holo Power."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "white", "colorless" ],
-        "name": { "jp": "色彩のリナシメント", "en": "Rinascimento of Colors" },
+        "name": { "jp": "色彩のリナシメント", "en": "Colorful Rinascimento" },
         "power": "100",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "[センターポジション限定]このターンの間、自分の#絵を持つコラボホロメンのアーツ+50し、そのホロメンのアーツに必要な無色-1。",
-          "en": "[Center Position Only]During this turn, your collab holomem with #Painting gets Arts+50, and that holomem requires -1 colorless for its Arts."
+          "en": "[Center Position Only] During this turn, your collab holomem with #Painting gets Arts+50, and that holomem's Arts requires -1 colorless."
         }
       }
     ],
@@ -37260,22 +37260,22 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "伝えたい想い", "en": "Thoughts I want to convey" },
+        "name": { "jp": "伝えたい想い", "en": "Conveying Feelings" },
         "text": {
           "jp": "このホロメンが相手のセンターホロメンをダウンさせた時、自分のこのターンにBloomした〈風真いろは〉1人を、自分の手札のホロメンを使って、もう1回Bloomできる。",
-          "en": "When this holomem downed your opponent's center holomem, you may bloom 1 of your <Kazama Iroha> that bloomed this turn once more using a holomem from your hand."
+          "en": "If this holomem downed your opponent's center holomem, you may bloom 1 of your <Kazama Iroha> that bloomed this turn once more using a holomem from your hand."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless", "colorless" ],
-        "name": { "jp": "一緒にすてっぷ", "en": "Step Together" },
+        "name": { "jp": "一緒にすてっぷ", "en": "Taking a Step Together" },
         "power": "160+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分の推しホロメンが〈風真いろは〉で、自分のコラボホロメンがいるなら、このアーツ+40。さらに、このホロメンがBuzzホロメンからBloomしているなら、このアーツダメージは軽減されない。",
-          "en": "If your Oshi holomem is <Kazama Iroha>, and you have a collab holomem, this Arts gets +40. Then, if this holomem has bloomed from a Buzz holomem, damage from this Arts cannot be reduced."
+          "en": "If your Oshi holomem is <Kazama Iroha>, and you have a collab holomem, this Arts gets +40. Additionally, if this holomem bloomed from a Buzz holomem, this Arts damage cannot be reduced."
         }
       }
     ],
@@ -38813,11 +38813,11 @@
       },
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": "親愛の情", "en": "Affection" },
+        "name": { "jp": "親愛の情", "en": "Friendship" },
         "power": "50",
         "text": {
           "jp": "自分の推しホロメンが〈ムーナ・ホシノヴァ〉なら、このホロメンのエール1枚をアーカイブできる:自分のデッキを1枚引く。",
-          "en": "If your Oshi holomem is <Moona Hoshinova>, you may archive 1 cheer from this holomem:Draw 1 card."
+          "en": "If your Oshi holomem is <Moona Hoshinova>, you may archive 1 cheer from this holomem: Draw 1 card."
         }
       }
     ],
@@ -39795,17 +39795,17 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "どり～む_コネクト.zero", "en": "dream_CONNECT.zero" },
+        "name": { "jp": "どり～む_コネクト.zero", "en": "Dream_Connect .zero" },
         "text": {
           "jp": "[センターポジション限定]自分の#0期生を持つコラボホロメンがアーツを使った時、自分のデッキから、カード1枚を公開し、アーカイブする。そしてデッキをシャッフルする。",
-          "en": "[Center Position Only]When your collab holomem with #Gen 0 uses Arts, reveal 1 card from your deck and archive it. Then, shuffle the deck."
+          "en": "[Center Position Only] When your collab holomem with #Gen 0 used Arts, reveal 1 card from your deck, and archive it. Then, shuffle the deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple", "purple", "colorless" ],
-        "name": { "jp": "＜封印＞ ダークブライダル", "en": "<Seal> Dark Bridal" },
+        "name": { "jp": "＜封印＞ ダークブライダル", "en": "<Sealed> Dark Bridal" },
         "power": "160",
         "advantage": [ "yellow", 50 ],
         "text": {
@@ -50959,6 +50959,47 @@
       }
     ]
   },
+  "hBP08-070": {
+    "card_number": "hBP08-070",
+    "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Ina Imagination" },
+        "text": { "en": "Reveal 1 <Takodachi> from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": null, "en": "My Lifelong Friend" },
+        "power": "30",
+        "text": {
+          "en": "Restore 10 HP to 1 of your holomem with #Myth for each holomem on your opponent's stage with a different color to their Oshi holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-070",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-070_C.webp", "en": null },
+        "img_hash": "v2|H32=9KpmludOJSupUYlTmanJ2NLd26wkV1JFKHd2EdsO9lSLJuxKVirpNKRSX6k2tAer4JV6tStUFp7Bp/Kl2XYmjVqHokQ|CYM=04232A",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C72" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP08-071": {
     "card_number": "hBP08-071",
     "name": { "jp": "一伊那尓栖", "en": "Ninomae Ina'nis" },
@@ -51669,6 +51710,47 @@
         "img_path": { "jp": "unreleased/hBP08-088_RR.webp", "en": null },
         "img_hash": "v2|H32=yqpb1q2qpJutKS0pZnkpq1JVac5S1UpV1lVWpJJdVraXipRqVrWtpqdKSrXxukvpoVqq2raKctvQVEq19aYKuqmtYtM|CYM=01254C",
         "ogbajoj_sheet_cells": [ [ 419256011, "C90" ] ],
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP08-089": {
+    "card_number": "hBP08-089",
+    "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Rapid Fire Wit" },
+        "text": {
+          "en": "You may archive 1 holomem that is stacked to this holomem: Attach 1 <Popo> from your deck to your holomem. Then, shuffle the deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "I Am a Gamer" },
+        "power": "30",
+        "text": { "en": "Send 1 cheer from your archive to your holomem with #Justice." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP08-089",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-089_R.webp", "en": null },
+        "img_hash": "v2|H32=qrkZq43prfRT6q1W6pIZqqtW0i1aRbJUUi0uVbYoPIOlGjZpVTXMJtq00tpJK1n1TWuytCKbKdW2UmlbttZ0qdaqAks|CYM=093345",
+        "ogbajoj_sheet_cells": [ [ 419256011, "C91" ] ],
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -58748,7 +58830,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている#FLOW GLOWを持つホロメンのアーツ+10。\n\n◆#FLOW GLOWを持つホロメンに付いていたら能力追加\n自分のエンドステップが開始する時、このターンにこのホロメンがアーツを使っていたなら使える:自分のデッキから、#FLOW GLOWを持つ[DebutホロメンかSpotホロメン]1枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、このホロメンに付いている〈ふぐ太郎〉1枚をデッキの下に戻す。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with #FLOW GLOW this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a holomem with #FLOW GLOW\nUsable at the start of your end phase, if the holomem this tool is attached to used Arts this turn:Reveal 1 [Debut holomem or Spot holomem] with #FLOW GLOW from your deck, and place it on stage. Then, shuffle the deck. Return this tool to the bottom of the deck.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem with #FLOW GLOW this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to holomem with #FLOW GLOW\nUsable at the beginning of your end phase, if the holomem this tool is attached to used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOW GLOW from your deck, and place it on stage. Then, shuffle the deck. Return this tool to the bottom of the deck.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
