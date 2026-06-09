@@ -40975,7 +40975,7 @@
         "type": "gift",
         "name": {
           "jp": "「こんこよ」、古くなっちゃったかな？",
-          "en": "Konkoyo\", Is This Outdated?"
+          "en": "\"Konkoyo\", Is This Outdated?"
         },
         "text": {
           "jp": "このホロメンがバトンタッチしてバックポジションに移動した時、このターンの間、自分のステージの〈博衣こより〉1人のアーツ+20。",
@@ -40986,7 +40986,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "「ハッピーリーフ！」", "en": "Happy Leaf!" },
+        "name": { "jp": "「ハッピーリーフ！」", "en": "\"Happy Leaf!\"" },
         "power": "30"
       }
     ],
@@ -48989,7 +48989,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Vah!" },
+        "name": { "jp": null, "en": "\"Vah!\"" },
         "text": { "en": "Reveal 1 <Ankimo> from your deck, and add it to hand. Then, shuffle the deck." }
       }
     ],
@@ -50622,7 +50622,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "BAU\" DOL♡" },
+        "name": { "jp": null, "en": "\"BAU\" DOL♡" },
         "text": {
           "en": "[Collab Position Only] Your Oshi Skill \"Moco-chan!\" has its \"[holo Power:-3]\" changed to \"[holo Power:-2]\"."
         }
@@ -59539,7 +59539,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "『異世界への旅立ちと幸せ』", "en": "Journey to the Other World & Happiness" },
+        "name": { "jp": "『異世界への旅立ちと幸せ』", "en": "\"Journey to the Other World & Happiness\"" },
         "text": {
           "jp": "自分のアーカイブのエール1枚を自分の#Adventを持つホロメンに送る。",
           "en": "Send 1 cheer from your archive to your holomem with #Advent."
