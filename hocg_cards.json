@@ -48731,6 +48731,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Budding Spring" }, "power": "30" } ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -48771,6 +48772,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -48805,6 +48807,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I am Lightning Speed" }, "power": "40" } ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -48844,6 +48847,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -48887,6 +48891,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -48929,6 +48934,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -48973,6 +48979,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49010,6 +49017,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49049,6 +49057,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49103,6 +49112,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49146,6 +49156,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Kemomimi" }, { "en": "#Painting" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49186,6 +49197,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49286,6 +49298,7 @@
     ],
     "arts": [ { "cheers": [ "green" ], "name": { "jp": null, "en": "Very, Very Special!" }, "power": "40" } ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49327,6 +49340,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49363,6 +49377,7 @@
       { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Isn't It Important to Take Breaks?" }, "power": "30" }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49404,6 +49419,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49446,6 +49462,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49487,6 +49504,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49523,6 +49541,7 @@
       { "cheers": [ "green" ], "name": { "jp": null, "en": "On a Top Secret Mission, I Daresay" }, "power": "20" }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49559,6 +49578,7 @@
       { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Please Keep This in Mind..." }, "power": "10" }
     ],
     "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Bird" }, { "en": "#Painting" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49604,6 +49624,7 @@
     ],
     "extra": { "en": "If this holomem is downed, you get life-2" },
     "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Bird" }, { "en": "#Painting" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49648,6 +49669,7 @@
       }
     ],
     "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Bird" }, { "en": "#Painting" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49688,6 +49710,7 @@
       }
     ],
     "tags": [ { "en": "#ID" }, { "en": "#ID Gen 2" }, { "en": "#Bird" }, { "en": "#Painting" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49754,6 +49777,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49797,6 +49821,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49838,6 +49863,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49882,6 +49908,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49925,6 +49952,7 @@
     ],
     "extra": { "en": "If this holomem is downed, you get life-2" },
     "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -49966,6 +49994,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50000,6 +50029,7 @@
     ],
     "arts": [ { "cheers": [ "red" ], "name": { "jp": null, "en": "Kiwawa with Chonkers & Smoothie" }, "power": "40" } ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50043,6 +50073,7 @@
     ],
     "extra": { "en": "If this holomem is downed, you get life-2" },
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50085,6 +50116,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50129,6 +50161,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50163,6 +50196,7 @@
     ],
     "arts": [ { "cheers": [ "red" ], "name": { "jp": null, "en": "Sweet Tooth" }, "power": "30" } ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50197,6 +50231,7 @@
     ],
     "arts": [ { "cheers": [ "blue" ], "name": { "jp": null, "en": "Is Your Su-Charge at 100%?" }, "power": "30" } ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50231,6 +50266,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Big. Huge. Strong." }, "power": "30" } ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50271,6 +50307,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50312,6 +50349,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50353,6 +50391,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50394,6 +50433,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50438,6 +50478,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50480,6 +50521,7 @@
       }
     ],
     "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50519,6 +50561,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50555,6 +50598,7 @@
       { "cheers": [ "colorless" ], "name": { "jp": null, "en": "I'm Going to Give It My All!" }, "power": "40" }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50596,6 +50640,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50640,6 +50685,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50684,6 +50730,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50726,6 +50773,7 @@
     ],
     "extra": { "en": "This holomem is also regarded as <Fuwawa Abyssgard> <Mococo Abyssgard>" },
     "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50760,6 +50808,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Have Some holoX Coffee" }, "power": "30" } ],
     "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50794,6 +50843,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "The Will to Take Down" }, "power": "20" } ],
     "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50828,6 +50878,7 @@
     ],
     "arts": [ { "cheers": [ "purple" ], "name": { "jp": null, "en": "How Do You Like It???" }, "power": "40" } ],
     "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50869,6 +50920,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50910,6 +50962,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50950,6 +51003,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Bird" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -50993,6 +51047,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51031,6 +51086,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51072,6 +51128,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51106,6 +51163,7 @@
     ],
     "arts": [ { "cheers": [ "colorless", "colorless" ], "name": { "jp": null, "en": "Bonk!" }, "power": "50" } ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51149,6 +51207,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51190,6 +51249,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51234,6 +51294,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Myth" }, { "en": "#Painting" }, { "en": "#Sea" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51274,6 +51335,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51316,6 +51378,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Cooking" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51350,6 +51413,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Kanade Standby" }, "power": "20" } ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51384,6 +51448,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Nerr Nerrrr" }, "power": "20" } ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51423,6 +51488,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51457,6 +51523,7 @@
     ],
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Kanad-extraction" }, "power": "20" } ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51498,6 +51565,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51539,6 +51607,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51583,6 +51652,7 @@
       }
     ],
     "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51624,6 +51694,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51664,6 +51735,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51705,6 +51777,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51746,6 +51819,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51788,6 +51862,7 @@
       }
     ],
     "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Half-Elf" } ],
+    "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
@@ -51829,6 +51904,7 @@
       }
     ],
     "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
