@@ -74,6 +74,7 @@ pub struct SheetCard {
     pub color: String,
     pub life_hp: String,
     pub tags: String,
+    pub baton_pass: String,
     pub text: String,
 }
 
@@ -159,6 +160,25 @@ impl SheetCard {
                     eprintln!(
                         "Warning: {card_number} hp mismatch: {} should be {}",
                         hp, card.hp
+                    );
+                }
+            }
+        }
+        if card.card_type == CardType::HoloMember {
+            if card.baton_pass.is_empty() || !released {
+                card.baton_pass = std::iter::repeat_n(
+                    Color::Colorless,
+                    self.baton_pass.parse().unwrap_or_default(),
+                )
+                .collect();
+            } else {
+                // warn if the baton pass is different
+                let baton_pass = self.baton_pass.parse::<usize>().unwrap_or_default();
+                if card.baton_pass.len() != baton_pass {
+                    eprintln!(
+                        "Warning: {card_number} baton pass mismatch: {} should be {}",
+                        baton_pass,
+                        card.baton_pass.len()
                     );
                 }
             }
@@ -574,10 +594,13 @@ fn fix_extra(card: &Card, extra: &mut Option<Extra>) {
 // - LIFE/HP
 // - Tags
 // - Text
-pub fn retrieve_card_info_from_ogbajoj_sheet(all_cards: &mut CardsDatabase) {
+pub fn retrieve_card_info_from_ogbajoj_sheet(
+    all_cards: &mut CardsDatabase,
+    cache_dir: Option<&Path>,
+) {
     println!("Retrieve all cards info from @ogbajoj's sheet");
 
-    let spreadsheet = retrieve_spreadsheet();
+    let spreadsheet = retrieve_spreadsheet(cache_dir);
 
     let mut updated_count = 0;
     let mut cheers_names = HashMap::new();
@@ -588,7 +611,7 @@ pub fn retrieve_card_info_from_ogbajoj_sheet(all_cards: &mut CardsDatabase) {
             continue;
         }
 
-        let cards = retrieve_spreadsheet_data(&sheet).unwrap_or_default();
+        let cards = retrieve_spreadsheet_data(&sheet, cache_dir).unwrap_or_default();
 
         for result in cards {
             let record: SheetCard = result;
@@ -642,12 +665,13 @@ pub fn download_images_from_ogbajoj_sheet(
     images_jp_path: &Path,
     images_en_path: &Path,
     all_cards: &mut CardsDatabase,
+    cache_dir: Option<&Path>,
 ) {
     println!("Downloading unreleased images from @ogbajoj's sheet...");
 
     let all_cards = Arc::new(RwLock::new(all_cards));
 
-    let spreadsheet = retrieve_spreadsheet();
+    let spreadsheet = retrieve_spreadsheet(cache_dir);
 
     // this is used to delay Master Sheet access
     let master_sheet_lock = Arc::new(RwLock::new(()));
@@ -665,7 +689,7 @@ pub fn download_images_from_ogbajoj_sheet(
                 return None;
             }
 
-            let cards = retrieve_spreadsheet_data(&sheet);
+            let cards = retrieve_spreadsheet_data(&sheet, cache_dir);
 
             Some((name, sheet_id, cards?))
         })
@@ -989,10 +1013,10 @@ fn fix_image_hash(img_hash: &mut String) {
     }.to_string();
 }
 
-pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
+pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase, cache_dir: Option<&Path>) {
     println!("Retrieve all Q&As info from @ogbajoj's sheet");
 
-    let spreadsheet = retrieve_spreadsheet();
+    let spreadsheet = retrieve_spreadsheet(cache_dir);
 
     let sheets_gid = spreadsheet
         .sheets
@@ -1009,22 +1033,8 @@ pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
     let tr_sel = Selector::parse("tr").unwrap();
     let td_sel = Selector::parse("td").unwrap();
 
-    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
     for gid in sheets_gid {
-        let resp = google_docs_http_client()
-            .get(&url)
-            .query(&[
-                ("gid", gid.to_string().as_str()),
-                ("widget", "false"),
-                ("single", "true"),
-            ])
-            .header("Sec-Fetch-Dest", "document")
-            .header("Sec-Fetch-Mode", "navigate")
-            .header("Sec-Fetch-Site", "none")
-            .header("Sec-Fetch-User", "?1")
-            .send()
-            .unwrap();
-        let html = resp.text().unwrap();
+        let html = retrieve_sheet_html(gid, cache_dir);
         // fs::write(format!("sheet_{gid}.html"), &html).unwrap();
 
         let document = Html::parse_document(&html);
@@ -1081,17 +1091,23 @@ pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase) {
     println!("Missing english answers: {missing_english}");
 }
 
-fn retrieve_spreadsheet() -> Spreadsheet {
+fn retrieve_spreadsheet(cache_dir: Option<&Path>) -> Spreadsheet {
     let api_key = std::env::var("GOOGLE_SHEETS_API_KEY").expect("GOOGLE_SHEETS_API_KEY not set");
 
-    let url = format!("https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}");
-    let resp = google_sheets_api_http_client()
-        .get(url)
-        .query(&[("key", api_key.as_str())])
-        .send()
-        .unwrap();
-
-    let content = resp.text().unwrap();
+    let content = get_cached_or_download_text(
+        cache_dir,
+        Path::new("ogbajoj_sheet_cache").join("spreadsheet.json"),
+        || {
+            let url = format!("https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}");
+            google_sheets_api_http_client()
+                .get(url)
+                .query(&[("key", api_key.as_str())])
+                .send()
+                .unwrap()
+                .text()
+                .unwrap()
+        },
+    );
     let spreadsheet: Spreadsheet = serde_json::from_str(&content).unwrap();
     // dbg!(&spreadsheet);
 
@@ -1116,7 +1132,7 @@ fn extract_cell_text(tds: &[scraper::ElementRef], idx: Option<usize>) -> String 
         .unwrap_or_default()
 }
 
-fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
+fn retrieve_spreadsheet_data(sheet: &Sheet, cache_dir: Option<&Path>) -> Option<Vec<SheetCard>> {
     // Precompute selectors
     let table_sel = Selector::parse("table").unwrap();
     let tr_sel = Selector::parse("tr").unwrap();
@@ -1127,21 +1143,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
     let sheet_id = sheet.properties.sheet_id;
 
     // Read HTML content from the website
-    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
-    let resp = google_docs_http_client()
-        .get(&url)
-        .query(&[
-            ("gid", sheet_id.to_string().as_str()),
-            ("widget", "false"),
-            ("single", "true"),
-        ])
-        .header("Sec-Fetch-Dest", "document")
-        .header("Sec-Fetch-Mode", "navigate")
-        .header("Sec-Fetch-Site", "none")
-        .header("Sec-Fetch-User", "?1")
-        .send()
-        .unwrap();
-    let html = resp.text().unwrap();
+    let html = retrieve_sheet_html(sheet_id, cache_dir);
 
     println!("[{name}] Reading HTML...");
 
@@ -1157,6 +1159,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
         let mut color_idx: Option<usize> = None;
         let mut life_hp_idx: Option<usize> = None;
         let mut tags_idx: Option<usize> = None;
+        let mut baton_pass_idx: Option<usize> = None;
         let mut text_idx = None;
         let mut alternate_art_idx: Option<usize> = None;
         let mut rarity_2_idx: Option<usize> = None;
@@ -1176,6 +1179,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
             color_idx = None;
             life_hp_idx = None;
             tags_idx = None;
+            baton_pass_idx = None;
             alternate_art_idx = None;
             rarity_2_idx = None;
             alternate_art_2_idx = None;
@@ -1214,6 +1218,10 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
 
                 if h.contains("tags") && !h.contains("meta") {
                     tags_idx.get_or_insert(idx);
+                }
+
+                if h.contains("baton pass") {
+                    baton_pass_idx.get_or_insert(idx);
                 }
 
                 if h.contains("alternate art") {
@@ -1293,6 +1301,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
             let color = extract_cell_text(&tds, color_idx);
             let life_hp = extract_cell_text(&tds, life_hp_idx);
             let tags = extract_cell_text(&tds, tags_idx);
+            let baton_pass = extract_cell_text(&tds, baton_pass_idx);
             let text = extract_cell_text(&tds, text_idx);
             let source = extract_cell_text(&tds, source_idx);
 
@@ -1394,6 +1403,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
                     color: color.clone(),
                     life_hp: life_hp.clone(),
                     tags: tags.clone(),
+                    baton_pass: baton_pass.clone(),
                     text: text.clone(),
                 };
 
@@ -1414,6 +1424,57 @@ fn retrieve_spreadsheet_data(sheet: &Sheet) -> Option<Vec<SheetCard>> {
 
     println!("[{name}] no table found");
     None
+}
+
+fn retrieve_sheet_html(sheet_id: u64, cache_dir: Option<&Path>) -> String {
+    let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
+
+    get_cached_or_download_text(
+        cache_dir,
+        Path::new("ogbajoj_sheet_cache").join(format!("sheet_{sheet_id}.html")),
+        || {
+            google_docs_http_client()
+                .get(&url)
+                .query(&[
+                    ("gid", sheet_id.to_string().as_str()),
+                    ("widget", "false"),
+                    ("single", "true"),
+                ])
+                .header("Sec-Fetch-Dest", "document")
+                .header("Sec-Fetch-Mode", "navigate")
+                .header("Sec-Fetch-Site", "none")
+                .header("Sec-Fetch-User", "?1")
+                .send()
+                .unwrap()
+                .text()
+                .unwrap()
+        },
+    )
+}
+
+fn get_cached_or_download_text(
+    cache_dir: Option<&Path>,
+    cache_path: impl AsRef<Path>,
+    download: impl FnOnce() -> String,
+) -> String {
+    let cache_path = cache_dir.map(|cache_dir| cache_dir.join(cache_path));
+
+    if let Some(cache_path) = cache_path.as_ref()
+        && let Ok(content) = fs::read_to_string(cache_path)
+    {
+        return content;
+    }
+
+    let content = download();
+
+    if let Some(cache_path) = cache_path {
+        if let Some(parent) = cache_path.parent() {
+            fs::create_dir_all(parent).unwrap();
+        }
+        fs::write(cache_path, &content).unwrap();
+    }
+
+    content
 }
 
 // Image URLs are external; fetch via HTTP

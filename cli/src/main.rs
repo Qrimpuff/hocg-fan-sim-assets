@@ -127,6 +127,8 @@ fn main() {
     let qna_mapping_file = assets_path.join("hocg_qnas.json");
     let images_jp_path = assets_path.join("img");
     let images_en_path = assets_path.join("img_en");
+    let ogbajoj_sheet_cache = args.ogbajoj_sheet.then(|| TempDir::new().unwrap());
+    let ogbajoj_sheet_cache_dir = ogbajoj_sheet_cache.as_ref().map(|cache| cache.path());
 
     // Q&As
     if args.qna {
@@ -150,7 +152,7 @@ fn main() {
 
         // import from ogbajoj
         if args.ogbajoj_sheet {
-            retrieve_qna_from_ogbajoj_sheet(&mut all_qnas);
+            retrieve_qna_from_ogbajoj_sheet(&mut all_qnas, ogbajoj_sheet_cache_dir);
         }
 
         // save file
@@ -224,7 +226,12 @@ fn main() {
 
     // download images from ogbajoj sheet
     if args.ogbajoj_sheet {
-        download_images_from_ogbajoj_sheet(&images_jp_path, &images_en_path, &mut all_cards);
+        download_images_from_ogbajoj_sheet(
+            &images_jp_path,
+            &images_en_path,
+            &mut all_cards,
+            ogbajoj_sheet_cache_dir,
+        );
     }
 
     // import from official holoLive
@@ -237,7 +244,7 @@ fn main() {
 
     // import from ogbajoj
     if args.ogbajoj_sheet {
-        retrieve_card_info_from_ogbajoj_sheet(&mut all_cards);
+        retrieve_card_info_from_ogbajoj_sheet(&mut all_cards, ogbajoj_sheet_cache_dir);
     }
 
     // import from official holoLive
