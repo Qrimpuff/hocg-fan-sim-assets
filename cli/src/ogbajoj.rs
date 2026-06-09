@@ -331,11 +331,7 @@ impl SheetCard {
             .then(|| holo_power.to_string().try_into().ok())
             .flatten();
 
-        let name = name
-            .trim()
-            .trim_start_once(r#"""#)
-            .trim_end_once(r#"""#)
-            .trim();
+        let name = name.trim();
 
         Some(OshiSkill {
             kind,
@@ -361,11 +357,7 @@ impl SheetCard {
             }
         };
 
-        let name = name
-            .trim()
-            .trim_start_once(r#"""#)
-            .trim_end_once(r#"""#)
-            .trim();
+        let name = name.trim();
 
         Some(Keyword {
             effect,
@@ -380,11 +372,7 @@ impl SheetCard {
             eprintln!("Warning: Art not found for {}", card.card_number);
             return None;
         };
-        let name = name
-            .trim()
-            .trim_start_once(r#"""#)
-            .trim_end_once(r#"""#)
-            .trim();
+        let name = name.trim();
 
         let second = lines.pop_front().unwrap_or_default();
         let Some((_cost, cheers)) = second.split_once(':') else {
