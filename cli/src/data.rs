@@ -915,14 +915,19 @@ pub mod hololive_official {
         let document = Html::parse_document(&content);
 
         // get the illustrator from the card
+        let illustrator = document
+            .select(illustrator)
+            .next()
+            .map(|c| c.text().collect::<String>())
+            .unwrap_or_default();
+
+        // not a valid illustrator name
+        if illustrator.contains("ノーマル") || illustrator.contains("パラレル") {
+            return false;
+        }
+
         // save empty string to indicate that we know there is no illustrator. no need for request
-        illust.illustrator = Some(
-            document
-                .select(illustrator)
-                .next()
-                .map(|c| c.text().collect::<String>())
-                .unwrap_or_default(),
-        );
+        illust.illustrator = Some(illustrator);
         true
     }
 
