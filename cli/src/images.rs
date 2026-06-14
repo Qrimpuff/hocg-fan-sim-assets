@@ -199,6 +199,7 @@ pub fn download_images(
                 &card.card_number,
                 &images_path.join(card.img_path.value(language).as_deref().unwrap()),
             );
+            card.similarity_index = 0;
         }
     });
 

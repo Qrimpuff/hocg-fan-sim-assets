@@ -20,7 +20,10 @@ use hocg_fan_sim_assets_cli::{
     price_check::{tcgplayer, yuyutei},
     qna::generate_qna,
 };
-use hocg_fan_sim_assets_model::{self as hocg, CardsDatabase, QnaDatabase, img_hash::can_merge};
+use hocg_fan_sim_assets_model::{
+    self as hocg, CardsDatabase, QnaDatabase,
+    img_hash::{can_merge, is_similar},
+};
 use itertools::Itertools;
 use json_pretty_compact::PrettyCompactFormatter;
 use serde::Serialize;
@@ -263,6 +266,9 @@ fn main() {
     // merge english cards
     merge_similar_cards(&mut all_cards);
 
+    // identify similar looking cards by image hash
+    update_similarity_index(&mut all_cards);
+
     // add proxy images
     if let Some(proxy_path) = args.proxy_path {
         prepare_en_proxy_images(&images_en_path, &mut all_cards, &proxy_path);
@@ -468,7 +474,7 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     || illustrations[i].rarity != illustrations[j].rarity
                 {
                     j += 1;
-                } else if can_merge(&illustrations[i], &illustrations[j], true) {
+                } else if can_merge(&illustrations[i], &illustrations[j]) {
                     if DEBUG {
                         println!(
                             "Merging similar images: {:?} and {:?}",
@@ -492,13 +498,12 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                         // merge image path and last modified
                         // overwrite if the current one is a proxy image
                         if illustrations[i].img_path.value(language).is_none()
-                            || illustrations[i].img_last_modified.value(language).is_none()
                             || (illustrations[i]
                                 .img_path
                                 .value(language)
                                 .as_ref()
                                 .is_some_and(|p| p.starts_with(PROXIES_FOLDER))
-                                && illustrations[i]
+                                && illustrations[j]
                                     .img_path
                                     .value(language)
                                     .as_ref()
@@ -514,6 +519,7 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     // merge other fields
                     if illustrations[i].img_hash.is_empty() {
                         illustrations[i].img_hash = illustrations[j].img_hash.clone();
+                        illustrations[i].similarity_index = illustrations[j].similarity_index;
                     }
                     if illustrations[i].illustrator.is_none() {
                         illustrations[i].illustrator = illustrations[j].illustrator.clone();
@@ -555,4 +561,48 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
         }
     }
     println!("Merged {merged_count} similar images");
+}
+
+/// Update the similarity index for each illustration based on other illustrations having a similar image hash.
+fn update_similarity_index(all_cards: &mut CardsDatabase) {
+    for card in all_cards.values_mut() {
+        // similarity index starts from 1, 0 means not set. the same similarity index means similar images
+        let mut next_similarity_index = 1;
+        let mut assigned_indices: HashSet<u32> = card
+            .illustrations
+            .iter()
+            .map(|illust| illust.similarity_index)
+            .collect();
+
+        for i in 0..card.illustrations.len() {
+            // skip if already set or doesn't have an image hash
+            if card.illustrations[i].similarity_index != 0
+                || card.illustrations[i].img_hash.is_empty()
+            {
+                continue;
+            }
+
+            for j in 0..card.illustrations.len() {
+                // skip if it's the same illustration or doesn't have a similarity index
+                if i == j || card.illustrations[j].similarity_index == 0 {
+                    continue;
+                }
+
+                // if they are similar, assign the same similarity index
+                if is_similar(&card.illustrations[i], &card.illustrations[j]) {
+                    card.illustrations[i].similarity_index = card.illustrations[j].similarity_index;
+                    break;
+                }
+            }
+
+            // couldn't find any similar illustration, assign the first available similarity index
+            if card.illustrations[i].similarity_index == 0 {
+                while assigned_indices.contains(&next_similarity_index) {
+                    next_similarity_index += 1;
+                }
+                card.illustrations[i].similarity_index = next_similarity_index;
+                assigned_indices.insert(next_similarity_index);
+            }
+        }
+    }
 }

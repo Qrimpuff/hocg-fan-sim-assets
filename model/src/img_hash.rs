@@ -266,31 +266,35 @@ pub fn to_image_hash(card_number: &str, img: &RgbImage) -> String {
     hash
 }
 
-pub fn can_merge(into: &CardIllustration, from: &CardIllustration, same_rarity: bool) -> bool {
+pub fn is_similar(into: &CardIllustration, from: &CardIllustration) -> bool {
     let dist = dist_hash(&into.img_hash, &from.img_hash);
     if DEBUG {
         println!(
-            "can_merge({} {}, {} {}) = {dist}",
+            "is_similar({} {}, {} {}) = {dist}",
             into.card_number, into.rarity, from.card_number, from.rarity
         );
     }
 
+    // more tolerance for manual cropping
+    dist <= if into.rarity == from.rarity {
+        DIST_TOLERANCE_SAME_RARITY
+    } else {
+        DIST_TOLERANCE_DIFF_RARITY
+    }
+}
+
+pub fn can_merge(into: &CardIllustration, from: &CardIllustration) -> bool {
     // if both have manage_id, they must be identical
     for language in [Language::Japanese, Language::English] {
         if into.manage_id.value(language).is_some()
             && from.manage_id.value(language).is_some()
-            && dist != 0
+            && into.img_hash != from.img_hash
         {
             return false;
         }
     }
 
-    // more tolerance for manual cropping
-    dist <= if same_rarity {
-        DIST_TOLERANCE_SAME_RARITY
-    } else {
-        DIST_TOLERANCE_DIFF_RARITY
-    }
+    is_similar(into, from)
 }
 
 pub fn dist_hash(h1: &str, h2: &str) -> u64 {

@@ -79,7 +79,7 @@ pub struct SheetCard {
 }
 
 impl SheetCard {
-    fn update_card(&self, card: &mut Card) {
+    fn update_card(&mut self, card: &mut Card) {
         let card_number = card.card_number.clone();
         let released = card.illustrations.iter().any(|i| i.manage_id.has_value());
 
@@ -102,7 +102,10 @@ impl SheetCard {
         } else {
             // warn if the name is different (ignore names that are split)
             if card.name.japanese != name.japanese
-                && name.japanese.as_ref().is_some_and(|n| !n.contains("\n"))
+                && name
+                    .japanese
+                    .as_ref()
+                    .is_some_and(|n| !n.contains("\n") && !n.contains("&"))
             {
                 eprintln!(
                     "Warning: {card_number} name mismatch: {:?} should be {:?}",
@@ -165,6 +168,7 @@ impl SheetCard {
             }
         }
         if card.card_type == CardType::HoloMember {
+            fix_baton_pass(card, &mut self.baton_pass);
             if card.baton_pass.is_empty() || !released {
                 card.baton_pass = std::iter::repeat_n(
                     Color::Colorless,
@@ -571,6 +575,15 @@ impl SheetCard {
 }
 
 // --- Fix known issues with the spreadsheet ---
+fn fix_baton_pass(card: &mut Card, baton_pass: &mut String) {
+    // fix missing baton pass
+    // hBP01-021 - Tokino Sora
+    // hBP01-044 - AZKi
+    if card.card_number == "hBP01-021" || card.card_number == "hBP01-044" {
+        *baton_pass = "1".to_string();
+    }
+}
+
 fn fix_extra(card: &Card, extra: &mut Option<Extra>) {
     // fix missing Buzz extra text
     if card.buzz && extra.is_none() {
@@ -614,7 +627,7 @@ pub fn retrieve_card_info_from_ogbajoj_sheet(
         let cards = retrieve_spreadsheet_data(&sheet, cache_dir).unwrap_or_default();
 
         for result in cards {
-            let record: SheetCard = result;
+            let mut record: SheetCard = result;
             // println!("{:#?}", record);
 
             // skip empty records
@@ -926,6 +939,7 @@ pub fn download_images_from_ogbajoj_sheet(
 
                         // could be cleared on errors, with path
                         illust.img_hash = img_hash.clone();
+                        illust.similarity_index = 0;
                     }
 
                     // Download and decode image
@@ -965,6 +979,7 @@ pub fn download_images_from_ogbajoj_sheet(
                         // could not download image
                         illust.img_hash = Default::default();
                         *illust.img_path.value_mut(language) = None;
+                        illust.similarity_index = 0;
                     }
 
                     if DEBUG {
