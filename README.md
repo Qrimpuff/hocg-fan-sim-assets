@@ -80,9 +80,6 @@ Options:
           The folder that contains the assets i.e. card info, images, proxies
           [default: assets]
   
-      --skip-update
-          Don't update the cards info
-  
       --yuyutei [<YUYUTEI_MODE>]
           Update the yuyu-tei.jp urls for the cards. can only be use when all cards are searched
           
@@ -103,8 +100,11 @@ Options:
       --holodelta-path <HOLODELTA_PATH>
           Use holoDelta to import missing/unreleased cards data. The folder that contains the source code for holoDelta
   
-      --official-hololive
+      --hololive
           Use the official holoLive website to import missing/unreleased cards data
+
+      --deck-log
+          Use the data from Deck Log to import cards data
 
       --language <LANGUAGE>
           The language of the cards or Q&A to import [default: all]
@@ -133,36 +133,36 @@ Options:
 
 1. Download all card information and images:
    ```
-   cargo run --release -- --clean --download-images
+   cargo run --release -- --clean --deck-log --download-images
    ```
 
 2. Download information for a specific card set:
    ```
-   cargo run --release -- --expansion hSD01 --download-images
+   cargo run --release --  --deck-log --expansion hSD01 --download-images
    ```
 
 3. Generate optimized card images with English translations:
    ```
-   cargo run --release -- --download-images --optimized-original-images --ogbajoj-sheet --proxy-path ./en_proxies
+   cargo run --release -- --deck-log --ogbajoj-sheet --download-images --optimized-original-images --proxy-path ./en_proxies
    ```
 
 4. Create a complete dataset with pricing information:
    ```
-   cargo run --release -- --clean --download-images --yuyutei=images --tcgplayer=images --proxy-path ./en_proxies --holodelta-path ./holoDelta --ogbajoj-sheet --official-hololive --gc
+   cargo run --release -- --clean --deck-log --hololive --ogbajoj-sheet --download-images --yuyutei=images --tcgplayer=images --proxy-path ./en_proxies --holodelta-path ./holoDelta --gc
    ```
 
 5. Package images for specific card sets:
    ```
-   cargo run --release -- -ziofx hsd05
-   cargo run --release -- -ziofx hsd06
-   cargo run --release -- -ziofx hsd07
+   cargo run --release -- --deck-log -ziofx hsd05
+   cargo run --release -- --deck-log -ziofx hsd06
+   cargo run --release -- --deck-log -ziofx hsd07
    ```
    This downloads images (-i), converts them to WebP, forces download (-f), packages them into ZIP files (-z), 
    and optimizes the original images (-o) for the hSD05, hSD06, and hSD07 expansions (-x).
 
 6. Automated asset generation (from GitHub Actions):
    ```
-   cargo run --release -- --download-images --yuyutei --tcgplayer --ogbajoj-sheet --official-hololive --gc
+   cargo run --release -- --deck-log --hololive --ogbajoj-sheet --download-images --yuyutei --tcgplayer --gc
    ```
    This example demonstrates daily automated asset generation (runs at 15:00 UTC/00:00 JST). It preserves existing 
    data from gh-pages branch before updating with fresh card information from all sources, then deploys to GitHub Pages.

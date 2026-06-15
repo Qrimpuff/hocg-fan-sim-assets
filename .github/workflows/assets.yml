@@ -31,7 +31,7 @@ jobs:
         env:
           SCRAPERAPI_API_KEY: ${{ secrets.SCRAPERAPI_API_KEY }}
           GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
-        run: cargo run --release -- --download-images --yuyutei --tcgplayer --ogbajoj-sheet --official-hololive --gc
+        run: cargo run --release -- --deck-log --hololive --ogbajoj-sheet --download-images --yuyutei --tcgplayer --gc
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

@@ -1,5 +1,5 @@
 use std::{
-    collections::{BTreeMap, HashMap},
+    collections::{BTreeMap, HashMap, HashSet},
     fs::{self, File},
     io::{Read, Write},
     path::Path,
@@ -13,7 +13,7 @@ use hocg_fan_sim_assets_model::{
 use image::DynamicImage;
 use itertools::Itertools;
 use oxipng::{InFile, Options, OutFile};
-use parking_lot::{Mutex, RwLock, RwLockReadGuard, RwLockWriteGuard};
+use parking_lot::{Mutex, RwLock};
 use rayon::iter::{IntoParallelIterator, IntoParallelRefIterator, ParallelIterator};
 use reqwest::header::{LAST_MODIFIED, REFERER};
 use walkdir::WalkDir;
@@ -28,7 +28,7 @@ pub const UNRELEASED_FOLDER: &str = "unreleased";
 pub static WEBP_QUALITY: f32 = 80.0;
 
 pub fn download_images(
-    filtered_cards: &[(String, usize)],
+    filtered_cards: &HashSet<(String, usize)>,
     images_jp_path: &Path,
     images_en_path: &Path,
     all_cards: &mut CardsDatabase,
@@ -55,38 +55,36 @@ pub fn download_images(
         Language::English => images_en_path,
     };
 
-    let all_cards = Arc::new(RwLock::new(all_cards));
     let image_count = AtomicU32::new(0);
     let image_skipped = AtomicU32::new(0);
 
-    filtered_cards.par_iter().for_each({
-        let all_cards = all_cards.clone();
-        let image_count = &image_count;
-        let image_skipped = &image_skipped;
-        move |(card_number, illust_idx)| {
-            // https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-006_RR.png
+    // Download the images in parallel
+    let images: Vec<_> = filtered_cards
+        .par_iter()
+        .filter_map({
+            let all_cards = &all_cards;
+            let image_count = &image_count;
+            let image_skipped = &image_skipped;
+            move |(card_number, illust_idx)| {
+                // https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-006_RR.png
 
-            let img_last_modified;
-            // scope for the read guard
-            {
-                let card = RwLockReadGuard::map(all_cards.read(), |ac| {
-                    ac.get(card_number)
-                        .unwrap()
-                        .illustrations
-                        .get(*illust_idx)
-                        .unwrap()
-                });
+                let card = all_cards
+                    .get(card_number)
+                    .unwrap()
+                    .illustrations
+                    .get(*illust_idx)
+                    .unwrap();
 
                 // skip unreleased cards
                 if card.manage_id.value(language).is_none() {
-                    return;
+                    return None;
                 }
 
                 let Some(img_path) = card.img_path.value(language) else {
                     eprintln!(
                         "Skipping card {card_number} illustration {illust_idx} without image path"
                     );
-                    return;
+                    return None;
                 };
 
                 let (url, referrer) = match language {
@@ -126,10 +124,10 @@ pub fn download_images(
                 {
                     // we already have the image
                     image_skipped.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
-                    return;
+                    return None;
                 }
 
-                img_last_modified = last_modified
+                let img_last_modified = last_modified
                     .map(String::from)
                     .or(card.img_last_modified.value(language).clone());
 
@@ -140,14 +138,14 @@ pub fn download_images(
                     .send()
                     .inspect_err(|e| eprintln!("Error downloading image {img_path:?}: {e}"))
                 else {
-                    return;
+                    return None;
                 };
 
                 // Using `image` crate, open the included .jpg file
                 let Ok(img) = image::load_from_memory(&resp.bytes().unwrap()).inspect_err(|e| {
                     eprintln!("Error loading image {img_path:?}: {e}");
                 }) else {
-                    return;
+                    return None;
                 };
 
                 if optimized_original_images {
@@ -183,25 +181,28 @@ pub fn download_images(
                 if image_count.is_multiple_of(100) {
                     println!("{image_count} images downloaded ({image_skipped} skipped)");
                 }
-            }
 
-            // scope for write guard
-            let mut card = RwLockWriteGuard::map(all_cards.write(), |ac| {
-                ac.get_mut(card_number)
-                    .unwrap()
-                    .illustrations
-                    .get_mut(*illust_idx)
-                    .unwrap()
-            });
-            *card.img_last_modified.value_mut(language) = img_last_modified;
-            // update image hash
-            card.img_hash = path_to_image_hash(
-                &card.card_number,
-                &images_path.join(card.img_path.value(language).as_deref().unwrap()),
-            );
-            card.similarity_index = 0;
-        }
-    });
+                Some((card_number, illust_idx, img_last_modified))
+            }
+        })
+        .collect();
+
+    // update the cards with the new image last modified time and hash
+    for (card_number, illust_idx, img_last_modified) in images {
+        let card = all_cards
+            .get_mut(card_number)
+            .unwrap()
+            .illustrations
+            .get_mut(*illust_idx)
+            .unwrap();
+        *card.img_last_modified.value_mut(language) = img_last_modified;
+        // update image hash
+        card.img_hash = path_to_image_hash(
+            &card.card_number,
+            &images_path.join(card.img_path.value(language).as_deref().unwrap()),
+        );
+        card.similarity_index = 0;
+    }
 
     let image_count = image_count.load(std::sync::atomic::Ordering::Relaxed);
     let image_skipped = image_skipped.load(std::sync::atomic::Ordering::Relaxed);

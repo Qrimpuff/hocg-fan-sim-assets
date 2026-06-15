@@ -8,7 +8,7 @@ use clap::Parser;
 use hocg_fan_sim_assets_cli::{
     DEBUG, Language, PriceCheckMode,
     data::{
-        decklog::retrieve_card_info_from_decklog,
+        deck_log::retrieve_card_info_from_deck_log,
         hololive_official::retrieve_card_info_from_hololive,
     },
     holodelta::{import_holodelta, import_holodelta_db},
@@ -71,10 +71,6 @@ struct Args {
     #[arg(long, default_value = "assets")]
     assets_path: PathBuf,
 
-    /// Don't update the cards info
-    #[arg(long)]
-    skip_update: bool,
-
     /// Update the yuyu-tei.jp urls for the cards. can only be use when all cards are searched
     #[arg(long)]
     yuyutei: Option<Option<PriceCheckMode>>,
@@ -91,9 +87,13 @@ struct Args {
     #[arg(long)]
     holodelta_path: Option<PathBuf>,
 
-    // Use the official holoLive website to import missing/unreleased cards data
+    /// Use the data from Deck Log to import cards data
     #[arg(long)]
-    official_hololive: bool,
+    deck_log: bool,
+
+    // Use the official holoLive website to import cards data
+    #[arg(long)]
+    hololive: bool,
 
     /// The language of the cards to import
     #[arg(long, default_value = "all")]
@@ -145,7 +145,7 @@ fn main() {
         }
 
         // import Q&As
-        // TODO no English yet on official site, not sure how it will map
+        // the english Q&As on official site are of lower quality, so only import japanese Q&As by default
         [Language::Japanese]
             .into_iter()
             .filter(|language| args.language == Language::All || args.language == *language)
@@ -182,32 +182,59 @@ fn main() {
     }
 
     // (card number, illustration index)
-    let filtered_cards: Vec<(String, usize)> = if args.skip_update {
-        all_cards
-            .values()
-            .flat_map(|cs| cs.illustrations.iter().enumerate())
-            // don't include unreleased cards
-            .filter(|c| c.1.manage_id.has_value())
-            .map(|c| (c.1.card_number.clone(), c.0))
-            .collect()
-    } else {
-        // import cards info from Deck Log
-        [Language::Japanese, Language::English]
-            .into_iter()
-            .filter(|language| args.language == Language::All || args.language == *language)
-            .flat_map(|language| {
-                retrieve_card_info_from_decklog(
-                    &mut all_cards,
-                    &args.number_filter,
-                    &args.expansion,
-                    args.optimized_original_images,
-                    &images_jp_path,
-                    &images_en_path,
-                    language.into(),
-                )
-            })
-            .collect()
-    };
+    let mut filtered_cards: HashSet<(String, usize)> = HashSet::new();
+
+    // import cards info from Deck Log
+    if args.deck_log {
+        filtered_cards.extend(
+            [Language::Japanese, Language::English]
+                .into_iter()
+                .filter(|language| args.language == Language::All || args.language == *language)
+                .flat_map(|language| {
+                    retrieve_card_info_from_deck_log(
+                        &mut all_cards,
+                        &args.number_filter,
+                        &args.expansion,
+                        args.optimized_original_images,
+                        &images_jp_path,
+                        &images_en_path,
+                        language.into(),
+                    )
+                }),
+        );
+    }
+
+    // import from official holoLive
+    if args.hololive {
+        filtered_cards.extend(
+            [Language::Japanese, Language::English]
+                .into_iter()
+                .filter(|language| args.language == Language::All || args.language == *language)
+                .flat_map(|language| {
+                    retrieve_card_info_from_hololive(
+                        &mut all_cards,
+                        &args.number_filter,
+                        &args.expansion,
+                        args.optimized_original_images,
+                        &images_jp_path,
+                        &images_en_path,
+                        language.into(),
+                    )
+                }),
+        )
+    }
+
+    // if no filter is specified, add all cards to the filtered list
+    if filtered_cards.is_empty() && args.number_filter.is_none() && args.expansion.is_none() {
+        filtered_cards.extend(
+            all_cards
+                .values()
+                .flat_map(|cs| cs.illustrations.iter().enumerate())
+                // don't include unreleased cards
+                .filter(|c| c.1.manage_id.has_value())
+                .map(|c| (c.1.card_number.clone(), c.0)),
+        );
+    }
 
     // add official images
     if args.download_images {
@@ -237,29 +264,13 @@ fn main() {
         );
     }
 
-    // import from official holoLive
-    if args.official_hololive {
-        // official Japanese text
-        if args.language == Language::All || args.language == Language::Japanese {
-            retrieve_card_info_from_hololive(&mut all_cards, Language::Japanese.into());
-        }
-    }
-
     // import from ogbajoj
     if args.ogbajoj_sheet {
         retrieve_card_info_from_ogbajoj_sheet(&mut all_cards, ogbajoj_sheet_cache_dir);
     }
 
-    // import from official holoLive
-    if args.official_hololive {
-        // official English text, overwrite ogbajoj sheet
-        if args.language == Language::All || args.language == Language::English {
-            retrieve_card_info_from_hololive(&mut all_cards, Language::English.into());
-        }
-    }
-
     // check tags consistency
-    if args.official_hololive || args.ogbajoj_sheet {
+    if args.hololive || args.ogbajoj_sheet {
         check_tags_consistency(&all_cards);
     }
 

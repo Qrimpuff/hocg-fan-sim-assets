@@ -81,9 +81,18 @@ pub struct SheetCard {
 impl SheetCard {
     fn update_card(&mut self, card: &mut Card) {
         let card_number = card.card_number.clone();
-        let released = card.illustrations.iter().any(|i| i.manage_id.has_value());
+        let jp_released = card
+            .illustrations
+            .iter()
+            .any(|i| i.manage_id.japanese.is_some());
+        let en_released = card
+            .illustrations
+            .iter()
+            .any(|i| i.manage_id.english.is_some());
+        let released = jp_released || en_released;
 
         // don't overwrite if it already exists
+        // Card number
         if card.card_number.is_empty() || !released {
             card.card_number = self.set_code.clone();
         } else {
@@ -95,8 +104,10 @@ impl SheetCard {
                 );
             }
         }
+
+        // Card name
         let name = self.name();
-        if card.name.japanese.is_none() || !released {
+        if card.name.japanese.is_none() || !jp_released {
             // fix Elizabeth Rose Bloodflame - エリザベス・ローズ・ブラッドフレイム
             card.name.japanese = name.japanese.as_ref().map(|n| n.replace("\n", "・"));
         } else {
@@ -113,7 +124,11 @@ impl SheetCard {
                 );
             }
         }
-        card.name.english = name.english.clone();
+        if card.name.english.is_none() || !en_released {
+            card.name.english = name.english.clone();
+        }
+
+        // Card type
         if card.card_type == Default::default() || !released {
             card.card_type = self.card_type();
         } else {
@@ -126,6 +141,8 @@ impl SheetCard {
                 );
             }
         }
+
+        // Color
         if card.colors.is_empty() || !released {
             card.colors = self.colors();
         } else {
@@ -140,6 +157,8 @@ impl SheetCard {
                 );
             }
         }
+
+        // Life / HP
         if card.card_type == CardType::OshiHoloMember {
             if card.life == 0 || !released {
                 card.life = self.life_hp.parse().unwrap_or_default();
@@ -167,6 +186,8 @@ impl SheetCard {
                 }
             }
         }
+
+        // Baton pass
         if card.card_type == CardType::HoloMember {
             fix_baton_pass(card, &mut self.baton_pass);
             if card.baton_pass.is_empty() || !released {
@@ -187,6 +208,8 @@ impl SheetCard {
                 }
             }
         }
+
+        // Bloom level, Buzz, Limited
         if card.bloom_level == Default::default() || !released {
             card.bloom_level = self.bloom_level();
             card.buzz = self.buzz();
@@ -217,13 +240,21 @@ impl SheetCard {
                 );
             }
         }
-        self.update_card_text(card, released);
+
+        // Ability text and other texts (oshi skills, keywords, arts, extra)
+        self.update_card_text(card, released, en_released);
         // there is no japanese text in the sheet
         // update existing tags (tags consistency check)
-        update_tags(card, self.tags(), Language::English, released);
+        update_tags(
+            card,
+            self.tags(),
+            Language::English,
+            !released,
+            !en_released,
+        );
         // there is no baton pass in the sheet
         // there is no max amount in the sheet, add default max amount
-        if card.max_amount.japanese.unwrap_or_default() == 0 || !released {
+        if card.max_amount.japanese.unwrap_or_default() == 0 || !jp_released {
             card.max_amount.japanese = Some(match card.card_type {
                 CardType::OshiHoloMember => 1,
                 CardType::Cheer => 20,
@@ -244,7 +275,7 @@ impl SheetCard {
         }
     }
 
-    fn update_card_text(&self, card: &mut Card, released: bool) {
+    fn update_card_text(&self, card: &mut Card, released: bool, en_released: bool) {
         let text = self.text();
         let mut text_lines = text.lines().map(|l| l.trim()).collect_vec();
 
@@ -294,7 +325,13 @@ impl SheetCard {
             .filter_map(|lines| self.to_oshi_skill(card, lines.into()))
             .collect_vec();
         // dbg!(&oshi_skills);
-        update_oshi_skills(card, oshi_skills, Language::English, released);
+        update_oshi_skills(
+            card,
+            oshi_skills,
+            Language::English,
+            !released,
+            !en_released,
+        );
 
         // Keywords
         let keywords_lines =
@@ -303,7 +340,7 @@ impl SheetCard {
             .into_iter()
             .filter_map(|lines| self.to_keyword(card, lines.into()))
             .collect_vec();
-        update_keywords(card, keywords, Language::English, released);
+        update_keywords(card, keywords, Language::English, !released, !en_released);
 
         // Arts
         let arts_lines = extract_sections(&mut text_lines, &["Arts"]);
@@ -311,7 +348,7 @@ impl SheetCard {
             .into_iter()
             .filter_map(|lines| self.to_art(card, lines.into()))
             .collect_vec();
-        update_arts(card, arts, Language::English, released);
+        update_arts(card, arts, Language::English, !released, !en_released);
 
         // Extra
         let extra_lines = extract_sections(&mut text_lines, &["Extra"]);
@@ -320,13 +357,15 @@ impl SheetCard {
             .filter_map(|lines| self.to_extra(card, lines.into()))
             .next();
         fix_extra(card, &mut extra);
-        update_extra(card, extra, Language::English, released);
+        update_extra(card, extra, Language::English, !released, !en_released);
 
         // Ability text
-        card.ability_text.english = text_lines
-            .is_empty()
-            .not()
-            .then(|| text_lines.join("\n").trim().to_string());
+        if !en_released {
+            card.ability_text.english = text_lines
+                .is_empty()
+                .not()
+                .then(|| text_lines.join("\n").trim().to_string());
+        }
     }
 
     fn to_oshi_skill(&self, card: &mut Card, mut lines: VecDeque<&str>) -> Option<OshiSkill> {

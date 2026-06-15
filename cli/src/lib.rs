@@ -66,12 +66,12 @@ fn http_client() -> &'static Client {
     HTTP_CLIENT.get_or_init(|| http_client_base().build().unwrap())
 }
 
-fn decklog_http_client() -> &'static Client {
+fn deck_log_http_client() -> &'static Client {
     static DECKLOG_HTTP_CLIENT: OnceLock<Client> = OnceLock::new();
     DECKLOG_HTTP_CLIENT.get_or_init(|| build_retry_client("decklog.bushiroad.com", true))
 }
 
-fn decklog_en_http_client() -> &'static Client {
+fn deck_log_en_http_client() -> &'static Client {
     static DECKLOG_EN_HTTP_CLIENT: OnceLock<Client> = OnceLock::new();
     DECKLOG_EN_HTTP_CLIENT.get_or_init(|| build_retry_client("decklog-en.bushiroad.com", true))
 }
