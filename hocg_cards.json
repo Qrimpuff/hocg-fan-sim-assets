@@ -50526,6 +50526,19 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-002",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-002_OUR.webp", "en": null },
+        "img_hash": "v2|H32=VuKf01rjtjnTKeVNxWzIjI5Oy66KXkumYlVHqmZVS7Z1W1ZrP1UrT6yq6VFpVamqKl0rUgsvqlaqVKqU2bomVZa2kHQ|CYM=33111D",
+        "ogbajoj_sheet_cells": [ [ 419256011, "K3" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -51373,6 +51386,19 @@
         "img_hash": "v2|H32=ssq3ySTzJJRQqti82LL1arCWNm+hriPnSq2N6UopylWrO5Zsl6qtLUPVI1usScTSLq290lG9KLAqUWiptPAarlI1shI|CYM=072322",
         "ogbajoj_sheet_cells": [ [ 419256011, "C19" ] ],
         "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-018",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-018_UR.webp", "en": null },
+        "img_hash": "v2|H32=1OhZY3KJms0UnazVta22TK1uNmsuauvqkmudqtkslip1DlpKiLayJWpZhZptS23JadEylCQtYcvdorT1S7WrNvUqliU|CYM=04321D",
+        "ogbajoj_sheet_cells": [ [ 419256011, "K19" ] ],
+        "similarity_index": 2,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -52436,6 +52462,19 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-039",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-039_UR.webp", "en": null },
+        "img_hash": "v2|H32=2LqbKtKq1rrTKpI961ibRWscaU9a1XuXUtVbtStTUnVr09ZKflVppw/rtbXViq2UqtKp0vRZabVZUvkllraVUm1qlto|CYM=02525A",
+        "ogbajoj_sheet_cells": [ [ 419256011, "K40" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -53433,6 +53472,19 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-059",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-059_UR.webp", "en": null },
+        "img_hash": "v2|H32=1KXpllUtqNbTacpaq23VWmpVtVpKdTMbRFVTLexSUuWlKpZqaGWpVmqttapKU6WV2VI1lKpaXaWkqqrX1aTSkpaqlGo|CYM=181E2C",
+        "ogbajoj_sheet_cells": [ [ 419256011, "K60" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -53893,7 +53945,7 @@
         "name": { "jp": "きタコれ！", "en": "Tako This!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、このターンの間、相手のステージのホロメン全員は、すべての色を持つホロメンとして扱う。",
-          "en": "If you went second and it is your first turn, all of your opponent's holomem are regarded as holomem with all colors."
+          "en": "If you went second and it is your first turn, during this turn, all of your opponent's holomem are regarded as holomem with all colors."
         }
       }
     ],
