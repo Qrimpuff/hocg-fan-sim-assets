@@ -53495,7 +53495,7 @@
         "manage_id": { "jp": [ 2325 ] },
         "rarity": "P",
         "illustrator": "Hyde",
-        "img_path": { "jp": "hPR/hBP08-060_P.webp", "en": null },
+        "img_path": { "jp": "hPR/hBP08-060_P.webp", "en": "proxies/hPR/hBP08-060_P.webp" },
         "img_last_modified": { "jp": "Fri, 12 Jun 2026 09:02:21 GMT" },
         "img_hash": "v2|H32=mqot6q2sadrrKa2mS0ppLcZOGltS0ZIVUlFSlbI2VnW2lvZeV6UulZvSpai0TVGtJduqtmrTqKratuiqpJdKLalptEo|CYM=113527",
         "ogbajoj_sheet_cells": [ [ 419749048, "C96" ] ],
