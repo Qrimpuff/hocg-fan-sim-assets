@@ -12404,6 +12404,19 @@
       },
       {
         "card_number": "hBP02-017",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-017_RR.webp", "en": null },
+        "img_hash": "v2|H32=rLZZqlKVCZZSU4pX4Ur2QfWqtalWtTO1MlxSVLfa1kqFh0patqwLV0pVlNXBlvSlqSDwdEnRrShW0vVpUquwtEtL8KU|CYM=142523",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C37" ] ],
+        "similarity_index": 4,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP02-017",
         "manage_id": { "jp": [ 387 ], "en": [ 427 ] },
         "rarity": "SR",
         "illustrator": "しちがつ",
@@ -50618,7 +50631,7 @@
         "name": { "jp": "いけいけどんどん！", "en": "Ike Ike Don Don!" },
         "text": {
           "jp": "[ゲームに1回]相手のバックホロメン1人に、相手のセンターホロメンが受けているダメージと同じ数値の特殊ダメージを与える。",
-          "en": "[1/Game] Deal the same amount of special damage to 1 of your opponent's back holomem as the amount of damage taken by your opponent's center holomem."
+          "en": "[1/Game] Deal special damage to 1 of your opponent's back holomem equal to the amount of damage your opponent's center holomem has taken."
         }
       }
     ],
@@ -50634,6 +50647,19 @@
         "img_hash": "v2|H32=lkVetcVFRpUjM7JadLWnTljFK5esSkuzukpRoTZKSc1WOrSqrlIt1SK2Y2GUplotK5RSW6JVSoWoVVpSNlUr1Vp6qlU|CYM=401E02",
         "ogbajoj_sheet_cells": [ [ 419256011, "C5" ] ],
         "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP08-004",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-004_SEC.webp", "en": null },
+        "img_hash": "v2|H32=tpKqRD+FnFZr7VyryXpaK5nGmzcMVZuTSFGVyGMz1OpiN1RqlU7rpFuerYq+FqqWS9qoVmvT8qThoklUalFKtW2qqlY|CYM=25220E",
+        "ogbajoj_sheet_cells": [ [ 419256011, "K5" ] ],
+        "similarity_index": 2,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -55672,6 +55698,70 @@
         "img_last_modified": { "jp": "Fri, 12 Jun 2026 09:02:18 GMT" },
         "img_hash": "v2|H32=iqqrqlSPJC2rKFJVSlpIWk1uVGanLNTlrKpcu1uaWpi+mDJdTBgsuoPDbaqYuY2rezytqozn6SrCwqmqcPypy+kB6C8|CYM=0D2C15",
         "ogbajoj_sheet_cells": [ [ 419256011, "C111" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-002": {
+    "card_number": "hEB01-002",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "oshi_holomem",
+    "colors": [ "blue" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "Devilish Re-enactment" },
+        "text": {
+          "en": "At the beginning of your performance phase, if you have a collab holomem, you may bloom your center <Houshou Marine> that bloomed this turn once more using a blue holomem from your hand."
+        }
+      },
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Uh~ maybe it was a bit too much?" },
+        "text": {
+          "en": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. Then, if 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-002_OSR.webp", "en": null },
+        "img_hash": "v2|H32=tEyl6rNltNWztVb1oVknqqh5q0uYeTvNuEpQpaZKac3WypTarFYrFBS46SnZq2ktalepqapWaalKVWhVrlVrVbItXVU|CYM=31392E",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C4" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-028": {
+    "card_number": "hEB01-028",
+    "name": { "jp": "スイカ割り", "en": "Watermelon Smashing" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "Choose 1 2nd holomem on your stage. During this turn, the chosen holomem gets Arts+30, and if that holomem downs your opponent's holomem using Arts damage, draw 2 cards."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-028",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-028_C.webp", "en": null },
+        "img_hash": "v2|H32=SqvLqtWqqfW7dLR1unUaFdIdShlLm1TbVptOvVY8VAxqTRJFRfBsksAfZZt4HC2a5N+Jbh/HgUcf3OFj+QEpGg/+Ah8|CYM=1D1711",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C30" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -67724,6 +67814,28 @@
       }
     ]
   },
+  "hY01-014": {
+    "card_number": "hY01-014",
+    "name": { "jp": "白エール", "en": "White Cheer" },
+    "card_type": "cheer",
+    "colors": [ "white" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY01-014",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY01-014_SY.webp", "en": null },
+        "img_hash": "v2|H32=6qrLzVZNrKqclTQ3rZZul2Zla6ln20Rsa0rVylom24aZo5qmpNnoKdJWLUkJkhaqUi0kVWnhdtlbuKIVbVuWtNMmYNs|CYM=0B4F35",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C38" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY02-001": {
     "card_number": "hY02-001",
     "name": { "jp": "緑エール", "en": "Green Cheer" },
@@ -68014,6 +68126,28 @@
         "img_path": { "jp": "unreleased/hY02-011_SY.webp", "en": null },
         "img_hash": "v2|H32=qKvUtnbuMbNPNHJVrbFOVapVrTvLyHJTxSqxqfJ2VaqKNVS0pE2WlssqKOtB2paUSmYrKhbSpk3bpkpamqQurVqlIlU|CYM=261B31",
         "ogbajoj_sheet_cells": [ [ 419256011, "C124" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hY02-012": {
+    "card_number": "hY02-012",
+    "name": { "jp": "緑エール", "en": "Green Cheer" },
+    "card_type": "cheer",
+    "colors": [ "green" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY02-012",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY02-012_SY.webp", "en": null },
+        "img_hash": "v2|H32=mqwsU42oe/VnSdpwKdvWacyys4zJM6afkaRESbIlVJbCSdRWtU12rWrVytJSaihtn0paKk+arZK1KirVqVWiKkmqomg|CYM=1E1A31",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C39" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -68422,6 +68556,28 @@
       }
     ]
   },
+  "hY03-016": {
+    "card_number": "hY03-016",
+    "name": { "jp": "赤エール", "en": "Red Cheer" },
+    "card_type": "cheer",
+    "colors": [ "red" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY03-016",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY03-016_SY.webp", "en": null },
+        "img_hash": "v2|H32=sqooVdOsNMqMVZTuJdLKFLeiahXejhaxKStQySkzkcxJMVTVSD1aVZZWKavW0rQsJMnaSqnVpabZotJKaUlqqSlpqlY|CYM=0C3E3F",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C40" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY04-001": {
     "card_number": "hY04-001",
     "name": { "jp": "青エール", "en": "Blue Cheer" },
@@ -68745,6 +68901,28 @@
       }
     ]
   },
+  "hY04-013": {
+    "card_number": "hY04-013",
+    "name": { "jp": "青エール", "en": "Blue Cheer" },
+    "card_type": "cheer",
+    "colors": [ "blue" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY04-013",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY04-013_SY.webp", "en": null },
+        "img_hash": "v2|H32=uqosm72ae2epmd7ZcyXYmcHKcrE5zqZJO6EiT84xkMlEJmhVrVKsVcu1SrpSKlJLVqlSqF4tsiy2rJaSWrYmrbaSWko|CYM=3E230D",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C41" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY05-001": {
     "card_number": "hY05-001",
     "name": { "jp": "紫エール", "en": "Purple Cheer" },
@@ -69014,6 +69192,28 @@
       }
     ]
   },
+  "hY05-011": {
+    "card_number": "hY05-011",
+    "name": { "jp": "紫エール", "en": "Purple Cheer" },
+    "card_type": "cheer",
+    "colors": [ "purple" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY05-011",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY05-011_SY.webp", "en": null },
+        "img_hash": "v2|H32=qqpKVaeqpLZmVTRrCZaSbCypk5qyViSZl5JohTSzy+2wsdS2rbVqSVKtpEy0aZK2iZZS28mSUqptS3JZroWWpFZKlko|CYM=0B411E",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C42" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY06-001": {
     "card_number": "hY06-001",
     "name": { "jp": "黄エール", "en": "Yellow Cheer" },
@@ -69274,6 +69474,28 @@
         "img_path": { "jp": "unreleased/hY06-010_SY.webp", "en": null },
         "img_hash": "v2|H32=rrTo1am0ZtRbKV5qd6pWev3KpNJZVqDVm9Y4VYmWmFXMK1xV6TJLq3atUqpaarJSllq2aqRWLtmmRbbUkrUqlUpTpiU|CYM=0A1B43",
         "ogbajoj_sheet_cells": [ [ 419256011, "C128" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hY06-011": {
+    "card_number": "hY06-011",
+    "name": { "jp": "黄エール", "en": "Yellow Cheer" },
+    "card_type": "cheer",
+    "colors": [ "yellow" ],
+    "max_amount": { "jp": 20 },
+    "illustrations": [
+      {
+        "card_number": "hY06-011",
+        "manage_id": { },
+        "rarity": "SY",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hY06-011_SY.webp", "en": null },
+        "img_hash": "v2|H32=oKpaXakqNCtLVXxRt6jIVFapuYxeK7GMLnvBpCZVw7SkjdSuatWoVZQ2SyrtgrallSpqVZWulqo21baSabyyWlsqstQ|CYM=09294E",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C43" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
