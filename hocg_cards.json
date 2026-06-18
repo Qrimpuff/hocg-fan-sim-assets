@@ -6506,6 +6506,19 @@
       },
       {
         "card_number": "hBP01-051",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-051_RR.webp", "en": null },
+        "img_hash": "v2|H32=rqKJ0meqDNv0+G2rlFR3prwVsDROQbJZXstK0XvaRleJmqxUqfVKV1Jb1Nqlq9KlWy7rta2WUlpwWlarpaV60aVFUi0|CYM=27231D",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C38" ] ],
+        "similarity_index": 4,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-051",
         "manage_id": { "en": [ 202 ] },
         "rarity": "SR",
         "illustrator": "でいりー",
@@ -64725,7 +64738,7 @@
         "name": { "jp": "収集家", "en": "The Archiver" },
         "text": {
           "jp": "[ターンに1回]自分のデッキの上から3枚を見る。その中から、サポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-          "en": "[1/Turn]Look at the top 3 cards of your deck. Reveal 1 support card from among them, and it to hand. Then, return the remaining cards to the bottom of the deck in any order."
+          "en": "[1/Turn] Look at the top 3 cards of your deck. Reveal 1 support card from among them, and it to hand. Then, return the remaining cards to the bottom of the deck in any order."
         }
       },
       {
@@ -64734,7 +64747,7 @@
         "name": { "jp": "リベリオン", "en": "Rebellion" },
         "text": {
           "jp": "[ゲームに1回]相手のDebut以外のバックホロメン1人に、自分のアーカイブのサポートカード1枚につき、特殊ダメージ10を与える。",
-          "en": "[1/Game]Deal 10 special damage for each support card in your archive to 1 of your opponent's back holomem other than Debut."
+          "en": "[1/Game] Deal 10 special damage to 1 of your opponent's back holomem other than Debut for each support card in your archive."
         }
       }
     ],
@@ -64768,7 +64781,7 @@
         "name": { "jp": "Biboo Tax", "en": "Biboo Tax" },
         "text": {
           "jp": "[ターンに1回]お互いのエールデッキの上から1枚をアーカイブする。アーカイブしたエール1色につき、自分のデッキを1枚引く。",
-          "en": "[1/Turn]Archive the top card of both players' cheer decks. For each color of cheer archived, draw 1 card."
+          "en": "[1/Turn] Archive the top card of both players' cheer decks. Draw 1 card for each color among cheers archived this way."
         }
       },
       {
@@ -64777,7 +64790,7 @@
         "name": { "jp": "古代魔石の輝き", "en": "Ancient, Mystic Brilliance" },
         "text": {
           "jp": "[ゲームに1回]相手のセンターホロメンに、自分のアーカイブの[#Adventを持つホロメンとエール]1枚につき、特殊ダメージ10を与える。",
-          "en": "[1/Game]Deal 10 special damage for each [holomem with #Advent and cheer] in your archive to your opponent's center holomem."
+          "en": "[1/Game] Deal 10 special damage to your opponent's center holomem for each [holomem with #Advent and cheer] in your archive."
         }
       }
     ],
@@ -65524,7 +65537,7 @@
         "name": { "jp": "秩序の先駆者", "en": "Harbinger of Order" },
         "text": {
           "jp": "[ターンに1回]自分のホロメン1人が相手からアーツダメージを受ける時、自分のステージの[Buzzか2nd]の赤ホロメン1人を選べる:そのダメージを、選んだホロメンがかわりに受ける。",
-          "en": "[1/Turn]When 1 of your holomem would take Arts damage from your opponent, you may choose 1 red [Buzz or 2nd] holomem on your stage:The chosen holomem takes the damage instead."
+          "en": "[1/Turn] If 1 of your holomem would take Arts damage from your opponent, you may choose 1 red [Buzz or 2nd] holomem from your stage: The chosen holomem takes that damage instead."
         }
       },
       {
@@ -65533,7 +65546,7 @@
         "name": { "jp": "JUST LIKE THAT", "en": "JUST LIKE THAT" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブの#Justiceを持つホロメン1枚をステージに出す。その後、自分のアーカイブのエール1～5枚をそのホロメンに送る。",
-          "en": "[1/Game]Place 1 holomem with #Justice from your archive on stage. Then, send 1~5 cheers from your archive to that holomem."
+          "en": "[1/Game] Place 1 holomem with #Justice from your archive on stage. Then, send 1~5 cheers from your archive to that holomem."
         }
       }
     ],
@@ -65567,16 +65580,16 @@
         "name": { "jp": "Boat Goes Binted", "en": "Boat Goes Binted" },
         "text": {
           "jp": "[ターンに1回]相手のセンターポジションとコラボポジションのホロメンを入れ替える。",
-          "en": "[1/Turn]Switch your opponent's center holomem and collab holomem."
+          "en": "[1/Turn] Swap your opponent's center holomem and collab holomem."
         }
       },
       {
         "kind": "special",
         "holo_power": 3,
-        "name": { "jp": "自由奔放な『追跡者』", "en": "The free-spirited Chaser" },
+        "name": { "jp": "自由奔放な『追跡者』", "en": "Free-Spirited Chaser" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、2ndホロメンの〈ジジ・ムリン〉2枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、自分のアーカイブのエールを自分のホロメン全員に1枚ずつ送る。",
-          "en": "[1/Game]Reveal 2 2nd holomem <Gigi Murin> from your deck, and place them on stage. Then, shuffle the deck. Send 1 cheer from your archive to each of your holomem."
+          "en": "[1/Game] Reveal 2 2nd holomem <Gigi Murin> from your deck, and place them on stage. Then, shuffle the deck. Send 1 cheer from your archive to each of your holomem."
         }
       }
     ],
@@ -69222,7 +69235,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY01-014_SY.webp", "en": null },
         "img_hash": "v2|H32=6qrLzVZNrKqclTQ3rZZul2Zla6ln20Rsa0rVylom24aZo5qmpNnoKdJWLUkJkhaqUi0kVWnhdtlbuKIVbVuWtNMmYNs|CYM=0B4F35",
-        "ogbajoj_sheet_cells": [ [ 279785501, "C38" ] ],
+        "ogbajoj_sheet_cells": [ [ 279785501, "C39" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -69545,7 +69558,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY02-012_SY.webp", "en": null },
         "img_hash": "v2|H32=mqwsU42oe/VnSdpwKdvWacyys4zJM6afkaRESbIlVJbCSdRWtU12rWrVytJSaihtn0paKk+arZK1KirVqVWiKkmqomg|CYM=1E1A31",
-        "ogbajoj_sheet_cells": [ [ 279785501, "C39" ] ],
+        "ogbajoj_sheet_cells": [ [ 279785501, "C40" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -69972,7 +69985,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY03-016_SY.webp", "en": null },
         "img_hash": "v2|H32=sqooVdOsNMqMVZTuJdLKFLeiahXejhaxKStQySkzkcxJMVTVSD1aVZZWKavW0rQsJMnaSqnVpabZotJKaUlqqSlpqlY|CYM=0C3E3F",
-        "ogbajoj_sheet_cells": [ [ 279785501, "C40" ] ],
+        "ogbajoj_sheet_cells": [ [ 279785501, "C41" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -70321,7 +70334,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY04-013_SY.webp", "en": null },
         "img_hash": "v2|H32=uqosm72ae2epmd7ZcyXYmcHKcrE5zqZJO6EiT84xkMlEJmhVrVKsVcu1SrpSKlJLVqlSqF4tsiy2rJaSWrYmrbaSWko|CYM=3E230D",
-        "ogbajoj_sheet_cells": [ [ 279785501, "C41" ] ],
+        "ogbajoj_sheet_cells": [ [ 279785501, "C42" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -70616,7 +70629,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY05-011_SY.webp", "en": null },
         "img_hash": "v2|H32=qqpKVaeqpLZmVTRrCZaSbCypk5qyViSZl5JohTSzy+2wsdS2rbVqSVKtpEy0aZK2iZZS28mSUqptS3JZroWWpFZKlko|CYM=0B411E",
-        "ogbajoj_sheet_cells": [ [ 279785501, "C42" ] ],
+        "ogbajoj_sheet_cells": [ [ 279785501, "C43" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -70909,7 +70922,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY06-011_SY.webp", "en": null },
         "img_hash": "v2|H32=oKpaXakqNCtLVXxRt6jIVFapuYxeK7GMLnvBpCZVw7SkjdSuatWoVZQ2SyrtgrallSpqVZWulqo21baSabyyWlsqstQ|CYM=09294E",
-        "ogbajoj_sheet_cells": [ [ 279785501, "C43" ] ],
+        "ogbajoj_sheet_cells": [ [ 279785501, "C44" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
