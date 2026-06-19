@@ -5839,7 +5839,7 @@
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色3つ分増やす能力です。",
-      "en": "This means that your opponent will need to archive 1 more cheer to Baton Pass with the affected holomem."
+      "en": "This means that your opponent will need to archive 3 more cheers to Baton Pass with the affected holomem."
     },
     "referenced_cards": [ "hSD11-009" ]
   },
@@ -5868,7 +5868,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-001〈ラオーラ・パンテーラ〉のSP推しスキル「BIG TROUBLE!!」を使った後に、相手がhBP06-088〈ドッキリうさぎ〉を使い、自分のセンターホロメンを選びました。\nこの場合、選ばれたホロメンはお休みしてバックポジションへ移動しますか？",
-      "en": "After I have used hBP06-001 Raora Panthera's SP Oshi skill \"BIG TROUBLE!\"\", my opponent used hBP06-088 Prankster Rabbit and chose my center holomem.\nIn this case, does the chosen holomem still rest and move to the back position?"
+      "en": "After I have used hBP06-001 Raora Panthera's SP Oshi skill \"BIG TROUBLE!!\", my opponent used hBP06-088 Prankster Rabbit and chose my center holomem.\nIn this case, does the chosen holomem still rest and move to the back position?"
     },
     "answer": { "jp": "はい、移動します。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP06-001", "hBP06-088" ]
@@ -5878,7 +5878,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-002〈響咲リオナ〉の推しスキル「やりたいように、私は私らしく」の能力は、自分のデッキが1枚以下でも使うことはできますか？",
-      "en": "Can I use hBP06-002 Isaki Riona's Oshi skill \"I'll do what I like and live how I want to\" even if I have 1 or less cards in my deck?"
+      "en": "Can I use hBP06-002 Isaki Riona's Oshi skill \"I'll Do What I Like\" even if I have 1 or less cards in my deck?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、0枚になるまでデッキの上からカードをアーカイブし、+20します。",
@@ -5891,7 +5891,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキの枚数が7枚で推しホロメンがhBP06-002〈響咲リオナ〉の時、hBP06-020〈響咲リオナ〉のアーツ「レゾナンスロア」の能力でデッキを2枚アーカイブし、相手のセンターホロメンをダウンさせました。\nこの場合、hBP06-002〈響咲リオナ〉のSP推しスキル「生き抜いていくんです！」の能力を使って相手のライフを-1することはできますか？",
-      "en": "I have 7 cards in my deck and my Oshi holomem is hBP06-002 Isaki Riona. I then use hBP06-020 Isaki Riona's Arts \"Resonance Roar\" to archive the top 2 cards of my deck, and down my opponent's center holomem.\nIn this case, can I use hBP06-002 Isaki Riona's SP Oshi skill \"I will survive!\" to give my opponent -1 life?"
+      "en": "I have 7 cards in my deck and my Oshi holomem is hBP06-002 Isaki Riona. I then use hBP06-020 Isaki Riona's Arts \"Resonance Roar\" to archive the top 2 cards of my deck, and down my opponent's center holomem.\nIn this case, can I use hBP06-002 Isaki Riona's SP Oshi skill \"And Live How I Want to!\" to give my opponent -1 life?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-002", "hBP06-020" ]
@@ -5901,7 +5901,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の「[BuzzホロメンかBuzzホロメンからBloomしている〈風真いろは〉]」とは、どういう意味ですか？",
-      "en": "What does the phase \"[Buzz holomem or Kazama Iroha which has bloomed from a Buzz holomem]\" mean in hBP06-003 Kazama Iroha's Oshi skill \"When in doubt, just do it!\"?"
+      "en": "What does the phase \"[Buzz holomem or <Kazama Iroha> bloomed from a Buzz holomem]\" mean in hBP06-003 Kazama Iroha's Oshi skill \"Start by Taking Action If You're Lost!\"?"
     },
     "answer": {
       "jp": "Buzzホロメン、もしくは一番上に重なっているホロメンが〈風真いろは〉であり、その真下のカードがBuzzホロメンであるホロメン、という状況を指します。",
@@ -5914,7 +5914,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？",
-      "en": "When using hBP06-003 Kazama Iroha's Oshi skill \"When in doubt, just do it!\", can I send cheer to a Buzz holomem that is not Kazama Iroha?"
+      "en": "When using hBP06-003 Kazama Iroha's Oshi skill \"Start by Taking Action If You're Lost!\", can I send cheer to a Buzz holomem that is not Kazama Iroha?"
     },
     "answer": { "jp": "はい、送れます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-003" ]
@@ -5924,7 +5924,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」は、SP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」を使っていなくても使うことはできますか？",
-      "en": "Can I use hBP06-005 Hakos Baelz's Oshi skill \"Personification of Chaos\" even if I have not used the SP Oshi skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\"?"
+      "en": "Can I use hBP06-005 Hakos Baelz's Oshi skill \"Embodiment of Chaos\" even if I have not used the SP Oshi skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\"?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、ホロパワーを支払い、SP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」を使っていないため、何もせず効果の処理を終えます。",
@@ -5937,7 +5937,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力は、サイコロを振り、出た目の数と同じになるまでカードを引かなければなりませんか？",
-      "en": "When using hBP06-005 Hakos Baelz's Oshi skill \"Personification of Chaos\", do I have to roll the die and do I have to draw the appropriate number of cards?"
+      "en": "When using hBP06-005 Hakos Baelz's Oshi skill \"Embodiment of Chaos\", do I have to roll the die and do I have to draw the appropriate number of cards?"
     },
     "answer": {
       "jp": "はい、引かなければなりません。",
@@ -5960,7 +5960,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-007〈ロボ子さん〉の推しスキル「PONじゃないもん！！」の能力は、自分のデッキが1枚以下でも使うことはできますか？",
-      "en": "Can I use hBP06-007 Robocosan's Oshi skill \"I'm not PON!\" even if I have 1 or less cards in my deck?"
+      "en": "Can I use hBP06-007 Robocosan's Oshi skill \"I'm Not Broken!!\" even if I have 1 or less cards in my deck?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、0枚になるまでデッキの上からカードをアーカイブします。",
@@ -5973,7 +5973,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-008〈夏色まつり〉の推しスキル「おまつりわっしょーい！！！」の能力でサイコロを振り、出た目がライフの数と同じ場合、自分のデッキから、カード1枚を手札に加え、その後自分のデッキの上から1枚をホロパワーにすることはできますか？",
-      "en": "When using hBP06-008 Natsuiro Matsuri's Oshi skill \"Omatsuri Wasshoi!!\", if I roll a dice and the result is the same as my current life amount, do I add 1 card to hand and also place 1 card in holo Power?"
+      "en": "When using hBP06-008 Natsuiro Matsuri's Oshi skill \"Festival Wasshoi!!!\", if I roll a dice and the result is the same as my current life amount, do I add 1 card to hand and also place 1 card in holo Power?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP06-008" ]
@@ -5983,7 +5983,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-008〈夏色まつり〉の推しスキル「おまつりわっしょーい！！！」の能力でサイコロを振り、出た目がライフの数と同じ場合、自分のデッキから、カード1枚を手札に加えるのと、自分のデッキの上から1枚をホロパワーにする順番を自分で選ぶことはできますか？",
-      "en": "When using hBP06-008 Natsuiro Matsuri's Oshi skill \"Omatsuri Wasshoi!!\", if I roll a dice and the result is the same as my current life amount, can I choose the order in which I add 1 card to hand and place 1 card in holo Power?"
+      "en": "When using hBP06-008 Natsuiro Matsuri's Oshi skill \"Festival Wasshoi!!!\", if I roll a dice and the result is the same as my current life amount, can I choose the order in which I add 1 card to hand and place 1 card in holo Power?"
     },
     "answer": {
       "jp": "いいえ、できません。\n必ず書かれている順番に処理します。",
@@ -5996,7 +5996,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？",
-      "en": "When using hBP06-008 Natsuiro Matsuri's SP Oshi skill \"I definitely want to win!!!!!!!\" on my first turn while going first, can I use 2 Limited support cards this turn?"
+      "en": "When using hBP06-008 Natsuiro Matsuri's SP Oshi skill \"I Absolutely Want to Win!!!!!!!\" on my first turn while going first, can I use 2 Limited support cards this turn?"
     },
     "answer": { "jp": "いいえ、なりません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-008" ]
@@ -6006,7 +6006,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-014〈ラオーラ・パンテーラ〉のギフト「夢紡ぎのアトリエ」の能力で、ホロパワーにあるカードを見た時、必ず1枚を手札に加えなければなりませんか？",
-      "en": "When using hBP06-014 Raora Panthera's Gift \"Dream Weaving Atelier\", when looking at my holo Power, do I have to add 1 of them to my hand?"
+      "en": "When using hBP06-014 Raora Panthera's Gift \"Atelier Where Dreams Come True\", when looking at my holo Power, do I have to add 1 of them to my hand?"
     },
     "answer": {
       "jp": "はい、ホロパワーが1枚でもある場合は加えなければなりません。",
@@ -6019,7 +6019,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が0枚の時、hBP06-014〈ラオーラ・パンテーラ〉のギフト「夢紡ぎのアトリエ」の能力で、ホロパワーを1枚選んで手札に加えるのみはできますか？",
-      "en": "If I have 0 cards in my hand when using hBP06-014 Raora Panthera's Gift \"Dream Weaving Atelier\", can I end the effect after adding a card to my hand from holo Power?"
+      "en": "If I have 0 cards in my hand when using hBP06-014 Raora Panthera's Gift \"Atelier Where Dreams Come True\", can I end the effect after adding a card to my hand from holo Power?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの場合、加えたカードをホロパワーに置きます。",
@@ -6032,7 +6032,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が0枚の時、hBP06-014〈ラオーラ・パンテーラ〉のギフト「夢紡ぎのアトリエ」の能力で、手札に加えたカードをホロパワーにすることはできますか？",
-      "en": "If I have 0 cards in my hand when using hBP06-014 Raora Panthera's Gift \"Dream Weaving Atelier\", do I put the card added to my hand back into holo Power?"
+      "en": "If I have 0 cards in my hand when using hBP06-014 Raora Panthera's Gift \"Atelier Where Dreams Come True\", do I put the card added to my hand back into holo Power?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP06-014" ]
@@ -6042,7 +6042,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-014〈ラオーラ・パンテーラ〉のアーツ「色彩のリナシメント」で相手のホロメンをダウンさせた場合。ギフト「夢紡ぎのアトリエ」の能力は、いつ発揮されますか？",
-      "en": "If I down my opponent's holomem using hBP06-014 Raora Panthera's Arts \"Rinascimento of Colors\", when is the Gift \"Dream Weaving Atelier\" processed?"
+      "en": "If I down my opponent's holomem using hBP06-014 Raora Panthera's Arts \"Colorful Rinascimento\", when is the Gift \"Atelier Where Dreams Come True\" processed?"
     },
     "answer": {
       "jp": "ダウン処理の後に発揮されます。",
@@ -6055,7 +6055,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-016〈響咲リオナ〉のコラボエフェクト「一緒に共闘しよ」の能力で、コラボエフェクトか#FLOW GLOWのどちらかを持つホロメンを手札に加えることはできますか？",
-      "en": "When using hBP06-016 Isaki Riona's Collab effect \"Let's fight together\", can I add a holomem with either a Collab effect, or #FLOW GLOW (but not both) to my hand?"
+      "en": "When using hBP06-016 Isaki Riona's Collab effect \"Let's Fight Together\", can I add a holomem with either a Collab effect, or #FLOW GLOW (but not both) to my hand?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-016" ]
@@ -6065,12 +6065,9 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキが1枚以下の時、hBP06-020〈響咲リオナ〉のギフト「意志の指揮者」の能力を使うことはできますか？",
-      "en": "Can I use hBP06-020 Isaki Riona's Gift \"Conductor of Will\" if I have 1 or less cards in my deck?"
+      "en": "Can I use hBP06-020 Isaki Riona's Gift \"Leading with Her Own Will\" if I have 1 or less cards in my deck?"
     },
-    "answer": {
-      "jp": "いいえ、できません。",
-      "en": "No, you cannot.\n(this contradicts another Q&A, we are waiting to see if there is a resolution to this)"
-    },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-020" ]
   },
   "Q516": {
@@ -6091,7 +6088,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が5枚で、センターホロメンがhBP06-026〈風真いろは〉の時、hSD04-004〈癒月ちょこ〉をコラボさせ、手札を1枚捨ててデッキから何も手札に加えませんでした。\nこの場合、hBP06-026〈風真いろは〉のギフト「元気をお届け！」の能力で、コラボホロメンのhSD04-004〈癒月ちょこ〉にエールを送ることはできますか？",
-      "en": "I have 5 cards in my hand, and my center holomem is hBP06-026 Kazama Iroha. I then collab with hSD04-004 Yuzuki Choco, and use the Collab Effect \"One Hell of a Meal\" to archive a card from my hand but do not add any cards from my deck to hand.\nIn this case, can I use Kazama Iroha's Gift \"Delivering you energy!\" to send cheer to my collab holomem Yuzuki Choco?"
+      "en": "I have 5 cards in my hand, and my center holomem is hBP06-026 Kazama Iroha. I then collab with hSD04-004 Yuzuki Choco, and use the Collab Effect \"One Hell of a Meal\" to archive a card from my hand but do not add any cards from my deck to hand.\nIn this case, can I use Kazama Iroha's Gift \"Cheer Up!\" to send cheer to my collab holomem Yuzuki Choco?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-026", "hSD04-004" ]
@@ -6101,7 +6098,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の手札が4枚で、センターホロメンがhBP06-026〈風真いろは〉の時、hSD06-008〈博衣こより〉をコラボさせ、カードを1枚引きました。\nこの場合、hBP06-026〈風真いろは〉のギフト「元気をお届け！」の能力で、コラボホロメンのhSD06-008〈博衣こより〉にエールを送ることはできますか？",
-      "en": "I have 4 cards in my hand, any my center holomem is hBP06-026 Kazama Iroha. I then collab with hSD06-008 Hakui Koyori, and use the Collab Effect \"Brains!\" to draw a card.\nIn this case, can I use Kazama Iroha's Gift \"Delivering you energy!\" to send cheer to my collab holomem Hakui Koyori?"
+      "en": "I have 4 cards in my hand, any my center holomem is hBP06-026 Kazama Iroha. I then collab with hSD06-008 Hakui Koyori, and use the Collab Effect \"Brains!\" to draw a card.\nIn this case, can I use Kazama Iroha's Gift \"Cheer Up!\" to send cheer to my collab holomem Hakui Koyori?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-026", "hSD06-008" ]
@@ -6111,7 +6108,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-027〈風真いろは〉のアーツ「伝えたい想い」で相手のホロメンをダウンさせた場合、能力でホロメンをBloomできるのはいつですか？",
-      "en": "If I down my opponent's holomem using hBP06-027 Kazama Iroha's Arts \"Step Together\", when do I use the Gift \"Thoughts I want to convey\" to bloom my holomem?"
+      "en": "If I down my opponent's holomem using hBP06-027 Kazama Iroha's Arts \"Taking a Step Together\", when do I use the Gift \"Conveying Feelings\" to bloom my holomem?"
     },
     "answer": {
       "jp": "「相手のセンターホロメンをダウンさせた時」なので、ホロメンをアーカイブする前となります。",
@@ -6124,7 +6121,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-030〈姫森ルーナ〉のギフト「みんなへ感謝の気持ち」の能力は、hBP03-105〈ルーナイト〉自身の能力でアーカイブする場合も、かわりにバックホロメンの〈姫森ルーナ〉に付け替えることはできますか？",
-      "en": "When archiving hBP03-105 Lu-knights using its ability, can I use hBP06-030 Himemori Luna's Gift \"Feelings of gratitude toward everyone\" to reattach it to my back holomem instead?"
+      "en": "When archiving hBP03-105 Lu-knights using its ability, can I use hBP06-030 Himemori Luna's Gift \"Giving Thanks\" to reattach it to my back holomem instead?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-105", "hBP06-030" ]
@@ -6134,7 +6131,7 @@
     "date": "2025-12-18",
     "question": {
       "jp": "残りHP10の、hBP03-105〈ルーナイト〉が付いている〈姫森ルーナ〉が100ダメージを受け、ダウンしました。\nこの場合、コラボポジションのhBP06-030〈姫森ルーナ〉のギフト「みんなへ感謝の気持ち」の能力を発揮することはできますか？\n[12/18更新]12/12(金)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
-      "en": "My Himemori Luna, which has 10 HP and has a hBP03-105 Lu-knights attached, takes 100 damage and is downed.\nIn this case, can I use my collab holomem hBP06-030 Himemori Luna's Gift \"Feelings of gratitude toward everyone\"?"
+      "en": "My Himemori Luna, which has 10 HP and has a hBP03-105 Lu-knights attached, takes 100 damage and is downed.\nIn this case, can I use my collab holomem hBP06-030 Himemori Luna's Gift \"Giving Thanks\"?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-105", "hBP06-030" ]
@@ -6144,7 +6141,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-039〈百鬼あやめ〉のギフト「余、なんも聞いとらんかった。」の「アーツダメージ」とは、アーツの能力による特殊ダメージも含まれますか？",
-      "en": "In hBP06-039 Nakiri Ayame's Gift \"I didn't hear anything\", does \"Arts damage\" also include special damage caused by Arts?"
+      "en": "In hBP06-039 Nakiri Ayame's Gift \"Didn't Hear a Thing.\", does \"Arts damage\" also include special damage caused by Arts?"
     },
     "answer": {
       "jp": "いいえ、含まれません。\nアーツダメージとは、アーツ名の右に記載されている数値です。",
@@ -6157,7 +6154,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-039〈百鬼あやめ〉のアーツ「百鬼乱舞 -朧月-」の能力は、1枚ずつアーカイブしたエールカードを見て、好きなタイミングでアーカイブを止めることはできますか？",
-      "en": "When using hBP06-039 Nakiri Ayame's Arts \"Hundred Oni Dance -Hazy Moon-\", can I look at the cheer cards I'm archiving one by one, and choose to stop at any time?"
+      "en": "When using hBP06-039 Nakiri Ayame's Arts \"Nakiri Dance -Oborozuki-\", can I look at the cheer cards I'm archiving one by one, and choose to stop at any time?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの場合、アーカイブする枚数を宣言してからエールデッキをアーカイブします。",
@@ -6193,7 +6190,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-055〈沙花叉クロヱ〉のコラボエフェクト「ワンワーーン！！！」の能力は、相手のアーカイブのエールが2枚以下の場合は使うことはできませんか？",
-      "en": "Is it impossible for me to use hBP06-055 Sakamata Chloe's Collab Effect \"Bow wow!!!\" if my opponent has 2 or less cheers in their archive?"
+      "en": "Is it impossible for me to use hBP06-055 Sakamata Chloe's Collab Effect \"Woof, Wooof!!!\" if my opponent has 2 or less cheers in their archive?"
     },
     "answer": {
       "jp": "いいえ、使えます。\nこの場合、可能な限り相手のセンターホロメンにエールを送り、その後、自分のアーカイブのエール1枚を自分の〈紫咲シオン〉に送ることができます。",
@@ -6206,7 +6203,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキが3枚以下の時、hBP06-056〈沙花叉クロヱ〉のアーツ「二人で紡いだ魔法」の能力を発揮することはできますか？",
-      "en": "Can I use the ability of hBP06-055 Sakamata Chloe's Arts \"The magic we spun together\" if my deck has 3 or less cards?"
+      "en": "Can I use the ability of hBP06-055 Sakamata Chloe's Arts \"Magic Created by the Pair\" if my deck has 3 or less cards?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、可能な限りデッキの上からカードを公開します。",
@@ -6219,7 +6216,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のデッキが5枚以下の時、hBP06-057〈沙花叉クロヱ〉のアーツ「沙花叉と青春しよ？」の能力を発揮することはできますか？",
-      "en": "Can I use the ability of hBP06-056 Sakamata Chloe's Arts \"Spend your youth with Sakamata?\" if my deck has 5 or less cards?"
+      "en": "Can I use the ability of hBP06-056 Sakamata Chloe's Arts \"Have a Blast with Sakamata?\" if my deck has 5 or less cards?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、可能な限りデッキの上からカードを公開します。",
@@ -6234,10 +6231,7 @@
       "jp": "自分のデッキが1枚以下の時、hBP06-060〈森カリオペ〉のアーツ「Bull's-eye!!!!」でデッキの上からカードをアーカイブすることはできますか？",
       "en": "Can I use hBP06-060 Mori Calliope's Arts \"Bull's-eye!!!!\" to archive cards from my deck, if I have 1 or less cards in my deck?"
     },
-    "answer": {
-      "jp": "はい、できます。",
-      "en": "Yes, you can.\n(this contradicts another Q&A, we are waiting to see if there is a resolution to this)"
-    },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-060" ]
   },
   "Q530": {
@@ -6245,7 +6239,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分の推しホロメンがhBP06-007〈ロボ子さん〉で、自分のアーカイブにhBP03-110〈ろぼさー〉が2枚ある時、hBP06-064〈ロボ子さん〉のコラボエフェクト「いたずらしちゃうぞ～！」の能力で手札を2枚捨てました。\nこの場合、必ずhBP03-110〈ろぼさー〉を2枚手札に戻さなければなりませんか？",
-      "en": "My Oshi holomem is hBP06-007 Robocosan, and I have 2 hBP03-110 Roboser in my archive. I then use hBP06-064 Robocosan's Collab Effect \"I'm going to play a prank on you!\" and archive 2 cards from my hand.\nIn this case, do I have to return 2 Roboser from my archive to hand?"
+      "en": "My Oshi holomem is hBP06-007 Robocosan, and I have 2 hBP03-110 Roboser in my archive. I then use hBP06-064 Robocosan's Collab Effect \"Get Ready for My Prank!\" and archive 2 cards from my hand.\nIn this case, do I have to return 2 Roboser from my archive to hand?"
     },
     "answer": { "jp": "はい、必ず戻します。", "en": "Yes, you must." },
     "referenced_cards": [ "hBP03-110", "hBP06-007", "hBP06-064" ]
@@ -6255,7 +6249,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "自分のコラボホロメンがhBP01-023〈ときのそら〉で、センターホロメンがhBP06-066〈ロボ子さん〉の時、コラボホロメンのhBP01-023〈ときのそら〉のアーツ「止まらねえぞ」を使い、相手のセンターホロメンがダウンするまでに3回ダメージを与えました。\nこの場合、hBP06-066〈ロボ子さん〉のギフト「どり～む_コネクト.zero」は何回発揮できますか？",
-      "en": "My collab holomem is hBP01-023 Tokino Sora, and my center holomem is hBP06-066 Robocosan. I then use Tokino Sora's Arts \"Not gonna stop\" and deal damage 3 times to my opponent's center holomem before it is downed.\nIn this case, how many times do I use Robocosan's Gift \"dream_CONNECT.zero\"?"
+      "en": "My collab holomem is hBP01-023 Tokino Sora, and my center holomem is hBP06-066 Robocosan. I then use Tokino Sora's Arts \"Not gonna stop\" and deal damage 3 times to my opponent's center holomem before it is downed.\nIn this case, how many times do I use Robocosan's Gift \"Dream_Connect .zero\"?"
     },
     "answer": { "jp": "3回まで発揮できます。", "en": "You use it 3 times." },
     "referenced_cards": [ "hBP01-023", "hBP06-066" ]
@@ -6265,7 +6259,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」の能力で、自分のお休みしている〈戌神ころね〉をアクティブにしました。\nその後、hBP06-069〈戌神ころね〉にBloomさせ、アーツ「しばきあげパンチング」を使った場合、+50されますか？",
-      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\" to set my hBP06-067 Inugami Korone to active.\nIf I then bloom that holomem to hBP06-069 Inugami Korone, and use the Arts \"Shibakiage Punching\", does it still get +50?"
+      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\" to set my hBP06-067 Inugami Korone to active.\nIf I then bloom that holomem to hBP06-069 Inugami Korone, and use the Arts \"Hard Beating\", does it still get +50?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP03-006", "hBP06-069" ]
@@ -6275,7 +6269,7 @@
     "date": "2025-12-12",
     "question": {
       "jp": "hBP06-084〈AIこより〉のギフト「「こんこよ」、古くなっちゃったかな？」の能力は、hBP01-106〈あとは任せた！〉で交代した場合も発揮されますか？",
-      "en": "Can I use hBP06-084 AI Koyori's Gift \"\"Konkoyo\", I wonder if that's getting old?\" if I switch it using hBP01-106 I leave the rest to you!?"
+      "en": "Can I use hBP06-084 AI Koyori's Gift \"\"Konkoyo\", Is This Outdated?\" if I switch it using hBP01-106 I leave the rest to you!?"
     },
     "answer": { "jp": "いいえ、されません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP01-106", "hBP06-084" ]
@@ -6340,7 +6334,7 @@
     "date": "2025-12-18",
     "question": {
       "jp": "相手のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時に、自分のBuzzホロメンからBloomしているhBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」を、相手のセンターホロメンに使いました。\nこの場合、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力でダメージを受けなくできますか？",
-      "en": "My opponent has hBP01-027 Vestia Zeta in their collab position, and my hBP06-027 Kazama Iroha which has bloomed from a Buzz holomem uses the Arts \"Step Together\" targeting my opponent's center holomem.\nIn this case, can my opponent use Vestia Zeta's Gift \"V.7\" to prevent the damage?"
+      "en": "My opponent has hBP01-027 Vestia Zeta in their collab position, and my hBP06-027 Kazama Iroha which has bloomed from a Buzz holomem uses the Arts \"Taking a Step Together\" targeting my opponent's center holomem.\nIn this case, can my opponent use Vestia Zeta's Gift \"V.7\" to prevent the damage?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, they cannot." },
     "referenced_cards": [ "hBP01-027", "hBP06-027" ]
@@ -6350,7 +6344,7 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」の「軽減されない」とは、どういう意味ですか？",
-      "en": "What does \"cannot be reduced\" mean on hBP06-027 Kazama Iroha's Arts \"Step Together\"?"
+      "en": "What does \"cannot be reduced\" mean on hBP06-027 Kazama Iroha's Arts \"Taking a Step Together\"?"
     },
     "answer": {
       "jp": "ダメージを減らす能力の影響を受けないという意味です。",
@@ -6363,7 +6357,7 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP06-027〈風真いろは〉がアーツ「一緒にすてっぷ」の「このホロメンがBuzzホロメンからBloomしているなら」とは、どういう意味ですか？",
-      "en": "What does \"if this holomem has bloomed from a Buzz holomem\" mean on hBP06-027 Kazama Iroha's Arts \"Step Together\"?"
+      "en": "What does \"if this holomem has bloomed from a Buzz holomem\" mean on hBP06-027 Kazama Iroha's Arts \"Taking a Step Together\"?"
     },
     "answer": {
       "jp": "hBP06-027〈風真いろは〉の真下にあるカードがBuzzホロメンである状態を指します。",
@@ -6429,7 +6423,7 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」を使ったが、お休みしているホロメンが誰もいないので何も起こりませんでした。\nこの場合、hBP06-070〈戌神ころね〉のアーツ「終焉のウォウウォウアックス」で210ダメージを与えることはできますか？",
-      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\", but since I had no resting holomem there was no effect.\nCan I now use hBP06-070 Inugami Korone's Arts \"Wow Wow Axe of the End\" to deal 210 damage?"
+      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\", but since I had no resting holomem there was no effect.\nCan I now use hBP06-070 Inugami Korone's Arts \"Ragnarok WowWowAxe\" to deal 210 damage?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP03-006", "hBP06-070" ]
@@ -6439,7 +6433,7 @@
     "date": "2025-12-18",
     "question": {
       "jp": "hBP03-006〈戌神ころね〉の推しスキル「無限の体力」を使ったが、お休みしているホロメンが誰もいないので何も起こりませんでした。\nこの場合、hBP06-069〈戌神ころね〉のアーツ「しばきあげパンチング」で80ダメージを与えることはできますか？",
-      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\", but since I had no resting holomem there was no effect.\nCan I now use hBP06-069 Inugami Korone's Arts \"Shibakiage Punching\" to deal 80 damage?"
+      "en": "I used hBP03-006 Inugami Korone's Oshi skill \"Infinite Stamina\", but since I had no resting holomem there was no effect.\nCan I now use hBP06-069 Inugami Korone's Arts \"Hard Beating\" to deal 80 damage?"
     },
     "answer": {
       "jp": "いいえ、推しスキル「無限の体力」でアクティブになっていないのでできません。",
@@ -6530,11 +6524,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自身のステージのエールの枚数が4枚の時に、hBP06-003〈風真いろは〉のSP推しスキル「アルティメットつよつよござる」を使用しました。\nその後、自身のステージのエールの枚数が5枚になった場合、〈風真いろは〉のアーツダメージは+50になりますか？",
-      "en": "I used hBP06-003 Kazama Iroha's SP Oshi Skill \"Ultimate Stronk Gozaru\" while I had 4 cheers on my stage.\nIf I then use Arts while I have 5 cheers on my stage, will my Kazama Iroha's Arts damage be increased by 50?"
+      "en": "I used hBP06-003 Kazama Iroha's SP Oshi Skill \"Unlimited Strength, I Daresay\" while I had 4 cheers on my stage.\nIf I then use Arts while I have 5 cheers on my stage, will my Kazama Iroha's Arts damage be increased by 50?"
     },
     "answer": {
       "jp": "いいえ、+40となります。\n「アルティメットつよつよござる」は、能力の解決時点でのエールのみを参照し、その後の変化は参照しません。",
-      "en": "No, it will only be increased by 40. \"Ultimate Stronk Gozaru\" applies an effect that is based on the number of cheers on your stage at the time you use the ability, and not any cheers added afterward."
+      "en": "No, it will only be increased by 40. \"Unlimited Strength, I Daresay\" applies an effect that is based on the number of cheers on your stage at the time you use the ability, and not any cheers added afterward."
     },
     "referenced_cards": [ "hBP06-003" ]
   },
@@ -6543,7 +6537,7 @@
     "date": "2026-01-16",
     "question": {
       "jp": "hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、コラボした後に使用したサポートカードも数えられますか？",
-      "en": "Regarding hBP06-074 Natsuiro Matsuri's Collab Effect \"Tenshi Kaiwai\", does the text \"each support card you used this turn\" include support cards that I use after I collab?"
+      "en": "Regarding hBP06-074 Natsuiro Matsuri's Collab Effect \"Among Angels\", does the text \"each support card you used this turn\" include support cards that I use after I collab?"
     },
     "answer": {
       "jp": "いいえ、コラボエフェクト「天使界隈」を使用するまでに使っていたサポートカードの枚数のみを数えます。",
@@ -6556,7 +6550,7 @@
     "date": "2026-01-16",
     "question": {
       "jp": "hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、hBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」で、手札以外の領域からホロメンへ付けた場合を数えますか？",
-      "en": "Regarding hBP06-074 Natsuiro Matsuri's Collab Effect \"Tenshi Kaiwai\", does the text \"each support card you used this turn\" include support cards that I attach to a holomem from somewhere other than hand using hBP01-003 Aki Rosenthal's Oshi Skill \"Survival Power\"?"
+      "en": "Regarding hBP06-074 Natsuiro Matsuri's Collab Effect \"Among Angels\", does the text \"each support card you used this turn\" include support cards that I attach to a holomem from somewhere other than hand using hBP01-003 Aki Rosenthal's Oshi Skill \"Survival Power\"?"
     },
     "answer": {
       "jp": "いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。",
@@ -6569,11 +6563,11 @@
     "date": "2026-01-16",
     "question": {
       "jp": "hBP06-103〈まつりす〉をステージの〈夏色まつり〉に付けました。次のターンに、サイコロを振った時に〈夏色まつり〉に付いているhBP06-103〈まつりす〉の能力を使用してサイコロの目の数を4にしました。その後、hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」を使用しました。この場合、このターンにアーカイブしたhBP06-103〈まつりす〉を「このターンに自分が使っていたサポートカード」として数えられますか？",
-      "en": "I attached hBP06-103 Matsurisu to one of my holomem. On my next turn, when I rolled a die, I used the ability of that Matsurisu to change the result to 4. Afterwards, I used hBP06-074 Natsuiro Matsuri's Collab Effect \"Tenshi Kaiwai\".\nIn this case, does the Matsurisu that I used and archived count as a \"support card you used this turn\"?"
+      "en": "I attached hBP06-103 Matsurisu to one of my holomem. On my next turn, when I rolled a die, I used the ability of that Matsurisu to change the result to 4. Afterwards, I used hBP06-074 Natsuiro Matsuri's Collab Effect \"Among Angels\".\nIn this case, does the Matsurisu that I used and archived count as a \"support card you used this turn\"?"
     },
     "answer": {
       "jp": "いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。",
-      "en": "No, it does not. The Collab Effect \"Tenshi Kaiwai\" will only count support cards played from your hand during this turn."
+      "en": "No, it does not. The Collab Effect \"Among Angels\" will only count support cards played from your hand during this turn."
     },
     "referenced_cards": [ "hBP06-074", "hBP06-103" ]
   },
@@ -6582,7 +6576,7 @@
     "date": "2026-01-16",
     "question": {
       "jp": "自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。\nこのターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？",
-      "en": "I bloomed one of my Debut holomem to a 1st holomem, then used hBP06-090 Bloom Stage to bloom it to another 1st holomem.\nIf I use hBP06-008 Natsuiro Matsuri's SP Oshi Skill \"I definitely want to win!!!!!!!\", can I use another Bloom Stage and bloom that holomem a third time?"
+      "en": "I bloomed one of my Debut holomem to a 1st holomem, then used hBP06-090 Bloom Stage to bloom it to another 1st holomem.\nIf I use hBP06-008 Natsuiro Matsuri's SP Oshi Skill \"I Absolutely Want to Win!!!!!!!\", can I use another Bloom Stage and bloom that holomem a third time?"
     },
     "answer": {
       "jp": "いいえ、できません。\n「DebutホロメンからBloomした1stホロメン」ではなく、「1stホロメンからBloomした1stホロメン」に使用しているため、hBP06-090〈ブルームステージ〉でそのホロメンをもう一度Bloomさせることはできません。",
@@ -7557,9 +7551,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-003〈FUWAMOCO〉の推しステージスキル「準備は出来てるよね!」の能力によって、〈フワワ・アビスガード〉や〈モココ・アビスガード〉に付いている赤エールは、他のホロメンに付け替えられた場合も青エールとして扱われますか？",
-      "en": null
+      "en": "With hBP08-003 FUWAMOCO's Oshi Stage Skill \"Are You Ready?\", will a red cheer attached to Fuwawa Abyssgard or Mococo Abyssgard also be treated as blue cheer even after reattaching that cheer to another holomem?"
     },
-    "answer": { "jp": "いいえ、扱いません。", "en": null },
+    "answer": { "jp": "いいえ、扱いません。", "en": "No, it will not." },
     "referenced_cards": [ "hBP08-003" ]
   },
   "Q641": {
@@ -7567,11 +7561,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-004〈水宮枢〉の推しスキル「すうだけ見てたらいいのにね」の能力の「無色+3」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"+3 colorless\" mean in hBP08-004 Mizumiya Su's Oshi Skill \"It Would Be Great If You Just Watched Su\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色3つ分増やす能力です。",
-      "en": null
+      "en": "This means that your opponent will need to archive 3 more cheers to Baton Pass with the affected holomem."
     },
     "referenced_cards": [ "hBP08-004" ]
   },
@@ -7580,11 +7574,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の手札が1枚の時、hBP08-005〈鷹嶺ルイ〉の推しスキル「ホイサホイサ」の能力を使いました。\nこの場合、手札1枚をアーカイブすることはできますか？",
-      "en": null
+      "en": "I have 1 card in my hand, and I use hBP08-005 Takane Lui's Oshi Skill \"Hoisa Hoisa\".\nIn this case, can I archive the 1 card in my hand?"
     },
     "answer": {
       "jp": "はい、できます。\nこの場合、1枚アーカイブし、その後何もせず能力の処理を終えます。",
-      "en": null
+      "en": "Yes, you can. In this case, you archive 1 card and finish processing the ability without doing anything else."
     },
     "referenced_cards": [ "hBP08-005" ]
   },
@@ -7593,11 +7587,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-006〈一伊那尓栖〉のステージ推しスキル「WORLD DOMINATION」の「相手の推しホロメンと異なる色を持つなら」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does a holomem having \"a different color to their Oshi holomem\" mean in hBP08-006 Ninomae Ina'nis's Oshi Stage Skill \"WORLD DOMINATION\"?"
     },
     "answer": {
       "jp": "相手の推しホロメンが持つ色とは別の色を1色以上持つことを指します。\n例として、相手の推しホロメンの色が赤で赤以外の色を持つホロメンは「異なる色を持つ」となります。",
-      "en": null
+      "en": "It means having 1 or more colors that are different from the color of that player's Oshi holomem.\nFor example, if the player's Oshi holomem is red, then a holomem with any color other than red would be considered as having \"a different color\"."
     },
     "referenced_cards": [ "hBP08-006" ]
   },
@@ -7606,9 +7600,12 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の「ホロパワー：-X」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"holo Power -X\" mean in hBP08-006 Ninomae Ina'nis's Oshi Skill \"Colors of Ina'nis\"?"
     },
-    "answer": { "jp": "ホロパワーを任意の枚数アーカイブすることを指します。", "en": null },
+    "answer": {
+      "jp": "ホロパワーを任意の枚数アーカイブすることを指します。",
+      "en": "It means you may choose to archive any number of cards from holo Power."
+    },
     "referenced_cards": [ "hBP08-006" ]
   },
   "Q645": {
@@ -7616,11 +7613,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の能力の「すべての色を持つホロメンとして扱う。」とは、無色も含みますか？",
-      "en": null
+      "en": "When using hBP08-006 Ninomae Ina'nis's Oshi Skill \"Colors of Ina'nis\", does the phrase \"regarded as holomem with all colors\" include colorless?"
     },
     "answer": {
       "jp": "いいえ、含みません。\n色とは、白、緑、赤、青、紫、黄のみを指します。",
-      "en": null
+      "en": "No, it does not. \"Color\" only refers to white, green, red, blue, purple and yellow."
     },
     "referenced_cards": [ "hBP08-006" ]
   },
@@ -7629,11 +7626,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-006 Ninomae Ina'nis's Oshi Skill \"Colors of Ina'nis\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a yellow holomem."
     },
     "referenced_cards": [ "hBP03-006", "hBP08-006" ]
   },
@@ -7642,11 +7639,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-006 Ninomae Ina'nis's Oshi Skill \"Colors of Ina'nis\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a red holomem."
     },
     "referenced_cards": [ "hBP01-006", "hBP08-006" ]
   },
@@ -7655,11 +7652,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-007〈音乃瀬奏〉のSP推しスキル「ぱちぱちありがとう！」の能力は、このターンが終了する時に、センターホロメンのエールが2枚以下だった場合、どうなりますか？",
-      "en": null
+      "en": "At the end of my turn after using hBP08-007 Otonose Kanade's SP Oshi Skill \"Thank You for the Applause!\", I only have 2 cheers on my stage. What do I do in this situation?"
     },
     "answer": {
       "jp": "この場合、可能な限りアーカイブするため、付いている枚数分アーカイブします。",
-      "en": null
+      "en": "In this case, you archive as many cheers as you can."
     },
     "referenced_cards": [ "hBP08-007" ]
   },
@@ -7668,9 +7665,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分のhBP08-007〈音乃瀬奏〉のSP推しスキル「ぱちぱちありがとう！」の能力を使い、自分の〈音乃瀬奏〉がセンターポジションでアーツを使いました。\nその後、ターンを終了する場合、エールを3枚アーカイブする前に推しスキル「奏でるメロディー」は使えますか？",
-      "en": null
+      "en": "During my turn, I used hBP08-007 Otonose Kanade's SP Oshi Skill \"Thank You for the Applause!\", and then used Arts with my center holomem.\nAt the end of my turn, can I use the Oshi Skill \"Kanade Melody\" before archiving cheers?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-007" ]
   },
   "Q650": {
@@ -7678,9 +7675,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP01-114〈石の斧〉が付いている残りHP10のhBP08-019〈ラオーラ・パンテーラ〉がアーツ「この幸せをシェアしよう」を使いました。\nこの場合、10ダメージを受ける前にデッキからhBP06-100〈Chattino〉を先に付けることはできますか？",
-      "en": null
+      "en": "My hBP08-019 Raora Panthera with 10 HP remaining and hBP01-114 Stone Axe attached uses the Arts \"Let's Share This Happiness\".\nIn this case, can I attach hBP06-100 Chattino from my deck before it takes 10 damage from Stone Axe?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-114", "hBP06-100", "hBP08-019" ]
   },
   "Q651": {
@@ -7688,9 +7685,12 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-021〈セシリア・イマーグリーン〉のコラボエフェクト「Automaton，Roll Out!」の能力は、必ず〈Otomo〉を2枚公開して加えなければなりませんか？",
-      "en": null
+      "en": "When using hBP08-021 Cecilia Immergreen's Collab Effect \"Automaton, Roll Out!\", do I have to reveal two hBP08-107 Otomo?"
     },
-    "answer": { "jp": "いいえ、1枚のみを加え、処理を終えることができます。", "en": null },
+    "answer": {
+      "jp": "いいえ、1枚のみを加え、処理を終えることができます。",
+      "en": "No, you do not. You may choose to reveal zero or one Otomo from your deck and add them to hand."
+    },
     "referenced_cards": [ "hBP08-021" ]
   },
   "Q652": {
@@ -7698,9 +7698,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-031〈パヴォリア・レイネ〉のギフト「SPY-C1000」の能力は、自分のエールデッキからアーカイブした場合もカードを引けますか？",
-      "en": null
+      "en": "Can I use hBP08-031 Pavolia Reine's Gift \"SPY-C1000\" to draw a card even when archiving a cheer directly from my cheer deck?"
     },
-    "answer": { "jp": "はい、引けます。", "en": null },
+    "answer": { "jp": "はい、引けます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-031" ]
   },
   "Q653": {
@@ -7708,9 +7708,12 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-041〈小鳥遊キアラ〉のギフト「不死鳥式エアロビ」の能力でこのホロメンを戻した場合、ライフダメージはどうなりますか？",
-      "en": null
+      "en": "If I return hBP08-041 Takanashi Kiara to hand using its Gift \"Phoenix Style Aerobics\", what happens to the life damage?"
     },
-    "answer": { "jp": "この場合、ライフダメージは通常通り処理されます。", "en": null },
+    "answer": {
+      "jp": "この場合、ライフダメージは通常通り処理されます。",
+      "en": "Life damage is still processed as normal."
+    },
     "referenced_cards": [ "hBP08-041" ]
   },
   "Q654": {
@@ -7718,9 +7721,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-043〈小鳥遊キアラ〉のコラボエフェクト「火ノ鳥剣舞」の能力を使い、その後、2ndの〈小鳥遊キアラ〉にBloomしました。\nこの場合、2ndの〈小鳥遊キアラ〉のアーツに必要な赤は−2されますか？",
-      "en": null
+      "en": "I used hBP08-043 Takanashi Kiara's Collab Effect \"Firebird Sword Dance\", then bloomed it to a 2nd Takanashi Kiara.\nIn this case, is the amount of red cheer required for the 2nd Takanashi Kiara's Arts still reduced by 2?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it is." },
     "referenced_cards": [ "hBP08-043" ]
   },
   "Q655": {
@@ -7728,11 +7731,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-044〈小鳥遊キアラ〉のギフト「光、再び灯りて」は、そのターンにステージに出した〈小鳥遊キアラ〉や、Bloomしたばかりの〈小鳥遊キアラ〉をBloomさせることはできますか？",
-      "en": null
+      "en": "Can I use hBP08-044 Takanashi Kiara's Gift \"The Light Shines Again\" to bloom a Takanashi Kiara that was placed on stage this turn, or already bloomed this turn?"
     },
     "answer": {
       "jp": "いいえ、ステージに出したばかりのホロメンはルールによりBloomすることはできません。",
-      "en": null
+      "en": "No, you cannot. Holomem that have just been placed on stage, or that have already bloomed, cannot bloom again by the normal rules."
     },
     "referenced_cards": [ "hBP08-044" ]
   },
@@ -7741,9 +7744,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-044〈小鳥遊キアラ〉の推しスキル「光、再び灯りて」は、〈小鳥遊キアラ〉でないホロメンからBloomさせることはできますか？",
-      "en": null
+      "en": "Can I use hBP08-044 Takanashi Kiara's Gift \"The Light Shines Again\" to bloom onto a holomem other than Takanashi Kiara?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP08-044" ]
   },
   "Q657": {
@@ -7751,11 +7754,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-045〈ハコス・ベールズ〉のコラボエフェクト「今年は豊作になりそうやねん！」の能力を使った後、hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力でサイコロを振り、6が出ました。\nこの場合、12枚になるまでカードを引かず、6枚まで引くことはできますか？",
-      "en": null
+      "en": "After using hBP08-045 Hakos Baelz's Collab Effect \"Looks Like a Bountiful Harvest This Year!\", I used hBP06-005 Hakos Baelz's Oshi Skill \"Embodiment of Chaos\" and rolled a 6.\nIn this case, can I stop drawing once I have 6 cards in hand, instead of drawing up to 12 cards?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの場合、サイコロの目の数すべてを倍として扱うため、必ず12枚になるまで引きます。",
-      "en": null
+      "en": "No, you cannot. In this case, you must draw until you have 12 cards in hand, as all faces on the die are considered as double their values."
     },
     "referenced_cards": [ "hBP06-005", "hBP08-045" ]
   },
@@ -7764,9 +7767,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分のセンターホロメンとコラボホロメンがhBP08-046〈エリザベス・ローズ・ブラッドフレイム〉の時、相手のターンにセンターホロメンのhBP08-046〈エリザベス・ローズ・ブラッドフレイム〉がダウンしました。\nこの場合、自分のデッキから2ndホロメン1枚を手札に加えることはできますか？",
-      "en": null
+      "en": "My center holomem and my collab holomem are both hBP08-046 Elizabeth Rose Bloodflame, and my opponent downs my center holomem.\nIn this case, can I use my collab holomem's Gift \"Majestic Devotion\" to add a 2nd holomem from my deck to hand?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-046" ]
   },
   "Q659": {
@@ -7774,11 +7777,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-051〈水宮枢〉のギフト「愛のエゴサ」の能力の「無色+1」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does \"+1 colorless\" mean in hBP08-051 Mizumiya Su's Gift \"Love to Egosearch\"?"
     },
     "answer": {
       "jp": "バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。",
-      "en": null
+      "en": "This means that your opponent will need to archive 1 more cheer to Baton Pass with the affected holomem."
     },
     "referenced_cards": [ "hBP08-051" ]
   },
@@ -7787,11 +7790,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-062〈鷹嶺ルイ〉のコラボエフェクト「ダウンさせられる覚悟」の能力は、自分のステージのホロメンが6枚でも使えますか？",
-      "en": null
+      "en": "Can I use hBP08-062 Takane Lui's Collab Effect \"Prepared to be Taken Down\" even if there are 6 holomem on my stage?"
     },
     "answer": {
       "jp": "はい、使えます。\nこの場合、ステージにホロメンを出せず、デッキをシャッフルして能力が終了します。",
-      "en": null
+      "en": "Yes, you can. In this case, you cannot put a holomem on your stage, so the effect simply ends after shuffling the deck."
     },
     "referenced_cards": [ "hBP08-062" ]
   },
@@ -7800,11 +7803,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力の「すべての色を持つホロメンとして扱う。」とは、無色も含みますか？",
-      "en": null
+      "en": "When using hBP08-068 Ninomae Ina'nis's Collab Effect \"Tako This!\", does the phrase \"regarded as holomem with all colors\" include colorless?"
     },
     "answer": {
       "jp": "いいえ、含みません。\n色とは、白、緑、赤、青、紫、黄のみを指します。",
-      "en": null
+      "en": "No, it does not. \"Color\" only refers to white, green, red, blue, purple and yellow."
     },
     "referenced_cards": [ "hBP08-068" ]
   },
@@ -7813,11 +7816,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-068 Ninomae Ina'nis's Collab Effect \"Tako This!\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a yellow holomem."
     },
     "referenced_cards": [ "hBP03-006", "hBP08-068" ]
   },
@@ -7826,11 +7829,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-068 Ninomae Ina'nis's Collab Effect \"Tako This!\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a red holomem."
     },
     "referenced_cards": [ "hBP01-006", "hBP08-068" ]
   },
@@ -7839,11 +7842,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-070〈一伊那尓栖〉のアーツ「私の生涯の友人」の「相手の推しホロメンと異なる色を持つ」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does a holomem having \"a different color to their Oshi holomem\" mean in hBP08-070 Ninomae Ina'nis's Arts \"My Lifelong Friend\"?"
     },
     "answer": {
       "jp": "相手の推しホロメンが持つ色とは別の色を1色以上持つことを指します。\n色とは、白、緑、赤、青、紫、黄を指します。",
-      "en": null
+      "en": "It means having 1 or more colors that are different from the color of that player's Oshi holomem.\nFor example, if the player's Oshi holomem is red, then a holomem with any color other than red would be considered as having \"a different color\"."
     },
     "referenced_cards": [ "hBP08-070" ]
   },
@@ -7852,11 +7855,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-071〈一伊那尓栖〉のブルームエフェクト「TOMORROW!?」の「相手の推しホロメンと異なる色を持つ」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does a holomem having \"a different color to their Oshi holomem\" mean in hBP08-071 Ninomae Ina'nis's Bloom Effect \"TOMORROW!?\"?"
     },
     "answer": {
       "jp": "相手の推しホロメンが持つ色とは別の色を1色以上持つことを指します。\n色とは、白、緑、赤、青、紫、黄を指します。",
-      "en": null
+      "en": "It means having 1 or more colors that are different from the color of that player's Oshi holomem.\nFor example, if the player's Oshi holomem is red, then a holomem with any color other than red would be considered as having \"a different color\"."
     },
     "referenced_cards": [ "hBP08-071" ]
   },
@@ -7865,11 +7868,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-072〈一伊那尓栖〉のブルームエフェクト「Natsu Ina!!」の能力の「相手の推しホロメンと異なる色を持つ」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does a holomem having \"a different color to their Oshi holomem\" mean in hBP08-072 Ninomae Ina'nis's Arts \"Multicolor Sketch\"?"
     },
     "answer": {
       "jp": "相手の推しホロメンが持つ色とは別の色を1色以上持つことを指します。\n色とは、白、緑、赤、青、紫、黄を指します。",
-      "en": null
+      "en": "It means having 1 or more colors that are different from the color of that player's Oshi holomem.\nFor example, if the player's Oshi holomem is red, then a holomem with any color other than red would be considered as having \"a different color\"."
     },
     "referenced_cards": [ "hBP08-072" ]
   },
@@ -7878,11 +7881,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-073〈一伊那尓栖〉のコラボエフェクト「お行儀よくしてね？」の能力の「すべての色を持つホロメンとして扱う。」とは、無色も含みますか？",
-      "en": null
+      "en": "When using hBP08-073 Ninomae Ina'nis's Collab Effect \"Behave Yourself, Okay?\", does the phrase \"regarded as holomem with all colors\" include colorless?"
     },
     "answer": {
       "jp": "いいえ、含みません。\n色とは、白、緑、赤、青、紫、黄のみを指します。",
-      "en": null
+      "en": "No, it does not. \"Color\" only refers to white, green, red, blue, purple and yellow."
     },
     "referenced_cards": [ "hBP08-073" ]
   },
@@ -7891,11 +7894,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-073〈一伊那尓栖〉のコラボエフェクト「お行儀よくしてね？」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、がそのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-073 Ninomae Ina'nis's Collab Effect \"Behave Yourself, Okay?\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a yellow holomem."
     },
     "referenced_cards": [ "hBP03-006", "hBP08-073" ]
   },
@@ -7904,11 +7907,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-073〈一伊那尓栖〉のコラボエフェクト「お行儀よくしてね？」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-073 Ninomae Ina'nis's Collab Effect \"Behave Yourself, Okay?\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a red holomem."
     },
     "referenced_cards": [ "hBP01-006", "hBP08-073" ]
   },
@@ -7917,11 +7920,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-074〈一伊那尓栖〉のブルームエフェクト「目覚めよ、赤き眼の黒龍」の能力の「相手の推しホロメンと異なる色を持つ相手のステージのホロメン」とは、どういう意味ですか？",
-      "en": null
+      "en": "What does a holomem having \"a different color to their Oshi holomem\" mean in hBP08-074 Ninomae Ina'nis's Bloom Effect \"Awaken, Crimson Eyes Obsidian Dragon\"?"
     },
     "answer": {
       "jp": "相手の推しホロメンが持つ色とは別の色を1色以上持つ持つ相手のステージのホロメンのことを指します。\n色とは、白、緑、赤、青、紫、黄を指します。",
-      "en": null
+      "en": "It means having 1 or more colors that are different from the color of that player's Oshi holomem.\nFor example, if the player's Oshi holomem is red, then a holomem with any color other than red would be considered as having \"a different color\"."
     },
     "referenced_cards": [ "hBP08-074" ]
   },
@@ -7930,11 +7933,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-074〈一伊那尓栖〉のアーツ「ネクロ・エリミネーション!!」の能力の「すべての色を持つホロメンとして扱う。」とは、無色も含みますか？",
-      "en": null
+      "en": "When using hBP08-074 Ninomae Ina'nis's Arts \"Necro Elimination!!\", does the phrase \"regarded as holomem with all colors\" include colorless?"
     },
     "answer": {
       "jp": "いいえ、含みません。\n色とは、白、緑、赤、青、紫、黄のみを指します。",
-      "en": null
+      "en": "No, it does not. \"Color\" only refers to white, green, red, blue, purple and yellow."
     },
     "referenced_cards": [ "hBP08-074" ]
   },
@@ -7943,11 +7946,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-074〈一伊那尓栖〉のアーツ「ネクロ・エリミネーション!!」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-074 Ninomae Ina'nis's Arts \"Necro Elimination!!\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a yellow holomem."
     },
     "referenced_cards": [ "hBP03-006", "hBP08-074" ]
   },
@@ -7956,11 +7959,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-074〈一伊那尓栖〉のアーツ「ネクロ・エリミネーション!!」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-074 Ninomae Ina'nis's Arts \"Necro Elimination!!\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a red holomem."
     },
     "referenced_cards": [ "hBP01-006", "hBP08-074" ]
   },
@@ -7969,11 +7972,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-080〈音乃瀬奏〉のブルームエフェクト「ファイティングエール」の能力は、自分のステージのホロメンが6枚でも使えますか？",
-      "en": null
+      "en": "Can I use hBP08-080 Otonose Kanade's Bloom Effect \"Fighting Cheer\" even if there are 6 holomem on my stage?"
     },
     "answer": {
       "jp": "はい、使えます。\nこの場合、ステージにホロメンを出せず、デッキをシャッフルして能力が終了します。",
-      "en": null
+      "en": "Yes, you can. In this case, you cannot put a holomem on your stage, so the effect simply ends after shuffling the deck."
     },
     "referenced_cards": [ "hBP08-080" ]
   },
@@ -7982,9 +7985,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-090（エレガントパソコン〉は、デッキにカードがあり、アーカイブにマスコットやファンが無い時でも使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP08-090 Elegant PC when there are cards in my deck, but no mascots or fans in my archive?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-090" ]
   },
   "Q676": {
@@ -7992,9 +7995,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-090（エレガントパソコン〉は、デッキが0枚でアーカイブにマスコットやファンがある時は使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP08-090 Elegant PC when there are no cards in my deck, but there are mascots or fans in my archive?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-090" ]
   },
   "Q677": {
@@ -8002,9 +8005,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-091（クリエイターパソコン〉は、デッキから「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメンを出さずに、アーカイブからDebutホロメンを出すことはできますか？",
-      "en": null
+      "en": "When using hBP08-091 Creator PC, can I place a Debut holomem on stage from my archive without placing a Debut holomem with Extra text on stage from my deck?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-091" ]
   },
   "Q678": {
@@ -8012,9 +8015,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-094〈パパは仕事を辞める〉の「アーツダメージ」とは、アーツの能力による特殊ダメージも含まれますか？",
-      "en": null
+      "en": "In hBP08-094 Papa Quits His Job, does \"Arts damage\" also include special damage dealt by the text of an Arts?"
     },
-    "answer": { "jp": "いいえ、含みません。", "en": null },
+    "answer": { "jp": "いいえ、含みません。", "en": "No, it does not." },
     "referenced_cards": [ "hBP08-094" ]
   },
   "Q679": {
@@ -8022,9 +8025,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分のアーカイブにhBP04-091〈限界飯〉が4枚ある場合、hBP08-096〈優しいモンスター〉を使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP08-096 Gentle Monster if I have 4 copies of hBP04-091 Struggle Meal in my archive?"
     },
-    "answer": { "jp": "はい、使えます。", "en": null },
+    "answer": { "jp": "はい、使えます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP04-091", "hBP08-096" ]
   },
   "Q680": {
@@ -8032,9 +8035,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の時、hBP08-094〈パパは仕事を辞める〉を使いました。\nその後、自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」の能力を使い、センターホロメンはダメージを受けませんでした。\nこの場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを−300することはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hSD13-001 Elizabeth Rose Bloodflame, and I play hBP08-094 Papa Quits His Job.\nDuring my opponent's next turn, when my center holomem would take Arts damage, I use Elizabeth Rose Bloodflame's Oshi Skill \"Harbinger of Order\" and my center holomem took no damage.\nIn this case, the next time my center holomem would take Arts damage, do I reduce that damage by 300?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-094", "hSD13-001" ]
   },
   "Q681": {
@@ -8042,9 +8045,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時、hBP08-094〈パパは仕事を辞める〉を使いました。\nその後、自分のセンターホロメンがアーツダメージを受ける時、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力を使い、奇数を出したのでダメージを受けませんでした。\nこの場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを−300することはできますか？",
-      "en": null
+      "en": "I have hBP01-027 Vestia Zeta in my collab position, and I play hBP08-094 Papa Quits His Job.\nDuring my opponent's next turn, when my center holomem would take Arts damage, I use Vestia Zeta's Gift \"V.7\" and roll an odd number, so no damage is taken.\nIn this case, the next time my center holomem would take Arts damage, do I reduce that damage by 300?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-027", "hBP08-094" ]
   },
   "Q682": {
@@ -8062,11 +8065,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分のセンターホロメンがhBP08-104〈けはい〉が付いている〈水宮枢〉の時、hBP01-108〈じゃあ敵だね〉を使い、相手のセンターホロメンとバックホロメンを入れ替えました。\nこの場合、新たにセンターホロメンになったホロメンのバトンタッチに必要な無色は＋1されますか？",
-      "en": null
+      "en": "My center holomem is a Mizumiya Su with hBP08-104 Aura attached, and I use hBP01-108 So, That Makes You My Enemy to swap my opponent's center holomem with a back holomem.\nIn this case, is the colorless cheer required for the new center holomem's Baton Pass still increased by 1?"
     },
     "answer": {
       "jp": "はい、されます。\nこの能力は、hBP08-104〈けはい〉が付いている〈水宮枢〉がセンターホロメンかコラボホロメンである限り、相手の新たなセンターホロメンのバトンタッチに必要な無色も＋1します。",
-      "en": null
+      "en": "Yes, it is.\nAs long as the Mizumiya Su with Aura attached is in the center or collab position, the ability will always increase the colorless cheer requirement of your opponent's center holomem's Baton Pass by 1."
     },
     "referenced_cards": [ "hBP01-108", "hBP08-104" ]
   },
@@ -8075,9 +8078,9 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分のアクティブの〈セシリア・イマ―グリーン〉にhBP08-107〈Otomo〉を付けました。\nこの場合、アクティブさせることを選べますか？",
-      "en": null
+      "en": "I attached hBP08-107 Otomo to my active Cecilia Immergreen. Can I still choose to set it to active?"
     },
-    "answer": { "jp": "はい、選べます。", "en": null },
+    "answer": { "jp": "はい、選べます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP08-107" ]
   },
   "Q685": {
@@ -8085,11 +8088,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-110〈Takodachi〉の能力の、「相手のセンターホロメンとコラボホロメンは、すべての色を持つホロメンとして扱う。」とは、無色も含みますか？",
-      "en": null
+      "en": "In hBP08-110 Takodachi, does the phrase \"regarded as holomem with all colors\" include colorless?"
     },
     "answer": {
       "jp": "いいえ、含みません。\n色とは、白、緑、赤、青、紫、黄のみを指します。",
-      "en": null
+      "en": "No, it does not. \"Color\" only refers to white, green, red, blue, purple and yellow."
     },
     "referenced_cards": [ "hBP08-110" ]
   },
@@ -8098,11 +8101,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP01-007〈星街すいせい〉の時、自分の元々の色が青でないホロメンがアーツを使い、相手のhBP08-110〈Takodachi〉が付いているセンターホロメンの〈一伊那尓栖〉をダウンさせました。\nこの場合、hBP01-007〈星街すいせい〉の推しスキル「シューティングスター」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP01-007 Hoshimachi Suisei, and my opponent's center holomem has hBP08-110 Takodachi attached, treating my center holomem whose original color is not blue as a holomem with all colors.\nIf I deal damage with that holomem, can I use my Oshi Skill \"Shooting Star\"?"
     },
     "answer": {
       "jp": "はい、〈一伊那尓栖〉にアーツダメージを与える時、アーツを使ったホロメンはすべての色を持つホロメンとして扱われているため、与えることができます。",
-      "en": null
+      "en": "Yes, you can, since the holomem dealing damage is treated as a blue holomem."
     },
     "referenced_cards": [ "hBP01-007", "hBP08-110" ]
   },
@@ -8111,11 +8114,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP02-001〈白上フブキ〉の時、自分の元々の色が白でないホロメンがアーツを使い、相手のhBP08-110〈Takodachi〉が付いている〈一伊那尓栖〉をダウンさせました。\nこの場合、hBP02-001〈白上フブキ〉の推しスキル「フブキングダム」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP02-001 Shirakami Fubuki and my opponent's center holomem has hBP08-110 Takodachi attached, treating my center holomem whose original color is not white as a holomem with all colors.\nIf I down my opponent's holomem with that holomem, can I use my SP Oshi Skill \"FBKINGDOM\"?"
     },
     "answer": {
       "jp": "はい、〈一伊那尓栖〉にダメージを与える時、そのホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the holomem that downed your opponent's holomem is treated as a white holomem."
     },
     "referenced_cards": [ "hBP02-001", "hBP08-110" ]
   },
@@ -8124,11 +8127,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手のhBP08-110〈Takodachi〉が付いている〈一伊那尓栖〉が自分の元々の色が黄でないホロメンをダウンさせました。\nこの場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent's center holomem has hBP08-110 Takodachi attached, treating my center holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a yellow holomem."
     },
     "referenced_cards": [ "hBP03-006", "hBP08-110" ]
   },
@@ -8137,11 +8140,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手のhBP08-110〈Takodachi〉が付いている〈一伊那尓栖〉が自分の元々の色が赤でないホロメンをダウンさせました。\nこの場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent's center holomem has hBP08-110 Takodachi attached, treating my center holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
       "jp": "はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
-      "en": null
+      "en": "Yes, you can, since the downed holomem is treated as a red holomem."
     },
     "referenced_cards": [ "hBP01-006", "hBP08-110" ]
   },
@@ -8150,11 +8153,11 @@
     "date": "2026-06-12",
     "question": {
       "jp": "このターンに、自分のDebutの〈ジジ・ムリン〉をhSD13-011〈ジジ・ムリン〉にBloomさせ、hSD13-011〈ジジ・ムリン〉のブルームエフェクト「I am Gonathan G.」の能力で重なっているDebutの〈ジジ・ムリン〉をアーカイブしました。\nこの場合、hBP06-090〈ブルームステージ〉を使ってもう一度Bloomさせることはできますか？",
-      "en": null
+      "en": "During my turn, I bloomed my Debut Gigi Murin to hSD13-011 Gigi Murin, and used the Bloom Effect \"I am Gonathan G.\" to archive the stacked Debut holomem.\nIn this case, can I use hBP06-090 Bloom Stage to bloom it again?"
     },
     "answer": {
       "jp": "はい、「このターンにDebutホロメンからBloomした1stホロメン」であるためできます。",
-      "en": null
+      "en": "Yes, you can. The holomem is still a \"1st holomem that bloomed from Debut holomem this turn\"."
     },
     "referenced_cards": [ "hBP06-090", "hSD13-011" ]
   }
