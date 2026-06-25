@@ -7551,7 +7551,7 @@
     "date": "2026-06-12",
     "question": {
       "jp": "hBP08-003〈FUWAMOCO〉の推しステージスキル「準備は出来てるよね!」の能力によって、〈フワワ・アビスガード〉や〈モココ・アビスガード〉に付いている赤エールは、他のホロメンに付け替えられた場合も青エールとして扱われますか？",
-      "en": "With hBP08-003 FUWAMOCO's Oshi Stage Skill \"Are You Ready?\", will a red cheer attached to Fuwawa Abyssgard or Mococo Abyssgard also be treated as blue cheer even after reattaching that cheer to another holomem?"
+      "en": "With hBP08-003 FUWAMOCO's Oshi Stage Skill \"Are You Ready?\", will a red cheer attached to Fuwawa Abyssgard or Mococo Abyssgard also be treated as blue cheer even after reattaching that cheer to a holomem other than those two?"
     },
     "answer": { "jp": "いいえ、扱いません。", "en": "No, it will not." },
     "referenced_cards": [ "hBP08-003" ]
