@@ -2432,9 +2432,9 @@
   },
   "Q207": {
     "qna_number": "Q207",
-    "date": "2024-10-04",
+    "date": "2026-06-26",
     "question": {
-      "jp": "hBP01-115〈すいせいのマイク〉が付いているhBP01-079〈星街すいせい〉が、ブルームエフェクトの特殊ダメージで、相手のホロメンをダウンさせました。hBP01-115〈すいせいのマイク〉の「このツールが付いているホロメンが相手のホロメンをダウンさせた時」という条件は満たしますか？",
+      "jp": "hBP01-115〈星街すいせいのマイク〉が付いているhBP01-079〈星街すいせい〉が、ブルームエフェクトの特殊ダメージで、相手のホロメンをダウンさせました。hBP01-115〈星街すいせいのマイク〉の「このツールが付いているホロメンが相手のホロメンをダウンさせた時」という条件は満たしますか？",
       "en": "A hBP01-079 Hoshimachi Suisei with a hBP01-115 Hoshimachi Suisei's Microphone attached to it downed an opponent's holomem with the Special Damage from its Bloom Effect.\nDoes this meet the condition \"If the holomem this tool is attached to downed your opponent's holomem\" on Hoshimachi Suisei's Microphone?"
     },
     "answer": { "jp": "はい、満たします。", "en": "Yes, the condition is met." },
@@ -6200,9 +6200,9 @@
   },
   "Q527": {
     "qna_number": "Q527",
-    "date": "2025-12-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分のデッキが3枚以下の時、hBP06-056〈沙花叉クロヱ〉のアーツ「二人で紡いだ魔法」の能力を発揮することはできますか？",
+      "jp": "自分のデッキが3枚以下の時、hBP06-055〈沙花叉クロヱ〉のアーツ「二人で紡いだ魔法」の能力を発揮することはできますか？",
       "en": "Can I use the ability of hBP06-055 Sakamata Chloe's Arts \"Magic Created by the Pair\" if my deck has 3 or less cards?"
     },
     "answer": {
@@ -6213,9 +6213,9 @@
   },
   "Q528": {
     "qna_number": "Q528",
-    "date": "2025-12-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分のデッキが5枚以下の時、hBP06-057〈沙花叉クロヱ〉のアーツ「沙花叉と青春しよ？」の能力を発揮することはできますか？",
+      "jp": "自分のデッキが5枚以下の時、hBP06-056〈沙花叉クロヱ〉のアーツ「沙花叉と青春しよ？」の能力を発揮することはできますか？",
       "en": "Can I use the ability of hBP06-056 Sakamata Chloe's Arts \"Have a Blast with Sakamata?\" if my deck has 5 or less cards?"
     },
     "answer": {
@@ -6924,13 +6924,13 @@
   },
   "Q589": {
     "qna_number": "Q589",
-    "date": "2026-03-02",
+    "date": "2026-06-26",
     "question": {
       "jp": "hBP07-005〈オーロ・クロニー〉のSP推しスキル「時間の典獄」の、「このターンの後に、もう1回自分のターンを開始する」とはどういう意味ですか？",
       "en": "What does \"take an extra turn after this one\" mean on hBP07-005 Ouro Kronii's SP Oshi Skill \"Warden of Time\"?"
     },
     "answer": {
-      "jp": "現在行っているターンの終了後、相手にターンが移る前に、再び自分のリセットステップタから開始することを指します。",
+      "jp": "現在行っているターンの終了後、相手にターンが移る前に、再び自分のリセットステップから開始することを指します。",
       "en": "It means that after your current turn ends, you start a new turn from the reset step without your opponent taking a turn."
     },
     "referenced_cards": [ "hBP07-005" ]
@@ -7623,9 +7623,9 @@
   },
   "Q646": {
     "qna_number": "Q646",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
       "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-006 Ninomae Ina'nis's Oshi Skill \"Colors of Ina'nis\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
@@ -7636,9 +7636,9 @@
   },
   "Q647": {
     "qna_number": "Q647",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-006〈一伊那尓栖〉の推しスキル「Ina'nisの色彩」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
       "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-006 Ninomae Ina'nis's Oshi Skill \"Colors of Ina'nis\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
@@ -7741,9 +7741,9 @@
   },
   "Q656": {
     "qna_number": "Q656",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "hBP08-044〈小鳥遊キアラ〉の推しスキル「光、再び灯りて」は、〈小鳥遊キアラ〉でないホロメンからBloomさせることはできますか？",
+      "jp": "hBP08-044〈小鳥遊キアラ〉のギフト「光、再び灯りて」は、〈小鳥遊キアラ〉でないホロメンからBloomさせることはできますか？",
       "en": "Can I use hBP08-044 Takanashi Kiara's Gift \"The Light Shines Again\" to bloom onto a holomem other than Takanashi Kiara?"
     },
     "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
@@ -7813,9 +7813,9 @@
   },
   "Q662": {
     "qna_number": "Q662",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
       "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-068 Ninomae Ina'nis's Collab Effect \"Tako This!\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
@@ -7826,9 +7826,9 @@
   },
   "Q663": {
     "qna_number": "Q663",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
       "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-068 Ninomae Ina'nis's Collab Effect \"Tako This!\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
@@ -7865,9 +7865,9 @@
   },
   "Q666": {
     "qna_number": "Q666",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "hBP08-072〈一伊那尓栖〉のブルームエフェクト「Natsu Ina!!」の能力の「相手の推しホロメンと異なる色を持つ」とは、どういう意味ですか？",
+      "jp": "hBP08-072〈一伊那尓栖〉のアーツ「マルチカラー・スケッチ」の能力の「相手の推しホロメンと異なる色を持つ」とは、どういう意味ですか？",
       "en": "What does a holomem having \"a different color to their Oshi holomem\" mean in hBP08-072 Ninomae Ina'nis's Arts \"Multicolor Sketch\"?"
     },
     "answer": {
@@ -7891,9 +7891,9 @@
   },
   "Q668": {
     "qna_number": "Q668",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-073〈一伊那尓栖〉のコラボエフェクト「お行儀よくしてね？」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、がそのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-073〈一伊那尓栖〉のコラボエフェクト「お行儀よくしてね？」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
       "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-073 Ninomae Ina'nis's Collab Effect \"Behave Yourself, Okay?\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
@@ -7904,9 +7904,9 @@
   },
   "Q669": {
     "qna_number": "Q669",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-073〈一伊那尓栖〉のコラボエフェクト「お行儀よくしてね？」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-073〈一伊那尓栖〉のコラボエフェクト「お行儀よくしてね？」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
       "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-073 Ninomae Ina'nis's Collab Effect \"Behave Yourself, Okay?\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
@@ -7943,9 +7943,9 @@
   },
   "Q672": {
     "qna_number": "Q672",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-074〈一伊那尓栖〉のアーツ「ネクロ・エリミネーション!!」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-074〈一伊那尓栖〉のアーツ「ネクロ・エリミネーション!!」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？",
       "en": "My Oshi holomem is hBP03-006 Inugami Korone, and my opponent uses hBP08-074 Ninomae Ina'nis's Arts \"Necro Elimination!!\" to treat my holomem whose original color is not yellow as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Inugami Korone's SP Oshi Skill \"Wow Wow Wow Wow\"?"
     },
     "answer": {
@@ -7956,9 +7956,9 @@
   },
   "Q673": {
     "qna_number": "Q673",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-074〈一伊那尓栖〉のアーツ「ネクロ・エリミネーション!!」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンをダウンさせた場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-074〈一伊那尓栖〉のアーツ「ネクロ・エリミネーション!!」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。\nその後、そのホロメンがダウンした場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？",
       "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and my opponent uses hBP08-074 Ninomae Ina'nis's Arts \"Necro Elimination!!\" to treat my holomem whose original color is not red as a holomem with all colors.\nIf my opponent then downs that holomem, can I use Takanashi Kiara's SP Oshi Skill \"Rise from the Ashes\"?"
     },
     "answer": {
@@ -8032,9 +8032,9 @@
   },
   "Q680": {
     "qna_number": "Q680",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の時、hBP08-094〈パパは仕事を辞める〉を使いました。\nその後、自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」の能力を使い、センターホロメンはダメージを受けませんでした。\nこの場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを−300することはできますか？",
+      "jp": "自分の推しホロメンがhSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の時、hBP08-094〈パパは仕事を辞める〉を使いました。\nその後、自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」の能力を使い、センターホロメンはダメージを受けませんでした。\nこの場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを-300することはできますか？",
       "en": "My Oshi holomem is hSD13-001 Elizabeth Rose Bloodflame, and I play hBP08-094 Papa Quits His Job.\nDuring my opponent's next turn, when my center holomem would take Arts damage, I use Elizabeth Rose Bloodflame's Oshi Skill \"Harbinger of Order\" and my center holomem took no damage.\nIn this case, the next time my center holomem would take Arts damage, do I reduce that damage by 300?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
@@ -8042,9 +8042,9 @@
   },
   "Q681": {
     "qna_number": "Q681",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時、hBP08-094〈パパは仕事を辞める〉を使いました。\nその後、自分のセンターホロメンがアーツダメージを受ける時、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力を使い、奇数を出したのでダメージを受けませんでした。\nこの場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを−300することはできますか？",
+      "jp": "自分のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時、hBP08-094〈パパは仕事を辞める〉を使いました。\nその後、自分のセンターホロメンがアーツダメージを受ける時、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力を使い、奇数を出したのでダメージを受けませんでした。\nこの場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを-300することはできますか？",
       "en": "I have hBP01-027 Vestia Zeta in my collab position, and I play hBP08-094 Papa Quits His Job.\nDuring my opponent's next turn, when my center holomem would take Arts damage, I use Vestia Zeta's Gift \"V.7\" and roll an odd number, so no damage is taken.\nIn this case, the next time my center holomem would take Arts damage, do I reduce that damage by 300?"
     },
     "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
@@ -8052,23 +8052,26 @@
   },
   "Q682": {
     "qna_number": "Q682",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉で、hBP08-103〈ホロマント〉とhBP01-126〈座員〉が付いているhBP07-044〈尾丸ポルカ〉がダウンした時、hBP07-044〈尾丸ポルカ〉のギフト「The Show Must Go On」の能力とhBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」の能力を使い、それぞれ減るライフを−1しました。\nこの場合、受けるライフダメージはいくつになりますか？",
+      "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉で、hBP08-103〈ホロマント〉が付いている赤ホロメンがダウンした時、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」の能力を使い、減るライフを-1しました。\nこの場合、受けるライフダメージはいくつになりますか？",
       "en": null
     },
-    "answer": { "jp": "受けるライフダメージは0になります。", "en": null },
-    "referenced_cards": [ "hBP01-006", "hBP01-126", "hBP07-044", "hBP08-103" ]
+    "answer": {
+      "jp": "受けるライフダメージは1になります。\n\n[6/26更新]6/12(金)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
+      "en": null
+    },
+    "referenced_cards": [ "hBP01-006", "hBP08-103" ]
   },
   "Q683": {
     "qna_number": "Q683",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分のセンターホロメンがhBP08-104〈けはい〉が付いている〈水宮枢〉の時、hBP01-108〈じゃあ敵だね〉を使い、相手のセンターホロメンとバックホロメンを入れ替えました。\nこの場合、新たにセンターホロメンになったホロメンのバトンタッチに必要な無色は＋1されますか？",
+      "jp": "自分のセンターホロメンがhBP08-104〈けはい〉が付いている〈水宮枢〉の時、hBP01-108〈じゃあ敵だね〉を使い、相手のセンターホロメンとバックホロメンを入れ替えました。\nこの場合、新たにセンターホロメンになったホロメンのバトンタッチに必要な無色は+1されますか？",
       "en": "My center holomem is a Mizumiya Su with hBP08-104 Aura attached, and I use hBP01-108 So, That Makes You My Enemy to swap my opponent's center holomem with a back holomem.\nIn this case, is the colorless cheer required for the new center holomem's Baton Pass still increased by 1?"
     },
     "answer": {
-      "jp": "はい、されます。\nこの能力は、hBP08-104〈けはい〉が付いている〈水宮枢〉がセンターホロメンかコラボホロメンである限り、相手の新たなセンターホロメンのバトンタッチに必要な無色も＋1します。",
+      "jp": "はい、されます。\nこの能力は、hBP08-104〈けはい〉が付いている〈水宮枢〉がセンターホロメンかコラボホロメンである限り、相手の新たなセンターホロメンのバトンタッチに必要な無色も+1します。",
       "en": "Yes, it is.\nAs long as the Mizumiya Su with Aura attached is in the center or collab position, the ability will always increase the colorless cheer requirement of your opponent's center holomem's Baton Pass by 1."
     },
     "referenced_cards": [ "hBP01-108", "hBP08-104" ]
@@ -8098,26 +8101,26 @@
   },
   "Q686": {
     "qna_number": "Q686",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP01-007〈星街すいせい〉の時、自分の元々の色が青でないホロメンがアーツを使い、相手のhBP08-110〈Takodachi〉が付いているセンターホロメンの〈一伊那尓栖〉をダウンさせました。\nこの場合、hBP01-007〈星街すいせい〉の推しスキル「シューティングスター」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP01-007〈星街すいせい〉で、相手のセンターホロメンが、hBP08-110〈Takodachi〉が付いている〈一伊那尓栖〉の時、自分の元々の色が青でないホロメンがアーツを使い、相手のホロメンをダウンさせました。\nこの場合、hBP01-007〈星街すいせい〉の推しスキル「シューティングスター」を使うことはできますか？",
       "en": "My Oshi holomem is hBP01-007 Hoshimachi Suisei, and my opponent's center holomem has hBP08-110 Takodachi attached, treating my center holomem whose original color is not blue as a holomem with all colors.\nIf I deal damage with that holomem, can I use my Oshi Skill \"Shooting Star\"?"
     },
     "answer": {
-      "jp": "はい、〈一伊那尓栖〉にアーツダメージを与える時、アーツを使ったホロメンはすべての色を持つホロメンとして扱われているため、与えることができます。",
+      "jp": "はい、ダウンさせたホロメンはすべての色を持つホロメンとして扱われているため、与えることができます。",
       "en": "Yes, you can, since the holomem dealing damage is treated as a blue holomem."
     },
     "referenced_cards": [ "hBP01-007", "hBP08-110" ]
   },
   "Q687": {
     "qna_number": "Q687",
-    "date": "2026-06-12",
+    "date": "2026-06-26",
     "question": {
-      "jp": "自分の推しホロメンがhBP02-001〈白上フブキ〉の時、自分の元々の色が白でないホロメンがアーツを使い、相手のhBP08-110〈Takodachi〉が付いている〈一伊那尓栖〉をダウンさせました。\nこの場合、hBP02-001〈白上フブキ〉の推しスキル「フブキングダム」を使うことはできますか？",
+      "jp": "自分の推しホロメンがhBP02-001〈白上フブキ〉で、相手のセンターホロメンが、hBP08-110〈Takodachi〉が付いている〈一伊那尓栖〉の時、自分の元々の色が白でないホロメンがアーツを使い、相手のホロメンをダウンさせました。\nこの場合、hBP02-001〈白上フブキ〉の推しスキル「フブキングダム」を使うことはできますか？",
       "en": "My Oshi holomem is hBP02-001 Shirakami Fubuki and my opponent's center holomem has hBP08-110 Takodachi attached, treating my center holomem whose original color is not white as a holomem with all colors.\nIf I down my opponent's holomem with that holomem, can I use my SP Oshi Skill \"FBKINGDOM\"?"
     },
     "answer": {
-      "jp": "はい、〈一伊那尓栖〉にダメージを与える時、そのホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
+      "jp": "はい、ダウンさせたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。",
       "en": "Yes, you can, since the holomem that downed your opponent's holomem is treated as a white holomem."
     },
     "referenced_cards": [ "hBP02-001", "hBP08-110" ]
