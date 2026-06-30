@@ -1406,6 +1406,11 @@ pub mod hololive_official {
                     continue 'pages;
                 };
 
+                // if the card number is empty, skip it
+                if card_number.is_empty() || card_number == "null" {
+                    continue 'cards;
+                }
+
                 // need to go to the detailed page
                 let Some(card_url) = hololive_card.attr("href") else {
                     eprintln!("Card url not found for {card_number:?}");
