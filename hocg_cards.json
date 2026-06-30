@@ -30512,17 +30512,31 @@
       },
       {
         "card_number": "hBP04-083",
-        "manage_id": { "jp": [ 1409, 2458 ] },
+        "manage_id": { "jp": [ 1409 ] },
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP04-083_P_02.webp", "en": null },
+        "img_path": { "jp": "hPR/hBP04-083_P.webp", "en": null },
+        "img_last_modified": { "jp": "Tue, 30 Jun 2026 08:30:37 GMT" },
+        "img_hash": "v2|H32=miWtyqW6uaotq0ups8ipNcs2MtNCSdLUXCV2TrLYFEusYlhNVbW0NrqSS8qmbCUpmSWjtjorqdvKzCVbszXGSqRaKaU|CYM=001E33",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10120",
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-083",
+        "manage_id": { "jp": [ 2458 ] },
+        "rarity": "P",
+        "illustrator": "りいちゅ",
+        "img_path": { "jp": "hPR/hBP04-083_P_02.webp", "en": "proxies/hPR/hBP04-083_P_02.webp" },
         "img_last_modified": { "jp": "Tue, 30 Jun 2026 08:30:37 GMT" },
         "img_hash": "v2|H32=quo9q+c0ibSPKmmbm4lm1siXQmxc8zIV0mVaXbTSNMWkaFZKleYaxUp1jLKlGiW3WZlqrbJOqCrrbKhdkDbCpcqJ4Cs|CYM=01283C",
         "ogbajoj_sheet_cells": [ [ 419749048, "C54" ] ],
         "similarity_index": 3,
-        "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/promo-hbp10/10120",
+        "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
-        "delta_art_index": 0
+        "delta_art_index": null
       }
     ]
   },
@@ -71443,31 +71457,6 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hys01/10004",
         "tcgplayer_product_id": 646620,
         "delta_art_index": 0
-      }
-    ]
-  },
-  "null": {
-    "card_number": "null",
-    "name": { "jp": "デッキ構築ルール", "en": null },
-    "card_type": "other",
-    "text": {
-      "jp": "※本説明用カードはデッキ登録できません。\n\n【デッキ構築ルール】\n「推しホロメンカード」とメインデッキのカードは下記に収録するカードと同じカードナンバーのカードのみ使用できます。\n\nブースターパック ディーヴァフィーバー\nブースターパック バウンサーバウンド\nライブスタートデッキ 白上フブキ\nライブスタートデッキ 儒烏風亭らでん\nライブスタートデッキ さくらみこ\nライブスタートデッキ 星街すいせい\nライブスタートデッキ 森カリオペ\nライブスタートデッキ 大空スバル\n\n\n【使用できるカードの例】\nhBP01-104〈ふつうのパソコン〉\n『ライブスタートデッキ 白上フブキ』に収録しているので過去に収録した〈ふつうのパソコン〉も使用することができます。\nhBP03-025〈さくらみこ〉\n『ブースターパック ディーヴァフィーバー』に収録しているので『ブースターパック エリートスパーク』に収録のhBP03-025〈さくらみこ〉も使用することができます。\nhSD01-016〈春先のどか〉\n対象の商品に収録していないので使用することはできません。"
-    },
-    "max_amount": { "jp": 4 },
-    "illustrations": [
-      {
-        "card_number": "null",
-        "manage_id": { "jp": [ 2459 ] },
-        "rarity": "?",
-        "illustrator": "",
-        "img_path": { "jp": "sele08/sele08_teaching.webp", "en": null },
-        "img_last_modified": { "jp": "Tue, 30 Jun 2026 08:31:02 GMT" },
-        "img_hash": "v2|H32=6iKPkprZRklGJSY7ZFOUJpSqltu9EZ1UVk0tZC0lS+XrpKooO7ISaQYsAlfbJlqTJF3IliMzsLBstsNMk2fYsg8Pk+w|CYM=2D3D15",
-        "ogbajoj_sheet_cells": null,
-        "similarity_index": 1,
-        "yuyutei_sell_url": null,
-        "tcgplayer_product_id": null,
-        "delta_art_index": null
       }
     ]
   }
