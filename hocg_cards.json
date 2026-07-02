@@ -49955,7 +49955,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のコラボポジションの〈ベスティア・ゼータ〉を選ぶ。このターンの間、選んだホロメンのアーツ+40。その後、サイコロを1回振る。6以外なら、このカードをデッキに戻してシャッフルする。\n自分の〈うまみー！〉はターンに1回しか使えない。",
-      "en": "Choose your <Vestia Zeta> in the collab position. During this turn, the chosen holomem gets Arts+40. Roll a die once. If the result is anything other than 6, return this card to the deck, and shuffle the deck.\nYou may only use the card <Umami!> once per turn."
+      "en": "Choose your <Vestia Zeta> in the collab position. During this turn, the chosen holomem gets Arts+40. Roll a die once. If the result is anything other than 6, return this card to the deck, and shuffle the deck.\nYou may only use <Umami!> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -50240,7 +50240,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のアーカイブの〈AZKi〉1枚を手札に戻す。その後、自分のアーカイブの〈フロンティアスピリット〉1枚につき、自分のアーカイブのエール1枚を自分の〈AZKi〉1人に送る。\n自分の〈フロンティアスピリット〉はターンに1回しか使えない。",
-      "en": "Return 1 <AZKi> from your archive to hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive.\nYou may only use the card <Frontier Spirit> once per turn."
+      "en": "Return 1 <AZKi> from your archive to hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive.\nYou may only use <Frontier Spirit> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -53443,7 +53443,7 @@
         "name": { "jp": "火ノ鳥剣舞", "en": "Firebird Sword Dance" },
         "text": {
           "jp": "自分のアーカイブにホロメンが10枚以上あるなら、このターンの間、このホロメンのアーツに必要な赤-2。",
-          "en": "If you have 10 or more holomem in your archive, during this turn, this holomem requires -2 red cheer for its Arts."
+          "en": "If you have 10 or more holomem in your archive, during this turn, this holomem requires -2 red for its Arts."
         }
       }
     ],
@@ -56634,7 +56634,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "このカードは、自分のステージのホロメン全員が〈癒月ちょこ〉で、自分のライフが3以下でなければ使えない。\n\nこのターンの間、自分のステージの[Debutホロメンと1stホロメン]全員のアーツ+20。その後、自分のステージの2ndホロメン全員のアーツ+60。\n\n自分の〈ちょこのなすユッケ〉はターンに1回しか使えない。",
-      "en": "This card can only be used if all holomem on your stage are <Yuzuki Choco> and your life is 3 or less.\n\nDuring this turn, all [Debut holomem and 1st holomem] on your stage get Arts+20. Then, all 2nd holomem on your stage get Arts+60.\n\nYou may only use the card <Choco's Eggplant Yukhoe> once per turn."
+      "en": "This card can only be used if all holomem on your stage are <Yuzuki Choco> and your life is 3 or less.\n\nDuring this turn, all [Debut holomem and 1st holomem] on your stage get Arts+20. Then, all 2nd holomem on your stage get Arts+60.\n\nYou may only use <Choco's Eggplant Yukhoe> once per turn."
     },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
     "max_amount": { "jp": 4 },
@@ -56784,7 +56784,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のステージのホロメン1人を選ぶ。選んだホロメンのHP20回復。その後、自分のアーカイブに#食べ物を持つイベントが2枚以上あるなら、自分のアーカイブのエール1枚をそのホロメンに送る。\n\n自分の〈りっちしょこらのハンバーグ〉はターンに1回しか使えない。",
-      "en": "Choose 1 holomem on your stage. Restore 20 HP to the chosen holomem. If you have 2 or more events with #Food in your archive, send 1 cheer from your archive to that holomem.\n\nYou may only use the card <Rich Chocolat's Hamburg Steak> once per turn."
+      "en": "Choose 1 holomem on your stage. Restore 20 HP to the chosen holomem. If you have 2 or more events with #Food in your archive, send 1 cheer from your archive to that holomem.\n\nYou may only use <Rich Chocolat's Hamburg Steak> once per turn."
     },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
     "max_amount": { "jp": 4 },
@@ -56866,7 +56866,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "以下の能力から1つを選んで使う。\n\n■自分の#トリを持つホロメンのエール1枚をアーカイブする。アーカイブしたなら、自分のデッキを2枚引いた後、手札1枚をデッキの下に戻す。\n■自分のアーカイブのエール1枚を自分の#トリを持つホロメンに送る。\n\n自分の〈HOLOTORI〉はターンに1回しか使えない。",
-      "en": "Choose 1 of the following abilities to use.\n\n■Archive 1 cheer from your holomem with #Bird. If you archived a cheer, draw 2 cards, and return 1 card from your hand to the bottom of the deck.\n■Send 1 cheer from your archive to your holomem with #Bird.\n\nYou may only use the card <HOLOTORI> once per turn."
+      "en": "Choose 1 of the following abilities to use.\n\n■Archive 1 cheer from your holomem with #Bird. If you archived a cheer, draw 2 cards, and return 1 card from your hand to the bottom of the deck.\n■Send 1 cheer from your archive to your holomem with #Bird.\n\nYou may only use <HOLOTORI> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -57353,7 +57353,7 @@
       {
         "kind": "stage",
         "name": { "jp": null, "en": "Police Chief Protecting the Order" },
-        "text": { "en": "All of your <Oozora Subaru> require -1 white cheer for their Arts." }
+        "text": { "en": "All of your <Oozora Subaru> require -1 white for their Arts." }
       },
       {
         "holo_power": 2,
@@ -65361,7 +65361,7 @@
         "type": "collab",
         "name": {
           "jp": "パレ・モンローズのお話をお聞きになったことは？",
-          "en": "Have you ever heard the story of the 'Palais Montrose'?"
+          "en": "Have You Heard the Story of Palais Montrose?"
         },
         "text": {
           "jp": "相手のバックホロメン1人に特殊ダメージ10を与える。",
@@ -65372,7 +65372,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "アデュー、親愛なる聞き手様", "en": "Adieu, dear listener!" },
+        "name": { "jp": "アデュー、親愛なる聞き手様", "en": "Adieu, Dear Listener" },
         "power": "20"
       }
     ],
@@ -65420,11 +65420,11 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "不穏な忠告", "en": "An Ominous Warning" },
+        "name": { "jp": "不穏な忠告", "en": "Unsettling Warning" },
         "power": "20",
         "text": {
           "jp": "このアーツは、相手のバックホロメンも対象にできる。",
-          "en": "This Arts may also target your opponent's back holomem."
+          "en": "This Arts can target your opponent's back holomem too."
         }
       },
       {
@@ -65467,7 +65467,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "『異世界への旅立ちと幸せ』", "en": "\"Journey to the Other World & Happiness\"" },
+        "name": { "jp": "『異世界への旅立ちと幸せ』", "en": "Journey to the Other World & Happiness" },
         "text": {
           "jp": "自分のアーカイブのエール1枚を自分の#Adventを持つホロメンに送る。",
           "en": "Send 1 cheer from your archive to your holomem with #Advent."
@@ -65479,7 +65479,7 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "車窓から見える星がとてもきれいよ",
-          "en": "The stars out the window are beautiful, aren't they?"
+          "en": "Look Out the Window, the Stars Are Beautiful"
         },
         "power": "40"
       }
@@ -65518,14 +65518,14 @@
         "name": { "jp": "A Study in Advent", "en": "A Study in Advent" },
         "text": {
           "jp": "自分の手札のサポートカード1枚をアーカイブできる:自分のデッキから、#Adventを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may archive 1 support card from your hand:Reveal 1 [Debut holomem or 1st holomem] from your deck with #Advent, and add it to hand. Then, shuffle the deck."
+          "en": "You may archive 1 support card from your hand: Reveal 1 [Debut holomem or 1st holomem] with #Advent from your deck, and add it to hand. Then, shuffle the deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": "初歩的なことよ", "en": "It's Elementary" },
+        "name": { "jp": "初歩的なことよ", "en": "Elementary" },
         "power": "40",
         "text": {
           "jp": "相手のホロメン1人に特殊ダメージ20を与える。",
@@ -65567,22 +65567,25 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "どんな知識が得られるかしら", "en": "What kind of knowledge can I gain?" },
+        "name": { "jp": "どんな知識が得られるかしら", "en": "What Knowledge Can Be Obtained" },
         "text": {
           "jp": "[ターンに1回]このホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのLIMITED以外のサポートカード1枚を手札に戻す。",
-          "en": "[1/Turn]When this holomem downed your opponent's holomem, return 1 support card other than LIMITED from your archive to hand."
+          "en": "[1/Turn] If this holomem downed your opponent's holomem, return 1 support card other than LIMITED from your archive to hand."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "blue", "colorless", "colorless" ],
-        "name": { "jp": "私達を見くびらないで貰える？", "en": "Can you please not underestimate us?" },
+        "name": {
+          "jp": "私達を見くびらないで貰える？",
+          "en": "Could You Refrain from Underestimating Us?"
+        },
         "power": "110",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "相手のDebut以外のホロメン1人に、自分のステージの#Adventを持つホロメン1人につき、特殊ダメージ10を与える。",
-          "en": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut."
+          "en": "Deal 10 special damage to 1 of your opponent's holomem other than Debut for each holomem with #Advent on your stage."
         }
       }
     ],
@@ -65640,7 +65643,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "私……この頃よく夢を見るの。", "en": "I've been having a lot of dreams lately" },
+        "name": { "jp": "私……この頃よく夢を見るの。", "en": "I've... Been Dreaming a Lot Lately." },
         "power": "30"
       }
     ],
@@ -65692,7 +65695,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "賑やかな家族", "en": "Lively Family" },
+        "name": { "jp": "賑やかな家族", "en": "Happy Happy Family" },
         "text": {
           "jp": "自分のデッキの上から3枚を見る。その中から、#Adventを持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
           "en": "Look at the top 3 cards of your deck. Reveal 1 holomem with #Advent from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
@@ -65702,7 +65705,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "とっても感謝してるの", "en": "I'm very grateful" },
+        "name": { "jp": "とっても感謝してるの", "en": "That Is What I Am Grateful For" },
         "power": "30"
       }
     ],
@@ -65740,7 +65743,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "滲んでいく輝き", "en": "The brightness that fades away" },
+        "name": { "jp": "滲んでいく輝き", "en": "The Fading Radiance" },
         "power": "30"
       },
       {
@@ -65749,7 +65752,7 @@
         "power": "50",
         "text": {
           "jp": "このホロメンの紫以外のエール1枚をアーカイブできる:自分のアーカイブのホロメン1枚を手札に戻す。",
-          "en": "You may archive 1 non-purple cheer from this holomem:Return 1 holomem from your archive to hand."
+          "en": "You may archive 1 cheer other than purple from this holomem: Return 1 holomem from your archive to hand."
         }
       }
     ],
@@ -65787,22 +65790,22 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "ビブーと遊んでいかない？", "en": "Wanna play with Biboo?" },
+        "name": { "jp": "ビブーと遊んでいかない？", "en": "Join Biboo in the Game?" },
         "text": {
           "jp": "自分のデッキを1枚引く。その後、自分のステージのエール1枚をアーカイブできる。アーカイブしたなら、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+40。",
-          "en": "Draw 1 card. You may archive 1 cheer from your stage. If you archived cheer, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+40."
+          "en": "Draw 1 card. Then, you may archive 1 cheer from your stage. If archived, choose 1 holomem from your stage. During this turn, the chosen holomem gets Arts+40."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple", "colorless", "colorless", "colorless" ],
-        "name": { "jp": "キラキラぜーんぶ受け止めて！", "en": "Accept all the sparkle!" },
+        "name": { "jp": "キラキラぜーんぶ受け止めて！", "en": "Behold the Sparkle!" },
         "power": "110",
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "お互いのアーカイブのエール1色につき、このアーツに必要な無色-1。",
-          "en": "For each color of cheer in both players' archive, this Arts requires -1 colorless."
+          "en": "This Arts requires -1 colorless for each different color among cheers in both players' archives."
         }
       }
     ],
@@ -66012,11 +66015,11 @@
   },
   "hSD12-015": {
     "card_number": "hSD12-015",
-    "name": { "jp": "脱獄を果たした共犯者たち", "en": "Escaped Criminal Gang" },
+    "name": { "jp": "脱獄を果たした共犯者たち", "en": "A Group of Criminals That Escaped from The Cell" },
     "card_type": { "support": "event" },
     "text": {
       "jp": "このカードは、自分のステージのホロメン全員が#Adventを持つホロメンでなければ使えない。\n\n相手のセンターホロメンに特殊ダメージ20を与える。その後、自分のアーカイブのエール1枚を自分のホロメンに送る。\n自分の〈脱獄を果たした共犯者たち〉はターンに1回しか使えない。",
-      "en": "This card can only be used if all holomem on your stage have #Advent.\n\nDeal 20 special damage to your opponent's center holomem. Send 1 cheer from your archive to your holomem.\nYou may only use the card <Escaped Criminal Gang> once per turn."
+      "en": "This card can only be used if all holomem on your stage are holomem with #Advent.\n\nDeal 20 special damage to your opponent's center holomem. Then, send 1 cheer from your archive to your holomem.\nYou may only use <A Group of Criminals That Escaped from The Cell> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -66042,7 +66045,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\nこのマスコットを手札から1st以上の〈古石ビジュー〉に付けた時、自分のステージのエール1枚をアーカイブできる:自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\nWhen this mascot is attached to your 1st or greater <Koseki Bijou> from hand, you may archive 1 cheer from your stage:Reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\nWhen this mascot is attached from hand to 1st or greater <Koseki Bijou>, you may archive 1 cheer from your stage: Reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -66158,7 +66161,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "オーッホッホッホッ！", "en": "O~hohoho!" },
+        "name": { "jp": "オーッホッホッホッ！", "en": "Oh! Ho-ho-ho!" },
         "power": "30"
       }
     ],
@@ -66212,10 +66215,10 @@
     "hp": 170,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "薔薇は赤い", "en": "Roses are Red" }, "power": "40" },
+      { "cheers": [ "colorless" ], "name": { "jp": "薔薇は赤い", "en": "Roses Are Red" }, "power": "40" },
       {
         "cheers": [ "red", "colorless", "colorless", "colorless" ],
-        "name": { "jp": "私の心の炎は青い", "en": "The Fire of My Heart is Blue" },
+        "name": { "jp": "私の心の炎は青い", "en": "The Fire of My Heart Is Blue" },
         "power": "140"
       }
     ],
@@ -66256,7 +66259,7 @@
         "name": { "jp": "For Justice! -ERB-", "en": "For Justice! -ERB-" },
         "text": {
           "jp": "相手のターンで、自分の#Justiceを持つホロメンがダウンした時、自分のエールデッキの上から1枚をこのホロメンに送る。自分のギフト「For Justice! -ERB-」はターンに1回しか使えない。",
-          "en": "During your opponent's turn, when 1 of your holomem with #Justice is downed, send the top card of your cheer deck to this holomem. You may only use Gift \"For Justice! -ERB-\" once per turn."
+          "en": "During your opponent's turn, if your holomem with #Justice is downed, send the top card of your cheer deck to this holomem. You may only use Gift \"For Justice! -ERB-\" once per turn."
         }
       }
     ],
@@ -66314,7 +66317,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "守護るべきもの", "en": "Something to Protect" },
+        "name": { "jp": "守護るべきもの", "en": "Things Worth Protecting" },
         "power": "30"
       }
     ],
@@ -66352,7 +66355,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "猛炎のウォークライ", "en": "Warcry of Fierce Flames" },
+        "name": { "jp": "猛炎のウォークライ", "en": "Blazing Warcry" },
         "text": {
           "jp": "このホロメンのエール1枚につき、このホロメンのHP+10。",
           "en": "This holomem gets +10 HP for each of this holomem's cheers."
@@ -66362,12 +66365,12 @@
     "arts": [
       {
         "cheers": [ "red", "colorless", "colorless" ],
-        "name": { "jp": "悪斬りのカデンツァ", "en": "The Slayer of Evil's Cadenza" },
+        "name": { "jp": "悪斬りのカデンツァ", "en": "Baneslayer Cadenza" },
         "power": "100+",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "このホロメンのエール1枚につき、このアーツ+20。このアーツで相手のホロメンをダウンさせた時、自分のエールデッキの上から1枚をこのホロメンに送る。",
-          "en": "This Arts gets +20 for each of this holomem's cheers. When this Arts downed your opponent's holomem, send the top card of your cheer deck to this holomem."
+          "en": "This Arts gets +20 for cheer attached to this holomem. If this Arts downed your opponent's holomem, send the top card of your cheer deck to this holomem."
         }
       }
     ],
@@ -66475,7 +66478,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "イタズラ増殖！", "en": "Mischievous Growth!" },
+        "name": { "jp": "イタズラ増殖！", "en": "Multiplying Pranks!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、#Justiceを持つ1stホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
           "en": "If you went second and it is your first turn, reveal 1 1st holomem with #Justice from your deck, and place it on stage. Then, shuffle the deck."
@@ -66527,7 +66530,7 @@
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "周囲の頭痛の種", "en": "The source of headaches" },
+        "name": { "jp": "周囲の頭痛の種", "en": "Source of Headaches for Those Around Her" },
         "power": "40"
       },
       {
@@ -66569,18 +66572,18 @@
         "name": { "jp": "I am Gonathan G.", "en": "I am Gonathan G." },
         "text": {
           "jp": "このホロメンに重なっているDebutホロメン1枚をアーカイブできる:相手のコラボホロメンに特殊ダメージ20を与える。",
-          "en": "You may archive 1 Debut holomem that is stacked to this holomem:Deal 20 special damage to your opponent's collab holomem."
+          "en": "You may archive 1 Debut holomem stacked to this holomem: Deal 20 special damage to your opponent's collab holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "すべての意味を追い求めて", "en": "Pursuing the meaning of everything" },
+        "name": { "jp": "すべての意味を追い求めて", "en": "In Search of What It All Means" },
         "power": "40+",
         "text": {
           "jp": "このホロメンに重なっているホロメンが0枚なら、このアーツ+20。",
-          "en": "If there are no holomem stacked to this holomem, this Arts gets +20."
+          "en": "This Arts gets +20 if there are no holomem stacked to this holomem."
         }
       }
     ],
@@ -66614,17 +66617,17 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ご苦労さん！", "en": "Thank you for your hard work!" },
+        "name": { "jp": "ご苦労さん！", "en": "GG, Easy Win!" },
         "text": {
           "jp": "相手のターンで、自分のバックホロメンが相手から特殊ダメージを受ける時、このホロメンに重なっているホロメン1枚をアーカイブできる:このターンの間、自分のバックホロメン全員は特殊ダメージを受けない。",
-          "en": "During your opponent's turn, when your back holomem would take special damage from your opponent, you may archive 1 holomem that is stacked to this holomem:During this turn, all of your back holomem do not take special damage."
+          "en": "During your opponent's turn, if your back holomem would take special damage from your opponent, you may archive 1 holomem stacked to this holomem: During this turn, all of your back holomem do not take special damage."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "負けるわけにはいかない", "en": "I won't lose" },
+        "name": { "jp": "負けるわけにはいかない", "en": "Losing's Not an Option" },
         "power": "60"
       }
     ],
@@ -66658,22 +66661,22 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "再起のストレングス", "en": "Strength to bounce back" },
+        "name": { "jp": "再起のストレングス", "en": "Resurgent Strength" },
         "text": {
           "jp": "[ターンに1回]自分のメインステップで、自分の〈ジジ・ムリン〉に重なっているホロメン1枚をアーカイブできる:自分のエールデッキの上から1枚をこのホロメンに送る。",
-          "en": "[1/Turn]During your main phase, you may archive 1 holomem stacked to your <Gigi Murin>:Send the top card of your cheer deck to this holomem."
+          "en": "[1/Turn] During your main phase, you may archive 1 holomem stacked to your <Gigi Murin>: Send the top card of your cheer deck to this holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "colorless", "colorless", "colorless" ],
-        "name": { "jp": "殻破りのライオット", "en": "Riot Breaking Out of Her Shell" },
+        "name": { "jp": "殻破りのライオット", "en": "Shatter Riot" },
         "power": "90+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このホロメンに重なっているホロメンが0枚なら、このアーツ+90。",
-          "en": "If there are no holomem stacked to this holomem, this Arts gets +90."
+          "en": "This Arts gets +90 if there are no holomem stacked to this holomem."
         }
       }
     ],
@@ -66724,14 +66727,14 @@
         "name": { "jp": "正義の旋律", "en": "Melody of Justice" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定][ターンに1回]自分の#Justiceを持つ[DebutホロメンかSpotホロメン]がステージに出た時、自分のデッキを1枚引く。",
-          "en": "[Center Position・Collab Position Only][1/Turn]When a [Debut holomem or Spot holomem] with #Justice is placed on your stage, draw 1 card."
+          "en": "[Center Position・Collab Position Only] [1/Turn] When your [Debut holomem or Spot holomem] with #Justice is placed on stage, draw 1 card."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "紅茶をどうぞ！", "en": "Have some tea!" },
+        "name": { "jp": "紅茶をどうぞ！", "en": "Have Some Tea!" },
         "power": "40",
         "text": {
           "jp": "自分のエールデッキの上から1枚を自分の#Justiceを持つホロメンに送る。",
@@ -66777,18 +66780,18 @@
         "name": { "jp": "正義の諧調", "en": "Harmony of Justice" },
         "text": {
           "jp": "自分のステージのエール1枚をエールデッキの下に戻せる。戻したなら、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "You may return 1 cheer from your stage to the bottom of your cheer deck. If you do, reveal 1 cheer from your cheer deck and send it to your holomem. Then, shuffle the cheer deck."
+          "en": "You may return 1 cheer from your stage to the bottom of the cheer deck. If returned, reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "コーヒーをどうぞ！", "en": "Have some coffee!" },
+        "name": { "jp": "コーヒーをどうぞ！", "en": "Have Some Coffee!" },
         "power": "30+",
         "text": {
           "jp": "自分の#Justiceを持つ[センターホロメンとコラボホロメン]に異なる色のエールが付いているなら、このアーツ+20。",
-          "en": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20."
+          "en": "If your [center holomem and collab holomem] with #Justice each have cheers of different colors attached, this Arts gets +20."
         }
       }
     ],
@@ -66852,7 +66855,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のステージのホロメン全員が#Justiceを持つホロメンでなければ使えない。\n\n自分のステージのホロメン1人を選ぶ。選んだホロメンに重なっているホロメン1～2枚を手札に戻す。このターンの間、この能力で戻したホロメン1枚につき、選んだホロメンのアーツ+20。",
-      "en": "This card can only be used if all holomem on your stage have #Justice.\n\nChoose 1 holomem on your stage. Return 1~2 holomem stacked to that holomem to hand. During this turn, the chosen holomem gets Arts+20 for each holomem returned by this effect."
+      "en": "This card can only be used if all holomem on your stage are holomem with #Justice.\n\nChoose 1 holomem on your stage. Return 1~2 stacked holomem from the chosen holomem to hand. During this turn, the chosen holomem gets Arts+20 for each holomem returned by this ability."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -68619,7 +68622,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "相手のDebut以外のバックホロメン1人に特殊ダメージ20を与える。自分の〈ステラ〉はターンに1回しか使えない。",
-      "en": "Deal 20 special damage to 1 of your opponent's back holomem other than Debut.\nYou may only use the card <Stellar> once per turn."
+      "en": "Deal 20 special damage to 1 of your opponent's back holomem other than Debut.\nYou may only use <Stellar> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
