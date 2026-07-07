@@ -37115,7 +37115,7 @@
         "rarity": "U",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP05-080_U.webp", "en": null },
-        "img_hash": "v2|H32=qKqritSrKO3bV9RVqjaTNpMSNC67ZFJFmm9O7csK3GhIvpJN0KbtouqSpbrrsqWKKl3paKtsqWyqRGBNSlZiWWZVYlE|CYM=01313C",
+        "img_hash": "v2|H32=4p2rqtSJItWr0VRVmjaTNpUSliYrLVRFmmtLdc1q3FpLPhJFRJUtm/PRJZv+VC2bX/WpaIJXqWxWVelr8nRlm1VVYFs|CYM=01282F",
         "ogbajoj_sheet_cells": [ [ 279785501, "C65" ] ],
         "similarity_index": 4,
         "yuyutei_sell_url": null,
@@ -57626,6 +57626,49 @@
       }
     ]
   },
+  "hBP09-054": {
+    "card_number": "hBP09-054",
+    "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Brilliant Violet" },
+        "text": { "en": "Send the top card of your cheer deck to your <Tokoyami Towa>." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Palette of Passion" },
+        "power": "30",
+        "text": {
+          "en": "If a 2nd holomem with #Singing is on your stage, deal 20 special damage to 1 of your opponent's holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-054",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-054_C.webp", "en": null },
+        "img_hash": "v2|H32=pKKpPKeqnaqva43qibIsTctRYhfKXVIV1gxWlfJGNGYvglxttWStpiqKWpJWl0nZaZ2kq+miqrRqPUqp9ZWmFclqtko|CYM=152B13",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C56" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-071": {
     "card_number": "hBP09-071",
     "name": { "jp": "AZKi", "en": "AZKi" },
@@ -57931,6 +57974,47 @@
         "img_path": { "jp": "unreleased/hEB01-013_C.webp", "en": null },
         "img_hash": "v2|H32=qqoNiqOiLJunZa2yTFvDNkneWwtSlXpNNkUydTJN9GT2krZKUnVKlUvLraDp0hWX9bJS2C4PYulKS6UltchSWbI0lvQ|CYM=0B3F46",
         "ogbajoj_sheet_cells": [ [ 279785501, "C15" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-020": {
+    "card_number": "hEB01-020",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "I Researched Assistant's Tastes and Chose This Yukata Just for You♡" },
+        "power": "30"
+      },
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "Let the Heart-Stopping Experiment Begin!" },
+        "power": "50+",
+        "text": {
+          "en": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. This Arts gets +10 for each holomem revealed. Then, return the revealed cards to deck and shuffle it."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Kemomimi" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-020",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-020_C.webp", "en": null },
+        "img_hash": "v2|H32=mLItq82qLeqr+Sm/o1hal0o00lZWVVpFclFyVdYC9IS0DFRbVdVsAaXqiqRSpZX9/RqqNKpaSa3UFdUVttqSUqpK2lY|CYM=062727",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C22" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
