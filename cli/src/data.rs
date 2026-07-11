@@ -450,14 +450,14 @@ pub mod hololive_official {
     use std::fs;
     use std::ops::Deref;
     use std::path::Path;
-    use std::sync::{Arc, LazyLock};
+    use std::sync::LazyLock;
 
     use hocg_fan_sim_assets_model::{
         Art, ArtPower, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra,
         HoloPower, Keyword, KeywordEffect, Language, Localized, OshiSkill, OshiSkillKind,
     };
     use itertools::Itertools;
-    use parking_lot::Mutex;
+
     use rayon::iter::{ParallelBridge, ParallelIterator};
     use reqwest::Url;
     use reqwest::header::REFERER;
@@ -998,7 +998,7 @@ pub mod hololive_official {
         illustrations.sort_by_cached_key(|c| c.manage_id.clone());
     }
 
-    fn update_card_illustrations_more(illust: &mut CardIllustration, language: Language) -> bool {
+    fn update_card_illustrations_more(illust: &mut CardIllustration, page_content: &str) -> bool {
         static ILLUSTRATOR: LazyLock<Selector> =
             LazyLock::new(|| Selector::parse(".ill-name span").unwrap());
 
@@ -1006,16 +1006,8 @@ pub mod hololive_official {
             return false;
         }
 
-        let card_urls = illust.official_site_urls(language);
-        let Some(card_url) = card_urls.last() else {
-            return false;
-        };
-
-        let resp = http_client().get(card_url).send().unwrap();
-        let content = resp.text().unwrap();
-
         // parse the content and update cards
-        let document = Html::parse_document(&content);
+        let document = Html::parse_document(page_content);
 
         // get the illustrator from the card
         let illustrator = document
@@ -1459,38 +1451,79 @@ pub mod hololive_official {
         }
         println!("Updated {} cards", updated_count);
 
-        // Download illustration specific info
-        let illust_updated_count = Arc::new(Mutex::new(0u32));
-        all_cards
-            .values_mut()
+        // Download illustration specific info in parallel
+        let pages: HashMap<_, _> = all_cards
+            .values()
+            .flat_map(|card| &card.illustrations)
+            .filter(|illust| {
+                illust
+                    .manage_id
+                    .value(language)
+                    .iter()
+                    .flatten()
+                    .any(|m| filtered_cards.contains(m))
+            })
             .enumerate()
             .par_bridge()
-            .for_each(|(index, card)| {
-                let mut update_count = 0;
-                for illustration in &mut card.illustrations {
-                    if illustration
-                        .manage_id
-                        .value(language)
-                        .iter()
-                        .flatten()
-                        .any(|m| filtered_cards.contains(m))
-                        && update_card_illustrations_more(illustration, language)
-                    {
-                        update_count += 1;
-                    }
-                }
+            .filter_map({
+                move |(index, illust)| {
+                    let card_urls = illust.official_site_urls(language);
+                    let url = card_urls.last()?;
 
-                if update_count > 0 {
-                    let mut illust_updated_count = illust_updated_count.lock();
-                    *illust_updated_count += update_count;
-
-                    if illust_updated_count.is_multiple_of(100) {
-                        let index = index + 1;
-                        println!("Card {index} done: updated {illust_updated_count} illustrations");
+                    // Skip if the illustrator is already set, no need to retrieve the page
+                    if illust.illustrator.is_some() {
+                        return None;
                     }
+
+                    let resp = http_client().get(url).send().unwrap();
+                    let content = resp.text().unwrap();
+
+                    let index = index + 1;
+                    if index.is_multiple_of(100) {
+                        println!("Illustration {index} retrieved");
+                    }
+
+                    Some((url.to_owned(), content))
                 }
-            });
-        println!("Updated {} illustrations", *illust_updated_count.lock());
+            })
+            .collect();
+
+        // Process illustrations sequentially
+        let mut illust_updated_count: u32 = 0;
+        for (index, illust) in all_cards
+            .values_mut()
+            .flat_map(|card| &mut card.illustrations)
+            .filter(|illust| {
+                illust
+                    .manage_id
+                    .value(language)
+                    .iter()
+                    .flatten()
+                    .any(|m| filtered_cards.contains(m))
+            })
+            .enumerate()
+        {
+            let card_urls = illust.official_site_urls(language);
+            let Some(url) = card_urls.last() else {
+                continue;
+            };
+
+            let Some(content) = pages.get(url) else {
+                eprintln!("Page {url} not found in retrieved pages");
+                continue;
+            };
+
+            if update_card_illustrations_more(illust, content) {
+                illust_updated_count += 1;
+                if illust_updated_count.is_multiple_of(100) {
+                    let index = index + 1;
+                    println!(
+                        "Illustration {index} done: updated {illust_updated_count} illustrations"
+                    );
+                }
+            }
+        }
+        println!("Updated {} illustrations", illust_updated_count);
 
         all_cards
             .values()
