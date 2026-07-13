@@ -57598,6 +57598,19 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-001",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-001_P.webp", "en": null },
+        "img_hash": "v2|H32=TNmvK9vQpSWTJNmka6xarVLKGc+2SpPSsmWkkZPlLnHxKFRKVpUrpaVSIFVKJS1p+dCJokVrgVaFqvWo1daV2pZqkqQ|CYM=052C75",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C104" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
