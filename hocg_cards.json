@@ -57910,6 +57910,51 @@
       }
     ]
   },
+  "hBP09-041": {
+    "card_number": "hBP09-041",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Artisan with Beautiful Attire" },
+        "text": {
+          "en": "While this holomem has a tool with #Kaela's Arms attached, this holomem requires -1 red for its Arts."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": null, "en": "A Mix of Calmness and Enthusiasm" },
+        "power": "30+",
+        "text": {
+          "en": "If your Buzz holomem or 2nd holomem has a tool with #Kaela's Arms attached, this Arts gets +20."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-041",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-041_C.webp", "en": null },
+        "img_hash": "v2|H32=SpZ7kq2umeqlKaxtz2hkTEJUcpdS0RIP0tFcy9JWXG3calppUWW0pEqSStKW1kll9Rqtqi9LpttqJUpV8KSLtp+qtEo|CYM=012335",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C43" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-047": {
     "card_number": "hBP09-047",
     "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
@@ -58751,6 +58796,31 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hEB01-032": {
+    "card_number": "hEB01-032",
+    "name": { "jp": "STAR STAR☆T", "en": "STAR STAR☆T" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "If your Oshi holomem is <Tokino Sora>, this card can be used if you went first and it is your first turn.\n\nDraw 3 cards, and return 1 card from your hand to the bottom of the deck."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-032",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-032_U.webp", "en": null },
+        "img_hash": "v2|H32=Tq1rqkGqqFWrVNBVSlVKlV67XDi/OpQ6tDqOFU4dVg92jBZNB88tisC3ZZj8AS2L8PCp43B86WwweOF4+HzgGwQfIBs|CYM=222C1F",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C34" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
