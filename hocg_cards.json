@@ -57666,6 +57666,45 @@
       }
     ]
   },
+  "hBP09-002": {
+    "card_number": "hBP09-002",
+    "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "Aiming to Be the #1 Badass in the Universe" },
+        "text": {
+          "en": "[1/Turn] When your <Todoroki Hajime> uses baton pass, put the top card of your deck to holo Power."
+        }
+      },
+      {
+        "holo_power": "x",
+        "name": { "jp": null, "en": "It's Great If It Goes Well, But Also Fine If It's a Dud" },
+        "text": {
+          "en": "[1/Turn] Choose your center <Todoroki Hajime>. During this turn, the chosen holomem gets Arts+10 for each holo Power archived for this ability. Additionally, if you archived 7 or more, during this turn, all of your <Todoroki Hajime> get Arts+100."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-002_OSR.webp", "en": null },
+        "img_hash": "v2|H32=XFILpY4aVVW1CjIRpc7htWmFpMpBKSwLSxls7StVrepU1VqVatNbKlZroSyWpqkktKoqbVWqKmW1ta1VVq9baibpaVE|CYM=061418",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C4" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-003": {
     "card_number": "hBP09-003",
     "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
@@ -58796,6 +58835,30 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hEB01-029": {
+    "card_number": "hEB01-029",
+    "name": { "jp": "スプラッシュシュート", "en": "Splash Shoot" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "This card can only be used if your center holomem and collab holomem are holomem with #Summer.\n\nDeal 30 special damage to your opponent's center holomem or collab holomem.\n\nYou may only use <Splash Shoot> once per turn."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-029",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-029_C.webp", "en": null },
+        "img_hash": "v2|H32=rCWtKowlyhbLllpVWlZaUXtZcHlzalZdcp5WnDe+tLa0rlZV8UEtisD3Jaof3uFrfhct6vhwregP122bHx5h+XVwaHg|CYM=201707",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C31" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
