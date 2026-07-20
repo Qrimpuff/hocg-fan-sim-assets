@@ -58353,6 +58353,31 @@
       }
     ]
   },
+  "hBP09-110": {
+    "card_number": "hBP09-110",
+    "name": { "jp": "雪夜月", "en": "Yuki-Yo-Zuki" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "◆Additional ability if attached to <Yukihana Lamy>\nAt the end of your performance phase, if this holomem used Arts this turn, archive 1 <Yuki-Yo-Zuki> attached to this holomem and draw 1 card.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#Lamy's Alcohol" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-110",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-110_U.webp", "en": null },
+        "img_hash": "v2|H32=opSnqqSU2Fjbilgb2KpEKqW2pFarVrlVuZAYuRurTKtsqhJdDIYsqvDwreqfDuGLDputio8PraqChy26ig9pOHWpqGg|CYM=2F2B08",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C112" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hEB01-001": {
     "card_number": "hEB01-001",
     "name": { "jp": "ときのそら", "en": "Tokino Sora" },
@@ -58531,6 +58556,42 @@
         "img_path": { "jp": "unreleased/hEB01-007_U.webp", "en": null },
         "img_hash": "v2|H32=hixTbpU4rZbLs6yWraHsuG6VcK0ylXKVciXSZdJl0Gz2aFJFVVVto1LgvqpB2lTbbali/aosK9eWFqBt1oZKLWi5FoQ|CYM=092F37",
         "ogbajoj_sheet_cells": [ [ 279785501, "C9" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-008": {
+    "card_number": "hEB01-008",
+    "name": { "jp": "ときのそら", "en": "Tokino Sora" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Want to Try My Masterpiece?" },
+        "text": { "en": "Reveal 1 <STAR STAR☆T> from your deck, and add it to hand. Then, shuffle the deck." }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "red", "red" ], "name": { "jp": null, "en": "Blame It on the Summer Heat" }, "power": "70" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-008",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-008_R.webp", "en": null },
+        "img_hash": "v2|H32=7Kojuq2qNlWb6a2w2lHtqsgUSCrWVRJXUkW2RVIqtKGWSrZVWnWlpWXLaqmtr1VXdSl6Wq5aelqVWkrXtZbQbKWWUl0|CYM=282B24",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C10" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
