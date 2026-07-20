@@ -57757,6 +57757,43 @@
       }
     ]
   },
+  "hBP09-004": {
+    "card_number": "hBP09-004",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "TO THE FORGE NOW" },
+        "text": { "en": "[1/Turn] When you attach a tool with #Kaela's Arms to <Kaela Kovalskia>, draw 2 cards." }
+      },
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "Rare Item Discovered!" },
+        "text": {
+          "en": "[1/Turn] Archive 2 tools with #Kaela's Arms on your stage. If you archived 2 cards, deal 100 special damage to your opponent's [center holomem or collab holomem] other than Debut."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-004",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-004_OSR.webp", "en": null },
+        "img_hash": "v2|H32=MlszjDdlrGJLpcZk7YrHjESMp85QyUzlolpJ5YZK7VVaKpS6rFIpqtosqyRJtmmpSdUlLUpXJilLVWipsGmq1FJVqlc|CYM=024A65",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C6" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-006": {
     "card_number": "hBP09-006",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
@@ -58842,6 +58879,52 @@
         "img_path": { "jp": "unreleased/hEB01-020_C.webp", "en": null },
         "img_hash": "v2|H32=mLItq82qLeqr+Sm/o1hal0o00lZWVVpFclFyVdYC9IS0DFRbVdVsAaXqiqRSpZX9/RqqNKpaSa3UFdUVttqSUqpK2lY|CYM=062727",
         "ogbajoj_sheet_cells": [ [ 279785501, "C22" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-023": {
+    "card_number": "hEB01-023",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Assistant, You've Been Waiting, Here's Koyo in Her Swimsuit!" },
+        "text": {
+          "en": "You may return 1~4 <Hakui Koyori> from your archive to the bottom of the deck in any order you like. If you returned 4 cards, you may attach 1 support card with #KOYO LABO from your archive to your <Hakui Koyori>."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "I've Made It So You Can See No One But Koyo!♡" },
+        "power": "50",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "Draw cards until the number of cards in your hand is the same as the number of <Koyori's Assistant> on your stage."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Kemomimi" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-023",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-023_R.webp", "en": null },
+        "img_hash": "v2|H32=zKotosmpNaeLVVmnq1XJoqRSGarW6pJNVpFyVVIZMhQmSNZGUXVPFaWqKbFLjaXUpV+p2qoe4astWlWjLVpSqqu20qo|CYM=132723",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C25" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
