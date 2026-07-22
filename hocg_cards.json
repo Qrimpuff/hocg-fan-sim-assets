@@ -58417,6 +58417,88 @@
       }
     ]
   },
+  "hBP09-085": {
+    "card_number": "hBP09-085",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Sneakily During Class......" },
+        "text": {
+          "en": "If your Oshi holomem is <Natsuiro Matsuri>, you may return 1 LIMITED support card from your archive to the bottom of the deck: Choose 1 <Natsuiro Matsuri> on your stage. During this turn, the chosen holomem gets Arts+30."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "yellow", "colorless" ], "name": { "jp": null, "en": "Look How Cute I Drew It!" }, "power": "50" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-085",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-085_U.webp", "en": null },
+        "img_hash": "v2|H32=lqqOPa2qTaqpxK2qytGrblIRW9VSU1qVUlbWBbYU9Ea1CJRsV9VsobQqLa20klKztkUqv6lWkkpLW1pbqZbQkulKIkk|CYM=141E32",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C87" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-087": {
+    "card_number": "hBP09-087",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The Cunningly Innocent Type" },
+        "text": {
+          "en": "If your Oshi holomem is yellow <Natsuiro Matsuri> and all holomem on your stage are <Natsuiro Matsuri>, you may archive the top card of your holo Power: During this turn, the number of LIMITED support cards you can use becomes 2."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "Natsuiro Matsuri is So Pure and Innocent, Right!?" },
+        "power": "60+",
+        "advantage": [ "white", 50 ],
+        "text": { "en": "If you have 5 or more LIMITED support cards in your archive, this Arts gets +60." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-087",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-087_RR.webp", "en": null },
+        "img_hash": "v2|H32=cqmlqrWqnJqPspymTLEhr0bVU9lq0fJUGlZStLJ0VCwzaZZsUaVYpfjwrUoFqV2rqlerlqrSJIteNVDVqkuq1oqq6lM|CYM=042E28",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C89" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-090": {
     "card_number": "hBP09-090",
     "name": { "jp": "コラボパソコン", "en": "Collab PC" },
@@ -58954,6 +59036,47 @@
         "img_path": { "jp": "unreleased/hEB01-020_C.webp", "en": null },
         "img_hash": "v2|H32=mLItq82qLeqr+Sm/o1hal0o00lZWVVpFclFyVdYC9IS0DFRbVdVsAaXqiqRSpZX9/RqqNKpaSa3UFdUVttqSUqpK2lY|CYM=062727",
         "ogbajoj_sheet_cells": [ [ 279785501, "C22" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-022": {
+    "card_number": "hEB01-022",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 140,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Koyo Came to Help with the Cleaning!" },
+        "text": { "en": "You may return 1~2 <Koyori's Assistant> from your archive to hand." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "Assistant, What's This?" },
+        "power": "30+",
+        "text": { "en": "If there is a 2nd holomem on your stage, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Kemomimi" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-022",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-022_R.webp", "en": null },
+        "img_hash": "v2|H32=jKqztK2oJaujMmldz7IoSU5V1OpqVUiVVldaV1KU0E6SlNRLSVVJsi2rkrKg2VXR1aYo9dKyKlW1tlJV1r6WJVZKtJU|CYM=032737",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C24" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
