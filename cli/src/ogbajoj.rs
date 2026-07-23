@@ -951,7 +951,15 @@ pub fn download_images_from_ogbajoj_sheet(
                                         *img_path =
                                             img_unreleased.to_str().unwrap().replace("\\", "/");
                                         let new_path = images_path.join(&img_path);
-                                        fs::rename(old_path, new_path).unwrap();
+                                        if old_path != new_path
+                                            && let Err(err) = fs::rename(&old_path, &new_path)
+                                        {
+                                            eprintln!(
+                                                "Warning: failed to rename image {} -> {}: {err}",
+                                                old_path.display(),
+                                                new_path.display()
+                                            );
+                                        }
                                     }
                                 }
 
