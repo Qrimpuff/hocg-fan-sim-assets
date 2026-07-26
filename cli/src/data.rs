@@ -1452,7 +1452,7 @@ pub mod hololive_official {
         println!("Updated {} cards", updated_count);
 
         // Download illustration specific info in parallel
-        let pages: HashMap<_, _> = all_cards
+        let pages: HashMap<String, Option<String>> = all_cards
             .values()
             .flat_map(|card| &card.illustrations)
             .filter(|illust| {
@@ -1472,7 +1472,7 @@ pub mod hololive_official {
 
                     // Skip if the illustrator is already set, no need to retrieve the page
                     if illust.illustrator.is_some() {
-                        return None;
+                        return Some((url.to_owned(), None));
                     }
 
                     let resp = http_client().get(url).send().unwrap();
@@ -1483,7 +1483,7 @@ pub mod hololive_official {
                         println!("Illustration {index} retrieved");
                     }
 
-                    Some((url.to_owned(), content))
+                    Some((url.to_owned(), Some(content)))
                 }
             })
             .collect();
@@ -1508,9 +1508,14 @@ pub mod hololive_official {
                 continue;
             };
 
-            let Some(content) = pages.get(url) else {
-                eprintln!("Page {url} not found in retrieved pages");
-                continue;
+            // Retrieve the page content for the illustration, warn if needed and not found
+            let content = match pages.get(url) {
+                Some(Some(content)) => content,
+                Some(_) => continue,
+                _ => {
+                    eprintln!("Page {url} not found in retrieved pages");
+                    continue;
+                }
             };
 
             if update_card_illustrations_more(illust, content) {
