@@ -7795,6 +7795,19 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp01/10084",
         "tcgplayer_product_id": 645705,
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP01-067",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-067_UR.webp", "en": null },
+        "img_hash": "v2|H32=JK2zyrOoLi2TUoxmrVGU1E1ThaVUkgslXCVqWUtvSsmL1FZLai2rdKVglqTLqqbVlFpJkbZVrRJUqRQtqdI2DZU+VNA|CYM=072A46",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K69" ] ],
+        "similarity_index": 5,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -59013,6 +59026,51 @@
       }
     ]
   },
+  "hBP09-081": {
+    "card_number": "hBP09-081",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "BIG3 Gathering side L" },
+        "text": {
+          "en": "While you have 1 or less support cards with #Lamy's Alcohol in your archive, this holomem's Arts require +1 colorless."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow" ],
+        "name": { "jp": null, "en": "Mmm! Delicious!" },
+        "power": "60",
+        "text": {
+          "en": "You may archive 2 cheers from this holomem: Deal 40 special damage to 1 of your opponent's holomem other than Debut."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-081",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-081_R.webp", "en": null },
+        "img_hash": "v2|H32=rKktaq+pFK/LU1PXw7LpUo+y8qiyVNI10i1yVVItOEw2DlZrTWkrBqakqNK0tGHaUtVqkeq1KrRe01K9S9PypUHLlqk|CYM=102736",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C83" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-085": {
     "card_number": "hBP09-085",
     "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
@@ -59112,6 +59170,30 @@
         "img_path": { "jp": "unreleased/hBP09-090_C.webp", "en": null },
         "img_hash": "v2|H32=ROWr5tflkomZilSZm7pyOnMyVnJvWlxdj1ieVYtVinSKZlbVDLStatJKrasvpa2q8sKtagYfrarg8S2Lvg74ePBrqJc|CYM=071512",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C92" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-093": {
+    "card_number": "hBP09-093",
+    "name": { "jp": "応援するホロリス", "en": "Supportive hololive Listeners" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Choose 1~2 cheers on your stage, and reattach them to your holomem. Then, if you have 4 or more holomem with cheer attached, send 1 cheer from your archive to your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-093",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-093_C.webp", "en": null },
+        "img_hash": "v2|H32=kqijqtG66JzpHmhVaWdiYzPjNskSyRbNrs7MBu0SzDIMMlbVHfytquA/LS6Cw63Lj4+pq/AAqTo6PqkLD/8h+Pgw+AA|CYM=191C15",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C95" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
@@ -59457,6 +59539,50 @@
       }
     ]
   },
+  "hEB01-009": {
+    "card_number": "hEB01-009",
+    "name": { "jp": "ときのそら", "en": "Tokino Sora" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "This Song is Just for You." },
+        "text": {
+          "en": "Reveal 1 2nd holomem <Tokino Sora> from your deck, and add it to your hand. Then, shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "Do You Realize You're More Special Than Anyone Else?" },
+        "power": "50",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "Return 1~3 holomem from your archive to your deck and shuffle it. Then, draw 1 card." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-009",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-009_R.webp", "en": null },
+        "img_hash": "v2|H32=iqqpaomqiaWlpMSlJlU2ZnZbUnMSWVKVUl00XFhUdFqkSv5K1WY8pS7aCrZSjWlZ6VRquaWt8LVbtclSqU5JbXVpya4|CYM=0C2526",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C11" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hEB01-010": {
     "card_number": "hEB01-010",
     "name": { "jp": "ときのそら", "en": "Tokino Sora" },
@@ -59714,6 +59840,41 @@
       }
     ]
   },
+  "hEB01-016": {
+    "card_number": "hEB01-016",
+    "name": { "jp": "宝鐘マリン", "en": "Houshou Marine" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "You'll Be Captivated by Marine for Life, Right?" },
+        "power": "40+",
+        "advantage": [ "white", 50 ],
+        "text": { "en": "If 3 or more holomem are stacked to this holomem, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Painting" }, { "en": "#Sea" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-016",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-016_R.webp", "en": null },
+        "img_hash": "v2|H32=CqoZNYmq1rLEWURupFQmq2A0M+tak9pVWtrOUZISoFy2pJ5KqWqg6W7dSpVSrXK11pKm1CuVQqmZtFotW1rSkppWUms|CYM=0E2929",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C18" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hEB01-018": {
     "card_number": "hEB01-018",
     "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
@@ -59750,6 +59911,48 @@
         "img_path": { "jp": "unreleased/hEB01-018_C.webp", "en": null },
         "img_hash": "v2|H32=qKosa8+6JbuLUVLWpyHbFAYl0EZaVVNXVlV41VJUNG2uVJRLVlVKpbVoqNLZQqXTVptqta3aoLb9otBJSqtitS0tElU|CYM=022D49",
         "ogbajoj_sheet_cells": [ [ 279785501, "C20" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-019": {
+    "card_number": "hEB01-019",
+    "name": { "jp": "博衣こより", "en": "Hakui Koyori" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 140,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Oh, You Want to Go to the Beach on Our Next Day Off?" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 1 [Debut holomem and/or support card with #KOYO LABO] each from your deck, and add them to your hand. Then, shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Look Forward to Seeing Koyo's Swimsuit♡" },
+        "power": "10"
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" }, { "en": "#Kemomimi" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-019",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-019_U.webp", "en": null },
+        "img_hash": "v2|H32=pquRNq2rLa4rmymuy7ILUdJ1UlnSVVLldl2U0HZZtNi0LLRlVVXpJCJqSqot0VfbVpul2qprKh3UmlatbUuWpdKqElU|CYM=00252B",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C21" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
