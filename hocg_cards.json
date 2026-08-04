@@ -13977,6 +13977,19 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10067",
         "tcgplayer_product_id": 657597,
         "delta_art_index": 2
+      },
+      {
+        "card_number": "hBP02-033",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-033_UR.webp", "en": null },
+        "img_hash": "v2|H32=1KqiqLmqZIipYkSbPFdOUlJVS1UyFwtVdquaNU8rtDVPVLRKqnXLIlSrX7VS1StSVKpJk9XWW6qv0hWqlNKUWq5WpkY|CYM=063448",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K63" ] ],
+        "similarity_index": 5,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -58716,6 +58729,49 @@
       }
     ]
   },
+  "hBP09-058": {
+    "card_number": "hBP09-058",
+    "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Tipsy Okayun" },
+        "text": {
+          "en": "If your Oshi holomem is <Nekomata Okayu>, send the top card of your cheer deck to your <Nekomata Okayu>."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "Dozey Night with a Cat" },
+        "power": "30",
+        "text": { "en": "Deal 10 special damage to 1 of your opponent's holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-058",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-058_R.webp", "en": null },
+        "img_hash": "v2|H32=TKukbo2qbcqvKm2qy9qsbdOWUl1SVVKWckVStLIOtGV8rlRtV3SrJqm2LrmkkE2qlpepumpLqprpWlCptqbalm1plpY|CYM=162B13",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C60" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-060": {
     "card_number": "hBP09-060",
     "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
@@ -59284,16 +59340,16 @@
     "oshi_skills": [
       {
         "kind": "stage",
-        "name": { "jp": null, "en": "Beach Venus" },
+        "name": { "jp": null, "en": "Seaside Venus" },
         "text": {
-          "en": "At the end of your turn, if your center holomem and collab holomem are <Tokino Sora>, put the top card of your deck to holo Power. Additionally, if you have a 2nd holomem on your stage, draw 1 card."
+          "en": "At the end of your turn, if your center holomem and collab holomem are <Tokino Sora>, put the top card of your deck as holo Power. Additionally, if you have a 2nd holomem on your stage, draw 1 card."
         }
       },
       {
         "holo_power": 4,
         "name": { "jp": null, "en": "Sudden Romance" },
         "text": {
-          "en": "[1/Turn] Choose 1 <Tokino Sora> on your stage. Bloom the chosen holomem with a <Tokino Sora> from your deck. Then, shuffle your deck. During this turn, the chosen holomem's Arts requires -1 colorless."
+          "en": "[1/Turn] Choose 1 <Tokino Sora> on your stage. Bloom the chosen holomem using a <Tokino Sora> from your deck. Shuffle your deck. During this turn, the chosen holomem requires -1 colorless for its Arts."
         }
       }
     ],
@@ -59323,16 +59379,16 @@
     "oshi_skills": [
       {
         "kind": "stage",
-        "name": { "jp": null, "en": "Devilish Re-enactment" },
+        "name": { "jp": null, "en": "Return of the Seductress" },
         "text": {
-          "en": "At the beginning of your performance phase, if you have a collab holomem, you may bloom your center <Houshou Marine> that bloomed this turn once more using a blue holomem from your hand."
+          "en": "At the beginning of your performance phase, if you have a collab holomem, you may bloom your center holomem <Houshou Marine> that bloomed this turn once more using a blue holomem from your hand."
         }
       },
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Uh~ maybe it was a bit too much?" },
+        "name": { "jp": null, "en": "Uh, Was That a Little Too Spicy for You?" },
         "text": {
-          "en": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. Then, if 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut."
+          "en": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. If 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut."
         }
       }
     ],
@@ -59362,16 +59418,16 @@
     "oshi_skills": [
       {
         "kind": "stage",
-        "name": { "jp": null, "en": "Assistant-Exclusive \"Koyo Observation\"" },
+        "name": { "jp": null, "en": "\"Koyo Color Observation\"-- Assistants Only" },
         "text": {
-          "en": "The number of cards revealed from the top of your deck by your Oshi Skill and the abilities of your yellow <Hakui Koyori> is increased by 1 for each <Koyori's Assistants> on your stage."
+          "en": "Increase the number of cards revealed from the top of your deck by your Oshi Skill and the abilities of your yellow <Hakui Koyori> by +1 for each <Koyori's Assistants> on your stage."
         }
       },
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "Analysis Complete! A Private Beach Just for Us" },
+        "name": { "jp": null, "en": "Analysis Complete! Private Area for Two" },
         "text": {
-          "en": "[1/Turn] Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. If there are 3 or more holomem among them, during this turn, all <Hakui Koyori> on your stage get Arts+30. Then, add all revealed holomem other than Debut to your hand, and archive the remaining cards."
+          "en": "[1/Turn] Reveal cards from the top of your deck equal to the number of cheers on your stage. If there are 3 or more holomem among the revealed cards, during this turn, all <Hakui Koyori> on your stage get Arts+30. Add all revealed holomem other than Debut to your hand, and archive the remaining cards."
         }
       }
     ],
@@ -60310,6 +60366,30 @@
         "img_path": { "jp": "unreleased/hEB01-032_U.webp", "en": null },
         "img_hash": "v2|H32=Tq1rqkGqqFWrVNBVSlVKlV67XDi/OpQ6tDqOFU4dVg92jBZNB88tisC3ZZj8AS2L8PCp43B86WwweOF4+HzgGwQfIBs|CYM=222C1F",
         "ogbajoj_sheet_cells": [ [ 279785501, "C34" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-033": {
+    "card_number": "hEB01-033",
+    "name": { "jp": "ビーチボール", "en": "Beach Ball" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The holomem with #Summer this tool is attached to gets Arts+10.\n\nWhen this holomem this tool is attached to uses Arts, you may reattach this tool to your [center holomem or collab holomem] with #Summer.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-033",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-033_C.webp", "en": null },
+        "img_hash": "v2|H32=SLXpq2m1aaQpqjhOm06STpZtlm2WabZtNtl20XaTTpNck1ZVAdWtCvBBIXp+cC0KD16tyuBHqXo8UC3ALn7B4/5BAF8|CYM=1C120B",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C35" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
