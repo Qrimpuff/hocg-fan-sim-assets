@@ -30173,6 +30173,19 @@
       },
       {
         "card_number": "hBP04-072",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-072_UR.webp", "en": null },
+        "img_hash": "v2|H32=tJWtpe2VZplJWkdaWlqdSvIducmSlauYMqLKGnbqUmtWKrZLa22tUtaWS9ctmuWltqS6tLCWTa1Jqlm0mtbJ2i1poaU|CYM=2B3714",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K86" ] ],
+        "similarity_index": 6,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-072",
         "manage_id": { "jp": [ 1734 ] },
         "rarity": "P",
         "illustrator": "つなかわ",
@@ -58849,6 +58862,44 @@
       }
     ]
   },
+  "hBP09-065": {
+    "card_number": "hBP09-065",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Sparkling Present" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 2 <Kikirara Vivi> from your deck, and add them to your hand. Shuffle your deck. Your opponent draws 1 card."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Vivi Will Be Happy If You Like It!" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-065",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-065_U.webp", "en": null },
+        "img_hash": "v2|H32=qKpLPbeqtEpSUrRS3LItO7i2ubmmVNrVYlULxWorSqUrqbZuNNWpp1JKaJur1VKLSSu2UiTZWqitWmKx8aRwqdUqsvQ|CYM=0A3B2E",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C67" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-066": {
     "card_number": "hBP09-066",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
@@ -59475,6 +59526,44 @@
         "img_path": { "jp": "unreleased/hEB01-004_C.webp", "en": null },
         "img_hash": "v2|H32=aorNmq2jaVOPZUyTxiytPsQk0056UxJHUlN4VR5J9Cw8SdQqVlV2BStoSarJpcrVlFqoeKmqUqqKFqC1VJo6eCWPUpc|CYM=12443E",
         "ogbajoj_sheet_cells": [ [ 279785501, "C6" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-005": {
+    "card_number": "hEB01-005",
+    "name": { "jp": "ときのそら", "en": "Tokino Sora" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Ah, So You Want to Go to the Beach?" },
+        "text": {
+          "en": "If you went second and it is your first turn, search 1~3 Debut holomem <Tokino Sora> with Extra from your deck, and place them on your stage. Shuffle your deck. If 3 Debut holomem were placed this way, return 1 card from your hand to the bottom of your deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Sure! I'm So Glad You Invited Me!" }, "power": "30" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Singing" }, { "en": "#Summer" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-005",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-005_U.webp", "en": null },
+        "img_hash": "v2|H32=orTTNK2yLadt2y3LTElradJUcm1SVXJXUkVQ1tK21La0trQ0VXVpIVqgDtqF2lbXaV/wemqpCo+lHkaJihdQqbWpBl4|CYM=112B22",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C7" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
