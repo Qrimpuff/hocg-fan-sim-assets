@@ -13155,6 +13155,19 @@
       },
       {
         "card_number": "hBP02-023",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-023_UR.webp", "en": null },
+        "img_hash": "v2|H32=SGVXK81s1ayn2tVOLNZblFJXS9VStrGJVMqipFcrZgorrbJIlmVJtYUqaq1VqS2ldKlW1VSVjS120lW1q/RR0oqqKq0|CYM=06352A",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K57" ] ],
+        "similarity_index": 6,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP02-023",
         "manage_id": { "en": [ 560 ] },
         "rarity": "P",
         "illustrator": "やも",
@@ -53372,7 +53385,7 @@
         "name": { "jp": "FUWAMOCOを信じて！", "en": "Trust in FUWAMOCO!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、Debutホロメンの[〈フワワ・アビスガード〉と〈モココ・アビスガード〉]1枚ずつをステージに出す。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, place 1 debut holomem [<Fuwawa Abyssgard> and <Mococo Abyssgard>] each from your deck on stage. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, place 1 debut holomem [<Fuwawa Abyssgard> and/or <Mococo Abyssgard>] each from your deck on stage. Then, shuffle the deck."
         }
       }
     ],
@@ -58231,6 +58244,47 @@
       }
     ]
   },
+  "hBP09-010": {
+    "card_number": "hBP09-010",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Increasing Tension" },
+        "text": { "en": "Draw 2 cards, and return 2 cards from your hand to the bottom of your deck in any order." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "Things Are Going to Get Exciting from Here!" },
+        "power": "30",
+        "text": { "en": "Archive 1 tool on your opponent's stage." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-010",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-010_C.webp", "en": null },
+        "img_hash": "v2|H32=krWEa2YZGKV2WiiVmbJEmqm334otTZskSqmnMdt5bLE3WkpKlGqypGnTVUukpZeSS0tKLdYqKdWU1mbpWqG2FA2WtGg|CYM=060E24",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C12" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-014": {
     "card_number": "hBP09-014",
     "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
@@ -60430,6 +60484,28 @@
         "img_path": { "jp": "unreleased/hEB01-030_U.webp", "en": null },
         "img_hash": "v2|H32=pqinquWqJWcrd0xXaFdodVlKXExbblpfWjtaM1sSVhI71VZFF5AsmkDwLZr6fi36eHjpatF3iS4Px+HDj0fhi8eHYNM|CYM=151F18",
         "ogbajoj_sheet_cells": [ [ 279785501, "C32" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hEB01-031": {
+    "card_number": "hEB01-031",
+    "name": { "jp": "水遊び", "en": "Water Play" },
+    "card_type": { "support": "event" },
+    "text": { "en": "Send 1 cheer from your archive to your holomem with #Summer." },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hEB01-031",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-031_C.webp", "en": null },
+        "img_hash": "v2|H32=xK2nqtetci1TLVJlG2qWVp9SnFa7VhBVGaZcrQ2vTLesk1bVQ8UtinBwrWg+HK2qHx6t6gr0qfrXRykK6sMBf+rB4X0|CYM=13130D",
+        "ogbajoj_sheet_cells": [ [ 279785501, "C33" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
