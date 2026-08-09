@@ -15725,6 +15725,19 @@
         "yuyutei_sell_url": "https://yuyu-tei.jp/sell/hocg/card/hbp02/10120",
         "tcgplayer_product_id": 657650,
         "delta_art_index": 2
+      },
+      {
+        "card_number": "hBP02-059",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-059_UR.webp", "en": null },
+        "img_hash": "v2|H32=TPeCqschpc+jSSTlY9OpZlKTqWDUsrNJ1CzW028sxFVvItRKNlWptNEeULVZil2luq5JiQtVtdbWqlWvpUpJq02lldI|CYM=513F0F",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K83" ] ],
+        "similarity_index": 5,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -58404,6 +58417,49 @@
       }
     ]
   },
+  "hBP09-012": {
+    "card_number": "hBP09-012",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "BIG3 Gathering side S" },
+        "text": {
+          "en": "If your Oshi holomem is <Oozora Subaru> and your opponent has 2 or more cards in holo Power, put the top card of your deck as holo Power. You may only use Bloom Effect \"BIG3 Gathering side S\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white", "colorless" ],
+        "name": { "jp": null, "en": "Can I Get a Second Helping of Offal Please" },
+        "power": "80+",
+        "text": { "en": "If your holomem was downed during your opponent's previous turn, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-012",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-012_R.webp", "en": null },
+        "img_hash": "v2|H32=qqnmFda4VEnTWlSaMMatpjzFrWMsNhtLTHpjKUpxYrWvibRqq1qrVklbULlbpejQrV5qrVS1brXpsLaS0+pSSzattq0|CYM=072F44",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C14" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-014": {
     "card_number": "hBP09-014",
     "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
@@ -59981,7 +60037,7 @@
         "rarity": "R",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hEB01-009_R.webp", "en": null },
-        "img_hash": "v2|H32=iqqpaomqiaWlpMSlJlU2ZnZbUnMSWVKVUl00XFhUdFqkSv5K1WY8pS7aCrZSjWlZ6VRquaWt8LVbtclSqU5JbXVpya4|CYM=0C2526",
+        "img_hash": "v2|H32=iqtpi62oSYellI2W5lKmMnNykivSsdqVUlVaTVpedEh+Sk5LlUS1rmvKSrZWpVDZpXrq0mrJtOlWrVKVm7bSlfJ40lI|CYM=1D2C24",
         "ogbajoj_sheet_cells": [ [ 279785501, "C11" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
