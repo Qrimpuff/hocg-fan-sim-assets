@@ -59154,6 +59154,43 @@
       }
     ]
   },
+  "hBP09-055": {
+    "card_number": "hBP09-055",
+    "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "blue" ], "name": { "jp": null, "en": "Little Devil's Smile" }, "power": "20" },
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "You Were Sleeping, Weren't You?" },
+        "power": "50",
+        "text": {
+          "en": "If this is the second Arts you have used this turn, you may reattach 1 of this holomem's cheers to your other holomem with #Singing."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-055",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-055_R.webp", "en": null },
+        "img_hash": "v2|H32=mi2hqo0qraqPuk2qz5rCdNM0ch3SRXNH1s16VbJqVEUsw1xL0aT4tS+pDtIaTQW1W5WxqCpLqpbSUpanpRWSLFIalqs|CYM=0B251B",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C57" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-058": {
     "card_number": "hBP09-058",
     "name": { "jp": "猫又おかゆ", "en": "Nekomata Okayu" },
@@ -60108,6 +60145,19 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-002",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-002_SEC.webp", "en": null },
+        "img_hash": "v2|H32=VhmjYTUtTNOPrUxjzdpmoWlydK4gLBuuFDWJKdkzlAnNKFZpp6appklJrdaPt8lW8tGpcGlYFTTbJipVqlVKl7Wqpak|CYM=0A3B36",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K4" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -60675,7 +60725,7 @@
         "rarity": "R",
         "illustrator": null,
         "img_path": { "jp": "unreleased/hEB01-016_R.webp", "en": null },
-        "img_hash": "v2|H32=CqoZNYmq1rLEWURupFQmq2A0M+tak9pVWtrOUZISoFy2pJ5KqWqg6W7dSpVSrXK11pKm1CuVQqmZtFotW1rSkppWUms|CYM=0E2929",
+        "img_hash": "v2|H32=Gqq7t8mr16rMSUyfpNQ8bWIVFe9a40tVWktOUdpVpFl2tJ5akWK1oiRZapVWqXT51pKutCsWVp3dtUotnTbSlkpdMmk|CYM=1E2F25",
         "ogbajoj_sheet_cells": [ [ 279785501, "C18" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
