@@ -370,6 +370,7 @@ pub enum ArtPower {
     Basic(u32),
     Plus(u32),
     Minus(u32),
+    PlusMinus(u32),
     Multiple(u32),
     #[default]
     Uncertain,
@@ -385,6 +386,8 @@ impl TryFrom<String> for ArtPower {
             Ok(Self::Plus(value.trim_end_matches('+').parse()?))
         } else if value.ends_with('-') {
             Ok(Self::Minus(value.trim_end_matches('-').parse()?))
+        } else if value.ends_with("±") {
+            Ok(Self::PlusMinus(value.trim_end_matches("±").parse()?))
         } else if value.ends_with('x') {
             Ok(Self::Multiple(value.trim_end_matches('x').parse()?))
         } else {
@@ -399,6 +402,7 @@ impl From<ArtPower> for String {
             ArtPower::Basic(dmg) => format!("{dmg}"),
             ArtPower::Plus(dmg) => format!("{dmg}+"),
             ArtPower::Minus(dmg) => format!("{dmg}-"),
+            ArtPower::PlusMinus(dmg) => format!("{dmg}±"),
             ArtPower::Multiple(dmg) => format!("{dmg}x"),
             ArtPower::Uncertain => "?".into(),
         }

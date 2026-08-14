@@ -5,6 +5,8 @@ use std::{
     ops::Not,
     path::Path,
     sync::Arc,
+    thread::sleep,
+    time::Duration,
 };
 
 use hocg_fan_sim_assets_model::{
@@ -17,6 +19,7 @@ use image::DynamicImage;
 use itertools::Itertools;
 use parking_lot::RwLock;
 use rayon::iter::{IntoParallelIterator, ParallelIterator};
+use reqwest::StatusCode;
 use reqwest::header::REFERER;
 use scraper::{Html, Node, Selector};
 use serde::Deserialize;
@@ -31,6 +34,7 @@ use crate::{
 };
 
 const SPREADSHEET_ID: &str = "1IdaueY-Jw8JXjYLOhA9hUd2w0VRBao9Z1URJwmCWJ64";
+const GOOGLE_FETCH_MAX_ATTEMPTS: u32 = 5;
 
 #[derive(Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
@@ -652,7 +656,10 @@ pub fn retrieve_card_info_from_ogbajoj_sheet(
 ) {
     println!("Retrieve all cards info from @ogbajoj's sheet");
 
-    let spreadsheet = retrieve_spreadsheet(cache_dir);
+    let Some(spreadsheet) = retrieve_spreadsheet(cache_dir) else {
+        eprintln!("Warning: unable to retrieve spreadsheet metadata; skipping card info import");
+        return;
+    };
 
     let mut updated_count = 0;
     let mut cheers_names = HashMap::new();
@@ -723,7 +730,10 @@ pub fn download_images_from_ogbajoj_sheet(
 
     let all_cards = Arc::new(RwLock::new(all_cards));
 
-    let spreadsheet = retrieve_spreadsheet(cache_dir);
+    let Some(spreadsheet) = retrieve_spreadsheet(cache_dir) else {
+        eprintln!("Warning: unable to retrieve spreadsheet metadata; skipping sheet image import");
+        return;
+    };
 
     // this is used to delay Master Sheet access
     let master_sheet_lock = Arc::new(RwLock::new(()));
@@ -1078,7 +1088,10 @@ fn fix_image_hash(img_hash: &mut String) {
 pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase, cache_dir: Option<&Path>) {
     println!("Retrieve all Q&As info from @ogbajoj's sheet");
 
-    let spreadsheet = retrieve_spreadsheet(cache_dir);
+    let Some(spreadsheet) = retrieve_spreadsheet(cache_dir) else {
+        eprintln!("Warning: unable to retrieve spreadsheet metadata; skipping Q&A import");
+        return;
+    };
 
     let sheets_gid = spreadsheet
         .sheets
@@ -1096,7 +1109,10 @@ pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase, cache_dir: Op
     let td_sel = Selector::parse("td").unwrap();
 
     for gid in sheets_gid {
-        let html = retrieve_sheet_html(gid, cache_dir);
+        let Some(html) = retrieve_sheet_html(gid, cache_dir) else {
+            eprintln!("Warning: failed to retrieve Q&A sheet gid={gid}; skipping");
+            continue;
+        };
         // fs::write(format!("sheet_{gid}.html"), &html).unwrap();
 
         let document = Html::parse_document(&html);
@@ -1153,7 +1169,89 @@ pub fn retrieve_qna_from_ogbajoj_sheet(all_qnas: &mut QnaDatabase, cache_dir: Op
     println!("Missing english answers: {missing_english}");
 }
 
-fn retrieve_spreadsheet(cache_dir: Option<&Path>) -> Spreadsheet {
+fn should_retry_transient_status(status: StatusCode) -> bool {
+    status == StatusCode::REQUEST_TIMEOUT
+        || status == StatusCode::TOO_MANY_REQUESTS
+        || status.is_server_error()
+}
+
+fn should_retry_reqwest_error(err: &reqwest::Error) -> bool {
+    err.is_timeout()
+        || err.is_connect()
+        || err.is_request()
+        || err.is_body()
+        || err.status().is_some_and(should_retry_transient_status)
+}
+
+fn retry_backoff(attempt: u32) -> Duration {
+    let seconds = 2_u64.pow(attempt.saturating_sub(1).min(3));
+    Duration::from_secs(seconds)
+}
+
+fn fetch_text_with_retry(
+    context: &str,
+    mut request: impl FnMut() -> Result<reqwest::blocking::Response, reqwest::Error>,
+) -> Option<String> {
+    for attempt in 1..=GOOGLE_FETCH_MAX_ATTEMPTS {
+        let is_last_attempt = attempt == GOOGLE_FETCH_MAX_ATTEMPTS;
+
+        let response = match request() {
+            Ok(response) => response,
+            Err(err) => {
+                if should_retry_reqwest_error(&err) && !is_last_attempt {
+                    eprintln!(
+                        "Warning: {context} request failed (attempt {attempt}/{GOOGLE_FETCH_MAX_ATTEMPTS}): {err}"
+                    );
+                    sleep(retry_backoff(attempt));
+                    continue;
+                }
+
+                eprintln!(
+                    "Warning: {context} request failed (attempt {attempt}/{GOOGLE_FETCH_MAX_ATTEMPTS}): {err}"
+                );
+                return None;
+            }
+        };
+
+        let status = response.status();
+        if !status.is_success() {
+            if should_retry_transient_status(status) && !is_last_attempt {
+                eprintln!(
+                    "Warning: {context} HTTP {status} (attempt {attempt}/{GOOGLE_FETCH_MAX_ATTEMPTS})"
+                );
+                sleep(retry_backoff(attempt));
+                continue;
+            }
+
+            eprintln!(
+                "Warning: {context} HTTP {status} (attempt {attempt}/{GOOGLE_FETCH_MAX_ATTEMPTS})"
+            );
+            return None;
+        }
+
+        match response.text() {
+            Ok(content) => return Some(content),
+            Err(err) => {
+                if should_retry_reqwest_error(&err) && !is_last_attempt {
+                    eprintln!(
+                        "Warning: {context} read failed (attempt {attempt}/{GOOGLE_FETCH_MAX_ATTEMPTS}): {err}"
+                    );
+                    sleep(retry_backoff(attempt));
+                    continue;
+                }
+
+                eprintln!(
+                    "Warning: {context} read failed (attempt {attempt}/{GOOGLE_FETCH_MAX_ATTEMPTS}): {err}"
+                );
+                return None;
+            }
+        }
+    }
+
+    None
+}
+
+fn retrieve_spreadsheet(cache_dir: Option<&Path>) -> Option<Spreadsheet> {
     let api_key = std::env::var("GOOGLE_SHEETS_API_KEY").expect("GOOGLE_SHEETS_API_KEY not set");
 
     let content = get_cached_or_download_text(
@@ -1161,19 +1259,25 @@ fn retrieve_spreadsheet(cache_dir: Option<&Path>) -> Spreadsheet {
         Path::new("ogbajoj_sheet_cache").join("spreadsheet.json"),
         || {
             let url = format!("https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}");
-            google_sheets_api_http_client()
-                .get(url)
-                .query(&[("key", api_key.as_str())])
-                .send()
-                .unwrap()
-                .text()
-                .unwrap()
+            fetch_text_with_retry("spreadsheet metadata", || {
+                google_sheets_api_http_client()
+                    .get(&url)
+                    .query(&[("key", api_key.as_str())])
+                    .send()
+            })
         },
-    );
-    let spreadsheet: Spreadsheet = serde_json::from_str(&content).unwrap();
+    )?;
+
+    let spreadsheet: Spreadsheet = match serde_json::from_str(&content) {
+        Ok(spreadsheet) => spreadsheet,
+        Err(err) => {
+            eprintln!("Warning: failed to parse spreadsheet metadata: {err}");
+            return None;
+        }
+    };
     // dbg!(&spreadsheet);
 
-    spreadsheet
+    Some(spreadsheet)
 }
 
 fn extract_cell_text(tds: &[scraper::ElementRef], idx: Option<usize>) -> String {
@@ -1205,7 +1309,7 @@ fn retrieve_spreadsheet_data(sheet: &Sheet, cache_dir: Option<&Path>) -> Option<
     let sheet_id = sheet.properties.sheet_id;
 
     // Read HTML content from the website
-    let html = retrieve_sheet_html(sheet_id, cache_dir);
+    let html = retrieve_sheet_html(sheet_id, cache_dir)?;
 
     println!("[{name}] Reading HTML...");
 
@@ -1488,28 +1592,27 @@ fn retrieve_spreadsheet_data(sheet: &Sheet, cache_dir: Option<&Path>) -> Option<
     None
 }
 
-fn retrieve_sheet_html(sheet_id: u64, cache_dir: Option<&Path>) -> String {
+fn retrieve_sheet_html(sheet_id: u64, cache_dir: Option<&Path>) -> Option<String> {
     let url = format!("https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/htmlembed");
 
     get_cached_or_download_text(
         cache_dir,
         Path::new("ogbajoj_sheet_cache").join(format!("sheet_{sheet_id}.html")),
         || {
-            google_docs_http_client()
-                .get(&url)
-                .query(&[
-                    ("gid", sheet_id.to_string().as_str()),
-                    ("widget", "false"),
-                    ("single", "true"),
-                ])
-                .header("Sec-Fetch-Dest", "document")
-                .header("Sec-Fetch-Mode", "navigate")
-                .header("Sec-Fetch-Site", "none")
-                .header("Sec-Fetch-User", "?1")
-                .send()
-                .unwrap()
-                .text()
-                .unwrap()
+            fetch_text_with_retry(&format!("sheet html gid={sheet_id}"), || {
+                google_docs_http_client()
+                    .get(&url)
+                    .query(&[
+                        ("gid", sheet_id.to_string().as_str()),
+                        ("widget", "false"),
+                        ("single", "true"),
+                    ])
+                    .header("Sec-Fetch-Dest", "document")
+                    .header("Sec-Fetch-Mode", "navigate")
+                    .header("Sec-Fetch-Site", "none")
+                    .header("Sec-Fetch-User", "?1")
+                    .send()
+            })
         },
     )
 }
@@ -1517,26 +1620,37 @@ fn retrieve_sheet_html(sheet_id: u64, cache_dir: Option<&Path>) -> String {
 fn get_cached_or_download_text(
     cache_dir: Option<&Path>,
     cache_path: impl AsRef<Path>,
-    download: impl FnOnce() -> String,
-) -> String {
+    mut download: impl FnMut() -> Option<String>,
+) -> Option<String> {
     let cache_path = cache_dir.map(|cache_dir| cache_dir.join(cache_path));
 
     if let Some(cache_path) = cache_path.as_ref()
         && let Ok(content) = fs::read_to_string(cache_path)
     {
-        return content;
+        return Some(content);
     }
 
-    let content = download();
+    let content = download()?;
 
     if let Some(cache_path) = cache_path {
-        if let Some(parent) = cache_path.parent() {
-            fs::create_dir_all(parent).unwrap();
+        if let Some(parent) = cache_path.parent()
+            && let Err(err) = fs::create_dir_all(parent)
+        {
+            eprintln!(
+                "Warning: failed to create sheet cache directory {}: {err}",
+                parent.display()
+            );
+            return Some(content);
         }
-        fs::write(cache_path, &content).unwrap();
+        if let Err(err) = fs::write(&cache_path, &content) {
+            eprintln!(
+                "Warning: failed to write sheet cache file {}: {err}",
+                cache_path.display()
+            );
+        }
     }
 
-    content
+    Some(content)
 }
 
 // Image URLs are external; fetch via HTTP
