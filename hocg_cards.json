@@ -59042,6 +59042,50 @@
       }
     ]
   },
+  "hBP09-049": {
+    "card_number": "hBP09-049",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Heated Interrogation" },
+        "text": { "en": "If your Oshi holomem is <Oozora Subaru>, this holomem's Arts require -3 colorless." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Don't Play Dumb!" },
+        "power": "80",
+        "advantage": [ "green", 50 ],
+        "text": {
+          "en": "If your Oshi holomem is <Oozora Subaru>, return 1 [<Oozora Subaru> or <Hakos Baelz>] from your archive to your hand."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-049",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-049_R.webp", "en": null },
+        "img_hash": "v2|H32=aKqpqi2rNpcbERZVtzShpKcmmDSYMFpV2nVaXGJM0szwjFJVWVU9NLYkqKUPyyWJJpWp2ipLqUqXpJW0hpeq6qpacPo|CYM=191F1D",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C51" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-051": {
     "card_number": "hBP09-051",
     "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
@@ -59777,6 +59821,42 @@
       }
     ]
   },
+  "hBP09-086": {
+    "card_number": "hBP09-086",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Festival Commotion" },
+        "text": {
+          "en": "If your Oshi holomem is <Natsuiro Matsuri>, look at the top 5 cards of your deck. Reveal 1 Limited support card from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "yellow" ], "name": { "jp": null, "en": "Let's Cheer with the Drums!" }, "power": "40" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-086",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-086_R.webp", "en": null },
+        "img_hash": "v2|H32=lqppV626naulEi3N0LLDiapV0KlLTLhRUk2WEmpVVtWUKqQlbbVsqkrJ0aq215XWySqq0bYtKpWrWlar2XIi2dXqUm0|CYM=022D53",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C88" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-087": {
     "card_number": "hBP09-087",
     "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
@@ -60485,6 +60565,19 @@
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hEB01-010",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-010_UR.webp", "en": null },
+        "img_hash": "v2|H32=XJ2PKquYVmermHTmulyl6DAZK8tUs2vXVqN7dRYjujB3o5YqWlSrVVWrapW0qmpUltIpUvKUVacUl0q1qlTRKpV6Vak|CYM=4C350D",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K12" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -61078,6 +61171,19 @@
         "img_hash": "v2|H32=aKpac3u6bamDVaSUremX1pawuUhWNWlNVl1rjSRSUKatUtRqNlVrVS2qpZXpUjK1ktdatabWsrBZlhbVS7aWWlmrslI|CYM=32281F",
         "ogbajoj_sheet_cells": [ [ 279785501, "C26" ] ],
         "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hEB01-024",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hEB01-024_UR.webp", "en": null },
+        "img_hash": "v2|H32=VFGvqhuThK2LEqSqQ1Six+c0NcVXdJGIVDVbVa6qWFVmYVZpF0VrlRSoTapqVU2lqlqdtjbdUrV021WVrkq1qqbKVcU|CYM=3A4312",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K26" ] ],
+        "similarity_index": 2,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
