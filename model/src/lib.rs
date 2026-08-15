@@ -602,8 +602,8 @@ pub struct CardIllustration {
     pub ogbajoj_sheet_cells: Option<BTreeSet<(SheetId, SheetCell)>>,
     #[serde(skip_serializing_if = "is_default")]
     pub similarity_index: u32,
-    pub yuyutei_sell_url: Option<String>,
-    pub tcgplayer_product_id: Option<u32>,
+    pub yuyutei_sell_paths: Option<BTreeSet<String>>,
+    pub tcgplayer_product_ids: Option<BTreeSet<u32>>,
     pub delta_art_index: Option<u32>,
 }
 
@@ -647,9 +647,20 @@ impl CardIllustration {
             .collect()
     }
 
-    pub fn tcgplayer_url(&self) -> Option<String> {
-        self.tcgplayer_product_id
+    pub fn yuyutei_urls(&self) -> Vec<String> {
+        self.yuyutei_sell_paths
+            .iter()
+            .flatten()
+            .map(|path| format!("https://yuyu-tei.jp/sell{path}"))
+            .collect()
+    }
+
+    pub fn tcgplayer_urls(&self) -> Vec<String> {
+        self.tcgplayer_product_ids
+            .iter()
+            .flatten()
             .map(|id| format!("https://www.tcgplayer.com/product/{id}"))
+            .collect()
     }
 
     pub fn ogbajoj_sheet_urls(&self) -> Vec<String> {

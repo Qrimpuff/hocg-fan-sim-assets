@@ -1,12 +1,12 @@
 use std::{
-    collections::{BTreeMap, HashMap},
+    collections::{BTreeMap, BTreeSet, HashMap},
     sync::Arc,
     time::Duration,
 };
 
 use hocg_fan_sim_assets_model::{
     CardIllustration, CardsDatabase,
-    img_hash::{dist_hash, to_image_hash},
+    img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash, to_image_hash},
 };
 use image::DynamicImage;
 use indexmap::IndexMap;
@@ -20,6 +20,8 @@ use scraper::{Html, Selector};
 use serde_json::Value;
 
 use crate::{DEBUG, PriceCheckMode, http_client};
+
+const YUYUTEI_SELL_URL_ROOT: &str = "https://yuyu-tei.jp/sell";
 
 pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     println!(
@@ -147,12 +149,9 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
                         if let (Some(url), Some(img_src)) = (url, img_src) {
                             // group them by url
-                            urls.write().entry(url.to_owned()).or_insert((
-                                number,
-                                rarity.clone(),
-                                img_src.to_string(),
-                                name,
-                            ));
+                            urls.write()
+                                .entry(url.trim_start_matches(YUYUTEI_SELL_URL_ROOT).to_owned())
+                                .or_insert((number, rarity.clone(), img_src.to_string(), name));
                         }
                     }
                 }
@@ -176,37 +175,32 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
         map
     });
 
-    // filter urls: remove "before errata" if "after errata" exists
-    let mut url_skipped = 0;
-    for list in urls.values_mut() {
-        let has_after_errata = list.iter().any(|(_, _, name)| name.contains("エラッタ後"));
-        if has_after_errata {
-            list.retain(|(_, _, name)| !name.contains("エラッタ前"));
-            url_skipped += 1;
-        }
-    }
-
     // remove existing urls
-    let mut existing_urls: HashMap<String, String> = HashMap::new();
+    let mut url_skipped = 0;
+    let mut existing_urls: HashMap<String, BTreeSet<String>> = HashMap::new();
     if mode == PriceCheckMode::Quick {
         for card in all_cards
             .values_mut()
             .flat_map(|cs| cs.illustrations.iter_mut())
-            .filter(|c| c.yuyutei_sell_url.is_some())
+            .filter(|c| c.yuyutei_sell_paths.is_some())
         {
-            if let Some(yuyutei_sell_url) = &card.yuyutei_sell_url {
-                let urls = urls.get_mut(&(card.card_number.clone(), card.rarity.to_string()));
-                if let Some(urls) = urls
-                    && let Some(pos) = urls.iter().position(|(url, _, _)| url == yuyutei_sell_url)
-                {
-                    urls.remove(pos);
-                    url_skipped += 1;
-                }
-                // group by image, some entries are duplicated, like hSD01-016
-                if let Some(img_path) = card.img_path.japanese.as_deref() {
-                    existing_urls
-                        .entry(img_path.into())
-                        .or_insert(yuyutei_sell_url.clone());
+            if let Some(yuyutei_sell_paths) = &card.yuyutei_sell_paths {
+                let Some(urls) = urls.get_mut(&(card.card_number.clone(), card.rarity.to_string()))
+                else {
+                    continue;
+                };
+                for yuyutei_path in yuyutei_sell_paths {
+                    if let Some(pos) = urls.iter().position(|(url, _, _)| url == yuyutei_path) {
+                        urls.remove(pos);
+                        url_skipped += 1;
+                    }
+                    // group by image, some entries are duplicated, like hSD01-016
+                    if let Some(img_path) = card.img_path.japanese.as_deref() {
+                        existing_urls
+                            .entry(img_path.into())
+                            .or_default()
+                            .insert(yuyutei_path.clone());
+                    }
                 }
             }
         }
@@ -230,19 +224,19 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 .illustrations
                 .iter_mut()
                 .filter(|c| c.img_path.japanese.is_some())
-                .filter(|c| c.yuyutei_sell_url.is_none())
+                .filter(|c| c.yuyutei_sell_paths.is_none())
                 .collect_vec();
 
             for illustration in illustrations {
                 // first, look for same image
-                if let Some(yuyutei_sell_url) = existing_urls.read().get(
+                if let Some(yuyutei_sell_paths) = existing_urls.read().get(
                     illustration
                         .img_path
                         .japanese
                         .as_deref()
                         .unwrap_or_default(),
                 ) {
-                    illustration.yuyutei_sell_url = Some(yuyutei_sell_url.clone());
+                    illustration.yuyutei_sell_paths = Some(yuyutei_sell_paths.clone());
                 } else if let Some(urls) = urls.write().get_mut(&(
                     illustration.card_number.clone(),
                     illustration.rarity.to_string(),
@@ -250,13 +244,14 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     // use the first url
                     if !urls.is_empty() {
                         let (url, _, _) = urls.swap_remove(0);
-                        illustration.yuyutei_sell_url = Some(url.clone());
+                        illustration.yuyutei_sell_paths = Some([url.to_owned()].into());
                         // group by image, some entries are duplicated
                         if let Some(img_path) = illustration.img_path.japanese.as_deref() {
                             existing_urls
                                 .write()
                                 .entry(img_path.into())
-                                .or_insert(url.clone());
+                                .or_default()
+                                .insert(url.to_owned());
                         }
                         *url_count.lock() += 1;
                     }
@@ -266,7 +261,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
         } else if mode == PriceCheckMode::Images {
             // clear any existing url
             for c in &mut card.illustrations {
-                c.yuyutei_sell_url = None;
+                c.yuyutei_sell_paths = None;
             }
 
             let rarities = card
@@ -289,7 +284,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         if urls.len() == 1 && illustrations.len() == 1 {
                             let (url, _, _) = urls.swap_remove(0);
                             let illust = illustrations.swap_remove(0);
-                            illust.lock().yuyutei_sell_url = Some(url.clone());
+                            illust.lock().yuyutei_sell_paths = Some([url.to_owned()].into());
                             *url_count.lock() += 1;
                             return;
                         }
@@ -359,19 +354,21 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             let mut illust = illust.lock();
                             // to handle multiple cards with the same image
                             let min_dist = *already_set.get(&url).unwrap_or(&(u64::MAX));
-                            // only one card has the url, no DIST_TOLERANCE
-                            if illust.yuyutei_sell_url.is_none() && min_dist >= dist {
-                                illust.yuyutei_sell_url = Some(url.clone());
-                                urls.retain(|(u, _, _)| *u != url);
+                            if dist <= min_dist.max(DIST_TOLERANCE_DIFF_RARITY) {
+                                illust
+                                    .yuyutei_sell_paths
+                                    .get_or_insert_default()
+                                    .insert(url.to_owned());
+                                urls.retain(|(p, _, _)| *p != url);
                                 already_set.insert(url, dist.min(min_dist));
                                 *url_count.lock() += 1;
 
                                 if DEBUG {
                                     // println!(
-                                    //     "Updated card {:?} -> manage_id: {}, yuyutei url: {} ({})",
+                                    //     "Updated card {:?} -> manage_id: {}, yuyutei paths: {} ({})",
                                     //     illust.card_number,
                                     //     illust.manage_id.unwrap(),
-                                    //     illust.yuyutei_sell_url.as_ref().unwrap(),
+                                    //     illust.yuyutei_sell_paths.as_ref().unwrap().first().unwrap(),
                                     //     dist
                                     // );
                                 }
@@ -384,7 +381,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
     // remove empty urls
     let mut urls = Arc::try_unwrap(urls).unwrap().into_inner();
-    urls.retain(|_, urls| !urls.is_empty());
+    urls.retain(|_, paths| !paths.is_empty());
     // println!("AFTER: {urls:#?}");
 
     let url_count = *url_count.lock();
@@ -584,22 +581,25 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
     // println!("BEFORE: {urls:#?}");
     // remove existing product ids
-    let mut existing_ids: HashMap<String, u32> = HashMap::new();
+    let mut existing_ids: HashMap<String, BTreeSet<u32>> = HashMap::new();
     if mode == PriceCheckMode::Quick {
         for card in all_cards
             .values_mut()
             .flat_map(|cs| cs.illustrations.iter_mut())
-            .filter(|c| c.tcgplayer_product_id.is_some())
+            .filter(|c| c.tcgplayer_product_ids.is_some())
         {
-            if let Some(tcgplayer_product_id) = &card.tcgplayer_product_id {
-                if product_ids.shift_remove(tcgplayer_product_id).is_some() {
-                    product_ids_skipped += 1;
-                }
-                // group by image, some entries are duplicated, like hSD01-016
-                if let Some(img_path) = card.img_path.english.as_deref() {
-                    existing_ids
-                        .entry(img_path.into())
-                        .or_insert(*tcgplayer_product_id);
+            if let Some(tcgplayer_product_ids) = &card.tcgplayer_product_ids {
+                for tcgplayer_product_id in tcgplayer_product_ids {
+                    if product_ids.shift_remove(tcgplayer_product_id).is_some() {
+                        product_ids_skipped += 1;
+                    }
+                    // group by image, some entries are duplicated, like hSD01-016
+                    if let Some(img_path) = card.img_path.english.as_deref() {
+                        existing_ids
+                            .entry(img_path.into())
+                            .or_default()
+                            .insert(*tcgplayer_product_id);
+                    }
                 }
             }
         }
@@ -633,16 +633,16 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 .illustrations
                 .iter_mut()
                 .filter(|c| c.img_path.english.is_some())
-                .filter(|c| c.tcgplayer_product_id.is_none())
+                .filter(|c| c.tcgplayer_product_ids.is_none())
                 .collect_vec();
 
             for illustration in illustrations {
                 // first, look for same image
-                if let Some(tcgplayer_product_id) = existing_ids
+                if let Some(tcgplayer_product_ids) = existing_ids
                     .read()
                     .get(illustration.img_path.english.as_deref().unwrap_or_default())
                 {
-                    illustration.tcgplayer_product_id = Some(*tcgplayer_product_id);
+                    illustration.tcgplayer_product_ids = Some(tcgplayer_product_ids.clone());
                 } else if let Some(product_ids) = product_ids.write().get_mut(&(
                     illustration.card_number.clone(),
                     illustration.rarity.to_string(),
@@ -650,13 +650,14 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     // use the first url
                     if !product_ids.is_empty() {
                         let (product_id, _) = product_ids.swap_remove(0);
-                        illustration.tcgplayer_product_id = Some(product_id);
+                        illustration.tcgplayer_product_ids = Some([product_id].into());
                         // group by image, some entries are duplicated
                         if let Some(img_path) = illustration.img_path.english.as_deref() {
                             existing_ids
                                 .write()
                                 .entry(img_path.into())
-                                .or_insert(product_id);
+                                .or_default()
+                                .insert(product_id);
                             *product_ids_count.lock() += 1;
                         }
                     }
@@ -666,7 +667,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
         } else if mode == PriceCheckMode::Images {
             // clear any existing url
             for c in &mut card.illustrations {
-                c.tcgplayer_product_id = None;
+                c.tcgplayer_product_ids = None;
             }
 
             let rarities = card
@@ -692,7 +693,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         if product_ids.len() == 1 && illustrations.len() == 1 {
                             let (product_id, _) = product_ids.swap_remove(0);
                             let illust = illustrations.swap_remove(0);
-                            illust.lock().tcgplayer_product_id = Some(product_id);
+                            illust.lock().tcgplayer_product_ids = Some([product_id].into());
                             *product_ids_count.lock() += 1;
                             return;
                         }
@@ -757,9 +758,11 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             let mut illust = illust.lock();
                             // to handle multiple cards with the same image
                             let min_dist = *already_set.get(&product_id).unwrap_or(&(u64::MAX));
-                            // only one card has the url, no DIST_TOLERANCE
-                            if illust.tcgplayer_product_id.is_none() && min_dist >= dist {
-                                illust.tcgplayer_product_id = Some(product_id);
+                            if dist <= min_dist.max(DIST_TOLERANCE_DIFF_RARITY) {
+                                illust
+                                    .tcgplayer_product_ids
+                                    .get_or_insert_default()
+                                    .insert(product_id);
                                 product_ids.retain(|(u, _)| *u != product_id);
                                 already_set.insert(product_id, dist.min(min_dist));
                                 *product_ids_count.lock() += 1;
@@ -769,7 +772,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                                     //     "Updated card {:?} -> manage_id: {}, tcgplayer url: {} ({})",
                                     //     illust.card_number,
                                     //     illust.manage_id.unwrap(),
-                                    //     illust.tcgplayer_product_id.as_ref().unwrap(),
+                                    //     illust.tcgplayer_product_ids.as_ref().unwrap(),
                                     //     dist
                                     // );
                                 }

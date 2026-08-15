@@ -535,17 +535,37 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     if illustrations[i].illustrator.is_none() {
                         illustrations[i].illustrator = illustrations[j].illustrator.clone();
                     }
-                    if illustrations[i].yuyutei_sell_url.is_none() {
-                        illustrations[i].yuyutei_sell_url =
-                            illustrations[j].yuyutei_sell_url.clone();
-                    }
-                    if illustrations[i].tcgplayer_product_id.is_none() {
-                        illustrations[i].tcgplayer_product_id =
-                            illustrations[j].tcgplayer_product_id;
-                    }
                     if illustrations[i].delta_art_index.is_none() {
                         illustrations[i].delta_art_index = illustrations[j].delta_art_index;
                     }
+
+                    // merge yuyutei sell paths
+                    let yuyutei_paths_j = illustrations[j]
+                        .yuyutei_sell_paths
+                        .take()
+                        .into_iter()
+                        .flatten();
+                    illustrations[i]
+                        .yuyutei_sell_paths
+                        .get_or_insert_default()
+                        .extend(yuyutei_paths_j);
+                    illustrations[i]
+                        .yuyutei_sell_paths
+                        .take_if(|v| v.is_empty());
+
+                    // merge tcgplayer product ids
+                    let tcgplayer_ids_j = illustrations[j]
+                        .tcgplayer_product_ids
+                        .take()
+                        .into_iter()
+                        .flatten();
+                    illustrations[i]
+                        .tcgplayer_product_ids
+                        .get_or_insert_default()
+                        .extend(tcgplayer_ids_j);
+                    illustrations[i]
+                        .tcgplayer_product_ids
+                        .take_if(|v| v.is_empty());
 
                     // merge ogbajoj sheet cells
                     let ogbajoj_sheet_cells_j = illustrations[j]
