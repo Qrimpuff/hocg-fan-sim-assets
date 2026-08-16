@@ -1344,6 +1344,7 @@ pub mod hololive_official {
                         .get(url)
                         .query(&[
                             ("view", "text"),
+                            ("sort", "old"),
                             ("keyword", number_filter.as_deref().unwrap_or_default()),
                             ("expansion_name", expansion.as_deref().unwrap_or_default()),
                             ("page", page.to_string().as_str()),
