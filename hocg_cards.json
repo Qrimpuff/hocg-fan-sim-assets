@@ -4270,6 +4270,19 @@
       },
       {
         "card_number": "hBP01-021",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-021_HR.webp", "en": null },
+        "img_hash": "v2|H32=xjY3olW1qy6TS4HNuKi1Ski5My5MUiqtbbJWU+2oTLGtarZSFqoNlEnTleppW2216W00qZo0bYvpSU+lWlq2LUrT2So|CYM=072732",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K37" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-021",
         "manage_id": { "jp": [ 189 ], "en": [ 276 ] },
         "rarity": "P",
         "illustrator": "",
@@ -13597,6 +13610,19 @@
         "img_hash": "v2|H32=ao1tiramG3ONs5pzyTmvJcyY6RWkzNTSck101FrKak14lthWpdE2LctCqVSftknbYd1ak1ppC6VKqVArSrVKrVcvg64|CYM=063C42",
         "ogbajoj_sheet_cells": [ [ 279785501, "C63" ] ],
         "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP02-028",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-028_HR.webp", "en": null },
+        "img_hash": "v2|H32=VM2trDLcWiulcKKaziOlotSaSyXM5GqdaWdOZSubXmeNubpSSapTJWtULcu12Uuu8lVJ0q2lNakmSbStkqQtqWtZSZs|CYM=04425D",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K63" ] ],
+        "similarity_index": 4,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -25829,6 +25855,19 @@
         "img_hash": "v2|H32=UlTEcVNUtctsuynOpalatq1F07hWJilNM61GZWubUrXJEkhWuaVaLaVanZZSS5ZqSilt6a2lLaXaWpYmVq0taaXUJW0|CYM=031610",
         "ogbajoj_sheet_cells": [ [ 279785501, "C41" ] ],
         "similarity_index": 2,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-008",
+        "manage_id": { },
+        "rarity": "HR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-008_HR.webp", "en": null },
+        "img_hash": "v2|H32=VDQyzlVNqRayymmIs9b3amOV12ZoGxh5KTscE22qTDWNqqxWlKqpkmn1VqopVQ2v0GosrcpHaaukXUmplFrWKmrVaaQ|CYM=051A25",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K41" ] ],
+        "similarity_index": 3,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
         "delta_art_index": null
@@ -58636,6 +58675,53 @@
       }
     ]
   },
+  "hBP09-024": {
+    "card_number": "hBP09-024",
+    "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "A Shy Smile" },
+        "text": {
+          "en": "[Center Position Only] All cheer colors required for the Arts of your collab holomem with #FLOW GLOW are set to colorless."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white" ],
+        "name": { "jp": null, "en": "Giving Back to the Leader" },
+        "power": "70+",
+        "text": {
+          "en": "[Center Position Only] If you have <Koganei Niko>, <Mizumiya Su>, <Rindo Chihaya> and <Kikirara Vivi> on your stage, this Arts gets +100."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-024",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-024_R.webp", "en": null },
+        "img_hash": "v2|H32=RqOUqGO1SVq7VEhbkEq9qVRS1aOWSlpWlEg3Vmu9tOwru7xqLWqKlqDbVJe1Smmb0rUtS2mp9oFqdXVp0rZqtaZScGU|CYM=142812",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C26" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-026": {
     "card_number": "hBP09-026",
     "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
@@ -58701,6 +58787,42 @@
         "img_path": { "jp": "unreleased/hBP09-027_C.webp", "en": null },
         "img_hash": "v2|H32=pLJZqY2yrZZbq6VSOblS6+JRWq3SUNBUUiX2RvYUtGy2rPRFlWVbqlqySqRpySTVrdu2mqrqSlpWDW39lqKqrbJSptU|CYM=201013",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C29" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_url": null,
+        "tcgplayer_product_id": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-029": {
+    "card_number": "hBP09-029",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 260,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "green", "green", "colorless" ],
+        "name": { "jp": null, "en": "BIG3 Gathering side N" },
+        "power": "100",
+        "text": { "en": "Reveal 1 2nd <Shirogane Noel> from your deck, and add it to your hand. Shuffle your deck." }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless", "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-029",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-029_R.webp", "en": null },
+        "img_hash": "v2|H32=JKutqiSqSNHSWtP1m5G1pq21ta1cTWJNWklaWbMyGkWlksZa1eoPJVqypdIkSeilpocqpbZNNul6eGlbrZpasktWUss|CYM=0E243B",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C31" ] ],
         "similarity_index": 1,
         "yuyutei_sell_url": null,
         "tcgplayer_product_id": null,
