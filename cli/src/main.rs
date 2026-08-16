@@ -374,6 +374,27 @@ fn garbage_collection(
         keep
     });
 
+    // remove unknown file references
+    all_cards.values_mut().for_each(|cs| {
+        cs.illustrations.iter_mut().for_each(|i| {
+            // japanese image
+            if !images_jp_path
+                .join(i.img_path.japanese.as_deref().unwrap_or_default())
+                .exists()
+            {
+                i.img_path.japanese = None;
+            }
+
+            // english image
+            if !images_en_path
+                .join(i.img_path.english.as_deref().unwrap_or_default())
+                .exists()
+            {
+                i.img_path.english = None;
+            }
+        });
+    });
+
     // remove unreferenced images
     let mut required_paths =
         HashSet::from([card_mapping_file.to_owned(), qna_mapping_file.to_owned()]);
