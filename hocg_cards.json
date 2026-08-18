@@ -12778,6 +12778,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10036" ],
         "tcgplayer_product_ids": [ 657566 ],
         "delta_art_index": 2
+      },
+      {
+        "card_number": "hBP02-017",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-017_UR.webp", "en": null },
+        "img_hash": "v2|H32=VknrihYpyZS2NZy1t9QkZ8UQI2rcOfMqO4rMZrOqVCatqUpademqJWq1VZVLryutsGWlNKqSqS5dVFGtpSrqLmpVNak|CYM=003C43",
+        "ogbajoj_sheet_cells": [ [ 279785501, "K39" ] ],
+        "similarity_index": 5,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -51038,7 +51051,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている〈角巻わため〉のアーツ+20。\n\n◆2ndの〈角巻わため〉に付いていたら能力追加\n■[センターポジション限定]このホロメンのアーツ+30。\n■[センターポジション限定]このホロメンがアーツを使った時、サイコロを1回振る。3か5なら、このホロメン以外の自分のホロメン1人に特殊ダメージ50を与える。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The <Tsunomaki Watame> with this tool attached gets Arts+20.\n\n◆Additional ability if attached to 2nd <Tsunomaki Watame>\n■[Center Position Only]This holomem gets Arts+30.\n■[Center Position Only]When this holomem uses Arts, roll a die once. If it is 3 or 5, deal 50 special damage to 1 of your other holomem.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The <Tsunomaki Watame> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to 2nd <Tsunomaki Watame>\n■[Center Position Only]This holomem gets Arts+30.\n■[Center Position Only]When this holomem uses Arts, roll a die once. If it is 3 or 5, deal 50 special damage to 1 of your other holomem.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -51078,7 +51091,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている〈桃鈴ねね〉のアーツ+20。\n\n◆1st以上の〈桃鈴ねね〉に付いていたら能力追加\nこのホロメンのアーツダメージは軽減されない。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The <Momosuzu Nene> with this tool attached gets Arts+20.\n\n◆Additional ability if attached to 1st or greater <Momosuzu Nene>\nThis holomem's Arts damage cannot be reduced.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The <Momosuzu Nene> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to 1st or greater <Momosuzu Nene>\nThis holomem's Arts damage cannot be reduced.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -51118,7 +51131,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている〈エリザベス・ローズ・ブラッドフレイム〉のアーツ+20。\n\n◆2ndの〈エリザベス・ローズ・ブラッドフレイム〉に付いていたら能力追加\nこのホロメンのHPが減っているなら、このホロメンのアーツ+20。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The <Elizabeth Rose Bloodflame> with this tool attached gets Arts+20.\n\n◆Additional ability if attached to 2nd <Elizabeth Rose Bloodflame>\nWhile this holomem has reduced HP, this holomem gets Arts+20.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The <Elizabeth Rose Bloodflame> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to 2nd <Elizabeth Rose Bloodflame>\nWhile this holomem has reduced HP, this holomem gets Arts+20.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -57818,7 +57831,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆Buzzホロメンに付いていたら能力追加\n[ターンに1回]このホロメンが相手のホロメンをダウンさせた時、自分のデッキを2枚引く。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with this tool attached gets Arts+10.\n\n◆Additional ability if attached to a Buzz holomem\n[1/Turn]When this holomem downs your opponent's holomem, draw 2 cards.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a Buzz holomem\n[1/Turn]When this holomem downs your opponent's holomem, draw 2 cards.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#Buzzグッズ", "en": "#Buzz Merch" } ],
     "max_amount": { "jp": 4 },
@@ -57859,7 +57872,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "■このツールが付いているホロメンのHP+50。\n■このツールが付いているホロメンがダウンした時、自分のライフ-1。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "■The holomem with this tool attached gets +50 HP.\n■If the holomem with this tool attached is downed, you get life-1.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "■The holomem this tool is attached to gets +50 HP.\n■If the holomem this tool is attached to is downed, you get life-1.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -60314,6 +60327,30 @@
         "img_path": { "jp": "unreleased/hBP09-105_U.webp", "en": null },
         "img_hash": "v2|H32=UtWjiFTVGKcrolRzqTGtMfdRpNWrjlTOq8ovzs1q3GKtZxJVF80sivALLZuK7i2L4JupKvhwqWqOw6mLqgIt+D74Kps|CYM=0B1318",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C107" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-108": {
+    "card_number": "hBP09-108",
+    "name": { "jp": "常闇トワのブレイクマイク", "en": "Tokoyami Towa's Break Mic" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Tokoyami Towa> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to 2nd <Tokoyami Towa>\nAll blue cheers attached to this holomem are also regarded as purple cheers.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-108",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-108_C.webp", "en": null },
+        "img_hash": "v2|H32=WltLKlpa0jaDptRmtC70bvdO1ran9ga1r7UsNS0hLCGsqVbVF/ytqo+Dqauqh6068Dqtqig9qTq+Cmn44ODpo/BC4MM|CYM=0F220F",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C110" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
