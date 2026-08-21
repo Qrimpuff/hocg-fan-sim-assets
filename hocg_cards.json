@@ -61988,7 +61988,7 @@
     "arts": [
       {
         "cheers": [ "red" ],
-        "name": { "jp": "心地よい距離感", "en": "A Comfortable Sense of Distance" },
+        "name": { "jp": "心地よい距離感", "en": "A Cozy Distance" },
         "power": "20",
         "text": { "jp": "自分のデッキを1枚引く。", "en": "Draw 1 card." }
       }
@@ -62459,12 +62459,12 @@
         "cheers": [ "blue" ],
         "name": {
           "jp": "夏祭りってテンションあがるよナぁ～",
-          "en": "The Summer Festival Is Exciting, Right?"
+          "en": "Summer Festivals Are So Exciting!"
         },
         "power": "20",
         "text": {
           "jp": "このホロメンのエール1枚をアーカイブできる：自分のデッキから、#サマーを持つ〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may archive 1 cheer from this holomem: Reveal 1 <Houshou Marine> with #Summer from your deck, and add it to your hand. Then, shuffle your deck."
+          "en": "You may archive 1 cheer from this holomem: Reveal 1 <Houshou Marine> with #Summer from your deck, and add it to your hand. Shuffle your deck."
         }
       }
     ],
@@ -62959,18 +62959,18 @@
         "type": "gift",
         "name": {
           "jp": "こよを夏祭りに連れて行って？",
-          "en": "Will You Take Koyo to the Summer Festival?"
+          "en": "Could You Take Me to the Summer Festival Too?"
         },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、このホロメンに付いている#こよラボを持つサポートカード1枚を手札に戻せる。",
-          "en": "During your opponent's turn, if this holomem is downed, you may return 1 support card with #KOYO LABO attached to this holomem to hand."
+          "en": "During your opponent's turn, if this holomem is downed, you may return 1 support card with #KOYO LABO attached to this holomem to your hand."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ドキドキしちゃうね♡", "en": "It's Making My Heart Race♡" },
+        "name": { "jp": "ドキドキしちゃうね♡", "en": "It's Really Exciting, Isn't It?♡" },
         "power": "20+",
         "text": {
           "jp": "このホロメンに#こよラボを持つサポートカードが付いているなら、このアーツ+20。",
