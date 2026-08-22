@@ -342,7 +342,7 @@ pub mod deck_log {
                                     card.limited = dl_card.limited();
 
                                     let illustrations = &mut card.illustrations;
-                                    // find the card, first by manage_id, then by image, then overwrite delta, otherwise just add
+                                    // find the card, first by manage_id, then by image, otherwise just add
                                     if let Some(illust) = {
                                         if let Some(i) = illustrations.iter_mut().find(|i| {
                                             i.manage_id
@@ -353,9 +353,10 @@ pub mod deck_log {
                                         }) {
                                             Some(i)
                                         } else {
-                                            illustrations
-                                                .iter_mut()
-                                                .find(|c| !c.manage_id.has_value())
+                                            illustrations.iter_mut().find(|i| {
+                                                i.img_path.value(language).as_ref()
+                                                    == Some(&dl_card.img)
+                                            })
                                         }
                                     } {
                                         // only these fields are retrieved
@@ -936,7 +937,7 @@ pub mod hololive_official {
         }
 
         let illustrations = &mut card.illustrations;
-        // find the card, first by manage_id, then by image, then overwrite delta, otherwise just add
+        // find the card, first by manage_id, then by image, otherwise just add
         if let Some(illust) = {
             if let Some(i) = illustrations.iter_mut().find(|i| {
                 i.manage_id
@@ -947,7 +948,9 @@ pub mod hololive_official {
             }) {
                 Some(i)
             } else {
-                illustrations.iter_mut().find(|c| !c.manage_id.has_value())
+                illustrations
+                    .iter_mut()
+                    .find(|i| i.img_path.value(language).as_ref() == Some(&card_img_path))
             }
         } {
             // only these fields are retrieved
@@ -1422,6 +1425,28 @@ pub mod hololive_official {
 
                 // fix card number if needed
                 fix_card_number(manage_id, &mut card_number, language);
+
+                // remove the old manage_id, if it exists
+                all_cards
+                    .values_mut()
+                    .flat_map(|cs| cs.illustrations.iter_mut())
+                    .filter(|c| {
+                        c.card_number != card_number
+                            && c.manage_id
+                                .value(language)
+                                .iter()
+                                .flatten()
+                                .any(|m| Some(m) == Some(&manage_id))
+                    })
+                    .for_each(|c| {
+                        if let Some(c_manage_id) = c.manage_id.value_mut(language)
+                            && let Some(id) = Some(manage_id)
+                        {
+                            c_manage_id.retain(|&m| m != id);
+                        }
+                        // remove empty manage_id
+                        c.manage_id.value_mut(language).take_if(|v| v.is_empty());
+                    });
 
                 let card = all_cards.entry(card_number.clone()).or_default();
 

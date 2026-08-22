@@ -23,7 +23,7 @@ fn http_client_base() -> ClientBuilder {
     ClientBuilder::new()
         .user_agent(HTTP_USER_AGENT)
         .cookie_store(true)
-        .timeout(Duration::from_secs(70))
+        .timeout(Duration::from_secs(30))
 }
 
 fn build_retry_client(host: &'static str, retry_post: bool) -> Client {
@@ -41,7 +41,7 @@ fn should_retry_transient_status(status: StatusCode) -> bool {
 
 fn build_retry_policy(host: &'static str, retry_post: bool) -> reqwest::retry::Builder {
     reqwest::retry::for_host(host)
-        .max_retries_per_request(3)
+        .max_retries_per_request(1)
         .classify_fn(move |req_rep| match (req_rep.method(), req_rep.status()) {
             (&Method::GET | &Method::HEAD, Some(status))
                 if should_retry_transient_status(status) =>
