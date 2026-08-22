@@ -60944,6 +60944,47 @@
       }
     ]
   },
+  "hBP09-069": {
+    "card_number": "hBP09-069",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "12th Player" },
+        "text": { "en": "While your opponent has 7 or more cards in their hand, this holomem takes -50 Arts damage." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": null, "en": "Vivi is a Strong Defender!" },
+        "power": "100",
+        "advantage": [ "green", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-069",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-069_U.webp", "en": null },
+        "img_hash": "v2|H32=oqptKnsqhKpMUdLVpLEdyrQ1verMmhJlTNtopUpVaL1rpoxKbFVStbXCLetdovBQSivSy61WaItatlIpUiqwUGqtdpk|CYM=2F2F10",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C71" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-071": {
     "card_number": "hBP09-071",
     "name": { "jp": "AZKi", "en": "AZKi" },
@@ -61638,6 +61679,31 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP09-103": {
+    "card_number": "hBP09-103",
+    "name": { "jp": "変な動き", "en": "Strange Movement" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Shirogane Noel>.\n\nReturn 1 [<Shirogane Noel> and/or <Beef Bowl>] each from your archive to your hand."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-103",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-103_C.webp", "en": null },
+        "img_hash": "v2|H32=UtWziFRdbLXLKlSrqyorrZNJJJWrltRSq0orZbtq3EqrrFJVVbUsmgLDLZuqfi2bCsOpavpwiS6uyqmqqkItm6oabfk|CYM=040C0E",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C105" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
