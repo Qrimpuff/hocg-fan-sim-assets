@@ -59966,6 +59966,40 @@
       }
     ]
   },
+  "hBP09-025": {
+    "card_number": "hBP09-025",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Casual Noel" },
+        "text": { "en": "If your Oshi holomem has an Oshi Stage Skill, this holomem gets +20 HP." }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Today is Private!" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-025",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-025_C.webp", "en": null },
+        "img_hash": "v2|H32=OrOtqi2Sk6qtuDmujyFrmtvKctNaWFpUdml6BLatNMm0KlxVVVXWISmoq9K1klW7Wtut2qxKKum6td26S9utm6RLki0|CYM=17121A",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C27" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-026": {
     "card_number": "hBP09-026",
     "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
@@ -60334,6 +60368,44 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP09-039": {
+    "card_number": "hBP09-039",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Workaholic!" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 2 tools from your deck, and add them to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Leave the Material Gathering to Me!" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-039",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-039_U.webp", "en": null },
+        "img_hash": "v2|H32=6qatrpeWKYm0yROSLU2nMslGaG1SU1JdUhnSVdKU5DidTk5VlSVSBkpatOhbmi3ZtFlpdK9N1Uqysq2lW6tRS63UqrQ|CYM=102A2F",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C41" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -61235,6 +61307,44 @@
       }
     ]
   },
+  "hBP09-078": {
+    "card_number": "hBP09-078",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Eyes Filled with Passion" },
+        "text": {
+          "en": "If you went second and it is your first turn, draw 3 cards and archive 1 card from your hand. If the archived card does not have #Lamy's Alcohol, archive 1 more card from your hand."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "An Invitation to Evening Drinks" }, "power": "10" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-078",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-078_U.webp", "en": null },
+        "img_hash": "v2|H32=qKoOx42qzSaXJ6GkpsUjm2rRMptKFFpmVjRKdnJMdtStWLRsVtRcKi0qotKpFVn19SuSq6rqatGtXiqt8OpW3bKVcrA|CYM=024756",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C80" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-080": {
     "card_number": "hBP09-080",
     "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
@@ -61697,6 +61807,31 @@
       }
     ]
   },
+  "hBP09-094": {
+    "card_number": "hBP09-094",
+    "name": { "jp": "大空警察", "en": "Oozora Police" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Oozora Subaru>, and your holomem was downed during your opponent's previous turn.\n\nChoose 1 of your opponent's back holomem. Rest the chosen holomem. The chosen holomem does not become active during your opponent's next reset phase."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-094",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-094_U.webp", "en": null },
+        "img_hash": "v2|H32=usWrTLRNZmtjalJbuzS7tJO0yDRrMkYzbjIss5WylLCcsRZVU8EsgoeHpYv6eCm6D4fpaPB4iS7wOKmqqgqtiw6CKPg|CYM=0C221D",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C96" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-095": {
     "card_number": "hBP09-095",
     "name": { "jp": "君に乾杯", "en": "Kanpai" },
@@ -61837,6 +61972,31 @@
         "img_path": { "jp": "unreleased/hBP09-105_U.webp", "en": null },
         "img_hash": "v2|H32=UtWjiFTVGKcrolRzqTGtMfdRpNWrjlTOq8ovzs1q3GKtZxJVF80sivALLZuK7i2L4JupKvhwqWqOw6mLqgIt+D74Kps|CYM=0B1318",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C107" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-107": {
+    "card_number": "hBP09-107",
+    "name": { "jp": "カエラが作ったホロソード", "en": "Kaela-Forged holosword" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The [Buzz or 2nd] <Kaela Kovalskia> this tool is attached to gets Arts+40.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#Kaela's Arms" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-107",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-107_U.webp", "en": null },
+        "img_hash": "v2|H32=sKqhqpKiSkdLVl5VXmZ87DWodLjjGEJRqlmMWb2IvIxsjlZVwLGJi4IPDQ4+POl4/vDp6vAHqeoO4OH4iofhix4O6Dg|CYM=022940",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C109" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
