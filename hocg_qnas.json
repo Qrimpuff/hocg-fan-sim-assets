@@ -4112,9 +4112,9 @@
     "date": "2025-03-11",
     "question": {
       "jp": "hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？",
-      "en": "Can I use hBP03-088 Totsumachi to move one of my opponent's resting holomem to the collab position?"
+      "en": "When I use hBP03-088 Totsumachi, can my opponent move one of their resting holomem to the collab position?"
     },
-    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
+    "answer": { "jp": "はい、できます。", "en": "Yes, they can." },
     "referenced_cards": [ "hBP03-088" ]
   },
   "Q348": {
