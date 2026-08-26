@@ -57004,10 +57004,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "きタコれ！", "en": "Tako This!" },
+        "name": { "jp": "きタコれ！", "en": "Tako-This!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、このターンの間、相手のステージのホロメン全員は、すべての色を持つホロメンとして扱う。",
-          "en": "If you went second and it is your first turn, during this turn, all of your opponent's holomem are regarded as holomem with all colors."
+          "en": "If you went second and it is your first turn, during this turn, all holomem on your opponent's stage are regarded as holomem with all colors."
         }
       }
     ],
@@ -57018,7 +57018,7 @@
         "power": "10",
         "text": {
           "jp": "相手の推しホロメンと異なる色を持つ相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。",
-          "en": "Deal 20 special damage to your opponent's center holomem and collab holomem with a different color to their Oshi holomem."
+          "en": "Deal 20 special damage to your opponent's center holomem and collab holomem with a different color from your opponent's Oshi holomem."
         }
       }
     ],
@@ -57044,6 +57044,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10144" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP08-068",
+        "manage_id": { },
+        "rarity": "S",
+        "illustrator": null,
+        "img_path": { "jp": null, "en": "unreleased/hBP08-068_S.webp" },
+        "img_hash": "v2|H32=LKpPWqlp1rqTVZBV0qK5PKJUPamWVitV1q5rU0qVZKqKEJZqalGppqVKQbckqUrVqVVtqlq1plmLmvJp1bZ26VqUMk0|CYM=133B2D",
+        "ogbajoj_sheet_cells": [ [ 419256011, "K69" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP08-068",
@@ -60098,6 +60111,42 @@
       }
     ]
   },
+  "hBP09-028": {
+    "card_number": "hBP09-028",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Noel's Adventure" },
+        "text": { "en": "Reveal 1 <Beef Bowl> from your deck, and add it to your hand. Shuffle your deck." }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Shirogane Knights Assemble!" }, "power": "30" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-028",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-028_C.webp", "en": null },
+        "img_hash": "v2|H32=pooNu6e6PamLMzGqjcaLi05GasxOVXRUUn2cUbZKuNm2CrRKFXVKLcqkqNgmmhaVlNaqtkpLapqv1HQt6WtTq58qcmo|CYM=141E2D",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C30" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-029": {
     "card_number": "hBP09-029",
     "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
@@ -61585,6 +61634,44 @@
         "img_hash": "v2|H32=FMmzStQqbU3VIutsC9Wb2qLVK9Vi02o1TFdqt8plGldq1dpqSiVxtYqmtK1qaWVRJNtJtLTSSVu00xbQ9crbVtNuctA|CYM=211607",
         "ogbajoj_sheet_cells": [ [ 1898043973, "K85" ] ],
         "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-084": {
+    "card_number": "hBP09-084",
+    "name": { "jp": "夏色まつり", "en": "Natsuiro Matsuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A Surprise Gift" },
+        "text": {
+          "en": "You may archive 1 LIMITED support card from your hand: Search 1~2 Debut <Natsuiro Matsuri> from your deck, and place them on your stage. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "This Ribbon Makes Me Smile" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-084",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-084_C.webp", "en": null },
+        "img_hash": "v2|H32=SpmtrqWrTaqvoqlry5qzpUpZUlZSNXJP0jZyTbZJtJC0aNZVVVVcAKqqrNol6139tdUpWqqaqupty0m2oClKK5amCX4|CYM=051427",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C86" ] ],
+        "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
