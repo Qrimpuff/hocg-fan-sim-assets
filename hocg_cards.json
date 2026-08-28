@@ -64211,7 +64211,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている#サマーを持つホロメンのアーツ+10。\n\nこのツールが付いているホロメンがアーツを使った時、このツールを自分の#サマーを持つ[センターホロメンかコラボホロメン]に付け替えられる。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem with #Summer this tool is attached to gets Arts+10.\n\nWhen this holomem this tool is attached to uses Arts, you may reattach this tool to your [center holomem or collab holomem] with #Summer.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem with #Summer this tool is attached to gets Arts+10.\n\nWhen the holomem this tool is attached to uses Arts, you may reattach this tool to your [center holomem or collab holomem] with #Summer.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
