@@ -8433,6 +8433,19 @@
       },
       {
         "card_number": "hBP01-072",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-072_C.webp", "en": null },
+        "img_hash": "v2|H32=irulmK+WW0sm5E5mO2mNLKFaKy2i0XLWctXSktZq1OldK05b9Pm0BUlWUpJWvSnlBoVJOilptLYKBi1pgVJo2aVqiVY|CYM=0B2D39",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C118" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-072",
         "manage_id": { "jp": [ 181 ], "en": [ 283 ] },
         "rarity": "P",
         "illustrator": "",
@@ -9600,6 +9613,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10219" ],
         "tcgplayer_product_ids": [ 699249 ],
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP01-088",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-088_C.webp", "en": null },
+        "img_hash": "v2|H32=SmmzytcqLaqtqgmuq6OSdZO343UmVTKVbJU0FWil9JU8JVhTVa14Jatqpqia1pWSlq4pbGpJqq6SFpWmyVKylmjTpS4|CYM=0E140D",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C120" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP01-088",
@@ -12884,6 +12910,19 @@
       },
       {
         "card_number": "hBP02-014",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-014_C.webp", "en": null },
+        "img_hash": "v2|H32=ksl8dpR6rY1taoW6K63Tyso0I82bcmolI+taVnGpolZLj+hUUqt2FVbptcZakq0rqbbZehatWyut1i2tldKZpklKVqs|CYM=040F11",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C114" ] ],
+        "similarity_index": 4,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP02-014",
         "manage_id": { "jp": [ 1369 ], "en": [ 1348 ] },
         "rarity": "HR",
         "illustrator": "",
@@ -13768,6 +13807,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10226" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 2
+      },
+      {
+        "card_number": "hBP02-024",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-024_C.webp", "en": null },
+        "img_hash": "v2|H32=ysi1LI2xZYqvIgmXZyiLy5I0a8myV1qVVoM0apjSVKytSthWVLVcpYVqWqnLNqXSpE2q2qolRotUCiRJlmWpXqmSWq0|CYM=141E1B",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C116" ] ],
+        "similarity_index": 4,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP02-024",
@@ -16745,6 +16797,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10200" ],
         "tcgplayer_product_ids": [ 689941 ],
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP02-065",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP02-065_C.webp", "en": null },
+        "img_hash": "v2|H32=ii6yadfqrSZpqy2aq7VSm5bBSjVSR1Lwyg4SZfE8kkUdo0hSpa0pQZaitq3S1JaWS7a1JKlS29IlS0lLWilCrUolWrQ|CYM=151E0C",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C122" ] ],
+        "similarity_index": 4,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP02-065",
@@ -22371,6 +22436,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10105" ],
         "tcgplayer_product_ids": [ 669108 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-051",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-051_C.webp", "en": null },
+        "img_hash": "v2|H32=0pypupWpLaqtKo3jb7LblFuS0hUS3TJFNE1UV+xmdJbMptRXVbJ4sS9LDbpSkYWvtdoq/JolrS42rSUtoEmtYg0vSSo|CYM=05170D",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C121" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP03-051",
@@ -28685,6 +28763,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10079" ],
         "tcgplayer_product_ids": [ 679340 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP04-039",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-039_C.webp", "en": null },
+        "img_hash": "v2|H32=0maNu6Wutawtq62sTcNL2stOQlaSHbIktBE2LBxTTENMy1RNVfXY0mpVLeiVqg+PalXSlt1qKWiqFIqWVYtTj6pULSk|CYM=04242E",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C117" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP04-039",
@@ -60000,6 +60091,50 @@
       }
     ]
   },
+  "hBP09-020": {
+    "card_number": "hBP09-020",
+    "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "A Bizarre and Unexpected Board" },
+        "text": { "en": "This holomem does not rest during the Reset Phase." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "You've Got to Understand!" },
+        "power": "60",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "[Collab Position Only] During this turn, your center holomem requires -1 white for its Arts."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Baby" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-020",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-020_U.webp", "en": null },
+        "img_hash": "v2|H32=UvKSS1MzzZqoyKw6ps4tOSRmq2lVu4t0ZYlbt6NMUovLdpxKUqvqNbUuVbWAVSqtKkklrWlpoVqhli0pUtpS2vK1tlk|CYM=231E09",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C22" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-024": {
     "card_number": "hBP09-024",
     "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
@@ -60819,7 +60954,7 @@
     "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
     "card_type": "holomem",
     "colors": [ "blue" ],
-    "hp": 1330,
+    "hp": 130,
     "bloom_level": "debut",
     "arts": [
       { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Beloved Little Devil" }, "power": "20" },
@@ -60846,6 +60981,42 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP09-052": {
+    "card_number": "hBP09-052",
+    "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "That Moment at the End of the Stream" },
+        "text": {
+          "en": "If you went second and it is your first turn, send the top card of your cheer deck to your <Tokoyami Towa>."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "What Should We Do Next?" }, "power": "30" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-052",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-052_U.webp", "en": null },
+        "img_hash": "v2|H32=mqupqomqJD7npqZW4ka3totTdazOVWhNUlVaVXLdOjU0jpROpWWpKk+qyNJSmlDVTq1qqepaqlIuWyKlVqtAKbYeaqk|CYM=23340A",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C54" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
