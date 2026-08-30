@@ -60764,6 +60764,50 @@
       }
     ]
   },
+  "hBP09-044": {
+    "card_number": "hBP09-044",
+    "name": { "jp": "カエラ・コヴァルスキア", "en": "Kaela Kovalskia" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "What I Inherited from My Master" },
+        "text": {
+          "en": "While this holomem has a tool attached, you may attach up to 1 more tool with #Kaela's Arms to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "A Blacksmith's True Purpose" },
+        "power": "100+",
+        "advantage": [ "green", 50 ],
+        "text": { "en": "If a tool with #Kaela's Arms is attached to this holomem, this Arts gets +60." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-044",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-044_RR.webp", "en": null },
+        "img_hash": "v2|H32=Kqm01Kuo3Kq3dpWlsEqphfq0a03WdktzVFtWMzvJlNkuraRKuWyqNA/XVpWUy2ipqqWp4lKlppZo2nKp8GrS0q1K8qg|CYM=02566B",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C46" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-045": {
     "card_number": "hBP09-045",
     "name": { "jp": "赤井はあと", "en": "Akai Haato" },
