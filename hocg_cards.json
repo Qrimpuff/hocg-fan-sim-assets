@@ -29033,6 +29033,19 @@
       },
       {
         "card_number": "hBP04-043",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-043_C.webp", "en": null },
+        "img_hash": "v2|H32=qKO07j3rraqH6ymai6BSVYt1UknSVXJNctO0NHbb9DStWFhTlNS0Ca1qttpq1pOWUi0lWaptKi1QWkmlX6skWkmSla4|CYM=201809",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C119" ] ],
+        "similarity_index": 4,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-043",
         "manage_id": { "jp": [ 1709 ], "en": [ 1634 ] },
         "rarity": "HR",
         "illustrator": "ひょん",
@@ -30811,6 +30824,19 @@
       },
       {
         "card_number": "hBP04-067",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-067_C.webp", "en": null },
+        "img_hash": "v2|H32=YpK1qm05mYataWmpy+ZjOduWcmZalzJHGtM2MbRZ1DDkSHRVVCVWBUuVq6qlak2VUtWqekoargqlQ0+X0tpaWiuVpa4|CYM=06112A",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C125" ] ],
+        "similarity_index": 4,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP04-067",
         "manage_id": { "jp": [ 1711 ], "en": [ 1636 ] },
         "rarity": "HR",
         "illustrator": "ひょん",
@@ -31725,6 +31751,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10227" ],
         "tcgplayer_product_ids": [ 699264 ],
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP04-079",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP04-079_C.webp", "en": null },
+        "img_hash": "v2|H32=YpOpq62qDYqPqqWuy4gjlUrlWlFSQ9B8UkNWTLRwNES0WNR1VWVsSQrKqqJUl1T68lWr9CqtJautai1aJNvbpNqm2aI|CYM=021528",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C124" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP04-079",
@@ -33127,7 +33166,7 @@
         "img_path": { "jp": "hBP04/hBP04-106_U.webp", "en": "hBP04/EN_hBP04-106_U.webp" },
         "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:34:03 GMT", "en": "Fri, 13 Feb 2026 10:34:10 GMT" },
         "img_hash": "v2|H32=lt2TiVTJcHNpMmx27SbEBpeImIm5uTixKzlmFmZGZkbvzlZVm8OpiXA8PbrE462jDz8t6vCHrao5fOn4WB4tDg8fi8M|CYM=120A09",
-        "ogbajoj_sheet_cells": [ [ 216653992, "C107" ] ],
+        "ogbajoj_sheet_cells": [ [ 216653992, "C107" ], [ 1898043973, "C127" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10214" ],
         "tcgplayer_product_ids": [ 679477 ],
@@ -38474,7 +38513,7 @@
         "img_path": { "jp": "hBP05/hBP05-075_C.webp", "en": "hBP05/EN_hBP05-075_C.webp" },
         "img_last_modified": { "jp": "Fri, 12 Sep 2025 04:59:12 GMT", "en": "Fri, 10 Apr 2026 06:59:14 GMT" },
         "img_hash": "v2|H32=xLqnqlSVaFerRnZWo2bZLJGpkCUrJSklJi02XS9JHEkcS1JVRuItqhhcLSrzmK2LDpYtqvMGqeoPg62qCzzpqw9vqOo|CYM=081822",
-        "ogbajoj_sheet_cells": [ [ 40791959, "C76" ] ],
+        "ogbajoj_sheet_cells": [ [ 40791959, "C76" ], [ 1898043973, "C126" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10165" ],
         "tcgplayer_product_ids": [ 690110 ],
@@ -60776,7 +60815,7 @@
         "type": "gift",
         "name": { "jp": null, "en": "What I Inherited from My Master" },
         "text": {
-          "en": "While this holomem has a tool attached, you may attach up to 1 more tool with #Kaela's Arms to this holomem."
+          "en": "While this holomem has a tool attached, you may attach up to 1 additional tool with #Kaela's Arms to this holomem."
         }
       }
     ],
@@ -62500,6 +62539,31 @@
         "img_path": { "jp": "unreleased/hBP09-105_U.webp", "en": null },
         "img_hash": "v2|H32=UtWjiFTVGKcrolRzqTGtMfdRpNWrjlTOq8ovzs1q3GKtZxJVF80sivALLZuK7i2L4JupKvhwqWqOw6mLqgIt+D74Kps|CYM=0B1318",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C107" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-106": {
+    "card_number": "hBP09-106",
+    "name": { "jp": "カエラが作ったホロシールド", "en": "Kaela-Forged holoshield" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The [Buzz or 2nd] <Kaela Kovalskia> this tool is attached to gets +40 HP.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#Kaela's Arms" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-106",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-106_C.webp", "en": null },
+        "img_hash": "v2|H32=MssjqzSrgLSLtsi0yFbJVklKTGtbKVY1Wixe1T7EXt+20hbdD8AMogLnLaqOX+G68DgtquBH4egfPuEoIHyJg/h4YHg|CYM=012C48",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C108" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -68015,6 +68079,19 @@
       },
       {
         "card_number": "hSD05-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD05-002_C.webp", "en": null },
+        "img_hash": "v2|H32=VnXUWpVpbcqtqq2qjyqrpVNak7VrrRJda6kSJSOr0jUvrdRWU6poFSWpXaqpVEm3laqtalotjS5q0Y2KpbVfqalWTas|CYM=020B08",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C115" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD05-002",
         "manage_id": { "jp": [ 858 ], "en": [ 1125 ] },
         "rarity": "P",
         "illustrator": "",
@@ -71381,6 +71458,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hsd10/10007" ],
         "tcgplayer_product_ids": [ 699493 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hSD10-007",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD10-007_C.webp", "en": null },
+        "img_hash": "v2|H32=4vhbi6UybaqkIq0uSaurXVuN01ri1FKn5FQypUxrWl0sqYRWFK3wUErVLKitNI+WpU5GaWrZqaXLlpG0W0tLtFotopI|CYM=0B2811",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C123" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hSD10-007",
