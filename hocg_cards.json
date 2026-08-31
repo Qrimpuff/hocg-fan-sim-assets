@@ -60505,6 +60505,42 @@
       }
     ]
   },
+  "hBP09-033": {
+    "card_number": "hBP09-033",
+    "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Wet-Haired Miosha" },
+        "text": {
+          "en": "You may archive the top card of your deck: If the archived card is a support card, send the top card of your cheer deck to your holomem."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "green", "colorless" ], "name": { "jp": null, "en": "A Hot Bath" }, "power": "50" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#GAMERS" }, { "en": "#Kemomimi" }, { "en": "#Cooking" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-033",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-033_U.webp", "en": null },
+        "img_hash": "v2|H32=Bs2RqE2rrbrpsmmrq1BzrdIpslTGGVIV4pdeVlKl2EK3zpRVVVVpJaqqipq0UjTVWrSt+KkqL0pqG1qqBo/fJqaLUqs|CYM=201F19",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C35" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-034": {
     "card_number": "hBP09-034",
     "name": { "jp": "大神ミオ", "en": "Ookami Mio" },
@@ -61493,6 +61529,44 @@
       }
     ]
   },
+  "hBP09-067": {
+    "card_number": "hBP09-067",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Sweet Vivi" },
+        "text": {
+          "en": "If your Oshi holomem is <Kikirara Vivi>, draw 2 cards, and your opponent draws 1 card. You may only use Bloom Effect \"Sweet Vivi\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "purple", "colorless" ], "name": { "jp": null, "en": "Come Here, Quick~" }, "power": "50" }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-067",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-067_C.webp", "en": null },
+        "img_hash": "v2|H32=qKorb7WqpLKlGqWqS7VLKUpFW5mSUrJUUrfilHqlZq0uZZYk1CTpNEvaLPhNq1WyLV0K16o9BsqtmkpbqldWaaXKtks|CYM=102C12",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C69" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-069": {
     "card_number": "hBP09-069",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
@@ -62313,6 +62387,31 @@
       }
     ]
   },
+  "hBP09-092": {
+    "card_number": "hBP09-092",
+    "name": { "jp": "雨の日ヴィヴィ", "en": "Rainy Day Vivi" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Kikirara Vivi>.\n\nEach player draws 2 cards. If your opponent has 7 or more cards in their hand, during this turn, all <Kikirara Vivi> on your stage gets Arts+30."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-092",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-092_C.webp", "en": null },
+        "img_hash": "v2|H32=Ss2rq1TJNjS3tvQWLLZMhc3LTM0rLdZpt0pKdttK3NornBZVRPDsiw+HbZv4OC3LLpqNLvDgqWwumulqq+gtk6gaaPE|CYM=091A17",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C94" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-093": {
     "card_number": "hBP09-093",
     "name": { "jp": "応援するホロリス", "en": "Supportive hololive Listeners" },
@@ -62470,6 +62569,59 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP09-101": {
+    "card_number": "hBP09-101",
+    "name": {
+      "jp": "バカ!変態!うるさーい!・もう知らなーい!",
+      "en": "Dummy! Pervert! Shut Up! I Don't Know You Anymore!"
+    },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Tokoyami Towa>.\n\nDeal 20 special damage to your opponent's center holomem. During this turn, the third Arts that you use with your <Tokoyami Towa> can target your opponent's back holomem other than Debut too."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-101",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-101_U.webp", "en": null },
+        "img_hash": "v2|H32=UrWTqtShJKstq1RbLFpJXt1a2l2rNZQVqTApte2UVIxrzJJFBx5kmwfPLZvg4S2LfHrpLOAHiW6Ab63q++Blm/TQYNk|CYM=061B10",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C103" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-102": {
+    "card_number": "hBP09-102",
+    "name": { "jp": "ばんちょーダンス", "en": "Banchou Dance" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Todoroki Hajime>.\n\nPut the top 2 cards of your deck as holo Power. Look at your holo Power. Add 1~2 of them to your hand. Shuffle your holo Power."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-102",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-102_C.webp", "en": null },
+        "img_hash": "v2|H32=yrDLstQiiyMhK3QLI4lrjWudKpUrNDR0tlYyVTbXdNYs9pJFDsBlmzh4ZduBhy2LffHhb/A4iW7Fxz14fDgF2wePaPg|CYM=1D1F0D",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C104" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
