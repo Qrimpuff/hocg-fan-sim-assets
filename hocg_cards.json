@@ -61421,6 +61421,49 @@
       }
     ]
   },
+  "hBP09-061": {
+    "card_number": "hBP09-061",
+    "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Moon Goddess" },
+        "text": {
+          "en": "If your Oshi holomem is <Moona Hoshinova>, send the top card of your cheer deck to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "blue", "blue" ],
+        "name": { "jp": null, "en": "A Signpost Illuminated by Moonlight" },
+        "power": "80",
+        "text": { "en": "Reattach 2 of this holomem's cheers to 1 of your back holomem with #ID Gen 1." }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-061",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-061_R.webp", "en": null },
+        "img_hash": "v2|H32=qKotqrOqSKeiVUZXrnSl0nSpsapUPVIpOlduVXvCLFXdSqZKVqmKpUvSNNqlqiko1LJq9apWUrVKTeClTSqwUqteUrk|CYM=454213",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C63" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-064": {
     "card_number": "hBP09-064",
     "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
@@ -62818,6 +62861,30 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP09-111": {
+    "card_number": "hBP09-111",
+    "name": { "jp": "Pemaloe", "en": "Pemaloe" },
+    "card_type": { "support": "fan" },
+    "text": {
+      "en": "During your opponent's turn, when the holomem this fan is attached to is downed, you may reattach 1 cheer from this holomem to your other holomem.\n\nYou may only attach this fan to your <Kaela Kovalskia>, and you may attach any number of this fan per holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-111",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-111_C.webp", "en": null },
+        "img_hash": "v2|H32=Qq+pq8StzpCLUshSqFIxUjVvJK2mrdat0qnaaNtimnYcdhLdFbAsKsPDDeo6Pu3o+vIPD4MHKTgq+OGD6sDh43p44MM|CYM=061E3E",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C113" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
