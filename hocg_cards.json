@@ -60019,6 +60019,49 @@
       }
     ]
   },
+  "hBP09-015": {
+    "card_number": "hBP09-015",
+    "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Unrelenting Dance Training" },
+        "text": {
+          "en": "While there are 3 or more holomem on your stage, this holomem requires -1 colorless for its baton pass."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "Light Steps" },
+        "power": "20+",
+        "text": { "en": "If your holomem has used baton pass this turn, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Baby" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-015",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-015_C.webp", "en": null },
+        "img_hash": "v2|H32=0sQsO9DGtjHtSrOzOW6lmVknk9gsO8uyKj3LxSM3SE+HodBKq2SSpVWpbdq20SWrKloqlVWVVba6tipJRamVqqpZStU|CYM=19190B",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C17" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-016": {
     "card_number": "hBP09-016",
     "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
@@ -63170,7 +63213,7 @@
         "type": "collab",
         "name": {
           "jp": "うんうん、今度海に行かないって？",
-          "en": "Ah, So You Want to Go to the Beach?"
+          "en": "Um, You're Suggesting a Trip to the Beach?"
         },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、エクストラを持つDebut〈ときのそら〉1～3枚をステージに出す。そしてデッキをシャッフルする。3枚出したなら、自分の手札1枚をデッキの下に戻す。",
@@ -63936,10 +63979,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": {
-          "jp": "一生、マリンのトリコでしょ？",
-          "en": "You'll Be Captivated by Marine for Life, Right?"
-        },
+        "name": { "jp": "一生、マリンのトリコでしょ？", "en": "You're Hooked on Me for Life, Right?" },
         "power": "40+",
         "advantage": [ "white", 50 ],
         "text": {
@@ -64156,11 +64196,11 @@
         "type": "collab",
         "name": {
           "jp": "え、今度のお休みの日に海に行こうって？",
-          "en": "Oh, You Want to Go to the Beach on Our Next Day Off?"
+          "en": "Oh, a Beach Trip on Our Next Day Off?"
         },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、[Debutホロメンと#こよラボを持つサポートカード]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 [Debut holomem and/or support card with #KOYO LABO] each from your deck, and add them to your hand. Then, shuffle your deck."
+          "en": "If you went second and it is your first turn, reveal 1 Debut holomem and 1 support card with #KOYO LABO from your deck, and add them to your hand. Shuffle your deck."
         }
       }
     ],
@@ -64169,7 +64209,7 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "こよの水着、期待しててねっ♡",
-          "en": "Look Forward to Seeing Koyo's Swimsuit♡"
+          "en": "Please Look Forward to Koyo's Swimsuit♡"
         },
         "power": "10"
       }
@@ -64576,7 +64616,7 @@
     "card_type": { "support": "item" },
     "text": {
       "jp": "自分のライフが2以上なら、自分のデッキから、#サマーを持つDebutホロメン1枚をステージに出す。そしてデッキをシャッフルする。自分のライフが1なら、自分のデッキから、#サマーを持つホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "If your life is 2 or more, search 1 Debut holomem with #Summer from your deck, and place it on your stage. Shuffle your deck. If your life is 1, reveal 1 holomem with #Summer from your deck, and add it to your hand. Shuffle your deck."
+      "en": "■If your life is 2 or greater, search 1 Debut holomem with #Summer from your deck, and place it on your stage. Shuffle your deck.\n■If your life is 1, reveal 1 holomem with #Summer from your deck, and add it to your hand. Shuffle your deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
