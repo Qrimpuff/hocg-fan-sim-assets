@@ -60970,6 +60970,42 @@
       }
     ]
   },
+  "hBP09-046": {
+    "card_number": "hBP09-046",
+    "name": { "jp": "百鬼あやめ", "en": "Nakiri Ayame" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 110,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Oni's Play" },
+        "text": {
+          "en": "You may archive the top card of your cheer deck: Search 1 Debut holomem <Nakiri Ayame> from your deck, and place it on your stage. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "red" ], "name": { "jp": null, "en": "Oni's Banquet" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-046",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-046_U.webp", "en": null },
+        "img_hash": "v2|H32=yKqto8+6qY6nMUteprNjS0vqtLlbSdIUNk1aVpbVdGuUrqwlVVTaFmkpS9otqy2pUlKqlSppalmmllbqUo/q1dJq1qg|CYM=053A30",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C48" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-047": {
     "card_number": "hBP09-047",
     "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
@@ -61500,6 +61536,52 @@
         "img_path": { "jp": "unreleased/hBP09-061_R.webp", "en": null },
         "img_hash": "v2|H32=qKotqrOqSKeiVUZXrnSl0nSpsapUPVIpOlduVXvCLFXdSqZKVqmKpUvSNNqlqiko1LJq9apWUrVKTeClTSqwUqteUrk|CYM=454213",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C63" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-062": {
+    "card_number": "hBP09-062",
+    "name": { "jp": "ムーナ・ホシノヴァ", "en": "Moona Hoshinova" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Light That Illuminates the Night" },
+        "text": {
+          "en": "When this holomem downs your opponent's holomem, if there are 5 or more holomem with #ID Gen 1 on your stage, deal 50 special damage to 1 of your opponent's holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "blue", "blue", "blue", "blue" ],
+        "name": { "jp": null, "en": "Fascinating Appearance" },
+        "power": "120+",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If your Oshi holomem is <Moona Hoshinova>, you may archive 5 blue cheers from this holomem: This Arts gets +20 for each holomem with #ID Gen 1 on your stage."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-062",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-062_RR.webp", "en": null },
+        "img_hash": "v2|H32=pKqpqiZ4pYxraVjP16oUrozmlNSsVOhV0lV2g1KpVqtPqlJFVaUJpCLZ7NL0+MHSCnygmqoKqUpeQ3Q9Cqco+osqsDo|CYM=232611",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C64" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -63960,11 +64042,11 @@
     "arts": [
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": "隣、空けて待ってるんだけど...", "en": "This Seat Here Is Empty, I'm Waiting..." },
+        "name": { "jp": "隣、空けて待ってるんだけど...", "en": "The Spot Next to Me Is Open..." },
         "power": "60",
         "text": {
           "jp": "このホロメンに重なっているホロメンが2枚以上あるなら、自分のステージのエール1枚をアーカイブできる：自分のエールデッキの上から1枚を自分のホロメンに送る。",
-          "en": "If 2 or more holomem are stacked to this holomem, you may archive 1 cheer on your stage: Send the top card of your cheer deck to your holomem."
+          "en": "If 2 or more holomem are stacked to this holomem, you may archive 1 cheer from your stage: Send the top card of your cheer deck to your holomem."
         }
       }
     ],
@@ -64373,7 +64455,7 @@
         "type": "collab",
         "name": {
           "jp": "助手くんの夏は、こよが独り占め♡",
-          "en": "Koyo Gets Assistant's Summer All to Herself♡"
+          "en": "My Assistant's Summer Belongs to Me♡"
         },
         "text": {
           "jp": "自分のステージの〈こよりの助手くん〉1枚につき、自分のホロメン1人のHP20回復。",
@@ -64384,7 +64466,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "捕まえちゃった！わおーん！", "en": "I Caught It! Wao~n!" },
+        "name": { "jp": "捕まえちゃった！わおーん！", "en": "Caught You! Wao-!" },
         "power": "30"
       }
     ],
@@ -64815,7 +64897,7 @@
   },
   "hEB01-031": {
     "card_number": "hEB01-031",
-    "name": { "jp": "水遊び", "en": "Water Play" },
+    "name": { "jp": "水遊び", "en": "Playing with Water" },
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のアーカイブのエール1枚を自分の#サマーを持つホロメンに送る。",
