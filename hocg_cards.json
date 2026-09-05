@@ -60090,6 +60090,49 @@
       }
     ]
   },
+  "hBP09-013": {
+    "card_number": "hBP09-013",
+    "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Chick-Style Roomwear" },
+        "text": {
+          "en": "Reveal 1 [<Oozora Police> or <Speeding Violation>] from your deck, and add it to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless" ],
+        "name": { "jp": null, "en": "Relax Holiday" },
+        "power": "100",
+        "advantage": [ "red", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 2" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-013",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-013_U.webp", "en": null },
+        "img_hash": "v2|H32=utA80bC6TmstK/QmTLOlpMTWaWgkTAt7eW2LpTvPk7mzhbBqSiWWtdXSpdCltEmrJClSamTbL5Vbuk6raetaTZYlslI|CYM=091E2F",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C15" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-014": {
     "card_number": "hBP09-014",
     "name": { "jp": "大空スバル", "en": "Oozora Subaru" },
@@ -60565,6 +60608,48 @@
         "img_path": { "jp": "unreleased/hBP09-029_R.webp", "en": null },
         "img_hash": "v2|H32=JKutqiSqSNHSWtP1m5G1pq21ta1cTWJNWklaWbMyGkWlksZa1eoPJVqypdIkSeilpocqpbZNNul6eGlbrZpasktWUss|CYM=0E243B",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C31" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-030": {
+    "card_number": "hBP09-030",
+    "name": { "jp": "白銀ノエル", "en": "Shirogane Noel" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 220,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Bearing the Burden of the Shirogane Knights" },
+        "text": { "en": "Restore 10 HP to 1 of your holomem for each <Beef Bowl> in your archive." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": null, "en": "Reliable Muscle" },
+        "power": "100+",
+        "advantage": [ "yellow", 50 ],
+        "text": { "en": "This Arts gets +10 for each <Beef Bowl> in your archive." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-030",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-030_U.webp", "en": null },
+        "img_hash": "v2|H32=oqoES6ajHaqZtSm1XaqpRk5xVsuGFVINUhWwNHpZZPSmSrBKVFXapaTVVKqlrQ6ftCQq2ssaIKlJ2mSlXauWWmq6Imk|CYM=0B314B",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C32" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -61483,6 +61568,50 @@
       }
     ]
   },
+  "hBP09-056": {
+    "card_number": "hBP09-056",
+    "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Brawler Full of Fighting Spirit" },
+        "power": "40",
+        "advantage": [ "red", 50 ],
+        "text": { "en": "Send 1 cheer from your archive to your holomem with #Singing." }
+      },
+      {
+        "cheers": [ "blue", "colorless" ],
+        "name": { "jp": null, "en": "Impact Achieved through Rigorous Training" },
+        "power": "50",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If this is the second Arts you have used this turn, put the top card of your deck as holo Power."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Singing" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-056",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-056_U.webp", "en": null },
+        "img_hash": "v2|H32=rKq2Re+qD7XKcUjTlCl1SpTKrapWVUmaUnVaUXtWUCw8FpxKWlWNCqXKkqW2VXC1UpXqta0K0rSVpLJ11rYiVWka0lk|CYM=1C421C",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C58" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-057": {
     "card_number": "hBP09-057",
     "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
@@ -61733,6 +61862,51 @@
         "img_path": { "jp": "unreleased/hBP09-062_RR.webp", "en": null },
         "img_hash": "v2|H32=pKqpqiZ4pYxraVjP16oUrozmlNSsVOhV0lV2g1KpVqtPqlJFVaUJpCLZ7NL0+MHSCnygmqoKqUpeQ3Q9Cqco+osqsDo|CYM=232611",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C64" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-063": {
+    "card_number": "hBP09-063",
+    "name": { "jp": "オーロ・クロニー", "en": "Ouro Kronii" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Student of Time" },
+        "text": {
+          "en": "Draw 1 card from the bottom of your deck. You may only use Bloom Effect \"Student of Time\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue" ],
+        "name": { "jp": null, "en": "Let's Study Together!" },
+        "power": "30",
+        "text": {
+          "en": "Search 1 [<Boros> or <Kronies>] from your deck, and attach it to your <Ouro Kronii>. Shuffle your deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-063",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-063_R.webp", "en": null },
+        "img_hash": "v2|H32=mq2lKsayPK/tYjwbmaJmNJsS0mVqVVJXXE1mCdDa1pAso1ZrtS66NElbadq2JVWbSpspaWpbq5bqwVaL0hJUukultq0|CYM=202823",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C65" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -62193,6 +62367,19 @@
         "img_hash": "v2|H32=Xrulip2qpFqrqq2uq2ZPpMJlWsVCUZpddrWyVXardJUvAtRqi2SphkWqXZJKlWm+eKlr0Olaqdqt2i21pNeKrq6WSis|CYM=102714",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C78" ] ],
         "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-076",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-076_UR.webp", "en": null },
+        "img_hash": "v2|H32=VEMrK0tr2bSrtJOS0lSnSmJZc2+tcbOtsDtTtasKVHWLqqpqQi0rlVpVSbou3W2rallNmqHSWasu1Wmlti6VlqlqX1o|CYM=3E3704",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K78" ] ],
+        "similarity_index": 2,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
@@ -63625,7 +63812,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "私、浴衣……どうかな？", "en": "Me in a Yukata...... What Do You Think?" },
+        "name": { "jp": "私、浴衣……どうかな？", "en": "Does This Yukata... Look Good on Me?" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、このホロメンに付いているサポートカード1枚を手札に戻せる。",
           "en": "During your opponent's turn, if this holomem is downed, you may return 1 support card attached to this holomem to your hand."
@@ -63635,7 +63822,7 @@
     "arts": [
       {
         "cheers": [ "red", "colorless" ],
-        "name": { "jp": "はぐれないように、ね？", "en": "Make Sure We Don't Get Separated, Okay?" },
+        "name": { "jp": "はぐれないように、ね？", "en": "So We Don't Get Separated, Okay?" },
         "power": "50+",
         "text": {
           "jp": "このアーツの対象が1st以上のホロメンなら、このアーツ+30。",
@@ -64808,11 +64995,11 @@
         "type": "bloom",
         "name": {
           "jp": "助手くんお待ちかね、こよの水着姿だよ！",
-          "en": "Assistant, You've Been Waiting, Here's Koyo in Her Swimsuit!"
+          "en": "It's Time for My Swimsuit Reveal, Assistants!"
         },
         "text": {
           "jp": "自分のアーカイブの〈博衣こより〉1～4枚を好きな順でデッキの下に戻せる。4枚戻したなら、自分のアーカイブの#こよラボを持つサポートカード1枚を自分の〈博衣こより〉に付けられる。",
-          "en": "You may return 1~4 <Hakui Koyori> from your archive to the bottom of the deck in any order you like. If you returned 4 cards, you may attach 1 support card with #KOYO LABO from your archive to your <Hakui Koyori>."
+          "en": "You may return 1~4 <Hakui Koyori> from your archive to the bottom of your deck in any order. If you returned 4 cards this way, you may attach 1 support card with #KOYO LABO from your archive to your <Hakui Koyori>."
         }
       }
     ],
@@ -64821,13 +65008,13 @@
         "cheers": [ "colorless", "colorless" ],
         "name": {
           "jp": "こよ以外見えなくしちゃった！♡",
-          "en": "I've Made It So You Can See No One But Koyo!♡"
+          "en": "Now You Can't See Anyone but Koyo!♡"
         },
         "power": "50",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分の手札が自分のステージの〈こよりの助手くん〉の枚数と同じになるまで、自分のデッキを引く。",
-          "en": "Draw cards until the number of cards in your hand is the same as the number of <Koyori's Assistants> on your stage."
+          "en": "Draw cards your hand has the same number of cards as the number of <Koyori's Assistants> on your stage."
         }
       }
     ],
@@ -65010,12 +65197,12 @@
   },
   "hEB01-027": {
     "card_number": "hEB01-027",
-    "name": { "jp": "サマーライブ", "en": "Summer Live" },
+    "name": { "jp": "サマーライブ", "en": "Summer Concert" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
       "jp": "このターンの間、自分のステージの#サマーを持つホロメン全員のアーツ+30。その後、自分のアーカイブのエール1枚を自分のホロメンに送る。",
-      "en": "During this turn, all holomem on your stage with #Summer get Arts+30. Then, send 1 cheer from your archive to your holomem."
+      "en": "During this turn, all holomem with #Summer on your stage get Arts+30. Send 1 cheer from your archive to your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
