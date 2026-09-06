@@ -60377,6 +60377,50 @@
       }
     ]
   },
+  "hBP09-022": {
+    "card_number": "hBP09-022",
+    "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Watamate's Paradise" },
+        "text": {
+          "en": "Choose 1 holomem on your opponent's stage. If you have 10 or more holo Power, during this turn, the chosen holomem is regarded as a 2nd holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white" ],
+        "name": { "jp": null, "en": "The Flowers Are Beautiful" },
+        "power": "100+",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "If you have 4 or more holo Power, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Kemomimi" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-022",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-022_R.webp", "en": null },
+        "img_hash": "v2|H32=vKpaVbmqVq3yeqSqGt21aijdtUpOncnKVimLpK0pq7WdbrQqWjWtSlQrlFaklWq0Lctq1aUqSqlBW1KrrUJSa1nltlY|CYM=111621",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C24" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-024": {
     "card_number": "hBP09-024",
     "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
@@ -62053,6 +62097,43 @@
         "img_path": { "jp": "unreleased/hBP09-067_C.webp", "en": null },
         "img_hash": "v2|H32=qKorb7WqpLKlGqWqS7VLKUpFW5mSUrJUUrfilHqlZq0uZZYk1CTpNEvaLPhNq1WyLV0K16o9BsqtmkpbqldWaaXKtks|CYM=102C12",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C69" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-068": {
+    "card_number": "hBP09-068",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "purple" ], "name": { "jp": null, "en": "Commitment to Cosmetics" }, "power": "40" },
+      {
+        "cheers": [ "purple", "purple" ],
+        "name": { "jp": null, "en": "Let's Try This One" },
+        "power": "60",
+        "text": {
+          "en": "If <Makeup> is attached to this holomem, reveal 1 holomem with #FLOW GLOW from your deck, and add it to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-068",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-068_R.webp", "en": null },
+        "img_hash": "v2|H32=SquxtnhJtKavSzRrzarJeeukS5XSVHLFllZ8I7QqzaVsNVaLWbVopbUqKlmkS5WWspSlakpQCp6lQpK2ZMO0WFarpGw|CYM=0B2C19",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C70" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -64005,10 +64086,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "この歌は、あなたのために。", "en": "This Song is Just for You." },
+        "name": { "jp": "この歌は、あなたのために。", "en": "This Song Is for You" },
         "text": {
           "jp": "自分のデッキから、2nd〈ときのそら〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "Reveal 1 2nd holomem <Tokino Sora> from your deck, and add it to your hand. Then, shuffle your deck."
+          "en": "Reveal 1 2nd holomem <Tokino Sora> from your deck, and add it to your hand. Shuffle your deck."
         }
       }
     ],
@@ -64017,13 +64098,13 @@
         "cheers": [ "red", "colorless" ],
         "name": {
           "jp": "誰より、特別だって気づいてる？",
-          "en": "Do You Realize You're More Special Than Anyone Else?"
+          "en": "You Know You're More Special Than Anyone Else, Right?"
         },
         "power": "50",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "自分のアーカイブのホロメン1～3枚をデッキに戻してシャッフルする。その後、自分のデッキを1枚引く。",
-          "en": "Return 1~3 holomem from your archive to your deck and shuffle it. Then, draw 1 card."
+          "en": "Return 1~3 holomem from your archive to your deck and shuffle it. Draw 1 card."
         }
       }
     ],
@@ -64380,7 +64461,7 @@
         "type": "bloom",
         "name": {
           "jp": "眩しいのは太陽？ それとも……マリン？",
-          "en": "Is It the Sun That's Dazzling? Or Is It......Marine?"
+          "en": "Is the Sun Too Bright? Or Is It Just... Marine?"
         },
         "text": {
           "jp": "相手のバックホロメン1人に特殊ダメージ10を与える。",
@@ -64393,7 +64474,7 @@
         "cheers": [ "blue" ],
         "name": {
           "jp": "遠慮しないで、マリンにぜーんぶ委ねちゃいな？",
-          "en": "Don't Be Shy, Why Not Leave It All to Marine?"
+          "en": "Don't Hold Back and Just Leave Everything to Me, Okay?"
         },
         "power": "30"
       }
@@ -65251,11 +65332,11 @@
   },
   "hEB01-029": {
     "card_number": "hEB01-029",
-    "name": { "jp": "スプラッシュシュート", "en": "Splash Shoot" },
+    "name": { "jp": "スプラッシュシュート", "en": "Splash Shooting" },
     "card_type": { "support": "event" },
     "text": {
       "jp": "このカードは、自分のセンターホロメンとコラボホロメンが#サマーを持つホロメンでなければ使えない。\n\n相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。\n\n自分の〈スプラッシュシュート〉はターンに1回しか使えない。",
-      "en": "This card can only be used if your center holomem and collab holomem are holomem with #Summer.\n\nDeal 30 special damage to your opponent's center holomem or collab holomem.\n\nYou may only use <Splash Shoot> once per turn."
+      "en": "This card can only be used if your center holomem and collab holomem are holomem with #Summer.\n\nDeal 30 special damage to your opponent's center holomem or collab holomem.\n\nYou may only use <Splash Shooting> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
