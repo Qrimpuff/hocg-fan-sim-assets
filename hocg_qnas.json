@@ -5497,7 +5497,7 @@
     },
     "answer": {
       "jp": "いいえ、現在受けているダメージ以下のHPを持ったホロメンへのBloomはできません。",
-      "en": "No, you cannot bloom to a holomem taht does not have more base HP than the damage currently on the holomem."
+      "en": "No, you cannot bloom to a holomem that does not have more base HP than the damage currently on the holomem."
     },
     "referenced_cards": [ "hBP02-013", "hBP02-089", "hBP02-090", "hBP05-070" ]
   },
