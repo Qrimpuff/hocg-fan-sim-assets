@@ -60421,6 +60421,53 @@
       }
     ]
   },
+  "hBP09-023": {
+    "card_number": "hBP09-023",
+    "name": { "jp": "ベスティア・ゼータ", "en": "Vestia Zeta" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 220,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Gothic Zeta" },
+        "text": {
+          "en": "When this holomem downs your opponent's holomem, if your Oshi holomem is <Vestia Zeta>, roll a die twice. If the total rolled is equal to the total of both players' life, your opponent gets life-1."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white", "colorless" ],
+        "name": { "jp": null, "en": "Jet Black Intelligence" },
+        "power": "120+",
+        "text": {
+          "en": "[Center Position Only] If you used your Oshi skill \"Good Luck, holoh3ro!\" this turn, this Arts gets +80."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 3" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-023",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-023_R.webp", "en": null },
+        "img_hash": "v2|H32=VLGpq2OxWI/rWhyG8oqXSrSWlkmy2paHNMrHdq2j5mGtKpRqlSqrVrpUTZdWhW2rLolri2BpTamftFWlXoqSvmtJ1Ck|CYM=121A0E",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C25" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-024": {
     "card_number": "hBP09-024",
     "name": { "jp": "響咲リオナ", "en": "Isaki Riona" },
@@ -60920,6 +60967,49 @@
       }
     ]
   },
+  "hBP09-036": {
+    "card_number": "hBP09-036",
+    "name": { "jp": "風真いろは", "en": "Kazama Iroha" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Million and One Hearts" },
+        "text": {
+          "en": "Choose 1 <AZKi> on your stage. Send 1 cheer with the same color as the chosen holomem from your cheer deck to that holomem. Shuffle your cheer deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Thank You for Your Help!" },
+        "power": "20+",
+        "text": { "en": "This Arts gets +20 for each cheer attached to your center <AZKi>." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#holoX" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-036",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-036_R.webp", "en": null },
+        "img_hash": "v2|H32=LmurnqW7ZarTsHDKifGYlUtbmDTOF1JK1pVWT3IElIUnblpNlWSVtqaWsJJqWlS1VrVqrWopKqtqa9TbeEskabbRLkk|CYM=180D2C",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C38" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-037": {
     "card_number": "hBP09-037",
     "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
@@ -61333,6 +61423,49 @@
         "img_hash": "v2|H32=1GUpVZdlT9W1ilqXqUqRp2tSKatskUsrjK1MUdtsdmzJelpLKUmZNKp6tapSqilJtVKqpEqLqpVbryollapbpbC0Vao|CYM=335F1A",
         "ogbajoj_sheet_cells": [ [ 419749048, "C153" ] ],
         "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP09-048": {
+    "card_number": "hBP09-048",
+    "name": { "jp": "ハコス・ベールズ", "en": "Hakos Baelz" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "CHAOTIC INVITATION" },
+        "text": {
+          "en": "If your Oshi holomem is <Oozora Subaru>, reveal 1 1st holomem <Oozora Subaru> and 1 1st holomem <Hakos Baelz> from your deck, and add them to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Let's Have Some Fun Together!" },
+        "power": "30",
+        "text": { "en": "Roll a die once. If it is odd, deal 20 special damage to your opponent's collab holomem." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-048",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-048_U.webp", "en": null },
+        "img_hash": "v2|H32=0qy5rLXsNe8tyy3bL7NJMsYyWjJMU7JFWMtyxNOS3JTTtPZLVSX4tZbWWupqqQ+XaFngvasuHyqk04Jb+SjxoJYehh4|CYM=01353B",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C50" ] ],
+        "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
@@ -63086,6 +63219,31 @@
       }
     ]
   },
+  "hBP09-091": {
+    "card_number": "hBP09-091",
+    "name": { "jp": "あずいろ BESTIE DAYS", "en": "AzuIro BESTIE DAYS" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <AZKi> or <Kazama Iroha>, and your holomem was downed during your opponent's previous turn.\n\nSearch 1 1st holomem <AZKi> and 1 1st holomem <Kazama Iroha> from your deck, and place them on your stage. Shuffle your deck."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-091",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-091_U.webp", "en": null },
+        "img_hash": "v2|H32=2LSZqtAiWmfbQtRUtty3nJecprUrpWxjbGNuTWdZ1okrnZJFwIdl232wJZtw+G2aDx+5aI/HiS6Ph61ue3hh0w6HbdE|CYM=061C1A",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C93" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-092": {
     "card_number": "hBP09-092",
     "name": { "jp": "雨の日ヴィヴィ", "en": "Rainy Day Vivi" },
@@ -64023,17 +64181,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "私の自信作、食べてみる？", "en": "Want to Try My Masterpiece?" },
+        "name": { "jp": "私の自信作、食べてみる？", "en": "Want to Try My Specialty Dish?" },
         "text": {
           "jp": "自分のデッキから、〈STAR STAR☆T〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "Reveal 1 <STAR STAR☆T> from your deck, and add it to your hand. Then, shuffle your deck."
+          "en": "Reveal 1 <STAR STAR☆T> from your deck, and add it to your hand. Shuffle your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "red" ],
-        "name": { "jp": "夏の熱気のせいにさせて", "en": "Blame It on the Summer Heat" },
+        "name": { "jp": "夏の熱気のせいにさせて", "en": "I'm Blaming It on the Summer Heat" },
         "power": "70"
       }
     ],
@@ -64878,17 +65036,17 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "助手くんの好みを研究して、選んだ浴衣だよっ♡",
-          "en": "I Researched Assistant's Tastes and Chose This Yukata Just for You♡"
+          "en": "I Chose This Yukata After Studying My Assistant's Tastes♡"
         },
         "power": "30"
       },
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "ドキッとさせる実験開始～！", "en": "Let the Heart-Stopping Experiment Begin!" },
+        "name": { "jp": "ドキッとさせる実験開始～！", "en": "Let the Exciting Experiments Begin!" },
         "power": "50+",
         "text": {
           "jp": "自分のデッキの上から、自分のステージのエールと同じ枚数を公開する。公開したホロメン1枚につき、このアーツ+10。そして公開したカードをデッキに戻してシャッフルする。",
-          "en": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. This Arts gets +10 for each holomem revealed among them. Then, return the revealed cards to deck and shuffle it."
+          "en": "Reveal cards from the top of your deck equal to the number of cheers on your stage. This Arts gets +10 for each holomem revealed by this ability. Return the revealed cards to your deck and shuffle it."
         }
       }
     ],
@@ -65095,7 +65253,7 @@
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "自分の手札が自分のステージの〈こよりの助手くん〉の枚数と同じになるまで、自分のデッキを引く。",
-          "en": "Draw cards your hand has the same number of cards as the number of <Koyori's Assistants> on your stage."
+          "en": "Draw cards until your hand has the same number of cards as the number of <Koyori's Assistants> on your stage."
         }
       }
     ],
@@ -65305,12 +65463,12 @@
   },
   "hEB01-028": {
     "card_number": "hEB01-028",
-    "name": { "jp": "スイカ割り", "en": "Watermelon Smashing" },
+    "name": { "jp": "スイカ割り", "en": "Watermelon Splitting" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
       "jp": "自分のステージの2ndホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30し、そのホロメンがアーツダメージでホロメンをダウンさせた時、自分のデッキを2枚引く。",
-      "en": "Choose 1 2nd holomem on your stage. During this turn, the chosen holomem gets Arts+30, and if that holomem downs your opponent's holomem using Arts damage, draw 2 cards."
+      "en": "Choose 1 2nd holomem on your stage. During this turn, the chosen holomem gets Arts+30. If that holomem downs your opponent's holomem by Arts damage this turn, draw 2 cards."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
