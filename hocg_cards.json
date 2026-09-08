@@ -60290,6 +60290,47 @@
       }
     ]
   },
+  "hBP09-018": {
+    "card_number": "hBP09-018",
+    "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Hajime’s Jacket" },
+        "text": { "en": "[Center Position Only] Draw 2 cards." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Machoor Clodes" },
+        "power": "30+",
+        "text": { "en": "[Collab Position Only] This Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Baby" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-018",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-018_C.webp", "en": null },
+        "img_hash": "v2|H32=CKtWVZGujau21pMktLqlLlpVratsxIuZaJpu59MSaSZP4ahKUkVapE2VlNO1tq7KpUovK7WVpLXLUlqBqa0Wbe1apss|CYM=212907",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C20" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-019": {
     "card_number": "hBP09-019",
     "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
@@ -62483,6 +62524,49 @@
       }
     ]
   },
+  "hBP09-074": {
+    "card_number": "hBP09-074",
+    "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Demon's Secret" },
+        "text": {
+          "en": "You may return 1 [Debut holomem or 1st holomem] with #Advent from your archive to your hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Arcane Protection" },
+        "power": "50+",
+        "text": { "en": "If the target of this Arts is a 1st or greater holomem, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Singing" }, { "en": "#Bird" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-074",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-074_U.webp", "en": null },
+        "img_hash": "v2|H32=VKorVvOqlK2rUJUpi7W0KkizctZKW2tVUk1LBbas2FSWKfRqilSpBVerrdI0yi2l8JVqvR61WqGoFVKtqTWWtslKtqo|CYM=153018",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C76" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-075": {
     "card_number": "hBP09-075",
     "name": { "jp": "ネリッサ・レイヴンクロフト", "en": "Nerissa Ravencroft" },
@@ -64118,7 +64202,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "ふたりだけの特別ツアー！", "en": "A Special Tour Just for the Two of Us!" },
+        "name": { "jp": "ふたりだけの特別ツアー！", "en": "A Special Tour for Two!" },
         "text": {
           "jp": "自分のデッキを1枚引き、手札1枚をデッキの下に戻す。",
           "en": "Draw 1 card, and return 1 card from your hand to the bottom of your deck."
@@ -64821,7 +64905,7 @@
         "cheers": [ "blue", "blue", "colorless", "colorless" ],
         "name": {
           "jp": "ねぇ、口元のチョコ……とって？♡",
-          "en": "Hey, Can You Wipe This Chocolate Off My Face?"
+          "en": "Say, Could You... Get That Bit of Chocolate from My Lips?"
         },
         "power": "100+",
         "advantage": [ "red", 50 ],
@@ -65165,10 +65249,10 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "こよが掃除しに来たよ～！", "en": "Koyo Came to Help with the Cleaning!" },
+        "name": { "jp": "こよが掃除しに来たよ～！", "en": "Koyo Is Here to Clean!" },
         "text": {
           "jp": "自分のアーカイブの〈こよりの助手くん〉1～2枚を手札に戻せる。",
-          "en": "You may return 1~2 <Koyori's Assistants> from your archive to hand."
+          "en": "You may return 1~2 <Koyori's Assistants> from your archive to your hand."
         }
       }
     ],
@@ -65179,7 +65263,7 @@
         "power": "30+",
         "text": {
           "jp": "自分のステージに2ndホロメンがいるなら、このアーツ+20。",
-          "en": "If there is a 2nd holomem on your stage, this Arts gets +20."
+          "en": "If your stage has a 2nd holomem, this Arts gets +20."
         }
       }
     ],
@@ -65414,7 +65498,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の推しホロメンが〈宝鐘マリン〉でなければ使えない。\n\n自分のデッキを2枚引く。その後、自分の手札の〈宝鐘マリン〉1枚を公開し、デッキの下に戻せる。戻したなら、自分のデッキを2枚引く。",
-      "en": "This card can only be used if your Oshi holomem is <Houshou Marine>.\n\nDraw 2 cards. Then, you may reveal 1 <Houshou Marine> from your hand, and return it to the bottom of the deck. If returned, draw 2 cards."
+      "en": "This card can only be used if your Oshi holomem is <Houshou Marine>.\nDraw 2 cards. You may reveal 1 <Houshou Marine> from your hand, and return it to the bottom of your deck. If returned this way, draw 2 cards."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
