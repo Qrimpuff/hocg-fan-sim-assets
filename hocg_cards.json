@@ -60418,6 +60418,50 @@
       }
     ]
   },
+  "hBP09-021": {
+    "card_number": "hBP09-021",
+    "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Stoic Dancer" },
+        "text": {
+          "en": "When this holomem downs your opponent's holomem, put the top card of your deck as holo Power."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white" ],
+        "name": { "jp": null, "en": "Unending Passion" },
+        "power": "80+",
+        "advantage": [ "red", 50 ],
+        "text": { "en": "If your holomem has used baton pass this turn, this Arts gets +80." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Baby" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-021",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-021_RR.webp", "en": null },
+        "img_hash": "v2|H32=ZqZMKTaqSl1Sqo7a0NaXsrW2taTMratqSk1mq0tZYLtnt6RKuWqOr0rT1a9tpWqVKLt6lWWLatWytWKVVrpK05YmslU|CYM=132C0C",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C23" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-022": {
     "card_number": "hBP09-022",
     "name": { "jp": "角巻わため", "en": "Tsunomaki Watame" },
@@ -63582,6 +63626,32 @@
       }
     ]
   },
+  "hBP09-100": {
+    "card_number": "hBP09-100",
+    "name": { "jp": "ノエルの特盛牛丼", "en": "Noel's XL Beef Bowl" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "Choose 1 <Shirogane Noel> on your stage. During this turn, the chosen holomem gets Arts+10. Additionally, if the chosen holomem is a Buzz holomem or 2nd holomem, restore 50 HP to that holomem."
+    },
+    "extra": { "en": "This event is also regarded as <Beef Bowl>" },
+    "tags": [ { "en": "#Food" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP09-100",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-100_U.webp", "en": null },
+        "img_hash": "v2|H32=UpWHqFSVNJuzKjCbqaqxqanouMwrbhNd7zrCMc8SnBWsRhLZc/lsFogurarK1a3i+KqtqmpULaqq+q3qDj4vHq7qPag|CYM=031B27",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "C102" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP09-101": {
     "card_number": "hBP09-101",
     "name": {
@@ -65727,7 +65797,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の推しホロメンが〈ときのそら〉なら、自分が先攻で最初のターンでも使える。\n\n自分のデッキを3枚引き、手札1枚をデッキの下に戻す。",
-      "en": "If your Oshi holomem is <Tokino Sora>, this card can be used if you went first and it is your first turn.\n\nDraw 3 cards, and return 1 card from your hand to the bottom of the deck."
+      "en": "If your Oshi holomem is <Tokino Sora>, this card can be used on your first turn even if you went first.\n\nDraw 3 cards, and return 1 card from your hand to the bottom of your deck."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
