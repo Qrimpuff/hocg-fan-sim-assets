@@ -676,7 +676,10 @@ pub mod hololive_official {
             .map(|c| clean_text(&c))
             .map(|c| Localized::new(language, c));
         fix_extra(card, &mut extra, language);
-        update_extra(card, extra, language, true, true);
+        // Update extra only for non-support cards, it's not shown in the summary list
+        if !matches!(card.card_type, CardType::Support(_)) {
+            update_extra(card, extra, language, true, true);
+        }
 
         fix_max_amount(card, language);
     }
@@ -1001,16 +1004,37 @@ pub mod hololive_official {
         illustrations.sort_by_cached_key(|c| c.manage_id.clone());
     }
 
-    fn update_card_illustrations_more(illust: &mut CardIllustration, page_content: &str) -> bool {
+    fn update_card_illustrations_more(
+        card: &mut Card,
+        illust_idx: usize,
+        page_content: &str,
+        language: Language,
+    ) -> bool {
+        static EXTRA: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse(".extra p:nth-child(2)").unwrap());
+
         static ILLUSTRATOR: LazyLock<Selector> =
             LazyLock::new(|| Selector::parse(".ill-name span").unwrap());
 
-        if illust.illustrator.is_some() {
-            return false;
-        }
+        let mut updated = false;
 
         // parse the content and update cards
         let document = Html::parse_document(page_content);
+
+        // Extra
+        let mut extra = document
+            .select(&EXTRA)
+            .next()
+            .map(|c| c.text().collect::<String>())
+            .map(|c| clean_text(&c))
+            .map(|c| Localized::new(language, c));
+        fix_extra(card, &mut extra, language);
+        if extra.as_ref().map(|e| e.value(language))
+            != card.extra.as_ref().map(|e| e.value(language))
+        {
+            updated = true;
+        }
+        update_extra(card, extra, language, true, true);
 
         // get the illustrator from the card
         let illustrator = document
@@ -1020,13 +1044,15 @@ pub mod hololive_official {
             .unwrap_or_default();
 
         // not a valid illustrator name
-        if illustrator.contains("ノーマル") || illustrator.contains("パラレル") {
-            return false;
+        if !illustrator.contains("ノーマル") && !illustrator.contains("パラレル") {
+            if Some(&illustrator) != card.illustrations[illust_idx].illustrator.as_ref() {
+                updated = true;
+            }
+            // save empty string to indicate that we know there is no illustrator. no need for request
+            card.illustrations[illust_idx].illustrator = Some(illustrator);
         }
 
-        // save empty string to indicate that we know there is no illustrator. no need for request
-        illust.illustrator = Some(illustrator);
-        true
+        updated
     }
 
     // --- Fixes for known issues in the official database ---
@@ -1480,8 +1506,8 @@ pub mod hololive_official {
         // Download illustration specific info in parallel
         let pages: HashMap<String, Option<String>> = all_cards
             .values()
-            .flat_map(|card| &card.illustrations)
-            .filter(|illust| {
+            .flat_map(|card| card.illustrations.iter().map(move |illust| (card, illust)))
+            .filter(|(_, illust)| {
                 illust
                     .manage_id
                     .value(language)
@@ -1492,12 +1518,20 @@ pub mod hololive_official {
             .enumerate()
             .par_bridge()
             .filter_map({
-                move |(index, illust)| {
+                |(index, (card, illust))| {
                     let card_urls = illust.official_site_urls(language);
                     let url = card_urls.last()?;
+                    let mut need_page = false;
 
-                    // Skip if the illustrator is already set, no need to retrieve the page
-                    if illust.illustrator.is_some() {
+                    // Missing illustrator
+                    need_page |= illust.illustrator.is_none();
+
+                    // Support card with extra
+                    need_page |=
+                        matches!(card.card_type, CardType::Support(_)) && card.extra.is_some();
+
+                    // Skip if no need to retrieve the page
+                    if !need_page {
                         return Some((url.to_owned(), None));
                     }
 
@@ -1516,41 +1550,47 @@ pub mod hololive_official {
 
         // Process illustrations sequentially
         let mut illust_updated_count: u32 = 0;
-        for (index, illust) in all_cards
-            .values_mut()
-            .flat_map(|card| &mut card.illustrations)
-            .filter(|illust| {
-                illust
-                    .manage_id
-                    .value(language)
-                    .iter()
-                    .flatten()
-                    .any(|m| filtered_cards.contains(m))
-            })
-            .enumerate()
-        {
-            let card_urls = illust.official_site_urls(language);
-            let Some(url) = card_urls.last() else {
-                continue;
-            };
+        let mut illust_num = 0;
+        for card in all_cards.values_mut() {
+            for illust_idx in card
+                .illustrations
+                .iter()
+                .enumerate()
+                .filter(|(_, illust)| {
+                    illust
+                        .manage_id
+                        .value(language)
+                        .iter()
+                        .flatten()
+                        .any(|m| filtered_cards.contains(m))
+                })
+                .map(|(idx, _)| idx)
+                .collect_vec()
+            {
+                illust_num += 1;
 
-            // Retrieve the page content for the illustration, warn if needed and not found
-            let content = match pages.get(url) {
-                Some(Some(content)) => content,
-                Some(_) => continue,
-                _ => {
-                    eprintln!("Page {url} not found in retrieved pages");
+                let card_urls = card.illustrations[illust_idx].official_site_urls(language);
+                let Some(url) = card_urls.last() else {
                     continue;
-                }
-            };
+                };
 
-            if update_card_illustrations_more(illust, content) {
-                illust_updated_count += 1;
-                if illust_updated_count.is_multiple_of(100) {
-                    let index = index + 1;
-                    println!(
-                        "Illustration {index} done: updated {illust_updated_count} illustrations"
-                    );
+                // Retrieve the page content for the illustration, warn if needed and not found
+                let content = match pages.get(url) {
+                    Some(Some(content)) => content,
+                    Some(_) => continue,
+                    _ => {
+                        eprintln!("Page {url} not found in retrieved pages");
+                        continue;
+                    }
+                };
+
+                if update_card_illustrations_more(card, illust_idx, content, language) {
+                    illust_updated_count += 1;
+                    if illust_updated_count.is_multiple_of(100) {
+                        println!(
+                            "Illustration {illust_num} done: updated {illust_updated_count} illustrations"
+                        );
+                    }
                 }
             }
         }
