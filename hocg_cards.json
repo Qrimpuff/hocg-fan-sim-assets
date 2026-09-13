@@ -59828,6 +59828,19 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-003",
+        "manage_id": { },
+        "rarity": "",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-003_.webp", "en": null },
+        "img_hash": "v2|H32=tIm18rWYZKe3Uiul60qqhasL2cWGU9GNRFLDiWJi0sgmolQrlCV9NcWqVZppVcmSro8qVVpUq6proapUqlLVsqWqVdU|CYM=042024",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K5" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -59867,6 +59880,19 @@
         "img_hash": "v2|H32=tkszzSdFrOLL5cZk7Y7XjESN595A6UTlqlJJpY5K7dQqKtSqrlIrqxIlqyxbtmGl69Q2bcpWImlKVejw+m2q0kolqlY|CYM=015070",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C6" ] ],
         "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-004",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-004_SEC.webp", "en": null },
+        "img_hash": "v2|H32=bFWjom1V1K2bVpmoWxQ0ejOSHVP25pmSkMzblZWLCkUkilbLUqWtVsG6SVWtFWulqqCNppR1+bSpUtWuqZSVlEpJlaI|CYM=32432D",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K6" ] ],
+        "similarity_index": 2,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
@@ -60026,6 +60052,19 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP09-007",
+        "manage_id": { },
+        "rarity": "OUR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-007_OUR.webp", "en": null },
+        "img_hash": "v2|H32=bKWGVyutJD8SGqWqUlq3qsxTUh2kXEst1BQsia02VpWpwrRL1qArpRVKsparVUtVK1VpqXl1WbSgqWnVqUtRLWXrVtU|CYM=642B06",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K9" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP09-007",
