@@ -60532,6 +60532,19 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-014",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-014_UR.webp", "en": null },
+        "img_hash": "v2|H32=TKU6rVvVTNW7VsYVrNWnppa9vCqeatkqcGrk6iuqtmCPsrRKAgVLJ1XaVJLhommtqSVpJaF0TZdf6mWlntLRlm9LJZQ|CYM=014762",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K15" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -61406,6 +61419,19 @@
         "img_hash": "v2|H32=qquUZqWJzaqzWo2qs8pwlNrWcjVS5EtXUiVm2UomNtmMInhKVkmsJQFblLa0qipLZQkqsWpVApX1qgKLS1ZWralWllI|CYM=172C30",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C32" ] ],
         "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-031",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-031_UR.webp", "en": null },
+        "img_hash": "v2|H32=XIssFZmip5W5rqOlbSk7dSZZc1tMU2fTWBpMkquqTLJrothKKllLtbUUrdJqpV2kadVLrZWkqq1VlqqlpSILrdVrUlU|CYM=3C380F",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K32" ] ],
+        "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
@@ -62741,6 +62767,19 @@
         "img_hash": "v2|H32=qqqlqrOqNKurKE0KlKiLSJLRitXSVVI1UlF2FWJ4dFRuFrRbVTVKramqSKmP1Ql0D64qaqhS8JrS0rbUpdqi1qZKplo|CYM=103517",
         "ogbajoj_sheet_cells": [ [ 1898043973, "C58" ] ],
         "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-057",
+        "manage_id": { },
+        "rarity": "UR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-057_UR.webp", "en": null },
+        "img_hash": "v2|H32=WNuqqvmKHImjLKydllTt1UdWYVVSWzlDMOFaN6ky1nVNVpRLaqWpUqVIVbCVWk2l0pIp9F5JUZcv0YWSktKpmrbSVEo|CYM=19311F",
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K58" ] ],
+        "similarity_index": 2,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
