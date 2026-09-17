@@ -59951,7 +59951,7 @@
         "img_path": { "jp": "hBP09/hBP09-003_OUR.webp", "en": null },
         "img_last_modified": { "jp": "Thu, 17 Sep 2026 09:00:29 GMT" },
         "img_hash": "v2|H32=tKildrWoLGW1kiunyyqL1S8p2cXKVVGpSlbXqGp208gGa3SrVCVdK6W6VapoVdqWjpYqVepVqpZqqapUaluWlrWqSlE|CYM=032329",
-        "ogbajoj_sheet_cells": null,
+        "ogbajoj_sheet_cells": [ [ 1898043973, "K4" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -59981,19 +59981,6 @@
         "img_hash": "v2|H32=bImOXMekLVkrpDpbSas6StSSSdrWOFmVrioZpYayqWXWqpS6p1RrteOqoanZslkrO6TpqoNXdqmrVWpJydWqqlVpraQ|CYM=73430F",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
-        "yuyutei_sell_paths": null,
-        "tcgplayer_product_ids": null,
-        "delta_art_index": null
-      },
-      {
-        "card_number": "hBP09-003",
-        "manage_id": { },
-        "rarity": "",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP09-003_.webp", "en": null },
-        "img_hash": "v2|H32=tIm18rWYZKe3Uiul60qqhasL2cWGU9GNRFLDiWJi0sgmolQrlCV9NcWqVZppVcmSro8qVVpUq6proapUqlLVsqWqVdU|CYM=042024",
-        "ogbajoj_sheet_cells": [ [ 1898043973, "K4" ] ],
-        "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
