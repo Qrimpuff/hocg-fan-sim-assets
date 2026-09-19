@@ -68,6 +68,11 @@ impl HashComponent {
             list.push(HashComponent::ArtBoxCym);
         }
 
+        // hBP08-017 - Tokino Sora, Tokino Sora 9th Anniversary Party "Everyday of Light"
+        if card_number == "hBP08-017" {
+            list.push(HashComponent::ArtBoxCym);
+        }
+
         list
     }
 
