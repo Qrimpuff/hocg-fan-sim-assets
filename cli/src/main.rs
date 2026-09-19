@@ -553,7 +553,11 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                         illustrations[i].img_hash = illustrations[j].img_hash.clone();
                         illustrations[i].similarity_index = illustrations[j].similarity_index;
                     }
-                    if illustrations[i].illustrator.is_none() {
+                    if illustrations[i]
+                        .illustrator
+                        .as_ref()
+                        .is_none_or(|i| i.is_empty())
+                    {
                         illustrations[i].illustrator = illustrations[j].illustrator.clone();
                     }
                     if illustrations[i].delta_art_index.is_none() {

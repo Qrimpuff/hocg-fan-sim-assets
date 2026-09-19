@@ -1049,7 +1049,9 @@ pub mod hololive_official {
                 updated = true;
             }
             // save empty string to indicate that we know there is no illustrator. no need for request
-            card.illustrations[illust_idx].illustrator = Some(illustrator);
+            if !illustrator.is_empty() || card.illustrations[illust_idx].illustrator.is_none() {
+                card.illustrations[illust_idx].illustrator = Some(illustrator);
+            }
         }
 
         updated
