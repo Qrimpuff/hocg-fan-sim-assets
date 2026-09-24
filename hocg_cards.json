@@ -79604,19 +79604,19 @@
     "oshi_skills": [
       {
         "holo_power": 3,
-        "name": { "jp": "張り切ってがんばろーー!!!", "en": "Let's do our best with gusto!!!" },
+        "name": { "jp": "張り切ってがんばろーー!!!", "en": "Let's Give It Everything We've Got!!!" },
         "text": {
           "jp": "[ターンに1回]自分のエールデッキの上から1枚を自分のホロメンに送る。",
-          "en": "[1/Turn]Send the top card of your cheer deck to your holomem."
+          "en": "[1/Turn] Send the top card of your cheer deck to your holomem."
         }
       },
       {
         "kind": "special",
         "holo_power": 2,
-        "name": { "jp": "流れ星", "en": "The Shooting Star" },
+        "name": { "jp": "流れ星", "en": "Shooting Star" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが〈星街すいせい〉なら、相手のバックホロメン1人に特殊ダメージ50を与える。",
-          "en": "[1/Game]If your center holomem is <Hoshimachi Suisei>, deal 50 special damage to 1 of your opponent's back holomem."
+          "en": "[1/Game] If your center holomem is <Hoshimachi Suisei>, deal 50 special damage to 1 of your opponent's back holomem."
         }
       }
     ],
@@ -79682,10 +79682,7 @@
     "arts": [
       {
         "cheers": [ "blue" ],
-        "name": {
-          "jp": "今日もあなたのそばに -すいせい-",
-          "en": "I'll Be By Your Side Again Today -Suisei-"
-        },
+        "name": { "jp": "今日もあなたのそばに -すいせい-", "en": "Always by Your Side -Suisei-" },
         "power": "30"
       }
     ],
@@ -79727,7 +79724,11 @@
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "私だけの輝き", "en": "My Own Shine" }, "power": "20" }
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "私だけの輝き", "en": "My Very Own Radiance" },
+        "power": "20"
+      }
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
@@ -79773,7 +79774,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "よーし、レッスン開始だー！", "en": "Right, let's start the lesson!" },
+        "name": { "jp": "よーし、レッスン開始だー！", "en": "Right, Time to Start the Lesson!" },
         "power": "20",
         "text": {
           "jp": "相手のバックホロメン1人に特殊ダメージ10を与える。",
@@ -79811,7 +79812,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "そろそろ始まるよ！", "en": "It's About to Start!" },
+        "name": { "jp": "そろそろ始まるよ！", "en": "It's Almost Time!" },
         "power": "30"
       },
       {
@@ -79853,14 +79854,14 @@
         "name": { "jp": "Message for You -すいせい-", "en": "Message for You -Suisei-" },
         "text": {
           "jp": "[バックポジション限定]相手のバックホロメン1人に特殊ダメージ10を与える。",
-          "en": "[Back Position Only]Deal 10 special damage to 1 of your opponent's back holomem."
+          "en": "[Back Position Only] Deal 10 special damage to 1 of your opponent's back holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "バレンタイン……か……", "en": "It's.... Valentine's...." },
+        "name": { "jp": "バレンタイン……か……", "en": "Valentine... Huh..." },
         "power": "30"
       }
     ],
@@ -79897,7 +79898,7 @@
         "name": { "jp": "明日への歌", "en": "A Song for Tomorrow" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。",
-          "en": "During your opponent's turn, when this holomem is downed, draw 1 card."
+          "en": "During your opponent's turn, if this holomem is downed, draw 1 card."
         }
       }
     ],
@@ -79942,7 +79943,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "踊ったもん勝ち！", "en": "The one who dances the most wins!" },
+        "name": { "jp": "踊ったもん勝ち！", "en": "Dance for the Win" },
         "text": {
           "jp": "このターンの間、このホロメンのアーツ+20。",
           "en": "During this turn, this holomem gets Arts+20."
@@ -79952,7 +79953,7 @@
     "arts": [
       {
         "cheers": [ "blue", "blue", "colorless" ],
-        "name": { "jp": "キラキラの向こう側へ", "en": "Beyond the Sparkle" },
+        "name": { "jp": "キラキラの向こう側へ", "en": "Beyond the Dazzle" },
         "power": "110",
         "advantage": [ "purple", 30 ]
       }
@@ -80029,7 +80030,7 @@
         "name": { "jp": "ライミング", "en": "Rhyming" },
         "text": {
           "jp": "[ターンに1回]自分のデッキの上から2枚をアーカイブする。その後、自分のデッキを1枚引く。",
-          "en": "[1/Turn]Archive the top 2 cards of your deck. Draw 1 card."
+          "en": "[1/Turn] Archive the top 2 cards of your deck. Draw 1 card."
         }
       },
       {
@@ -80038,7 +80039,7 @@
         "name": { "jp": "世界を繋げるラップ", "en": "Rap That Connects the World" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブにホロメンが6枚以上あるなら、このターンの間、自分のステージの〈森カリオペ〉全員のアーツ+30。",
-          "en": "[1/Game]If you have 6 or more holomem in your archive, during this turn, all <Mori Calliope> on your stage get Arts+30."
+          "en": "[1/Game] If your archive has 6 or more holomem, during this turn, all <Mori Calliope> on your stage get Arts+30."
         }
       }
     ],
@@ -80068,7 +80069,7 @@
     "hp": 80,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "Nice to reap you", "en": "Nice to reap you" }, "power": "20" }
+      { "cheers": [ "colorless" ], "name": { "jp": "Nice to reap you", "en": "Nice to Reap You" }, "power": "20" }
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
@@ -80100,10 +80101,7 @@
     "arts": [
       {
         "cheers": [ "purple" ],
-        "name": {
-          "jp": "今日もあなたのそばに -カリオペ-",
-          "en": "I'll Be By Your Side Again Today -Calliope-"
-        },
+        "name": { "jp": "今日もあなたのそばに -カリオペ-", "en": "Always by Your Side -Calliope-" },
         "power": "30"
       }
     ],
@@ -80137,17 +80135,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "みーなさんっ", "en": "Minna-san" },
+        "name": { "jp": "みーなさんっ", "en": "Mina-San" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキの上から1枚をアーカイブする。その後、自分のデッキを1枚引く。",
-          "en": "If you went second and it is your first turn, archive the top card of your deck. Then, draw 1 card."
+          "en": "If you went second and it is your first turn, archive the top card of your deck. Draw 1 card."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "あたためて貰えますか…？", "en": "Could You Warm It Up For Me...?" },
+        "name": { "jp": "あたためて貰えますか…？", "en": "Could You Warm This Up...?" },
         "power": "20"
       }
     ],
@@ -80195,17 +80193,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "死神式ストレッチ", "en": "Reaper Style Stretch" },
+        "name": { "jp": "死神式ストレッチ", "en": "Reaper Style Stretches" },
         "text": {
           "jp": "自分のツールが付いているホロメンがいるなら、相手のセンターホロメンに特殊ダメージ10を与える。",
-          "en": "If you have a holomem with tool attached, deal 10 special damage to your opponent's center holomem."
+          "en": "If you have a holomem with a tool attached, deal 10 special damage to your opponent's center holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "一緒に、どう？", "en": "Wanna try it together?" },
+        "name": { "jp": "一緒に、どう？", "en": "Would You Like to Join Me?" },
         "power": "20"
       }
     ],
@@ -80239,12 +80237,12 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "これから、頑張る。", "en": "From Now On, I'll Do My Best." },
+        "name": { "jp": "これから、頑張る。", "en": "I Want to Fly Higher, and Further." },
         "power": "30"
       },
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": "負けない。諦めない。", "en": "I Won't Lose. I Won't Give Up." },
+        "name": { "jp": "負けない。諦めない。", "en": "I'm Not Gonna Give Up." },
         "power": "50"
       }
     ],
@@ -80278,17 +80276,17 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ちょっとした特別なプレゼント", "en": "A Special Little Present" },
+        "name": { "jp": "ちょっとした特別なプレゼント", "en": "A Small but Special Present" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、自分のデッキの上から1枚をアーカイブする。",
-          "en": "During your opponent's turn, when this holomem is downed, archive the top card of your deck."
+          "en": "During your opponent's turn, if this holomem is downed, archive the top card of your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "手伝ってもらって助かるよ", "en": "I really appreciate your help" },
+        "name": { "jp": "手伝ってもらって助かるよ", "en": "Thanks for the Help on This" },
         "power": "30+",
         "text": {
           "jp": "このホロメンにツールが付いているなら、このアーツ+10。",
@@ -80326,7 +80324,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "ロックンロールリッパー", "en": "Rock 'n' Roll Reaper" },
+        "name": { "jp": "ロックンロールリッパー", "en": "Rock and Roll Reaper" },
         "text": {
           "jp": "自分のデッキの上から1枚をアーカイブする。",
           "en": "Archive the top card of your deck."
@@ -80336,11 +80334,11 @@
     "arts": [
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": "OK、もう一曲行こう！", "en": "OK, Let's Play One More Song!" },
+        "name": { "jp": "OK、もう一曲行こう！", "en": "OK, One More Song!" },
         "power": "40",
         "text": {
           "jp": "[センターポジション限定]自分のアーカイブのツール1枚を手札に戻す。",
-          "en": "[Center Position Only]Return 1 tool from your archive to hand."
+          "en": "[Center Position Only] Return 1 tool from your archive to your hand."
         }
       }
     ],
@@ -80384,7 +80382,7 @@
     "arts": [
       {
         "cheers": [ "purple", "purple" ],
-        "name": { "jp": "刻むぞ冥界のビート", "en": "Let's carve out the beat of the underworld" },
+        "name": { "jp": "刻むぞ冥界のビート", "en": "Laying Down Some Underworld Beats" },
         "power": "90",
         "advantage": [ "green", 30 ]
       }
