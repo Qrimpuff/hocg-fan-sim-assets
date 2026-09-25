@@ -80809,6 +80809,31 @@
       }
     ]
   },
+  "hSD20-012": {
+    "card_number": "hSD20-012",
+    "name": { "jp": "アソビ★まわり隊！", "en": "ASOBI★MAWARI-TAI!" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #ASOBI★MAWARI-TAI! from among them, and add the revealed holomem to hand. Return the remaining cards to the bottom of the deck in any order."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-012",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-012_U.webp", "en": null },
+        "img_hash": "v2|H32=or6jqpSKoCqra1RBKmFsUWxSZDQvNlQ2do4+zTvNUk+CV1JFR+AsuoPDLZqLjy2a+Bipan54qWju46kq4KLhgyp4IBk|CYM=132D1D",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C14" ], [ 2109917797, "C37" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hY01-001": {
     "card_number": "hY01-001",
     "name": { "jp": "白エール", "en": "White Cheer" },
