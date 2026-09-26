@@ -61207,7 +61207,7 @@
         "name": { "jp": "わためいとの楽園", "en": "Watamate's Paradise" },
         "text": {
           "jp": "相手のステージのホロメン1人を選ぶ。自分のホロパワーが10枚以上あるなら、このターンの間、選んだホロメンは2ndホロメンとしても扱う。",
-          "en": "Choose 1 holomem on your opponent's stage. If you have 10 or more holo Power, during this turn, the chosen holomem is regarded as a 2nd holomem."
+          "en": "Choose 1 holomem on your opponent's stage. If you have 10 or more holo Power, during this turn, the chosen holomem is also regarded as a 2nd holomem."
         }
       }
     ],
@@ -80806,6 +80806,86 @@
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10010" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hSD20-001": {
+    "card_number": "hSD20-001",
+    "name": { "jp": "百灯キョーコ", "en": "Hyakuto Kyoko" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "Fiery Passion" },
+        "text": {
+          "en": "When your holomem collabs, if your center holomem is <Hyakuto Kyoko>, send the top card of your cheer deck to your center holomem."
+        }
+      },
+      {
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Hero Cop On the Move!" },
+        "text": {
+          "en": "[1/Turn] Deal 10 special damage to your opponent's [center holomem and collab holomem] other than Debut for each cheer on your stage."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=KlUqLGspDNdDNVZrZdbWTkTLtVaweVQps1pzVdJKu9XWVpSyqlpKWpq2hUpWZWRJqtRqqYpW0qQmVVmlJl1KV0rVplU|CYM=2F362D",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C3" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD20-008": {
+    "card_number": "hSD20-008",
+    "name": { "jp": "宙科そぴあ", "en": "Sorashina Sopia" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "My dreams are like the Big Bang!" },
+        "text": { "en": "During your opponent's turn, if this holomem is downed, draw 1 card." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "I'm going to witness it all with my own eyes!" },
+        "power": "10"
+      }
+    ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-008",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-008_C.webp", "en": null },
+        "img_hash": "v2|H32=0jKZrKWqLYsvq62KTmWrrtJVU2VSlXJUUqPyFPHiUjW1MLRKVaVoVarSr7S2SleVdpXSlqpLUqprW0sr0lJqW6qVCas|CYM=191710",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C10" ], [ 2109917797, "C33" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
