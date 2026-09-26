@@ -66200,7 +66200,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分の推しホロメンが〈常闇トワ〉でなければ使えない。\n\n相手のセンターホロメンに特殊ダメージ20を与える。その後、このターンの間、自分の〈常闇トワ〉の3回目のアーツは、相手のDebut以外のバックホロメンも対象にできる。",
-      "en": "This card can only be used if your Oshi holomem is <Tokoyami Towa>.\n\nDeal 20 special damage to your opponent's center holomem. During this turn, the third Arts that you use with your <Tokoyami Towa> can target your opponent's back holomem other than Debut too."
+      "en": "This card can only be used if your Oshi holomem is <Tokoyami Towa>.\n\nDeal 20 special damage to your opponent's center holomem. During this turn, the third Arts that you use, if used by <Tokoyami Towa>, can target your opponent's back holomem other than Debut too."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -80820,7 +80820,7 @@
         "kind": "stage",
         "name": { "jp": null, "en": "Fiery Passion" },
         "text": {
-          "en": "When your holomem collabs, if your center holomem is <Hyakuto Kyoko>, send the top card of your cheer deck to your center holomem."
+          "en": "When your holomem collabs, if your center holomem is <Hyakuto Kyoko>, send the top card of your cheer deck to your collab holomem."
         }
       },
       {
