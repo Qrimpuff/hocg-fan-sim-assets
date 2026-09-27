@@ -7131,7 +7131,7 @@
     },
     "answer": {
       "jp": "はい、できます。\nその場合、アーカイブからホロメンを戻さず、デッキをシャッフルして、その後、自分のデッキを2枚引きます。",
-      "en": "Yes, you can."
+      "en": "Yes, you can.\nIn this case, you do not move any holomem from your archive to your deck, then you shuffle your deck and draw 2 cards."
     },
     "referenced_cards": [ "hBP07-092" ]
   },
@@ -8058,11 +8058,11 @@
     "date": "2026-06-26",
     "question": {
       "jp": "自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉で、hBP08-103〈ホロマント〉が付いている赤ホロメンがダウンした時、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」の能力を使い、減るライフを-1しました。\nこの場合、受けるライフダメージはいくつになりますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP01-006 Takanashi Kiara, and when my red holomem with hBP08-103 holoCape is downed, I use my SP Oshi Skill Rise from the Ashes to reduce the life lost by 1.\nIn this case, how much life damage will I take?"
     },
     "answer": {
       "jp": "受けるライフダメージは1になります。\n\n[6/26更新]6/12(金)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。",
-      "en": null
+      "en": "You take 1 life damage."
     },
     "referenced_cards": [ "hBP01-006", "hBP07-044", "hBP08-103" ]
   },
@@ -8172,9 +8172,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-001〈ときのそら〉の推しステージスキル「浜辺のヴィーナス」の能力は、自分のセンターホロメンとコラボホロメンが〈ときのそら〉でない場合、デッキを1枚引くことはできますか？",
-      "en": null
+      "en": "Regarding hEB01-001 Tokino Sora's Oshi Stage Skill \"Seaside Venus\", if either my center holomem or my collab holomem is not Tokino Sora, can I still draw a card?"
     },
-    "answer": { "jp": "いいえ、引けません。", "en": null },
+    "answer": { "jp": "いいえ、引けません。", "en": "No, you cannot." },
     "referenced_cards": [ "hEB01-001" ]
   },
   "Q692": {
@@ -8182,9 +8182,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-001〈ときのそら〉の推しスキル「ロマンスは突然に」の能力は、選んだ〈ときのそら〉をBloomさせることができなくても、アーツに必要な無色は-1されますか？",
-      "en": null
+      "en": "Regarding hEB01-001 Tokino Sora's Oshi Skill \"Sudden Romance\", does the colorless cost required for Arts still decrease by 1 even if the chosen Tokino Sora isn't bloomed?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it does." },
     "referenced_cards": [ "hEB01-001" ]
   },
   "Q693": {
@@ -8192,9 +8192,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "自分のデッキが0枚の時、hEB01-007〈ときのそら〉のブルームエフェクト「ふたりだけの特別ツアー！」の能力で、デッキを引かずに手札1枚をデッキに戻すことはできますか？",
-      "en": null
+      "en": "If my deck has no cards, can I use hEB01-007 Tokino Sora's Bloom Effect \"A Special Tour for Two!\" to return a card from my hand to my deck without needing to draw a card?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hEB01-007" ]
   },
   "Q694": {
@@ -8202,9 +8202,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-009〈ときのそら〉のアーツ「誰より、特別だって気づいてる？」の能力は、アーカイブにホロメンが無くても1枚引くことはできますか？",
-      "en": null
+      "en": "When using hEB01-009 Tokino Sora's Arts \"You Know You're More Special Than Anyone Else, Right?\", can I draw a card even if there are no holomem in my archive?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hEB01-009" ]
   },
   "Q695": {
@@ -8212,9 +8212,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-010〈ときのそら〉がアーツ「振り返れば、いつもあなたが。」を使い、能力で自分のバックポジションの2nd〈ときのそら〉をお休みさせました。\nその後、アーツをもう1回使う前に他のホロメンのアーツは使えますか？",
-      "en": null
+      "en": "My hEB01-010 Tokino Sora used its Arts \"You're Always There When I Turn Around\" and used its ability to rest a back 2nd holomem Tokino Sora.\nCan I now use another holomem's Arts before using this Arts again?"
     },
-    "answer": { "jp": "いいえ、使えません。", "en": null },
+    "answer": { "jp": "いいえ、使えません。", "en": "No, you cannot." },
     "referenced_cards": [ "hEB01-010" ]
   },
   "Q696": {
@@ -8222,9 +8222,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-010〈ときのそら〉のアーツ「振り返れば、いつもあなたが。」を使い、バックポジションの2nd〈ときのそら〉1人をお休みさせて、もう1回アーツを使う場合、1回目と異なるホロメンを対象にできますか？",
-      "en": null
+      "en": "If I use hEB01-010 Tokino Sora's Arts \"You're Always There When I Turn Around\" and rest a back 2nd holomem Tokino Sora, and then use the Arts again, can I target a different holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hEB01-010" ]
   },
   "Q697": {
@@ -8232,9 +8232,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-013〈宝鐘マリン〉のコラボエフェクト「わざと隙、見せてるんだゾ？」の能力で、このカードをアーカイブすることはできますか？",
-      "en": null
+      "en": "When using hEB01-013 Houshou Marine's Collab Effect \"Don't You Know I'm Giving You a Chance on Purpose?\", can I archive hEB01-013 itself (i.e. the card on top of the stack)?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hEB01-013" ]
   },
   "Q698": {
@@ -8242,9 +8242,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-017〈宝鐘マリン〉のアーツ「ねぇ、口元のチョコ……とって？♡」の能力で重なっているホロメンすべてをアーカイブする場合、このカードもアーカイブされますか？",
-      "en": null
+      "en": "If the ability of hEB01-017 Houshou Marine's Arts \"Say, Could You... Get That Bit of Chocolate from My Lips?♡\" archives all stacked holomem, is hEB01-017 itself (i.e. the card on top of the stack) also archived?"
     },
-    "answer": { "jp": "いいえ、されません。", "en": null },
+    "answer": { "jp": "いいえ、されません。", "en": "No, it is not." },
     "referenced_cards": [ "hEB01-017" ]
   },
   "Q699": {
@@ -8252,9 +8252,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "自分のデッキが0枚の時、hEB01-026〈クマリン〉の能力で、手札の〈宝鐘マリン〉を公開し、デッキの下に戻した後、デッキを1枚引くことはできますか？",
-      "en": null
+      "en": "If my deck has no cards, can I use hEB01-026 Bearine to reveal a Houshou Marine from my hand, return it to the bottom of my deck, and then draw one card?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hEB01-026" ]
   },
   "Q700": {
@@ -8262,11 +8262,11 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-026〈クマリン〉の能力で、〈宝鐘マリン〉を公開した場合、デッキの下に戻さないことはできますか？",
-      "en": null
+      "en": "When playing hEB01-026 Bearine, if I reveal a Houshou Marine, can I choose not to return it to the bottom of the deck?"
     },
     "answer": {
       "jp": "いいえ、できません。\n公開した場合、必ずデッキの下に戻し、2枚引きます。",
-      "en": null
+      "en": "No, you cannot. If you reveal the card, you must return it to the bottom of your deck and draw two cards."
     },
     "referenced_cards": [ "hEB01-026" ]
   },
@@ -8275,9 +8275,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-027〈サマーライブ〉の能力で、自分の#サマーを持たないホロメンに、アーカイブからエールを送ることはできますか？",
-      "en": null
+      "en": "When playing hEB01-027 Summer Concert, can I send the cheer from my archive to a holomem which does not have #Summer?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hEB01-027" ]
   },
   "Q702": {
@@ -8285,9 +8285,9 @@
     "date": "2026-08-17",
     "question": {
       "jp": "hEB01-033〈ビーチボール〉が付いているセンターのhEB01-010〈ときのそら〉がアーツ「振り返れば、いつもあなたが。」を使った時、自分のバックポジションのアクティブな2nd〈ときのそら〉1人をお休みさせました。\nこの場合、アーツダメージを与え、hEB01-033〈ビーチボール〉を自分の#サマーを持つコラボホロメンに付け替えた後に、同じアーツをもう1回使うことはできますか？",
-      "en": null
+      "en": "My center hEB01-010 Tokino Sora with hEB01-033 Beach Ball attached used the Arts \"You're Always There When I Turn Around\" and I rested 1 of my back 2nd holomem Tokino Sora.\nIn this case, can I only use the same Arts again after dealing damage and attaching Beach Ball to my collab holomem with #Summer?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, that is correct." },
     "referenced_cards": [ "hEB01-010", "hEB01-033" ]
   },
   "Q703": {
@@ -8295,18 +8295,18 @@
     "date": "2026-08-17",
     "question": {
       "jp": "自分のホロメンをBloomさせる前にかかっていた能力は、Bloom後も引き継がれますか？",
-      "en": null
+      "en": "Will all effects that were active on my holomem before it bloomed carry over after it blooms?"
     },
-    "answer": { "jp": "はい、引き継ぎます。", "en": null }
+    "answer": { "jp": "はい、引き継ぎます。", "en": "Yes, they will remain." }
   },
   "Q704": {
     "qna_number": "Q704",
     "date": "2026-09-11",
     "question": {
       "jp": "相手のセンターホロメンが1stの時、hBP09-001〈大空スバル〉の推しスキル「大空警察出動！」の能力でhBP06-083〈ラムダック〉をステージに出すことはできますか？",
-      "en": null
+      "en": "I used hBP09-001 Oozora Subaru's Oshi Skill \"Oozora Police Dispatched!\" and chose my opponent's 1st holomem. In this case, can I place hBP06-083 LAMBDUCK on stage?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP06-083", "hBP09-001" ]
   },
   "Q705": {
@@ -8314,9 +8314,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のホロパワーが10枚ある時、hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で、相手のホロメン1人を2ndホロメンにしました。\nこの場合、hBP09-001〈大空スバル〉の推しスキル「大空警察出動！」の能力でそのホロメンを選び、2nd〈大空スバル〉をステージに出すことはできますか？",
-      "en": null
+      "en": "While I have 10 cards in holo Power, I used hBP09-022 Tsunomaki Watame's Bloom Effect \"Watamate's Paradise\" to make one of my opponent's holomem be regarded as a 2nd holomem.\nIn this case, can I use hBP09-001 Oozora Subaru's Oshi Skill, \"Oozora Police Dispatched!\" to choose that holomem and place a 2nd holomem Oozora Subaru on stage?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP09-001", "hBP09-022" ]
   },
   "Q706": {
@@ -8324,11 +8324,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のホロパワーが10枚ある時、hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で、相手の1stホロメン1人を2ndホロメンにしました。\nこの場合、hBP09-001〈大空スバル〉の推しスキル「大空警察出動！」の能力でそのホロメンを選び、1st〈大空スバル〉をステージに出すことはできますか？",
-      "en": null
+      "en": "While I have 10 cards in holo Power, I used hBP09-022 Tsunomaki Watame's Bloom Effect \"Watamate's Paradise\" to make one of my opponent's 1st holomem be regarded as a 2nd holomem.\nIn this case, can I use hBP09-001 Oozora Subaru's Oshi Skill, \"Oozora Police Dispatched!\" to choose that holomem and place a 1st holomem Oozora Subaru on stage?"
     },
     "answer": {
       "jp": "はい、できます。\nhBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で選んだホロメンは1stであり2ndでもあるホロメンとして扱われます。",
-      "en": null
+      "en": "Yes, you can. The holomem you choose when using \"Watamate's Paradise\" will be regarded as both a 1st and 2nd holomem."
     },
     "referenced_cards": [ "hBP09-001", "hBP09-022" ]
   },
@@ -8337,11 +8337,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-002〈轟はじめ〉の推しステージスキル「目指せ、宇宙一の番長！」の「バトンタッチした時」とは、どのポジションから〈轟はじめ〉が移動した時を指しますか？",
-      "en": null
+      "en": "In hBP09-002 Todoroki Hajime's Oshi Stage Skill \"Aiming to Be the #1 Badass in the Universe\", which holomem is referred to by the text \"When your <Todoroki Hajime> uses baton pass\"?"
     },
     "answer": {
       "jp": "バトンタッチとは、センターホロメンがバックホロメンと交代することを指します。\nこの場合、センターポジションのホロメンは〈轟はじめ〉である必要があります。",
-      "en": null
+      "en": "This refers to the center holomem which is being replaced by a back holomem.\nIn this case, the holomem in the center position must be Todoroki Hajime."
     },
     "referenced_cards": [ "hBP09-002" ]
   },
@@ -8350,9 +8350,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-004〈カエラ・コヴァルスキア〉の推しスキル「レアアイテムを発見せよ！」の能力は、自分のステージにツールが1枚しかない場合、1枚のみアーカイブされますか？",
-      "en": null
+      "en": "When using hBP09-004 Kaela Kovalskia's Oshi Skill \"Rare Item Discovered!\", if there is only one tool on my stage, will that one tool be archived?"
     },
-    "answer": { "jp": "はい、アーカイブされます。", "en": null },
+    "answer": { "jp": "はい、アーカイブされます。", "en": "Yes, it will still be archived." },
     "referenced_cards": [ "hBP09-004" ]
   },
   "Q709": {
@@ -8360,11 +8360,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-005〈常闇トワ〉の推しステージスキル「魔弾の射手」の「アーツを使った後、そのホロメンが持つ異なるアーツ名のアーツをもう1回使える。」とは、どういう意味ですか？",
-      "en": null
+      "en": "In hBP09-005 Tokoyami Towa's Oshi Stage Skill \"Magic Bullet Shooter\", what does the phrase \"you may use another differently-named Arts from that holomem\" mean?"
     },
     "answer": {
       "jp": "通常アーツは1ターンに、1人につき1回しか使えませんが、アーツを使った後、そのホロメンが持つアーツを追加で使うことができることを指します。",
-      "en": null
+      "en": "Normally, Arts can only be used once per turn with each holomem, but this refers to the ability to use an additional Arts that the holomem has after using its Arts once."
     },
     "referenced_cards": [ "hBP09-005" ]
   },
@@ -8373,11 +8373,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分の推しホロメンがhBP09-005〈常闇トワ〉の時、青エールが1枚付いているhBP09-051〈常闇トワ〉がアーツ「愛され系小悪魔」を使いました。\nこの場合、hBP09-005〈常闇トワ〉の推しステージスキル「魔弾の射手」の能力でアーツ「こういうのもいいでしょ？」をエールが足りていなくても使うことはできますか？",
-      "en": null
+      "en": "My Oshi holomem is hBP09-005 Tokoyami Towa, and my hBP09-051 Tokoyami Towa, which has one blue cheer attached, uses the Arts \"Beloved Little Devil\".\nCan I now use the Arts \"Is Something Like This Good?\" using Tokoyami Towa's Oshi Stage Skill \"Magic Bullet Shooter\" even though I don't have enough cheers?"
     },
     "answer": {
       "jp": "いいえ、できません。\nアーツに必要なエールは付いていなければなりません。",
-      "en": null
+      "en": "No, you cannot. You must have the necessary cheers to use the Arts."
     },
     "referenced_cards": [ "hBP09-005", "hBP09-051" ]
   },
@@ -8386,9 +8386,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-005〈常闇トワ〉の推しステージスキル「魔弾の射手」の能力は、自分のセンターポジションにいる〈常闇トワ〉がアーツを使った後、もう一回アーツを使う前にコラボホロメンのアーツから使い、その後、再びセンターポジションの〈常闇トワ〉がアーツを使うことはできますか？",
-      "en": null
+      "en": "Using hBP09-005 Tokoyami Towa's Oshi Stage Skill \"Magic Bullet Shooter\", if my center Tokoyami Towa uses an Arts, can I use an Arts from my collab holomem before using a second Arts from my center holomem?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP09-005" ]
   },
   "Q712": {
@@ -8396,9 +8396,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のパフォーマンスステップで、hBP01-023〈ときのそら〉がアーツ「止まらねえぞ」を使い、アーツの能力で9回アーツを使いました。\nこの場合、hBP09-005〈常闇トワ〉の推しスキル「とびっきりオーバーなショット」の能力でデッキを10枚引くことはできますか？",
-      "en": null
+      "en": "During my performance phase, my hBP01-023 Tokino Sora used the Arts \"Not gonna stop\", and repeated the Arts 9 times using its ability.\nIn this case, can I draw 10 cards with hBP09-005 Tokoyami Towa's Oshi Skill \"Extreme Overshot\"?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP01-023", "hBP09-005" ]
   },
   "Q713": {
@@ -8406,9 +8406,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のパフォーマンスステップで、hEB01-010〈ときのそら〉がアーツ「振り返れば、いつもあなたが。」を使い、アーツの能力でアクティブな2nd〈ときのそら〉を5人お休みさせました。\nこの場合、hBP09-005〈常闇トワ〉の推しスキル「とびっきりオーバーなショット」の能力でデッキを6枚引くことはできますか？",
-      "en": null
+      "en": "During my performance phase, my hEB01-010 Tokino Sora used the Arts \"You're Always There When I Turn Around\", and repeated the Arts 5 times by resting 5 2nd holomem Tokino Sora.\nIn this case, can I draw 6 cards with hBP09-005 Tokoyami Towa's Oshi Skill \"Extreme Overshot\"?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP09-005", "hEB01-010" ]
   },
   "Q714": {
@@ -8416,9 +8416,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-008〈大空スバル〉のギフト「カジュアルスバル」の能力は、相手のセンターホロメンとコラボホロメンがアーツを使い、合わせて40以上のダメージを受けた時でも特殊ダメージ30を与えることはできますか？",
-      "en": null
+      "en": "Regarding hBP09-008 Oozora Subaru's Gift \"Casual Subaru\", does it still deal 30 special damage when my opponent's center holomem and collab holomem use Arts and deal a combined total of 40 or more damage?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, it does not." },
     "referenced_cards": [ "hBP09-008" ]
   },
   "Q715": {
@@ -8426,9 +8426,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-011〈大空スバル〉のギフト「雨中のお日様」の能力は、相手のセンターホロメンとコラボホロメンがアーツを使い、合わせて100以上のダメージを受けた時でも自分のデッキを2枚引くことはできますか？",
-      "en": null
+      "en": "Regarding hBP09-011 Oozora Subaru's Gift \"Sunshine In the Rain\", can I still draw 2 cards when my opponent's center holomem and collab holomem use Arts and deal a combined total of 100 or more damage?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP09-011" ]
   },
   "Q716": {
@@ -8436,9 +8436,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分の手札が6枚の時に、hBP09-011〈大空スバル〉のアーツ「雨にも負けず風にも負けず」を相手のhBP09-069〈綺々羅々ヴィヴィ〉に使い、デッキを1枚引き、手札が7枚になりました。\nこの場合、相手のhBP09-069〈綺々羅々ヴィヴィ〉に与えられるダメージは-50されますか？",
-      "en": null
+      "en": "I have 6 cards in my hand and I use hBP09-011 Oozora Subaru's Arts \"Neither Rain nor Wind Will Stop Me\" on my opponent's hBP09-069 Kirara Vivi, draw one card from my deck, and now have 7 cards in my hand.\nIn this case, will the damage dealt to my opponent's Kirara Vivi be reduced by 50?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP09-011", "hBP09-069" ]
   },
   "Q717": {
@@ -8446,9 +8446,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-014〈大空スバル〉のギフト「それ、没収っスよ！」の能力は、相手のセンターホロメンとコラボホロメンがアーツを使い、合わせて200以上のダメージを受けた時でも、相手は、自身のセンターホロメンのエールすべてを好きな順でエールデッキの下に戻しますか？",
-      "en": null
+      "en": "Regarding hBP09-014 Oozora Subaru's Gift \"I'm Confiscating That!\", does my opponent still return their center holomem's cheers to their cheer deck when their center holomem and collab holomem use Arts and deal a combined total of 200 or more damage?"
     },
-    "answer": { "jp": "いいえ、戻しません。", "en": null },
+    "answer": { "jp": "いいえ、戻しません。", "en": "No, they do not." },
     "referenced_cards": [ "hBP09-014" ]
   },
   "Q718": {
@@ -8456,9 +8456,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-023〈ベスティア・ゼータ〉のギフト「ゴシックゼータ」の能力は、ダウン処理を終えてから使うことはできますか？",
-      "en": null
+      "en": "Can I use hBP09-023 Vestia Zeta's Gift \"Gothic Zeta\" after the down process is complete?"
     },
-    "answer": { "jp": "いいえ、できません。", "en": null },
+    "answer": { "jp": "いいえ、できません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP09-023" ]
   },
   "Q719": {
@@ -8466,11 +8466,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-037〈輪堂千速〉のギフト「Fantastic Driver」の能力で、自分の#FLOW GLOWを持つバックホロメンを手札に戻しました。\nこの場合、そのホロメンに付いていたカードも戻しますか？",
-      "en": null
+      "en": "Using hBP09-037 Rindo Chihaya's Gift \"Fantastic Driver\", I returned a back holomem with #FLOW GLOW to my hand.\nIn this case, do I also return the cards that were attached to that holomem to my hand?"
     },
     "answer": {
       "jp": "いいえ、戻しません。\n付いていたカードはすべてアーカイブに置かれます。",
-      "en": null
+      "en": "No, you do not. The attached cards are archived."
     },
     "referenced_cards": [ "hBP09-037" ]
   },
@@ -8479,9 +8479,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-042〈カエラ・コヴァルスキア〉のアーツ「木立にひそむ神秘」の能力で、アーカイブから#カエラ'sアームズを持つツールをこのホロメンに付けた時、hBP09-004〈カエラ・コヴァルスキア〉の推しステージスキル「TO THE FORGE NOW」の能力でデッキを2枚引くことはできますか？",
-      "en": null
+      "en": "When I use hBP09-042 Kaela Kovalskia's Arts \"Mystery Lurking in the Grove\" to attach a tool with #Kaela's Arms from my archive to this holomem, can I draw two cards from my deck using hBP09-004 Kaela Kovalskia's Oshi Stage Skill \"TO THE FORGE NOW\"?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP09-004", "hBP09-042" ]
   },
   "Q721": {
@@ -8489,9 +8489,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-042〈カエラ・コヴァルスキア〉のアーツ「木立にひそむ神秘」の能力で、アーカイブからhBP09-107〈カエラが作ったホロソード〉をこのホロメンに付けた時。このアーツダメージはhBP09-107〈カエラが作ったホロソード〉の能力で+40されますか？",
-      "en": null
+      "en": "When using hBP09-042 Kaela Kovalskia's Arts \"Mystery Lurking in the Grove\" to attach hBP09-107 Kaela-Forged holosword from my archive to this holomem, is the Arts damage increased by +40 by the ability of Kaela-Forged holosword?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, it is increased by +40." },
     "referenced_cards": [ "hBP09-042", "hBP09-107" ]
   },
   "Q722": {
@@ -8499,9 +8499,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-044〈カエラ・コヴァルスキア〉にツールが2枚付いている時、hBP09-043〈カエラ・コヴァルスキア〉にBloom させました。\nこの場合、すでに付いている2枚のツールのうち、どちらかをアーカイブへ送りますか？",
-      "en": null
+      "en": "My hBP09-044 Kaela Kovalskia has two tools attached, and I bloomed it to hBP09-043 Kaela Kovalskia. In this case, do I archive one of the two attached tools?"
     },
-    "answer": { "jp": "はい、送ります。", "en": null },
+    "answer": { "jp": "はい、送ります。", "en": "Yes, you do." },
     "referenced_cards": [ "hBP09-043", "hBP09-044" ]
   },
   "Q723": {
@@ -8509,11 +8509,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-044〈カエラ・コヴァルスキア〉に#カエラ'sアームズを持つツールが1枚付いている時、#カエラ'sアームズを持たないツールを付けることはできますか？",
-      "en": null
+      "en": "If my hBP09-044 Kaela Kovalskia has a tool with #Kaela's Arms attached, can I attach a second tool to that holomem which does not have #Kaela's Arms?"
     },
     "answer": {
       "jp": "いいえ、できません。\nもう1枚として付けるツールは#カエラ'sアームズを持っている必要があります。",
-      "en": null
+      "en": "No, you cannot. The second tool attached must have #Kaela's Arms."
     },
     "referenced_cards": [ "hBP09-044" ]
   },
@@ -8522,11 +8522,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-046〈百鬼あやめ〉のコラボエフェクト「鬼の戯れ」の能力は、自分のステージのホロメンが6枚でも使えますか？",
-      "en": null
+      "en": "Can I still use hBP09-046 Nakiri Ayame's Collab Effect \"Oni's Play\" even if there are 6 holomem on my stage?"
     },
     "answer": {
       "jp": "はい、使えます。\nその場合、エールデッキの上から1枚をアーカイブした後、デッキをシャッフルして処理を終了します。",
-      "en": null
+      "en": "Yes, you can. In this case, you archive the top card of your cheer deck, then shuffle your deck and finish the process."
     },
     "referenced_cards": [ "hBP09-046" ]
   },
@@ -8535,9 +8535,12 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-050〈ハコス・ベールズ〉のコラボエフェクト「大空警察国際部代表」の能力で相手のホロメンをコラボポジションへ移動させた時、そのホロメンのコラボエフェクトは発揮されますか？",
-      "en": null
+      "en": "When using hBP09-050 Hakos Baelz's Collab Effect \"Oozora Police International Division Representative\" to move an opponent's holomem to the collab position, will that holomem's Collab Effect be activated?"
     },
-    "answer": { "jp": "いいえ、移動はコラボとしては扱わないため、されません。", "en": null },
+    "answer": {
+      "jp": "いいえ、移動はコラボとしては扱わないため、されません。",
+      "en": "No, the move is not treated as a collab, so it does not activate."
+    },
     "referenced_cards": [ "hBP09-050" ]
   },
   "Q726": {
@@ -8545,9 +8548,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-055〈常闇トワ〉のアーツ「今、寝てたでしょ～？」の能力は、〈常闇トワ〉以外のホロメンが使うアーツを含めて数えますか？",
-      "en": null
+      "en": "Does the ability of hBP09-055 Tokoyami Towa's Arts \"You Were Sleeping, Weren't You?\" also count Arts used by other holomem?"
     },
-    "answer": { "jp": "はい、数えます。", "en": null },
+    "answer": { "jp": "はい、数えます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP09-055" ]
   },
   "Q727": {
@@ -8555,9 +8558,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-056〈常闇トワ〉のアーツ「研鑽の果ての一撃」の能力は、〈常闇トワ〉以外のホロメンが使うアーツを含めて数えますか？",
-      "en": null
+      "en": "Does the ability of hBP09-056 Tokoyami Towa's Arts \"Impact Achieved through Rigorous Training\" also count Arts used by other holomem?"
     },
-    "answer": { "jp": "はい、数えます。", "en": null },
+    "answer": { "jp": "はい、数えます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP09-056" ]
   },
   "Q728": {
@@ -8565,9 +8568,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-057〈常闇トワ〉のアーツ「魔界学校の優等生」の能力は、〈常闇トワ〉以外のホロメンが使うアーツを含めて数えますか？",
-      "en": null
+      "en": "Does the ability of hBP09-057 Tokoyami Towa's Arts \"Top Student at the Underworld Academy\" also count Arts used by other holomem?"
     },
-    "answer": { "jp": "はい、数えます。", "en": null },
+    "answer": { "jp": "はい、数えます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP09-057" ]
   },
   "Q729": {
@@ -8575,9 +8578,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-057〈常闇トワ〉のアーツ「一人前の悪魔になるために」の能力は、〈常闇トワ〉以外のホロメンが使うアーツを含めて数えますか？",
-      "en": null
+      "en": "Does the ability of hBP09-057 Tokoyami Towa's Arts \"To Become a Full-Fledged Devil\" also count Arts used by other holomem?"
     },
-    "answer": { "jp": "はい、数えます。", "en": null },
+    "answer": { "jp": "はい、数えます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP09-057" ]
   },
   "Q730": {
@@ -8585,11 +8588,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-063〈オーロ・クロニー〉のブルームエフェクト「Student of Time」の「デッキを下から1枚引く。」とは、どういう意味ですか？",
-      "en": null
+      "en": "In hBP09-063 Ouro Kronii's Bloom Effect \"Student of Time\", what does the phrase \"Draw 1 card from the bottom of your deck\" mean?"
     },
     "answer": {
       "jp": "デッキの一番下のカード1枚を、表を見せずに引くことを指します。",
-      "en": null
+      "en": "This means drawing the bottom card of your deck without revealing it."
     },
     "referenced_cards": [ "hBP09-063" ]
   },
@@ -8598,11 +8601,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-071〈AZKi〉のコラボエフェクト「開拓の旅路を歩む少女」の効果を使用して〈風真いろは〉のアーツを+10した後、そのターン中にホロパワーが0枚になりました。この場合、〈風真いろは〉の与えられるアーツダメージは減少しますか？",
-      "en": null
+      "en": "I used hBP09-071 AZKi's Collab Effect \"Girl on a Pioneering Journey\" to increase my Kazama Iroha's Arts by +10, then later in the turn spent holo Power and ended up with 0 cards in holo Power.\nIn this case, does the Arts damage dealt by Kazama Iroha decrease?"
     },
     "answer": {
       "jp": "いいえ、〈風真いろは〉のアーツは+10されたままです。\n「開拓の旅路を歩む少女」の効果は解決されているため、解決後に変化したホロパワーの枚数は参照されません。",
-      "en": null
+      "en": "No, Iroha Kazama's Arts remain at +10.\nThe effect given by \"Girl on a Pioneering Journey\" refers to the number of cards in your holo Power at the time it is resolved, and any future change to that number does not affect it."
     },
     "referenced_cards": [ "hBP09-071" ]
   },
@@ -8611,9 +8614,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使い、このターンにLIMITEDのサポートカードを2枚使いました。\nその後、hBP09-087〈夏色まつり〉のコラボエフェクト「あざとい清楚担当」を使った場合、このターンにさらにLIMITEDのサポートカードを2枚使えますか？",
-      "en": null
+      "en": "I used hBP06-008 Natsuiro Matsuri's SP Oshi Skill \"I Absolutely Want to Win!!!!!!!\" and used two LIMITED support cards during my turn.\nIf I now use hBP09-087 Natsuiro Matsuri's Collab Effect \"The Cunningly Innocent Type\", can I use two more LIMITED support cards this turn?"
     },
-    "answer": { "jp": "いいえ、使えません。", "en": null },
+    "answer": { "jp": "いいえ、使えません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP06-008", "hBP09-087" ]
   },
   "Q733": {
@@ -8621,9 +8624,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP02-086〈ホロスパークリング〉が付いているhBP09-088〈桃鈴ねね〉が相手のアーツで190ダメージを受ける時、ギフト「キミと二度寝」の能力でアーツダメージを受けなくすることはできますか？",
-      "en": null
+      "en": "If my hBP09-088 Momosuzu Nene with a hBP02-086 holoSparkling attached takes 190 damage from an opponent's Arts (increased to 200), does the Gift \"Sleeping in with You\" prevent it from taking damage?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP02-086", "hBP09-088" ]
   },
   "Q734": {
@@ -8631,11 +8634,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-091〈あずいろ BESTIE DAYS〉の能力は、自分のステージにDebutか1st以上の〈AZKi〉や〈風真いろは〉がいなければ1stの〈AZKi〉や〈風真いろは〉を出すことができませんか？",
-      "en": null
+      "en": "When using hBP09-091 AzuIro BESTIE DAYS, if there are no Debut or 1st holomem AZKi or Kazama Iroha on my stage, can I still place a 1st AZKi or Kazama Iroha?"
     },
     "answer": {
       "jp": "いいえ、出せます。 \nこの能力は、Bloomさせるのではなく、1stホロメンを直接ステージに出します。",
-      "en": null
+      "en": "Yes, you can still place them. This ability does not Bloom a holomem on your stage, but instead brings the 1st holomem directly onto the stage."
     },
     "referenced_cards": [ "hBP09-091" ]
   },
@@ -8644,11 +8647,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のステージにホロメンが1人の時、hBP09-093〈応援するホロリス〉の能力で、エールを付け替えずに使うことはできますか？",
-      "en": null
+      "en": "If there is only one holomem on my stage, can I use hBP09-093 Supportive hololive Listeners without moving any cheer?"
     },
     "answer": {
       "jp": "いいえ、できません。\nこの場合、エールの付け替えができず、ステージにホロメンが4人いないので使えません。",
-      "en": null
+      "en": "No, you cannot. In this case, since you can't move the cheers and there aren't four holomem on your stage, you cannot use Supporting hololive Listeners."
     },
     "referenced_cards": [ "hBP09-093" ]
   },
@@ -8657,11 +8660,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のステージにホロメンが4人で、1人にのみエールが付いており、アーカイブにエールが無い時、hBP09-093〈応援するホロリス〉の能力で、エールを付け替えずに使うことはできますか？",
-      "en": null
+      "en": "If I have four holomem on my stage, and only one of them has cheers attached, and there are no cheers in my archive, can I use hBP09-093 Supportive hololive Listeners without moving any cheer?"
     },
     "answer": {
       "jp": "いいえ、できません。\nエールの付け替えができる場合、必ず付け替える必要があります。",
-      "en": null
+      "en": "No, you cannot. If it is possible to move any cheers, you must move at least 1."
     },
     "referenced_cards": [ "hBP09-093" ]
   },
@@ -8670,11 +8673,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のステージにホロメンが4人で、全員にエールが1枚ずつ付いている時、hBP09-093〈応援するホロリス〉の能力で、エールを付け替えずに、アーカイブのエール1枚を自分のホロメンに送れますか？",
-      "en": null
+      "en": "If I have four holomem on my stage, and each of them has one cheer attached, can I use hBP09-093 Supportive hololive Listeners to send one cheer from my archive to my holomem without moving any cheer?"
     },
     "answer": {
       "jp": "いいえ、できません。\nエールの付け替えができる場合、必ず付け替える必要があります。",
-      "en": null
+      "en": "No, you cannot. If it is possible to move any cheers, you must move at least 1."
     },
     "referenced_cards": [ "hBP09-093" ]
   },
@@ -8683,9 +8686,12 @@
     "date": "2026-09-11",
     "question": {
       "jp": "相手のステージにセンターホロメンとバックホロメンが1人の時、hBP09-094〈大空警察〉を使い、相手のバックホロメンを選びました。\nその後、相手のセンターホロメンをダウンさせた場合、相手のリセットステップでセンターポジションに出すホロメンはお休みしたままになりますか？",
-      "en": null
+      "en": "My opponent's stage has a center holomem and one back holomem, and I use hBP09-094 Oozora Police to choose my opponent's back holomem.\nIf I then down my opponent's center holomem, will the holomem that my opponent would normally place in the center position during their reset step remain resting?"
     },
-    "answer": { "jp": "はい、お休みしたままになります。", "en": null },
+    "answer": {
+      "jp": "はい、お休みしたままになります。",
+      "en": "Yes, it moves to the center while still resting."
+    },
     "referenced_cards": [ "hBP09-094" ]
   },
   "Q739": {
@@ -8693,9 +8699,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP06-001〈ラオーラ・パンテーラ〉のSP推しスキル「BIG TROUBLE!!」を使った後に、相手がhBP09-094〈大空警察〉を使い、相手のバックホロメンの〈ラオーラ・パンテーラ〉を選びました。\nこの場合、選ばれたホロメンはお休みしますか？",
-      "en": null
+      "en": "After I used hBP06-001 Raora Panthera's SP Oshi Skill \"BIG TROUBLE!!\", my opponent used hBP09-094 Oozora Police and chose 1 of my back Raora Panthera.\nIn this case, will the chosen holomem be rested?"
     },
-    "answer": { "jp": "はい、お休みします。", "en": null },
+    "answer": { "jp": "はい、お休みします。", "en": "Yes, it is rested." },
     "referenced_cards": [ "hBP06-001", "hBP09-094" ]
   },
   "Q740": {
@@ -8703,11 +8709,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のアーカイブにhBP09-095〈君に乾杯〉が1枚ある時、hBP09-095〈君に乾杯〉を使いました。\nこの場合、使っているhBP09-095〈君に乾杯〉を含めて数えることはできますか？",
-      "en": null
+      "en": "I have one copy of hBP09-095 Kanpai in my archive, and I used a second copy of Kanpai. Can I count the copy of Kanpai that I'm using as part of the total number of copies in archive?"
     },
     "answer": {
       "jp": "いいえ、カードの処理中はアーカイブには置かれていないため含めることはできません。",
-      "en": null
+      "en": "No, cards being played are not counted as being in archive while they are being processed."
     },
     "referenced_cards": [ "hBP09-095" ]
   },
@@ -8716,9 +8722,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のステージにホロメンが1人の時、hBP09-097〈コンビプレイ〉の能力で、元々エールが付いていたホロメンにエールを送ることはできますか？",
-      "en": null
+      "en": "If there is only one holomem on my stage, can I use hBP09-097 Co-op Play to send a cheer to the holomem from which I returned a cheer to the cheer deck?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP09-097" ]
   },
   "Q742": {
@@ -8726,9 +8732,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のステージにホロメンが1人の時、hBP09-097〈コンビプレイ〉の能力で、元々エールが付いていたホロメンに同じ色のエールを送ることはできますか？",
-      "en": null
+      "en": "If there is only one holomem on my stage, can I use hBP09-097 Co-op Play to send a cheer of the same color as the one I returned, to the holomem from which I returned a cheer to the cheer deck?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP09-097" ]
   },
   "Q743": {
@@ -8736,9 +8742,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のエールデッキが0枚で、自分のステージのホロメンが1人の時、hBP09-097〈コンビプレイ〉の能力で、エールデッキに戻したエールをそのホロメンに送ることはできますか？",
-      "en": null
+      "en": "If I have no cards in my cheer deck and only 1 holomem on my stage, can I use hBP09-097 Co-op Play to return one of that holomem's cheer to my cheer deck and then send it back to that holomem?"
     },
-    "answer": { "jp": "はい、できます。", "en": null },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP09-097" ]
   },
   "Q744": {
@@ -8746,11 +8752,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のアーカイブにLIMITEDのサポートが無い時、hBP09-098〈スイカバブル〉を使いました。\nこの場合、hBP09-098〈スイカバブル〉はアーカイブに置かれたことになり、自分の手札4枚を好きな順でデッキの下に戻さなければなりませんか？",
-      "en": null
+      "en": "If I use hBP09-098 Watermelon Bubble when I don't have any LIMITED support in my archive, does that mean Watermelon Bubble is placed in my archive, and I have to return four cards from my hand to the bottom of my deck in any order?"
     },
     "answer": {
       "jp": "いいえ、カードの処理中はアーカイブには置かれていないため戻す必要はありません。",
-      "en": null
+      "en": "No, cards being played are not counted as being in archive while they are being processed, so there is no need to return any cards."
     },
     "referenced_cards": [ "hBP09-098" ]
   },
@@ -8759,9 +8765,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-101〈バカ！変態！うるさーい！もう知らなーい！〉の能力は、〈常闇トワ〉以外のホロメンが使うアーツを含めて数えますか？",
-      "en": null
+      "en": "Does the ability of hBP09-101 Dummy! Pervert! Shut Up! I Don't Know You Anymore! count Arts used by holomem other than Tokoyami Towa?"
     },
-    "answer": { "jp": "はい、数えます。", "en": null },
+    "answer": { "jp": "はい、数えます。", "en": "Yes, it does." },
     "referenced_cards": [ "hBP09-101" ]
   },
   "Q746": {
@@ -8769,11 +8775,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "hBP09-102〈ばんちょーダンス〉の能力は、ホロパワーからカードを手札に加えないことはできますか？",
-      "en": null
+      "en": "Can I use hBP09-102 Banchou Dance without adding cards to my hand from holo Power?"
     },
     "answer": {
       "jp": "いいえ、できません。\nホロパワーが1枚以上ある場合、1枚は手札に加える必要があります。",
-      "en": null
+      "en": "No, you cannot. If you have one or more cards in holo Power, you must add at least one to your hand."
     },
     "referenced_cards": [ "hBP09-102" ]
   },
@@ -8782,11 +8788,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のデッキが0枚でホロパワーが1枚以上の時、hBP09-102〈ばんちょーダンス〉を使うことはできますか？",
-      "en": null
+      "en": "If my deck has no cards and I have 1 or more cards in holo Power, can I use hBP09-102 Banchou Dance?"
     },
     "answer": {
       "jp": "はい、使えます。\nこの場合、ホロパワーが1枚以上あるので、1枚は手札に加える必要があります。",
-      "en": null
+      "en": "Yes, you can use it. In this case, since you have one or more cards in holo Power, you must add at least one to your hand."
     },
     "referenced_cards": [ "hBP09-102" ]
   },
@@ -8795,9 +8801,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のデッキが0枚でホロパワーが0枚以上の時、hBP09-102〈ばんちょーダンス〉を使うことはできますか？",
-      "en": null
+      "en": "If my deck and holo Power both have no cards, can I use hBP09-102 Banchou Dance?"
     },
-    "answer": { "jp": "いいえ、使えません。", "en": null },
+    "answer": { "jp": "いいえ、使えません。", "en": "No, you cannot." },
     "referenced_cards": [ "hBP09-102" ]
   },
   "Q749": {
@@ -8805,9 +8811,9 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のステージにHPが最も高いホロメンが2人いる時、hBP09-104〈ホロライブ体力王決定戦〉を使いました。\nこの場合、どちらもアーツ+30されますか？",
-      "en": null
+      "en": "If I have two holomem on my stage with equal HP as the highest HP, and I use hBP09-104 hololive Fitness Championship, will both of them get Arts+30?"
     },
-    "answer": { "jp": "はい、されます。", "en": null },
+    "answer": { "jp": "はい、されます。", "en": "Yes, they both receive the effect." },
     "referenced_cards": [ "hBP09-104" ]
   },
   "Q750": {
@@ -8815,11 +8821,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "自分のステージにhBP09-029〈白銀ノエル〉が2人いる時、hBP09-104〈ホロライブ体力王決定戦〉を使いました。\nその後、1人をhBP09-031〈白銀ノエル〉にBloomさせた場合、どちらもアーツ+30されたままですか？",
-      "en": null
+      "en": "If I have two hBP09-029 Shirogane Noel with the same highest HP on my stage and I use hBP09-104 hololive Fitness Championship, then bloom one of them to hBP09-031 Shirogane Noel, will both of them still have Arts+30?"
     },
     "answer": {
       "jp": "はい、使った後にHPの変動があった場合でも変化はありません。",
-      "en": null
+      "en": "Yes, there is no change to the effect even if your holomem's HP changes after using hololive Fitness Championship."
     },
     "referenced_cards": [ "hBP09-029", "hBP09-031", "hBP09-104" ]
   },
@@ -8828,11 +8834,11 @@
     "date": "2026-09-11",
     "question": {
       "jp": "「そしてデッキをシャッフルする。」と書かれている能力は、他の能力が処理できない場合、シャッフルしなくてもいいですか？",
-      "en": null
+      "en": "If an ability says \"Shuffle your deck\", does that mean I don't have to shuffle if other parts of the ability cannot be processed?"
     },
     "answer": {
       "jp": "いいえ、「そしてデッキをシャッフルする。」と書かれている場合、他の能力を処理できずとも必ずデッキをシャッフルする必要があります。",
-      "en": null
+      "en": "No, if it says \"Shuffle your deck\", you must shuffle your deck even if you cannot process other parts of the ability."
     }
   }
 }
