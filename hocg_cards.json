@@ -38613,6 +38613,20 @@
       },
       {
         "card_number": "hBP05-074",
+        "manage_id": { "en": [ 1950 ] },
+        "rarity": "P",
+        "illustrator": "王漫",
+        "img_path": { "jp": null, "en": "hPR/EN_hBP05-074_P.webp" },
+        "img_last_modified": { "en": "Fri, 02 Oct 2026 07:00:03 GMT" },
+        "img_hash": "v2|H32=pNutslZzkrZjZKgWhM1DTlCpGWvOpJJqtXZO6rdUaqtWWpJOkW1LJSuvGRmzpc0tadpZq6kw2XVNqqpUUriVVtqltFo|CYM=1F2108",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C83" ] ],
+        "similarity_index": 6,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-074",
         "manage_id": { "jp": [ 2693 ] },
         "rarity": "P",
         "illustrator": "risumi",
@@ -38624,19 +38638,6 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 2
-      },
-      {
-        "card_number": "hBP05-074",
-        "manage_id": { },
-        "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": null, "en": "unreleased/hBP05-074_P.webp" },
-        "img_hash": "v2|H32=lNulsgN3tLZvZKhWVOlrS1ypUWr7pJ5itXZawrdSc6tWWpZGsWlLaSmtSTbJpEkuabJNq+lSabVLqvpQUry1QlqltJI|CYM=1F2108",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C83" ] ],
-        "similarity_index": 6,
-        "yuyutei_sell_paths": null,
-        "tcgplayer_product_ids": null,
-        "delta_art_index": null
       },
       {
         "card_number": "hBP05-074",
@@ -77942,8 +77943,8 @@
         "rarity": "P",
         "illustrator": "たうた",
         "img_path": { "jp": "hPR/hSD13-013_P.webp", "en": "hPR/EN_hSD13-013_P.webp" },
-        "img_last_modified": { "jp": "Fri, 01 May 2026 03:00:11 GMT", "en": "Fri, 17 Jul 2026 07:00:13 GMT" },
-        "img_hash": "v2|H32=UFUrZZdVVLstm+u6m9ql7kxcLOwW5VsVUiVKUUtUnK7HUuZIamURp1PKrbClUmnRjaVRsoaWD9JQm1VoktaVZOGwbVk|CYM=2C341F",
+        "img_last_modified": { "jp": "Fri, 01 May 2026 03:00:11 GMT", "en": "Fri, 02 Oct 2026 07:00:03 GMT" },
+        "img_hash": "v2|H32=QFUrZpdVRLktm+u6m9ql5kxcLOwW9VsVUiVaEUt0nK5HUuZIamURp1PKrbClUmnRjKVRupaWD9JQm1VpotaUbOGwbdk|CYM=2D3520",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hsd10/10059" ],
@@ -77952,11 +77953,12 @@
       },
       {
         "card_number": "hSD13-013",
-        "manage_id": { },
+        "manage_id": { "en": [ 1949 ] },
         "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": null, "en": "unreleased/hSD13-013_P.webp" },
-        "img_hash": "v2|H32=0miTapVq8KssU9yy/NTJVtKUpsx208qUJNlIN3vMZG1KTbZaUk3EtMFpWdfRsm0pVprUtKSrTcrblGqtr4KUVigptaw|CYM=0F3046",
+        "illustrator": "むっちりしいたけ",
+        "img_path": { "jp": null, "en": "hPR/EN_hSD13-013_P_02.webp" },
+        "img_last_modified": { "en": "Fri, 02 Oct 2026 07:00:02 GMT" },
+        "img_hash": "v2|H32=0miTav1q8aqkU9yy2NTJVtKUpMwyk8qVLNlIM1tMZG1KTb5EUk3ktsxgWNcRsilpdtqWtKbrTdrbskKlq4KVVih4pa0|CYM=0D324B",
         "ogbajoj_sheet_cells": [ [ 419749048, "C111" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -80942,6 +80944,31 @@
         "img_path": { "jp": "unreleased/hSD20-012_U.webp", "en": null },
         "img_hash": "v2|H32=or6jqpSKoCqra1RBKmFsUWxSZDQvNlQ2do4+zTvNUk+CV1JFR+AsuoPDLZqLjy2a+Bipan54qWju46kq4KLhgyp4IBk|CYM=132D1D",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C14" ], [ 2109917797, "C37" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD20-013": {
+    "card_number": "hSD20-013",
+    "name": { "jp": "ぐるぐるTIME!", "en": "Guruguru TIME!" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if all holomem on your stage are holomem with #ASOBI★MAWARI-TAI!.\n\nSwap your opponent's center holomem with 1 of their back holomem. Play rock-paper-scissors with your opponent until there's a winner. If you won, draw 3 cards."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-013",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-013_U.webp", "en": null },
+        "img_hash": "v2|H32=SmuralhKSF5rmlSWoLKztreylpWvnTbdJMkmaTFjkGu77RJNE3wtuh8PLYvwwe2LAZep4PBL6Wjw8KHDj8N48GB+4tM|CYM=0E1F22",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C15" ], [ 2109917797, "C38" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
