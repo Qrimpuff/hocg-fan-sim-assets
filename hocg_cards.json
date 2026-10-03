@@ -66642,6 +66642,46 @@
       }
     ]
   },
+  "hBP10-003": {
+    "card_number": "hBP10-003",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "oshi_holomem",
+    "colors": [ "red" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "holo_power": 2,
+        "name": { "jp": null, "en": "The Strongest Tamer" },
+        "text": {
+          "en": "[1/Turn] Reveal 2 tools with #Dinosaur with different card names from your deck, and add them to your hand. Shuffle your deck."
+        }
+      },
+      {
+        "kind": "special",
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Primitive Baptism" },
+        "text": {
+          "en": "[1/Game] If your center is a 2nd holomem <Aki Rosenthal>, deal 100 special damage to both players' [center holomem and collab holomem] which do not have a tool with #Dinosaur attached. However, a player's life does not reduce even if downed."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-003",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-003_OSR.webp", "en": null },
+        "img_hash": "v2|H32=rFGqVC1ZRPJlq1YqRaM2TdioR5O0Sku31lJJlaYqSdWmKpSqpFIp1T6pqFW6Akm7S1WoripVKq1qVUqWalWqtFJrrlU|CYM=10292D",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C5" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hEB01-001": {
     "card_number": "hEB01-001",
     "name": { "jp": "ときのそら", "en": "Tokino Sora" },
@@ -80885,6 +80925,40 @@
       }
     ]
   },
+  "hSD20-004": {
+    "card_number": "hSD20-004",
+    "name": { "jp": "百灯キョーコ", "en": "Hyakuto Kyoko" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "red", "colorless" ], "name": { "jp": null, "en": "Ready to Get to Work!" }, "power": "60" },
+      {
+        "cheers": [ "red", "colorless", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Loud Enough, No Megaphone Needed" },
+        "power": "140"
+      }
+    ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-004",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-004_C.webp", "en": null },
+        "img_hash": "v2|H32=arPZtCmrL8u8rSFJjJYmKdgSBiZiWRKXRk0cldOW9Iz0Nq7SmVTSok7pLEmtlUq11CqpKloKkiKmJVZptJbplFSKgpc|CYM=163947",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C6" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD20-008": {
     "card_number": "hSD20-008",
     "name": { "jp": "宙科そぴあ", "en": "Sorashina Sopia" },
@@ -81008,6 +81082,47 @@
         "img_path": { "jp": "unreleased/hSD21-001_OSR.webp", "en": null },
         "img_hash": "v2|H32=SFlKq1M51FYztlZWqfaaCsxry6oWTmC9s8w81ZbTCaccp9TSqFYrqZqqpWlJqimrS6stq6m1Ka0rXWlJUiVp9ZYUKVU|CYM=43430B",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C26" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD21-004": {
+    "card_number": "hSD21-004",
+    "name": { "jp": "熱千めら", "en": "Achichi Mela" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Fire Safety in Place!" },
+        "text": { "en": "This holomem takes -20 Arts damage." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": null, "en": "Energetic Hard Worker" },
+        "power": "30",
+        "text": { "en": "Draw 1 card, and archive 1 card from your hand." }
+      }
+    ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD21-004",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD21-004_C.webp", "en": null },
+        "img_hash": "v2|H32=SvuzKi2v2cqmhoyu50gslitlW7R4Gwsl0pJuw5KGNNGepFpqx2GkJSk00pTSpEvSdNulqa5WLFtLtUu3TWtaq6RSVnk|CYM=272211",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C29" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
