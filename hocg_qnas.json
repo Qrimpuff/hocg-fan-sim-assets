@@ -7437,7 +7437,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のホロメンをダウンさせた時、自分のエールデッキの上から1枚を自分のホロメンに送るのはいつになりますか？",
-      "en": "If my Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downs my opponent's holomem, when will the ability of Ari Yori no Alligator trigger to send a card from my cheer deck?"
+      "en": "If my Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downs my opponent's holomem, when will the ability of Kinda Yes-Ligator trigger to send a card from my cheer deck?"
     },
     "answer": {
       "jp": "相手のホロメンのダウン処理として、hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉の「ダウンさせた時」の能力を先に処理します。\nこの場合、自分のエールデッキの上から1枚を自分のホロメンに送ってから、相手のホロメンをアーカイブし、相手のライフを1つ減らします。相手はライフを1枚を表向きにし、相手のステージのホロメンにそのエールを送ります。",
@@ -7450,11 +7450,11 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のマスコットが付いているhSD14-009〈白上フブキ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD14-009〈白上フブキ〉のギフト「私は倒れちゃいけないな」の能力はどちらから処理されますか？",
-      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Ari Yori no Alligator's ability or Shirakami Fubuki's gift \"I Mustn't Go Down\"?"
+      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Shirakami Fubuki's gift \"I Mustn't Go Down\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
-      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+      "en": "Since the turn player's abilities are processed first, Kinda Yes-Ligator's ability will be processed first."
     },
     "referenced_cards": [ "hSD14-009", "hSD14-011" ]
   },
@@ -7463,11 +7463,11 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD16-007〈さくらみこ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD16-007〈さくらみこ〉のギフト「みこの膝にごろーんってして」の能力はどちらから処理されますか？",
-      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Ari Yori no Alligator's ability or Sakura Miko's gift \"Come Lay On Miko's Lap Pillow\"?"
+      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Sakura Miko's gift \"Come Lay On Miko's Lap Pillow\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
-      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+      "en": "Since the turn player's abilities are processed first, Kinda Yes-Ligator's ability will be processed first."
     },
     "referenced_cards": [ "hSD14-011", "hSD16-007" ]
   },
@@ -7476,11 +7476,11 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD17-008〈星街すいせい〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD17-008〈星街すいせい〉のギフト「明日への歌」の能力はどちらから処理されますか？",
-      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD17-008 Hoshimachi Suisei.\nWhich ability is processed first: Ari Yori no Alligator's ability or Hoshimachi Suisei's gift \"A Song for Tomorrow\"?"
+      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD17-008 Hoshimachi Suisei.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Hoshimachi Suisei's gift \"A Song for Tomorrow\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
-      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+      "en": "Since the turn player's abilities are processed first, Kinda Yes-Ligator's ability will be processed first."
     },
     "referenced_cards": [ "hSD14-011", "hSD17-008" ]
   },
@@ -7489,11 +7489,11 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD18-007〈森カリオペ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD18-007〈森カリオペ〉のギフト「ちょっとした特別なプレゼント」の能力はどちらから処理されますか？",
-      "en": "My Shirakami Fubuki with hSD14-011 Ari Yori no Alligator attached downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Ari Yori no Alligator's ability or Mori Calliope's gift \"A Special Little Present\"?"
+      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Mori Calliope's gift \"A Special Little Present\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
-      "en": "Since the turn player's abilities are processed first, Ari Yori no Alligator's ability will be processed first."
+      "en": "Since the turn player's abilities are processed first, Kinda Yes-Ligator's ability will be processed first."
     },
     "referenced_cards": [ "hSD14-011", "hSD18-007" ]
   },
