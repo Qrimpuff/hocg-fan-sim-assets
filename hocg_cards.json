@@ -66814,6 +66814,53 @@
       }
     ]
   },
+  "hBP10-032": {
+    "card_number": "hBP10-032",
+    "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "FLOW GLOW's True Purpose" },
+        "text": {
+          "en": "Choose 1 Debut holomem with #FLOW GLOW that entered your stage this turn. If your holomem with #FLOW GLOW was downed during your opponent's previous turn, you may bloom the chosen holomem using a holomem from your hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "green" ],
+        "name": { "jp": null, "en": "Everyone, Let's Go Fast!" },
+        "power": "60",
+        "text": {
+          "en": "Send the top card of your cheer deck to your holomem with #FLOW GLOW that bloomed this turn."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-032",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-032_R.webp", "en": null },
+        "img_hash": "v2|H32=Or2Rmk+praTPYm2kZnI7OzIRElmS3dJNWsS2RGgrcnYto5ZmVarpYC1UDq9pyWDRKi2tS/KlaamWmkKl8KLSqqpS0so|CYM=181C1E",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C34" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-053": {
     "card_number": "hBP10-053",
     "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
@@ -80653,16 +80700,16 @@
         "name": { "jp": "ごめんｹﾄﾞ", "en": "Sorry" },
         "text": {
           "jp": "[ターンに1回]自分のアーカイブのホロメン1枚を手札に戻す。",
-          "en": "[1/Turn]Return 1 holomem from your archive to hand."
+          "en": "[1/Turn] Return 1 holomem from your archive to your hand."
         }
       },
       {
         "kind": "special",
         "holo_power": 2,
-        "name": { "jp": "おさんぽスバル", "en": "Walking Subaru" },
+        "name": { "jp": "おさんぽスバル", "en": "Subaru Taking a Stroll" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブのエールを自分の〈大空スバル〉1～2人に1枚ずつ送る。",
-          "en": "[1/Game]Send 1 cheer each from your archive to 1~2 of your <Oozora Subaru>."
+          "en": "[1/Game] Send 1 cheer each from your archive to 1~2 of your <Oozora Subaru>."
         }
       }
     ],
@@ -81021,9 +81068,9 @@
   },
   "hSD19-010": {
     "card_number": "hSD19-010",
-    "name": { "jp": "ごきげんカレー", "en": "Good Mood Curry" },
+    "name": { "jp": "ごきげんカレー", "en": "Cheer up Curry" },
     "card_type": { "support": "event" },
-    "text": { "jp": "自分のホロメンのHP30回復。", "en": "Restore 30 HP to your holomem." },
+    "text": { "jp": "自分のホロメンのHP30回復。", "en": "Restore 30 HP to 1 of your holomem." },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
     "max_amount": { "jp": 4 },
     "illustrations": [
