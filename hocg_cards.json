@@ -78484,7 +78484,7 @@
     "hp": 80,
     "bloom_level": "debut",
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "はじまんぼう！", "en": "Hajimanbo!" }, "power": "20" }
+      { "cheers": [ "colorless" ], "name": { "jp": "はじまんぼう！", "en": "Hajimanbou!" }, "power": "20" }
     ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -78522,10 +78522,7 @@
     "arts": [
       {
         "cheers": [ "white" ],
-        "name": {
-          "jp": "今日もあなたのそばに -フブキ-",
-          "en": "I'll Be By Your Side Again Today -Fubuki-"
-        },
+        "name": { "jp": "今日もあなたのそばに -フブキ-", "en": "Always by Your Side -Fubuki-" },
         "power": "30"
       }
     ],
@@ -79061,7 +79058,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "寄ってらっしゃい見てらっしゃい", "en": "Come on over and take a look!" },
+        "name": { "jp": "寄ってらっしゃい見てらっしゃい", "en": "Come One, Come All" },
         "power": "20"
       }
     ],
@@ -79099,10 +79096,7 @@
     "arts": [
       {
         "cheers": [ "green" ],
-        "name": {
-          "jp": "今日もあなたのそばに -らでん-",
-          "en": "I'll Be By Your Side Again Today -Raden-"
-        },
+        "name": { "jp": "今日もあなたのそばに -らでん-", "en": "Always by Your Side -Raden-" },
         "power": "30"
       }
     ],
@@ -79518,7 +79512,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "さくらみこだよ～", "en": "Sakura Miko dayo~" },
+        "name": { "jp": "さくらみこだよ～", "en": "I'm Sakura Miko" },
         "power": "20"
       }
     ],
@@ -79558,7 +79552,7 @@
         "cheers": [ "red" ],
         "name": {
           "jp": "エリート巫女アイドル！ さくらみこだよ～",
-          "en": "Elite Miko Idol! It's Sakura Miko~"
+          "en": "The Elite Shrine Maiden-Idol! Sakura Miko"
         },
         "power": "30"
       }
@@ -80741,7 +80735,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "あじまるあじまる～", "en": "Ajimaruajimaru~" },
+        "name": { "jp": "あじまるあじまる～", "en": "It's Habbening, Habbening" },
         "power": "10"
       }
     ],
@@ -80775,10 +80769,7 @@
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": {
-          "jp": "今日もあなたのそばに -スバル-",
-          "en": "I'll Be By Your Side Again Today -Subaru-"
-        },
+        "name": { "jp": "今日もあなたのそばに -スバル-", "en": "Always by Your Side -Subaru-" },
         "power": "20+",
         "text": {
           "jp": "自分のライフが2以下なら、このアーツ+10。",
