@@ -66906,6 +66906,49 @@
       }
     ]
   },
+  "hBP10-075": {
+    "card_number": "hBP10-075",
+    "name": { "jp": "鈴鳴つづり", "en": "Suzuna Tsuzuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "I'll Deliver It Quick, OK?" },
+        "text": {
+          "en": "You may send the top card of your opponent's cheer deck to their holomem: Deal 30 special damage to the holomem which received cheer from this ability. You may only use Bloom Effect \"I'll Deliver It Quick, OK?\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "The Recipient (Target) Is You" },
+        "power": "40+",
+        "text": { "en": "If there are 5 or more cheers on your opponent's stage, this Arts gets +30." }
+      }
+    ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-075",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-075_U.webp", "en": null },
+        "img_hash": "v2|H32=rKo6Fa2q0PDDS6Ws0tGtipK1TNs2WdpUVkuzpFoWlC62krRoWlWtFi1aSrWwtFCSpauylq3SKqmhtFppaanSupSrUtU|CYM=144435",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C77" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hEB01-001": {
     "card_number": "hEB01-001",
     "name": { "jp": "ときのそら", "en": "Tokino Sora" },
