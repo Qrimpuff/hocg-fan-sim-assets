@@ -8359,11 +8359,12 @@
       },
       {
         "card_number": "hBP01-071",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3004 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP01-071_SR.webp", "en": null },
-        "img_hash": "v2|H32=ZDFNm3OVLburVqm7KdKX7ViTVmWcV1YWlGpOVbMqJE1rsdhSFKlqtXJVpdJJqqWrsrQqrVJRtqqqVllKmVbStmpLWdo|CYM=3E2F0D",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO03/hBP01-071_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:49 GMT" },
+        "img_hash": "v2|H32=dDlNmnsVLbup0pW7adLX7ViTVmUcV1Y2lGpOVfO6LF0rsdhalKxqtXY1JdNJi6WqsrSOrVZVlKqrVllKkVLStkpLSbo|CYM=3E300F",
         "ogbajoj_sheet_cells": [ [ 419749048, "C13" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -12710,11 +12711,12 @@
       },
       {
         "card_number": "hBP02-011",
-        "manage_id": { },
+        "manage_id": { "jp": [ 2998 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP02-011_SR.webp", "en": null },
-        "img_hash": "v2|H32=pJVU1qWVWpVZHuuiWHKlKqVy1artiHkrVCpOI1NrzKovK6RcqmVWpVKrW9otTUq1Ja1QatKSUjxW00utqccpVK08rWg|CYM=4A2D03",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO02/hBP02-011_SR_03.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:47 GMT" },
+        "img_hash": "v2|H32=1JVUVqWVWpVZHmuiWHGnKuVyVaqNjHArVKtOI1NrzKovK6RMqmVWtlKLWlosTUOVpa1IanaSVjxW00ulqcOpVK00rWg|CYM=4C2E04",
         "ogbajoj_sheet_cells": [ [ 419749048, "C23" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": null,
@@ -27099,7 +27101,7 @@
         },
         "power": "30",
         "text": {
-          "jp": "このホロメンに〈こよりの助手くん〉が付いている時、自分のデッキを1枚引く。",
+          "jp": "このホロメンに〈こよりの助手くん〉が付いているなら、自分のデッキを1枚引く。",
           "en": "If 〈Koyori's Assistants〉 is attached to this holomem, draw 1 card."
         }
       }
@@ -27170,11 +27172,12 @@
       },
       {
         "card_number": "hBP04-012",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3005 ] },
         "rarity": "SR",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP04-012_SR.webp", "en": null },
-        "img_hash": "v2|H32=TNRcsWnUDrOplo60aZLHslWa1SpVi40KVEq2YuNKVGWnqpRJqmVqrVaxlbW1VqXXoKoqtVWqJYmpXqmvq6J1uFKactI|CYM=30300B",
+        "img_path": { "jp": "hCO03/hBP04-012_SR_03.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:50 GMT" },
+        "img_hash": "v2|H32=RNRcNenULrOployyUpJHsk2a1apVC50KVEq2YuNYVG+nqpRNqCVqp1a51ZS1UqXXoKoqtdWmJYklWq2rq6q1olK6ctA|CYM=32320C",
         "ogbajoj_sheet_cells": [ [ 419749048, "C58" ] ],
         "similarity_index": 5,
         "yuyutei_sell_paths": null,
@@ -28675,11 +28678,12 @@
       },
       {
         "card_number": "hBP04-035",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3006 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP04-035_SR.webp", "en": null },
-        "img_hash": "v2|H32=SLG2Wkmybr2WlimmRLOxLs2T1St3UUokdlNSdmpi1iPbJqRMUnRZl61JsrRv2V0rtq/atfKqqipall2hqVrVVk1bqWo|CYM=473209",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO03/hBP04-035_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:50 GMT" },
+        "img_hash": "v2|H32=SLG3WqmSaq0aqrWuhJKJbs2T1C12VUk0dldaV0pjViPbpqRtUnRN07VJ4rRs2VfrhrfatPKqqqpal13lqVrX1G0bqao|CYM=48340A",
         "ogbajoj_sheet_cells": [ [ 419749048, "C59" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
@@ -38552,7 +38556,7 @@
     "name": { "jp": "フレンドリーパソコン", "en": "Friendly PC" },
     "card_type": { "support": "item" },
     "text": {
-      "jp": "自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。",
+      "jp": "自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚をステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。",
       "en": "Reveal 1~2 Debut holomem with Extra \"You may include any number of this holomem in the deck\" from your deck, and place them on stage. Then, shuffle the deck. If 2 Debut holomem were placed, return 1 card from your hand to the bottom of the deck."
     },
     "max_amount": { "jp": 4, "en": 4 },
@@ -38685,11 +38689,12 @@
       },
       {
         "card_number": "hBP05-074",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3014 ] },
         "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP05-074_P.webp", "en": null },
-        "img_hash": "v2|H32=fH2tJVWd1lKXktLaY1I7jWllO0mpZZZpG1N2tWvdabW2LVSWKloeLYuV9WpWjWlLtHqdKnGlNUnpWlm1Lq1p0qSnUjQ|CYM=0C2421",
+        "illustrator": "Hyde",
+        "img_path": { "jp": "hPR/hBP05-074_P_03.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:51 GMT" },
+        "img_hash": "v2|H32=GHXtJVWdl1KRltKac1IbjW3sO0mpZ9ZJW1N2tWuZabWnLVSWKloeaaOV1SpOjWzb+3qNJuilN0npWlm1Cq1p0qSjWzQ|CYM=0C2522",
         "ogbajoj_sheet_cells": [ [ 419749048, "C87" ] ],
         "similarity_index": 7,
         "yuyutei_sell_paths": null,
@@ -40576,11 +40581,12 @@
       },
       {
         "card_number": "hBP06-019",
-        "manage_id": { },
+        "manage_id": { "jp": [ 2999 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP06-019_SR.webp", "en": null },
-        "img_hash": "v2|H32=WFIktVlSSrezl1mSlraxrqSltSpsaVdqRFvWWtOylLKjrrRKWmBKtamSpdoWlWnZVq9qtanKWiutqFmTCl2lddVStSw|CYM=492B03",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO02/hBP06-019_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:48 GMT" },
+        "img_hash": "v2|H32=XFAktWlSSrObltWalLa7roSltKosa1VrZFvGWlOy1LKjqrRKWmBKtbmJpZpGtmnZVq9KtenayuutqluSCh2lZMVSpSw|CYM=4A2C04",
         "ogbajoj_sheet_cells": [ [ 419749048, "C91" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -43294,11 +43300,12 @@
       },
       {
         "card_number": "hBP06-059",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3007 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP06-059_SR.webp", "en": null },
-        "img_hash": "v2|H32=ZFW0NCWFTi07ig8rXNaHprW21GSXN1AtUhlKZXxJUEvPa6RNunRK01KzVpotyWknKq9psVSLWtpa0ksvrSrVprW1qfA|CYM=463405",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO03/hBP06-059_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:50 GMT" },
+        "img_hash": "v2|H32=5MW0NCmFSi17igUrXNaDpqW2lmRWNVBtUl1KZW5JWElNa6RlunROFVSiVpotySvLLq9pscSL2vpyUEp/qyrVlvW1qfA|CYM=4A3606",
         "ogbajoj_sheet_cells": [ [ 419749048, "C103" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -50782,11 +50789,12 @@
       },
       {
         "card_number": "hBP07-072",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3008 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP07-072_SR.webp", "en": null },
-        "img_hash": "v2|H32=SFZXm+k2MpWppCSlnPctK8xq3Wr22Nlsdpk610q7NJtJNpROqrWLh1VqarSlWV1aVK2qgjVJ/XgOlFsrVAtbpaqVlQs|CYM=483002",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO03/hBP07-072_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:50 GMT" },
+        "img_hash": "v2|H32=TFZXG+s2MpWppCSnnDYtq9xqWWjWyNlMVp0610ifNJNJMpRqqrXjjVHqarWlWE1aRK2qwnVJ+VgulVorVAtbtaqUlQ4|CYM=493103",
         "ogbajoj_sheet_cells": [ [ 419749048, "C133" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
@@ -57722,11 +57730,12 @@
       },
       {
         "card_number": "hBP08-071",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3009 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP08-071_SR.webp", "en": null },
-        "img_hash": "v2|H32=ZNXtNGuZZrbZmiKb3Natisy2xWKWWVEnUmlSVTor0miesrRKqGVaTVTRbdKril2rlRVtSWpLXqW1lGlpS1LVpaVJPqg|CYM=4F3403",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO03/hBP08-071_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:51 GMT" },
+        "img_hash": "v2|H32=5LWtNFubRrazmiaT3Nanmky1RWKWWVUnWmlaVTor0ki+srZIqGVKZ1TTcdKrml2rlFVtWUhLXq20lGtpS1LVpaVNPqg|CYM=513504",
         "ogbajoj_sheet_cells": [ [ 419749048, "C150" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
@@ -59889,12 +59898,55 @@
       },
       {
         "card_number": "hBP09-001",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3010 ] },
         "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP09-001_P.webp", "en": null },
-        "img_hash": "v2|H32=TNmvK9vQpSWTJNmka6xarVLKGc+2SpPSsmWkkZPlLnHxKFRKVpUrpaVSIFVKJS1p+dCJokVrgVaFqvWo1daV2pZqkqQ|CYM=052C75",
+        "illustrator": "砂利さや(か)",
+        "img_path": { "jp": "hPR/hBP09-001_P_02.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:51 GMT" },
+        "img_hash": "v2|H32=TNsvEdPSpTWzJMk0S6xarWrOGeq2UrPSsnUlsZvVNDNpOVZKVpUrpKVSNPR6Ja1tadSLokWrqXatqqWllbIV24dq0qQ|CYM=053081",
         "ogbajoj_sheet_cells": [ [ 419749048, "C155" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-001",
+        "manage_id": { "jp": [ 3011 ] },
+        "rarity": "P",
+        "illustrator": "砂利さや(か)",
+        "img_path": { "jp": "hPR/hBP09-001_P_03.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:52 GMT" },
+        "img_hash": "v2|H32=TN0nKdvSpaTTtFG1a61Z7VLKEe22KteSsuWkkpOtJnGxKFRbVpUrraxSIFVKJWXJ+dTPgkUrgVaNr/WqldaV69JqkqQ|CYM=062B6E",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-001",
+        "manage_id": { "jp": [ 3012 ] },
+        "rarity": "P",
+        "illustrator": "砂利さや(か)",
+        "img_path": { "jp": "hPR/hBP09-001_P_04.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:52 GMT" },
+        "img_hash": "v2|H32=TNkvAdvSpSWzJNk0S6xarXPOGeq2QpeSsnWks5PFNHOxKFZKVpUrraxSNFV6JS1p6dTLkkWrqVaNqvWglZYF25Vq0qQ|CYM=05327A",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP09-001",
+        "manage_id": { "jp": [ 3013 ] },
+        "rarity": "P",
+        "illustrator": "砂利さや(か)",
+        "img_path": { "jp": "hPR/hBP09-001_P_05.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:52 GMT" },
+        "img_hash": "v2|H32=TNWnqdvSpSyzNNkka6xbrXLKGc+26rPSsmUkE5PlJHOxKFZaVpUrpaRSOFVqJSVpadTPokVroVaNqvWqkZYV2pZqkqw|CYM=062F77",
+        "ogbajoj_sheet_cells": null,
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -60654,11 +60706,12 @@
       },
       {
         "card_number": "hBP09-012",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3000 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP09-012_SR.webp", "en": null },
-        "img_hash": "v2|H32=TDXJ1mwVWs2j0iStlNWlstWqtBJVK1Y6VlpCLdYiVq+7qpJNUFJt000tYtiloW+psq1tpbLaaqtqVZVSaS1blKVNtXI|CYM=452705",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO02/hBP09-012_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:48 GMT" },
+        "img_hash": "v2|H32=aBXJ1kwXWs2zUqSpzNWlstWqlDZVK3Y+VlpaLdYixqarqpJN2FJNUm9nM9mlqUyppq9tpaqeaqtqVZXSKw1btK0ElXI|CYM=482906",
         "ogbajoj_sheet_cells": [ [ 419749048, "C159" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -64764,11 +64817,12 @@
       },
       {
         "card_number": "hBP09-075",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3001 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP09-075_SR.webp", "en": null },
-        "img_hash": "v2|H32=SNUmvqnXcpWnpnKyprQlqsw2FWpMU1NKdstLS5ubZq/LqrRqWtUFta1q6pKylWmlFNu1tDadSpeqUm1VtVLVculSaS0|CYM=603B03",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO02/hBP09-075_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:48 GMT" },
+        "img_hash": "v2|H32=SNWmuqWXUpGjprKyppQNrk02NWtMdhtLdtNLR9qbZq/LKrZrSpVMtaNp6pLklCml1NO1tDadSpeqUi1VtVLVcq3SaSg|CYM=643E04",
         "ogbajoj_sheet_cells": [ [ 419749048, "C164" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -65477,11 +65531,12 @@
       },
       {
         "card_number": "hBP09-085",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3002 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP09-085_SR.webp", "en": null },
-        "img_hash": "v2|H32=5NGcHmOxTLUrpSktWLelytTWVNpX0lQWWnfuNE60FmntoLRkKHVKSlJRJZmtkEvVSqtSslpJekmtCs1otVSNllFWtKo|CYM=462C09",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO02/hBP09-085_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:49 GMT" },
+        "img_hash": "v2|H32=5FCcHnOhjLWppGmoWJenS9TSVFtX1lQXWleONmy1NGnNorRFCHVKSkZyZZOl2UvVmqtaslptckmnCq1otVSNllEWtao|CYM=472E0A",
         "ogbajoj_sheet_cells": [ [ 419749048, "C167" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
@@ -66854,6 +66909,49 @@
         "img_path": { "jp": "unreleased/hBP10-032_R.webp", "en": null },
         "img_hash": "v2|H32=Or2Rmk+praTPYm2kZnI7OzIRElmS3dJNWsS2RGgrcnYto5ZmVarpYC1UDq9pyWDRKi2tS/KlaamWmkKl8KLSqqpS0so|CYM=181C1E",
         "ogbajoj_sheet_cells": [ [ 505534664, "C34" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-035": {
+    "card_number": "hBP10-035",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "I want to become friends with you on a deeper, more emotional level" },
+        "text": {
+          "en": "If you have 3 or less holomem on your stage, place 1 Debut holomem with #Gen 1 from your deck on your stage. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red" ],
+        "name": { "jp": null, "en": "Never give up! Never get discouraged! Never surrender!" },
+        "power": "40",
+        "text": { "en": "Archive 1 card from your hand, and draw 1 card." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-035",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-035_C.webp", "en": null },
+        "img_hash": "v2|H32=DK4bXq2qLa2lcim569hiWkvcUl6SZRpllmMWhdpS1IMcyl5NFrT5pEpLmrLhtU3TtbSpuL5aKiugW+BS6WhWSmmpllo|CYM=091D32",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C37" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -77240,11 +77338,12 @@
       },
       {
         "card_number": "hSD12-009",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3003 ] },
         "rarity": "SR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD12-009_SR.webp", "en": null },
-        "img_hash": "v2|H32=WNE1rUvbppQlI4zsxKadKsyqGSPN2iMn1lJrhNIqUqoJIrRsaNVSNa0qUtpWqS3VoFJUalopaqkl1VlVVmptpVst1So|CYM=513102",
+        "illustrator": "Hellarts",
+        "img_path": { "jp": "hCO02/hSD12-009_SR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:49 GMT" },
+        "img_hash": "v2|H32=WJI1rWubqpQlI4R61KbZKkyqGSfN1GEl1lJrxNI7Vq4NIrRsTPRCNY0qUpp26S3VoVZUalIpaqkl1V1VViotpVst1So|CYM=533303",
         "ogbajoj_sheet_cells": [ [ 419749048, "C110" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
@@ -78605,15 +78704,15 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "白上のとこにおいでー", "en": "Come to Shirakami's Place" },
+        "name": { "jp": "白上のとこにおいでー", "en": "Come Over to My Place" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキからマスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 mascot from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 mascot from your deck, and add it to your hand. Shuffle the deck."
         }
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "ハイ　フレンズ！", "en": "Hi Friends!" }, "power": "20" }
+      { "cheers": [ "colorless" ], "name": { "jp": "ハイ　フレンズ！", "en": "Hi, Friends!" }, "power": "20" }
     ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -78665,7 +78764,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "いっちにー、さんしー", "en": "One two, three four" },
+        "name": { "jp": "いっちにー、さんしー", "en": "One, Two, Three, Four" },
         "text": {
           "jp": "自分のセンターホロメンを選ぶ。このターンの間、選んだホロメンのアーツ+10。",
           "en": "Choose your center holomem. During this turn, the chosen holomem gets Arts+10."
@@ -78675,7 +78774,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "いつでもいけるよ！", "en": "You can start any time!" },
+        "name": { "jp": "いつでもいけるよ！", "en": "I'm Always Ready!" },
         "power": "20"
       }
     ],
@@ -79177,17 +79276,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "一服朝っぱらでん", "en": "Morning Break with Raden" },
+        "name": { "jp": "一服朝っぱらでん", "en": "Take a Break with Morning Raden" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を自分のバックホロメンに送る。",
-          "en": "If you went second and it is your first turn, send the top card of your cheer deck to your back holomem."
+          "en": "If you went second and it is your first turn, send the top card of your cheer deck to 1 of your back holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "散歩でもいかがですかな？", "en": "How About a Walk?" },
+        "name": { "jp": "散歩でもいかがですかな？", "en": "How About Taking a Walk?" },
         "power": "20"
       }
     ],
@@ -79239,20 +79338,17 @@
     "keywords": [
       {
         "type": "gift",
-        "name": {
-          "jp": "体力作り頑張るぞー！！！！！",
-          "en": "I'll Work Hard to Build Up My Stamina!!!!!"
-        },
+        "name": { "jp": "体力作り頑張るぞー！！！！！", "en": "Working Hard to Build Up Stamina!!!!!" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を自分の他のホロメンに付け替えられる。",
-          "en": "During your opponent's turn, when this holomem is downed, you may reattach 1 of this holomem's cheers to your other holomem."
+          "en": "During your opponent's turn, if this holomem is downed, you may reattach 1 cheer from this holomem to 1 of your other holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "そろそろ始めちゃいますか", "en": "Shall We Get Started" },
+        "name": { "jp": "そろそろ始めちゃいますか", "en": "Well, Shall We Begin?" },
         "power": "20"
       }
     ],
@@ -79634,14 +79730,14 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "後攻なんですｹｰﾄﾞ", "en": "I'm Going Second" },
+        "name": { "jp": "後攻なんですｹｰﾄﾞ", "en": "Going Second..." },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから〈35P〉1枚を公開し、このホロメンに付ける。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 <35P> from your deck, and attach it to this holomem. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 <35P> from your deck, and attach it to this holomem. Shuffle the deck."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "でゃまれ！", "en": "Damare!" }, "power": "20" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "でゃまれ！", "en": "Shaddap!" }, "power": "20" } ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
       { "jp": "#0期生", "en": "#Gen 0" },
@@ -79690,7 +79786,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "桜風ランニング", "en": "Sakura Style Running" },
+        "name": { "jp": "桜風ランニング", "en": "Sakurakaze Running" },
         "power": "20",
         "text": {
           "jp": "サイコロを1回振る。3か5なら、自分のデッキを1枚引く。",
@@ -80853,11 +80949,11 @@
         "name": { "jp": "大空スマイル", "en": "Oozora Smile" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 Debut holomem from your deck, and place it on stage. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 Debut holomem from your deck, and place it on your stage. Shuffle the deck."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "しゅばぁ", "en": "Shuba" }, "power": "20" } ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "しゅばぁ", "en": "Shubaa" }, "power": "20" } ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
@@ -80902,7 +80998,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ダンスレッスンなんですｹｰﾄﾞ", "en": "It's a dance lesson" },
+        "name": { "jp": "ダンスレッスンなんですｹｰﾄﾞ", "en": "But It's a Dance Lesson" },
         "text": {
           "jp": "このホロメンが相手のセンターホロメンから受けるダメージ-10。",
           "en": "This holomem takes -10 damage from your opponent's center holomem."
@@ -80912,7 +81008,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "いっちにー、ホワッ、ホワッ！", "en": "One two, whoa whoa" },
+        "name": { "jp": "いっちにー、ホワッ、ホワッ！", "en": "One, Two, Wow, Wow!" },
         "power": "20"
       }
     ],
