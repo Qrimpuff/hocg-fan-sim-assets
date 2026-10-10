@@ -10737,8 +10737,8 @@
           [ 1534249600, "C65" ],
           [ 1874575099, "C20" ],
           [ 1874575099, "C64" ],
-          [ 2109917797, "C16" ],
-          [ 2109917797, "C39" ]
+          [ 2109917797, "C17" ],
+          [ 2109917797, "C40" ]
         ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10124" ],
@@ -38583,7 +38583,7 @@
         "img_path": { "jp": "hBP05/hBP05-074_C.webp", "en": "proxies/hBP05/hBP05-074_C.webp" },
         "img_last_modified": { "jp": "Fri, 12 Sep 2025 04:59:11 GMT" },
         "img_hash": "v2|H32=0qqxqpSqoaqrnCtVKlUqVetUdFU2qxSrVKpULlZ8VFUcVTJdB8EtsiMGL7IzQy/izhytrLjw4Wt4eOAr+DjgK/B44Dk|CYM=24210E",
-        "ogbajoj_sheet_cells": [ [ 40791959, "C75" ], [ 2109917797, "C17" ], [ 2109917797, "C40" ] ],
+        "ogbajoj_sheet_cells": [ [ 40791959, "C75" ], [ 2109917797, "C18" ], [ 2109917797, "C41" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10163" ],
         "tcgplayer_product_ids": null,
@@ -66869,6 +66869,52 @@
       }
     ]
   },
+  "hBP10-030": {
+    "card_number": "hBP10-030",
+    "name": { "jp": "姫森ルーナ", "en": "Himemori Luna" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A Performance Dedicated to the Lu-Knights" },
+        "text": {
+          "en": "If your Oshi holomem is <Himemori Luna>, you may attach 1~2 <Lu-knights> from your archive divided as you choose to your <Himemori Luna>."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless" ],
+        "name": { "jp": null, "en": "Your Princess Desires a Powerful PC" },
+        "power": "100+",
+        "advantage": [ "yellow", 50 ],
+        "text": {
+          "en": "You may archive 1~2 cards with \"PC\" in the card name from your hand: This Arts gets +50 for each card archived this way."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 4" }, { "en": "#Baby" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-030",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-030_RR.webp", "en": null },
+        "img_hash": "v2|H32=pKoa17GoLOdLWShVj1pNabOSxaoSlbEeElXTJCpV0CRuqVRr0nWrFm6JTautWpWqS9mqVEuqpKqVWmLVqb5qWQ2vlao|CYM=0D2C27",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C32" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-032": {
     "card_number": "hBP10-032",
     "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
@@ -69979,8 +70025,8 @@
           [ 1874575099, "C62" ],
           [ 2103775807, "C11" ],
           [ 2103775807, "C30" ],
-          [ 2109917797, "C18" ],
-          [ 2109917797, "C41" ]
+          [ 2109917797, "C19" ],
+          [ 2109917797, "C42" ]
         ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd01/10017" ],
@@ -79070,7 +79116,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD14-010_C_2.webp", "en": null },
         "img_hash": "v2|H32=UjWzKtTcKNUryxRTKkMjZddK1BRrtlRTylMKdd9xzGitrBJFBcNsmvD4LduLLi2b6tLpaPk8jW4+GOniqwZhmzg4Lts|CYM=11120D",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C19" ], [ 2109917797, "C42" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C20" ], [ 2109917797, "C43" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81397,7 +81443,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD20-008_C.webp", "en": null },
         "img_hash": "v2|H32=0jKZrKWqLYsvq62KTmWrrtJVU2VSlXJUUqPyFPHiUjW1MLRKVaVoVarSr7S2SleVdpXSlqpLUqprW0sr0lJqW6qVCas|CYM=191710",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C10" ], [ 2109917797, "C33" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C10" ], [ 2109917797, "C34" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81435,7 +81481,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD20-009_U.webp", "en": null },
         "img_hash": "v2|H32=jqpLa8apsa5o0SKcmLJsUkYz3jOkBFJFakQ8ZEpNbG2rRipNpZKRptIqeGq01FTbW0tCy+tlqNWqlVIfWqTyKXmkEmU|CYM=403209",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C11" ], [ 2109917797, "C34" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C11" ], [ 2109917797, "C35" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81460,7 +81506,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD20-012_U.webp", "en": null },
         "img_hash": "v2|H32=or6jqpSKoCqra1RBKmFsUWxSZDQvNlQ2do4+zTvNUk+CV1JFR+AsuoPDLZqLjy2a+Bipan54qWju46kq4KLhgyp4IBk|CYM=132D1D",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C14" ], [ 2109917797, "C37" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C14" ], [ 2109917797, "C38" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81485,7 +81531,31 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD20-013_U.webp", "en": null },
         "img_hash": "v2|H32=SmuralhKSF5rmlSWoLKztreylpWvnTbdJMkmaTFjkGu77RJNE3wtuh8PLYvwwe2LAZep4PBL6Wjw8KHDj8N48GB+4tM|CYM=0E1F22",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C15" ], [ 2109917797, "C38" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C15" ], [ 2109917797, "C39" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD20-014": {
+    "card_number": "hSD20-014",
+    "name": { "jp": "百灯キョーコの拡声器", "en": "Hyakuto Kyoko's Megaphone" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Hyakuto Kyoko> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Hyakuto Kyoko>\nIf this holomem downs your opponent's holomem, you may send 1 cheer from your archive to your back holomem with #ASOBI★MAWARI-TAI!.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-014",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-014_U.webp", "en": null },
+        "img_hash": "v2|H32=0sTLqtHHoHOvcyQxLCltLG2OTM7bytbSltKUsZQxXDlcKBbdM3jgowweLeqChy0K+ODhKgo+jYvgg+ng+oMteI//oA8|CYM=092529",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C16" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81524,7 +81594,44 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD21-001_OSR.webp", "en": null },
         "img_hash": "v2|H32=SFlKq1M51FYztlZWqfaaCsxry6oWTmC9s8w81ZbTCaccp9TSqFYrqZqqpWlJqimrS6stq6m1Ka0rXWlJUiVp9ZYUKVU|CYM=43430B",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C26" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C27" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD21-002": {
+    "card_number": "hSD21-002",
+    "name": { "jp": "熱千めら", "en": "Achichi Mela" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Basics of Fire Safety!" },
+        "text": { "en": "This holomem takes -10 Arts damage." }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Fire safety first, ya hear!" }, "power": "20" }
+    ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hSD21-002",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD21-002_C.webp", "en": null },
+        "img_hash": "v2|H32=ysw0K9XOzay0Kq3MLLHbSiZVSyVaU8L1WobScbLMNDYfSehUVWl0tam0FqlWi416bktSPqaUKdpVK1KpUmstTauWlqQ|CYM=1F220B",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C28" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81565,7 +81672,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD21-004_C.webp", "en": null },
         "img_hash": "v2|H32=SvuzKi2v2cqmhoyu50gslitlW7R4Gwsl0pJuw5KGNNGepFpqx2GkJSk00pTSpEvSdNulqa5WLFtLtUu3TWtaq6RSVnk|CYM=272211",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C29" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C30" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81607,7 +81714,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hSD21-006_R.webp", "en": null },
         "img_hash": "v2|H32=qKrTTIKrSO7SVTR35Iy1MrSE7ataVmsVWlOPTXJNZu0LVqpqpURJr1tUVtVWqtKyhatosWt1UqnWmrRVqpNSwVWrlmg|CYM=665C0A",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C31" ] ],
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C32" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
