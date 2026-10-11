@@ -66869,6 +66869,52 @@
       }
     ]
   },
+  "hBP10-018": {
+    "card_number": "hBP10-018",
+    "name": { "jp": "IRyS", "en": "IRyS" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "The Triumphant Song Resounds" },
+        "text": {
+          "en": "If your Oshi holomem is <IRyS>, put the top 2 cards of your deck to holo Power. Look at your holo Power. Put 2 of them into your hand. Shuffle your holo Power."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Angelic Protection, Devilish Whims" },
+        "power": "60",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "You may choose 2 [mascot or fan] cards in your archive, and attach them divided as you choose to your <IRyS>."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Promise" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-018",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-018_R.webp", "en": null },
+        "img_hash": "v2|H32=UoyybLG6VNusskzTTCrNrMhE1axaZaEyWuEzyzrJUp2DmpRqWlXooiXVD5p0i6mXtEpplVUrD5ehSmG5lvJqwbUqUq0|CYM=142A10",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C20" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-030": {
     "card_number": "hBP10-030",
     "name": { "jp": "姫森ルーナ", "en": "Himemori Luna" },
@@ -78860,12 +78906,12 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ようやくキミに会えた！！！", "en": "I Finally Got to Meet You!!!" },
+        "name": { "jp": "ようやくキミに会えた！！！", "en": "I've Finally Met You!!!" },
         "power": "30"
       },
       {
         "cheers": [ "white", "colorless" ],
-        "name": { "jp": "キラキラなきーつね！", "en": "Sparkling Fox!" },
+        "name": { "jp": "キラキラなきーつね！", "en": "Dazzling Fox!" },
         "power": "50"
       }
     ],
@@ -78915,7 +78961,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "あーまいーこのきーもちー", "en": "Ah, what a good feeling" },
+        "name": { "jp": "あーまいーこのきーもちー", "en": "These Sweet Feelings" },
         "power": "20"
       }
     ],
@@ -78955,7 +79001,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "大丈夫ですよ！", "en": "It's Okay!" },
+        "name": { "jp": "大丈夫ですよ！", "en": "It's Alright!" },
         "text": {
           "jp": "自分のアーカイブのマスコット1枚をこのホロメンに付ける。",
           "en": "Attach 1 mascot from your archive to this holomem."
@@ -78972,7 +79018,7 @@
         "power": "20+",
         "text": {
           "jp": "[コラボポジション限定]このホロメンにマスコットが付いているなら、このアーツ+20。",
-          "en": "[Collab Position Only]If a mascot is attached to this holomem, this Arts gets +20."
+          "en": "[Collab Position Only] If a mascot is attached to this holomem, this Arts gets +20."
         }
       }
     ],
@@ -79432,14 +79478,14 @@
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "世界を彩る -らでん-", "en": "Adding Color to the World -Raden-" },
+        "name": { "jp": "世界を彩る -らでん-", "en": "ReGLOSS -Raden-" },
         "power": "40"
       },
       {
         "cheers": [ "green", "colorless", "colorless" ],
         "name": {
           "jp": "ちょいと一席付き合ってみませんか？",
-          "en": "Would You Like to Join Me for a Bit?"
+          "en": "Care to Join Me on a Journey Through a Tale?"
         },
         "power": "60"
       }
@@ -79478,17 +79524,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "旅の前日", "en": "Day before a trip" },
+        "name": { "jp": "旅の前日", "en": "The Day Before the trip" },
         "text": {
           "jp": "自分のデッキの上から1枚をアーカイブする。その後、自分のアーカイブのDebutホロメン1枚をステージに出せる。",
-          "en": "Archive the top card of your deck. You may place 1 Debut holomem from your archive on stage."
+          "en": "Archive the top card of your deck. You may place 1 Debut holomem from your archive on your stage."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "この博物館おもしろそう！", "en": "This museum looks interesting!" },
+        "name": { "jp": "この博物館おもしろそう！", "en": "This Museum Looks So Interesting!" },
         "power": "30"
       }
     ],
@@ -79529,18 +79575,18 @@
         "name": { "jp": "薄明", "en": "Twilight" },
         "text": {
           "jp": "このホロメンが相手のホロメンをダウンさせた時、このホロメンのHPを20回復する。",
-          "en": "When this holomem downed your opponent's holomem, restore 20 HP to this holomem."
+          "en": "If this holomem downed your opponent's holomem, restore 20 HP to this holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "きのこ狩り", "en": "Mushroom Picking" },
+        "name": { "jp": "きのこ狩り", "en": "Mushroom-Hunting" },
         "power": "40+",
         "text": {
           "jp": "このターンに自分が#きのこを持つイベントを使っていたなら、このアーツ+10。",
-          "en": "If you have used an event with #Mushroom this turn, this Arts gets +10."
+          "en": "If you used an event with #Mushroom this turn, this Arts gets +10."
         }
       }
     ],
@@ -79874,12 +79920,12 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "みんなみててにぇ", "en": "Everyone, Watch" },
+        "name": { "jp": "みんなみててにぇ", "en": "Check This Out, Everyone-Nye" },
         "power": "20"
       },
       {
         "cheers": [ "red", "colorless" ],
-        "name": { "jp": "いっくぞぉおおおお", "en": "Let's Goooo" },
+        "name": { "jp": "いっくぞぉおおおお", "en": "Let's Gooo" },
         "power": "50"
       }
     ],
@@ -79917,10 +79963,10 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "みこの膝にごろーんってして", "en": "Come Lay On Miko's Lap Pillow" },
+        "name": { "jp": "みこの膝にごろーんってして", "en": "Plop Your Head on Miko's Lap" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。",
-          "en": "During your opponent's turn, when this holomem is downed, draw 1 card."
+          "en": "During your opponent's turn, if this holomem is downed, draw 1 card."
         }
       }
     ],
@@ -79929,12 +79975,12 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "みこの耳かきスキルに蕩けちゃえ",
-          "en": "Let Yourself Melt at Miko's Ear-Cleaning Skills"
+          "en": "Prepare to Be Blown Away by Miko's Ear-Cleaning Skills"
         },
         "power": "30+",
         "text": {
           "jp": "[センターポジション限定]サイコロを1回振る。3か5なら、このアーツ+10。",
-          "en": "[Center Position Only]Roll a die once. If it is 3 or 5, this Arts gets +10."
+          "en": "[Center Position Only] Roll a die once. If it is 3 or 5, this Arts gets +10."
         }
       }
     ],
@@ -79972,7 +80018,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "待ってたにぇ", "en": "I've Been Waiting" },
+        "name": { "jp": "待ってたにぇ", "en": "Kept You Waiting-Nye" },
         "text": {
           "jp": "サイコロを1回振る。3か5なら、自分のアーカイブの〈35P〉1枚を手札に戻す。",
           "en": "Roll a die once. If it is 3 or 5, return 1 <35P> from your archive to hand."
@@ -79980,7 +80026,11 @@
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "いっぱい遊ぼっ", "en": "Let's Play a Lot" }, "power": "30" }
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "いっぱい遊ぼっ", "en": "Let's Have Lots of Fun" },
+        "power": "30"
+      }
     ],
     "tags": [
       { "jp": "#JP", "en": "#JP" },
@@ -81088,12 +81138,12 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "いっぱい頑張る！", "en": "I'll Do My Best!" },
+        "name": { "jp": "いっぱい頑張る！", "en": "Giving It All!" },
         "power": "20"
       },
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "いっぱい楽しむ！", "en": "I'll Have Lots of Fun!" },
+        "name": { "jp": "いっぱい楽しむ！", "en": "Enjoying It All!" },
         "power": "40"
       }
     ],
@@ -81127,7 +81177,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "青春エール", "en": "Youthful Cheer" },
+        "name": { "jp": "青春エール", "en": "Youthful Cheers" },
         "text": {
           "jp": "自分のアーカイブのエール1枚をこのホロメンに送る。",
           "en": "Send 1 cheer from your archive to this holomem."
@@ -81137,7 +81187,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "忘れてなんかやるもんか", "en": "I'll never forget this" },
+        "name": { "jp": "忘れてなんかやるもんか", "en": "No Way I'm Gonna Forget" },
         "power": "30+",
         "text": {
           "jp": "このホロメンにエールが2枚以上付いているなら、このアーツ+20。",
@@ -81179,7 +81229,7 @@
         "power": "20+",
         "text": {
           "jp": "[コラボポジション限定]相手のステージに2ndホロメンがいるなら、このアーツ+20。",
-          "en": "[Collab Position Only]If there is a 2nd holomem on your opponent's stage, this Arts gets +20."
+          "en": "[Collab Position Only] If your opponent's stage has a 2nd holomem, this Arts gets +20."
         }
       }
     ],
@@ -81403,6 +81453,49 @@
         "img_path": { "jp": "unreleased/hSD20-005_U.webp", "en": null },
         "img_hash": "v2|H32=yIpp5qnZVCouXa1pxqytncZsmJu2WWqZ1FJ2bdIm3JZ2bS5JUWXptb2aClQ2KlKTtbe0KkqSFmkpKeCSam0WpZW6IlU|CYM=1A4239",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C7" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD20-006": {
+    "card_number": "hSD20-006",
+    "name": { "jp": "百灯キョーコ", "en": "Hyakuto Kyoko" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 160,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Reaching Out to Everyone!" },
+        "text": {
+          "en": "You may archive 1 cheer from your stage: Return 1 holomem with #ASOBI★MAWARI-TAI! from your archive to your hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "Swirling High Tension" },
+        "power": "50+",
+        "text": { "en": "If your stage has 6 or more cheers, this Arts gets +20." }
+      }
+    ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-006",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-006_R.webp", "en": null },
+        "img_hash": "v2|H32=qqgnJ6WoSE7SUsnenNfjprytMKlSKRJZcltWU+ZWtrZHpKZPF2VItWm1tLSlkrSyVatarWqJaitp+NSjsgby0daK0tA|CYM=2F3431",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C8" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81673,6 +81766,38 @@
         "img_path": { "jp": "unreleased/hSD21-004_C.webp", "en": null },
         "img_hash": "v2|H32=SvuzKi2v2cqmhoyu50gslitlW7R4Gwsl0pJuw5KGNNGepFpqx2GkJSk00pTSpEvSdNulqa5WLFtLtUu3TWtaq6RSVnk|CYM=272211",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C30" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD21-005": {
+    "card_number": "hSD21-005",
+    "name": { "jp": "熱千めら", "en": "Achichi Mela" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "arts": [
+      { "cheers": [ "purple" ], "name": { "jp": null, "en": "To the Most Extraordinary Life" }, "power": "40" }
+    ],
+    "text": {
+      "en": "Collab: A Whirlwind of Explosive Fun\nIf you have 3 or more holomem with Gift in your archive, deal 20 special damage to your opponent's center holomem or collab holomem."
+    },
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD21-005",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD21-005_U.webp", "en": null },
+        "img_hash": "v2|H32=rqom1KWqTlmTUVgryFIprqzWvawuVZOWEl1LdVrWZKNqVbQqW3VNj61KtJKVLliy9NiqlE5LmnT5slKpJalSVbZbcm0|CYM=363E0D",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C31" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
