@@ -67261,6 +67261,44 @@
       }
     ]
   },
+  "hBP10-060": {
+    "card_number": "hBP10-060",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Don't You Think I Could Do This as a Job?" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 1 [1st holomem <Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add them to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "But My CEO Career is Going Great!" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Cooking" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-060",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-060_U.webp", "en": null },
+        "img_hash": "v2|H32=wqrmUZmqTPWxEitltuqvPEbjtaxeVWmrGlVYUmrF0FpryqRKS1VKrLVw1LpKW0ut1LZi2dWqqlJNqmq1bctyKbVqsiw|CYM=0C2949",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C62" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-075": {
     "card_number": "hBP10-075",
     "name": { "jp": "鈴鳴つづり", "en": "Suzuna Tsuzuri" },
@@ -80256,17 +80294,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "35P、ありがとうだよー！", "en": "35P, Thank You So Much!" },
+        "name": { "jp": "35P、ありがとうだよー！", "en": "Thank You, 35P!" },
         "text": {
           "jp": "このターンの間、自分のステージの〈35P〉1枚につき、このホロメンのアーツ+10。",
-          "en": "During this turn, for each <35P> on your stage, this holomem gets Arts+10."
+          "en": "During this turn, this holomem gets Arts+10 for each <35P> on your stage."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "colorless", "colorless" ],
-        "name": { "jp": "この瞬間を見せてあげたいなって", "en": "I Want to Show You This Moment" },
+        "name": { "jp": "この瞬間を見せてあげたいなって", "en": "Hoping to Show You This Exact Moment" },
         "power": "100",
         "advantage": [ "yellow", 30 ]
       }
