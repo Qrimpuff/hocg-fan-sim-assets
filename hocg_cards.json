@@ -46038,19 +46038,19 @@
     "oshi_skills": [
       {
         "holo_power": 1,
-        "name": { "jp": "神札の導き", "en": "Guidance of the Divine Talisman" },
+        "name": { "jp": "神札の導き", "en": "Divine Amulet's Guidance" },
         "text": {
           "jp": "[ターンに1回]自分のデッキの上から2枚を見る。その中から、カード1枚を手札に加える。そして残ったカードをデッキの上に戻す。",
-          "en": "[1/Turn]Look at the top 2 cards of your deck. Add 1 card from among them to hand. Then, return the remaining card to the top of the deck."
+          "en": "[1/Turn] Look at the top 2 cards of your deck. Add 1 card from among them to your hand. Return the remaining cards to the top of your deck."
         }
       },
       {
         "kind": "special",
         "holo_power": 2,
-        "name": { "jp": "みんなのママ", "en": "Everyone's Mama" },
+        "name": { "jp": "みんなのママ", "en": "Everybody's Mama" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキの上から6枚を見る。その中から、カード3枚を手札に加える。そして残ったカードを好きな順でデッキの上に戻す。その後、自分のホロメン全員のHP50回復。",
-          "en": "[1/Game]Look at the top 6 cards of your deck. Add 3 cards from among them to hand. Then, return the remaining cards to the top of the deck in any order. Restore 50 HP to all of your holomem."
+          "en": "[1/Game] Look at the top 6 cards of your deck. Add 3 cards from among them to your hand. Return the remaining cards to the top of your deck in any order. Restore 50 HP to all of your holomem."
         }
       }
     ],
@@ -46295,16 +46295,16 @@
         "name": { "jp": "スーパーねぽらぼエナジー", "en": "Super NePoLaBo Energy" },
         "text": {
           "jp": "[ターンに1回]自分のアーカイブのエールを自分の#5期生を持つ2ndホロメン全員に1枚ずつ送る。",
-          "en": "[1/Turn]Send 1 cheer from your archive to each of your 2nd holomem with #Gen 5."
+          "en": "[1/Turn] Send 1 cheer from your archive to each of your 2nd holomem with #Gen 5."
         }
       },
       {
         "kind": "special",
         "holo_power": 1,
-        "name": { "jp": "ねねちの大・暴・走！", "en": "Nenechi's Great Rampage!" },
+        "name": { "jp": "ねねちの大・暴・走！", "en": "Nene-chi Running Amok!" },
         "text": {
           "jp": "[ゲームに1回]自分のデッキから、Debutホロメンの〈桃鈴ねね〉1～4枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
-          "en": "[1/Game]Reveal 1~4 Debut holomem <Momosuzu Nene> from your deck, and place them on stage. Then, shuffle the deck."
+          "en": "[1/Game] Search 1~4 Debut holomem <Momosuzu Nene> from your deck, and place them on your stage. Shuffle your deck."
         }
       }
     ],
@@ -50191,7 +50191,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "盛り上がっていこう！", "en": "Let's get excited!" },
+        "name": { "jp": "盛り上がっていこう！", "en": "Let's Get This Party Started!" },
         "power": "30",
         "text": {
           "jp": "自分のデッキを1枚引いた後、手札1枚をアーカイブする。",
@@ -50202,7 +50202,7 @@
         "cheers": [ "purple", "colorless", "colorless", "colorless" ],
         "name": {
           "jp": "みんなの声聞かせてええええええ！！！",
-          "en": "Let me hear everyone's voices!!!"
+          "en": "Let Me Hear Everyone's Voices!!!"
         },
         "power": "120"
       }
@@ -67185,7 +67185,7 @@
         "type": "bloom",
         "name": { "jp": null, "en": "I want to become friends with you on a deeper, more emotional level" },
         "text": {
-          "en": "If you have 3 or less holomem on your stage, place 1 Debut holomem with #Gen 1 from your deck on your stage. Shuffle your deck."
+          "en": "If you have 3 or less holomem on your stage, search 1 Debut holomem with #Gen 1 from your deck, and place it on your stage. Shuffle your deck."
         }
       }
     ],
@@ -67360,6 +67360,31 @@
         "img_path": { "jp": "unreleased/hBP10-087_C.webp", "en": null },
         "img_hash": "v2|H32=SLPpqtaTolWjVbJVsmU1rfWqdJqvmpZSHlJOPV2qXK5qrBZFGDwtimNBJZuKPi2a8DipagLHqWKCw+nq4sPg+A7D4PA|CYM=202F0D",
         "ogbajoj_sheet_cells": [ [ 505534664, "C89" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-095": {
+    "card_number": "hBP10-095",
+    "name": { "jp": "チキン温め会場", "en": "Chicken Warming Station" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your holomem was downed during your opponent's previous turn.\n\nChoose your center holomem. At the beginning of your opponent's next performance phase, if you have a collab holomem, rest the chosen holomem and move it to your back position. That holomem does not become active during your next reset phase."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-095",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-095_C.webp", "en": null },
+        "img_hash": "v2|H32=NqulqtSrSFVLVVhXSl5TmteKJJcrtW4VLjUuJTUu9E4ubBJdBbwsmuBwLYv6YOWb+BrpaIKH6WiKB+F4jsOpiw/fYNE|CYM=07343A",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C97" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
