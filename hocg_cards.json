@@ -10747,12 +10747,12 @@
       },
       {
         "card_number": "hBP01-104",
-        "manage_id": { "jp": [ 2076 ] },
+        "manage_id": { "jp": [ 2076 ], "en": [ 2010 ] },
         "rarity": "C",
         "illustrator": "イマフク",
-        "img_path": { "jp": "hSD14/hBP01-104_02_C.webp", "en": "proxies/hSD14/hBP01-104_02_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:41 GMT" },
-        "img_hash": "v2|H32=UrHLqkWlJEWjqjBVqYqsua2qzGetLlx1Oyo6FzuaWptbylZVB9mtrkeWrar4bq2qsG+tqvDwqarGg62qeDzpCvmB6Hg|CYM=1B1206|A_CYM=311E00",
+        "img_path": { "jp": "hSD14/hBP01-104_02_C.webp", "en": "hSD14/EN_hBP01-104_C_02.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:41 GMT", "en": "Fri, 16 Oct 2026 07:00:09 GMT" },
+        "img_hash": "v2|H32=2qvLqkSlJKWjjiBVqYqsnY2qjGatJlx3Oy46nzufWttaylbVl9mNbkcm7ap4Pi2qAD+p6vD4qejBw62qOT7hi/GB4Pg|CYM=211404|A_CYM=3A2000",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C15" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10012" ],
@@ -10761,12 +10761,12 @@
       },
       {
         "card_number": "hBP01-104",
-        "manage_id": { "jp": [ 2087 ] },
+        "manage_id": { "jp": [ 2087 ], "en": [ 2011 ] },
         "rarity": "C",
         "illustrator": "瞭",
-        "img_path": { "jp": "hSD15/hBP01-104_03_C.webp", "en": "proxies/hSD15/hBP01-104_03_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:50 GMT" },
-        "img_hash": "v2|H32=bKupqsWp0lWDulJVqUpc93uuWNepqhRVOy42ZD9uXjSeqFZVMcmNqEa2rapHtq2q+D6tqpHhqarxJKmqv2Xp6vkB6Oo|CYM=1A0C12|A_CYM=2D111A",
+        "img_path": { "jp": "hSD15/hBP01-104_03_C.webp", "en": "hSD15/EN_hBP01-104_C_03.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:50 GMT", "en": "Fri, 16 Oct 2026 07:00:14 GMT" },
+        "img_hash": "v2|H32=rKutqsSpgrmjWkJVqUps5lumGK+5qhxVO04+Rj9mUmQaqFbVM8GNaEc+LbrGZy2reD4t6oDjqejwOKmr28Ph6/kB6Ok|CYM=1D0D0E|A_CYM=311315",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C34" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10011" ],
@@ -10775,12 +10775,12 @@
       },
       {
         "card_number": "hBP01-104",
-        "manage_id": { "jp": [ 2097 ] },
+        "manage_id": { "jp": [ 2097 ], "en": [ 2012 ] },
         "rarity": "C",
         "illustrator": "瞭",
-        "img_path": { "jp": "hSD16/hBP01-104_04_C.webp", "en": "proxies/hSD16/hBP01-104_04_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:59 GMT" },
-        "img_hash": "v2|H32=YqurqlWrkuWbrNJVqaxkNzMyMDcsKlxVzshMzY/YXhk7OlZVMcmN6Ew2LSpPLumq8PGtqh09qerxgakq+WDp6uuDqAo|CYM=0B1F15|A_CYM=0E3A21",
+        "img_path": { "jp": "hSD16/hBP01-104_04_C.webp", "en": "hSD16/EN_hBP01-104_C_04.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:59 GMT", "en": "Fri, 16 Oct 2026 07:00:19 GMT" },
+        "img_hash": "v2|H32=YqqrqlSrkqWLrNJVqaokFzMyMDcsJlxVjs5MzQzcXhg6OlZVMdmN6EwmLSrPbu2r8PEtqhy+qejwg6kL+LDh6PuCKAs|CYM=0E2013|A_CYM=113C21",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C52" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10010" ],
@@ -10789,12 +10789,12 @@
       },
       {
         "card_number": "hBP01-104",
-        "manage_id": { "jp": [ 2108 ] },
+        "manage_id": { "jp": [ 2108 ], "en": [ 2013 ] },
         "rarity": "C",
         "illustrator": "瞭",
-        "img_path": { "jp": "hSD17/hBP01-104_05_C.webp", "en": "proxies/hSD17/hBP01-104_05_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:07 GMT" },
-        "img_hash": "v2|H32=YIsrilGrkmWDJMB1rCSMna2LbJ0tinR0Kmpcdw9DXhuaClZVMcmN68c2LbrHfK2q8Ietqh/4qSoXtOmq8GEtiw+P4Is|CYM=201206|A_CYM=391C01",
+        "img_path": { "jp": "hSD17/hBP01-104_05_C.webp", "en": "hSD17/EN_hBP01-104_C_05.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:07 GMT", "en": "Fri, 16 Oct 2026 07:00:23 GMT" },
+        "img_hash": "v2|H32=YIsrilGrkmWDJNB1rCSMnQybbJ0tinR0emJcdw9TXhuaClZVMNGN60Y2LbrHfK2q8Aetqp/wqao/POno8OCtig+H4Io|CYM=201205|A_CYM=391C01",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C72" ] ],
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10011" ],
@@ -10803,12 +10803,12 @@
       },
       {
         "card_number": "hBP01-104",
-        "manage_id": { "jp": [ 2118 ] },
+        "manage_id": { "jp": [ 2118 ], "en": [ 2014 ] },
         "rarity": "C",
         "illustrator": "瞭",
-        "img_path": { "jp": "hSD18/hBP01-104_06_C.webp", "en": "proxies/hSD18/hBP01-104_06_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:16 GMT" },
-        "img_hash": "v2|H32=QqvrqkWphiWLLJJ1qSokNy2KKJetqlxVCypcXQ9aWto7ilZVs8GN6EY+rarPP62q8H6tqjiOqarw8Kmq8GEp6vks6Cg|CYM=121907|A_CYM=1B2D05",
+        "img_path": { "jp": "hSD18/hBP01-104_06_C.webp", "en": "hSD18/EN_hBP01-104_C_06.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:16 GMT", "en": "Fri, 16 Oct 2026 07:00:28 GMT" },
+        "img_hash": "v2|H32=UqvrqkWphjWLLJJ1qSIkty2KKJetqlxVimpcXQ9aWlo7mlZVM8GN6EY+rarPN62q8H6tqjCeqar54Omq8KCpqvkc6Lo|CYM=121907|A_CYM=1A2D05",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C90" ] ],
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10010" ],
@@ -10817,12 +10817,12 @@
       },
       {
         "card_number": "hBP01-104",
-        "manage_id": { "jp": [ 2129 ] },
+        "manage_id": { "jp": [ 2129 ], "en": [ 2015 ] },
         "rarity": "C",
         "illustrator": "瞭",
-        "img_path": { "jp": "hSD19/hBP01-104_07_C.webp", "en": "proxies/hSD19/hBP01-104_07_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:24 GMT" },
-        "img_hash": "v2|H32=7Kqpqp2rEqWTpFJV6XBMcVM7WB88jjTVP45OxY/olni+KlZVMcmN6Ew+LTrHZq2ruMOpqng4qeqPg6mL8EHp6np4qDo|CYM=0E0A1D|A_CYM=140D31",
+        "img_path": { "jp": "hSD19/hBP01-104_07_C.webp", "en": "hSD19/EN_hBP01-104_C_07.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:24 GMT", "en": "Fri, 16 Oct 2026 07:00:33 GMT" },
+        "img_hash": "v2|H32=pKqpqsSpkqWTZlJV6WJEcVI7WI84jjRVO44e1K58lnC2MlbVMcGN6Ew+LTrHZ62r+IMpqjB4qejbQamL+YPh6nw4IDg|CYM=120B19|A_CYM=180E2B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C109" ] ],
         "similarity_index": 7,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10011" ],
@@ -17649,8 +17649,8 @@
         "rarity": "C",
         "illustrator": "はずき",
         "img_path": { "jp": "hBP02/hBP02-077_C.webp", "en": "hBP02/EN_hBP02-077_C.webp" },
-        "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 19 Sep 2025 08:21:17 GMT" },
-        "img_hash": "v2|H32=LK2tqtSrUpXTktBSq7ortdQqVG0rrFRVnAoudS0v1GourdJNI8RvknEybJuTkym7D5upatB4qWzI4qkqDwepuvEXIJs|CYM=031E2A",
+        "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 16 Oct 2026 07:00:06 GMT" },
+        "img_hash": "v2|H32=LK2tqtSrUpXTktBSq7ortdQqVCUrrFRVnCoudS0vVGsvrdJNI8xvkjGybJuTmym7n56pquD4iWzoYKkqD4Ypq/k9aJs|CYM=031E2A",
         "ogbajoj_sheet_cells": [
           [ 543634835, "C26" ],
           [ 1326338526, "C17" ],
@@ -17988,8 +17988,8 @@
         "rarity": "U",
         "illustrator": "さまてる",
         "img_path": { "jp": "hBP02/hBP02-084_U.webp", "en": "hBP02/EN_hBP02-084_U.webp" },
-        "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 19 Sep 2025 08:21:19 GMT" },
-        "img_hash": "v2|H32=au8r6lavQrypqJSkmqZrZmtqgmarOqQ4pDiqOZl6VHtae5JNjPHkm8aHbJIz+S2KYHytLpweqWhw8Oko4w8Nj/A+IJo|CYM=01293A",
+        "img_last_modified": { "jp": "Thu, 12 Dec 2024 00:42:58 GMT", "en": "Fri, 16 Oct 2026 07:00:06 GMT" },
+        "img_hash": "v2|H32=au8r6lavUrypqNSkmqZrZmtqgkKrOqQ4pDiqOJ16XHtaa5JNjGHkm8aDbJIz+S2KYPytLpweuWhxcOlo4w8tj+A+ILo|CYM=01293A",
         "ogbajoj_sheet_cells": [
           [ 1326338526, "C18" ],
           [ 1326338526, "C37" ],
@@ -46165,10 +46165,10 @@
     "oshi_skills": [
       {
         "holo_power": 2,
-        "name": { "jp": "忘却の輪の上で", "en": "On the Rings of Oblivion" },
+        "name": { "jp": "忘却の輪の上で", "en": "On the Ring of Oblivion" },
         "text": {
           "jp": "[ターンに1回]自分のデッキを下から2枚引いた後、手札1枚をアーカイブする。",
-          "en": "[1/Turn]Draw the bottom 2 cards of your deck, and archive 1 card from your hand."
+          "en": "[1/Turn] Draw 2 cards from the bottom of your deck, and archive 1 card from your hand."
         }
       },
       {
@@ -46177,7 +46177,7 @@
         "name": { "jp": "時間の典獄", "en": "Warden of Time" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが2ndの〈オーロ・クロニー〉なら、このターンの後に、もう1回自分のターンを開始する。",
-          "en": "[1/Game]If your center holomem is a 2nd holomem <Ouro Kronii>, take an extra turn after this one."
+          "en": "[1/Game] If your center holomem is a 2nd holomem <Ouro Kronii>, start an extra turn after this turn."
         }
       }
     ],
@@ -47512,17 +47512,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "抹茶パフェ～！きゅんです", "en": "Matcha Parfait! with love" },
+        "name": { "jp": "抹茶パフェ～！きゅんです", "en": "Matcha Parfait~! So Cute" },
         "text": {
           "jp": "自分のサポートカードが付いている#ゲーマーズを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。",
-          "en": "Choose 1 of your holomem with #GAMERS and with a support card attached. During this turn, the chosen holomem gets Arts+20."
+          "en": "Choose 1 of your holomem with #GAMERS that has a support card attached. During this turn, the chosen holomem gets Arts+20."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ゲーマーズカフェへようこそ", "en": "Welcome to Gamers Cafe" },
+        "name": { "jp": "ゲーマーズカフェへようこそ", "en": "Welcome to GAMERS Café" },
         "power": "20",
         "text": {
           "jp": "自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送る。",
@@ -48261,14 +48261,14 @@
         "name": { "jp": "AKAI HAATO VS HAACHAMA", "en": "AKAI HAATO VS HAACHAMA" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、Debutホロメンの〈赤井はあと〉2枚を公開し、ステージに出す。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 2 Debut holomem <Akai Haato> from your deck, and place them on stage. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, search 2 Debut holomem <Akai Haato> from your deck and place them on your stage. Shuffle your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "どちらがお好き？♡", "en": "Which do you prefer?♡" },
+        "name": { "jp": "どちらがお好き？♡", "en": "Which One Do You Like?♡" },
         "power": "30"
       }
     ],
@@ -67216,6 +67216,51 @@
       }
     ]
   },
+  "hBP10-037": {
+    "card_number": "hBP10-037",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 230,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Always Be Prepared" },
+        "text": {
+          "en": "[Back Position Only] While you have 3 or more <Aki Rosenthal> on your stage, during your opponent's performance phase, your life cannot be reduced by your opponent's abilities."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "red" ],
+        "name": { "jp": null, "en": "Avoid All Losses" },
+        "power": "50",
+        "text": { "en": "Return 1 <Aki Rosenthal> from your archive to your hand." }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-037",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-037_R.webp", "en": null },
+        "img_hash": "v2|H32=7KoLbgqqpJoSZbXZNt2tqWyT6arsklpVWEdKNQtLVmfJqq5KVqkLta1aUKpJLVukolZ2imuWUqmpV3AptJpi2WtVMqE|CYM=0E395B",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C39" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-053": {
     "card_number": "hBP10-053",
     "name": { "jp": "常闇トワ", "en": "Tokoyami Towa" },
@@ -70304,8 +70349,8 @@
         "rarity": "C",
         "illustrator": "株式会社HIKE / Trigono",
         "img_path": { "jp": "hSD01/hSD01-017_C.webp", "en": "hSD01/EN_hSD01-017_C.webp" },
-        "img_last_modified": { "jp": "Tue, 17 Sep 2024 09:30:33 GMT", "en": "Thu, 03 Jul 2025 08:08:03 GMT" },
-        "img_hash": "v2|H32=WlWTSrRVK/XLqlSTp6orvdkKTJ6vqkSXmKorpasu1Eor7JJFzIxsmjNzbZPMPCWbzNCtah9uiWozL61qD6ktiimzLps|CYM=060E0F",
+        "img_last_modified": { "jp": "Tue, 17 Sep 2024 09:30:33 GMT", "en": "Fri, 16 Oct 2026 07:00:08 GMT" },
+        "img_hash": "v2|H32=WlWzSjRVK5XLqlRTp6ortdlKTJqvrlTC2Kortatu1Eor7ZJFzExsmjOzbZPMPCW7zsitKg66iWwTNqkqH8ktikmyLos|CYM=060E10",
         "ogbajoj_sheet_cells": [
           [ 474823915, "C16" ],
           [ 1326338526, "C14" ],
@@ -70442,7 +70487,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。\n\n自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-      "en": "This card can only be used if you archive 1 cheer from your stage.\n\nReveal 1 [1st holomem or 2nd holomem] other than Buzz from your deck, and add it to hand. Then, shuffle the deck."
+      "en": "This card can only be used if you archive 1 cheer from your stage.\n\nReveal 1 [1st holomem or 2nd holomem] other than Buzz from your deck, and add it to your hand. Shuffle the deck."
     },
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -70452,8 +70497,8 @@
         "rarity": "C",
         "illustrator": "JinArt KABAKURA",
         "img_path": { "jp": "hSD01/hSD01-019_C_02.webp", "en": "hSD01/EN_hSD01-019_C.webp" },
-        "img_last_modified": { "jp": "Fri, 23 May 2025 06:43:53 GMT", "en": "Thu, 03 Jul 2025 08:08:03 GMT" },
-        "img_hash": "v2|H32=JqqjqtCnyGWPaFRhanEp8r2yEJ47ntpcyExsVSx7lJu2mZJNM8A4gxg8bJrO8GyyOJvNKg+PyW7Ah4lL4ePoqw8O4Pk|CYM=241034",
+        "img_last_modified": { "jp": "Fri, 23 May 2025 06:43:53 GMT", "en": "Fri, 16 Oct 2026 07:00:08 GMT" },
+        "img_hash": "v2|H32=JqojqtCnyGWPaFRxanEp8r2SUJ67nlpcyExsVSxblJuemRJNM8A4gxg8bJrOcGyyuI/Nqg+PyW7Ah8mr4OPgqx8P4Pg|CYM=251034",
         "ogbajoj_sheet_cells": [
           [ 474823915, "C18" ],
           [ 543634835, "C53" ],
@@ -78932,7 +78977,7 @@
         "name": { "jp": "みんな一緒にいくぞぉおっ", "en": "Let's Do This Together" },
         "text": {
           "jp": "[ターンに1回]自分のマスコットが付いている〈白上フブキ〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。",
-          "en": "[1/Turn] Choose 1 of your <Shirakami Fubuki> with a mascot attached. During this turn, the chosen holomem gets Arts+20."
+          "en": "[1/Turn] Choose 1 of your 〈Shirakami Fubuki〉 with a mascot attached. During this turn, the chosen holomem gets Arts+20."
         }
       },
       {
@@ -78945,16 +78990,16 @@
         }
       }
     ],
-    "max_amount": { "jp": 1 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hSD14-001",
-        "manage_id": { "jp": [ 2065 ] },
+        "manage_id": { "jp": [ 2065 ], "en": [ 1951 ] },
         "rarity": "OC",
         "illustrator": "もも寝子",
-        "img_path": { "jp": "hSD14/hSD14-001_OC.webp", "en": "proxies/hSD14/hSD14-001_OC.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:42 GMT" },
-        "img_hash": "v2|H32=dlMrZauqSlWbtqKycRSxsiE1WGpzVuwuZ1qsFpWaRppd3FKVa5SKKhpqhVQttdomtOqahtWqWiuUUtEltlpbNqVDS7U|CYM=1E1A12",
+        "img_path": { "jp": "hSD14/hSD14-001_OC.webp", "en": "hSD14/EN_hSD14-001_OC.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:42 GMT", "en": "Fri, 16 Oct 2026 07:00:09 GMT" },
+        "img_hash": "v2|H32=ZlMJZamqSnWblqK2cVSxoiklWGrzVuyqdxqkFpWLR5pV3VKVK7SKahpqhVUtvdoStGjbTtWqWiuUUhklNlqXFqTRS9c|CYM=1F1B10",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C3" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10001" ],
@@ -78981,16 +79026,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-002",
-        "manage_id": { "jp": [ 2066 ] },
+        "manage_id": { "jp": [ 2066 ], "en": [ 1957 ] },
         "rarity": "C",
         "illustrator": "七海喜つゆり",
-        "img_path": { "jp": "hSD14/hSD14-002_C.webp", "en": "proxies/hSD14/hSD14-002_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:42 GMT" },
-        "img_hash": "v2|H32=tKhUcyNp25hSUpRqvJq1ZkypibomkWtbi7QrWWtmk6VLLqhSOlVLb1PKt5QtLTIrrbRMKZJWmbZbapbqpNk0aUu2tlk|CYM=1E0A0A",
+        "img_path": { "jp": "hSD14/hSD14-002_C.webp", "en": "hSD14/EN_hSD14-002_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:42 GMT", "en": "Fri, 16 Oct 2026 07:00:10 GMT" },
+        "img_hash": "v2|H32=tKhUcyNp25hScpRqvJq1ZkzpibKmmWtbm7wrWTtuk6XLL6hSOnXLL1PKt5QtKTIrrbRMKZJSibZaa5aqpNskaUm2tmk|CYM=1E090A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C4" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10002" ],
@@ -79021,16 +79066,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-003",
-        "manage_id": { "jp": [ 2067 ] },
+        "manage_id": { "jp": [ 2067 ], "en": [ 1958 ] },
         "rarity": "C",
         "illustrator": "",
-        "img_path": { "jp": "hSD14/hSD14-003_C.webp", "en": "proxies/hSD14/hSD14-003_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:43 GMT" },
-        "img_hash": "v2|H32=1HrUciSrFlLLqtPKLKM0qjfNSrHqWao1o1mJtdOsSasbjyBVa1uNK0UKr1Ol9DbOjmnZqqFmFui1pNqm1KVqtZaUWrQ|CYM=0A0B12",
+        "img_path": { "jp": "hSD14/hSD14-003_C.webp", "en": "hSD14/EN_hSD14-003_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:43 GMT", "en": "Fri, 16 Oct 2026 07:00:10 GMT" },
+        "img_hash": "v2|H32=1GrUMCSrFlLLqtPKLLMkqjfNSrFqWao1o1GJtdOsSasbjyBVa1uNK0VKr1ul9DbGjmnZqqFmVui1pNqm1KVqtZSW2rQ|CYM=0A0B12",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C5" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10003" ],
@@ -79049,7 +79094,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "白上のとこにおいでー", "en": "Come Over to My Place" },
+        "name": { "jp": "白上のとこにおいでー", "en": "Come over to My Place" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキからマスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "If you went second and it is your first turn, reveal 1 mascot from your deck, and add it to your hand. Shuffle the deck."
@@ -79067,16 +79112,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-004",
-        "manage_id": { "jp": [ 2068 ] },
+        "manage_id": { "jp": [ 2068 ], "en": [ 1959 ] },
         "rarity": "C",
         "illustrator": "もも寝子",
-        "img_path": { "jp": "hSD14/hSD14-004_C.webp", "en": "proxies/hSD14/hSD14-004_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:44 GMT" },
-        "img_hash": "v2|H32=GKu0WkyqT2Ozyi0yYsmXqmk2TqunJmkxusZLbaOW6U0WAqhsmCaslmWr1lVGiVqrstFpSipVTqlWqyrZaWjS1pVWqqQ|CYM=171710",
+        "img_path": { "jp": "hSD14/hSD14-004_C.webp", "en": "hSD14/EN_hSD14-004_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:44 GMT", "en": "Fri, 16 Oct 2026 07:00:11 GMT" },
+        "img_hash": "v2|H32=OKu0Wky6T2Oyyi0yYsmXquk0TquHJmkxssZLabPW6C2SCqhtmGastmWj0lVGmVipstFJiipVTrVWqyjbabrS1pVWqqQ|CYM=171710",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C6" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10004" ],
@@ -79131,16 +79176,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-005",
-        "manage_id": { "jp": [ 2069 ] },
+        "manage_id": { "jp": [ 2069 ], "en": [ 1960 ] },
         "rarity": "U",
         "illustrator": "イマフク",
-        "img_path": { "jp": "hSD14/hSD14-005_U.webp", "en": "proxies/hSD14/hSD14-005_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:45 GMT" },
-        "img_hash": "v2|H32=rKpkUFKrQlVS0q17UkyRqqw9qapONYnZchdPpasVaKVHDKJqWiUju43alNYp09ysJRrkpLRySislSnTZtavaapSi0lA|CYM=2D1C0C",
+        "img_path": { "jp": "hSD14/hSD14-005_U.webp", "en": "hSD14/EN_hSD14-005_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:45 GMT", "en": "Fri, 16 Oct 2026 07:00:11 GMT" },
+        "img_hash": "v2|H32=rKpW0FKrQlVS1q1bUlyVqqw5rapKNa0xcldPpasVaKUCXiJrWmUjq8nSlJYJktSkpVrkpbQiWiWlSnR5taraUJSq0lo|CYM=311C0B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C7" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10005" ],
@@ -79176,16 +79221,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-006",
-        "manage_id": { "jp": [ 2070 ] },
+        "manage_id": { "jp": [ 2070 ], "en": [ 1961 ] },
         "rarity": "C",
         "illustrator": "まるえり",
-        "img_path": { "jp": "hSD14/hSD14-006_C.webp", "en": "proxies/hSD14/hSD14-006_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:45 GMT" },
-        "img_hash": "v2|H32=UnStKpRi0pK0CqfSLIsnyU+y0kxLs7tky5grpctkVruzbihVOJdWpVfquSrLUSmWtLSNrVor1WqLlCm1pUqlKlqlUrY|CYM=080E0F",
+        "img_path": { "jp": "hSD14/hSD14-006_C.webp", "en": "hSD14/EN_hSD14-006_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:45 GMT", "en": "Fri, 16 Oct 2026 07:00:11 GMT" },
+        "img_hash": "v2|H32=UnStKpRi0rK0CKfSLIsnSU+yUkzLsjtEy5krpevtXjNzbihVMJdWpVfo+SrLUymVtPSNqUsp1eqblim1rWq1alqlUrY|CYM=080E0F",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C8" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10006" ],
@@ -79226,16 +79271,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-007",
-        "manage_id": { "jp": [ 2071 ] },
+        "manage_id": { "jp": [ 2071 ], "en": [ 1962 ] },
         "rarity": "U",
         "illustrator": "のずみ",
-        "img_path": { "jp": "hSD14/hSD14-007_U.webp", "en": "proxies/hSD14/hSD14-007_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:46 GMT" },
-        "img_hash": "v2|H32=csVkS1zLlralstImGyWkTS9rTUlJksgyxpIrlZJqa402aVKtSWa+dkWsqdGWqmTSulNdqiW1paaWlrGgLUuPLvGkqpY|CYM=081B1A",
+        "img_path": { "jp": "hSD14/hSD14-007_U.webp", "en": "hSD14/EN_hSD14-007_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:46 GMT", "en": "Fri, 16 Oct 2026 07:00:12 GMT" },
+        "img_hash": "v2|H32=Ms9kSlyLthSlstKmWy2kTQ9rSUlpksiy1rIrlZJoa602SVJtSWe+ZkWsqdGWumTSuFNNqiW1raYW0nCpLFuPLvWlqlY|CYM=091A17",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C9" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10007" ],
@@ -79283,16 +79328,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-008",
-        "manage_id": { "jp": [ 2072 ] },
+        "manage_id": { "jp": [ 2072 ], "en": [ 1963 ] },
         "rarity": "R",
         "illustrator": "もも寝子",
-        "img_path": { "jp": "hSD14/hSD14-008_R.webp", "en": "proxies/hSD14/hSD14-008_R.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:47 GMT" },
-        "img_hash": "v2|H32=yqw0W0xz9KIrVdeqtrYtLdCKqzV2y8nUFikPReuyMG+O57BK4macrJWqSpWa2i1bbUumpEaVlZImlVZKSbVSrUqtWqU|CYM=34210B",
+        "img_path": { "jp": "hSD14/hSD14-008_R.webp", "en": "hSD14/EN_hSD14-008_R.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:47 GMT", "en": "Fri, 16 Oct 2026 07:00:12 GMT" },
+        "img_hash": "v2|H32=yKo0S0zz9aorVdeqtLRtLdSqqzVWy+nUDqlOV6slaKmOV6BapmSMqpGKSpXcmi3Zb1O0tEatlrYqtVKrSpVSqUu1Uqk|CYM=2E200A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C10" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10008" ],
@@ -79334,16 +79379,16 @@
       { "jp": "#絵", "en": "#Painting" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-009",
-        "manage_id": { "jp": [ 2073 ] },
+        "manage_id": { "jp": [ 2073 ], "en": [ 1964 ] },
         "rarity": "RR",
         "illustrator": "株式会社ジーアングル",
-        "img_path": { "jp": "hSD14/hSD14-009_RR.webp", "en": "proxies/hSD14/hSD14-009_RR.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:48 GMT" },
-        "img_hash": "v2|H32=rKpaVEJX1apLVrCq8lityZakhks8rYxWGqkpVEst69RrrbpnDlerXOa1aJW1qnQaKbq0WlSqVqnbalarS03WqirV0uo|CYM=2D2A0D",
+        "img_path": { "jp": "hSD14/hSD14-009_RR.webp", "en": "hSD14/EN_hSD14-009_RR.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:48 GMT", "en": "Fri, 16 Oct 2026 07:00:13 GMT" },
+        "img_hash": "v2|H32=rKpaVUaW9apLVLKrskgt6ZbUhEs8rY5WEqtpVEstqVZrrapLJlepdvLlaJWVrlQaKbq0WlWqVqnLIhapi1VWqitV0so|CYM=2A290B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C11" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10009" ],
@@ -79358,16 +79403,16 @@
     "card_type": { "support": "staff" },
     "limited": true,
     "text": { "jp": "自分のデッキを３枚引く。", "en": "Draw 3 cards." },
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-010",
-        "manage_id": { "jp": [ 2074 ] },
+        "manage_id": { "jp": [ 2074 ], "en": [ 2005 ] },
         "rarity": "C",
         "illustrator": "ミュシャ",
-        "img_path": { "jp": "hSD14/hSD14-010_C.webp", "en": "proxies/hSD14/hSD14-010_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:48 GMT" },
-        "img_hash": "v2|H32=KKmpqtyqjaql6tRSJ6IrtSQxbhUrXVpV2k5KVVtVVpVitZJNQMxsk5/xJZvHBy26PPONrvAwiW4fXqkq/wep+A+HLpo|CYM=0F1410",
+        "img_path": { "jp": "hSD14/hSD14-010_C.webp", "en": "hSD14/EN_hSD14-010_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:48 GMT", "en": "Fri, 16 Oct 2026 07:00:13 GMT" },
+        "img_hash": "v2|H32=KKmpqtyqjaql6vRSJ6IrtSAxbhUrXVpV2k5KVVtVVpVitZJNQMxskx/xZZvHHy26OXKNqvBwiWwfLqmq/4Up+g8PLps|CYM=0F1410",
         "ogbajoj_sheet_cells": [
           [ 1326338526, "C12" ],
           [ 1326338526, "C32" ],
@@ -79471,19 +79516,19 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+10。\n\n◆〈白上フブキ〉に付いていたら能力追加\nこのホロメンが相手のホロメンをダウンさせた時、自分のエールデッキの上から1枚を自分のホロメンに送る。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +10 HP.\n\n◆Additional ability if attached to <Shirakami Fubuki>\nIf this holomem downed your opponent's holomem, send the top card of your cheer deck to your holomem.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +10 HP.\n\n◆Additional ability if attached to 〈Shirakami Fubuki〉\nIf this holomem downed your opponent's holomem, send the top card of your cheer deck to your holomem.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#Shirakami's Character" } ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD14-011",
-        "manage_id": { "jp": [ 2075 ] },
+        "manage_id": { "jp": [ 2075 ], "en": [ 2006 ] },
         "rarity": "C",
         "illustrator": "イマフク",
-        "img_path": { "jp": "hSD14/hSD14-011_C.webp", "en": "proxies/hSD14/hSD14-011_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:49 GMT" },
-        "img_hash": "v2|H32=pLCtqsS1SnNralhNmCqUqjeKNo+3rtzEzGTeVZNVNhEqEzLdE82PuMAxDY44BunqzpIpKjB67ejhh6mC8PHg6g2H4IM|CYM=2A1006",
+        "img_path": { "jp": "hSD14/hSD14-011_C.webp", "en": "hSD14/EN_hSD14-011_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:49 GMT", "en": "Fri, 16 Oct 2026 07:00:13 GMT" },
+        "img_hash": "v2|H32=pKqlqtSxSmNralhNmCqRijeaNo6XrtzEzMTeVZMVNhEmEzLdE8iPuOAxDY45B+jqz4woCjA+7ejgh6mL8PDg6AeP4IM|CYM=2F1004",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C13" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd14/10011" ],
@@ -79510,23 +79555,23 @@
       {
         "kind": "special",
         "holo_power": 2,
-        "name": { "jp": "あなたの世界を広げに行こう", "en": "Lets Broaden Your Horizons" },
+        "name": { "jp": "あなたの世界を広げに行こう", "en": "Let’s Broaden Your Horizons" },
         "text": {
           "jp": "[ゲームに1回]自分のエールデッキの上から1枚を自分の〈儒烏風亭らでん〉に送る。その後、自分のアーカイブの#きのこを持つイベント1枚を手札に戻す。",
-          "en": "[1/Game] Send the top card of your cheer deck to 1 of your <Juufuutei Raden>. Return 1 event with #Mushroom from your archive to your hand."
+          "en": "[1/Game] Send the top card of your cheer deck to 1 of your 〈Juufuutei Raden〉. Return 1 event with #Mushroom from your archive to your hand."
         }
       }
     ],
-    "max_amount": { "jp": 1 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hSD15-001",
-        "manage_id": { "jp": [ 2077 ] },
+        "manage_id": { "jp": [ 2077 ], "en": [ 1952 ] },
         "rarity": "OC",
         "illustrator": "古弥月",
-        "img_path": { "jp": "hSD15/hSD15-001_OC.webp", "en": "proxies/hSD15/hSD15-001_OC.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:51 GMT" },
-        "img_hash": "v2|H32=auWkZpVhSn1pGrQMVKoaG6jlUzqomnSVk+pZlabqWbW2WrS2qlLuSTmt5qpzyduqrVWLqNJUaqnqVFqtS9VqVWrpqlY|CYM=581811",
+        "img_path": { "jp": "hSD15/hSD15-001_OC.webp", "en": "hSD15/EN_hSD15-001_OC.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:51 GMT", "en": "Fri, 16 Oct 2026 07:00:15 GMT" },
+        "img_hash": "v2|H32=auW0co1kSn2pOqQcVCuSGmjtUzKymnSVk6pZlbbqSbW2WrSyqlKuaimlylxzyUuqq1VLrfJUa6lqVUpqS9dqVWqlqlY|CYM=4D170F",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C22" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10001" ],
@@ -79555,16 +79600,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-002",
-        "manage_id": { "jp": [ 2078 ] },
+        "manage_id": { "jp": [ 2078 ], "en": [ 1965 ] },
         "rarity": "C",
         "illustrator": "七海喜つゆり",
-        "img_path": { "jp": "hSD15/hSD15-002_C.webp", "en": "proxies/hSD15/hSD15-002_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:52 GMT" },
-        "img_hash": "v2|H32=qKqtio2quaqvqjmuizMqzsI1WtVaVVIVQlHwZXJZtEm0tlhVVdXUoatqq+ozk1W2Xa2ovqpqqqtq20kqyaS2tqleSq0|CYM=1A1021",
+        "img_path": { "jp": "hSD15/hSD15-002_C.webp", "en": "hSD15/EN_hSD15-002_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:52 GMT", "en": "Fri, 16 Oct 2026 07:00:15 GMT" },
+        "img_hash": "v2|H32=qKqlioWquaqvqjmuizMiz8I9WtdaFVIVQtHQZXJatE28RlhVVdXWoatqq+o7k1W2Xa2Irqpqqqtq20l6ya22tqkeSS0|CYM=1B1022",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C23" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10002" ],
@@ -79593,16 +79638,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-003",
-        "manage_id": { "jp": [ 2079 ] },
+        "manage_id": { "jp": [ 2079 ], "en": [ 1966 ] },
         "rarity": "C",
         "illustrator": "",
-        "img_path": { "jp": "hSD15/hSD15-003_C.webp", "en": "proxies/hSD15/hSD15-003_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:52 GMT" },
-        "img_hash": "v2|H32=1KqtWq2qFarLUqykk69oXcrlUq3SVUxVsl0yVebctkN2OVClVZUsi7KqibamyZPa17WKKulSqlqqXrZtSau22elXsiQ|CYM=11102A",
+        "img_path": { "jp": "hSD15/hSD15-003_C.webp", "en": "hSD15/EN_hSD15-003_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:52 GMT", "en": "Fri, 16 Oct 2026 07:00:15 GMT" },
+        "img_hash": "v2|H32=1KqtWKWqNarLUqikk69oXcrlUq3SVUxVkt06VczcvMNwO1ClVZUsm7KqibamyZPa1rWKKulSqlquXjZtTau2nclWkiQ|CYM=11112A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C24" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10003" ],
@@ -79641,16 +79686,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-004",
-        "manage_id": { "jp": [ 2080 ] },
+        "manage_id": { "jp": [ 2080 ], "en": [ 1967 ] },
         "rarity": "C",
         "illustrator": "ぶし",
-        "img_path": { "jp": "hSD15/hSD15-004_C.webp", "en": "proxies/hSD15/hSD15-004_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:53 GMT" },
-        "img_hash": "v2|H32=rKqpVUup0orSlJGek6Q0apJlMO2KVWjVSlFqVWpRbjWSRs4kXTWtqqz6qKpW21DZUh1Oqqsmoqmtknbp1apSLFKrcrU|CYM=0C2136",
+        "img_path": { "jp": "hSD15/hSD15-004_C.webp", "en": "hSD15/EN_hSD15-004_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:53 GMT", "en": "Fri, 16 Oct 2026 07:00:16 GMT" },
+        "img_hash": "v2|H32=rKqrVWup0orSFJGeg6Q0bpJFMOuKVXjVSlFqFUpVTKmaVs4kXXWtqqx6qLrWm1CZUh0OqKsWoimttnbp1apSKVCrUiU|CYM=0C2136",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C25" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10004" ],
@@ -79683,7 +79728,7 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "体力作り頑張るぞー！！！！！", "en": "Working Hard to Build Up Stamina!!!!!" },
+        "name": { "jp": "体力作り頑張るぞー！！！！！", "en": "Working Hard to Build up Stamina!!!!!" },
         "text": {
           "jp": "相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を自分の他のホロメンに付け替えられる。",
           "en": "During your opponent's turn, if this holomem is downed, you may reattach 1 cheer from this holomem to 1 of your other holomem."
@@ -79703,16 +79748,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-005",
-        "manage_id": { "jp": [ 2081 ] },
+        "manage_id": { "jp": [ 2081 ], "en": [ 1968 ] },
         "rarity": "U",
         "illustrator": "ぱとり",
-        "img_path": { "jp": "hSD15/hSD15-005_U.webp", "en": "proxies/hSD15/hSD15-005_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:54 GMT" },
-        "img_hash": "v2|H32=rKitqmOtUltSWhhWONOxppyylaHMEUodSl1qzUpNaqUj6ZZWFWVHteKl4KpuqHi1pV5oq+pDqOByeOA1rSrgUJeq4PA|CYM=212234",
+        "img_path": { "jp": "hSD15/hSD15-005_U.webp", "en": "hSD15/EN_hSD15-005_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:54 GMT", "en": "Fri, 16 Oct 2026 07:00:16 GMT" },
+        "img_hash": "v2|H32=rKitqmOtUltSWjhWOJOxppyylKHMEVpdSl1KzUpMSqWj6ZZMFVVHleKl4KpuqHi0pV5oq+rTqPJ6emA9pQrgUJeq8HQ|CYM=1E222D",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C26" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10005" ],
@@ -79749,16 +79794,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-006",
-        "manage_id": { "jp": [ 2082 ] },
+        "manage_id": { "jp": [ 2082 ], "en": [ 1969 ] },
         "rarity": "C",
         "illustrator": "狛乃",
-        "img_path": { "jp": "hSD15/hSD15-006_C.webp", "en": "proxies/hSD15/hSD15-006_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:54 GMT" },
-        "img_hash": "v2|H32=LKqtqoWoqeqrqnjWm6OQjtamNNXa1mZValVKFW4dYiHiilYVVfUN26qkqqp5Sj2l3Jep6qpuqFq+Wqk4bp+pKqIPadI|CYM=141319",
+        "img_path": { "jp": "hSD15/hSD15-006_C.webp", "en": "hSD15/EN_hSD15-006_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:54 GMT", "en": "Fri, 16 Oct 2026 07:00:17 GMT" },
+        "img_hash": "v2|H32=JKqtqoWoqeqrunrUm6OQltamMHXa1mZVSnVKVW4NWiVoilYVVfUNSqqkqqp5Sj2lXJOp2qouqNq+WvG8fp+pKqYPSNI|CYM=141319",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C27" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10006" ],
@@ -79777,7 +79822,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "旅の前日", "en": "The Day Before the trip" },
+        "name": { "jp": "旅の前日", "en": "The Day Before the Trip" },
         "text": {
           "jp": "自分のデッキの上から1枚をアーカイブする。その後、自分のアーカイブのDebutホロメン1枚をステージに出せる。",
           "en": "Archive the top card of your deck. You may place 1 Debut holomem from your archive on your stage."
@@ -79797,16 +79842,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-007",
-        "manage_id": { "jp": [ 2083 ] },
+        "manage_id": { "jp": [ 2083 ], "en": [ 1970 ] },
         "rarity": "U",
         "illustrator": "ゆっ子",
-        "img_path": { "jp": "hSD15/hSD15-007_U.webp", "en": "proxies/hSD15/hSD15-007_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:55 GMT" },
-        "img_hash": "v2|H32=mqokqsurra7Hi6mslLJKyaS0WldizdIWSlUSVfamUlG0KdxN1zRKJWmqWsso1ZWaWUm0rkqLK7WurYaHple2tKTVpKI|CYM=1A162C",
+        "img_path": { "jp": "hSD15/hSD15-007_U.webp", "en": "hSD15/EN_hSD15-007_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:55 GMT", "en": "Fri, 16 Oct 2026 07:00:17 GMT" },
+        "img_hash": "v2|H32=mqokqourpa6Hq6lMlLJKyaTUWjNuzdIWahVWR7Km0lGULtxd12RSJWm6Sosq1ZW6WUu0smoLKpWunwaDtkekpbXVpag|CYM=1B1627",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C28" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10007" ],
@@ -79849,16 +79894,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-008",
-        "manage_id": { "jp": [ 2084 ] },
+        "manage_id": { "jp": [ 2084 ], "en": [ 1971 ] },
         "rarity": "R",
         "illustrator": "GIN",
-        "img_path": { "jp": "hSD15/hSD15-008_R.webp", "en": "proxies/hSD15/hSD15-008_R.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:56 GMT" },
-        "img_hash": "v2|H32=0qIlyq2qmaqnKSkum6hobUo3EsVC1XIXUhPaVTIz1GS2RFJFVTWsoynqq6qz2VOlV8sm22rbqq6SUinpjZKSJmm2YNs|CYM=281318",
+        "img_path": { "jp": "hSD15/hSD15-008_R.webp", "en": "hSD15/EN_hSD15-008_R.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:56 GMT", "en": "Fri, 16 Oct 2026 07:00:17 GMT" },
+        "img_hash": "v2|H32=4qIlyq2quaqnKS0ui6hoTUpXEsVC1TJXUpJWVXIy1KK0QlJdVXWspSnqq6qzaVO1Voom22rbqq62kg26nYqSLtm0YEk|CYM=271213",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C29" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10008" ],
@@ -79898,16 +79943,16 @@
       { "jp": "#お酒", "en": "#Alcohol" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-009",
-        "manage_id": { "jp": [ 2085 ] },
+        "manage_id": { "jp": [ 2085 ], "en": [ 1972 ] },
         "rarity": "RR",
         "illustrator": "Lunar",
-        "img_path": { "jp": "hSD15/hSD15-009_RR.webp", "en": "proxies/hSD15/hSD15-009_RR.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:57 GMT" },
-        "img_hash": "v2|H32=rqpbSr2qw5rzeJyajpI5zqyXOKUaZS4lUnkkZ0ZaZOqGVsroS1VtqqS2sLZRq1LRbCkqraqHsrrw0lBalaqSrQqrtm0|CYM=491F19",
+        "img_path": { "jp": "hSD15/hSD15-009_RR.webp", "en": "hSD15/EN_hSD15-009_RR.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:57 GMT", "en": "Fri, 16 Oct 2026 07:00:18 GMT" },
+        "img_hash": "v2|H32=rqpXT72qw5rzULWarJI5zqgVWKVadSYlWlksa0Za5MqWVozaS1TtqqSksK1xq1rRTCkqbaqHsr7g0lBZlaqSpMqqMnw|CYM=441C15",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C30" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10009" ],
@@ -79922,19 +79967,19 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のステージの〈儒烏風亭らでん〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+10。そのホロメンに、エールが3枚以上付いているなら、かわりに、そのホロメンのアーツ+20。",
-      "en": "Choose 1 <Juufuutei Raden> on your stage. During this turn, the chosen holomem gets Arts+10. If that holomem has 3 or more cheers attached, that holomem gets Arts+20 instead."
+      "en": "Choose 1 〈Juufuutei Raden〉 from your stage. During this turn, the chosen holomem gets Arts+10. If that holomem has 3 or more cheers attached, that holomem gets Arts+20 instead."
     },
     "tags": [ { "jp": "#きのこ", "en": "#Mushroom" } ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD15-010",
-        "manage_id": { "jp": [ 2086 ] },
+        "manage_id": { "jp": [ 2086 ], "en": [ 2007 ] },
         "rarity": "C",
         "illustrator": "ばかくん３世",
-        "img_path": { "jp": "hSD15/hSD15-010_C.webp", "en": "proxies/hSD15/hSD15-010_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:57 GMT" },
-        "img_hash": "v2|H32=QrSrqlStFEmtSzRXq8rKlMu2UrWzKjZ1vipcWy/aXpTLclZdASitqsykLbqfWg2j8Pyp6oTDrap5OC2KcBjp6w+HKao|CYM=031917",
+        "img_path": { "jp": "hSD15/hSD15-010_C.webp", "en": "hSD15/EN_hSD15-010_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 08:59:57 GMT", "en": "Fri, 16 Oct 2026 07:00:18 GMT" },
+        "img_hash": "v2|H32=0rCrqlStBEmrSzxFq8vK1su20rSzOjZ1vipczyve2pbaslZVMymtq8SGLbqf/S2r5Pnp6ozDrar5+C0KcDjh6w+HKOg|CYM=041914",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C31" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd15/10010" ],
@@ -79955,7 +80000,7 @@
         "name": { "jp": "35Pこっちこっちー", "en": "Over Here, 35P" },
         "text": {
           "jp": "[ターンに1回]自分の〈35P〉が付いているホロメンがいるなら、自分のデッキを1枚引く。",
-          "en": "[1/Turn] If you have a holomem with a <35P> attached, draw 1 card."
+          "en": "[1/Turn] If you have a holomem with a 〈35P〉 attached, draw 1 card."
         }
       },
       {
@@ -79964,20 +80009,20 @@
         "name": { "jp": "35Pいくぞー！", "en": "Let's Go, 35P!" },
         "text": {
           "jp": "[ゲームに1回]自分のファンが付いている〈さくらみこ〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。",
-          "en": "[1/Game] Choose 1 of your <Sakura Miko> with a fan attached. During this turn, the chosen holomem gets Arts+50."
+          "en": "[1/Game] Choose 1 of your 〈Sakura Miko〉 with a fan attached. During this turn, the chosen holomem gets Arts+50."
         }
       }
     ],
-    "max_amount": { "jp": 1 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hSD16-001",
-        "manage_id": { "jp": [ 2088 ] },
+        "manage_id": { "jp": [ 2088 ], "en": [ 1953 ] },
         "rarity": "OC",
         "illustrator": "古弥月",
-        "img_path": { "jp": "hSD16/hSD16-001_OC.webp", "en": "proxies/hSD16/hSD16-001_OC.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:00 GMT" },
-        "img_hash": "v2|H32=VCrQppWmKhltxVYSrUlvGoyit2rUqzOlTGpLlexCaRGjyZSqqFKl1Zut6yrbaqP1SlX7pKZV0qrLFirVVlVSVSptq9c|CYM=12483A",
+        "img_path": { "jp": "hSD16/hSD16-001_OC.webp", "en": "hSD16/EN_hSD16-001_OC.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:00 GMT", "en": "Fri, 16 Oct 2026 07:00:19 GMT" },
+        "img_hash": "v2|H32=XDvSppWmKhltxVaWrUlvEoyitylUqrPlRmpLle5SaRGiyZSqqFal1Zup6irbTKflTF/prC5VUmnLli7RVlVSUSotq9c|CYM=134636",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C41" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10001" ],
@@ -80006,16 +80051,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-002",
-        "manage_id": { "jp": [ 2089 ] },
+        "manage_id": { "jp": [ 2089 ], "en": [ 1973 ] },
         "rarity": "C",
         "illustrator": "七海喜つゆり",
-        "img_path": { "jp": "hSD16/hSD16-002_C.webp", "en": "proxies/hSD16/hSD16-002_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:01 GMT" },
-        "img_hash": "v2|H32=KmutquQrl+alqolau6dJSdvSMi3OWHJ2lm3WUHCGhr14SmqVUbWUhK9LXEq2SqQlWLSFkmpLqpalpGqp2RKpTVLapSo|CYM=014146",
+        "img_path": { "jp": "hSD16/hSD16-002_C.webp", "en": "hSD16/EN_hSD16-002_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:01 GMT", "en": "Fri, 16 Oct 2026 07:00:20 GMT" },
+        "img_hash": "v2|H32=KmstquQrl+alqqlau6dJSdvSMi3OWHJ2lm3WUHCGhr1YSmqVWbWUhK9LXEq2SqQlSLSFkmpLqpalpEqp2RKpbVLLpWo|CYM=014045",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C42" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10002" ],
@@ -80047,16 +80092,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-003",
-        "manage_id": { "jp": [ 2090 ] },
+        "manage_id": { "jp": [ 2090 ], "en": [ 1974 ] },
         "rarity": "C",
         "illustrator": "",
-        "img_path": { "jp": "hSD16/hSD16-003_C.webp", "en": "proxies/hSD16/hSD16-003_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:01 GMT" },
-        "img_hash": "v2|H32=6qqpc9Wqlaytsy0Kq6RpW1pKcrmyVdI8stG0BVhbXFv8pFKlVZm0IaZFSbLDJi2b1qSy1ipby2qkkpbS222m1ckqJMk|CYM=013841",
+        "img_path": { "jp": "hSD16/hSD16-003_C.webp", "en": "hSD16/EN_hSD16-003_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:01 GMT", "en": "Fri, 16 Oct 2026 07:00:20 GMT" },
+        "img_hash": "v2|H32=qqqpc5Wqtaytsy0Kq6VpW1pKcrmyVdI8stG0NVpa3FvspFKlVZm0IaZFSbLDJi2b1qSy1ipby2q0ktbS222m1ckvJMk|CYM=013841",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C43" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10003" ],
@@ -80078,7 +80123,7 @@
         "name": { "jp": "後攻なんですｹｰﾄﾞ", "en": "Going Second..." },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから〈35P〉1枚を公開し、このホロメンに付ける。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 <35P> from your deck, and attach it to this holomem. Shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 〈35P〉 from your deck, and attach it to this holomem. Shuffle the deck."
         }
       }
     ],
@@ -80089,16 +80134,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-004",
-        "manage_id": { "jp": [ 2091 ] },
+        "manage_id": { "jp": [ 2091 ], "en": [ 1975 ] },
         "rarity": "C",
         "illustrator": "ミュシャ",
-        "img_path": { "jp": "hSD16/hSD16-004_C.webp", "en": "proxies/hSD16/hSD16-004_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:02 GMT" },
-        "img_hash": "v2|H32=qqq1qmulrYq8Jmmd1qLvxkrRUmbsRVJ0JkXSNHbJsNQWy6wmUWtaVSSNVrKslaypmbSsVpKqpeprS0WrVaoqVSolsKQ|CYM=04484A",
+        "img_path": { "jp": "hSD16/hSD16-004_C.webp", "en": "hSD16/EN_hSD16-004_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:02 GMT", "en": "Fri, 16 Oct 2026 07:00:20 GMT" },
+        "img_hash": "v2|H32=qqq1qmulpcq8Jmmd1urphkrREmbsBVJ0pEXSNHLJsHZWy6wmVWvaVSSNVrKslaypmbStVpqqJcpLS02rVaoK1SplsLU|CYM=03484A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C44" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10004" ],
@@ -80145,16 +80190,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-005",
-        "manage_id": { "jp": [ 2092 ] },
+        "manage_id": { "jp": [ 2092 ], "en": [ 1976 ] },
         "rarity": "U",
         "illustrator": "月森もち",
-        "img_path": { "jp": "hSD16/hSD16-005_U.webp", "en": "proxies/hSD16/hSD16-005_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:03 GMT" },
-        "img_hash": "v2|H32=rKqb7qOqLaolmq2yS0pIymZDWktS1NBV2hRSNZZltnG2Sc4OVVUpw87wlqxxq8b0r1NIKposqrDqCmihrYcSL6It0qs|CYM=032D43",
+        "img_path": { "jp": "hSD16/hSD16-005_U.webp", "en": "hSD16/EN_hSD16-005_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:03 GMT", "en": "Fri, 16 Oct 2026 07:00:21 GMT" },
+        "img_hash": "v2|H32=rKqbqqOrJaokGq2yS1vMyiTFUstS1FJV2jRSNZZ09mGWyM6KXVUpQ87wlqxxq8b2rVNIL7okKqXiCmC5rasSLaItUo0|CYM=032E41",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C45" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10005" ],
@@ -80188,16 +80233,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-006",
-        "manage_id": { "jp": [ 2093 ] },
+        "manage_id": { "jp": [ 2093 ], "en": [ 1977 ] },
         "rarity": "C",
         "illustrator": "まるえり",
-        "img_path": { "jp": "hSD16/hSD16-006_C.webp", "en": "proxies/hSD16/hSD16-006_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:04 GMT" },
-        "img_hash": "v2|H32=qqqpqvOqTaqPLK2mLymL9dLjcs9aU1JGUllyFbY1rBU2TbbNVVVItSyyLFqdKhg9p5XKbmpqskLaFqalpgsWPpaqUqk|CYM=094249",
+        "img_path": { "jp": "hSD16/hSD16-006_C.webp", "en": "hSD16/EN_hSD16-006_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:04 GMT", "en": "Fri, 16 Oct 2026 07:00:21 GMT" },
+        "img_hash": "v2|H32=qqopqrOqTKqPLK2mLy2L9cJjcM9SU1JG0ljyNDI1rDE2ZKaJVVVIlyzwLGqdqji9p4XKWmpqskLalqalJiuWHpaKUqk|CYM=094148",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C46" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10006" ],
@@ -80243,16 +80288,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-007",
-        "manage_id": { "jp": [ 2094 ] },
+        "manage_id": { "jp": [ 2094 ], "en": [ 1978 ] },
         "rarity": "U",
         "illustrator": "みずあめ",
-        "img_path": { "jp": "hSD16/hSD16-007_U.webp", "en": "proxies/hSD16/hSD16-007_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:05 GMT" },
-        "img_hash": "v2|H32=qrGThymrVLqlKmmqy2wJTtJk601Sl/JJUpOwXdKSNCW0mrRqWlW4a61aWtilympVFqumtKqVSq/hKio1dLWWKipVUqs|CYM=013A47",
+        "img_path": { "jp": "hSD16/hSD16-007_U.webp", "en": "hSD16/EN_hSD16-007_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:05 GMT", "en": "Fri, 16 Oct 2026 07:00:22 GMT" },
+        "img_hash": "v2|H32=qrmTky2rVLqlqmmqi2QJTtIUa01Sl/JJUrWwRdKSNCW0ErRKWlW4Aq3SWkil6ipVFqu2tqqlQqr0KkqVVK2WKipVUq8|CYM=013942",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C47" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10007" ],
@@ -80274,7 +80319,7 @@
         "name": { "jp": "待ってたにぇ", "en": "Kept You Waiting-Nye" },
         "text": {
           "jp": "サイコロを1回振る。3か5なら、自分のアーカイブの〈35P〉1枚を手札に戻す。",
-          "en": "Roll a die once. If it is 3 or 5, return 1 <35P> from your archive to hand."
+          "en": "Roll a die once. If it is 3 or 5, return 1 〈35P〉 from your archive to your hand."
         }
       }
     ],
@@ -80291,16 +80336,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-008",
-        "manage_id": { "jp": [ 2095 ] },
+        "manage_id": { "jp": [ 2095 ], "en": [ 1979 ] },
         "rarity": "R",
         "illustrator": "ぷらこ",
-        "img_path": { "jp": "hSD16/hSD16-008_R.webp", "en": "proxies/hSD16/hSD16-008_R.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:05 GMT" },
-        "img_hash": "v2|H32=gqqjoqmqKa4tq+GoZyxMcsIw2sza1lIUUsV2ZbZptFG0atZ2U1WQADiqTppsySW9N5WyJroqalqkyyapv2qSFtg2wko|CYM=0B3833",
+        "img_path": { "jp": "hSD16/hSD16-008_R.webp", "en": "hSD16/EN_hSD16-008_R.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:05 GMT", "en": "Fri, 16 Oct 2026 07:00:22 GMT" },
+        "img_hash": "v2|H32=pqqzoqmqKa0Ni2EpY4hEusIw2pza1dJUUsVyZfZl9GOUatZmV1WwATjoTJptiSS9Jx2wpJo2anrpGjaJpIuSVNE2Ukk|CYM=0B3A32",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C48" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10008" ],
@@ -80322,7 +80367,7 @@
         "name": { "jp": "35P、ありがとうだよー！", "en": "Thank You, 35P!" },
         "text": {
           "jp": "このターンの間、自分のステージの〈35P〉1枚につき、このホロメンのアーツ+10。",
-          "en": "During this turn, this holomem gets Arts+10 for each <35P> on your stage."
+          "en": "During this turn, this holomem gets Arts+10 for each 〈35P〉 on your stage."
         }
       }
     ],
@@ -80340,16 +80385,16 @@
       { "jp": "#ベイビー", "en": "#Baby" }
     ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD16-009",
-        "manage_id": { "jp": [ 2096 ] },
+        "manage_id": { "jp": [ 2096 ], "en": [ 1980 ] },
         "rarity": "RR",
         "illustrator": "wasabi60",
-        "img_path": { "jp": "hSD16/hSD16-009_RR.webp", "en": "proxies/hSD16/hSD16-009_RR.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:06 GMT" },
-        "img_hash": "v2|H32=SqqtrYurmcKnMqVa5q5jqGiNUs1SU1pVklO0NJgxlKy8rLw01TRqJTlJWqlmi0Xb+kimWssqUqql0rRQlpJqWoqWouA|CYM=0E3325",
+        "img_path": { "jp": "hSD16/hSD16-009_RR.webp", "en": "hSD16/EN_hSD16-009_RR.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:06 GMT", "en": "Fri, 16 Oct 2026 07:00:23 GMT" },
+        "img_hash": "v2|H32=yqotrSurmdKHM6Va5q5jqGrNUo1SVVpXklOUNJhw1KycrLwU1CRqJTnJSqhmi0Wb+sgm2stqUqul0rDQlJJqWooWsmQ|CYM=103321",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C49" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd16/10009" ],
@@ -80367,7 +80412,7 @@
     "oshi_skills": [
       {
         "holo_power": 3,
-        "name": { "jp": "張り切ってがんばろーー!!!", "en": "Let's Give It Everything We've Got!!!" },
+        "name": { "jp": "張り切ってがんばろーー!!!", "en": "Let’s Give It Everything We’ve Got!!!" },
         "text": {
           "jp": "[ターンに1回]自分のエールデッキの上から1枚を自分のホロメンに送る。",
           "en": "[1/Turn] Send the top card of your cheer deck to your holomem."
@@ -80379,20 +80424,20 @@
         "name": { "jp": "流れ星", "en": "Shooting Star" },
         "text": {
           "jp": "[ゲームに1回]自分のセンターホロメンが〈星街すいせい〉なら、相手のバックホロメン1人に特殊ダメージ50を与える。",
-          "en": "[1/Game] If your center holomem is <Hoshimachi Suisei>, deal 50 special damage to 1 of your opponent's back holomem."
+          "en": "[1/Game] If your center holomem is 〈Hoshimachi Suisei〉, deal 50 special damage to 1 of your opponent's back holomem."
         }
       }
     ],
-    "max_amount": { "jp": 1 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hSD17-001",
-        "manage_id": { "jp": [ 2098 ] },
+        "manage_id": { "jp": [ 2098 ], "en": [ 1954 ] },
         "rarity": "OC",
         "illustrator": "玲汰",
-        "img_path": { "jp": "hSD17/hSD17-001_OC.webp", "en": "proxies/hSD17/hSD17-001_OC.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:08 GMT" },
-        "img_hash": "v2|H32=SkOvtDX3alkrla1SySlXKpWqV61Ui7GUVmwhirZmKyVmi6SqqlKuW2qrFFX7KptWbttZJaZFKtqqNWpVRNVpVVZ1qVU|CYM=643908",
+        "img_path": { "jp": "hSD17/hSD17-001_OC.webp", "en": "hSD17/EN_hSD17-001_OC.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:08 GMT", "en": "Fri, 16 Oct 2026 07:00:24 GMT" },
+        "img_hash": "v2|H32=SlOPtDX3alErla1WSSlXapWiV6lVqrWUVk2hjLZmK6Vmi6SqrlKsS2qrFFX7KptWaklZNaZFKriKNGjZBpVrVVJ1qVU|CYM=643907",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C60" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10001" ],
@@ -80417,16 +80462,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-002",
-        "manage_id": { "jp": [ 2099 ] },
+        "manage_id": { "jp": [ 2099 ], "en": [ 1981 ] },
         "rarity": "C",
         "illustrator": "七海喜つゆり",
-        "img_path": { "jp": "hSD17/hSD17-002_C.webp", "en": "proxies/hSD17/hSD17-002_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:09 GMT" },
-        "img_hash": "v2|H32=qqg9qpSqLaqvSrta1trrHRLzMqRqMVJEblVYU8hW1jKUlPJUUbVSIWroTKq01KStrE0qtVpKrFrrpWmlS59iS5tutLo|CYM=3A2309",
+        "img_path": { "jp": "hSD17/hSD17-002_C.webp", "en": "hSD17/EN_hSD17-002_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:09 GMT", "en": "Fri, 16 Oct 2026 07:00:24 GMT" },
+        "img_hash": "v2|H32=qqg9qtQsLaqnCrta1trrHRLzMoRqMVJEblFYU8jWVjKUlLJUUbVSAGqoTKq01qStrE0qtUpLrUrrpUmlSZ1CS5tmtKw|CYM=3A2309",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C61" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10002" ],
@@ -80451,16 +80496,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-003",
-        "manage_id": { "jp": [ 2100 ] },
+        "manage_id": { "jp": [ 2100 ], "en": [ 1982 ] },
         "rarity": "C",
         "illustrator": "",
-        "img_path": { "jp": "hSD17/hSD17-003_C.webp", "en": "proxies/hSD17/hSD17-003_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:09 GMT" },
-        "img_hash": "v2|H32=kqqpS62qtaqvUpOem6Vk20MtWOlqUdJU1lOWltIEtKV4NFaJU924pG4aKcqkNSVa1qGCtqtKaku5NpIkXa6y1UnDJkk|CYM=281A14",
+        "img_path": { "jp": "hSD17/hSD17-003_C.webp", "en": "hSD17/EN_hSD17-003_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:09 GMT", "en": "Fri, 16 Oct 2026 07:00:24 GMT" },
+        "img_hash": "v2|H32=kqqpS6WqtaqvUrOem6Vg20MtWOlqUdJU1lOWltIEPKV4tFaJU924oG4aKcqkNSVa1rGCtqtKaku5NpIkXa6y1UnDJkk|CYM=281A14",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C62" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10003" ],
@@ -80495,16 +80540,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-004",
-        "manage_id": { "jp": [ 2101 ] },
+        "manage_id": { "jp": [ 2101 ], "en": [ 1983 ] },
         "rarity": "C",
         "illustrator": "ぶし",
-        "img_path": { "jp": "hSD17/hSD17-004_C.webp", "en": "proxies/hSD17/hSD17-004_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:10 GMT" },
-        "img_hash": "v2|H32=rKopqoapMyq0TVlLwjLMjJKyMqVaWTZ1ck0+VXJNONQmJWpFVW21qSq1eNLSUsTVNSukSsqysqoqVUgrySq0pJeG8nA|CYM=462C0C",
+        "img_path": { "jp": "hSD17/hSD17-004_C.webp", "en": "hSD17/EN_hSD17-004_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:10 GMT", "en": "Fri, 16 Oct 2026 07:00:25 GMT" },
+        "img_hash": "v2|H32=rKrpqqapMyqkTRlLwjLEjLKycqVyWTJ1Wk0+VWpFGNYitWpNVW21qSu1OLKSUtbWVSuoSsqytqoqNVIrW1q0tZcm8mg|CYM=462C0C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C63" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10004" ],
@@ -80547,16 +80592,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-005",
-        "manage_id": { "jp": [ 2102 ] },
+        "manage_id": { "jp": [ 2102 ], "en": [ 1984 ] },
         "rarity": "U",
         "illustrator": "みゃーこ",
-        "img_path": { "jp": "hSD17/hSD17-005_U.webp", "en": "proxies/hSD17/hSD17-005_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:11 GMT" },
-        "img_hash": "v2|H32=pqqpqgmrOZsNWlxal5qEpIalMuUyRXJZUllyUVKVYpVktlZVUdUzB+yC6qq/qKThl6coaKoKqGn5+qToDw+kqooXJKs|CYM=331B09",
+        "img_path": { "jp": "hSD17/hSD17-005_U.webp", "en": "hSD17/EN_hSD17-005_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:11 GMT", "en": "Fri, 16 Oct 2026 07:00:25 GMT" },
+        "img_hash": "v2|H32=pqqprgmrOZoNWlxan7qEpIalMu0yRXJZUllyUUqVcpdst1ZVU9UzJ+yC6aq/qKTh16eoaqoKqFj5+uTpDx+kqg8HFKs|CYM=331A09",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C64" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10005" ],
@@ -80586,16 +80631,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-006",
-        "manage_id": { "jp": [ 2103 ] },
+        "manage_id": { "jp": [ 2103 ], "en": [ 1985 ] },
         "rarity": "C",
         "illustrator": "まるえり",
-        "img_path": { "jp": "hSD17/hSD17-006_C.webp", "en": "proxies/hSD17/hSD17-006_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:12 GMT" },
-        "img_hash": "v2|H32=yuqpqrToVJqtqrH0LZ8TbVq3Uk3Kk3JlylFwl7J8PBM0TNZVVaVUpWrprGqlain0p1XbrtoqpFq21imVpUqhKlqlUpI|CYM=2E250C",
+        "img_path": { "jp": "hSD17/hSD17-006_C.webp", "en": "hSD17/EN_hSD17-006_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:12 GMT", "en": "Fri, 16 Oct 2026 07:00:26 GMT" },
+        "img_hash": "v2|H32=yuqtqrToVJqtqLH0LZ8SbVqzUk3Kk3JlylF617J0PJM0TlZVVYVUpWrprGolain0p1Rbr8oqplq21imVpUqpKlqlUpI|CYM=2E250C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C65" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10006" ],
@@ -80630,16 +80675,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-007",
-        "manage_id": { "jp": [ 2104 ] },
+        "manage_id": { "jp": [ 2104 ], "en": [ 1986 ] },
         "rarity": "U",
         "illustrator": "のずみ",
-        "img_path": { "jp": "hSD17/hSD17-007_U.webp", "en": "proxies/hSD17/hSD17-007_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:12 GMT" },
-        "img_hash": "v2|H32=atbRqpWqKa+lqq1KDqVSW0o5UlXKSXKV0lTSlXKc1LQ8FGpV1TR0ImmytNIjW1a9ZLUJa65KqmqilU2qUq2pZForpCw|CYM=1B2C20",
+        "img_path": { "jp": "hSD17/hSD17-007_U.webp", "en": "hSD17/EN_hSD17-007_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:12 GMT", "en": "Fri, 16 Oct 2026 07:00:26 GMT" },
+        "img_hash": "v2|H32=atbVqpXaKa2lqq1aTqVWW0p5clXKSXJV8lVWlfJW0LQ8lmpV1WX0ImmStNIz21a9ZLEJKqZKiqqilU2rUq2pdForpE0|CYM=1B2C21",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C66" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10007" ],
@@ -80678,16 +80723,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-008",
-        "manage_id": { "jp": [ 2105 ] },
+        "manage_id": { "jp": [ 2105 ], "en": [ 1987 ] },
         "rarity": "R",
         "illustrator": "玲汰",
-        "img_path": { "jp": "hSD17/hSD17-008_R.webp", "en": "proxies/hSD17/hSD17-008_R.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:13 GMT" },
-        "img_hash": "v2|H32=sqpryp2qtaqno6ymnKTilEpVUmVKNVJJakUyVehdsFU0klZVUVXtSs5Ku6qjVQ7dRYkyt6qrircWq5Sv1LrSopImlus|CYM=311907",
+        "img_path": { "jp": "hSD17/hSD17-008_R.webp", "en": "hSD17/EN_hSD17-008_R.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:13 GMT", "en": "Fri, 16 Oct 2026 07:00:27 GMT" },
+        "img_hash": "v2|H32=sqpryp2qtaqno6ymnLRilEpdWlVKNVJpakUyV7hdsF18ElZdUVXtSs5Ku6qjVQ7VRYkitaqrircWq5Sv1K7SopIklio|CYM=311807",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C67" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10008" ],
@@ -80723,16 +80768,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#0期生", "en": "#Gen 0" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-009",
-        "manage_id": { "jp": [ 2106 ] },
+        "manage_id": { "jp": [ 2106 ], "en": [ 1988 ] },
         "rarity": "RR",
         "illustrator": "green322",
-        "img_path": { "jp": "hSD17/hSD17-009_RR.webp", "en": "proxies/hSD17/hSD17-009_RR.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:14 GMT" },
-        "img_hash": "v2|H32=KKojJdWqjJOXylzKprVU6Wi1pbQuUXDSNlVaU1IlaXVSpZSqklSttGupllpPv6xJ2paK1aWKUle1LFrbhsIytVtrWpQ|CYM=333C12",
+        "img_path": { "jp": "hSD17/hSD17-009_RR.webp", "en": "hSD17/EN_hSD17-009_RR.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:14 GMT", "en": "Fri, 16 Oct 2026 07:00:27 GMT" },
+        "img_hash": "v2|H32=KKojJdWqjJeXylzKprVU6WqVpbQuUXDSFlVaUlIlaVdSpbSqslSpNGupllpPv6xT2pbK1bWqUpelrVrbltIitVtLWpQ|CYM=333C11",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C68" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10009" ],
@@ -80747,18 +80792,18 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "相手のDebut以外のバックホロメン1人に特殊ダメージ20を与える。自分の〈ステラ〉はターンに1回しか使えない。",
-      "en": "Deal 20 special damage to 1 of your opponent's back holomem other than Debut. You may only use <Stellar> once per turn."
+      "en": "Deal 20 special damage to 1 of your opponent's back holomem other than Debut. You may only use 〈Stellar〉 once per turn."
     },
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD17-010",
-        "manage_id": { "jp": [ 2107 ] },
+        "manage_id": { "jp": [ 2107 ], "en": [ 2008 ] },
         "rarity": "C",
         "illustrator": "みゃーこ",
-        "img_path": { "jp": "hSD17/hSD17-010_C.webp", "en": "proxies/hSD17/hSD17-010_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:15 GMT" },
-        "img_hash": "v2|H32=pqqjqnCrSJdJlkpV0kTSbpdq2FxO0kzXbJNsmU87VjqWNjbZM9kxuNjyjItscqiqjw/p4pgd6Sqf5+A4zw/oOvhw4Cs|CYM=523906",
+        "img_path": { "jp": "hSD17/hSD17-010_C.webp", "en": "hSD17/EN_hSD17-010_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:15 GMT", "en": "Fri, 16 Oct 2026 07:00:27 GMT" },
+        "img_hash": "v2|H32=pqqjqnCrSJdJlkpV0kTSbpdq1l5OVkzXbJNum0+bViqWNjbZI5kxuEhyjItscqiqjw/p4pgN6SqP4+g4jwfgOvjw4Cs|CYM=543805",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C69" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd17/10010" ],
@@ -80802,20 +80847,20 @@
         "name": { "jp": "世界を繋げるラップ", "en": "Rap That Connects the World" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブにホロメンが6枚以上あるなら、このターンの間、自分のステージの〈森カリオペ〉全員のアーツ+30。",
-          "en": "[1/Game] If your archive has 6 or more holomem, during this turn, all <Mori Calliope> on your stage get Arts+30."
+          "en": "[1/Game] If your archive has 6 or more holomem, during this turn, all 〈Mori Calliope〉 on your stage get Arts+30."
         }
       }
     ],
-    "max_amount": { "jp": 1 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hSD18-001",
-        "manage_id": { "jp": [ 2109 ] },
+        "manage_id": { "jp": [ 2109 ], "en": [ 1955 ] },
         "rarity": "OC",
         "illustrator": "古弥月",
-        "img_path": { "jp": "hSD18/hSD18-001_OC.webp", "en": "proxies/hSD18/hSD18-001_OC.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:17 GMT" },
-        "img_hash": "v2|H32=UMeaNi3S3cSnkpbJIZuySSbbIjkyQ6ZdIk2hPC1dya21rvSipvp4Sc6Sg3RQ9auiqqhF1VdFyqpKW1JUq5Qp1UsXq1Q|CYM=3E2F0B",
+        "img_path": { "jp": "hSD18/hSD18-001_OC.webp", "en": "hSD18/EN_hSD18-001_OC.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:17 GMT", "en": "Fri, 16 Oct 2026 07:00:29 GMT" },
+        "img_hash": "v2|H32=UMeadC3T1eyn0pbJMZuyQSbbcmkiU6Y5Ik2ptSRMyc21rrSiptp8Sc6kw1RQ9auqqqpF1VtFyrJaWlJ1qxQp1UklqtY|CYM=3F2E0B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C79" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10001" ],
@@ -80836,16 +80881,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-002",
-        "manage_id": { "jp": [ 2110 ] },
+        "manage_id": { "jp": [ 2110 ], "en": [ 1989 ] },
         "rarity": "C",
         "illustrator": "七海喜つゆり",
-        "img_path": { "jp": "hSD18/hSD18-002_C.webp", "en": "proxies/hSD18/hSD18-002_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:18 GMT" },
-        "img_hash": "v2|H32=pqqc6rWqrarbZte6PTLTSBhZI41KxXLVzpRSVWYYTJOSWehW1XRKsVKtpGvtWrbVkjVYqsuSqnitT2Bplq2WrUm0Sis|CYM=023622",
+        "img_path": { "jp": "hSD18/hSD18-002_C.webp", "en": "hSD18/EN_hSD18-002_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:18 GMT", "en": "Fri, 16 Oct 2026 07:00:29 GMT" },
+        "img_hash": "v2|H32=pqqcyrWqrbrb5te6PTLTSBjZI41KxXLVzoVSVWZYTDOyWehW1XRKsVKtpGrtWrbVkjVIqsuSsnqtT2Bplq2WrUu1Wi4|CYM=023722",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C80" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10002" ],
@@ -80870,16 +80915,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-003",
-        "manage_id": { "jp": [ 2111 ] },
+        "manage_id": { "jp": [ 2111 ], "en": [ 1990 ] },
         "rarity": "C",
         "illustrator": "",
-        "img_path": { "jp": "hSD18/hSD18-003_C.webp", "en": "proxies/hSD18/hSD18-003_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:19 GMT" },
-        "img_hash": "v2|H32=0qq1y7Sqiyqra5O+Wyk069I0Wq9qVcoUJsNILdKUNOvMNFpLa1msoksqL9u0LBNLtHWWtqlKaku0pjYpkKSytMmWSmk|CYM=012828",
+        "img_path": { "jp": "hSD18/hSD18-003_C.webp", "en": "hSD18/EN_hSD18-003_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:19 GMT", "en": "Fri, 16 Oct 2026 07:00:29 GMT" },
+        "img_hash": "v2|H32=0qq1y7Wqiyqry5O6Wyk069I0Wq9qVcoUNsNIrdKUNOvMNFpLa1msokMqL9O1LBNLtlSWtKlKaku0pjYplKSytMmWSmk|CYM=012828",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C81" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10003" ],
@@ -80914,16 +80959,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-004",
-        "manage_id": { "jp": [ 2112 ] },
+        "manage_id": { "jp": [ 2112 ], "en": [ 1991 ] },
         "rarity": "C",
         "illustrator": "ぷらこ",
-        "img_path": { "jp": "hSD18/hSD18-004_C.webp", "en": "proxies/hSD18/hSD18-004_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:19 GMT" },
-        "img_hash": "v2|H32=iqqtqmZdUivCVFBZtNLB7rCaNKc3JBvVYqVqVUqbbFVOJxpNWWRGtiFraJWUtLEiY2toS0pbpKFq29CqujS0qy7b8GU|CYM=015546",
+        "img_path": { "jp": "hSD18/hSD18-004_C.webp", "en": "hSD18/EN_hSD18-004_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:19 GMT", "en": "Fri, 16 Oct 2026 07:00:30 GMT" },
+        "img_hash": "v2|H32=iqqtqmbdUivAVFBZNtLIzLGaNKe0LRvVYqVKVWuzZFXMJRpZSVSGLqUpaJWUtLAkY2lp2krapK1qSdAqmjS0qyrT8GU|CYM=015647",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C82" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10004" ],
@@ -80972,16 +81017,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-005",
-        "manage_id": { "jp": [ 2113 ] },
+        "manage_id": { "jp": [ 2113 ], "en": [ 1992 ] },
         "rarity": "U",
         "illustrator": "ぱとり",
-        "img_path": { "jp": "hSD18/hSD18-005_U.webp", "en": "proxies/hSD18/hSD18-005_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:20 GMT" },
-        "img_hash": "v2|H32=rKqtqlPjUnfSUNBUpDykrayKJYlspkjTSlVKNYtVUjULbU5SlSSHNWvR8KuWqzjprVqIAi6diFarS/DY9CRwWKumyiQ|CYM=02493B",
+        "img_path": { "jp": "hSD18/hSD18-005_U.webp", "en": "hSD18/EN_hSD18-005_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:20 GMT", "en": "Fri, 16 Oct 2026 07:00:30 GMT" },
+        "img_hash": "v2|H32=rKqtqlPrUlfSUNBUpBykqayKJYlspmrRSlVaNQtVciUbbU5KlSSHNWvR8KtWqnjqrVuIkmqVqFOjSvD49DRwWKu2yqQ|CYM=02493B",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C83" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10005" ],
@@ -81011,16 +81056,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-006",
-        "manage_id": { "jp": [ 2114 ] },
+        "manage_id": { "jp": [ 2114 ], "en": [ 1993 ] },
         "rarity": "C",
         "illustrator": "げぜるん。",
-        "img_path": { "jp": "hSD18/hSD18-006_C.webp", "en": "proxies/hSD18/hSD18-006_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:21 GMT" },
-        "img_hash": "v2|H32=rKqVKnKrK9tScfJcpPLUtqyGtI7M1W5FWk1K1Us5WkFrlEpJ1NRLtam1tJJsaLRlay14KosuoFby0tAtUrpJq0mL9tI|CYM=014732",
+        "img_path": { "jp": "hSD18/hSD18-006_C.webp", "en": "hSD18/EN_hSD18-006_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:21 GMT", "en": "Fri, 16 Oct 2026 07:00:31 GMT" },
+        "img_hash": "v2|H32=rKqVqnKrK8pScfIdtNLUtqymtM7M1W4VSk1qVUsZWgGq1Erb1NRLtau1tKZsabT1Sz14qoo+qGT20tAt0rbZsk2L8NM|CYM=014732",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C84" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10006" ],
@@ -81059,16 +81104,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-007",
-        "manage_id": { "jp": [ 2115 ] },
+        "manage_id": { "jp": [ 2115 ], "en": [ 1994 ] },
         "rarity": "U",
         "illustrator": "はねゆき",
-        "img_path": { "jp": "hSD18/hSD18-007_U.webp", "en": "proxies/hSD18/hSD18-007_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:22 GMT" },
-        "img_hash": "v2|H32=cra0qo2qJYqtaqfa2yospdIaSzWUFVNXrNRST2fU1EosrchKmbW0ldaqS6mzUkWrbL2pamvJrVZou62WlrallK1WUq8|CYM=012B22",
+        "img_path": { "jp": "hSD18/hSD18-007_U.webp", "en": "hSD18/EN_hSD18-007_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:22 GMT", "en": "Fri, 16 Oct 2026 07:00:31 GMT" },
+        "img_hash": "v2|H32=cra0qo2qpYqtaqfa22ostdIaSzWUFVNTpNVSSyfUVEIsrchKkVW0ldaqS6mzUkWrbBWpKmuLrVZoqa2SlraglK9WEq0|CYM=012B21",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C85" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10007" ],
@@ -81107,16 +81152,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-008",
-        "manage_id": { "jp": [ 2116 ] },
+        "manage_id": { "jp": [ 2116 ], "en": [ 1995 ] },
         "rarity": "R",
         "illustrator": "green322",
-        "img_path": { "jp": "hSD18/hSD18-008_R.webp", "en": "proxies/hSD18/hSD18-008_R.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:22 GMT" },
-        "img_hash": "v2|H32=rKpLVZGqKKVSVbS1kqq0ljTVtYpK1U9LSkdKZWolSCKpNI5Kt1ipSlpVsaupbdagzSp6tZWSakVdqnItWqEWtcnW1to|CYM=045F51",
+        "img_path": { "jp": "hSD18/hSD18-008_R.webp", "en": "hSD18/EN_hSD18-008_R.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:22 GMT", "en": "Fri, 16 Oct 2026 07:00:31 GMT" },
+        "img_hash": "v2|H32=rKpLVYGqKKVSVbS1kqu0ljTVtYpq1U5LSsdKZUolSCKpNK5Kt1qpSlp1kauppdagzSp6tZWKamVdqnItWqEy9clW1lo|CYM=045F51",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C86" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10008" ],
@@ -81152,16 +81197,16 @@
     ],
     "tags": [ { "jp": "#EN", "en": "#EN" }, { "jp": "#Myth", "en": "#Myth" }, { "jp": "#歌", "en": "#Singing" } ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD18-009",
-        "manage_id": { "jp": [ 2117 ] },
+        "manage_id": { "jp": [ 2117 ], "en": [ 1996 ] },
         "rarity": "RR",
         "illustrator": "green322",
-        "img_path": { "jp": "hSD18/hSD18-009_RR.webp", "en": "proxies/hSD18/hSD18-009_RR.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:23 GMT" },
-        "img_hash": "v2|H32=iKrU0dKqhK8mUU0eMFu1OnzbNLsalUvByIVOxcplaG1ONahItUyrM23V1JbSqmyxS3hiqakVatWWqpYq1cpS6ap08tM|CYM=346317",
+        "img_path": { "jp": "hSD18/hSD18-009_RR.webp", "en": "hSD18/EN_hSD18-009_RR.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:23 GMT", "en": "Fri, 16 Oct 2026 07:00:32 GMT" },
+        "img_hash": "v2|H32=iKrU0dKqpK8mU21eNFu1OnTZNLqalUvVzIVMTcpFaG1WNahKPVorsi2V1K5Sq3xx2nRyK6mWYtXVqpZK3cJS4apU8sk|CYM=346216",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C87" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd18/10009" ],
@@ -81191,20 +81236,20 @@
         "name": { "jp": "おさんぽスバル", "en": "Subaru Taking a Stroll" },
         "text": {
           "jp": "[ゲームに1回]自分のアーカイブのエールを自分の〈大空スバル〉1～2人に1枚ずつ送る。",
-          "en": "[1/Game] Send 1 cheer each from your archive to 1~2 of your <Oozora Subaru>."
+          "en": "[1/Game] Send 1 cheer each from your archive to 1~2 of your 〈Oozora Subaru〉."
         }
       }
     ],
-    "max_amount": { "jp": 1 },
+    "max_amount": { "jp": 1, "en": 1 },
     "illustrations": [
       {
         "card_number": "hSD19-001",
-        "manage_id": { "jp": [ 2119 ] },
+        "manage_id": { "jp": [ 2119 ], "en": [ 1956 ] },
         "rarity": "OC",
         "illustrator": "GIN",
-        "img_path": { "jp": "hSD19/hSD19-001_OC.webp", "en": "proxies/hSD19/hSD19-001_OC.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:25 GMT" },
-        "img_hash": "v2|H32=mkxa5JdmtJZrK1qyed27utS2M42KMlO3tEpLtZZKzcWKmbSqrlZI16csqdKQNmapC1XSKqpVWq+aVCotLlHb1mopKFU|CYM=1E162A",
+        "img_path": { "jp": "hSD19/hSD19-001_OC.webp", "en": "hSD19/EN_hSD19-001_OC.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:25 GMT", "en": "Fri, 16 Oct 2026 07:00:33 GMT" },
+        "img_hash": "v2|H32=mmxappcmtJZrKVqyad27uti2N8+Kkl2ltkpLtZZqzVWKmbSqrlZY0vetqFKQNmapDVXSKqpVWquaVCqtblPK1mptKFU|CYM=231625",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C97" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10001" ],
@@ -81229,16 +81274,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-002",
-        "manage_id": { "jp": [ 2120 ] },
+        "manage_id": { "jp": [ 2120 ], "en": [ 1997 ] },
         "rarity": "C",
         "illustrator": "七海喜つゆり",
-        "img_path": { "jp": "hSD19/hSD19-002_C.webp", "en": "proxies/hSD19/hSD19-002_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:26 GMT" },
-        "img_hash": "v2|H32=rKqcrGOrabrmeHvSkyQ7i56lJCtKUeZFUlPa1DZUsDQkjOiVV1ETC6ulNNI4WlytVqusVqtPUmm5UuChUqukeQ8vUio|CYM=091450",
+        "img_path": { "jp": "hSD19/hSD19-002_C.webp", "en": "hSD19/EN_hSD19-002_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:26 GMT", "en": "Fri, 16 Oct 2026 07:00:33 GMT" },
+        "img_hash": "v2|H32=rKqcrGOraarkeHPakyQ7i5alZAtKVeZVWlPa1HbWkLSknOiVV1kTC6ulJJI4WlSkVqusVqtGUim5UuCxUqm0WAcvUis|CYM=091450",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C98" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10002" ],
@@ -81267,16 +81312,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-003",
-        "manage_id": { "jp": [ 2121 ] },
+        "manage_id": { "jp": [ 2121 ], "en": [ 1998 ] },
         "rarity": "C",
         "illustrator": "",
-        "img_path": { "jp": "hSD19/hSD19-003_C.webp", "en": "proxies/hSD19/hSD19-003_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:26 GMT" },
-        "img_hash": "v2|H32=hqqtca2rM44pKhmKq7SFMsYRUrhiVVpcOke01pZGFCO0nlR3TV0tC2B4q24XfCfbl8dgtahqWiq0LpYu0rTq1cqX8tU|CYM=081039",
+        "img_path": { "jp": "hSD19/hSD19-003_C.webp", "en": "hSD19/EN_hSD19-003_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:26 GMT", "en": "Fri, 16 Oct 2026 07:00:34 GMT" },
+        "img_hash": "v2|H32=hqqtca2rM64pKhmKq7SFMsYVUrhiVVpcWke01pZGlKO0klR3TVkti2B4q2oWfCfbh8VgtalqWiq0LpYu0LTq1eqV8tU|CYM=081038",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C99" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10003" ],
@@ -81305,16 +81350,16 @@
     "arts": [ { "cheers": [ "colorless" ], "name": { "jp": "しゅばぁ", "en": "Shubaa" }, "power": "20" } ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-004",
-        "manage_id": { "jp": [ 2122 ] },
+        "manage_id": { "jp": [ 2122 ], "en": [ 1999 ] },
         "rarity": "C",
         "illustrator": "あす",
-        "img_path": { "jp": "hSD19/hSD19-004_C.webp", "en": "proxies/hSD19/hSD19-004_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:27 GMT" },
-        "img_hash": "v2|H32=qqopu52qKamLYmhsjqqcrsJVlrZSEZpVdg1zZW5NdKSsRNBsVVSsUqqpLKFqZUqlVUrK2p7SqtGqtVYptKq2LZa2MrU|CYM=16273D",
+        "img_path": { "jp": "hSD19/hSD19-004_C.webp", "en": "hSD19/EN_hSD19-004_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:27 GMT", "en": "Fri, 16 Oct 2026 07:00:34 GMT" },
+        "img_hash": "v2|H32=qqopu72qKamLYmhsjmqcjsJVlrZSEZpVVk17RW5P0Oas1FBqVVSsEqqpLqVqZUilVQrK2pvSqlVqlVYptKK2LbaksrU|CYM=17263C",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C100" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10004" ],
@@ -81347,10 +81392,10 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "ダンスレッスンなんですｹｰﾄﾞ", "en": "But It's a Dance Lesson" },
+        "name": { "jp": "ダンスレッスンなんですｹｰﾄﾞ", "en": "But It’s a Dance Lesson" },
         "text": {
           "jp": "このホロメンが相手のセンターホロメンから受けるダメージ-10。",
-          "en": "This holomem takes -10 damage from your opponent's center holomem."
+          "en": "This holomem takes -10 damage from your opponent's center holomem instead."
         }
       }
     ],
@@ -81363,16 +81408,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-005",
-        "manage_id": { "jp": [ 2123 ] },
+        "manage_id": { "jp": [ 2123 ], "en": [ 2000 ] },
         "rarity": "U",
         "illustrator": "月森もち",
-        "img_path": { "jp": "hSD19/hSD19-005_U.webp", "en": "proxies/hSD19/hSD19-005_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:28 GMT" },
-        "img_hash": "v2|H32=rKqTmq+qKaqnqCmOy6M5JspX0jXSVVJVUlXWRVJW1GS0tNQ1V3UpKqpyovKtiVSbVasqy6pLqqjoVhZdzapiqcomsK0|CYM=140B29",
+        "img_path": { "jp": "hSD19/hSD19-005_U.webp", "en": "hSD19/EN_hSD19-005_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:28 GMT", "en": "Fri, 16 Oct 2026 07:00:35 GMT" },
+        "img_hash": "v2|H32=rKqTlq+rKaqjKCmt2+I5JkpXkDLSFVhV0lXWRVLU1OTcttQlVnWpKqpakvb5qFazVasoy6qbqqipElJVyapCqcolsi0|CYM=180C26",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C101" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10005" ],
@@ -81402,16 +81447,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-006",
-        "manage_id": { "jp": [ 2124 ] },
+        "manage_id": { "jp": [ 2124 ], "en": [ 2001 ] },
         "rarity": "C",
         "illustrator": "まるえり",
-        "img_path": { "jp": "hSD19/hSD19-006_C.webp", "en": "proxies/hSD19/hSD19-006_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:29 GMT" },
-        "img_hash": "v2|H32=qqotqq2rWaqL+pumJ9irZsqNcnXaRXIV2lXSRlJStEx0MvRdVdVepKqqiOrdajn1pbWqeqoqqrbSWpRStZZSpWqpIq0|CYM=12192E",
+        "img_path": { "jp": "hSD19/hSD19-006_C.webp", "en": "hSD19/EN_hSD19-006_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:29 GMT", "en": "Fri, 16 Oct 2026 07:00:35 GMT" },
+        "img_hash": "v2|H32=qqotqqWrGa6rqrumJ9irZsqdcnXaRXKV2lXSVlJS3ExkMvQVVdVepKqoqOrVSjn1pbWqaqoqirbSUrRStbZSpUqpIK0|CYM=12192E",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C102" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10006" ],
@@ -81440,7 +81485,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "忘れてなんかやるもんか", "en": "No Way I'm Gonna Forget" },
+        "name": { "jp": "忘れてなんかやるもんか", "en": "No Way I’m Gonna Forget" },
         "power": "30+",
         "text": {
           "jp": "このホロメンにエールが2枚以上付いているなら、このアーツ+20。",
@@ -81450,16 +81495,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-007",
-        "manage_id": { "jp": [ 2125 ] },
+        "manage_id": { "jp": [ 2125 ], "en": [ 2002 ] },
         "rarity": "U",
         "illustrator": "ごろー＊",
-        "img_path": { "jp": "hSD19/hSD19-007_U.webp", "en": "proxies/hSD19/hSD19-007_U.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:29 GMT" },
-        "img_hash": "v2|H32=rqqtqmbzmcrDU2JVKaFLpZyscqy7zlpSelJaV1oXUrUOrZZcpWILVcr4dLbklLStWkX4aLo0ar96u3Cr2wf4KFqtUOk|CYM=392D1C",
+        "img_path": { "jp": "hSD19/hSD19-007_U.webp", "en": "hSD19/EN_hSD19-007_U.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:29 GMT", "en": "Fri, 16 Oct 2026 07:00:35 GMT" },
+        "img_hash": "v2|H32=rqqtqnJjucrSUmJVKbFLpZSscqzzzltSelJSVRpV1rWOrZZYpWkLVcradLbktLSpWk3oaLp0Kq9as3ChW4fwqFqtcPg|CYM=392C1A",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C103" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10007" ],
@@ -81488,16 +81533,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-008",
-        "manage_id": { "jp": [ 2126 ] },
+        "manage_id": { "jp": [ 2126 ], "en": [ 2003 ] },
         "rarity": "R",
         "illustrator": "ぷらこ",
-        "img_path": { "jp": "hSD19/hSD19-008_R.webp", "en": "proxies/hSD19/hSD19-008_R.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:30 GMT" },
-        "img_hash": "v2|H32=vKqt6s+pm6qHmS3ek7MzMcJS86ZWK1JWUpVIqWpVNKWkaNxaVVWvLIvim7okiXS1UQ+itSpaqpSibSbXmyRiWWClMkk|CYM=0F1339",
+        "img_path": { "jp": "hSD19/hSD19-008_R.webp", "en": "hSD19/EN_hSD19-008_R.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:30 GMT", "en": "Fri, 16 Oct 2026 07:00:36 GMT" },
+        "img_hash": "v2|H32=rKotasupG66nGSmck7MzMcJSsyZWKVJWUpVKqWpVdKWsaMxaVVWvJIvqmrokiXS1UR7qpWpaqpSibSbXmyRiWWClckk|CYM=111336",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C104" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10008" ],
@@ -81527,16 +81572,16 @@
     ],
     "tags": [ { "jp": "#JP", "en": "#JP" }, { "jp": "#2期生", "en": "#Gen 2" }, { "jp": "#トリ", "en": "#Bird" } ],
     "baton_pass": [ "colorless", "colorless" ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-009",
-        "manage_id": { "jp": [ 2127 ] },
+        "manage_id": { "jp": [ 2127 ], "en": [ 2004 ] },
         "rarity": "RR",
         "illustrator": "ソンシル",
-        "img_path": { "jp": "hSD19/hSD19-009_RR.webp", "en": "proxies/hSD19/hSD19-009_RR.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:31 GMT" },
-        "img_hash": "v2|H32=nKotq8uqrRXnWpmoIztUSlupYl/SxkqVLlZSUpp1tErcNHSXVZC7lGlJSq1eqhRp69VKepK2qlqk11RZpg2itGppyko|CYM=060E36",
+        "img_path": { "jp": "hSD19/hSD19-009_RR.webp", "en": "hSD19/EN_hSD19-009_RR.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:31 GMT", "en": "Fri, 16 Oct 2026 07:00:36 GMT" },
+        "img_hash": "v2|H32=rKotq8+qrTTnWpkoIxFUSlutYl/SxkqVrlZSWpo1tGrUNHTXVVC7lGtpSq1eqjRp65VaepK2Klekp1ZZpo2ytGppyko|CYM=070E30",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C105" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10009" ],
@@ -81551,16 +81596,16 @@
     "card_type": { "support": "event" },
     "text": { "jp": "自分のホロメンのHP30回復。", "en": "Restore 30 HP to 1 of your holomem." },
     "tags": [ { "jp": "#食べ物", "en": "#Food" } ],
-    "max_amount": { "jp": 4 },
+    "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
       {
         "card_number": "hSD19-010",
-        "manage_id": { "jp": [ 2128 ] },
+        "manage_id": { "jp": [ 2128 ], "en": [ 2009 ] },
         "rarity": "C",
         "illustrator": "紅木春",
-        "img_path": { "jp": "hSD19/hSD19-010_C.webp", "en": "proxies/hSD19/hSD19-010_C.webp" },
-        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:31 GMT" },
-        "img_hash": "v2|H32=oKqjqlK7WOkpyVhdTEnO2s+a1BrKHvJUslR6VS/VLNcM1zLZjPPho+DgbDoz2YwqNx7oih8e6eicPy2Kfyjgqh8sKDg|CYM=09274C",
+        "img_path": { "jp": "hSD19/hSD19-010_C.webp", "en": "hSD19/EN_hSD19-010_C.webp" },
+        "img_last_modified": { "jp": "Fri, 17 Apr 2026 09:00:31 GMT", "en": "Fri, 16 Oct 2026 07:00:37 GMT" },
+        "img_hash": "v2|H32=oKqjqlCrWOkpSUhdTNnO2s2a1JrSPlJUslRaVS9VLFYM1xLZhPPho+DgbDoz2YwuNx/oKh8O6OiMPyyKPyzgqx8eIHg|CYM=092744",
         "ogbajoj_sheet_cells": [ [ 1326338526, "C106" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd19/10010" ],
@@ -83438,16 +83483,19 @@
     "name": { "jp": "赤エール", "en": "Red Cheer" },
     "card_type": "cheer",
     "colors": [ "red" ],
-    "max_amount": { "jp": 20 },
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
+    "max_amount": { "jp": 20, "en": 20 },
     "illustrations": [
       {
         "card_number": "hY03-018",
-        "manage_id": { "jp": [ 2684 ] },
+        "manage_id": { "jp": [ 2684 ], "en": [ 2016 ] },
         "rarity": "P",
         "illustrator": "瀬戸",
-        "img_path": { "jp": "hPR/hY03-018_P.webp", "en": null },
-        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:16 GMT" },
-        "img_hash": "v2|H32=qqrSVEOpNLG0ZGyZ6WYZy4waW6acGpm2pmWNj4Zl59lG4YyqL9IpbZlqkpJko0YqEvWqRFZu1lophWpV0laSlC1pYlk|CYM=03566A",
+        "img_path": { "jp": "hPR/hY03-018_P.webp", "en": "hPR/EN_hY03-018_P.webp" },
+        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:16 GMT", "en": "Fri, 16 Oct 2026 07:00:07 GMT" },
+        "img_hash": "v2|H32=qqrSVEOpNLG05GyZaWYZy4waW+acGpm2tiWNi4Zl59lG6YyqL1IpbZlukpJko0YqEvWqRFZu1loppWqZ1lKSpCVpYlk|CYM=03566A",
         "ogbajoj_sheet_cells": [ [ 419749048, "C3" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/yell01/10083" ],
@@ -83851,16 +83899,19 @@
     "name": { "jp": "青エール", "en": "Blue Cheer" },
     "card_type": "cheer",
     "colors": [ "blue" ],
-    "max_amount": { "jp": 20 },
+    "text": {
+      "en": "■If a holomem leaves the stage, archive all of that holomem's cheers.\n■If a holomem Baton Passes, archive the specified number of that holomem's cheers."
+    },
+    "max_amount": { "jp": 20, "en": 20 },
     "illustrations": [
       {
         "card_number": "hY04-015",
-        "manage_id": { "jp": [ 2685 ] },
+        "manage_id": { "jp": [ 2685 ], "en": [ 2017 ] },
         "rarity": "P",
         "illustrator": "瀬戸",
-        "img_path": { "jp": "hPR/hY04-015_P.webp", "en": null },
-        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:17 GMT" },
-        "img_hash": "v2|H32=aqoSVVOrtPS0LCyK63ZXi6lSS5S3UpuGmKQxLxzJ6WhAa4Sqq1wp0WW6tqhSrJYqFl2mRECpUtqgVVpV0lUyXaRakhU|CYM=583207",
+        "img_path": { "jp": "hPR/hY04-015_P.webp", "en": "hPR/EN_hY04-015_P.webp" },
+        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:17 GMT", "en": "Fri, 16 Oct 2026 07:00:07 GMT" },
+        "img_hash": "v2|H32=aqoSVVOrtDS0LCyL63ZXi6lWS5S3UpuUmCUx7xzJ6WhEa4Sqq1wp1WW6tuxSpJYqFl2mRECpUrqlBVKV0qQySbRaklU|CYM=583207",
         "ogbajoj_sheet_cells": [ [ 419749048, "C4" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/yell01/10084" ],
