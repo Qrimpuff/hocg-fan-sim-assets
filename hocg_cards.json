@@ -46973,14 +46973,14 @@
         "name": { "jp": "holoh3ro Shopping", "en": "holoh3ro Shopping" },
         "text": {
           "jp": "[センターポジション限定]自分の#ID3期生を持つBuzzホロメンがコラボした時、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。",
-          "en": "[Center Position Only]When your Buzz holomem with #ID Gen 3 collabs, choose 1 holomem on your stage. The chosen holomem gets Arts+30."
+          "en": "[Center Position Only] When your Buzz holomem with #ID Gen 3 collabs, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+30."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless", "colorless" ],
-        "name": { "jp": "みんなと一緒にいる時間が好き", "en": "I like spending time with everyone" },
+        "name": { "jp": "みんなと一緒にいる時間が好き", "en": "I Love Spending Time With Everyone" },
         "power": "50"
       }
     ],
@@ -48395,7 +48395,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "幻獣グルメハンター", "en": "Genju Gourmet Hunter" },
+        "name": { "jp": "幻獣グルメハンター", "en": "The Beast Gourmet Hunter" },
         "text": {
           "jp": "サイコロを1回振る。奇数なら、相手のセンターホロメンに特殊ダメージ20を与える。偶数なら、自分のデッキを1枚引く。",
           "en": "Roll a die once. If it is odd, deal 20 special damage to your opponent's center holomem. If it is even, draw 1 card."
@@ -48409,7 +48409,7 @@
         "power": "30",
         "text": {
           "jp": "このターンの間、自分のステージの#ENを持つホロメン全員のアーツ+20。",
-          "en": "During this turn, all holomem on your stage with #EN get Arts+20."
+          "en": "During this turn, all holomem with #EN on your stage get Arts+20."
         }
       }
     ],
@@ -49361,7 +49361,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "お時間ですわ！", "en": "It's Time desuwa!" },
+        "name": { "jp": "お時間ですわ！", "en": "Time's Up!" },
         "text": {
           "jp": "自分のアーカイブのマスコット1枚をこのホロメンに付けられる。",
           "en": "You may attach 1 mascot from your archive to this holomem."
@@ -49373,7 +49373,7 @@
         "cheers": [ "colorless" ],
         "name": {
           "jp": "私の新キャッチフレーズ。どうだい？",
-          "en": "It's my new catchphrase. What do you think?"
+          "en": "That's My New Catchphrase by the Way, What Do You Guys Think?"
         },
         "power": "30+",
         "text": {
@@ -51858,21 +51858,21 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "虎の威", "en": "The Power of the Tiger" },
+        "name": { "jp": "虎の威", "en": "Power of the Tiger" },
         "text": {
           "jp": "自分のバックポジションの#FLOW GLOWを持つ1stホロメン全員は相手から特殊ダメージを受けない。",
-          "en": "All of your 1st holomem in the back position with #FLOW GLOW do not take special damage from your opponent."
+          "en": "All of your back 1st holomem with #FLOW GLOW do not take special damage from your opponent."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow", "colorless" ],
-        "name": { "jp": "みんなが居るから幸せだ！", "en": "I'm happy because everyone is here!" },
+        "name": { "jp": "みんなが居るから幸せだ！", "en": "I'm Happy 'Cuz Everyone's Here!" },
         "power": "50+",
         "text": {
           "jp": "このターンに自分のステージのエールがアーカイブされていたなら、このアーツ+30。",
-          "en": "If cheer has been archived from your stage this turn, this Arts gets +30."
+          "en": "If cheer was archived from your stage this turn, this Arts gets +30."
         }
       }
     ],
@@ -66752,6 +66752,45 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10229" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-001": {
+    "card_number": "hBP10-001",
+    "name": { "jp": "獅白ぼたん", "en": "Shishiro Botan" },
+    "card_type": "oshi_holomem",
+    "colors": [ "white" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "Meter Buildup" },
+        "text": {
+          "en": "When your third Arts in 1 turn is used by <Shishiro Botan>, draw 1 card. When your fourth Arts in 1 turn is used by <Shishiro Botan>, that Arts gets +30."
+        }
+      },
+      {
+        "holo_power": 3,
+        "name": { "jp": null, "en": "Down Bonus" },
+        "text": {
+          "en": "[1/Turn] Usable when your fourth Arts in 1 turn is used by <Shishiro Botan> and downs your opponent's holomem: If your life is 2 or more, draw 3 cards. If your life is 1, your opponent gets life-1."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-001",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-001_OSR.webp", "en": null },
+        "img_hash": "v2|H32=lE0tTSVdSnVoktK12bq2orVolqo7AzzJSyI41hU1qlZc1S7Vq5YXS1qspSu2rMkiTauqbJWmaytVavFskX4WLZAsG7Q|CYM=061614",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C3" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -82115,6 +82154,42 @@
       }
     ]
   },
+  "hSD21-003": {
+    "card_number": "hSD21-003",
+    "name": { "jp": "熱千めら", "en": "Achichi Mela" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A Mysterious Ability to Quell Flames" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 2 <Achichi Mela> with Gift from your deck. Add 1 of them to your hand, and archive the remaining card. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Resounding Clappers" }, "power": "20" } ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD21-003",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD21-003_U.webp", "en": null },
+        "img_hash": "v2|H32=rqrTXKWqLa7LYyzmzKGN0hgR4LVaF3slUoVbRdbc8tW23pYsE2WpV1KpXpPamtbStZJpuKtUatpXS1arUKq2KSm6Ni0|CYM=271F0B",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C25" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD21-004": {
     "card_number": "hSD21-004",
     "name": { "jp": "熱千めら", "en": "Achichi Mela" },
@@ -82163,12 +82238,18 @@
     "colors": [ "purple" ],
     "hp": 170,
     "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "A Whirlwind of Explosive Fun" },
+        "text": {
+          "en": "If you have 3 or more holomem with Gift in your archive, deal 20 special damage to your opponent's center holomem or collab holomem."
+        }
+      }
+    ],
     "arts": [
       { "cheers": [ "purple" ], "name": { "jp": null, "en": "To the Most Extraordinary Life" }, "power": "40" }
     ],
-    "text": {
-      "en": "Collab: A Whirlwind of Explosive Fun\nIf you have 3 or more holomem with Gift in your archive, deal 20 special damage to your opponent's center holomem or collab holomem."
-    },
     "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
@@ -82223,6 +82304,30 @@
         "img_path": { "jp": "unreleased/hSD21-006_R.webp", "en": null },
         "img_hash": "v2|H32=qKrTTIKrSO7SVTR35Iy1MrSE7ataVmsVWlOPTXJNZu0LVqpqpURJr1tUVtVWqtKyhatosWt1UqnWmrRVqpNSwVWrlmg|CYM=665C0A",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C28" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD21-008": {
+    "card_number": "hSD21-008",
+    "name": { "jp": "熱千めらの拍子木", "en": "Achichi Mela's Wooden Clappers" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Achichi Mela> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Achichi Mela>\nIf this holomem downs your opponent's holomem, draw 1 card and archive 1 card from your hand.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD21-008",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD21-008_U.webp", "en": null },
+        "img_hash": "v2|H32=lq+nqpSqlEq7SlhVGFUadTs1NBurWmdSr2JqdEs1TjXatBJdB89souDjrSp48OkK7oeNiz44rco6PKGq+PDheD8Kqos|CYM=1F190E",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C30" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
