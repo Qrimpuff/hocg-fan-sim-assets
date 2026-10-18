@@ -48007,15 +48007,15 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "ドライブ行こうよ", "en": "Let's go for a drive" },
+        "name": { "jp": "ドライブ行こうよ", "en": "Let's Go for a Drive" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、[1stホロメンの〈輪堂千速〉と〈ふぐ太郎〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 [1st holomem <Rindo Chihaya> and/or <Fugutaro>] each from your deck, and add them to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 1st holomem <Rindo Chihaya> and 1 <Fugutaro> from your deck, and add them to your hand. Shuffle your deck."
         }
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": "一陣の夜風", "en": "A gust of night wind" }, "power": "10" }
+      { "cheers": [ "colorless" ], "name": { "jp": "一陣の夜風", "en": "Gust of Night Breeze" }, "power": "10" }
     ],
     "tags": [ { "jp": "#DEV_IS", "en": "#DEV_IS" }, { "jp": "#FLOW GLOW", "en": "#FLOW GLOW" } ],
     "baton_pass": [ "colorless" ],
@@ -67357,7 +67357,7 @@
         "type": "collab",
         "name": { "jp": null, "en": "Don't You Think I Could Do This as a Job?" },
         "text": {
-          "en": "If you went second and it is your first turn, reveal 1 [1st holomem <Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add them to your hand. Shuffle your deck."
+          "en": "If you went second and it is your first turn, reveal 1 1st holomem <Ichijou Ririka> and 1 <Struggle Meal> from your deck, and add them to your hand. Shuffle your deck."
         }
       }
     ],
@@ -67419,6 +67419,52 @@
         "img_path": { "jp": "unreleased/hBP10-075_U.webp", "en": null },
         "img_hash": "v2|H32=rKo6Fa2q0PDDS6Ws0tGtipK1TNs2WdpUVkuzpFoWlC62krRoWlWtFi1aSrWwtFCSpauylq3SKqmhtFppaanSupSrUtU|CYM=144435",
         "ogbajoj_sheet_cells": [ [ 505534664, "C77" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-080": {
+    "card_number": "hBP10-080",
+    "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Puzzle God" },
+        "text": {
+          "en": "[1/Turn] You may archive 1 holomem stacked to your <Gigi Murin>: Set 1 of your <Gigi Murin> to active."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "Gremlin Illusion" },
+        "power": "50",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "If there are no holomem stacked to this holomem, deal 30 special damage to your opponent's collab holomem or 1 of your opponent's back holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-080",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-080_R.webp", "en": null },
+        "img_hash": "v2|H32=qqJJarWlbNo2bSSXFkqJNZayyUxMJbtWbE1bi7pZNinb2pRqVWHolKtSZJmutNokpYvytEorptZK1SlNVq3acmkt0qQ|CYM=022965",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C82" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -81727,6 +81773,42 @@
       }
     ]
   },
+  "hSD20-003": {
+    "card_number": "hSD20-003",
+    "name": { "jp": "百灯キョーコ", "en": "Hyakuto Kyoko" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Gather Round!" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 1 Debut holomem with #ASOBI★MAWARI-TAI! and 1 1st holomem <Hyakuto Kyoko> from your deck, and add them to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "The Wild Party Begins" }, "power": "20" } ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD20-003",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD20-003_U.webp", "en": null },
+        "img_hash": "v2|H32=quyttrOpKctMk0MLzFarLegkvMRzKFTCctlcYZIV1nCtJq5VlbRSKlprKNUrVWCZrUrwYFIKKwsrpVapVan5urBSoIU|CYM=2A3F2E",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C5" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hSD20-004": {
     "card_number": "hSD20-004",
     "name": { "jp": "百灯キョーコ", "en": "Hyakuto Kyoko" },
@@ -82304,6 +82386,48 @@
         "img_path": { "jp": "unreleased/hSD21-006_R.webp", "en": null },
         "img_hash": "v2|H32=qKrTTIKrSO7SVTR35Iy1MrSE7ataVmsVWlOPTXJNZu0LVqpqpURJr1tUVtVWqtKyhatosWt1UqnWmrRVqpNSwVWrlmg|CYM=665C0A",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C28" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hSD21-007": {
+    "card_number": "hSD21-007",
+    "name": { "jp": "熱千めら", "en": "Achichi Mela" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Salamander Firefighter" },
+        "text": { "en": "If this holomem is downed, draw 2 cards." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "colorless" ],
+        "name": { "jp": null, "en": "Resident Blessing-Type Member" },
+        "power": "100+",
+        "advantage": [ "yellow", 50 ],
+        "text": { "en": "If you have 3 or more holomem with Gift in your archive, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hSD21-007",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hSD21-007_RR.webp", "en": null },
+        "img_hash": "v2|H32=qKloNaeqpL0WSoTKeJyPw0jQK6VoWXMLKm3WIhrGlLLO1rRKvGioNFbWVqlrtWylrZKy0nZLSldpvUqvtKK2VNUqMvQ|CYM=36310E",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C29" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
