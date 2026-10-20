@@ -46915,7 +46915,7 @@
         "name": { "jp": "Pat the BAZO", "en": "Pat the BAZO" },
         "text": {
           "jp": "このホロメンにマスコットが付いているなら、このホロメンのHP+30。",
-          "en": "If this holomem has a mascot attached, this holomem gets +30 HP."
+          "en": "If a mascot is attached to this holomem, this holomem gets +30 HP."
         }
       }
     ],
@@ -48119,17 +48119,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "ぶいぶい走らせるぞ！！！", "en": "Let's drive like crazy!!!" },
+        "name": { "jp": "ぶいぶい走らせるぞ！！！", "en": "Putting the Pedal to the Metal!!!" },
         "text": {
           "jp": "自分のステージのエール1枚をアーカイブできる:自分のデッキから、#FLOW GLOWを持つ[Debutホロメンか1stホロメンかSpotホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may archive 1 cheer from your stage:Reveal 1 [Debut holomem, 1st holomem or Spot holomem] with #FLOW GLOW from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may archive 1 cheer from your stage: Reveal 1 [Debut holomem, 1st holomem or Spot holomem] with #FLOW GLOW from your deck, and add it to your hand. Shuffle your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "どっちが速いｶﾅ？！？！？！", "en": "Which is faster?!?!?!" },
+        "name": { "jp": "どっちが速いｶﾅ？！？！？！", "en": "Who'll be Faster?!?!?!" },
         "power": "20+",
         "text": {
           "jp": "このホロメンに〈ふぐ太郎〉が付いているなら、このアーツ+10。",
@@ -49249,10 +49249,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "この日が来た！", "en": "Today's the day!" },
+        "name": { "jp": "この日が来た！", "en": "Today's the Day!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のセンターホロメンの〈オーロ・クロニー〉を、自分の手札の1stホロメンを使ってBloomできる。この能力では最初のターンでもBloomできる。",
-          "en": "If you went second and it is your first turn, you may bloom your center holomem <Ouro Kronii> using a 1st holomem in your hand. This ability allows you to bloom on your first turn."
+          "en": "If you went second and it is your first turn, you may bloom your center holomem <Ouro Kronii> using a 1st holomem from your hand. You may bloom on your first turn with this ability."
         }
       }
     ],
@@ -51118,17 +51118,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "あぱぱ", "en": "apapa" },
+        "name": { "jp": "あぱぱ", "en": "Apapa" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のデッキから、#5期生を持つ2ndホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "If you went second and it is your first turn, reveal 1 2nd holomem with #Gen 5 from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "If you went second and it is your first turn, reveal 1 2nd holomem with #Gen 5 from your deck, and add it to your hand. Shuffle your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ねね、酔っちゃった～", "en": "Nene is drunk" },
+        "name": { "jp": "ねね、酔っちゃった～", "en": "Nene Is a Lil Tipsy~" },
         "power": "10"
       }
     ],
@@ -51737,7 +51737,7 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "執念のチェイサー", "en": "Obsessive Chaser" },
+        "name": { "jp": "執念のチェイサー", "en": "Relentless Chaser" },
         "text": {
           "jp": "自分の〈ジジ・ムリン〉1人を選ぶ。このターンの間、選んだホロメンのアーツは、相手のHPが減っているバックホロメンも対象にできる。",
           "en": "Choose 1 of your <Gigi Murin>. During this turn, you may also target your opponent's back holomem with reduced HP with the chosen holomem's Arts."
@@ -51747,12 +51747,12 @@
     "arts": [
       {
         "cheers": [ "yellow", "yellow", "colorless" ],
-        "name": { "jp": "追撃のライオット", "en": "Riot of the Pursuit" },
+        "name": { "jp": "追撃のライオット", "en": "Homing Riot" },
         "power": "160+",
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "このアーツの対象が、相手のHPが減っているホロメンなら、このアーツ+30。",
-          "en": "If the target of this Arts is a holomem with reduced HP, this Arts gets +30."
+          "en": "If the target of this Arts is your opponent's holomem with reduced HP, this Arts gets +30."
         }
       }
     ],
@@ -52554,7 +52554,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている〈桃鈴ねね〉のアーツ+20。\n\n◆1st以上の〈桃鈴ねね〉に付いていたら能力追加\nこのホロメンのアーツダメージは軽減されない。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The <Momosuzu Nene> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to 1st or greater <Momosuzu Nene>\nThis holomem's Arts damage cannot be reduced.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The <Momosuzu Nene> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater holomem <Momosuzu Nene>\nThe damage of this holomem's Arts cannot be reduced.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -65967,7 +65967,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のステージのエール1～2枚を選び、自分のホロメンに割り振って付け替える。その後、自分のエールが付いているホロメンが4人以上いるなら、自分のアーカイブのエール1枚を自分のホロメンに送る。",
-      "en": "Choose 1~2 cheers on your stage, and reattach them to your holomem. Then, if you have 4 or more holomem with cheer attached, send 1 cheer from your archive to your holomem."
+      "en": "Choose 1~2 cheers on your stage, and reattach them divided as you choose to your holomem. Then, if you have 4 or more holomem with cheer attached, send 1 cheer from your archive to your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -67490,6 +67490,41 @@
         "img_path": { "jp": "unreleased/hBP10-061_C.webp", "en": null },
         "img_hash": "v2|H32=rKpSRNCqLZuSUWS4tNHUpF6SrapSVVtbak0K9coUhKXOVFpKFk1JWmlbtLWhUrRE1aJotalXqiRtuvIttKLSdK22llQ|CYM=2E3820",
         "ogbajoj_sheet_cells": [ [ 505534664, "C63" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-072": {
+    "card_number": "hBP10-072",
+    "name": { "jp": "鈴鳴つづり", "en": "Suzuna Tsuzuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "Mailwoman and Courier" },
+        "power": "20+",
+        "text": { "en": "If the number of cheers on your stage is less than your opponent's, this Arts gets +20." }
+      }
+    ],
+    "extra": { "en": "You may include any number of this holomem in the deck" },
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 50 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-072",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-072_C.webp", "en": null },
+        "img_hash": "v2|H32=SsuUvNeiKYnTUi22T2vZ0iy1Q0uYVGYl2kyWNDMKtM2bWtxSValmraJUtqRJq5W2miRJm6bbap3aViYthSuZFqpapUo|CYM=04323D",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C74" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
