@@ -10738,7 +10738,7 @@
           [ 1874575099, "C20" ],
           [ 1874575099, "C64" ],
           [ 2109917797, "C17" ],
-          [ 2109917797, "C37" ]
+          [ 2109917797, "C39" ]
         ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10124" ],
@@ -17834,11 +17834,11 @@
       },
       {
         "card_number": "hBP02-080",
-        "manage_id": { "jp": [ 1745 ] },
+        "manage_id": { "jp": [ 1745 ], "en": [ 2031 ] },
         "rarity": "P",
         "illustrator": "kobuta",
-        "img_path": { "jp": "hPR/hBP02-080_P_2.webp", "en": "proxies/hPR/hBP02-080_P_2.webp" },
-        "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:57 GMT" },
+        "img_path": { "jp": "hPR/hBP02-080_P_2.webp", "en": "hPR/EN_hBP02-080_P.webp" },
+        "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:57 GMT", "en": "Thu, 22 Oct 2026 07:00:04 GMT" },
         "img_hash": "v2|H32=xkpiRZSqSFW3qki1M+pY7LewWGmrEv2ophfp6rQ0p6NwWFCpVdEtWqxqpEqlrqmqJZWplpVFqkmVaipFlqqKJTStunU|CYM=00292D",
         "ogbajoj_sheet_cells": [ [ 419749048, "C31" ] ],
         "similarity_index": 2,
@@ -19388,7 +19388,7 @@
         "power": "10",
         "text": {
           "jp": "自分の〈ルーナイト〉が付いているホロメンがいない時、自分のデッキから、〈ルーナイト〉1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。",
-          "en": "If you do not have a holomem with 〈Lu-knights〉 attached, reveal 1 〈Lu-knights〉 from your deck, and attach it to your holomem. Then, shuffle the deck."
+          "en": "If you do not have a holomem with 〈Lu-knights〉 attached, search 1 〈Lu-knights〉 from your deck, and attach it to your holomem. Shuffle your deck."
         }
       }
     ],
@@ -19434,11 +19434,11 @@
       },
       {
         "card_number": "hBP03-009",
-        "manage_id": { "jp": [ 812 ] },
+        "manage_id": { "jp": [ 812 ], "en": [ 2018 ] },
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP03-009_P.webp", "en": null },
-        "img_last_modified": { "jp": "Mon, 07 Apr 2025 05:47:34 GMT" },
+        "img_path": { "jp": "hPR/hBP03-009_P.webp", "en": "hPR/EN_hBP03-009_P.webp" },
+        "img_last_modified": { "jp": "Mon, 07 Apr 2025 05:47:34 GMT", "en": "Thu, 22 Oct 2026 07:00:05 GMT" },
         "img_hash": "v2|H32=ksSSyrVJtGksSq2rZLJJsme2QhKjpmJtWEqTZcmIkw3LrSZtU6toV5XSXaJpWY9aLS1oqpKWLar6UomuaS2dtq+Hrao|CYM=031710",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -21098,11 +21098,11 @@
       },
       {
         "card_number": "hBP03-031",
-        "manage_id": { "jp": [ 813 ] },
+        "manage_id": { "jp": [ 813 ], "en": [ 2019 ] },
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP03-031_P.webp", "en": null },
-        "img_last_modified": { "jp": "Mon, 07 Apr 2025 05:47:33 GMT" },
+        "img_path": { "jp": "hPR/hBP03-031_P.webp", "en": "hPR/EN_hBP03-031_P.webp" },
+        "img_last_modified": { "jp": "Mon, 07 Apr 2025 05:47:33 GMT", "en": "Thu, 22 Oct 2026 07:00:06 GMT" },
         "img_hash": "v2|H32=som9as2qoatsqsuipcxLSpZmct1ScdJUcslSkrZoNE2kkqxVVZVWKbaqW+rbUqVpS0m5tKItS7qrtiwpJs3blqkipIs|CYM=112B27",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -23208,12 +23208,12 @@
       },
       {
         "card_number": "hBP03-059",
-        "manage_id": { "jp": [ 2131 ] },
+        "manage_id": { "jp": [ 2131 ], "en": [ 2034 ] },
         "rarity": "P",
         "illustrator": "兎未枝",
-        "img_path": { "jp": "hPR/hBP03-059_P.webp", "en": "proxies/hPR/hBP03-059_P.webp" },
-        "img_last_modified": { "jp": "Fri, 24 Apr 2026 08:54:53 GMT" },
-        "img_hash": "v2|H32=oqrTSLSqLEusStSzyFTVqcpUMK4zTTKWdlltkUo1zLVpaZIts9W0okxqJNo6pUbLaakofHpaSte6NUKrrS5SJfWqUnk|CYM=034D32",
+        "img_path": { "jp": "hPR/hBP03-059_P.webp", "en": "hPR/EN_hBP03-059_P.webp" },
+        "img_last_modified": { "jp": "Fri, 24 Apr 2026 08:54:53 GMT", "en": "Thu, 22 Oct 2026 07:00:06 GMT" },
+        "img_hash": "v2|H32=sqrTWLWqJEusWtyTyFTXqcJUMK4zTTKXNFltkUqVzHVpbZYts9mcssRqrN54pEbLSZsocHpaStXatEbLrSpSdfVqUnU|CYM=024D32",
         "ogbajoj_sheet_cells": [ [ 419749048, "C50" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10241" ],
@@ -23760,7 +23760,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "こんばんドドド～！", "en": "Hoof, hoof, helloof!" },
+        "name": { "jp": "こんばんドドド～！", "en": "Hoof, Hoof, Helloof!" },
         "power": "30"
       }
     ],
@@ -23821,11 +23821,11 @@
       },
       {
         "card_number": "hBP03-067",
-        "manage_id": { "jp": [ 815 ] },
+        "manage_id": { "jp": [ 815 ], "en": [ 2020 ] },
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP03-067_P.webp", "en": null },
-        "img_last_modified": { "jp": "Mon, 07 Apr 2025 05:47:33 GMT" },
+        "img_path": { "jp": "hPR/hBP03-067_P.webp", "en": "hPR/EN_hBP03-067_P.webp" },
+        "img_last_modified": { "jp": "Mon, 07 Apr 2025 05:47:33 GMT", "en": "Thu, 22 Oct 2026 07:00:07 GMT" },
         "img_hash": "v2|H32=lqKTupeqraLburaK67HYCkpVUmnKRXJtakn6xWRpOFHspFgVRNW9UZKipupKWRNtLa0pm6pWimrW0lqqWUorpaktpK0|CYM=001226",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -26247,11 +26247,11 @@
       },
       {
         "card_number": "hBP03-112",
-        "manage_id": { "jp": [ 856 ] },
+        "manage_id": { "jp": [ 856 ], "en": [ 2032 ] },
         "rarity": "P",
         "illustrator": "ふーみ",
-        "img_path": { "jp": "hPR/hBP03-112_P_02.webp", "en": "proxies/hPR/hBP03-112_P_02.webp" },
-        "img_last_modified": { "jp": "Fri, 23 May 2025 06:38:36 GMT" },
+        "img_path": { "jp": "hPR/hBP03-112_P_02.webp", "en": "hPR/EN_hBP03-112_P.webp" },
+        "img_last_modified": { "jp": "Fri, 23 May 2025 06:38:36 GMT", "en": "Thu, 22 Oct 2026 07:00:08 GMT" },
         "img_hash": "v2|H32=tKqlqkqtylWnUpRX2lfL1sm6WJZLRnRUtExaTNtoXPJMspLN4UAnshDmJ7I/OMwu6IPsroKHyOrNSeEq8pPgsB8eaHg|CYM=013C52",
         "ogbajoj_sheet_cells": [ [ 1568103987, "C77" ] ],
         "similarity_index": 2,
@@ -29771,11 +29771,11 @@
       },
       {
         "card_number": "hBP04-050",
-        "manage_id": { "jp": [ 1116 ] },
+        "manage_id": { "jp": [ 1116 ], "en": [ 2021 ] },
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP04-050_P.webp", "en": null },
-        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT" },
+        "img_path": { "jp": "hPR/hBP04-050_P.webp", "en": "hPR/EN_hBP04-050_P.webp" },
+        "img_last_modified": { "jp": "Tue, 29 Jul 2025 07:54:53 GMT", "en": "Thu, 22 Oct 2026 07:00:09 GMT" },
         "img_hash": "v2|H32=ymi1rrWqKWqnom1rSylillJSUkVKlVJd0iWQVXxblCRs2tAVVbS0RK1qrKqwRQ31NrSpWqpXirJpSxKtW7dLS5YkSao|CYM=192609",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -32226,7 +32226,7 @@
         "power": "10",
         "text": {
           "jp": "自分のステージのホロメンが5人以下の時、自分のデッキから、#5期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。",
-          "en": "If your stage has 5 or less holomem, reveal 1 Debut holomem with #Gen 5 from your deck, and you may place it on stage. Then, shuffle the deck."
+          "en": "If your stage has 5 or less holomem, search 1 Debut holomem with #Gen 5 from your deck, and you may place it on your stage. Shuffle your deck."
         }
       }
     ],
@@ -32273,11 +32273,11 @@
       },
       {
         "card_number": "hBP04-083",
-        "manage_id": { "jp": [ 1409 ] },
+        "manage_id": { "jp": [ 1409 ], "en": [ 2022 ] },
         "rarity": "P",
         "illustrator": "",
-        "img_path": { "jp": "hPR/hBP04-083_P.webp", "en": null },
-        "img_last_modified": { "jp": "Fri, 11 Sep 2026 09:00:13 GMT" },
+        "img_path": { "jp": "hPR/hBP04-083_P.webp", "en": "hPR/EN_hBP04-083_P.webp" },
+        "img_last_modified": { "jp": "Fri, 11 Sep 2026 09:00:13 GMT", "en": "Thu, 22 Oct 2026 07:00:10 GMT" },
         "img_hash": "v2|H32=mqStioWquaqtq0upk0opNctUMtVKJVLUPqVSTrDUNEu8QlgFVbW0FrrSS8q2TSUpjSSrtmoqqdrqSiVaiSRSSqRaqa0|CYM=001D33",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -35984,12 +35984,12 @@
       },
       {
         "card_number": "hBP05-037",
-        "manage_id": { "jp": [ 2132 ] },
+        "manage_id": { "jp": [ 2132 ], "en": [ 2033 ] },
         "rarity": "P",
         "illustrator": "胡宮",
-        "img_path": { "jp": "hPR/hBP05-037_P.webp", "en": "proxies/hPR/hBP05-037_P.webp" },
-        "img_last_modified": { "jp": "Fri, 24 Apr 2026 08:54:53 GMT" },
-        "img_hash": "v2|H32=uHrWLLlqZqu0Km2L1NordUTW6nZqlVo1SpVCFUZ1SkVlVbRuWtRITaWyVGoqlkqTlVqpSVUrqkXVq400trpbtuq1tco|CYM=2D2808",
+        "img_path": { "jp": "hPR/hBP05-037_P.webp", "en": "hPR/EN_hBP05-037_P.webp" },
+        "img_last_modified": { "jp": "Fri, 24 Apr 2026 08:54:53 GMT", "en": "Thu, 22 Oct 2026 07:00:10 GMT" },
+        "img_hash": "v2|H32=mHrWLLlqRKs0Km2LxNoLdUTW6nPKtUoVSrVCNWRVym1kVaRsWlRYQ62ydGhqSkqzlUqoSlVrKkXVqok2t6Zbr2q1tao|CYM=2E2A08",
         "ogbajoj_sheet_cells": [ [ 419749048, "C79" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": null,
@@ -38581,9 +38581,9 @@
         "rarity": "C",
         "illustrator": "六九導イツキ",
         "img_path": { "jp": "hBP05/hBP05-074_C.webp", "en": "proxies/hBP05/hBP05-074_C.webp" },
-        "img_last_modified": { "jp": "Fri, 12 Sep 2025 04:59:11 GMT" },
-        "img_hash": "v2|H32=0qqxqpSqoaqrnCtVKlUqVetUdFU2qxSrVKpULlZ8VFUcVTJdB8EtsiMGL7IzQy/izhytrLjw4Wt4eOAr+DjgK/B44Dk|CYM=24210E",
-        "ogbajoj_sheet_cells": [ [ 40791959, "C75" ], [ 2109917797, "C18" ], [ 2109917797, "C38" ] ],
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:30 GMT" },
+        "img_hash": "v2|H32=0qqzqpSqIaqriCtVKlUKVetUXFUWqxSrVKpULlZcXFU8VXJNB5EtsCMGD6o7Sy/izhztrLjw4et4eOAr+DDgK/B44Hk|CYM=24210E",
+        "ogbajoj_sheet_cells": [ [ 40791959, "C75" ], [ 2109917797, "C18" ], [ 2109917797, "C40" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10163" ],
         "tcgplayer_product_ids": null,
@@ -38675,12 +38675,12 @@
       },
       {
         "card_number": "hBP05-074",
-        "manage_id": { "jp": [ 2693 ] },
+        "manage_id": { "jp": [ 2693 ], "en": [ 2035 ] },
         "rarity": "P",
         "illustrator": "risumi",
-        "img_path": { "jp": "hPR/hBP05-074_P_02.webp", "en": null },
-        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:14 GMT" },
-        "img_hash": "v2|H32=NjOjqkDl4M2Nztzcq5gwM/MyVrMrq1bdjYpcHM84XDLKJlZVYxyxqvCmjaucWy2KmLy9rjBk6epPw42KHj7oOHB4Kas|CYM=032217",
+        "img_path": { "jp": "hPR/hBP05-074_P_02.webp", "en": "hPR/EN_hBP05-074_P_02.webp" },
+        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:14 GMT", "en": "Thu, 22 Oct 2026 07:00:11 GMT" },
+        "img_hash": "v2|H32=NrOjKkDliM2Njpzcq5h0M7MzVjMvqxbNrYpcHJs4TDbKJlZVYxyhomDzjcucpa2qGFstqrCk6ehPy42rHj5peHh4qK4|CYM=022217",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -38697,6 +38697,20 @@
         "img_hash": "v2|H32=GHXtJVWdl1KRltKac1IbjW3sO0mpZ9ZJW1N2tWuZabWnLVSWKloeaaOV1SpOjWzb+3qNJuilN0npWlm1Cq1p0qSjWzQ|CYM=0C2522",
         "ogbajoj_sheet_cells": [ [ 419749048, "C87" ] ],
         "similarity_index": 7,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP05-074",
+        "manage_id": { "jp": [ 3017 ] },
+        "rarity": "P",
+        "illustrator": "じっぽ",
+        "img_path": { "jp": "hPR/hBP05-074_P_04.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
+        "img_hash": "v2|H32=kJ+rqomVamVK5VJl86xWpee0bJYtUmxcL0pkbW2oHauZqlZVAHuxrLCkpatJ2u2KngatqgeUKctLS6mq4OOpqA+HK+g|CYM=0D150E",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 4,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
@@ -41588,12 +41602,12 @@
       },
       {
         "card_number": "hBP06-034",
-        "manage_id": { "jp": [ 2058 ] },
+        "manage_id": { "jp": [ 2058 ], "en": [ 2026 ] },
         "rarity": "P",
         "illustrator": "ちひろ綺華",
-        "img_path": { "jp": "hPR/hBP06-034_P.webp", "en": "proxies/hPR/hBP06-034_P.webp" },
-        "img_last_modified": { "jp": "Thu, 19 Mar 2026 09:00:19 GMT" },
-        "img_hash": "v2|H32=WFVwRsnO3Y7amo2cxZiCuJK2uylWNSstwmlOHWpZVEzb09hak0xNrT1qW5TK1LW1oZIqqW6rbam1VlU1L7XrQKmqGqo|CYM=01535E",
+        "img_path": { "jp": "hPR/hBP06-034_P.webp", "en": "hPR/EN_hBP06-034_P.webp" },
+        "img_last_modified": { "jp": "Thu, 19 Mar 2026 09:00:19 GMT", "en": "Thu, 22 Oct 2026 07:00:12 GMT" },
+        "img_hash": "v2|H32=WFVwbslM1c7bmI2cxZyKmJK2uylWdTstyk1eFUtZXB7b0thas0xNpT3qWyXK1KG1obKq6G6LZamVVkUlbqnrpamqGqo|CYM=01545E",
         "ogbajoj_sheet_cells": [ [ 419749048, "C96" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10178" ],
@@ -41937,7 +41951,7 @@
         "img_hash": "v2|H32=3Iq0qtKrtWqzUkRrtSpg1EqqelVatUsbdFULlyJdspWPjVBpVSXrNLWqtpai2i3LbUsp2UmritZpW5S2aJWk0h2tT1o|CYM=012D27",
         "ogbajoj_sheet_cells": [ [ 419749048, "C98" ] ],
         "similarity_index": 3,
-        "yuyutei_sell_paths": null,
+        "yuyutei_sell_paths": [ "/hocg/card/hbp06/10236" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": null
       },
@@ -44215,12 +44229,12 @@
       },
       {
         "card_number": "hBP06-072",
-        "manage_id": { "jp": [ 2460 ] },
+        "manage_id": { "jp": [ 2460 ], "en": [ 2027 ] },
         "rarity": "P",
         "illustrator": "さいとうなおき",
-        "img_path": { "jp": "hPR/hBP06-072_P.webp", "en": "proxies/hPR/hBP06-072_P.webp" },
-        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:00:04 GMT" },
-        "img_hash": "v2|H32=SqrY5JWupddV1c9RpJHPOaK6dLvKWvOmSh/KQltFWqueRKhZx0XNLCfhVJpJu6e2SDr7kl29UlGJpusrLatwRVW6pbU|CYM=164B66",
+        "img_path": { "jp": "hPR/hBP06-072_P.webp", "en": "hPR/EN_hBP06-072_P.webp" },
+        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:00:04 GMT", "en": "Thu, 22 Oct 2026 07:00:13 GMT" },
+        "img_hash": "v2|H32=Sq5YpLWupdVV1U9RpNVHOSK61LnqGuumSg/KRltFWiuWRKxZZ0XNLiewVBpJuaeySLp70l29WnKJpusrbStZRVWrpbU|CYM=164A66",
         "ogbajoj_sheet_cells": [ [ 419749048, "C106" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10234" ],
@@ -45533,7 +45547,7 @@
     "limited": true,
     "text": {
       "jp": "自分の[〈角巻わため〉と〈大空スバル〉]1人ずつを選ぶ。自分のアーカイブのエールを選んだホロメンに1枚ずつ送る。その後、このターンの間、選んだホロメンのアーツ+20。",
-      "en": "Choose 1 each of your [〈Tsunomaki Watame〉 and 〈Oozora Subaru〉]. Send 1 cheer from your archive to each chosen holomem. During this turn, the chosen holomem get Arts+20."
+      "en": "Choose 1 〈Tsunomaki Watame〉 and 1 〈Oozora Subaru〉 on your stage. Send 1 cheer from your archive to each chosen holomem. During this turn, the chosen holomem get Arts+20."
     },
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -45553,11 +45567,11 @@
       },
       {
         "card_number": "hBP06-096",
-        "manage_id": { "jp": [ 1748 ] },
+        "manage_id": { "jp": [ 1748 ], "en": [ 2028 ] },
         "rarity": "P",
         "illustrator": "神奈ぺろん",
-        "img_path": { "jp": "hPR/hBP06-096_P.webp", "en": null },
-        "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:56 GMT" },
+        "img_path": { "jp": "hPR/hBP06-096_P.webp", "en": "hPR/EN_hBP06-096_P.webp" },
+        "img_last_modified": { "jp": "Fri, 23 Jan 2026 02:38:56 GMT", "en": "Thu, 22 Oct 2026 07:00:14 GMT" },
         "img_hash": "v2|H32=ptKtWsjJS03DqFSta61LrVaq0J6rlrRWtDasdK12nGUoZZJNM9klkkw2LLrYTCy7buDpDg/8ySzMDq3q4AMvGgD/KNs|CYM=0A1629",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -46112,15 +46126,15 @@
         "name": { "jp": "はあちゃまなう", "en": "Haachama Now" },
         "text": {
           "jp": "[ターンに1回]自分のターンで、自分の〈赤井はあと〉が自分の能力でステージからデッキに戻った時、自分のデッキを2枚引く。",
-          "en": "[1/Turn]During your turn, when your <Akai Haato> returns from your stage to deck using your ability, draw 2 cards."
+          "en": "[1/Turn] During your turn, when your <Akai Haato> is returned from your stage to your deck by your ability, draw 2 cards."
         }
       },
       {
         "holo_power": 2,
-        "name": { "jp": "ワールドワイドな最強アイドル！", "en": "Worldwide Strongest Idol!" },
+        "name": { "jp": "ワールドワイドな最強アイドル！", "en": "Strongest Idol Worldwide!" },
         "text": {
           "jp": "[ターンに1回]自分のバックポジションのDebutホロメンの〈赤井はあと〉1人をデッキの下に戻す。その後、自分のステージの〈赤井はあと〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。",
-          "en": "[1/Turn]Return 1 Debut holomem <Akai Haato> from your back position to the bottom of your deck. Choose 1 <Akai Haato> on your stage. During this turn, the chosen holomem gets Arts+50."
+          "en": "[1/Turn] Return 1 of your back Debut holomem <Akai Haato> to the bottom of your deck. Choose 1 <Akai Haato> on your stage. During this turn, the chosen holomem gets Arts+50."
         }
       }
     ],
@@ -46233,7 +46247,7 @@
         "name": { "jp": "行くよ、開拓者。", "en": "Let's Go, Pioneers." },
         "text": {
           "jp": "[ターンに1回]直前の相手のターンに自分のホロメンがダウンしていたなら、自分のデッキから、イベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "[1/Turn] If your holomem was downed during your opponent's previous turn, reveal 1 event from your deck, and add it to your hand. Shuffle the deck."
+          "en": "[1/Turn] If your holomem was downed during your opponent's previous turn, reveal 1 event from your deck, and add it to your hand. Shuffle your deck."
         }
       }
     ],
@@ -47230,7 +47244,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "任務手伝ってくれる？", "en": "Will You Assist Me in This Mission?" },
+        "name": { "jp": "任務手伝ってくれる？", "en": "Will You Help Me on My Mission?" },
         "text": {
           "jp": "自分のアーカイブの[〈BAZO〉か〈Zecretary〉]1枚を自分のホロメンに付ける。",
           "en": "Attach 1 [<BAZO> or <Zecretary>] from your archive to your holomem."
@@ -47240,12 +47254,12 @@
     "arts": [
       {
         "cheers": [ "white", "white", "colorless", "colorless" ],
-        "name": { "jp": "最高のシークレットエージェント", "en": "Supreme Secret Agent" },
+        "name": { "jp": "最高のシークレットエージェント", "en": "Best Secret Agent" },
         "power": "160+",
         "advantage": [ "purple", 50 ],
         "text": {
           "jp": "自分のステージに#ID3期生を持つBuzzホロメンがいるなら、このアーツ+40。",
-          "en": "If you have a Buzz holomem with #ID Gen 3 on your stage, this Arts gets +40."
+          "en": "If your stage has a Buzz holomem with #ID Gen 3, this Arts gets +40."
         }
       }
     ],
@@ -47791,10 +47805,10 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "緑の地母神", "en": "Earth Mother Goddess" },
+        "name": { "jp": "緑の地母神", "en": "Green Mother Earth" },
         "text": {
           "jp": "[ターンに1回]相手のターンで、このホロメンがダメージを受けた時、このホロメンにサポートカードが付いているなら、このホロメンのHP50回復。",
-          "en": "[1/Turn]During your opponent's turn, when this holomem takes damage, if this holomem has a support card attached, restore 50 HP to this holomem."
+          "en": "[1/Turn] During your opponent's turn, when this holomem takes damage, if a support card is attached to this holomem, restore 50 HP to this holomem."
         }
       }
     ],
@@ -47806,7 +47820,7 @@
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "自分のデッキの上から1枚をアーカイブできる。アーカイブしたカードがホロメンなら、自分のエールデッキの上から1枚を自分のホロメンに送る。サポートカードなら、このアーツ+50。",
-          "en": "You may archive the top card of your deck:If the archived card is a holomem, send the top card of your cheer deck to your holomem. If it is a support card, this Arts gets +50."
+          "en": "You may archive the top card of your deck. If the archived card is a holomem, send the top card of your cheer deck to your holomem. If it is a support card, this Arts gets +50."
         }
       }
     ],
@@ -47876,19 +47890,19 @@
         "name": { "jp": "holoRêve -いろは-", "en": "holoRêve -Iroha-" },
         "text": {
           "jp": "BuzzホロメンからBloomした時、自分のホロメン1人のHP100回復。",
-          "en": "When bloomed from a Buzz holomem, restore 100 HP to 1 of your holomem."
+          "en": "If bloomed from a Buzz holomem, restore 100 HP to 1 of your holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "green" ],
-        "name": { "jp": "たくさんの宝物", "en": "Many Treasures" },
+        "name": { "jp": "たくさんの宝物", "en": "Lots of Treasure" },
         "power": "100",
         "advantage": [ "yellow", 50 ],
         "text": {
           "jp": "このホロメンのエール2枚をアーカイブできる:自分のデッキを2枚引く。",
-          "en": "You may archive 2 cheers from this holomem:Draw 2 cards."
+          "en": "You may archive 2 cheers from this holomem: Draw 2 cards."
         }
       }
     ],
@@ -49489,7 +49503,7 @@
     "arts": [
       {
         "cheers": [ "blue" ],
-        "name": { "jp": "I'm pretty shy…uwu", "en": "I'm pretty shy...uwu" },
+        "name": { "jp": "I'm pretty shy…uwu", "en": "I'm Pretty Shy...uwu" },
         "power": "50",
         "text": {
           "jp": "自分のエールデッキの上から1枚を自分の#Promiseを持つBuzzホロメンに送る。",
@@ -49765,10 +49779,10 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "Happy For You", "en": "Happy For You" },
+        "name": { "jp": "Happy For You", "en": "Happy for You" },
         "text": {
           "jp": "自分のエールデッキから、自分のステージの#ID3期生を持つホロメン1人と同色のエール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。",
-          "en": "Reveal 1 cheer from your cheer deck with the same color as 1 holomem with #ID Gen 3 on your stage, and send it to your holomem. Then, shuffle the cheer deck."
+          "en": "Search 1 cheer from your cheer deck with the same color as 1 holomem with #ID Gen 3 on your stage, and send it to your holomem. Shuffle your cheer deck."
         }
       }
     ],
@@ -51181,17 +51195,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "君もこっちにおいで～！", "en": "Join me over here!" },
+        "name": { "jp": "君もこっちにおいで～！", "en": "You Should Come over Here Too~!" },
         "text": {
           "jp": "自分のデッキの上から5枚を見る。その中から、〈ねっ子〉1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-          "en": "Look at the top 5 cards of your deck. Reveal 1 <Nekko> from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
+          "en": "Look at the top 5 cards of your deck. Reveal 1 <Husbands> from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ねねと一緒に楽しもう！！", "en": "Have fun with Nene!!" },
+        "name": { "jp": "ねねと一緒に楽しもう！！", "en": "Have Fun with Nene!!" },
         "power": "20"
       }
     ],
@@ -51314,7 +51328,7 @@
         "name": { "jp": "オレンジアイドル！", "en": "Orange Idol!" },
         "text": {
           "jp": "[ターンに1回]自分の推しホロメンが〈桃鈴ねね〉なら、自分のメインステップに使える:自分のアーカイブの〈ねっ子〉1枚をこのホロメンに付ける。",
-          "en": "[1/Turn]Usable during your main phase if your Oshi holomem is <Momosuzu Nene>:Attach 1 <Nekko> from your archive to this holomem."
+          "en": "[1/Turn]Usable during your main phase if your Oshi holomem is <Momosuzu Nene>:Attach 1 <Husbands> from your archive to this holomem."
         }
       }
     ],
@@ -52171,12 +52185,12 @@
   },
   "hBP07-094": {
     "card_number": "hBP07-094",
-    "name": { "jp": "ギリわるロボ", "en": "GiriWaru Robo" },
+    "name": { "jp": "ギリわるロボ", "en": "Borderline Evil Robot" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
       "jp": "自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを4枚引く。自分のライフが3以下なら、かわりに、お互いの手札すべてをデッキに戻してシャッフルする。そしてそれぞれのデッキを4枚引く。",
-      "en": "Return all of the cards in your hand to the deck and shuffle it. Then, draw 4 cards. If your life is 3 or less, instead both players return all of the cards in their hands to their decks and shuffle them. Then, both players draw 4 cards."
+      "en": "Return all cards from your hand to your deck, shuffle it, and draw 4 cards. If your life is 3 or less, instead both players return all cards from their hands to their decks, shuffle them, and each player draws 4 cards."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -52634,7 +52648,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈ベスティア・ゼータ〉に付いていたら能力追加\nこのホロメンがアーツを使った時、自分のアーカイブのファン1枚を手札に戻す。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <Vestia Zeta>\nWhen this holomem uses Arts, return 1 fan from your archive to hand.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets Arts+10.\n\n◆Additional ability if attached to <Vestia Zeta>\nWhen this holomem used Arts, return 1 fan from your archive to your hand.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -52674,7 +52688,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈大神ミオ〉に付いていたら能力追加\nこのホロメンがコラボした時、このホロメンに付いている〈ハトタウロス〉1枚をデッキの上に戻せる:自分のアーカイブのホロメン1枚を手札に戻す。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Ookami Mio>\nWhen this holomem collabs, you may return 1 <Pigeotaurus> attached to this holomem to the top of the deck:Return 1 holomem from your archive to hand.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Ookami Mio>\nWhen this holomem collabs, you may return 1 <Pigeotaurus> attached to this holomem to the top of your deck: Return 1 holomem from your archive to your hand.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#白上'sキャラクター", "en": "#Shirakami's Character" } ],
     "max_amount": { "jp": 4 },
@@ -52715,7 +52729,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈オーロ・クロニー〉に付いていたら能力追加\nこのゲーム中に、自分の〈オーロ・クロニー〉のSP推しスキル「時間の典獄」を使っていたなら、このホロメンのアーツ+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Ouro Kronii>\nIf you have used your SP Oshi Skill \"Warden of Time\" this game, this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <Ouro Kronii>\nDuring this game, if you used your SP Oshi Skill \"Warden of Time\", this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -52755,7 +52769,7 @@
     "card_type": { "support": "fan" },
     "text": {
       "jp": "■このファンが付いているホロメンがアーツを使う時、自分の推しホロメンが〈ベスティア・ゼータ〉なら、このファンを白エールとしても扱う。\n■相手のターンで、このファンが付いているホロメンがダメージを受けた時、このファンをアーカイブする。\n\nこのファンは、自分の〈ベスティア・ゼータ〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "■If the holomem this fan is attached to would use Arts, if your Oshi holomem is <Vestia Zeta>, this fan is also regarded as a white cheer.\n■During your opponent's turn, when the holomem this fan is attached to takes damage, archive this fan.\n\nYou may only attach this fan to your <Vestia Zeta>, and you may attach any number of this fan per holomem."
+      "en": "■If your Oshi holomem is <Vestia Zeta>, and the holomem this fan is attached to would use Arts, this fan is also regarded as a white cheer.\n\n■During your opponent's turn, when the holomem this fan is attached to takes damage, archive this fan.\n\nYou may only attach this fan to your <Vestia Zeta>, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -52831,11 +52845,11 @@
   },
   "hBP07-110": {
     "card_number": "hBP07-110",
-    "name": { "jp": "ねっ子", "en": "Nekko" },
+    "name": { "jp": "ねっ子", "en": "Husbands" },
     "card_type": { "support": "fan" },
     "text": {
       "jp": "[ターンに1回]このファンが付いているホロメンのBloomレベルが上がった時、自分のデッキを1枚引く。\n\nこのファンは、自分の〈桃鈴ねね〉だけに付けられ、1人につき何枚でも付けられる。",
-      "en": "[1/Turn]When the bloom level of the holomem this fan is attached to increases, draw 1 card.\n\nYou may only attach this fan to your <Momosuzu Nene>, and you may attach any number of this fan per holomem."
+      "en": "[1/Turn] When the bloom level of the holomem this fan is attached to increases, draw 1 card.\n\nYou may only attach this fan to your <Momosuzu Nene>, and you may attach any number of this fan per holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -61959,11 +61973,12 @@
       },
       {
         "card_number": "hBP09-031",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3015 ] },
         "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP09-031_P.webp", "en": null },
-        "img_hash": "v2|H32=mLKZKg3btTNiySbT5qRIx600XG2M1ApNUkVa1FopdCO95k5L4uEOL49OqZZ0vRSVah2k0i+lVep12Wuliha0aNElWqk|CYM=24190C",
+        "illustrator": "はまなし",
+        "img_path": { "jp": "hPR/hBP09-031_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
+        "img_hash": "v2|H32=uKqZqpXLtTJiySJTxqRcw+w2VG241ApNUtUa1Fo1ZCM9ZE5N5uUOL4dpubZ0nRTTaLm00i+tVGt00WrVihK0JFGlSYk|CYM=25190E",
         "ogbajoj_sheet_cells": [ [ 419749048, "C161" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": null,
@@ -65607,11 +65622,12 @@
       },
       {
         "card_number": "hBP09-086",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3016 ] },
         "rarity": "P",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hBP09-086_P.webp", "en": null },
-        "img_hash": "v2|H32=pKmdqq2qLbWLKiu1y+Fxqs7UUAvSVVBXUlV2hfIINEG2CJRlWzVMqbJSqtKtkVTZdUurqraqq+uV2mmXi5ZCq40q0lI|CYM=05142E",
+        "illustrator": "小二病",
+        "img_path": { "jp": "hPR/hBP09-086_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
+        "img_hash": "v2|H32=Lqu9qo2qK7WrKmi1y8VzqsLVUAvSVVBWUnV2hfJYNEa2DJQlUzVsqrJastol2UTZfCurqqaKq2qVWmnXj5bKqo0q0lo|CYM=051631",
         "ogbajoj_sheet_cells": [ [ 419749048, "C168" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
@@ -66870,6 +66886,19 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
+      },
+      {
+        "card_number": "hBP10-004",
+        "manage_id": { },
+        "rarity": "SEC",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-004_SEC.webp", "en": null },
+        "img_hash": "v2|H32=gok8LZKk41hcJsNUbGrZ5aTdGMum2TQSF1tsMh8Nb2uLtKhULdVSqZZKtHxLpeUXrVVWltCqKktLtqBolIatVTVdVNM|CYM=11121E",
+        "ogbajoj_sheet_cells": [ [ 505534664, "M6" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -66979,6 +67008,50 @@
         "img_path": { "jp": "unreleased/hBP10-007_C.webp", "en": null },
         "img_hash": "v2|H32=zEpJqZJpatqSrDaFrVykd22hbVpJokszSlbJNKskol2nqEpbq1KLLluxpZVLl1qtlQqmVLJUdsFWLKSlJO1pm2KpdOk|CYM=211C14",
         "ogbajoj_sheet_cells": [ [ 505534664, "C9" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-012": {
+    "card_number": "hBP10-012",
+    "name": { "jp": "獅白ぼたん", "en": "Shishiro Botan" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "NePoLaBo Bond" },
+        "text": {
+          "en": "Reveal 1 2nd holomem with #Gen 5 from your deck, and add it to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white" ],
+        "name": { "jp": null, "en": "Rush!" },
+        "power": "20",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "[1/Turn] After using this Arts, you may use this Arts once more." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-012",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-012_U.webp", "en": null },
+        "img_hash": "v2|H32=qpZUqavallRyadJWtHStut2KrYZEq4tUJs1reVPWSClrtqxKq3iKtkWLcNXRpmKlyZrWtS3L2tIWpenrUrV02S4dUq0|CYM=015053",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C14" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -67338,6 +67411,84 @@
       }
     ]
   },
+  "hBP10-038": {
+    "card_number": "hBP10-038",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Divine Protection" },
+        "text": { "en": "Restore 30 HP to all <Aki Rosenthal> on your stage with a tool with #Dinosaur attached." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "I Hope the Taming Goes Well" },
+        "power": "100+",
+        "advantage": [ "purple", 50 ],
+        "text": { "en": "If you have a holomem with a tool with #Dinosaur attached, this Arts gets +40." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-038",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-038_U.webp", "en": null },
+        "img_hash": "v2|H32=qqrLla2ylKqxaCEtRGotDG7F6cpi1VvSUlVcqBNtXKicCpZKWlXUrqWqaNCtlUq3tUKq1alKopXVqja0UcqiVK6qolI|CYM=0D314A",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C40" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-040": {
+    "card_number": "hBP10-040",
+    "name": { "jp": "さくらみこ", "en": "Sakura Miko" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "arts": [
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": null, "en": "This is the Bond Between Miko and Everyone!" },
+        "power": "40",
+        "text": {
+          "en": "Reveal any 2 [<Kintoki>, <Maguchi>, <Mikodanye>, or <35P>] from your deck, and add them to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 0" }, { "en": "#Baby" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-040",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-040_R.webp", "en": null },
+        "img_hash": "v2|H32=oKpnpq2iibSrVZg5S9mVKkZLtSZWVrJF1JYiTZKVZqmSsd5KVqUMlelqrWpVqkrVrVoqqbpU6mpphfJQqqpSqctWNCs|CYM=04403D",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C42" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-050": {
     "card_number": "hBP10-050",
     "name": { "jp": "儒烏風亭らでん", "en": "Juufuutei Raden" },
@@ -67412,6 +67563,53 @@
         "img_path": { "jp": "unreleased/hBP10-053_U.webp", "en": null },
         "img_hash": "v2|H32=qKqSuYurrCoz603GtCbShMqWsC5SUylbVGlr0WqdcqUul7RqpGVrVSXqlpatTa3VrZW0tKteqpZa0kqt0LY0LVYLWlo|CYM=264E16",
         "ogbajoj_sheet_cells": [ [ 505534664, "C55" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-057": {
+    "card_number": "hBP10-057",
+    "name": { "jp": "水宮枢", "en": "Mizumiya Su" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Carry the Weight of Love!" },
+        "text": {
+          "en": "[Center Position Only] While your opponent's center holomem requires 3 or more colorless for its baton pass, your opponent's center holomem requires +1 colorless for its Arts."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "blue", "blue" ],
+        "name": { "jp": null, "en": "Let's Get Together, I'll Post It on Socials!" },
+        "power": "40",
+        "text": {
+          "en": "Look at the top 3 cards of your deck. Reveal 1 holomem with #FLOW GLOW from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-057",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-057_R.webp", "en": null },
+        "img_hash": "v2|H32=ZrLNqueqra7raCB75zQprdRTMteaVXJTEtFyFTqTdpUpk9RqVahLpStkaarZamqRalWpWqpbmqa21UmW1qqytpJWUqk|CYM=111E1F",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C59" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -67575,6 +67773,53 @@
       }
     ]
   },
+  "hBP10-076": {
+    "card_number": "hBP10-076",
+    "name": { "jp": "鈴鳴つづり", "en": "Suzuna Tsuzuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "The Goat Mailwoman" },
+        "text": {
+          "en": "At the end of your opponent's performance phase, if the number of cheers on your stage is less than your opponent's, send 1 cheer from your archive to this holomem."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "colorless" ],
+        "name": { "jp": null, "en": "Delivering Your Items Carefully...!?" },
+        "power": "50",
+        "text": {
+          "en": "Look at the top 4 cards of your deck. Reveal 1 <Suzuna Tsuzuri> from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-076",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-076_R.webp", "en": null },
+        "img_hash": "v2|H32=svJlqbJludpNy7hV1ros06al1tEsU5JkTsnpShoNRq27UpppVNuQtKlBaVsrpVKqKWu2lWtLbpvSVpleVpuwelKaJGk|CYM=172D35",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C78" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-080": {
     "card_number": "hBP10-080",
     "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
@@ -67664,6 +67909,80 @@
         "img_path": { "jp": "unreleased/hBP10-095_C.webp", "en": null },
         "img_hash": "v2|H32=NqulqtSrSFVLVVhXSl5TmteKJJcrtW4VLjUuJTUu9E4ubBJdBbwsmuBwLYv6YOWb+BrpaIKH6WiKB+F4jsOpiw/fYNE|CYM=07343A",
         "ogbajoj_sheet_cells": [ [ 505534664, "C97" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-096": {
+    "card_number": "hBP10-096",
+    "name": { "jp": "貯金箱籠城ASMR", "en": "Piggy Bank Theft ASMR" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Ayunda Risu>.\n\nDraw 4 cards. At the beginning of your next performance phase, archive 2 cards from your hand."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-096",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-096_C.webp", "en": null },
+        "img_hash": "v2|H32=crWrqlS2LO6LrtRFi81L2VPbNJkrGxQrvCY6JNtm1mQrfVZFUIVsusLjLZsKDq2LYPCpKvrwqWIKPi2q6uAtmy66KNo|CYM=031719",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C98" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-099": {
+    "card_number": "hBP10-099",
+    "name": { "jp": "獅白ぼたんのアケコン", "en": "Shishiro Botan's Arcade Controller" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Shishiro Botan> this tool is attached to gets Arts+20.\n\nDuring your opponent's turn, if the holomem this tool is attached to is downed, you may archive 1 card from your hand: Return this tool to your hand.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-099",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-099_C.webp", "en": null },
+        "img_hash": "v2|H32=VlWLK1RVEI6rqlrOi6rLbcllSHUrqjmUK6o6Wy9b7FPmUhJVx8EtqjH4LaoIDq2Lj4et6vDwraqwPC2qYD6pqnB4qao|CYM=05191B",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C101" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-100": {
+    "card_number": "hBP10-100",
+    "name": { "jp": "ティラノサウルス", "en": "T-Rex" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "◆Additional ability if attached to a 2nd holomem <Aki Rosenthal>\n■This holomem gets +300 HP.\n■This holomem can only use Arts if you have a collab holomem.\n■If this holomem is downed, you get life-2.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#Dinosaur" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-100",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-100_C.webp", "en": null },
+        "img_hash": "v2|H32=VrejqnS55h2rjMzVqYRspSunOCU7KlFpySjU6M38TNROElbVEY+tqkA+Lar4Kq3q4OKtCh4Oqer68C0KLvip+eB4Knw|CYM=101815",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C102" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -69379,6 +69698,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10055" ],
         "tcgplayer_product_ids": [ 718886 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-025",
+        "manage_id": { "jp": [ 3018 ] },
+        "rarity": "P",
+        "illustrator": "ソンシル",
+        "img_path": { "jp": "hPR/hEB01-025_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
+        "img_hash": "v2|H32=KKurq0pRWllSSVRd5EikSpfqktqJ2p1WmJ7cVr2mdKYzphZdODPt6H/wIaPHD+2qD2+pCgOH6erw+60qBw+pqw+H6Os|CYM=0C271F",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69406,6 +69739,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10056" ],
         "tcgplayer_product_ids": [ 718887 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-026",
+        "manage_id": { "jp": [ 3019 ] },
+        "rarity": "P",
+        "illustrator": "はたほまめ",
+        "img_path": { "jp": "hPR/hEB01-026_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
+        "img_hash": "v2|H32=Ku2r6tTrhJ6JqlCXOpW7VJVq1GkrKlRrFioq1StVVF0uPZJNTCYsm+PJZZocXC26ORvtaLGhiWIfnqnqt/jpq+AxoJs|CYM=111627",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69433,6 +69780,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10057" ],
         "tcgplayer_product_ids": [ 718888 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-027",
+        "manage_id": { "jp": [ 3020 ] },
+        "rarity": "P",
+        "illustrator": "みゃーこ",
+        "img_path": { "jp": "hPR/hEB01-027_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
+        "img_hash": "v2|H32=rKWlqpSik9rLylJTUldLdWhVahRrOn0aFKoerR2sXKQutJJNZCYskoOZ7LIzH+CDPwOJI8w8jS84eI0un/Pgex/AKB4|CYM=282215",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69460,6 +69821,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10058" ],
         "tcgplayer_product_ids": [ 718889 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-028",
+        "manage_id": { "jp": [ 3021 ] },
+        "rarity": "P",
+        "illustrator": "Haる",
+        "img_path": { "jp": "hPR/hEB01-028_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:32 GMT" },
+        "img_hash": "v2|H32=yqrLqtSqqeGrZLR0ujSaFdodTBlri1bb1IoevS+8VCxrLJJNROBsspAXZLMzHi26zfuNrp/HgQ8fjOFr8DApOg/+Co8|CYM=1D1812",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69486,6 +69861,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10059" ],
         "tcgplayer_product_ids": [ 718890 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-029",
+        "manage_id": { "jp": [ 3022 ] },
+        "rarity": "P",
+        "illustrator": "しわ",
+        "img_path": { "jp": "hPR/hEB01-029_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:32 GMT" },
+        "img_hash": "v2|H32=rCutKsglyhaLlt5WSlJKUWt5UGl5anZccp5WnjeutLa2rjJdMUtnqoy2Laqf+a2qfgaN6vhoreoPvqmrHw6p+vkwqDg|CYM=211808",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69513,6 +69902,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10060" ],
         "tcgplayer_product_ids": [ 718891 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-030",
+        "manage_id": { "jp": [ 3023 ] },
+        "rarity": "P",
+        "illustrator": "汐張神奈",
+        "img_path": { "jp": "hPR/hEB01-030_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:32 GMT" },
+        "img_hash": "v2|H32=pqinquWqoWcrd0xXbHdp91FqWGxLL1JbUjtaM1sSVhM7kJJNBxBskkDkLZN49mX6eHip6IB/iS6Ph+Gjj4+pi4aHYMs|CYM=15211A",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69539,6 +69942,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10061" ],
         "tcgplayer_product_ids": [ 718892 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-031",
+        "manage_id": { "jp": [ 3024 ] },
+        "rarity": "P",
+        "illustrator": "いかり",
+        "img_path": { "jp": "hPR/hEB01-031_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:32 GMT" },
+        "img_hash": "v2|H32=5KunqpOtMi2jLFJlmyqfVr9SmFarVhhUGK4crQ2vDLeMs1Zdo4MnqjB4LTo7Hu2qDIatqoz0rerMg6kK4uEpOu/B4Ks|CYM=13130C",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69566,6 +69983,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10062" ],
         "tcgplayer_product_ids": [ 718893 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-032",
+        "manage_id": { "jp": [ 3025 ] },
+        "rarity": "P",
+        "illustrator": "おるだん",
+        "img_path": { "jp": "hPR/hEB01-032_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:32 GMT" },
+        "img_hash": "v2|H32=bqtrqkitoFWj1JhVSNVKtVYpWCmbOpQ6nDqOHY4dVo92jpJNF4Mlm8w2YJq4A+2D4PCJ59g86WoweOn4eDzgKwYPKJs|CYM=242F21",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69592,6 +70023,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10063" ],
         "tcgplayer_product_ids": [ 718894 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-033",
+        "manage_id": { "jp": [ 3026 ] },
+        "rarity": "P",
+        "illustrator": "汐張神奈",
+        "img_path": { "jp": "hPR/hEB01-033_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:32 GMT" },
+        "img_hash": "v2|H32=SKGpq2mxaa65qhlOmk4STpZslm2yaRZdJtl20TbTNJEuk3ZVA8ctougAKbp8sI0qBx6tqvFPqap8sK3KPz6p6/+BoD8|CYM=1C120B",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69619,6 +70064,20 @@
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10064" ],
         "tcgplayer_product_ids": [ 718895 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hEB01-034",
+        "manage_id": { "jp": [ 3027 ] },
+        "rarity": "P",
+        "illustrator": "BISAI",
+        "img_path": { "jp": "hPR/hEB01-034_P.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:33 GMT" },
+        "img_hash": "v2|H32=rKqtqratWk3bapZUKmspKS2rppWrXHRUlhJWmlu6VqpWqxbVaCYnqpnNbaqOXKGqZjaNCzOyqTq34Onq+w/pqh+GqPI|CYM=0D1E1C",
+        "ogbajoj_sheet_cells": null,
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -70604,7 +71063,7 @@
           [ 2103775807, "C11" ],
           [ 2103775807, "C30" ],
           [ 2109917797, "C19" ],
-          [ 2109917797, "C39" ]
+          [ 2109917797, "C41" ]
         ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hsd01/10017" ],
@@ -76188,11 +76647,11 @@
       },
       {
         "card_number": "hSD10-002",
-        "manage_id": { "jp": [ 1722 ] },
+        "manage_id": { "jp": [ 1722 ], "en": [ 2023 ] },
         "rarity": "P",
         "illustrator": "おげげ",
-        "img_path": { "jp": "hPR/hSD10-002_P.webp", "en": null },
-        "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:46 GMT" },
+        "img_path": { "jp": "hPR/hSD10-002_P.webp", "en": "hPR/EN_hSD10-002_P.webp" },
+        "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:46 GMT", "en": "Thu, 22 Oct 2026 07:00:15 GMT" },
         "img_hash": "v2|H32=kqolKsSisbotKmmym3BZDUplUl1ayTJ1mtu2Za60ck2m5tJWV6RmQajZSapoKaWVxWS0pLoSGqpalkipdikSpKhVtKk|CYM=3F1F0F",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -76981,11 +77440,11 @@
       },
       {
         "card_number": "hSD11-002",
-        "manage_id": { "jp": [ 1726 ] },
+        "manage_id": { "jp": [ 1726 ], "en": [ 2024 ] },
         "rarity": "P",
         "illustrator": "おげげ",
-        "img_path": { "jp": "hPR/hSD11-002_P.webp", "en": null },
-        "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT" },
+        "img_path": { "jp": "hPR/hSD11-002_P.webp", "en": "hPR/EN_hSD11-002_P.webp" },
+        "img_last_modified": { "jp": "Fri, 19 Dec 2025 05:28:47 GMT", "en": "Thu, 22 Oct 2026 07:00:16 GMT" },
         "img_hash": "v2|H32=pKpba5SqpapLK52ao6WpZIhVJqUqVTLVbqV6dayMdmU8qdI2VLItUyZpLarb3Fa1aUUWrKl6guqiRUKt2bYirelSsrU|CYM=10202C",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -77865,7 +78324,7 @@
         "name": { "jp": "花売りの少女", "en": "Flower Girl" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、お互いのステージのエール1枚につき、自分のデッキを1枚引く。",
-          "en": "If you went second and it is your first turn, draw 1 card for each cheer on both players' stage."
+          "en": "If you went second and it is your first turn, draw 1 card for each cheer on both players' stages."
         }
       }
     ],
@@ -77900,12 +78359,12 @@
       },
       {
         "card_number": "hSD12-008",
-        "manage_id": { "jp": [ 2054 ] },
+        "manage_id": { "jp": [ 2054 ], "en": [ 2025 ] },
         "rarity": "P",
         "illustrator": "よもさか",
-        "img_path": { "jp": "hPR/hSD12-008_P.webp", "en": null },
-        "img_last_modified": { "jp": "Thu, 19 Mar 2026 09:00:28 GMT" },
-        "img_hash": "v2|H32=6rqtqrWqW5ojq7Wqk96zNVLyMlUupVhdrBUuzcpSZKdOVZJl02VstAnKrKq3lkpb1JLSqkrbWlpoSSnbLK1pqS2lqFA|CYM=142813",
+        "img_path": { "jp": "hPR/hSD12-008_P.webp", "en": "hPR/EN_hSD12-008_P.webp" },
+        "img_last_modified": { "jp": "Thu, 19 Mar 2026 09:00:28 GMT", "en": "Thu, 22 Oct 2026 07:00:16 GMT" },
+        "img_hash": "v2|H32=6rKtqrWqW9onqZUqk96zJVrgMlUupVpVrBVOjcpQZLNKVZJlk2VstAnKrKq3lkpL1JLSqmqbUlpq22nbLK1p6S2lqlA|CYM=152913",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hsd10/10049" ],
@@ -79676,6 +80135,20 @@
       },
       {
         "card_number": "hSD14-010",
+        "manage_id": { "jp": [ 3042 ] },
+        "rarity": "C",
+        "illustrator": "白襟",
+        "img_path": { "jp": "hSD20/hSD14-010_C_03.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:33 GMT" },
+        "img_hash": "v2|H32=0jyzKlS9K9Ury3TTKsNrddQq1CRrtlZX3FIKdYt11CitrpJNmclkmjjmJZvHJi26ZzOpaH08jS7vNKnqDyLpung4Lts|CYM=12130D",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C20" ], [ 2109917797, "C42" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hSD14-010",
         "manage_id": { },
         "rarity": "C",
         "illustrator": null,
@@ -79689,25 +80162,12 @@
       },
       {
         "card_number": "hSD14-010",
-        "manage_id": { },
-        "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD14-010_C_2.webp", "en": null },
-        "img_hash": "v2|H32=UjWzKtTcKNUryxRTKkMjZddK1BRrtlRTylMKdd9xzGitrBJFBcNsmvD4LduLLi2b6tLpaPk8jW4+GOniqwZhmzg4Lts|CYM=11120D",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C20" ], [ 2109917797, "C40" ] ],
-        "similarity_index": 4,
-        "yuyutei_sell_paths": null,
-        "tcgplayer_product_ids": null,
-        "delta_art_index": null
-      },
-      {
-        "card_number": "hSD14-010",
-        "manage_id": { "jp": [ 2202 ] },
+        "manage_id": { "jp": [ 2202 ], "en": [ 2029 ] },
         "rarity": "P",
         "illustrator": "ミュシャ",
-        "img_path": { "jp": "hPR/hSD14-010_P.webp", "en": null },
-        "img_last_modified": { "jp": "Fri, 22 May 2026 09:00:13 GMT" },
-        "img_hash": "v2|H32=KKmpqtyqjaql6tRSJ6IrNSQxZhUrXVpV2k5KVVtFVpVitZJNQMxsk5/xJZvHDy26PPONKvAwqWwP3qmq74Mp+g+PLps|CYM=0F1410",
+        "img_path": { "jp": "hPR/hSD14-010_P.webp", "en": "hPR/EN_hSD14-010_P.webp" },
+        "img_last_modified": { "jp": "Fri, 22 May 2026 09:00:13 GMT", "en": "Thu, 22 Oct 2026 07:00:17 GMT" },
+        "img_hash": "v2|H32=KKmpqtyqjaql6vRCJ6IrtSQxbhUrXVpV2k5KVVtFVrVitZJNQMxskx/xZZvHHy26OXONqvAwiWwfLqmu/4cp+g8PKpo|CYM=0F1410",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hsd10/10067", "/hocg/card/promo-hsd10/10071" ],
@@ -81046,12 +81506,12 @@
       },
       {
         "card_number": "hSD17-010",
-        "manage_id": { "jp": [ 2696 ] },
+        "manage_id": { "jp": [ 2696 ], "en": [ 2030 ] },
         "rarity": "P",
         "illustrator": "みゃーこ",
-        "img_path": { "jp": "hPR/hSD17-010_P_01.webp", "en": null },
-        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:16 GMT" },
-        "img_hash": "v2|H32=pqqjqnCrSJdJlkpV0kTSbpdq0l5O0kzXbJNsmU87VjqWNjbZI9kxuNjyjItscqiqjw/p4pid6CqP4+g4zwfgOnh44Cs|CYM=533806",
+        "img_path": { "jp": "hPR/hSD17-010_P_01.webp", "en": "hPR/EN_hSD17-010_P.webp" },
+        "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:16 GMT", "en": "Thu, 22 Oct 2026 07:00:18 GMT" },
+        "img_hash": "v2|H32=pqqjqnCrSJdJlkpV0kTSbpdq0l5O0kzXbJNuk0+7VjqWNjbZI5kxuMhyjItscqirjw/p4pgN6SqP4+A4jwfgOvjw4Cs|CYM=543905",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hsd10/10082" ],
@@ -81857,15 +82317,17 @@
     "oshi_skills": [
       {
         "kind": "stage",
-        "name": { "jp": null, "en": "Fiery Passion" },
+        "name": { "jp": "広がる情熱", "en": "Fiery Passion" },
         "text": {
+          "jp": "自分のホロメンがコラボした時、自分のセンターが〈百灯キョーコ〉なら、自分のエールデッキの上から1枚を自分のコラボホロメンに送る。",
           "en": "When your holomem collabs, if your center holomem is <Hyakuto Kyoko>, send the top card of your cheer deck to your collab holomem."
         }
       },
       {
         "holo_power": 3,
-        "name": { "jp": null, "en": "Hero Cop On the Move!" },
+        "name": { "jp": "ヒーローポリス疾走！", "en": "Hero Cop On the Move!" },
         "text": {
+          "jp": "[ターンに1回]相手のDebut以外の[センターホロメンとコラボホロメン]に、自分のステージのエール1枚につき、特殊ダメージ10を与える。",
           "en": "[1/Turn] Deal 10 special damage to your opponent's [center holomem and collab holomem] other than Debut for each cheer on your stage."
         }
       }
@@ -81874,11 +82336,12 @@
     "illustrations": [
       {
         "card_number": "hSD20-001",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3028 ] },
         "rarity": "OSR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-001_OSR.webp", "en": null },
-        "img_hash": "v2|H32=KlUqLGspDNdDNVZrZdbWTkTLtVaweVQps1pzVdJKu9XWVpSyqlpKWpq2hUpWZWRJqtRqqYpW0qQmVVmlJl1KV0rVplU|CYM=2F362D",
+        "illustrator": "耳ン",
+        "img_path": { "jp": "hSD20/hSD20-001_OSR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:33 GMT" },
+        "img_hash": "v2|H32=KlMqLctpHJVHp1ZqRdaWTnTrNdY0eVYps1RzFdJKOdXWVvSqqloKGoq2kEJWZeRBqNVqqepW2qQuVVslJl2KV0qVpkU|CYM=30382F",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C3" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -81897,23 +82360,33 @@
     "arts": [
       {
         "cheers": [ "red" ],
-        "name": { "jp": null, "en": "Can I turn that frown upside down?!" },
+        "name": {
+          "jp": "笑顔にさせちゃっていいですか！？？",
+          "en": "Can I turn that frown upside down?!"
+        },
         "power": "20+",
-        "text": { "en": "[Center Position Only] If you have 2 or more cheers on your stage, this Arts gets +20." }
+        "text": {
+          "jp": "[センターポジション限定]自分のステージにエールが2枚以上あるなら、このアーツ+20。",
+          "en": "[Center Position Only] If you have 2 or more cheers on your stage, this Arts gets +20."
+        }
       }
     ],
-    "extra": { "en": "You may include any number of this holomem in the deck" },
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may include any number of this holomem in the deck"
+    },
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 50 },
     "illustrations": [
       {
         "card_number": "hSD20-002",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3029 ] },
         "rarity": "C",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-002_C.webp", "en": null },
-        "img_hash": "v2|H32=0hyJpvPtPamt663JLDtjSky2czKSx/ZxkpnWhNKY9JSzTLxSSapSqS5VrW60qrbt8nXaFlqmW6bJUkqLdim0LVqtWyo|CYM=122C2F",
+        "img_path": { "jp": "hSD20/hSD20-002_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:33 GMT" },
+        "img_hash": "v2|H32=0jzJprXpPaut663JDDpDSky2clWSx9LxmJnWhNqY9JazbLxK2apwoS5VrW60rrbtsnXaNlq32qbpUkqLVimkLFqtWyo|CYM=132F32",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C4" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -81932,24 +82405,32 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Gather Round!" },
+        "name": { "jp": "即集合！", "en": "Gather Round!" },
         "text": {
+          "jp": "自分が後攻で最初のターンなら、自分のデッキから、[#アソビ★まわり隊！を持つDebutホロメンと1st〈百灯キョーコ〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。",
           "en": "If you went second and it is your first turn, reveal 1 Debut holomem with #ASOBI★MAWARI-TAI! and 1 1st holomem <Hyakuto Kyoko> from your deck, and add them to your hand. Shuffle your deck."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "The Wild Party Begins" }, "power": "20" } ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "ドンチャン大騒ぎの始まり", "en": "The Wild Party Begins" },
+        "power": "20"
+      }
+    ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-003",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3030 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-003_U.webp", "en": null },
-        "img_hash": "v2|H32=quyttrOpKctMk0MLzFarLegkvMRzKFTCctlcYZIV1nCtJq5VlbRSKlprKNUrVWCZrUrwYFIKKwsrpVapVan5urBSoIU|CYM=2A3F2E",
+        "illustrator": "兎未枝",
+        "img_path": { "jp": "hSD20/hSD20-003_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:34 GMT" },
+        "img_hash": "v2|H32=quittpOrectMk0ILTFIrLegslMZzKVzGctEccZoV1nSsNq5V1bRWKhpJLJQrVWCR4UrwalIKK0sppVapVav5urBaoIU|CYM=2B4231",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C5" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -81966,24 +82447,29 @@
     "hp": 180,
     "bloom_level": "first",
     "arts": [
-      { "cheers": [ "red", "colorless" ], "name": { "jp": null, "en": "Ready to Get to Work!" }, "power": "60" },
+      {
+        "cheers": [ "red", "colorless" ],
+        "name": { "jp": "出勤準備完了！", "en": "Ready to Get to Work!" },
+        "power": "60"
+      },
       {
         "cheers": [ "red", "colorless", "colorless", "colorless" ],
-        "name": { "jp": null, "en": "Loud Enough, No Megaphone Needed" },
+        "name": { "jp": "拡声器いらずのビッグボイス", "en": "Loud Enough, No Megaphone Needed" },
         "power": "140"
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-004",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3031 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-004_C.webp", "en": null },
-        "img_hash": "v2|H32=arPZtCmrL8u8rSFJjJYmKdgSBiZiWRKXRk0cldOW9Iz0Nq7SmVTSok7pLEmtlUq11CqpKloKkiKmJVZptJbplFSKgpc|CYM=163947",
+        "illustrator": "鉢谷ナギ",
+        "img_path": { "jp": "hSD20/hSD20-004_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:34 GMT" },
+        "img_hash": "v2|H32=aqrZtiGrM8ukrS3JzKYjKdoSBCZiWRqXTk3clfKW1Iz0tqrZmdRWok5rLEmtxU618qqpaloK0qKkZVZLlpbolNTKgpY|CYM=173B4A",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C6" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -82002,24 +82488,32 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "An Outstretched Hand" },
+        "name": { "jp": "差し伸べる手", "en": "An Outstretched Hand" },
         "text": {
+          "jp": "自分のステージの#アソビ★まわり隊！を持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。",
           "en": "Choose 1 holomem on your stage with #ASOBI★MAWARI-TAI!. During this turn, the chosen holomem gets Arts+20."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Acting Before Thinking" }, "power": "30" } ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "考えるより先に動く", "en": "Acting Before Thinking" },
+        "power": "30"
+      }
+    ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-005",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3032 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-005_U.webp", "en": null },
-        "img_hash": "v2|H32=yIpp5qnZVCouXa1pxqytncZsmJu2WWqZ1FJ2bdIm3JZ2bS5JUWXptb2aClQ2KlKTtbe0KkqSFmkpKeCSam0WpZW6IlU|CYM=1A4239",
+        "illustrator": "TOH.",
+        "img_path": { "jp": "hSD20/hSD20-005_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:34 GMT" },
+        "img_hash": "v2|H32=qKqppqnZVqomWa1ozqmsnYZsOZu2WWqZ2FZ2TdImzJZ2bWZLU22zsY2SGFQmqlybpLeUKkqSFmkpayCbak2WpJe6IlU|CYM=1A443B",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C7" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -82038,8 +82532,9 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Reaching Out to Everyone!" },
+        "name": { "jp": "誰にだって手を伸ばす！", "en": "Reaching Out to Everyone!" },
         "text": {
+          "jp": "自分のステージのエール1枚をアーカイブできる:自分のアーカイブの#アソビ★まわり隊！を持つホロメン1枚を手札に戻す。",
           "en": "You may archive 1 cheer from your stage: Return 1 holomem with #ASOBI★MAWARI-TAI! from your archive to your hand."
         }
       }
@@ -82047,22 +82542,26 @@
     "arts": [
       {
         "cheers": [ "red", "colorless" ],
-        "name": { "jp": null, "en": "Swirling High Tension" },
+        "name": { "jp": "渦巻くハイテンション", "en": "Swirling High Tension" },
         "power": "50+",
-        "text": { "en": "If your stage has 6 or more cheers, this Arts gets +20." }
+        "text": {
+          "jp": "自分のステージにエールが6枚以上あるなら、このアーツ+20。",
+          "en": "If your stage has 6 or more cheers, this Arts gets +20."
+        }
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-006",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3033 ] },
         "rarity": "R",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-006_R.webp", "en": null },
-        "img_hash": "v2|H32=qqgnJ6WoSE7SUsnenNfjprytMKlSKRJZcltWU+ZWtrZHpKZPF2VItWm1tLSlkrSyVatarWqJaitp+NSjsgby0daK0tA|CYM=2F3431",
+        "illustrator": "宮波",
+        "img_path": { "jp": "hSD20/hSD20-006_R.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:34 GMT" },
+        "img_hash": "v2|H32=pqonJ8qoWEqWUq3eCNV7ppy9MKlSKTJZcllWUeZWtpZGpqZNkWVoLci1sLSnkrzSV6tarGpLaCtp+NSjsgby0NaK0tA|CYM=313834",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C8" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -82081,30 +82580,37 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Fiery Hero Cop" },
-        "text": { "en": "[Center Position Only] Your collab holomem gets Arts+20." }
+        "name": { "jp": "情熱系ヒーローポリス", "en": "Fiery Hero Cop" },
+        "text": {
+          "jp": "[センターポジション限定]自分のコラボホロメンのアーツ+20。",
+          "en": "[Center Position Only] Your collab holomem gets Arts+20."
+        }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "red", "colorless" ],
-        "name": { "jp": null, "en": "Resident Strong-Type Member" },
+        "name": { "jp": "「最強」担当", "en": "Resident Strong-Type Member" },
         "power": "150+",
         "advantage": [ "green", 50 ],
-        "text": { "en": "If your stage has 6 or more cheers, this Arts gets +50." }
+        "text": {
+          "jp": "自分のステージにエールが6枚以上あるなら、このアーツ+50。",
+          "en": "If your stage has 6 or more cheers, this Arts gets +50."
+        }
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-007",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3034 ] },
         "rarity": "RR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-007_RR.webp", "en": null },
-        "img_hash": "v2|H32=aqqzjGmrvFuN2Swby0qFq1ImSmeSF1plMlnM2fZM9Ci2zFZPa1WoIlW4KlXUqpSroiWl+i6XEpvQpkG1TYraYratSpU|CYM=112C3B",
+        "illustrator": "gaha",
+        "img_path": { "jp": "hSD20/hSD20-007_RR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:34 GMT" },
+        "img_hash": "v2|H32=uqq3jGmrOVutmQQbT2rBqVImSmeSF0hlMlHI2dZc9Ci0zFaPY1WgKhGoKlWcqpTrsiWs+i6XDtLQpki1TaraYrakSp0|CYM=122F3F",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C9" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -82123,30 +82629,40 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "My dreams are like the Big Bang!" },
-        "text": { "en": "During your opponent's turn, if this holomem is downed, draw 1 card." }
+        "name": { "jp": "夢は弾けるビッグバン！", "en": "My dreams are like the Big Bang!" },
+        "text": {
+          "jp": "相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。",
+          "en": "During your opponent's turn, if this holomem is downed, draw 1 card."
+        }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": null, "en": "I'm going to witness it all with my own eyes!" },
+        "name": {
+          "jp": "全部この目で確かめにいくよ！",
+          "en": "I'm going to witness it all with my own eyes!"
+        },
         "power": "10"
       }
     ],
-    "extra": { "en": "You may include any number of this holomem in the deck" },
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may include any number of this holomem in the deck"
+    },
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 50 },
     "illustrations": [
       {
         "card_number": "hSD20-008",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3035 ] },
         "rarity": "C",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-008_C.webp", "en": null },
-        "img_hash": "v2|H32=0jKZrKWqLYsvq62KTmWrrtJVU2VSlXJUUqPyFPHiUjW1MLRKVaVoVarSr7S2SleVdpXSlqpLUqprW0sr0lJqW6qVCas|CYM=191710",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C10" ], [ 2109917797, "C31" ] ],
+        "img_path": { "jp": "hSD20/hSD20-008_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:35 GMT" },
+        "img_hash": "v2|H32=0jqzrK2qLYsvq62KTGVLr0JZcnVSlVJUUsPyFPDikjWlMrRKVaVMRaraJ7IqWgfVJImSlqpL0qppW0oq0lJqW6m1aas|CYM=1B1811",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C10" ], [ 2109917797, "C33" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82164,27 +82680,33 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "Exploration of Fun" },
+        "name": { "jp": "面白さの探求", "en": "Exploration of Fun" },
         "text": {
+          "jp": "自分のステージに#アソビ★まわり隊！を持つホロメンが3人以上いるなら、このホロメンのエール1枚をアーカイブできる：自分のデッキを2枚引く。",
           "en": "If your stage has 3 or more holomem with #ASOBI★MAWARI-TAI!, you may archive 1 cheer from this holomem: Draw 2 cards."
         }
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Boundless Intellectual Curiosity" }, "power": "30" }
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "抑えきれない知的好奇心", "en": "Boundless Intellectual Curiosity" },
+        "power": "30"
+      }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-009",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3036 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-009_U.webp", "en": null },
-        "img_hash": "v2|H32=jqpLa8apsa5o0SKcmLJsUkYz3jOkBFJFakQ8ZEpNbG2rRipNpZKRptIqeGq01FTbW0tCy+tlqNWqlVIfWqTyKXmkEmU|CYM=403209",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C11" ], [ 2109917797, "C32" ] ],
+        "illustrator": "カロクチトセ",
+        "img_path": { "jp": "hSD20/hSD20-009_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:35 GMT" },
+        "img_hash": "v2|H32=rqpLaUKpta640nqcGrMkUsUz2rOkLFJlbkUsZWpFTGWrVipFxbKTpHIqYCqwVXTaW0tGy7tlqNWqlVIbWqnyIfm0kmU|CYM=45350B",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C11" ], [ 2109917797, "C34" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82202,8 +82724,9 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": null, "en": "Recruiting Friends!" },
+        "name": { "jp": "仲間を探すぞ～！", "en": "Recruiting Friends!" },
         "text": {
+          "jp": "自分のデッキの上から3枚を見る。その中から、#アソビ★まわり隊！を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
           "en": "Look at the top 3 cards of your deck, reveal 1 holomem with #ASOBI★MAWARI-TAI! from among them, and add it to hand. Return the remaining cards to the bottom of your deck in any order."
         }
       }
@@ -82211,23 +82734,27 @@
     "arts": [
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": null, "en": "Found Something Interesting!" },
+        "name": { "jp": "面白いもの見つけたよ！", "en": "Found Something Interesting!" },
         "power": "50",
-        "text": { "en": "You may reattach 1 cheer from this holomem to your other holomem with #ASOBI★MAWARI-TAI!." }
+        "text": {
+          "jp": "このホロメンのエール1枚を自分の他の#アソビ★まわり隊！を持つホロメンに付け替えられる。",
+          "en": "You may reattach 1 cheer from this holomem to your other holomem with #ASOBI★MAWARI-TAI!."
+        }
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-010",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3037 ] },
         "rarity": "R",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-010_R.webp", "en": null },
-        "img_hash": "v2|H32=rKpyUKWoHerP0g23luK1syZ38KhWUevNWl1OzHoVdoQ7CrRqUqXppatSmpIlitS6papq1Uolarm6VjLVWa1SubWKslU|CYM=463808",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C12" ], [ 2109917797, "C33" ] ],
+        "illustrator": "大熊まい",
+        "img_path": { "jp": "hSD20/hSD20-010_R.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:35 GMT" },
+        "img_hash": "v2|H32=rKpyUuGoHSqfUi2zVmZgsS51sKhWUWnFWl1OzVgVdpRrGrBrUqWpratQnpaEqtS6Zapq1UoFXrm6VibVW69WqbUaslQ|CYM=4A3D0A",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C12" ], [ 2109917797, "C35" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82245,33 +82772,38 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "Self-Proclaimed Genius Astronaut" },
-        "text": { "en": "You may send 2 cheers from your archive to 1 of your holomem with #ASOBI★MAWARI-TAI!." }
+        "name": { "jp": "（自称）天才宇宙飛行士", "en": "Self-Proclaimed Genius Astronaut" },
+        "text": {
+          "jp": "自分のアーカイブのエール2枚を自分の#アソビ★まわり隊！を持つホロメン1人に送れる。",
+          "en": "You may send 2 cheers from your archive to 1 of your holomem with #ASOBI★MAWARI-TAI!."
+        }
       }
     ],
     "arts": [
       {
         "cheers": [ "blue", "colorless" ],
-        "name": { "jp": null, "en": "Resident Inspiration-Type Member" },
+        "name": { "jp": "「ひらめき」担当", "en": "Resident Inspiration-Type Member" },
         "power": "80+",
         "advantage": [ "white", 50 ],
         "text": {
+          "jp": "このホロメンのエール1～3枚をアーカイブできる:アーカイブしたエール1枚につき、このアーツ+20。",
           "en": "You may archive 1~3 cheers from this holomem: This Arts gets +20 for each cheer archived this way."
         }
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-011",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3038 ] },
         "rarity": "RR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-011_RR.webp", "en": null },
-        "img_hash": "v2|H32=IqrtKjGr3Cab2VgWp9ql1OS0pczeNVpNXjUSx2pVMufGhtYqU2VKVbS4taoP2mpVsLT0qqsqolLUlHCVqqrwamlLalU|CYM=2F2F13",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C13" ] ],
+        "illustrator": "夕城",
+        "img_path": { "jp": "hSD20/hSD20-011_RR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:35 GMT" },
+        "img_hash": "v2|H32=qqqtKnGr1Cqb2RhWLZul1Ma0tMzcNEpNTjUSTU5VMufOxtYqU2VKVeeopaqM2yhVMrbkqqkGolLWtjCVqqrQaklKalU|CYM=313315",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C13" ], [ 2109917797, "C36" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82285,18 +82817,20 @@
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
+      "jp": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、#アソビ★まわり隊！を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
       "en": "This card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #ASOBI★MAWARI-TAI! from among them, and add the revealed holomem to hand. Return the remaining cards to the bottom of the deck in any order."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-012",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3039 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-012_U.webp", "en": null },
-        "img_hash": "v2|H32=or6jqpSKoCqra1RBKmFsUWxSZDQvNlQ2do4+zTvNUk+CV1JFR+AsuoPDLZqLjy2a+Bipan54qWju46kq4KLhgyp4IBk|CYM=132D1D",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C14" ], [ 2109917797, "C35" ] ],
+        "illustrator": "緜",
+        "img_path": { "jp": "hSD20/hSD20-012_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:35 GMT" },
+        "img_hash": "v2|H32=qq6rqtSqomur65hBbGluUWwS1BSvtFSWfq42zTPPVk8SV5JFj+BsumMzbIqcl22adAa56Tr4qWzc4qku4eHhgzx4KBo|CYM=14311F",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C14" ], [ 2109917797, "C37" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82306,22 +82840,24 @@
   },
   "hSD20-013": {
     "card_number": "hSD20-013",
-    "name": { "jp": "ぐるぐるTIME!", "en": "Guruguru TIME!" },
+    "name": { "jp": "ぐるぐるTIME！", "en": "Guruguru TIME!" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
+      "jp": "このカードは、自分のステージのホロメン全員が#アソビ★まわり隊！を持つホロメンでなければ使えない。\n\n相手のバックホロメン1人を選ぶ。選んだホロメンと相手のセンターホロメンを交代させる。その後、相手と勝敗が決まるまでじゃんけんする。自分が勝ったなら、自分のデッキを3枚引く。",
       "en": "This card can only be used if all holomem on your stage are holomem with #ASOBI★MAWARI-TAI!.\n\nSwap your opponent's center holomem with 1 of their back holomem. Play rock-paper-scissors with your opponent until there's a winner. If you won, draw 3 cards."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-013",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3040 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-013_U.webp", "en": null },
-        "img_hash": "v2|H32=SmuralhKSF5rmlSWoLKztreylpWvnTbdJMkmaTFjkGu77RJNE3wtuh8PLYvwwe2LAZep4PBL6Wjw8KHDj8N48GB+4tM|CYM=0E1F22",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C15" ], [ 2109917797, "C36" ] ],
+        "illustrator": "deru",
+        "img_path": { "jp": "hSD20/hSD20-013_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:36 GMT" },
+        "img_hash": "v2|H32=SmLralBPSFzPCtQSsLKrtpWylJUrnTbdJMkmaSNrlGuz7ZJNM3slu4wHbIrMgO2CRCaN6PBN6Sjw4Knjz8FtuEE+6Os|CYM=102225",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C15" ], [ 2109917797, "C38" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82334,17 +82870,19 @@
     "name": { "jp": "百灯キョーコの拡声器", "en": "Hyakuto Kyoko's Megaphone" },
     "card_type": { "support": "tool" },
     "text": {
+      "jp": "このツールが付いている〈百灯キョーコ〉のアーツ+20。\n\n◆1st以上の〈百灯キョーコ〉に付いていたら能力追加\nこのホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのエール1枚を自分の#アソビ★まわり隊！を持つバックホロメンに送れる。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The <Hyakuto Kyoko> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Hyakuto Kyoko>\nIf this holomem downs your opponent's holomem, you may send 1 cheer from your archive to your back holomem with #ASOBI★MAWARI-TAI!.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD20-014",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3041 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD20-014_U.webp", "en": null },
-        "img_hash": "v2|H32=0sTLqtHHoHOvcyQxLCltLG2OTM7bytbSltKUsZQxXDlcKBbdM3jgowweLeqChy0K+ODhKgo+jYvgg+ng+oMteI//oA8|CYM=092529",
+        "illustrator": "那桜",
+        "img_path": { "jp": "hSD20/hSD20-014_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:36 GMT" },
+        "img_hash": "v2|H32=wsbLqtDFsHMvMywxpClkLG2OSM7LytbSltKUsZwxXClcKDLVs1mAizwmjTrGhw0u7ODpqj8+jYvEwung6IMteA//qA8|CYM=09272B",
         "ogbajoj_sheet_cells": [ [ 2109917797, "C16" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
@@ -82362,15 +82900,17 @@
     "oshi_skills": [
       {
         "kind": "stage",
-        "name": { "jp": null, "en": "Salamander's Repayment" },
+        "name": { "jp": "サラマンダーの恩返し", "en": "Salamander's Repayment" },
         "text": {
+          "jp": "自分のホロメンがコラボした時、自分のセンターが〈熱千めら〉なら、自分のデッキを1枚引き、手札1枚をアーカイブする。",
           "en": "When your holomem collabs, if your center holomem is <Achichi Mela>, draw 1 card and archive 1 card from your hand."
         }
       },
       {
         "holo_power": 2,
-        "name": { "jp": null, "en": "A Blessing, Ya Hear!" },
+        "name": { "jp": "ご利益じゃ！", "en": "A Blessing, Ya Hear!" },
         "text": {
+          "jp": "[ターンに1回]自分のステージのホロメン1人を選ぶ。自分のアーカイブのギフトを持つホロメン1枚につき、このターンの間、選んだホロメンのアーツ+10。さらに、選んだホロメンが〈熱千めら〉なら、そのホロメンのアーツに必要な無色-1。",
           "en": "[1/Turn] Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+10 for each holomem with Gift in your archive. Additionally, if the chosen holomem is <Achichi Mela>, it requires -1 colorless for its Arts."
         }
       }
@@ -82379,12 +82919,13 @@
     "illustrations": [
       {
         "card_number": "hSD21-001",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3043 ] },
         "rarity": "OSR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-001_OSR.webp", "en": null },
-        "img_hash": "v2|H32=SFlKq1M51FYztlZWqfaaCsxry6oWTmC9s8w81ZbTCaccp9TSqFYrqZqqpWlJqimrS6stq6m1Ka0rXWlJUiVp9ZYUKVU|CYM=43430B",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C23" ] ],
+        "illustrator": "夕城",
+        "img_path": { "jp": "hSD21/hSD21-001_OSR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:36 GMT" },
+        "img_hash": "v2|H32=wFtKqVYblFSztFZWifaeGsNNqyx0TmS9k8yc1bTRDacWplSSrFaIqZqqoXl7qiurW6sPq6k0a6wrSWlJUi9p9ZJUK1U|CYM=48490D",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C25" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82402,26 +82943,37 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Basics of Fire Safety!" },
-        "text": { "en": "This holomem takes -10 Arts damage." }
+        "name": { "jp": "防火対策 基礎！", "en": "Basics of Fire Safety!" },
+        "text": {
+          "jp": "このホロメンが受けるアーツダメージ-10。",
+          "en": "This holomem takes -10 Arts damage."
+        }
       }
     ],
     "arts": [
-      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Fire safety first, ya hear!" }, "power": "20" }
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": "火の用心じゃ～！", "en": "Fire safety first, ya hear!" },
+        "power": "20"
+      }
     ],
-    "extra": { "en": "You may include any number of this holomem in the deck" },
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "extra": {
+      "jp": "このホロメンはデッキに何枚でも入れられる",
+      "en": "You may include any number of this holomem in the deck"
+    },
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 50 },
     "illustrations": [
       {
         "card_number": "hSD21-002",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3044 ] },
         "rarity": "C",
         "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-002_C.webp", "en": null },
-        "img_hash": "v2|H32=ysw0K9XOzay0Kq3MLLHbSiZVSyVaU8L1WobScbLMNDYfSehUVWl0tam0FqlWi416bktSPqaUKdpVK1KpUmstTauWlqQ|CYM=1F220B",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C24" ] ],
+        "img_path": { "jp": "hSD21/hSD21-002_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:37 GMT" },
+        "img_hash": "v2|H32=ysy0KrXKjaq0Kq3MJqlLDibRSi1KU8L1SJbScdLUNBQuadhUVS1stamUVqlWy7tqbktaHqbVqdpNK1KpWmktTamSlqQ|CYM=21250D",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C26" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82439,25 +82991,29 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "A Mysterious Ability to Quell Flames" },
+        "name": { "jp": "炎を鎮める不思議な力", "en": "A Mysterious Ability to Quell Flames" },
         "text": {
+          "jp": "自分が後攻で最初のターンなら、自分のデッキから、ギフトを持つ〈熱千めら〉2枚を公開する。その中から1枚を手札に加え、残ったカードをアーカイブする。そしてデッキをシャッフルする。",
           "en": "If you went second and it is your first turn, reveal 2 <Achichi Mela> with Gift from your deck. Add 1 of them to your hand, and archive the remaining card. Shuffle your deck."
         }
       }
     ],
-    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Resounding Clappers" }, "power": "20" } ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": "響く拍子木", "en": "Resounding Clappers" }, "power": "20" }
+    ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD21-003",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3045 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-003_U.webp", "en": null },
-        "img_hash": "v2|H32=rqrTXKWqLa7LYyzmzKGN0hgR4LVaF3slUoVbRdbc8tW23pYsE2WpV1KpXpPamtbStZJpuKtUatpXS1arUKq2KSm6Ni0|CYM=271F0B",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C25" ] ],
+        "illustrator": "那桜",
+        "img_path": { "jp": "hSD21/hSD21-003_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:37 GMT" },
+        "img_hash": "v2|H32=rqrTSJSqJaqra6zqyeHf2joZKLVaF0s12oXbRcTU8NUm3pIom2Vp11S7HpNWmtbSpdIouKlMKloWS1ar8KqyKWm6Nm0|CYM=2A220C",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C27" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82475,30 +83031,37 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Fire Safety in Place!" },
-        "text": { "en": "This holomem takes -20 Arts damage." }
+        "name": { "jp": "防火対策 応用！", "en": "Fire Safety in Place!" },
+        "text": {
+          "jp": "このホロメンが受けるアーツダメージ-20。",
+          "en": "This holomem takes -20 Arts damage."
+        }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple" ],
-        "name": { "jp": null, "en": "Energetic Hard Worker" },
+        "name": { "jp": "元気な頑張り屋", "en": "Energetic Hard Worker" },
         "power": "30",
-        "text": { "en": "Draw 1 card, and archive 1 card from your hand." }
+        "text": {
+          "jp": "自分のデッキを1枚引き、手札1枚をアーカイブする。",
+          "en": "Draw 1 card, and archive 1 card from your hand."
+        }
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD21-004",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3046 ] },
         "rarity": "C",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-004_C.webp", "en": null },
-        "img_hash": "v2|H32=SvuzKi2v2cqmhoyu50gslitlW7R4Gwsl0pJuw5KGNNGepFpqx2GkJSk00pTSpEvSdNulqa5WLFtLtUu3TWtaq6RSVnk|CYM=272211",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C26" ] ],
+        "illustrator": "にゃまそ",
+        "img_path": { "jp": "hSD21/hSD21-004_C.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:37 GMT" },
+        "img_hash": "v2|H32=SuuzKryr2cqnjISulkI5lillypVaGQslUpZuQ9KWtNGeJdpqxyakJZl10pVSp0vSZNqlqa5UIltLFUumSyvboqTSdmk|CYM=2A2512",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C28" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82516,27 +83079,33 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": null, "en": "A Whirlwind of Explosive Fun" },
+        "name": { "jp": "ハジけるアソビの渦", "en": "A Whirlwind of Explosive Fun" },
         "text": {
+          "jp": "自分のアーカイブにギフトを持つホロメンが3枚以上あるなら、相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。",
           "en": "If you have 3 or more holomem with Gift in your archive, deal 20 special damage to your opponent's center holomem or collab holomem."
         }
       }
     ],
     "arts": [
-      { "cheers": [ "purple" ], "name": { "jp": null, "en": "To the Most Extraordinary Life" }, "power": "40" }
+      {
+        "cheers": [ "purple" ],
+        "name": { "jp": "最高の非日常へ", "en": "To the Most Extraordinary Life" },
+        "power": "40"
+      }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD21-005",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3047 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-005_U.webp", "en": null },
-        "img_hash": "v2|H32=rqom1KWqTlmTUVgryFIprqzWvawuVZOWEl1LdVrWZKNqVbQqW3VNj61KtJKVLliy9NiqlE5LmnT5slKpJalSVbZbcm0|CYM=363E0D",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C27" ] ],
+        "illustrator": "gaha",
+        "img_path": { "jp": "hSD21/hSD21-005_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:37 GMT" },
+        "img_hash": "v2|H32=qqo21rWq3knDUXAr3FI5rWz2aawuTbWUEt1KdVrWRKNqVbYqW3VNjalSpJq3KliC1NiqFE5bmnK9slLpJa9yVbRa8m0|CYM=38430F",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C29" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82554,8 +83123,9 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Blessing Power" },
+        "name": { "jp": "ご利益パワー", "en": "Blessing Power" },
         "text": {
+          "jp": "このホロメンがダウンした時、このホロメンのエール1～2枚を選び、自分の他のホロメンに割り振って付け替えられる。",
           "en": "If this holomem is downed, you may choose 1~2 cheers attached to this holomem, and reattach them divided as you choose to your other holomem."
         }
       }
@@ -82563,22 +83133,23 @@
     "arts": [
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": null, "en": "Now Is the Time to Show My Firefighting Skills!" },
+        "name": { "jp": "火消しの本領発揮じゃ！", "en": "Now Is the Time to Show My Firefighting Skills!" },
         "power": "60"
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD21-006",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3048 ] },
         "rarity": "R",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-006_R.webp", "en": null },
-        "img_hash": "v2|H32=qKrTTIKrSO7SVTR35Iy1MrSE7ataVmsVWlOPTXJNZu0LVqpqpURJr1tUVtVWqtKyhatosWt1UqnWmrRVqpNSwVWrlmg|CYM=665C0A",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C28" ] ],
+        "illustrator": "梅之シイ",
+        "img_path": { "jp": "hSD21/hSD21-006_R.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:37 GMT" },
+        "img_hash": "v2|H32=rKrRTNK5WO7oVZR2tIy3MrSEbasYVisVWlNO3WrBQu1KVqpqpVBjr1tUXNVWqtSyhKtosGtVUqnWqrRcqpZSwVGrlmg|CYM=69600B",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C30" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82596,31 +83167,38 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": null, "en": "Salamander Firefighter" },
-        "text": { "en": "If this holomem is downed, draw 2 cards." }
+        "name": { "jp": "火消しのサラマンダー", "en": "Salamander Firefighter" },
+        "text": {
+          "jp": "このホロメンがダウンした時、自分のデッキを2枚引く。",
+          "en": "If this holomem is downed, draw 2 cards."
+        }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple", "colorless" ],
-        "name": { "jp": null, "en": "Resident Blessing-Type Member" },
+        "name": { "jp": "「ご利益」担当", "en": "Resident Blessing-Type Member" },
         "power": "100+",
         "advantage": [ "yellow", 50 ],
-        "text": { "en": "If you have 3 or more holomem with Gift in your archive, this Arts gets +50." }
+        "text": {
+          "jp": "自分のアーカイブにギフトを持つホロメンが3枚以上あるなら、このアーツ+50。",
+          "en": "If you have 3 or more holomem with Gift in your archive, this Arts gets +50."
+        }
       }
     ],
-    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "tags": [ { "jp": "#アソビ★まわり隊！", "en": "#ASOBI★MAWARI-TAI!" } ],
     "baton_pass": [ "colorless", "colorless" ],
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD21-007",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3049 ] },
         "rarity": "RR",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-007_RR.webp", "en": null },
-        "img_hash": "v2|H32=qKloNaeqpL0WSoTKeJyPw0jQK6VoWXMLKm3WIhrGlLLO1rRKvGioNFbWVqlrtWylrZKy0nZLSldpvUqvtKK2VNUqMvQ|CYM=36310E",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C29" ] ],
+        "illustrator": "TOH.",
+        "img_path": { "jp": "hSD21/hSD21-007_RR.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:38 GMT" },
+        "img_hash": "v2|H32=qKh4NZarJr21SrTqUpwLwUjSKbVqWVMKLG1WIlrWlLLO1LBKvESoNlPXRqtrtWytpZKu0mZLSlZpvUoPtaK2VNUqsvQ|CYM=3A3510",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C31" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -82633,18 +83211,20 @@
     "name": { "jp": "熱千めらの拍子木", "en": "Achichi Mela's Wooden Clappers" },
     "card_type": { "support": "tool" },
     "text": {
+      "jp": "このツールが付いている〈熱千めら〉のアーツ+20。\n\n◆1st以上の〈熱千めら〉に付いていたら能力追加\nこのホロメンが相手のホロメンをダウンさせた時、自分のデッキを1枚引き、手札1枚をアーカイブする。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
       "en": "The <Achichi Mela> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Achichi Mela>\nIf this holomem downs your opponent's holomem, draw 1 card and archive 1 card from your hand.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
       {
         "card_number": "hSD21-008",
-        "manage_id": { },
+        "manage_id": { "jp": [ 3050 ] },
         "rarity": "U",
-        "illustrator": null,
-        "img_path": { "jp": "unreleased/hSD21-008_U.webp", "en": null },
-        "img_hash": "v2|H32=lq+nqpSqlEq7SlhVGFUadTs1NBurWmdSr2JqdEs1TjXatBJdB89souDjrSp48OkK7oeNiz44rco6PKGq+PDheD8Kqos|CYM=1F190E",
-        "ogbajoj_sheet_cells": [ [ 2109917797, "C30" ] ],
+        "illustrator": "にゃまそ",
+        "img_path": { "jp": "hSD21/hSD21-008_U.webp", "en": null },
+        "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:38 GMT" },
+        "img_hash": "v2|H32=hqunqrSq1ErLSlhVOFUSdR85HFsjmudWrGJudWs1XjVatBLdJ6dssmA2jImY6LkLs8Ot6nw47ao8PKmqueDoOD8dqKo|CYM=211A0F",
+        "ogbajoj_sheet_cells": [ [ 2109917797, "C32" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -83459,7 +84039,8 @@
           [ 1326338526, "C57" ],
           [ 1642260809, "C109" ],
           [ 1874575099, "C22" ],
-          [ 2103775807, "C38" ]
+          [ 2103775807, "C38" ],
+          [ 2109917797, "C21" ]
         ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/yell01/10003" ],
@@ -83953,7 +84534,9 @@
           [ 1326338526, "C76" ],
           [ 1478464232, "C42" ],
           [ 1642260809, "C110" ],
-          [ 1874575099, "C44" ]
+          [ 1874575099, "C44" ],
+          [ 2109917797, "C22" ],
+          [ 2109917797, "C44" ]
         ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/yell01/10004" ],
@@ -84367,7 +84950,8 @@
           [ 1326338526, "C94" ],
           [ 1478464232, "C21" ],
           [ 1642260809, "C111" ],
-          [ 1874575099, "C66" ]
+          [ 1874575099, "C66" ],
+          [ 2109917797, "C43" ]
         ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/yell01/10006" ],
