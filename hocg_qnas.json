@@ -7307,7 +7307,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "マスコットが付いているhSD14-009〈白上フブキ〉が相手のターンでダウンした時、ギフト「私は倒れちゃいけないな」の能力でカードを引くのはいつになりますか？",
-      "en": "If my hSD14-009 Shirakami Fubuki with a mascot attached is downed during my opponent's turn, when will the gift \"I Mustn't Go Down\" trigger to draw a card?"
+      "en": "If my hSD14-009 Shirakami Fubuki with a mascot attached is downed during my opponent's turn, when will the gift \"Can't Afford to Collapse\" trigger to draw a card?"
     },
     "answer": {
       "jp": "hSD14-009〈白上フブキ〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、カード1枚を引いてから、hSD14-009〈白上フブキ〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
@@ -7320,7 +7320,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD15-005〈儒烏風亭らでん〉が相手のターンでダウンした時、ギフト「体力作り頑張るぞー！！！！！」の能力で他のホロメンにエールを付け替えるのはいつになりますか？",
-      "en": "If my hSD15-005 Juufuutei Raden is downed during my opponent's turn, when will the gift \"I'll Work Hard to Build Up My Stamina!!!!!\" trigger to reattach 1 cheer?"
+      "en": "If my hSD15-005 Juufuutei Raden is downed during my opponent's turn, when will the gift \"Working Hard to Build Up Stamina!!!!!\" trigger to reattach 1 cheer?"
     },
     "answer": {
       "jp": "hSD15-005〈儒烏風亭らでん〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、エール1枚を他のホロメンに付け替えてから、hSD15-005〈儒烏風亭らでん〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
@@ -7346,7 +7346,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "自分のhSD15-008〈儒烏風亭らでん〉が相手のマスコットが付いているhSD14-009〈白上フブキ〉をダウンさせました。\nhSD15-008〈儒烏風亭らでん〉のギフト「薄明」の能力とhSD14-009〈白上フブキ〉のギフト「私は倒れちゃいけないな」の能力はどちらから処理されますか？",
-      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Shirakami Fubuki's gift \"I Mustn't Go Down\"?"
+      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Shirakami Fubuki's gift \"Can't Afford to Collapse\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD15-008〈儒烏風亭らでん〉の能力から処理します。",
@@ -7359,7 +7359,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "自分のhSD15-008〈儒烏風亭らでん〉が相手のhSD16-007〈さくらみこ〉をダウンさせました。\nこの場合、hSD15-008〈儒烏風亭らでん〉のギフト「薄明」の能力とhSD16-007〈さくらみこ〉のギフト「みこの膝にごろーんってして」の能力はどちらから処理されますか？",
-      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Sakura Miko's gift \"Come Lay On Miko's Lap Pillow\"?"
+      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Sakura Miko's gift \"Plop Your Head on Miko's Lap\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD15-008〈儒烏風亭らでん〉の能力から処理します。",
@@ -7385,7 +7385,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "自分のhSD15-008〈儒烏風亭らでん〉が相手のhSD18-007〈森カリオペ〉をダウンさせました。\nこの場合、hSD15-008〈儒烏風亭らでん〉のギフト「薄明」の能力とhSD18-007〈森カリオペ〉のギフト「ちょっとした特別なプレゼント」の能力はどちらから処理されますか？",
-      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Mori Calliope's gift \"A Special Little Present\"?"
+      "en": "My hSD15-008 Juufuutei Raden downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Juufuutei Raden's gift \"Twilight\" or Mori Calliope's gift \"A Small but Special Present\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD15-008〈儒烏風亭らでん〉の能力から処理します。",
@@ -7398,7 +7398,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD16-007〈さくらみこ〉が相手のターンでダウンした時、ギフト「みこの膝にごろーんってして」の能力でカードを引くのはいつになりますか？",
-      "en": "If my hSD16-007 Sakura Miko is downed during my opponent's turn, when will the gift \"Come Lay On Miko's Lap Pillow\" trigger to draw a card?"
+      "en": "If my hSD16-007 Sakura Miko is downed during my opponent's turn, when will the gift \"Plop Your Head on Miko's Lap\" trigger to draw a card?"
     },
     "answer": {
       "jp": "hSD16-007〈さくらみこ〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、カード1枚を引いてから、hSD16-007〈さくらみこ〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
@@ -7424,7 +7424,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD18-007〈森カリオペ〉が相手のターンでダウンした時、ギフト「ちょっとした特別なプレゼント」の能力で自分のデッキの上から1枚をアーカイブするのはいつになりますか？",
-      "en": "If my hSD18-007 Mori Calliope is downed during my opponent's turn, when will the gift \"A Special Little Present\" trigger to archive a card from my deck?"
+      "en": "If my hSD18-007 Mori Calliope is downed during my opponent's turn, when will the gift \"A Small but Special Present\" trigger to archive a card from my deck?"
     },
     "answer": {
       "jp": "hSD18-007〈森カリオペ〉のダウン処理として、「ダウンした時」の能力を先に処理します。\nこの場合、自分のデッキの上から1枚をアーカイブしてから、hSD18-007〈森カリオペ〉をアーカイブし、自分のライフを1つ減らします。ライフを1枚を表向きにし、自分のステージのホロメンにそのエールを送ります。",
@@ -7450,7 +7450,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のマスコットが付いているhSD14-009〈白上フブキ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD14-009〈白上フブキ〉のギフト「私は倒れちゃいけないな」の能力はどちらから処理されますか？",
-      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Shirakami Fubuki's gift \"I Mustn't Go Down\"?"
+      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD14-009 Shirakami Fubuki with a mascot attached.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Shirakami Fubuki's gift \"Can't Afford to Collapse\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
@@ -7463,7 +7463,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD16-007〈さくらみこ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD16-007〈さくらみこ〉のギフト「みこの膝にごろーんってして」の能力はどちらから処理されますか？",
-      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Sakura Miko's gift \"Come Lay On Miko's Lap Pillow\"?"
+      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD16-007 Sakura Miko.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Sakura Miko's gift \"Plop Your Head on Miko's Lap\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
@@ -7489,7 +7489,7 @@
     "date": "2026-04-16",
     "question": {
       "jp": "hSD14-011〈ありよりのアリゲーター〉が付いている〈白上フブキ〉が相手のhSD18-007〈森カリオペ〉をダウンさせました。\nこの場合、hSD14-011〈ありよりのアリゲーター〉の能力とhSD18-007〈森カリオペ〉のギフト「ちょっとした特別なプレゼント」の能力はどちらから処理されますか？",
-      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Mori Calliope's gift \"A Special Little Present\"?"
+      "en": "My Shirakami Fubuki with hSD14-011 Kinda Yes-Ligator attached downed my opponent's hSD18-007 Mori Calliope.\nWhich ability is processed first: Kinda Yes-Ligator's ability or Mori Calliope's gift \"A Small but Special Present\"?"
     },
     "answer": {
       "jp": "ターンプレイヤーの能力を先に処理するので、hSD14-011〈ありよりのアリゲーター〉の能力から処理します。",
@@ -7532,7 +7532,7 @@
     },
     "answer": {
       "jp": "いいえ、選べるホロメンがいないため使えません。",
-      "en": "No, it cannot be used as there are no available targets to choose.\n(it's unclear if this card heals all of your holomem or just one, but the answer is the same either way)"
+      "en": "No, it cannot be used as there are no available targets to choose."
     },
     "referenced_cards": [ "hSD19-010" ]
   },
@@ -8840,5 +8840,87 @@
       "jp": "いいえ、「そしてデッキをシャッフルする。」と書かれている場合、他の能力を処理できずとも必ずデッキをシャッフルする必要があります。",
       "en": "No, if it says \"Shuffle your deck\", you must shuffle your deck even if you cannot process other parts of the ability."
     }
+  },
+  "Q752": {
+    "qna_number": "Q752",
+    "date": "2026-10-23",
+    "question": {
+      "jp": "hBP09-060 〈ムーナ・ホシノヴァ〉のアーツ「今日はお姉さんモード」で、相手のセンターホロメンとコラボホロメンに特殊ダメージ10を与えました。 このとき、hBP06-006 〈ムーナ・ホシノヴァ〉の推しスキル「満月の輝き」を使って、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与えられますか？",
+      "en": "I used hBP09-060 Moona Hoshinova's Arts \"Today I'm in Big Sis Mode\", dealing 10 special damage to my opponent's center holomem and collab holomem.\nCan I now use hBP06-006 Moona Hoshinova's Oshi Skill \"Bright as the Full Moon\" to deal 20 special damage to my opponent's center holomem and collab holomem?"
+    },
+    "answer": {
+      "jp": "いいえ、推しスキル「満月の輝き」は相手のホロメン1人に特殊ダメージを与えた場合のみ、使えます。 2人以上の相手のホロメンに特殊ダメージを与えた場合、推しスキル「満月の輝き」は使えません。 ただし、アーツ「今日はお姉さんモード」で1人のみに特殊ダメージを与えた場合は推しスキル「満月の輝き」を使えます。",
+      "en": "No, the Oshi Skill \"Bright as the Full Moon\" can only be used when you deal special damage to 1 of your opponent's holomem. If you deal special damage to 2 or more of your opponent's holomem at once, the Oshi Skill cannot be used.\nHowever, if you only dealt special damage to 1 holomem with the Arts \"Today I'm in Big Sis Mode\", the Oshi Skill can be used."
+    },
+    "referenced_cards": [ "hBP06-006", "hBP09-060" ]
+  },
+  "Q753": {
+    "qna_number": "Q753",
+    "date": "2026-10-23",
+    "question": {
+      "jp": "自分の推しがhSD20-001〈百灯キョーコ〉の時、hSD20-006〈百灯キョーコ〉がコラボしました。\nこの場合、hSD20-001〈百灯キョーコ〉の推しステージスキル「広がる情熱」の能力とhSD20-006〈百灯キョーコ〉のコラボエフェクト「誰にだって手を伸ばす！」の能力はどちらから処理されますか?",
+      "en": "My Oshi holomem is hSD20-001 Hyakuto Kyoko and I collab with hSD20-006 Hyakuto Kyoko. Which do I process first, the Oshi Stage Skill \"Fiery Passion\" or the Collab Effect \"Reaching Out to Everyone!\"?"
+    },
+    "answer": {
+      "jp": "どちらも「コラボした時」に使える能力であるため、好きな順番で処理ができます。",
+      "en": "Since both abilities activate when collabing, you may choose to use them in any order."
+    },
+    "referenced_cards": [ "hSD20-001", "hSD20-006" ]
+  },
+  "Q754": {
+    "qna_number": "Q754",
+    "date": "2026-10-23",
+    "question": {
+      "jp": "自分の推しがhSD21-001〈熱千めら〉の時、hSD21-003〈熱千めら〉がコラボしました。\nこの場合、hSD21-001〈熱千めら〉の推しステージスキル「サラマンダーの恩返し」の能力とhSD21-003〈熱千めら〉のコラボエフェクト「炎を鎮める不思議な力」の能力はどちらから処理されますか?",
+      "en": "My Oshi holomem is hSD21-001 Achichi Mela and I collab with hSD21-003 Achichi Mela. Which do I process first, the Oshi Stage Skill \"Salamander's Repayment\" or the Collab Effect \"A Mysterious Ability to Quell Flames\"?"
+    },
+    "answer": {
+      "jp": "どちらも「コラボした時」に使える能力であるため、好きな順番で処理ができます。",
+      "en": "Since both abilities activate when collabing, you may choose to use them in any order."
+    },
+    "referenced_cards": [ "hSD21-001", "hSD21-003" ]
+  },
+  "Q755": {
+    "qna_number": "Q755",
+    "date": "2026-10-23",
+    "question": {
+      "jp": "hSD21-001〈熱千めら〉の推しスキル「ご利益じゃ！」は、アーカイブにホロメンがいなくても使うことはできますか？",
+      "en": "Can I use hSD21-001 Achichi Mela's Oshi Skill \"A Blessing, Ya Hear!\" if there are no holomem in my archive?"
+    },
+    "answer": { "jp": "はい、使えます。", "en": "Yes, you can." },
+    "referenced_cards": [ "hSD21-001" ]
+  },
+  "Q756": {
+    "qna_number": "Q756",
+    "date": "2026-10-23",
+    "question": {
+      "jp": "自分のアーカイブのホロメンが0枚の時、hSD21-001〈熱千めら〉の推しスキル「ご利益じゃ！」を使い、アーカイブに置いたホロパワーの中にホロメン2枚ありました。\nこの場合、選んだホロメンのアーツは+20されますか？",
+      "en": "I used hSD21-001 Achichi Mela's Oshi Skill \"A Blessing, Ya Hear!\" while there were no holomem in my archive, and there were two holomem with Gift effects in the holo Power archived as a cost. Will the Arts of the chosen holomem now be increased by +20?"
+    },
+    "answer": { "jp": "はい、されます。", "en": "Yes, that is correct." },
+    "referenced_cards": [ "hSD21-001" ]
+  },
+  "Q757": {
+    "qna_number": "Q757",
+    "date": "2026-10-23",
+    "question": {
+      "jp": "自分のアーカイブのエールが1枚の場合、hSD20-011〈宙科そぴあ〉のコラボエフェクト「（自称）天才宇宙飛行士」の能力で、#アソビ★まわり隊！を持つホロメンにエールを送ることはできますか？",
+      "en": "If I only have 1 cheer in my archive, can I use hSD20-011 Sorashina Sopia's Collab Effect \"Self-Proclaimed Genius Astronaut\" to send that cheer to my holomem with #ASOBI★MAWARI-TAI!?"
+    },
+    "answer": { "jp": "はい、できます。", "en": "Yes, you can." },
+    "referenced_cards": [ "hSD20-011" ]
+  },
+  "Q758": {
+    "qna_number": "Q758",
+    "date": "2026-10-23",
+    "question": {
+      "jp": "自分のアーカイブのエールが2枚以上の場合、hSD20-011〈宙科そぴあ〉のコラボエフェクト「（自称）天才宇宙飛行士」の能力で、#アソビ★まわり隊！を持つホロメンにエールを1枚のみ送ることはできますか？",
+      "en": "If I have 2 or more cheers in my archive, can I use hSD20-011 Sorashina Sopia's Collab Effect \"Self-Proclaimed Genius Astronaut\" to send only 1 cheer to my holomem with #ASOBI★MAWARI-TAI!?"
+    },
+    "answer": {
+      "jp": "いいえ、できません。\n必ず2枚送ります。",
+      "en": "No, you cannot. If you have at least 2 cheers in your archive, you must send 2 cheers."
+    },
+    "referenced_cards": [ "hSD20-011" ]
   }
 }
