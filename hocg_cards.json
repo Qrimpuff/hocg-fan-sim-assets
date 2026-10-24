@@ -46588,21 +46588,21 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "グルグルシープ", "en": "Guruguru Sheep" },
+        "name": { "jp": "グルグルシープ", "en": "Spinning Sheep" },
         "text": {
           "jp": "自分のデッキから、1stホロメンの〈角巻わため〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。自分のブルームエフェクト「グルグルシープ」はターンに1回しか使えない。",
-          "en": "Reveal 1 1st holomem <Tsunomaki Watame> from your deck, and add it to hand. Then, shuffle the deck. You may only use Bloom Effect \"Guruguru Sheep\" once per turn."
+          "en": "Reveal 1 1st holomem <Tsunomaki Watame> from your deck, and add it to your hand. Shuffle your deck. You may only use Bloom Effect \"Spinning Sheep\" once per turn."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless", "colorless", "colorless" ],
-        "name": { "jp": "これボタン弾けちゃうよぉ", "en": "This button's about to pop" },
+        "name": { "jp": "これボタン弾けちゃうよぉ", "en": "The Buttons Are Going to Pop Off" },
         "power": "70",
         "text": {
           "jp": "このホロメンに白エールが2枚以上付いているなら、このアーツに必要な無色-1。",
-          "en": "If this holomem has 2 white cheers attached, this Arts requires -1 colorless."
+          "en": "If 2 or more white cheers are attached to this holomem, this Arts requires -1 colorless."
         }
       }
     ],
@@ -48547,14 +48547,14 @@
         "name": { "jp": "Haachama ♥ Restaurant", "en": "Haachama ♥ Restaurant" },
         "text": {
           "jp": "自分のバックポジションのDebutホロメンの〈赤井はあと〉1人をデッキの下に戻せる:自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
-          "en": "You may return 1 Debut <Akai Haato> from your back position to the bottom of your deck:Reveal 1 [1st holomem or 2nd holomem] other than Buzz from your deck, and add it to hand. Then, shuffle the deck."
+          "en": "You may return 1 of your back Debut holomem <Akai Haato> to the bottom of your deck: Reveal 1 [1st holomem or 2nd holomem] other than Buzz from your deck, and add it to your hand. Shuffle your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red" ],
-        "name": { "jp": "当店自慢のはあとんバーガー！", "en": "Our specialty Haaton Burger!" },
+        "name": { "jp": "当店自慢のはあとんバーガー！", "en": "Our Restaurant's Famous Haaton Burger!" },
         "power": "40"
       }
     ],
@@ -51814,17 +51814,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "ニコたん出動！", "en": "Niko-tan dispatched!" },
+        "name": { "jp": "ニコたん出動！", "en": "Niko, Heading Out!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のエールデッキの上から2枚をアーカイブできる:自分のステージの#FLOW GLOWを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。",
-          "en": "If you went second and it is your first turn, you may archive the top 2 cards of your cheer deck:Choose 1 holomem with #FLOW GLOW on your stage. During this turn, the chosen holomem gets Arts+20."
+          "en": "If you went second and it is your first turn, you may archive the top 2 cards of your cheer deck: Choose 1 holomem with #FLOW GLOW on your stage. During this turn, the chosen holomem gets Arts+20."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "現行犯逮捕だ", "en": "The criminal was caught red-handed" },
+        "name": { "jp": "現行犯逮捕だ", "en": "Arrest of the Perpetrator" },
         "power": "20"
       }
     ],
@@ -52487,7 +52487,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "◆Buzzホロメンに付いていたら能力追加\nこのホロメンのアーツに必要な無色-1。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "◆Additional ability if attached to a Buzz holomem\nThis holomem requires -1 colorless for its Arts.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "◆Additional ability if attached to a Buzz holomem\nThe Arts of this holomem require -1 colorless.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "tags": [ { "jp": "#Buzzグッズ", "en": "#Buzz Merch" } ],
     "max_amount": { "jp": 1 },
@@ -67316,6 +67316,42 @@
         "img_path": { "jp": "unreleased/hBP10-032_R.webp", "en": null },
         "img_hash": "v2|H32=Or2Rmk+praTPYm2kZnI7OzIRElmS3dJNWsS2RGgrcnYto5ZmVarpYC1UDq9pyWDRKi2tS/KlaamWmkKl8KLSqqpS0so|CYM=181C1E",
         "ogbajoj_sheet_cells": [ [ 505534664, "C34" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-033": {
+    "card_number": "hBP10-033",
+    "name": { "jp": "アキ・ローゼンタール", "en": "Aki Rosenthal" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Dinosaur Love" },
+        "text": {
+          "en": "[Collab Position Only] During your opponent's turn, if this holomem is downed and your center holomem has a tool with #Dinosaur attached, you take -1 life damage."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "The Start of Survival" }, "power": "20" } ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 1" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-033",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-033_C.webp", "en": null },
+        "img_hash": "v2|H32=aoqkNK2qiaypoavphJYrymaS0kpOUVB51mVaZTKmPGcvyqxkDVVWtfGqUtpWS1m20hpqS0tLasska2apoKqpLMtXorg|CYM=18214F",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C35" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
