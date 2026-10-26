@@ -47045,18 +47045,18 @@
         "name": { "jp": "Horse Doko?", "en": "Horse Doko?" },
         "text": {
           "jp": "自分のデッキの上から1枚を公開する。公開したカードがサポートカードなら、そのカードを手札に加える。サポートカード以外なら、そのカードをデッキの上に戻す。",
-          "en": "Reveal the top card of your deck. If the revealed card is a support card, add it to your hand. If it is not a support card, return it to the top of the deck."
+          "en": "Reveal the top card of your deck. If the revealed card is a support card, add it to your hand. If it is not a support card, return it to the top of your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "white" ],
-        "name": { "jp": "うまみ～うまみ～♪", "en": "Umami~ Umami~♪" },
+        "name": { "jp": "うまみ～うまみ～♪", "en": "Umami~ Umami~ ♪" },
         "power": "30+",
         "text": {
           "jp": "このターンに自分がイベントを使っていたなら、このアーツ+30。",
-          "en": "If you have used an event this turn, this Arts gets +30."
+          "en": "If you used an event this turn, this Arts gets +30."
         }
       }
     ],
@@ -47951,21 +47951,21 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "この輝きが私達！", "en": "This brilliance is us!" },
+        "name": { "jp": "この輝きが私達！", "en": "That's Our Radiance!" },
         "text": {
           "jp": "自分のホロパワーの上から2枚をアーカイブできる:自分のデッキを2枚引く。",
-          "en": "You may archive the top 2 cards of your holo Power:Draw 2 cards."
+          "en": "You may archive 2 of your holo Power: Draw 2 cards."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "ひとつになる声", "en": "Voices that become one" },
+        "name": { "jp": "ひとつになる声", "en": "Voices That Become One" },
         "power": "50",
         "text": {
           "jp": "自分の推しホロメンの色が緑か青か黄なら、自分のデッキの上から1枚をホロパワーにする。",
-          "en": "If your oshi holomem is green, blue or yellow, put the top card of your deck as holo Power."
+          "en": "If the color your oshi holomem is green, blue, or yellow, put the top card of your deck as holo Power."
         }
       }
     ],
@@ -48852,14 +48852,14 @@
         "name": { "jp": "The Show Must Go On", "en": "The Show Must Go On" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]相手のターンで、自分のファンが付いているBuzzホロメンがダウンした時、自分の推しホロメンが〈尾丸ポルカ〉なら、自分の減るライフ-1。",
-          "en": "[Center Position・Collab Position Only]During your opponent's turn, when your Buzz holomem with a fan attached is downed, if your Oshi holomem is <Omaru Polka>, you take -1 Life Damage."
+          "en": "[Center Position・Collab Position Only] During your opponent's turn, if your Buzz holomem with a fan attached is downed, if your Oshi holomem is <Omaru Polka>, you take -1 life damage."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "red" ],
-        "name": { "jp": "スタッフファーストです！", "en": "Staff First!" },
+        "name": { "jp": "スタッフファーストです！", "en": "Staff Comes First!" },
         "power": "120",
         "advantage": [ "purple", 50 ],
         "text": {
@@ -51328,14 +51328,14 @@
         "name": { "jp": "オレンジアイドル！", "en": "Orange Idol!" },
         "text": {
           "jp": "[ターンに1回]自分の推しホロメンが〈桃鈴ねね〉なら、自分のメインステップに使える:自分のアーカイブの〈ねっ子〉1枚をこのホロメンに付ける。",
-          "en": "[1/Turn]Usable during your main phase if your Oshi holomem is <Momosuzu Nene>:Attach 1 <Husbands> from your archive to this holomem."
+          "en": "[1/Turn] Usable during your main phase if your Oshi holomem is <Momosuzu Nene>: Attach 1 <Husbands> from your archive to this holomem."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "さいくーにくぅわいい", "en": "The cutest thing ever" },
+        "name": { "jp": "さいくーにくぅわいい", "en": "Terribly Cute" },
         "power": "40"
       }
     ],
@@ -52109,7 +52109,7 @@
     "limited": true,
     "text": {
       "jp": "自分のアーカイブのホロメン1～3枚をデッキに戻してシャッフルする。その後、自分のデッキを2枚引く。",
-      "en": "Return 1~3 holomem from your archive to the deck and shuffle it. Draw 2 cards."
+      "en": "Return 1~3 holomem from your archive to your deck and shuffle it. Draw 2 cards."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -56463,7 +56463,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "この絆が私達！", "en": "This Bond Is Us!" },
+        "name": { "jp": "この絆が私達！", "en": "That's Our Bond!" },
         "text": {
           "jp": "自分の推しホロメンの色が緑か青か黄なら、自分のアーカイブの青エールを自分の#ID1期生を持つホロメン1～3人に1枚ずつ送る。",
           "en": "If your Oshi holomem's color is green, blue or yellow, send 1 blue cheer each from your archive to 1~3 of your holomem with #ID Gen 1."
@@ -57096,6 +57096,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10132" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP08-062",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-062_P.webp", "en": null },
+        "img_hash": "v2|H32=WvmtGlNtCpvJTJGsxJO7LuSyuk1nZliJYlZaqXMWkuw+E7ZEq3ZKK6mqrYpatVWp2aZJaipVpaptqknVpaV1tEprtlo|CYM=034452",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C148" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -57168,7 +57181,7 @@
         "img_path": { "jp": "hPR/hBP08-063_P.webp", "en": "proxies/hPR/hBP08-063_P.webp" },
         "img_last_modified": { "jp": "Fri, 28 Aug 2026 09:00:07 GMT" },
         "img_hash": "v2|H32=mqpkmpOoZHO0ypc6bnOZqCo1c+QOhXJWmlV6RmZcuKVmjqwkaVVatZWqtcpaSqxStZRKrVJqNkq2Ulqr1arSarYkolU|CYM=04472A",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C148" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C149" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10272" ],
         "tcgplayer_product_ids": null,
@@ -57679,7 +57692,7 @@
         "img_path": { "jp": "hPR/hBP08-070_P.webp", "en": "proxies/hPR/hBP08-070_P.webp" },
         "img_last_modified": { "jp": "Fri, 28 Aug 2026 09:00:07 GMT" },
         "img_hash": "v2|H32=qKrJUuy61qqWareJs2y0mapNKalWRWlpdulaEzLRWhXK1NJq2GW9pBWrqNRl2mi1qVKgsnq1Kpe10rZhUtwSVa2CUq0|CYM=164314",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C149" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C150" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10273" ],
         "tcgplayer_product_ids": null,
@@ -57750,7 +57763,7 @@
         "img_path": { "jp": "hCO03/hBP08-071_SR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:51 GMT" },
         "img_hash": "v2|H32=5LWtNFubRrazmiaT3Nanmky1RWKWWVUnWmlaVTor0ki+srZIqGVKZ1TTcdKrml2rlFVtWUhLXq20lGtpS1LVpaVNPqg|CYM=513504",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C150" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C151" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -58294,7 +58307,7 @@
         "img_path": { "jp": "hPR/hBP08-079_P.webp", "en": "proxies/hPR/hBP08-079_P.webp" },
         "img_last_modified": { "jp": "Fri, 28 Aug 2026 09:00:07 GMT" },
         "img_hash": "v2|H32=rKqbWtuqJauNsiWmS5GcImIVM9PWTSCU1kRabaZGWNkuDdRqzlW7VcaiLpJpW1SltNVqr6paai1brFK7ra0S1HSrAkk|CYM=0F2340",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C151" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C152" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10274" ],
         "tcgplayer_product_ids": null,
@@ -58711,7 +58724,7 @@
         "img_path": { "jp": "hPR/hBP08-085_P.webp", "en": "proxies/hPR/hBP08-085_P.webp" },
         "img_last_modified": { "jp": "Fri, 28 Aug 2026 09:00:08 GMT" },
         "img_hash": "v2|H32=uqLNqrSoYqZKSzFip7WUWpK0lLnaVGmFSNVa1XIltnC2WFJd1KXMsqWwrYJqWlJgD5doa6stSqm2rq2lrZKwpFVatlY|CYM=0E3452",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C152" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C153" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10275" ],
         "tcgplayer_product_ids": null,
@@ -59960,7 +59973,7 @@
         "img_path": { "jp": "hPR/hBP09-001_P_05.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:52 GMT" },
         "img_hash": "v2|H32=TNWnqdvSpSyzNNkka6xbrXLKGc+26rPSsmUkE5PlJHOxKFZaVpUrpaRSOFVqJSVpadTPokVroVaNqvWqkZYV2pZqkqw|CYM=062F77",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C155" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C156" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -60256,7 +60269,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP09-005_P.webp", "en": null },
         "img_hash": "v2|H32=XNzCqrlUZKq7ZKQnZzgYrWdaWZ1S4ilP0rK8TImyVp2NqlRLUqWpqrVqlaVKXQtVoEqpqiltlapdB1XVslV1uqrSyqo|CYM=084A1E",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C156" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C157" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -60472,7 +60485,7 @@
         "img_path": { "jp": "hPR/hBP09-008_P.webp", "en": "proxies/hPR/hBP09-008_P.webp" },
         "img_last_modified": { "jp": "Thu, 17 Sep 2026 09:00:06 GMT" },
         "img_hash": "v2|H32=bJnN1nkZhFTjsZNqkZZbqq3SNasrWgWrUmtLV9GiWjS9IqZlOlVLV4WUxdKVipKqWir1qmota6mt1Vq1qlJKNdVaqSU|CYM=0E383F",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C157" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C158" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10252" ],
         "tcgplayer_product_ids": null,
@@ -60591,7 +60604,7 @@
         "img_path": { "jp": "hPR/hBP09-010_P.webp", "en": "proxies/hPR/hBP09-010_P.webp" },
         "img_last_modified": { "jp": "Fri, 11 Sep 2026 09:00:16 GMT" },
         "img_hash": "v2|H32=rEazStFKratcqRSxVqu/UqS2rVKlHmitq0larUvhwg9beppWgWYpWlPbVqlcnVyharViqR8tNWi0aqVKpWq10knpq5Y|CYM=0A091E",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C158" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C159" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10237" ],
         "tcgplayer_product_ids": null,
@@ -60726,7 +60739,7 @@
         "img_path": { "jp": "hCO02/hBP09-012_SR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:48 GMT" },
         "img_hash": "v2|H32=aBXJ1kwXWs2zUqSpzNWlstWqlDZVK3Y+VlpaLdYixqarqpJN2FJNUm9nM9mlqUyppq9tpaqeaqtqVZXSKw1btK0ElXI|CYM=482906",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C159" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C160" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -61590,7 +61603,7 @@
         "img_path": { "jp": "hPR/hBP09-025_P.webp", "en": "proxies/hPR/hBP09-025_P.webp" },
         "img_last_modified": { "jp": "Thu, 17 Sep 2026 09:00:07 GMT" },
         "img_hash": "v2|H32=ukmqqqUqVKquJkWrqkxpo1JdKvVSO0LVWjN2VlaRtlJWoaxHW22tYNdSDaWWqirRVZqrW/qkVaotlaUatSZdq2pJWqU|CYM=151623",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C160" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C161" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10253" ],
         "tcgplayer_product_ids": null,
@@ -61979,7 +61992,7 @@
         "img_path": { "jp": "hPR/hBP09-031_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
         "img_hash": "v2|H32=uKqZqpXLtTJiySJTxqRcw+w2VG241ApNUtUa1Fo1ZCM9ZE5N5uUOL4dpubZ0nRTTaLm00i+tVGt00WrVihK0JFGlSYk|CYM=25190E",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C161" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C162" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -62043,6 +62056,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10068" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP09-032",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-032_P.webp", "en": null },
+        "img_hash": "v2|H32=msahypZKk6ukaJVl5KHolENXaldblSZnelkalVJzeNlbdipF1WT0sq60ppWWmmmbaalpSy9LtLT2lKVVYUslrUuldWk|CYM=0D2624",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C163" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -63011,7 +63037,7 @@
         "img_path": { "jp": "hPR/hBP09-047_P.webp", "en": "proxies/hPR/hBP09-047_P.webp" },
         "img_last_modified": { "jp": "Thu, 17 Sep 2026 09:00:07 GMT" },
         "img_hash": "v2|H32=1G0pdddlT9exKFy3rUoxq2tSKats1UsrjKVOVdtsUkzbexpLKUHxNLJatYpSqy1JtVKqLEqLa5VbKyoll6pbpbC2Vao|CYM=32631B",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C162" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C164" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10254" ],
         "tcgplayer_product_ids": null,
@@ -63864,6 +63890,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10126" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP09-060",
+        "manage_id": { },
+        "rarity": "P",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP09-060_P.webp", "en": null },
+        "img_hash": "v2|H32=yqqVKtqytEqV0qRZldJl6ogNapQ6hWqVMtVK1ZZVRNZPaZZGpXSoFi19qtSpmk2KTtVotZamKtqqS3WarkfBoVWqKyk|CYM=2C0D0B",
+        "ogbajoj_sheet_cells": [ [ 419749048, "C165" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -64503,7 +64542,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hBP09-070_P.webp", "en": null },
         "img_hash": "v2|H32=yKKTisuitKquSoTq7RmLVUq5q+Vy1mWlMhYll1WraFWHTdRq0jVpoZWWWrRVrQVZqkpqyyp1lLpS25WmrUqyNm1Z0tQ|CYM=132217",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C163" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C166" ] ],
         "similarity_index": 4,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -64838,7 +64877,7 @@
         "img_path": { "jp": "hCO02/hBP09-075_SR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:48 GMT" },
         "img_hash": "v2|H32=SNWmuqWXUpGjprKyppQNrk02NWtMdhtLdtNLR9qbZq/LKrZrSpVMtaNp6pLklCml1NO1tDadSpeqUi1VtVLVcq3SaSg|CYM=643E04",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C164" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C167" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -64991,7 +65030,7 @@
         "img_path": { "jp": "hPR/hBP09-077_P.webp", "en": "proxies/hPR/hBP09-077_P.webp" },
         "img_last_modified": { "jp": "Thu, 17 Sep 2026 09:00:08 GMT" },
         "img_hash": "v2|H32=6KotqtmqmKqR6vC6qspTVtRcSlVaVcpVSpVKFULVWhdO1ZRkWWVoCdmtNMlnyzXYNkiS+qaHgkvWWqSWemmWXutUW7o|CYM=122211",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C165" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C168" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10255" ],
         "tcgplayer_product_ids": null,
@@ -65265,7 +65304,7 @@
         "img_path": { "jp": "hPR/hBP09-081_P.webp", "en": "proxies/hPR/hBP09-081_P.webp" },
         "img_last_modified": { "jp": "Fri, 11 Sep 2026 09:00:16 GMT" },
         "img_hash": "v2|H32=1qaVPObWmYonRynTo2sGyZsy2CNTuVNX0rVa1YpcrrRmyVptlaWmpihqXXlUBUpUKtOwKHXbltDKVXS50ZqlSaq1Vts|CYM=2C1C0E",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C166" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C169" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10238" ],
         "tcgplayer_product_ids": null,
@@ -65552,7 +65591,7 @@
         "img_path": { "jp": "hCO02/hBP09-085_SR.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 09 Oct 2026 09:01:49 GMT" },
         "img_hash": "v2|H32=5FCcHnOhjLWppGmoWJenS9TSVFtX1lQXWleONmy1NGnNorRFCHVKSkZyZZOl2UvVmqtaslptckmnCq1otVSNllEWtao|CYM=472E0A",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C167" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C170" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -65628,7 +65667,7 @@
         "img_path": { "jp": "hPR/hBP09-086_P.webp", "en": null },
         "img_last_modified": { "jp": "Fri, 23 Oct 2026 09:01:31 GMT" },
         "img_hash": "v2|H32=Lqu9qo2qK7WrKmi1y8VzqsLVUAvSVVBWUnV2hfJYNEa2DJQlUzVsqrJastol2UTZfCurqqaKq2qVWmnXj5bKqo0q0lo|CYM=051631",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C168" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C171" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -65798,7 +65837,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "この情熱が私達！", "en": "This Passion Is Us!" },
+        "name": { "jp": "この情熱が私達！", "en": "That's Our Passion!" },
         "text": {
           "jp": "自分のステージに[緑と青と黄]エールがあるなら、自分の#ID1期生を持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。",
           "en": "If you have [green, blue, and yellow] cheer on your stage, choose 1 of your holomem with #ID Gen 1. During this turn, the chosen holomem gets Arts+30."
@@ -66064,7 +66103,7 @@
         "img_path": { "jp": "hPR/hBP09-094_P_02.webp", "en": "proxies/hPR/hBP09-094_P_02.webp" },
         "img_last_modified": { "jp": "Thu, 17 Sep 2026 09:00:09 GMT" },
         "img_hash": "v2|H32=Cq2vqpS5IB3pGlRShgYP58+jXO0rrVRctDo2NKOS1MPL4ZJNjnVssnEcbLKw4W2LzMOJbsfwqWh8eKloDw+pi3QL6Pg|CYM=131B17",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C169" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C172" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10256" ],
         "tcgplayer_product_ids": null,
@@ -67948,6 +67987,50 @@
       }
     ]
   },
+  "hBP10-081": {
+    "card_number": "hBP10-081",
+    "name": { "jp": "音乃瀬奏", "en": "Otonose Kanade" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Hoho" },
+        "text": {
+          "en": "[Collab Position Only] If this holomem downs your opponent's holomem and your Oshi holomem is <Otonose Kanade>, move this holomem to the back position."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow", "yellow" ],
+        "name": { "jp": null, "en": "Omaera, Check It Out!" },
+        "power": "100+",
+        "advantage": [ "blue", 50 ],
+        "text": { "en": "If the number of cheers on your stage is more than your opponent's, this Arts gets +50." }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-081",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-081_R.webp", "en": null },
+        "img_hash": "v2|H32=6Kppqu+qTKrHc57W1jSUprQUMK1aaXJVWkl6TVJVVs2tipZtVNVpJQqoSqpfqlTQqFuq0qpLKstWlGDZkbai0quuYtU|CYM=071F49",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C83" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-087": {
     "card_number": "hBP10-087",
     "name": { "jp": "言えぬ", "en": "I Couldn't Say" },
@@ -67966,6 +68049,31 @@
         "img_path": { "jp": "unreleased/hBP10-087_C.webp", "en": null },
         "img_hash": "v2|H32=SLPpqtaTolWjVbJVsmU1rfWqdJqvmpZSHlJOPV2qXK5qrBZFGDwtimNBJZuKPi2a8DipagLHqWKCw+nq4sPg+A7D4PA|CYM=202F0D",
         "ogbajoj_sheet_cells": [ [ 505534664, "C89" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-091": {
+    "card_number": "hBP10-091",
+    "name": { "jp": "月曜日ちゃん", "en": "Monday-chan" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Otonose Kanade>.\n\nDuring this turn, all <Otonose Kanade> on your stage get Arts+20. Choose 1~3 cheer from your archive and send them divided as you choose to your <Otonose Kanade>. Draw 1 card for each holomem that was sent cheer in this way."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-091",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-091_C.webp", "en": null },
+        "img_hash": "v2|H32=Qq6jqtWqqa+pq5BVqFkGVdZeZlUvNlY3PjoavVqaXJkrlRZFB94lmuBBLZtePC2b4PGpalp8qW7w4alqXzqhm/SBYNk|CYM=042032",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C93" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -68891,7 +68999,7 @@
         "img_path": { "jp": "hPR/hEB01-012_P.webp", "en": "proxies/hPR/hEB01-012_P.webp" },
         "img_last_modified": { "jp": "Thu, 20 Aug 2026 09:01:15 GMT" },
         "img_hash": "v2|H32=mqpky5WqLautqIk6581buoJVVK1KU2ataFXaNLLJWDS2irRlVS14MKPVlspam1SrbWsq3KtlVLKoVK21VbpaV5VKoqU|CYM=133424",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C153" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C154" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/promo-heb10/10001" ],
         "tcgplayer_product_ids": null,
@@ -68975,7 +69083,7 @@
         "img_path": { "jp": "hPR/hEB01-013_P.webp", "en": "proxies/hPR/hEB01-013_P.webp" },
         "img_last_modified": { "jp": "Fri, 28 Aug 2026 09:00:08 GMT" },
         "img_hash": "v2|H32=qqql6suiFouEIiyynK1pFpJtbJfSZVqdTlVapVpd7GY23pQsWCXUssXKekumltTpUk3qWqoWalVq1aSVVqVKSZJqlpY|CYM=1A3A25",
-        "ogbajoj_sheet_cells": [ [ 419749048, "C154" ] ],
+        "ogbajoj_sheet_cells": [ [ 419749048, "C155" ] ],
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/promo-heb10/10002" ],
         "tcgplayer_product_ids": null,
