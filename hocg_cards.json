@@ -46378,10 +46378,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "もういっぺぇ", "en": "Once More" },
+        "name": { "jp": "もういっぺぇ", "en": "One More Ti...me" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分の〈角巻わため〉1人を選ぶ。このターンの間、選んだホロメンはアーツを使った後、同じアーツをもう1回使える。",
-          "en": "If you went second and it is your first turn, choose 1 of your <Tsunomaki Watame>. During this turn, after the chosen holomem used Arts, use the same Arts once more."
+          "en": "If you went second and it is your first turn, choose 1 of your <Tsunomaki Watame>. During this turn, when the chosen holomem used Arts, it can use the same Arts once more."
         }
       }
     ],
@@ -51685,21 +51685,21 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "私のとっておき！", "en": "My special!" },
+        "name": { "jp": "私のとっておき！", "en": "My Favorite!" },
         "text": {
           "jp": "自分のターンで、このホロメンがコラボポジションに移動した時、自分のデッキの上から3枚を見る。その中から、〈不知火フレア〉1枚を公開し、手札に加える。そして残ったカードをアーカイブする。",
-          "en": "During your turn, when this holomem moves to the collab position, look at the top 3 cards of your deck. Reveal 1 <Shiranui Flare> from among them, and add it to hand. Then, archive the remaining cards."
+          "en": "During your turn, when this holomem moves to the collab position, look at the top 3 cards of your deck. Reveal 1 <Shiranui Flare> from among them, and add it to your hand. Archive the remaining cards."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "yellow" ],
-        "name": { "jp": "元気いっぱいカラフルパフェ", "en": "Full-of-energy, colorful parfait" },
+        "name": { "jp": "元気いっぱいカラフルパフェ", "en": "A Colorful Parfait That's Full of Energy" },
         "power": "20+",
         "text": {
           "jp": "自分の推しホロメンが〈不知火フレア〉なら、自分の〈不知火フレア〉1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+20。",
-          "en": "If your Oshi holomem is <Shiranui Flare>, choose 1 of your <Shiranui Flare>. During this turn, the chosen holomem gets Arts+20 for each of the chosen holomem's cheers."
+          "en": "If your Oshi holomem is <Shiranui Flare>, choose 1 of your <Shiranui Flare>. During this turn, the chosen holomem gets Arts+20 for each cheer attached to it."
         }
       }
     ],
@@ -52231,7 +52231,7 @@
     "limited": true,
     "text": {
       "jp": "このカードは、お互いのセンターホロメンが2ndホロメンでなければ使えない。\n\nお互いにサイコロを1回振る。自分の出た目の数が相手以上なら、このターンの間、自分のセンターホロメンのアーツ+100。自分の出た目の数が相手より小さいなら、自分のエールデッキの上から1枚を自分のホロメンに送る。",
-      "en": "This card cannot be used unless both players' center holomem are 2nd holomem.\n\nBoth players roll a die once. If your result is greater than or equal to your opponent's result, during this turn, your center holomem gets Arts+100. If your result is less than your opponent's result, send the top card of your cheer deck to your holomem."
+      "en": "This card can only be used if both players' center holomem are 2nd holomem.\n\nEach player rolls a die once. If your result is greater than or equal to your opponent's result, during this turn, your center holomem gets Arts+100. If your result is less than your opponent's result, send the top card of your cheer deck to your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -68144,6 +68144,32 @@
         "img_path": { "jp": "unreleased/hBP10-091_C.webp", "en": null },
         "img_hash": "v2|H32=Qq6jqtWqqa+pq5BVqFkGVdZeZlUvNlY3PjoavVqaXJkrlRZFB94lmuBBLZtePC2b4PGpalp8qW7w4alqXzqhm/SBYNk|CYM=042032",
         "ogbajoj_sheet_cells": [ [ 505534664, "C93" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-093": {
+    "card_number": "hBP10-093",
+    "name": { "jp": "儒烏風亭らでんの博物館巡り", "en": "Juufuutei Raden's Museum Tour" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Juufuutei Raden>.\n\nDraw 2 cards, and put 1 card from your hand as holo Power. If you have 3 or more support cards with #Culture in your archive, send the top card of your cheer deck to 1 of your holomem with #ReGLOSS."
+    },
+    "tags": [ { "en": "#Culture" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-093",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-093_U.webp", "en": null },
+        "img_hash": "v2|H32=WnXLKlRXpHWrsrTRq7Qrrd+KVI0ritTLpMor7atp1EorKlJFRYcsmjtNLZrqcC2bYPipKno8iW6q+umqqmAt2oaLLps|CYM=091313",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C95" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
