@@ -49320,7 +49320,7 @@
         "name": { "jp": "TAKE YOUR TIME", "en": "TAKE YOUR TIME" },
         "text": {
           "jp": "自分のステージのエール1枚をこのホロメン以外の自分の#Promiseを持つホロメンに付け替えられる。",
-          "en": "You may reattach 1 cheer from your stage to your holomem with #Promise other than this holomem."
+          "en": "You may reattach 1 cheer from your stage to your other holomem with #Promise."
         }
       }
     ],
@@ -52064,11 +52064,11 @@
   },
   "hBP07-091": {
     "card_number": "hBP07-091",
-    "name": { "jp": "ライブスタッフ", "en": "Live Staff" },
+    "name": { "jp": "ライブスタッフ", "en": "Concert Staff" },
     "card_type": { "support": "staff" },
     "text": {
       "jp": "このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。\n\n自分のアーカイブのファン1枚を自分のホロメンに付ける。付けたなら、自分のアーカイブのホロメン1枚を手札に戻す。",
-      "en": "This card can only be used if you archive 1 cheer from your stage.\n\nAttach 1 fan from your archive to your holomem. If you do, return 1 holomem from your archive to hand."
+      "en": "This card can only be used if you archive 1 cheer from your stage.\n\nAttach 1 fan from your archive to your holomem. If you attached a fan this way, return 1 holomem from your archive to your hand."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -67692,6 +67692,40 @@
       }
     ]
   },
+  "hBP10-059": {
+    "card_number": "hBP10-059",
+    "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "arts": [
+      { "cheers": [ "purple" ], "name": { "jp": null, "en": "Ex-Delinquent (Girl)" }, "power": "20" },
+      {
+        "cheers": [ "purple", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Who You Callin' Grandma!?" },
+        "power": "60"
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Cooking" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-059",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-059_C.webp", "en": null },
+        "img_hash": "v2|H32=6LLjlKW6LUoWCjQL3EpMpyblreYq9TpVW1JaWdIa0SpWjU6SckWoLt2qNskPvp+mLZoqLcvSslrwohZchR7SbbQb8NE|CYM=0C351D",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C61" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-060": {
     "card_number": "hBP10-060",
     "name": { "jp": "一条莉々華", "en": "Ichijou Ririka" },
@@ -68044,7 +68078,7 @@
         "type": "bloom",
         "name": { "jp": null, "en": "Smile for Your Friends" },
         "text": {
-          "en": "You may choose 1~2 cheers on your stage, and reattach them divided as you choose to your holomem with #FLOW GLOW other than this holomem."
+          "en": "You may choose 1~2 cheers on your stage, and reattach them divided as you choose to your other holomem with #FLOW GLOW."
         }
       }
     ],
