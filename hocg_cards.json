@@ -46655,7 +46655,7 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "わたビーーーーーーーム！！！！！！", "en": "WataBeeeeeeeeam!!!!!!" },
+        "name": { "jp": "わたビーーーーーーーム！！！！！！", "en": "Wata-BEEEAM!!!!!" },
         "text": {
           "jp": "相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。その後、相手は、自身のデッキを1枚引く。",
           "en": "Deal 30 special damage to your opponent's center holomem or collab holomem. Your opponent draws 1 card."
@@ -46665,7 +46665,7 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "わたキャノンもだ！", "en": "WataCannon too!" },
+        "name": { "jp": "わたキャノンもだ！", "en": "And a Wata-Cannon Too!" },
         "power": "20",
         "text": { "jp": "自分のデッキを1枚引く。", "en": "Draw 1 card." }
       }
@@ -49115,18 +49115,18 @@
         "name": { "jp": "Queen of Impersonation", "en": "Queen of Impersonation" },
         "text": {
           "jp": "このホロメンは、自分のステージの#ENを持つホロメン全員のアーツを、すべて使える（アーツを使うためのエールは必要）。",
-          "en": "This holomem may use the Arts of any holomem on your stage with #EN (correct cheer is required to use those Arts)."
+          "en": "This holomem can use Arts of any holomem with #EN on your stage (Cheers are still required to use the Arts)."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "colorless" ],
-        "name": { "jp": "Because I love people's voices", "en": "Because I love people's voices" },
+        "name": { "jp": "Because I love people's voices", "en": "Because I Love People's Voices" },
         "power": "60",
         "text": {
           "jp": "自分のアーカイブの#ENを持つホロメン1枚を手札に戻す。",
-          "en": "Return 1 holomem with #EN from your archive to hand."
+          "en": "Return 1 holomem with #EN from your archive to your hand."
         }
       }
     ],
@@ -49841,10 +49841,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "It's Time to Play Dress-up!", "en": "It's Time to Play Dress-up!" },
+        "name": { "jp": "It's Time to Play Dress-up!", "en": "It's Time to Play Dress-Up!" },
         "text": {
           "jp": "自分が後攻で最初のターンなら、自分のアーカイブのサポートカード1枚を手札に戻す。",
-          "en": "If you went second and it is your first turn, return 1 support card from your archive to hand."
+          "en": "If you went second and it is your first turn, return 1 support card from your archive to your hand."
         }
       }
     ],
@@ -50911,17 +50911,17 @@
     "keywords": [
       {
         "type": "bloom",
-        "name": { "jp": "ラッシュ行きます", "en": "Rush! Go!" },
+        "name": { "jp": "ラッシュ行きます", "en": "Rushing Forth" },
         "text": {
           "jp": "自分のデッキの上から3枚を見る。その中から、ホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-          "en": "Look at the top 3 cards of your deck. Reveal any number of holomem from among them, and add the revealed cards to hand. Then, return the remaining cards to the bottom of the deck in any order."
+          "en": "Look at the top 3 cards of your deck. Reveal any number of holomem from among them and add the revealed holomem to your hand. Return the remaining cards to the bottom of your deck in any order."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "purple", "colorless", "colorless" ],
-        "name": { "jp": "吾輩の歌を聴けえええええええ！！！！", "en": "Listen to my sooooong!!!!" },
+        "name": { "jp": "吾輩の歌を聴けえええええええ！！！！", "en": "Listen to My Song!!!!" },
         "power": "110+",
         "advantage": [ "green", 50 ],
         "text": {
@@ -68130,6 +68130,44 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-073": {
+    "card_number": "hBP10-073",
+    "name": { "jp": "鈴鳴つづり", "en": "Suzuna Tsuzuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Luggage Delivery" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 2 <Suzuna Tsuzuri> from your deck, and add them to your hand. Shuffle your deck. Additionally, send the top card of your opponent's cheer deck to their holomem."
+        }
+      }
+    ],
+    "arts": [
+      { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Delivering Smiles Together" }, "power": "20" }
+    ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-073",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-073_U.webp", "en": null },
+        "img_hash": "v2|H32=qqnciqnpWbTToynX1rmr0izZ0iUsUiJl0lZq8VYO0OpusKQsUllKVau00pKtqdSytbYla6rUalpKCekt1aqsldJK0lI|CYM=043D59",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C75" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
