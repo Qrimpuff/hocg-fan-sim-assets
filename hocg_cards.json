@@ -52402,12 +52402,12 @@
   },
   "hBP07-099": {
     "card_number": "hBP07-099",
-    "name": { "jp": "ブヒー！", "en": "Buhii!" },
+    "name": { "jp": "ブヒー！", "en": "Oink!" },
     "card_type": { "support": "event" },
     "limited": true,
     "text": {
       "jp": "自分のデッキを2枚引く。その後、直前の相手のターンに自分のホロメンがダウンしていたなら、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。さらに、直前の相手のターンにダウンしていた自分のホロメンが〈ラプラス・ダークネス〉なら、自分のデッキを2枚引く。",
-      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20. Then, if the holomem that was downed during your opponent's previous turn was <La+ Darknesss>, draw 2 cards."
+      "en": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20. If the holomem that was downed during your opponent's previous turn was your <La+ Darknesss>, draw 2 more cards."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -68418,6 +68418,31 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-089": {
+    "card_number": "hBP10-089",
+    "name": { "jp": "皆勤賞", "en": "Perfect Attendance Award" },
+    "card_type": { "support": "event" },
+    "limited": true,
+    "text": {
+      "en": "Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20. If you have [Debut, 1st, and 2nd] holomem with the same card name on your stage, draw 2 cards."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-089",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-089_C.webp", "en": null },
+        "img_hash": "v2|H32=nK2tqtSqbLNrM1RTKFMwVbXctNyrzFbM5q5rrb+83jArMRZFE/Eti4IPLZvgeOm6Hp6pavLwiW6qAqkKruIgm66D4IM|CYM=0A231A",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C91" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
