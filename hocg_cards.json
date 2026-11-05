@@ -47666,11 +47666,11 @@
     "arts": [
       {
         "cheers": [ "green", "green" ],
-        "name": { "jp": "女王陛下と呼びなさい", "en": "Call me Your Majesty" },
+        "name": { "jp": "女王陛下と呼びなさい", "en": "Refer to Me as \"Your Royal Highness\"" },
         "power": "70",
         "text": {
           "jp": "[センターポジション限定]このアーツで相手のホロメンをダウンさせた時、自分のデッキを1枚引く。",
-          "en": "[Center Position Only]When this Arts downed your opponent's holomem, draw 1 card."
+          "en": "[Center Position Only] If your opponent's holomem is downed by this Arts, draw 1 card."
         }
       }
     ],
@@ -67067,6 +67067,49 @@
       }
     ]
   },
+  "hBP10-008": {
+    "card_number": "hBP10-008",
+    "name": { "jp": "獅白ぼたん", "en": "Shishiro Botan" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 130,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Standby" },
+        "text": {
+          "en": "If you went second and it is your first turn, reveal 1 1st holomem <Shishiro Botan> and 1 <Shishiro Botan's Arcade Controller> from your deck, and add them to your hand. Shuffle your deck."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless" ],
+        "name": { "jp": null, "en": "Sasushishi" },
+        "power": "10",
+        "text": { "en": "You may reattach 1 cheer from this holomem to your other holomem." }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-008",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-008_U.webp", "en": null },
+        "img_hash": "v2|H32=NkRO2itaVq2hSpKlpJKxtKiU1XJdqys6XCuvFUovr1WHpowsC2ULtSfdqVp0i+pU4avp0PBYKalU+ASr6TLVpEKl0Ko|CYM=171810",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C10" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-012": {
     "card_number": "hBP10-012",
     "name": { "jp": "獅白ぼたん", "en": "Shishiro Botan" },
@@ -79875,7 +79918,7 @@
         "ogbajoj_sheet_cells": [ [ 419749048, "C113" ] ],
         "similarity_index": 2,
         "yuyutei_sell_paths": null,
-        "tcgplayer_product_ids": null,
+        "tcgplayer_product_ids": [ 730428 ],
         "delta_art_index": null
       },
       {
