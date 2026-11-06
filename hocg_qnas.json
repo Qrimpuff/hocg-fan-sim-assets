@@ -6868,7 +6868,7 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-004〈赤井はあと〉のステージ推しスキル「はあちゃまなう」の能力は、hBP07-096〈ちゃま旅〉の能力で自分の〈赤井はあと〉がデッキに戻った場合も発揮されますか？",
-      "en": "Will hBP07-004 Akai Haato's Oshi Stage Skill \"Haachama Now\" be activated even if my Akai Haato is returned to the deck by the effect of hBP07-096 Chama Journey?"
+      "en": "Will hBP07-004 Akai Haato's Oshi Stage Skill \"Haachama Now\" be activated even if my Akai Haato is returned to the deck by the effect of hBP07-096 Chama's Travels?"
     },
     "answer": { "jp": "はい、されます。", "en": "Yes, it will." },
     "referenced_cards": [ "hBP07-004", "hBP07-096" ]
@@ -7150,7 +7150,7 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-096〈ちゃま旅〉の能力で、自分の〈赤井はあと〉がデッキに戻る場合、その〈赤井はあと〉に付いているカードもデッキに戻りますか？",
-      "en": "If I return my Akai Haato to the deck using hBP07-096 Chama Journey, will the cards attached to that Akai Haato also be returned to the deck?"
+      "en": "If I return my Akai Haato to the deck using hBP07-096 Chama's Travels, will the cards attached to that Akai Haato also be returned to the deck?"
     },
     "answer": {
       "jp": "いいえ、戻りません。\n付いているカードはすべてアーカイブされます。",
@@ -7163,7 +7163,7 @@
     "date": "2026-03-02",
     "question": {
       "jp": "hBP07-096〈ちゃま旅〉の能力で、自分の〈赤井はあと〉がデッキに戻る場合、好きな順番でデッキの下に戻せますか？",
-      "en": "If I return my Akai Haato to the deck using hBP07-096 Chama Journey, can I return the stacked cards to the bottom of the deck in any order?"
+      "en": "If I return my Akai Haato to the deck using hBP07-096 Chama's Travels, can I return the stacked cards to the bottom of the deck in any order?"
     },
     "answer": { "jp": "はい、戻せます。", "en": "Yes, you can." },
     "referenced_cards": [ "hBP07-096" ]
