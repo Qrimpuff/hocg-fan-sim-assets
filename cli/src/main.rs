@@ -11,6 +11,7 @@ use hocg_fan_sim_assets_cli::{
         deck_log::retrieve_card_info_from_deck_log,
         hololive_official::retrieve_card_info_from_hololive,
     },
+    holoburi::import_holoburi,
     holodelta::{import_holodelta, import_holodelta_db},
     images::{PROXIES_FOLDER, download_images, prepare_en_proxy_images, zip_images},
     ogbajoj::{
@@ -86,6 +87,10 @@ struct Args {
     /// Use holoDelta to import missing/unreleased cards data. The folder that contains the source code for holoDelta
     #[arg(long)]
     holodelta_path: Option<PathBuf>,
+
+    /// Use holoBuri to import art keys (e.g. SR_2) for cards. Downloads the art from holoburi.com
+    #[arg(long)]
+    holoburi: bool,
 
     /// Use the data from Deck Log to import cards data
     #[arg(long)]
@@ -308,6 +313,11 @@ fn main() {
         import_holodelta_db(&mut all_cards, &holodelta_db_path);
     } else if let Some(holodelta_path) = args.holodelta_path {
         import_holodelta(&mut all_cards, &holodelta_path);
+    }
+
+    // import art keys from holoBuri
+    if args.holoburi {
+        import_holoburi(&mut all_cards);
     }
 
     // garbage collection
@@ -562,6 +572,10 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     }
                     if illustrations[i].delta_art_index.is_none() {
                         illustrations[i].delta_art_index = illustrations[j].delta_art_index;
+                    }
+                    if illustrations[i].holoburi_art_key.is_none() {
+                        illustrations[i].holoburi_art_key =
+                            illustrations[j].holoburi_art_key.clone();
                     }
 
                     // merge yuyutei sell paths

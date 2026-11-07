@@ -432,6 +432,7 @@ pub enum IllustrationId {
     Index(usize), // only valid for a specific database
     ManageId(Localized<u32>),
     DeltaArtIndex(u32),
+    HoloburiArtKey(String),
     ImageHash(String),
 }
 
@@ -456,6 +457,10 @@ impl CardReference {
             }),
             IllustrationId::DeltaArtIndex(index) => illustrations.iter().find(|illust| {
                 illust.rarity == self.rarity && illust.delta_art_index == Some(*index)
+            }),
+            IllustrationId::HoloburiArtKey(art_key) => illustrations.iter().find(|illust| {
+                illust.rarity == self.rarity
+                    && illust.holoburi_art_key.as_deref() == Some(art_key.as_str())
             }),
             IllustrationId::ImageHash(hash) => {
                 // find the most likely match by image hash, but also check rarity to avoid mismatches
@@ -605,6 +610,8 @@ pub struct CardIllustration {
     pub yuyutei_sell_paths: Option<BTreeSet<String>>,
     pub tcgplayer_product_ids: Option<BTreeSet<u32>>,
     pub delta_art_index: Option<u32>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub holoburi_art_key: Option<String>,
 }
 
 impl CardIllustration {
@@ -618,6 +625,8 @@ impl CardIllustration {
             IllustrationId::ManageId(Localized::new(Language::English, *managed_id))
         } else if let Some(delta_art_index) = card.delta_art_index {
             IllustrationId::DeltaArtIndex(delta_art_index)
+        } else if let Some(art_key) = &card.holoburi_art_key {
+            IllustrationId::HoloburiArtKey(art_key.clone())
         } else if !card.img_hash.is_empty() {
             IllustrationId::ImageHash(card.img_hash.clone())
         } else {

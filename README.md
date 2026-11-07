@@ -100,6 +100,9 @@ Options:
       --holodelta-path <HOLODELTA_PATH>
           Use holoDelta to import missing/unreleased cards data. The folder that contains the source code for holoDelta
   
+      --holoburi
+          Use holoBuri to import art keys (e.g. SR_2) for cards. Downloads the art from holoburi.com
+  
       --hololive
           Use the official holoLive website to import missing/unreleased cards data
 
