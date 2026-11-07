@@ -2933,7 +2933,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10002" ],
         "tcgplayer_product_ids": [ 645576 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -2990,7 +2991,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10004" ],
         "tcgplayer_product_ids": [ 645578 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -3047,7 +3049,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10006" ],
         "tcgplayer_product_ids": [ 645580 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -3090,7 +3093,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10007" ],
         "tcgplayer_product_ids": [ 645581 ],
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP01-004",
@@ -3104,7 +3108,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10008" ],
         "tcgplayer_product_ids": [ 645582 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP01-004",
@@ -3175,7 +3180,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10010" ],
         "tcgplayer_product_ids": [ 645584 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -3232,7 +3238,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10012" ],
         "tcgplayer_product_ids": [ 645586 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP01-006",
@@ -3246,7 +3253,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10013" ],
         "tcgplayer_product_ids": [ 645587 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -3289,7 +3297,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10014" ],
         "tcgplayer_product_ids": [ 645588 ],
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP01-007",
@@ -3303,7 +3312,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10015" ],
         "tcgplayer_product_ids": [ 645589 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP01-007",
@@ -3317,7 +3327,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10016" ],
         "tcgplayer_product_ids": [ 645590 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       },
       {
         "card_number": "hBP01-007",
@@ -3430,7 +3441,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10018" ],
         "tcgplayer_product_ids": [ 645592 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -3822,7 +3834,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10025" ],
         "tcgplayer_product_ids": [ 645604 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -4281,7 +4294,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10066" ],
         "tcgplayer_product_ids": [ 718712 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-021",
@@ -4452,7 +4466,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10035" ],
         "tcgplayer_product_ids": [ 645621 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -4518,7 +4533,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10234" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-024",
@@ -4671,7 +4687,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10068" ],
         "tcgplayer_product_ids": [ 718714 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-026",
@@ -4766,7 +4783,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10040" ],
         "tcgplayer_product_ids": [ 645629 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -4830,7 +4848,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10240" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-028",
@@ -5081,7 +5100,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10070" ],
         "tcgplayer_product_ids": [ 718716 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-031",
@@ -5150,6 +5170,19 @@
       },
       {
         "card_number": "hBP01-032",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-032_C.webp", "en": null },
+        "img_hash": "v2|H32=8tS5vhyrpeqvKi0r53BpmdqVUtQilVpnclG0JVoptmWkyFJVVZWsJaZaD6rJNk3aWy2s2aoqi66LVsmycalJmqZJpWk|CYM=12171A",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C106" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-032",
         "manage_id": { "jp": [ 1370 ], "en": [ 1349 ] },
         "rarity": "HR",
         "illustrator": "deru",
@@ -5157,10 +5190,11 @@
         "img_last_modified": { "jp": "Fri, 12 Sep 2025 04:59:47 GMT", "en": "Fri, 10 Apr 2026 06:58:31 GMT" },
         "img_hash": "v2|H32=cM61Yp5yyoyEssk6taqaeyQ1LdVulUo1SoxWZSopNE0tmeRWlVgkDqla26tbVamptMMVrUtVaampRzSrROtZpElVLYk|CYM=102533",
         "ogbajoj_sheet_cells": [ [ 40791959, "K91" ] ],
-        "similarity_index": 3,
+        "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10204" ],
         "tcgplayer_product_ids": [ 689928 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-032",
@@ -5602,6 +5636,19 @@
       },
       {
         "card_number": "hBP01-038",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP01-038_C.webp", "en": null },
+        "img_hash": "v2|H32=RmO9rIUhPaqvrAlLt6lLTcoZErRKWdKUWJJadNyWU2K25lSVVUV6UKqtWqoktSW11lqplsuSlmoppQ0sySKtpVJaBZM|CYM=140F12",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C107" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      },
+      {
+        "card_number": "hBP01-038",
         "manage_id": { "jp": [ 191 ], "en": [ 1370 ] },
         "rarity": "P",
         "illustrator": "",
@@ -5702,7 +5749,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10072" ],
         "tcgplayer_product_ids": [ 718718 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-039",
@@ -5872,7 +5920,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10213" ],
         "tcgplayer_product_ids": [ 699245 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-041",
@@ -5886,7 +5935,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10074" ],
         "tcgplayer_product_ids": [ 718720 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP01-041",
@@ -6053,7 +6103,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10057" ],
         "tcgplayer_product_ids": [ 645659 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -6113,7 +6164,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10235" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-044",
@@ -6347,7 +6399,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10062" ],
         "tcgplayer_product_ids": [ 645667 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -6427,7 +6480,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10229" ],
         "tcgplayer_product_ids": [ 699247 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-048",
@@ -6594,7 +6648,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10076" ],
         "tcgplayer_product_ids": [ 718722 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-050",
@@ -6712,7 +6767,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10078" ],
         "tcgplayer_product_ids": [ 718724 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-051",
@@ -6726,7 +6782,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10067" ],
         "tcgplayer_product_ids": [ 645675 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP01-051",
@@ -6740,7 +6797,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10079" ],
         "tcgplayer_product_ids": [ 718725 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -6956,7 +7014,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10081" ],
         "tcgplayer_product_ids": [ 718727 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-054",
@@ -7065,7 +7124,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10083" ],
         "tcgplayer_product_ids": [ 718729 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-055",
@@ -7150,7 +7210,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10241" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-056",
@@ -7448,7 +7509,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10085" ],
         "tcgplayer_product_ids": [ 718731 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-060",
@@ -7558,7 +7620,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10087" ],
         "tcgplayer_product_ids": [ 718733 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-061",
@@ -7821,7 +7884,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10089" ],
         "tcgplayer_product_ids": [ 718735 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-065",
@@ -7989,7 +8053,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10091" ],
         "tcgplayer_product_ids": [ 718737 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-067",
@@ -8003,7 +8068,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10084" ],
         "tcgplayer_product_ids": [ 645705 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP01-067",
@@ -8017,7 +8083,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10092" ],
         "tcgplayer_product_ids": [ 718738 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -8086,7 +8153,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10205" ],
         "tcgplayer_product_ids": [ 689932 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-068",
@@ -8256,7 +8324,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10094" ],
         "tcgplayer_product_ids": [ 718740 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-070",
@@ -8383,7 +8452,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10089" ],
         "tcgplayer_product_ids": [ 645713 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -8471,7 +8541,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10242" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-072",
@@ -8623,7 +8694,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10096" ],
         "tcgplayer_product_ids": [ 718742 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-074",
@@ -8784,7 +8856,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10206" ],
         "tcgplayer_product_ids": [ 689934 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-076",
@@ -9189,7 +9262,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10098" ],
         "tcgplayer_product_ids": [ 718744 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-081",
@@ -9217,7 +9291,8 @@
         "similarity_index": 7,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": [ 718745 ],
-        "delta_art_index": 6
+        "delta_art_index": 6,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -9669,7 +9744,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10243" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-088",
@@ -9821,7 +9897,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10101" ],
         "tcgplayer_product_ids": [ 718747 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-090",
@@ -9929,7 +10006,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp01/10111" ],
         "tcgplayer_product_ids": [ 645751 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -9999,7 +10077,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10236" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP01-092",
@@ -10148,7 +10227,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10103" ],
         "tcgplayer_product_ids": [ 718749 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP01-094",
@@ -12002,7 +12082,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10002" ],
         "tcgplayer_product_ids": [ 657532 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP02-001",
@@ -12016,7 +12097,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10003" ],
         "tcgplayer_product_ids": [ 657533 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -12073,7 +12155,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10005" ],
         "tcgplayer_product_ids": [ 657535 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -12130,7 +12213,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10007", "/hocg/card/hbp02/10211" ],
         "tcgplayer_product_ids": [ 657537 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP02-003",
@@ -12144,7 +12228,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10008", "/hocg/card/hbp02/10212" ],
         "tcgplayer_product_ids": [ 657538 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -12201,7 +12286,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10010" ],
         "tcgplayer_product_ids": [ 657540 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP02-004",
@@ -12215,7 +12301,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10011" ],
         "tcgplayer_product_ids": [ 657541 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -12272,7 +12359,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10013" ],
         "tcgplayer_product_ids": [ 657543 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -12329,7 +12417,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10015" ],
         "tcgplayer_product_ids": [ 657545 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -12386,7 +12475,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10017" ],
         "tcgplayer_product_ids": [ 657547 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP02-007",
@@ -12707,7 +12797,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10105" ],
         "tcgplayer_product_ids": [ 718754 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-011",
@@ -12761,7 +12852,7 @@
         "img_hash": "v2|H32=fCqtWsGyS83W0FIltEq0oq0qtNqLpW+YKqVLsaPEqTVrzTpoo3SXnkut1tsMW3wtVJdoIdWraJVVq/SoqVHaWrhQalE|CYM=23130C",
         "ogbajoj_sheet_cells": [ [ 419749048, "C22" ] ],
         "similarity_index": 7,
-        "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10258" ],
+        "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
       }
@@ -12831,7 +12922,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10025" ],
         "tcgplayer_product_ids": [ 657555 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -12900,7 +12992,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10027" ],
         "tcgplayer_product_ids": [ 657557 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-013",
@@ -12928,7 +13021,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10028" ],
         "tcgplayer_product_ids": [ 657558 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -13008,7 +13102,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10207" ],
         "tcgplayer_product_ids": [ 689940 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP02-014",
@@ -13179,7 +13274,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10214" ],
         "tcgplayer_product_ids": [ 699250 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-016",
@@ -13193,7 +13289,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10107" ],
         "tcgplayer_product_ids": [ 718756 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -13273,7 +13370,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10035" ],
         "tcgplayer_product_ids": [ 657565 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-017",
@@ -13287,7 +13385,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10109" ],
         "tcgplayer_product_ids": [ 718758 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP02-017",
@@ -13301,7 +13400,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10036" ],
         "tcgplayer_product_ids": [ 657566 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP02-017",
@@ -13315,7 +13415,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10110" ],
         "tcgplayer_product_ids": [ 718759 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -13382,7 +13483,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10242" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP02-018",
@@ -13668,7 +13770,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": [ 657575 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-022",
@@ -13682,7 +13785,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10045", "/hocg/card/heb01/10112" ],
         "tcgplayer_product_ids": [ 718761 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -13764,7 +13868,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10047" ],
         "tcgplayer_product_ids": [ 657577 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-023",
@@ -13778,7 +13883,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10114" ],
         "tcgplayer_product_ids": [ 718763 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP02-023",
@@ -13792,7 +13898,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10048" ],
         "tcgplayer_product_ids": [ 657578 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP02-023",
@@ -13806,7 +13913,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10115" ],
         "tcgplayer_product_ids": [ 718764 ],
-        "delta_art_index": 6
+        "delta_art_index": 6,
+        "holoburi_art_key": "UR_2"
       },
       {
         "card_number": "hBP02-023",
@@ -13909,7 +14017,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10244" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP02-024",
@@ -14096,7 +14205,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10117" ],
         "tcgplayer_product_ids": [ 718766 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-026",
@@ -14186,7 +14296,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10055" ],
         "tcgplayer_product_ids": [ 657585 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-027",
@@ -14200,7 +14311,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10119" ],
         "tcgplayer_product_ids": [ 718768 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP02-027",
@@ -14214,7 +14326,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10056" ],
         "tcgplayer_product_ids": [ 657586 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP02-027",
@@ -14228,7 +14341,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10120" ],
         "tcgplayer_product_ids": [ 718769 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -14302,7 +14416,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10122" ],
         "tcgplayer_product_ids": [ 718771 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP02-028",
@@ -14546,7 +14661,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10215" ],
         "tcgplayer_product_ids": [ 699251 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -14609,7 +14725,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10064" ],
         "tcgplayer_product_ids": [ 657594 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-032",
@@ -14705,7 +14822,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10066" ],
         "tcgplayer_product_ids": [ 657596 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-033",
@@ -14719,7 +14837,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10124" ],
         "tcgplayer_product_ids": [ 718773 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP02-033",
@@ -14733,7 +14852,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10067" ],
         "tcgplayer_product_ids": [ 657597 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP02-033",
@@ -14747,7 +14867,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10125" ],
         "tcgplayer_product_ids": [ 718774 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -14809,7 +14930,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10069" ],
         "tcgplayer_product_ids": [ 657599 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-034",
@@ -14823,7 +14945,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10070" ],
         "tcgplayer_product_ids": [ 657600 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -15124,7 +15247,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10079" ],
         "tcgplayer_product_ids": [ 657609 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -15191,7 +15315,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10081" ],
         "tcgplayer_product_ids": [ 657611 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-040",
@@ -15205,7 +15330,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10082" ],
         "tcgplayer_product_ids": [ 657612 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -15277,7 +15403,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10084" ],
         "tcgplayer_product_ids": [ 657614 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-041",
@@ -15291,7 +15418,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10085" ],
         "tcgplayer_product_ids": [ 657615 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -15564,7 +15692,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10093" ],
         "tcgplayer_product_ids": [ 657623 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -15627,7 +15756,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10095" ],
         "tcgplayer_product_ids": [ 657625 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-047",
@@ -15641,7 +15771,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10096" ],
         "tcgplayer_product_ids": [ 657626 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP02-047",
@@ -15945,7 +16076,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10105" ],
         "tcgplayer_product_ids": [ 657635 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -16012,7 +16144,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10107" ],
         "tcgplayer_product_ids": [ 657637 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-053",
@@ -16026,7 +16159,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10108" ],
         "tcgplayer_product_ids": [ 657638 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -16096,7 +16230,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10230" ],
         "tcgplayer_product_ids": [ 699253 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP02-054",
@@ -16122,7 +16257,7 @@
         "img_hash": "v2|H32=qqqNKtbV8yNyajQ5tGoEuuxUo9MsDUpVyItmJUvVVjWJlZpatKlmtWtVdLJYoxyqzxamrNOXJG2iFCyKWKNU2ql0aq0|CYM=035962",
         "ogbajoj_sheet_cells": [ [ 419749048, "C29" ] ],
         "similarity_index": 4,
-        "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10167" ],
+        "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 3
       }
@@ -16354,7 +16489,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10117" ],
         "tcgplayer_product_ids": [ 657647 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-058",
@@ -16368,7 +16504,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10127" ],
         "tcgplayer_product_ids": [ 718776 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -16445,7 +16582,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10119" ],
         "tcgplayer_product_ids": [ 657649 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-059",
@@ -16459,7 +16597,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10129" ],
         "tcgplayer_product_ids": [ 718778 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP02-059",
@@ -16473,7 +16612,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10120" ],
         "tcgplayer_product_ids": [ 657650 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP02-059",
@@ -16487,7 +16627,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10130" ],
         "tcgplayer_product_ids": [ 718779 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -16554,7 +16695,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10122" ],
         "tcgplayer_product_ids": [ 657652 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -16619,7 +16761,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10243" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP02-061",
@@ -16811,7 +16954,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10129" ],
         "tcgplayer_product_ids": [ 657659 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-064",
@@ -16825,7 +16969,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10130" ],
         "tcgplayer_product_ids": [ 657660 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -17077,7 +17222,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10132" ],
         "tcgplayer_product_ids": [ 718781 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-067",
@@ -17155,7 +17301,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10137" ],
         "tcgplayer_product_ids": [ 657667 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -17218,7 +17365,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10139" ],
         "tcgplayer_product_ids": [ 657669 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -17281,7 +17429,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10141" ],
         "tcgplayer_product_ids": [ 657671 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -17344,7 +17493,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10143" ],
         "tcgplayer_product_ids": [ 657673 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -17407,7 +17557,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10145" ],
         "tcgplayer_product_ids": [ 657675 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -17470,7 +17621,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10147" ],
         "tcgplayer_product_ids": [ 657677 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -17533,7 +17685,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10149" ],
         "tcgplayer_product_ids": [ 657679 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -18046,7 +18199,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10217" ],
         "tcgplayer_product_ids": [ 679259 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP02-084",
@@ -18060,7 +18214,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10170" ],
         "tcgplayer_product_ids": [ 657700 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -18887,7 +19042,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10002" ],
         "tcgplayer_product_ids": [ 669005 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -18944,7 +19100,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10004" ],
         "tcgplayer_product_ids": [ 669007 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP03-002",
@@ -18958,7 +19115,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10005" ],
         "tcgplayer_product_ids": [ 669008 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -19015,7 +19173,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10007" ],
         "tcgplayer_product_ids": [ 669010 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP03-003",
@@ -19029,7 +19188,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10008" ],
         "tcgplayer_product_ids": [ 669011 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -19086,7 +19246,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10010" ],
         "tcgplayer_product_ids": [ 669013 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP03-004",
@@ -19157,7 +19318,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10012" ],
         "tcgplayer_product_ids": [ 669015 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP03-005",
@@ -19171,7 +19333,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10013" ],
         "tcgplayer_product_ids": [ 669016 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -19214,7 +19377,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10014" ],
         "tcgplayer_product_ids": [ 669017 ],
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP03-006",
@@ -19228,7 +19392,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10015" ],
         "tcgplayer_product_ids": [ 669018 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP03-006",
@@ -19299,7 +19464,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10017" ],
         "tcgplayer_product_ids": [ 669020 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP03-007",
@@ -19313,7 +19479,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10018" ],
         "tcgplayer_product_ids": [ 669021 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -19370,7 +19537,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10020" ],
         "tcgplayer_product_ids": [ 669023 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -19431,6 +19599,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10221" ],
         "tcgplayer_product_ids": [ 699254 ],
         "delta_art_index": 1
+      },
+      {
+        "card_number": "hBP03-009",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-009_C.webp", "en": null },
+        "img_hash": "v2|H32=ElWyG5U7LNPtuuyqz8bNLM6MQ2YuzDoradsqlZG7szU7C5I2Sq1oaXVZN9KitkXbLYtfIolWCae2WPXqodpLJG/lhys|CYM=04140E",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C105" ] ],
+        "similarity_index": 3,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP03-009",
@@ -19715,7 +19896,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10029" ],
         "tcgplayer_product_ids": [ 669032 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -19782,7 +19964,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10031" ],
         "tcgplayer_product_ids": [ 669034 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-014",
@@ -19796,7 +19979,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10032" ],
         "tcgplayer_product_ids": [ 669035 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP03-014",
@@ -19877,7 +20061,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10034" ],
         "tcgplayer_product_ids": [ 669037 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-015",
@@ -19891,7 +20076,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10035" ],
         "tcgplayer_product_ids": [ 669038 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -19926,7 +20112,7 @@
         "img_path": { "jp": "hBP03/hBP03-016_C.webp", "en": "hBP03/EN_hBP03-016_C.webp" },
         "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:43 GMT", "en": "Tue, 09 Dec 2025 09:50:41 GMT" },
         "img_hash": "v2|H32=lKu1qq2qqYqnqi2qy8kjMkpTUhVKVVJFapVSVKSalFE0mtBVVbU2AYqqpqqsVU2p7ZKpsqpKimqqFoWvNKtLq+lSrao|CYM=0D1816",
-        "ogbajoj_sheet_cells": [ [ 1235233029, "C17" ] ],
+        "ogbajoj_sheet_cells": [ [ 505534664, "C108" ], [ 1235233029, "C17" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10036" ],
         "tcgplayer_product_ids": [ 669039 ],
@@ -20217,7 +20403,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10044" ],
         "tcgplayer_product_ids": [ 669047 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-020",
@@ -20313,7 +20500,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10046" ],
         "tcgplayer_product_ids": [ 669049 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-021",
@@ -20327,7 +20515,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10047" ],
         "tcgplayer_product_ids": [ 669050 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -20399,7 +20588,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10049" ],
         "tcgplayer_product_ids": [ 669052 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -20481,7 +20671,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10051" ],
         "tcgplayer_product_ids": [ 669054 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-023",
@@ -20495,7 +20686,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10134" ],
         "tcgplayer_product_ids": [ 718785 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -20558,7 +20750,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10053" ],
         "tcgplayer_product_ids": [ 669056 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-024",
@@ -20572,7 +20765,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10054" ],
         "tcgplayer_product_ids": [ 669057 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -20624,7 +20818,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10237" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP03-025",
@@ -20915,7 +21110,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10063" ],
         "tcgplayer_product_ids": [ 669066 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-029",
@@ -20929,7 +21125,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10136" ],
         "tcgplayer_product_ids": [ 718787 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -20996,7 +21193,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10065" ],
         "tcgplayer_product_ids": [ 669068 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-030",
@@ -21024,7 +21222,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10066" ],
         "tcgplayer_product_ids": [ 669069 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP03-030",
@@ -21306,7 +21505,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10073" ],
         "tcgplayer_product_ids": [ 669076 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-034",
@@ -21320,7 +21520,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10138" ],
         "tcgplayer_product_ids": [ 718789 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP03-034",
@@ -21334,7 +21535,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10074" ],
         "tcgplayer_product_ids": [ 669077 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP03-034",
@@ -21348,7 +21550,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10139" ],
         "tcgplayer_product_ids": [ 718790 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -21410,7 +21613,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10076" ],
         "tcgplayer_product_ids": [ 669079 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -21478,7 +21682,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10078" ],
         "tcgplayer_product_ids": [ 669081 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-036",
@@ -21492,7 +21697,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10141" ],
         "tcgplayer_product_ids": [ 718792 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP03-036",
@@ -21725,7 +21931,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10083" ],
         "tcgplayer_product_ids": [ 669086 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -21977,7 +22184,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10090" ],
         "tcgplayer_product_ids": [ 669093 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-043",
@@ -21991,7 +22199,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10091" ],
         "tcgplayer_product_ids": [ 669094 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -22067,7 +22276,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10093" ],
         "tcgplayer_product_ids": [ 669096 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-044",
@@ -22081,7 +22291,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10143" ],
         "tcgplayer_product_ids": [ 718794 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP03-044",
@@ -22162,7 +22373,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10095" ],
         "tcgplayer_product_ids": [ 669098 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -22410,7 +22622,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10102" ],
         "tcgplayer_product_ids": [ 669105 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -22489,7 +22702,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10104" ],
         "tcgplayer_product_ids": [ 669107 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-050",
@@ -22503,7 +22717,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10145" ],
         "tcgplayer_product_ids": [ 718796 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP03-050",
@@ -22582,7 +22797,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10245" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP03-051",
@@ -22874,7 +23090,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10113" ],
         "tcgplayer_product_ids": [ 669116 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-055",
@@ -22956,7 +23173,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10115" ],
         "tcgplayer_product_ids": [ 669118 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-056",
@@ -22970,7 +23188,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10116" ],
         "tcgplayer_product_ids": [ 669119 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -23204,7 +23423,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10147" ],
         "tcgplayer_product_ids": [ 718798 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-059",
@@ -23303,7 +23523,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10123" ],
         "tcgplayer_product_ids": [ 669126 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-060",
@@ -23317,7 +23538,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10149" ],
         "tcgplayer_product_ids": [ 718800 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -23651,7 +23873,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10132" ],
         "tcgplayer_product_ids": [ 669135 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-065",
@@ -23665,7 +23888,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10151" ],
         "tcgplayer_product_ids": [ 718802 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -23732,7 +23956,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10134" ],
         "tcgplayer_product_ids": [ 669137 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-066",
@@ -23746,7 +23971,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10135" ],
         "tcgplayer_product_ids": [ 669138 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -23817,7 +24043,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10238" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP03-067",
@@ -24051,7 +24278,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10153" ],
         "tcgplayer_product_ids": [ 718804 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -24118,7 +24346,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10144" ],
         "tcgplayer_product_ids": [ 669147 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -24186,7 +24415,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10146" ],
         "tcgplayer_product_ids": [ 669149 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-072",
@@ -24200,7 +24430,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10147" ],
         "tcgplayer_product_ids": [ 669150 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -24249,6 +24480,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10148" ],
         "tcgplayer_product_ids": [ 669151 ],
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP03-073",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP03-073_C.webp", "en": null },
+        "img_hash": "v2|H32=SmmxqqdqLa2lorSqC6Wy1tpTalVKUVJLaKlyZbQqtqW0lFJ1VKXgVUrStsqZKk39pUVpuqgqyyZqWpanx9ulaqoWKWg|CYM=002036",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C114" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       },
       {
         "card_number": "hBP03-073",
@@ -24507,7 +24751,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10156" ],
         "tcgplayer_product_ids": [ 669159 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -24575,7 +24820,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10158" ],
         "tcgplayer_product_ids": [ 669161 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-078",
@@ -24589,7 +24835,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10159" ],
         "tcgplayer_product_ids": [ 669162 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -24660,7 +24907,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10161" ],
         "tcgplayer_product_ids": [ 669164 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP03-079",
@@ -24674,7 +24922,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10162" ],
         "tcgplayer_product_ids": [ 669165 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -24752,7 +25001,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10244" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP03-080",
@@ -24947,7 +25197,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10169" ],
         "tcgplayer_product_ids": [ 669172 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -26354,7 +26605,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10002" ],
         "tcgplayer_product_ids": [ 679263 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP04-001",
@@ -26368,7 +26620,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10003" ],
         "tcgplayer_product_ids": [ 679264 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -26411,7 +26664,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10004" ],
         "tcgplayer_product_ids": [ 679265 ],
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP04-002",
@@ -26425,7 +26679,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10005" ],
         "tcgplayer_product_ids": [ 679266 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP04-002",
@@ -26482,7 +26737,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10006" ],
         "tcgplayer_product_ids": [ 679267 ],
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP04-003",
@@ -26496,7 +26752,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10007" ],
         "tcgplayer_product_ids": [ 679268 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP04-003",
@@ -26567,7 +26824,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10009" ],
         "tcgplayer_product_ids": [ 679270 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP04-004",
@@ -26581,7 +26839,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10010" ],
         "tcgplayer_product_ids": [ 679271 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -26638,7 +26897,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10012" ],
         "tcgplayer_product_ids": [ 679273 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP04-005",
@@ -26652,7 +26912,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10013" ],
         "tcgplayer_product_ids": [ 679274 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -26709,7 +26970,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10015" ],
         "tcgplayer_product_ids": [ 679276 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP04-006",
@@ -26723,7 +26985,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10016" ],
         "tcgplayer_product_ids": [ 679277 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -26780,7 +27043,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10018" ],
         "tcgplayer_product_ids": [ 679279 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -26844,7 +27108,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10155" ],
         "tcgplayer_product_ids": [ 718807 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP04-008",
@@ -27154,7 +27419,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10027" ],
         "tcgplayer_product_ids": [ 679288 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-012",
@@ -27168,7 +27434,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10157" ],
         "tcgplayer_product_ids": [ 718809 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP04-012",
@@ -27263,7 +27530,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10029" ],
         "tcgplayer_product_ids": [ 679290 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-013",
@@ -27291,7 +27559,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10030" ],
         "tcgplayer_product_ids": [ 679291 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP04-013",
@@ -27374,7 +27643,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10032" ],
         "tcgplayer_product_ids": [ 679293 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -27435,7 +27705,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10034" ],
         "tcgplayer_product_ids": [ 679295 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -27694,7 +27965,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10041" ],
         "tcgplayer_product_ids": [ 679302 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -27991,7 +28263,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10050" ],
         "tcgplayer_product_ids": [ 679311 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -28058,7 +28331,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10052" ],
         "tcgplayer_product_ids": [ 679313 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-025",
@@ -28072,7 +28346,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10053" ],
         "tcgplayer_product_ids": [ 679314 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -28140,7 +28415,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10055" ],
         "tcgplayer_product_ids": [ 679316 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -28197,7 +28473,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10057" ],
         "tcgplayer_product_ids": [ 679318 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -28444,7 +28721,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10064" ],
         "tcgplayer_product_ids": [ 679325 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -28755,7 +29033,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10073" ],
         "tcgplayer_product_ids": [ 679334 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -28823,7 +29102,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10075" ],
         "tcgplayer_product_ids": [ 679336 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-037",
@@ -28837,7 +29117,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10076" ],
         "tcgplayer_product_ids": [ 679337 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -28905,7 +29186,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10078" ],
         "tcgplayer_product_ids": [ 679339 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -29130,7 +29412,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10085" ],
         "tcgplayer_product_ids": [ 679346 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-042",
@@ -29144,7 +29427,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10086" ],
         "tcgplayer_product_ids": [ 679347 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -29233,7 +29517,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10231" ],
         "tcgplayer_product_ids": [ 699261 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP04-043",
@@ -29534,7 +29819,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10095" ],
         "tcgplayer_product_ids": [ 679356 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-047",
@@ -29548,7 +29834,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10159" ],
         "tcgplayer_product_ids": [ 718811 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -29616,7 +29903,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10097" ],
         "tcgplayer_product_ids": [ 679358 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-048",
@@ -29630,7 +29918,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10098" ],
         "tcgplayer_product_ids": [ 679359 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP04-048",
@@ -29707,7 +29996,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10100" ],
         "tcgplayer_product_ids": [ 679361 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -29958,7 +30248,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10107" ],
         "tcgplayer_product_ids": [ 679368 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-053",
@@ -29972,7 +30263,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10108" ],
         "tcgplayer_product_ids": [ 679369 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -30055,7 +30347,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10239" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP04-054",
@@ -30358,7 +30651,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10118" ],
         "tcgplayer_product_ids": [ 679379 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-058",
@@ -30439,7 +30733,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10120" ],
         "tcgplayer_product_ids": [ 679381 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-059",
@@ -30467,7 +30762,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10121" ],
         "tcgplayer_product_ids": [ 679382 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -30534,7 +30830,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10123" ],
         "tcgplayer_product_ids": [ 679384 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -30601,7 +30898,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10125" ],
         "tcgplayer_product_ids": [ 679386 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -30668,7 +30966,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10127" ],
         "tcgplayer_product_ids": [ 679388 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-062",
@@ -30937,7 +31236,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10134" ],
         "tcgplayer_product_ids": [ 679396 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-066",
@@ -30951,7 +31251,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10135" ],
         "tcgplayer_product_ids": [ 679397 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -31039,7 +31340,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10232" ],
         "tcgplayer_product_ids": [ 699263 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP04-067",
@@ -31334,7 +31636,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10144" ],
         "tcgplayer_product_ids": [ 679406 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-071",
@@ -31348,7 +31651,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10161" ],
         "tcgplayer_product_ids": [ 718813 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -31430,7 +31734,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10146" ],
         "tcgplayer_product_ids": [ 679408 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-072",
@@ -31444,7 +31749,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10163" ],
         "tcgplayer_product_ids": [ 718815 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP04-072",
@@ -31458,7 +31764,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10147" ],
         "tcgplayer_product_ids": [ 679409 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP04-072",
@@ -31472,7 +31779,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10164" ],
         "tcgplayer_product_ids": [ 718816 ],
-        "delta_art_index": 6
+        "delta_art_index": 6,
+        "holoburi_art_key": "UR_2"
       },
       {
         "card_number": "hBP04-072",
@@ -31799,7 +32107,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10156" ],
         "tcgplayer_product_ids": [ 679418 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -31862,7 +32171,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10158" ],
         "tcgplayer_product_ids": [ 679420 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-078",
@@ -31876,7 +32186,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10159" ],
         "tcgplayer_product_ids": [ 679421 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -31970,7 +32281,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10246" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP04-079",
@@ -32194,7 +32506,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10166" ],
         "tcgplayer_product_ids": [ 679428 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-082",
@@ -32208,7 +32521,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10167" ],
         "tcgplayer_product_ids": [ 679429 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -32295,7 +32609,7 @@
         "img_hash": "v2|H32=qqg9q+cuiamHImmSm4lmRsiTYmxecTJV0sVSVbTSlsW0SFZKla4axUq1jLKlWkW3WZlqraJaqCqqSKhN0DTAhWqF8Cs|CYM=01283C",
         "ogbajoj_sheet_cells": [ [ 419749048, "C72" ] ],
         "similarity_index": 3,
-        "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10244" ],
+        "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
       }
@@ -32452,7 +32766,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10166" ],
         "tcgplayer_product_ids": [ 718818 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -32516,7 +32831,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10174" ],
         "tcgplayer_product_ids": [ 679436 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP04-086",
@@ -32530,7 +32846,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp04/10175" ],
         "tcgplayer_product_ids": [ 679437 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -33448,7 +33765,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10002" ],
         "tcgplayer_product_ids": [ 689946 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -33505,7 +33823,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10004" ],
         "tcgplayer_product_ids": [ 689948 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP05-002",
@@ -33519,7 +33838,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10005" ],
         "tcgplayer_product_ids": [ 689949 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -33576,7 +33896,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10007" ],
         "tcgplayer_product_ids": [ 689951 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP05-003",
@@ -33590,7 +33911,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10008" ],
         "tcgplayer_product_ids": [ 689952 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -33647,7 +33969,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10010" ],
         "tcgplayer_product_ids": [ 689954 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -33704,7 +34027,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10012" ],
         "tcgplayer_product_ids": [ 689956 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP05-005",
@@ -33718,7 +34042,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10013" ],
         "tcgplayer_product_ids": [ 689957 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -33775,7 +34100,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10015" ],
         "tcgplayer_product_ids": [ 689959 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP05-006",
@@ -33846,7 +34172,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10017" ],
         "tcgplayer_product_ids": [ 689962 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -34120,7 +34447,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10025" ],
         "tcgplayer_product_ids": [ 689970 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-011",
@@ -34201,7 +34529,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10027" ],
         "tcgplayer_product_ids": [ 689972 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-012",
@@ -34215,7 +34544,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10028" ],
         "tcgplayer_product_ids": [ 689973 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -34277,7 +34607,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10030" ],
         "tcgplayer_product_ids": [ 689975 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -34493,7 +34824,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10036" ],
         "tcgplayer_product_ids": [ 689981 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-016",
@@ -34507,7 +34839,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10168" ],
         "tcgplayer_product_ids": [ 718821 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP05-016",
@@ -34534,7 +34867,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10037" ],
         "tcgplayer_product_ids": [ 689982 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP05-016",
@@ -34548,7 +34882,8 @@
         "similarity_index": 7,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10169" ],
         "tcgplayer_product_ids": [ 718822 ],
-        "delta_art_index": 6
+        "delta_art_index": 6,
+        "holoburi_art_key": "UR_2"
       },
       {
         "card_number": "hBP05-016",
@@ -34562,7 +34897,8 @@
         "similarity_index": 8,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10038" ],
         "tcgplayer_product_ids": [ 689983 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -34632,7 +34968,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10040" ],
         "tcgplayer_product_ids": [ 689985 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -34695,7 +35032,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10042" ],
         "tcgplayer_product_ids": [ 689987 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -34936,7 +35274,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10050" ],
         "tcgplayer_product_ids": [ 689995 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -35003,7 +35342,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10052" ],
         "tcgplayer_product_ids": [ 689997 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-023",
@@ -35017,7 +35357,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10053" ],
         "tcgplayer_product_ids": [ 689998 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -35083,7 +35424,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10055" ],
         "tcgplayer_product_ids": [ 690000 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -35267,7 +35609,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10061" ],
         "tcgplayer_product_ids": [ 690006 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-027",
@@ -35281,7 +35624,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10062" ],
         "tcgplayer_product_ids": [ 690007 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -35353,7 +35697,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10064" ],
         "tcgplayer_product_ids": [ 690009 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -35423,7 +35768,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10066" ],
         "tcgplayer_product_ids": [ 690011 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -35689,7 +36035,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10074" ],
         "tcgplayer_product_ids": [ 690019 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -35756,7 +36103,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10076" ],
         "tcgplayer_product_ids": [ 690021 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-034",
@@ -35770,7 +36118,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10077" ],
         "tcgplayer_product_ids": [ 690022 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -35837,7 +36186,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10079" ],
         "tcgplayer_product_ids": [ 690024 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -35966,7 +36316,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10083" ],
         "tcgplayer_product_ids": [ 690028 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-037",
@@ -35980,7 +36331,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10084" ],
         "tcgplayer_product_ids": [ 690029 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP05-037",
@@ -36060,7 +36412,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10086" ],
         "tcgplayer_product_ids": [ 690031 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -36131,7 +36484,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10088" ],
         "tcgplayer_product_ids": [ 690033 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -36480,7 +36834,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10098" ],
         "tcgplayer_product_ids": [ 690043 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-044",
@@ -36575,7 +36930,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10100" ],
         "tcgplayer_product_ids": [ 690045 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-045",
@@ -36589,7 +36945,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10171" ],
         "tcgplayer_product_ids": [ 718824 ],
-        "delta_art_index": 4
+        "delta_art_index": 4,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP05-045",
@@ -36603,7 +36960,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10101" ],
         "tcgplayer_product_ids": [ 690046 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP05-045",
@@ -36617,7 +36975,8 @@
         "similarity_index": 6,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10172" ],
         "tcgplayer_product_ids": [ 718825 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "UR_2"
       }
     ]
   },
@@ -36684,7 +37043,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10103" ],
         "tcgplayer_product_ids": [ 690048 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -36875,7 +37235,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10109" ],
         "tcgplayer_product_ids": [ 690054 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-049",
@@ -36889,7 +37250,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10110" ],
         "tcgplayer_product_ids": [ 690055 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -36960,7 +37322,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10112" ],
         "tcgplayer_product_ids": [ 690057 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -37027,7 +37390,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10114" ],
         "tcgplayer_product_ids": [ 690059 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -37264,7 +37628,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10122" ],
         "tcgplayer_product_ids": [ 690067 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -37331,7 +37696,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10124" ],
         "tcgplayer_product_ids": [ 690069 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-056",
@@ -37345,7 +37711,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10125" ],
         "tcgplayer_product_ids": [ 690070 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -37605,7 +37972,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10133" ],
         "tcgplayer_product_ids": [ 690078 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-060",
@@ -37619,7 +37987,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10174" ],
         "tcgplayer_product_ids": [ 718827 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR_2"
       }
     ]
   },
@@ -37687,7 +38056,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10135" ],
         "tcgplayer_product_ids": [ 690080 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-061",
@@ -37701,7 +38071,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10136" ],
         "tcgplayer_product_ids": [ 690081 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -37769,7 +38140,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10138" ],
         "tcgplayer_product_ids": [ 690083 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -38017,7 +38389,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10146" ],
         "tcgplayer_product_ids": [ 690091 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -38084,7 +38457,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10148" ],
         "tcgplayer_product_ids": [ 690093 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-067",
@@ -38098,7 +38472,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10149" ],
         "tcgplayer_product_ids": [ 690094 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -38327,7 +38702,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10155" ],
         "tcgplayer_product_ids": [ 690100 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-070",
@@ -38341,7 +38717,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10156" ],
         "tcgplayer_product_ids": [ 690101 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -38408,7 +38785,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10158" ],
         "tcgplayer_product_ids": [ 690103 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -38479,7 +38857,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10160" ],
         "tcgplayer_product_ids": [ 690105 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -38547,7 +38926,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10162" ],
         "tcgplayer_product_ids": [ 690107 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -39015,7 +39395,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10176" ],
         "tcgplayer_product_ids": [ 690121 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP05-080",
@@ -39029,7 +39410,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10177" ],
         "tcgplayer_product_ids": [ 718830 ],
-        "delta_art_index": 5
+        "delta_art_index": 5,
+        "holoburi_art_key": "SR_2"
       },
       {
         "card_number": "hBP05-080",
@@ -39043,7 +39425,8 @@
         "similarity_index": 5,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10177" ],
         "tcgplayer_product_ids": [ 690122 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       },
       {
         "card_number": "hBP05-080",
@@ -39398,7 +39781,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10002" ],
         "tcgplayer_product_ids": [ 699266 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP06-001",
@@ -39412,7 +39796,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10003" ],
         "tcgplayer_product_ids": [ 699267 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -39469,7 +39854,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10005" ],
         "tcgplayer_product_ids": [ 699269 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -39526,7 +39912,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10007" ],
         "tcgplayer_product_ids": [ 699271 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP06-003",
@@ -39540,7 +39927,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10008" ],
         "tcgplayer_product_ids": [ 699272 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -39597,7 +39985,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10010" ],
         "tcgplayer_product_ids": [ 699274 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP06-004",
@@ -39611,7 +40000,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10011" ],
         "tcgplayer_product_ids": [ 699275 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -39671,7 +40061,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10013" ],
         "tcgplayer_product_ids": [ 699277 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP06-005",
@@ -39742,7 +40133,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10015" ],
         "tcgplayer_product_ids": [ 699280 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -39802,7 +40194,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10017" ],
         "tcgplayer_product_ids": [ 699282 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -39859,7 +40252,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10019" ],
         "tcgplayer_product_ids": [ 699284 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP06-008",
@@ -39873,7 +40267,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10020" ],
         "tcgplayer_product_ids": [ 699285 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -40181,7 +40576,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10029" ],
         "tcgplayer_product_ids": [ 699294 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-013",
@@ -40263,7 +40659,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10031" ],
         "tcgplayer_product_ids": [ 699296 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-014",
@@ -40277,7 +40674,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10032" ],
         "tcgplayer_product_ids": [ 699297 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -40325,7 +40723,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10233" ],
         "tcgplayer_product_ids": [ 699299 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hBP06-015",
@@ -40591,7 +40990,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10040" ],
         "tcgplayer_product_ids": [ 699306 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-019",
@@ -40668,7 +41068,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10042" ],
         "tcgplayer_product_ids": [ 699308 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-020",
@@ -40682,7 +41083,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10043" ],
         "tcgplayer_product_ids": [ 699309 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP06-020",
@@ -40763,7 +41165,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10045" ],
         "tcgplayer_product_ids": [ 699311 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -41059,7 +41462,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10054" ],
         "tcgplayer_product_ids": [ 699320 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -41122,7 +41526,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10056" ],
         "tcgplayer_product_ids": [ 699322 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-027",
@@ -41149,7 +41554,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10057" ],
         "tcgplayer_product_ids": [ 699323 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -41324,7 +41730,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10063" ],
         "tcgplayer_product_ids": [ 699329 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -41391,7 +41798,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10065" ],
         "tcgplayer_product_ids": [ 699331 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-031",
@@ -41405,7 +41813,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10066" ],
         "tcgplayer_product_ids": [ 699332 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -41463,7 +41872,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10068" ],
         "tcgplayer_product_ids": [ 699334 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -41529,7 +41939,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10070" ],
         "tcgplayer_product_ids": [ 699336 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-033",
@@ -41874,7 +42285,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10079" ],
         "tcgplayer_product_ids": [ 699345 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -41940,7 +42352,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10081", "/hocg/card/hbp06/10236" ],
         "tcgplayer_product_ids": [ 699347 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-039",
@@ -41967,7 +42380,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10082" ],
         "tcgplayer_product_ids": [ 699348 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP06-039",
@@ -42305,7 +42719,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10091" ],
         "tcgplayer_product_ids": [ 699357 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -42372,7 +42787,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10093" ],
         "tcgplayer_product_ids": [ 699359 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-045",
@@ -42386,7 +42802,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10094" ],
         "tcgplayer_product_ids": [ 699360 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -42454,7 +42871,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10096" ],
         "tcgplayer_product_ids": [ 699362 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -42522,7 +42940,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10098" ],
         "tcgplayer_product_ids": [ 699364 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -42827,7 +43246,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10107" ],
         "tcgplayer_product_ids": [ 699373 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -42894,7 +43314,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10109" ],
         "tcgplayer_product_ids": [ 699375 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-053",
@@ -42908,7 +43329,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10110" ],
         "tcgplayer_product_ids": [ 699376 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -42976,7 +43398,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10112" ],
         "tcgplayer_product_ids": [ 699378 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -43043,7 +43466,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10114" ],
         "tcgplayer_product_ids": [ 699380 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -43110,7 +43534,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10116" ],
         "tcgplayer_product_ids": [ 699382 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -43310,7 +43735,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10122" ],
         "tcgplayer_product_ids": [ 699388 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-059",
@@ -43387,7 +43813,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10124" ],
         "tcgplayer_product_ids": [ 699390 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-060",
@@ -43401,7 +43828,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10125" ],
         "tcgplayer_product_ids": [ 699391 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP06-060",
@@ -43732,7 +44160,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10134" ],
         "tcgplayer_product_ids": [ 699400 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -43799,7 +44228,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10136" ],
         "tcgplayer_product_ids": [ 699402 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-066",
@@ -43813,7 +44243,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10137" ],
         "tcgplayer_product_ids": [ 699403 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -44021,7 +44452,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10143" ],
         "tcgplayer_product_ids": [ 699409 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -44088,7 +44520,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10145" ],
         "tcgplayer_product_ids": [ 699411 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-070",
@@ -44102,7 +44535,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10146" ],
         "tcgplayer_product_ids": [ 699412 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -44169,7 +44603,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10148" ],
         "tcgplayer_product_ids": [ 699414 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -44486,7 +44921,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10157" ],
         "tcgplayer_product_ids": [ 699423 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -44553,7 +44989,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10159" ],
         "tcgplayer_product_ids": [ 699425 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-077",
@@ -44567,7 +45004,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10160" ],
         "tcgplayer_product_ids": [ 699426 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -44748,7 +45186,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10166" ],
         "tcgplayer_product_ids": [ 699432 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -44811,7 +45250,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10168" ],
         "tcgplayer_product_ids": [ 699434 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP06-081",
@@ -44825,7 +45265,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10169" ],
         "tcgplayer_product_ids": [ 699435 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -44892,7 +45333,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10171" ],
         "tcgplayer_product_ids": [ 699437 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -44965,7 +45407,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10173" ],
         "tcgplayer_product_ids": [ 699439 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -45940,7 +46383,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10001" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP07-001",
@@ -45954,7 +46398,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10002" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP07-001",
@@ -46025,7 +46470,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10004" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP07-002",
@@ -46039,7 +46485,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10005" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -46096,7 +46543,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10007" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP07-003",
@@ -46110,7 +46558,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10008" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -46166,7 +46615,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10010" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -46223,7 +46673,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10012" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -46279,7 +46730,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10014" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP07-006",
@@ -46293,7 +46745,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10015" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -46350,7 +46803,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10017" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP07-007",
@@ -46364,7 +46818,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10018" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -46705,7 +47160,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10027" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -46841,7 +47297,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10031" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-014",
@@ -46868,7 +47325,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10032" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -47157,7 +47615,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10041" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-019",
@@ -47293,7 +47752,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10045" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-021",
@@ -47307,7 +47767,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10046" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -47374,7 +47835,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10048" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -47443,7 +47905,7 @@
         "img_hash": "v2|H32=qKo8m6WqRpMpT7ByqcmRLMpZkazaVCVZ1iRrGVJtaTUmidSqWlVaOVKtplJVqynVpUr4aq2SUtZKSyitpdZSa5UqssA|CYM=1A292F",
         "ogbajoj_sheet_cells": [ [ 419749048, "C121" ] ],
         "similarity_index": 2,
-        "yuyutei_sell_paths": [ "/hocg/card/promo-hbp10/10265" ],
+        "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": null
       }
@@ -47709,7 +48171,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10057" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -47723,17 +48186,17 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "金瞳の綺羅星", "en": "Golden-eyed Star" },
+        "name": { "jp": "金瞳の綺羅星", "en": "A Constellation of Golden Eyes" },
         "text": {
           "jp": "自分のデッキの上から2枚を見る。その中から、カード1枚を手札に加える。そして残ったカードをデッキの上に戻す。",
-          "en": "Look at the top 2 cards of your deck. Add 1 card from among them to hand. Then, return the remaining card to the top of the deck."
+          "en": "Look at the top 2 cards of your deck. Add 1 card from among them to your hand, return the remaining cards to the top of your deck."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "green", "colorless" ],
-        "name": { "jp": "天まで届け、みんなの願い", "en": "May everyone's wishes reach the heavens" },
+        "name": { "jp": "天まで届け、みんなの願い", "en": "May Every Wish Reach the Heavens" },
         "power": "90+",
         "advantage": [ "blue", 50 ],
         "text": {
@@ -47859,7 +48322,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10061" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-029",
@@ -47873,7 +48337,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10062" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -47936,7 +48401,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10064" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -48007,7 +48473,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10066" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -48181,7 +48648,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10071" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -48244,7 +48712,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10073" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-035",
@@ -48258,7 +48727,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10074" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -48592,7 +49062,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10083" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -48726,7 +49197,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10087" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-042",
@@ -48740,7 +49212,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10088" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -48807,7 +49280,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10090" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-043",
@@ -48902,7 +49376,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10092" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -48973,7 +49448,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10094" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -49168,7 +49644,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10099" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-048",
@@ -49248,7 +49725,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10101" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-049",
@@ -49262,7 +49740,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10102" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -49558,7 +50037,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10111" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -49694,7 +50174,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10115" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-056",
@@ -49708,7 +50189,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10116" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP07-056",
@@ -49791,7 +50273,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10118" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -49853,7 +50336,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10120" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -50030,7 +50514,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10125" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -50093,7 +50578,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10127" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-062",
@@ -50107,7 +50593,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10128" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -50179,11 +50666,11 @@
     "arts": [
       {
         "cheers": [ "colorless" ],
-        "name": { "jp": "ゆっくりしにおいで♡", "en": "Come and relax♡" },
+        "name": { "jp": "ゆっくりしにおいで♡", "en": "Come over Here and Relax♡" },
         "power": "20",
         "text": {
           "jp": "自分のデッキから、〈開拓者〉1枚を公開し、自分の〈AZKi〉に付ける。そしてデッキをシャッフルする。",
-          "en": "Reveal 1 <Pioneers> from your deck, and attach it to your <AZKi>. Then, shuffle the deck."
+          "en": "Search 1 <Pioneers> from your deck, and attach it to your <AZKi>. Shuffle your deck."
         }
       }
     ],
@@ -50411,7 +50898,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10137" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-067",
@@ -50578,7 +51066,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10141" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-069",
@@ -50605,7 +51094,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10142" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -50674,7 +51164,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10144" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-070",
@@ -50909,7 +51400,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10150" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-073",
@@ -50991,7 +51483,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10152" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-074",
@@ -51005,7 +51498,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10153" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -51072,7 +51566,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10155" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -51144,7 +51639,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10157" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -51467,7 +51963,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10166" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-081",
@@ -51616,7 +52113,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10170" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-083",
@@ -51630,7 +52128,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10171" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -51697,7 +52196,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10173" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -51763,7 +52263,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10175" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -51826,7 +52327,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10177" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -52004,7 +52506,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10182" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -52070,7 +52573,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10184" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP07-090",
@@ -52084,7 +52588,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp07/10185" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -52473,7 +52978,7 @@
     "card_type": { "support": "event" },
     "text": {
       "jp": "自分のアーカイブの〈AZKi〉1枚を手札に戻す。その後、自分のアーカイブの〈フロンティアスピリット〉1枚につき、自分のアーカイブのエール1枚を自分の〈AZKi〉1人に送る。\n自分の〈フロンティアスピリット〉はターンに1回しか使えない。",
-      "en": "Return 1 <AZKi> from your archive to hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive.\nYou may only use <Frontier Spirit> once per turn."
+      "en": "Return 1 <AZKi> from your archive to your hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive. You may only use <Frontier Spirit> once per turn."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -52634,7 +53139,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いている〈エリザベス・ローズ・ブラッドフレイム〉のアーツ+20。\n\n◆2ndの〈エリザベス・ローズ・ブラッドフレイム〉に付いていたら能力追加\nこのホロメンのHPが減っているなら、このホロメンのアーツ+20。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The <Elizabeth Rose Bloodflame> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to 2nd <Elizabeth Rose Bloodflame>\nWhile this holomem has reduced HP, this holomem gets Arts+20.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The <Elizabeth Rose Bloodflame> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 2nd holomem <Elizabeth Rose Bloodflame>\nIf this holomem has reduced HP, this holomem gets Arts+20.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4 },
     "illustrations": [
@@ -52962,7 +53467,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10002" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -53018,7 +53524,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10004" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       }
     ]
   },
@@ -53074,7 +53581,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10006" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP08-003",
@@ -53088,7 +53596,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10007" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -53145,7 +53654,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10009" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP08-004",
@@ -53159,7 +53669,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10010" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -53201,7 +53712,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10011" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP08-005",
@@ -53215,7 +53727,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10012" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP08-005",
@@ -53229,7 +53742,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10013" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       },
       {
         "card_number": "hBP08-005",
@@ -53299,7 +53813,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10015" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP08-006",
@@ -53313,7 +53828,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10016" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -53370,7 +53886,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10018" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP08-007",
@@ -53384,7 +53901,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10019" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -53702,7 +54220,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10028" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-012",
@@ -53850,7 +54369,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10032" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-014",
@@ -53864,7 +54384,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10033" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -54037,14 +54558,15 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10039" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-017",
         "manage_id": { "jp": [ 3051 ] },
         "rarity": "P",
         "illustrator": "ときのそら",
-        "img_path": { "jp": "hPR/hBP08-017_P.webp", "en": null },
+        "img_path": { "jp": "hPR/hBP08-017_P.webp", "en": "proxies/hPR/hBP08-017_P.webp" },
         "img_last_modified": { "jp": "Fri, 06 Nov 2026 09:00:03 GMT" },
         "img_hash": "v2|H32=qsoni5xM1LDTNK1RbCfMWlrrycqkyOnUok1LpSM1Gi0nsrJqS2XMbU2rONXqWDGqpbhOgZVKddCuF/JKVq2m1tpEtNI|CYM=17332F|A_CYM=175B48",
         "ogbajoj_sheet_cells": [ [ 419749048, "C141" ] ],
@@ -54058,7 +54580,7 @@
         "manage_id": { "jp": [ 3052 ] },
         "rarity": "P",
         "illustrator": "ときのそら",
-        "img_path": { "jp": "hPR/hBP08-017_P_02.webp", "en": null },
+        "img_path": { "jp": "hPR/hBP08-017_P_02.webp", "en": "proxies/hPR/hBP08-017_P_02.webp" },
         "img_last_modified": { "jp": "Fri, 06 Nov 2026 09:00:04 GMT" },
         "img_hash": "v2|H32=sswzicxsJLPcJsxSTKazWnLpy0q36ct3omULpSSVWK1vnoJqSmVoRWWrK1UqU+SqrfhKoZVKVZauF2BaVLmXdtpEtNI|CYM=202027|A_CYM=2C2D36",
         "ogbajoj_sheet_cells": [ [ 419749048, "C142" ] ],
@@ -54128,7 +54650,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10041" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-018",
@@ -54142,7 +54665,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10042" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -54272,7 +54796,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10046" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -54594,7 +55119,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10055" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -54724,7 +55250,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10059" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-027",
@@ -54738,7 +55265,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10060" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -54806,7 +55334,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10062" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -54999,7 +55528,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10068" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -55135,7 +55665,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10072" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-033",
@@ -55149,7 +55680,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10073" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -55394,7 +55926,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10080" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -55457,7 +55990,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10082" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -55524,7 +56058,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10084" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-039",
@@ -55551,7 +56086,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10085" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -55622,7 +56158,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10087" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -55823,7 +56360,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10093" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -55886,7 +56424,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10095" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-044",
@@ -55900,7 +56439,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10096" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -55970,7 +56510,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10098" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -56028,7 +56569,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10100" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -56340,7 +56882,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10109" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -56462,7 +57005,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10113" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-053",
@@ -56476,7 +57020,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10114" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP08-053",
@@ -56557,7 +57102,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10116" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -56751,7 +57297,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10122" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-057",
@@ -56832,7 +57379,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10124" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -56899,7 +57447,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10126" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-059",
@@ -56926,7 +57475,8 @@
         "similarity_index": 4,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10127" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -56996,7 +57546,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10129" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-060",
@@ -57360,7 +57911,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10138" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -57496,7 +58048,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10142" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-067",
@@ -57510,7 +58063,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10143" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -57876,7 +58430,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10152" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -58008,7 +58563,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10156" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-074",
@@ -58022,7 +58578,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10157" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -58089,7 +58646,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10159" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -58156,7 +58714,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10161" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -58480,7 +59039,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10170" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -58610,7 +59170,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10174" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-083",
@@ -58624,7 +59185,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10175" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -58690,7 +59252,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10177" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -58898,7 +59461,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10183" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -58965,7 +59529,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10185" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP08-088",
@@ -58979,7 +59544,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10186" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -59041,7 +59607,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10188" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -59934,7 +60501,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10001" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP09-001",
@@ -59948,7 +60516,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10002" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP09-001",
@@ -60077,7 +60646,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10004" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP09-002",
@@ -60091,7 +60661,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10005" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -60133,7 +60704,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10006" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP09-003",
@@ -60147,7 +60719,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10007" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP09-003",
@@ -60161,7 +60734,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10008" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       },
       {
         "card_number": "hBP09-003",
@@ -60231,7 +60805,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10010" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP09-004",
@@ -60245,7 +60820,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10011" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -60301,7 +60877,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10013" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP09-005",
@@ -60374,7 +60951,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10015" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP09-006",
@@ -60388,7 +60966,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10016" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -60430,7 +61009,8 @@
         "similarity_index": 1,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10017" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 0
+        "delta_art_index": 0,
+        "holoburi_art_key": "OSR"
       },
       {
         "card_number": "hBP09-007",
@@ -60444,7 +61024,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10018" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hBP09-007",
@@ -60770,7 +61351,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10027" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-012",
@@ -60906,7 +61488,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10031" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-014",
@@ -60920,7 +61503,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10032" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -61222,7 +61806,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10041" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -61356,7 +61941,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10045" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-021",
@@ -61370,7 +61956,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10046" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -61438,7 +62025,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10048" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -61505,7 +62093,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10050" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -61572,7 +62161,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10052" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -61875,7 +62465,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10061" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -62009,7 +62600,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10065" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-031",
@@ -62023,7 +62615,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10066" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP09-031",
@@ -62236,7 +62829,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10072" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -62304,7 +62898,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10074" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-035",
@@ -62318,7 +62913,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10075" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -62380,7 +62976,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10077" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -62443,7 +63040,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10079" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -62740,7 +63338,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10088" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -62866,7 +63465,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10092" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-044",
@@ -62880,7 +63480,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10093" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -62947,7 +63548,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10095" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -63215,7 +63817,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10103" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -63282,7 +63885,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10105" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-050",
@@ -63296,7 +63900,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10106" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -63590,7 +64195,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10115" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -63726,7 +64332,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10119" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-057",
@@ -63740,7 +64347,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10120" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -63806,7 +64414,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10122" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -64009,7 +64618,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10128" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -64076,7 +64686,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10130" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-062",
@@ -64090,7 +64701,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10131" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -64152,7 +64764,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10133" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -64438,7 +65051,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10142" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -64560,7 +65174,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10146" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-070",
@@ -64574,7 +65189,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10147" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       },
       {
         "card_number": "hBP09-070",
@@ -64649,7 +65265,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10149" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -64715,7 +65332,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10151" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -64908,7 +65526,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10157" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-075",
@@ -64990,7 +65609,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10159" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-076",
@@ -65004,7 +65624,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10160" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -65335,7 +65956,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10169" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-081",
@@ -65484,7 +66106,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10173" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-083",
@@ -65498,7 +66121,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10174" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -65698,7 +66322,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10180" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-086",
@@ -65782,7 +66407,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10182" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-087",
@@ -65796,7 +66422,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10183" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -65864,7 +66491,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10185" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -65931,7 +66559,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10187" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -66604,7 +67233,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10218" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hBP09-105",
@@ -66887,6 +67517,45 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-002": {
+    "card_number": "hBP10-002",
+    "name": { "jp": "アユンダ・リス", "en": "Ayunda Risu" },
+    "card_type": "oshi_holomem",
+    "colors": [ "green" ],
+    "life": 5,
+    "oshi_skills": [
+      {
+        "kind": "stage",
+        "name": { "jp": null, "en": "Cool Ayunda" },
+        "text": {
+          "en": "[1/Turn] After your cheer phase, if your center holomem is <Ayunda Risu>, begin another cheer phase."
+        }
+      },
+      {
+        "holo_power": 5,
+        "name": { "jp": null, "en": "Carefree Risu" },
+        "text": {
+          "en": "[1/Turn] Send all [green, blue, and yellow] cheers from your archive to your center holomem. If you have 10 or more cheers on your stage, during this turn, all of your <Ayunda Risu> get Arts+50."
+        }
+      }
+    ],
+    "max_amount": { "jp": 1 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-002",
+        "manage_id": { },
+        "rarity": "OSR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-002_OSR.webp", "en": null },
+        "img_hash": "v2|H32=bm2KwhkNrmqVNJZqpbWXWsTua1O0aks1pmpZtaZqqbGUqpSqq1IJdfuqraVLlmmq6pRZqKpVWaurVZKqKlWqVVYtpFQ|CYM=282F30",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C4" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -68793,7 +69462,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10002" ],
         "tcgplayer_product_ids": [ 718832 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hEB01-001",
@@ -68807,7 +69477,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10003" ],
         "tcgplayer_product_ids": [ 718833 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -68863,7 +69534,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10005" ],
         "tcgplayer_product_ids": [ 718835 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hEB01-002",
@@ -68877,7 +69549,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10006" ],
         "tcgplayer_product_ids": [ 718836 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -68939,7 +69612,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10008" ],
         "tcgplayer_product_ids": [ 718838 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "OUR"
       },
       {
         "card_number": "hEB01-003",
@@ -68953,7 +69627,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10009" ],
         "tcgplayer_product_ids": [ 718839 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SEC"
       }
     ]
   },
@@ -69007,7 +69682,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10011" ],
         "tcgplayer_product_ids": [ 718841 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69076,7 +69752,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10013" ],
         "tcgplayer_product_ids": [ 718843 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69143,7 +69820,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10015" ],
         "tcgplayer_product_ids": [ 718845 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69206,7 +69884,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10017" ],
         "tcgplayer_product_ids": [ 718847 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69269,7 +69948,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10019" ],
         "tcgplayer_product_ids": [ 718849 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69340,7 +70020,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10021" ],
         "tcgplayer_product_ids": [ 718851 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69408,7 +70089,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10023" ],
         "tcgplayer_product_ids": [ 718853 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hEB01-010",
@@ -69422,7 +70104,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10024" ],
         "tcgplayer_product_ids": [ 718854 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -69483,7 +70166,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10026" ],
         "tcgplayer_product_ids": [ 718856 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69550,7 +70234,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10028" ],
         "tcgplayer_product_ids": [ 718858 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hEB01-012",
@@ -69634,7 +70319,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10030" ],
         "tcgplayer_product_ids": [ 718860 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hEB01-013",
@@ -69718,7 +70404,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10032" ],
         "tcgplayer_product_ids": [ 718862 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69781,7 +70468,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10034" ],
         "tcgplayer_product_ids": [ 718864 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69840,7 +70528,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10036" ],
         "tcgplayer_product_ids": [ 718866 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -69912,7 +70601,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10038" ],
         "tcgplayer_product_ids": [ 718869 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hEB01-017",
@@ -69926,7 +70616,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10039" ],
         "tcgplayer_product_ids": [ 718870 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -69996,7 +70687,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10041" ],
         "tcgplayer_product_ids": [ 718872 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -70065,7 +70757,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10043" ],
         "tcgplayer_product_ids": [ 718874 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -70130,7 +70823,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10045" ],
         "tcgplayer_product_ids": [ 718876 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -70196,7 +70890,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10047" ],
         "tcgplayer_product_ids": [ 718878 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -70263,7 +70958,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10049" ],
         "tcgplayer_product_ids": [ 718880 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -70337,7 +71033,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10051" ],
         "tcgplayer_product_ids": [ 718882 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -70408,7 +71105,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10053" ],
         "tcgplayer_product_ids": [ 718884 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hEB01-024",
@@ -70422,7 +71120,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10054" ],
         "tcgplayer_product_ids": [ 718885 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "UR"
       }
     ]
   },
@@ -72132,7 +72831,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10234" ],
         "tcgplayer_product_ids": [ 699480 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hSD02-002",
@@ -72382,7 +73082,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10179" ],
         "tcgplayer_product_ids": [ 718898 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -72458,7 +73159,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10181" ],
         "tcgplayer_product_ids": [ 718900 ],
-        "delta_art_index": 3
+        "delta_art_index": 3,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hSD02-007",
@@ -72601,7 +73303,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10207" ],
         "tcgplayer_product_ids": [ 657737 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -73222,7 +73925,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10183" ],
         "tcgplayer_product_ids": [ 718902 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hSD03-007",
@@ -73352,7 +74056,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10208" ],
         "tcgplayer_product_ids": [ 657738 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -73922,7 +74627,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10185" ],
         "tcgplayer_product_ids": [ 718904 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hSD04-007",
@@ -74051,7 +74757,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp02/10209" ],
         "tcgplayer_product_ids": [ 657739 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -74334,7 +75041,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp09/10247" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hSD05-002",
@@ -74588,7 +75296,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10187" ],
         "tcgplayer_product_ids": [ 718906 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -74705,7 +75414,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10230" ],
         "tcgplayer_product_ids": [ 670147 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -75153,7 +75863,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10189" ],
         "tcgplayer_product_ids": [ 718908 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hSD06-005",
@@ -75293,7 +76004,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10231" ],
         "tcgplayer_product_ids": [ 674318 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -75614,7 +76326,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp05/10209" ],
         "tcgplayer_product_ids": [ 690140 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hSD07-002",
@@ -75885,7 +76598,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp06/10216" ],
         "tcgplayer_product_ids": [ 699482 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -75999,7 +76713,8 @@
         "similarity_index": 2,
         "yuyutei_sell_paths": [ "/hocg/card/hbp03/10232" ],
         "tcgplayer_product_ids": [ 670917 ],
-        "delta_art_index": 1
+        "delta_art_index": 1,
+        "holoburi_art_key": "SR"
       }
     ]
   },
@@ -76756,7 +77471,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10191" ],
         "tcgplayer_product_ids": [ 718911 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hSD08-007",
@@ -76905,7 +77621,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/heb01/10193" ],
         "tcgplayer_product_ids": [ 718913 ],
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "SR"
       },
       {
         "card_number": "hSD09-002",
@@ -78531,7 +79248,8 @@
         "similarity_index": 3,
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10245" ],
         "tcgplayer_product_ids": null,
-        "delta_art_index": 2
+        "delta_art_index": 2,
+        "holoburi_art_key": "HR"
       },
       {
         "card_number": "hSD11-007",
