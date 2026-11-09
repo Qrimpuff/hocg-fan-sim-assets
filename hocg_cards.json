@@ -49685,17 +49685,17 @@
     "keywords": [
       {
         "type": "gift",
-        "name": { "jp": "絢爛のアインザッツ", "en": "Gorgeous Einsatz" },
+        "name": { "jp": "絢爛のアインザッツ", "en": "Brilliant Einsatz" },
         "text": {
           "jp": "[センターポジション・コラボポジション限定]自分のホロメンが相手のホロメンをダウンさせた時、自分のホロメン1人を選ぶ。このターンの間、選んだホロメン1人のアーツに必要な無色-2。",
-          "en": "[Center Position・Collab Position Only]When your holomem downs your opponent's holomem, choose 1 of your holomem. During this turn, the chosen holomem requires -2 colorless for its Arts."
+          "en": "[Center Position・Collab Position Only] If your holomem downed your opponent's holomem, choose 1 of your holomem. During this turn, the chosen holomem's Arts requires -2 colorless."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "red", "colorless", "colorless" ],
-        "name": { "jp": "不撓のコンチェルタート", "en": "Unyielding Concerto" },
+        "name": { "jp": "不撓のコンチェルタート", "en": "Undaunting Concerto" },
         "power": "130+",
         "advantage": [ "yellow", 50 ],
         "text": {
@@ -51532,7 +51532,7 @@
         "name": { "jp": "闇夜のハンター", "en": "Hunter in the Dark" },
         "text": {
           "jp": "このホロメンのアーツの対象が自分のアーカイブのエールと同色の相手のホロメンなら、このホロメンのアーツダメージは軽減されない。",
-          "en": "If the target of this holomem's Arts is your opponent's holomem with the same color as a cheer in your archive, damage from that Arts cannot be reduced."
+          "en": "If the target of this holomem's Arts is an opponent's holomem with the same color as a cheer in your archive, the damage from this holomem's Arts cannot be reduced."
         }
       }
     ],
@@ -51544,7 +51544,7 @@
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "このホロメンにエールが3枚以上付いているなら、お互いのアーカイブのエール1枚につき、このアーツ+10。",
-          "en": "If 3 or more cheers are attached to this holomem, this Arts gets +10 for each cheer in both players' archive."
+          "en": "If 3 or more cheers are attached to this holomem, this Arts gets +10 for each cheer in both players' archives."
         }
       }
     ],
@@ -68427,6 +68427,50 @@
       }
     ]
   },
+  "hBP10-042": {
+    "card_number": "hBP10-042",
+    "name": { "jp": "モココ・アビスガード", "en": "Mococo Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "red" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Mococo Will Always Be Together with Everyone!" },
+        "text": {
+          "en": "Return 1~2 holomem with the same card name as your Oshi holomem and with #Advent from your archive to your hand."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Synchro Draw" },
+        "power": "120",
+        "advantage": [ "green", 50 ],
+        "text": { "en": "If your center has the same card name as your Oshi holomem, draw 1 card." }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-042",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-042_R.webp", "en": null },
+        "img_hash": "v2|H32=yLGprqW4La6vqqmOS8obx9PRUkVSVfJ8VllWO9ZK3FucItJFVHV8oIqKLdok2U2ZLpuqtqpLKNt12QWtiS6KtqougtI|CYM=021F2D",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C44" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-044": {
     "card_number": "hBP10-044",
     "name": { "jp": "百灯キョーコ", "en": "Hyakuto Kyoko" },
@@ -68625,6 +68669,52 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-055": {
+    "card_number": "hBP10-055",
+    "name": { "jp": "フワワ・アビスガード", "en": "Fuwawa Abyssgard" },
+    "card_type": "holomem",
+    "colors": [ "blue" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Fuwawa Will Always Be Friends with Everyone!" },
+        "text": {
+          "en": "You may send 1~2 cheers from your archive to 1 of your holomem with the same card name as your Oshi holomem and with #Advent."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Synchro Attack" },
+        "power": "100",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If your center has the same card name as your Oshi holomem, deal 30 special damage to 1 of your opponent's holomem."
+        }
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Advent" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-055",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-055_R.webp", "en": null },
+        "img_hash": "v2|H32=lmqpquW4tarrsGmWz6oK1cMaUk8yVVJXWkW6Rdot3EWtiVplVSRMoaLQLdo02SXbL62qqiobpL5VH2W90tKqpqoqltI|CYM=0C1820",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C57" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69211,6 +69301,49 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-084": {
+    "card_number": "hBP10-084",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 190,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Woman Who Thinks of Herself As a Tiger" },
+        "text": {
+          "en": "During your performance phase, all of your center <Koganei Niko>'s yellow cheers count as 2 cheers."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow", "yellow", "yellow" ],
+        "name": { "jp": null, "en": "A Refined Sense" },
+        "power": "140",
+        "advantage": [ "blue", 50 ]
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-084",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-084_RR.webp", "en": null },
+        "img_hash": "v2|H32=6KJMp6mqTZ6jOIuaynSDpdJUUe02VXJJUk1y2VpKdNq2tqRKUnULpGnKpaqlqkvToFaq1mqDUrVUqVYtlYoi2qqq0lo|CYM=28082F",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C86" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
