@@ -48686,12 +48686,12 @@
     "arts": [
       {
         "cheers": [ "green", "green", "colorless", "colorless" ],
-        "name": { "jp": "サージングエキゾースト", "en": "Surging Exhaust" },
+        "name": { "jp": "サージングエキゾースト", "en": "SURGING EXHAUST" },
         "power": "160",
         "advantage": [ "blue", 50 ],
         "text": {
           "jp": "このホロメンのエールを数えて、そのすべてを好きな順でエールデッキの下に戻す。その後、自分の手札がこの能力で戻したエールの枚数と同じになるまで、自分のデッキを引く。",
-          "en": "Count the number of cheers attached to this holomem, and return all cheers attached to this holomem to the bottom of your cheer deck in any order. Draw cards until your hand has the same number of cards as the number of cheers returned."
+          "en": "Count the number of cheers attached to this holomem, and return all of them to the bottom of your cheer deck in any order. Draw cards until your hand has the same number of cards as the number of cheers returned this way."
         }
       }
     ],
@@ -50485,14 +50485,14 @@
         "name": { "jp": "A New Chapter Begins!", "en": "A New Chapter Begins!" },
         "text": {
           "jp": "自分の推しホロメンが〈シオリ・ノヴェラ〉なら、自分のデッキの上から4枚を見る。その中から、サポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。",
-          "en": "If your Oshi holomem is <Shiori Novella>, look at the top 4 cards of your deck. Reveal 1 support card from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
+          "en": "If your Oshi holomem is <Shiori Novella>, look at the top 4 cards of your deck. Reveal 1 support card from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order."
         }
       }
     ],
     "arts": [
       {
         "cheers": [ "blue" ],
-        "name": { "jp": "逃がす訳がないでしょう？", "en": "There's no way I'd let them get away, right?" },
+        "name": { "jp": "逃がす訳がないでしょう？", "en": "There's No Way I'd Let You Escape, Is There?" },
         "power": "20",
         "text": {
           "jp": "相手のバックホロメン1人に特殊ダメージ20を与える。",
@@ -50545,10 +50545,10 @@
     "keywords": [
       {
         "type": "collab",
-        "name": { "jp": "A New Crime & A New Me", "en": "A New Crime & A New Me" },
+        "name": { "jp": "A New Crime & A New Me", "en": "A New Crime & a New Me" },
         "text": {
           "jp": "自分の手札のサポートカード2枚をアーカイブできる:自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。",
-          "en": "You may archive 2 support cards from your hand:Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+50."
+          "en": "You may archive 2 support cards from your hand: Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+50."
         }
       }
     ],
@@ -50560,7 +50560,7 @@
         "advantage": [ "red", 50 ],
         "text": {
           "jp": "自分のアーカイブのエール1枚を自分の#Adventを持つホロメンに送る。その後、自分の推しホロメンが〈シオリ・ノヴェラ〉で、このホロメンにエールが4枚以上付いているなら、このアーツ+100。",
-          "en": "Send 1 cheer from your archive to your holomem with #Advent. If your Oshi holomem is <Shiori Novella> and 4 or more cheers are attached to this holomem, this Arts gets +100."
+          "en": "Send 1 cheer from your archive to your holomem with #Advent. If your Oshi holomem is <Shiori Novella>, and 4 or more cheers are attached to this holomem, this Arts gets +100."
         }
       }
     ],
@@ -52539,7 +52539,7 @@
         "type": "collab",
         "name": {
           "jp": "ここで終わっちゃう虎じゃないんだ！",
-          "en": "This isn't the end for this tiger!"
+          "en": "I Wouldn't Be a Tiger If It Ended Here!"
         },
         "text": {
           "jp": "自分のアーカイブのエール2枚を#FLOW GLOWを持つ自分のホロメン1人に送れる。",
@@ -52550,12 +52550,12 @@
     "arts": [
       {
         "cheers": [ "yellow", "yellow" ],
-        "name": { "jp": "ぶち上げる気合いだ！", "en": "I'm fired up!" },
+        "name": { "jp": "ぶち上げる気合いだ！", "en": "We're All Fired Up!" },
         "power": "80+",
         "advantage": [ "white", 50 ],
         "text": {
           "jp": "このホロメンのエール1枚につき、このアーツ+20。",
-          "en": "This Arts gets +20 for each of this holomem's cheers."
+          "en": "This Arts gets +20 for each cheer attached to this holomem."
         }
       }
     ],
@@ -67836,6 +67836,51 @@
       }
     ]
   },
+  "hBP10-010": {
+    "card_number": "hBP10-010",
+    "name": { "jp": "獅白ぼたん", "en": "Shishiro Botan" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 180,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Shishiro Botan Will Guard It Somehow" },
+        "text": {
+          "en": "[Center Position Only] When this holomem takes Arts damage, if it is 30~50 damage, that damage is not taken."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white" ],
+        "name": { "jp": null, "en": "Stun Combo!" },
+        "power": "20",
+        "text": {
+          "en": "When this Arts deals damage, if your holomem was downed during your opponent's previous turn, rest the target holomem and move it to the back position. That holomem does not become active during your opponent's next reset phase."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Kemomimi" }, { "en": "#Shooter" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-010",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-010_U.webp", "en": null },
+        "img_hash": "v2|H32=jqxSSsTMmXNiWIp1qTwUrquVtKnUqqtRUquvVHrpSJRLqkhpo1iNtlrRltZU66wVKasq1ZK1xavRSmmpqVR2kZaU1qg|CYM=173113",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C12" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-012": {
     "card_number": "hBP10-012",
     "name": { "jp": "獅白ぼたん", "en": "Shishiro Botan" },
@@ -69316,7 +69361,7 @@
         "type": "gift",
         "name": { "jp": null, "en": "Woman Who Thinks of Herself As a Tiger" },
         "text": {
-          "en": "During your performance phase, all of your center <Koganei Niko>'s yellow cheers count as 2 cheers."
+          "en": "During your performance phase, each of your center <Koganei Niko>'s yellow cheers is regarded as 2 cheers."
         }
       }
     ],
