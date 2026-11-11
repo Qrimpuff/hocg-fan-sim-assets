@@ -68187,6 +68187,48 @@
       }
     ]
   },
+  "hBP10-031": {
+    "card_number": "hBP10-031",
+    "name": { "jp": "セシリア・イマーグリーン", "en": "Cecilia Immergreen" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 150,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Slumbering Traum" },
+        "text": {
+          "en": "If your Oshi holomem is <Cecilia Immergreen>, rest this holomem and look at the top 2 cards of your deck. Add 1 card from among them to your hand. Return the remaining cards to the bottom of your deck in any order."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Awakened Since Ancient Times" },
+        "power": "90"
+      }
+    ],
+    "tags": [ { "en": "#EN" }, { "en": "#Justice" }, { "en": "#Language" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-031",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-031_R.webp", "en": null },
+        "img_hash": "v2|H32=rK6n46msMK16UXgNUtLNWoTbzHoeKkJdWhV7kz5VkpOspbStW1WrVqWyULJQKlSqHy9qpUslqFK2nlLSWlpS62qlsnA|CYM=132659",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C33" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-032": {
     "card_number": "hBP10-032",
     "name": { "jp": "輪堂千速", "en": "Rindo Chihaya" },
