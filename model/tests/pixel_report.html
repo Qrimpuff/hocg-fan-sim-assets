@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card illustration review</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #17213a; background: #f3f5fa; --thumb: 9rem; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: #192b4d; color: white; padding: 1.2rem max(1rem, calc((100% - 1600px) / 2)); }
+    h1 { font-size: 1.45rem; margin: 0 0 .35rem; }
+    header p { margin: 0; color: #d3def2; line-height: 1.5; max-width: 70rem; }
+    kbd { background: #2c416a; border-radius: .25rem; padding: 0 .3rem; font-size: .85em; }
+    main { max-width: 1600px; margin: auto; padding: 1rem; }
+    .panel { background: white; border: 1px solid #d5deed; border-radius: .7rem; padding: .9rem 1rem; margin-bottom: .8rem; }
+    .panel.reviews { background: #e8f0fc; border-color: #c1d1eb; }
+    .row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: end; }
+    .stats { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; font-size: .9rem; margin-bottom: .6rem; }
+    .stats b { font-variant-numeric: tabular-nums; }
+    label { display: flex; flex-direction: column; gap: .25rem; font-size: .8rem; font-weight: 650; color: #42516a; }
+    label.search { flex: 1 1 12rem; }
+    input, select, button { font: inherit; color: #17213a; min-height: 2.3rem; border: 1px solid #b9c6d9; border-radius: .4rem; background: white; padding: .4rem .6rem; }
+    button { cursor: pointer; font-weight: 600; }
+    button:hover:not(:disabled) { background: #e9f0fd; }
+    button:disabled { opacity: .45; cursor: default; }
+    button.primary { background: #24549a; border-color: #24549a; color: white; }
+    button.primary:hover:not(:disabled) { background: #1c447e; }
+    :focus-visible { outline: 3px solid #2d72db; outline-offset: 2px; }
+    #message { color: #8b2727; font-weight: 600; margin: .4rem 0 0; }
+    .toolbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .6rem; margin: .8rem 0; }
+    .pagination { display: flex; align-items: center; gap: .5rem; }
+    .muted { color: #52617a; }
+    #results { display: flex; flex-direction: column; gap: .8rem; }
+    .card { background: white; border: 2px solid #d5deed; border-radius: .7rem; padding: .8rem 1rem; }
+    .card.needs { border-color: #e7c35a; }
+    .card.approved { border-color: #7cc49a; background: #f6fcf8; }
+    .card.outdated { border-color: #d77; }
+    .card:focus { outline: 3px solid #2d72db; outline-offset: 2px; }
+    .card-head { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .8rem; }
+    h2 { font-size: 1.1rem; margin: 0; }
+    .badge { border-radius: 2rem; padding: .15rem .55rem; font-size: .75rem; font-weight: 650; background: #edf2fb; color: #354a6d; }
+    .badge.warn { background: #fff0c7; color: #684500; }
+    .badge.ok { background: #d9f2e3; color: #1d5b37; }
+    .badge.bad { background: #fbe0e0; color: #8b2727; }
+    .card-actions { margin-left: auto; display: flex; flex-wrap: wrap; gap: .4rem; }
+    .groups { display: flex; flex-wrap: wrap; gap: .6rem; margin: .7rem 0 .3rem; }
+    .group { border: 1px dashed #a9b8cf; border-radius: .5rem; padding: .4rem; display: flex; flex-direction: column; gap: .3rem; }
+    .group-title { font-size: .78rem; font-weight: 700; color: #42516a; }
+    .group-images { display: flex; flex-wrap: wrap; gap: .4rem; }
+    figure { margin: 0; width: var(--thumb); display: flex; flex-direction: column; gap: .2rem; }
+    figure a { display: flex; align-items: center; justify-content: center; background: #e9edf4; border-radius: .35rem; height: calc(var(--thumb) * 1.4); }
+    figure img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
+    figcaption { font-size: .75rem; font-weight: 650; display: flex; justify-content: space-between; gap: .2rem; align-items: center; }
+    figcaption select { min-height: 1.7rem; padding: 0 .2rem; font-size: .75rem; }
+    figure.focus a { outline: 3px solid #e09c00; }
+    .image-error { color: #a12c2c; padding: .4rem; font-size: .75rem; }
+    details { font-size: .8rem; color: #42516a; }
+    summary { cursor: pointer; font-weight: 600; }
+    table { border-collapse: collapse; margin-top: .4rem; font-variant-numeric: tabular-nums; }
+    th, td { text-align: left; padding: .15rem .6rem .15rem 0; border-bottom: 1px solid #e5eaf2; white-space: nowrap; }
+    tr.pair-row { cursor: pointer; }
+    tr.pair-row:hover { background: #f0f4fb; }
+    td.dubious { color: #8a5a00; font-weight: 700; }
+    td.mismatch { color: #a12c2c; font-weight: 700; }
+    .table-wrap { overflow-x: auto; }
+    #empty { padding: 2rem; text-align: center; background: white; border: 1px dashed #b9c6d9; border-radius: .7rem; }
+    noscript { display: block; color: #a12c2c; font-weight: bold; padding: 1rem; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Card illustration review</h1>
+  <p>Each card shows its images grouped by illustration as suggested by the pixel check. Fix the groups if needed, then approve them; the approved groups are the ground truth for <code>is_similar</code>.
+  Keys: <kbd>j</kbd>/<kbd>k</kbd> next/previous card, <kbd>a</kbd> approve and go to the next card, <kbd>r</kbd> reset to suggestion, <kbd>n</kbd>/<kbd>p</kbd> next/previous page.</p>
+</header>
+<main>
+  <noscript>JavaScript is required to display this report.</noscript>
+  <section class="panel reviews" aria-label="Review progress">
+    <div class="stats" id="stats" role="status" aria-live="polite"></div>
+    <div class="row">
+      <button id="approve-page" class="primary" type="button">Approve all cards on this page</button>
+      <button id="approve-confident" type="button">Bulk-approve confident cards…</button>
+      <button id="export" type="button">Export reviews (JSON)</button>
+      <label>Import reviews (JSON)<input id="import" type="file" accept=".json,application/json"></label>
+      <button id="remove-outdated" type="button" hidden>Remove outdated reviews</button>
+    </div>
+    <p id="message" role="alert" hidden></p>
+  </section>
+  <section class="panel" aria-label="Filters">
+    <div class="row">
+      <label class="search">Search card number, rarity or path
+        <input id="search" type="search" placeholder="e.g. hBP03-105" autocomplete="off">
+      </label>
+      <label>Pixel check
+        <select id="status">
+          <option value="needs">Needs review</option>
+          <option value="confident">Confident</option>
+          <option value="all">All cards</option>
+        </select>
+      </label>
+      <label>Review
+        <select id="review">
+          <option value="unreviewed">Unreviewed</option>
+          <option value="approved">Approved</option>
+          <option value="manual">Approved individually</option>
+          <option value="bulk">Approved in bulk</option>
+          <option value="outdated">Outdated</option>
+          <option value="all">All</option>
+        </select>
+      </label>
+      <label>Hash vs groups
+        <select id="hash">
+          <option value="all">All</option>
+          <option value="disagree">Hash disagrees</option>
+          <option value="agree">Hash agrees</option>
+        </select>
+      </label>
+      <label>Languages
+        <select id="language">
+          <option value="all">All</option>
+          <option value="mixed">JP and EN</option>
+          <option value="jp">JP only</option>
+          <option value="en">EN only</option>
+        </select>
+      </label>
+      <label>Sort by
+        <select id="sort">
+          <option value="priority">Review priority</option>
+          <option value="card">Card number</option>
+          <option value="images">Most images</option>
+        </select>
+      </label>
+      <label>Per page
+        <select id="per-page"><option>10</option><option selected>25</option><option>50</option><option>100</option></select>
+      </label>
+      <label>Thumbnails
+        <select id="thumb"><option value="6rem">Small</option><option value="9rem" selected>Medium</option><option value="13rem">Large</option></select>
+      </label>
+      <button id="reset" type="button">Reset filters</button>
+    </div>
+  </section>
+  <div class="toolbar">
+    <div id="count" class="muted" role="status" aria-live="polite"></div>
+    <nav class="pagination" aria-label="Report pages">
+      <button id="previous" type="button">Previous</button>
+      <span id="page"></span>
+      <button id="next" type="button">Next</button>
+    </nav>
+  </div>
+  <div id="results"></div>
+  <div id="empty" class="muted" hidden>No cards match these filters.</div>
+  <div class="toolbar">
+    <span class="muted">Click an image to open the original. Click a pair in the table to highlight its images.</span>
+    <nav class="pagination" aria-label="Report pages, bottom">
+      <button id="previous-bottom" type="button">Previous</button>
+      <span id="page-bottom"></span>
+      <button id="next-bottom" type="button">Next</button>
+    </nav>
+  </div>
+</main>
+<script id="report-data" type="application/json"><!-- PIXEL_REPORT_DATA --></script>
+<script>
+"use strict";
+const data = JSON.parse(document.getElementById("report-data").textContent);
+const col = Object.fromEntries(data.columns.map((name, index) => [name, index]));
+const $ = id => document.getElementById(id);
+const el = (tag, className, text) => {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;
+  return node;
+};
+const normalizePath = path => path.replace(/\\/g, "/");
+
+// ---- Build cards from pairs ----
+const RARITY_ORDER = ["C", "U", "R", "RR", "SR", "OSR", "UR", "OUR", "HR", "SEC", "S", "SY", "P"];
+const cards = new Map();
+for (const row of data.rows) {
+  const number = row[col.card_number];
+  if (!cards.has(number)) cards.set(number, {number, images: new Map(), pairs: []});
+  const card = cards.get(number);
+  const ids = ["a", "b"].map(side => {
+    const path = normalizePath(row[col["path_" + side]]);
+    if (!card.images.has(path)) {
+      const sha256 = data.fingerprints[path];
+      if (!sha256) throw new Error("Missing image fingerprint for " + path);
+      card.images.set(path, {path, sha256, language: row[col["language_" + side]], rarity: row[col["rarity_" + side]]});
+    }
+    return path;
+  });
+  card.pairs.push({
+    a: ids[0], b: ids[1],
+    verdict: row[col.pixel_verdict],
+    mean: Number(row[col.mean_abs]), window: Number(row[col.window_max]),
+    colorMean: Number(row[col.color_mean]), colorWindow: Number(row[col.color_window_max]),
+    hashSimilar: row[col.hash_similar] === "true", hashDist: Number(row[col.hash_dist]),
+    sameLanguage: row[col.same_language] === "true",
+  });
+}
+function components(images, edges) {
+  const parent = new Map(images.map(image => [image, image]));
+  const find = x => parent.get(x) === x ? x : (parent.set(x, find(parent.get(x))), parent.get(x));
+  for (const [a, b] of edges) parent.set(find(a), find(b));
+  const ids = new Map();
+  return images.map(image => {
+    const root = find(image);
+    if (!ids.has(root)) ids.set(root, ids.size + 1);
+    return ids.get(root);
+  });
+}
+function normalizeGroups(groups) {
+  const ids = new Map();
+  return groups.map(group => (ids.has(group) || ids.set(group, ids.size + 1), ids.get(group)));
+}
+for (const card of cards.values()) {
+  card.list = [...card.images.values()].sort((x, y) =>
+    (x.language === y.language ? 0 : x.language === "JP" ? -1 : 1) ||
+    (RARITY_ORDER.indexOf(x.rarity) + 1 || 99) - (RARITY_ORDER.indexOf(y.rarity) + 1 || 99) ||
+    x.path.localeCompare(y.path));
+  card.index = new Map(card.list.map((image, i) => [image.path, i]));
+  const paths = card.list.map(image => image.path);
+  card.suggested = components(paths, card.pairs.filter(p => p.verdict === "same").map(p => [p.a, p.b]));
+  card.hashGroups = components(paths, card.pairs.filter(p => p.hashSimilar).map(p => [p.a, p.b]));
+  const group = path => card.suggested[card.index.get(path)];
+  card.dubious = card.pairs.filter(p => p.verdict === "dubious").length;
+  card.conflicts = card.pairs.filter(p => p.verdict === "different" && group(p.a) === group(p.b)).length;
+  card.reasons = [];
+  if (card.dubious) card.reasons.push(card.dubious + " dubious pair" + (card.dubious > 1 ? "s" : ""));
+  if (card.conflicts) card.reasons.push(card.conflicts + " conflicting pair" + (card.conflicts > 1 ? "s" : ""));
+  const hashOff = hashMismatches(card, card.suggested).length;
+  if (hashOff) card.reasons.push("hash disagrees on " + hashOff + " pair" + (hashOff > 1 ? "s" : ""));
+  card.needs = card.reasons.length > 0;
+  card.hasJP = card.list.some(image => image.language === "JP");
+  card.hasEN = card.list.some(image => image.language === "EN");
+  card.signature = signature(card.list);
+}
+function signature(images) {
+  return images.map(image => image.path + "@" + image.sha256).sort().join("|");
+}
+function hashMismatches(card, groups) {
+  return card.pairs.filter(p => (groups[card.index.get(p.a)] === groups[card.index.get(p.b)]) !== p.hashSimilar);
+}
+
+// ---- Review storage (version 2: one grouping per card) ----
+const storageKey = "hocg-pixel-reviews-v2:" + data.assetsRoot;
+function validateCardReview(review) {
+  const keys = (object, expected) => object && typeof object === "object" && !Array.isArray(object) &&
+    Object.keys(object).sort().join(",") === expected.slice().sort().join(",");
+  if (!keys(review, ["card_number", "approval", "images"]) || typeof review.card_number !== "string" ||
+      !review.card_number.trim() || !["manual", "bulk"].includes(review.approval) ||
+      !Array.isArray(review.images) || review.images.length < 2) throw new Error("Invalid card review.");
+  for (const image of review.images) {
+    if (!keys(image, ["language", "rarity", "path", "sha256", "group"]) || !["JP", "EN"].includes(image.language) ||
+        typeof image.rarity !== "string" || !image.rarity.trim() || typeof image.path !== "string" ||
+        !image.path.startsWith(image.language === "JP" ? "img/" : "img_en/") ||
+        image.path.split("/").some(part => !part || part === "." || part === "..") ||
+        !/^[0-9a-f]{64}$/.test(image.sha256) || !Number.isInteger(image.group) || image.group < 1) {
+      throw new Error("Invalid image in review of " + review.card_number + ".");
+    }
+  }
+  return review;
+}
+function parseReviews(raw) {
+  const file = JSON.parse(raw);
+  if (file && file.version === 1) throw new Error("Version 1 pair reviews are not supported; review those cards again.");
+  if (!file || file.version !== 2 || !Array.isArray(file.cards)) throw new Error("Invalid or unsupported review file.");
+  const result = new Map();
+  for (const review of file.cards) {
+    validateCardReview(review);
+    if (result.has(review.card_number)) throw new Error("Duplicate review for " + review.card_number + ".");
+    result.set(review.card_number, review);
+  }
+  return result;
+}
+// Compares images and grouping, ignoring image order, group numbering and approval kind.
+function groupingKey(review) {
+  const images = review.images.slice().sort((x, y) => x.path.localeCompare(y.path));
+  const groups = normalizeGroups(images.map(image => image.group));
+  return JSON.stringify(images.map((image, i) => [image.path, image.sha256, groups[i]]));
+}
+const serialize = map => JSON.stringify({version: 2, cards: [...map.values()]});
+function readReviews() {
+  const raw = localStorage.getItem(storageKey);
+  return raw === null ? new Map() : parseReviews(raw);
+}
+function notify(message) {
+  $("message").hidden = !message;
+  $("message").textContent = message || "";
+}
+let reviews = new Map();
+let storageAvailable = true;
+try { reviews = readReviews(); } catch (error) {
+  storageAvailable = false;
+  notify("Cannot read browser review storage: " + error.message + ". Nothing will be saved.");
+}
+function saveReviews(next) {
+  try {
+    localStorage.setItem(storageKey, serialize(next));
+    reviews = next;
+    return true;
+  } catch (error) {
+    notify("Could not save reviews: " + error.message + ". Nothing was saved.");
+    return false;
+  }
+}
+function reviewState(card) {
+  const review = reviews.get(card.number);
+  if (!review) return {state: "unreviewed"};
+  if (signature(review.images) !== card.signature) return {state: "outdated", review};
+  return {state: "approved", review};
+}
+function reviewedGroups(card, review) {
+  const byPath = new Map(review.images.map(image => [image.path, image.group]));
+  return normalizeGroups(card.list.map(image => byPath.get(image.path)));
+}
+const drafts = new Map();
+function currentGroups(card) {
+  if (drafts.has(card.number)) return drafts.get(card.number);
+  const {state, review} = reviewState(card);
+  return state === "approved" ? reviewedGroups(card, review) : card.suggested;
+}
+function makeReview(card, groups, approval) {
+  const normalized = normalizeGroups(groups);
+  return {
+    card_number: card.number,
+    approval,
+    images: card.list.map((image, i) => ({language: image.language, rarity: image.rarity, path: image.path, sha256: image.sha256, group: normalized[i]})),
+  };
+}
+function approve(cardList, approval) {
+  if (!storageAvailable) return false;
+  try {
+    const next = readReviews();
+    for (const card of cardList) {
+      next.set(card.number, makeReview(card, currentGroups(card), approval));
+      drafts.delete(card.number);
+    }
+    if (!saveReviews(next)) return false;
+    notify("");
+    return true;
+  } catch (error) {
+    notify("Could not approve: " + error.message);
+    return false;
+  }
+}
+
+// ---- Rendering ----
+function fileBase(path) {
+  const root = path.replace(/^\\\\\?\\UNC\\/i, "\\\\").replace(/^\\\\\?\\/, "").replace(/\\/g, "/");
+  const encode = part => encodeURIComponent(part);
+  if (root.startsWith("//")) return "file://" + root.slice(2).split("/").map(encode).join("/");
+  if (/^[A-Za-z]:\//.test(root)) return "file:///" + root.slice(0, 2) + root.slice(2).split("/").map(encode).join("/");
+  return "file://" + root.split("/").map(encode).join("/");
+}
+const imageBase = fileBase(data.assetsRoot);
+const imageUrl = path => imageBase + "/" + path.split("/").map(encodeURIComponent).join("/");
+const groupName = n => n <= 26 ? String.fromCharCode(64 + n) : "G" + n;
+
+function renderCard(card) {
+  const {state, review} = reviewState(card);
+  const groups = currentGroups(card);
+  const edited = drafts.has(card.number);
+  const article = el("article", "card" + (state === "approved" && !edited ? " approved" : state === "outdated" ? " outdated" : card.needs ? " needs" : ""));
+  article.tabIndex = 0;
+  article.dataset.card = card.number;
+
+  const head = el("div", "card-head");
+  head.append(el("h2", "", card.number));
+  if (card.needs) head.append(el("span", "badge warn", "Needs review: " + card.reasons.join(", ")));
+  else head.append(el("span", "badge ok", "Pixel check confident"));
+  if (state === "approved") head.append(el("span", "badge ok", review.approval === "bulk" ? "Approved in bulk" : "Approved"));
+  if (state === "outdated") head.append(el("span", "badge bad", "Outdated review (images changed)"));
+  if (edited) head.append(el("span", "badge warn", "Unsaved changes"));
+  const differs = (state === "approved" || edited) && normalizeGroups(groups).join() !== card.suggested.join();
+  if (differs) head.append(el("span", "badge", "Differs from pixel suggestion"));
+  const hashOff = hashMismatches(card, groups);
+  head.append(el("span", hashOff.length ? "badge bad" : "badge ok", hashOff.length ? "Hash disagrees on " + hashOff.length + " pair(s)" : "Hash agrees"));
+
+  const actions = el("div", "card-actions");
+  const approveButton = el("button", "primary", state === "approved" && !edited ? "Approved ✓" : "Approve groups");
+  approveButton.type = "button";
+  approveButton.disabled = !storageAvailable || (state === "approved" && !edited);
+  approveButton.addEventListener("click", () => { if (approve([card], "manual")) render(); });
+  const resetButton = el("button", "", "Reset to suggestion");
+  resetButton.type = "button";
+  resetButton.addEventListener("click", () => { drafts.set(card.number, card.suggested.slice()); render(); });
+  const clearButton = el("button", "", "Clear review");
+  clearButton.type = "button";
+  clearButton.disabled = !storageAvailable || !review;
+  clearButton.addEventListener("click", () => {
+    try {
+      const next = readReviews();
+      next.delete(card.number);
+      drafts.delete(card.number);
+      if (saveReviews(next)) render();
+    } catch (error) { notify("Could not clear review: " + error.message); }
+  });
+  actions.append(approveButton, resetButton, clearButton);
+  head.append(actions);
+
+  const groupCount = Math.max(...groups);
+  const container = el("div", "groups");
+  for (let g = 1; g <= groupCount; g++) {
+    const members = card.list.map((image, i) => [image, i]).filter(([, i]) => groups[i] === g);
+    if (!members.length) continue;
+    const box = el("div", "group");
+    box.append(el("div", "group-title", "Illustration " + groupName(g) + " · " + members.length + " image" + (members.length > 1 ? "s" : "")));
+    const images = el("div", "group-images");
+    for (const [image, i] of members) images.append(renderImage(card, image, i, groups, groupCount));
+    box.append(images);
+    container.append(box);
+  }
+
+  const details = el("details");
+  const interesting = card.pairs.filter(p => p.verdict !== "same" || p.hashSimilar !== (groups[card.index.get(p.a)] === groups[card.index.get(p.b)]));
+  details.append(el("summary", "", "Pairs (" + card.pairs.length + ", " + interesting.length + " not plain matches)"));
+  const wrap = el("div", "table-wrap");
+  const table = el("table");
+  const headRow = el("tr");
+  for (const title of ["Images", "Pixel", "Mean", "Local max", "Color mean / max", "Hash", "Your groups"]) headRow.append(el("th", "", title));
+  table.append(headRow);
+  const describe = path => { const image = card.images.get(path); return image.rarity + " " + image.language + " (" + groupName(groups[card.index.get(path)]) + ")"; };
+  const sorted = card.pairs.slice().sort((x, y) => (y.verdict === "dubious") - (x.verdict === "dubious") || y.window - x.window);
+  for (const pair of sorted) {
+    const tr = el("tr", "pair-row");
+    const same = groups[card.index.get(pair.a)] === groups[card.index.get(pair.b)];
+    tr.append(el("td", "", describe(pair.a) + " ↔ " + describe(pair.b)));
+    tr.append(el("td", pair.verdict === "dubious" ? "dubious" : (pair.verdict === "same") !== same ? "mismatch" : "", pair.verdict));
+    tr.append(el("td", "", pair.mean.toFixed(1)), el("td", "", pair.window.toFixed(1)));
+    tr.append(el("td", "", pair.colorMean.toFixed(1) + " / " + pair.colorWindow.toFixed(1)));
+    tr.append(el("td", pair.hashSimilar !== same ? "mismatch" : "", (pair.hashSimilar ? "similar" : "different") + " (" + pair.hashDist + ")"));
+    tr.append(el("td", "", same ? "same" : "different"));
+    tr.addEventListener("click", () => {
+      for (const figure of article.querySelectorAll("figure")) figure.classList.toggle("focus", [pair.a, pair.b].includes(figure.dataset.path));
+    });
+    table.append(tr);
+  }
+  wrap.append(table);
+  details.append(wrap);
+  article.append(head, container, details);
+  return article;
+}
+
+function renderImage(card, image, i, groups, groupCount) {
+  const figure = el("figure");
+  figure.dataset.path = image.path;
+  const link = el("a");
+  link.href = imageUrl(image.path);
+  link.target = "_blank";
+  link.rel = "noopener";
+  link.title = image.path;
+  const img = el("img");
+  img.src = link.href;
+  img.loading = "lazy";
+  img.alt = card.number + " " + image.rarity + " " + image.language;
+  img.addEventListener("error", () => img.replaceWith(el("span", "image-error", "Image unavailable")));
+  link.append(img);
+  const caption = el("figcaption");
+  caption.append(el("span", "", image.rarity + " · " + image.language));
+  const select = el("select");
+  select.setAttribute("aria-label", "Illustration group for " + image.rarity + " " + image.language);
+  for (let g = 1; g <= groupCount + 1; g++) {
+    const option = el("option", "", g <= groupCount ? groupName(g) : "New");
+    option.value = String(g);
+    option.selected = g === groups[i];
+    select.append(option);
+  }
+  select.addEventListener("change", () => {
+    const next = groups.slice();
+    next[i] = Number(select.value);
+    drafts.set(card.number, normalizeGroups(next));
+    render();
+    [...$("results").children].find(node => node.dataset.card === card.number)?.focus();
+  });
+  caption.append(select);
+  figure.append(link, caption);
+  return figure;
+}
+
+// ---- Filtering and paging ----
+let page = 0;
+let filtered = [];
+const allCards = [...cards.values()];
+function applyFilters(keepPage = false) {
+  const query = $("search").value.trim().toLowerCase();
+  const status = $("status").value, reviewFilter = $("review").value, hash = $("hash").value, language = $("language").value;
+  filtered = allCards.filter(card => {
+    if (query && !card.number.toLowerCase().includes(query) &&
+        !card.list.some(image => image.rarity.toLowerCase() === query || image.path.toLowerCase().includes(query))) return false;
+    if (status === "needs" && !card.needs) return false;
+    if (status === "confident" && card.needs) return false;
+    const {state, review} = reviewState(card);
+    if (reviewFilter === "unreviewed" && state !== "unreviewed") return false;
+    if (reviewFilter === "approved" && state !== "approved") return false;
+    if (reviewFilter === "manual" && !(state === "approved" && review.approval === "manual")) return false;
+    if (reviewFilter === "bulk" && !(state === "approved" && review.approval === "bulk")) return false;
+    if (reviewFilter === "outdated" && state !== "outdated") return false;
+    const off = hashMismatches(card, currentGroups(card)).length > 0;
+    if (hash === "disagree" && !off) return false;
+    if (hash === "agree" && off) return false;
+    if (language === "mixed" && !(card.hasJP && card.hasEN)) return false;
+    if (language === "jp" && card.hasEN) return false;
+    if (language === "en" && card.hasJP) return false;
+    return true;
+  });
+  const sort = $("sort").value;
+  const byNumber = (x, y) => x.number.localeCompare(y.number, undefined, {numeric: true});
+  if (sort === "card") filtered.sort(byNumber);
+  else if (sort === "images") filtered.sort((x, y) => y.list.length - x.list.length || byNumber(x, y));
+  else filtered.sort((x, y) => (y.needs - x.needs) || (y.conflicts - x.conflicts) || (y.dubious - x.dubious) || byNumber(x, y));
+  if (!keepPage) page = 0;
+  render();
+}
+function pageCards() {
+  const size = Number($("per-page").value);
+  return filtered.slice(page * size, (page + 1) * size);
+}
+function render() {
+  const size = Number($("per-page").value);
+  const pages = Math.ceil(filtered.length / size);
+  page = Math.max(0, Math.min(page, pages - 1));
+  $("results").replaceChildren(...pageCards().map(renderCard));
+  $("empty").hidden = filtered.length !== 0;
+  $("count").textContent = filtered.length.toLocaleString() + " of " + allCards.length.toLocaleString() + " cards";
+  for (const suffix of ["", "-bottom"]) {
+    $("page" + suffix).textContent = pages ? "Page " + (page + 1) + " of " + pages : "No pages";
+    $("previous" + suffix).disabled = page === 0;
+    $("next" + suffix).disabled = page + 1 >= pages;
+  }
+  updateStats();
+}
+function updateStats() {
+  let needs = 0, approved = 0, manual = 0, outdated = 0, unreviewedConfident = 0, hashOff = 0;
+  for (const card of allCards) {
+    const {state, review} = reviewState(card);
+    if (card.needs) needs++;
+    if (state === "approved") {
+      approved++;
+      if (review.approval === "manual") manual++;
+      if (hashMismatches(card, reviewedGroups(card, review)).length) hashOff++;
+    }
+    if (state === "outdated") outdated++;
+    if (state !== "approved" && !card.needs) unreviewedConfident++;
+  }
+  const stats = $("stats");
+  stats.replaceChildren();
+  const stat = (label, value) => { const span = el("span", "", label + ": "); span.append(el("b", "", value.toLocaleString())); stats.append(span); };
+  stat("Cards", allCards.length);
+  stat("Need review", needs);
+  stat("Approved", approved);
+  stat("individually", manual);
+  stat("Unapproved confident", unreviewedConfident);
+  stat("Approved cards where hash disagrees", hashOff);
+  if (outdated) stat("Outdated", outdated);
+  $("approve-confident").textContent = "Bulk-approve " + unreviewedConfident.toLocaleString() + " confident cards…";
+  $("approve-confident").disabled = !storageAvailable || unreviewedConfident === 0;
+  $("approve-page").disabled = !storageAvailable || filtered.length === 0;
+  $("export").disabled = reviews.size === 0;
+  $("import").disabled = !storageAvailable;
+  $("remove-outdated").hidden = outdated === 0 && ![...reviews.keys()].some(number => !cards.has(number));
+}
+
+for (const id of ["search", "status", "review", "hash", "language", "sort", "per-page"]) {
+  $(id).addEventListener(id === "search" ? "input" : "change", () => applyFilters());
+}
+$("thumb").addEventListener("change", () => document.documentElement.style.setProperty("--thumb", $("thumb").value));
+const go = delta => { page += delta; render(); $("results").firstElementChild?.focus(); };
+$("previous").addEventListener("click", () => go(-1));
+$("next").addEventListener("click", () => go(1));
+$("previous-bottom").addEventListener("click", () => go(-1));
+$("next-bottom").addEventListener("click", () => go(1));
+$("reset").addEventListener("click", () => {
+  $("search").value = "";
+  for (const id of ["status", "review", "hash", "language", "sort"]) $(id).selectedIndex = 0;
+  applyFilters();
+});
+$("approve-page").addEventListener("click", () => {
+  const list = pageCards();
+  if (!list.length) return;
+  if (!confirm("Approve the groups currently shown for " + list.length + " card(s) on this page?")) return;
+  if (approve(list, "manual")) applyFilters(true);
+});
+$("approve-confident").addEventListener("click", () => {
+  const list = allCards.filter(card => !card.needs && reviewState(card).state !== "approved");
+  if (!confirm("Approve the pixel suggestion for " + list.length + " confident card(s) without viewing them?\nThey are recorded as bulk approvals, which can be excluded from the hash check.")) return;
+  if (approve(list, "bulk")) applyFilters(true);
+});
+$("export").addEventListener("click", () => {
+  const json = JSON.stringify({version: 2, cards: [...reviews.values()].sort((x, y) => x.card_number.localeCompare(y.card_number, undefined, {numeric: true}))}, null, 2) + "\n";
+  const url = URL.createObjectURL(new Blob([json], {type: "application/json"}));
+  const link = el("a");
+  link.href = url;
+  link.download = "card-image-reviews.json";
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+});
+$("import").addEventListener("change", async () => {
+  const file = $("import").files[0];
+  if (!file) return;
+  try {
+    const imported = parseReviews(await file.text());
+    const next = readReviews();
+    for (const [number, review] of imported) {
+      const existing = next.get(number);
+      if (existing && groupingKey(existing) !== groupingKey(review)) {
+        throw new Error("Conflicting review for " + number + "; nothing was imported.");
+      }
+      if (!existing || existing.approval === "bulk") next.set(number, review);
+    }
+    if (saveReviews(next)) { notify(""); applyFilters(true); }
+  } catch (error) {
+    notify("Could not import reviews: " + error.message);
+  } finally {
+    $("import").value = "";
+  }
+});
+$("remove-outdated").addEventListener("click", () => {
+  if (!confirm("Remove reviews whose images changed or are not in this report? Export a backup first if needed.")) return;
+  try {
+    const next = readReviews();
+    for (const number of [...next.keys()]) {
+      const card = cards.get(number);
+      if (!card || signature(next.get(number).images) !== card.signature) next.delete(number);
+    }
+    if (saveReviews(next)) applyFilters(true);
+  } catch (error) { notify("Could not remove reviews: " + error.message); }
+});
+document.addEventListener("keydown", event => {
+  if (event.ctrlKey || event.metaKey || event.altKey || ["INPUT", "SELECT", "TEXTAREA"].includes(event.target.tagName)) return;
+  const shown = [...$("results").children];
+  const current = event.target.closest?.(".card");
+  const index = current ? shown.indexOf(current) : -1;
+  const focus = i => { const target = shown[Math.max(0, Math.min(i, shown.length - 1))]; target?.focus(); target?.scrollIntoView({block: "start"}); };
+  if (event.key === "j") { focus(index + 1); event.preventDefault(); }
+  else if (event.key === "k") { focus(index - 1); event.preventDefault(); }
+  else if (event.key === "n" && !$("next").disabled) go(1);
+  else if (event.key === "p" && !$("previous").disabled) go(-1);
+  else if ((event.key === "a" || event.key === "r") && current) {
+    const card = cards.get(current.dataset.card);
+    if (event.key === "r") drafts.set(card.number, card.suggested.slice());
+    else if (!approve([card], "manual")) return;
+    render();
+    const after = [...$("results").children];
+    const target = after[Math.min(event.key === "a" ? index + 1 : index, after.length - 1)];
+    target?.focus();
+    target?.scrollIntoView({block: "start"});
+    event.preventDefault();
+  }
+});
+window.addEventListener("storage", event => {
+  if (event.key !== storageKey) return;
+  try { reviews = readReviews(); applyFilters(true); } catch (error) { notify("Could not refresh reviews: " + error.message); }
+});
+applyFilters();
+</script>
+</body>
+</html>

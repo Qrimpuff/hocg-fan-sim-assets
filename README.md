@@ -122,6 +122,9 @@ Options:
       --gc
           Remove unused assets
 
+      --rebuild-image-similarity
+          Recompute stored image hashes and similarity indices from local images. This can renumber existing similarity indices
+
       --qna
           Generate Q&A file from official sources. Compatible with --clean and --ogbajoj-sheet. Does not update cards/assets other than hocg_qnas.json
   
@@ -174,6 +177,97 @@ Options:
    ```
    cargo run --release -- --qna --ogbajoj-sheet
    ```
+
+### Reviewing illustration groups (ground truth for the image hash)
+
+With `assets/hocg_cards.json` and the referenced images available locally, run:
+
+```powershell
+$env:PIXEL_OUT = "pixel-candidates.tsv"
+$env:PIXEL_HTML_OUT = "pixel-candidates.html"
+cargo test --release -p hocg-fan-sim-assets-model --test mod test_pixel_same_card_pairs -- --ignored --nocapture
+```
+
+Either output variable can be omitted. For every card number, every pair of its
+Japanese and English images (excluding generated proxies) is aligned and compared
+pixel by pixel. Each pair gets a pixel verdict:
+
+- `same`: only tiny differences such as rarity stamps, foil or scan noise.
+- `different`: clearly different images.
+- `dubious`: a local difference that could be a changed emblem or detail, or text.
+
+Japanese/English pairs use looser thresholds because translated text differs, so the
+pixel check cannot rule out small art changes between languages. `same` pairs are
+joined into suggested illustration groups for each card. A card **needs review** if it
+has a dubious pair, a `different` pair inside a suggested group, or a pair where the
+current `is_similar` disagrees with the suggestion. The other cards are **confident**.
+
+Open the HTML report locally (the images are read from the local assets directory).
+It shows one card at a time with its images grouped by illustration:
+
+- Move an image to another group with the selector under it, then **Approve groups**.
+- **Approve all cards on this page** records the groups shown for every visible card.
+- **Bulk-approve confident cards** accepts the pixel suggestion for every confident card
+  without viewing it. These are recorded as `bulk` approvals.
+- Keys: `j`/`k` next/previous card, `a` approve and move on, `r` reset, `n`/`p` pages.
+
+By default, the report lists unreviewed cards that need review. Decisions are saved in
+the current browser, but browser storage can be cleared; use **Export reviews (JSON)**
+to save a backup. Import merges reviews and refuses a file whose grouping conflicts
+with an existing review. Reviews record each image's SHA-256, and a review becomes
+outdated when the images of the card change.
+
+To recreate the HTML from a previously generated TSV without rerunning the image
+comparisons, use:
+
+```powershell
+$env:PIXEL_IN = "pixel-candidates.tsv"
+$env:PIXEL_HTML_OUT = "pixel-candidates.html"
+cargo test --release -p hocg-fan-sim-assets-model --test mod test_pixel_html_from_tsv -- --ignored --nocapture
+```
+
+The manually reviewed groups are committed in `model/tests/card-image-reviews.json`.
+When you review more cards, replace that file with the export. Check the current hash
+against it with (requires the assets directory):
+
+```powershell
+$env:PIXEL_REVIEW_IN = "card-image-reviews.json"   # optional: another review file
+$env:PIXEL_REVIEW_APPROVAL = "manual"   # optional: manual, bulk or all (default)
+cargo test --release -p hocg-fan-sim-assets-model --test mod test_reviewed_pairs_match_hash -- --ignored --nocapture
+```
+
+Every pair of images of a reviewed card is checked: images in the same group must be
+`is_similar`, all others must not. The test lists false merges and false splits and
+fails if there are any, or if an image is missing or its SHA-256 has changed.
+Confident cards agree with the current hash by definition, so bulk approvals only
+protect against regressions; the individually reviewed cards are where the hash
+can be improved.
+
+Image hashes are version 3 (`v3|H32=..|CYM=..|G=..|L=..`). `is_similar` compares
+official images (with a `manage_id`) using a coarse color grid of the card, with
+thresholds that depend only on whether both images have the same language and rarity.
+Unreleased images (samples, sheet crops, scans) and older v2 hashes are compared with
+the tolerant perceptual hash distance, which is also used to match images from other
+sources. The only per-card exception is `SAME_ACROSS_LANGUAGES` in `img_hash.rs`, for
+prints whose layout differs between languages. Older hashes do not have the grid, so
+rebuild them as described below.
+
+The tests recompute hashes from the images and never modify the asset database.
+Stored hashes and similarity indices are not updated when the hash changes. To rebuild
+them, back up the asset database and run:
+
+```
+cargo run --release -- --rebuild-image-similarity
+```
+
+Run it right after updating to a new hash version: until then, new hashes are compared
+with old ones using only the perceptual hash distance. The hash of an official
+illustration comes from its official Japanese image when there is one, otherwise from
+its official English image; the rebuild fails without changing anything if one of
+these images is missing or unreadable. Unreleased illustrations keep their hash, which
+comes from where their image was found (e.g. a sheet thumbnail). All illustrations are
+then regrouped, so existing similarity indices can change. The rebuild cannot recover
+illustrations that have already been merged into one entry.
 
 ## Directory Structure
 

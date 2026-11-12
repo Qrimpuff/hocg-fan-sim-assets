@@ -23,7 +23,7 @@ use hocg_fan_sim_assets_cli::{
 };
 use hocg_fan_sim_assets_model::{
     self as hocg, CardsDatabase, QnaDatabase,
-    img_hash::{can_merge, is_similar},
+    img_hash::{can_merge, hash_image_language, is_similar, to_image_hash},
 };
 use itertools::Itertools;
 use json_pretty_compact::PrettyCompactFormatter;
@@ -111,6 +111,11 @@ struct Args {
     /// Remove unused assets
     #[arg(long)]
     gc: bool,
+
+    /// Recompute stored image hashes and similarity indices from local images.
+    /// This can renumber existing similarity indices.
+    #[arg(long, conflicts_with_all = ["qna", "zip_images"])]
+    rebuild_image_similarity: bool,
 
     /// Generate Q&A file from official sources. Does not rely on asset files.
     /// Compatible with --clean and --ogbajoj-sheet.
@@ -277,6 +282,11 @@ fn main() {
     // check tags consistency
     if args.hololive || args.ogbajoj_sheet {
         check_tags_consistency(&all_cards);
+    }
+
+    if args.rebuild_image_similarity {
+        rebuild_image_hashes(&mut all_cards, &images_jp_path, &images_en_path)
+            .unwrap_or_else(|error| panic!("cannot rebuild image similarity: {error}"));
     }
 
     // merge english cards
@@ -674,5 +684,113 @@ fn update_similarity_index(all_cards: &mut CardsDatabase) {
                 assigned_indices.insert(next_similarity_index);
             }
         }
+    }
+}
+
+/// Recomputes the hash of every official illustration from its saved image, then resets
+/// the similarity indices so that they are regrouped. Unreleased illustrations keep their
+/// hash, which comes from where their image was found (e.g. a sheet thumbnail).
+/// Nothing is changed if an image cannot be read.
+fn rebuild_image_hashes(
+    all_cards: &mut CardsDatabase,
+    images_jp_path: &Path,
+    images_en_path: &Path,
+) -> Result<(), String> {
+    let mut updates = Vec::new();
+    for (number, card) in all_cards.iter() {
+        for (index, illust) in card.illustrations.iter().enumerate() {
+            let Some(language) = hash_image_language(illust) else {
+                continue;
+            };
+            let images_path = match language {
+                hocg::Language::Japanese => images_jp_path,
+                hocg::Language::English => images_en_path,
+            };
+            let path = images_path.join(illust.img_path.value(language).as_deref().unwrap());
+            let image = image::open(&path)
+                .map_err(|error| format!("failed to open {}: {error}", path.display()))?;
+            updates.push((
+                number.clone(),
+                index,
+                to_image_hash(&image.into_rgb8(), Some(language)),
+            ));
+        }
+    }
+    println!("Rebuilt {} image hashes", updates.len());
+    for (number, index, hash) in updates {
+        all_cards.get_mut(&number).unwrap().illustrations[index].img_hash = hash;
+    }
+    for illust in all_cards
+        .values_mut()
+        .flat_map(|card| card.illustrations.iter_mut())
+        .filter(|illust| !illust.img_hash.is_empty())
+    {
+        illust.similarity_index = 0;
+    }
+    Ok(())
+}
+
+#[cfg(test)]
+mod image_similarity_tests {
+    use super::*;
+    use hocg::{Card, CardIllustration, CardRarity, Localized};
+
+    fn card_with_images() -> CardsDatabase {
+        let illustrations = [
+            ("hBP09-105_U.webp", CardRarity::Uncommon),
+            ("hBP09-105_P.webp", CardRarity::Promo),
+        ]
+        .into_iter()
+        .zip(1..)
+        .map(|((path, rarity), manage_id)| CardIllustration {
+            card_number: "hBP09-105".to_owned(),
+            rarity,
+            manage_id: Localized::jp(std::collections::BTreeSet::from([manage_id])),
+            img_path: Localized::jp(path.to_owned()),
+            img_hash: "old hash".to_owned(),
+            similarity_index: 1,
+            ..Default::default()
+        })
+        .collect();
+        [(
+            "hBP09-105".to_owned(),
+            Card {
+                card_number: "hBP09-105".to_owned(),
+                illustrations,
+                ..Default::default()
+            },
+        )]
+        .into_iter()
+        .collect()
+    }
+
+    fn test_images() -> PathBuf {
+        PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../model/tests/card_images")
+    }
+
+    #[test]
+    fn rebuild_regroups_existing_indices() {
+        let mut cards = card_with_images();
+        let images = test_images();
+        rebuild_image_hashes(&mut cards, &images, &images).unwrap();
+        update_similarity_index(&mut cards);
+        let illustrations = &cards["hBP09-105"].illustrations;
+        assert_ne!(
+            illustrations[0].similarity_index,
+            illustrations[1].similarity_index
+        );
+        assert!(!is_similar(&illustrations[0], &illustrations[1]));
+    }
+
+    #[test]
+    fn rebuild_does_not_change_cards_if_an_image_is_missing() {
+        let mut cards = card_with_images();
+        let images = test_images();
+        cards.get_mut("hBP09-105").unwrap().illustrations[1]
+            .img_path
+            .japanese = Some("missing-image.webp".to_owned());
+        let expected = cards.clone();
+        assert!(rebuild_image_hashes(&mut cards, &images, &images).is_err());
+        assert_eq!(cards, expected);
     }
 }

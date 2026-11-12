@@ -2,13 +2,21 @@
 name = "hocg-fan-sim-assets-model"
 edition.workspace = true
 version.workspace = true
+autotests = false
 
 [dependencies]
 image = { workspace = true }
 image_hasher = { workspace = true }
+base64 = { workspace = true }
 itertools = { workspace = true }
 palette = { workspace = true }
 serde = { workspace = true }
 
 [dev-dependencies]
 serde_json = { workspace = true }
+sha2 = { workspace = true }
+tempfile = { workspace = true }
+
+[[test]]
+name = "mod"
+path = "tests/mod.rs"

@@ -2,13 +2,13 @@ use std::collections::BTreeMap;
 
 use hocg_fan_sim_assets_model::{
     CardRarity, CardsDatabase,
-    img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash, to_image_hash},
+    img_hash::{dist_hash, to_image_hash},
 };
 use image::{ImageFormat, RgbImage};
 use itertools::Itertools;
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 
-use crate::http_client;
+use crate::{http_client, utils::SharedImageMatches};
 
 const HOLOBURI_RARITIES_URL: &str = "https://holoburi.com/cards/rarities.json";
 const HOLOBURI_CARDS_URL: &str = "https://holoburi.com/cards/";
@@ -47,7 +47,7 @@ pub fn import_holoburi(all_cards: &mut CardsDatabase) {
         let mut dists: Vec<(&str, usize, u64)> = arts
             .par_iter()
             .flat_map(|(art_key, img)| {
-                let h1 = to_image_hash(&card_number, img);
+                let h1 = to_image_hash(img, None);
                 illustrations
                     .iter()
                     .enumerate()
@@ -81,21 +81,17 @@ pub fn import_holoburi(all_cards: &mut CardsDatabase) {
         }
 
         // to handle multiple illustrations with the same image
-        let mut already_set: BTreeMap<&str, u64> = BTreeMap::new();
+        let mut matches = SharedImageMatches::default();
         for (art_key, idx, dist) in dists {
-            let min_dist = *already_set.get(art_key).unwrap_or(&u64::MAX);
             let illust = &mut card.illustrations[idx];
-            // at least one illustration per art key, but if there are multiple, allow some tolerance
-            if illust.holoburi_art_key.is_none() && dist <= min_dist.max(DIST_TOLERANCE_DIFF_RARITY)
-            {
+            if illust.holoburi_art_key.is_none() && matches.accept(art_key, illust, dist) {
                 illust.holoburi_art_key = Some(art_key.to_string());
-                already_set.insert(art_key, dist.min(min_dist));
                 updated_count += 1;
             }
         }
 
         for art_key in &art_keys {
-            if !already_set.contains_key(art_key.as_str()) {
+            if !matches.contains(&art_key.as_str()) {
                 println!("NO MATCH: [{card_number}, {art_key}]");
             }
         }

@@ -8,7 +8,10 @@ use std::{
 
 use hocg_fan_sim_assets_model::{
     CardIllustration, CardsDatabase, Language,
-    img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash, path_to_image_hash, to_image_hash},
+    img_hash::{
+        DIST_TOLERANCE_DIFF_RARITY, dist_hash, hash_image_language, path_to_image_hash,
+        to_image_hash,
+    },
 };
 use image::DynamicImage;
 use itertools::Itertools;
@@ -196,12 +199,14 @@ pub fn download_images(
             .get_mut(*illust_idx)
             .unwrap();
         *card.img_last_modified.value_mut(language) = img_last_modified;
-        // update image hash
-        card.img_hash = path_to_image_hash(
-            &card.card_number,
-            &images_path.join(card.img_path.value(language).as_deref().unwrap()),
-        );
-        card.similarity_index = 0;
+        // update image hash, if it comes from this image
+        if hash_image_language(card) == Some(language) {
+            card.img_hash = path_to_image_hash(
+                &images_path.join(card.img_path.value(language).as_deref().unwrap()),
+                Some(language),
+            );
+            card.similarity_index = 0;
+        }
     }
 
     let image_count = image_count.load(std::sync::atomic::Ordering::Relaxed);
@@ -474,7 +479,7 @@ fn dist_proxy_image(card: &CardIllustration, proxy_img: DynamicImage) -> u64 {
         );
     }
 
-    let h1 = to_image_hash(&card.card_number, &proxy_img.into_rgb8());
+    let h1 = to_image_hash(&proxy_img.into_rgb8(), None);
     let h2 = &card.img_hash;
 
     let dist = dist_hash(&h1, h2);

@@ -1,12 +1,12 @@
 use std::{
-    collections::{BTreeMap, BTreeSet, HashMap},
+    collections::{BTreeSet, HashMap},
     sync::Arc,
     time::Duration,
 };
 
 use hocg_fan_sim_assets_model::{
-    CardIllustration, CardsDatabase,
-    img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash, to_image_hash},
+    CardIllustration, CardsDatabase, Language,
+    img_hash::{dist_hash, to_image_hash},
 };
 use image::DynamicImage;
 use indexmap::IndexMap;
@@ -19,9 +19,16 @@ use reqwest::Url;
 use scraper::{Html, Selector};
 use serde_json::Value;
 
-use crate::{DEBUG, PriceCheckMode, http_client};
+use crate::{DEBUG, PriceCheckMode, http_client, utils::SharedImageMatches};
 
 const YUYUTEI_SELL_URL_ROOT: &str = "https://yuyu-tei.jp/sell";
+
+/// Yuyutei listings that the image comparison assigns to the wrong illustration,
+/// with the Japanese image of the right one.
+const FIXED_YUYUTEI_LISTINGS: &[(&str, &str)] = &[
+    // the promo with the skull pose, too close to the other promo in the thumbnail
+    ("/hocg/card/promo-hbp10/10019", "hPR/hBP02-028_P_2.webp"),
+];
 
 pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     println!(
@@ -241,9 +248,13 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     illustration.card_number.clone(),
                     illustration.rarity.to_string(),
                 )) {
-                    // use the first url
+                    // use the first url, preferably from the set of the illustration
                     if !urls.is_empty() {
-                        let (url, _, _) = urls.swap_remove(0);
+                        let index = urls
+                            .iter()
+                            .position(|(url, _, _)| yuyutei_listing_of(url, illustration))
+                            .unwrap_or(0);
+                        let (url, _, _) = urls.swap_remove(index);
                         illustration.yuyutei_sell_paths = Some([url.to_owned()].into());
                         // group by image, some entries are duplicated
                         if let Some(img_path) = illustration.img_path.japanese.as_deref() {
@@ -333,6 +344,18 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                             })
                             .collect();
 
+                        // a listing goes to the illustrations of its set when there are some
+                        // (e.g. heb01 and hEB01), the image is not enough to tell apart reprints
+                        // with a different art. promos and other listings use the image only
+                        let urls_with_set: BTreeSet<_> = dists
+                            .iter()
+                            .filter(|(url, illust, _)| yuyutei_listing_of(url, &illust.lock()))
+                            .map(|(url, _, _)| url.clone())
+                            .collect();
+                        dists.retain(|(url, illust, _)| {
+                            !urls_with_set.contains(url) || yuyutei_listing_of(url, &illust.lock())
+                        });
+
                         // sort by best dist, then update the url
                         dists.sort_by_key(|d| {
                             (
@@ -349,18 +372,16 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         });
 
                         // modify the cards here, to avoid borrowing issue
-                        let mut already_set = BTreeMap::new();
+                        // to handle multiple cards with the same image
+                        let mut matches = SharedImageMatches::default();
                         for (url, illust, dist) in dists {
                             let mut illust = illust.lock();
-                            // to handle multiple cards with the same image
-                            let min_dist = *already_set.get(&url).unwrap_or(&(u64::MAX));
-                            if dist <= min_dist.max(DIST_TOLERANCE_DIFF_RARITY) {
+                            if matches.accept(url.clone(), &illust, dist) {
                                 illust
                                     .yuyutei_sell_paths
                                     .get_or_insert_default()
                                     .insert(url.to_owned());
                                 urls.retain(|(p, _, _)| *p != url);
-                                already_set.insert(url, dist.min(min_dist));
                                 *url_count.lock() += 1;
 
                                 if DEBUG {
@@ -393,6 +414,32 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     }
 }
 
+/// Whether a Yuyutei listing should go to this illustration rather than another one of
+/// the same rarity: a fixed listing goes to its image, others to the illustrations of
+/// their set.
+fn yuyutei_listing_of(url: &str, illust: &CardIllustration) -> bool {
+    match FIXED_YUYUTEI_LISTINGS
+        .iter()
+        .find(|(fixed, _)| *fixed == url)
+    {
+        Some((_, img_path)) => illust.img_path.japanese.as_deref() == Some(*img_path),
+        None => same_yuyutei_set(url, illust),
+    }
+}
+
+/// Whether a Yuyutei listing (e.g. "/hocg/card/heb01/10099") is from the set of the
+/// illustration's image folder (e.g. "hEB01/hBP01-081_UR_02.webp").
+fn same_yuyutei_set(url: &str, illust: &CardIllustration) -> bool {
+    let set = url.trim_matches('/').split('/').nth(2);
+    let folder = illust
+        .img_path
+        .japanese
+        .as_deref()
+        .and_then(|path| path.split('/').next());
+    set.zip(folder)
+        .is_some_and(|(set, folder)| set.eq_ignore_ascii_case(folder))
+}
+
 fn dist_yuyutei_image(card: &CardIllustration, yuyutei_img: DynamicImage) -> u64 {
     // compare the image to the card
     println!(
@@ -400,7 +447,7 @@ fn dist_yuyutei_image(card: &CardIllustration, yuyutei_img: DynamicImage) -> u64
         card.img_path.japanese.as_deref().unwrap_or_default()
     );
 
-    let h1 = to_image_hash(&card.card_number, &yuyutei_img.into_rgb8());
+    let h1 = to_image_hash(&yuyutei_img.into_rgb8(), Some(Language::Japanese));
     let h2 = &card.img_hash;
 
     let dist = dist_hash(&h1, h2);
@@ -753,18 +800,16 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                         });
 
                         // modify the cards here, to avoid borrowing issue
-                        let mut already_set = BTreeMap::new();
+                        // to handle multiple cards with the same image
+                        let mut matches = SharedImageMatches::default();
                         for (product_id, illust, dist) in dists {
                             let mut illust = illust.lock();
-                            // to handle multiple cards with the same image
-                            let min_dist = *already_set.get(&product_id).unwrap_or(&(u64::MAX));
-                            if dist <= min_dist.max(DIST_TOLERANCE_DIFF_RARITY) {
+                            if matches.accept(product_id, &illust, dist) {
                                 illust
                                     .tcgplayer_product_ids
                                     .get_or_insert_default()
                                     .insert(product_id);
                                 product_ids.retain(|(u, _)| *u != product_id);
-                                already_set.insert(product_id, dist.min(min_dist));
                                 *product_ids_count.lock() += 1;
 
                                 if DEBUG {
@@ -805,7 +850,7 @@ fn dist_tcgplayer_image(card: &CardIllustration, tcgplayer_img: DynamicImage) ->
         card.img_path.english.as_deref().unwrap_or_default()
     );
 
-    let h1 = to_image_hash(&card.card_number, &tcgplayer_img.into_rgb8());
+    let h1 = to_image_hash(&tcgplayer_img.into_rgb8(), Some(Language::English));
     let h2 = &card.img_hash;
 
     let dist = dist_hash(&h1, h2);
@@ -817,4 +862,41 @@ fn dist_tcgplayer_image(card: &CardIllustration, tcgplayer_img: DynamicImage) ->
     }
 
     dist
+}
+
+#[cfg(test)]
+mod tests {
+    use hocg_fan_sim_assets_model::Localized;
+
+    use super::*;
+
+    #[test]
+    fn fixed_yuyutei_listing_goes_to_its_image() {
+        let illust = |path: &str| CardIllustration {
+            img_path: Localized::jp(path.to_owned()),
+            ..Default::default()
+        };
+        let url = "/hocg/card/promo-hbp10/10019";
+        assert!(yuyutei_listing_of(url, &illust("hPR/hBP02-028_P_2.webp")));
+        assert!(!yuyutei_listing_of(url, &illust("hPR/hBP02-028_P.webp")));
+        assert!(yuyutei_listing_of(
+            "/hocg/card/heb01/10099",
+            &illust("hEB01/hBP01-081_UR_02.webp")
+        ));
+    }
+
+    #[test]
+    fn yuyutei_set_matches_the_image_folder() {
+        let illust = CardIllustration {
+            img_path: Localized::jp("hEB01/hBP01-081_UR_02.webp".to_owned()),
+            ..Default::default()
+        };
+        assert!(same_yuyutei_set("/hocg/card/heb01/10099", &illust));
+        assert!(!same_yuyutei_set("/hocg/card/hbp01/10100", &illust));
+        assert!(!same_yuyutei_set("/hocg/card/promo-hbp10/10016", &illust));
+        assert!(!same_yuyutei_set(
+            "/hocg/card/heb01/10099",
+            &CardIllustration::default()
+        ));
+    }
 }
