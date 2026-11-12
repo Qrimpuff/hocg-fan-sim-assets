@@ -793,6 +793,188 @@ pub enum CardOrderingField {
     CardNumber,
 }
 
+/// Talent names, in the order of the official website:
+/// https://hololive.hololivepro.com/en/talents
+const HOLOMEM_NAMES: &[&str] = &[
+    // Gen 0
+    "ときのそら",
+    "Tokino Sora",
+    "ロボ子さん",
+    "Robocosan",
+    "AZKi",
+    "AZKi",
+    "さくらみこ",
+    "Sakura Miko",
+    "星街すいせい",
+    "Hoshimachi Suisei",
+    // Gen 1
+    "アキ・ローゼンタール",
+    "Aki Rosenthal",
+    "赤井はあと",
+    "Akai Haato",
+    "白上フブキ",
+    "Shirakami Fubuki",
+    "夏色まつり",
+    "Natsuiro Matsuri",
+    // Gen 2
+    "紫咲シオン",
+    "Murasaki Shion",
+    "百鬼あやめ",
+    "Nakiri Ayame",
+    "癒月ちょこ",
+    "Yuzuki Choco",
+    "大空スバル",
+    "Oozora Subaru",
+    "湊あくあ",
+    "Minato Aqua",
+    // GAMERS
+    "大神ミオ",
+    "Ookami Mio",
+    "猫又おかゆ",
+    "Nekomata Okayu",
+    "戌神ころね",
+    "Inugami Korone",
+    // Gen 3
+    "兎田ぺこら",
+    "Usada Pekora",
+    "不知火フレア",
+    "Shiranui Flare",
+    "白銀ノエル",
+    "Shirogane Noel",
+    "宝鐘マリン",
+    "Houshou Marine",
+    // Gen 4
+    "天音かなた",
+    "Amane Kanata",
+    "角巻わため",
+    "Tsunomaki Watame",
+    "常闇トワ",
+    "Tokoyami Towa",
+    "姫森ルーナ",
+    "Himemori Luna",
+    "桐生ココ",
+    "Kiryu Coco",
+    // Gen 5
+    "雪花ラミィ",
+    "Yukihana Lamy",
+    "桃鈴ねね",
+    "Momosuzu Nene",
+    "獅白ぼたん",
+    "Shishiro Botan",
+    "尾丸ポルカ",
+    "Omaru Polka",
+    // holoX
+    "ラプラス・ダークネス",
+    "La+ Darknesss",
+    "鷹嶺ルイ",
+    "Takane Lui",
+    "博衣こより",
+    "Hakui Koyori",
+    "沙花叉クロヱ",
+    "Sakamata Chloe",
+    "風真いろは",
+    "Kazama Iroha",
+    // Indonesia
+    "アユンダ・リス",
+    "Ayunda Risu",
+    "ムーナ・ホシノヴァ",
+    "Moona Hoshinova",
+    "アイラニ・イオフィフティーン",
+    "Airani Iofifteen",
+    "クレイジー・オリー",
+    "Kureiji Ollie",
+    "アーニャ・メルフィッサ",
+    "Anya Melfissa",
+    "パヴォリア・レイネ",
+    "Pavolia Reine",
+    "ベスティア・ゼータ",
+    "Vestia Zeta",
+    "カエラ・コヴァルスキア",
+    "Kaela Kovalskia",
+    "こぼ・かなえる",
+    "Kobo Kanaeru",
+    // English - Myth
+    "森カリオペ",
+    "Mori Calliope",
+    "小鳥遊キアラ",
+    "Takanashi Kiara",
+    "一伊那尓栖",
+    "Ninomae Ina'nis",
+    "がうる・ぐら",
+    "Gawr Gura",
+    "ワトソン・アメリア",
+    "Watson Amelia",
+    // Project: HOPE
+    "IRyS",
+    "IRyS",
+    // Council
+    "オーロ・クロニー",
+    "Ouro Kronii",
+    "七詩ムメイ",
+    "Nanashi Mumei",
+    "ハコス・ベールズ",
+    "Hakos Baelz",
+    "九十九佐命",
+    "Tsukumo Sana",
+    "セレス・ファウナ",
+    "Ceres Fauna",
+    // Advent
+    "シオリ・ノヴェラ",
+    "Shiori Novella",
+    "古石ビジュー",
+    "Koseki Bijou",
+    "ネリッサ・レイヴンクロフト",
+    "Nerissa Ravencroft",
+    "フワワ・アビスガード",
+    "Fuwawa Abyssgard",
+    "モココ・アビスガード",
+    "Mococo Abyssgard",
+    // Justice
+    "エリザベス・ローズ・ブラッドフレイム",
+    "Elizabeth Rose Bloodflame",
+    "ジジ・ムリン",
+    "Gigi Murin",
+    "セシリア・イマーグリーン",
+    "Cecilia Immergreen",
+    "ラオーラ・パンテーラ",
+    "Raora Panthera",
+    // DEV_IS - ReGLOSS
+    "火威青",
+    "Hiodoshi Ao",
+    "音乃瀬奏",
+    "Otonose Kanade",
+    "一条莉々華",
+    "Ichijou Ririka",
+    "儒烏風亭らでん",
+    "Juufuutei Raden",
+    "轟はじめ",
+    "Todoroki Hajime",
+    // FLOW GLOW
+    "響咲リオナ",
+    "Isaki Riona",
+    "虎金妃笑虎",
+    "Koganei Niko",
+    "水宮枢",
+    "Mizumiya Su",
+    "輪堂千速",
+    "Rindo Chihaya",
+    "綺々羅々ヴィヴィ",
+    "Kikirara Vivi",
+    // Staff
+    "春先のどか",
+    "Harusaki Nodoka",
+    "友人A（えーちゃん）",
+    "Friend A (A-chan)",
+];
+
+/// Lowercase once: the card sort looks them up on every comparison.
+static HOLOMEM_NAMES_LOWERCASE: std::sync::LazyLock<Vec<String>> = std::sync::LazyLock::new(|| {
+    HOLOMEM_NAMES
+        .iter()
+        .map(|name| name.to_lowercase())
+        .collect()
+});
+
 impl Default for CardOrderingOptions {
     fn default() -> Self {
         use CardOrderingField::*;
@@ -839,188 +1021,22 @@ impl CardOrderingOptions {
     }
 
     fn holomem_order(&self, text: &str) -> usize {
-        // following the order of the official website
-        // https://hololive.hololivepro.com/en/talents
-        let names = [
-            // Gen 0
-            "ときのそら",
-            "Tokino Sora",
-            "ロボ子さん",
-            "Robocosan",
-            "AZKi",
-            "AZKi",
-            "さくらみこ",
-            "Sakura Miko",
-            "星街すいせい",
-            "Hoshimachi Suisei",
-            // Gen 1
-            "アキ・ローゼンタール",
-            "Aki Rosenthal",
-            "赤井はあと",
-            "Akai Haato",
-            "白上フブキ",
-            "Shirakami Fubuki",
-            "夏色まつり",
-            "Natsuiro Matsuri",
-            // Gen 2
-            "紫咲シオン",
-            "Murasaki Shion",
-            "百鬼あやめ",
-            "Nakiri Ayame",
-            "癒月ちょこ",
-            "Yuzuki Choco",
-            "大空スバル",
-            "Oozora Subaru",
-            "湊あくあ",
-            "Minato Aqua",
-            // GAMERS
-            "大神ミオ",
-            "Ookami Mio",
-            "猫又おかゆ",
-            "Nekomata Okayu",
-            "戌神ころね",
-            "Inugami Korone",
-            // Gen 3
-            "兎田ぺこら",
-            "Usada Pekora",
-            "不知火フレア",
-            "Shiranui Flare",
-            "白銀ノエル",
-            "Shirogane Noel",
-            "宝鐘マリン",
-            "Houshou Marine",
-            // Gen 4
-            "天音かなた",
-            "Amane Kanata",
-            "角巻わため",
-            "Tsunomaki Watame",
-            "常闇トワ",
-            "Tokoyami Towa",
-            "姫森ルーナ",
-            "Himemori Luna",
-            "桐生ココ",
-            "Kiryu Coco",
-            // Gen 5
-            "雪花ラミィ",
-            "Yukihana Lamy",
-            "桃鈴ねね",
-            "Momosuzu Nene",
-            "獅白ぼたん",
-            "Shishiro Botan",
-            "尾丸ポルカ",
-            "Omaru Polka",
-            // holoX
-            "ラプラス・ダークネス",
-            "La+ Darknesss",
-            "鷹嶺ルイ",
-            "Takane Lui",
-            "博衣こより",
-            "Hakui Koyori",
-            "沙花叉クロヱ",
-            "Sakamata Chloe",
-            "風真いろは",
-            "Kazama Iroha",
-            // Indonesia
-            "アユンダ・リス",
-            "Ayunda Risu",
-            "ムーナ・ホシノヴァ",
-            "Moona Hoshinova",
-            "アイラニ・イオフィフティーン",
-            "Airani Iofifteen",
-            "クレイジー・オリー",
-            "Kureiji Ollie",
-            "アーニャ・メルフィッサ",
-            "Anya Melfissa",
-            "パヴォリア・レイネ",
-            "Pavolia Reine",
-            "ベスティア・ゼータ",
-            "Vestia Zeta",
-            "カエラ・コヴァルスキア",
-            "Kaela Kovalskia",
-            "こぼ・かなえる",
-            "Kobo Kanaeru",
-            // English - Myth
-            "森カリオペ",
-            "Mori Calliope",
-            "小鳥遊キアラ",
-            "Takanashi Kiara",
-            "一伊那尓栖",
-            "Ninomae Ina'nis",
-            "がうる・ぐら",
-            "Gawr Gura",
-            "ワトソン・アメリア",
-            "Watson Amelia",
-            // Project: HOPE
-            "IRyS",
-            "IRyS",
-            // Council
-            "オーロ・クロニー",
-            "Ouro Kronii",
-            "七詩ムメイ",
-            "Nanashi Mumei",
-            "ハコス・ベールズ",
-            "Hakos Baelz",
-            "九十九佐命",
-            "Tsukumo Sana",
-            "セレス・ファウナ",
-            "Ceres Fauna",
-            // Advent
-            "シオリ・ノヴェラ",
-            "Shiori Novella",
-            "古石ビジュー",
-            "Koseki Bijou",
-            "ネリッサ・レイヴンクロフト",
-            "Nerissa Ravencroft",
-            "フワワ・アビスガード",
-            "Fuwawa Abyssgard",
-            "モココ・アビスガード",
-            "Mococo Abyssgard",
-            // Justice
-            "エリザベス・ローズ・ブラッドフレイム",
-            "Elizabeth Rose Bloodflame",
-            "ジジ・ムリン",
-            "Gigi Murin",
-            "セシリア・イマーグリーン",
-            "Cecilia Immergreen",
-            "ラオーラ・パンテーラ",
-            "Raora Panthera",
-            // DEV_IS - ReGLOSS
-            "火威青",
-            "Hiodoshi Ao",
-            "音乃瀬奏",
-            "Otonose Kanade",
-            "一条莉々華",
-            "Ichijou Ririka",
-            "儒烏風亭らでん",
-            "Juufuutei Raden",
-            "轟はじめ",
-            "Todoroki Hajime",
-            // FLOW GLOW
-            "響咲リオナ",
-            "Isaki Riona",
-            "虎金妃笑虎",
-            "Koganei Niko",
-            "水宮枢",
-            "Mizumiya Su",
-            "輪堂千速",
-            "Rindo Chihaya",
-            "綺々羅々ヴィヴィ",
-            "Kikirara Vivi",
-            // Staff
-            "春先のどか",
-            "Harusaki Nodoka",
-            "友人A（えーちゃん）",
-            "Friend A (A-chan)",
-        ];
-
         // Check if the text contains any of the names, with a bias towards the oshi's names if applicable
         let text = text.to_lowercase();
-        self.oshi_bias
+        let oshi_names = self
+            .oshi_bias
             .as_ref()
-            .into_iter()
-            .flat_map(|card| card.names())
-            .chain(names)
+            .map(|card| card.names())
+            .unwrap_or_default();
+        oshi_names
+            .iter()
             .position(|name| text.contains(name.to_lowercase().as_str()))
+            .or_else(|| {
+                HOLOMEM_NAMES_LOWERCASE
+                    .iter()
+                    .position(|name| text.contains(name.as_str()))
+                    .map(|idx| oshi_names.len() + idx)
+            })
             .unwrap_or(usize::MAX)
     }
 
@@ -1300,5 +1316,47 @@ impl Ord for QnaNumber {
 impl From<String> for QnaNumber {
     fn from(value: String) -> Self {
         Self(value)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn named(card_type: CardType, japanese: &str, english: &str) -> Card {
+        Card {
+            name: Localized {
+                japanese: Some(japanese.into()),
+                english: Some(english.into()),
+            },
+            card_type,
+            ..Default::default()
+        }
+    }
+
+    #[test]
+    fn holomem_order_without_oshi() {
+        let options = CardOrderingOptions::default();
+        assert_eq!(options.holomem_order("ときのそら,Tokino Sora"), 0);
+        assert_eq!(options.holomem_order("tokino sora"), 1);
+        assert_eq!(options.holomem_order("HOSHIMACHI SUISEI"), 9);
+        assert_eq!(options.holomem_order("Not a talent"), usize::MAX);
+    }
+
+    #[test]
+    fn holomem_order_with_oshi_bias() {
+        let oshi = named(
+            CardType::OshiHoloMember,
+            "星街すいせい",
+            "Hoshimachi Suisei",
+        );
+        let options = CardOrderingOptions::deck_sort(Some(oshi), vec![], vec![]);
+        // the oshi's names come first
+        assert_eq!(options.holomem_order("星街すいせい,Hoshimachi Suisei"), 0);
+        assert_eq!(options.holomem_order("hoshimachi suisei"), 1);
+        // other talents are offset by the number of oshi names
+        assert_eq!(options.holomem_order("ときのそら"), 2);
+        assert_eq!(options.holomem_order("Tokino Sora"), 3);
+        assert_eq!(options.holomem_order("Not a talent"), usize::MAX);
     }
 }
