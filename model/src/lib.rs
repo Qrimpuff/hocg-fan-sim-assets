@@ -960,9 +960,25 @@ const HOLOMEM_NAMES: &[&str] = &[
     "Rindo Chihaya",
     "綺々羅々ヴィヴィ",
     "Kikirara Vivi",
-    // Staff
+    // ASOBI★MAWARI-TAI!
+    "熱千めら",
+    "Achichi Mela",
+    "宙科そぴあ",
+    "Sorashina Sopia",
+    "鈴鳴つづり",
+    "Suzuna Tsuzuri",
+    "百灯キョーコ",
+    "Hyakuto Kyoko",
+    // holoAN
+    "井月みちる",
+    "Izuki Michiru",
+    "花園さやか",
+    "Hanazono Sayaka",
+    "風白ゆき",
+    "Kazeshiro Yuki",
     "春先のどか",
     "Harusaki Nodoka",
+    // Staff
     "友人A（えーちゃん）",
     "Friend A (A-chan)",
 ];
