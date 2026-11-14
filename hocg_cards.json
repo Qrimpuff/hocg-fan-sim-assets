@@ -68126,6 +68126,52 @@
       }
     ]
   },
+  "hBP10-017": {
+    "card_number": "hBP10-017",
+    "name": { "jp": "兎田ぺこら", "en": "Usada Pekora" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "I'll Win No Matter How Dirty I Gotta Be!" },
+        "text": {
+          "en": "During this turn, change [holo Power: -3] to [holo Power: -1] for your SP Oshi Skill \"Lucky Rabbit\"."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "Peko-chan Will Break The System" },
+        "power": "160",
+        "advantage": [ "purple", 50 ],
+        "text": {
+          "en": "Roll a die 3 times. If the total number rolled is 15 or more, draw cards until your hand has 7 cards."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 3" }, { "en": "#Kemomimi" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-017",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-017_RR.webp", "en": null },
+        "img_hash": "v3|H32=aKhOWXmsTlqSFFaWllWlrKylLakk20kpJltbXUtaUpVpXrRKSrUKVa1qtLWtXnSpULV6tKlQVatq0GqlhZrqVaW1WiA|CYM=1F231E|G=4Ni02NG9oZWVx8PAxcC70s/I3dvU5c67zsvAxL6u1cuxmo2DjY2mvMjekaXMnqW70LWT2ci0vruwx8Kw0bWU07GLu8HWkaDKqZyynpu5pJWMvI1jtaGKx7SY2ax90JNkuL7PwKey6sG6wbbGnKrAj2JOs4hoy6WGzrONsnNMvZd2wLnM0rG1iYmspKrBjaTHtr7LybuxxKiGt3ZTpZqXxLzJv6eulIypo5imf5vDo7zZysnG0s3IztblrLzTeXeKs6SpraGoj4uYgY+ooK/EwL680r+vwq2ml5eib298cnF8UFVlX2RznJqjp5CHtqykysCmzq6lpI6UzK2tnY+WaWBud2p0hHuJqYp/0cK9w8Cus6Cbt6mmyr++l5KgdXOEX2JnXmNvlaO1yLerqquXj4J+komSiIOMe3iCf36PU1pnWmJui5SsvLGvurShtqOcrqenlJOYa3WDdHeMbG+EaXF8g5yqkJ+dqamUmo6DmIiJTE5gNEthTHSELpiiMqCqbKevgKekurOluK6lsaumq6ysvbu4qL+/xcrGsbq1xtCwob2y|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C19" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-018": {
     "card_number": "hBP10-018",
     "name": { "jp": "IRyS", "en": "IRyS" },
