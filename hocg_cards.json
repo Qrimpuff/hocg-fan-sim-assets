@@ -69584,6 +69584,51 @@
       }
     ]
   },
+  "hBP10-079": {
+    "card_number": "hBP10-079",
+    "name": { "jp": "雪花ラミィ", "en": "Yukihana Lamy" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 170,
+    "bloom_level": "first",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Alcohol is the Best Medicine" },
+        "text": {
+          "en": "[Collab Position Only] [1/Turn] During your turn, when your support card with #Lamy's Alcohol is placed in your archive, draw 1 card."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "The Drunker You Get, the Stronger You Become" },
+        "power": "10+",
+        "text": {
+          "en": "If you have 5 or more support cards with #Lamy's Alcohol in your archive, this Arts gets +50."
+        }
+      }
+    ],
+    "tags": [ { "en": "#JP" }, { "en": "#Gen 5" }, { "en": "#Half-Elf" }, { "en": "#Alcohol" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-079",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-079_U.webp", "en": null },
+        "img_hash": "v3|H32=jrZbqpW0re628aWsi4eiFRulorVqdRCtYnF4XVJKWCPtSkpNlVVtpUqtcpqJVknT1Uotq6tLKemqSJW2dtKSUibLltI|CYM=0F301C|G=2tCo2s2O5dV739KU1Myf1MuR3dSj5dm00MV9wbqM1r/A18KA39SQ2Mavxb69yMnDtqumwtXgy76Ax71v4L+266TD79DgrqrIv8/oxdXtl46vxbLS0rrK2svF57LA4pS9n2mTjpDAo6jLoZy5k5nGuqzR7rrV7s/V4rW/d015o1uMmoq718TO79HYh3ijs5/H5sLa8Nfax5OjZ0FvhVuI2cbey7vVs7fPdmeRxcPY1KbJ67zJqH6IwXCfrZa01sLUxa/Pfl2KgnGW38/ZurHU573JjHJ3qHyX0rzO4MXEt5isq6HAzc/du7bKraLG57zJt4eLjY+QpIiedV92n56lrLK1oqayblZoemmD6NHRnYmJyMLFqJ2niX+Uo5eokYmOjH+FiXSEk4ORyaSvkIJ3nI6iZ1JykYacq5+rmoyWcl1qVDNJZUZakXZ+vKqpuKy4iXySemyFkYKazsLP0MHGs5SooYuZxr/C5dfOxLC5bVt8gm6I38/R2sbV7+nv7N3r46XH1cfP3dGi39KXwrFz3c9918PNzLnN09vk4dba1bO819XS|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C81" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-080": {
     "card_number": "hBP10-080",
     "name": { "jp": "ジジ・ムリン", "en": "Gigi Murin" },
