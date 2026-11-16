@@ -69807,6 +69807,30 @@
       }
     ]
   },
+  "hBP10-085": {
+    "card_number": "hBP10-085",
+    "name": { "jp": "バトルパソコン", "en": "Battle PC" },
+    "card_type": { "support": "item" },
+    "text": {
+      "en": "Roll a die once. If it is 1, reveal 1 1st holomem from your deck, and add it to your hand. If it is not 1, reveal 1 Debut holomem with Extra from your deck, and add it to your hand. Shuffle your deck."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-085",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-085_C.webp", "en": null },
+        "img_hash": "v3|H32=xpWvqsS1oKWrqjDnO+pS6ltKVlubUp5VmlC8VL9UnFSsVFZVF7QtKoDrperqaa2KamipqsCXraqWlino4HPhq+oLqIo|CYM=171112|G=xMG6w8XAr8rDmcvBnMzBmMvAm8q/os/FrdPJuM7Cn66laHZ5ZoOFesnCudHN3tPQo5mYjcS+iczGnbuxW2NhIDA3MUhOd8a/2c7L28vGrZ6asqilkKGhi4iHW2FeIC0zKjk/k87JvcO+2MnCqpaS1cC5xbSvkoqIW11aISovJS80gL23k8G4tJ+WkXdspJWWraGh6dvPXV1aIiYrJSkufqudlMq+vLOwW1BWmJKZtaKhpJmUW1hVISImRkhMjqWgw+HX2NLKwLGykpGZYFhdnZWOjop6SUlHdXdyj46JkpWOlYiBppaGzrafm4Juj35ugHt2dXFsuKaQyLOaxbGZvqqUq5qJin10ZWFgbGtqjIqHjY6QnqKkrrGyra+wqausp6mqo6epjY+QjIqHzci/1tXU0dDP2djYzs3M1tXU19bV1tTPy8e9zsnAzci/9fT08vLy+fr59fb19fb1+fr5////////zsm/ysW8/////////v7++Pn4+Pn4/v7+////////ysW8s6ygubKpubKpubKpubKpuLKpubKpvLetwbyyurSl|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C87" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-087": {
     "card_number": "hBP10-087",
     "name": { "jp": "言えぬ", "en": "I Couldn't Say" },
@@ -70054,6 +70078,31 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-101": {
+    "card_number": "hBP10-101",
+    "name": { "jp": "プテラノドン", "en": "Pteranodon" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "◆Additional ability if attached to <Aki Rosenthal>\n■When this holomem collabs, look at the top 4 cards of your deck. Reveal 1 <Aki Rosenthal> from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order.\n■If this holomem is downed, return the <Pteranodon> attached to this holomem to the bottom of your deck.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "tags": [ { "en": "#Dinosaur" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-101",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-101_U.webp", "en": null },
+        "img_hash": "v3|H32=2q2pqtSplKuTqhQ1pLKWvZOUUlVTVFJVanFMeS2oLKysrhbdEX3sgg/wLTqqHi1qigepqnANrcrqw+F6+pIpWt+H4Hg|CYM=141826|G=wcG7ycrEyNvdvdbdobu7hLbDjquxy7CbvKGShZ+erbq8o7S8uNXnrsTEma6ikZGBvZl73ayKfXBjdJR8p8jTqMvdp8DDyMSs0LiaroBrw4lsinRWZXpmgY57nrWknLWwlLm0opukgHaZlnVgg3Bjeot+d4x1j6ihf4+MfYx8jnxtlXJ8nIWWcnB1m41xcotSbIZZfI90m4Z+eXNunX5elFxOiWhenmhcfERCbl1LWHhRdYpt3beRzJJxxpR9dHJmmaB/rJ+NnYdnsYBoe3FOpJx/y6OEiGRXanl0fpmBf5iBc4V2qpd4spl9impQq5h4fHVzVmhrW3d9ZoKBaIN5bnx5npaHpJiHf3huhYB3iIeFiIuMn6OlrbCysbO0qaytp6qsoaWojY+RiYeFysW9y8nI29rZ2NfW1tXU1dTTzcvK29nZ2NbVzcnBxsK60M7N19bV09HQ0tDPzcvK4+Lh4+Lh8/LyzMe/xsG67u3t7u3t7+/u7+/u6eno7u3t8fDw////ysW8rKigqqOauLKquLKquLKquLKquLKqwLqyvrmws6+l|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C103" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
