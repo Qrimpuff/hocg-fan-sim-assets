@@ -68301,6 +68301,44 @@
       }
     ]
   },
+  "hBP10-023": {
+    "card_number": "hBP10-023",
+    "name": { "jp": "アユンダ・リス", "en": "Ayunda Risu" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 250,
+    "bloom_level": "first",
+    "buzz": true,
+    "arts": [
+      {
+        "cheers": [ "green", "colorless", "colorless" ],
+        "name": { "jp": null, "en": "United AREA 15" },
+        "power": "60+",
+        "text": {
+          "en": "Send the top card of your cheer deck to your Buzz holomem with #ID Gen 1. If this holomem has green, blue, and yellow cheers attached, and a total of 10 or more cheers attached, this Arts gets +200."
+        }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Kemomimi" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-023",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-023_U.webp", "en": null },
+        "img_hash": "v3|H32=LKqrylLrKarSVRRdrbKUpa2ZrapmRVpdWlJqVXqSStTtqkpKVKlJT2pJtNhPKbSopl2tLdtSsqzpVtCWszaypctWsvg|CYM=093E5A|G=t8atmriVh7aGlrGUkZyEkYtwjpB9g5Zwi66DoLCQobmeZpdsfpt3a3ZTgmBFqmlTeE83b1w7Y2c/g5RueXlhSTorTj0sX0Yxm2ZHvI5wvpFyknBadWRgkYJ5j2FYYygjYCcijmBLpHhasJeBpoFoiFVEYCYhh1xRqnJokkZAkUxBtIZvqHdg7s+7x6KPmVtLkD03qm5iimRbXy4qhFlOq35l2a2V0qiUdElDVSslVycjf11TvJh6p3dVw6mc3Ma2wKGN4se2o35zb0hEUiMefVhO17+ozayRy7Ge28+7u5qPsYp+w5mNnV9ZdzYvmGhb3sm3to10s49z0b6orop/xq2hfFFLajYubjYujGVYza6UnWhKp3tnu5qRz7Kou56VcEE6cDIpdjMqkWJVn39plXNfoHJstZeWvaSgrpaSo4eCiEE4klxUpnpsk4h8rp2TuqSjxrCwraGauJ2Qvq2qy7ausJONqYZ6kYV1i4BsfXNilH93rYJ5vJeDzaeezq6mzKqgr4x+o6qShJh7k5+HhoRfe3BUmJOHuKukx7it1Mm81sy8|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C25" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-024": {
     "card_number": "hBP10-024",
     "name": { "jp": "アユンダ・リス", "en": "Ayunda Risu" },
