@@ -25891,7 +25891,7 @@
     "card_type": { "support": "tool" },
     "text": {
       "jp": "このツールが付いているホロメンのアーツ+10。\n\n◆#シューターを持つ1st以上のホロメンに付いていたら能力追加\nこのツールが付いているホロメンが、相手のホロメン1人に与える特殊ダメージ+10。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem with #Shooter\nThe holomem this tool is attached to deals +10 special damage to 1 of your opponent's holomem.\n\nOnly 1 tool can be attached to each of your holomem."
+      "en": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem with #Shooter\nThe holomem this tool is attached to deals +10 special damage to only 1 of your opponent's holomem.\n\nOnly 1 tool can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -25901,7 +25901,7 @@
         "rarity": "U",
         "illustrator": "わにたろー。",
         "img_path": { "jp": "hBP03/hBP03-096_U.webp", "en": "hBP03/EN_hBP03-096_U.webp" },
-        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Tue, 09 Dec 2025 09:50:23 GMT" },
+        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Thu, 19 Nov 2026 07:00:07 GMT" },
         "img_hash": "v3|H32=rMutykLLSq6HrtaWk6JRkmuyUmi7bJZ1miU6tTu1MtU+TRZVfDYnCozh7aofz62q45itw+CHqfgffKnqOHytCuAHKD4|CYM=091720|G=x8S8w8O+l7TLj7TQmrHD0b+s06+N48Wat8G8qsHPsKeesaCS08Sgopulrpue4trX3c7E1KR3vrepq6qxuZR7rpBte3Zjool8v6+u18vEzcO/v5Jr6subx6+kyaqSopmDopaMhoFrmY+E0sO+yrmutoxn8c2U2sCovqOPhYSHUE9YYVxhenxjpapuqZSIwZt206p738GXloR4Lyw2JSIsQT1FV1dWZGlMkJOBy8jCzJ901LKLza+Wo4FrOS4vIiAqUFVDV1VdR0VBfXdb1rmG7Nekz7imya2cZ1laPTlDrKKjm5KTNDE6REI8zr6I8N6pkoyIkIyKyMK+p5+fdXN5gH6BeHZ9hHhxioNzk4+Ai4mGi42On6OlrLCyqaytqaysrbGzpamrkJOTjYyIysW92djY19bW3t7e1tbV3t3d4N/f7Ozr4+Pjy8a+xL+31tbV3Nvb5OPj5uXl4eHg5ubl8PDw6enoyMS8xcC37e3s6Ojn7Ozs7Ozr5eXk6eno7Ozs////x8K6tq+juLOquLOqubOquLOquLOqubOqv7mwvLeuu7Sp|L=JP",
         "ogbajoj_sheet_cells": [ [ 1235233029, "C97" ] ],
         "similarity_index": 1,
@@ -25915,7 +25915,7 @@
         "rarity": "S",
         "illustrator": "わにたろー。",
         "img_path": { "jp": "hBP03/hBP03-096_S.webp", "en": "hBP03/EN_hBP03-096_S.webp" },
-        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Tue, 09 Dec 2025 09:50:23 GMT" },
+        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Thu, 19 Nov 2026 07:00:06 GMT" },
         "img_hash": "v3|H32=rMutykLLSq6HrtaWk6JRkmu6Umi7bJZ1miU6tTu1MtU+TRZVfDYnCozh7aofz62q45itw+CHqfgffKnqMHypCuAHKD4|CYM=091720|G=x8S8w8O+l7TLj7TQmrHD0b+s06+N48Wat8G8qsHPsKeesaCS08Sgopulrpue4trX3c7E1KR3vrepq6qxuZR7rpBte3Zjool8v6+u18vEzcO/v5Jr6subx6+kyaqSopmDopaMhoFrmY+E0sO+yrmutoxn8c2U2sCovqOPhYSHUE9YYVxhenxjpapuqZSIwZt206p738GXloR4Lyw2JSIsQT1FV1dWZGlMkJOBy8jCzJ901LKLza+Wo4FrOS4vIiAqUFVDV1VdR0VBfXdb1rmG7Nekz7imya2cZ1laPTlDrKKjm5KTNDE6REI8zr6I8N6pkoyIkIyKyMK+p5+fdXN5gH6BeHZ9hHhxioNzk4+Ai4mGi42On6OlrLCyqaytqaysrbGzpamrkJOTjYyIysW92djY19bW3t7e1tbV3t3d4N/f7Ozr4+Pjy8a+xL+31tbV3Nvb5OPj5uXl4eHg5ubl8PDw6enoyMS8xcC37e3s6Ojn7Ozs7Ozr5eXk6eno7Ozs////x8K6tq+juLOquLOqubOquLOquLOquLOqv7mwvbeuu7Sp|L=JP",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -26091,7 +26091,7 @@
     "card_type": { "support": "mascot" },
     "text": {
       "jp": "このマスコットが付いているホロメンのHP+20。\n\n◆〈常闇トワ〉に付いていたら能力追加\nこのマスコットが付いているホロメンが、相手のホロメン1人に与える特殊ダメージ+10。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。",
-      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to 〈Tokoyami Towa〉\nThe holomem this mascot is attached to deals +10 special damage to 1 of your opponent's holomem.\n\nOnly 1 mascot can be attached to each of your holomem."
+      "en": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to 〈Tokoyami Towa〉\nThe holomem this mascot is attached to deals +10 special damage to only 1 of your opponent's holomem.\n\nOnly 1 mascot can be attached to each of your holomem."
     },
     "max_amount": { "jp": 4, "en": 4 },
     "illustrations": [
@@ -26101,7 +26101,7 @@
         "rarity": "C",
         "illustrator": "JinArt こばやかわやまと",
         "img_path": { "jp": "hBP03/hBP03-101_C.webp", "en": "hBP03/EN_hBP03-101_C.webp" },
-        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Tue, 09 Dec 2025 09:50:17 GMT" },
+        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Thu, 19 Nov 2026 07:00:07 GMT" },
         "img_hash": "v3|H32=pKq1qpCnS6VppDSVEt9b2szKtMa6RDNEMkwyDQsMRh7GHrLJA89nttj8zLh4OLgLTibI48CH6Ojggeg4fXwoPvA44Cg|CYM=0A0D50|G=xsK6xcW0mbt35eiu3eBs4OBg2t1L6OZ63d5Kztd0ur2fub2wsr1qx9ou1ttxxtxKtM47wttQttQlz9lH7eZfn6w/j4phxMBjdHhHnaJEcGpO7PCTyt07zNpyz9lIipkii4wkimVqZFRrYVJjRjxFs7Cy5OZ2ztlqz9lGop8VlYwlbk9Qn5VFqaMlPjQ6WVJWmphSy9dXx9ZItcIRRzo6SDM+Ujk8T0I1ODA1RD4zuccuxNVf19xDwNgQhIgWWFQoOTE4MywwMy0uY28lrtAm295Lx9lIx9wOos4a4eMFoZ0aV1AgzNAL3OMh4eY65uNUl5NjjIxNrblVtsNbwsdVxMdTy8tUubtPj49ol5Rpi4qHiIqLoKWmrbGzqq2uqq2urbGzpamrkJOTjYyIysW91NPT4ODg39/f1NLS2djY7+/v/v7+////zsnBxsG4z8/O397e3Nvb5OTk5+bm4+Li7Ozs7u7ux8O6xb+37u7u6+rq6Ojn6+vq6urq6Ojn6ejp9vX1x8K6tq+jubOquLOqubOquLOqubOqvrivwLqxvriwurOo|L=JP",
         "ogbajoj_sheet_cells": [ [ 1235233029, "C102" ] ],
         "similarity_index": 1,
@@ -26115,7 +26115,7 @@
         "rarity": "S",
         "illustrator": "JinArt こばやかわやまと",
         "img_path": { "jp": "hBP03/hBP03-101_S.webp", "en": "hBP03/EN_hBP03-101_S.webp" },
-        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Tue, 09 Dec 2025 09:50:17 GMT" },
+        "img_last_modified": { "jp": "Mon, 10 Mar 2025 12:01:48 GMT", "en": "Thu, 19 Nov 2026 07:00:08 GMT" },
         "img_hash": "v3|H32=pKq1qpCnS6VppDSVEt9b2szKtMa6RHNEMkwyDQsMRh7GHrLJA89nttj8zLh4OLgLTibI48CH6Ojggeg4fXwoPvA44Cg|CYM=0A0D50|G=xsK6xcW0mbt35eiu3eBs4OBg2t1L6OZ63d5Kztd0ur2fub2wsr1qx9ou1ttxxtxKtM47wttQttQlz9lH7eZfn6w/j4phxMBjdHhHnaJEcGpO7PCTyt07zNpyz9lIipkii4wkimVqZFRrYVJjRjxFs7Cy5OZ2ztlqz9lGop8VlYwlbk9Qn5VFqaMlPjQ6WVJWmphSy9dXx9ZItcIRRzo6SDM+Ujk8T0I1ODA1RD4zuccuxNVf19xDwNgQhIgWWFQoOTE4MywwMy0uY28lrtAm295Lx9lIx9wOos4a4eMFoZ0aV1AgzNAL3OMh4eY65uNUl5NjjIxNrblVtsNbwsdVxMdTy8tUubtPj49ol5Rpi4qHiIqLoKWmrbGzqq2uqq2urbGzpamrkJOTjYyIysW91NPT4ODg39/f1NLS2djY7+/v/v7+////zsnBxsG4z8/O397e3Nvb5OTk5+bm4+Li7Ozs7u7ux8O6xb+37u7u6+rq6Ojn6+vq6urq6Ojn6ejp9vX1x8K6tq+jubOquLOqubOquLOqubOqvrivv7qxvrmwurOo|L=JP",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 1,
@@ -26888,7 +26888,7 @@
         "name": { "jp": "ぶーん、バリバリバリバリ", "en": "Vroom, Bari Bari Bari Bari" },
         "text": {
           "jp": "[ゲームに1回]自分の〈雪花ラミィ〉1人を選ぶ。このターンの間、選んだホロメンが、相手のホロメン1人に与える特殊ダメージ+100し、選んだホロメンが相手のホロメンをダウンさせた時、自分のデッキを2枚引く。",
-          "en": "[1/Game]Choose 1 of your 〈Yukihana Lamy〉. During this turn, the chosen holomem deals +100 special damage to 1 of your opponent's holomem, and if the chosen holomem downed an opponent's holomem, draw 2 cards."
+          "en": "[1/Game] Choose 1 of your 〈Yukihana Lamy〉. During this turn, the chosen holomem deals +100 special damage to only 1 of your opponent's holomem, and if the chosen holomem downed an opponent's holomem, draw 2 cards."
         }
       }
     ],
@@ -26900,7 +26900,7 @@
         "rarity": "OSR",
         "illustrator": "がり",
         "img_path": { "jp": "hBP04/hBP04-004_OSR.webp", "en": "hBP04/EN_hBP04-004_OSR.webp" },
-        "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:33:46 GMT", "en": "Fri, 13 Feb 2026 10:37:02 GMT" },
+        "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:33:46 GMT", "en": "Thu, 19 Nov 2026 07:00:04 GMT" },
         "img_hash": "v3|H32=SlpJ3aNamuK1rbZJUqVDGnSdWyy0LGvNpmYxlbZKWcUy65SqqVYj1VuqYGy0Wcu+qVQWKYtUUq0uVcpVWlRq1QpFplU|CYM=3D2D06|G=n5uWeX6RXmGET097Y2WRUFeLVV+QY2+geoSsgX+daG+KcXGThH+ofnyos73QrL7Ud3SmaG2ndXmmeXyeZnCZvb/QbGqer73Qts3budXffJW9YE+UbmWflZK2bnmqirDRdYewqbjNwM7Xu8PIjp6td4O409LdsL3NZHivd5jDYWudhp+9j6W48uLUlJmrfIKiusjTzdLYaXCfmp63jqPCq7vLprK+maGxfI6qe5K3mKHIanutlKrOuKe2283M6+bo2s3GxMzSz8/RkKXAmabMfpjJt7XL1Km53LvGt8jYtKqs1tDQqKi5g5zAv9DlvtPjlq/Er7O+i5Srg4+kg3+AfHd5eIKe3trbzM7S0N3pnrXRm63Lo5q0mJerra67vLbCepG4vb3J7Ozs6/P5xcvOvcDIvbq/rbK5tre+rLC4xsrNv8PF0dDO7O3siKK1e5epeJGml6i1wMTIwMzV09je3t3bt8DG2NvdVn+iVoSpSHidM2+dJWiiRHqtXI28WYu8V3GHfZWqwcnNrLi/kZ6vfI6pcH+aeo2rjqK/iqC1hpekgZyu|L=JP",
         "ogbajoj_sheet_cells": [ [ 216653992, "C5" ] ],
         "similarity_index": 1,
@@ -26914,7 +26914,7 @@
         "rarity": "OUR",
         "illustrator": "がり",
         "img_path": { "jp": "hBP04/hBP04-004_OUR.webp", "en": "hBP04/EN_hBP04-004_OUR.webp" },
-        "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:34:07 GMT", "en": "Fri, 13 Feb 2026 10:37:02 GMT" },
+        "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:34:07 GMT", "en": "Thu, 19 Nov 2026 07:00:05 GMT" },
         "img_hash": "v3|H32=2LSWNKaqZ1GUymrLaVXWkkq1ba6SlCmrqFXXq6l1Usmec1qqPCW5KlXLVKpo2iulvlVqWbZ8StW2KKpVJmmqlbStnkw|CYM=2B1C08|G=rbfGiZ26nK/JapfBsM3dyc/QwLy76Obl+/r67+HdiJi1VIK0b5G+W4q4xtbiwdTh4ePl6e/06Nzd+t/MdZu+aJe/aJW3pLvO0N/nw9rmnrXJ4Orxv9Xn4rixiKK3hJ2zlq26tcTRycnPt8XThqfE6ujp3+zvxuDusLO3tri/4uDfrcLV6trVy7/BfZe3tMDSobrRv9He0Me36NHHt83etcPUtrC5qKy8TnuynLjRv9jqncPgzMnFv7nD8+rp4ODk5NnY49valKrItcfZvNPkncPhzc3XuLvLzMjS5dze6OTm4eLomrLLxdXiprvQmLfVxr7I47y9vqa1x8/cobLDdJW3Zo23jqfCe57CbZC4kq7FwLi0zMvMsL3FkqSxip2xg525WH6ubIqtmK3Jpr/Zt8DW1bzD1L2wvMvQrbrGlrLLcJG81dnh2OLq0tPatbW4t6yjtqOSxsG9tbq8maeyrrW8rbS739/gnqCneH2HdXN3wMDBztHVztHVsL/IlrbDrLzNs8DKioqKampqZmFdlpWXq7S9dZmpd6e4t9Lar7u/q7G5|L=JP",
         "ogbajoj_sheet_cells": [ [ 216653992, "K5" ] ],
         "similarity_index": 2,
@@ -26929,7 +26929,7 @@
         "rarity": "SEC",
         "illustrator": "がり",
         "img_path": { "jp": "hBP04/hBP04-004_SEC.webp", "en": "hBP04/EN_hBP04-004_SEC.webp" },
-        "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:34:07 GMT", "en": "Fri, 13 Feb 2026 10:37:03 GMT" },
+        "img_last_modified": { "jp": "Tue, 10 Jun 2025 06:34:07 GMT", "en": "Thu, 19 Nov 2026 07:00:05 GMT" },
         "img_hash": "v3|H32=2KLWZZaLNFVNiitJwhZKKbG0UjisdIkKqE2TCiplsUpqdXSrnC6VNbNUSrKgVbVKZdWoUtGiqlSgmkpVqlSqVbVJqmY|CYM=2B1D13|G=k6TAfpfCa4y3frTR0d7ixcXBwcLD6+jm+/n5+evkWYe3RHOya5C4psTUwtflx9jg6erp5+307O/z8tTEaJi/RX+wnLLFu9Hb0eLstNPipLjI4+vzuNLn08HCfJ63XpGrvsfNqb/Qwc3YsMvbe5y69PHx5/Hzydzpnaa0u8DA3uLksrnD69/bxsHElKuh3dCoyM212Obp0svJ1Nne6+3wlavB5sG8s7KjiZZ9w8aUzclvnLnR5tHHvsTPv8vam6q+1M/Sp6uvd5WRtb2VxdK2xd3fsbDE79/d7u7u6t/d39HR9+jGm6u73s5f0sx1u8aevbnK57rE4rzG8efmzMvQ4d/foK6aydPItsLApbrF3N7jsrO7sLXAv8bQlKvBf5m0hZ63nq/Ah6K/gqDDybeys73Wrq7Hka3JcYyteJa5b4uwdZGyaImygajMsLa/09HSysjHu8XIqbC3oa6+nq/Aip65k5ywuMXWeIyeqJyauIJivaWMv83Kp8THgpyviaPD39zb19K0hJGgl5KIx6J2vLOd1djMztTLjKSexcbEjZ6or7Kq|L=EN",
         "ogbajoj_sheet_cells": null,
         "similarity_index": 3,
@@ -40255,7 +40255,7 @@
         "name": { "jp": "満月の輝き", "en": "Bright as the Full Moon" },
         "text": {
           "jp": "[ターンに1回]相手のホロメン1人に特殊ダメージを与えた時に使える:相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。",
-          "en": "[1/Turn] Usable when special damage is dealt to your opponent's holomem: Deal 20 special damage to your opponent's center holomem and collab holomem."
+          "en": "[1/Turn] Usable when special damage is dealt to only 1 of your opponent's holomem: Deal 20 special damage to your opponent's center holomem and collab holomem."
         }
       },
       {
@@ -40275,8 +40275,8 @@
         "manage_id": { "jp": [ 1483 ], "en": [ 1389 ] },
         "rarity": "OSR",
         "illustrator": "絢芽",
-        "img_path": { "jp": "hBP06/hBP06-006_OSR.webp", "en": "hBP06/EN_hBP06-006_OSR01.webp" },
-        "img_last_modified": { "jp": "Fri, 12 Dec 2025 04:23:02 GMT", "en": "Fri, 12 Jun 2026 07:01:09 GMT" },
+        "img_path": { "jp": "hBP06/hBP06-006_OSR.webp", "en": "hBP06/EN_hBP06-006_OSR.webp" },
+        "img_last_modified": { "jp": "Fri, 12 Dec 2025 04:23:02 GMT", "en": "Thu, 19 Nov 2026 07:00:02 GMT" },
         "img_hash": "v3|H32=VGrYVGlVmKpLtXRVraqncpRUtyq0UhOfDmpYuVZKSc3GOpSarFIpxcqtK46Mhj+rWippqYlWaqlLZS5tWxRp1VopK1U|CYM=35460A|G=dmaPnIi03Mvj69/svqvNZlx9KipEMzA/FhIcERAicWKLoY234NPlvafPtZ/LmYG4QThiJSI9T01XT0pbmX6rs6a/0LW6s5a8pYe6jnSuZlOOcGSJqpq+hGqjVESAj4Sz08LbnH2uzqCuvJKuh3Gwk4C1PjVZVUV8p5nDVUmSt6jKq5C8uoyiqIuipHiLhGyYZ1iRMzJUh3axeWyq1sTY58bNqZmzfY2qtaC8gmySooelZVF1r5nFdmOmxK3H16atv5Osg3+Wdm99lIOcu57GWE6BsJC8263Bv4+yrZWztZ26eGx+UktWoYuhwaHEeWWerJ6/r6K3uq24zcLAvLDBrp2vuamu08GwkX2ilHmyi321ua7L3cTH3NDGr5mZkn6VpZOeybabbF54XEiTdminrKOu2s/G1MzSraSwmZCcw7nGx7+0k4aeakWORVaYaXCXs7e5xr7PdGN1y72/2Li7eneKgoaXaFuXJ1GITX+lRHukP3ihQXWaZoqna5K1WIy8TGWAO0yAlJ2taHeYTFl6eG2QkXyYnIiuSlBwITpqMkVqN0xv|L=EN",
         "ogbajoj_sheet_cells": [ [ 2134313136, "C7" ] ],
         "similarity_index": 1,
@@ -40289,8 +40289,8 @@
         "manage_id": { "jp": [ 1599 ], "en": [ 1527 ] },
         "rarity": "OUR",
         "illustrator": "絢芽",
-        "img_path": { "jp": "hBP06/hBP06-006_OUR.webp", "en": "hBP06/EN_hBP06-006_OUR01.webp" },
-        "img_last_modified": { "jp": "Thu, 18 Dec 2025 03:37:33 GMT", "en": "Fri, 12 Jun 2026 07:01:10 GMT" },
+        "img_path": { "jp": "hBP06/hBP06-006_OUR.webp", "en": "hBP06/EN_hBP06-006_OUR.webp" },
+        "img_last_modified": { "jp": "Thu, 18 Dec 2025 03:37:33 GMT", "en": "Thu, 19 Nov 2026 07:00:03 GMT" },
         "img_hash": "v3|H32=3JZMUN2WlEotVLTqe1YsqVtVkKxUUbOqVKmtjtqpLC1rZVRrXlWmtE1TaVfGpW3VrdKllK2qlKqmtlaNrUJXpZWW1pY|CYM=45460B|G=LEibOFypXHO2loa9x6vRk5fKWHy9XojCK1SkKkygM1akRHS4aJ/VmrzixtrutrvdY3q6SnC1QWSuMEidPGSuTYnHZqfal8zqyMbbr5G+h26vhIG8cXq5Q02feZvMYI/Jmr3ircvpx7PM1KislXWvnHm1q4u/nom+ZoC+jJjLrajSz73Tq5irraKvuJW3sYi2qHaxuIi7sZnHxKXM1KLHo4mnlpCnjoCgspe437Omtn+tr3Gt0qXK37PR4LPIxaOvrJnDmom/yba69NeyyZexu3qx6MDagU5wa0toTEJfrJW0nZC25cvA8M6136q12Ze9573P2Ka2sISUenSIb2p+c22Iu5yp5rm58rTN8LXQxq6/xb7DvK+1qaGse32RaGqEfnaN2c3O59za8NPgnpq8vr3XwqHEYFdxS1N8UFmIXFuDuK/BqK3PoqXPW3atpq7CgZOvhIibk5eihpOwh5Gtk6G6hKPBT3ezR2aMT3miRXOgb4mtRmycQGugQ2ydVXioNVyXSlhtM053RWiaP2eSNVaBMFqON2KSMFJ9PFByRFBtQklc|L=EN",
         "ogbajoj_sheet_cells": [ [ 2134313136, "K7" ] ],
         "similarity_index": 2,
@@ -60283,6 +60283,19 @@
         "yuyutei_sell_paths": [ "/hocg/card/hbp08/10210" ],
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      },
+      {
+        "card_number": "hBP08-101",
+        "manage_id": { },
+        "rarity": "SR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP08-101_SR.webp", "en": null },
+        "img_hash": "v3|H32=mHJmlJN0FdWWNVDNm7TWNuKMuaKynHmrOojLYVqoL2O7slQqFpXa0k1apVkmraVJVS6qmovWalVpRdmmTapqsUpTlK4|CYM=49430F|G=j8HTjKi7Wpm6bneZlIWYlpSig6e6w8HOl56yno6bdoSaVpKuV3mhM1mWP3emUXCJSlFjOy86Pywoaml2MkyEMGyYVmN4V2dvNCk7VT9GQzA8Xj1FSj5JZWdwOjNFXVZpUExbZFJTknFlnIiGb1Vbm3WHUjtYUklZZl10cWNzZ2uDjX6Cr5uTn5ysWFFub2iLfHmRWVdxYmB4m42dlZShwa2ykIyXaGuJVFF4UGSVXWOReoKlanSLYVV4oqi73dXdqbrQqcXbbn6jd5i9UHStXnGhaIStZoCyZ2eTlp67pq7Cg4yqX2WJamuKY2KEP0Jqa3CQVWqWbYq2XGGNiYmwV2ORPTpkiImSPEBaW2OMWVprS1mCW1h2jIGJbGZzU2ePS2yfOmaZO3ioXFqCho6frbK/qam4dpixbZ+6S4CvUmaXSJa+W6TCUZfAjpeora60ram0orG5oLvDobS9oqSxoa+2obrChsLXZ3KSv7K9u63AirjMh8fbYqbHNE+Mf16GXW2dUKnMaHCLk4CSoXuGd2V7moKQV0dvN0eEiWiKOVWRaqjH|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C118" ] ],
+        "similarity_index": 2,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -69473,6 +69486,51 @@
       }
     ]
   },
+  "hBP10-068": {
+    "card_number": "hBP10-068",
+    "name": { "jp": "綺々羅々ヴィヴィ", "en": "Kikirara Vivi" },
+    "card_type": "holomem",
+    "colors": [ "purple" ],
+    "hp": 240,
+    "bloom_level": "first",
+    "buzz": true,
+    "keywords": [
+      {
+        "type": "bloom",
+        "name": { "jp": null, "en": "Would You Accept Money?" },
+        "text": {
+          "en": "You may return 1 holomem with #FLOW GLOW from your archive to your hand. If you returned a card this way, your opponent draws 1 card. You may only use Bloom Effect \"Would You Accept Money?\" once per turn."
+        }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "purple", "purple" ],
+        "name": { "jp": null, "en": "Awesome!" },
+        "power": "70+",
+        "text": { "en": "If your opponent's hand has 7 or more cards, this Arts gets +50." }
+      }
+    ],
+    "extra": { "en": "If this holomem is downed, you get life-2" },
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-068",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-068_U.webp", "en": null },
+        "img_hash": "v3|H32=qi5aV7VqLavyU62qSpO7TEqX0lY3rVJTtNlGoemaZpGNrqxtVqypVZLS1pphkVKrqVFKrS9LrSbp1Vab6WnWmkKF0ko|CYM=063933|G=zLu9waW0w6C1v6a0rJyYopKJnoyBo4F/spWksp6dx7W2soqnvZKstb7By7a50KispIx9e21NbVhImIOAzLGlvpyX2by7xsO+1oahy3Oh76zB6M/SyLm2yL+21rmr6c7DxZ+X4LW1226PyHGf6HWX7LTB17Gy5tTTyLm13sO5za+q3ZalxJmnw5e31GeK1ouj17O506+s69DG8cG+26yuv3+exZey9drUwH6iy4+m27O22Liy27Kt4LKwuYqQv5SpwJKm266xonKhzqq08szH4722z6Kc4LOxqn1+6NPS2Ka1wYCqpXef2rW44q+v0J2YpYaFn5iog2Ny1LzDwLbExZGxwKC+qnl66dHO1Lqy3s/GyL69urCwzMDBx8DA08bG0snKr6Gkq6650sK+wKyooH2Cbzo7lHOCl5agy7y/eWh7XScos3BzrnhxhHhpflRPkGdlonuCd4OSjX+NlnqGiU5QdyQonGBZpJmDeW1Qem9dgmhjinNyjX90p3mCwZWflVxdp4N5yba0xKqtpJeRkYBke3BVmJOHubGrzsa81M3D18/C|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C70" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-070": {
     "card_number": "hBP10-070",
     "name": { "jp": "熱千めら", "en": "Achichi Mela" },
@@ -69674,6 +69732,50 @@
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
         "delta_art_index": 0
+      }
+    ]
+  },
+  "hBP10-077": {
+    "card_number": "hBP10-077",
+    "name": { "jp": "鈴鳴つづり", "en": "Suzuna Tsuzuri" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "Searching for the Greatest Fun" },
+        "text": { "en": "Send 1~3 cheers from your opponent's archive to 1 of their holomem." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "yellow" ],
+        "name": { "jp": null, "en": "I'll Give You Headpats" },
+        "power": "60+",
+        "advantage": [ "white", 50 ],
+        "text": {
+          "en": "If the number of cheers on your stage is less than your opponent's, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+30."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ASOBI★MAWARI-TAI!" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-077",
+        "manage_id": { },
+        "rarity": "U",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-077_U.webp", "en": null },
+        "img_hash": "v3|H32=6qKppIyxG6ocWVm1sSok1Wu1tEtO1VvHVk9WtvJmtFS2tEpLvWS0tqmr2dIPyy3Zn5qiVOr0tqXStjatWpsylmotUsk|CYM=093E49|G=2c+f0MGI4NF23M+J0ciWz8WG39KE6tp7yL54wr2dzLt4s6RjqpVftVdHkGpbk14/yaBx29GUubJixMGivJ2O29HXtW5ytV9at4t169zG2rudy6iZtZqVx8PNvpWf2NDR3Lu8oj42to5z3sOz17uinXFsuV5Xwr/PtJ6MtJh/2dLYo1pfsmFU0aWbxn1vsmlilzMxupmls5aDx5J42M/W0K6wmmlspGFkrUpMn3B1vb3JpMHPuXh6zIeR4bO8yKugfDs8ficnp3qChn+RutfkjrfGz4KH2IOMuniEzq2keTc2i0dGuKuunLLJnKq+jbC+wXZyzHF4pF9htIqEoFRTrnhy1LCqzMrNlomYkKm2v3Jrv42Ms5mQomtln0lInFNTzoaDv5CSfYCOjqOqs3RmtHh3pmdmnU1NpldVlmNoqDc6wGdjoI6Tp7CwtXhvsZaWrYiBnH+BgnJ7lIiRnomNvJSNwLWxwsPBsW1jnX+DsaioooV808G9yqml5svCy8LAr6ius8DGxKp+uZ9vvbWV2sN36tbG0sS+7tfI3MXAxLuwydDI|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C79" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
       }
     ]
   },
@@ -70192,6 +70294,30 @@
         "img_path": { "jp": "unreleased/hBP10-101_U.webp", "en": null },
         "img_hash": "v3|H32=2q2pqtSplKuTqhQ1pLKWvZOUUlVTVFJVanFMeS2oLKysrhbdEX3sgg/wLTqqHi1qigepqnANrcrqw+F6+pIpWt+H4Hg|CYM=141826|G=wcG7ycrEyNvdvdbdobu7hLbDjquxy7CbvKGShZ+erbq8o7S8uNXnrsTEma6ikZGBvZl73ayKfXBjdJR8p8jTqMvdp8DDyMSs0LiaroBrw4lsinRWZXpmgY57nrWknLWwlLm0opukgHaZlnVgg3Bjeot+d4x1j6ihf4+MfYx8jnxtlXJ8nIWWcnB1m41xcotSbIZZfI90m4Z+eXNunX5elFxOiWhenmhcfERCbl1LWHhRdYpt3beRzJJxxpR9dHJmmaB/rJ+NnYdnsYBoe3FOpJx/y6OEiGRXanl0fpmBf5iBc4V2qpd4spl9impQq5h4fHVzVmhrW3d9ZoKBaIN5bnx5npaHpJiHf3huhYB3iIeFiIuMn6OlrbCysbO0qaytp6qsoaWojY+RiYeFysW9y8nI29rZ2NfW1tXU1dTTzcvK29nZ2NbVzcnBxsK60M7N19bV09HQ0tDPzcvK4+Lh4+Lh8/LyzMe/xsG67u3t7u3t7+/u7+/u6eno7u3t8fDw////ysW8rKigqqOauLKquLKquLKquLKquLKqwLqyvrmws6+l|L=JP",
         "ogbajoj_sheet_cells": [ [ 505534664, "C103" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
+  "hBP10-102": {
+    "card_number": "hBP10-102",
+    "name": { "jp": "鈴鳴つづりのライフル", "en": "Suzuna Tsuzuri's Rifle" },
+    "card_type": { "support": "tool" },
+    "text": {
+      "en": "The <Suzuna Tsuzuri> this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to a 1st or greater holomem <Suzuna Tsuzuri>\n■When this holomem used Arts, deal 20 special damage to 1 of your opponent's holomem with 3 or more cheers attached.\n\nOnly 1 tool can be attached to each of your holomem."
+    },
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-102",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-102_C.webp", "en": null },
+        "img_hash": "v3|H32=ms27jrSqZLolumW6paqzqbfJnFmtasx2zCbcZNss3p0+mRJdBwsMqg+OrYvweengJfnpKvF4DYLxHOE44fEti+GB6OA|CYM=0F2A20|G=xcG6x8S+yK+2wKm01aCW0reZu7WZeXSKbH+Ujqmvta6yp5unqZGtsJKmyayg3bymxp+ns5K4s6HAx73JiomohG+Xj4yk4tjT38jA3bOn4Kyg5sbZ5c/g5dvbYHWeO2iXknyMxKq7zpqozltm47e669nW7dnf7+HfoY6XP2ebcGF4uEBQtENL2aGPvFFV7d/T8+3t8+/moWWOU1iBfIGEsImZojlAvm5s0Y+Rz5CM7uXn7ufgtmqSfXNsVGh1wa60uWtzwU5P2qihzrWzwLK949XVnWCEVG9sR3SAnFpoujlMxEBLyV9mtbG2ycXM0aWndGduXmVtjI2LdXWDu36JwLOyrqCngXyFenB6f2d0h4WDjI2OsrKzqqyspaWmr7Cwp6mqo6Slj5GSh4WJyMO72tjY0c/P19XU0c/O2NfW1NLR7ezs////zcrOv7qy0c/O2djX2dfWycjGzszLzsvL5uXk5+Xlz8vOwr216+vq5uXk6unp6Ojo4uLh5uXk6ejo////0czJuK+quLCstK2ns6yms66mtrCotbCnubOqvbeuu7Sp|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C104" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -85960,7 +86086,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY01-016_SY.webp", "en": null },
         "img_hash": "v3|H32=crVqPWm1N1WrGaMikkiVEpZKldiWRtBKnHLMTCwx3e0stbSKWyWepNaCTdqlSC6tonVrVSn9W6rSuq9WbYlbq61aKls|CYM=081116|G=w7yzw7up2M6c692Y3cyS1cOdubmptretzMnA2tXK2MOI3M2L1tXB3tnH49i61s+1oqqktI1+zrSz1NHH2cWxzcTG4tfW7eLh6+Hf5tzbqp6coqSiube3trKkyLqyv7Gw59va4NPS5trY4tbVvbSxk42GmZKLpaCU3M/Hzr/D3tDO2cbB5trYxrKuoJaTVlJQb25on5qS4trQyLrBvaysmpKS48rHraKhYFZYLCctbHByoqCY1c3DyKmhv7Kt7tjQ7c7E6tfOkIeFuLi72Njb1dTPs6ulWElMamNmiX18j4J8opORwsLE4+Pm+vn74d3XwMDCQjpAcWtvlYuOiYSHkI+Ry8vN2Nnbz9ne1NDKurWtUUlNV1FXZmFkTEhKWFlfx8/TycfK0M3RyMS+29bL7Ojk4MnDeoKIRkFQh4WGjImNoKCgnp6eyMzE4t3UzMjFsK+0n7C3VlRjcW1xnZuTo7WopbagipmD5eDMlpSMw8HAqsHHio2Kl5SPi6SPmLCZlqmPn7aZ2NHFzMi10dHKu8W/p6OTrqqdyc6/uMGxusOyvsGy|L=JP",
-        "ogbajoj_sheet_cells": [ [ 505534664, "C118" ] ],
+        "ogbajoj_sheet_cells": [ [ 505534664, "C119" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -86435,7 +86561,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY02-014_SY.webp", "en": null },
         "img_hash": "v3|H32=qqqcOqeqLDWcWi5GiTHVioWm06ln9hJValEqVcIqw9H0KhSVrXS6NVJyqkpJpsqSUotqqaRNaqqWkkq5L0+2qQeL0lo|CYM=142645|G=ibCNeat90rKR5tDH39zL7sfL7bm/7LO767G55sLCub2fqq2E4b+p27m13cHB48DB6rK87K3A8J+27LO73MK217Of68fCqnxlzZyDz5+Gz6aY3a6t37G558+55MvE7MHF1rKwr3tZwZBuyIxtyY1wroV01qqD0JJe6szJ4MvNxpyL0qqUzJl8w5F0sXhYtHlY0JpzzKOE4q6r4q+4wJ6YhH970KiWuKabrIRxtYJn0LKn49vR5sTB36asvZOR0c65/O3atrimpZCCuYyCpXlq0sW3ssCYp7GRmKqHm6195c6/07WntpeLlmFSp3RfpYBqpr+Azdq33ObRr8mf58PE3ba12rOvwJKJ1bayz7atr8mV5erc5OzWpciMscOdwJqY2LCtupWF1b608t3TsMueudu4sdClr9KkXJVY2s/D0b+xvaeXx66l58++zLKlr6uJg7Fgd6lrPH9A5M7L0cCwo418pqON4L2XtcOrdp10aZBkc5pzVn5UrIOD4KOl2Kic07Ke37eZsceta6h+aql+aaNzfJVtf5RtlaiEmaqEm6yLtcCr|L=JP",
-        "ogbajoj_sheet_cells": [ [ 505534664, "C119" ] ],
+        "ogbajoj_sheet_cells": [ [ 505534664, "C120" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -86953,7 +87079,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY03-019_SY.webp", "en": null },
         "img_hash": "v3|H32=qq5sMKuulvJtGhLlnFJInVZjCVpGiRFKwpgqF7Mq6lS2LrRSabXSZtbaatmWtDK1KSugKZVqpaaSWlpTaklSqrZFUks|CYM=05444F|G=y4iHx35626yo26Ce2ZmV4r255Mep69ul6tqj4NCj0G5tzExS26KdzYaC3KqP3LGa5KqD4alv36Zs59Kn2paT5LSd8tex6bmf46yP58ae3bWQ4cV9zrV82cSR3sCt9uG/8dOr7Mmh9tyt8Neq6cqls5ZypYxs1rue4cav7dGi7NKqkYuL3Lqa7M6ly4Z5w4WI6LSh7Ku35M+t0q2N7dTB3tHI3bWf5L2Y47qT5b6V36+y6KKw4sa21bGX8eDV8uvktaSm5MWe9tSg47qW58Cg5JKU48C52rSzpLPJ4+LqybWy8c6q89erkoOMtop/5sOf4smm34+axJ6qo6a18d2+7su1yLKmdYy2SlFowKie1qGe7Jap5Kqs4beY5amSvpGDpI6cp42SOywqgnNq5ra42nuStlJp051+s1hYZkhie1tkWFVWRjw8a15V0JGX4IGYtkhetEJj2Fh0l0dajEZXSy8zTz1ApXt72q6wzISUs09j3ZultFxlkTo6sUFUyUlit0tmypOW04aF0HR10GJn0Wxvt3Bntmxlz1pkulNbyGpv2JmU|L=JP",
-        "ogbajoj_sheet_cells": [ [ 505534664, "C120" ] ],
+        "ogbajoj_sheet_cells": [ [ 505534664, "C121" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -87438,7 +87564,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY04-016_SY.webp", "en": null },
         "img_hash": "v3|H32=rKpeVa+qpbJbTZajqrRRuNozYZ44lcNKJlWZzlZzjKyWUrSqalULJdatslZJ2mTLaWly2ZUq0ratUmpVYkmyeamlMrk|CYM=543B08|G=gJ6ybpGogJ6zdHqPmcjQh5uslLrLd3+hbXCWkZGlZ4ClOmyqQoW8Q1qDmbzWrLTHo77TUmmVV3KggZOyeYq0VI3GSYzAi46lmJSo4dPdqJ+qMDZEXGyQjaq+dpe+WX+7hY+ygn2Uu7K+0MHFcnCDOz5TlpWKlLTBfpq/YHetvrrHxrjFmYWNtZuce2d1TURQa2xzirTHfHOmZGmQvK+ylomao5GV58i89uvil397VVJdn67IgHaoVlFzZl5+VVNjcmdwtqWg7tfNoZKSX15vhpS5hHKidGyUOjhRTElgS0dga195amBsUkxoc4Cvj4mwgHWaQjhlZ2JzcGx3anKDgYOTcJOnY2p+S22mfXSmgXiHXVttS0ZgRoalm9Tk3e3zvOHqrtzpZrbana3Cdm2VTEdyOFNzManTq9zox+fvrt3qpNXlM6/Xaoitj4alQjl/SleRR6/Tkc7iqNrnoNfmjs3iO4q/Wn6khoOdg4GoREqCLWmYO4edWpirR7raTqnQRYW3UXadhpiugZy1XX6kUnuhaoCMa4iUQ5e8SJC1Tn2lfJyz|L=JP",
-        "ogbajoj_sheet_cells": [ [ 505534664, "C121" ] ],
+        "ogbajoj_sheet_cells": [ [ 505534664, "C122" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -87864,7 +87990,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY05-013_SY.webp", "en": null },
         "img_hash": "v3|H32=qqjbdBJlzIwSd8QtPIuUtMmLPLnJmDJb4biS2HMzs92zMhYVtipLP0pflIop0qq1oKXky/BSsrRS8pZqtUpSqSqlolM|CYM=19380F|G=upytuJKouae41MnE4tvZ4s+51cS93NLR6eHW3NTLq46wiV+cZjyGtZOMjnCci36diXiH4MrF59rY5dzXoYuviWmkybbRoXytnHisd1yMeWFqfmh6gXeWyLy9kHKgimSkz7bM1L7Wtp+4d2B3dl5vjGttimxyf3SFrJCxmniwxavJ0r3SinyTlICUall7b1+AjHuSg3eJuaO9royvrpS+i22ablhv07q9yq61tZyld2p8em99mYaenICleGGVRjtWnHt29NvX8dzab2h8eWRtfnF4nI2nj3CYk3KZaVWHxrzFqJOS07/B0qSMp4FwcWhznI+kZ1OJi3yknZGvq6a2ubO+p5eepZeaR0lqbmh2kYmPiYil2cnTxLzItaq1wLa+o52nW1x6QUFjeHN8tauhsai4qZekwrvI1szVp52namR4PjtWSURehXuFw7Sy3szSfnF7a2+DiX+Rj4OZUUpcXlhnYVlqpJmawbiykoGUkoKO1LyxXFJggXWDrqeyvbbAwLbB4tjaxbG1qIiat5eptJGlm4SMnIOIyay7zbK/yKm6zLS8|L=JP",
-        "ogbajoj_sheet_cells": [ [ 505534664, "C122" ] ],
+        "ogbajoj_sheet_cells": [ [ 505534664, "C123" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
@@ -88243,7 +88369,7 @@
         "illustrator": null,
         "img_path": { "jp": "unreleased/hY06-013_SY.webp", "en": null },
         "img_hash": "v3|H32=qKp2La+r1OpyHK3S1iyrVaWkMiWp0lYl2WLS1mkr084sKSTV1ipKbbG0WqqkTWqxrbWmSmm10mprVapVK1KopCVKllo|CYM=022048|G=1cZ80cFm4MeW7c6h5Ni629HI2NLR2MjE7dW25tC218SI386D08+kztDA4drA1tDJ3dPK+Ou/++/S8NO03Mu64trV5dy48t63+eO49uW86tzG69PD+evL8uG72NjU6srF6M2f8tiq89am8tio9t6ry3tu36+U8uW78NjL9NW8zbCS89O889G34sWu8tSlyKCEu5Sd48+t6d7F4tDEzrCdu5OO+/Hop3d32bCUx4WC4Nq02c5w6dq53caq37Ke9NvU6cK48tvQwaaVx49048KW4c+O1Lyo7L6g172supaMuZSQ1Lurx6ui37Wb4seY7+R/5rOX7KmL28rFy7Swz7ey3cC56dOs9O3A9umt8Oe23Lqp2LGg3Mq848vA2ci/yrat3sed+fHV+vLR8OSc79zK4MvOs5uhxq2oybCoyrWyzbya+eyh+OqF8OFw79HD993LuZuGv519p4dxwpVL68dK79NQ9Mkp68x48NrD5cikqYpv2MCfq6F9mYpn89216sOK79in49TF5c2L3sRv1r9u28Nyr6Jer6Zf6NJ94MeB3s2D0sqg|L=JP",
-        "ogbajoj_sheet_cells": [ [ 505534664, "C123" ] ],
+        "ogbajoj_sheet_cells": [ [ 505534664, "C124" ] ],
         "similarity_index": 1,
         "yuyutei_sell_paths": null,
         "tcgplayer_product_ids": null,
