@@ -4,9 +4,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Run once a day at 04:00 UTC / 13:00 JST / 00:00 EDT
+  # Run once a day at 04:23 UTC / 13:23 JST / 00:23 EDT
+  # Off the top of the hour: GitHub delays (or drops) scheduled runs more when the hour starts
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '23 4 * * *'
 env:
   CARGO_TERM_COLOR: always
 
