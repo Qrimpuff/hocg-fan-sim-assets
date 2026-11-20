@@ -4,11 +4,12 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Run twice a day at 13:00 and 21:00 UTC / 22:00 and 06:00 JST / 09:00 and 17:00 EDT
+  # Run twice a day at 13:17 and 21:17 UTC / 22:17 and 06:17 JST / 09:17 and 17:17 EDT
+  # Off the top of the hour: GitHub delays (or drops) scheduled runs more when the hour starts
   # ogbajoj: They usually update the spreadsheet before 13:00 UTC
   # TCGCSV: All content updates everyday around 20:00:00 UTC
   schedule:
-    - cron: '0 13,21 * * *'
+    - cron: '17 13,21 * * *'
 env:
   CARGO_TERM_COLOR: always
 
