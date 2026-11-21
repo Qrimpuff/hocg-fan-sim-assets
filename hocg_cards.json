@@ -68551,6 +68551,50 @@
       }
     ]
   },
+  "hBP10-026": {
+    "card_number": "hBP10-026",
+    "name": { "jp": "アユンダ・リス", "en": "Ayunda Risu" },
+    "card_type": "holomem",
+    "colors": [ "green" ],
+    "hp": 200,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "The Rise of the NUT Warrior" },
+        "text": { "en": "If your cheer deck has no cards, the damage from this holomem's Arts cannot be reduced." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "green", "green", "blue", "blue", "yellow", "yellow" ],
+        "name": { "jp": null, "en": "Guidance of Cheers" },
+        "power": "240",
+        "advantage": [ "blue", 50 ],
+        "text": {
+          "en": "[Center Position Only] Archive all of this holomem's cheers. Draw 2 cards, and put the top 2 cards of your deck as holo Power. Send 2 cheers from your archive to 1 of your holomem with #ID Gen 1."
+        }
+      }
+    ],
+    "tags": [ { "en": "#ID" }, { "en": "#ID Gen 1" }, { "en": "#Kemomimi" }, { "en": "#Singing" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-026",
+        "manage_id": { },
+        "rarity": "RR",
+        "illustrator": null,
+        "img_path": { "jp": "unreleased/hBP10-026_RR.webp", "en": null },
+        "img_hash": "v3|H32=pKqjT6WqtuwuUQnUq0hZw8u6WSpe1VI+VlVq11Jl5JcaplZrUHWlpKIuitJVgi3VL4uq8qlqqlBV2mCh6Uqi9ikr0to|CYM=1B2E17|G=xcavsr2ZiLaImriXl7aVlbmUm7uajsCOjbOIoK+Qyryk18q8c4d1V2VmZVxvUklVPjpBR2VQX5Fjh6h6s6Op9eTtl3CUbV17SDRCNy03Niw2RTlEeXeJn6Sqrpap7N7ol3yfcWl+XD5Rg1dbc0pYUjZKT0Nlfm+I06y1rpe15NPfjWuHjmRuybOrtoqNajdeY05wdGlzkoWIV01z4s7dw7HGfmJsu56dkWFwXTpVTTZHe2pug36GNThYm4mj9e3yqpSki3aBc1NflW19bUJhhG51iYCUgXR8enSNr5uy69ngno6WXVVajH6IW1J7fWt0lpKPlZ+GeXaLkI2Ux7a/fHh9W2VldXp2a2d7iHyQta2top6ooJekjoedhnyZqYugfGx6cmVxbGqBf3+Nsq2se3yIe3Z2k4aRgXmYin6VoHCLe259YGp6lIudr6mxqqazqKOutK66sKu3p6OwqJiouZ6vmoyflX+Fsq21oZ2xoJ61t7XHop6+rqrHgn2ffWeCwIepqIOWn7Gei6eUoKycgLCUtbTHw8HOwbzJp5+ys52qxqmt|L=JP",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C28" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-029": {
     "card_number": "hBP10-029",
     "name": { "jp": "姫森ルーナ", "en": "Himemori Luna" },
