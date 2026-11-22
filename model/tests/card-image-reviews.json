@@ -255,6 +255,20 @@
         },
         {
           "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP01-024_C_02.webp",
+          "sha256": "cd322aec61bd103c0bb61e69286e520b2dbad201e9cc302f62d1c6f3c8fe8626",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "HR",
+          "path": "img_en/hBP07/EN_hBP01-024_HR.webp",
+          "sha256": "e91aa06c55d500ff89aa4fe98c8a3127a6ac0a8d8fb1b346d7b7ba496ad5ea6d",
+          "group": 3
+        },
+        {
+          "language": "EN",
           "rarity": "P",
           "path": "img_en/hPR/EN_hBP01-024_P.webp",
           "sha256": "6185a7912a2851fd4155bdf83a2a63c8db2981b18d8cd35f447ae3ea5e0af482",
@@ -712,6 +726,20 @@
           "path": "img_en/COMMON/EN_hBP01-044_C.webp",
           "sha256": "fe2c20a7408e6219c36864bd465fe65afcc1360ee65cb6f5a36780eef03d5b03",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP01-044_C_02.webp",
+          "sha256": "73a73d79b0776358094a5874b8fed37345e4a08de8638c7dd1c3bb4f5d387ddd",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "HR",
+          "path": "img_en/hBP07/EN_hBP01-044_HR.webp",
+          "sha256": "3b3b94a816564434055bcd424b3294b61fa2bd2099b9d21e8d660a3309ca0c6e",
+          "group": 3
         },
         {
           "language": "EN",
@@ -1692,6 +1720,20 @@
         },
         {
           "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP01-092_C_02.webp",
+          "sha256": "2cf2bb9c8d7d432e4eda04bdf7bbe1e6c43670910af59f2a28a63aaca2de6d89",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "HR",
+          "path": "img_en/hBP07/EN_hBP01-092_HR.webp",
+          "sha256": "0b873ca76792da3d2a1c433c2d0688369629b68cc865dd100dd33f1c000c5b01",
+          "group": 3
+        },
+        {
+          "language": "EN",
           "rarity": "P",
           "path": "img_en/hPR/EN_hBP01-092_P.webp",
           "sha256": "6aa7fe1d58a2cd9dc580176a599bffb63838b1b3eb7c6331611df39e8e9645ce",
@@ -2070,6 +2112,13 @@
           "group": 1
         },
         {
+          "language": "JP",
+          "rarity": "P",
+          "path": "img/hPR/hBP01-118_P.webp",
+          "sha256": "393f9d05f2d6a2b86a38e82a9418dc5e1031dae8249aa1d6d6e6c0871f9237cc",
+          "group": 1
+        },
+        {
           "language": "EN",
           "rarity": "C",
           "path": "img_en/hBP01/EN_hBP01-118_C.webp",
@@ -2426,6 +2475,13 @@
           "path": "img_en/hBP02/EN_hBP02-024_C.webp",
           "sha256": "dbbe70d7edf922e04c7652fdc46a66350b4a35bc30b7b0fbe7133fd9178dc7c7",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP02-024_C_02.webp",
+          "sha256": "20005ae40f22e73e909fd71bfb96f63fb6f9a1a0ed4b16572d951071163be961",
+          "group": 2
         },
         {
           "language": "EN",
@@ -3027,6 +3083,54 @@
       ]
     },
     {
+      "card_number": "hBP03-025",
+      "approval": "bulk",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "C",
+          "path": "img/hBP03/hBP03-025_C.webp",
+          "sha256": "6986b244fa2291b9816cc42bf2589a808b15d2175a550a761d859bd69f48e875",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "HR",
+          "path": "img/hBP07/hBP03-025_02_HR.webp",
+          "sha256": "642b4ba55f2253bedf16eb159343ad88e0f79c4f1553331a5d68a2d188ec71db",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "P",
+          "path": "img/hPR/hBP03-025_P.webp",
+          "sha256": "768e1e310c33539bc95a2755d0baf46f4f317aca90b83151a32db39f8691847e",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP03/EN_hBP03-025_C.webp",
+          "sha256": "b30a861c996c06716d36528cc824657b9d389801eb8253183668454024aaf902",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "HR",
+          "path": "img_en/hBP07/EN_hBP03-025_HR.webp",
+          "sha256": "6d5e4049c02999848757b9af6c541b57442722e4c65d700828c035c70b248143",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "P",
+          "path": "img_en/hPR/EN_hBP03-025_P.webp",
+          "sha256": "fa5cc8693ab2cf176a10911b742a49c8b44649a288d9fcd2efe175543de851b2",
+          "group": 1
+        }
+      ]
+    },
+    {
       "card_number": "hBP03-031",
       "approval": "manual",
       "images": [
@@ -3057,6 +3161,13 @@
           "path": "img_en/hBP03/EN_hBP03-031_C.webp",
           "sha256": "bc0dabb559f28c07af597fc5fdbae200eb70c18c73e54287b4255b42119d3fcc",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP03-031_C_02.webp",
+          "sha256": "b33ced31ecd630364ed80a1b31a8e7e9a60812042db508c4e9a165069f777a25",
+          "group": 2
         },
         {
           "language": "EN",
@@ -3342,16 +3453,16 @@
         {
           "language": "JP",
           "rarity": "P",
-          "path": "img/hPR/hBP03-057_P.webp",
-          "sha256": "d9a44339a4ad832488b271fea47dfd3a22d1eeb36707e43597b1ed2eac3017b4",
-          "group": 1
+          "path": "img/hPR/hBP03-057_P_02.webp",
+          "sha256": "2c91f1e2996c209287647a1622c517af5ffa25f8e20415635a03e037589c8f6c",
+          "group": 3
         },
         {
           "language": "JP",
           "rarity": "P",
-          "path": "img/unreleased/hBP03-057_P.webp",
-          "sha256": "939716600cf3b813cf9aaef251c332fa9193957a47434a0cbd34e6fe58d7b4d5",
-          "group": 3
+          "path": "img/hPR/hBP03-057_P.webp",
+          "sha256": "d9a44339a4ad832488b271fea47dfd3a22d1eeb36707e43597b1ed2eac3017b4",
+          "group": 1
         },
         {
           "language": "EN",
@@ -3414,6 +3525,20 @@
           "path": "img_en/hBP03/EN_hBP03-067_C.webp",
           "sha256": "11a4314ec8185b068422c2edcaa51420a050f52fda576d1466c54cc04734d26e",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP03-067_C_02.webp",
+          "sha256": "7dbaf39b2ba6f09601577265f5bceb790cda8f155e8725c3a43e190803e28f14",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "HR",
+          "path": "img_en/hBP07/EN_hBP03-067_HR.webp",
+          "sha256": "998e2a283a1ce58c13e0f6ded579175d362dbf7847680addd68201b534d1cae4",
+          "group": 3
         },
         {
           "language": "EN",
@@ -3548,16 +3673,16 @@
         {
           "language": "JP",
           "rarity": "P",
-          "path": "img/hPR/hBP04-008_P.webp",
-          "sha256": "22752a3d357bc101a41723a37bb1b9e896c8cff206a51be770c59ec3d05b9c1f",
-          "group": 1
+          "path": "img/hPR/hBP04-008_P_02.webp",
+          "sha256": "8ca91ba1b7b83efb616d1d61fdcb90b951535864feae727d06185ac8d08b8553",
+          "group": 4
         },
         {
           "language": "JP",
           "rarity": "P",
-          "path": "img/unreleased/hBP04-008_P.webp",
-          "sha256": "ccb1f744325338eed5e0057a71ad0128dcd7c4cb143970760bf803bf666d5fe5",
-          "group": 4
+          "path": "img/hPR/hBP04-008_P.webp",
+          "sha256": "22752a3d357bc101a41723a37bb1b9e896c8cff206a51be770c59ec3d05b9c1f",
+          "group": 1
         },
         {
           "language": "EN",
@@ -3599,6 +3724,20 @@
           "path": "img/hBP04/hBP04-020_C.webp",
           "sha256": "6599fc5d4fcd54bf67414af1da271f4b7f075640d4d8be5edc95dddb704f3906",
           "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "C",
+          "path": "img/unreleased/hBP04-020_C.webp",
+          "sha256": "663648a4de5acfaaa3ff6f9481619a15c2827ec53f90cad544e8ef40f952774d",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "HR",
+          "path": "img/unreleased/hBP04-020_HR.webp",
+          "sha256": "b77529fd01e6769027092ded3506db214ad1aab42f132354ae22171eb4b364b8",
+          "group": 3
         },
         {
           "language": "JP",
@@ -3667,6 +3806,13 @@
           "path": "img/hBP04/hBP04-032_C.webp",
           "sha256": "fbc919479f0418557bdedb4855f88f33eac3ac6d365e97c3e6d86c2bad6f1f1e",
           "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "HR",
+          "path": "img/unreleased/hBP04-032_HR.webp",
+          "sha256": "b8598a7ed7f89cf43b635739ca8fce4bf6d0e55499bbcbe8afce8a20298761d8",
+          "group": 2
         },
         {
           "language": "JP",
@@ -3963,6 +4109,20 @@
           "path": "img_en/hBP04/EN_hBP04-054_C.webp",
           "sha256": "ed00e8e4a7e60defcbc1c615fa83561b3ae381f77eaf8ad0a0a731bc7ac52ed5",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP04-054_C_02.webp",
+          "sha256": "3899c83c8d379cea61c098d07b21585345e6a5b714af6b93d763891639d08752",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "HR",
+          "path": "img_en/hBP07/EN_hBP04-054_HR.webp",
+          "sha256": "55dc9ca5493694d7ff1dd6cb7b4c88768f08b7b51e1351e87680a6718c175386",
+          "group": 3
         },
         {
           "language": "EN",
@@ -4962,8 +5122,8 @@
         {
           "language": "JP",
           "rarity": "SR",
-          "path": "img/unreleased/hBP06-027_SR.webp",
-          "sha256": "d4e3f698ef6e0b8e3fb657a5a834353f18c1bc774213eba704d91b4dcb731ba0",
+          "path": "img/hCS02/hBP06-027_SR.webp",
+          "sha256": "80c0be8802a1bdb774bbbb3f180332f174fa2655ecdc5bd9fcdd1ffa77b32d7d",
           "group": 3
         },
         {
@@ -5407,6 +5567,54 @@
       ]
     },
     {
+      "card_number": "hBP07-003",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "OSR",
+          "path": "img/hBP07/hBP07-003_OSR.webp",
+          "sha256": "01eae991b96fcd0ecb0fffde27b51c38755816a1d70ff921f47062295f99bb27",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "OUR",
+          "path": "img/hBP07/hBP07-003_OUR.webp",
+          "sha256": "3d10552003e6381d263a2ecddd309b0a89bac9d2e8cb93bb0c4025cabe2a70dd",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "SEC",
+          "path": "img/hBP07/hBP07-003_SEC.webp",
+          "sha256": "6628b944fc607596ae54c9adc241593a65c1fa9bce7bf3bf932b0eb0d6b095d0",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "OSR",
+          "path": "img_en/hBP07/EN_hBP07-003_OSR.webp",
+          "sha256": "aec46f108f44c8fcbc171bf6bc6aa7f3a71ffb3b0e748e87fea7a4f45202faee",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "OUR",
+          "path": "img_en/hBP07/EN_hBP07-003_OUR.webp",
+          "sha256": "a22fc0f5941c06c372a1c9a96ce9d8e4c597a7f832582dfa73d9882a3c5578e1",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "SEC",
+          "path": "img_en/hBP07/EN_hBP07-003_SEC.webp",
+          "sha256": "083bea608e33b940e2cf89834609710aa28885ff2980a1b2f8817e14ff249976",
+          "group": 3
+        }
+      ]
+    },
+    {
       "card_number": "hBP07-008",
       "approval": "manual",
       "images": [
@@ -5423,6 +5631,95 @@
           "path": "img/hPR/hBP07-008_P.webp",
           "sha256": "4262ceb5b5c90657b944c405746ed834a52a644426b9faef2a09242283880de3",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-008_C.webp",
+          "sha256": "0677ae3f29ac040b8dc9cb04697d5062164779eb35657b044110787547074711",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-013",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "U",
+          "path": "img/hBP07/hBP07-013_U.webp",
+          "sha256": "dff8ac70ef79955c73a2d3e582f665799c4a6a6b5d4fce3ad78e219e376d60f7",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "S",
+          "path": "img/hBP07/hBP07-013_S.webp",
+          "sha256": "ebcdc430617f1287b2ad48c60273049426c416a5d0074eb3b9931ef7411993bc",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "U",
+          "path": "img_en/hBP07/EN_hBP07-013_U.webp",
+          "sha256": "4b95f2f813691016c04159034b38af14a9e9beeae985f8d6971a97f28d3158fb",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "S",
+          "path": "img_en/hBP07/EN_hBP07-013_S.webp",
+          "sha256": "2237e3ded13bc6f08203febbc839928def06fcb2a06b57a6661edb11efd8461e",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-021",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "RR",
+          "path": "img/hBP07/hBP07-021_RR.webp",
+          "sha256": "23b15dc7565dbcc5328d4e940deb4d551a5b477f57e0627dd9661c6a14f8c50f",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-021_SR.webp",
+          "sha256": "c079eb2616bcaa751a3aa30c0e414ee982ef91327064d064bf1171d702d26b68",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "UR",
+          "path": "img/hBP07/hBP07-021_UR.webp",
+          "sha256": "ba36bd5a93e5b0d4896b9de8507790782ef71b209e69c8aae365c0ae40338b55",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "RR",
+          "path": "img_en/hBP07/EN_hBP07-021_RR.webp",
+          "sha256": "7ecee6de901ddea8ed1908d655bacc5ab796b1c62deb528a784807c7d897c588",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-021_SR.webp",
+          "sha256": "9993a571bcc1ad6ee1df6cdae5de3b9cb0d556dab588c618cac3d9cce43bee34",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "UR",
+          "path": "img_en/hBP07/EN_hBP07-021_UR.webp",
+          "sha256": "ff4f292d708a75abe437612ffbe5f77b206bcf93c75a19ec12ddd1a1d439a71f",
+          "group": 3
         }
       ]
     },
@@ -5450,6 +5747,95 @@
           "path": "img/hPR/hBP07-023_P.webp",
           "sha256": "8e3fc6c57bee029aebe51e3b72f285f4642ea964b86d80b9d2185fa43282100c",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-023_C.webp",
+          "sha256": "890ccd48e09c35ab75cffc8d8956571b6e6d9d238b145ab20d14dc1dd5ebc6c4",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-027",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "R",
+          "path": "img/hBP07/hBP07-027_R.webp",
+          "sha256": "320c7c35950c22ab7f108bb94fa7815afaa262a2afd30ff34377d0792c83fec9",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-027_SR.webp",
+          "sha256": "b2e00fee21422ff746e616cf343963414115922bfaa8131f8510cd75389ad2bf",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "R",
+          "path": "img_en/hBP07/EN_hBP07-027_R.webp",
+          "sha256": "c20b0c13d5487d34859aebbace1ff41ca5cd8cc141bdf7dc28b78d7081e24208",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-027_SR.webp",
+          "sha256": "1f8d51586a4103a84878863d3237a66b99a24f01b128a3c4af37768bd71ce48b",
+          "group": 2
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-029",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "RR",
+          "path": "img/hBP07/hBP07-029_RR.webp",
+          "sha256": "6bbdeda52b636e678d9b2e93dbe4a9d6418f15d1fa190f1edb88f59fd6c98608",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-029_SR.webp",
+          "sha256": "43a981f1cb1e5e1f961bfdaff05adbbf0ea2a92a1df00a7ea50c67c8894c9532",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "UR",
+          "path": "img/hBP07/hBP07-029_UR.webp",
+          "sha256": "0335d0e93bf17606ffcfb6a3c66524d2734dee824700bad144ea8effbb61fa77",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "RR",
+          "path": "img_en/hBP07/EN_hBP07-029_RR.webp",
+          "sha256": "7886389c503ab754fa9e868849ab8c2a1cdd607b13b0ed7fd264d6853068c039",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-029_SR.webp",
+          "sha256": "a0b527063337e1858a3c1150690e80c85ac892a71e1e19aef71fce9f8d972d9f",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "UR",
+          "path": "img_en/hBP07/EN_hBP07-029_UR.webp",
+          "sha256": "3e51dc16a4a0e63f98af599b3b00306b0d3b9c714d694bb3fd9abf82a2977b03",
+          "group": 3
         }
       ]
     },
@@ -5470,6 +5856,61 @@
           "path": "img/hPR/hBP07-032_P.webp",
           "sha256": "2dba39c98021844fcdadb25e539736207eef062a55a36eb05234209243028180",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-032_C.webp",
+          "sha256": "d7f8474d6218aed4b52f70f66c4cdba12e40e5ae4ed07069f4f821edae09945e",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-035",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "RR",
+          "path": "img/hBP07/hBP07-035_RR.webp",
+          "sha256": "48a0d888e43ab3ec46138cdef294015888d0f65d8f6414b0b30a7fee9c21f827",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-035_SR.webp",
+          "sha256": "44005a40a6234b0134262de1e10618f22b73af3192e66a5119a776966f681f82",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "UR",
+          "path": "img/hBP07/hBP07-035_UR.webp",
+          "sha256": "6499392e72be4b4adc2c078effb8d94c513aeff1141f78cbd6c7b21146fbe85e",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "RR",
+          "path": "img_en/hBP07/EN_hBP07-035_RR.webp",
+          "sha256": "cb525cdc9a042060461d5a745028921d78ea0e595f6865a21dc9f28a3a3b4cb2",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-035_SR.webp",
+          "sha256": "c6c9d65a731272328473f695237db9464c20b5f3139f4b66257d642c995b4c94",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "UR",
+          "path": "img_en/hBP07/EN_hBP07-035_UR.webp",
+          "sha256": "10b3cc88f98d5e77c9414a46340acb48e71d37586ddb31bc62a346664ac94847",
+          "group": 3
         }
       ]
     },
@@ -5490,6 +5931,47 @@
           "path": "img/hPR/hBP07-036_P.webp",
           "sha256": "8627fb08b4701c6e3364416f39e52f8b660f65ad410deb870e5eeec2e3e72aa1",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-036_C.webp",
+          "sha256": "64108298ce9879cf5129f2bec798aef1d5b6d3c5f21879e999727b3870c0ba5e",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-044",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "R",
+          "path": "img/hBP07/hBP07-044_R.webp",
+          "sha256": "a665843bcd35656394e9566213877cf61f2fb1f18752896be8ced83192dc7dfa",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-044_SR.webp",
+          "sha256": "3c51edc4a6053e0543991dd26cf0922cf34081b2c5058685e634128a0a064f31",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "R",
+          "path": "img_en/hBP07/EN_hBP07-044_R.webp",
+          "sha256": "74f7deaf06e68d19718eac61927929f6735711daa7527beda671a1cadf44dd64",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-044_SR.webp",
+          "sha256": "14575b361b3e454be4e5e5f02d0d0a0945322304066aeace7e23ba23ae26197b",
+          "group": 2
         }
       ]
     },
@@ -5509,6 +5991,13 @@
           "rarity": "P",
           "path": "img/hPR/hBP07-046_P.webp",
           "sha256": "aac833d1dee1bbf641faeec24d984b71f1b4bea0b35252a8edc7955186d5da58",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-046_C.webp",
+          "sha256": "fe5318832f9bdac78278dd5e07e5be726e13574ffa684655ac2af90ca66ae3f9",
           "group": 1
         }
       ]
@@ -5530,6 +6019,13 @@
           "path": "img/hPR/hBP07-050_P.webp",
           "sha256": "2a3dcc4ee800525c409fad7588ca3d22487b8332b718aafc790b6e5a621685ae",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-050_C.webp",
+          "sha256": "a1e7f4f2308d90e72dbe96aa33336dfc20c4b7cf5004b548ce008bcef4a0ad52",
+          "group": 1
         }
       ]
     },
@@ -5550,6 +6046,75 @@
           "path": "img/hBP07/hBP07-052_S.webp",
           "sha256": "06890ba297e73d41ec7f9054afc56b17b5a7e210d14d5c2cdeed9392b3385773",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-052_C.webp",
+          "sha256": "65d037378aeff88b8c38a6f55d75050d767e152d5e27a99381da435e41a0aef2",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "S",
+          "path": "img_en/hBP07/EN_hBP07-052_S.webp",
+          "sha256": "b27a942aea6d2cbcbc4b8ebe651888ef969ec3c184a84d61438dd103ffe4c272",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-056",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "RR",
+          "path": "img/hBP07/hBP07-056_RR.webp",
+          "sha256": "df16e6f83ab83f3d0f054927a06c9992566529a5e42631a069f395ce38e20a27",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-056_SR.webp",
+          "sha256": "9aceb976156354f8afc6bad4eaf3604821afb559055a189a171d9d55e9251350",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "UR",
+          "path": "img/hBP07/hBP07-056_UR.webp",
+          "sha256": "12ed0dd497057e9fb6ee8d8d04c74c08c2b96f5457f99713805f072fa65f4df3",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "RR",
+          "path": "img_en/hBP07/EN_hBP07-056_RR.webp",
+          "sha256": "736202e49ece3c035d9c234fb460c03e20679c665557a019d49bacc1c45d3f97",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-056_SR.webp",
+          "sha256": "451142c805168e3909e8a7e3e6248de09ec20331f3b0377b06a44b67b5e92547",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "UR",
+          "path": "img_en/hBP07/EN_hBP07-056_UR.webp",
+          "sha256": "85f1dd3e82fb3acba5cd3b407dbbeff4a122a25665707742b18e211a9a6a013d",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "P",
+          "path": "img_en/unreleased/hBP07-056_P.webp",
+          "sha256": "83f9c808ed7772b93563bdd51bbcee219b740bea3ff37d9e8b567fd77df58980",
+          "group": 4
         }
       ]
     },
@@ -5570,6 +6135,95 @@
           "path": "img/hPR/hBP07-059_P.webp",
           "sha256": "a12e1af3fb4605e4da0712c65521cd9bec02032d57e0d4d28a6d12175e812f50",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-059_C.webp",
+          "sha256": "dcdfe8addb829b87615d08e2c847ef56f7118037969a1c1a0f9c0399a40fca9f",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-061",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "R",
+          "path": "img/hBP07/hBP07-061_R.webp",
+          "sha256": "3a05e5d159b288b189d027dadfce9fcc712c16ef56efb58ebd4f629695c522a4",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-061_SR.webp",
+          "sha256": "c3154e9fba923b0f9fbf217f1963623e0a75aaf1888778d37cd5baa16f5380c3",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "R",
+          "path": "img_en/hBP07/EN_hBP07-061_R.webp",
+          "sha256": "900afcfc4606f9afa78e00ac24f8c7c5c12a749161a5e606d7f03f080c66c888",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-061_SR.webp",
+          "sha256": "5731fa25d4d11f6cd10d22d785eaea17097da3061779e864e81f6e3a7cc670bb",
+          "group": 2
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-062",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "RR",
+          "path": "img/hBP07/hBP07-062_RR.webp",
+          "sha256": "6e1048eff26c2fa4a69613644ec8a2a745b6f456bf2df0af33b38be256caba90",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-062_SR.webp",
+          "sha256": "d7c9f3da953d928c33908eace4e22e5b00ae10d511fbfde5c60850f50202571f",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "UR",
+          "path": "img/hBP07/hBP07-062_UR.webp",
+          "sha256": "bc0c94edaee3b452fa4bf6defd63731c334eac3479167f15a0ef0752e77edf53",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "RR",
+          "path": "img_en/hBP07/EN_hBP07-062_RR.webp",
+          "sha256": "d86a6aeef1537c633db4db8d989331820f831ecaa39c1b86a6741d6c1aaef702",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-062_SR.webp",
+          "sha256": "f406ad7d6887d56d2c641dc5586d03f0bd3d3e281efa284632db336f2c829a86",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "UR",
+          "path": "img_en/hBP07/EN_hBP07-062_UR.webp",
+          "sha256": "361252a7b1f9330b1bdcab769a1d2ed60b23b64cdf8f30ea8ca5933d29ff43fa",
+          "group": 3
         }
       ]
     },
@@ -5590,6 +6244,143 @@
           "path": "img/hPR/hBP07-063_P.webp",
           "sha256": "d5c015dabb38890c2d4fbdcb01b9b9d90cc39ed234a8c22c66c1dbb9ec3c4e0a",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-063_C.webp",
+          "sha256": "65906a2f876995b08500c941201526de0117613b3eabfa1fe369a7771532e30d",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-067",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "R",
+          "path": "img/hBP07/hBP07-067_R.webp",
+          "sha256": "a5f5280b0616677f331770635d19aaed8a1ef647be205e729d1893ed53bc8478",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-067_SR.webp",
+          "sha256": "1795aeb378be075fa67429701a08666d66a8e2762305494ccb70d51f37033a66",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "P",
+          "path": "img/hPR/hBP07-067_P_02.webp",
+          "sha256": "966419fad5d56e05da862f7799b6af8f8a62db289ce1c5eee0134ff4eb7632c9",
+          "group": 3
+        },
+        {
+          "language": "JP",
+          "rarity": "P",
+          "path": "img/hPR/hBP07-067_P.webp",
+          "sha256": "d773b0fdd4ae1c4e0fdd5b5d947f3041368356b1ad76bf7eba2ebb51467b611c",
+          "group": 4
+        },
+        {
+          "language": "EN",
+          "rarity": "R",
+          "path": "img_en/hBP07/EN_hBP07-067_R.webp",
+          "sha256": "3ce61d0938a4ebc7af81409fa0391988277ed4950d0dba460bb0adca296bbf93",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-067_SR.webp",
+          "sha256": "63c34a45a0c28a6536d7312f026ef863b0c868ed938fc77d1983ea1ac0171ad3",
+          "group": 2
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-074",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "RR",
+          "path": "img/hBP07/hBP07-074_RR.webp",
+          "sha256": "bd270c5d98059c1bb765efe80a43486191e2645794527bc13f94c4e5ed265242",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-074_SR.webp",
+          "sha256": "b617b0278043186919501999a515d38c4291f20be9961b6ae0c730f65c6f9646",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "UR",
+          "path": "img/hBP07/hBP07-074_UR.webp",
+          "sha256": "3d096ee67ed99761d4a7664a6b1540f1c84009513f42c7ed47ea0b02b358a874",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "RR",
+          "path": "img_en/hBP07/EN_hBP07-074_RR.webp",
+          "sha256": "70e8d072a03f79233b04168276711970198778b40056874f2cb075fce711bdeb",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-074_SR.webp",
+          "sha256": "606868b0a23b3b76c2ef3347fa96a8b0b8c1881a1c49b79903efaed429e9d457",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "UR",
+          "path": "img_en/hBP07/EN_hBP07-074_UR.webp",
+          "sha256": "6d6f580c53b5aae1c1bd2bc8f8651350dcba70ba9251a833a7f5c3f2fbca24ca",
+          "group": 3
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-076",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "R",
+          "path": "img/hBP07/hBP07-076_R.webp",
+          "sha256": "045ae8eff8a6c0bf4b019ca85b8774eab12aa0f4177bf4b8ba729aa47f28f724",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-076_SR.webp",
+          "sha256": "27c2f4e1347c957ae230299727b7650e1e25a7aa8d3202ed54884a3508330a18",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "R",
+          "path": "img_en/hBP07/EN_hBP07-076_R.webp",
+          "sha256": "f853dae909a973a7fb712a664ab6f3281b3bfcfee80f06fb832892454a543cda",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-076_SR.webp",
+          "sha256": "548f080189dcdb9b33a06eba702db98abfd4b2545016a71af59cd810c2327645",
+          "group": 2
         }
       ]
     },
@@ -5609,6 +6400,13 @@
           "rarity": "P",
           "path": "img/hPR/hBP07-077_P.webp",
           "sha256": "e014bf343b72f728ab48c4bd6690b3ead5f90f4c8487c6453e94926bb0c078d0",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-077_C.webp",
+          "sha256": "5739fff961b4adaf08106e55b30b99de1a090343c7e4b16ba24af7ff680f043e",
           "group": 1
         }
       ]
@@ -5630,6 +6428,95 @@
           "path": "img/hBP07/hBP07-080_S.webp",
           "sha256": "ff156322bb8ad32307cc890c83056b17654e0520e107d999877ff269d411ed6d",
           "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-080_C.webp",
+          "sha256": "529184d10e7a9be513819f87aa163f12bf91cfb1da695a6df31b500138475d95",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "S",
+          "path": "img_en/hBP07/EN_hBP07-080_S.webp",
+          "sha256": "981ba17f348de32cb0f139780ff21020f02b7878b0aeccbf205c86da9c856082",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-081",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "R",
+          "path": "img/hBP07/hBP07-081_R.webp",
+          "sha256": "50456dfed4b8d5777d477e7904e171196f880e70f8793690c994fa78de8a590b",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-081_SR.webp",
+          "sha256": "bf26aaba314de44c225f7e0df51d2cd2d645369eb109e3dd7dd050b8f8d9c500",
+          "group": 2
+        },
+        {
+          "language": "JP",
+          "rarity": "P",
+          "path": "img/hPR/hBP07-081_P.webp",
+          "sha256": "4e5419a570de0a3b35bbd0d8610ca77c4cd7bc2f5987a9ae41bbb0b15fa91db1",
+          "group": 3
+        },
+        {
+          "language": "EN",
+          "rarity": "R",
+          "path": "img_en/hBP07/EN_hBP07-081_R.webp",
+          "sha256": "186e005cb5027c34cedb501d534240263846b45208f716a5b64283b0764adf78",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-081_SR.webp",
+          "sha256": "1a6b0b7e3d1347a614e434aaa3a422a9c49de165794df351e644ac60bdabc382",
+          "group": 2
+        }
+      ]
+    },
+    {
+      "card_number": "hBP07-085",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "R",
+          "path": "img/hBP07/hBP07-085_R.webp",
+          "sha256": "1679983475f345021db621fa772b5dfe3967cd6fe4248dec72907f6d6d76cfbe",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "SR",
+          "path": "img/hBP07/hBP07-085_SR.webp",
+          "sha256": "e415f6960eff0ec1f16b3329dd7832dc1cece236e5f32762cc06642e710905f2",
+          "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "R",
+          "path": "img_en/hBP07/EN_hBP07-085_R.webp",
+          "sha256": "962240f2b47df2314d8b4236f3b7b9755672e846e2a8e0c06f850a9d00d422b8",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "SR",
+          "path": "img_en/hBP07/EN_hBP07-085_SR.webp",
+          "sha256": "feb350197887d0c70244c1f52fa7675e364206336763634d513bbec1384c1596",
+          "group": 2
         }
       ]
     },
@@ -5649,6 +6536,13 @@
           "rarity": "P",
           "path": "img/hPR/hBP07-087_P.webp",
           "sha256": "4b01e530634861380849b2effdce432e4d189b82de5499bd531e753b9c35d037",
+          "group": 1
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hBP07-087_C.webp",
+          "sha256": "b298423bacf3a0eb757cb9b94496aa48331cfb2b26b10bf225ef83f58c581229",
           "group": 1
         }
       ]
@@ -5673,9 +6567,16 @@
         },
         {
           "language": "EN",
+          "rarity": "U",
+          "path": "img_en/hBP07/EN_hBP07-097_U.webp",
+          "sha256": "10b6e2f41c42dcb0387e9845fc3b174508ae736cae247884ee36d36356d7a391",
+          "group": 1
+        },
+        {
+          "language": "EN",
           "rarity": "SR",
-          "path": "img_en/unreleased/hBP07-097_SR.webp",
-          "sha256": "af754e2675218d51ce86f1d9a52bc702b4266ca99b3ef3aec8f25d77035e9610",
+          "path": "img_en/hBP07/EN_hBP07-097_SR.webp",
+          "sha256": "56be7110539b95466e0aa32e87e9c070d5385863d2278a5553105e1e33202cc0",
           "group": 2
         }
       ]
@@ -5852,6 +6753,26 @@
           "rarity": "P",
           "path": "img/hPR/hBP09-007_P.webp",
           "sha256": "d220b938d6fd051e1185e48cce75bf4a331b484c3d9d849fa66723e381a6359e",
+          "group": 1
+        }
+      ]
+    },
+    {
+      "card_number": "hBP09-052",
+      "approval": "manual",
+      "images": [
+        {
+          "language": "JP",
+          "rarity": "U",
+          "path": "img/hBP09/hBP09-052_U.webp",
+          "sha256": "38dc2c4eaad49027012a51f6d336b741c210361ec0a823fdbc1806b8f8739d43",
+          "group": 1
+        },
+        {
+          "language": "JP",
+          "rarity": "P",
+          "path": "img/hPR/hBP09-052_P.webp",
+          "sha256": "50499bc807d8a6dddbdf3d1061363308d01be9cc157640ad4ae0d0ede224e5b9",
           "group": 1
         }
       ]
@@ -6494,6 +7415,13 @@
           "group": 1
         },
         {
+          "language": "JP",
+          "rarity": "P",
+          "path": "img/hPR/hSD10-004_P.webp",
+          "sha256": "b563cbe92710a0b6b9328220ae4ffc62e85efbb05ade986f27937cf2ba11cb81",
+          "group": 1
+        },
+        {
           "language": "EN",
           "rarity": "U",
           "path": "img_en/hBP06/EN_hSD10-004_U01.webp",
@@ -6583,6 +7511,13 @@
         },
         {
           "language": "JP",
+          "rarity": "C",
+          "path": "img/unreleased/hSD11-002_C.webp",
+          "sha256": "8d78574c1da4fd3d2ca8ad60cc653a2881fb92eb32a296ce2d875fb003cead8a",
+          "group": 3
+        },
+        {
+          "language": "JP",
           "rarity": "P",
           "path": "img/hPR/hSD11-002_P.webp",
           "sha256": "a25d62743900d84733adf239afd6cf15c3ceb0d07bd90668ab8caf246a26467e",
@@ -6594,6 +7529,13 @@
           "path": "img_en/hBP06/EN_hSD11-002_C01.webp",
           "sha256": "5a76f696083bf8e29a85d5f859e8d2ab8c23c6ddf737944e0af08d047ac08c3d",
           "group": 2
+        },
+        {
+          "language": "EN",
+          "rarity": "C",
+          "path": "img_en/hBP07/EN_hSD11-002_C_02.webp",
+          "sha256": "6e43073ddf12549d6d8dbc37a974cbd8915522e1f3c06c1252d00747c0950292",
+          "group": 1
         },
         {
           "language": "EN",

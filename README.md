@@ -246,6 +246,9 @@ can be improved.
 Image hashes are version 3 (`v3|H32=..|CYM=..|G=..|L=..`). `is_similar` compares
 official images (with a `manage_id`) using a coarse color grid of the card, with
 thresholds that depend only on whether both images have the same language and rarity.
+Between Japanese and English prints of the same rarity, the name bar and the text box
+are left out of the average, since full-art cards (e.g. HR) print the translated text
+over the artwork.
 Unreleased images (samples, sheet crops, scans) and older v2 hashes are compared with
 the tolerant perceptual hash distance, which is also used to match images from other
 sources. The only per-card exception is `SAME_ACROSS_LANGUAGES` in `img_hash.rs`, for
