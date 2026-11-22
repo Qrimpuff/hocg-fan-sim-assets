@@ -1,0 +1,390 @@
+{
+  "hBP01": {
+    "name": {
+      "jp": "ブースターパック「ブルーミングレディアンス」",
+      "en": "Booster Pack – Blooming Radiance"
+    },
+    "release_date": { "jp": "2024-09-20", "en": "2025-07-11" },
+    "category": "boosters",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/blooming-radiance/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/booster-pack-blooming-radiance/"
+    },
+    "short_name": { "jp": "ブルーミングレディアンス", "en": "Blooming Radiance" }
+  },
+  "hBP02": {
+    "name": {
+      "jp": "ブースターパック「クインテットスペクトラム」",
+      "en": "Booster Pack – Quintet Spectrum"
+    },
+    "release_date": { "jp": "2024-12-20", "en": "2025-10-17" },
+    "category": "boosters",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/quintet-spectrum/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/booster-pack-quintet-spectrum/"
+    },
+    "short_name": { "jp": "クインテットスペクトラム", "en": "Quintet Spectrum" }
+  },
+  "hBP03": {
+    "name": { "jp": "ブースターパック「エリートスパーク」", "en": "Booster Pack – Elite Spark" },
+    "release_date": { "jp": "2025-03-21", "en": "2025-12-19" },
+    "category": "boosters",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/elite-spark/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/booster-pack-elite-spark/"
+    },
+    "short_name": { "jp": "エリートスパーク", "en": "Elite Spark" }
+  },
+  "hBP04": {
+    "name": {
+      "jp": "ブースターパック「キュリアスユニバース」",
+      "en": "Booster Pack – Curious Universe"
+    },
+    "release_date": { "jp": "2025-06-20", "en": "2026-02-20" },
+    "category": "boosters",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/curious-universe/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/booster-pack-curious-universe/"
+    },
+    "short_name": { "jp": "キュリアスユニバース", "en": "Curious Universe" }
+  },
+  "hBP05": {
+    "name": {
+      "jp": "ブースターパック「エンチャントレガリア」",
+      "en": "Booster Pack – Enchant Regalia"
+    },
+    "release_date": { "jp": "2025-09-19", "en": "2026-04-17" },
+    "category": "boosters",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/enchant-regalia/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/enchant-regalia/"
+    },
+    "short_name": { "jp": "エンチャントレガリア", "en": "Enchant Regalia" }
+  },
+  "hBP06": {
+    "name": {
+      "jp": "ブースターパック「アヤカシヴァーミリオン」",
+      "en": "Booster Pack – Ayakashi Vermilion"
+    },
+    "release_date": { "jp": "2025-12-19", "en": "2026-06-19" },
+    "category": "boosters",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/ayakashi-vermilion/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/booster-pack-ayakashi-vermilion/"
+    },
+    "short_name": { "jp": "アヤカシヴァーミリオン", "en": "Ayakashi Vermilion" }
+  },
+  "hBP07": {
+    "name": {
+      "jp": "ブースターパック「ディーヴァフィーバー」",
+      "en": "Booster Pack - Diva Fever"
+    },
+    "release_date": { "jp": "2026-03-13", "en": "2026-11-20" },
+    "category": "boosters",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/diva-fever/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/diva-fever/"
+    },
+    "short_name": { "jp": "ディーヴァフィーバー", "en": "Diva Fever" }
+  },
+  "hBP08": {
+    "name": { "jp": "ブースターパック バウンサーバウンド" },
+    "release_date": { "jp": "2026-06-19" },
+    "category": "boosters",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/bouncer-bound/" },
+    "short_name": { "jp": "バウンサーバウンド" },
+    "unofficial_name": { "en": "Bouncer Bound" }
+  },
+  "hBP09": {
+    "name": { "jp": "ブースターパック「ボリュームヴォルテックス」" },
+    "release_date": { "jp": "2026-09-19" },
+    "category": "boosters",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/volume-vortex/" },
+    "short_name": { "jp": "ボリュームヴォルテックス" },
+    "unofficial_name": { "en": "Volume Vortex" }
+  },
+  "hBP10": { "category": "boosters", "unofficial_name": { "en": "Glory Echo" } },
+  "hCO01": {
+    "name": { "jp": "オフィシャルホロカコレクション-2025ライブセット-" },
+    "release_date": { "jp": "2026-05-02" },
+    "category": "accessories",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/official-card-game-2025-live-set/" },
+    "unofficial_name": { "en": "holoka Collection -2025 Live Set-" }
+  },
+  "hCO02": {
+    "name": { "jp": "エクストリーマーカップ25-26 Final オフィシャルホロカコレクションA" },
+    "release_date": { "jp": "2026-10-11" },
+    "category": "accessories",
+    "url": { "jp": "https://hololive-official-cardgame.com/events_detail/extreamercup25-26_final" },
+    "unofficial_name": { "en": "Exstreamer Cup 25-26 Final Official holoca Collection A" }
+  },
+  "hCO03": {
+    "name": { "jp": "エクストリーマーカップ25-26 Final オフィシャルホロカコレクションB" },
+    "release_date": { "jp": "2026-10-11" },
+    "category": "accessories",
+    "url": { "jp": "https://hololive-official-cardgame.com/events_detail/extreamercup25-26_final" },
+    "unofficial_name": { "en": "Exstreamer Cup 25-26 Final Official holoca Collection B" }
+  },
+  "hCS01": {
+    "name": {
+      "jp": "【hololive production OFFICIAL SHOP限定】hololive OFFICIAL CARD GAME 1st Anniversary Celebration Set"
+    },
+    "release_date": { "jp": "2025-06-27" },
+    "category": "accessories",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/1st-anniversary-celebration-set/" },
+    "short_name": { "jp": "1st Anniversary Celebration Set" },
+    "unofficial_name": { "en": "1st Anniversary Celebration Set" }
+  },
+  "hCS02": {
+    "name": { "jp": "2nd Anniversary Celebration Set" },
+    "release_date": { "jp": "2026-08-17" },
+    "category": "accessories",
+    "url": { "jp": "https://hololive-official-cardgame.com/products_detail/2st-anniversary-celebration-set/" },
+    "unofficial_name": { "en": "2nd Anniversary Celebration Set" }
+  },
+  "hEB01": {
+    "name": {
+      "jp": "エクストラブースター サマー・ホログラム",
+      "en": "Extra Booster – Summer hologram"
+    },
+    "release_date": { "jp": "2026-08-21", "en": "2026-09-25" },
+    "category": "boosters",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/summer-hologram/" },
+    "short_name": { "jp": "サマー・ホログラム", "en": "Summer hologram" }
+  },
+  "hPC01": {
+    "name": {
+      "jp": "【イベント物販／hololive production OFFICIAL SHOP限定商品】オフィシャルホロカコレクション-PCセット-"
+    },
+    "release_date": { "jp": "2025-05-02" },
+    "category": "accessories",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/collection-pc-set/" },
+    "short_name": { "jp": "オフィシャルホロカコレクション-PCセット-" },
+    "unofficial_name": { "en": "holoka Collection -PC Set-" }
+  },
+  "hPR": { "name": { "jp": "PRカード", "en": "PROMO CARDS" }, "category": "pr" },
+  "hSD01": {
+    "name": { "jp": "スタートデッキ「ときのそら＆AZKi」", "en": "Start Deck – Tokino Sora & AZKi" },
+    "release_date": { "jp": "2024-09-20", "en": "2025-07-11" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/tokinosora-azki/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/start-deck-tokino-sora-azki/"
+    },
+    "short_name": { "jp": "スタートデッキ ときのそら＆AZKi", "en": "Start Deck Tokino Sora & AZKi" }
+  },
+  "hSD02": {
+    "name": { "jp": "スタートデッキ 赤 百鬼あやめ", "en": "Start Deck – Red Nakiri Ayame" },
+    "release_date": { "jp": "2024-12-20", "en": "2025-10-17" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/nakiri-nekomata-yuzuki/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/hololive-official-card-game-start-deck-red-nakiri-ayame/"
+    },
+    "short_name": { "en": "Start Deck Red Nakiri Ayame" }
+  },
+  "hSD03": {
+    "name": { "jp": "スタートデッキ 青 猫又おかゆ", "en": "Start Deck – Blue Nekomata Okayu" },
+    "release_date": { "jp": "2024-12-20", "en": "2025-10-17" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/nakiri-nekomata-yuzuki/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/hololive-official-card-game-start-deck-blue-nekomata-okayu/"
+    },
+    "short_name": { "en": "Start Deck Blue Nekomata Okayu" }
+  },
+  "hSD04": {
+    "name": { "jp": "スタートデッキ 紫 癒月ちょこ", "en": "Start Deck – Purple Yuzuki Choco" },
+    "release_date": { "jp": "2024-12-20", "en": "2025-10-17" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/nakiri-nekomata-yuzuki/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/hololive-official-card-game-start-deck-purple-yuzuki-choco/"
+    },
+    "short_name": { "en": "Start Deck Purple Yuzuki Choco" }
+  },
+  "hSD05": {
+    "name": { "jp": "スタートデッキ 白 轟はじめ", "en": "Start Deck – White Todoroki Hajime" },
+    "release_date": { "jp": "2025-02-28", "en": "2025-12-19" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/todoroki-kazama-shiranui/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/start-deck-todoroki-kazama-shiranui/"
+    },
+    "short_name": { "en": "Start Deck White Todoroki Hajime" }
+  },
+  "hSD06": {
+    "name": { "jp": "スタートデッキ 緑 風真いろは", "en": "Start Deck – Green Kazama Iroha" },
+    "release_date": { "jp": "2025-02-28", "en": "2025-12-19" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/todoroki-kazama-shiranui/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/start-deck-todoroki-kazama-shiranui/"
+    },
+    "short_name": { "en": "Start Deck Green Kazama Iroha" }
+  },
+  "hSD07": {
+    "name": { "jp": "スタートデッキ 黄 不知火フレア", "en": "Start Deck – Yellow Shiranui Flare" },
+    "release_date": { "jp": "2025-02-28", "en": "2025-12-19" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/todoroki-kazama-shiranui/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/start-deck-todoroki-kazama-shiranui/"
+    },
+    "short_name": { "en": "Start Deck Yellow Shiranui Flare" }
+  },
+  "hSD08": {
+    "name": { "jp": "スタートデッキ 白 天音かなた" },
+    "release_date": { "jp": "2025-08-29" },
+    "category": "decks",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/amane-houshou/" },
+    "unofficial_name": { "en": "Start Deck Amane Kanata" }
+  },
+  "hSD09": {
+    "name": { "jp": "スタートデッキ 赤 宝鐘マリン" },
+    "release_date": { "jp": "2025-08-29" },
+    "category": "decks",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/amane-houshou/" },
+    "unofficial_name": { "en": "Start Deck Houshou Marine" }
+  },
+  "hSD10": {
+    "name": { "jp": "スタートデッキ FLOW GLOW 推し 輪堂千速" },
+    "release_date": { "jp": "2025-11-21" },
+    "category": "decks",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/rindo-koganei/" },
+    "unofficial_name": { "en": "Start Deck Rindo Chihaya" }
+  },
+  "hSD11": {
+    "name": { "jp": "スタートデッキ FLOW GLOW 推し 虎金妃笑虎" },
+    "release_date": { "jp": "2025-11-21" },
+    "category": "decks",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/rindo-koganei/" },
+    "unofficial_name": { "en": "Start Deck Koganei Niko" }
+  },
+  "hSD12": {
+    "name": { "jp": "スタートデッキ 推し Advent", "en": "Start Deck – Oshi Advent" },
+    "release_date": { "jp": "2026-02-20", "en": "2026-07-24" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/advent-justice/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/advent-justice"
+    },
+    "short_name": { "en": "Start Deck Oshi Advent" }
+  },
+  "hSD13": {
+    "name": { "jp": "スタートデッキ 推し Justice", "en": "Start Deck – Oshi Justice" },
+    "release_date": { "jp": "2026-02-20", "en": "2026-07-24" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/advent-justice/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/advent-justice"
+    },
+    "short_name": { "en": "Start Deck Oshi Justice" }
+  },
+  "hSD14": {
+    "name": { "jp": "ライブスタートデッキ 白上フブキ", "en": "Live Start Deck – Shirakami Fubuki" },
+    "release_date": { "jp": "2026-04-24", "en": "2026-10-23" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/starter-hsd14-19/",
+      "en": "https://en.hololive-official-cardgame.com/products_detail/starter-hsd14/"
+    },
+    "short_name": { "en": "Live Start Deck Shirakami Fubuki" }
+  },
+  "hSD15": {
+    "name": {
+      "jp": "ライブスタートデッキ 儒烏風亭らでん",
+      "en": "Live Start Deck – Juufuutei Raden"
+    },
+    "release_date": { "jp": "2026-04-24", "en": "2026-10-23" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/starter-hsd14-19/",
+      "en": "https://en.hololive-official-cardgame.com/products_detail/starter-hsd15/"
+    },
+    "short_name": { "en": "Live Start Deck Juufuutei Raden" }
+  },
+  "hSD16": {
+    "name": { "jp": "ライブスタートデッキ さくらみこ", "en": "Live Start Deck – Sakura Miko" },
+    "release_date": { "jp": "2026-04-24", "en": "2026-10-23" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/starter-hsd14-19/",
+      "en": "https://en.hololive-official-cardgame.com/products_detail/starter-hsd16/"
+    },
+    "short_name": { "en": "Live Start Deck Sakura Miko" }
+  },
+  "hSD17": {
+    "name": {
+      "jp": "ライブスタートデッキ 星街すいせい",
+      "en": "Live Start Deck – Hoshimachi Suisei"
+    },
+    "release_date": { "jp": "2026-04-24", "en": "2026-10-23" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/starter-hsd14-19/",
+      "en": "https://en.hololive-official-cardgame.com/products_detail/starter-hsd17/"
+    },
+    "short_name": { "en": "Live Start Deck Hoshimachi Suisei" }
+  },
+  "hSD18": {
+    "name": { "jp": "ライブスタートデッキ 森カリオペ", "en": "Live Start Deck – Mori Calliope" },
+    "release_date": { "jp": "2026-04-24", "en": "2026-10-23" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/starter-hsd14-19/",
+      "en": "https://en.hololive-official-cardgame.com/products_detail/starter-hsd18/"
+    },
+    "short_name": { "en": "Live Start Deck Mori Calliope" }
+  },
+  "hSD19": {
+    "name": { "jp": "ライブスタートデッキ 大空スバル", "en": "Live Start Deck – Oozora Subaru" },
+    "release_date": { "jp": "2026-04-24", "en": "2026-10-23" },
+    "category": "decks",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/starter-hsd14-19/",
+      "en": "https://en.hololive-official-cardgame.com/products_detail/starter-hsd19/"
+    },
+    "short_name": { "en": "Live Start Deck Oozora Subaru" }
+  },
+  "hSD20": {
+    "name": { "jp": "スタートデッキ アソビ★まわり隊！推し 百灯キョーコ" },
+    "release_date": { "jp": "2026-10-30" },
+    "category": "decks",
+    "url": { "jp": "https://hololive-official-cardgame.com/products_detail/sd_kyoko-mela/" },
+    "unofficial_name": { "en": "Start Deck Hyakuto Kyoko" }
+  },
+  "hSD2025summer": {
+    "name": {
+      "jp": "【イベント物販限定商品】スタートデッキセット-2025 ホロナツパラダイスver."
+    },
+    "release_date": { "jp": "2025-08-16" },
+    "category": "decks",
+    "url": { "jp": "https://hololive-official-cardgame.com/products/post/startdeckset-2025summer/" },
+    "short_name": { "jp": "スタートデッキセット-2025 ホロナツパラダイスver." },
+    "unofficial_name": { "en": "Start Deck Sets 2025 HoloNatsu Paradise ver" }
+  },
+  "hSD21": {
+    "name": { "jp": "スタートデッキ アソビ★まわり隊！推し 熱千めら" },
+    "release_date": { "jp": "2026-10-30" },
+    "category": "decks",
+    "url": { "jp": "https://hololive-official-cardgame.com/products_detail/sd_kyoko-mela/" },
+    "unofficial_name": { "en": "Start Deck Achichi Mela" }
+  },
+  "hWF01": {
+    "name": { "jp": "hololive OFFICIAL CARD GAME ツインウエハース" },
+    "release_date": { "jp": "2026-05-25" },
+    "category": "accessories",
+    "url": { "jp": "https://www.bandai.co.jp/candy/products/2026/4570117928567000.html" },
+    "unofficial_name": { "en": "hololive Official Card Game Twin Wafers" }
+  },
+  "hYS01": {
+    "name": { "jp": "スタートエールセット", "en": "Start Cheer Set" },
+    "release_date": { "jp": "2024-09-20", "en": "2025-07-11" },
+    "category": "accessories",
+    "url": {
+      "jp": "https://hololive-official-cardgame.com/products/post/starter-cheer-set/",
+      "en": "https://en.hololive-official-cardgame.com/products/post/start-cheer-set/"
+    }
+  }
+}
