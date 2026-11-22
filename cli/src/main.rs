@@ -5,6 +5,9 @@ use std::{
 };
 
 use clap::Parser;
+use hocg_fan_sim_assets_cli::img_hash::{
+    ImageGrids, can_merge, hash_image_language, is_similar, strip_grid, to_image_hash,
+};
 use hocg_fan_sim_assets_cli::{
     DEBUG, Language, PriceCheckMode,
     data::{
@@ -22,12 +25,10 @@ use hocg_fan_sim_assets_cli::{
     products::{fix_promos_in_boosters, remove_unused_products},
     qna::generate_qna,
 };
-use hocg_fan_sim_assets_model::{
-    self as hocg, CardsDatabase, ProductsDatabase, QnaDatabase,
-    img_hash::{can_merge, hash_image_language, is_similar, to_image_hash},
-};
+use hocg_fan_sim_assets_model::{self as hocg, CardsDatabase, ProductsDatabase, QnaDatabase};
 use itertools::Itertools;
 use json_pretty_compact::PrettyCompactFormatter;
+use rayon::iter::{IntoParallelIterator, ParallelIterator};
 use serde::Serialize;
 use serde_json::Serializer;
 use tempfile::TempDir;
@@ -147,6 +148,8 @@ fn main() {
     let products_mapping_file = assets_path.join("hocg_products.json");
     let images_jp_path = assets_path.join("img");
     let images_en_path = assets_path.join("img_en");
+    // the grids of the images, made when they are needed to compare illustrations
+    let image_grids = ImageGrids::new(&images_jp_path, &images_en_path);
     let ogbajoj_sheet_cache =
         (args.ogbajoj_sheet || args.ogbajoj_products).then(|| TempDir::new().unwrap());
     let ogbajoj_sheet_cache_dir = ogbajoj_sheet_cache.as_ref().map(|cache| cache.path());
@@ -197,6 +200,13 @@ fn main() {
         && let Ok(s) = fs::read_to_string(&card_mapping_file)
     {
         all_cards = serde_json::from_str(&s).unwrap();
+    }
+    // grids are made from the images, older hashes still have one
+    for illust in all_cards
+        .values_mut()
+        .flat_map(|card| card.illustrations.iter_mut())
+    {
+        strip_grid(&mut illust.img_hash);
     }
 
     // the products catalog is rebuilt from the official site when missing
@@ -310,6 +320,7 @@ fn main() {
         retrieve_product_info_from_ogbajoj_sheet(
             &mut all_cards,
             &mut all_products,
+            &image_grids,
             ogbajoj_sheet_cache_dir,
         );
     }
@@ -320,7 +331,7 @@ fn main() {
     }
 
     if args.rebuild_image_similarity {
-        rebuild_image_hashes(&mut all_cards, &images_jp_path, &images_en_path)
+        rebuild_image_hashes(&mut all_cards, &image_grids)
             .unwrap_or_else(|error| panic!("cannot rebuild image similarity: {error}"));
     }
 
@@ -331,7 +342,7 @@ fn main() {
     }
 
     // merge english cards
-    merge_similar_cards(&mut all_cards);
+    merge_similar_cards(&mut all_cards, &image_grids);
 
     // promos listed in a booster by the official site of a language
     let fixed_count = fix_promos_in_boosters(&mut all_cards, &all_products);
@@ -340,7 +351,7 @@ fn main() {
     }
 
     // identify similar looking cards by image hash
-    update_similarity_index(&mut all_cards);
+    update_similarity_index(&mut all_cards, &image_grids);
 
     // add proxy images
     if let Some(proxy_path) = args.proxy_path {
@@ -352,7 +363,11 @@ fn main() {
         if args.number_filter.is_some() || args.expansion.is_some() {
             eprintln!("WARNING: SKIPPING YUYUTEI. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
         } else {
-            yuyutei(&mut all_cards, mode.unwrap_or(PriceCheckMode::Quick));
+            yuyutei(
+                &mut all_cards,
+                mode.unwrap_or(PriceCheckMode::Quick),
+                &image_grids,
+            );
         }
     }
 
@@ -361,20 +376,24 @@ fn main() {
         if args.number_filter.is_some() || args.expansion.is_some() {
             eprintln!("WARNING: SKIPPING TCGPLAYER. ONLY AVAILABLE WHEN SEARCHING ALL CARDS.");
         } else {
-            tcgplayer(&mut all_cards, mode.unwrap_or(PriceCheckMode::Quick));
+            tcgplayer(
+                &mut all_cards,
+                mode.unwrap_or(PriceCheckMode::Quick),
+                &image_grids,
+            );
         }
     }
 
     // import from holoDelta
     if let Some(holodelta_db_path) = args.holodelta_db_path {
-        import_holodelta_db(&mut all_cards, &holodelta_db_path);
+        import_holodelta_db(&mut all_cards, &holodelta_db_path, &image_grids);
     } else if let Some(holodelta_path) = args.holodelta_path {
-        import_holodelta(&mut all_cards, &holodelta_path);
+        import_holodelta(&mut all_cards, &holodelta_path, &image_grids);
     }
 
     // import art keys from holoBuri
     if args.holoburi {
-        import_holoburi(&mut all_cards);
+        import_holoburi(&mut all_cards, &image_grids);
     }
 
     // garbage collection
@@ -554,7 +573,7 @@ fn check_tags_consistency(all_cards: &CardsDatabase) {
     }
 }
 
-fn merge_similar_cards(all_cards: &mut CardsDatabase) {
+fn merge_similar_cards(all_cards: &mut CardsDatabase, grids: &ImageGrids) {
     // sort cards by rarity, then by semi chronological manage id (JP/EN)
     for cs in all_cards.values_mut() {
         cs.illustrations.sort_by_cached_key(|a| {
@@ -589,7 +608,7 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                     || illustrations[i].rarity != illustrations[j].rarity
                 {
                     j += 1;
-                } else if can_merge(&illustrations[i], &illustrations[j]) {
+                } else if can_merge(&illustrations[i], &illustrations[j], grids) {
                     if DEBUG {
                         println!(
                             "Merging similar images: {:?} and {:?}",
@@ -743,7 +762,7 @@ fn merge_values(
 }
 
 /// Update the similarity index for each illustration based on other illustrations having a similar image hash.
-fn update_similarity_index(all_cards: &mut CardsDatabase) {
+fn update_similarity_index(all_cards: &mut CardsDatabase, grids: &ImageGrids) {
     for card in all_cards.values_mut() {
         // similarity index starts from 1, 0 means not set. the same similarity index means similar images
         let mut next_similarity_index = 1;
@@ -768,7 +787,7 @@ fn update_similarity_index(all_cards: &mut CardsDatabase) {
                 }
 
                 // if they are similar, assign the same similarity index
-                if is_similar(&card.illustrations[i], &card.illustrations[j]) {
+                if is_similar(&card.illustrations[i], &card.illustrations[j], grids) {
                     card.illustrations[i].similarity_index = card.illustrations[j].similarity_index;
                     break;
                 }
@@ -789,32 +808,29 @@ fn update_similarity_index(all_cards: &mut CardsDatabase) {
 /// Recomputes the hash of every official illustration from its saved image, then resets
 /// the similarity indices so that they are regrouped. Unreleased illustrations keep their
 /// hash, which comes from where their image was found (e.g. a sheet thumbnail).
-/// Nothing is changed if an image cannot be read.
-fn rebuild_image_hashes(
-    all_cards: &mut CardsDatabase,
-    images_jp_path: &Path,
-    images_en_path: &Path,
-) -> Result<(), String> {
-    let mut updates = Vec::new();
-    for (number, card) in all_cards.iter() {
-        for (index, illust) in card.illustrations.iter().enumerate() {
-            let Some(language) = hash_image_language(illust) else {
-                continue;
-            };
-            let images_path = match language {
-                hocg::Language::Japanese => images_jp_path,
-                hocg::Language::English => images_en_path,
-            };
-            let path = images_path.join(illust.img_path.value(language).as_deref().unwrap());
+/// Nothing is changed if an image cannot be read. The grids of the images are kept for
+/// the regrouping.
+fn rebuild_image_hashes(all_cards: &mut CardsDatabase, grids: &ImageGrids) -> Result<(), String> {
+    let images = all_cards
+        .iter()
+        .flat_map(|(number, card)| {
+            card.illustrations
+                .iter()
+                .enumerate()
+                .filter(|(_, illust)| hash_image_language(illust).is_some())
+                .map(move |(index, illust)| (number, index, grids.image_of(illust).unwrap()))
+        })
+        .collect::<Vec<_>>();
+    let updates = images
+        .into_par_iter()
+        .map(|(number, index, (language, path))| {
             let image = image::open(&path)
-                .map_err(|error| format!("failed to open {}: {error}", path.display()))?;
-            updates.push((
-                number.clone(),
-                index,
-                to_image_hash(&image.into_rgb8(), Some(language)),
-            ));
-        }
-    }
+                .map_err(|error| format!("failed to open {}: {error}", path.display()))?
+                .into_rgb8();
+            grids.remember(&path, &image);
+            Ok((number.clone(), index, to_image_hash(&image, Some(language))))
+        })
+        .collect::<Result<Vec<_>, String>>()?;
     println!("Rebuilt {} image hashes", updates.len());
     for (number, index, hash) in updates {
         all_cards.get_mut(&number).unwrap().illustrations[index].img_hash = hash;
@@ -864,21 +880,22 @@ mod image_similarity_tests {
     }
 
     fn test_images() -> PathBuf {
-        PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../model/tests/card_images")
+        PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/card_images")
     }
 
     #[test]
     fn rebuild_regroups_existing_indices() {
         let mut cards = card_with_images();
         let images = test_images();
-        rebuild_image_hashes(&mut cards, &images, &images).unwrap();
-        update_similarity_index(&mut cards);
+        let grids = ImageGrids::new(&images, &images);
+        rebuild_image_hashes(&mut cards, &grids).unwrap();
+        update_similarity_index(&mut cards, &grids);
         let illustrations = &cards["hBP09-105"].illustrations;
         assert_ne!(
             illustrations[0].similarity_index,
             illustrations[1].similarity_index
         );
-        assert!(!is_similar(&illustrations[0], &illustrations[1]));
+        assert!(!is_similar(&illustrations[0], &illustrations[1], &grids));
     }
 
     #[test]
@@ -889,7 +906,8 @@ mod image_similarity_tests {
             .img_path
             .japanese = Some("missing-image.webp".to_owned());
         let expected = cards.clone();
-        assert!(rebuild_image_hashes(&mut cards, &images, &images).is_err());
+        let grids = ImageGrids::new(&images, &images);
+        assert!(rebuild_image_hashes(&mut cards, &grids).is_err());
         assert_eq!(cards, expected);
     }
 }

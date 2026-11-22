@@ -6,13 +6,10 @@ use std::{
     sync::{Arc, atomic::AtomicU32},
 };
 
-use hocg_fan_sim_assets_model::{
-    CardIllustration, CardsDatabase, Language,
-    img_hash::{
-        DIST_TOLERANCE_DIFF_RARITY, dist_hash, hash_image_language, path_to_image_hash,
-        to_image_hash,
-    },
+use crate::img_hash::{
+    DIST_TOLERANCE_DIFF_RARITY, dist_hash, hash_image_language, path_to_image_hash, to_image_hash,
 };
+use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase, Language};
 use image::DynamicImage;
 use itertools::Itertools;
 use oxipng::{InFile, Options, OutFile};

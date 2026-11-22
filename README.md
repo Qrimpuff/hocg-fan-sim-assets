@@ -185,7 +185,7 @@ With `assets/hocg_cards.json` and the referenced images available locally, run:
 ```powershell
 $env:PIXEL_OUT = "pixel-candidates.tsv"
 $env:PIXEL_HTML_OUT = "pixel-candidates.html"
-cargo test --release -p hocg-fan-sim-assets-model --test mod test_pixel_same_card_pairs -- --ignored --nocapture
+cargo test --release -p hocg-fan-sim-assets-cli --test mod test_pixel_same_card_pairs -- --ignored --nocapture
 ```
 
 Either output variable can be omitted. For every card number, every pair of its
@@ -223,17 +223,17 @@ comparisons, use:
 ```powershell
 $env:PIXEL_IN = "pixel-candidates.tsv"
 $env:PIXEL_HTML_OUT = "pixel-candidates.html"
-cargo test --release -p hocg-fan-sim-assets-model --test mod test_pixel_html_from_tsv -- --ignored --nocapture
+cargo test --release -p hocg-fan-sim-assets-cli --test mod test_pixel_html_from_tsv -- --ignored --nocapture
 ```
 
-The manually reviewed groups are committed in `model/tests/card-image-reviews.json`.
+The manually reviewed groups are committed in `cli/tests/card-image-reviews.json`.
 When you review more cards, replace that file with the export. Check the current hash
 against it with (requires the assets directory):
 
 ```powershell
 $env:PIXEL_REVIEW_IN = "card-image-reviews.json"   # optional: another review file
 $env:PIXEL_REVIEW_APPROVAL = "manual"   # optional: manual, bulk or all (default)
-cargo test --release -p hocg-fan-sim-assets-model --test mod test_reviewed_pairs_match_hash -- --ignored --nocapture
+cargo test --release -p hocg-fan-sim-assets-cli --test mod test_reviewed_pairs_match_hash -- --ignored --nocapture
 ```
 
 Every pair of images of a reviewed card is checked: images in the same group must be
@@ -243,17 +243,19 @@ Confident cards agree with the current hash by definition, so bulk approvals onl
 protect against regressions; the individually reviewed cards are where the hash
 can be improved.
 
-Image hashes are version 3 (`v3|H32=..|CYM=..|G=..|L=..`). `is_similar` compares
+Image hashes are version 3 (`v3|H32=..|CYM=..|L=..`). `is_similar` compares
 official images (with a `manage_id`) using a coarse color grid of the card, with
 thresholds that depend only on whether both images have the same language and rarity.
 Between Japanese and English prints of the same rarity, the name bar and the text box
 are left out of the average, since full-art cards (e.g. HR) print the translated text
-over the artwork.
-Unreleased images (samples, sheet crops, scans) and older v2 hashes are compared with
-the tolerant perceptual hash distance, which is also used to match images from other
-sources. The only per-card exception is `SAME_ACROSS_LANGUAGES` in `img_hash.rs`, for
-prints whose layout differs between languages. Older hashes do not have the grid, so
-rebuild them as described below.
+over the artwork. The grids are not stored: the CLI makes them from the saved images
+when it needs them and keeps them for the rest of the run, so official images must be
+in the assets directory. The grid of an older hash (`G=..`) is dropped when the asset
+database is loaded.
+Unreleased images (samples, sheet crops, scans), and official images that are missing,
+are compared with the tolerant perceptual hash distance, which is also used to match
+images from other sources. The only per-card exception is `SAME_ACROSS_LANGUAGES` in
+`cli/src/img_hash.rs`, for prints whose layout differs between languages.
 
 The tests recompute hashes from the images and never modify the asset database.
 Stored hashes and similarity indices are not updated when the hash changes. To rebuild
@@ -263,8 +265,8 @@ them, back up the asset database and run:
 cargo run --release -- --rebuild-image-similarity
 ```
 
-Run it right after updating to a new hash version: until then, new hashes are compared
-with old ones using only the perceptual hash distance. The hash of an official
+Run it right after changing how the hash or the grid comparison works: until then,
+the stored similarity indices keep the old grouping. The hash of an official
 illustration comes from its official Japanese image when there is one, otherwise from
 its official English image; the rebuild fails without changing anything if one of
 these images is missing or unreadable. Unreleased illustrations keep their hash, which

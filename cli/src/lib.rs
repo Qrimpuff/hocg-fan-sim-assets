@@ -2,6 +2,7 @@ pub mod data;
 pub mod holoburi;
 pub mod holodelta;
 pub mod images;
+pub mod img_hash;
 pub mod ogbajoj;
 pub mod price_check;
 pub mod products;

@@ -2,6 +2,7 @@
 name = "hocg-fan-sim-assets-cli"
 edition.workspace = true
 version.workspace = true
+autotests = false
 
 [dependencies]
 hocg-fan-sim-assets-model = { workspace = true }
@@ -28,3 +29,10 @@ tempfile = { workspace = true }
 walkdir = { workspace = true }
 webp = { workspace = true }
 zip = { workspace = true }
+
+[dev-dependencies]
+sha2 = { workspace = true }
+
+[[test]]
+name = "mod"
+path = "tests/mod.rs"

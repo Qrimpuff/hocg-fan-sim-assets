@@ -9,14 +9,14 @@ use std::{
     time::Duration,
 };
 
+use crate::img_hash::{
+    DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, Grid, ImageGrids, art_distance,
+    dist_hash, to_image_hash,
+};
 use hocg_fan_sim_assets_model::{
     Art, BloomLevel, Card, CardIllustration, CardRarity, CardType, CardsDatabase, Color, Extra,
     Keyword, KeywordEffect, Language, Localized, OshiSkill, OshiSkillKind, ProductsDatabase,
     QnaDatabase, SheetCell, SheetId, SupportType, Tag,
-    img_hash::{
-        DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, art_distance, dist_hash,
-        to_image_hash,
-    },
 };
 use image::{DynamicImage, RgbImage};
 use itertools::Itertools;
@@ -1748,6 +1748,7 @@ fn download_sheet_image(
 pub fn retrieve_product_info_from_ogbajoj_sheet(
     all_cards: &mut CardsDatabase,
     products: &mut ProductsDatabase,
+    grids: &ImageGrids,
     cache_dir: Option<&Path>,
 ) {
     println!("Retrieving promo sources and product names from @ogbajoj's sheet...");
@@ -1765,7 +1766,7 @@ pub fn retrieve_product_info_from_ogbajoj_sheet(
         return;
     };
 
-    let pr_packs = read_pr_packs(all_cards, &spreadsheet, cache_dir);
+    let pr_packs = read_pr_packs(all_cards, &spreadsheet, grids, cache_dir);
 
     // the html of the tabs is cached, the other sheet steps already read them
     let tabs: Vec<(&Sheet, Option<Vec<SheetCard>>)> = spreadsheet
@@ -2181,7 +2182,7 @@ const PR_PACK_FAR_MARGIN: u64 = 50;
 const PR_PACK_ART_MARGIN: f32 = 20.0;
 
 /// The edges of a card picture are trimmed by up to 6% of the card on each side, see
-/// [`card_picture_hashes`]. On the PR pack tabs (2026-11), this matches 44 more card pictures
+/// [`card_pictures`]. On the PR pack tabs (2026-11), this matches 44 more card pictures
 /// (most with a drop shadow), and no other match changes.
 const PR_PACK_MAX_TRIM: f32 = 0.06;
 const PR_PACK_TRIM_STEPS: u32 = 2;
@@ -2203,6 +2204,7 @@ type PrPacks = Localized<BTreeMap<IllustKey, Vec<String>>>;
 fn read_pr_packs(
     all_cards: &CardsDatabase,
     spreadsheet: &Spreadsheet,
+    grids: &ImageGrids,
     cache_dir: Option<&Path>,
 ) -> PrPacks {
     println!("Retrieving PR packs from @ogbajoj's sheet...");
@@ -2239,7 +2241,7 @@ fn read_pr_packs(
         let mut tabs_matches = vec![];
         for sheet in &language_tabs {
             let Some(matches) =
-                read_pr_pack_tab(sheet, &candidates, &preemptive, language, cache_dir)
+                read_pr_pack_tab(sheet, &candidates, &preemptive, language, grids, cache_dir)
             else {
                 break;
             };
@@ -2303,6 +2305,7 @@ fn read_pr_pack_tab(
     candidates: &[CardIllustration],
     preemptive: &[CardIllustration],
     language: Language,
+    grids: &ImageGrids,
     cache_dir: Option<&Path>,
 ) -> Option<Vec<(String, Vec<PrPackMatch>)>> {
     let name = &sheet.properties.title;
@@ -2343,7 +2346,8 @@ fn read_pr_pack_tab(
         .into_par_iter()
         .map(|image| {
             let img = download_sheet_image(&image.url, image.row, &image.pack, name).ok()?;
-            let matches = match_pr_pack_image(&img.into_rgb8(), candidates, preemptive, language);
+            let matches =
+                match_pr_pack_image(&img.into_rgb8(), candidates, preemptive, language, grids);
             Some((image.pack, matches))
         })
         .collect();
@@ -2734,38 +2738,60 @@ pub fn match_pr_pack_image(
     candidates: &[CardIllustration],
     preemptive: &[CardIllustration],
     language: Language,
+    grids: &ImageGrids,
 ) -> Vec<PrPackMatch> {
     split_cards(img)
         .into_iter()
         .map(|(x, y, w, h)| {
             let card = image::imageops::crop_imm(img, x, y, w, h).to_image();
             // most pictures match as they are: the trimmed ones are only for the others
-            let hash = to_image_hash(&card, Some(language));
-            if let found @ PrPackMatch::Matched(..) = pick_pr_pack_match(candidates, &[hash]) {
+            let picture = CardPicture::new(&card, language);
+            if let found @ PrPackMatch::Matched(..) =
+                pick_pr_pack_match(candidates, &[picture], grids)
+            {
                 return found;
             }
-            let hashes = card_picture_hashes(&card, language);
-            match pick_pr_pack_match(candidates, &hashes) {
-                PrPackMatch::NotFound => pick_pr_pack_match(preemptive, &hashes),
+            let pictures = card_pictures(&card, language);
+            match pick_pr_pack_match(candidates, &pictures, grids) {
+                PrPackMatch::NotFound => pick_pr_pack_match(preemptive, &pictures, grids),
                 found => found,
             }
         })
         .collect()
 }
 
-/// The closest illustration to a card picture (`hashes`, see [`card_picture_hashes`]): within
+/// A card cut from a pack picture: its hash, and its grid to compare its artwork.
+pub struct CardPicture {
+    pub hash: String,
+    pub grid: Grid,
+}
+
+impl CardPicture {
+    pub fn new(card: &RgbImage, language: Language) -> Self {
+        Self {
+            hash: to_image_hash(card, Some(language)),
+            grid: Grid::of(card),
+        }
+    }
+}
+
+/// The closest illustration to a card picture (`pictures`, see [`card_pictures`]): within
 /// [`DIST_TOLERANCE_SAME_RARITY`] and ahead of the next illustration by
 /// [`PR_PACK_AMBIGUOUS_MARGIN`], or within [`PR_PACK_FAR_TOLERANCE`] and far ahead of the next
 /// one ([`PR_PACK_FAR_MARGIN`]). When illustrations are about as close (cards with the same frame
 /// and text box, e.g. two staff supports), the one whose artwork is far closer than the others'
-/// ([`art_distance`], [`PR_PACK_ART_MARGIN`]).
-pub fn pick_pr_pack_match(candidates: &[CardIllustration], hashes: &[String]) -> PrPackMatch {
+/// ([`art_distance`], [`PR_PACK_ART_MARGIN`]), with the grids of their saved images.
+pub fn pick_pr_pack_match(
+    candidates: &[CardIllustration],
+    pictures: &[CardPicture],
+    grids: &ImageGrids,
+) -> PrPackMatch {
     let mut dists = candidates
         .iter()
         .map(|c| {
-            let dist = hashes
+            let dist = pictures
                 .iter()
-                .map(|hash| dist_hash(&c.img_hash, hash))
+                .map(|picture| dist_hash(&c.img_hash, &picture.hash))
                 .min()
                 .unwrap_or(u64::MAX);
             (c, dist)
@@ -2787,10 +2813,12 @@ pub fn pick_pr_pack_match(candidates: &[CardIllustration], hashes: &[String]) ->
             .iter()
             .take_while(|(_, d)| d - dist < PR_PACK_AMBIGUOUS_MARGIN)
             .map(|&(c, d)| {
-                let art = hashes
-                    .iter()
-                    .filter_map(|hash| art_distance(&c.img_hash, hash))
-                    .fold(f32::MAX, f32::min);
+                let art = grids.grid(c).map_or(f32::MAX, |illust| {
+                    pictures
+                        .iter()
+                        .map(|picture| art_distance(&illust.grid, &picture.grid))
+                        .fold(f32::MAX, f32::min)
+                });
                 (c, d, art)
             })
             .collect_vec();
@@ -2811,16 +2839,16 @@ pub fn pick_pr_pack_match(candidates: &[CardIllustration], hashes: &[String]) ->
     }
 }
 
-/// The hashes of a card picture, as cut from a pack picture and with its edges trimmed: the
+/// A card picture, as cut from a pack picture and with its edges trimmed: the
 /// pictures come with drop shadows, borders and a few pixels of background around the card, that
 /// the official images don't have. Each side is trimmed by 0 to [`PR_PACK_MAX_TRIM`] of the
 /// card in [`PR_PACK_TRIM_STEPS`] steps, keeping the shape of a card ([`PR_PACK_TRIMMED_RATIO`]).
-pub fn card_picture_hashes(card: &RgbImage, language: Language) -> Vec<String> {
+pub fn card_pictures(card: &RgbImage, language: Language) -> Vec<CardPicture> {
     let (width, height) = card.dimensions();
     let trims = (0..=PR_PACK_TRIM_STEPS)
         .map(|step| PR_PACK_MAX_TRIM * step as f32 / PR_PACK_TRIM_STEPS as f32)
         .collect_vec();
-    let mut hashes = vec![to_image_hash(card, Some(language))];
+    let mut pictures = vec![CardPicture::new(card, language)];
     for (&left, &top, &right, &bottom) in itertools::iproduct!(&trims, &trims, &trims, &trims) {
         let x = (width as f32 * left) as u32;
         let y = (height as f32 * top) as u32;
@@ -2832,9 +2860,9 @@ pub fn card_picture_hashes(card: &RgbImage, language: Language) -> Vec<String> {
             continue;
         }
         let trimmed = image::imageops::crop_imm(card, x, y, w, h).to_image();
-        hashes.push(to_image_hash(&trimmed, Some(language)));
+        pictures.push(CardPicture::new(&trimmed, language));
     }
-    hashes
+    pictures
 }
 
 /// Background of the card pictures: white or nearly white, with little saturation. The sheet's own
@@ -3643,22 +3671,63 @@ mod pr_pack_tests {
         })
     }
 
-    fn promo(number: &str, jp: Option<u32>, en: Option<u32>, seed: u32) -> CardIllustration {
-        CardIllustration {
-            card_number: number.into(),
-            rarity: CardRarity::Promo,
-            manage_id: Localized {
-                japanese: jp.map(|id| [id].into()),
-                english: en.map(|id| [id].into()),
-            },
-            img_hash: to_image_hash(&card_art(seed, 400, 559), Some(Language::Japanese)),
-            ..Default::default()
+    /// The saved images of test illustrations, where their grids are made from.
+    struct TestImages {
+        dir: tempfile::TempDir,
+        count: std::cell::Cell<u32>,
+        grids: ImageGrids,
+    }
+
+    impl TestImages {
+        fn new() -> Self {
+            let dir = tempfile::tempdir().unwrap();
+            let grids = ImageGrids::new(dir.path(), dir.path());
+            Self {
+                dir,
+                count: Default::default(),
+                grids,
+            }
+        }
+
+        /// A promo illustration, with `img` saved as its Japanese image.
+        fn promo_with(
+            &self,
+            number: &str,
+            jp: Option<u32>,
+            en: Option<u32>,
+            img: &RgbImage,
+        ) -> CardIllustration {
+            self.count.set(self.count.get() + 1);
+            let name = format!("{number}_{}.png", self.count.get());
+            img.save(self.dir.path().join(&name)).unwrap();
+            CardIllustration {
+                card_number: number.into(),
+                rarity: CardRarity::Promo,
+                manage_id: Localized {
+                    japanese: jp.map(|id| [id].into()),
+                    english: en.map(|id| [id].into()),
+                },
+                img_path: Localized::jp(name),
+                img_hash: to_image_hash(img, Some(Language::Japanese)),
+                ..Default::default()
+            }
+        }
+
+        fn promo(
+            &self,
+            number: &str,
+            jp: Option<u32>,
+            en: Option<u32>,
+            seed: u32,
+        ) -> CardIllustration {
+            self.promo_with(number, jp, en, &card_art(seed, 400, 559))
         }
     }
 
     #[test]
-    fn test_card_picture_hashes_trim_shadows() {
-        let illust = promo("hBP01-001", Some(1), None, 3);
+    fn test_card_pictures_trim_shadows() {
+        let images = TestImages::new();
+        let illust = images.promo("hBP01-001", Some(1), None, 3);
         // a small picture of the card, with a drop shadow on the right and the bottom
         let (width, height) = (150, 210);
         let shadow = 9;
@@ -3669,12 +3738,12 @@ mod pr_pack_tests {
                 image::Rgb([150, 150, 165])
             }
         });
-        let hashes = card_picture_hashes(&picture, Language::Japanese);
-        assert!(hashes.len() > 1);
-        let untrimmed = dist_hash(&illust.img_hash, &hashes[0]);
-        let trimmed = hashes
+        let pictures = card_pictures(&picture, Language::Japanese);
+        assert!(pictures.len() > 1);
+        let untrimmed = dist_hash(&illust.img_hash, &pictures[0].hash);
+        let trimmed = pictures
             .iter()
-            .map(|h| dist_hash(&illust.img_hash, h))
+            .map(|p| dist_hash(&illust.img_hash, &p.hash))
             .min()
             .unwrap();
         assert!(trimmed < untrimmed, "{trimmed} < {untrimmed}");
@@ -3683,28 +3752,33 @@ mod pr_pack_tests {
 
     #[test]
     fn test_pick_pr_pack_match() {
+        let images = TestImages::new();
+        let grids = &images.grids;
         let candidates = [
-            promo("hBP01-001", Some(1), None, 3),
-            promo("hBP01-002", Some(2), None, 17),
+            images.promo("hBP01-001", Some(1), None, 3),
+            images.promo("hBP01-002", Some(2), None, 17),
         ];
-        let hash = |seed| {
-            vec![to_image_hash(
+        let picture = |seed| {
+            vec![CardPicture::new(
                 &card_art(seed, 150, 210),
-                Some(Language::Japanese),
+                Language::Japanese,
             )]
         };
-        match pick_pr_pack_match(&candidates, &hash(3)) {
+        match pick_pr_pack_match(&candidates, &picture(3), grids) {
             PrPackMatch::Matched(illust, _) => assert_eq!(illust.card_number, "hBP01-001"),
             other => panic!("{other:?}"),
         }
         // the same art twice: can't tell them apart
-        let twins = [candidates[0].clone(), promo("hBP01-003", Some(3), None, 3)];
+        let twins = [
+            candidates[0].clone(),
+            images.promo("hBP01-003", Some(3), None, 3),
+        ];
         assert!(matches!(
-            pick_pr_pack_match(&twins, &hash(3)),
+            pick_pr_pack_match(&twins, &picture(3), grids),
             PrPackMatch::Ambiguous(_)
         ));
         assert!(matches!(
-            pick_pr_pack_match(&[], &hash(3)),
+            pick_pr_pack_match(&[], &picture(3), grids),
             PrPackMatch::NotFound
         ));
 
@@ -3721,46 +3795,55 @@ mod pr_pack_tests {
             }
             img
         };
-        let same_frame = |number: &str, id, color| CardIllustration {
-            img_hash: to_image_hash(&with_art(400, 559, color), Some(Language::Japanese)),
-            ..promo(number, Some(id), None, 3)
-        };
         let staff = [
-            same_frame("hSD01-017", 505, red),
-            same_frame("hSD14-010", 2470, blue),
+            images.promo_with("hSD01-017", Some(505), None, &with_art(400, 559, red)),
+            images.promo_with("hSD14-010", Some(2470), None, &with_art(400, 559, blue)),
         ];
-        let picture = vec![to_image_hash(
+        let picture = vec![CardPicture::new(
             &with_art(150, 210, red),
-            Some(Language::Japanese),
+            Language::Japanese,
         )];
         let dists = staff
             .iter()
-            .map(|c| dist_hash(&c.img_hash, &picture[0]))
+            .map(|c| dist_hash(&c.img_hash, &picture[0].hash))
             .collect_vec();
         assert!(dists[1] - dists[0] < PR_PACK_AMBIGUOUS_MARGIN, "{dists:?}");
-        match pick_pr_pack_match(&staff, &picture) {
+        match pick_pr_pack_match(&staff, &picture, grids) {
             PrPackMatch::Matched(illust, _) => assert_eq!(illust.card_number, "hSD01-017"),
             other => panic!("{other:?}"),
         }
+        // without their images, the artworks can't be compared
+        let missing = ImageGrids::new(Path::new("missing"), Path::new("missing"));
+        assert!(matches!(
+            pick_pr_pack_match(&staff, &picture, &missing),
+            PrPackMatch::Ambiguous(_)
+        ));
     }
 
     #[test]
     fn test_match_pr_pack_image_preemptive() {
+        let images = TestImages::new();
         // a picture of a pack: a card on white
         let mut picture = RgbImage::from_pixel(600, 400, image::Rgb([255, 255, 255]));
         image::imageops::overlay(&mut picture, &card_art(3, 200, 280), 50, 50);
-        let released = promo("hBP01-001", Some(1), Some(10), 3);
-        let jp_only = promo("hBP01-001", Some(1), None, 3);
-        let other = promo("hBP01-002", Some(2), Some(20), 17);
+        let released = images.promo("hBP01-001", Some(1), Some(10), 3);
+        let jp_only = images.promo("hBP01-001", Some(1), None, 3);
+        let other = images.promo("hBP01-002", Some(2), Some(20), 17);
 
         let matched = |candidates: &[CardIllustration], preemptive: &[CardIllustration]| {
-            match_pr_pack_image(&picture, candidates, preemptive, Language::English)
-                .into_iter()
-                .map(|m| match m {
-                    PrPackMatch::Matched(illust, _) => Some(illust.manage_id.clone()),
-                    _ => None,
-                })
-                .collect_vec()
+            match_pr_pack_image(
+                &picture,
+                candidates,
+                preemptive,
+                Language::English,
+                &images.grids,
+            )
+            .into_iter()
+            .map(|m| match m {
+                PrPackMatch::Matched(illust, _) => Some(illust.manage_id.clone()),
+                _ => None,
+            })
+            .collect_vec()
         };
         // printed in english
         assert_eq!(
