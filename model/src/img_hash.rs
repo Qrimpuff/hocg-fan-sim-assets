@@ -58,11 +58,18 @@ const GRID_CELLS: usize = GRID_WIDTH * GRID_HEIGHT;
 /// height). Name bars, text boxes, rarity marks and footers are outside of it, so text
 /// differences there do not count as local differences.
 const GRID_ART_ROWS: std::ops::Range<usize> = 1..8;
+/// Rows of the grid without the name bar (row 0) and the text box, tags and footer (rows
+/// 11 to 13). On full-art cards (e.g. HR), this text is printed over the artwork, so a
+/// translation changes these rows across the whole width.
+const GRID_TEXT_FREE_ROWS: std::ops::Range<usize> = 1..11;
+/// All the rows of the grid.
+const GRID_ALL_ROWS: std::ops::Range<usize> = 0..GRID_HEIGHT;
 
 /// Thresholds of [`is_similar`] on the grid comparison, in 0-255 color units.
-/// The average difference covers the whole card; the local difference is the largest
-/// cell difference in the art rows.
+/// The average difference covers the `mean_rows` of the card; the local difference is the
+/// largest cell difference in the art rows.
 struct GridThresholds {
+    mean_rows: std::ops::Range<usize>,
     mean: f32,
     local: f32,
 }
@@ -71,20 +78,26 @@ fn grid_thresholds(same_language: bool, same_rarity: bool) -> GridThresholds {
     match (same_language, same_rarity) {
         // two prints of the same rarity and language are only the same if nearly identical
         (true, true) => GridThresholds {
+            mean_rows: GRID_ALL_ROWS,
             mean: 4.5,
             local: 9.0,
         },
         // e.g. common and promo versions: different rarity marks and foil
         (true, false) => GridThresholds {
+            mean_rows: GRID_ALL_ROWS,
             mean: 4.5,
             local: 22.0,
         },
-        // translations: text, and localized stamps that can overlap the art
+        // translations: text, and localized stamps that can overlap the art. The translated
+        // name and text are left out of the average: on full-art cards they cover the art
+        // and push it over the limit (e.g. the hBP07 HRs, from 6.7 to 7.8 on the whole card)
         (false, true) => GridThresholds {
-            mean: 6.5,
+            mean_rows: GRID_TEXT_FREE_ROWS,
+            mean: 7.0,
             local: 70.0,
         },
         (false, false) => GridThresholds {
+            mean_rows: GRID_ALL_ROWS,
             mean: 6.5,
             local: 22.0,
         },
@@ -162,15 +175,16 @@ fn grid_cell_differences(a: &[u8], b: &[u8]) -> Vec<f32> {
 }
 
 struct GridDistance {
-    /// average cell difference over the whole card
+    /// average cell difference over the given rows
     mean: f32,
     /// largest cell difference in the art rows
     local: f32,
 }
 
-fn grid_distance(a: &[u8], b: &[u8]) -> GridDistance {
+fn grid_distance(a: &[u8], b: &[u8], mean_rows: std::ops::Range<usize>) -> GridDistance {
     let cells = grid_cell_differences(a, b);
-    let mean = cells.iter().sum::<f32>() / cells.len() as f32;
+    let mean_cells = &cells[mean_rows.start * GRID_WIDTH..mean_rows.end * GRID_WIDTH];
+    let mean = mean_cells.iter().sum::<f32>() / mean_cells.len() as f32;
     let local = cells[GRID_ART_ROWS.start * GRID_WIDTH..GRID_ART_ROWS.end * GRID_WIDTH]
         .iter()
         .copied()
@@ -312,7 +326,7 @@ pub fn is_similar(into: &CardIllustration, from: &CardIllustration) -> bool {
             return true;
         }
         let thresholds = grid_thresholds(same_language, same_rarity);
-        let distance = grid_distance(&grid_a, &grid_b);
+        let distance = grid_distance(&grid_a, &grid_b, thresholds.mean_rows.clone());
         if DEBUG {
             println!(
                 "is_similar({} {}, {} {}): grid mean={:.2} local={:.1}",
