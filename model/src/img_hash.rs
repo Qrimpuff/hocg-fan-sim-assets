@@ -336,6 +336,18 @@ pub fn is_similar(into: &CardIllustration, from: &CardIllustration) -> bool {
     }
 }
 
+/// The average color difference (0-255) between the artworks of two images: the cells of the
+/// art rows of their grids ([`GRID_ART_ROWS`]), without the frame, the name bar and the text
+/// box. Cards of a same kind (e.g. two staff supports) share most of their frame and text box,
+/// that dominate [`dist_hash`]. `None` for hashes without a grid (before v3).
+pub fn art_distance(h1: &str, h2: &str) -> Option<f32> {
+    let a = ParsedHash::parse(h1)?.grid()?;
+    let b = ParsedHash::parse(h2)?.grid()?;
+    let cells = grid_cell_differences(&a, &b);
+    let art = &cells[GRID_ART_ROWS.start * GRID_WIDTH..GRID_ART_ROWS.end * GRID_WIDTH];
+    Some(art.iter().sum::<f32>() / art.len() as f32)
+}
+
 pub fn can_merge(into: &CardIllustration, from: &CardIllustration) -> bool {
     // if both have manage_id, they must be identical
     for language in [Language::Japanese, Language::English] {

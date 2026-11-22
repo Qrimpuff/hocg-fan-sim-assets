@@ -5,7 +5,7 @@ use std::{
 };
 
 use hocg_fan_sim_assets_model::{
-    CardIllustration, CardsDatabase, Language,
+    CardIllustration, CardRarity, CardsDatabase, Language,
     img_hash::{dist_hash, to_image_hash},
 };
 use image::DynamicImage;
@@ -19,7 +19,7 @@ use reqwest::Url;
 use scraper::{Html, Selector};
 use serde_json::Value;
 
-use crate::{DEBUG, PriceCheckMode, http_client, utils::SharedImageMatches};
+use crate::{DEBUG, PriceCheckMode, http_client, utils::SharedImageMatches, warn_skipped};
 
 const YUYUTEI_SELL_URL_ROOT: &str = "https://yuyu-tei.jp/sell";
 
@@ -50,11 +50,13 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     // Process pages in parallel
     let urls = Arc::new(RwLock::new(IndexMap::new()));
     let max_page = Arc::new((Mutex::new(0), Condvar::new()));
+    let failed_pages = Arc::new(std::sync::atomic::AtomicUsize::new(0));
     let _ = (1..)
         .par_bridge()
         .map({
             let urls = urls.clone();
             let max_page = max_page.clone();
+            let failed_pages = failed_pages.clone();
             move |page| {
                 // wait for the max page to be set
                 if page > 1 {
@@ -103,6 +105,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     Ok(resp) => resp,
                     Err(err) => {
                         eprintln!("WARNING: Failed to fetch Yuyutei page {page}: {err}");
+                        failed_pages.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                         unblock_workers();
                         return Some(());
                     }
@@ -112,6 +115,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                     Ok(content) => content,
                     Err(err) => {
                         eprintln!("WARNING: Failed to read Yuyutei page {page}: {err}");
+                        failed_pages.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                         unblock_workers();
                         return Some(());
                     }
@@ -173,6 +177,19 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
     let urls = Arc::try_unwrap(urls).unwrap().into_inner();
     println!("Found {} Yuyutei urls...", urls.len());
+    // images mode starts over from the urls: not with some of them missing
+    let failed_pages = failed_pages.load(std::sync::atomic::Ordering::Relaxed);
+    if failed_pages > 0 {
+        if mode == PriceCheckMode::Images {
+            warn_skipped(&format!(
+                "{failed_pages} Yuyutei pages couldn't be read, keeping all the urls"
+            ));
+            return;
+        }
+        warn_skipped(&format!(
+            "{failed_pages} Yuyutei pages skipped, their cards keep their urls"
+        ));
+    }
     // println!("BEFORE: {urls:#?}");
 
     // swap keys and values
@@ -328,8 +345,14 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                                     }
                                     return None;
                                 }
-                                let yuyutei_img =
-                                    image::load_from_memory(&resp.bytes().unwrap()).unwrap();
+                                let yuyutei_img = resp
+                                    .bytes()
+                                    .ok()
+                                    .and_then(|bytes| image::load_from_memory(&bytes).ok())
+                                    .or_else(|| {
+                                        eprintln!("Failed to read image: {img_path}");
+                                        None
+                                    })?;
                                 Some((url.clone(), yuyutei_img))
                             })
                             .collect();
@@ -468,6 +491,8 @@ struct TcgPlayerProduct {
     name: String,
     image_url: String,
     extended_data: Vec<Value>,
+    #[serde(skip)]
+    group_name: String,
 }
 
 impl TcgPlayerProduct {
@@ -482,30 +507,19 @@ impl TcgPlayerProduct {
             self.set_card_number("hY06-001");
         }
 
-        // Pavolia Reine (P) (hBP02-018) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 671675 {
+        // The "Rarity" of promos is unreliable, e.g. "Uncommon" for 671615 Shirakami Fubuki (P)
+        // (hBP02-011) or "Common" for 717544 Mori Calliope (P) (hBP06-057) (Alternate Art).
+        // The name and the group are not: "(P)" or the promos group.
+        if self.is_promo() {
             self.set_rarity("Promo");
         }
+    }
 
-        // Shirakami Fubuki (P) (hBP02-011) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 671615 {
-            self.set_rarity("Promo");
-        }
-
-        // Nanashi Mumei (P) (hBP01-015) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 671673 {
-            self.set_rarity("Promo");
-        }
-
-        // La+ Darknesss (P) (hBP04-054) - hololive OFFICIAL CARD GAME Promos (hOCGP)
-        if self.product_id == 682245 {
-            self.set_rarity("Promo");
-        }
-
-        // Oozora Subaru (P) (hBP04-068) (Alternate Art) - Curious Universe (HBP04E)
-        if self.product_id == 682256 {
-            self.set_rarity("Promo");
-        }
+    /// A promo, from its name e.g. "Lu-knights (P) (hBP03-105)" or its group
+    /// "hololive OFFICIAL CARD GAME Promos". Some promos are in other groups, like
+    /// "Oozora Subaru (P) (hBP04-068) (Alternate Art)" in "Curious Universe".
+    fn is_promo(&self) -> bool {
+        self.name.contains("(P)") || self.group_name.to_lowercase().contains("promos")
     }
 
     fn set_card_number(&mut self, number: &str) {
@@ -543,26 +557,41 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
     println!("Fetching TCGplayer groups...");
     let groups_url = format!("https://tcgcsv.com/tcgplayer/{HOCG_CATEGORY_ID}/groups");
-    let resp = http_client().get(&groups_url).send().unwrap();
-
-    let all_groups = resp.json::<Value>().unwrap();
-    let all_groups = all_groups["results"].as_array().unwrap();
+    let all_groups = match fetch_results(&groups_url) {
+        Ok(groups) => groups,
+        Err(error) => {
+            warn_skipped(&format!(
+                "cannot retrieve the TCGplayer groups, keeping the product ids: {error}"
+            ));
+            return;
+        }
+    };
     println!("Found {} TCGplayer groups.", all_groups.len());
 
     let mut product_ids = IndexMap::new();
-    for group in all_groups {
+    let mut failed_groups = 0;
+    for group in &all_groups {
         let group_name = group["name"].as_str().unwrap_or("Unknown Group");
-        let group_id = group["groupId"].as_u64().unwrap();
+        let Some(group_id) = group["groupId"].as_u64() else {
+            eprintln!("Warning: TCGplayer group {group_name} without id, skipped");
+            failed_groups += 1;
+            continue;
+        };
         println!("Processing group: {group_name}");
 
         // Fetch products
         let products_url =
             format!("https://tcgcsv.com/tcgplayer/{HOCG_CATEGORY_ID}/{group_id}/products");
-        let resp = http_client().get(&products_url).send().unwrap();
-
-        let products = resp.json::<Value>().unwrap();
-        let products = products["results"].as_array().unwrap();
-        for product in products {
+        let products = match fetch_results(&products_url) {
+            Ok(products) => products,
+            Err(error) => {
+                // its cards keep their product ids
+                eprintln!("Warning: TCGplayer group {group_name} skipped: {error}");
+                failed_groups += 1;
+                continue;
+            }
+        };
+        for product in &products {
             let Ok(mut product): Result<TcgPlayerProduct, _> =
                 serde_json::from_value(product.clone()).inspect_err(|e| {
                     println!("Failed to parse product: {e}");
@@ -574,6 +603,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                 // skip booster boxes and other products without extended data
                 continue;
             }
+            product.group_name = group_name.to_string();
 
             // fix known issues
             product.fix_product();
@@ -623,6 +653,18 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     }
 
     println!("Found {} TCGplayer products...", product_ids.len());
+    // images mode starts over from the products: not with some of them missing
+    if failed_groups > 0 {
+        if mode == PriceCheckMode::Images {
+            warn_skipped(&format!(
+                "{failed_groups} TCGplayer groups couldn't be read, keeping all the product ids"
+            ));
+            return;
+        }
+        warn_skipped(&format!(
+            "{failed_groups} TCGplayer groups skipped, their cards keep their product ids"
+        ));
+    }
 
     let mut product_ids_skipped = 0;
 
@@ -635,6 +677,24 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
             .flat_map(|cs| cs.illustrations.iter_mut())
             .filter(|c| c.tcgplayer_product_ids.is_some())
         {
+            // drop the products of another rarity, e.g. a promo on the uncommon,
+            // they go back to the products to match
+            let (card_number, card_rarity) = (card.card_number.clone(), card.rarity.clone());
+            if let Some(tcgplayer_product_ids) = card.tcgplayer_product_ids.as_mut() {
+                tcgplayer_product_ids.retain(|id| {
+                    let other = product_ids.get(id).is_some_and(|(number, rarity, _)| {
+                        is_other_printing(&card_number, &card_rarity, number, rarity)
+                    });
+                    if other {
+                        println!(
+                            "Removing TCGplayer product {id} from {card_number} ({card_rarity}): it is {:?}",
+                            product_ids.get(id).map(|(n, r, _)| (n, r))
+                        );
+                    }
+                    !other
+                });
+                card.tcgplayer_product_ids.take_if(|ids| ids.is_empty());
+            }
             if let Some(tcgplayer_product_ids) = &card.tcgplayer_product_ids {
                 for tcgplayer_product_id in tcgplayer_product_ids {
                     if product_ids.shift_remove(tcgplayer_product_id).is_some() {
@@ -768,8 +828,14 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
                                     }
                                     return None;
                                 }
-                                let tcgplayer_img =
-                                    image::load_from_memory(&resp.bytes().unwrap()).unwrap();
+                                let tcgplayer_img = resp
+                                    .bytes()
+                                    .ok()
+                                    .and_then(|bytes| image::load_from_memory(&bytes).ok())
+                                    .or_else(|| {
+                                        eprintln!("Failed to read image: {img_path}");
+                                        None
+                                    })?;
                                 Some((*product_id, tcgplayer_img))
                             })
                             .collect();
@@ -843,6 +909,33 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
     }
 }
 
+/// Whether a TCGplayer product (`number`, `rarity`) is another printing than the illustration
+/// (`card_number`, `card_rarity`): same card, but a known different rarity. Anything unexpected (another number, an
+/// unknown rarity) keeps the stored product, a change on TCGplayer's side can't wipe them.
+fn is_other_printing(
+    card_number: &str,
+    card_rarity: &CardRarity,
+    number: &str,
+    rarity: &str,
+) -> bool {
+    let rarity = CardRarity::from(rarity.to_string());
+    number == card_number && !matches!(rarity, CardRarity::Other(_)) && rarity != *card_rarity
+}
+
+/// The "results" of a tcgcsv.com response.
+fn fetch_results(url: &str) -> Result<Vec<Value>, String> {
+    let value = http_client()
+        .get(url)
+        .send()
+        .and_then(|resp| resp.error_for_status())
+        .and_then(|resp| resp.json::<Value>())
+        .map_err(|error| error.to_string())?;
+    value["results"]
+        .as_array()
+        .cloned()
+        .ok_or_else(|| "no results".to_string())
+}
+
 fn dist_tcgplayer_image(card: &CardIllustration, tcgplayer_img: DynamicImage) -> u64 {
     // compare the image to the card
     println!(
@@ -883,6 +976,69 @@ mod tests {
             "/hocg/card/heb01/10099",
             &illust("hEB01/hBP01-081_UR_02.webp")
         ));
+    }
+
+    #[test]
+    fn tcgplayer_promos_are_promos_whatever_their_rarity() {
+        let product = |id: u32, name: &str, group: &str, rarity: &str| {
+            let mut product = TcgPlayerProduct {
+                product_id: id,
+                name: name.into(),
+                image_url: String::new(),
+                extended_data: vec![serde_json::json!({ "name": "Rarity", "value": rarity })],
+                group_name: group.into(),
+            };
+            product.fix_product();
+            product.extended_data[0]["value"]
+                .as_str()
+                .unwrap()
+                .to_owned()
+        };
+        let promos = "hololive OFFICIAL CARD GAME Promos";
+        assert_eq!(
+            product(704934, "Lu-knights (P) (hBP03-105)", promos, "Uncommon"),
+            "Promo"
+        );
+        assert_eq!(
+            product(
+                717544,
+                "Mori Calliope (P) (hBP06-057) (Alternate Art)",
+                promos,
+                "Common"
+            ),
+            "Promo"
+        );
+        assert_eq!(
+            product(
+                682256,
+                "Oozora Subaru (P) (hBP04-068) (Alternate Art)",
+                "Curious Universe",
+                "Uncommon"
+            ),
+            "Promo"
+        );
+        assert_eq!(
+            product(
+                699383,
+                "Mori Calliope (C) (hBP06-057)",
+                "Ayakashi Vermilion",
+                "Common"
+            ),
+            "Common"
+        );
+    }
+
+    #[test]
+    fn tcgplayer_products_of_another_rarity_are_dropped() {
+        let other =
+            |number, rarity| is_other_printing("hBP03-105", &CardRarity::Uncommon, number, rarity);
+        // 704934 Lu-knights (P) (hBP03-105)
+        assert!(other("hBP03-105", "P"));
+        assert!(!other("hBP03-105", "U"));
+        // unexpected data on TCGplayer's side keeps the product
+        assert!(!other("hBP03-105", "Unknown Rarity"));
+        assert!(!other("hBP03-105", "Mythic"));
+        assert!(!other("Unknown Number", "P"));
     }
 
     #[test]

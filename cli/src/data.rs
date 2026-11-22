@@ -2,7 +2,9 @@ use hocg_fan_sim_assets_model::{Art, Card, Extra, Keyword, Language, OshiSkill, 
 
 pub mod deck_log {
 
-    use std::{collections::HashSet, fmt::Display, fs, path::Path, str::FromStr, sync::Arc};
+    use std::{
+        collections::HashSet, fmt::Display, fs, path::Path, str::FromStr, sync::Arc, time::Duration,
+    };
 
     use hocg_fan_sim_assets_model::{
         BloomLevel, CardIllustration, CardType, CardsDatabase, Language, Localized, SupportType,
@@ -12,7 +14,43 @@ pub mod deck_log {
     use reqwest::header::REFERER;
     use serde::{Deserialize, Deserializer, Serialize};
 
-    use crate::{deck_log_en_http_client, deck_log_http_client};
+    use crate::{body_excerpt, deck_log_en_http_client, deck_log_http_client, warn_skipped};
+
+    /// After that many Deck Log pages that can't be read, Deck Log is considered down for the
+    /// language (all deck types).
+    const MAX_DECK_LOG_ERRORS: u8 = 3;
+    /// How long to wait before trying a page again when its response isn't the cards (an empty
+    /// body or an HTML page). The http client only retries server errors and network errors.
+    const DECK_LOG_RETRY_DELAYS: [Duration; 2] = [Duration::from_secs(5), Duration::from_secs(10)];
+
+    /// Retrieves a page of Deck Log cards with `send`, trying again after each of `retry_delays`
+    /// when the response can't be read. The error says the status and the start of the body.
+    fn fetch_deck_log_page(
+        send: impl Fn() -> reqwest::Result<reqwest::blocking::Response>,
+        retry_delays: &[Duration],
+    ) -> Result<Vec<DeckLogCard>, String> {
+        let mut delays = retry_delays.iter();
+        loop {
+            // network errors are already retried by the client
+            let resp = send().map_err(|error| error.to_string())?;
+            let status = resp.status();
+            let error = match resp.text() {
+                Ok(content) => match serde_json::from_str(&content) {
+                    Ok(cards) => return Ok(cards),
+                    Err(_) => format!(
+                        "HTTP {status}, didn't like response: {}",
+                        body_excerpt(&content)
+                    ),
+                },
+                Err(error) => format!("HTTP {status}, {error}"),
+            };
+            let Some(delay) = delays.next() else {
+                return Err(error);
+            };
+            eprintln!("Deck Log page not read ({error}), trying again in {delay:?}");
+            std::thread::sleep(*delay);
+        }
+    }
 
     #[derive(Debug, Serialize)]
     #[serde(rename_all = "snake_case")]
@@ -227,7 +265,7 @@ pub mod deck_log {
                             let all_cards = all_cards.clone();
                             let error_count = error_count.clone();
                             move |page| {
-                                if *error_count.lock() >= 3 {
+                                if *error_count.lock() >= MAX_DECK_LOG_ERRORS {
                                     return None;
                                 }
 
@@ -257,24 +295,37 @@ pub mod deck_log {
                                     ),
                                 };
 
-                                let resp = client
-                                    .post(url)
-                                    .header(REFERER, referrer)
-                                    .json(&req)
-                                    .send()
-                                    .unwrap();
-
-                                let content = resp.text().unwrap();
-                                // println!("{content}");
-                                let cards = serde_json::from_str(&content);
-                                let Ok(cards): Result<Vec<DeckLogCard>, _> = cards else {
-                                    eprintln!("didn't like response: {content}");
-                                    let mut error_count = error_count.lock();
-                                    *error_count += 1;
-                                    if *error_count >= 3 {
-                                        panic!("Too many errors, stopping.");
+                                // a page that can't be read is skipped (its cards keep their
+                                // data); after too many, Deck Log is considered down for the
+                                // language: the deck types share the count
+                                let cards = match fetch_deck_log_page(
+                                    || {
+                                        client
+                                            .post(url)
+                                            .header(REFERER, referrer)
+                                            .json(&req)
+                                            .send()
+                                    },
+                                    &DECK_LOG_RETRY_DELAYS,
+                                ) {
+                                    Ok(cards) => cards,
+                                    Err(error) => {
+                                        eprintln!(
+                                            "Warning: Deck Log {deck_type} page {page} skipped: {error}"
+                                        );
+                                        let mut error_count = error_count.lock();
+                                        *error_count += 1;
+                                        if *error_count == MAX_DECK_LOG_ERRORS {
+                                            warn_skipped(&format!(
+                                                "Deck Log unavailable for {language:?} ({error}), skipped the remaining pages; their cards keep their data"
+                                            ));
+                                        }
+                                        return if *error_count >= MAX_DECK_LOG_ERRORS {
+                                            None
+                                        } else {
+                                            Some(())
+                                        };
                                     }
-                                    return Some(());
                                 };
 
                                 // no more card in this page
@@ -444,18 +495,78 @@ pub mod deck_log {
             .map(|c| (c.1.card_number.clone(), c.0))
             .collect()
     }
+
+    #[cfg(test)]
+    mod tests {
+        use super::*;
+        use crate::test_server::{http, serve};
+
+        fn fetch(url: &str, retry_delays: &[Duration]) -> Result<Vec<DeckLogCard>, String> {
+            fetch_deck_log_page(|| crate::http_client().post(url).send(), retry_delays)
+        }
+
+        #[test]
+        fn test_fetch_deck_log_page() {
+            let cards = r#"[{"manage_id":"1","card_number":"hSD01-001","card_kind":"推しホロメン","name":"ときのそら","rare":"OSR","img":"hSD01/hSD01-001_OSR.png","bloom_level":"","max":"1"}]"#;
+            let no_delay = [Duration::ZERO; 2];
+
+            // empty body, then a maintenance page, then the cards
+            let url = serve(vec![
+                http("200 OK", ""),
+                http(
+                    "503 Service Unavailable",
+                    "<title>メンテナンス中 [Maintenance] | Deck Log</title>",
+                ),
+                http("200 OK", cards),
+            ]);
+            let read = fetch(&url, &no_delay).unwrap();
+            assert_eq!(read.len(), 1);
+            assert_eq!(read[0].card_number, "hSD01-001");
+
+            // no more cards
+            let url = serve(vec![http("200 OK", "[]")]);
+            assert!(fetch(&url, &no_delay).unwrap().is_empty());
+
+            // still not the cards after the retries: the status and the start of the page
+            let maintenance = format!(
+                "<title>メンテナンス中 [Maintenance] | Deck Log</title><svg>{}</svg>",
+                "<path/>".repeat(1000)
+            );
+            let url = serve(vec![http("200 OK", &maintenance); 3]);
+            let error = fetch(&url, &no_delay).unwrap_err();
+            assert!(
+                error.starts_with("HTTP 200 OK, didn't like response: \"<title>メンテナンス中"),
+                "{error}"
+            );
+            assert!(error.len() < 300, "{error}");
+
+            // without retries
+            let url = serve(vec![http("200 OK", ""), http("200 OK", cards)]);
+            let error = fetch(&url, &[]).unwrap_err();
+            assert_eq!(error, "HTTP 200 OK, didn't like response: empty body");
+
+            // nothing listening
+            let url = {
+                let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
+                format!("http://{}/", listener.local_addr().unwrap())
+            };
+            assert!(fetch(&url, &no_delay).is_err());
+        }
+    }
 }
 
 pub mod hololive_official {
-    use std::collections::{HashMap, HashSet};
+    use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
     use std::fs;
     use std::ops::Deref;
     use std::path::Path;
     use std::sync::LazyLock;
+    use std::sync::atomic::{AtomicUsize, Ordering};
 
     use hocg_fan_sim_assets_model::{
         Art, ArtPower, BloomLevel, Card, CardIllustration, CardType, CardsDatabase, Color, Extra,
         HoloPower, Keyword, KeywordEffect, Language, Localized, OshiSkill, OshiSkillKind,
+        ProductsDatabase,
     };
     use itertools::Itertools;
 
@@ -467,8 +578,12 @@ pub mod hololive_official {
     use crate::data::{
         update_arts, update_extra, update_keywords, update_oshi_skills, update_tags,
     };
-    use crate::http_client;
+    use crate::products::{
+        ListedProduct, ProductEntry, catalog_names, fix_product_urls, needs_details,
+        update_catalog, update_printings, update_short_names,
+    };
     use crate::utils::{TrimOnce, clean_text};
+    use crate::{http_client, warn_skipped};
 
     fn card_type_from_str(card_type: &str) -> CardType {
         match card_type.trim().to_lowercase().as_str() {
@@ -1004,6 +1119,230 @@ pub mod hololive_official {
         illustrations.sort_by_cached_key(|c| c.manage_id.clone());
     }
 
+    /// Product names listed in the card list entry (JP "収録商品", EN "Card Set"), one per line.
+    /// `None` when the entry doesn't have the field.
+    fn list_products(hololive_card: &scraper::ElementRef) -> Option<Vec<String>> {
+        static INFO: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse(".info dl :is(dt, dd)").unwrap());
+
+        let (_, value) = hololive_card.select(&INFO).tuples().find(|(key, _)| {
+            let key = key.text().collect::<String>().trim().to_lowercase();
+            key == "収録商品" || key == "card set"
+        })?;
+
+        // one product per line, lines are separated by <br>
+        let mut products = vec![String::new()];
+        for child in value.children() {
+            match child.value() {
+                Node::Text(text) => products.last_mut().unwrap().push_str(text),
+                Node::Element(e) if e.name() == "br" => products.push(String::new()),
+                Node::Element(_) => {
+                    if let Some(e) = scraper::ElementRef::wrap(child) {
+                        products
+                            .last_mut()
+                            .unwrap()
+                            .push_str(&e.text().collect::<String>());
+                    }
+                }
+                _ => {}
+            }
+        }
+        Some(
+            products
+                .iter()
+                .map(|p| clean_product_name(p))
+                .filter(|p| !p.is_empty())
+                .unique()
+                .collect(),
+        )
+    }
+
+    /// Collapses whitespace runs: the list and detail pages don't indent the names the same way.
+    pub fn clean_product_name(name: &str) -> String {
+        name.split_ascii_whitespace().join(" ")
+    }
+
+    /// The product entries of a card detail page (`page_url`): the "収録商品" / "Featured
+    /// Products" section, in page order.
+    pub fn detail_products(
+        page_url: &Url,
+        page_content: &str,
+        language: Language,
+    ) -> Vec<ProductEntry> {
+        static PRODUCTS: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse(".cardlist-Detail_Products .products").unwrap());
+        static NAME: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse(".products-ttl p").unwrap());
+        static CATEGORY: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse(".products-ttl .cat").unwrap());
+        static INFO: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse("dl :is(dt, dd)").unwrap());
+        static LINKS: LazyLock<Selector> = LazyLock::new(|| Selector::parse("a[href]").unwrap());
+
+        let document = Html::parse_document(page_content);
+        document
+            .select(&PRODUCTS)
+            .filter_map(|product| {
+                let name = product
+                    .select(&NAME)
+                    .next()
+                    .map(|n| clean_product_name(&n.text().collect::<String>()))
+                    .filter(|n| !n.is_empty())?;
+                let release_date = product
+                    .select(&INFO)
+                    .tuples()
+                    .find(|(key, _)| {
+                        let key = key.text().collect::<String>().trim().to_lowercase();
+                        key == "発売日" || key == "release date"
+                    })
+                    .and_then(|(_, value)| {
+                        let value = value.text().collect::<String>();
+                        let date = parse_release_date(&value, language);
+                        if date.is_none() && !value.trim().is_empty() {
+                            eprintln!("Warning: cannot parse release date {value:?} of {name:?}");
+                        }
+                        date
+                    });
+                // links: "CARD LIST" /cardlist/cardsearch/?expansion=hBP01, and "MORE" the
+                // product page, when there is one
+                let links = product
+                    .select(&LINKS)
+                    .filter_map(|a| page_url.join(a.value().attr("href")?).ok())
+                    .collect_vec();
+                let expansion = links.iter().find_map(|url| {
+                    url.query_pairs()
+                        .find(|(k, _)| k == "expansion")
+                        .map(|(_, v)| v.trim().to_string())
+                        .filter(|v| !v.is_empty())
+                });
+                let url = links
+                    .iter()
+                    .find(|url| !url.query_pairs().any(|(k, _)| k == "expansion"))
+                    .map(|url| url.to_string());
+                // the site's category: <span class="cat boosters">Booster</span>
+                let category = product.select(&CATEGORY).next().and_then(|c| {
+                    c.value()
+                        .classes()
+                        .find(|class| *class != "cat")
+                        .map(str::to_owned)
+                });
+                Some(ProductEntry {
+                    name,
+                    expansion,
+                    release_date,
+                    category,
+                    url,
+                })
+            })
+            .collect()
+    }
+
+    /// The products of a page of the products pages of the official site (`/products/`): name
+    /// and "MORE" page url, in page order.
+    pub fn listing_products(page_url: &Url, page_content: &str) -> Vec<(String, String)> {
+        static ITEMS: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse(".product-list li").unwrap());
+        static NAME: LazyLock<Selector> = LazyLock::new(|| Selector::parse(".ttl").unwrap());
+        static LINK: LazyLock<Selector> =
+            LazyLock::new(|| Selector::parse(".btn a[href]").unwrap());
+        let document = Html::parse_document(page_content);
+        document
+            .select(&ITEMS)
+            .filter_map(|item| {
+                let name = item
+                    .select(&NAME)
+                    .next()
+                    .map(|n| clean_product_name(&n.text().collect::<String>()))
+                    .filter(|n| !n.is_empty())?;
+                let url = page_url
+                    .join(item.select(&LINK).next()?.value().attr("href")?)
+                    .ok()?;
+                Some((name, url.to_string()))
+            })
+            .collect()
+    }
+
+    /// All the products of the products pages of the official site, `None` if a page can't be
+    /// read. The pages are /products/, /products/page/2/, ... until one without products.
+    fn retrieve_listing_products(site: &str) -> Option<Vec<(String, String)>> {
+        /// More pages than that: something is wrong.
+        const MAX_PAGES: usize = 100;
+        let mut listing = vec![];
+        for page in 1..=MAX_PAGES {
+            let url = if page == 1 {
+                format!("{site}products/")
+            } else {
+                format!("{site}products/page/{page}/")
+            };
+            let content = match http_client()
+                .get(&url)
+                .send()
+                .and_then(|resp| resp.error_for_status())
+                .and_then(|resp| resp.text())
+            {
+                Ok(content) => content,
+                // past the last page
+                Err(error)
+                    if error.status() == Some(reqwest::StatusCode::NOT_FOUND) && page > 1 =>
+                {
+                    return Some(listing);
+                }
+                Err(error) => {
+                    eprintln!("Warning: cannot retrieve {url}: {error}");
+                    return None;
+                }
+            };
+            let products = listing_products(&Url::parse(&url).ok()?, &content);
+            if products.is_empty() {
+                return Some(listing);
+            }
+            listing.extend(products);
+        }
+        eprintln!("Warning: more than {MAX_PAGES} products pages at {site}products/");
+        None
+    }
+
+    /// Whether a page is not found (`None` if it can't be checked).
+    fn page_not_found(url: &str) -> Option<bool> {
+        let status = http_client().get(url).send().ok()?.status();
+        Some(status == reqwest::StatusCode::NOT_FOUND || status == reqwest::StatusCode::GONE)
+    }
+
+    /// Parses "2026年09月19日(土)" (JP) or "July 11, 2025" (EN) into "2026-09-19" / "2025-07-11".
+    pub fn parse_release_date(date: &str, language: Language) -> Option<String> {
+        let date = date.trim();
+        let (year, month, day) = match language {
+            Language::Japanese => {
+                let numbers: Vec<u32> = date
+                    .split(|c: char| !c.is_ascii_digit())
+                    .filter(|n| !n.is_empty())
+                    .take(3)
+                    .map(|n| n.parse().ok())
+                    .collect::<Option<_>>()?;
+                let [year, month, day] = numbers[..] else {
+                    return None;
+                };
+                (year, month, day)
+            }
+            Language::English => {
+                const MONTHS: [&str; 12] = [
+                    "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov",
+                    "dec",
+                ];
+                let mut parts = date
+                    .split(|c: char| c.is_whitespace() || c == ',' || c == '.')
+                    .filter(|p| !p.is_empty());
+                let month = parts.next()?.to_lowercase();
+                let month = MONTHS.iter().position(|m| month.starts_with(m))? as u32 + 1;
+                let day = parts.next()?.parse().ok()?;
+                let year = parts.next()?.parse().ok()?;
+                (year, month, day)
+            }
+        };
+        ((2000..3000).contains(&year) && (1..=12).contains(&month) && (1..=31).contains(&day))
+            .then(|| format!("{year:04}-{month:02}-{day:02}"))
+    }
+
     fn update_card_illustrations_more(
         card: &mut Card,
         illust_idx: usize,
@@ -1325,13 +1664,70 @@ pub mod hololive_official {
     // - Bloom level
     // - Baton pass
     // - Text "JP"
+    /// After that many card list pages that can't be read, the site is considered down.
+    const MAX_FAILED_LIST_PAGES: usize = 10;
+
+    /// A page of the card list of the official site.
+    #[derive(Debug, PartialEq, Eq)]
+    pub enum ListPage {
+        Cards(String),
+        /// After the last page.
+        End,
+        /// The page couldn't be read (network error, error status).
+        Failed(String),
+    }
+
+    /// Retrieves a page of the card list, trying again once if it fails. The site answers the
+    /// pages after the last one with "Page not found" (and a 404 status on the english site).
+    pub fn fetch_list_page(url: &str, referrer: &str, query: &[(&str, &str)]) -> ListPage {
+        let mut error = String::new();
+        for _ in 0..2 {
+            let response = http_client()
+                .get(url)
+                .query(query)
+                .header(REFERER, referrer)
+                .send()
+                .and_then(|resp| {
+                    let status = resp.status();
+                    resp.text().map(|content| (status, content))
+                });
+            match response {
+                Ok((status, content)) => {
+                    // no more card in this page
+                    if content.contains(
+                        "<title>hololive OFFICIAL CARD GAME｜ホロライブプロダクション</title>",
+                    ) || content
+                        .contains("<title>hololive OFFICIAL CARD GAME｜hololive production</title>")
+                        || content.contains("Page not found")
+                    {
+                        return ListPage::End;
+                    }
+                    if status.is_success() {
+                        return ListPage::Cards(content);
+                    }
+                    error = format!("HTTP {status}");
+                }
+                Err(err) => error = err.to_string(),
+            }
+        }
+        ListPage::Failed(error)
+    }
+
+    /// Whether the cards of the read pages can be updated: when most pages failed, or the site
+    /// went down while reading (`stopped`), the read pages may not be what they seem and all the
+    /// data is kept.
+    pub fn list_pages_usable(read: usize, failed: usize, stopped: bool) -> bool {
+        !stopped && failed <= read
+    }
+
     pub fn retrieve_card_info_from_hololive(
         all_cards: &mut CardsDatabase,
+        products: &mut ProductsDatabase,
         number_filter: &Option<String>,
         expansion: &Option<String>,
         optimized_original_images: bool,
-        images_jp_path: &Path,
-        images_en_path: &Path,
+        // the images folder of the language
+        images_path: &Path,
         language: Language,
     ) -> Vec<(String, usize)> {
         if number_filter.is_none() && expansion.is_none() {
@@ -1347,19 +1743,21 @@ pub mod hololive_official {
             );
         }
 
-        let images_path = match language {
-            Language::Japanese => images_jp_path,
-            Language::English => images_en_path,
-        };
-
         let mut filtered_cards = HashSet::new();
+        let mut listed_products: BTreeMap<u32, Vec<String>> = BTreeMap::new();
         let mut updated_count = 0;
 
-        // Download pages in parallel
-        let pages: HashMap<_, _> = (1..)
+        // Download pages in parallel. A page that can't be read is skipped (its cards keep their
+        // data); after too many, the site is down: stop
+        let failed_count = AtomicUsize::new(0);
+        let pages: HashMap<usize, Option<(String, String)>> = (1..)
             .par_bridge()
             .map({
+                let failed_count = &failed_count;
                 move |page| {
+                    if failed_count.load(Ordering::Relaxed) >= MAX_FAILED_LIST_PAGES {
+                        return None;
+                    }
                     let (url, referrer) = match language {
                         Language::Japanese => (
                             "https://hololive-official-cardgame.com/cardlist/cardsearch_ex",
@@ -1371,44 +1769,55 @@ pub mod hololive_official {
                         ),
                     };
 
-                    let resp = http_client()
-                        .get(url)
-                        .query(&[
-                            ("view", "text"),
-                            ("sort", "old"),
-                            ("keyword", number_filter.as_deref().unwrap_or_default()),
-                            ("expansion_name", expansion.as_deref().unwrap_or_default()),
-                            ("page", page.to_string().as_str()),
-                        ])
-                        .header(REFERER, referrer)
-                        .send()
-                        .unwrap();
-
-                    let content = resp.text().unwrap();
-
-                    // no more card in this page
-                    if content.contains(
-                        "<title>hololive OFFICIAL CARD GAME｜ホロライブプロダクション</title>",
-                    ) || content
-                        .contains("<title>hololive OFFICIAL CARD GAME｜hololive production</title>")
-                        || content.contains("Page not found")
-                    {
-                        println!("Page {page} not found, stop retrieving more pages");
-                        return None;
+                    let page_number = page.to_string();
+                    let query = [
+                        ("view", "text"),
+                        ("sort", "old"),
+                        ("keyword", number_filter.as_deref().unwrap_or_default()),
+                        ("expansion_name", expansion.as_deref().unwrap_or_default()),
+                        ("page", page_number.as_str()),
+                    ];
+                    match fetch_list_page(url, referrer, &query) {
+                        ListPage::Cards(content) => {
+                            println!("Page {page} retrieved");
+                            Some((page, Some((url.to_owned(), content))))
+                        }
+                        ListPage::End => {
+                            println!("Page {page} not found, stop retrieving more pages");
+                            None
+                        }
+                        ListPage::Failed(error) => {
+                            eprintln!("Warning: card list page {page} skipped: {error}");
+                            failed_count.fetch_add(1, Ordering::Relaxed);
+                            Some((page, None))
+                        }
                     }
-
-                    println!("Page {page} retrieved");
-
-                    Some((page, (url.to_owned(), content)))
                 }
             })
             .while_some()
             .collect();
 
+        let read_pages = pages.values().filter(|p| p.is_some()).count();
+        let failed_pages = pages.len() - read_pages;
+        if !list_pages_usable(
+            read_pages,
+            failed_pages,
+            failed_count.load(Ordering::Relaxed) >= MAX_FAILED_LIST_PAGES,
+        ) {
+            warn_skipped(&format!(
+                "the card list of the official site couldn't be read ({failed_pages} pages failed, {read_pages} read), keeping all the {language:?} data"
+            ));
+            return vec![];
+        }
+        if failed_pages > 0 {
+            warn_skipped(&format!(
+                "{failed_pages} {language:?} card list pages of the official site skipped, their cards keep their data"
+            ));
+        }
+
         // Process pages sequentially
-        'pages: for page in 1..=pages.len() {
-            let Some((url, content)) = pages.get(&page) else {
-                eprintln!("Page {page} not found in retrieved pages");
+        'pages: for page in pages.keys().copied().sorted() {
+            let Some(Some((url, content))) = pages.get(&page) else {
                 continue;
             };
 
@@ -1492,6 +1901,11 @@ pub mod hololive_official {
                     language,
                 );
 
+                // product names, the release dates are on the detail page
+                if let Some(products) = list_products(&hololive_card) {
+                    listed_products.insert(manage_id, products);
+                }
+
                 // add to filtered cards
                 filtered_cards.insert(manage_id);
 
@@ -1504,6 +1918,90 @@ pub mod hololive_official {
             println!("Page {page} done: updated {page_updated_count} cards");
         }
         println!("Updated {} cards", updated_count);
+
+        // Products: the card list only has their names, the details (expansion code, release
+        // date, ...) are on the card detail pages. They are the same for all the cards of a
+        // product, so only one detail page is read per name that is not in the catalog, or that
+        // has no release date yet. Card pools (not products) are never in the catalog, they are
+        // checked on each run too.
+        let names = catalog_names(products, language);
+        let mut product_pages_ids = BTreeSet::new();
+        let mut checked_names = BTreeSet::new();
+        for (manage_id, listed_names) in &listed_products {
+            for name in listed_names {
+                if needs_details(products, &names, name, language)
+                    && checked_names.insert(name.clone())
+                {
+                    product_pages_ids.insert(*manage_id);
+                }
+            }
+        }
+        println!(
+            "Products: {} listed, retrieving {} card pages for {} names: {}",
+            listed_products.values().flatten().unique().count(),
+            product_pages_ids.len(),
+            checked_names.len(),
+            checked_names.iter().join(", ")
+        );
+        let product_pages: HashMap<String, String> = product_pages_ids
+            .iter()
+            .par_bridge()
+            .filter_map(|manage_id| {
+                let illust = CardIllustration {
+                    manage_id: Localized::new(language, [*manage_id].into()),
+                    ..Default::default()
+                };
+                let url = illust.official_site_urls(language).pop()?;
+                let content = http_client()
+                    .get(&url)
+                    .send()
+                    .and_then(|resp| resp.error_for_status())
+                    .and_then(|resp| resp.text());
+                match content {
+                    Ok(content) => Some((url, content)),
+                    Err(error) => {
+                        eprintln!("Warning: cannot retrieve {url}: {error}");
+                        None
+                    }
+                }
+            })
+            .collect();
+        // sorted, for a deterministic catalog
+        let entries = product_pages
+            .iter()
+            .sorted()
+            .filter_map(|(url, content)| Some((Url::parse(url).ok()?, content)))
+            .flat_map(|(url, content)| detail_products(&url, content, language))
+            .collect_vec();
+        let mut resolved: HashMap<String, ListedProduct> = names
+            .into_iter()
+            .map(|(name, code)| (name, ListedProduct::Product(code)))
+            .collect();
+        resolved.extend(update_catalog(products, &entries, language));
+        // the product pages: some "MORE" links of the card pages are dead
+        let site = match language {
+            Language::Japanese => "https://hololive-official-cardgame.com/",
+            Language::English => "https://en.hololive-official-cardgame.com/",
+        };
+        match retrieve_listing_products(site) {
+            Some(listing) => {
+                let fixed_count = fix_product_urls(products, &listing, language, page_not_found);
+                println!(
+                    "Products pages: {} products listed, {fixed_count} product pages fixed",
+                    listing.len()
+                );
+            }
+            None => eprintln!(
+                "Warning: the products pages of the official site couldn't be read, the product pages are kept"
+            ),
+        }
+        update_short_names(products);
+        let (products_updated_count, unknown_names) =
+            update_printings(all_cards, &listed_products, &resolved, language);
+        for name in &unknown_names {
+            eprintln!("Warning: product {name:?} is unknown, the stored products are kept");
+        }
+        println!("Updated products of {products_updated_count} illustrations");
 
         // Download illustration specific info in parallel
         let pages: HashMap<String, Option<String>> = all_cards
@@ -1537,8 +2035,24 @@ pub mod hololive_official {
                         return Some((url.to_owned(), None));
                     }
 
-                    let resp = http_client().get(url).send().unwrap();
-                    let content = resp.text().unwrap();
+                    // Already retrieved for the products
+                    if let Some(content) = product_pages.get(url) {
+                        return Some((url.to_owned(), Some(content.clone())));
+                    }
+
+                    // a page that can't be read is skipped, the illustration keeps its data
+                    let content = match http_client()
+                        .get(url)
+                        .send()
+                        .and_then(|resp| resp.error_for_status())
+                        .and_then(|resp| resp.text())
+                    {
+                        Ok(content) => content,
+                        Err(error) => {
+                            eprintln!("Warning: cannot retrieve {url}: {error}");
+                            return None;
+                        }
+                    };
 
                     let index = index + 1;
                     if index.is_multiple_of(100) {
@@ -1610,6 +2124,261 @@ pub mod hololive_official {
             })
             .map(|c| (c.1.card_number.clone(), c.0))
             .collect()
+    }
+
+    #[cfg(test)]
+    mod tests {
+        use super::*;
+
+        // from https://en.hololive-official-cardgame.com/cardlist/cardsearch_ex?keyword=hBP01-021
+        const EN_LIST: &str = r#"<ul><li class="ex-item"><a href="/cardlist/?id=3">
+<p class="number">hBP01-021</p>
+<div class="info">
+<dl>
+    <dt>Card Type</dt>
+    <dd>holomem</dd>
+            <dt>Rarity</dt>
+    <dd>C</dd>
+    	    <dt>Card Set</dt>
+    <dd>
+    		Start Deck – Tokino Sora & AZKi<br />Booster Pack – Blooming Radiance<br />Selection Cup - Diva Fever     </dd>
+	        </dl>
+</div></a></li></ul>"#;
+
+        // from https://en.hololive-official-cardgame.com/cardlist/?id=3
+        const EN_DETAIL: &str = r#"<div class="cardlist-Detail_Products">
+<h2 class="txtarea-Ttl Serif ja bold">Featured Products</h2>
+<div class="products">
+<div class="products-ttl"><span class="cat boosters">Booster</span><p>Booster Pack – Blooming Radiance</p></div>
+<dl>
+<dt>Release Date</dt>
+<dd>July 11, 2025</dd>
+</dl>
+<div class="btn">
+<a class="cardlist-Detail_Products_Btn Serif hover" href="https://en.hololive-official-cardgame.com/products/post/booster-pack-blooming-radiance/">MORE</a>
+<a class="cardlist-Detail_Products_Btn Serif hover" href="/cardlist/cardsearch/?expansion=hBP01">CARD LIST</a>
+</div>
+</div>
+<div class="products">
+<div class="products-ttl"><span class="cat decks">Deck</span><p>Start Deck – Tokino Sora & AZKi</p></div>
+<dl>
+<dt>Release Date</dt>
+<dd>July 11, 2025</dd>
+</dl>
+<div class="btn">
+<a class="cardlist-Detail_Products_Btn Serif hover" href="/cardlist/cardsearch/?expansion=hSD01">CARD LIST</a>
+</div>
+</div>
+<div class="products">
+<div class="products-ttl"><span class="cat accessories">Accessory</span><p>Selection Cup - Diva Fever </p></div>
+<dl>
+<dt>Release Date</dt>
+<dd>November 20, 2026</dd>
+</dl>
+<div class="btn">
+<a class="cardlist-Detail_Products_Btn Serif hover" href="https://en.hololive-official-cardgame.com/events_detail/diva-fever_selection-cup/">MORE</a>
+<a class="cardlist-Detail_Products_Btn Serif hover" href="/cardlist/cardsearch/?expansion=sele07">CARD LIST</a>
+</div>
+</div>
+</div>"#;
+
+        // from https://hololive-official-cardgame.com/cardlist/?id=2991
+        const JP_PR_DETAIL: &str = r#"<div class="cardlist-Detail_Products">
+<h2 class="txtarea-Ttl Serif ja bold">収録商品</h2>
+<div class="products">
+<div class="products-ttl"><span class="cat pr">PRカード</span><p>PRカード</p></div>
+<div class="btn">
+<a class="cardlist-Detail_Products_Btn Serif hover" href="/cardlist/cardsearch/?expansion=hPR">CARD LIST</a>
+</div>
+</div>
+</div>"#;
+
+        fn product(
+            name: &str,
+            date: Option<&str>,
+            expansion: &str,
+            category: &str,
+            url: Option<&str>,
+        ) -> ProductEntry {
+            ProductEntry {
+                name: name.into(),
+                expansion: Some(expansion.into()),
+                release_date: date.map(Into::into),
+                category: Some(category.into()),
+                url: url.map(Into::into),
+            }
+        }
+
+        fn en_page() -> Url {
+            Url::parse("https://en.hololive-official-cardgame.com/cardlist/?id=3").unwrap()
+        }
+
+        fn jp_page() -> Url {
+            Url::parse("https://hololive-official-cardgame.com/cardlist/?id=2991").unwrap()
+        }
+
+        #[test]
+        fn test_list_products() {
+            let document = Html::parse_document(EN_LIST);
+            let card = document
+                .select(&Selector::parse("li a").unwrap())
+                .next()
+                .unwrap();
+            assert_eq!(
+                list_products(&card),
+                Some(vec![
+                    "Start Deck – Tokino Sora & AZKi".to_string(),
+                    "Booster Pack – Blooming Radiance".to_string(),
+                    "Selection Cup - Diva Fever".to_string(),
+                ])
+            );
+        }
+
+        #[test]
+        fn test_detail_products() {
+            assert_eq!(
+                detail_products(&en_page(), EN_DETAIL, Language::English),
+                vec![
+                    product(
+                        "Booster Pack – Blooming Radiance",
+                        Some("2025-07-11"),
+                        "hBP01",
+                        "boosters",
+                        Some(
+                            "https://en.hololive-official-cardgame.com/products/post/booster-pack-blooming-radiance/"
+                        ),
+                    ),
+                    product(
+                        "Start Deck – Tokino Sora & AZKi",
+                        Some("2025-07-11"),
+                        "hSD01",
+                        "decks",
+                        None,
+                    ),
+                    product(
+                        "Selection Cup - Diva Fever",
+                        Some("2026-11-20"),
+                        "sele07",
+                        "accessories",
+                        Some(
+                            "https://en.hololive-official-cardgame.com/events_detail/diva-fever_selection-cup/"
+                        ),
+                    ),
+                ]
+            );
+            assert_eq!(
+                detail_products(&jp_page(), JP_PR_DETAIL, Language::Japanese),
+                vec![product("PRカード", None, "hPR", "pr", None)]
+            );
+        }
+
+        #[test]
+        fn test_listing_products() {
+            let page = r#"<div class="product-list"><ul>
+<li ><div class="flex-wrap"><div class="image"><img src="/a.webp" alt=""></div>
+<div class="detail"><div class="ttl-box"><div class="cate specials"><p>Specials</p></div>
+<p class="ttl"><span></span>スタートデッキセット-2025
+  ホロナツパラダイスver.-</p></div>
+<div class="info"><dl><dt>発売日</dt><dd>イベント限定</dd></dl></div></div></div>
+<div class="btn"><a href="https://hololive-official-cardgame.com/products/post/startdeckset-2025summer/">MORE</a></div></li>
+<li ><div class="detail"><p class="ttl"><span></span>オフィシャルホロカバインダー</p></div>
+<div class="btn"><a href="/products/post/binder/">MORE</a></div></li>
+<li ><div class="detail"><p class="ttl"><span></span>No page</p></div></li>
+</ul></div>"#;
+            let url =
+                Url::parse("https://hololive-official-cardgame.com/products/page/6/").unwrap();
+            assert_eq!(
+                listing_products(&url, page),
+                [
+                    (
+                        "スタートデッキセット-2025 ホロナツパラダイスver.-",
+                        "https://hololive-official-cardgame.com/products/post/startdeckset-2025summer/"
+                    ),
+                    (
+                        "オフィシャルホロカバインダー",
+                        "https://hololive-official-cardgame.com/products/post/binder/"
+                    ),
+                ]
+                .map(|(name, url)| (name.to_string(), url.to_string()))
+            );
+            assert!(listing_products(&url, "<html><body>nothing</body></html>").is_empty());
+        }
+
+        #[test]
+        fn test_fetch_list_page() {
+            use crate::test_server::{http, serve};
+            let query = [("page", "1")];
+            // a page of cards, after a server error (tried again)
+            let url = serve(vec![
+                http("500 Internal Server Error", "oops"),
+                http("200 OK", EN_LIST),
+            ]);
+            assert_eq!(
+                fetch_list_page(&url, &url, &query),
+                ListPage::Cards(EN_LIST.into())
+            );
+            // after the last page
+            let url = serve(vec![http(
+                "200 OK",
+                "<title>hololive OFFICIAL CARD GAME｜hololive production</title>",
+            )]);
+            assert_eq!(fetch_list_page(&url, &url, &query), ListPage::End);
+            // the english site: a 404 after the last page
+            let url = serve(vec![http(
+                "404 Not Found",
+                "<html><body>Page not found</body></html>",
+            )]);
+            assert_eq!(fetch_list_page(&url, &url, &query), ListPage::End);
+            // failing twice
+            let url = serve(vec![
+                http("503 Service Unavailable", ""),
+                http("503 Service Unavailable", ""),
+            ]);
+            assert!(matches!(
+                fetch_list_page(&url, &url, &query),
+                ListPage::Failed(_)
+            ));
+            // nothing listening
+            let url = {
+                let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
+                format!("http://{}/", listener.local_addr().unwrap())
+            };
+            assert!(matches!(
+                fetch_list_page(&url, &url, &query),
+                ListPage::Failed(_)
+            ));
+        }
+
+        #[test]
+        fn test_list_pages_usable() {
+            // a few pages skipped: the others are updated
+            assert!(list_pages_usable(200, 3, false));
+            assert!(list_pages_usable(10, 10, false));
+            // most pages failed, or the site went down: keep everything
+            assert!(!list_pages_usable(5, 6, false));
+            assert!(!list_pages_usable(0, 1, false));
+            assert!(!list_pages_usable(150, 10, true));
+            // no page at all (nothing listed) is fine
+            assert!(list_pages_usable(0, 0, false));
+        }
+
+        #[test]
+        fn test_parse_release_date() {
+            assert_eq!(
+                parse_release_date("2026年09月19日(土)", Language::Japanese).as_deref(),
+                Some("2026-09-19")
+            );
+            assert_eq!(
+                parse_release_date(" July 11, 2025 ", Language::English).as_deref(),
+                Some("2025-07-11")
+            );
+            assert_eq!(
+                parse_release_date("Sept. 5, 2025", Language::English).as_deref(),
+                Some("2025-09-05")
+            );
+            assert_eq!(parse_release_date("TBA", Language::English), None);
+            assert_eq!(parse_release_date("近日発売", Language::Japanese), None);
+        }
     }
 }
 
@@ -1881,5 +2650,175 @@ pub fn update_extra(
         if update_text {
             *orig_extra.value_mut(copy_language) = new_extra.value_mut(copy_language).take();
         }
+    }
+}
+
+/// Gives the cheers without a name or a text the ones of the other cheers: the official site
+/// only has them for the cheers released in a language, and the sheet doesn't have all the
+/// cheers. All the cheers have the same text (a reminder of the rules of the cheers), and the
+/// cheers of a set (hY01 white, hY02 green, ...) the same name. A value is the one of the cheers
+/// that have it, when they all agree (otherwise a warning, and nothing is filled). Returns the
+/// number of filled values.
+pub fn fill_cheer_basics(all_cards: &mut hocg_fan_sim_assets_model::CardsDatabase) -> usize {
+    fill_cheer_values(
+        all_cards,
+        "text",
+        |_| String::new(),
+        |card| &mut card.ability_text,
+    ) + fill_cheer_values(
+        all_cards,
+        "name",
+        |number| {
+            number
+                .split_once('-')
+                .map(|(set, _)| set)
+                .unwrap_or(number)
+                .to_owned()
+        },
+        |card| &mut card.name,
+    )
+}
+
+/// Fills a `field` of the cheers without it, with the value the cheers of the same `group` (by
+/// card number) have, see [`fill_cheer_basics`].
+fn fill_cheer_values(
+    all_cards: &mut hocg_fan_sim_assets_model::CardsDatabase,
+    what: &str,
+    group: impl Fn(&str) -> String,
+    field: impl Fn(&mut Card) -> &mut hocg_fan_sim_assets_model::Localized<String>,
+) -> usize {
+    use hocg_fan_sim_assets_model::CardType;
+    use itertools::Itertools;
+    use std::collections::BTreeMap;
+
+    let is_empty = |value: &Option<String>| value.as_deref().is_none_or(|v| v.trim().is_empty());
+    let mut filled_count = 0;
+    for language in [Language::Japanese, Language::English] {
+        let mut values: BTreeMap<String, Vec<String>> = BTreeMap::new();
+        for card in all_cards
+            .values_mut()
+            .filter(|card| card.card_type == CardType::Cheer)
+        {
+            let group = group(&card.card_number);
+            let value = field(card).value(language).clone();
+            let group_values = values.entry(group).or_default();
+            if let Some(value) = value.filter(|v| !v.trim().is_empty())
+                && !group_values.contains(&value)
+            {
+                group_values.push(value);
+            }
+        }
+        for card in all_cards
+            .values_mut()
+            .filter(|card| card.card_type == CardType::Cheer)
+        {
+            let group = group(&card.card_number);
+            let value = field(card).value_mut(language);
+            if !is_empty(value) {
+                continue;
+            }
+            match &values[&group][..] {
+                [shared] => {
+                    *value = Some(shared.clone());
+                    filled_count += 1;
+                }
+                [] => {}
+                different => eprintln!(
+                    "Warning: cheer {} without a {language:?} {what}, the cheers{} have different ones: {}",
+                    card.card_number,
+                    if group.is_empty() {
+                        String::new()
+                    } else {
+                        format!(" of {group}")
+                    },
+                    different.iter().map(|v| format!("{v:?}")).join(", ")
+                ),
+            }
+        }
+    }
+    filled_count
+}
+
+#[cfg(test)]
+mod cheer_tests {
+    use hocg_fan_sim_assets_model::{
+        Card, CardType, CardsDatabase, Language, Localized, SupportType,
+    };
+
+    use super::fill_cheer_basics;
+
+    fn cheer(number: &str, name: Localized<String>, text: Localized<String>) -> (String, Card) {
+        (
+            number.into(),
+            Card {
+                card_number: number.into(),
+                card_type: CardType::Cheer,
+                name,
+                ability_text: text,
+                ..Default::default()
+            },
+        )
+    }
+
+    #[test]
+    fn test_fill_cheer_basics() {
+        let jp = "■ホロメンがステージから離れる時...".to_string();
+        let en = "■If a holomem leaves the stage...".to_string();
+        let both = || Localized::both(jp.clone(), en.clone());
+        let white = || Localized::both("白エール".to_string(), "White Cheer".to_string());
+        let green = || Localized::both("緑エール".to_string(), "Green Cheer".to_string());
+        let mut all_cards: CardsDatabase = [
+            cheer("hY01-001", white(), both()),
+            cheer(
+                "hY01-002",
+                Localized::jp("白エール".into()),
+                Localized::jp(jp.clone()),
+            ),
+            cheer(
+                "hY01-008",
+                Localized::en("White Cheer".into()),
+                Localized::en(en.clone()),
+            ),
+            cheer("hY01-015", Localized::default(), Localized::default()),
+            cheer("hY02-001", green(), Localized::jp(" ".into())),
+            cheer("hY02-013", Localized::default(), Localized::default()),
+            (
+                "hSD01-016".into(),
+                Card {
+                    card_number: "hSD01-016".into(),
+                    card_type: CardType::Support(SupportType::Staff),
+                    ..Default::default()
+                },
+            ),
+        ]
+        .into_iter()
+        .collect();
+
+        // texts: 1 + 1 + 2 + 2 + 2, names: 1 + 1 + 2 + 2
+        assert_eq!(fill_cheer_basics(&mut all_cards), 14);
+        for number in ["hY01-001", "hY01-002", "hY01-008", "hY01-015"] {
+            assert_eq!(all_cards[number].ability_text, both(), "{number}");
+            assert_eq!(all_cards[number].name, white(), "{number}");
+        }
+        for number in ["hY02-001", "hY02-013"] {
+            assert_eq!(all_cards[number].ability_text, both(), "{number}");
+            assert_eq!(all_cards[number].name, green(), "{number}");
+        }
+        // not a cheer
+        assert_eq!(all_cards["hSD01-016"].ability_text, Localized::default());
+        assert_eq!(all_cards["hSD01-016"].name, Localized::default());
+
+        // the cheers disagree: nothing is filled
+        all_cards.insert(
+            "hY01-016".into(),
+            cheer("hY01-016", Localized::default(), Localized::default()).1,
+        );
+        all_cards.get_mut("hY01-001").unwrap().ability_text.japanese = Some("another".into());
+        all_cards.get_mut("hY01-001").unwrap().name.english = Some("Whiter Cheer".into());
+        assert_eq!(fill_cheer_basics(&mut all_cards), 2);
+        let card = &all_cards["hY01-016"];
+        assert_eq!(card.ability_text.japanese, None);
+        assert_eq!(card.ability_text.value(Language::English), &Some(en));
+        assert_eq!(card.name, Localized::jp("白エール".into()));
     }
 }

@@ -8,7 +8,7 @@ use clap::Parser;
 use hocg_fan_sim_assets_cli::{
     DEBUG, Language, PriceCheckMode,
     data::{
-        deck_log::retrieve_card_info_from_deck_log,
+        deck_log::retrieve_card_info_from_deck_log, fill_cheer_basics,
         hololive_official::retrieve_card_info_from_hololive,
     },
     holoburi::import_holoburi,
@@ -16,13 +16,14 @@ use hocg_fan_sim_assets_cli::{
     images::{PROXIES_FOLDER, download_images, prepare_en_proxy_images, zip_images},
     ogbajoj::{
         download_images_from_ogbajoj_sheet, retrieve_card_info_from_ogbajoj_sheet,
-        retrieve_qna_from_ogbajoj_sheet,
+        retrieve_product_info_from_ogbajoj_sheet, retrieve_qna_from_ogbajoj_sheet,
     },
     price_check::{tcgplayer, yuyutei},
+    products::{fix_promos_in_boosters, remove_unused_products},
     qna::generate_qna,
 };
 use hocg_fan_sim_assets_model::{
-    self as hocg, CardsDatabase, QnaDatabase,
+    self as hocg, CardsDatabase, ProductsDatabase, QnaDatabase,
     img_hash::{can_merge, hash_image_language, is_similar, to_image_hash},
 };
 use itertools::Itertools;
@@ -104,9 +105,14 @@ struct Args {
     #[arg(long, default_value = "all")]
     language: Language,
 
-    /// Use ogbajoj's sheet to import english translations
+    /// Use ogbajoj's sheet to import english translations (also imports the product info)
     #[arg(long)]
     ogbajoj_sheet: bool,
+
+    /// Use ogbajoj's sheet to import the product info: sources of the promo cards (with their PR
+    /// packs), english names of japanese only products. Included in --ogbajoj-sheet
+    #[arg(long)]
+    ogbajoj_products: bool,
 
     /// Remove unused assets
     #[arg(long)]
@@ -138,9 +144,11 @@ fn main() {
 
     let card_mapping_file = assets_path.join("hocg_cards.json");
     let qna_mapping_file = assets_path.join("hocg_qnas.json");
+    let products_mapping_file = assets_path.join("hocg_products.json");
     let images_jp_path = assets_path.join("img");
     let images_en_path = assets_path.join("img_en");
-    let ogbajoj_sheet_cache = args.ogbajoj_sheet.then(|| TempDir::new().unwrap());
+    let ogbajoj_sheet_cache =
+        (args.ogbajoj_sheet || args.ogbajoj_products).then(|| TempDir::new().unwrap());
     let ogbajoj_sheet_cache_dir = ogbajoj_sheet_cache.as_ref().map(|cache| cache.path());
 
     // Q&As
@@ -191,6 +199,20 @@ fn main() {
         all_cards = serde_json::from_str(&s).unwrap();
     }
 
+    // the products catalog is rebuilt from the official site when missing
+    let mut all_products = ProductsDatabase::new();
+    if !args.clean
+        && let Ok(s) = fs::read_to_string(&products_mapping_file)
+    {
+        match serde_json::from_str(&s) {
+            Ok(products) => all_products = products,
+            Err(err) => eprintln!(
+                "Warning: cannot read {}, the products are retrieved again: {err}",
+                products_mapping_file.display()
+            ),
+        }
+    }
+
     // (card number, illustration index)
     let mut filtered_cards: HashSet<(String, usize)> = HashSet::new();
 
@@ -223,11 +245,14 @@ fn main() {
                 .flat_map(|language| {
                     retrieve_card_info_from_hololive(
                         &mut all_cards,
+                        &mut all_products,
                         &args.number_filter,
                         &args.expansion,
                         args.optimized_original_images,
-                        &images_jp_path,
-                        &images_en_path,
+                        match language {
+                            Language::English => &images_en_path,
+                            _ => &images_jp_path,
+                        },
                         language.into(),
                     )
                 }),
@@ -279,6 +304,16 @@ fn main() {
         retrieve_card_info_from_ogbajoj_sheet(&mut all_cards, ogbajoj_sheet_cache_dir);
     }
 
+    // import promo sources (with the PR packs) and product names from ogbajoj, after the sheet
+    // images are hashed
+    if args.ogbajoj_sheet || args.ogbajoj_products {
+        retrieve_product_info_from_ogbajoj_sheet(
+            &mut all_cards,
+            &mut all_products,
+            ogbajoj_sheet_cache_dir,
+        );
+    }
+
     // check tags consistency
     if args.hololive || args.ogbajoj_sheet {
         check_tags_consistency(&all_cards);
@@ -289,8 +324,20 @@ fn main() {
             .unwrap_or_else(|error| panic!("cannot rebuild image similarity: {error}"));
     }
 
+    // the basic name and text of the cheers, for the ones the official site doesn't have them for
+    let filled_count = fill_cheer_basics(&mut all_cards);
+    if filled_count > 0 {
+        println!("Filled {filled_count} cheer names and texts");
+    }
+
     // merge english cards
     merge_similar_cards(&mut all_cards);
+
+    // promos listed in a booster by the official site of a language
+    let fixed_count = fix_promos_in_boosters(&mut all_cards, &all_products);
+    if fixed_count > 0 {
+        println!("Fixed the products of {fixed_count} promos listed in a booster");
+    }
 
     // identify similar looking cards by image hash
     update_similarity_index(&mut all_cards);
@@ -334,9 +381,13 @@ fn main() {
     if args.gc {
         garbage_collection(
             &mut all_cards,
+            &mut all_products,
             &args.assets_path,
-            &card_mapping_file,
-            &qna_mapping_file,
+            &[
+                &card_mapping_file,
+                &qna_mapping_file,
+                &products_mapping_file,
+            ],
             &images_jp_path,
             &images_en_path,
         );
@@ -351,6 +402,13 @@ fn main() {
     let mut ser = Serializer::with_formatter(&mut json, formatter);
     all_cards.serialize(&mut ser).unwrap();
     fs::write(&card_mapping_file, json).unwrap();
+
+    // save the products catalog, sorted by expansion code
+    let mut json = vec![];
+    let formatter = PrettyCompactFormatter::new();
+    let mut ser = Serializer::with_formatter(&mut json, formatter);
+    all_products.serialize(&mut ser).unwrap();
+    fs::write(&products_mapping_file, json).unwrap();
 
     if args.zip_images {
         zip_images(
@@ -368,9 +426,10 @@ fn main() {
 
 fn garbage_collection(
     all_cards: &mut CardsDatabase,
+    all_products: &mut ProductsDatabase,
     assets_path: &Path,
-    card_mapping_file: &Path,
-    qna_mapping_file: &Path,
+    // the data files, kept
+    data_files: &[&Path],
     images_jp_path: &Path,
     images_en_path: &Path,
 ) {
@@ -416,8 +475,12 @@ fn garbage_collection(
     });
 
     // remove unreferenced images
-    let mut required_paths =
-        HashSet::from([card_mapping_file.to_owned(), qna_mapping_file.to_owned()]);
+    // remove products no printing refers to
+    for code in remove_unused_products(all_products, all_cards) {
+        println!("Removing product: {code}");
+    }
+
+    let mut required_paths: HashSet<_> = data_files.iter().map(|f| f.to_path_buf()).collect();
     required_paths.extend(
         all_cards
             .values()
@@ -566,6 +629,25 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
                             *illustrations[i].img_last_modified.value_mut(language) =
                                 illustrations[j].img_last_modified.value(language).clone();
                         }
+
+                        // merge products
+                        if let Some(products_j) =
+                            illustrations[j].products.value_mut(language).take()
+                        {
+                            let products = illustrations[i]
+                                .products
+                                .value_mut(language)
+                                .get_or_insert_default();
+                            for product in products_j {
+                                if !products.contains(&product) {
+                                    products.push(product);
+                                }
+                            }
+                        }
+
+                        // merge promo sources
+                        let sources_j = illustrations[j].promo_sources.value_mut(language).take();
+                        merge_values(&mut illustrations[i].promo_sources, language, sources_j);
                     }
 
                     // merge other fields
@@ -641,6 +723,23 @@ fn merge_similar_cards(all_cards: &mut CardsDatabase) {
         }
     }
     println!("Merged {merged_count} similar images");
+}
+
+/// Adds the values that are not there yet, in order.
+fn merge_values(
+    into: &mut hocg::Localized<Vec<String>>,
+    language: hocg::Language,
+    from: Option<Vec<String>>,
+) {
+    let Some(from) = from else {
+        return;
+    };
+    let into = into.value_mut(language).get_or_insert_default();
+    for value in from {
+        if !into.contains(&value) {
+            into.push(value);
+        }
+    }
 }
 
 /// Update the similarity index for each illustration based on other illustrations having a similar image hash.
