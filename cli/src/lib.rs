@@ -4,6 +4,7 @@ pub mod holodelta;
 pub mod images;
 pub mod ogbajoj;
 pub mod price_check;
+pub mod products;
 pub mod qna;
 pub mod utils;
 
@@ -16,6 +17,38 @@ use reqwest::{
 };
 
 pub const DEBUG: bool = false;
+
+/// Warns that a source (or part of it) was skipped and its stored data kept. Besides the log, it
+/// prints a GitHub Actions workflow command, so that it shows as an annotation on the run summary
+/// (the run itself succeeds); outside of Actions it's just another line.
+pub fn warn_skipped(message: &str) {
+    eprintln!("Warning: {message}");
+    println!("::warning::{}", workflow_command_value(message));
+}
+
+/// Escapes a workflow command value (one line).
+fn workflow_command_value(message: &str) -> String {
+    message
+        .replace('%', "%25")
+        .replace('\r', "%0D")
+        .replace('\n', "%0A")
+}
+
+/// The start of a response body, for the logs (a whole HTML page is too much).
+pub fn body_excerpt(body: &str) -> String {
+    const MAX_CHARS: usize = 200;
+    let body = body.trim();
+    if body.is_empty() {
+        return "empty body".into();
+    }
+    let excerpt: String = body.chars().take(MAX_CHARS).collect();
+    let excerpt = excerpt.split_whitespace().collect::<Vec<_>>().join(" ");
+    if body.chars().nth(MAX_CHARS).is_some() {
+        format!("{excerpt:?}...")
+    } else {
+        format!("{excerpt:?}")
+    }
+}
 
 const HTTP_USER_AGENT: &str =
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0";
@@ -112,4 +145,57 @@ pub enum PriceCheckMode {
     Quick,
     /// Compare images to find the best match
     Images,
+}
+
+#[cfg(test)]
+pub(crate) mod test_server {
+    /// A local server answering each request with the next response, then closing.
+    pub fn serve(responses: Vec<String>) -> String {
+        use std::io::{Read, Write};
+        let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
+        let url = format!("http://{}/", listener.local_addr().unwrap());
+        std::thread::spawn(move || {
+            for response in responses {
+                let Ok((mut stream, _)) = listener.accept() else {
+                    return;
+                };
+                let mut buffer = [0; 4096];
+                let _ = stream.read(&mut buffer);
+                let _ = stream.write_all(response.as_bytes());
+            }
+        });
+        url
+    }
+
+    pub fn http(status: &str, body: &str) -> String {
+        format!(
+            "HTTP/1.1 {status}\r\nContent-Type: text/html\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{body}",
+            body.len()
+        )
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_body_excerpt() {
+        assert_eq!(body_excerpt(""), "empty body");
+        assert_eq!(body_excerpt("  \n "), "empty body");
+        assert_eq!(body_excerpt(" <p>a\n  b</p> "), "\"<p>a b</p>\"");
+        let long = format!("<title>メンテナンス中</title>{}", "x".repeat(500));
+        let excerpt = body_excerpt(&long);
+        assert!(excerpt.starts_with("\"<title>メンテナンス中</title>xxx"));
+        assert!(excerpt.ends_with("\"..."));
+        assert!(excerpt.chars().count() < 210);
+    }
+
+    #[test]
+    fn test_workflow_command_value() {
+        assert_eq!(
+            workflow_command_value("100% down\nfor now"),
+            "100%25 down%0Afor now"
+        );
+    }
 }

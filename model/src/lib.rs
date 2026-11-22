@@ -13,6 +13,10 @@ use crate::img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash};
 
 pub type CardsDatabase = BTreeMap<String, Card>;
 
+/// The products cards are released in, by expansion code (e.g. "hBP01", "hSD01", "hPR"). Stored
+/// in its own file, `hocg_products.json`, next to `hocg_cards.json`.
+pub type ProductsDatabase = BTreeMap<String, Product>;
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Language {
     Japanese,
@@ -598,6 +602,25 @@ pub struct CardIllustration {
     pub manage_id: Localized<BTreeSet<u32>>, // unique ids in Deck Log
     pub rarity: CardRarity,
     pub illustrator: Option<String>,
+    /// Expansion codes of the products this printing is released in, as listed on the official
+    /// card page (JP "収録商品", EN "Card Set"), in page order, e.g. ["hSD01", "hBP01"]. The
+    /// details are in the [`ProductsDatabase`], see [`CardIllustration::products_in`]. Card pools
+    /// of tournament formats (Selection Cups) are not products and are not listed.
+    #[serde(skip_serializing_if = "is_default")]
+    pub products: Localized<Vec<String>>,
+    /// How this printing was distributed, from @ogbajoj's sheet, e.g. "VJump November 2024",
+    /// "Pavolia Reine 2024 birthday merch full set bonus", "Basic PR Pack vol 5". First the lines
+    /// of the "Source(s)" column of the printing's row, then the PR packs it is in (the
+    /// "JP PR Pack contents" / "EN PR Pack contents" tabs) that the column doesn't already name.
+    /// Set for promos. A line that is only the name of one of the printing's `products` (the art
+    /// of sets and collections, e.g. "1st Anniversary Celebration Set") is not repeated here, the
+    /// product says it. Prize variants with the same art share the row of their card. As the sheet says, a
+    /// source line is japanese unless tagged "(EN)" (or "(JP and EN)"), and a printing only has
+    /// the source lines of the languages it is released in. A PR pack can be in a language the
+    /// printing is not released in yet: a pack announced with the english version of a japanese
+    /// promo.
+    #[serde(skip_serializing_if = "is_default")]
+    pub promo_sources: Localized<Vec<String>>,
     #[serde(serialize_with = "Localized::full_serialize")]
     pub img_path: Localized<String>,
     #[serde(skip_serializing_if = "is_default")]
@@ -614,7 +637,81 @@ pub struct CardIllustration {
     pub holoburi_art_key: Option<String>,
 }
 
+/// A product cards are released in (booster pack, start deck, PR cards, set, collection, ...),
+/// from the official sites. The key in [`ProductsDatabase`] is its expansion code.
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
+#[serde(rename_all = "snake_case")]
+#[serde(default)]
+pub struct Product {
+    /// Name on the official site, cleaned of extra whitespace,
+    /// e.g. "ブースターパック「ボリュームヴォルテックス」", "Booster Pack – Blooming Radiance", "PRカード".
+    #[serde(skip_serializing_if = "is_default")]
+    pub name: Localized<String>,
+    /// Release date as ISO 8601 "YYYY-MM-DD", when the site lists one (PR cards don't have one).
+    #[serde(skip_serializing_if = "is_default")]
+    pub release_date: Localized<String>,
+    /// The site's category (its `cat` class), currently one of "boosters", "decks", "pr" or
+    /// "accessories" (sets and collections with cards are accessories too). Kept as the site's
+    /// token, new categories may appear.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub category: Option<String>,
+    /// Page of the product (the "MORE" link), when the site has one.
+    #[serde(skip_serializing_if = "is_default")]
+    pub url: Localized<String>,
+    /// The official name without its wrapping: boosters by their set name ("ボリュームヴォルテックス"
+    /// for "ブースターパック「ボリュームヴォルテックス」", "Blooming Radiance" for "Booster Pack –
+    /// Blooming Radiance"), other products with their kind but without 「」, spaced dash and 【】
+    /// notes ("Start Deck Tokino Sora & AZKi"). In line with @ogbajoj's sheet, a name that ends
+    /// with the sheet's name of the product is shortened to it ("1st Anniversary Celebration Set"),
+    /// otherwise the name of the game stays ("hololive OFFICIAL CARD GAME ツインウエハース" has no
+    /// short name). Only set when it differs from `name`.
+    #[serde(skip_serializing_if = "is_default")]
+    pub short_name: Localized<String>,
+    /// Translation of the name from @ogbajoj's sheet, for products the official site doesn't name
+    /// in that language (e.g. japanese only products in english). In the style of `short_name`:
+    /// boosters by their set name ("Volume Vortex"), other products with their kind ("Start Deck
+    /// Amane Kanata").
+    #[serde(skip_serializing_if = "is_default")]
+    pub unofficial_name: Localized<String>,
+}
+
+impl Product {
+    /// The name to show in a language: the official one (short or full), otherwise the
+    /// unofficial translation. The `bool` is whether the name is official.
+    pub fn display_name(&self, language: Language, short: bool) -> Option<(&str, bool)> {
+        let official = if short {
+            self.short_name
+                .value(language)
+                .as_ref()
+                .or(self.name.value(language).as_ref())
+        } else {
+            self.name.value(language).as_ref()
+        };
+        official.map(|name| (name.as_str(), true)).or_else(|| {
+            self.unofficial_name
+                .value(language)
+                .as_ref()
+                .map(|name| (name.as_str(), false))
+        })
+    }
+}
+
 impl CardIllustration {
+    /// The products of this printing in a language, in page order, with their details from the
+    /// catalog (`None` if the catalog doesn't have the expansion code).
+    pub fn products_in<'a>(
+        &'a self,
+        language: Language,
+        products: &'a ProductsDatabase,
+    ) -> Vec<(&'a str, Option<&'a Product>)> {
+        self.products
+            .value(language)
+            .iter()
+            .flatten()
+            .map(|code| (code.as_str(), products.get(code)))
+            .collect()
+    }
+
     pub fn to_card_ref(card: &CardIllustration) -> Option<CardReference> {
         let id = if let Some(managed_id) =
             card.manage_id.japanese.as_ref().and_then(|ids| ids.first())

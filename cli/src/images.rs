@@ -23,7 +23,7 @@ use walkdir::WalkDir;
 use webp::{Encoder, WebPMemory};
 use zip::write::SimpleFileOptions;
 
-use crate::{DEBUG, http_client};
+use crate::{DEBUG, http_client, warn_skipped};
 
 pub const PROXIES_FOLDER: &str = "proxies";
 pub const UNRELEASED_FOLDER: &str = "unreleased";
@@ -60,6 +60,7 @@ pub fn download_images(
 
     let image_count = AtomicU32::new(0);
     let image_skipped = AtomicU32::new(0);
+    let image_failed = AtomicU32::new(0);
 
     // Download the images in parallel
     let images: Vec<_> = filtered_cards
@@ -68,6 +69,7 @@ pub fn download_images(
             let all_cards = &all_cards;
             let image_count = &image_count;
             let image_skipped = &image_skipped;
+            let image_failed = &image_failed;
             move |(card_number, illust_idx)| {
                 // https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-006_RR.png
 
@@ -101,12 +103,17 @@ pub fn download_images(
                     ),
                 };
 
-                // check if it's a new image
-                let resp = http_client()
+                // check if it's a new image, skip it if the site can't be reached (the stored
+                // image stays)
+                let Ok(resp) = http_client()
                     .head(format!("{url}{}", img_path.replace(".webp", ".png")))
                     .header(REFERER, referrer)
                     .send()
-                    .unwrap();
+                    .inspect_err(|e| eprintln!("Error checking image {img_path:?}: {e}"))
+                else {
+                    image_failed.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
+                    return None;
+                };
 
                 let last_modified = resp
                     .headers()
@@ -141,13 +148,22 @@ pub fn download_images(
                     .send()
                     .inspect_err(|e| eprintln!("Error downloading image {img_path:?}: {e}"))
                 else {
+                    image_failed.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                     return None;
                 };
 
                 // Using `image` crate, open the included .jpg file
-                let Ok(img) = image::load_from_memory(&resp.bytes().unwrap()).inspect_err(|e| {
+                let Ok(bytes) = resp
+                    .bytes()
+                    .inspect_err(|e| eprintln!("Error downloading image {img_path:?}: {e}"))
+                else {
+                    image_failed.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
+                    return None;
+                };
+                let Ok(img) = image::load_from_memory(&bytes).inspect_err(|e| {
                     eprintln!("Error loading image {img_path:?}: {e}");
                 }) else {
+                    image_failed.fetch_add(1, std::sync::atomic::Ordering::Relaxed);
                     return None;
                 };
 
@@ -212,6 +228,12 @@ pub fn download_images(
     let image_count = image_count.load(std::sync::atomic::Ordering::Relaxed);
     let image_skipped = image_skipped.load(std::sync::atomic::Ordering::Relaxed);
     println!("{image_count} images downloaded ({image_skipped} skipped)");
+    let image_failed = image_failed.load(std::sync::atomic::Ordering::Relaxed);
+    if image_failed > 0 {
+        warn_skipped(&format!(
+            "{image_failed} {language:?} images couldn't be downloaded, their cards keep their stored image"
+        ));
+    }
 }
 
 pub fn prepare_en_proxy_images(
