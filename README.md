@@ -252,6 +252,15 @@ over the artwork. The grids are not stored: the CLI makes them from the saved im
 when it needs them and keeps them for the rest of the run, so official images must be
 in the assets directory. The grid of an older hash (`G=..`) is dropped when the asset
 database is loaded.
+Each illustration also has an `img_placeholder`: a blurred preview of the same saved
+image to show while the image loads, as a 54-character CardHash (the `cardhash` crate,
+re-exported by the model crate, decodes it). CardHash is like
+[BlurHash](https://blurha.sh), but made for cards: it stores the average color, then the
+difference from the mean card as components of a basis learned from the card images, so it
+is a quarter smaller than a 5x7 BlurHash and much closer to the image. Its tables are fitted
+with `cargo run --release -p hocg-fan-sim-assets-cardhash --example fit_tables -- assets`;
+fitting them again makes a new version of the format. Every run makes the placeholders
+again from the saved images, reusing the ones already decoded.
 Unreleased images (samples, sheet crops, scans), and official images that are missing,
 are compared with the tolerant perceptual hash distance, which is also used to match
 images from other sources. The only per-card exception is `SAME_ACROSS_LANGUAGES` in

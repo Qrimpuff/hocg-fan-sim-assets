@@ -5,6 +5,7 @@ version.workspace = true
 autotests = false
 
 [dependencies]
+hocg-fan-sim-assets-cardhash = { workspace = true }
 image_hasher = { workspace = true }
 serde = { workspace = true }
 

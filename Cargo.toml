@@ -1,5 +1,5 @@
 [workspace]
-members = ["model", "cli"]
+members = ["cardhash", "model", "cli"]
 resolver = "3"
 
 
@@ -8,6 +8,7 @@ version = "0.1.0"
 edition = "2024"
 
 [workspace.dependencies]
+hocg-fan-sim-assets-cardhash = { path = "cardhash", version = "*" }
 hocg-fan-sim-assets-cli = { path = "cli", version = "*" }
 hocg-fan-sim-assets-model = { path = "model", version = "*" }
 base64 = "0.22.1"
@@ -19,6 +20,7 @@ image_hasher = "3.1.1"
 indexmap = "2.14.2"
 itertools = "0.15.0"
 json-pretty-compact = "0.1.2"
+nalgebra = "0.33.2"
 oxipng = "10.2.1"
 palette = "0.7.7"
 parking_lot = "0.13.0"

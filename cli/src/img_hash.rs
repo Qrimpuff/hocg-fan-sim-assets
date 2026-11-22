@@ -19,7 +19,8 @@
 //! the tolerant [`dist_hash`] instead.
 //!
 //! Grids are not stored in the hash: [`ImageGrids`] makes them from the saved images when
-//! they are needed, and keeps them for the rest of the run.
+//! they are needed, and keeps them for the rest of the run. It also makes the placeholders
+//! of the images ([`to_placeholder`]), stored next to the hash as a preview of the image.
 
 use std::{
     collections::HashMap,
@@ -30,7 +31,7 @@ use std::{
 };
 
 pub use hocg_fan_sim_assets_model::dist_hash;
-use hocg_fan_sim_assets_model::{CardIllustration, Language};
+use hocg_fan_sim_assets_model::{CardIllustration, Language, cardhash};
 use image::{GrayImage, RgbImage, imageops};
 use image_hasher::HasherConfig;
 use itertools::Itertools;
@@ -154,14 +155,31 @@ pub struct IllustrationGrid {
     pub grid: Grid,
 }
 
-/// Makes the grids of the saved images of illustrations when they are needed, and keeps
-/// them for the rest of the run. A grid is made again when its image file changes.
+/// What is kept of a decoded image.
+#[derive(Debug, Clone)]
+struct ImageSummary {
+    grid: Grid,
+    placeholder: Arc<str>,
+}
+
+impl ImageSummary {
+    fn of(img: &RgbImage) -> Self {
+        Self {
+            grid: Grid::of(img),
+            placeholder: to_placeholder(img).into(),
+        }
+    }
+}
+
+/// Makes the grids and placeholders of the saved images of illustrations when they are
+/// needed, and keeps them for the rest of the run. They are made again when the image file
+/// changes.
 pub struct ImageGrids {
     images_jp_path: PathBuf,
     images_en_path: PathBuf,
-    /// by image path: the modification time of the file, and its grid (`None` if it cannot
-    /// be decoded)
-    grids: Mutex<HashMap<PathBuf, (SystemTime, Option<Grid>)>>,
+    /// by image path: the modification time of the file, and its summary (`None` if it
+    /// cannot be decoded)
+    images: Mutex<HashMap<PathBuf, (SystemTime, Option<ImageSummary>)>>,
 }
 
 impl ImageGrids {
@@ -169,7 +187,7 @@ impl ImageGrids {
         Self {
             images_jp_path: images_jp_path.to_owned(),
             images_en_path: images_en_path.to_owned(),
-            grids: Default::default(),
+            images: Default::default(),
         }
     }
 
@@ -193,34 +211,49 @@ impl ImageGrids {
     /// The grid of an illustration, `None` if its image is missing or cannot be decoded.
     pub fn grid(&self, illust: &CardIllustration) -> Option<IllustrationGrid> {
         let (language, path) = self.image_of(illust)?;
-        let grid = self.grid_at(&path)?;
+        let grid = self.summary_at(&path)?.grid;
         Some(IllustrationGrid { language, grid })
     }
 
-    fn grid_at(&self, path: &Path) -> Option<Grid> {
-        let modified = fs::metadata(path).and_then(|m| m.modified()).ok()?;
-        if let Some((time, grid)) = self.grids.lock().get(path)
-            && *time == modified
-        {
-            return grid.clone();
-        }
-        // decoded without the lock, so that images can be decoded in parallel
-        let grid = image::open(path).ok().map(|img| Grid::of(&img.into_rgb8()));
-        self.grids
-            .lock()
-            .insert(path.to_owned(), (modified, grid.clone()));
-        grid
+    /// The placeholder of the image of an illustration (the image its grid is made from, see
+    /// [`Self::image_of`]), `None` if its image is missing or cannot be decoded.
+    pub fn placeholder(&self, illust: &CardIllustration) -> Option<String> {
+        let (_, path) = self.image_of(illust)?;
+        Some(self.summary_at(&path)?.placeholder.to_string())
     }
 
-    /// Keeps the grid of an image file that was just decoded for another reason (e.g. to
-    /// hash it), so that it is not decoded again.
+    fn summary_at(&self, path: &Path) -> Option<ImageSummary> {
+        let modified = fs::metadata(path).and_then(|m| m.modified()).ok()?;
+        if let Some((time, summary)) = self.images.lock().get(path)
+            && *time == modified
+        {
+            return summary.clone();
+        }
+        // decoded without the lock, so that images can be decoded in parallel
+        let summary = image::open(path)
+            .ok()
+            .map(|img| ImageSummary::of(&img.into_rgb8()));
+        self.images
+            .lock()
+            .insert(path.to_owned(), (modified, summary.clone()));
+        summary
+    }
+
+    /// Keeps the grid and placeholder of an image file that was just decoded for another
+    /// reason (e.g. to hash it), so that it is not decoded again.
     pub fn remember(&self, path: &Path, img: &RgbImage) {
         if let Ok(modified) = fs::metadata(path).and_then(|m| m.modified()) {
-            self.grids
+            self.images
                 .lock()
-                .insert(path.to_owned(), (modified, Some(Grid::of(img))));
+                .insert(path.to_owned(), (modified, Some(ImageSummary::of(img))));
         }
     }
+}
+
+/// The placeholder of a card image: a short string ([`cardhash`]) that decodes to a blurred
+/// preview of the card.
+pub fn to_placeholder(img: &RgbImage) -> String {
+    cardhash::encode(img.as_raw(), img.width(), img.height())
 }
 
 /// Removes the grid (`G`) from a hash: older hashes have one, grids are now made from the
@@ -499,11 +532,20 @@ mod tests {
         assert_eq!(red.language, Language::Japanese);
         assert_eq!(red.grid, Grid::of(&solid([200, 10, 10])));
 
-        // the image is replaced: its grid is made again
+        assert_eq!(
+            grids.placeholder(&illust).unwrap(),
+            to_placeholder(&solid([200, 10, 10]))
+        );
+
+        // the image is replaced: its grid and placeholder are made again
         save(&path, &solid([10, 10, 200]), time + Duration::from_secs(1));
         assert_eq!(
             grids.grid(&illust).unwrap().grid,
             Grid::of(&solid([10, 10, 200]))
+        );
+        assert_eq!(
+            grids.placeholder(&illust).unwrap(),
+            to_placeholder(&solid([10, 10, 200]))
         );
     }
 

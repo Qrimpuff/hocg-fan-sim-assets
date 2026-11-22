@@ -412,6 +412,9 @@ fn main() {
         );
     }
 
+    // previews of the images, once they are all saved
+    update_placeholders(&mut all_cards, &image_grids);
+
     // save file
     if let Some(parent) = Path::new(&card_mapping_file).parent() {
         fs::create_dir_all(parent).unwrap();
@@ -845,10 +848,24 @@ fn rebuild_image_hashes(all_cards: &mut CardsDatabase, grids: &ImageGrids) -> Re
     Ok(())
 }
 
+/// Sets the placeholder of every illustration from its saved image (see
+/// [`ImageGrids::image_of`]), or clears it when there is none. It is made again on every run,
+/// so it follows the images whichever step changed them; images already decoded during the
+/// run are not decoded again.
+fn update_placeholders(all_cards: &mut CardsDatabase, grids: &ImageGrids) {
+    all_cards
+        .values_mut()
+        .flat_map(|card| card.illustrations.iter_mut())
+        .collect_vec()
+        .into_par_iter()
+        .for_each(|illust| illust.img_placeholder = grids.placeholder(illust).unwrap_or_default());
+}
+
 #[cfg(test)]
 mod image_similarity_tests {
     use super::*;
     use hocg::{Card, CardIllustration, CardRarity, Localized};
+    use hocg_fan_sim_assets_cli::img_hash::to_placeholder;
 
     fn card_with_images() -> CardsDatabase {
         let illustrations = [
@@ -896,6 +913,25 @@ mod image_similarity_tests {
             illustrations[1].similarity_index
         );
         assert!(!is_similar(&illustrations[0], &illustrations[1], &grids));
+    }
+
+    #[test]
+    fn placeholders_come_from_the_saved_images() {
+        let mut cards = card_with_images();
+        let images = test_images();
+        let grids = ImageGrids::new(&images, &images);
+        cards.get_mut("hBP09-105").unwrap().illustrations[1]
+            .img_path
+            .japanese = Some("missing-image.webp".to_owned());
+        cards.get_mut("hBP09-105").unwrap().illustrations[1].img_placeholder = "stale".to_owned();
+        update_placeholders(&mut cards, &grids);
+        let illustrations = &cards["hBP09-105"].illustrations;
+        let image = image::open(images.join("hBP09-105_U.webp"))
+            .unwrap()
+            .into_rgb8();
+        assert_eq!(illustrations[0].img_placeholder, to_placeholder(&image));
+        // no saved image, no preview
+        assert_eq!(illustrations[1].img_placeholder, "");
     }
 
     #[test]

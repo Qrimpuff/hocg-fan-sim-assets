@@ -10,6 +10,8 @@ use serde::ser::SerializeStruct;
 use serde::{Deserialize, Serialize, Serializer};
 
 pub use crate::img_hash::dist_hash;
+/// Previews of card images: see [`CardIllustration::img_placeholder`].
+pub use hocg_fan_sim_assets_cardhash as cardhash;
 
 pub type CardsDatabase = BTreeMap<String, Card>;
 
@@ -629,6 +631,12 @@ pub struct CardIllustration {
     pub img_last_modified: Localized<String>,
     #[serde(skip_serializing_if = "is_default")]
     pub img_hash: String,
+    /// A blurred preview of the saved image of this illustration, to show while the image
+    /// loads: a 54-character [`cardhash`] string, decoded with [`cardhash::decode`]. Made from
+    /// the image the hash comes from for an official illustration, otherwise from the saved
+    /// image, the Japanese one first. Empty when there is no saved image.
+    #[serde(skip_serializing_if = "is_default")]
+    pub img_placeholder: String,
     pub ogbajoj_sheet_cells: Option<BTreeSet<(SheetId, SheetCell)>>,
     #[serde(skip_serializing_if = "is_default")]
     pub similarity_index: u32,

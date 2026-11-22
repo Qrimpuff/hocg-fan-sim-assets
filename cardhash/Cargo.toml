@@ -1,0 +1,13 @@
+[package]
+name = "hocg-fan-sim-assets-cardhash"
+description = "Short strings that decode to a blurred preview of a card image"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+
+[dev-dependencies]
+image = { workspace = true }
+rayon = { workspace = true }
+walkdir = { workspace = true }
+nalgebra = { workspace = true }
