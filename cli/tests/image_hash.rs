@@ -3,13 +3,11 @@ use std::fs;
 use std::path::Path;
 use std::path::PathBuf;
 
-use hocg_fan_sim_assets_model::{
-    CardIllustration, CardRarity, CardsDatabase, Language,
-    img_hash::{
-        DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, dist_hash, hash_image_language,
-        is_similar, path_to_image_hash,
-    },
+use hocg_fan_sim_assets_cli::img_hash::{
+    DIST_TOLERANCE_DIFF_RARITY, DIST_TOLERANCE_SAME_RARITY, ImageGrids, dist_hash,
+    hash_image_language, is_similar, path_to_image_hash,
 };
+use hocg_fan_sim_assets_model::{CardIllustration, CardRarity, CardsDatabase, Language};
 
 #[ignore]
 #[test]
@@ -164,6 +162,7 @@ fn test_similarity_index_matches_stored() {
     }
 
     // rebuild groups the same way update_similarity_index does, then compare partitions
+    let grids = ImageGrids::new(&assets_path.join("img"), &assets_path.join("img_en"));
     let mut pair_count = 0usize;
     let mut mismatches = Vec::new();
     for card in all_cards.values() {
@@ -175,7 +174,7 @@ fn test_similarity_index_matches_stored() {
                 continue;
             }
             for j in 0..i {
-                if groups[j] != 0 && is_similar(&ills[i], &ills[j]) {
+                if groups[j] != 0 && is_similar(&ills[i], &ills[j], &grids) {
                     groups[i] = groups[j];
                     break;
                 }
@@ -246,11 +245,14 @@ const UNRELEASED_FIXTURES: &[&str] = &[
     "hBP04-009_P_b.webp",
 ];
 
-fn fixture_illustration(card_number: &str, file: &str, rarity: CardRarity) -> CardIllustration {
-    let path = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+fn card_images() -> PathBuf {
+    PathBuf::from(env!("CARGO_MANIFEST_DIR"))
         .join("tests")
         .join("card_images")
-        .join(file);
+}
+
+fn fixture_illustration(card_number: &str, file: &str, rarity: CardRarity) -> CardIllustration {
+    let path = card_images().join(file);
     let language = if file.starts_with("EN_") {
         Language::English
     } else {
@@ -262,6 +264,7 @@ fn fixture_illustration(card_number: &str, file: &str, rarity: CardRarity) -> Ca
         img_hash: path_to_image_hash(&path, Some(language)),
         ..Default::default()
     };
+    *illustration.img_path.value_mut(language) = Some(file.to_owned());
     if !UNRELEASED_FIXTURES.contains(&file) {
         *illustration.manage_id.value_mut(language) = Some(BTreeSet::from([1]));
     }
@@ -286,8 +289,9 @@ macro_rules! image_hash_tests {
                 },
             );
             let dist = dist_hash(&a.img_hash, &b.img_hash);
+            let grids = ImageGrids::new(&card_images(), &card_images());
             assert_eq!(
-                is_similar(&a, &b),
+                is_similar(&a, &b, &grids),
                 $expected_similar,
                 "is_similar (distance {dist})"
             );

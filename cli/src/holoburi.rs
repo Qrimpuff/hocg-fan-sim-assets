@@ -1,9 +1,7 @@
 use std::collections::BTreeMap;
 
-use hocg_fan_sim_assets_model::{
-    CardRarity, CardsDatabase,
-    img_hash::{dist_hash, to_image_hash},
-};
+use crate::img_hash::{ImageGrids, dist_hash, to_image_hash};
+use hocg_fan_sim_assets_model::{CardRarity, CardsDatabase};
 use image::{ImageFormat, RgbImage};
 use itertools::Itertools;
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
@@ -16,7 +14,7 @@ const HOLOBURI_CARDS_URL: &str = "https://holoburi.com/cards/";
 // card number -> art keys, e.g. "hBP02-033" -> ["SR", "SR_2"]
 type HoloburiRarities = BTreeMap<String, Vec<String>>;
 
-pub fn import_holoburi(all_cards: &mut CardsDatabase) {
+pub fn import_holoburi(all_cards: &mut CardsDatabase, grids: &ImageGrids) {
     println!("Importing holoBuri art keys...");
 
     let Some(rarities) = fetch_rarities() else {
@@ -81,7 +79,7 @@ pub fn import_holoburi(all_cards: &mut CardsDatabase) {
         }
 
         // to handle multiple illustrations with the same image
-        let mut matches = SharedImageMatches::default();
+        let mut matches = SharedImageMatches::new(grids);
         for (art_key, idx, dist) in dists {
             let illust = &mut card.illustrations[idx];
             if illust.holoburi_art_key.is_none() && matches.accept(art_key, illust, dist) {

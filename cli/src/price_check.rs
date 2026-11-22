@@ -4,10 +4,8 @@ use std::{
     time::Duration,
 };
 
-use hocg_fan_sim_assets_model::{
-    CardIllustration, CardRarity, CardsDatabase, Language,
-    img_hash::{dist_hash, to_image_hash},
-};
+use crate::img_hash::{ImageGrids, dist_hash, to_image_hash};
+use hocg_fan_sim_assets_model::{CardIllustration, CardRarity, CardsDatabase, Language};
 use image::DynamicImage;
 use indexmap::IndexMap;
 use itertools::Itertools;
@@ -30,7 +28,7 @@ const FIXED_YUYUTEI_LISTINGS: &[(&str, &str)] = &[
     ("/hocg/card/promo-hbp10/10019", "hPR/hBP02-028_P_2.webp"),
 ];
 
-pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
+pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode, grids: &ImageGrids) {
     println!(
         "Scraping Yuyutei urls... ({})",
         if mode == PriceCheckMode::Images {
@@ -396,7 +394,7 @@ pub fn yuyutei(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
                         // modify the cards here, to avoid borrowing issue
                         // to handle multiple cards with the same image
-                        let mut matches = SharedImageMatches::default();
+                        let mut matches = SharedImageMatches::new(grids);
                         for (url, illust, dist) in dists {
                             let mut illust = illust.lock();
                             if matches.accept(url.clone(), &illust, dist) {
@@ -543,7 +541,7 @@ impl TcgPlayerProduct {
     }
 }
 
-pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
+pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode, grids: &ImageGrids) {
     println!(
         "Scraping TCGplayer product ids... ({})",
         if mode == PriceCheckMode::Images {
@@ -867,7 +865,7 @@ pub fn tcgplayer(all_cards: &mut CardsDatabase, mode: PriceCheckMode) {
 
                         // modify the cards here, to avoid borrowing issue
                         // to handle multiple cards with the same image
-                        let mut matches = SharedImageMatches::default();
+                        let mut matches = SharedImageMatches::new(grids);
                         for (product_id, illust, dist) in dists {
                             let mut illust = illust.lock();
                             if matches.accept(product_id, &illust, dist) {

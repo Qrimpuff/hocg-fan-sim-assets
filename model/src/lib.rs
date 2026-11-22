@@ -1,4 +1,4 @@
-pub mod img_hash;
+mod img_hash;
 
 use std::cmp::Reverse;
 use std::collections::{BTreeMap, BTreeSet};
@@ -9,7 +9,7 @@ use std::{cmp::Ordering, num::ParseIntError};
 use serde::ser::SerializeStruct;
 use serde::{Deserialize, Serialize, Serializer};
 
-use crate::img_hash::{DIST_TOLERANCE_DIFF_RARITY, dist_hash};
+pub use crate::img_hash::dist_hash;
 
 pub type CardsDatabase = BTreeMap<String, Card>;
 
@@ -467,6 +467,9 @@ impl CardReference {
                     && illust.holoburi_art_key.as_deref() == Some(art_key.as_str())
             }),
             IllustrationId::ImageHash(hash) => {
+                // a rarity mismatch weighs as much as an image distance of 100 (distances
+                // are ranked x10), the CLI's tolerance between rarities
+                const RARITY_MISMATCH_RANK: u64 = 1000;
                 // find the most likely match by image hash, but also check rarity to avoid mismatches
                 let mut dists: Vec<_> = illustrations
                     .iter()
@@ -480,11 +483,10 @@ impl CardReference {
 
                 // sort by best dist
                 dists.sort_by_cached_key(|(illust, dist, idx)| {
-                    let rarity = &illust.rarity;
                     let dist = *dist;
                     // have rarity and release date influence the matching
-                    let rarity_rank = if *rarity != illust.rarity {
-                        DIST_TOLERANCE_DIFF_RARITY * 10
+                    let rarity_rank = if illust.rarity != self.rarity {
+                        RARITY_MISMATCH_RANK
                     } else {
                         0
                     };
@@ -1445,6 +1447,41 @@ mod tests {
             card_type,
             ..Default::default()
         }
+    }
+
+    #[test]
+    fn image_hash_reference_prefers_its_rarity() {
+        // a valid perceptual hash, shared by both prints of the same artwork
+        let hash = "v2|H32=Uq2rEtSqKHWrYtRzqkxrnfVaVK0rZ5XivFIrrWES1IhqFZLtVKosmqpULZqqV62KcnirZJJFmyxGk2pVcLhSlY6HUlU|CYM=0C0F1C";
+        let illustrations: Vec<_> = [CardRarity::Common, CardRarity::Promo]
+            .into_iter()
+            .map(|rarity| CardIllustration {
+                card_number: "hBP01-001".to_owned(),
+                rarity,
+                img_hash: hash.to_owned(),
+                ..Default::default()
+            })
+            .collect();
+        let db: CardsDatabase = [(
+            "hBP01-001".to_owned(),
+            Card {
+                card_number: "hBP01-001".to_owned(),
+                illustrations,
+                ..Default::default()
+            },
+        )]
+        .into_iter()
+        .collect();
+
+        let reference = CardReference {
+            card_number: "hBP01-001".to_owned(),
+            rarity: CardRarity::Promo,
+            id: IllustrationId::ImageHash(hash.to_owned()),
+        };
+        assert_eq!(
+            reference.find_in(&db).map(|illust| &illust.rarity),
+            Some(&CardRarity::Promo)
+        );
     }
 
     #[test]

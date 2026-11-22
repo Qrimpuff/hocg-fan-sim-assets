@@ -2,10 +2,8 @@ use std::collections::{BTreeSet, HashMap, HashSet};
 use std::fs;
 use std::path::{Component, Path, PathBuf};
 
-use hocg_fan_sim_assets_model::{
-    CardIllustration, CardRarity, Language,
-    img_hash::{dist_hash, is_similar, to_image_hash},
-};
+use hocg_fan_sim_assets_cli::img_hash::{ImageGrids, dist_hash, is_similar, to_image_hash};
+use hocg_fan_sim_assets_model::{CardIllustration, CardRarity, Language};
 use serde::Deserialize;
 use sha2::{Digest, Sha256};
 
@@ -122,6 +120,7 @@ fn evaluate_reviews(
     assets: &Path,
     approvals: &[Approval],
 ) -> Result<Evaluation, String> {
+    let grids = ImageGrids::new(&assets.join("img"), &assets.join("img_en"));
     if file.version != 2 {
         return Err(format!(
             "unsupported review version: {} (expected 2)",
@@ -180,14 +179,17 @@ fn evaluate_reviews(
                 continue;
             }
             let image = image::open(&path)
-                .map_err(|e| format!("failed to open {}: {e}", path.display()))?;
+                .map_err(|e| format!("failed to open {}: {e}", path.display()))?
+                .into_rgb8();
+            grids.remember(&path, &image);
             let language = item.language.to_language();
             let mut illustration = CardIllustration {
                 card_number: card.card_number.clone(),
                 rarity: CardRarity::from(item.rarity.clone()),
-                img_hash: to_image_hash(&image.into_rgb8(), Some(language)),
+                img_hash: to_image_hash(&image, Some(language)),
                 ..Default::default()
             };
+            *illustration.img_path.value_mut(language) = Some(item.path[prefix.len()..].to_owned());
             // unreleased images are stored in an "unreleased" folder and have no manage_id
             if !item.path.split('/').any(|part| part == "unreleased") {
                 *illustration.manage_id.value_mut(language) = Some(BTreeSet::from([1]));
@@ -198,7 +200,7 @@ fn evaluate_reviews(
             for (item_b, b) in &illustrations[x + 1..] {
                 result.pairs += 1;
                 let expected = item_a.group == item_b.group;
-                let actual = is_similar(a, b);
+                let actual = is_similar(a, b, &grids);
                 if actual == expected {
                     continue;
                 }

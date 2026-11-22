@@ -3,10 +3,8 @@ use std::fs;
 use std::io::Write;
 use std::path::{Path, PathBuf};
 
-use hocg_fan_sim_assets_model::{
-    CardIllustration, CardsDatabase, Language,
-    img_hash::{dist_hash, is_similar, path_to_image_hash},
-};
+use hocg_fan_sim_assets_cli::img_hash::{ImageGrids, dist_hash, is_similar, path_to_image_hash};
+use hocg_fan_sim_assets_model::{CardIllustration, CardsDatabase, Language, Localized};
 use image::{RgbImage, imageops::FilterType};
 
 use super::pixel_reviews::{resolve_asset, sha256_file};
@@ -270,6 +268,7 @@ fn test_pixel_same_card_pairs() {
         .unwrap_or_else(|e| panic!("failed to read {}: {}", cards_json_path.display(), e));
     let all_cards: CardsDatabase = serde_json::from_str(&s).unwrap();
     let mut cache: HashMap<PathBuf, Pixels> = HashMap::new();
+    let grids = ImageGrids::new(&assets_path.join("img"), &assets_path.join("img_en"));
     let mut hash_disagreements = 0;
     let mut rows: Vec<(String, PixelVerdict, f64, String)> = Vec::new();
     let mut missing = Vec::new();
@@ -282,14 +281,14 @@ fn test_pixel_same_card_pairs() {
                 (Language::Japanese, "img", "JP"),
                 (Language::English, "img_en", "EN"),
             ] {
-                let Some(path) = illust.img_path.value(language) else {
+                let Some(relative_path) = illust.img_path.value(language) else {
                     continue;
                 };
-                if is_proxy_image(path) {
+                if is_proxy_image(relative_path) {
                     skipped_proxies += 1;
                     continue;
                 }
-                let path = assets_path.join(dir).join(path);
+                let path = assets_path.join(dir).join(relative_path);
                 if !path.is_file() {
                     missing.push(path);
                     continue;
@@ -297,7 +296,9 @@ fn test_pixel_same_card_pairs() {
                 cache
                     .entry(path.clone())
                     .or_insert_with(|| load_pixels(&path));
+                // only this image, that the grid is made from
                 let mut illustration = illust.clone();
+                illustration.img_path = Localized::new(language, relative_path.clone());
                 illustration.img_hash = path_to_image_hash(&path, Some(language));
                 images.push(ImageEntry {
                     illustration,
@@ -313,7 +314,7 @@ fn test_pixel_same_card_pairs() {
                 let a = &images[x];
                 let b = &images[y];
                 let stats = best_shift(&cache[&a.path], &cache[&b.path]);
-                let hash_similar = is_similar(&a.illustration, &b.illustration);
+                let hash_similar = is_similar(&a.illustration, &b.illustration, &grids);
                 let same_illustration = a.illustration_index == b.illustration_index;
                 let same_language = a.language == b.language;
                 let verdict = stats.verdict(same_language);

@@ -1,9 +1,7 @@
 use std::{collections::HashMap, fs::File, io::BufReader, path::Path, sync::Arc};
 
-use hocg_fan_sim_assets_model::{
-    BloomLevel, CardType, CardsDatabase, Color, SupportType,
-    img_hash::{dist_hash, to_image_hash},
-};
+use crate::img_hash::{ImageGrids, dist_hash, to_image_hash};
+use hocg_fan_sim_assets_model::{BloomLevel, CardType, CardsDatabase, Color, SupportType};
 use itertools::Itertools;
 use parking_lot::Mutex;
 use rayon::iter::{IntoParallelIterator, IntoParallelRefMutIterator, ParallelIterator};
@@ -11,7 +9,11 @@ use serde::{Deserialize, Serialize};
 
 use crate::{DEBUG, utils::SharedImageMatches};
 
-pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
+pub fn import_holodelta_db(
+    all_cards: &mut CardsDatabase,
+    holodelta_path: &Path,
+    grids: &ImageGrids,
+) {
     println!("Importing holoDelta db images...");
 
     let conn = rusqlite::Connection::open(holodelta_path).unwrap();
@@ -115,7 +117,7 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
 
             // modify the cards here, to avoid borrowing issue
             // to handle multiple cards with the same image
-            let mut matches = SharedImageMatches::default();
+            let mut matches = SharedImageMatches::new(grids);
             for (delta_art_index, card, dist) in dists {
                 let mut card = card.lock();
                 if card.delta_art_index.is_none() && matches.accept(delta_art_index, &card, dist) {
@@ -146,7 +148,7 @@ pub fn import_holodelta_db(all_cards: &mut CardsDatabase, holodelta_path: &Path)
     println!("Updated {updated_count} hOCG cards");
 }
 
-pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
+pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path, grids: &ImageGrids) {
     println!("Importing holoDelta repository images...");
 
     let card_data_path = holodelta_path.join("cardData.json");
@@ -262,7 +264,7 @@ pub fn import_holodelta(all_cards: &mut CardsDatabase, holodelta_path: &Path) {
 
             // modify the cards here, to avoid borrowing issue
             // to handle multiple cards with the same image
-            let mut matches = SharedImageMatches::default();
+            let mut matches = SharedImageMatches::new(grids);
             for (delta_art_index, card, dist) in dists {
                 let mut card = card.lock();
                 if card.delta_art_index.is_none() && matches.accept(delta_art_index, &card, dist) {
