@@ -74106,6 +74106,52 @@
       }
     ]
   },
+  "hBP10-019": {
+    "card_number": "hBP10-019",
+    "name": { "jp": "轟はじめ", "en": "Todoroki Hajime" },
+    "card_type": "holomem",
+    "colors": [ "white" ],
+    "hp": 210,
+    "bloom_level": "second",
+    "keywords": [
+      {
+        "type": "gift",
+        "name": { "jp": null, "en": "Run, Lightning of Youth!" },
+        "text": { "en": "During your turn, your center holomem requires -2 colorless for its baton pass." }
+      }
+    ],
+    "arts": [
+      {
+        "cheers": [ "white", "white", "colorless" ],
+        "name": { "jp": null, "en": "Overflowing Youthful Power" },
+        "power": "130",
+        "advantage": [ "red", 50 ],
+        "text": {
+          "en": "If your opponent's holomem is downed by this Arts, and the dealt damage was 300 or more, put the top 4 cards of your deck as holo Power."
+        }
+      }
+    ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#ReGLOSS" }, { "en": "#Baby" } ],
+    "baton_pass": [ "colorless", "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-019",
+        "manage_id": { },
+        "rarity": "R",
+        "illustrator": null,
+        "products": { "jp": [ "hBP10" ] },
+        "img_path": { "jp": "unreleased/hBP10-019_R.webp", "en": null },
+        "img_hash": "v3|H32=UvSXKHDKhHFoSqxSrUgdR6WMX2WtrMu6KG3LtUtrQh2LR5Zqm06qNbRmNZV0sWmqaiWlliVdVLVg2emq0tLUVHat8so|CYM=041833|L=JP",
+        "img_placeholder": "1cX2Hcg5mcG4xze2Y4h4aXlMc0birrTkjrbtamWqqqimbZWiia2VF2",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C21" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-021": {
     "card_number": "hBP10-021",
     "name": { "jp": "アユンダ・リス", "en": "Ayunda Risu" },
