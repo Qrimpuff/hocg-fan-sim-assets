@@ -76141,6 +76141,44 @@
       }
     ]
   },
+  "hBP10-082": {
+    "card_number": "hBP10-082",
+    "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
+    "card_type": "holomem",
+    "colors": [ "yellow" ],
+    "hp": 120,
+    "bloom_level": "debut",
+    "keywords": [
+      {
+        "type": "collab",
+        "name": { "jp": null, "en": "I Want to Connect with Tigers" },
+        "text": {
+          "en": "If your Oshi holomem is <Koganei Niko>, you may archive the top card of your cheer deck: Draw 1 card."
+        }
+      }
+    ],
+    "arts": [ { "cheers": [ "colorless" ], "name": { "jp": null, "en": "Tiger Life" }, "power": "30" } ],
+    "tags": [ { "en": "#DEV_IS" }, { "en": "#FLOW GLOW" } ],
+    "baton_pass": [ "colorless" ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-082",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "products": { "jp": [ "hBP10" ] },
+        "img_path": { "jp": "unreleased/hBP10-082_C.webp", "en": null },
+        "img_hash": "v3|H32=bqvNqu27vZqNkimbi6Ajr8vpciVadXJVUld8RTLatGy0qlRVVVT5oqrxq5Ktq1W1SQup2qrSiqouW1RpTqtKq9IqkjQ|CYM=0E131F|L=JP",
+        "img_placeholder": "1gHuAxUbR8Zy_Klid5YHR_LSUhhlMka8UtWh3YS_QqSdVliZWZn7lV",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C84" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-083": {
     "card_number": "hBP10-083",
     "name": { "jp": "虎金妃笑虎", "en": "Koganei Niko" },
