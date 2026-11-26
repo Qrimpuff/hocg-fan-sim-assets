@@ -76460,6 +76460,33 @@
       }
     ]
   },
+  "hBP10-094": {
+    "card_number": "hBP10-094",
+    "name": { "jp": "儒烏風亭らでんの美術館巡り", "en": "Juufuutei Raden's Art Museum Tour" },
+    "card_type": { "support": "event" },
+    "text": {
+      "en": "This card can only be used if your Oshi holomem is <Juufuutei Raden>.\n\nPut the top card of your deck as holo Power.\nYou may only use <Juufuutei Raden's Art Museum Tour> once per turn."
+    },
+    "tags": [ { "en": "#Culture" } ],
+    "max_amount": { "jp": 4 },
+    "illustrations": [
+      {
+        "card_number": "hBP10-094",
+        "manage_id": { },
+        "rarity": "C",
+        "illustrator": null,
+        "products": { "jp": [ "hBP10" ] },
+        "img_path": { "jp": "unreleased/hBP10-094_C.webp", "en": null },
+        "img_hash": "v3|H32=pNqtiqWWoJTjpVClQqVarRurXKsbq1q1GrJeMp86nlquWhbVB6QvqgA86arwOOGq/g+pOv7D6aqqSuno4HvpCvDw6MA|CYM=061828|L=JP",
+        "img_placeholder": "1gHuGPYgq1aK23Z7hkuaeFUTbljqiskcSSlmpUWaVlromWlXqXmall",
+        "ogbajoj_sheet_cells": [ [ 505534664, "C96" ] ],
+        "similarity_index": 1,
+        "yuyutei_sell_paths": null,
+        "tcgplayer_product_ids": null,
+        "delta_art_index": null
+      }
+    ]
+  },
   "hBP10-095": {
     "card_number": "hBP10-095",
     "name": { "jp": "チキン温め会場", "en": "Chicken Warming Station" },
